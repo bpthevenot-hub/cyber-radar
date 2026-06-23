@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-23T22:44:19.629Z",
+ "generatedAt": "2026-06-23T22:47:09.947Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "Flask-Security has an Open Redirect issue",
+    "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
+    "score": 4.7,
+    "ghsa": "GHSA-w2j7-f3c6-g8cw",
+    "date": "2026-06-23T22:46:31Z"
+   },
+   {
     "title": "Snipe-IT's TOTP is Brute-Forceable Due to Missing Rate Limiting on `POST /two-factor`",
     "url": "https://github.com/advisories/GHSA-mr8g-2mj4-pcq2",
     "score": 5.9,
@@ -278,13 +285,6 @@
     "score": 6.4,
     "ghsa": "GHSA-3fc8-8hp6-6jr4",
     "date": "2026-06-23T21:57:49Z"
-   },
-   {
-    "title": "Filament: Timing-based user enumeration on login page",
-    "url": "https://github.com/advisories/GHSA-5w46-g9pq-wh6f",
-    "score": 5.3,
-    "ghsa": "GHSA-5w46-g9pq-wh6f",
-    "date": "2026-06-23T21:54:35Z"
    }
   ],
   "thn": [
