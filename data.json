@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-23T22:47:09.947Z",
+ "generatedAt": "2026-06-23T23:02:27.849Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "Snipe-IT Vulnerable to User Account Escalation via CSV Import",
+    "url": "https://github.com/advisories/GHSA-p68w-rgmg-3c2v",
+    "score": 6.5,
+    "ghsa": "GHSA-p68w-rgmg-3c2v",
+    "date": "2026-06-23T23:02:03Z"
+   },
+   {
     "title": "Flask-Security has an Open Redirect issue",
     "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
     "score": 4.7,
@@ -278,13 +285,6 @@
     "score": null,
     "ghsa": "GHSA-r6fj-869h-4f6q",
     "date": "2026-06-23T21:59:03Z"
-   },
-   {
-    "title": "Filament: Unvalidated ImageColumn and ImageEntry values can be used for XSS",
-    "url": "https://github.com/advisories/GHSA-3fc8-8hp6-6jr4",
-    "score": 6.4,
-    "ghsa": "GHSA-3fc8-8hp6-6jr4",
-    "date": "2026-06-23T21:57:49Z"
    }
   ],
   "thn": [
