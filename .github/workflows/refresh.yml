@@ -1,0 +1,40 @@
+name: 🛰️ Refresh cyber feeds
+
+on:
+  schedule:
+    - cron: '17 * * * *'      # toutes les heures (xx:17 UTC)
+  workflow_dispatch:           # déclenchement manuel
+  push:
+    branches: [main]
+    paths-ignore: ['data.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Agréger les sources cyber
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch.mjs
+      - name: Commit data.json si changé
+        run: |
+          git config user.name "cyber-radar-bot"
+          git config user.email "actions@github.com"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "🛰️ refresh feeds — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,0 +1,726 @@
+{
+ "generatedAt": "2026-06-23T22:43:00.491Z",
+ "sources": {
+  "cve": [
+   {
+    "title": "CVE-2026-11807 — A missing authorization vulnerability was found in the Event-Driven Ansible (EDA) websocket API. The /api/eda/ws/ansible-rulebook endpoint d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11807",
+    "score": 9.5,
+    "date": "2026-06-23T21:30:31Z"
+   },
+   {
+    "title": "CVE-2026-48126 — Algernon: Host header path traversal in --domain mode reads files and runs Lua from parent dir",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48126",
+    "score": 7.5,
+    "date": "2026-06-23T21:49:11Z"
+   },
+   {
+    "title": "CVE-2026-56120 — OpenRemote before 1.25.0 contains an insecure direct object reference (IDOR) vulnerability in the bulk alarm deletion endpoint that allows a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56120",
+    "score": 7.5,
+    "date": "2026-06-23T21:30:33Z"
+   },
+   {
+    "title": "CVE-2026-41862 — Spring Statemachine's Kryo-based persistence backends (JPA, MongoDB, Redis and ZooKeeper) deserialise persisted state-machine contexts witho",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41862",
+    "score": 7.5,
+    "date": "2026-06-23T21:30:32Z"
+   },
+   {
+    "title": "CVE-2026-39253 — An issue in Pivotal CRM v.6.6.04.08 allows a remote attacker to execute arbitrary code via the Pivotal.Core.Common.dll and Pivotal.Engine.Cl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39253",
+    "score": 7.5,
+    "date": "2026-06-23T21:30:31Z"
+   },
+   {
+    "title": "CVE-2026-12112 — A flaw was found in the foreman-mcp-server. A session management vulnerability in the MCP Server allows unauthenticated attackers to hijack ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12112",
+    "score": 7.5,
+    "date": "2026-06-23T21:30:31Z"
+   },
+   {
+    "title": "CVE-2026-54513 — jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54513",
+    "score": 7.5,
+    "date": "2026-06-23T21:22:15Z"
+   },
+   {
+    "title": "CVE-2026-54512 — jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54512",
+    "score": 7.5,
+    "date": "2026-06-23T21:21:38Z"
+   },
+   {
+    "title": "CVE-2026-44914 — Apache NiFi 1.12.0 through 2.9.0 are missing authorization when replacing Process Groups that include extension components with specific Req",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44914",
+    "score": 7.5,
+    "date": "2026-06-22T09:30:45Z"
+   },
+   {
+    "title": "CVE-2026-44604 — A command injection vulnerability was discovered in the `rpmuncompress` utility of RPM. When extracting certain archive formats (ZIP, 7z, GE",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44604",
+    "score": 7.5,
+    "date": "2026-05-28T09:31:18Z"
+   },
+   {
+    "title": "CVE-2026-45760 — Apache Camel K: Kubernetes namespace authorized users can create a Build resource",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45760",
+    "score": 7.5,
+    "date": "2026-05-21T15:34:09Z"
+   },
+   {
+    "title": "CVE-2026-4858 — Mattermost has a Path Traversal issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4858",
+    "score": 7.5,
+    "date": "2026-05-21T09:32:12Z"
+   },
+   {
+    "title": "CVE-2026-48480 — OHttpVersionChunkDraft: Missing Final-Chunk Enforcement Leads to Undetected Stream Truncation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48480",
+    "score": 5,
+    "date": "2026-06-23T21:59:03Z"
+   },
+   {
+    "title": "CVE-2026-48167 — Filament: Unvalidated ImageColumn and ImageEntry values can be used for XSS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48167",
+    "score": 5,
+    "date": "2026-06-23T21:57:49Z"
+   }
+  ],
+  "kev": [
+   {
+    "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-29583",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Zyxel",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2019-8394 — Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2019-8394",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Zoho",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2020-10189 — Zoho ManageEngine Desktop Central File Upload Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-10189",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Zoho",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2021-40539 — Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-40539",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Zoho",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2021-27561 — Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-27561",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Yealink",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2019-9978 — WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2019-9978",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "WordPress",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2020-11738 — WordPress Snap Creek Duplicator Plugin File Download Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-11738",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "WordPress",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2020-25213 — WordPress File Manager Plugin Remote Code Execution Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-25213",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "WordPress",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2020-4006 — Multiple VMware Products Command Injection Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-4006",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "VMware",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2021-21985 — VMware vCenter Server Improper Input Validation Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-21985",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "VMware",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2021-21972 — VMware vCenter Server Remote Code Execution Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-21972",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "VMware",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2020-3952 — VMware vCenter Server Information Disclosure Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-3952",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "VMware",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2021-22005 — VMware vCenter Server File Upload Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-22005",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "VMware",
+    "date": "2021-11-03"
+   },
+   {
+    "title": "CVE-2020-3950 — VMware Multiple Products Privilege Escalation Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2020-3950",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "VMware",
+    "date": "2021-11-03"
+   }
+  ],
+  "adv": [
+   {
+    "title": "Snipe-IT's TOTP is Brute-Forceable Due to Missing Rate Limiting on `POST /two-factor`",
+    "url": "https://github.com/advisories/GHSA-mr8g-2mj4-pcq2",
+    "score": 5.9,
+    "ghsa": "GHSA-mr8g-2mj4-pcq2",
+    "date": "2026-06-23T22:32:04Z"
+   },
+   {
+    "title": "phpMyFAQ: Missing userHasPermission() in 4 API write endpoints (CVE-2026-24421 Incomplete Fix)",
+    "url": "https://github.com/advisories/GHSA-8c6h-7g6x-m5x4",
+    "score": 6.5,
+    "ghsa": "GHSA-8c6h-7g6x-m5x4",
+    "date": "2026-06-23T22:27:34Z"
+   },
+   {
+    "title": "Snipe-IT: Bulk editing users allowed `ldap_import` and `activated_in` bulk editing users",
+    "url": "https://github.com/advisories/GHSA-6f75-x745-xcpr",
+    "score": 7.1,
+    "ghsa": "GHSA-6f75-x745-xcpr",
+    "date": "2026-06-23T22:24:59Z"
+   },
+   {
+    "title": "OpenTofu: Provider cache installation follows root-module-controlled package directory symlink and writes outside the working tree",
+    "url": "https://github.com/advisories/GHSA-wcmj-x466-56mm",
+    "score": 6.1,
+    "ghsa": "GHSA-wcmj-x466-56mm",
+    "date": "2026-06-23T22:23:01Z"
+   },
+   {
+    "title": "Filament: Unauthenticated temporary file upload on auth pages",
+    "url": "https://github.com/advisories/GHSA-44wp-g8f4-f4v5",
+    "score": 6.5,
+    "ghsa": "GHSA-44wp-g8f4-f4v5",
+    "date": "2026-06-23T22:16:58Z"
+   },
+   {
+    "title": "opentelemetry-ebpf-profiler: Unprivileged process can trigger a denial of service on the ebpf-profiler agent",
+    "url": "https://github.com/advisories/GHSA-f2r5-5m7w-p5cx",
+    "score": 6.2,
+    "ghsa": "GHSA-f2r5-5m7w-p5cx",
+    "date": "2026-06-23T22:16:14Z"
+   },
+   {
+    "title": "Snipe-IT Vulnerable to Privilege Escalation for self via API Permissions Assignment",
+    "url": "https://github.com/advisories/GHSA-52fw-7fw2-fmv5",
+    "score": 5.5,
+    "ghsa": "GHSA-52fw-7fw2-fmv5",
+    "date": "2026-06-23T22:12:11Z"
+   },
+   {
+    "title": "Snipe-IT's selectlist visibility is too permissive",
+    "url": "https://github.com/advisories/GHSA-f3c5-6cw8-fg57",
+    "score": null,
+    "ghsa": "GHSA-f3c5-6cw8-fg57",
+    "date": "2026-06-23T22:11:13Z"
+   },
+   {
+    "title": "phpMyFAQ has Weak Cryptography - SHA1 for Password Hashing",
+    "url": "https://github.com/advisories/GHSA-58fg-62fg-3fcj",
+    "score": 2,
+    "ghsa": "GHSA-58fg-62fg-3fcj",
+    "date": "2026-06-23T22:02:25Z"
+   },
+   {
+    "title": "OHttpVersionChunkDraft: Missing Final-Chunk Enforcement Leads to Undetected Stream Truncation",
+    "url": "https://github.com/advisories/GHSA-r6fj-869h-4f6q",
+    "score": null,
+    "ghsa": "GHSA-r6fj-869h-4f6q",
+    "date": "2026-06-23T21:59:03Z"
+   },
+   {
+    "title": "Filament: Unvalidated ImageColumn and ImageEntry values can be used for XSS",
+    "url": "https://github.com/advisories/GHSA-3fc8-8hp6-6jr4",
+    "score": 6.4,
+    "ghsa": "GHSA-3fc8-8hp6-6jr4",
+    "date": "2026-06-23T21:57:49Z"
+   },
+   {
+    "title": "Filament: Timing-based user enumeration on login page",
+    "url": "https://github.com/advisories/GHSA-5w46-g9pq-wh6f",
+    "score": 5.3,
+    "ghsa": "GHSA-5w46-g9pq-wh6f",
+    "date": "2026-06-23T21:54:35Z"
+   }
+  ],
+  "thn": [
+   {
+    "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+    "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+    "date": "Tue, 23 Jun 2026 23:50:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+    "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+    "date": "Tue, 23 Jun 2026 20:46:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
+    "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+    "date": "Tue, 23 Jun 2026 20:46:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+    "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+    "date": "Tue, 23 Jun 2026 19:52:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
+    "url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+    "date": "Tue, 23 Jun 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+    "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+    "date": "Tue, 23 Jun 2026 14:24:32 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+    "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+    "date": "Tue, 23 Jun 2026 11:08:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+    "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+    "date": "Tue, 23 Jun 2026 09:26:58 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+    "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+    "date": "Mon, 22 Jun 2026 23:30:48 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+    "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+    "date": "Mon, 22 Jun 2026 21:59:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+    "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "date": "Mon, 22 Jun 2026 21:43:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+    "url": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+    "date": "Mon, 22 Jun 2026 18:50:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   }
+  ],
+  "bleep": [
+   {
+    "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
+    "date": "Tue, 23 Jun 2026 17:48:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Tata Electronics confirms cyberattack as hackers leak data",
+    "url": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
+    "date": "Tue, 23 Jun 2026 17:06:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Windows 11 KB5095093 update rolls out new Point-in-Time restore feature",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
+    "date": "Tue, 23 Jun 2026 16:22:21 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
+    "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
+    "date": "Tue, 23 Jun 2026 15:59:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
+    "url": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
+    "date": "Tue, 23 Jun 2026 14:30:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Scattered Spider members plead guilty to hacking Transport for London",
+    "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+    "date": "Tue, 23 Jun 2026 11:31:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
+    "url": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+    "date": "Tue, 23 Jun 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "LastPass confirms data breach in Klue supply chain attack",
+    "url": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+    "date": "Tue, 23 Jun 2026 09:58:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar: Why email security teams are drowning in alerts",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
+    "date": "Tue, 23 Jun 2026 08:12:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
+    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+    "date": "Mon, 22 Jun 2026 18:42:21 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+    "url": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+    "date": "Mon, 22 Jun 2026 17:52:18 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+    "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+    "date": "Mon, 22 Jun 2026 17:05:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   }
+  ],
+  "tools": [
+   {
+    "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+    "url": "https://github.com/anthropics/defending-code-reference-harness",
+    "stars": 6174,
+    "lang": "Python"
+   },
+   {
+    "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
+    "url": "https://github.com/Albert-Weasker/niubi_guard",
+    "stars": 959,
+    "lang": "TypeScript"
+   },
+   {
+    "title": "hadriansecurity/OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
+    "url": "https://github.com/hadriansecurity/OpenHack",
+    "stars": 692,
+    "lang": "Python"
+   },
+   {
+    "title": "ClouGence/open-cdm — A free and open-source database management tool, suitable for team use. It offers capabilities such as access ",
+    "url": "https://github.com/ClouGence/open-cdm",
+    "stars": 294,
+    "lang": "Java"
+   },
+   {
+    "title": "trynullsec/nullsec-s1 — Security-native LLM system for AI-generated application security.",
+    "url": "https://github.com/trynullsec/nullsec-s1",
+    "stars": 269,
+    "lang": "Python"
+   },
+   {
+    "title": "Asymptote-Labs/agent-beacon — Agent Beacon is the world's first open-source telemetry layer for AI agents wherever they run: locally, in CI,",
+    "url": "https://github.com/Asymptote-Labs/agent-beacon",
+    "stars": 258,
+    "lang": "Go"
+   },
+   {
+    "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
+    "url": "https://github.com/openhackai/OpenHack",
+    "stars": 164,
+    "lang": "Python"
+   },
+   {
+    "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
+    "url": "https://github.com/aliyun/alibabacloud-ecs-troubleshoot-skills",
+    "stars": 160,
+    "lang": "Python"
+   },
+   {
+    "title": "nodiuus/nocturne — A bin2bin code virtualizer for x86-64 PE's",
+    "url": "https://github.com/nodiuus/nocturne",
+    "stars": 153,
+    "lang": "C++"
+   },
+   {
+    "title": "AdvDebug/Brovan — Brovan is a user-mode x86_64 binary emulator for your malware analysis & reverse engineering.",
+    "url": "https://github.com/AdvDebug/Brovan",
+    "stars": 140,
+    "lang": "C#"
+   },
+   {
+    "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
+    "url": "https://github.com/jestasecurity/thumper",
+    "stars": 118,
+    "lang": "Python"
+   },
+   {
+    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
+    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
+    "stars": 117,
+    "lang": "JavaScript"
+   }
+  ],
+  "hn": [
+   {
+    "title": "U.S. national-security leaders included me in a group chat",
+    "url": "https://www.theatlantic.com/politics/archive/2025/03/trump-administration-accidentally-texted-me-its-war-plans/682151/",
+    "points": 2283,
+    "comments": 1291,
+    "date": "2025-03-24T16:23:55Z"
+   },
+   {
+    "title": "Bypassing airport security via SQL injection",
+    "url": "https://ian.sh/tsa",
+    "points": 2004,
+    "comments": 440,
+    "date": "2024-08-29T15:53:08Z"
+   },
+   {
+    "title": "Apple pulls data protection tool after UK government security row",
+    "url": "https://www.bbc.com/news/articles/cgj54eq4vejo",
+    "points": 1770,
+    "comments": 1068,
+    "date": "2025-02-21T15:05:24Z"
+   },
+   {
+    "title": "Insecure vehicles should be banned, not security tools like the Flipper Zero",
+    "url": "https://saveflipper.ca/",
+    "points": 1496,
+    "comments": 878,
+    "date": "2024-02-21T11:20:49Z"
+   },
+   {
+    "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
+    "url": "https://plus.google.com/+MikeHearn/posts/LW1DXJ2BK8k",
+    "points": 1217,
+    "comments": 396,
+    "date": "2013-11-06T04:51:41Z"
+   },
+   {
+    "title": "Senators push to ditch social security numbers in light of Equifax hack",
+    "url": "https://techcrunch.com/2017/11/08/are-social-security-numbers-going-away/",
+    "points": 1126,
+    "comments": 464,
+    "date": "2017-11-08T22:49:56Z"
+   },
+   {
+    "title": "Internet Archive: Security breach alert",
+    "url": "https://www.theverge.com/2024/10/9/24266419/internet-archive-ddos-attack-pop-up-message",
+    "points": 1091,
+    "comments": 607,
+    "date": "2024-10-09T20:54:26Z"
+   },
+   {
+    "title": "Librarian's Letter to Google Security",
+    "url": "https://docs.google.com/document/d/1f6HPQbUjslcbjVHkJkAgYmQmBV3PRRHEcx4WL5rxuE8/preview",
+    "points": 1082,
+    "comments": 461,
+    "date": "2022-08-01T11:05:23Z"
+   },
+   {
+    "title": "Facebook Security Chief Said to Leave After Clashes Over Disinformation",
+    "url": "https://www.nytimes.com/2018/03/19/technology/facebook-alex-stamos.html",
+    "points": 1074,
+    "comments": 395,
+    "date": "2018-03-19T22:23:41Z"
+   },
+   {
+    "title": "Yahoo installed a backdoor for the NSA behind the back of the security team",
+    "url": "https://diracdeltas.github.io/blog/surveillance/",
+    "points": 1009,
+    "comments": 280,
+    "date": "2016-12-15T03:19:38Z"
+   },
+   {
+    "title": "Security by obscurity is underrated",
+    "url": "https://utkusen.com/blog/security-by-obscurity-is-underrated.html",
+    "points": 939,
+    "comments": 510,
+    "date": "2020-09-11T16:34:32Z"
+   },
+   {
+    "title": "Secret contract tied NSA and security industry pioneer",
+    "url": "http://www.reuters.com/article/2013/12/20/us-usa-security-rsa-idUSBRE9BJ1C220131220",
+    "points": 899,
+    "comments": 320,
+    "date": "2013-12-20T21:22:00Z"
+   }
+  ],
+  "reddit": [
+   {
+    "title": "/r/netsec's Q1 2026 Information Security Hiring Thread",
+    "url": "https://www.reddit.com/r/netsec/comments/1qn22ig/rnetsecs_q1_2026_information_security_hiring/",
+    "date": "2026-01-26T01:29:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "r/netsec monthly discussion &amp; tool thread",
+    "url": "https://www.reddit.com/r/netsec/comments/1tts9ly/rnetsec_monthly_discussion_tool_thread/",
+    "date": "2026-06-01T13:29:06+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Cloudflare patches Copy-Fail across every server in two days",
+    "url": "https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/",
+    "date": "2026-06-23T10:18:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "New Cisco RCE was fixed",
+    "url": "https://www.reddit.com/r/netsec/comments/1udcrb8/new_cisco_rce_was_fixed/",
+    "date": "2026-06-23T09:52:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-25860 turn XSS to RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/",
+    "date": "2026-06-22T18:31:27+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Exploiting Auth0 Defaults in XSS Attacks - elttam",
+    "url": "https://www.reddit.com/r/netsec/comments/1uccgi1/exploiting_auth0_defaults_in_xss_attacks_elttam/",
+    "date": "2026-06-22T06:06:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Scanning malicious websites with 'infinite' number of VPN tunnels (Part 1)",
+    "url": "https://www.reddit.com/r/netsec/comments/1ubvd13/scanning_malicious_websites_with_infinite_number/",
+    "date": "2026-06-21T17:07:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530",
+    "url": "https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/",
+    "date": "2026-06-19T19:15:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration",
+    "url": "https://www.reddit.com/r/netsec/comments/1u9y7yw/squidbleed_cve202647729_heartbleedstyle/",
+    "date": "2026-06-19T10:21:41+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)",
+    "url": "https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/",
+    "date": "2026-06-19T13:27:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance",
+    "url": "https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/",
+    "date": "2026-06-18T18:05:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Would you like some malware served at the very top of DuckDuckGo?",
+    "url": "https://www.reddit.com/r/netsec/comments/1u93j1m/would_you_like_some_malware_served_at_the_very/",
+    "date": "2026-06-18T11:20:15+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   }
+  ]
+ },
+ "status": {
+  "cve": true,
+  "kev": true,
+  "adv": true,
+  "thn": true,
+  "bleep": true,
+  "tools": true,
+  "hn": true,
+  "reddit": true
+ },
+ "kpis": {
+  "crit": 1,
+  "kev": 1627,
+  "adv": 12,
+  "feed": 48
+ },
+ "okCount": 8
+}
