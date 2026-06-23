@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-23T23:02:27.849Z",
+ "generatedAt": "2026-06-23T23:04:12.104Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "Snipe-IT has Multi-Tenancy Bypass via Bulk Asset Update",
+    "url": "https://github.com/advisories/GHSA-33g4-646g-qwmm",
+    "score": 6.3,
+    "ghsa": "GHSA-33g4-646g-qwmm",
+    "date": "2026-06-23T23:03:47Z"
+   },
+   {
+    "title": "Snipe-IT has a 2FA reset privilege bypass",
+    "url": "https://github.com/advisories/GHSA-6x4j-8954-5hxm",
+    "score": 5.8,
+    "ghsa": "GHSA-6x4j-8954-5hxm",
+    "date": "2026-06-23T23:03:20Z"
+   },
+   {
     "title": "Snipe-IT Vulnerable to User Account Escalation via CSV Import",
     "url": "https://github.com/advisories/GHSA-p68w-rgmg-3c2v",
     "score": 6.5,
@@ -271,20 +285,6 @@
     "score": null,
     "ghsa": "GHSA-f3c5-6cw8-fg57",
     "date": "2026-06-23T22:11:13Z"
-   },
-   {
-    "title": "phpMyFAQ has Weak Cryptography - SHA1 for Password Hashing",
-    "url": "https://github.com/advisories/GHSA-58fg-62fg-3fcj",
-    "score": 2,
-    "ghsa": "GHSA-58fg-62fg-3fcj",
-    "date": "2026-06-23T22:02:25Z"
-   },
-   {
-    "title": "OHttpVersionChunkDraft: Missing Final-Chunk Enforcement Leads to Undetected Stream Truncation",
-    "url": "https://github.com/advisories/GHSA-r6fj-869h-4f6q",
-    "score": null,
-    "ghsa": "GHSA-r6fj-869h-4f6q",
-    "date": "2026-06-23T21:59:03Z"
    }
   ],
   "thn": [
