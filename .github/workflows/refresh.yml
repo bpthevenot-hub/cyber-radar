@@ -36,5 +36,6 @@ jobs:
             echo "Aucun changement."
           else
             git commit -m "🛰️ refresh feeds — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin main || true
             git push
           fi
