@@ -1,90 +1,84 @@
 {
- "generatedAt": "2026-06-23T23:04:12.104Z",
+ "generatedAt": "2026-06-24T00:13:29.090Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-11807 — A missing authorization vulnerability was found in the Event-Driven Ansible (EDA) websocket API. The /api/eda/ws/ansible-rulebook endpoint d",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11807",
+    "title": "CVE-2026-8134 — Concrete CMS Vulnerable to Relative Path Traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8134",
     "score": 9.5,
-    "date": "2026-06-23T21:30:31Z"
+    "date": "2026-05-21T21:30:37Z"
    },
    {
-    "title": "CVE-2026-48126 — Algernon: Host header path traversal in --domain mode reads files and runs Lua from parent dir",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48126",
+    "title": "CVE-2026-54329 — Snipe-IT API Vulnerable to Cross-Tenant Accessory Injection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54329",
     "score": 7.5,
-    "date": "2026-06-23T21:49:11Z"
+    "date": "2026-06-23T23:12:04Z"
    },
    {
-    "title": "CVE-2026-56120 — OpenRemote before 1.25.0 contains an insecure direct object reference (IDOR) vulnerability in the bulk alarm deletion endpoint that allows a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56120",
+    "title": "CVE-2026-8140 — Concrete CMS is Vulnerable to Cross-Site Request Forgery",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8140",
     "score": 7.5,
-    "date": "2026-06-23T21:30:33Z"
+    "date": "2026-05-21T21:30:37Z"
    },
    {
-    "title": "CVE-2026-41862 — Spring Statemachine's Kryo-based persistence backends (JPA, MongoDB, Redis and ZooKeeper) deserialise persisted state-machine contexts witho",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41862",
+    "title": "CVE-2026-8135 — Concrete CMS Vulnerable to Deserialization of Untrusted Data",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8135",
     "score": 7.5,
-    "date": "2026-06-23T21:30:32Z"
+    "date": "2026-05-21T21:30:37Z"
    },
    {
-    "title": "CVE-2026-39253 — An issue in Pivotal CRM v.6.6.04.08 allows a remote attacker to execute arbitrary code via the Pivotal.Core.Common.dll and Pivotal.Engine.Cl",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39253",
+    "title": "CVE-2026-47102 — LiteLLM allows a user to modify their own user_role via the /user/update endpoint",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47102",
     "score": 7.5,
-    "date": "2026-06-23T21:30:31Z"
+    "date": "2026-05-21T21:30:37Z"
    },
    {
-    "title": "CVE-2026-12112 — A flaw was found in the foreman-mcp-server. A session management vulnerability in the MCP Server allows unauthenticated attackers to hijack ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12112",
+    "title": "CVE-2026-47101 — LiteLLM allows an authenticated internal_user to create API keys with access to routes that their role does not permit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47101",
     "score": 7.5,
-    "date": "2026-06-23T21:30:31Z"
+    "date": "2026-05-21T21:30:36Z"
    },
    {
-    "title": "CVE-2026-54513 — jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54513",
-    "score": 7.5,
-    "date": "2026-06-23T21:22:15Z"
-   },
-   {
-    "title": "CVE-2026-54512 — jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54512",
-    "score": 7.5,
-    "date": "2026-06-23T21:21:38Z"
-   },
-   {
-    "title": "CVE-2026-44914 — Apache NiFi 1.12.0 through 2.9.0 are missing authorization when replacing Process Groups that include extension components with specific Req",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44914",
-    "score": 7.5,
-    "date": "2026-06-22T09:30:45Z"
-   },
-   {
-    "title": "CVE-2026-44604 — A command injection vulnerability was discovered in the `rpmuncompress` utility of RPM. When extracting certain archive formats (ZIP, 7z, GE",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44604",
-    "score": 7.5,
-    "date": "2026-05-28T09:31:18Z"
-   },
-   {
-    "title": "CVE-2026-45760 — Apache Camel K: Kubernetes namespace authorized users can create a Build resource",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45760",
-    "score": 7.5,
-    "date": "2026-05-21T15:34:09Z"
-   },
-   {
-    "title": "CVE-2026-4858 — Mattermost has a Path Traversal issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4858",
-    "score": 7.5,
-    "date": "2026-05-21T09:32:12Z"
-   },
-   {
-    "title": "CVE-2026-48480 — OHttpVersionChunkDraft: Missing Final-Chunk Enforcement Leads to Undetected Stream Truncation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48480",
+    "title": "CVE-2026-55483 — Snipe-IT Vulnerable to Privilege Escalation via Missing admin Permission Check in User Creation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55483",
     "score": 5,
-    "date": "2026-06-23T21:59:03Z"
+    "date": "2026-06-23T23:06:18Z"
    },
    {
-    "title": "CVE-2026-48167 — Filament: Unvalidated ImageColumn and ImageEntry values can be used for XSS",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48167",
+    "title": "CVE-2026-55482 — Snipe-IT has Multi-Tenancy Bypass via Bulk Asset Update",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55482",
     "score": 5,
-    "date": "2026-06-23T21:57:49Z"
+    "date": "2026-06-23T23:03:47Z"
+   },
+   {
+    "title": "CVE-2026-50550 — Snipe-IT has a 2FA reset privilege bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50550",
+    "score": 5,
+    "date": "2026-06-23T23:03:20Z"
+   },
+   {
+    "title": "CVE-2026-49976 — Snipe-IT Vulnerable to User Account Escalation via CSV Import",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49976",
+    "score": 5,
+    "date": "2026-06-23T23:02:03Z"
+   },
+   {
+    "title": "CVE-2026-6826 — Concrete CMS is vulnerable to unauthenticated file usage disclosure",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6826",
+    "score": 5,
+    "date": "2026-05-21T21:30:37Z"
+   },
+   {
+    "title": "CVE-2026-55542 — Snipe-IT's S3 signature image retrieval lacks authorization before temporary URL",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55542",
+    "score": 2,
+    "date": "2026-06-23T23:11:26Z"
+   },
+   {
+    "title": "CVE-2026-55519 — Snipe-IT has Improper Authorization in File Deletion (IDOR)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55519",
+    "score": 2,
+    "date": "2026-06-23T23:06:59Z"
    }
   ],
   "kev": [
@@ -203,6 +197,34 @@
   ],
   "adv": [
    {
+    "title": "Snipe-IT API Vulnerable to Cross-Tenant Accessory Injection",
+    "url": "https://github.com/advisories/GHSA-pwpj-p52h-q484",
+    "score": 8.5,
+    "ghsa": "GHSA-pwpj-p52h-q484",
+    "date": "2026-06-23T23:12:04Z"
+   },
+   {
+    "title": "Snipe-IT's S3 signature image retrieval lacks authorization before temporary URL",
+    "url": "https://github.com/advisories/GHSA-6mmj-jhqj-6c6q",
+    "score": 2,
+    "ghsa": "GHSA-6mmj-jhqj-6c6q",
+    "date": "2026-06-23T23:11:26Z"
+   },
+   {
+    "title": "Snipe-IT has Improper Authorization in File Deletion (IDOR)",
+    "url": "https://github.com/advisories/GHSA-x667-r589-43m7",
+    "score": 2,
+    "ghsa": "GHSA-x667-r589-43m7",
+    "date": "2026-06-23T23:06:59Z"
+   },
+   {
+    "title": "Snipe-IT Vulnerable to Privilege Escalation via Missing admin Permission Check in User Creation",
+    "url": "https://github.com/advisories/GHSA-hf68-g98v-wp9g",
+    "score": null,
+    "ghsa": "GHSA-hf68-g98v-wp9g",
+    "date": "2026-06-23T23:06:18Z"
+   },
+   {
     "title": "Snipe-IT has Multi-Tenancy Bypass via Bulk Asset Update",
     "url": "https://github.com/advisories/GHSA-33g4-646g-qwmm",
     "score": 6.3,
@@ -257,34 +279,6 @@
     "score": 6.1,
     "ghsa": "GHSA-wcmj-x466-56mm",
     "date": "2026-06-23T22:23:01Z"
-   },
-   {
-    "title": "Filament: Unauthenticated temporary file upload on auth pages",
-    "url": "https://github.com/advisories/GHSA-44wp-g8f4-f4v5",
-    "score": 6.5,
-    "ghsa": "GHSA-44wp-g8f4-f4v5",
-    "date": "2026-06-23T22:16:58Z"
-   },
-   {
-    "title": "opentelemetry-ebpf-profiler: Unprivileged process can trigger a denial of service on the ebpf-profiler agent",
-    "url": "https://github.com/advisories/GHSA-f2r5-5m7w-p5cx",
-    "score": 6.2,
-    "ghsa": "GHSA-f2r5-5m7w-p5cx",
-    "date": "2026-06-23T22:16:14Z"
-   },
-   {
-    "title": "Snipe-IT Vulnerable to Privilege Escalation for self via API Permissions Assignment",
-    "url": "https://github.com/advisories/GHSA-52fw-7fw2-fmv5",
-    "score": 5.5,
-    "ghsa": "GHSA-52fw-7fw2-fmv5",
-    "date": "2026-06-23T22:12:11Z"
-   },
-   {
-    "title": "Snipe-IT's selectlist visibility is too permissive",
-    "url": "https://github.com/advisories/GHSA-f3c5-6cw8-fg57",
-    "score": null,
-    "ghsa": "GHSA-f3c5-6cw8-fg57",
-    "date": "2026-06-23T22:11:13Z"
    }
   ],
   "thn": [
@@ -469,7 +463,7 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 960,
+    "stars": 962,
     "lang": "TypeScript"
    },
    {
@@ -649,6 +643,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I compiled a unified LLM-CTF benchmark – 2,639 real data points from NeurIPS 2024 + original multi-agent runs",
+    "url": "https://www.reddit.com/r/netsec/comments/1udwtzp/i_compiled_a_unified_llmctf_benchmark_2639_real/",
+    "date": "2026-06-23T23:18:42+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-25860 turn XSS to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/",
     "date": "2026-06-22T18:31:27+00:00",
@@ -694,13 +695,6 @@
     "title": "CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance",
     "url": "https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/",
     "date": "2026-06-18T18:05:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Would you like some malware served at the very top of DuckDuckGo?",
-    "url": "https://www.reddit.com/r/netsec/comments/1u93j1m/would_you_like_some_malware_served_at_the_very/",
-    "date": "2026-06-18T11:20:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
