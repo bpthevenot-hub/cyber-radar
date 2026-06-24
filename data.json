@@ -1,90 +1,84 @@
 {
- "generatedAt": "2026-06-24T12:03:08.209Z",
+ "generatedAt": "2026-06-24T15:12:07.317Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-56052 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in FunnelKit Funnel Builder by FunnelKit ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56052",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:49Z"
+    "title": "OSV-2022-1277 — Heap-use-after-free in mk_event_timeout_destroy",
+    "url": "https://github.com/advisories/OSV-2022-1277",
+    "score": null,
+    "date": "2023-06-26T14:01:01.876870Z"
    },
    {
-    "title": "CVE-2026-7761 — The Ultimate Member plugin for WordPress is vulnerable to Account Takeover via Password Reset Link Disclosure in all versions up to and incl",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7761",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:49Z"
+    "title": "OSV-2023-307 — Heap-buffer-overflow in bit_read_BB",
+    "url": "https://github.com/advisories/OSV-2023-307",
+    "score": null,
+    "date": "2023-04-13T14:02:09.774988Z"
    },
    {
-    "title": "CVE-2026-10745 — Improper output neutralization for logs vulnerability in upKeeper Solutions upKeeper Instant Privilege Access on Windows allows Log Injectio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10745",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:49Z"
+    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
+    "url": "https://github.com/advisories/OSV-2022-1259",
+    "score": null,
+    "date": "2022-12-13T13:00:46.870838Z"
    },
    {
-    "title": "CVE-2026-9179 — The WP Forms Connector plugin for WordPress is vulnerable to SQL Injection via the 'order' parameter of the /wp-json/wp/v3/post/list REST en",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9179",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
+    "url": "https://github.com/advisories/OSV-2022-1198",
+    "score": null,
+    "date": "2022-11-23T13:02:06.623044Z"
    },
    {
-    "title": "CVE-2026-9643 — The WP Meta SEO plugin for WordPress is vulnerable to Unauthenticated Stored Cross-Site Scripting via the REQUEST_URI server variable in all",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9643",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
+    "url": "https://github.com/advisories/OSV-2022-1176",
+    "score": null,
+    "date": "2022-11-18T13:00:26.857477Z"
    },
    {
-    "title": "CVE-2026-9178 — The WP Forms Connector plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.8. The plugin regi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9178",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-834 — Heap-use-after-free in mk_event_timeout_destroy",
+    "url": "https://github.com/advisories/OSV-2022-834",
+    "score": null,
+    "date": "2022-09-04T00:00:31.605787Z"
    },
    {
-    "title": "CVE-2026-8705 — The ClearSale Total plugin for WordPress is vulnerable to SQL Injection via the `pagseguro[metodo]` POST parameter of the `clearsale_total_p",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8705",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
+    "url": "https://github.com/advisories/OSV-2022-714",
+    "score": null,
+    "date": "2022-08-15T00:00:47.794062Z"
    },
    {
-    "title": "CVE-2026-4297 — The Welcome Software Publishing plugin for WordPress is vulnerable to Arbitrary Options Update in all versions up to and including 0.0.31. T",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4297",
-    "score": 7.5,
-    "date": "2026-06-24T09:30:46Z"
+    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
+    "url": "https://github.com/advisories/OSV-2022-653",
+    "score": null,
+    "date": "2022-07-30T00:01:52.491112Z"
    },
    {
-    "title": "CVE-2026-9175 — The Devs Accounting – Simple Accounting and Invoicing Solution plugin for WordPress is vulnerable to Missing Authorization in all versions u",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9175",
-    "score": 5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-400 — Heap-double-free in dwg_free_XRECORD_private",
+    "url": "https://github.com/advisories/OSV-2022-400",
+    "score": null,
+    "date": "2022-05-08T00:00:40.782520Z"
    },
    {
-    "title": "CVE-2026-9612 — The WhatsOrder – Instant Checkout for WooCommerce plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9612",
-    "score": 5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-388 — Segv on unknown address in dwg_ref_get_object",
+    "url": "https://github.com/advisories/OSV-2022-388",
+    "score": null,
+    "date": "2022-05-01T00:01:54.904711Z"
    },
    {
-    "title": "CVE-2026-9183 — The 24liveblog - live blog tool plugin for WordPress is vulnerable to Exposure of Sensitive Information in versions up to, and including, 2.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9183",
-    "score": 5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-379 — Segv on unknown address in bit_write_TV",
+    "url": "https://github.com/advisories/OSV-2022-379",
+    "score": null,
+    "date": "2022-04-27T00:00:44.539231Z"
    },
    {
-    "title": "CVE-2026-9724 — The MotorDesk plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.1.2. This is due to m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9724",
-    "score": 5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2022-372 — Heap-buffer-overflow in dwg_encode_VERTEX_2D",
+    "url": "https://github.com/advisories/OSV-2022-372",
+    "score": null,
+    "date": "2022-04-26T00:00:09.352798Z"
    },
    {
-    "title": "CVE-2026-9721 — The Book a Room Event Calendar plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.9. T",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9721",
-    "score": 5,
-    "date": "2026-06-24T09:30:47Z"
-   },
-   {
-    "title": "CVE-2026-8905 — The Osiris Signature Banner plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.5. This",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8905",
-    "score": 5,
-    "date": "2026-06-24T09:30:47Z"
+    "title": "OSV-2021-1343 — Heap-buffer-overflow in get_next_owned_entity",
+    "url": "https://github.com/advisories/OSV-2021-1343",
+    "score": null,
+    "date": "2021-09-21T00:01:33.177403Z"
    }
   ],
   "kev": [
@@ -289,6 +283,20 @@
   ],
   "thn": [
    {
+    "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+    "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+    "date": "Wed, 24 Jun 2026 18:18:11 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Dawn of the Apex Agentic Adversary",
+    "url": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+    "date": "Wed, 24 Jun 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
     "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
     "date": "Wed, 24 Jun 2026 14:25:12 +0530",
@@ -357,23 +365,30 @@
     "date": "Tue, 23 Jun 2026 09:26:58 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
-    "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-    "date": "Mon, 22 Jun 2026 23:30:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-    "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-    "date": "Mon, 22 Jun 2026 21:59:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+    "date": "Wed, 24 Jun 2026 10:35:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
+    "url": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+    "date": "Wed, 24 Jun 2026 10:35:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Securing the service desk: Why social engineering attacks keep succeeding",
+    "url": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+    "date": "Wed, 24 Jun 2026 10:02:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
     "url": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
@@ -436,40 +451,19 @@
     "date": "Tue, 23 Jun 2026 09:58:25 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Webinar: Why email security teams are drowning in alerts",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
-    "date": "Tue, 23 Jun 2026 08:12:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
-    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-    "date": "Mon, 22 Jun 2026 18:42:21 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
-    "url": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
-    "date": "Mon, 22 Jun 2026 17:52:18 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6184,
+    "stars": 6188,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 998,
+    "stars": 1010,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +487,7 @@
    {
     "title": "Asymptote-Labs/agent-beacon — Agent Beacon is the world's first open-source telemetry layer for AI agents wherever they run: locally, in CI,",
     "url": "https://github.com/Asymptote-Labs/agent-beacon",
-    "stars": 260,
+    "stars": 261,
     "lang": "Go"
    },
    {
