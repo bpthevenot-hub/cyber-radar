@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-24T15:12:07.317Z",
+ "generatedAt": "2026-06-24T17:21:26.283Z",
  "sources": {
   "cve": [
    {
@@ -283,6 +283,13 @@
   ],
   "thn": [
    {
+    "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+    "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+    "date": "Wed, 24 Jun 2026 21:29:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
     "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
     "date": "Wed, 24 Jun 2026 18:18:11 +0530",
@@ -356,13 +363,6 @@
     "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
     "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
     "date": "Tue, 23 Jun 2026 11:08:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-    "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-    "date": "Tue, 23 Jun 2026 09:26:58 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -457,19 +457,19 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6188,
+    "stars": 6191,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1010,
+    "stars": 1017,
     "lang": "TypeScript"
    },
    {
     "title": "hadriansecurity/OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
     "url": "https://github.com/hadriansecurity/OpenHack",
-    "stars": 692,
+    "stars": 693,
     "lang": "Python"
    },
    {
@@ -515,16 +515,16 @@
     "lang": "C#"
    },
    {
+    "title": "adshao/flounder — Autonomous white-hat security auditor",
+    "url": "https://github.com/adshao/flounder",
+    "stars": 122,
+    "lang": "TypeScript"
+   },
+   {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
     "stars": 119,
     "lang": "Python"
-   },
-   {
-    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 117,
-    "lang": "JavaScript"
    }
   ],
   "hn": [
@@ -636,6 +636,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
+    "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
+    "date": "2026-06-24T16:34:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "TanStack npm compromise: 42 packages published with valid SLSA provenance via OIDC token theft from runner memory",
+    "url": "https://www.reddit.com/r/netsec/comments/1uehrug/tanstack_npm_compromise_42_packages_published/",
+    "date": "2026-06-24T16:07:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "No Side to Take: Political Indifference Inside the 4vps.su Leak",
     "url": "https://www.reddit.com/r/netsec/comments/1uea2jn/no_side_to_take_political_indifference_inside_the/",
     "date": "2026-06-24T10:46:25+00:00",
@@ -681,20 +695,6 @@
     "title": "Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530",
     "url": "https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/",
     "date": "2026-06-19T19:15:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration",
-    "url": "https://www.reddit.com/r/netsec/comments/1u9y7yw/squidbleed_cve202647729_heartbleedstyle/",
-    "date": "2026-06-19T10:21:41+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)",
-    "url": "https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/",
-    "date": "2026-06-19T13:27:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
