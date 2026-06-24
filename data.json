@@ -1,84 +1,90 @@
 {
- "generatedAt": "2026-06-24T00:13:29.090Z",
+ "generatedAt": "2026-06-24T04:42:17.308Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-8134 — Concrete CMS Vulnerable to Relative Path Traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8134",
+    "title": "CVE-2026-11807 — A missing authorization vulnerability was found in the Event-Driven Ansible (EDA) websocket API. The /api/eda/ws/ansible-rulebook endpoint d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11807",
     "score": 9.5,
-    "date": "2026-05-21T21:30:37Z"
+    "date": "2026-06-23T21:30:31Z"
    },
    {
-    "title": "CVE-2026-54329 — Snipe-IT API Vulnerable to Cross-Tenant Accessory Injection",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54329",
+    "title": "CVE-2026-12112 — A flaw was found in the foreman-mcp-server. A session management vulnerability in the MCP Server allows unauthenticated attackers to hijack ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12112",
     "score": 7.5,
-    "date": "2026-06-23T23:12:04Z"
+    "date": "2026-06-23T21:30:31Z"
    },
    {
-    "title": "CVE-2026-8140 — Concrete CMS is Vulnerable to Cross-Site Request Forgery",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8140",
+    "title": "CVE-2026-48864 — A flaw was found in libsolv. This heap buffer overflow occurs during the decompression of attacker-controlled compressed data within `.solv`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48864",
     "score": 7.5,
-    "date": "2026-05-21T21:30:37Z"
+    "date": "2026-05-26T18:31:47Z"
    },
    {
-    "title": "CVE-2026-8135 — Concrete CMS Vulnerable to Deserialization of Untrusted Data",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8135",
-    "score": 7.5,
-    "date": "2026-05-21T21:30:37Z"
-   },
-   {
-    "title": "CVE-2026-47102 — LiteLLM allows a user to modify their own user_role via the /user/update endpoint",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47102",
-    "score": 7.5,
-    "date": "2026-05-21T21:30:37Z"
-   },
-   {
-    "title": "CVE-2026-47101 — LiteLLM allows an authenticated internal_user to create API keys with access to routes that their role does not permit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47101",
-    "score": 7.5,
-    "date": "2026-05-21T21:30:36Z"
-   },
-   {
-    "title": "CVE-2026-55483 — Snipe-IT Vulnerable to Privilege Escalation via Missing admin Permission Check in User Creation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55483",
+    "title": "CVE-2026-9073 — A flaw was found in foreman-mcp-server. This component utilizes two distinct logging mechanisms that can expose sensitive session and authen",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9073",
     "score": 5,
-    "date": "2026-06-23T23:06:18Z"
+    "date": "2026-06-23T21:30:33Z"
    },
    {
-    "title": "CVE-2026-55482 — Snipe-IT has Multi-Tenancy Bypass via Bulk Asset Update",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55482",
+    "title": "CVE-2026-9150 — A flaw was found in libsolv. This stack-based buffer overflow vulnerability occurs in libsolv's Debian metadata parser when processing speci",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9150",
     "score": 5,
-    "date": "2026-06-23T23:03:47Z"
+    "date": "2026-05-21T00:30:27Z"
    },
    {
-    "title": "CVE-2026-50550 — Snipe-IT has a 2FA reset privilege bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50550",
+    "title": "CVE-2026-9149 — A flaw was found in libsolv. This heap buffer overflow vulnerability occurs when a victim processes a specially crafted `.solv` file contain",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9149",
     "score": 5,
-    "date": "2026-06-23T23:03:20Z"
+    "date": "2026-05-21T00:30:27Z"
    },
    {
-    "title": "CVE-2026-49976 — Snipe-IT Vulnerable to User Account Escalation via CSV Import",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49976",
+    "title": "GHSA-wc6p-4gwj-jcr8 — Duplicate Advisory: Keylime has a hardcoded attestation challenge nonce that allows replay attacks",
+    "url": "https://github.com/advisories/GHSA-wc6p-4gwj-jcr8",
     "score": 5,
-    "date": "2026-06-23T23:02:03Z"
+    "date": "2026-05-06T12:30:28Z"
    },
    {
-    "title": "CVE-2026-6826 — Concrete CMS is vulnerable to unauthenticated file usage disclosure",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6826",
+    "title": "CVE-2025-10911 — A use-after-free vulnerability was found in libxslt while parsing xsl nodes that may lead to the dereference of expired pointers and applica",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-10911",
     "score": 5,
-    "date": "2026-05-21T21:30:37Z"
+    "date": "2025-09-25T18:30:33Z"
    },
    {
-    "title": "CVE-2026-55542 — Snipe-IT's S3 signature image retrieval lacks authorization before temporary URL",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55542",
-    "score": 2,
-    "date": "2026-06-23T23:11:26Z"
+    "title": "MAL-2026-6364 — Malicious code in openllmapi (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6364",
+    "score": null,
+    "date": "2026-06-24T02:56:49Z"
    },
    {
-    "title": "CVE-2026-55519 — Snipe-IT has Improper Authorization in File Deletion (IDOR)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55519",
-    "score": 2,
-    "date": "2026-06-23T23:06:59Z"
+    "title": "MAL-2026-6362 — Malicious code in monty-data (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6362",
+    "score": null,
+    "date": "2026-06-24T02:49:40Z"
+   },
+   {
+    "title": "MAL-2026-6363 — Malicious code in npmkekw (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6363",
+    "score": null,
+    "date": "2026-06-24T02:37:21Z"
+   },
+   {
+    "title": "MAL-2026-6250 — Malicious code in hyperpure-core (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6250",
+    "score": null,
+    "date": "2026-06-21T16:21:08Z"
+   },
+   {
+    "title": "MAL-2026-6261 — Malicious code in sf-storybook (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6261",
+    "score": null,
+    "date": "2026-06-20T23:04:18Z"
+   },
+   {
+    "title": "MAL-2026-6232 — Malicious code in free-claude (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6232",
+    "score": null,
+    "date": "2026-06-19T17:37:59Z"
    }
   ],
   "kev": [
@@ -457,13 +463,13 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6174,
+    "stars": 6177,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 962,
+    "stars": 975,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +481,7 @@
    {
     "title": "ClouGence/open-cdm — A free and open-source database management tool, suitable for team use. It offers capabilities such as access ",
     "url": "https://github.com/ClouGence/open-cdm",
-    "stars": 294,
+    "stars": 295,
     "lang": "Java"
    },
    {
@@ -487,13 +493,13 @@
    {
     "title": "Asymptote-Labs/agent-beacon — Agent Beacon is the world's first open-source telemetry layer for AI agents wherever they run: locally, in CI,",
     "url": "https://github.com/Asymptote-Labs/agent-beacon",
-    "stars": 258,
+    "stars": 259,
     "lang": "Go"
    },
    {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
     "url": "https://github.com/openhackai/OpenHack",
-    "stars": 164,
+    "stars": 165,
     "lang": "Python"
    },
    {
