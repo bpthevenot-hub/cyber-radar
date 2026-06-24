@@ -1,84 +1,90 @@
 {
- "generatedAt": "2026-06-24T17:21:26.283Z",
+ "generatedAt": "2026-06-24T20:13:34.607Z",
  "sources": {
   "cve": [
    {
-    "title": "OSV-2022-1277 — Heap-use-after-free in mk_event_timeout_destroy",
-    "url": "https://github.com/advisories/OSV-2022-1277",
-    "score": null,
-    "date": "2023-06-26T14:01:01.876870Z"
+    "title": "CVE-2026-8428 — Concrete CMS is Vulnerable to Cross-Site Request Forgery",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8428",
+    "score": 7.5,
+    "date": "2026-05-21T21:30:38Z"
    },
    {
-    "title": "OSV-2023-307 — Heap-buffer-overflow in bit_read_BB",
-    "url": "https://github.com/advisories/OSV-2023-307",
-    "score": null,
-    "date": "2023-04-13T14:02:09.774988Z"
+    "title": "CVE-2026-8421 — Concrete CMS contains a CSRF vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8421",
+    "score": 7.5,
+    "date": "2026-05-21T21:30:38Z"
    },
    {
-    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
-    "url": "https://github.com/advisories/OSV-2022-1259",
-    "score": null,
-    "date": "2022-12-13T13:00:46.870838Z"
+    "title": "CVE-2026-7881 — Concrete CMS is subject to Insecure Direct Object Reference (IDOR) in the Express Entry Detail block",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7881",
+    "score": 5,
+    "date": "2026-05-22T00:31:16Z"
    },
    {
-    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
-    "url": "https://github.com/advisories/OSV-2022-1198",
-    "score": null,
-    "date": "2022-11-23T13:02:06.623044Z"
+    "title": "CVE-2026-7879 — Concrete CMS has an unauthorized file access issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7879",
+    "score": 5,
+    "date": "2026-05-22T00:31:16Z"
    },
    {
-    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
-    "url": "https://github.com/advisories/OSV-2022-1176",
-    "score": null,
-    "date": "2022-11-18T13:00:26.857477Z"
+    "title": "CVE-2026-7886 — Concrete CMS is vulnerable to IDOR in AddMessage/UpdateMessage",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7886",
+    "score": 2,
+    "date": "2026-05-22T00:31:16Z"
    },
    {
-    "title": "OSV-2022-834 — Heap-use-after-free in mk_event_timeout_destroy",
-    "url": "https://github.com/advisories/OSV-2022-834",
-    "score": null,
-    "date": "2022-09-04T00:00:31.605787Z"
+    "title": "CVE-2026-7882 — Concrete CMS is vulnerable to unauthorized file deletion",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7882",
+    "score": 2,
+    "date": "2026-05-22T00:31:16Z"
    },
    {
-    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
-    "url": "https://github.com/advisories/OSV-2022-714",
+    "title": "CVE-2026-13244 — The security team is marking the Tealium iQ Tag Management module for Drupal project unsupported. There is a known security issue with the p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13244",
     "score": null,
-    "date": "2022-08-15T00:00:47.794062Z"
+    "date": "2026-06-24T18:49:32.000Z"
    },
    {
-    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
-    "url": "https://github.com/advisories/OSV-2022-653",
+    "title": "CVE-2026-13243 — The Salesforce Suite of modules integrates Drupal with Salesforce. The Salesforce module does not properly validate the OAuth handshake duri",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13243",
     "score": null,
-    "date": "2022-07-30T00:01:52.491112Z"
+    "date": "2026-06-24T18:48:15.000Z"
    },
    {
-    "title": "OSV-2022-400 — Heap-double-free in dwg_free_XRECORD_private",
-    "url": "https://github.com/advisories/OSV-2022-400",
+    "title": "CVE-2026-13242 — Geolocation modules adds a field to store coordinates and provides supporting plumbing for views and other modules. One of the provided view",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13242",
     "score": null,
-    "date": "2022-05-08T00:00:40.782520Z"
+    "date": "2026-06-24T18:46:12.000Z"
    },
    {
-    "title": "OSV-2022-388 — Segv on unknown address in dwg_ref_get_object",
-    "url": "https://github.com/advisories/OSV-2022-388",
+    "title": "CVE-2026-13241 — The optional Paragraphs Library module allows the reuse of paragraphs in multiple places. The module doesn't sufficiently restrict access to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13241",
     "score": null,
-    "date": "2022-05-01T00:01:54.904711Z"
+    "date": "2026-06-24T18:43:16.000Z"
    },
    {
-    "title": "OSV-2022-379 — Segv on unknown address in bit_write_TV",
-    "url": "https://github.com/advisories/OSV-2022-379",
+    "title": "CVE-2026-13240 — The optional Paragraphs Library module allows the reuse of paragraphs in multiple places. The module doesn't sufficiently restrict access to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13240",
     "score": null,
-    "date": "2022-04-27T00:00:44.539231Z"
+    "date": "2026-06-24T18:42:30.000Z"
    },
    {
-    "title": "OSV-2022-372 — Heap-buffer-overflow in dwg_encode_VERTEX_2D",
-    "url": "https://github.com/advisories/OSV-2022-372",
+    "title": "CVE-2026-13239 — The module adds support for the mirador viewer in WissKI and enables annotations on images via the mirador viewer. It does not sufficiently ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13239",
     "score": null,
-    "date": "2022-04-26T00:00:09.352798Z"
+    "date": "2026-06-24T18:40:57.000Z"
    },
    {
-    "title": "OSV-2021-1343 — Heap-buffer-overflow in get_next_owned_entity",
-    "url": "https://github.com/advisories/OSV-2021-1343",
+    "title": "CVE-2026-13238 — This module enables you to take payments through the Global Payments / Realex Hosted Payment Page (HPP), either via a lightbox iframe or via",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13238",
     "score": null,
-    "date": "2021-09-21T00:01:33.177403Z"
+    "date": "2026-06-24T18:40:07.000Z"
+   },
+   {
+    "title": "CVE-2026-13237 — This module provides the entity type and runtime for Drupal AI Agents, enabling agents to use tools. Under certain circumstances, the agent ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13237",
+    "score": null,
+    "date": "2026-06-24T18:39:24.000Z"
    }
   ],
   "kev": [
@@ -197,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "OliveTin has Unvalidated `ot_`-prefixed Arguments that Bypass Input Filtering",
+    "url": "https://github.com/advisories/GHSA-prj9-97mp-mwh2",
+    "score": 4.3,
+    "ghsa": "GHSA-prj9-97mp-mwh2",
+    "date": "2026-06-24T17:43:50Z"
+   },
+   {
+    "title": "OliveTin: ValidateArgumentType API Endpoint's Missing Authentication Allows Action and Argument Enumeration",
+    "url": "https://github.com/advisories/GHSA-f637-w7p2-m7fx",
+    "score": 3.7,
+    "ghsa": "GHSA-f637-w7p2-m7fx",
+    "date": "2026-06-24T17:41:01Z"
+   },
+   {
+    "title": "OliveTin has a Concurrent Template Parsing Race Condition which Leads to Cross-Request Command Contamination",
+    "url": "https://github.com/advisories/GHSA-7fq5-7wr8-rjwj",
+    "score": 7.5,
+    "ghsa": "GHSA-7fq5-7wr8-rjwj",
+    "date": "2026-06-24T17:38:12Z"
+   },
+   {
+    "title": "OpenAM Pre-auth User Profile Tampering via Anonymous SOAP Authn in Liberty IDPP/Discovery Endpoints",
+    "url": "https://github.com/advisories/GHSA-p462-xxwx-pqf4",
+    "score": 9.5,
+    "ghsa": "GHSA-p462-xxwx-pqf4",
+    "date": "2026-06-24T17:31:17Z"
+   },
+   {
+    "title": "OpenAM: Pre-auth RCE via Java Deserialization in WebAuthn Authenticator Storage",
+    "url": "https://github.com/advisories/GHSA-6c99-87fr-6q7r",
+    "score": 9.5,
+    "ghsa": "GHSA-6c99-87fr-6q7r",
+    "date": "2026-06-24T17:25:28Z"
+   },
+   {
     "title": "Snipe-IT API Vulnerable to Cross-Tenant Accessory Injection",
     "url": "https://github.com/advisories/GHSA-pwpj-p52h-q484",
     "score": 8.5,
@@ -244,44 +285,16 @@
     "score": 6.5,
     "ghsa": "GHSA-p68w-rgmg-3c2v",
     "date": "2026-06-23T23:02:03Z"
-   },
-   {
-    "title": "Flask-Security has an Open Redirect issue",
-    "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
-    "score": 4.7,
-    "ghsa": "GHSA-w2j7-f3c6-g8cw",
-    "date": "2026-06-23T22:46:31Z"
-   },
-   {
-    "title": "Snipe-IT's TOTP is Brute-Forceable Due to Missing Rate Limiting on `POST /two-factor`",
-    "url": "https://github.com/advisories/GHSA-mr8g-2mj4-pcq2",
-    "score": 5.9,
-    "ghsa": "GHSA-mr8g-2mj4-pcq2",
-    "date": "2026-06-23T22:32:04Z"
-   },
-   {
-    "title": "phpMyFAQ: Missing userHasPermission() in 4 API write endpoints (CVE-2026-24421 Incomplete Fix)",
-    "url": "https://github.com/advisories/GHSA-8c6h-7g6x-m5x4",
-    "score": 6.5,
-    "ghsa": "GHSA-8c6h-7g6x-m5x4",
-    "date": "2026-06-23T22:27:34Z"
-   },
-   {
-    "title": "Snipe-IT: Bulk editing users allowed `ldap_import` and `activated_in` bulk editing users",
-    "url": "https://github.com/advisories/GHSA-6f75-x745-xcpr",
-    "score": 7.1,
-    "ghsa": "GHSA-6f75-x745-xcpr",
-    "date": "2026-06-23T22:24:59Z"
-   },
-   {
-    "title": "OpenTofu: Provider cache installation follows root-module-controlled package directory symlink and writes outside the working tree",
-    "url": "https://github.com/advisories/GHSA-wcmj-x466-56mm",
-    "score": 6.1,
-    "ghsa": "GHSA-wcmj-x466-56mm",
-    "date": "2026-06-23T22:23:01Z"
    }
   ],
   "thn": [
+   {
+    "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+    "url": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+    "date": "Wed, 24 Jun 2026 22:49:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
     "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
@@ -356,13 +369,6 @@
     "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
     "url": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
     "date": "Tue, 23 Jun 2026 14:24:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-    "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-    "date": "Tue, 23 Jun 2026 11:08:40 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +469,7 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1017,
+    "stars": 1022,
     "lang": "TypeScript"
    },
    {
@@ -517,13 +523,13 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 122,
+    "stars": 133,
     "lang": "TypeScript"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 119,
+    "stars": 120,
     "lang": "Python"
    }
   ],
@@ -629,30 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-20971: Samsung Android kernel UAF affecting Galaxy S9-S25",
-    "url": "https://www.reddit.com/r/netsec/comments/1uea8bx/cve202620971_samsung_android_kernel_uaf_affecting/",
-    "date": "2026-06-24T10:55:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
     "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
     "date": "2026-06-24T16:34:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "TanStack npm compromise: 42 packages published with valid SLSA provenance via OIDC token theft from runner memory",
-    "url": "https://www.reddit.com/r/netsec/comments/1uehrug/tanstack_npm_compromise_42_packages_published/",
-    "date": "2026-06-24T16:07:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "No Side to Take: Political Indifference Inside the 4vps.su Leak",
-    "url": "https://www.reddit.com/r/netsec/comments/1uea2jn/no_side_to_take_political_indifference_inside_the/",
-    "date": "2026-06-24T10:46:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -695,6 +680,27 @@
     "title": "Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530",
     "url": "https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/",
     "date": "2026-06-19T19:15:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration",
+    "url": "https://www.reddit.com/r/netsec/comments/1u9y7yw/squidbleed_cve202647729_heartbleedstyle/",
+    "date": "2026-06-19T10:21:41+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)",
+    "url": "https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/",
+    "date": "2026-06-19T13:27:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance",
+    "url": "https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/",
+    "date": "2026-06-18T18:05:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
