@@ -1,30 +1,90 @@
 {
- "generatedAt": "2026-06-24T08:35:32.794Z",
+ "generatedAt": "2026-06-24T12:03:08.209Z",
  "sources": {
   "cve": [
    {
-    "title": "MAL-2026-6379 — Malicious code in simplisafe-gatsby (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6379",
-    "score": null,
-    "date": "2026-06-24T07:35:59Z"
+    "title": "CVE-2026-56052 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in FunnelKit Funnel Builder by FunnelKit ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56052",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:49Z"
    },
    {
-    "title": "MAL-2026-6290 — Malicious code in toorc (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-6290",
-    "score": null,
-    "date": "2026-06-23T12:07:57Z"
+    "title": "CVE-2026-7761 — The Ultimate Member plugin for WordPress is vulnerable to Account Takeover via Password Reset Link Disclosure in all versions up to and incl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7761",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:49Z"
    },
    {
-    "title": "MAL-2026-6289 — Malicious code in equest (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-6289",
-    "score": null,
-    "date": "2026-06-23T12:07:23Z"
+    "title": "CVE-2026-10745 — Improper output neutralization for logs vulnerability in upKeeper Solutions upKeeper Instant Privilege Access on Windows allows Log Injectio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10745",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:49Z"
    },
    {
-    "title": "MAL-2026-6280 — Malicious code in ip-rotat (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-6280",
-    "score": null,
-    "date": "2026-06-23T10:23:00Z"
+    "title": "CVE-2026-9179 — The WP Forms Connector plugin for WordPress is vulnerable to SQL Injection via the 'order' parameter of the /wp-json/wp/v3/post/list REST en",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9179",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-9643 — The WP Meta SEO plugin for WordPress is vulnerable to Unauthenticated Stored Cross-Site Scripting via the REQUEST_URI server variable in all",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9643",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-9178 — The WP Forms Connector plugin for WordPress is vulnerable to Information Exposure in all versions up to, and including, 1.8. The plugin regi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9178",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-8705 — The ClearSale Total plugin for WordPress is vulnerable to SQL Injection via the `pagseguro[metodo]` POST parameter of the `clearsale_total_p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8705",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-4297 — The Welcome Software Publishing plugin for WordPress is vulnerable to Arbitrary Options Update in all versions up to and including 0.0.31. T",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4297",
+    "score": 7.5,
+    "date": "2026-06-24T09:30:46Z"
+   },
+   {
+    "title": "CVE-2026-9175 — The Devs Accounting – Simple Accounting and Invoicing Solution plugin for WordPress is vulnerable to Missing Authorization in all versions u",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9175",
+    "score": 5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-9612 — The WhatsOrder – Instant Checkout for WooCommerce plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9612",
+    "score": 5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-9183 — The 24liveblog - live blog tool plugin for WordPress is vulnerable to Exposure of Sensitive Information in versions up to, and including, 2.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9183",
+    "score": 5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-9724 — The MotorDesk plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.1.2. This is due to m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9724",
+    "score": 5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-9721 — The Book a Room Event Calendar plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.9. T",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9721",
+    "score": 5,
+    "date": "2026-06-24T09:30:47Z"
+   },
+   {
+    "title": "CVE-2026-8905 — The Osiris Signature Banner plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.5. This",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8905",
+    "score": 5,
+    "date": "2026-06-24T09:30:47Z"
    }
   ],
   "kev": [
@@ -229,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+    "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+    "date": "Wed, 24 Jun 2026 14:25:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
     "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
     "date": "Wed, 24 Jun 2026 12:20:38 +0530",
@@ -304,16 +371,16 @@
     "date": "Mon, 22 Jun 2026 21:59:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-    "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-    "date": "Mon, 22 Jun 2026 21:43:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+    "url": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+    "date": "Wed, 24 Jun 2026 06:41:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
@@ -390,26 +457,19 @@
     "date": "Mon, 22 Jun 2026 17:52:18 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
-    "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-    "date": "Mon, 22 Jun 2026 17:05:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6180,
+    "stars": 6184,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 990,
+    "stars": 998,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +517,7 @@
    {
     "title": "AdvDebug/Brovan — Brovan is a user-mode x86_64 binary emulator for your malware analysis & reverse engineering.",
     "url": "https://github.com/AdvDebug/Brovan",
-    "stars": 140,
+    "stars": 141,
     "lang": "C#"
    },
    {
@@ -575,6 +635,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CVE-2026-20971: Samsung Android kernel UAF affecting Galaxy S9-S25",
+    "url": "https://www.reddit.com/r/netsec/comments/1uea8bx/cve202620971_samsung_android_kernel_uaf_affecting/",
+    "date": "2026-06-24T10:55:20+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "No Side to Take: Political Indifference Inside the 4vps.su Leak",
+    "url": "https://www.reddit.com/r/netsec/comments/1uea2jn/no_side_to_take_political_indifference_inside_the/",
+    "date": "2026-06-24T10:46:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Cloudflare patches Copy-Fail across every server in two days",
     "url": "https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/",
     "date": "2026-06-23T10:18:55+00:00",
@@ -627,20 +701,6 @@
     "title": "OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)",
     "url": "https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/",
     "date": "2026-06-19T13:27:18+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance",
-    "url": "https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/",
-    "date": "2026-06-18T18:05:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Would you like some malware served at the very top of DuckDuckGo?",
-    "url": "https://www.reddit.com/r/netsec/comments/1u93j1m/would_you_like_some_malware_served_at_the_very/",
-    "date": "2026-06-18T11:20:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
