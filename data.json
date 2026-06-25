@@ -1,66 +1,42 @@
 {
- "generatedAt": "2026-06-25T18:28:19.250Z",
+ "generatedAt": "2026-06-25T21:04:10.273Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-48713 — i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48713",
-    "score": 9.5,
-    "date": "2026-06-25T17:28:46Z"
-   },
-   {
-    "title": "CVE-2026-48714 — i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48714",
-    "score": 9.5,
-    "date": "2026-06-25T17:28:12Z"
-   },
-   {
-    "title": "CVE-2026-46560 — OpenAM: Unauthenticated Authentication Bypass via RADIUS Spoofing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46560",
-    "score": 7.5,
-    "date": "2026-06-25T17:22:24Z"
-   },
-   {
-    "title": "CVE-2026-46498 — OpenAM Arbitrary OAuth Token Minting via Push Registration",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46498",
-    "score": 7.5,
-    "date": "2026-06-25T17:07:58Z"
-   },
-   {
-    "title": "CVE-2026-45794 — OpenAM has Unsafe Java Deserialization via SNS",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45794",
-    "score": 7.5,
-    "date": "2026-06-25T16:30:03Z"
-   },
-   {
-    "title": "GHSA-jf6w-2mvx-633j — justhtml: to_markdown() code-span blank-line breakout enables XSS",
-    "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
+    "title": "CVE-2026-48512 — MessagePack-CSharp: JSON conversion APIs can recurse without consistent depth enforcement",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48512",
     "score": 5,
-    "date": "2026-06-25T17:35:52Z"
+    "date": "2026-06-25T19:51:36Z"
    },
    {
-    "title": "CVE-2026-46406 — @anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46406",
+    "title": "CVE-2026-48511 — MessagePack-CSharp: ExpandoObject formatter can perform quadratic insertion work on untrusted maps",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48511",
     "score": 5,
-    "date": "2026-06-25T16:53:00Z"
+    "date": "2026-06-25T19:36:23Z"
    },
    {
-    "title": "MAL-2026-6465 — Malicious code in chai-as-built (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6465",
-    "score": null,
-    "date": "2026-06-25T17:13:38Z"
+    "title": "CVE-2026-48510 — MessagePack-CSharp: LZ4 decompression allocates from unbounded declared output lengths",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48510",
+    "score": 5,
+    "date": "2026-06-25T18:53:44Z"
    },
    {
-    "title": "MAL-2026-6466 — Malicious code in gx-npm-feature-flags (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6466",
+    "title": "MAL-2026-6473 — Malicious code in colorpicker-ui (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6473",
     "score": null,
-    "date": "2026-06-25T17:06:05Z"
+    "date": "2026-06-25T20:16:17Z"
    },
    {
-    "title": "MAL-2026-6464 — Malicious code in @colibri-event-types/megamarket-ru-web (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6464",
+    "title": "MAL-2026-6470 — Malicious code in chlklib (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6470",
     "score": null,
-    "date": "2026-06-25T17:00:25Z"
+    "date": "2026-06-25T18:27:36Z"
+   },
+   {
+    "title": "MAL-2026-6435 — Malicious code in serverless-leo (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6435",
+    "score": null,
+    "date": "2026-06-24T23:04:55Z"
    }
   ],
   "kev": [
@@ -179,88 +155,88 @@
   ],
   "adv": [
    {
+    "title": "MessagePack-CSharp: JSON conversion APIs can recurse without consistent depth enforcement",
+    "url": "https://github.com/advisories/GHSA-cj9g-3mj2-g8vv",
+    "score": null,
+    "ghsa": "GHSA-cj9g-3mj2-g8vv",
+    "date": "2026-06-25T19:51:36Z"
+   },
+   {
+    "title": "MessagePack-CSharp: ExpandoObject formatter can perform quadratic insertion work on untrusted maps",
+    "url": "https://github.com/advisories/GHSA-2x83-8g95-xh59",
+    "score": 7.5,
+    "ghsa": "GHSA-2x83-8g95-xh59",
+    "date": "2026-06-25T19:36:23Z"
+   },
+   {
+    "title": "MessagePack-CSharp: LZ4 decompression allocates from unbounded declared output lengths",
+    "url": "https://github.com/advisories/GHSA-v72x-2h86-7f8m",
+    "score": 7.5,
+    "ghsa": "GHSA-v72x-2h86-7f8m",
+    "date": "2026-06-25T18:53:44Z"
+   },
+   {
+    "title": "MessagePack-CSharp: ASP.NET Core MessagePackInputFormatter defaults to TrustedData for HTTP request bodies",
+    "url": "https://github.com/advisories/GHSA-2f33-pr97-265q",
+    "score": null,
+    "ghsa": "GHSA-2f33-pr97-265q",
+    "date": "2026-06-25T18:52:46Z"
+   },
+   {
+    "title": "Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
+    "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
+    "score": 8.8,
+    "ghsa": "GHSA-qcqw-jwxc-2hqg",
+    "date": "2026-06-25T18:48:39Z"
+   },
+   {
+    "title": "MessagePack-CSharp: MessagePackReader.Skip can recurse without enforcing maximum object graph depth",
+    "url": "https://github.com/advisories/GHSA-vh6j-jc39-fggf",
+    "score": 7.5,
+    "ghsa": "GHSA-vh6j-jc39-fggf",
+    "date": "2026-06-25T18:46:24Z"
+   },
+   {
+    "title": "Filament: Multi-factor authentication (app) recovery codes can still be used multiple times via concurrent submission",
+    "url": "https://github.com/advisories/GHSA-mc5j-f6wx-h9qh",
+    "score": 7.4,
+    "ghsa": "GHSA-mc5j-f6wx-h9qh",
+    "date": "2026-06-25T18:45:45Z"
+   },
+   {
+    "title": "opentelemetry_sdk has unbounded memory allocation in W3C Baggage propagation",
+    "url": "https://github.com/advisories/GHSA-w9wp-h8wv-79jx",
+    "score": 5.3,
+    "ghsa": "GHSA-w9wp-h8wv-79jx",
+    "date": "2026-06-25T18:40:04Z"
+   },
+   {
+    "title": "MessagePack-CSharp: Denial of service vulnerabilities can swamp the CPU or crash the process with stack and heap overflows",
+    "url": "https://github.com/advisories/GHSA-382j-8mxh-c7x2",
+    "score": 7.5,
+    "ghsa": "GHSA-382j-8mxh-c7x2",
+    "date": "2026-06-25T18:35:48Z"
+   },
+   {
+    "title": "amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
+    "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
+    "score": 7.1,
+    "ghsa": "GHSA-g697-2xrc-gc46",
+    "date": "2026-06-25T18:34:18Z"
+   },
+   {
+    "title": "LangGraph SDK has unsafe URL path construction",
+    "url": "https://github.com/advisories/GHSA-w39p-vh2g-g8g5",
+    "score": 4.2,
+    "ghsa": "GHSA-w39p-vh2g-g8g5",
+    "date": "2026-06-25T18:32:35Z"
+   },
+   {
     "title": "LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
     "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
     "score": 6.8,
     "ghsa": "GHSA-fjqc-hq36-qh5p",
     "date": "2026-06-25T18:25:42Z"
-   },
-   {
-    "title": "chi Has an IP Spoofing Vulnerability in `middleware.RealIP`",
-    "url": "https://github.com/advisories/GHSA-3fxj-6jh8-hvhx",
-    "score": null,
-    "ghsa": "GHSA-3fxj-6jh8-hvhx",
-    "date": "2026-06-25T18:21:37Z"
-   },
-   {
-    "title": "chi's RealIP Middleware allows IP spoofing via unvalidated X-Forwarded-For header",
-    "url": "https://github.com/advisories/GHSA-rjr7-jggh-pgcp",
-    "score": 7.5,
-    "ghsa": "GHSA-rjr7-jggh-pgcp",
-    "date": "2026-06-25T18:19:15Z"
-   },
-   {
-    "title": "chi Middleware Vulnerable to Potential IP Spoofing via `X-Forwarded-For` Header in `Request.RemoteAddr` Resolution",
-    "url": "https://github.com/advisories/GHSA-9g5q-2w5x-hmxf",
-    "score": 7.5,
-    "ghsa": "GHSA-9g5q-2w5x-hmxf",
-    "date": "2026-06-25T18:18:56Z"
-   },
-   {
-    "title": "FileBrowser: Missing Rate Limiting on Authentication Endpoint Enables Brute Force Attacks",
-    "url": "https://github.com/advisories/GHSA-r4v7-6wcg-ghj5",
-    "score": 6.5,
-    "ghsa": "GHSA-r4v7-6wcg-ghj5",
-    "date": "2026-06-25T18:18:12Z"
-   },
-   {
-    "title": "fixurjavainstall: Previous Fuji versions can accidentally wipe `/usr/share/man/man8`",
-    "url": "https://github.com/advisories/GHSA-fq3w-p4fg-mw73",
-    "score": 2,
-    "ghsa": "GHSA-fq3w-p4fg-mw73",
-    "date": "2026-06-25T18:00:18Z"
-   },
-   {
-    "title": "neotoma has tenant isolation gap in relationship query endpoints",
-    "url": "https://github.com/advisories/GHSA-wrr4-782v-jhwh",
-    "score": 2,
-    "ghsa": "GHSA-wrr4-782v-jhwh",
-    "date": "2026-06-25T17:46:49Z"
-   },
-   {
-    "title": "justhtml: to_markdown() code-span blank-line breakout enables XSS",
-    "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
-    "score": 6.1,
-    "ghsa": "GHSA-jf6w-2mvx-633j",
-    "date": "2026-06-25T17:35:52Z"
-   },
-   {
-    "title": "i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
-    "url": "https://github.com/advisories/GHSA-2933-q333-qg83",
-    "score": 9.1,
-    "ghsa": "GHSA-2933-q333-qg83",
-    "date": "2026-06-25T17:28:46Z"
-   },
-   {
-    "title": "i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
-    "url": "https://github.com/advisories/GHSA-f49m-vf83-692w",
-    "score": 9.1,
-    "ghsa": "GHSA-f49m-vf83-692w",
-    "date": "2026-06-25T17:28:12Z"
-   },
-   {
-    "title": "OpenAM: Unauthenticated Authentication Bypass via RADIUS Spoofing",
-    "url": "https://github.com/advisories/GHSA-386j-6m86-78f9",
-    "score": 7.5,
-    "ghsa": "GHSA-386j-6m86-78f9",
-    "date": "2026-06-25T17:22:24Z"
-   },
-   {
-    "title": "OpenAM Arbitrary OAuth Token Minting via Push Registration",
-    "url": "https://github.com/advisories/GHSA-cj8f-2fhf-826r",
-    "score": 7.5,
-    "ghsa": "GHSA-cj8f-2fhf-826r",
-    "date": "2026-06-25T17:07:58Z"
    }
   ],
   "thn": [
@@ -351,6 +327,20 @@
   ],
   "bleep": [
    {
+    "title": "Order-tracking app Shop abused to push callback phishing attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+    "date": "Thu, 25 Jun 2026 15:45:48 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+    "date": "Thu, 25 Jun 2026 14:29:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
     "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
     "date": "Thu, 25 Jun 2026 12:23:19 -0400",
@@ -419,33 +409,19 @@
     "date": "Wed, 24 Jun 2026 10:35:15 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
-    "url": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-    "date": "Wed, 24 Jun 2026 10:35:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Securing the service desk: Why social engineering attacks keep succeeding",
-    "url": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
-    "date": "Wed, 24 Jun 2026 10:02:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6210,
+    "stars": 6212,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1067,
+    "stars": 1069,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +451,7 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 222,
+    "stars": 227,
     "lang": "TypeScript"
    },
    {
@@ -497,16 +473,16 @@
     "lang": "C++"
    },
    {
+    "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
+    "url": "https://github.com/tianchong-zerotemp/dianxing",
+    "stars": 147,
+    "lang": "—"
+   },
+   {
     "title": "AdvDebug/Brovan — Brovan is a user-mode x86_64 binary emulator for your malware analysis & reverse engineering.",
     "url": "https://github.com/AdvDebug/Brovan",
     "stars": 141,
     "lang": "C#"
-   },
-   {
-    "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
-    "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 140,
-    "lang": "—"
    }
   ],
   "hn": [
@@ -611,16 +587,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CargoWise WebTracker - The keys were in the cargo",
-    "url": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
-    "date": "2026-06-25T11:34:42+00:00",
+    "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
+    "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
+    "date": "2026-06-25T15:30:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
-    "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
-    "date": "2026-06-25T15:30:44+00:00",
+    "title": "CargoWise WebTracker - The keys were in the cargo",
+    "url": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
+    "date": "2026-06-25T11:34:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -693,8 +669,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1627,
+  "crit": 0,
+  "kev": 1629,
   "adv": 12,
   "feed": 48
  },
