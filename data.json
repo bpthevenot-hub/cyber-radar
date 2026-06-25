@@ -1,90 +1,66 @@
 {
- "generatedAt": "2026-06-25T15:19:34.692Z",
+ "generatedAt": "2026-06-25T18:28:19.250Z",
  "sources": {
   "cve": [
    {
-    "title": "OSV-2026-481 — Security exception in org.apache.lucene.analysis.miscellaneous.ASCIIFoldingFilter.foldToASCII",
-    "url": "https://github.com/advisories/OSV-2026-481",
-    "score": null,
-    "date": "2026-03-28T00:18:22.245546Z"
+    "title": "CVE-2026-48713 — i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48713",
+    "score": 9.5,
+    "date": "2026-06-25T17:28:46Z"
    },
    {
-    "title": "OSV-2025-253 — Security exception in org.apache.lucene.analysis.ckb.SoraniNormalizer.normalize",
-    "url": "https://github.com/advisories/OSV-2025-253",
-    "score": null,
-    "date": "2025-04-03T00:17:24.000398Z"
+    "title": "CVE-2026-48714 — i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48714",
+    "score": 9.5,
+    "date": "2026-06-25T17:28:12Z"
    },
    {
-    "title": "OSV-2024-1254 — Security exception in org.apache.lucene.util.ArrayUtil.growExact",
-    "url": "https://github.com/advisories/OSV-2024-1254",
-    "score": null,
-    "date": "2024-11-01T00:07:39.301298Z"
+    "title": "CVE-2026-46560 — OpenAM: Unauthenticated Authentication Bypass via RADIUS Spoofing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46560",
+    "score": 7.5,
+    "date": "2026-06-25T17:22:24Z"
    },
    {
-    "title": "OSV-2023-390 — Heap-buffer-overflow in sdhci_write",
-    "url": "https://github.com/advisories/OSV-2023-390",
-    "score": null,
-    "date": "2023-05-12T14:00:08.854823Z"
+    "title": "CVE-2026-46498 — OpenAM Arbitrary OAuth Token Minting via Push Registration",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46498",
+    "score": 7.5,
+    "date": "2026-06-25T17:07:58Z"
    },
    {
-    "title": "OSV-2023-307 — Heap-buffer-overflow in bit_read_BB",
-    "url": "https://github.com/advisories/OSV-2023-307",
-    "score": null,
-    "date": "2023-04-13T14:02:09.774988Z"
+    "title": "CVE-2026-45794 — OpenAM has Unsafe Java Deserialization via SNS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45794",
+    "score": 7.5,
+    "date": "2026-06-25T16:30:03Z"
    },
    {
-    "title": "OSV-2023-107 — Heap-buffer-overflow in DecodeBasicOcspResponse",
-    "url": "https://github.com/advisories/OSV-2023-107",
-    "score": null,
-    "date": "2023-02-25T13:00:07.390537Z"
+    "title": "GHSA-jf6w-2mvx-633j — justhtml: to_markdown() code-span blank-line breakout enables XSS",
+    "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
+    "score": 5,
+    "date": "2026-06-25T17:35:52Z"
    },
    {
-    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
-    "url": "https://github.com/advisories/OSV-2022-1259",
-    "score": null,
-    "date": "2022-12-13T13:00:46.870838Z"
+    "title": "CVE-2026-46406 — @anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46406",
+    "score": 5,
+    "date": "2026-06-25T16:53:00Z"
    },
    {
-    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
-    "url": "https://github.com/advisories/OSV-2022-1198",
+    "title": "MAL-2026-6465 — Malicious code in chai-as-built (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6465",
     "score": null,
-    "date": "2022-11-23T13:02:06.623044Z"
+    "date": "2026-06-25T17:13:38Z"
    },
    {
-    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
-    "url": "https://github.com/advisories/OSV-2022-1176",
+    "title": "MAL-2026-6466 — Malicious code in gx-npm-feature-flags (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6466",
     "score": null,
-    "date": "2022-11-18T13:00:26.857477Z"
+    "date": "2026-06-25T17:06:05Z"
    },
    {
-    "title": "OSV-2022-937 — Use-after-poison in rx_ip",
-    "url": "https://github.com/advisories/OSV-2022-937",
+    "title": "MAL-2026-6464 — Malicious code in @colibri-event-types/megamarket-ru-web (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6464",
     "score": null,
-    "date": "2022-09-23T00:02:21.434097Z"
-   },
-   {
-    "title": "OSV-2022-842 — Stack-buffer-overflow in wc_Shake256_Final",
-    "url": "https://github.com/advisories/OSV-2022-842",
-    "score": null,
-    "date": "2022-09-05T00:00:28.251072Z"
-   },
-   {
-    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
-    "url": "https://github.com/advisories/OSV-2022-714",
-    "score": null,
-    "date": "2022-08-15T00:00:47.794062Z"
-   },
-   {
-    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
-    "url": "https://github.com/advisories/OSV-2022-653",
-    "score": null,
-    "date": "2022-07-30T00:01:52.491112Z"
-   },
-   {
-    "title": "OSV-2022-581 — Heap-buffer-overflow in megasas_map_sgl",
-    "url": "https://github.com/advisories/OSV-2022-581",
-    "score": null,
-    "date": "2022-07-14T00:00:45.644503Z"
+    "date": "2026-06-25T17:00:25Z"
    }
   ],
   "kev": [
@@ -203,88 +179,88 @@
   ],
   "adv": [
    {
-    "title": "OliveTin has Unvalidated `ot_`-prefixed Arguments that Bypass Input Filtering",
-    "url": "https://github.com/advisories/GHSA-prj9-97mp-mwh2",
-    "score": 4.3,
-    "ghsa": "GHSA-prj9-97mp-mwh2",
-    "date": "2026-06-24T17:43:50Z"
+    "title": "LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
+    "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
+    "score": 6.8,
+    "ghsa": "GHSA-fjqc-hq36-qh5p",
+    "date": "2026-06-25T18:25:42Z"
    },
    {
-    "title": "OliveTin: ValidateArgumentType API Endpoint's Missing Authentication Allows Action and Argument Enumeration",
-    "url": "https://github.com/advisories/GHSA-f637-w7p2-m7fx",
-    "score": 3.7,
-    "ghsa": "GHSA-f637-w7p2-m7fx",
-    "date": "2026-06-24T17:41:01Z"
-   },
-   {
-    "title": "OliveTin has a Concurrent Template Parsing Race Condition which Leads to Cross-Request Command Contamination",
-    "url": "https://github.com/advisories/GHSA-7fq5-7wr8-rjwj",
-    "score": 7.5,
-    "ghsa": "GHSA-7fq5-7wr8-rjwj",
-    "date": "2026-06-24T17:38:12Z"
-   },
-   {
-    "title": "OpenAM Pre-auth User Profile Tampering via Anonymous SOAP Authn in Liberty IDPP/Discovery Endpoints",
-    "url": "https://github.com/advisories/GHSA-p462-xxwx-pqf4",
-    "score": 9.5,
-    "ghsa": "GHSA-p462-xxwx-pqf4",
-    "date": "2026-06-24T17:31:17Z"
-   },
-   {
-    "title": "OpenAM: Pre-auth RCE via Java Deserialization in WebAuthn Authenticator Storage",
-    "url": "https://github.com/advisories/GHSA-6c99-87fr-6q7r",
-    "score": 9.5,
-    "ghsa": "GHSA-6c99-87fr-6q7r",
-    "date": "2026-06-24T17:25:28Z"
-   },
-   {
-    "title": "Snipe-IT API Vulnerable to Cross-Tenant Accessory Injection",
-    "url": "https://github.com/advisories/GHSA-pwpj-p52h-q484",
-    "score": 8.5,
-    "ghsa": "GHSA-pwpj-p52h-q484",
-    "date": "2026-06-23T23:12:04Z"
-   },
-   {
-    "title": "Snipe-IT's S3 signature image retrieval lacks authorization before temporary URL",
-    "url": "https://github.com/advisories/GHSA-6mmj-jhqj-6c6q",
-    "score": 2,
-    "ghsa": "GHSA-6mmj-jhqj-6c6q",
-    "date": "2026-06-23T23:11:26Z"
-   },
-   {
-    "title": "Snipe-IT has Improper Authorization in File Deletion (IDOR)",
-    "url": "https://github.com/advisories/GHSA-x667-r589-43m7",
-    "score": 2,
-    "ghsa": "GHSA-x667-r589-43m7",
-    "date": "2026-06-23T23:06:59Z"
-   },
-   {
-    "title": "Snipe-IT Vulnerable to Privilege Escalation via Missing admin Permission Check in User Creation",
-    "url": "https://github.com/advisories/GHSA-hf68-g98v-wp9g",
+    "title": "chi Has an IP Spoofing Vulnerability in `middleware.RealIP`",
+    "url": "https://github.com/advisories/GHSA-3fxj-6jh8-hvhx",
     "score": null,
-    "ghsa": "GHSA-hf68-g98v-wp9g",
-    "date": "2026-06-23T23:06:18Z"
+    "ghsa": "GHSA-3fxj-6jh8-hvhx",
+    "date": "2026-06-25T18:21:37Z"
    },
    {
-    "title": "Snipe-IT has Multi-Tenancy Bypass via Bulk Asset Update",
-    "url": "https://github.com/advisories/GHSA-33g4-646g-qwmm",
-    "score": 6.3,
-    "ghsa": "GHSA-33g4-646g-qwmm",
-    "date": "2026-06-23T23:03:47Z"
+    "title": "chi's RealIP Middleware allows IP spoofing via unvalidated X-Forwarded-For header",
+    "url": "https://github.com/advisories/GHSA-rjr7-jggh-pgcp",
+    "score": 7.5,
+    "ghsa": "GHSA-rjr7-jggh-pgcp",
+    "date": "2026-06-25T18:19:15Z"
    },
    {
-    "title": "Snipe-IT has a 2FA reset privilege bypass",
-    "url": "https://github.com/advisories/GHSA-6x4j-8954-5hxm",
-    "score": 5.8,
-    "ghsa": "GHSA-6x4j-8954-5hxm",
-    "date": "2026-06-23T23:03:20Z"
+    "title": "chi Middleware Vulnerable to Potential IP Spoofing via `X-Forwarded-For` Header in `Request.RemoteAddr` Resolution",
+    "url": "https://github.com/advisories/GHSA-9g5q-2w5x-hmxf",
+    "score": 7.5,
+    "ghsa": "GHSA-9g5q-2w5x-hmxf",
+    "date": "2026-06-25T18:18:56Z"
    },
    {
-    "title": "Snipe-IT Vulnerable to User Account Escalation via CSV Import",
-    "url": "https://github.com/advisories/GHSA-p68w-rgmg-3c2v",
+    "title": "FileBrowser: Missing Rate Limiting on Authentication Endpoint Enables Brute Force Attacks",
+    "url": "https://github.com/advisories/GHSA-r4v7-6wcg-ghj5",
     "score": 6.5,
-    "ghsa": "GHSA-p68w-rgmg-3c2v",
-    "date": "2026-06-23T23:02:03Z"
+    "ghsa": "GHSA-r4v7-6wcg-ghj5",
+    "date": "2026-06-25T18:18:12Z"
+   },
+   {
+    "title": "fixurjavainstall: Previous Fuji versions can accidentally wipe `/usr/share/man/man8`",
+    "url": "https://github.com/advisories/GHSA-fq3w-p4fg-mw73",
+    "score": 2,
+    "ghsa": "GHSA-fq3w-p4fg-mw73",
+    "date": "2026-06-25T18:00:18Z"
+   },
+   {
+    "title": "neotoma has tenant isolation gap in relationship query endpoints",
+    "url": "https://github.com/advisories/GHSA-wrr4-782v-jhwh",
+    "score": 2,
+    "ghsa": "GHSA-wrr4-782v-jhwh",
+    "date": "2026-06-25T17:46:49Z"
+   },
+   {
+    "title": "justhtml: to_markdown() code-span blank-line breakout enables XSS",
+    "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
+    "score": 6.1,
+    "ghsa": "GHSA-jf6w-2mvx-633j",
+    "date": "2026-06-25T17:35:52Z"
+   },
+   {
+    "title": "i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
+    "url": "https://github.com/advisories/GHSA-2933-q333-qg83",
+    "score": 9.1,
+    "ghsa": "GHSA-2933-q333-qg83",
+    "date": "2026-06-25T17:28:46Z"
+   },
+   {
+    "title": "i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
+    "url": "https://github.com/advisories/GHSA-f49m-vf83-692w",
+    "score": 9.1,
+    "ghsa": "GHSA-f49m-vf83-692w",
+    "date": "2026-06-25T17:28:12Z"
+   },
+   {
+    "title": "OpenAM: Unauthenticated Authentication Bypass via RADIUS Spoofing",
+    "url": "https://github.com/advisories/GHSA-386j-6m86-78f9",
+    "score": 7.5,
+    "ghsa": "GHSA-386j-6m86-78f9",
+    "date": "2026-06-25T17:22:24Z"
+   },
+   {
+    "title": "OpenAM Arbitrary OAuth Token Minting via Push Registration",
+    "url": "https://github.com/advisories/GHSA-cj8f-2fhf-826r",
+    "score": 7.5,
+    "ghsa": "GHSA-cj8f-2fhf-826r",
+    "date": "2026-06-25T17:07:58Z"
    }
   ],
   "thn": [
@@ -375,6 +351,20 @@
   ],
   "bleep": [
    {
+    "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
+    "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+    "date": "Thu, 25 Jun 2026 12:23:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "PirloTV sports piracy network disrupted as 44 domains seized",
+    "url": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+    "date": "Thu, 25 Jun 2026 11:36:56 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
     "url": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
     "date": "Thu, 25 Jun 2026 11:00:00 -0400",
@@ -443,33 +433,19 @@
     "date": "Wed, 24 Jun 2026 10:02:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
-    "url": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
-    "date": "Wed, 24 Jun 2026 06:41:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-    "date": "Tue, 23 Jun 2026 17:48:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6208,
+    "stars": 6210,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1060,
+    "stars": 1067,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +475,7 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 216,
+    "stars": 222,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +505,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 137,
+    "stars": 140,
     "lang": "—"
    }
   ],
@@ -642,6 +618,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
+    "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
+    "date": "2026-06-25T15:30:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
     "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
     "date": "2026-06-24T16:34:14+00:00",
@@ -696,13 +679,6 @@
     "date": "2026-06-19T10:21:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)",
-    "url": "https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/",
-    "date": "2026-06-19T13:27:18+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1627,
   "adv": 12,
   "feed": 48
