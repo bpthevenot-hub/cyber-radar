@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-25T21:04:10.273Z",
+ "generatedAt": "2026-06-25T22:50:06.719Z",
  "sources": {
   "cve": [
    {
@@ -155,88 +155,88 @@
   ],
   "adv": [
    {
-    "title": "MessagePack-CSharp: JSON conversion APIs can recurse without consistent depth enforcement",
-    "url": "https://github.com/advisories/GHSA-cj9g-3mj2-g8vv",
-    "score": null,
-    "ghsa": "GHSA-cj9g-3mj2-g8vv",
-    "date": "2026-06-25T19:51:36Z"
+    "title": "golang.org/x/crypto/ssh: Invoking VerifiedPublicKeyCallback permissions skip enforcement",
+    "url": "https://github.com/advisories/GHSA-x527-x647-q7gg",
+    "score": 10,
+    "ghsa": "GHSA-x527-x647-q7gg",
+    "date": "2026-06-25T22:23:16Z"
    },
    {
-    "title": "MessagePack-CSharp: ExpandoObject formatter can perform quadratic insertion work on untrusted maps",
-    "url": "https://github.com/advisories/GHSA-2x83-8g95-xh59",
+    "title": "golang.org/x/crypto/ssh/knownhosts vulnerable to auth bypass via unenforced @revoked status",
+    "url": "https://github.com/advisories/GHSA-5cgq-3rg8-m6cv",
+    "score": 9.1,
+    "ghsa": "GHSA-5cgq-3rg8-m6cv",
+    "date": "2026-06-25T22:22:04Z"
+   },
+   {
+    "title": "golang.org/x/crypto/ssh vulnerable to infinite loop on large channel writes",
+    "url": "https://github.com/advisories/GHSA-rm3j-f69w-wqmq",
+    "score": 9.1,
+    "ghsa": "GHSA-rm3j-f69w-wqmq",
+    "date": "2026-06-25T22:21:40Z"
+   },
+   {
+    "title": "golang.org/x/crypto/ssh: FIDO/U2F security key physical presence check can be bypassed",
+    "url": "https://github.com/advisories/GHSA-89gr-r52h-f8rx",
+    "score": 9.1,
+    "ghsa": "GHSA-89gr-r52h-f8rx",
+    "date": "2026-06-25T22:21:12Z"
+   },
+   {
+    "title": "golang.org/x/crypto/ssh: Invoking pathological RSA/DSA parameters may cause DoS",
+    "url": "https://github.com/advisories/GHSA-w879-237q-wc7r",
     "score": 7.5,
-    "ghsa": "GHSA-2x83-8g95-xh59",
-    "date": "2026-06-25T19:36:23Z"
+    "ghsa": "GHSA-w879-237q-wc7r",
+    "date": "2026-06-25T22:18:43Z"
    },
    {
-    "title": "MessagePack-CSharp: LZ4 decompression allocates from unbounded declared output lengths",
-    "url": "https://github.com/advisories/GHSA-v72x-2h86-7f8m",
-    "score": 7.5,
-    "ghsa": "GHSA-v72x-2h86-7f8m",
-    "date": "2026-06-25T18:53:44Z"
+    "title": "golang.org/x/crypto/ssh: Invoking client can cause server deadlock on unexpected responses",
+    "url": "https://github.com/advisories/GHSA-vgwf-h737-ff37",
+    "score": 9.1,
+    "ghsa": "GHSA-vgwf-h737-ff37",
+    "date": "2026-06-25T22:18:17Z"
    },
    {
-    "title": "MessagePack-CSharp: ASP.NET Core MessagePackInputFormatter defaults to TrustedData for HTTP request bodies",
-    "url": "https://github.com/advisories/GHSA-2f33-pr97-265q",
-    "score": null,
-    "ghsa": "GHSA-2f33-pr97-265q",
-    "date": "2026-06-25T18:52:46Z"
+    "title": "golang.org/x/crypto/ssh: Invoking memory leak when rejecting channels can lead to DoS",
+    "url": "https://github.com/advisories/GHSA-qpw4-5x99-6vjp",
+    "score": 6.5,
+    "ghsa": "GHSA-qpw4-5x99-6vjp",
+    "date": "2026-06-25T22:15:43Z"
    },
    {
-    "title": "Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
-    "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
-    "score": 8.8,
-    "ghsa": "GHSA-qcqw-jwxc-2hqg",
-    "date": "2026-06-25T18:48:39Z"
-   },
-   {
-    "title": "MessagePack-CSharp: MessagePackReader.Skip can recurse without enforcing maximum object graph depth",
-    "url": "https://github.com/advisories/GHSA-vh6j-jc39-fggf",
-    "score": 7.5,
-    "ghsa": "GHSA-vh6j-jc39-fggf",
-    "date": "2026-06-25T18:46:24Z"
-   },
-   {
-    "title": "Filament: Multi-factor authentication (app) recovery codes can still be used multiple times via concurrent submission",
-    "url": "https://github.com/advisories/GHSA-mc5j-f6wx-h9qh",
-    "score": 7.4,
-    "ghsa": "GHSA-mc5j-f6wx-h9qh",
-    "date": "2026-06-25T18:45:45Z"
-   },
-   {
-    "title": "opentelemetry_sdk has unbounded memory allocation in W3C Baggage propagation",
-    "url": "https://github.com/advisories/GHSA-w9wp-h8wv-79jx",
+    "title": "golang.org/x/crypto/ssh is vulnerable to invoking server panic during CheckHostKey/Authenticate flow",
+    "url": "https://github.com/advisories/GHSA-78mq-xcr3-xm33",
     "score": 5.3,
-    "ghsa": "GHSA-w9wp-h8wv-79jx",
-    "date": "2026-06-25T18:40:04Z"
+    "ghsa": "GHSA-78mq-xcr3-xm33",
+    "date": "2026-06-25T22:15:17Z"
    },
    {
-    "title": "MessagePack-CSharp: Denial of service vulnerabilities can swamp the CPU or crash the process with stack and heap overflows",
-    "url": "https://github.com/advisories/GHSA-382j-8mxh-c7x2",
+    "title": "golang.org/x/crypto/ssh vulnerable to invoking bypass of certificate restrictions",
+    "url": "https://github.com/advisories/GHSA-45gg-vh54-h5m9",
+    "score": 6.3,
+    "ghsa": "GHSA-45gg-vh54-h5m9",
+    "date": "2026-06-25T22:14:38Z"
+   },
+   {
+    "title": "golang.org/x/crypto/ssh: Invoking byte arithmetic causes underflow and panic",
+    "url": "https://github.com/advisories/GHSA-q4h4-gmj2-qvw2",
     "score": 7.5,
-    "ghsa": "GHSA-382j-8mxh-c7x2",
-    "date": "2026-06-25T18:35:48Z"
+    "ghsa": "GHSA-q4h4-gmj2-qvw2",
+    "date": "2026-06-25T22:14:22Z"
    },
    {
-    "title": "amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
-    "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
-    "score": 7.1,
-    "ghsa": "GHSA-g697-2xrc-gc46",
-    "date": "2026-06-25T18:34:18Z"
+    "title": "golang.org/x/crypto/ssh/agent doesn't drop invoking agent constraints when forwarding keys",
+    "url": "https://github.com/advisories/GHSA-f5wc-c3c7-36mc",
+    "score": 9.1,
+    "ghsa": "GHSA-f5wc-c3c7-36mc",
+    "date": "2026-06-25T22:14:00Z"
    },
    {
-    "title": "LangGraph SDK has unsafe URL path construction",
-    "url": "https://github.com/advisories/GHSA-w39p-vh2g-g8g5",
-    "score": 4.2,
-    "ghsa": "GHSA-w39p-vh2g-g8g5",
-    "date": "2026-06-25T18:32:35Z"
-   },
-   {
-    "title": "LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
-    "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
-    "score": 6.8,
-    "ghsa": "GHSA-fjqc-hq36-qh5p",
-    "date": "2026-06-25T18:25:42Z"
+    "title": "golang.org/x/crypto/ssh/agent doesn't enforce invoking key constraints",
+    "url": "https://github.com/advisories/GHSA-jppx-rxg9-jmrx",
+    "score": 9.1,
+    "ghsa": "GHSA-jppx-rxg9-jmrx",
+    "date": "2026-06-25T22:13:31Z"
    }
   ],
   "thn": [
@@ -327,6 +327,13 @@
   ],
   "bleep": [
    {
+    "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+    "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+    "date": "Thu, 25 Jun 2026 18:37:42 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Order-tracking app Shop abused to push callback phishing attacks",
     "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
     "date": "Thu, 25 Jun 2026 15:45:48 -0400",
@@ -402,26 +409,19 @@
     "date": "Wed, 24 Jun 2026 16:58:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-    "date": "Wed, 24 Jun 2026 10:35:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6212,
+    "stars": 6214,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1069,
+    "stars": 1071,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 147,
+    "stars": 148,
     "lang": "—"
    },
    {
