@@ -1,12 +1,90 @@
 {
- "generatedAt": "2026-06-25T11:58:35.770Z",
+ "generatedAt": "2026-06-25T15:19:34.692Z",
  "sources": {
   "cve": [
    {
-    "title": "MAL-2026-6429 — Malicious code in leo-logger (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6429",
+    "title": "OSV-2026-481 — Security exception in org.apache.lucene.analysis.miscellaneous.ASCIIFoldingFilter.foldToASCII",
+    "url": "https://github.com/advisories/OSV-2026-481",
     "score": null,
-    "date": "2026-06-24T23:04:55Z"
+    "date": "2026-03-28T00:18:22.245546Z"
+   },
+   {
+    "title": "OSV-2025-253 — Security exception in org.apache.lucene.analysis.ckb.SoraniNormalizer.normalize",
+    "url": "https://github.com/advisories/OSV-2025-253",
+    "score": null,
+    "date": "2025-04-03T00:17:24.000398Z"
+   },
+   {
+    "title": "OSV-2024-1254 — Security exception in org.apache.lucene.util.ArrayUtil.growExact",
+    "url": "https://github.com/advisories/OSV-2024-1254",
+    "score": null,
+    "date": "2024-11-01T00:07:39.301298Z"
+   },
+   {
+    "title": "OSV-2023-390 — Heap-buffer-overflow in sdhci_write",
+    "url": "https://github.com/advisories/OSV-2023-390",
+    "score": null,
+    "date": "2023-05-12T14:00:08.854823Z"
+   },
+   {
+    "title": "OSV-2023-307 — Heap-buffer-overflow in bit_read_BB",
+    "url": "https://github.com/advisories/OSV-2023-307",
+    "score": null,
+    "date": "2023-04-13T14:02:09.774988Z"
+   },
+   {
+    "title": "OSV-2023-107 — Heap-buffer-overflow in DecodeBasicOcspResponse",
+    "url": "https://github.com/advisories/OSV-2023-107",
+    "score": null,
+    "date": "2023-02-25T13:00:07.390537Z"
+   },
+   {
+    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
+    "url": "https://github.com/advisories/OSV-2022-1259",
+    "score": null,
+    "date": "2022-12-13T13:00:46.870838Z"
+   },
+   {
+    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
+    "url": "https://github.com/advisories/OSV-2022-1198",
+    "score": null,
+    "date": "2022-11-23T13:02:06.623044Z"
+   },
+   {
+    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
+    "url": "https://github.com/advisories/OSV-2022-1176",
+    "score": null,
+    "date": "2022-11-18T13:00:26.857477Z"
+   },
+   {
+    "title": "OSV-2022-937 — Use-after-poison in rx_ip",
+    "url": "https://github.com/advisories/OSV-2022-937",
+    "score": null,
+    "date": "2022-09-23T00:02:21.434097Z"
+   },
+   {
+    "title": "OSV-2022-842 — Stack-buffer-overflow in wc_Shake256_Final",
+    "url": "https://github.com/advisories/OSV-2022-842",
+    "score": null,
+    "date": "2022-09-05T00:00:28.251072Z"
+   },
+   {
+    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
+    "url": "https://github.com/advisories/OSV-2022-714",
+    "score": null,
+    "date": "2022-08-15T00:00:47.794062Z"
+   },
+   {
+    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
+    "url": "https://github.com/advisories/OSV-2022-653",
+    "score": null,
+    "date": "2022-07-30T00:01:52.491112Z"
+   },
+   {
+    "title": "OSV-2022-581 — Heap-buffer-overflow in megasas_map_sgl",
+    "url": "https://github.com/advisories/OSV-2022-581",
+    "score": null,
+    "date": "2022-07-14T00:00:45.644503Z"
    }
   ],
   "kev": [
@@ -211,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+    "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+    "date": "Thu, 25 Jun 2026 19:42:52 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+    "url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+    "date": "Thu, 25 Jun 2026 17:54:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
     "url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
     "date": "Thu, 25 Jun 2026 16:47:31 +0530",
@@ -279,23 +371,30 @@
     "date": "Wed, 24 Jun 2026 12:20:38 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
-    "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-    "date": "Tue, 23 Jun 2026 23:50:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
-    "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-    "date": "Tue, 23 Jun 2026 20:46:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
+    "url": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
+    "date": "Thu, 25 Jun 2026 11:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Four Elevations of Effective Fraud Prevention",
+    "url": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
+    "date": "Thu, 25 Jun 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
+    "date": "Thu, 25 Jun 2026 08:12:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Google releases new privacy controls for activity history, personalization",
     "url": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
@@ -358,40 +457,19 @@
     "date": "Tue, 23 Jun 2026 17:48:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Tata Electronics confirms cyberattack as hackers leak data",
-    "url": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-    "date": "Tue, 23 Jun 2026 17:06:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 KB5095093 update rolls out new Point-in-Time restore feature",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
-    "date": "Tue, 23 Jun 2026 16:22:21 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
-    "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-    "date": "Tue, 23 Jun 2026 15:59:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6204,
+    "stars": 6208,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1051,
+    "stars": 1060,
     "lang": "TypeScript"
    },
    {
@@ -421,7 +499,7 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 197,
+    "stars": 216,
     "lang": "TypeScript"
    },
    {
@@ -451,7 +529,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 132,
+    "stars": 137,
     "lang": "—"
    }
   ],
