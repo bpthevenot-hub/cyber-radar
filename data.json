@@ -1,42 +1,90 @@
 {
- "generatedAt": "2026-06-25T22:50:06.719Z",
+ "generatedAt": "2026-06-26T01:32:36.612Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-48512 — MessagePack-CSharp: JSON conversion APIs can recurse without consistent depth enforcement",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48512",
-    "score": 5,
-    "date": "2026-06-25T19:51:36Z"
+    "title": "CVE-2026-9222 — Setracker2 Android Companion App com.tgelec.setracker versions 3.1.5 and prior only require the password hash when authenticating with backe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9222",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:07Z"
    },
    {
-    "title": "CVE-2026-48511 — MessagePack-CSharp: ExpandoObject formatter can perform quadratic insertion work on untrusted maps",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48511",
-    "score": 5,
-    "date": "2026-06-25T19:36:23Z"
+    "title": "CVE-2026-40702 — WebSocket endpoints lack proper authentication mechanisms, enabling attackers to impersonate charging stations. As a result, attackers can e",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40702",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:06Z"
    },
    {
-    "title": "CVE-2026-48510 — MessagePack-CSharp: LZ4 decompression allocates from unbounded declared output lengths",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48510",
-    "score": 5,
-    "date": "2026-06-25T18:53:44Z"
+    "title": "CVE-2025-71334 — Flowise before 3.0.6 (affected versions 2.2.8 and earlier) contains an arbitrary file access vulnerability due to missing validation that th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71334",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:05Z"
    },
    {
-    "title": "MAL-2026-6473 — Malicious code in colorpicker-ui (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6473",
-    "score": null,
-    "date": "2026-06-25T20:16:17Z"
+    "title": "CVE-2025-71336 — Flowise before 3.0.6 (affected versions 2.2.7-patch.1 and earlier) contains an unsandboxed remote code execution vulnerability in the Custom",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71336",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:05Z"
    },
    {
-    "title": "MAL-2026-6470 — Malicious code in chlklib (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6470",
-    "score": null,
-    "date": "2026-06-25T18:27:36Z"
+    "title": "CVE-2025-71338 — Flowise contains a path traversal vulnerability in the /api/v1/document-store/loader/process endpoint that allows unauthenticated attackers ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71338",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:05Z"
    },
    {
-    "title": "MAL-2026-6435 — Malicious code in serverless-leo (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6435",
-    "score": null,
-    "date": "2026-06-24T23:04:55Z"
+    "title": "CVE-2025-71327 — Flowise contains an authentication bypass vulnerability in the unprotected /api/v1/account/register endpoint that allows unauthenticated att",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71327",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:04Z"
+   },
+   {
+    "title": "CVE-2025-71333 — Flowise through 2.2.4 contains an unauthenticated arbitrary file upload vulnerability in the /api/v1/attachments endpoint when storageType i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71333",
+    "score": 9.5,
+    "date": "2026-06-26T00:32:04Z"
+   },
+   {
+    "title": "CVE-2025-32911 — A flaw was found in libsoup, which is vulnerable to a use-after-free memory issue not on the heap in the soup_message_headers_get_content_di",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-32911",
+    "score": 9.5,
+    "date": "2025-04-15T18:31:45Z"
+   },
+   {
+    "title": "CVE-2026-9219 — Setracker2 Android Companion App com.tgelec.setracker versions 3.1.5 and prior have a predictable registration ID derived from IMEI. The enr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9219",
+    "score": 7.5,
+    "date": "2026-06-26T00:32:07Z"
+   },
+   {
+    "title": "CVE-2026-9221 — The Setracker2 Android Companion App (com.tgelec.setracker) versions 3.1.5 and earlier uses MD5 to generate a request signature for authenti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9221",
+    "score": 7.5,
+    "date": "2026-06-26T00:32:07Z"
+   },
+   {
+    "title": "CVE-2026-9220 — Setracker2 Android Companion App com.tgelec.setracker versions 3.1.5 and prior encrypts requests between the watch and its backend with stat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9220",
+    "score": 7.5,
+    "date": "2026-06-26T00:32:07Z"
+   },
+   {
+    "title": "CVE-2026-22879 — vtk vtk-dicom vtkDICOMItem::NewDataElement heap-based buffer overflow vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22879",
+    "score": 7.5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-50176 — The WebSocket Application Programming Interface lacks restrictions on the number of authentication requests. This absence of rate limiting m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50176",
+    "score": 7.5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-12992 — A flaw was found in Apicurio Registry. The WSDLReaderAccessor creates a wsdl4j WSDLReader without disabling the javax.wsdl.importDocuments f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12992",
+    "score": 7.5,
+    "date": "2026-06-26T00:32:05Z"
    }
   ],
   "kev": [
@@ -327,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+    "date": "Thu, 25 Jun 2026 18:53:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
     "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
     "date": "Thu, 25 Jun 2026 18:37:42 -0400",
@@ -402,26 +457,19 @@
     "date": "Wed, 24 Jun 2026 17:29:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-    "date": "Wed, 24 Jun 2026 16:58:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6214,
+    "stars": 6217,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1071,
+    "stars": 1073,
     "lang": "TypeScript"
    },
    {
@@ -431,27 +479,15 @@
     "lang": "Python"
    },
    {
-    "title": "ClouGence/open-cdm — A free and open-source database management tool, suitable for team use. It offers capabilities such as access ",
-    "url": "https://github.com/ClouGence/open-cdm",
-    "stars": 296,
-    "lang": "Java"
-   },
-   {
     "title": "trynullsec/nullsec-s1 — Security-native LLM system for AI-generated application security.",
     "url": "https://github.com/trynullsec/nullsec-s1",
     "stars": 269,
     "lang": "Python"
    },
    {
-    "title": "Asymptote-Labs/agent-beacon — Agent Beacon is the world's first open-source telemetry layer for AI agents wherever they run: locally, in CI,",
-    "url": "https://github.com/Asymptote-Labs/agent-beacon",
-    "stars": 262,
-    "lang": "Go"
-   },
-   {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 227,
+    "stars": 232,
     "lang": "TypeScript"
    },
    {
@@ -467,22 +503,34 @@
     "lang": "Python"
    },
    {
+    "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
+    "url": "https://github.com/tianchong-zerotemp/dianxing",
+    "stars": 153,
+    "lang": "—"
+   },
+   {
     "title": "nodiuus/nocturne — A bin2bin code virtualizer for x86-64 PE's",
     "url": "https://github.com/nodiuus/nocturne",
     "stars": 153,
     "lang": "C++"
    },
    {
-    "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
-    "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 148,
-    "lang": "—"
-   },
-   {
     "title": "AdvDebug/Brovan — Brovan is a user-mode x86_64 binary emulator for your malware analysis & reverse engineering.",
     "url": "https://github.com/AdvDebug/Brovan",
-    "stars": 141,
+    "stars": 142,
     "lang": "C#"
+   },
+   {
+    "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
+    "url": "https://github.com/jestasecurity/thumper",
+    "stars": 122,
+    "lang": "Python"
+   },
+   {
+    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
+    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
+    "stars": 118,
+    "lang": "JavaScript"
    }
   ],
   "hn": [
@@ -669,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 8,
   "kev": 1629,
   "adv": 12,
   "feed": 48
