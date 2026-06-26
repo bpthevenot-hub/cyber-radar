@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-26T20:57:35.135Z",
+ "generatedAt": "2026-06-26T22:38:34.756Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "better-helperjs Vulnerable to Directory Traversal via String Prefix Bypass in Static Server",
-    "url": "https://github.com/advisories/GHSA-3p34-w4f6-5xh2",
-    "score": 7.5,
-    "ghsa": "GHSA-3p34-w4f6-5xh2",
-    "date": "2026-06-26T20:56:26Z"
-   },
-   {
-    "title": "PHP Standard Library: HTTP/2 server-side missing content-length validation enables request smuggling",
-    "url": "https://github.com/advisories/GHSA-pw9p-jvrm-f7rm",
-    "score": 7.5,
-    "ghsa": "GHSA-pw9p-jvrm-f7rm",
-    "date": "2026-06-26T20:55:55Z"
-   },
-   {
-    "title": "Muhammara has a NULL pointer dereference in LZWDecode filter when DecodeParms omits EarlyChange key",
-    "url": "https://github.com/advisories/GHSA-fhp4-pr5j-46m5",
-    "score": 7.5,
-    "ghsa": "GHSA-fhp4-pr5j-46m5",
-    "date": "2026-06-26T20:55:18Z"
-   },
-   {
-    "title": "Pterodactyl Panel: Client email change endpoint allows enumeration of accounts in system",
-    "url": "https://github.com/advisories/GHSA-j7f5-gfqm-pcx3",
-    "score": null,
-    "ghsa": "GHSA-j7f5-gfqm-pcx3",
-    "date": "2026-06-26T20:54:38Z"
-   },
-   {
-    "title": "Pterodactyl Wings: Chmod operation can be used to change permissions of files outside of the server container",
-    "url": "https://github.com/advisories/GHSA-rhq6-9rgh-v45c",
-    "score": 5,
-    "ghsa": "GHSA-rhq6-9rgh-v45c",
-    "date": "2026-06-26T20:53:00Z"
-   },
-   {
-    "title": "Flawfinder output manipulation via untrusted filenames and source text",
-    "url": "https://github.com/advisories/GHSA-4c3c-r6p8-c863",
+    "title": "Authelia has an Edge Case Access Control Rule Mismatch",
+    "url": "https://github.com/advisories/GHSA-j748-h363-wqj8",
     "score": 2,
-    "ghsa": "GHSA-4c3c-r6p8-c863",
-    "date": "2026-06-26T20:52:25Z"
+    "ghsa": "GHSA-j748-h363-wqj8",
+    "date": "2026-06-26T22:32:21Z"
    },
    {
-    "title": "python-socketio: Binary attachment accumulation can cause denial of service",
-    "url": "https://github.com/advisories/GHSA-5w7q-77mv-v69f",
+    "title": "Nezha vulnerable to cross-tenant terminal/file-manager session hijack via WebSocket stream UUID without ownership check",
+    "url": "https://github.com/advisories/GHSA-q6xx-5vr8-p898",
+    "score": 9.9,
+    "ghsa": "GHSA-q6xx-5vr8-p898",
+    "date": "2026-06-26T22:31:41Z"
+   },
+   {
+    "title": "Blnk has an API key authorization bypass in owner and scope enforcement",
+    "url": "https://github.com/advisories/GHSA-wcr3-9x4c-f5gj",
     "score": 7.5,
-    "ghsa": "GHSA-5w7q-77mv-v69f",
-    "date": "2026-06-26T20:51:58Z"
+    "ghsa": "GHSA-wcr3-9x4c-f5gj",
+    "date": "2026-06-26T22:31:03Z"
    },
    {
-    "title": "python-engineio has unbound thread allocation that can cause denial of service",
-    "url": "https://github.com/advisories/GHSA-cgwc-pv48-fhj5",
+    "title": "YARD static cache reads raw traversal paths before router sanitization",
+    "url": "https://github.com/advisories/GHSA-pxcc-8665-phx8",
+    "score": 5.3,
+    "ghsa": "GHSA-pxcc-8665-phx8",
+    "date": "2026-06-26T22:29:29Z"
+   },
+   {
+    "title": "@microsoft/kiota-http-fetchlibrary: Bearer token and Cookie leak across origin on redirect due to case-mismatched scrub in fetchRequestAdapter",
+    "url": "https://github.com/advisories/GHSA-396q-4vc8-28x9",
+    "score": null,
+    "ghsa": "GHSA-396q-4vc8-28x9",
+    "date": "2026-06-26T22:23:11Z"
+   },
+   {
+    "title": "js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
+    "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
     "score": 7.5,
-    "ghsa": "GHSA-cgwc-pv48-fhj5",
-    "date": "2026-06-26T20:51:37Z"
+    "ghsa": "GHSA-wp3c-266w-4qfq",
+    "date": "2026-06-26T22:21:43Z"
    },
    {
-    "title": "semantic-router exposed to compromised litellm wheel (CVE-2026-42208) via unbounded transitive pin",
-    "url": "https://github.com/advisories/GHSA-98x5-vq43-vc5p",
-    "score": 9.5,
-    "ghsa": "GHSA-98x5-vq43-vc5p",
-    "date": "2026-06-26T20:51:20Z"
-   },
-   {
-    "title": "python-engineio has possible denial of service due to maximum payload size sometimes not being enforced",
-    "url": "https://github.com/advisories/GHSA-m9gh-vj53-gvh9",
+    "title": "SolidInvoice: IDOR in LiveComponent allows same-company cross-user access to API tokens and notification transport settings",
+    "url": "https://github.com/advisories/GHSA-7vfx-4246-jcfh",
     "score": 7.5,
-    "ghsa": "GHSA-m9gh-vj53-gvh9",
-    "date": "2026-06-26T20:48:18Z"
+    "ghsa": "GHSA-7vfx-4246-jcfh",
+    "date": "2026-06-26T22:20:50Z"
    },
    {
-    "title": "LinkifyIt#match scan loop has quadratic algorithmic complexity",
-    "url": "https://github.com/advisories/GHSA-22p9-wv53-3rq4",
-    "score": 7.5,
-    "ghsa": "GHSA-22p9-wv53-3rq4",
-    "date": "2026-06-26T20:47:58Z"
+    "title": "Statamic CMS's unsafe method invocation via collection sorting allows data destruction",
+    "url": "https://github.com/advisories/GHSA-m92m-r54r-x8r2",
+    "score": 7.4,
+    "ghsa": "GHSA-m92m-r54r-x8r2",
+    "date": "2026-06-26T22:15:47Z"
    },
    {
-    "title": "turso-cli persists Turso platform JWT with world-readable (0o644) file permissions",
-    "url": "https://github.com/advisories/GHSA-57f6-pvx8-hwj6",
-    "score": 5.5,
-    "ghsa": "GHSA-57f6-pvx8-hwj6",
-    "date": "2026-06-26T20:44:39Z"
+    "title": "Statamic CMS: Missing authorization on Control Panel fieldtype endpoints allows disclosure of restricted resources",
+    "url": "https://github.com/advisories/GHSA-2497-6pwj-pwg7",
+    "score": 4.3,
+    "ghsa": "GHSA-2497-6pwj-pwg7",
+    "date": "2026-06-26T22:12:21Z"
+   },
+   {
+    "title": "PhpWeasyPrint vulnerable to SSRF and local file disclosure via the attachment option",
+    "url": "https://github.com/advisories/GHSA-x8g9-h984-pc36",
+    "score": 6.5,
+    "ghsa": "GHSA-x8g9-h984-pc36",
+    "date": "2026-06-26T22:11:40Z"
+   },
+   {
+    "title": "PhpWeasyPrint vulnerable to arbitrary file deletion at shutdown via public $temporaryFiles",
+    "url": "https://github.com/advisories/GHSA-5g9f-cwwg-4p8g",
+    "score": 3,
+    "ghsa": "GHSA-5g9f-cwwg-4p8g",
+    "date": "2026-06-26T22:10:51Z"
+   },
+   {
+    "title": "PhpWeasyPrint vulnerable to PHAR deserialization via output filename (CVE-2023-28115 case-insensitive bypass)",
+    "url": "https://github.com/advisories/GHSA-2fmj-p74r-3wjm",
+    "score": 8.1,
+    "ghsa": "GHSA-2fmj-p74r-3wjm",
+    "date": "2026-06-26T22:10:00Z"
    }
   ],
   "thn": [
@@ -290,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "FBI: Russian hackers now target Signal backup recovery keys",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+    "date": "Fri, 26 Jun 2026 18:06:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
     "date": "Fri, 26 Jun 2026 15:43:06 -0400",
@@ -365,20 +372,13 @@
     "date": "Thu, 25 Jun 2026 11:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "The Four Elevations of Effective Fraud Prevention",
-    "url": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
-    "date": "Thu, 25 Jun 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6225,
+    "stars": 6227,
     "lang": "Python"
    },
    {
@@ -402,13 +402,13 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 245,
+    "stars": 247,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 176,
+    "stars": 178,
     "lang": "—"
    },
    {
@@ -550,13 +550,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "We Scanned 50,000 Skills: The Threat Persists · Tencent Zhuque Lab",
-    "url": "https://www.reddit.com/r/netsec/comments/1ug18qw/we_scanned_50000_skills_the_threat_persists/",
-    "date": "2026-06-26T08:48:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
     "date": "2026-06-25T15:30:44+00:00",
@@ -616,6 +609,13 @@
     "title": "Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530",
     "url": "https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/",
     "date": "2026-06-19T19:15:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration",
+    "url": "https://www.reddit.com/r/netsec/comments/1u9y7yw/squidbleed_cve202647729_heartbleedstyle/",
+    "date": "2026-06-19T10:21:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
