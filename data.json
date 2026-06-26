@@ -1,90 +1,36 @@
 {
- "generatedAt": "2026-06-26T13:24:20.268Z",
+ "generatedAt": "2026-06-26T16:29:49.628Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-57912 — Johnson & Johnson Campus Recruiting before 2025-10-31 allows viewing of data provided by recruited students, and notes entered about student",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57912",
-    "score": 7.5,
-    "date": "2026-06-26T12:30:30Z"
-   },
-   {
-    "title": "CVE-2026-57913 — Johnson & Johnson Audit Tracking Management System (ATMS) before 2026-04-21 allows viewing of meeting minutes and transcripts.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57913",
-    "score": 7.5,
-    "date": "2026-06-26T12:30:30Z"
-   },
-   {
-    "title": "CVE-2026-57918 — libnfs through 6.0.2 before 935b8db has an xid integer underflow in READ_IOVEC in rpc_read_from_socket in lib/socket.c during a connection t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57918",
-    "score": 7.5,
-    "date": "2026-06-26T12:30:30Z"
-   },
-   {
-    "title": "CVE-2026-13325 — A flaw was found in KubeVirt's migration proxy. When spec.configuration.migrations.disableTLS is set to true on the KubeVirt custom resource",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13325",
-    "score": 7.5,
-    "date": "2026-06-26T12:30:29Z"
-   },
-   {
-    "title": "CVE-2025-7958 — A Code Injection vulnerability existed in Trellix Network Security CM and NX. A locally authenticated admin user can execute arbitrary code ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-7958",
-    "score": 7.5,
-    "date": "2026-06-26T12:30:29Z"
-   },
-   {
-    "title": "CVE-2023-4727 — A flaw was found in dogtag-pki and pki-core. The token authentication scheme can be bypassed with a LDAP injection. By passing the query str",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-4727",
-    "score": 7.5,
-    "date": "2024-06-11T21:32:17Z"
-   },
-   {
-    "title": "CVE-2026-57620 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Tim Strifler Exclusive Addons Elemento",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57620",
-    "score": 5,
-    "date": "2026-06-26T12:30:30Z"
-   },
-   {
-    "title": "CVE-2026-57473 — A vulnerability exists in the netclient and factory services of Reolink Home Hub (versions prior to v3.3.0.456_26031911) due to the possibil",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57473",
-    "score": 5,
-    "date": "2026-06-26T12:30:29Z"
-   },
-   {
-    "title": "CVE-2026-6658 — A vulnerability in jupyter/nbconvert versions <= 7.17.0 allows for Cross-site Scripting (XSS) via unsanitized `text/vnd.mermaid` output in H",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6658",
-    "score": 5,
-    "date": "2026-06-26T12:30:29Z"
-   },
-   {
-    "title": "CVE-2023-39328 — A vulnerability was found in OpenJPEG similar to CVE-2019-6988. This flaw allows an attacker to bypass existing protections and cause an app",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-39328",
-    "score": 5,
-    "date": "2024-07-09T15:30:53Z"
-   },
-   {
-    "title": "CVE-2026-57914 — By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow Exception which can ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57914",
+    "title": "MAL-2026-6527 — Malicious code in @immobiliarelabs/backstage-plugin-gitlab-backend (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6527",
     "score": null,
-    "date": "2026-06-26T12:30:30Z"
+    "date": "2026-06-26T15:42:17Z"
    },
    {
-    "title": "MAL-2026-6520 — Malicious code in rollup-plugin-polyfill-connect (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6520",
+    "title": "MAL-2026-6529 — Malicious code in @immobiliarelabs/backstage-plugin-ldap-auth-backend (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6529",
     "score": null,
-    "date": "2026-06-26T12:16:36Z"
+    "date": "2026-06-26T15:42:07Z"
    },
    {
-    "title": "MAL-2026-6519 — Malicious code in react-icon-svgs (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6519",
+    "title": "MAL-2026-6528 — Malicious code in @immobiliarelabs/backstage-plugin-ldap-auth (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6528",
     "score": null,
-    "date": "2026-06-26T12:16:36Z"
+    "date": "2026-06-26T15:42:04Z"
    },
    {
-    "title": "CVE-2026-56262 — Crawl4AI before 0.8.7 contains an authentication bypass vulnerability in the monitor router endpoints that allows unauthenticated attackers ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56262",
+    "title": "MAL-2026-6526 — Malicious code in @immobiliarelabs/backstage-plugin-gitlab (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6526",
     "score": null,
-    "date": "2026-06-24T13:16:35.263Z"
+    "date": "2026-06-26T15:42:00Z"
+   },
+   {
+    "title": "MAL-2026-6522 — Malicious code in @epsteinlovekids483/crossmint-wallets-sdk-pentest (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6522",
+    "score": null,
+    "date": "2026-06-26T14:13:39Z"
    }
   ],
   "kev": [
@@ -203,6 +149,13 @@
   ],
   "adv": [
    {
+    "title": "ImageMagick has a Use-After-Free when allocation in CheckPrimitiveExtent fails",
+    "url": "https://github.com/advisories/GHSA-px7q-ggqj-hcf2",
+    "score": 5.9,
+    "ghsa": "GHSA-px7q-ggqj-hcf2",
+    "date": "2026-06-26T16:21:36Z"
+   },
+   {
     "title": "golang.org/x/crypto/ssh: Invoking VerifiedPublicKeyCallback permissions skip enforcement",
     "url": "https://github.com/advisories/GHSA-x527-x647-q7gg",
     "score": 10,
@@ -278,20 +231,20 @@
     "score": 9.1,
     "ghsa": "GHSA-f5wc-c3c7-36mc",
     "date": "2026-06-25T22:14:00Z"
-   },
-   {
-    "title": "golang.org/x/crypto/ssh/agent doesn't enforce invoking key constraints",
-    "url": "https://github.com/advisories/GHSA-jppx-rxg9-jmrx",
-    "score": 9.1,
-    "ghsa": "GHSA-jppx-rxg9-jmrx",
-    "date": "2026-06-25T22:13:31Z"
    }
   ],
   "thn": [
    {
     "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
     "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-    "date": "Fri, 26 Jun 2026 18:30:41 +0530",
+    "date": "Fri, 26 Jun 2026 19:27:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+    "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+    "date": "Fri, 26 Jun 2026 19:23:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -364,16 +317,16 @@
     "date": "Thu, 25 Jun 2026 16:47:31 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
-    "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-    "date": "Thu, 25 Jun 2026 14:53:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
+    "url": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+    "date": "Fri, 26 Jun 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
@@ -450,13 +403,6 @@
     "date": "Wed, 24 Jun 2026 17:55:43 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
-    "url": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
-    "date": "Wed, 24 Jun 2026 17:29:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +415,13 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1089,
+    "stars": 1098,
     "lang": "TypeScript"
    },
    {
     "title": "hadriansecurity/OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
     "url": "https://github.com/hadriansecurity/OpenHack",
-    "stars": 694,
+    "stars": 695,
     "lang": "Python"
    },
    {
@@ -487,7 +433,7 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 243,
+    "stars": 244,
     "lang": "TypeScript"
    },
    {
@@ -509,16 +455,16 @@
     "lang": "Python"
    },
    {
+    "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
+    "url": "https://github.com/dweep-desai/FaceGate-Mac",
+    "stars": 156,
+    "lang": "Swift"
+   },
+   {
     "title": "nodiuus/nocturne — A bin2bin code virtualizer for x86-64 PE's",
     "url": "https://github.com/nodiuus/nocturne",
     "stars": 153,
     "lang": "C++"
-   },
-   {
-    "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
-    "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 151,
-    "lang": "Swift"
    },
    {
     "title": "AdvDebug/Brovan — Brovan is a user-mode x86_64 binary emulator for your malware analysis & reverse engineering.",
