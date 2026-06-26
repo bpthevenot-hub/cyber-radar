@@ -1,38 +1,7 @@
 {
- "generatedAt": "2026-06-26T16:29:49.628Z",
+ "generatedAt": "2026-06-26T19:08:13.003Z",
  "sources": {
-  "cve": [
-   {
-    "title": "MAL-2026-6527 — Malicious code in @immobiliarelabs/backstage-plugin-gitlab-backend (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6527",
-    "score": null,
-    "date": "2026-06-26T15:42:17Z"
-   },
-   {
-    "title": "MAL-2026-6529 — Malicious code in @immobiliarelabs/backstage-plugin-ldap-auth-backend (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6529",
-    "score": null,
-    "date": "2026-06-26T15:42:07Z"
-   },
-   {
-    "title": "MAL-2026-6528 — Malicious code in @immobiliarelabs/backstage-plugin-ldap-auth (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6528",
-    "score": null,
-    "date": "2026-06-26T15:42:04Z"
-   },
-   {
-    "title": "MAL-2026-6526 — Malicious code in @immobiliarelabs/backstage-plugin-gitlab (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6526",
-    "score": null,
-    "date": "2026-06-26T15:42:00Z"
-   },
-   {
-    "title": "MAL-2026-6522 — Malicious code in @epsteinlovekids483/crossmint-wallets-sdk-pentest (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6522",
-    "score": null,
-    "date": "2026-06-26T14:13:39Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -149,91 +118,105 @@
   ],
   "adv": [
    {
-    "title": "ImageMagick has a Use-After-Free when allocation in CheckPrimitiveExtent fails",
-    "url": "https://github.com/advisories/GHSA-px7q-ggqj-hcf2",
-    "score": 5.9,
-    "ghsa": "GHSA-px7q-ggqj-hcf2",
-    "date": "2026-06-26T16:21:36Z"
+    "title": "Incus: CreateCustomVolumeFromBackup nil-pointer dereference on volume_snapshots[*].expires_at (sibling-field variant of GHSA-r7w7)",
+    "url": "https://github.com/advisories/GHSA-xhqx-mgh3-3h7q",
+    "score": 2,
+    "ghsa": "GHSA-xhqx-mgh3-3h7q",
+    "date": "2026-06-26T19:07:54Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh: Invoking VerifiedPublicKeyCallback permissions skip enforcement",
-    "url": "https://github.com/advisories/GHSA-x527-x647-q7gg",
-    "score": 10,
-    "ghsa": "GHSA-x527-x647-q7gg",
-    "date": "2026-06-25T22:23:16Z"
+    "title": "Incus has an argument injection in backup compression algorithm leading to AFW and ACE",
+    "url": "https://github.com/advisories/GHSA-v6mj-8pf4-hhw4",
+    "score": 9.9,
+    "ghsa": "GHSA-v6mj-8pf4-hhw4",
+    "date": "2026-06-26T19:03:31Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh/knownhosts vulnerable to auth bypass via unenforced @revoked status",
-    "url": "https://github.com/advisories/GHSA-5cgq-3rg8-m6cv",
-    "score": 9.1,
-    "ghsa": "GHSA-5cgq-3rg8-m6cv",
-    "date": "2026-06-25T22:22:04Z"
+    "title": "Incus: Nil-pointer dereference in createDependentVolumesFromBackup on disk.{Volume,VolumeSnapshots,Pool}",
+    "url": "https://github.com/advisories/GHSA-4xg6-52mh-fpw8",
+    "score": 2,
+    "ghsa": "GHSA-4xg6-52mh-fpw8",
+    "date": "2026-06-26T18:52:46Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh vulnerable to infinite loop on large channel writes",
-    "url": "https://github.com/advisories/GHSA-rm3j-f69w-wqmq",
-    "score": 9.1,
-    "ghsa": "GHSA-rm3j-f69w-wqmq",
-    "date": "2026-06-25T22:21:40Z"
+    "title": "Incus has an arbitrary file write via path traversal in S3 multipart upload",
+    "url": "https://github.com/advisories/GHSA-ccjc-4qc3-jxqc",
+    "score": 9.9,
+    "ghsa": "GHSA-ccjc-4qc3-jxqc",
+    "date": "2026-06-26T18:47:25Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh: FIDO/U2F security key physical presence check can be bypassed",
-    "url": "https://github.com/advisories/GHSA-89gr-r52h-f8rx",
-    "score": 9.1,
-    "ghsa": "GHSA-89gr-r52h-f8rx",
-    "date": "2026-06-25T22:21:12Z"
+    "title": "Incus has arbitrary file read+write on host via templates/ symlink in malicious image",
+    "url": "https://github.com/advisories/GHSA-vxp5-584q-c479",
+    "score": 9.9,
+    "ghsa": "GHSA-vxp5-584q-c479",
+    "date": "2026-06-26T18:46:31Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh: Invoking pathological RSA/DSA parameters may cause DoS",
-    "url": "https://github.com/advisories/GHSA-w879-237q-wc7r",
+    "title": "Incus has a restricted project bypass leading to arbitrary command execution",
+    "url": "https://github.com/advisories/GHSA-48q5-w887-33wv",
+    "score": 9.9,
+    "ghsa": "GHSA-48q5-w887-33wv",
+    "date": "2026-06-26T18:33:55Z"
+   },
+   {
+    "title": "Incus has an arbitrary file write on host via `exec-output` symlink in crafted image",
+    "url": "https://github.com/advisories/GHSA-73hr-m85f-64v9",
+    "score": 9.9,
+    "ghsa": "GHSA-73hr-m85f-64v9",
+    "date": "2026-06-26T18:32:52Z"
+   },
+   {
+    "title": "Incus has an arbitrary file read+write on host via rootfs/ symlink in malicious image",
+    "url": "https://github.com/advisories/GHSA-2q3f-q5pq-g8wv",
+    "score": 9.9,
+    "ghsa": "GHSA-2q3f-q5pq-g8wv",
+    "date": "2026-06-26T18:31:21Z"
+   },
+   {
+    "title": "ImageMagick has Null Pointer Dereference caused by the distort operation when passing incorrect arguments",
+    "url": "https://github.com/advisories/GHSA-p9rq-q46c-g4x6",
+    "score": 4.3,
+    "ghsa": "GHSA-p9rq-q46c-g4x6",
+    "date": "2026-06-26T17:51:22Z"
+   },
+   {
+    "title": "OpenAM Account Takeover via Unverified Password Change in OAuth2 Module",
+    "url": "https://github.com/advisories/GHSA-gf57-4mp6-m85x",
     "score": 7.5,
-    "ghsa": "GHSA-w879-237q-wc7r",
-    "date": "2026-06-25T22:18:43Z"
+    "ghsa": "GHSA-gf57-4mp6-m85x",
+    "date": "2026-06-26T17:33:35Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh: Invoking client can cause server deadlock on unexpected responses",
-    "url": "https://github.com/advisories/GHSA-vgwf-h737-ff37",
-    "score": 9.1,
-    "ghsa": "GHSA-vgwf-h737-ff37",
-    "date": "2026-06-25T22:18:17Z"
+    "title": "OpenAM Authentication Bypass via MSISDN LDAP Injection",
+    "url": "https://github.com/advisories/GHSA-xq73-fvmr-jvmm",
+    "score": 7.5,
+    "ghsa": "GHSA-xq73-fvmr-jvmm",
+    "date": "2026-06-26T17:32:18Z"
    },
    {
-    "title": "golang.org/x/crypto/ssh: Invoking memory leak when rejecting channels can lead to DoS",
-    "url": "https://github.com/advisories/GHSA-qpw4-5x99-6vjp",
-    "score": 6.5,
-    "ghsa": "GHSA-qpw4-5x99-6vjp",
-    "date": "2026-06-25T22:15:43Z"
-   },
-   {
-    "title": "golang.org/x/crypto/ssh is vulnerable to invoking server panic during CheckHostKey/Authenticate flow",
-    "url": "https://github.com/advisories/GHSA-78mq-xcr3-xm33",
+    "title": "fluent-plugin-opentelemetry Has Denial of Service (DoS) via Large Payloads and Decompression Bombs in `in_opentelemetry`",
+    "url": "https://github.com/advisories/GHSA-2jc5-xhx8-qj6h",
     "score": 5.3,
-    "ghsa": "GHSA-78mq-xcr3-xm33",
-    "date": "2026-06-25T22:15:17Z"
-   },
-   {
-    "title": "golang.org/x/crypto/ssh vulnerable to invoking bypass of certificate restrictions",
-    "url": "https://github.com/advisories/GHSA-45gg-vh54-h5m9",
-    "score": 6.3,
-    "ghsa": "GHSA-45gg-vh54-h5m9",
-    "date": "2026-06-25T22:14:38Z"
-   },
-   {
-    "title": "golang.org/x/crypto/ssh: Invoking byte arithmetic causes underflow and panic",
-    "url": "https://github.com/advisories/GHSA-q4h4-gmj2-qvw2",
-    "score": 7.5,
-    "ghsa": "GHSA-q4h4-gmj2-qvw2",
-    "date": "2026-06-25T22:14:22Z"
-   },
-   {
-    "title": "golang.org/x/crypto/ssh/agent doesn't drop invoking agent constraints when forwarding keys",
-    "url": "https://github.com/advisories/GHSA-f5wc-c3c7-36mc",
-    "score": 9.1,
-    "ghsa": "GHSA-f5wc-c3c7-36mc",
-    "date": "2026-06-25T22:14:00Z"
+    "ghsa": "GHSA-2jc5-xhx8-qj6h",
+    "date": "2026-06-26T17:22:37Z"
    }
   ],
   "thn": [
+   {
+    "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+    "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+    "date": "Fri, 26 Jun 2026 23:47:46 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+    "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+    "date": "Fri, 26 Jun 2026 21:51:25 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
     "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
@@ -303,23 +286,23 @@
     "date": "Thu, 25 Jun 2026 19:42:52 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
-    "url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
-    "date": "Thu, 25 Jun 2026 17:54:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
-    "url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
-    "date": "Thu, 25 Jun 2026 16:47:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Polymarket customers lose $3 million in supply-chain attack",
+    "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+    "date": "Fri, 26 Jun 2026 14:04:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
+    "url": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+    "date": "Fri, 26 Jun 2026 13:49:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
     "url": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
@@ -389,20 +372,6 @@
     "date": "Thu, 25 Jun 2026 08:12:20 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google releases new privacy controls for activity history, personalization",
-    "url": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
-    "date": "Wed, 24 Jun 2026 19:46:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
-    "url": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-    "date": "Wed, 24 Jun 2026 17:55:43 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -415,7 +384,7 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1098,
+    "stars": 1105,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +426,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 156,
+    "stars": 158,
     "lang": "Swift"
    },
    {
