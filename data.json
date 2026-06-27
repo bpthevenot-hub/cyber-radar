@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-06-27T01:24:55.494Z",
+ "generatedAt": "2026-06-27T06:04:43.605Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-31928 — The DMP-5000 devices are shipped with a default administrative web account with weak authentication controls, which are not required to be c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-31928",
-    "score": 9.5,
-    "date": "2026-06-27T00:30:31Z"
-   },
-   {
-    "title": "CVE-2026-28701 — Various versions of Daktronics Controller Firmware could allow authenticated and unauthenticated remote users to escape the intended directo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28701",
-    "score": 9.5,
-    "date": "2026-06-27T00:30:31Z"
-   },
-   {
-    "title": "CVE-2026-55975 — A vulnerability exists in H.View IP cameras that could allow an authenticated user to supply unsanitized XML fields to the device's certific",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55975",
-    "score": 7.5,
-    "date": "2026-06-27T00:30:31Z"
-   },
-   {
-    "title": "CVE-2026-33560 — The DMP-5000 file service exposes authenticated arbitrary file upload functionality. There are exposed endpoints which allows authenticated ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33560",
-    "score": 7.5,
-    "date": "2026-06-27T00:30:31Z"
-   },
-   {
-    "title": "CVE-2026-56414 — A vulnerability exists in H.View IP cameras certificate-related upload interfaces allow authenticated users to store arbitrary file content ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56414",
-    "score": 7.5,
-    "date": "2026-06-27T00:30:31Z"
-   },
-   {
-    "title": "CVE-2026-11834 — A command injection vulnerability has been identified in the DHCP option processing logic in multiple TP-Link router models, due to insuffic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11834",
-    "score": 7.5,
-    "date": "2026-06-22T21:30:59Z"
-   },
-   {
-    "title": "CVE-2026-4367 — A flaw was found in libXpm. A local user with low privileges could exploit an Out-of-Bounds Read vulnerability in the `xpmNextWord()` functi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4367",
-    "score": 5,
-    "date": "2026-06-16T21:31:57Z"
-   },
-   {
-    "title": "CVE-2026-9150 — A flaw was found in libsolv. This stack-based buffer overflow vulnerability occurs in libsolv's Debian metadata parser when processing speci",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9150",
-    "score": 5,
-    "date": "2026-05-21T00:30:27Z"
-   },
-   {
-    "title": "CVE-2026-9149 — A flaw was found in libsolv. This heap buffer overflow vulnerability occurs when a victim processes a specially crafted `.solv` file contain",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9149",
-    "score": 5,
-    "date": "2026-05-21T00:30:27Z"
-   },
-   {
-    "title": "CVE-2026-50765 — Cross-Site Scripting (XSS) vulnerability in the patron restriction type administration page of Koha Library Management System through 25.11 ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50765",
-    "score": null,
-    "date": "2026-06-27T00:30:30Z"
-   },
-   {
-    "title": "CVE-2026-50766 — A stored cross-site scripting (XSS) vulnerability in the OPAC item detail page of Koha Library Management System through 25.11 allows an aut",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50766",
-    "score": null,
-    "date": "2026-06-27T00:30:30Z"
-   },
-   {
-    "title": "CVE-2026-38571 — Cleartext storage and exposure of WPA2 credentials, and missing authentication on the rr/wr memory read/write commands, in the unauthenticat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-38571",
-    "score": null,
-    "date": "2026-06-27T00:30:30Z"
-   },
-   {
-    "title": "CVE-2026-36908 — A stack overflow in the AP4_Array<AP4_TrunAtom::Entry>::EnsureCapacity component of axiomatic-systems Bento4 before v1.8.9allows attackers t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-36908",
-    "score": null,
-    "date": "2026-06-27T00:30:30Z"
-   },
-   {
-    "title": "CVE-2026-36478 — An issue in Technitium DNS Server v.14.3 and before allows a remote attacker to cause a denial of service via the DnsServerApp.exe, DnsServe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-36478",
-    "score": null,
-    "date": "2026-06-27T00:30:30Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -463,13 +378,13 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6228,
+    "stars": 6231,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1107,
+    "stars": 1111,
     "lang": "TypeScript"
    },
    {
@@ -487,13 +402,13 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 247,
+    "stars": 250,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 182,
+    "stars": 187,
     "lang": "—"
    },
    {
@@ -505,7 +420,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 162,
+    "stars": 163,
     "lang": "Swift"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1629,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
