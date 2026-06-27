@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-06-27T20:34:27.648Z",
+ "generatedAt": "2026-06-27T22:31:24.325Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "MAL-2026-6524 — Malicious code in ts-einkle (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6524",
+    "score": null,
+    "date": "2026-06-26T14:16:24Z"
+   },
+   {
+    "title": "MAL-2026-6525 — Malicious code in ts-einkle-slot (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6525",
+    "score": null,
+    "date": "2026-06-26T14:15:58Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,7 +391,7 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6236,
+    "stars": 6237,
     "lang": "Python"
    },
    {
@@ -402,19 +415,19 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 254,
+    "stars": 255,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 200,
+    "stars": 204,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 174,
+    "stars": 175,
     "lang": "Swift"
    },
    {
@@ -557,13 +570,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Slow JSON Stream: 64 connections at 1 B/s takes down PHP/Laravel in under 2 minutes",
-    "url": "https://www.reddit.com/r/netsec/comments/1uh04d0/slow_json_stream_64_connections_at_1_bs_takes/",
-    "date": "2026-06-27T11:16:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
     "date": "2026-06-25T15:30:44+00:00",
@@ -616,6 +622,13 @@
     "title": "Scanning malicious websites with 'infinite' number of VPN tunnels (Part 1)",
     "url": "https://www.reddit.com/r/netsec/comments/1ubvd13/scanning_malicious_websites_with_infinite_number/",
     "date": "2026-06-21T17:07:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530",
+    "url": "https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/",
+    "date": "2026-06-19T19:15:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
