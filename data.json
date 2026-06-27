@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-06-26T22:38:34.756Z",
+ "generatedAt": "2026-06-27T01:24:55.494Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-31928 — The DMP-5000 devices are shipped with a default administrative web account with weak authentication controls, which are not required to be c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-31928",
+    "score": 9.5,
+    "date": "2026-06-27T00:30:31Z"
+   },
+   {
+    "title": "CVE-2026-28701 — Various versions of Daktronics Controller Firmware could allow authenticated and unauthenticated remote users to escape the intended directo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28701",
+    "score": 9.5,
+    "date": "2026-06-27T00:30:31Z"
+   },
+   {
+    "title": "CVE-2026-55975 — A vulnerability exists in H.View IP cameras that could allow an authenticated user to supply unsanitized XML fields to the device's certific",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55975",
+    "score": 7.5,
+    "date": "2026-06-27T00:30:31Z"
+   },
+   {
+    "title": "CVE-2026-33560 — The DMP-5000 file service exposes authenticated arbitrary file upload functionality. There are exposed endpoints which allows authenticated ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33560",
+    "score": 7.5,
+    "date": "2026-06-27T00:30:31Z"
+   },
+   {
+    "title": "CVE-2026-56414 — A vulnerability exists in H.View IP cameras certificate-related upload interfaces allow authenticated users to store arbitrary file content ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56414",
+    "score": 7.5,
+    "date": "2026-06-27T00:30:31Z"
+   },
+   {
+    "title": "CVE-2026-11834 — A command injection vulnerability has been identified in the DHCP option processing logic in multiple TP-Link router models, due to insuffic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11834",
+    "score": 7.5,
+    "date": "2026-06-22T21:30:59Z"
+   },
+   {
+    "title": "CVE-2026-4367 — A flaw was found in libXpm. A local user with low privileges could exploit an Out-of-Bounds Read vulnerability in the `xpmNextWord()` functi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4367",
+    "score": 5,
+    "date": "2026-06-16T21:31:57Z"
+   },
+   {
+    "title": "CVE-2026-9150 — A flaw was found in libsolv. This stack-based buffer overflow vulnerability occurs in libsolv's Debian metadata parser when processing speci",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9150",
+    "score": 5,
+    "date": "2026-05-21T00:30:27Z"
+   },
+   {
+    "title": "CVE-2026-9149 — A flaw was found in libsolv. This heap buffer overflow vulnerability occurs when a victim processes a specially crafted `.solv` file contain",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9149",
+    "score": 5,
+    "date": "2026-05-21T00:30:27Z"
+   },
+   {
+    "title": "CVE-2026-50765 — Cross-Site Scripting (XSS) vulnerability in the patron restriction type administration page of Koha Library Management System through 25.11 ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50765",
+    "score": null,
+    "date": "2026-06-27T00:30:30Z"
+   },
+   {
+    "title": "CVE-2026-50766 — A stored cross-site scripting (XSS) vulnerability in the OPAC item detail page of Koha Library Management System through 25.11 allows an aut",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50766",
+    "score": null,
+    "date": "2026-06-27T00:30:30Z"
+   },
+   {
+    "title": "CVE-2026-38571 — Cleartext storage and exposure of WPA2 credentials, and missing authentication on the rr/wr memory read/write commands, in the unauthenticat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-38571",
+    "score": null,
+    "date": "2026-06-27T00:30:30Z"
+   },
+   {
+    "title": "CVE-2026-36908 — A stack overflow in the AP4_Array<AP4_TrunAtom::Entry>::EnsureCapacity component of axiomatic-systems Bento4 before v1.8.9allows attackers t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-36908",
+    "score": null,
+    "date": "2026-06-27T00:30:30Z"
+   },
+   {
+    "title": "CVE-2026-36478 — An issue in Technitium DNS Server v.14.3 and before allows a remote attacker to cause a denial of service via the DnsServerApp.exe, DnsServe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-36478",
+    "score": null,
+    "date": "2026-06-27T00:30:30Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Authelia has an Edge Case Access Control Rule Mismatch",
-    "url": "https://github.com/advisories/GHSA-j748-h363-wqj8",
-    "score": 2,
-    "ghsa": "GHSA-j748-h363-wqj8",
-    "date": "2026-06-26T22:32:21Z"
+    "title": "pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
+    "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
+    "score": 8.2,
+    "ghsa": "GHSA-qrv3-253h-g69c",
+    "date": "2026-06-27T00:13:18Z"
    },
    {
-    "title": "Nezha vulnerable to cross-tenant terminal/file-manager session hijack via WebSocket stream UUID without ownership check",
-    "url": "https://github.com/advisories/GHSA-q6xx-5vr8-p898",
-    "score": 9.9,
-    "ghsa": "GHSA-q6xx-5vr8-p898",
-    "date": "2026-06-26T22:31:41Z"
+    "title": "pnpm: `patch-remove` could delete project-selected files outside the patches directory",
+    "url": "https://github.com/advisories/GHSA-72r4-9c5j-mj57",
+    "score": 7.1,
+    "ghsa": "GHSA-72r4-9c5j-mj57",
+    "date": "2026-06-27T00:12:39Z"
    },
    {
-    "title": "Blnk has an API key authorization bypass in owner and scope enforcement",
-    "url": "https://github.com/advisories/GHSA-wcr3-9x4c-f5gj",
-    "score": 7.5,
-    "ghsa": "GHSA-wcr3-9x4c-f5gj",
-    "date": "2026-06-26T22:31:03Z"
+    "title": "pnpm: Hoisted install imports lockfile alias outside node_modules",
+    "url": "https://github.com/advisories/GHSA-fr4h-3cph-29xv",
+    "score": 7.1,
+    "ghsa": "GHSA-fr4h-3cph-29xv",
+    "date": "2026-06-27T00:02:51Z"
    },
    {
-    "title": "YARD static cache reads raw traversal paths before router sanitization",
-    "url": "https://github.com/advisories/GHSA-pxcc-8665-phx8",
-    "score": 5.3,
-    "ghsa": "GHSA-pxcc-8665-phx8",
-    "date": "2026-06-26T22:29:29Z"
-   },
-   {
-    "title": "@microsoft/kiota-http-fetchlibrary: Bearer token and Cookie leak across origin on redirect due to case-mismatched scrub in fetchRequestAdapter",
-    "url": "https://github.com/advisories/GHSA-396q-4vc8-28x9",
+    "title": "Nezha Dashboard: DDNS and Notification credential exposure via unredacted list API",
+    "url": "https://github.com/advisories/GHSA-ww5p-j6cj-6mqq",
     "score": null,
-    "ghsa": "GHSA-396q-4vc8-28x9",
-    "date": "2026-06-26T22:23:11Z"
+    "ghsa": "GHSA-ww5p-j6cj-6mqq",
+    "date": "2026-06-26T23:55:26Z"
    },
    {
-    "title": "js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
-    "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
-    "score": 7.5,
-    "ghsa": "GHSA-wp3c-266w-4qfq",
-    "date": "2026-06-26T22:21:43Z"
+    "title": "pnpm: `stage download` writes outside its destination directory via manifest name/version traversal",
+    "url": "https://github.com/advisories/GHSA-v23m-ccfg-pq9h",
+    "score": 7.1,
+    "ghsa": "GHSA-v23m-ccfg-pq9h",
+    "date": "2026-06-26T23:54:52Z"
    },
    {
-    "title": "SolidInvoice: IDOR in LiveComponent allows same-company cross-user access to API tokens and notification transport settings",
-    "url": "https://github.com/advisories/GHSA-7vfx-4246-jcfh",
-    "score": 7.5,
-    "ghsa": "GHSA-7vfx-4246-jcfh",
-    "date": "2026-06-26T22:20:50Z"
-   },
-   {
-    "title": "Statamic CMS's unsafe method invocation via collection sorting allows data destruction",
-    "url": "https://github.com/advisories/GHSA-m92m-r54r-x8r2",
-    "score": 7.4,
-    "ghsa": "GHSA-m92m-r54r-x8r2",
-    "date": "2026-06-26T22:15:47Z"
-   },
-   {
-    "title": "Statamic CMS: Missing authorization on Control Panel fieldtype endpoints allows disclosure of restricted resources",
-    "url": "https://github.com/advisories/GHSA-2497-6pwj-pwg7",
-    "score": 4.3,
-    "ghsa": "GHSA-2497-6pwj-pwg7",
-    "date": "2026-06-26T22:12:21Z"
-   },
-   {
-    "title": "PhpWeasyPrint vulnerable to SSRF and local file disclosure via the attachment option",
-    "url": "https://github.com/advisories/GHSA-x8g9-h984-pc36",
+    "title": "pnpm: Reserved bin name deletes PNPM_HOME during global remove",
+    "url": "https://github.com/advisories/GHSA-4gxm-v5v7-fqc4",
     "score": 6.5,
-    "ghsa": "GHSA-x8g9-h984-pc36",
-    "date": "2026-06-26T22:11:40Z"
+    "ghsa": "GHSA-4gxm-v5v7-fqc4",
+    "date": "2026-06-26T23:46:53Z"
    },
    {
-    "title": "PhpWeasyPrint vulnerable to arbitrary file deletion at shutdown via public $temporaryFiles",
-    "url": "https://github.com/advisories/GHSA-5g9f-cwwg-4p8g",
-    "score": 3,
-    "ghsa": "GHSA-5g9f-cwwg-4p8g",
-    "date": "2026-06-26T22:10:51Z"
+    "title": "pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
+    "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
+    "score": 8.8,
+    "ghsa": "GHSA-w466-c33r-3gjp",
+    "date": "2026-06-26T23:34:06Z"
    },
    {
-    "title": "PhpWeasyPrint vulnerable to PHAR deserialization via output filename (CVE-2023-28115 case-insensitive bypass)",
-    "url": "https://github.com/advisories/GHSA-2fmj-p74r-3wjm",
+    "title": "Subsonic API: any authenticated user can delete or read any other user's playlist (IDOR)",
+    "url": "https://github.com/advisories/GHSA-hmgp-w9jm-vp95",
+    "score": 7.1,
+    "ghsa": "GHSA-hmgp-w9jm-vp95",
+    "date": "2026-06-26T23:33:24Z"
+   },
+   {
+    "title": "gonic: Path Traversal in playlist `id` bypasses ownership check, enabling any user to read/delete other users' playlists",
+    "url": "https://github.com/advisories/GHSA-2fp4-5v5c-4448",
+    "score": 7.1,
+    "ghsa": "GHSA-2fp4-5v5c-4448",
+    "date": "2026-06-26T23:32:10Z"
+   },
+   {
+    "title": "gonic has arbitrary file write in createPlaylist: any authenticated user can write playlist M3U content to attacker-controlled path on the host",
+    "url": "https://github.com/advisories/GHSA-4gxv-p5g5-j7w7",
     "score": 8.1,
-    "ghsa": "GHSA-2fmj-p74r-3wjm",
-    "date": "2026-06-26T22:10:00Z"
+    "ghsa": "GHSA-4gxv-p5g5-j7w7",
+    "date": "2026-06-26T23:21:42Z"
+   },
+   {
+    "title": "pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
+    "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
+    "score": 7.5,
+    "ghsa": "GHSA-gj8w-mvpf-x27x",
+    "date": "2026-06-26T23:20:47Z"
+   },
+   {
+    "title": "pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
+    "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
+    "score": 7.5,
+    "ghsa": "GHSA-5wx6-mg75-v57r",
+    "date": "2026-06-26T23:18:13Z"
    }
   ],
   "thn": [
@@ -378,13 +463,13 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6227,
+    "stars": 6228,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1105,
+    "stars": 1107,
     "lang": "TypeScript"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 178,
+    "stars": 182,
     "lang": "—"
    },
    {
@@ -418,16 +503,16 @@
     "lang": "Python"
    },
    {
+    "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
+    "url": "https://github.com/dweep-desai/FaceGate-Mac",
+    "stars": 162,
+    "lang": "Swift"
+   },
+   {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
     "url": "https://github.com/aliyun/alibabacloud-ecs-troubleshoot-skills",
     "stars": 160,
     "lang": "Python"
-   },
-   {
-    "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
-    "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 159,
-    "lang": "Swift"
    },
    {
     "title": "nodiuus/nocturne — A bin2bin code virtualizer for x86-64 PE's",
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1629,
   "adv": 12,
   "feed": 48
