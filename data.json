@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-06-28T00:17:38.703Z",
+ "generatedAt": "2026-06-28T05:45:54.698Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-6679 — A heap buffer overflow could occur in the DTLS 1.3 ACK serialization path before the connecting peer is authenticated. The buffer overflow w",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6679",
-    "score": 7.5,
-    "date": "2026-06-25T21:31:32Z"
-   },
-   {
-    "title": "CVE-2026-53914 — In JetBrains Kotlin before 2.4.20 code execution was possible via unsafe deserialization in the build cache metadata",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53914",
-    "score": 5,
-    "date": "2026-06-26T15:32:13Z"
-   },
-   {
-    "title": "CVE-2026-57923 — In JetBrains YouTrack before 2026.2.16593 improper authorisation in the app configurations endpoint allowed modifying project settings",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57923",
-    "score": 5,
-    "date": "2026-06-26T15:32:13Z"
-   },
-   {
-    "title": "CVE-2026-6329 — PKCS#12 MAC verification uses an attacker-controlled comparison length, weakening the integrity check on the MAC and allowing a mismatched M",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6329",
-    "score": 5,
-    "date": "2026-06-26T00:32:06Z"
-   },
-   {
-    "title": "CVE-2026-7532 — iPAddress name constraints bypass when WOLFSSL_IP_ALT_NAME is not defined. IP address name constraints are not enforced in that configuratio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7532",
-    "score": 5,
-    "date": "2026-06-26T00:32:06Z"
-   },
-   {
-    "title": "CVE-2026-55962 — TLS 1.3 post-handshake authentication (PHA) issue where a server could accept a client's Finished message without the client having sent a C",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55962",
-    "score": 5,
-    "date": "2026-06-26T00:32:06Z"
-   },
-   {
-    "title": "CVE-2026-6330 — The ML-KEM ARM64 NEON ciphertext comparison only compares half of the input, breaking the Fujisaki-Okamoto transform's implicit rejection an",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6330",
-    "score": 5,
-    "date": "2026-06-26T00:32:06Z"
-   },
-   {
-    "title": "CVE-2026-7511 — PKCS7_verify signer confusion allows forged signatures, where the signer associated with a signature is not correctly bound, permitting a fo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7511",
-    "score": 5,
-    "date": "2026-06-26T00:32:06Z"
-   },
-   {
-    "title": "CVE-2026-8720 — wc_Blake2bHmacFinal and wc_Blake2sHmacFinal discard the message when the key length exceeds the block size, producing a MAC that is independ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8720",
-    "score": 5,
-    "date": "2026-06-26T00:32:06Z"
-   },
-   {
-    "title": "CVE-2026-10098 — OCSP CertID serial-number length-confusion in wolfSSL_OCSP_resp_find_status allows a same-issuer SingleResponse whose serial is a prefix of ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10098",
-    "score": 5,
-    "date": "2026-06-26T00:32:05Z"
-   },
-   {
-    "title": "CVE-2026-11703 — Missing SNI/ALPN binding on stateful (session-ID) resumption, which previously skipped the binding check performed for ticket-based resumpti",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11703",
-    "score": 5,
-    "date": "2026-06-26T00:32:05Z"
-   },
-   {
-    "title": "CVE-2026-6731 — X.509 name constraint bypass via the Subject Common Name when treated as a DNS-type name. A certificate whose Subject CN violates an issuing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6731",
-    "score": 5,
-    "date": "2026-06-25T21:31:32Z"
-   },
-   {
-    "title": "CVE-2026-57926 — In JetBrains YouTrack before 2026.2.16593 the websandbox bridge was vulnerable to a prototype pollution attack",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57926",
-    "score": 2,
-    "date": "2026-06-26T15:32:14Z"
-   },
-   {
-    "title": "CVE-2026-6325 — Out-of-bounds write in SetSuitesHashSigAlgo when processing an oversized signature algorithms list, allowing a write past the bounds of the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6325",
-    "score": 2,
-    "date": "2026-06-26T00:32:06Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -487,13 +402,13 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 255,
+    "stars": 256,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 206,
+    "stars": 211,
     "lang": "—"
    },
    {
