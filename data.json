@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-06-27T22:31:24.325Z",
+ "generatedAt": "2026-06-28T00:17:38.703Z",
  "sources": {
   "cve": [
    {
-    "title": "MAL-2026-6524 — Malicious code in ts-einkle (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6524",
-    "score": null,
-    "date": "2026-06-26T14:16:24Z"
+    "title": "CVE-2026-6679 — A heap buffer overflow could occur in the DTLS 1.3 ACK serialization path before the connecting peer is authenticated. The buffer overflow w",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6679",
+    "score": 7.5,
+    "date": "2026-06-25T21:31:32Z"
    },
    {
-    "title": "MAL-2026-6525 — Malicious code in ts-einkle-slot (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6525",
-    "score": null,
-    "date": "2026-06-26T14:15:58Z"
+    "title": "CVE-2026-53914 — In JetBrains Kotlin before 2.4.20 code execution was possible via unsafe deserialization in the build cache metadata",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53914",
+    "score": 5,
+    "date": "2026-06-26T15:32:13Z"
+   },
+   {
+    "title": "CVE-2026-57923 — In JetBrains YouTrack before 2026.2.16593 improper authorisation in the app configurations endpoint allowed modifying project settings",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57923",
+    "score": 5,
+    "date": "2026-06-26T15:32:13Z"
+   },
+   {
+    "title": "CVE-2026-6329 — PKCS#12 MAC verification uses an attacker-controlled comparison length, weakening the integrity check on the MAC and allowing a mismatched M",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6329",
+    "score": 5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-7532 — iPAddress name constraints bypass when WOLFSSL_IP_ALT_NAME is not defined. IP address name constraints are not enforced in that configuratio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7532",
+    "score": 5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-55962 — TLS 1.3 post-handshake authentication (PHA) issue where a server could accept a client's Finished message without the client having sent a C",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55962",
+    "score": 5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-6330 — The ML-KEM ARM64 NEON ciphertext comparison only compares half of the input, breaking the Fujisaki-Okamoto transform's implicit rejection an",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6330",
+    "score": 5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-7511 — PKCS7_verify signer confusion allows forged signatures, where the signer associated with a signature is not correctly bound, permitting a fo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7511",
+    "score": 5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-8720 — wc_Blake2bHmacFinal and wc_Blake2sHmacFinal discard the message when the key length exceeds the block size, producing a MAC that is independ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8720",
+    "score": 5,
+    "date": "2026-06-26T00:32:06Z"
+   },
+   {
+    "title": "CVE-2026-10098 — OCSP CertID serial-number length-confusion in wolfSSL_OCSP_resp_find_status allows a same-issuer SingleResponse whose serial is a prefix of ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10098",
+    "score": 5,
+    "date": "2026-06-26T00:32:05Z"
+   },
+   {
+    "title": "CVE-2026-11703 — Missing SNI/ALPN binding on stateful (session-ID) resumption, which previously skipped the binding check performed for ticket-based resumpti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11703",
+    "score": 5,
+    "date": "2026-06-26T00:32:05Z"
+   },
+   {
+    "title": "CVE-2026-6731 — X.509 name constraint bypass via the Subject Common Name when treated as a DNS-type name. A certificate whose Subject CN violates an issuing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6731",
+    "score": 5,
+    "date": "2026-06-25T21:31:32Z"
+   },
+   {
+    "title": "CVE-2026-57926 — In JetBrains YouTrack before 2026.2.16593 the websandbox bridge was vulnerable to a prototype pollution attack",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57926",
+    "score": 2,
+    "date": "2026-06-26T15:32:14Z"
+   },
+   {
+    "title": "CVE-2026-6325 — Out-of-bounds write in SetSuitesHashSigAlgo when processing an oversized signature algorithms list, allowing a write past the bounds of the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6325",
+    "score": 2,
+    "date": "2026-06-26T00:32:06Z"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6237,
+    "stars": 6239,
     "lang": "Python"
    },
    {
@@ -421,13 +493,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 204,
+    "stars": 206,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 175,
+    "stars": 176,
     "lang": "Swift"
    },
    {
@@ -443,12 +515,6 @@
     "lang": "Python"
    },
    {
-    "title": "nodiuus/nocturne — A bin2bin code virtualizer for x86-64 PE's",
-    "url": "https://github.com/nodiuus/nocturne",
-    "stars": 155,
-    "lang": "C++"
-   },
-   {
     "title": "AdvDebug/Brovan — Brovan is a user-mode x86_64 binary emulator for your malware analysis & reverse engineering.",
     "url": "https://github.com/AdvDebug/Brovan",
     "stars": 142,
@@ -459,6 +525,12 @@
     "url": "https://github.com/jestasecurity/thumper",
     "stars": 122,
     "lang": "Python"
+   },
+   {
+    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
+    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
+    "stars": 120,
+    "lang": "JavaScript"
    }
   ],
   "hn": [
@@ -570,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "50 Chrome extensions. One codebase. One backend. One API key.",
+    "url": "https://www.reddit.com/r/netsec/comments/1uhi1g7/50_chrome_extensions_one_codebase_one_backend_one/",
+    "date": "2026-06-28T00:02:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
     "date": "2026-06-25T15:30:44+00:00",
@@ -622,13 +701,6 @@
     "title": "Scanning malicious websites with 'infinite' number of VPN tunnels (Part 1)",
     "url": "https://www.reddit.com/r/netsec/comments/1ubvd13/scanning_malicious_websites_with_infinite_number/",
     "date": "2026-06-21T17:07:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530",
-    "url": "https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/",
-    "date": "2026-06-19T19:15:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
