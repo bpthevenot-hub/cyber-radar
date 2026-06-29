@@ -1,90 +1,84 @@
 {
- "generatedAt": "2026-06-29T16:13:33.308Z",
+ "generatedAt": "2026-06-29T18:26:27.130Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-56290 — The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and le",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56290",
+    "title": "CVE-2026-46725 — TYPO3 Remote Code Execution in extension \"Content Element Selector\" (ceselector)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46725",
     "score": 9.5,
-    "date": "2026-06-29T15:32:07Z"
+    "date": "2026-05-19T12:31:39Z"
    },
    {
-    "title": "CVE-2026-57331 — Performer Arbitrary File Deletion in Paid Videochat Turnkey Site <= 7.4.8 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57331",
-    "score": 9.5,
-    "date": "2026-06-29T15:32:07Z"
-   },
-   {
-    "title": "CVE-2026-56124 — phpUploader before 2.0.2 contains an unauthenticated information disclosure vulnerability that allows remote attackers to access the full co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56124",
+    "title": "CVE-2026-47426 — OpenAM OAuth Client Impersonation via JWKS Resolver Cache",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47426",
     "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "date": "2026-06-29T17:44:37Z"
    },
    {
-    "title": "CVE-2026-57320 — Unauthenticated Cross Site Scripting (XSS) in BEAR <= 1.1.8 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57320",
+    "title": "CVE-2026-47424 — OpenAM Authenticated RCE via Groovy Sandbox Escape",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47424",
     "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "date": "2026-06-29T17:43:29Z"
    },
    {
-    "title": "CVE-2026-57336 — Unauthenticated Cross Site Scripting (XSS) in Jobify <= 4.3.2 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57336",
+    "title": "CVE-2026-8827 — TYPO3 SQL Injection in extension \"Address List\" (tt_address)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8827",
     "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "date": "2026-05-19T12:31:39Z"
    },
    {
-    "title": "CVE-2026-57332 — Subscriber Broken Access Control in Wallet System for WooCommerce <= 2.7.6 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57332",
+    "title": "CVE-2026-8727 — TYPO3 Remote Code Execution in extension \"Site Crawler\" (crawler)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8727",
     "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "date": "2026-05-19T12:31:39Z"
    },
    {
-    "title": "CVE-2026-57337 — Unauthenticated Cross Site Scripting (XSS) in Landing Page Builder <= 1.5.3.5 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57337",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "title": "CVE-2026-48717 — OpenAM OAuth Authorization Bypass via PKCE Challenge",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48717",
+    "score": 5,
+    "date": "2026-06-29T17:46:06Z"
    },
    {
-    "title": "CVE-2026-57333 — Unauthenticated Cross Site Scripting (XSS) in Link Whisper Free <= 0.9.4 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57333",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "title": "CVE-2026-46724 — TYPO3 ke_search path traversal due to lack of normalization on config directory from file indexer",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46724",
+    "score": 5,
+    "date": "2026-05-19T12:31:39Z"
    },
    {
-    "title": "CVE-2026-57338 — Unauthenticated Cross Site Scripting (XSS) in ARForms <= 7.1.2 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57338",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:07Z"
+    "title": "CVE-2026-46722 — TYPO3 ke_search XML External Entity Injection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46722",
+    "score": 5,
+    "date": "2026-05-19T12:31:39Z"
    },
    {
-    "title": "CVE-2026-40524 — FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the get_gl_transactions() function where the filter_type parameter i",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40524",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:06Z"
+    "title": "CVE-2026-46723 — TYPO3 ke_search path traversal from arbitrary table configuration input",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46723",
+    "score": 5,
+    "date": "2026-05-19T12:31:39Z"
    },
    {
-    "title": "CVE-2026-54370 — acl before version 2.4.0 contains a time-of-check to time-of-use (TOCTOU) race condition vulnerability that allows local attackers to escala",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54370",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:06Z"
+    "title": "MAL-2026-6098 — Malicious code in stackus (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6098",
+    "score": null,
+    "date": "2026-06-18T04:09:20Z"
    },
    {
-    "title": "CVE-2026-54371 — attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr utilities that allows local attackers to e",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54371",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:06Z"
+    "title": "MAL-2026-6068 — Malicious code in swift-parse-stream (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6068",
+    "score": null,
+    "date": "2026-06-17T16:37:42Z"
    },
    {
-    "title": "CVE-2026-40523 — FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Audit Trail report handler that allows authenticated attackers w",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40523",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:06Z"
+    "title": "MAL-2026-5456 — Malicious code in via-city-tools-m-particle (npm)",
+    "url": "https://github.com/advisories/MAL-2026-5456",
+    "score": null,
+    "date": "2026-06-09T17:29:25Z"
    },
    {
-    "title": "CVE-2026-54369 — acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based functions acl_get_file(), acl_set_file(), a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54369",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:06Z"
+    "title": "MAL-2026-4826 — Malicious code in wm-mapper (npm)",
+    "url": "https://github.com/advisories/MAL-2026-4826",
+    "score": null,
+    "date": "2026-05-26T17:40:57Z"
    }
   ],
   "kev": [
@@ -203,6 +197,27 @@
   ],
   "adv": [
    {
+    "title": "OpenAM OAuth Authorization Bypass via PKCE Challenge",
+    "url": "https://github.com/advisories/GHSA-4v2w-2wqp-mc85",
+    "score": null,
+    "ghsa": "GHSA-4v2w-2wqp-mc85",
+    "date": "2026-06-29T17:46:06Z"
+   },
+   {
+    "title": "OpenAM OAuth Client Impersonation via JWKS Resolver Cache",
+    "url": "https://github.com/advisories/GHSA-f2cx-463q-7m2c",
+    "score": 7.5,
+    "ghsa": "GHSA-f2cx-463q-7m2c",
+    "date": "2026-06-29T17:44:37Z"
+   },
+   {
+    "title": "OpenAM Authenticated RCE via Groovy Sandbox Escape",
+    "url": "https://github.com/advisories/GHSA-69j4-qvqr-hpw3",
+    "score": 7.5,
+    "ghsa": "GHSA-69j4-qvqr-hpw3",
+    "date": "2026-06-29T17:43:29Z"
+   },
+   {
     "title": "pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
     "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
     "score": 8.2,
@@ -264,30 +279,23 @@
     "score": 7.1,
     "ghsa": "GHSA-2fp4-5v5c-4448",
     "date": "2026-06-26T23:32:10Z"
-   },
-   {
-    "title": "gonic has arbitrary file write in createPlaylist: any authenticated user can write playlist M3U content to attacker-controlled path on the host",
-    "url": "https://github.com/advisories/GHSA-4gxv-p5g5-j7w7",
-    "score": 8.1,
-    "ghsa": "GHSA-4gxv-p5g5-j7w7",
-    "date": "2026-06-26T23:21:42Z"
-   },
-   {
-    "title": "pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
-    "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
-    "score": 7.5,
-    "ghsa": "GHSA-gj8w-mvpf-x27x",
-    "date": "2026-06-26T23:20:47Z"
-   },
-   {
-    "title": "pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
-    "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
-    "score": 7.5,
-    "ghsa": "GHSA-5wx6-mg75-v57r",
-    "date": "2026-06-26T23:18:13Z"
    }
   ],
   "thn": [
+   {
+    "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+    "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+    "date": "Mon, 29 Jun 2026 21:39:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+    "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+    "date": "Mon, 29 Jun 2026 20:33:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
     "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
@@ -357,23 +365,23 @@
     "date": "Sat, 27 Jun 2026 01:08:29 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-    "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-    "date": "Fri, 26 Jun 2026 23:47:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-    "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-    "date": "Fri, 26 Jun 2026 21:51:25 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "WhatsApp rolls out usernames to help users hide their phone number",
+    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+    "date": "Mon, 29 Jun 2026 13:48:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
+    "date": "Mon, 29 Jun 2026 13:11:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
     "url": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
@@ -443,27 +451,13 @@
     "date": "Fri, 26 Jun 2026 15:43:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Polymarket customers lose $3 million in supply-chain attack",
-    "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-    "date": "Fri, 26 Jun 2026 14:04:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-    "url": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-    "date": "Fri, 26 Jun 2026 13:49:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6268,
+    "stars": 6269,
     "lang": "Python"
    },
    {
@@ -479,21 +473,21 @@
     "lang": "Python"
    },
    {
+    "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
+    "url": "https://github.com/tianchong-zerotemp/dianxing",
+    "stars": 261,
+    "lang": "—"
+   },
+   {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
     "stars": 260,
     "lang": "TypeScript"
    },
    {
-    "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
-    "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 257,
-    "lang": "—"
-   },
-   {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 182,
+    "stars": 192,
     "lang": "Swift"
    },
    {
@@ -717,7 +711,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 1,
   "kev": 1629,
   "adv": 12,
   "feed": 48
