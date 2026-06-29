@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-06-29T12:12:32.564Z",
+ "generatedAt": "2026-06-29T16:13:33.308Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-56290 — The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and le",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56290",
+    "score": 9.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57331 — Performer Arbitrary File Deletion in Paid Videochat Turnkey Site <= 7.4.8 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57331",
+    "score": 9.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-56124 — phpUploader before 2.0.2 contains an unauthenticated information disclosure vulnerability that allows remote attackers to access the full co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56124",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57320 — Unauthenticated Cross Site Scripting (XSS) in BEAR <= 1.1.8 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57320",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57336 — Unauthenticated Cross Site Scripting (XSS) in Jobify <= 4.3.2 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57336",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57332 — Subscriber Broken Access Control in Wallet System for WooCommerce <= 2.7.6 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57332",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57337 — Unauthenticated Cross Site Scripting (XSS) in Landing Page Builder <= 1.5.3.5 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57337",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57333 — Unauthenticated Cross Site Scripting (XSS) in Link Whisper Free <= 0.9.4 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57333",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-57338 — Unauthenticated Cross Site Scripting (XSS) in ARForms <= 7.1.2 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57338",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-40524 — FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the get_gl_transactions() function where the filter_type parameter i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40524",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:06Z"
+   },
+   {
+    "title": "CVE-2026-54370 — acl before version 2.4.0 contains a time-of-check to time-of-use (TOCTOU) race condition vulnerability that allows local attackers to escala",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54370",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:06Z"
+   },
+   {
+    "title": "CVE-2026-54371 — attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr utilities that allows local attackers to e",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54371",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:06Z"
+   },
+   {
+    "title": "CVE-2026-40523 — FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Audit Trail report handler that allows authenticated attackers w",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40523",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:06Z"
+   },
+   {
+    "title": "CVE-2026-54369 — acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based functions acl_get_file(), acl_set_file(), a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54369",
+    "score": 7.5,
+    "date": "2026-06-29T15:32:06Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+    "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+    "date": "Mon, 29 Jun 2026 20:11:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+    "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+    "date": "Mon, 29 Jun 2026 17:27:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Why Post-Quantum Cryptography Starts With Credentials",
     "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
     "date": "Mon, 29 Jun 2026 17:12:16 +0530",
@@ -272,23 +371,44 @@
     "date": "Fri, 26 Jun 2026 21:51:25 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-    "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-    "date": "Fri, 26 Jun 2026 19:27:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
-    "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
-    "date": "Fri, 26 Jun 2026 19:23:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
+    "url": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+    "date": "Mon, 29 Jun 2026 11:09:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Agentic AI Has an Identity Problem and Attackers Know It",
+    "url": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+    "date": "Mon, 29 Jun 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+    "date": "Mon, 29 Jun 2026 10:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+    "date": "Mon, 29 Jun 2026 09:46:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar: Why business email compromise attacks keep succeeding",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
+    "date": "Mon, 29 Jun 2026 08:14:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "US seizes hundreds of FIFA World Cup illegal streaming domains",
     "url": "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
@@ -337,48 +457,13 @@
     "date": "Fri, 26 Jun 2026 13:49:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
-    "url": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-    "date": "Fri, 26 Jun 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
-    "date": "Thu, 25 Jun 2026 18:53:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
-    "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
-    "date": "Thu, 25 Jun 2026 18:37:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Order-tracking app Shop abused to push callback phishing attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-    "date": "Thu, 25 Jun 2026 15:45:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
-    "date": "Thu, 25 Jun 2026 14:29:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6261,
+    "stars": 6268,
     "lang": "Python"
    },
    {
@@ -402,7 +487,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 252,
+    "stars": 257,
     "lang": "—"
    },
    {
@@ -550,23 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Applying DI in C to decouple Windows exploitation from the execution mechanics",
-    "url": "https://www.reddit.com/r/netsec/comments/1uip5on/applying_di_in_c_to_decouple_windows_exploitation/",
-    "date": "2026-06-29T10:53:43+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
     "url": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
     "date": "2026-06-28T11:56:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
-    "url": "https://www.reddit.com/r/netsec/comments/1ui672c/winpe_as_a_stateless_harness_for_windows_driver/",
-    "date": "2026-06-28T19:23:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -618,6 +689,20 @@
     "date": "2026-06-23T09:52:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-25860 turn XSS to RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/",
+    "date": "2026-06-22T18:31:27+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Exploiting Auth0 Defaults in XSS Attacks - elttam",
+    "url": "https://www.reddit.com/r/netsec/comments/1uccgi1/exploiting_auth0_defaults_in_xss_attacks_elttam/",
+    "date": "2026-06-22T06:06:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1629,
   "adv": 12,
   "feed": 48
