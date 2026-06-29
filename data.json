@@ -1,84 +1,12 @@
 {
- "generatedAt": "2026-06-29T18:26:27.130Z",
+ "generatedAt": "2026-06-29T20:58:48.404Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-46725 — TYPO3 Remote Code Execution in extension \"Content Element Selector\" (ceselector)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46725",
-    "score": 9.5,
-    "date": "2026-05-19T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-47426 — OpenAM OAuth Client Impersonation via JWKS Resolver Cache",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47426",
-    "score": 7.5,
-    "date": "2026-06-29T17:44:37Z"
-   },
-   {
-    "title": "CVE-2026-47424 — OpenAM Authenticated RCE via Groovy Sandbox Escape",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47424",
-    "score": 7.5,
-    "date": "2026-06-29T17:43:29Z"
-   },
-   {
-    "title": "CVE-2026-8827 — TYPO3 SQL Injection in extension \"Address List\" (tt_address)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8827",
-    "score": 7.5,
-    "date": "2026-05-19T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-8727 — TYPO3 Remote Code Execution in extension \"Site Crawler\" (crawler)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8727",
-    "score": 7.5,
-    "date": "2026-05-19T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-48717 — OpenAM OAuth Authorization Bypass via PKCE Challenge",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48717",
-    "score": 5,
-    "date": "2026-06-29T17:46:06Z"
-   },
-   {
-    "title": "CVE-2026-46724 — TYPO3 ke_search path traversal due to lack of normalization on config directory from file indexer",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46724",
-    "score": 5,
-    "date": "2026-05-19T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-46722 — TYPO3 ke_search XML External Entity Injection",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46722",
-    "score": 5,
-    "date": "2026-05-19T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-46723 — TYPO3 ke_search path traversal from arbitrary table configuration input",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46723",
-    "score": 5,
-    "date": "2026-05-19T12:31:39Z"
-   },
-   {
-    "title": "MAL-2026-6098 — Malicious code in stackus (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6098",
-    "score": null,
-    "date": "2026-06-18T04:09:20Z"
-   },
-   {
-    "title": "MAL-2026-6068 — Malicious code in swift-parse-stream (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6068",
-    "score": null,
-    "date": "2026-06-17T16:37:42Z"
-   },
-   {
-    "title": "MAL-2026-5456 — Malicious code in via-city-tools-m-particle (npm)",
-    "url": "https://github.com/advisories/MAL-2026-5456",
-    "score": null,
-    "date": "2026-06-09T17:29:25Z"
-   },
-   {
-    "title": "MAL-2026-4826 — Malicious code in wm-mapper (npm)",
-    "url": "https://github.com/advisories/MAL-2026-4826",
-    "score": null,
-    "date": "2026-05-26T17:40:57Z"
+    "title": "CVE-2026-24733 — Apache Tomcat - Security constraint bypass with HTTP/0.9",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24733",
+    "score": 2,
+    "date": "2026-02-17T21:31:13Z"
    }
   ],
   "kev": [
@@ -283,6 +211,13 @@
   ],
   "thn": [
    {
+    "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+    "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+    "date": "Tue, 30 Jun 2026 00:10:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
     "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
     "date": "Mon, 29 Jun 2026 21:39:21 +0530",
@@ -358,16 +293,23 @@
     "date": "Sat, 27 Jun 2026 17:49:37 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-    "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-    "date": "Sat, 27 Jun 2026 01:08:29 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+    "date": "Mon, 29 Jun 2026 16:40:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+    "url": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+    "date": "Mon, 29 Jun 2026 16:30:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "WhatsApp rolls out usernames to help users hide their phone number",
     "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
@@ -437,20 +379,6 @@
     "date": "Sat, 27 Jun 2026 10:22:36 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI: Russian hackers now target Signal backup recovery keys",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
-    "date": "Fri, 26 Jun 2026 18:06:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-    "date": "Fri, 26 Jun 2026 15:43:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +403,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 261,
+    "stars": 267,
     "lang": "—"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 192,
+    "stars": 200,
     "lang": "Swift"
    },
    {
@@ -629,6 +557,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/",
+    "date": "2026-06-29T19:27:02+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
     "url": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
     "date": "2026-06-28T11:56:40+00:00",
@@ -690,13 +625,6 @@
     "date": "2026-06-22T18:31:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Exploiting Auth0 Defaults in XSS Attacks - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1uccgi1/exploiting_auth0_defaults_in_xss_attacks_elttam/",
-    "date": "2026-06-22T06:06:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -711,8 +639,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 1,
-  "kev": 1629,
+  "crit": 0,
+  "kev": 1630,
   "adv": 12,
   "feed": 48
  },
