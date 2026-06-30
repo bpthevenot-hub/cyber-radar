@@ -1,44 +1,7 @@
 {
- "generatedAt": "2026-06-30T19:10:53.591Z",
+ "generatedAt": "2026-06-30T21:08:30.637Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-50566 — Fission: Environment Runtime.Container and Builder.Container SecurityContext bypass allows privileged pod creation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50566",
-    "score": 9.5,
-    "date": "2026-06-30T18:20:39Z"
-   },
-   {
-    "title": "CVE-2026-50564 — Fission Environment CRD podspec passthrough enables hostPID/hostNetwork/privileged pods, node escape",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50564",
-    "score": 9.5,
-    "date": "2026-06-30T18:19:32Z"
-   },
-   {
-    "title": "CVE-2026-50563 — Fission Container Executor Function PodSpec Injection Leading to Node Escape",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50563",
-    "score": 9.5,
-    "date": "2026-06-30T18:18:42Z"
-   },
-   {
-    "title": "CVE-2026-50545 — Fission Environment CRD PodSpec Injection Leading to Node Escape and Cluster Takeover",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50545",
-    "score": 9.5,
-    "date": "2026-06-30T18:18:05Z"
-   },
-   {
-    "title": "CVE-2026-49824 — Fission: Cross-namespace Environment reference via unvalidated EnvironmentRef in Function admission webhook",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49824",
-    "score": 7.5,
-    "date": "2026-06-30T18:17:02Z"
-   },
-   {
-    "title": "CVE-2026-50565 — Fission builder pods auto-mount the fission-builder ServiceAccount token in the user-supplied builder container",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50565",
-    "score": 5,
-    "date": "2026-06-30T18:20:03Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -155,6 +118,13 @@
   ],
   "adv": [
    {
+    "title": "Paymenter has race condition in payWithCredit() that enables credit double-spend",
+    "url": "https://github.com/advisories/GHSA-pgcq-8grm-5rx9",
+    "score": 5.3,
+    "ghsa": "GHSA-pgcq-8grm-5rx9",
+    "date": "2026-06-30T19:11:24Z"
+   },
+   {
     "title": "Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
     "url": "https://github.com/advisories/GHSA-pp85-5j63-xpq3",
     "score": 7.8,
@@ -230,13 +200,6 @@
     "score": 5.3,
     "ghsa": "GHSA-85jm-cwp2-mvpv",
     "date": "2026-06-30T18:36:12Z"
-   },
-   {
-    "title": "@adonisjs/bodyparser has an incomplete fix for CVE-2026-25754",
-    "url": "https://github.com/advisories/GHSA-qcm7-3vpr-hj5h",
-    "score": 8.6,
-    "ghsa": "GHSA-qcm7-3vpr-hj5h",
-    "date": "2026-06-30T18:34:32Z"
    }
   ],
   "thn": [
@@ -327,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+    "date": "Tue, 30 Jun 2026 17:02:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
     "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
     "date": "Tue, 30 Jun 2026 11:46:19 -0400",
@@ -402,26 +372,19 @@
     "date": "Mon, 29 Jun 2026 13:11:15 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
-    "url": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-    "date": "Mon, 29 Jun 2026 11:09:43 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6288,
+    "stars": 6290,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1132,
+    "stars": 1130,
     "lang": "TypeScript"
    },
    {
@@ -433,7 +396,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 300,
+    "stars": 302,
     "lang": "—"
    },
    {
@@ -445,7 +408,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 239,
+    "stars": 240,
     "lang": "Swift"
    },
    {
@@ -469,7 +432,7 @@
    {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
     "url": "https://github.com/aliyun/alibabacloud-ecs-troubleshoot-skills",
-    "stars": 160,
+    "stars": 159,
     "lang": "Python"
    },
    {
@@ -587,6 +550,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1ujzc5y/citrixbleed_to_infinity_and_beyond_citrix/",
+    "date": "2026-06-30T19:40:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
     "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
     "date": "2026-06-30T10:07:33+00:00",
@@ -648,18 +618,11 @@
     "date": "2026-06-23T10:18:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "New Cisco RCE was fixed",
-    "url": "https://www.reddit.com/r/netsec/comments/1udcrb8/new_cisco_rce_was_fixed/",
-    "date": "2026-06-23T09:52:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -669,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 0,
   "kev": 1630,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
