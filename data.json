@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-06-30T21:08:30.637Z",
+ "generatedAt": "2026-06-30T22:43:07.509Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-7873 — IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated attackers to execute arbitrary OS commands and read sensitive files including cre",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7873",
+    "score": 9.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2026-11712 — IBM WebSphere Application Server 9.0, and 8.5 is affected by a cross-site scripting vulnerability in the administrative console help system.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11712",
+    "score": 9.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2026-47117 — OpenMed vulnerable to remote code injection through privacy-filter model loading path",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47117",
+    "score": 9.5,
+    "date": "2026-06-02T18:31:33Z"
+   },
+   {
+    "title": "CVE-2026-48207 — Apache Fory PyFory Deserialization of Untrusted Data",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48207",
+    "score": 9.5,
+    "date": "2026-05-21T18:33:09Z"
+   },
+   {
+    "title": "CVE-2026-44628 — An unauthenticated attacker can crash the worklist server with a single crafted query when the server has a valid Called AE Title / storage ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44628",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:45Z"
+   },
+   {
+    "title": "CVE-2026-11594 — IBM WebSphere Application Server 9.0, and 8.5 is affected by a cross-site scripting vulnerability in the administrative console.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11594",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:45Z"
+   },
+   {
+    "title": "CVE-2026-13207 — FUXA versions 1.3.1 and prior contain an authentication bypass vulnerability via dot-segment path normalization in the REST API. The API rou",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13207",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:45Z"
+   },
+   {
+    "title": "CVE-2025-36359 — IBM DevOps Automation 1.0.1 and IBM DevOps Loop 1.0.2 does not invalidate session IDs after expiration which could allow an authenticated us",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-36359",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:45Z"
+   },
+   {
+    "title": "CVE-2026-13759 — IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.1.6 ships three ObjectInputStream subclasses (WsObjectInputStream, ObjectStreamPool$Reusable",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13759",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2026-13772 — IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.1.6 's Object Query Language engine resolves attacker-supplied class names via Class.forName",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13772",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2026-10560 — IBM Langflow OSS 1.0.0 through 1.9.6 contains a missing authentication vulnerability in /api/v1/build_public_tmp/ endpoints that allows an u",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10560",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2026-13449 — IBM Business Automation Manager Open Editions 9.0.0 through 9.4.2 is vulnerable to an XML external entity injection (XXE) attack when proces",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13449",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2026-10564 — IBM Langflow OSS 1.0.0 through 1.9.6 contains a Server-Side Request Forgery (SSRF). The legacy RSSReaderComponent in rss.py and SearXNG comp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10564",
+    "score": 7.5,
+    "date": "2026-06-30T21:31:44Z"
+   },
+   {
+    "title": "CVE-2025-36324 — IBM watsonx.data intelligence 5.2.0, 5.2.1, 5.2.2, 5.3.0 s vulnerable to server-side request forgery (SSRF). This may allow an authenticated",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-36324",
+    "score": 5,
+    "date": "2026-06-30T21:31:45Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
+    "url": "https://github.com/advisories/GHSA-j35x-w4gj-pf7w",
+    "score": 7.8,
+    "ghsa": "GHSA-j35x-w4gj-pf7w",
+    "date": "2026-06-30T21:27:29Z"
+   },
+   {
+    "title": "Open Babel has out-of-bounds write (overlapping memcpy) in zipstream basic_unzip_streambuf::underflow",
+    "url": "https://github.com/advisories/GHSA-8j3x-m868-cpw8",
+    "score": 7.8,
+    "ghsa": "GHSA-8j3x-m868-cpw8",
+    "date": "2026-06-30T21:25:25Z"
+   },
+   {
     "title": "Paymenter has race condition in payWithCredit() that enables credit double-spend",
     "url": "https://github.com/advisories/GHSA-pgcq-8grm-5rx9",
     "score": 5.3,
@@ -186,20 +285,6 @@
     "score": 5.9,
     "ghsa": "GHSA-9c54-x2g4-v92j",
     "date": "2026-06-30T18:40:39Z"
-   },
-   {
-    "title": "Fulcio has OIDC Discovery Redirect Following Allows SSRF and JWKS Substitution for Meta-Issuer Paths, with Kubernetes Service-Account Token Leakage",
-    "url": "https://github.com/advisories/GHSA-f5mr-q85p-6hh6",
-    "score": 8.7,
-    "ghsa": "GHSA-f5mr-q85p-6hh6",
-    "date": "2026-06-30T18:38:45Z"
-   },
-   {
-    "title": "CefSharp.Common: `FolderSchemeHandlerFactory` path boundary check can expose files outside the configured root folder",
-    "url": "https://github.com/advisories/GHSA-85jm-cwp2-mvpv",
-    "score": 5.3,
-    "ghsa": "GHSA-85jm-cwp2-mvpv",
-    "date": "2026-06-30T18:36:12Z"
    }
   ],
   "thn": [
@@ -290,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "New BioShocking attack manipulates AI browser into data theft",
+    "url": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+    "date": "Tue, 30 Jun 2026 17:50:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
+    "date": "Tue, 30 Jun 2026 17:20:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
     "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
     "date": "Tue, 30 Jun 2026 17:02:55 -0400",
@@ -358,27 +457,13 @@
     "date": "Mon, 29 Jun 2026 16:30:28 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "WhatsApp rolls out usernames to help users hide their phone number",
-    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
-    "date": "Mon, 29 Jun 2026 13:48:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
-    "date": "Mon, 29 Jun 2026 13:11:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6290,
+    "stars": 6291,
     "lang": "Python"
    },
    {
@@ -396,7 +481,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 302,
+    "stars": 304,
     "lang": "—"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 240,
+    "stars": 241,
     "lang": "Swift"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 4,
   "kev": 1630,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
