@@ -1,80 +1,7 @@
 {
- "generatedAt": "2026-06-30T10:41:08.545Z",
+ "generatedAt": "2026-06-30T13:18:25.519Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-12819 — Delta Electronics DVP12SE PLC exposes a Modbus TCP service over a specified port without authentication or access control, permitting unauth",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12819",
-    "score": 9.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-12818 — Delta Electronics DVP12SE PLCs are susceptible to a resource allocation vulnerability without limits or throttling (CWE-770) within their Mo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12818",
-    "score": 9.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-56808 — DGM3103SCT provided by AVTECH Security Corporation contains an OS command injection vulnerability, which may lead to arbitrary command execu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56808",
-    "score": 7.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-14164 — A double free issue has been identified in libarchive's RAR5 reader. During parsing of a specially crafted RAR5 archive, the filtered_buf po",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14164",
-    "score": 7.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-12240 — The Export User Data plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the unseriali",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12240",
-    "score": 7.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-12578 — The affected product is vulnerable to a deserialization of untrusted data, which may allow an attacker to execute arbitrary code.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12578",
-    "score": 7.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-56137 — RPG MAKER MV and MZ provided by Gotcha Gotcha Games Inc. contain an OS command injection vulnerability. If a user loads a specially crafted ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56137",
-    "score": 7.5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-56809 — Multiple laser printers and MFPs (multifunction printers) which implement Ricoh Web Image Monitor contain a reflected cross-site scripting v",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56809",
-    "score": 5,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-11589 — The WP Support Plus Responsive Ticket System WordPress plugin through 9.1.2 does not properly validate uploaded files, allowing unauthentica",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11589",
-    "score": null,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-9576 — The Fluent Booking WordPress plugin before 2.1.2 does not verify ownership of the requested group_id before exporting attendee data via the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9576",
-    "score": null,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-11590 — The WP Support Plus Responsive Ticket System WordPress plugin through 9.1.2 does not sanitize user-supplied array keys before using them in ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11590",
-    "score": null,
-    "date": "2026-06-30T09:31:35Z"
-   },
-   {
-    "title": "CVE-2026-11581 — The Kali Forms — Contact Form & Drag-and-Drop Builder WordPress plugin before 2.4.13 does not sanitise a form field's caption before outputt",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11581",
-    "score": null,
-    "date": "2026-06-30T09:31:35Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -277,6 +204,20 @@
   ],
   "thn": [
    {
+    "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
+    "url": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+    "date": "Tue, 30 Jun 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+    "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+    "date": "Tue, 30 Jun 2026 16:48:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
     "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
     "date": "Tue, 30 Jun 2026 14:57:58 +0530",
@@ -298,13 +239,6 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
-    "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
-    "date": "Tue, 30 Jun 2026 12:45:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
     "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
     "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
     "date": "Tue, 30 Jun 2026 10:34:06 +0530",
@@ -312,16 +246,23 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
-    "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
-    "date": "Tue, 30 Jun 2026 00:10:09 +0530",
+    "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+    "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+    "date": "Mon, 29 Jun 2026 21:39:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
-    "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
-    "date": "Mon, 29 Jun 2026 21:39:21 +0530",
+    "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+    "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+    "date": "Mon, 29 Jun 2026 21:10:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+    "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+    "date": "Mon, 29 Jun 2026 21:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -345,23 +286,23 @@
     "date": "Mon, 29 Jun 2026 17:27:40 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Why Post-Quantum Cryptography Starts With Credentials",
-    "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-    "date": "Mon, 29 Jun 2026 17:12:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
-    "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
-    "date": "Mon, 29 Jun 2026 17:10:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+    "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+    "date": "Tue, 30 Jun 2026 07:12:18 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft adds smarter bot protection to Teams meetings",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
+    "date": "Tue, 30 Jun 2026 06:52:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
     "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
@@ -431,27 +372,13 @@
     "date": "Mon, 29 Jun 2026 10:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
-    "date": "Mon, 29 Jun 2026 09:46:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Webinar: Why business email compromise attacks keep succeeding",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-    "date": "Mon, 29 Jun 2026 08:14:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6282,
+    "stars": 6284,
     "lang": "Python"
    },
    {
@@ -463,13 +390,13 @@
    {
     "title": "hadriansecurity/OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
     "url": "https://github.com/hadriansecurity/OpenHack",
-    "stars": 698,
+    "stars": 699,
     "lang": "Python"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 291,
+    "stars": 294,
     "lang": "—"
    },
    {
@@ -481,7 +408,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 226,
+    "stars": 229,
     "lang": "Swift"
    },
    {
@@ -623,13 +550,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/",
-    "date": "2026-06-29T19:27:02+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
     "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
     "date": "2026-06-30T10:07:33+00:00",
@@ -637,9 +557,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "[ Removed by Reddit ]",
-    "url": "https://www.reddit.com/r/netsec/comments/1ujicfa/removed_by_reddit/",
-    "date": "2026-06-30T07:27:30+00:00",
+    "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/",
+    "date": "2026-06-29T19:27:02+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Trusted by NVIDIA, Amazon and Banks, This Extension Let Any Website run a drive-by RCE. CVSS 9.3",
+    "url": "https://www.reddit.com/r/netsec/comments/1ujmn5c/trusted_by_nvidia_amazon_and_banks_this_extension/",
+    "date": "2026-06-30T11:32:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -705,7 +632,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1630,
   "adv": 12,
   "feed": 48
