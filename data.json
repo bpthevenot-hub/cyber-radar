@@ -1,14 +1,7 @@
 {
- "generatedAt": "2026-06-29T22:33:27.594Z",
+ "generatedAt": "2026-06-30T01:27:40.413Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-24733 — Apache Tomcat - Security constraint bypass with HTTP/0.9",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24733",
-    "score": 2,
-    "date": "2026-02-17T21:31:13Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -125,6 +118,13 @@
   ],
   "adv": [
    {
+    "title": "Dgraph Vulnerable to DQL Injection via checkUserPassword GraphQL Query",
+    "url": "https://github.com/advisories/GHSA-q2m9-6jp9-c6mc",
+    "score": 7.5,
+    "ghsa": "GHSA-q2m9-6jp9-c6mc",
+    "date": "2026-06-29T22:53:52Z"
+   },
+   {
     "title": "OpenAM OAuth Authorization Bypass via PKCE Challenge",
     "url": "https://github.com/advisories/GHSA-4v2w-2wqp-mc85",
     "score": null,
@@ -200,13 +200,6 @@
     "score": 7.1,
     "ghsa": "GHSA-hmgp-w9jm-vp95",
     "date": "2026-06-26T23:33:24Z"
-   },
-   {
-    "title": "gonic: Path Traversal in playlist `id` bypasses ownership check, enabling any user to read/delete other users' playlists",
-    "url": "https://github.com/advisories/GHSA-2fp4-5v5c-4448",
-    "score": 7.1,
-    "ghsa": "GHSA-2fp4-5v5c-4448",
-    "date": "2026-06-26T23:32:10Z"
    }
   ],
   "thn": [
@@ -385,7 +378,7 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6271,
+    "stars": 6275,
     "lang": "Python"
    },
    {
@@ -397,31 +390,31 @@
    {
     "title": "hadriansecurity/OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
     "url": "https://github.com/hadriansecurity/OpenHack",
-    "stars": 697,
+    "stars": 698,
     "lang": "Python"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 268,
+    "stars": 273,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 260,
+    "stars": 261,
     "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 202,
+    "stars": 209,
     "lang": "Swift"
    },
    {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
     "url": "https://github.com/openhackai/OpenHack",
-    "stars": 167,
+    "stars": 168,
     "lang": "Python"
    },
    {
