@@ -1,7 +1,80 @@
 {
- "generatedAt": "2026-06-30T06:35:02.577Z",
+ "generatedAt": "2026-06-30T10:41:08.545Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-12819 — Delta Electronics DVP12SE PLC exposes a Modbus TCP service over a specified port without authentication or access control, permitting unauth",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12819",
+    "score": 9.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-12818 — Delta Electronics DVP12SE PLCs are susceptible to a resource allocation vulnerability without limits or throttling (CWE-770) within their Mo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12818",
+    "score": 9.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-56808 — DGM3103SCT provided by AVTECH Security Corporation contains an OS command injection vulnerability, which may lead to arbitrary command execu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56808",
+    "score": 7.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-14164 — A double free issue has been identified in libarchive's RAR5 reader. During parsing of a specially crafted RAR5 archive, the filtered_buf po",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14164",
+    "score": 7.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-12240 — The Export User Data plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the unseriali",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12240",
+    "score": 7.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-12578 — The affected product is vulnerable to a deserialization of untrusted data, which may allow an attacker to execute arbitrary code.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12578",
+    "score": 7.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-56137 — RPG MAKER MV and MZ provided by Gotcha Gotcha Games Inc. contain an OS command injection vulnerability. If a user loads a specially crafted ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56137",
+    "score": 7.5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-56809 — Multiple laser printers and MFPs (multifunction printers) which implement Ricoh Web Image Monitor contain a reflected cross-site scripting v",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56809",
+    "score": 5,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-11589 — The WP Support Plus Responsive Ticket System WordPress plugin through 9.1.2 does not properly validate uploaded files, allowing unauthentica",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11589",
+    "score": null,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-9576 — The Fluent Booking WordPress plugin before 2.1.2 does not verify ownership of the requested group_id before exporting attendee data via the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9576",
+    "score": null,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-11590 — The WP Support Plus Responsive Ticket System WordPress plugin through 9.1.2 does not sanitize user-supplied array keys before using them in ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11590",
+    "score": null,
+    "date": "2026-06-30T09:31:35Z"
+   },
+   {
+    "title": "CVE-2026-11581 — The Kali Forms — Contact Form & Drag-and-Drop Builder WordPress plugin before 2.4.13 does not sanitise a form field's caption before outputt",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11581",
+    "score": null,
+    "date": "2026-06-30T09:31:35Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +277,34 @@
   ],
   "thn": [
    {
+    "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
+    "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
+    "date": "Tue, 30 Jun 2026 14:57:58 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+    "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+    "date": "Tue, 30 Jun 2026 14:07:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+    "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+    "date": "Tue, 30 Jun 2026 13:08:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+    "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+    "date": "Tue, 30 Jun 2026 12:45:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
     "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
     "date": "Tue, 30 Jun 2026 10:34:06 +0530",
@@ -258,37 +359,30 @@
     "date": "Mon, 29 Jun 2026 17:10:24 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
-    "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
-    "date": "Mon, 29 Jun 2026 14:02:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
-    "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-    "date": "Mon, 29 Jun 2026 12:36:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
-    "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
-    "date": "Mon, 29 Jun 2026 11:06:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-    "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-    "date": "Sat, 27 Jun 2026 22:57:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
+    "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
+    "date": "Tue, 30 Jun 2026 05:46:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
+    "url": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
+    "date": "Tue, 30 Jun 2026 05:41:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+    "date": "Tue, 30 Jun 2026 04:53:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
     "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
@@ -351,40 +445,19 @@
     "date": "Mon, 29 Jun 2026 08:14:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "US seizes hundreds of FIFA World Cup illegal streaming domains",
-    "url": "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
-    "date": "Mon, 29 Jun 2026 07:21:03 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
-    "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
-    "date": "Sun, 28 Jun 2026 10:13:46 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Clean GitHub repo tricks AI coding agents into running malware",
-    "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-    "date": "Sat, 27 Jun 2026 10:22:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6279,
+    "stars": 6282,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1131,
+    "stars": 1132,
     "lang": "TypeScript"
    },
    {
@@ -396,25 +469,25 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 283,
+    "stars": 291,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 263,
+    "stars": 265,
     "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 218,
+    "stars": 226,
     "lang": "Swift"
    },
    {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
     "url": "https://github.com/openhackai/OpenHack",
-    "stars": 168,
+    "stars": 169,
     "lang": "Python"
    },
    {
@@ -426,7 +499,7 @@
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 122,
+    "stars": 123,
     "lang": "Python"
    },
    {
@@ -557,6 +630,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
+    "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
+    "date": "2026-06-30T10:07:33+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "[ Removed by Reddit ]",
+    "url": "https://www.reddit.com/r/netsec/comments/1ujicfa/removed_by_reddit/",
+    "date": "2026-06-30T07:27:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
     "url": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
     "date": "2026-06-28T11:56:40+00:00",
@@ -604,20 +691,6 @@
     "date": "2026-06-23T10:18:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "New Cisco RCE was fixed",
-    "url": "https://www.reddit.com/r/netsec/comments/1udcrb8/new_cisco_rce_was_fixed/",
-    "date": "2026-06-23T09:52:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-25860 turn XSS to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/",
-    "date": "2026-06-22T18:31:27+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -632,7 +705,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1630,
   "adv": 12,
   "feed": 48
