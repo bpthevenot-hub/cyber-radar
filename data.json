@@ -1,7 +1,86 @@
 {
- "generatedAt": "2026-06-30T13:18:25.519Z",
+ "generatedAt": "2026-06-30T16:33:18.573Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-46595 — golang.org/x/crypto/ssh: Invoking VerifiedPublicKeyCallback permissions skip enforcement",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46595",
+    "score": 9.5,
+    "date": "2026-06-25T22:23:16Z"
+   },
+   {
+    "title": "CVE-2026-42508 — golang.org/x/crypto/ssh/knownhosts vulnerable to auth bypass via unenforced @revoked status",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42508",
+    "score": 9.5,
+    "date": "2026-06-25T22:22:04Z"
+   },
+   {
+    "title": "CVE-2026-39830 — golang.org/x/crypto/ssh: Invoking client can cause server deadlock on unexpected responses",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39830",
+    "score": 9.5,
+    "date": "2026-06-25T22:18:17Z"
+   },
+   {
+    "title": "CVE-2026-39832 — golang.org/x/crypto/ssh/agent doesn't drop invoking agent constraints when forwarding keys",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39832",
+    "score": 9.5,
+    "date": "2026-06-25T22:14:00Z"
+   },
+   {
+    "title": "CVE-2026-39829 — golang.org/x/crypto/ssh: Invoking pathological RSA/DSA parameters may cause DoS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39829",
+    "score": 7.5,
+    "date": "2026-06-25T22:18:43Z"
+   },
+   {
+    "title": "CVE-2022-31008 — RabbitMQ has predictable credential obfuscation seed value used in Shovel and Federation plugins",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-31008",
+    "score": 5,
+    "date": "2026-06-30T16:15:48Z"
+   },
+   {
+    "title": "CVE-2026-39835 — golang.org/x/crypto/ssh is vulnerable to invoking server panic during CheckHostKey/Authenticate flow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39835",
+    "score": 5,
+    "date": "2026-06-25T22:15:17Z"
+   },
+   {
+    "title": "CVE-2026-39828 — golang.org/x/crypto/ssh vulnerable to invoking bypass of certificate restrictions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39828",
+    "score": 5,
+    "date": "2026-06-25T22:14:38Z"
+   },
+   {
+    "title": "MAL-2026-6572 — Malicious code in rebrandly-domains-digger (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6572",
+    "score": null,
+    "date": "2026-06-29T03:20:35Z"
+   },
+   {
+    "title": "MAL-2026-6573 — Malicious code in rebrandly-domains-search-client (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6573",
+    "score": null,
+    "date": "2026-06-29T03:20:27Z"
+   },
+   {
+    "title": "MAL-2026-6555 — Malicious code in livekit-agents (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6555",
+    "score": null,
+    "date": "2026-06-28T06:01:35Z"
+   },
+   {
+    "title": "MAL-2026-6544 — Malicious code in chai-as-persisted (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6544",
+    "score": null,
+    "date": "2026-06-27T02:32:25Z"
+   },
+   {
+    "title": "MAL-2026-6532 — Malicious code in chai-as-assured (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6532",
+    "score": null,
+    "date": "2026-06-26T17:44:23Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +197,20 @@
   ],
   "adv": [
    {
+    "title": "RabbitMQ has predictable credential obfuscation seed value used in Shovel and Federation plugins",
+    "url": "https://github.com/advisories/GHSA-v9gv-xp36-jgj8",
+    "score": 5.5,
+    "ghsa": "GHSA-v9gv-xp36-jgj8",
+    "date": "2026-06-30T16:15:48Z"
+   },
+   {
+    "title": "Microsoft.OpenAPI: Circular schema references may terminate OpenAPI parsing",
+    "url": "https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+    "score": 7.5,
+    "ghsa": "GHSA-v5pm-xwqc-g5wc",
+    "date": "2026-06-30T15:56:24Z"
+   },
+   {
     "title": "Dgraph Vulnerable to DQL Injection via checkUserPassword GraphQL Query",
     "url": "https://github.com/advisories/GHSA-q2m9-6jp9-c6mc",
     "score": 7.5,
@@ -186,23 +279,30 @@
     "score": 6.5,
     "ghsa": "GHSA-4gxm-v5v7-fqc4",
     "date": "2026-06-26T23:46:53Z"
-   },
-   {
-    "title": "pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
-    "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
-    "score": 8.8,
-    "ghsa": "GHSA-w466-c33r-3gjp",
-    "date": "2026-06-26T23:34:06Z"
-   },
-   {
-    "title": "Subsonic API: any authenticated user can delete or read any other user's playlist (IDOR)",
-    "url": "https://github.com/advisories/GHSA-hmgp-w9jm-vp95",
-    "score": 7.1,
-    "ghsa": "GHSA-hmgp-w9jm-vp95",
-    "date": "2026-06-26T23:33:24Z"
    }
   ],
   "thn": [
+   {
+    "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
+    "url": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+    "date": "Tue, 30 Jun 2026 21:10:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+    "url": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+    "date": "Tue, 30 Jun 2026 19:56:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+    "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+    "date": "Tue, 30 Jun 2026 19:19:34 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
     "url": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
@@ -265,30 +365,23 @@
     "date": "Mon, 29 Jun 2026 21:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
-    "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-    "date": "Mon, 29 Jun 2026 20:33:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
-    "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-    "date": "Mon, 29 Jun 2026 20:11:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
-    "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-    "date": "Mon, 29 Jun 2026 17:27:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+    "date": "Tue, 30 Jun 2026 11:46:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+    "url": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+    "date": "Tue, 30 Jun 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
     "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
@@ -298,7 +391,7 @@
    },
    {
     "title": "Microsoft adds smarter bot protection to Teams meetings",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
     "date": "Tue, 30 Jun 2026 06:52:26 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
@@ -358,27 +451,13 @@
     "date": "Mon, 29 Jun 2026 11:09:43 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Agentic AI Has an Identity Problem and Attackers Know It",
-    "url": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
-    "date": "Mon, 29 Jun 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-    "date": "Mon, 29 Jun 2026 10:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6284,
+    "stars": 6287,
     "lang": "Python"
    },
    {
@@ -396,20 +475,26 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 294,
+    "stars": 297,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 265,
+    "stars": 267,
     "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 229,
+    "stars": 238,
     "lang": "Swift"
+   },
+   {
+    "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
+    "url": "https://github.com/jestasecurity/thumper",
+    "stars": 219,
+    "lang": "Python"
    },
    {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
@@ -418,15 +503,15 @@
     "lang": "Python"
    },
    {
+    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
+    "url": "https://github.com/DSB-117/brainblast",
+    "stars": 169,
+    "lang": "TypeScript"
+   },
+   {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
     "url": "https://github.com/aliyun/alibabacloud-ecs-troubleshoot-skills",
     "stars": 160,
-    "lang": "Python"
-   },
-   {
-    "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
-    "url": "https://github.com/jestasecurity/thumper",
-    "stars": 123,
     "lang": "Python"
    },
    {
@@ -440,12 +525,6 @@
     "url": "https://github.com/SantanderAI/autoguardrails",
     "stars": 112,
     "lang": "Python"
-   },
-   {
-    "title": "manticore-projects/aurscan — Automatically scan AUR packages for malware before installing (using LLM/AI)",
-    "url": "https://github.com/manticore-projects/aurscan",
-    "stars": 104,
-    "lang": "Go"
    }
   ],
   "hn": [
@@ -564,13 +643,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Trusted by NVIDIA, Amazon and Banks, This Extension Let Any Website run a drive-by RCE. CVSS 9.3",
-    "url": "https://www.reddit.com/r/netsec/comments/1ujmn5c/trusted_by_nvidia_amazon_and_banks_this_extension/",
-    "date": "2026-06-30T11:32:57+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
     "url": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
     "date": "2026-06-28T11:56:40+00:00",
@@ -618,6 +690,13 @@
     "date": "2026-06-23T10:18:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "New Cisco RCE was fixed",
+    "url": "https://www.reddit.com/r/netsec/comments/1udcrb8/new_cisco_rce_was_fixed/",
+    "date": "2026-06-23T09:52:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -632,7 +711,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 4,
   "kev": 1630,
   "adv": 12,
   "feed": 48
