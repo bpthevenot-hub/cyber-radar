@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-01T10:50:35.694Z",
+ "generatedAt": "2026-07-01T13:42:04.286Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-12142 — The NEX-Forms – Ultimate Forms Plugin for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via '_name[]' Array Pa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12142",
+    "score": 7.5,
+    "date": "2026-07-01T12:31:35Z"
+   },
+   {
+    "title": "CVE-2026-13228 — The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Privilege Escalation to Administra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13228",
+    "score": 7.5,
+    "date": "2026-07-01T12:31:35Z"
+   },
+   {
+    "title": "CVE-2026-11568 — The Product Configurator for WooCommerce WordPress plugin before 1.7.3 does not perform any authorisation or post-status check before return",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11568",
+    "score": 7.5,
+    "date": "2026-07-01T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-11794 — The Advanced Form Integration — Connect Forms to 200+ Apps WordPress plugin before 2.1.1 does not restrict the WordPress role assigned when ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11794",
+    "score": 7.5,
+    "date": "2026-07-01T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-11883 — The WebAuthn Provider for Two Factor WordPress plugin before 2.5.6 does not correctly validate the second-factor authentication response, al",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11883",
+    "score": 7.5,
+    "date": "2026-07-01T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-10750 — The Royal MCP WordPress plugin before 1.4.26 does not perform capability checks on the majority of its MCP tools after token authentication,",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10750",
+    "score": 7.5,
+    "date": "2026-07-01T09:30:24Z"
+   },
+   {
+    "title": "CVE-2026-20458 — In Modem, there is a possible memory corruption due to a missing bounds check. This could lead to remote escalation of privilege, if a UE ha",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20458",
+    "score": 7.5,
+    "date": "2026-07-01T06:31:32Z"
+   },
+   {
+    "title": "CVE-2026-14258 — A flaw was found in dhcpcd's IPv6 Neighbor Discovery Router Advertisement processing. A specially crafted IPv6 Router Advertisement containi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14258",
+    "score": 5,
+    "date": "2026-07-01T12:31:35Z"
+   },
+   {
+    "title": "CVE-2026-13323 — In Open VSX Registry before 1.0.2, the /vscode/unpkg/ endpoint serves user-supplied HTML files with Content-Type: text/html and without a Co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13323",
+    "score": 5,
+    "date": "2026-07-01T12:31:35Z"
+   },
+   {
+    "title": "CVE-2026-10095 — The WP Photo Album Plus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'subtext' parameter in all versions up to,",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10095",
+    "score": 5,
+    "date": "2026-07-01T12:31:34Z"
+   },
+   {
+    "title": "CVE-2026-27435 — Missing Authorization vulnerability in WofficeIO Woffice allows Exploiting Incorrectly Configured Access Control Security Levels. This issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27435",
+    "score": 5,
+    "date": "2026-07-01T12:31:34Z"
+   },
+   {
+    "title": "CVE-2026-12754 — The VikBooking Hotel Booking Engine & PMS plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'layoutstyle' paramet",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12754",
+    "score": 5,
+    "date": "2026-07-01T12:31:34Z"
+   },
+   {
+    "title": "CVE-2026-13454 — The MotoPress Appointment Booking plugin for WordPress is vulnerable to generic SQL Injection via the 's' parameter in all versions up to, a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13454",
+    "score": 5,
+    "date": "2026-07-01T12:31:34Z"
+   },
+   {
+    "title": "CVE-2026-11570 — The User Submitted Posts WordPress plugin before 20260608 does not escape a submitted value before outputting it in an admin-configured disp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11570",
+    "score": 5,
+    "date": "2026-07-01T09:30:25Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
+    "url": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
+    "date": "Wed, 01 Jul 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
+    "url": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
+    "date": "Wed, 01 Jul 2026 16:11:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
     "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
     "date": "Wed, 01 Jul 2026 12:50:51 +0530",
@@ -272,23 +371,23 @@
     "date": "Tue, 30 Jun 2026 19:56:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
-    "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-    "date": "Tue, 30 Jun 2026 19:19:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
-    "url": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
-    "date": "Tue, 30 Jun 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
+    "date": "Wed, 01 Jul 2026 08:30:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes GIF functionality in the Windows Emoji Panel",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/",
+    "date": "Wed, 01 Jul 2026 06:52:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
     "url": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
@@ -358,33 +457,19 @@
     "date": "Tue, 30 Jun 2026 07:12:18 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft adds smarter bot protection to Teams meetings",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
-    "date": "Tue, 30 Jun 2026 06:52:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
-    "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
-    "date": "Tue, 30 Jun 2026 05:46:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6297,
+    "stars": 6299,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1146,
+    "stars": 1174,
     "lang": "TypeScript"
    },
    {
@@ -396,7 +481,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 331,
+    "stars": 334,
     "lang": "—"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 251,
+    "stars": 256,
     "lang": "Swift"
    },
    {
@@ -442,10 +527,10 @@
     "lang": "JavaScript"
    },
    {
-    "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
-    "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 112,
-    "lang": "Python"
+    "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
+    "url": "https://github.com/badchars/darknet-mcp-server",
+    "stars": 118,
+    "lang": "TypeScript"
    }
   ],
   "hn": [
@@ -544,8 +629,22 @@
    },
    {
     "title": "r/netsec monthly discussion &amp; tool thread",
-    "url": "https://www.reddit.com/r/netsec/comments/1tts9ly/rnetsec_monthly_discussion_tool_thread/",
-    "date": "2026-06-01T13:29:06+00:00",
+    "url": "https://www.reddit.com/r/netsec/comments/1uklqx3/rnetsec_monthly_discussion_tool_thread/",
+    "date": "2026-07-01T13:29:07+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)",
+    "url": "https://www.reddit.com/r/netsec/comments/1ukle4i/privilege_escalation_to_root_in_lima_qemu_guests/",
+    "date": "2026-07-01T13:14:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Symfony YAML Security Audit - Shielder",
+    "url": "https://www.reddit.com/r/netsec/comments/1ukkxjm/symfony_yaml_security_audit_shielder/",
+    "date": "2026-07-01T12:55:50+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -602,20 +701,6 @@
     "title": "CargoWise WebTracker - The keys were in the cargo",
     "url": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
     "date": "2026-06-25T11:34:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
-    "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
-    "date": "2026-06-24T16:34:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Cloudflare patches Copy-Fail across every server in two days",
-    "url": "https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/",
-    "date": "2026-06-23T10:18:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
