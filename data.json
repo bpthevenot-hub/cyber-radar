@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-01T19:13:45.152Z",
+ "generatedAt": "2026-07-01T20:57:25.905Z",
  "sources": {
   "cve": [
    {
@@ -203,91 +203,105 @@
   ],
   "adv": [
    {
-    "title": "repomix: attach_packed_output can bypass file-read secret scanning for supported local files",
-    "url": "https://github.com/advisories/GHSA-hwpp-h97w-2h3j",
-    "score": null,
-    "ghsa": "GHSA-hwpp-h97w-2h3j",
-    "date": "2026-07-01T19:01:41Z"
-   },
-   {
-    "title": "Concourse login flow has an open redirect issue",
-    "url": "https://github.com/advisories/GHSA-8w27-c4vc-88q9",
-    "score": 2,
-    "ghsa": "GHSA-8w27-c4vc-88q9",
-    "date": "2026-07-01T19:01:16Z"
-   },
-   {
-    "title": "repomix Vulnerable to Command Injection (RCE) via `--remote-branch` Argument Injection",
-    "url": "https://github.com/advisories/GHSA-9mm9-rqhj-j5mx",
-    "score": 8.8,
-    "ghsa": "GHSA-9mm9-rqhj-j5mx",
-    "date": "2026-07-01T19:00:50Z"
-   },
-   {
-    "title": "pay-rails/pay: non-constant-time HMAC comparison in Paddle Billing webhook signature verifier",
-    "url": "https://github.com/advisories/GHSA-mjgf-xj26-9qf9",
-    "score": 7.4,
-    "ghsa": "GHSA-mjgf-xj26-9qf9",
-    "date": "2026-07-01T18:57:02Z"
-   },
-   {
-    "title": "Twig: Sandbox filter, tag and function allow-list bypass when sandbox state changes between renders for a cached `Template`",
-    "url": "https://github.com/advisories/GHSA-529h-vh3j-85hq",
-    "score": 7.5,
-    "ghsa": "GHSA-529h-vh3j-85hq",
-    "date": "2026-07-01T18:55:49Z"
-   },
-   {
-    "title": "Constrata's coordinator transit engine `ciphertextContainer.UnmarshalJSON` panics on attacker-controlled short ciphertexts",
-    "url": "https://github.com/advisories/GHSA-3ccm-4qq2-5wrp",
-    "score": 4.3,
-    "ghsa": "GHSA-3ccm-4qq2-5wrp",
-    "date": "2026-07-01T18:47:53Z"
-   },
-   {
-    "title": "Contrast's Imagepuller registryFor uses unanchored suffix matching, leaking auth credentials and trusted CA configuration to sibling-domain registries",
-    "url": "https://github.com/advisories/GHSA-6c87-g9pw-78fx",
-    "score": 3.7,
-    "ghsa": "GHSA-6c87-g9pw-78fx",
-    "date": "2026-07-01T18:43:55Z"
-   },
-   {
-    "title": "Cortex has Untrusted Project Bootstrap Code Execution via `CLAUDE_PROJECT_DIR`",
-    "url": "https://github.com/advisories/GHSA-gvpp-v77h-5w8g",
-    "score": 7.5,
-    "ghsa": "GHSA-gvpp-v77h-5w8g",
-    "date": "2026-07-01T18:41:35Z"
-   },
-   {
-    "title": "Schema.org has cross-site scripting (XSS) via script break-out in toScript() output",
-    "url": "https://github.com/advisories/GHSA-hwmc-r6mf-jh83",
-    "score": 2,
-    "ghsa": "GHSA-hwmc-r6mf-jh83",
-    "date": "2026-07-01T18:32:31Z"
-   },
-   {
-    "title": "wetty vulnerable to DOM XSS via file-download filename",
-    "url": "https://github.com/advisories/GHSA-p26j-h7wj-r568",
-    "score": 7.5,
-    "ghsa": "GHSA-p26j-h7wj-r568",
-    "date": "2026-07-01T18:19:39Z"
-   },
-   {
-    "title": "EasyAdminBundle has path traversal and reflected XSS in Flag and Icon Twig components",
-    "url": "https://github.com/advisories/GHSA-2wwr-9x6f-88gp",
+    "title": "Mailpit: Sibling-endpoint memory-exhaustion DoS via unbounded JSON body on /api/v1/messages, /api/v1/tags, and /api/v1/message/{id}/release (incomplet",
+    "url": "https://github.com/advisories/GHSA-28pq-6qxg-wg5r",
     "score": 5.3,
-    "ghsa": "GHSA-2wwr-9x6f-88gp",
-    "date": "2026-07-01T18:18:46Z"
+    "ghsa": "GHSA-28pq-6qxg-wg5r",
+    "date": "2026-07-01T20:56:10Z"
    },
    {
-    "title": "auth-fetch-mcp has SSRF Protection Bypass via IPv4-mapped IPv6 Loopback",
-    "url": "https://github.com/advisories/GHSA-pvrj-8cg3-j5f8",
-    "score": 7.4,
-    "ghsa": "GHSA-pvrj-8cg3-j5f8",
-    "date": "2026-07-01T18:16:22Z"
+    "title": "@hey-api/openapi-ts's `buildClientParams` template: prototype chain substitution via unknown `$<slot>___proto__` key",
+    "url": "https://github.com/advisories/GHSA-hhx9-57xq-r5rw",
+    "score": 4.8,
+    "ghsa": "GHSA-hhx9-57xq-r5rw",
+    "date": "2026-07-01T20:55:17Z"
+   },
+   {
+    "title": "Rancher has over-inclusive team membership expansion in GitHub App authentication provider",
+    "url": "https://github.com/advisories/GHSA-4j6x-2764-m8gh",
+    "score": 8.8,
+    "ghsa": "GHSA-4j6x-2764-m8gh",
+    "date": "2026-07-01T20:51:54Z"
+   },
+   {
+    "title": "Rancher Fleet vulnerable to cross namespace secret disclosure via unvalidated `valuesFrom` references in Helm Deployer",
+    "url": "https://github.com/advisories/GHSA-xr65-5cpm-g36x",
+    "score": 9.9,
+    "ghsa": "GHSA-xr65-5cpm-g36x",
+    "date": "2026-07-01T20:45:39Z"
+   },
+   {
+    "title": "Rancher Fleet has SSRF in Bundle Reader via Unvalidated Helm Repository URL in fleet.yaml",
+    "url": "https://github.com/advisories/GHSA-hx4v-cxpf-vh8m",
+    "score": 5,
+    "ghsa": "GHSA-hx4v-cxpf-vh8m",
+    "date": "2026-07-01T20:45:05Z"
+   },
+   {
+    "title": "Rancher vulnerable to command injection through unsanitized YAML parameter",
+    "url": "https://github.com/advisories/GHSA-mhc6-2gfq-xx62",
+    "score": 9.6,
+    "ghsa": "GHSA-mhc6-2gfq-xx62",
+    "date": "2026-07-01T20:44:33Z"
+   },
+   {
+    "title": "Rancher Fleet has Unauthenticated Webhook: Regex Injection via Unsanitized Repository URL Components",
+    "url": "https://github.com/advisories/GHSA-jmf4-m7j9-g72r",
+    "score": 7.5,
+    "ghsa": "GHSA-jmf4-m7j9-g72r",
+    "date": "2026-07-01T20:44:24Z"
+   },
+   {
+    "title": "Fleet has PSS Bypass through addLabelsFromOptions in Fleet Agent",
+    "url": "https://github.com/advisories/GHSA-864g-863m-vcvq",
+    "score": 8.8,
+    "ghsa": "GHSA-864g-863m-vcvq",
+    "date": "2026-07-01T20:35:37Z"
+   },
+   {
+    "title": "QUIC has Broken TLS verification",
+    "url": "https://github.com/advisories/GHSA-2r8v-p65x-3663",
+    "score": 9.1,
+    "ghsa": "GHSA-2r8v-p65x-3663",
+    "date": "2026-07-01T20:32:34Z"
+   },
+   {
+    "title": "land.oras:oras-java-sdk: Symlink-based path traversal in ArchiveUtils.untar / unzip allows arbitrary file write outside extraction directory",
+    "url": "https://github.com/advisories/GHSA-j6hm-v3x2-qv6j",
+    "score": 2,
+    "ghsa": "GHSA-j6hm-v3x2-qv6j",
+    "date": "2026-07-01T20:31:34Z"
+   },
+   {
+    "title": "Centrifugo's dynamic JWKS key cache keyed only by `kid` allows cross-issuer JWT authentication bypass",
+    "url": "https://github.com/advisories/GHSA-g6vg-wj8f-48cj",
+    "score": 8.2,
+    "ghsa": "GHSA-g6vg-wj8f-48cj",
+    "date": "2026-07-01T20:28:52Z"
+   },
+   {
+    "title": "SurrealDB: Edge PERMISSIONS FOR delete bypassed when a connected node is deleted",
+    "url": "https://github.com/advisories/GHSA-whwg-vh4f-pmmf",
+    "score": 5.4,
+    "ghsa": "GHSA-whwg-vh4f-pmmf",
+    "date": "2026-07-01T20:23:49Z"
    }
   ],
   "thn": [
+   {
+    "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+    "url": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+    "date": "Thu, 02 Jul 2026 01:10:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+    "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+    "date": "Thu, 02 Jul 2026 00:58:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
     "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
@@ -357,23 +371,16 @@
     "date": "Wed, 01 Jul 2026 12:50:51 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
-    "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
-    "date": "Wed, 01 Jul 2026 12:16:17 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-    "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-    "date": "Wed, 01 Jul 2026 11:16:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "ChocoPoc malware delivered via trojanized exploits on GitHub",
+    "url": "https://www.bleepingcomputer.com/news/security/chocopoc-malware-delivered-via-trojanized-exploits-on-github/",
+    "date": "Wed, 01 Jul 2026 16:08:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "DHS confirms hackers breached HSIN info-sharing platform",
     "url": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
@@ -450,13 +457,6 @@
     "date": "Tue, 30 Jun 2026 17:50:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
-    "date": "Tue, 30 Jun 2026 17:20:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +469,7 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1199,
+    "stars": 1205,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 339,
+    "stars": 340,
     "lang": "—"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 257,
+    "stars": 260,
     "lang": "Swift"
    },
    {
@@ -503,16 +503,16 @@
     "lang": "Python"
    },
    {
-    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
-    "url": "https://github.com/DSB-117/brainblast",
-    "stars": 169,
-    "lang": "TypeScript"
-   },
-   {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
     "url": "https://github.com/openhackai/OpenHack",
     "stars": 169,
     "lang": "Python"
+   },
+   {
+    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
+    "url": "https://github.com/DSB-117/brainblast",
+    "stars": 169,
+    "lang": "TypeScript"
    },
    {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
@@ -523,7 +523,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 130,
+    "stars": 133,
     "lang": "TypeScript"
    },
    {
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Zero-Click Prompt Injection to RCE in Cursor IDE: DuneSlide",
-    "url": "https://www.reddit.com/r/netsec/comments/1ukqaam/zeroclick_prompt_injection_to_rce_in_cursor_ide/",
-    "date": "2026-07-01T16:19:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)",
     "url": "https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/",
     "date": "2026-07-01T14:52:02+00:00",
@@ -703,6 +696,13 @@
     "date": "2026-06-25T15:30:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "CargoWise WebTracker - The keys were in the cargo",
+    "url": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
+    "date": "2026-06-25T11:34:42+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -718,7 +718,7 @@
  },
  "kpis": {
   "crit": 1,
-  "kev": 1630,
+  "kev": 1631,
   "adv": 12,
   "feed": 48
  },
