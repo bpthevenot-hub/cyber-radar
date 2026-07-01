@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-01T16:41:23.661Z",
+ "generatedAt": "2026-07-01T19:13:45.152Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-58453 — JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a hard-coded credentials vulnerability that allows network-adja",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58453",
+    "score": 9.5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "CVE-2026-49986 — Cortex has Untrusted Project Bootstrap Code Execution via `CLAUDE_PROJECT_DIR`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49986",
+    "score": 7.5,
+    "date": "2026-07-01T18:41:35Z"
+   },
+   {
+    "title": "CVE-2026-57736 — Insertion of Sensitive Information Into Sent Data vulnerability in HubSpot allows Retrieve Embedded Sensitive Data. This issue affects HubSp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57736",
+    "score": 7.5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "CVE-2026-58452 — JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain an OS command injection vulnerability that allows authenticated",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58452",
+    "score": 7.5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "CVE-2026-57723 — Cross-Site Request Forgery (CSRF) vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS allows Path Traversal. This issue affects ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57723",
+    "score": 7.5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "CVE-2026-49091 — Improper Output Neutralization for Logs (CWE-117) in Kibana can lead to log injection via Log Injection-Tampering-Forging (CAPEC-93). An att",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49091",
+    "score": 7.5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "CVE-2026-58454 — JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a remote code execution vulnerability that allows authenticated",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58454",
+    "score": 7.5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "GHSA-3ccm-4qq2-5wrp — Constrata's coordinator transit engine `ciphertextContainer.UnmarshalJSON` panics on attacker-controlled short ciphertexts",
+    "url": "https://github.com/advisories/GHSA-3ccm-4qq2-5wrp",
+    "score": 5,
+    "date": "2026-07-01T18:47:53Z"
+   },
+   {
+    "title": "CVE-2026-5051 — HashiCorp Vault and Vault Enterprise prior to 2.0.1 audit device validation logic did not consistently apply plugin directory protections wh",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5051",
+    "score": 5,
+    "date": "2026-07-01T18:31:57Z"
+   },
+   {
+    "title": "CVE-2026-58520 — URL redirection to untrusted site ('open redirect') vulnerability in The Wikimedia Foundation Mediawiki - UrlShortener Extension allows Cros",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58520",
+    "score": 5,
+    "date": "2026-07-01T18:31:57Z"
+   },
+   {
+    "title": "CVE-2026-57737 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Averta LTD Shortcodes and extra featur",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57737",
+    "score": 5,
+    "date": "2026-07-01T18:31:57Z"
+   },
+   {
+    "title": "CVE-2026-58521 — Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in The Wikimedia Foundation Mediawiki - C",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58521",
+    "score": 5,
+    "date": "2026-07-01T18:31:57Z"
+   },
+   {
+    "title": "CVE-2026-49090 — Uncontrolled Resource Consumption (CWE-400) in Elasticsearch can lead to a denial of service via Excessive Allocation (CAPEC-130). An authen",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49090",
+    "score": 5,
+    "date": "2026-07-01T18:31:56Z"
+   },
+   {
+    "title": "CVE-2026-57721 — Missing Authorization vulnerability in WP Reloaded ApplyOnline allows Exploiting Incorrectly Configured Access Control Security Levels. This",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57721",
+    "score": 5,
+    "date": "2026-07-01T18:31:56Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,91 +203,105 @@
   ],
   "adv": [
    {
-    "title": "Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
-    "url": "https://github.com/advisories/GHSA-j35x-w4gj-pf7w",
-    "score": 7.8,
-    "ghsa": "GHSA-j35x-w4gj-pf7w",
-    "date": "2026-06-30T21:27:29Z"
-   },
-   {
-    "title": "Open Babel has out-of-bounds write (overlapping memcpy) in zipstream basic_unzip_streambuf::underflow",
-    "url": "https://github.com/advisories/GHSA-8j3x-m868-cpw8",
-    "score": 7.8,
-    "ghsa": "GHSA-8j3x-m868-cpw8",
-    "date": "2026-06-30T21:25:25Z"
-   },
-   {
-    "title": "Paymenter has race condition in payWithCredit() that enables credit double-spend",
-    "url": "https://github.com/advisories/GHSA-pgcq-8grm-5rx9",
-    "score": 5.3,
-    "ghsa": "GHSA-pgcq-8grm-5rx9",
-    "date": "2026-06-30T19:11:24Z"
-   },
-   {
-    "title": "Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
-    "url": "https://github.com/advisories/GHSA-pp85-5j63-xpq3",
-    "score": 7.8,
-    "ghsa": "GHSA-pp85-5j63-xpq3",
-    "date": "2026-06-30T18:48:57Z"
-   },
-   {
-    "title": "Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
-    "url": "https://github.com/advisories/GHSA-rxpr-wq63-jr7p",
-    "score": 5.5,
-    "ghsa": "GHSA-rxpr-wq63-jr7p",
-    "date": "2026-06-30T18:47:28Z"
-   },
-   {
-    "title": "Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
-    "url": "https://github.com/advisories/GHSA-4w5w-4fhm-q483",
-    "score": 5.5,
-    "ghsa": "GHSA-4w5w-4fhm-q483",
-    "date": "2026-06-30T18:47:00Z"
-   },
-   {
-    "title": "Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
-    "url": "https://github.com/advisories/GHSA-6xw4-2g22-26h8",
-    "score": 4.4,
-    "ghsa": "GHSA-6xw4-2g22-26h8",
-    "date": "2026-06-30T18:46:12Z"
-   },
-   {
-    "title": "Twig: Sandbox property allowlist bypass via the `column` filter under `SourcePolicyInterface`",
-    "url": "https://github.com/advisories/GHSA-h8vq-8gpg-mhcg",
+    "title": "repomix: attach_packed_output can bypass file-read secret scanning for supported local files",
+    "url": "https://github.com/advisories/GHSA-hwpp-h97w-2h3j",
     "score": null,
-    "ghsa": "GHSA-h8vq-8gpg-mhcg",
-    "date": "2026-06-30T18:43:45Z"
+    "ghsa": "GHSA-hwpp-h97w-2h3j",
+    "date": "2026-07-01T19:01:41Z"
    },
    {
-    "title": "Twig: Sandbox `__toString()` policy bypass via `Traversable` in `join` and `replace` filters",
-    "url": "https://github.com/advisories/GHSA-8x9c-rmqh-456c",
-    "score": null,
-    "ghsa": "GHSA-8x9c-rmqh-456c",
-    "date": "2026-06-30T18:43:23Z"
-   },
-   {
-    "title": "Twig: Sandbox `__toString()` policy bypass via dynamic mapping keys",
-    "url": "https://github.com/advisories/GHSA-5v5v-ww74-355v",
-    "score": null,
-    "ghsa": "GHSA-5v5v-ww74-355v",
-    "date": "2026-06-30T18:42:49Z"
-   },
-   {
-    "title": "Twig: Sandbox state regression in deprecated internal wrappers in `src/Resources/core.php`",
-    "url": "https://github.com/advisories/GHSA-p42q-9prx-q5wq",
+    "title": "Concourse login flow has an open redirect issue",
+    "url": "https://github.com/advisories/GHSA-8w27-c4vc-88q9",
     "score": 2,
-    "ghsa": "GHSA-p42q-9prx-q5wq",
-    "date": "2026-06-30T18:41:30Z"
+    "ghsa": "GHSA-8w27-c4vc-88q9",
+    "date": "2026-07-01T19:01:16Z"
    },
    {
-    "title": "Sigstore Timestamp Authority has OOM due to unbounded metric label cardinality",
-    "url": "https://github.com/advisories/GHSA-9c54-x2g4-v92j",
-    "score": 5.9,
-    "ghsa": "GHSA-9c54-x2g4-v92j",
-    "date": "2026-06-30T18:40:39Z"
+    "title": "repomix Vulnerable to Command Injection (RCE) via `--remote-branch` Argument Injection",
+    "url": "https://github.com/advisories/GHSA-9mm9-rqhj-j5mx",
+    "score": 8.8,
+    "ghsa": "GHSA-9mm9-rqhj-j5mx",
+    "date": "2026-07-01T19:00:50Z"
+   },
+   {
+    "title": "pay-rails/pay: non-constant-time HMAC comparison in Paddle Billing webhook signature verifier",
+    "url": "https://github.com/advisories/GHSA-mjgf-xj26-9qf9",
+    "score": 7.4,
+    "ghsa": "GHSA-mjgf-xj26-9qf9",
+    "date": "2026-07-01T18:57:02Z"
+   },
+   {
+    "title": "Twig: Sandbox filter, tag and function allow-list bypass when sandbox state changes between renders for a cached `Template`",
+    "url": "https://github.com/advisories/GHSA-529h-vh3j-85hq",
+    "score": 7.5,
+    "ghsa": "GHSA-529h-vh3j-85hq",
+    "date": "2026-07-01T18:55:49Z"
+   },
+   {
+    "title": "Constrata's coordinator transit engine `ciphertextContainer.UnmarshalJSON` panics on attacker-controlled short ciphertexts",
+    "url": "https://github.com/advisories/GHSA-3ccm-4qq2-5wrp",
+    "score": 4.3,
+    "ghsa": "GHSA-3ccm-4qq2-5wrp",
+    "date": "2026-07-01T18:47:53Z"
+   },
+   {
+    "title": "Contrast's Imagepuller registryFor uses unanchored suffix matching, leaking auth credentials and trusted CA configuration to sibling-domain registries",
+    "url": "https://github.com/advisories/GHSA-6c87-g9pw-78fx",
+    "score": 3.7,
+    "ghsa": "GHSA-6c87-g9pw-78fx",
+    "date": "2026-07-01T18:43:55Z"
+   },
+   {
+    "title": "Cortex has Untrusted Project Bootstrap Code Execution via `CLAUDE_PROJECT_DIR`",
+    "url": "https://github.com/advisories/GHSA-gvpp-v77h-5w8g",
+    "score": 7.5,
+    "ghsa": "GHSA-gvpp-v77h-5w8g",
+    "date": "2026-07-01T18:41:35Z"
+   },
+   {
+    "title": "Schema.org has cross-site scripting (XSS) via script break-out in toScript() output",
+    "url": "https://github.com/advisories/GHSA-hwmc-r6mf-jh83",
+    "score": 2,
+    "ghsa": "GHSA-hwmc-r6mf-jh83",
+    "date": "2026-07-01T18:32:31Z"
+   },
+   {
+    "title": "wetty vulnerable to DOM XSS via file-download filename",
+    "url": "https://github.com/advisories/GHSA-p26j-h7wj-r568",
+    "score": 7.5,
+    "ghsa": "GHSA-p26j-h7wj-r568",
+    "date": "2026-07-01T18:19:39Z"
+   },
+   {
+    "title": "EasyAdminBundle has path traversal and reflected XSS in Flag and Icon Twig components",
+    "url": "https://github.com/advisories/GHSA-2wwr-9x6f-88gp",
+    "score": 5.3,
+    "ghsa": "GHSA-2wwr-9x6f-88gp",
+    "date": "2026-07-01T18:18:46Z"
+   },
+   {
+    "title": "auth-fetch-mcp has SSRF Protection Bypass via IPv4-mapped IPv6 Loopback",
+    "url": "https://github.com/advisories/GHSA-pvrj-8cg3-j5f8",
+    "score": 7.4,
+    "ghsa": "GHSA-pvrj-8cg3-j5f8",
+    "date": "2026-07-01T18:16:22Z"
    }
   ],
   "thn": [
+   {
+    "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+    "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+    "date": "Wed, 01 Jul 2026 23:23:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+    "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+    "date": "Wed, 01 Jul 2026 22:48:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
     "url": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
@@ -272,23 +371,23 @@
     "date": "Wed, 01 Jul 2026 11:16:03 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
-    "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
-    "date": "Wed, 01 Jul 2026 11:02:12 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
-    "url": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
-    "date": "Wed, 01 Jul 2026 09:24:22 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "DHS confirms hackers breached HSIN info-sharing platform",
+    "url": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
+    "date": "Wed, 01 Jul 2026 13:32:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar: Why traditional email security is no longer enough",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+    "date": "Wed, 01 Jul 2026 12:54:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
@@ -358,33 +457,19 @@
     "date": "Tue, 30 Jun 2026 17:20:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
-    "date": "Tue, 30 Jun 2026 17:02:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
-    "date": "Tue, 30 Jun 2026 11:46:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6301,
+    "stars": 6302,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1187,
+    "stars": 1199,
     "lang": "TypeScript"
    },
    {
@@ -396,7 +481,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 338,
+    "stars": 339,
     "lang": "—"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 256,
+    "stars": 257,
     "lang": "Swift"
    },
    {
@@ -438,7 +523,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 126,
+    "stars": 130,
     "lang": "TypeScript"
    },
    {
@@ -550,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Zero-Click Prompt Injection to RCE in Cursor IDE: DuneSlide",
+    "url": "https://www.reddit.com/r/netsec/comments/1ukqaam/zeroclick_prompt_injection_to_rce_in_cursor_ide/",
+    "date": "2026-07-01T16:19:42+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)",
     "url": "https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/",
     "date": "2026-07-01T14:52:02+00:00",
@@ -557,9 +649,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Zero-Click Prompt Injection to RCE in Cursor IDE: DuneSlide",
-    "url": "https://www.reddit.com/r/netsec/comments/1ukqaam/zeroclick_prompt_injection_to_rce_in_cursor_ide/",
-    "date": "2026-07-01T16:19:42+00:00",
+    "title": "Detecting Agentic AI Threats in Claude: Sigma Rules and Correlation Detections for the Execution Layer",
+    "url": "https://www.reddit.com/r/netsec/comments/1uks9il/detecting_agentic_ai_threats_in_claude_sigma/",
+    "date": "2026-07-01T17:32:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -611,13 +703,6 @@
     "date": "2026-06-25T15:30:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "CargoWise WebTracker - The keys were in the cargo",
-    "url": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
-    "date": "2026-06-25T11:34:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 1,
   "kev": 1630,
   "adv": 12,
   "feed": 48
