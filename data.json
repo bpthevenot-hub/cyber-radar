@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-01T01:34:57.451Z",
+ "generatedAt": "2026-07-01T06:47:42.431Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-56415 — Storage Concentrator (SC & SCVM) contains a command injection vulnerability within the debug.pl script that is reachable without authenticat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56415",
-    "score": 9.5,
-    "date": "2026-07-01T00:34:14Z"
-   },
-   {
-    "title": "CVE-2026-56413 — Storage Concentrator (SC & SCVM) contains a command injection vulnerability in the ms_service.pl service, which listens on TCP port 9000 by ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56413",
-    "score": 9.5,
-    "date": "2026-07-01T00:34:14Z"
-   },
-   {
-    "title": "CVE-2026-56700 — Grav CMS before 2.0.0-beta.2 contains multiple code-execution vulnerabilities. Three unsafe unserialize() calls - in Scheduler\\JobQueue, Fra",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56700",
-    "score": 9.5,
-    "date": "2026-07-01T00:34:14Z"
-   },
-   {
-    "title": "CVE-2026-56278 — Flowise before 3.1.0 (affected versions 3.0.13 and earlier) uses a weak hardcoded default secret ('flowise') for the express-session middlew",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56278",
-    "score": 9.5,
-    "date": "2026-07-01T00:34:13Z"
-   },
-   {
-    "title": "CVE-2026-56264 — Crawl4AI before 0.8.7 contains an arbitrary JavaScript execution vulnerability in the Docker API server's /execute_js endpoint, which accept",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56264",
-    "score": 9.5,
-    "date": "2026-07-01T00:34:12Z"
-   },
-   {
-    "title": "CVE-2026-57995 — phpMyFAQ before 4.1.5 contains a privilege escalation vulnerability in GroupController::updatePermissions that allows GROUP_EDIT administrat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57995",
-    "score": 7.5,
-    "date": "2026-07-01T00:34:14Z"
-   },
-   {
-    "title": "CVE-2026-56320 — Capgo before 12.128.2 contains an authorization flaw in POST /private/create_device that accepts a caller-supplied org_id parameter without ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56320",
-    "score": 7.5,
-    "date": "2026-07-01T00:34:13Z"
-   },
-   {
-    "title": "CVE-2026-56328 — Capgo before 12.128.2 allows multiple public channels for the same app and platform to coexist simultaneously, while unnamed /updates reques",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56328",
-    "score": 7.5,
-    "date": "2026-07-01T00:34:13Z"
-   },
-   {
-    "title": "CVE-2026-56286 — Capgo before 12.128.2 contains an authentication bypass vulnerability in the account deletion endpoint that allows deletion without password",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56286",
-    "score": 7.5,
-    "date": "2026-07-01T00:34:13Z"
-   },
-   {
-    "title": "CVE-2026-56249 — Capgo before 12.128.2 contains an authorization bypass vulnerability in the channel creation endpoint that allows authenticated users to ove",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56249",
-    "score": 7.5,
-    "date": "2026-07-01T00:34:13Z"
-   },
-   {
-    "title": "CVE-2026-56300 — Capgo before 12.128.2 contains unauthenticated security definer RPC functions get_user_id and get_org_perm_for_apikey that expose API key va",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56300",
-    "score": 7.5,
-    "date": "2026-07-01T00:34:13Z"
-   },
-   {
-    "title": "CVE-2026-56363 — ImageMagick before 7.1.2-22 contains a division by zero vulnerability in binomial kernel processing that allows attackers to cause denial of",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56363",
-    "score": 5,
-    "date": "2026-07-01T00:34:14Z"
-   },
-   {
-    "title": "CVE-2026-56777 — n8n before 2.25.7 and 2.26.x before 2.26.2 contains an abstract syntax tree (AST) security validator bypass in the Python Code node. An auth",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56777",
-    "score": 5,
-    "date": "2026-07-01T00:34:14Z"
-   },
-   {
-    "title": "CVE-2026-56369 — ImageMagick before 7.1.2-22 contains an information disclosure vulnerability in the PasskeyEncipherImage method due to AES-CTR nonce reuse. ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56369",
-    "score": 5,
-    "date": "2026-07-01T00:34:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -289,6 +204,27 @@
   ],
   "thn": [
    {
+    "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
+    "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+    "date": "Wed, 01 Jul 2026 11:16:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+    "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+    "date": "Wed, 01 Jul 2026 11:02:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
+    "url": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+    "date": "Wed, 01 Jul 2026 09:24:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
     "url": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
     "date": "Tue, 30 Jun 2026 23:16:07 +0530",
@@ -348,27 +284,6 @@
     "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
     "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
     "date": "Tue, 30 Jun 2026 14:57:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
-    "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-    "date": "Tue, 30 Jun 2026 14:07:19 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
-    "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
-    "date": "Tue, 30 Jun 2026 13:08:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
-    "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-    "date": "Tue, 30 Jun 2026 10:34:06 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +378,13 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6292,
+    "stars": 6295,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1130,
+    "stars": 1131,
     "lang": "TypeScript"
    },
    {
@@ -481,19 +396,19 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 306,
+    "stars": 320,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 267,
+    "stars": 268,
     "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 243,
+    "stars": 245,
     "lang": "Swift"
    },
    {
@@ -503,16 +418,16 @@
     "lang": "Python"
    },
    {
-    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
-    "url": "https://github.com/DSB-117/brainblast",
-    "stars": 169,
-    "lang": "TypeScript"
-   },
-   {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
     "url": "https://github.com/openhackai/OpenHack",
     "stars": 169,
     "lang": "Python"
+   },
+   {
+    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
+    "url": "https://github.com/DSB-117/brainblast",
+    "stars": 169,
+    "lang": "TypeScript"
    },
    {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
@@ -523,7 +438,7 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 120,
+    "stars": 121,
     "lang": "JavaScript"
    },
    {
@@ -642,16 +557,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
-    "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
-    "date": "2026-06-30T10:07:33+00:00",
+    "title": "I open-sourced a personal project called Bomly and would appreciate feedback from netsec/AppSec folks",
+    "url": "https://www.reddit.com/r/netsec/comments/1uk5l5f/i_opensourced_a_personal_project_called_bomly_and/",
+    "date": "2026-06-30T23:46:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "I open-sourced a personal project called Bomly and would appreciate feedback from netsec/AppSec folks",
-    "url": "https://www.reddit.com/r/netsec/comments/1uk5l5f/i_opensourced_a_personal_project_called_bomly_and/",
-    "date": "2026-06-30T23:46:27+00:00",
+    "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
+    "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
+    "date": "2026-06-30T10:07:33+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +632,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 0,
   "kev": 1630,
   "adv": 12,
   "feed": 48
