@@ -1,90 +1,90 @@
 {
- "generatedAt": "2026-07-01T20:57:25.905Z",
+ "generatedAt": "2026-07-01T22:42:45.385Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-58453 — JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a hard-coded credentials vulnerability that allows network-adja",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58453",
+    "title": "CVE-2026-58457 — Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) contains an unauthenticated OS command injection vulnerability that allows network",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58457",
     "score": 9.5,
-    "date": "2026-07-01T18:31:56Z"
+    "date": "2026-07-01T21:36:20Z"
    },
    {
-    "title": "CVE-2026-49986 — Cortex has Untrusted Project Bootstrap Code Execution via `CLAUDE_PROJECT_DIR`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49986",
+    "title": "CVE-2025-15646 — HTML::Gumbo versions before 0.19 for Perl disclose heap memory via type confusion. Support for the <template> element was added to libgumbo ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-15646",
+    "score": 9.5,
+    "date": "2026-07-01T18:31:47Z"
+   },
+   {
+    "title": "CVE-2026-13785 — Use after free in Bluetooth in Google Chrome on Mac prior to 150.0.7871.47 allowed a remote attacker who convinced a user to engage in speci",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13785",
+    "score": 9.5,
+    "date": "2026-07-01T00:34:02Z"
+   },
+   {
+    "title": "CVE-2026-13792 — Use after free in Touchbar in Google Chrome on Mac prior to 150.0.7871.47 allowed a remote attacker to potentially perform a sandbox escape ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13792",
+    "score": 9.5,
+    "date": "2026-07-01T00:34:02Z"
+   },
+   {
+    "title": "CVE-2026-13789 — Use after free in GPU in Google Chrome prior to 150.0.7871.47 allowed a remote attacker who had compromised the renderer process to potentia",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13789",
+    "score": 9.5,
+    "date": "2026-07-01T00:34:02Z"
+   },
+   {
+    "title": "CVE-2026-11720 — A path traversal vulnerability exists in the HTTP tool URL builder of googleapis/mcp-toolbox. When constructing downstream API requests, the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11720",
+    "score": 9.5,
+    "date": "2026-06-29T18:31:55Z"
+   },
+   {
+    "title": "CVE-2026-50163 — `oras-go` tar extraction: Hardlink entry with relative Linkname escapes extract dir via process CWD resolution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50163",
     "score": 7.5,
-    "date": "2026-07-01T18:41:35Z"
+    "date": "2026-07-01T21:48:04Z"
    },
    {
-    "title": "CVE-2026-57736 — Insertion of Sensitive Information Into Sent Data vulnerability in HubSpot allows Retrieve Embedded Sensitive Data. This issue affects HubSp",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57736",
+    "title": "CVE-2026-58592 — Ladybird contains a dangling-reference memory-safety flaw in its WebAssembly ESM-integration module loader. When a JavaScript function is im",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58592",
     "score": 7.5,
-    "date": "2026-07-01T18:31:56Z"
+    "date": "2026-07-01T21:36:20Z"
    },
    {
-    "title": "CVE-2026-58452 — JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain an OS command injection vulnerability that allows authenticated",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58452",
+    "title": "CVE-2026-50521 — Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50521",
     "score": 7.5,
-    "date": "2026-07-01T18:31:56Z"
+    "date": "2026-07-01T21:36:20Z"
    },
    {
-    "title": "CVE-2026-57723 — Cross-Site Request Forgery (CSRF) vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS allows Path Traversal. This issue affects ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57723",
+    "title": "CVE-2026-58451 — Horde IMP before 7.0.1 contains a path traversal vulnerability in lib/Compose.php that allows authenticated attackers to read arbitrary file",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58451",
     "score": 7.5,
-    "date": "2026-07-01T18:31:56Z"
+    "date": "2026-07-01T21:36:20Z"
    },
    {
-    "title": "CVE-2026-49091 — Improper Output Neutralization for Logs (CWE-117) in Kibana can lead to log injection via Log Injection-Tampering-Forging (CAPEC-93). An att",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49091",
+    "title": "CVE-2026-58593 — NodeBB does not bind the claimed author of an inbound ActivityPub object to the authenticated remote actor. The inbound middleware verifies ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58593",
     "score": 7.5,
-    "date": "2026-07-01T18:31:56Z"
+    "date": "2026-07-01T21:36:20Z"
    },
    {
-    "title": "CVE-2026-58454 — JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a remote code execution vulnerability that allows authenticated",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58454",
+    "title": "CVE-2026-41121 — Dell Device Management Agent, versions prior to DDMA 26.05, contain an Improper Link Resolution Before File Access ('Link Following’) vulner",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41121",
     "score": 7.5,
-    "date": "2026-07-01T18:31:56Z"
+    "date": "2026-07-01T21:36:18Z"
    },
    {
-    "title": "GHSA-3ccm-4qq2-5wrp — Constrata's coordinator transit engine `ciphertextContainer.UnmarshalJSON` panics on attacker-controlled short ciphertexts",
-    "url": "https://github.com/advisories/GHSA-3ccm-4qq2-5wrp",
-    "score": 5,
-    "date": "2026-07-01T18:47:53Z"
+    "title": "CVE-2026-49119 — Gradio before 6.16.0 contain a path traversal vulnerability in the FileExplorer component's preprocess() method that allows unauthenticated ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49119",
+    "score": 7.5,
+    "date": "2026-07-01T21:36:18Z"
    },
    {
-    "title": "CVE-2026-5051 — HashiCorp Vault and Vault Enterprise prior to 2.0.1 audit device validation logic did not consistently apply plugin directory protections wh",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5051",
-    "score": 5,
-    "date": "2026-07-01T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-58520 — URL redirection to untrusted site ('open redirect') vulnerability in The Wikimedia Foundation Mediawiki - UrlShortener Extension allows Cros",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58520",
-    "score": 5,
-    "date": "2026-07-01T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-57737 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Averta LTD Shortcodes and extra featur",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57737",
-    "score": 5,
-    "date": "2026-07-01T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-58521 — Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in The Wikimedia Foundation Mediawiki - C",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58521",
-    "score": 5,
-    "date": "2026-07-01T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-49090 — Uncontrolled Resource Consumption (CWE-400) in Elasticsearch can lead to a denial of service via Excessive Allocation (CAPEC-130). An authen",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49090",
-    "score": 5,
-    "date": "2026-07-01T18:31:56Z"
-   },
-   {
-    "title": "CVE-2026-57721 — Missing Authorization vulnerability in WP Reloaded ApplyOnline allows Exploiting Incorrectly Configured Access Control Security Levels. This",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57721",
-    "score": 5,
-    "date": "2026-07-01T18:31:56Z"
+    "title": "CVE-2026-50151 — oras-go blob upload vulnerable to credential forwarding via unvalidated Location header",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50151",
+    "score": 7.5,
+    "date": "2026-07-01T21:35:45Z"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Mailpit: Sibling-endpoint memory-exhaustion DoS via unbounded JSON body on /api/v1/messages, /api/v1/tags, and /api/v1/message/{id}/release (incomplet",
-    "url": "https://github.com/advisories/GHSA-28pq-6qxg-wg5r",
-    "score": 5.3,
-    "ghsa": "GHSA-28pq-6qxg-wg5r",
-    "date": "2026-07-01T20:56:10Z"
+    "title": "OpenClaw MCP SSE redirects could forward Authorization headers",
+    "url": "https://github.com/advisories/GHSA-9c3v-684m-579c",
+    "score": 6.5,
+    "ghsa": "GHSA-9c3v-684m-579c",
+    "date": "2026-07-01T22:09:28Z"
    },
    {
-    "title": "@hey-api/openapi-ts's `buildClientParams` template: prototype chain substitution via unknown `$<slot>___proto__` key",
-    "url": "https://github.com/advisories/GHSA-hhx9-57xq-r5rw",
-    "score": 4.8,
-    "ghsa": "GHSA-hhx9-57xq-r5rw",
-    "date": "2026-07-01T20:55:17Z"
+    "title": "Apify Model Context Protocol (MCP) server: Actor MCP path authority injection leaks Apify token",
+    "url": "https://github.com/advisories/GHSA-6gr2-qh89-hxwm",
+    "score": 8.1,
+    "ghsa": "GHSA-6gr2-qh89-hxwm",
+    "date": "2026-07-01T22:02:15Z"
    },
    {
-    "title": "Rancher has over-inclusive team membership expansion in GitHub App authentication provider",
-    "url": "https://github.com/advisories/GHSA-4j6x-2764-m8gh",
-    "score": 8.8,
-    "ghsa": "GHSA-4j6x-2764-m8gh",
-    "date": "2026-07-01T20:51:54Z"
+    "title": "goshs: Share-link ?token=… redemption races past download limit",
+    "url": "https://github.com/advisories/GHSA-j48m-h7xq-2xpj",
+    "score": 5.9,
+    "ghsa": "GHSA-j48m-h7xq-2xpj",
+    "date": "2026-07-01T21:59:08Z"
    },
    {
-    "title": "Rancher Fleet vulnerable to cross namespace secret disclosure via unvalidated `valuesFrom` references in Helm Deployer",
-    "url": "https://github.com/advisories/GHSA-xr65-5cpm-g36x",
-    "score": 9.9,
-    "ghsa": "GHSA-xr65-5cpm-g36x",
-    "date": "2026-07-01T20:45:39Z"
-   },
-   {
-    "title": "Rancher Fleet has SSRF in Bundle Reader via Unvalidated Helm Repository URL in fleet.yaml",
-    "url": "https://github.com/advisories/GHSA-hx4v-cxpf-vh8m",
-    "score": 5,
-    "ghsa": "GHSA-hx4v-cxpf-vh8m",
-    "date": "2026-07-01T20:45:05Z"
-   },
-   {
-    "title": "Rancher vulnerable to command injection through unsanitized YAML parameter",
-    "url": "https://github.com/advisories/GHSA-mhc6-2gfq-xx62",
+    "title": "Ghost: Cache-poisoning XSS in Ghost frontend via x-ghost-preview header",
+    "url": "https://github.com/advisories/GHSA-62q6-4hv4-vjrw",
     "score": 9.6,
-    "ghsa": "GHSA-mhc6-2gfq-xx62",
-    "date": "2026-07-01T20:44:33Z"
+    "ghsa": "GHSA-62q6-4hv4-vjrw",
+    "date": "2026-07-01T21:58:32Z"
    },
    {
-    "title": "Rancher Fleet has Unauthenticated Webhook: Regex Injection via Unsanitized Repository URL Components",
-    "url": "https://github.com/advisories/GHSA-jmf4-m7j9-g72r",
+    "title": "goshs: WebDAV listener ignores --read-only, --upload-only, and --no-delete mode flags",
+    "url": "https://github.com/advisories/GHSA-3whc-qvhv-xqjp",
+    "score": 8.1,
+    "ghsa": "GHSA-3whc-qvhv-xqjp",
+    "date": "2026-07-01T21:56:40Z"
+   },
+   {
+    "title": "ORAS Go forwards registry credentials across registry redirects",
+    "url": "https://github.com/advisories/GHSA-vh4v-2xq2-g5cg",
+    "score": null,
+    "ghsa": "GHSA-vh4v-2xq2-g5cg",
+    "date": "2026-07-01T21:54:06Z"
+   },
+   {
+    "title": "OnGres SCRAM silent channel-binding authentication downgrade via unsupported certificate algorithms",
+    "url": "https://github.com/advisories/GHSA-p9jg-fcr6-3mhf",
     "score": 7.5,
-    "ghsa": "GHSA-jmf4-m7j9-g72r",
-    "date": "2026-07-01T20:44:24Z"
+    "ghsa": "GHSA-p9jg-fcr6-3mhf",
+    "date": "2026-07-01T21:51:17Z"
    },
    {
-    "title": "Fleet has PSS Bypass through addLabelsFromOptions in Fleet Agent",
-    "url": "https://github.com/advisories/GHSA-864g-863m-vcvq",
-    "score": 8.8,
-    "ghsa": "GHSA-864g-863m-vcvq",
-    "date": "2026-07-01T20:35:37Z"
+    "title": "`oras-go` tar extraction: Hardlink entry with relative Linkname escapes extract dir via process CWD resolution",
+    "url": "https://github.com/advisories/GHSA-fxhp-mv3v-67qp",
+    "score": 7.1,
+    "ghsa": "GHSA-fxhp-mv3v-67qp",
+    "date": "2026-07-01T21:48:04Z"
    },
    {
-    "title": "QUIC has Broken TLS verification",
-    "url": "https://github.com/advisories/GHSA-2r8v-p65x-3663",
-    "score": 9.1,
-    "ghsa": "GHSA-2r8v-p65x-3663",
-    "date": "2026-07-01T20:32:34Z"
+    "title": "oras-go has file store write outside workingDir via symlink traversal",
+    "url": "https://github.com/advisories/GHSA-8xwf-rjm4-xvhv",
+    "score": null,
+    "ghsa": "GHSA-8xwf-rjm4-xvhv",
+    "date": "2026-07-01T21:43:10Z"
    },
    {
-    "title": "land.oras:oras-java-sdk: Symlink-based path traversal in ArchiveUtils.untar / unzip allows arbitrary file write outside extraction directory",
-    "url": "https://github.com/advisories/GHSA-j6hm-v3x2-qv6j",
+    "title": "oras-go blob upload vulnerable to credential forwarding via unvalidated Location header",
+    "url": "https://github.com/advisories/GHSA-jxpm-75mh-9fp7",
+    "score": 7.5,
+    "ghsa": "GHSA-jxpm-75mh-9fp7",
+    "date": "2026-07-01T21:35:45Z"
+   },
+   {
+    "title": "Keycloak has privilege escalation via improper scope mapping enforcement",
+    "url": "https://github.com/advisories/GHSA-32h4-44jj-c5vx",
+    "score": 7.3,
+    "ghsa": "GHSA-32h4-44jj-c5vx",
+    "date": "2026-07-01T21:20:38Z"
+   },
+   {
+    "title": "oras-go: Malicious registry can hijack Bearer token realm to exfiltrate credentials and refresh tokens",
+    "url": "https://github.com/advisories/GHSA-xf85-363p-868w",
     "score": 2,
-    "ghsa": "GHSA-j6hm-v3x2-qv6j",
-    "date": "2026-07-01T20:31:34Z"
-   },
-   {
-    "title": "Centrifugo's dynamic JWKS key cache keyed only by `kid` allows cross-issuer JWT authentication bypass",
-    "url": "https://github.com/advisories/GHSA-g6vg-wj8f-48cj",
-    "score": 8.2,
-    "ghsa": "GHSA-g6vg-wj8f-48cj",
-    "date": "2026-07-01T20:28:52Z"
-   },
-   {
-    "title": "SurrealDB: Edge PERMISSIONS FOR delete bypassed when a connected node is deleted",
-    "url": "https://github.com/advisories/GHSA-whwg-vh4f-pmmf",
-    "score": 5.4,
-    "ghsa": "GHSA-whwg-vh4f-pmmf",
-    "date": "2026-07-01T20:23:49Z"
+    "ghsa": "GHSA-xf85-363p-868w",
+    "date": "2026-07-01T21:06:10Z"
    }
   ],
   "thn": [
@@ -375,8 +375,22 @@
   ],
   "bleep": [
    {
-    "title": "ChocoPoc malware delivered via trojanized exploits on GitHub",
-    "url": "https://www.bleepingcomputer.com/news/security/chocopoc-malware-delivered-via-trojanized-exploits-on-github/",
+    "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
+    "url": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+    "date": "Wed, 01 Jul 2026 17:37:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Kubota says hackers had month-long access to network systems",
+    "url": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+    "date": "Wed, 01 Jul 2026 17:09:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+    "url": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
     "date": "Wed, 01 Jul 2026 16:08:13 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
@@ -443,33 +457,19 @@
     "date": "Tue, 30 Jun 2026 20:35:14 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
-    "date": "Tue, 30 Jun 2026 19:13:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New BioShocking attack manipulates AI browser into data theft",
-    "url": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
-    "date": "Tue, 30 Jun 2026 17:50:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6302,
+    "stars": 6303,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1205,
+    "stars": 1208,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 340,
+    "stars": 342,
     "lang": "—"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 260,
+    "stars": 262,
     "lang": "Swift"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 133,
+    "stars": 137,
     "lang": "TypeScript"
    },
    {
@@ -642,13 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Detecting Agentic AI Threats in Claude: Sigma Rules and Correlation Detections for the Execution Layer",
-    "url": "https://www.reddit.com/r/netsec/comments/1uks9il/detecting_agentic_ai_threats_in_claude_sigma/",
-    "date": "2026-07-01T17:32:03+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1ujzc5y/citrixbleed_to_infinity_and_beyond_citrix/",
     "date": "2026-06-30T19:40:48+00:00",
@@ -703,6 +696,13 @@
     "date": "2026-06-25T11:34:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
+    "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
+    "date": "2026-06-24T16:34:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 1,
+  "crit": 6,
   "kev": 1631,
   "adv": 12,
   "feed": 48
