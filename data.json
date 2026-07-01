@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-01T06:47:42.431Z",
+ "generatedAt": "2026-07-01T10:50:35.694Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -204,6 +204,20 @@
   ],
   "thn": [
    {
+    "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+    "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+    "date": "Wed, 01 Jul 2026 12:50:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+    "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+    "date": "Wed, 01 Jul 2026 12:16:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
     "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
     "date": "Wed, 01 Jul 2026 11:16:03 +0530",
@@ -272,23 +286,23 @@
     "date": "Tue, 30 Jun 2026 17:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
-    "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
-    "date": "Tue, 30 Jun 2026 16:48:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
-    "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
-    "date": "Tue, 30 Jun 2026 14:57:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
+    "date": "Wed, 01 Jul 2026 05:43:27 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+    "date": "Wed, 01 Jul 2026 03:34:52 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Anthropic to restore Claude Fable access on Wednesday",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
@@ -358,45 +372,31 @@
     "date": "Tue, 30 Jun 2026 05:46:39 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
-    "url": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
-    "date": "Tue, 30 Jun 2026 05:41:05 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
-    "date": "Tue, 30 Jun 2026 04:53:13 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6295,
+    "stars": 6297,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1131,
+    "stars": 1146,
     "lang": "TypeScript"
    },
    {
     "title": "hadriansecurity/OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
     "url": "https://github.com/hadriansecurity/OpenHack",
-    "stars": 699,
+    "stars": 700,
     "lang": "Python"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 320,
+    "stars": 331,
     "lang": "—"
    },
    {
@@ -408,7 +408,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 245,
+    "stars": 251,
     "lang": "Swift"
    },
    {
@@ -418,21 +418,21 @@
     "lang": "Python"
    },
    {
-    "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
-    "url": "https://github.com/openhackai/OpenHack",
-    "stars": 169,
-    "lang": "Python"
-   },
-   {
     "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
     "url": "https://github.com/DSB-117/brainblast",
     "stars": 169,
     "lang": "TypeScript"
    },
    {
+    "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
+    "url": "https://github.com/openhackai/OpenHack",
+    "stars": 169,
+    "lang": "Python"
+   },
+   {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
     "url": "https://github.com/aliyun/alibabacloud-ecs-troubleshoot-skills",
-    "stars": 159,
+    "stars": 160,
     "lang": "Python"
    },
    {
@@ -557,13 +557,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I open-sourced a personal project called Bomly and would appreciate feedback from netsec/AppSec folks",
-    "url": "https://www.reddit.com/r/netsec/comments/1uk5l5f/i_opensourced_a_personal_project_called_bomly_and/",
-    "date": "2026-06-30T23:46:27+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
     "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
     "date": "2026-06-30T10:07:33+00:00",
@@ -616,6 +609,13 @@
     "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
     "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
     "date": "2026-06-24T16:34:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Cloudflare patches Copy-Fail across every server in two days",
+    "url": "https://www.reddit.com/r/netsec/comments/1udd811/cloudflare_patches_copyfail_across_every_server/",
+    "date": "2026-06-23T10:18:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
