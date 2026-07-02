@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-02T01:27:02.727Z",
+ "generatedAt": "2026-07-02T06:12:00.006Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-14425 — Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a craf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14425",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14416 — Out of bounds read in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14416",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14439 — A path traversal vulnerability exists in the Git Service component shared by Altium Enterprise Server and Altium 365. The service accepts a ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14439",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14424 — Use after free in Dawn in Google Chrome on Mac prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14424",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14420 — Out of bounds read and write in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox esca",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14420",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14417 — Use after free in Dawn in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a craft",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14417",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14423 — Type Confusion in Tint in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a craft",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14423",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14419 — Use after free in Skia in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a craft",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14419",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14405 — Uninitialized Use in V8 in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to execute arbitrary code inside a sandbox via a c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14405",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:41Z"
-   },
-   {
-    "title": "CVE-2026-14397 — Out of bounds write in ANGLE in Google Chrome on Mac prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escap",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14397",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:41Z"
-   },
-   {
-    "title": "CVE-2026-14390 — Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a craf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14390",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:41Z"
-   },
-   {
-    "title": "CVE-2026-14398 — Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a craf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14398",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:41Z"
-   },
-   {
-    "title": "CVE-2026-14411 — Insufficient validation of untrusted input in ANGLE in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14411",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:41Z"
-   },
-   {
-    "title": "CVE-2026-14387 — Integer overflow in Skia in Google Chrome prior to 150.0.7871.46 allowed a remote attacker to potentially perform a sandbox escape via a cra",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14387",
-    "score": 9.5,
-    "date": "2026-07-02T00:31:41Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -375,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+    "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+    "date": "Thu, 02 Jul 2026 00:25:42 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
     "url": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
     "date": "Wed, 01 Jul 2026 17:37:24 -0400",
@@ -450,32 +372,25 @@
     "date": "Wed, 01 Jul 2026 03:34:52 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic to restore Claude Fable access on Wednesday",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
-    "date": "Tue, 30 Jun 2026 20:35:14 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6304,
+    "stars": 6305,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1212,
+    "stars": 1225,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 344,
+    "stars": 354,
     "lang": "—"
    },
    {
@@ -487,13 +402,13 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 264,
+    "stars": 265,
     "lang": "Swift"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 221,
+    "stars": 222,
     "lang": "Python"
    },
    {
@@ -517,7 +432,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 143,
+    "stars": 153,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +632,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 0,
   "kev": 1631,
   "adv": 12,
   "feed": 48
