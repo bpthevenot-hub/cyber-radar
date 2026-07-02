@@ -1,90 +1,90 @@
 {
- "generatedAt": "2026-07-02T21:36:17.331Z",
+ "generatedAt": "2026-07-02T23:32:16.142Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-52735 — zebrad has consensus divergence via P2SH sigop undercount in pure-Rust disabled-opcode parser",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52735",
+    "title": "CVE-2026-52830 — fast-mcp-telegram: Bearer token path traversal bypasses reserved Telegram session protection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52830",
     "score": 9.5,
-    "date": "2026-07-02T19:43:36Z"
+    "date": "2026-07-02T20:38:50Z"
    },
    {
-    "title": "CVE-2026-52736 — Zebra has block suppression via NU5 same-header body poisoning of sent-hash cache",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52736",
+    "title": "CVE-2025-8077 — NeuVector admin account has insecure default password",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-8077",
+    "score": 9.5,
+    "date": "2025-08-28T13:33:36Z"
+   },
+   {
+    "title": "CVE-2026-49284 — SimpleSAMLphp SP accepts a response from an unexpected IdP when unsigned `Response/InResponseTo` is combined with a signed assertion lacking",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49284",
     "score": 7.5,
-    "date": "2026-07-02T19:43:08Z"
+    "date": "2026-07-02T20:47:21Z"
    },
    {
-    "title": "GHSA-f9ff-5x35-7gfw — Grackle: Fail-open authorization in the MCP tool layer lets scoped agents perform cross-task and cross-session mutations (IDOR)",
-    "url": "https://github.com/advisories/GHSA-f9ff-5x35-7gfw",
+    "title": "CVE-2026-52792 — Algernon vulnerable to server-side script source disclosure on Windows via NTFS filename",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52792",
     "score": 7.5,
-    "date": "2026-07-02T19:35:03Z"
+    "date": "2026-07-02T20:46:42Z"
    },
    {
-    "title": "CVE-2026-4776 — Mautic has SQL Injection in API Contact Filtering",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4776",
+    "title": "CVE-2026-52834 — jxl-grid on 32-bit platforms has an out-of-bounds writes due to integer overflow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52834",
     "score": 7.5,
-    "date": "2026-07-02T19:25:18Z"
+    "date": "2026-07-02T20:45:59Z"
    },
    {
-    "title": "CVE-2026-49255 — electerm has Command Injection in File System Operations (rmrf, mv, cp)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49255",
+    "title": "CVE-2026-2092 — Keycloak: Unauthorized access via improper validation of encrypted SAML assertions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-2092",
     "score": 7.5,
-    "date": "2026-07-02T19:22:31Z"
+    "date": "2026-07-02T20:42:23Z"
    },
    {
-    "title": "CVE-2026-52738 — Zebra: Finalized address balance credit-first overflow on consensus-valid blocks",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52738",
-    "score": 5,
-    "date": "2026-07-02T19:44:54Z"
+    "title": "CVE-2026-50200 — Steeltoe's env sanitizer misses connection strings — leaks embedded DB passwords",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50200",
+    "score": 7.5,
+    "date": "2026-07-02T20:31:11Z"
    },
    {
-    "title": "CVE-2026-52737 — Zebra has sync restart poisoning from single unauthenticated peer via above-lookahead block",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52737",
-    "score": 5,
-    "date": "2026-07-02T19:44:24Z"
+    "title": "CVE-2026-50196 — Steeltoe.Discovery.Eureka: Unrecognized DataCenterInfo.Name poisons entire registry fetch",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50196",
+    "score": 7.5,
+    "date": "2026-07-02T20:30:03Z"
    },
    {
-    "title": "CVE-2026-52732 — zebrad has mempool transaction admission denial via single-peer inbound queue saturation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52732",
-    "score": 5,
-    "date": "2026-07-02T19:39:02Z"
+    "title": "CVE-2026-50194 — Steeltoe vulnerable to management-port isolation bypass via spoofed Host header",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50194",
+    "score": 7.5,
+    "date": "2026-07-02T20:29:13Z"
    },
    {
-    "title": "GHSA-c8w6-x74f-vmg3 — zebrad vulnerable to full node denial of service via crafted Sapling receiver in z_listunifiedreceivers",
-    "url": "https://github.com/advisories/GHSA-c8w6-x74f-vmg3",
-    "score": 5,
-    "date": "2026-07-02T19:37:58Z"
+    "title": "CVE-2026-49289 — SimpleSAMLphp has Possible DoS via XPath Transform",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49289",
+    "score": 7.5,
+    "date": "2026-07-02T20:27:23Z"
    },
    {
-    "title": "CVE-2026-52731 — zebrad has full node denial of service via non-ASCII LongPollId in getblocktemplate",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52731",
-    "score": 5,
-    "date": "2026-07-02T19:28:03Z"
+    "title": "CVE-2026-52829 — Zebra Address Book Aborted by IPv4-Mapped Mempool Misbehavior Update",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52829",
+    "score": 7.5,
+    "date": "2026-07-02T20:26:56Z"
    },
    {
-    "title": "GHSA-q4rm-m6xh-5pv7 — Froxlor customer can create MySQL databases on disallowed servers via Mysqls.add API",
-    "url": "https://github.com/advisories/GHSA-q4rm-m6xh-5pv7",
-    "score": 5,
-    "date": "2026-07-02T19:23:49Z"
+    "title": "CVE-2026-49283 — SimpleSAMLphp HTTP-Artifact TLS validator confusion allows cross-IdP authentication bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49283",
+    "score": 7.5,
+    "date": "2026-07-02T20:25:56Z"
    },
    {
-    "title": "GHSA-mr9h-45p9-fg8h — Froxlor: Authenticated customers can read other customers' allowed sender aliases",
-    "url": "https://github.com/advisories/GHSA-mr9h-45p9-fg8h",
-    "score": 5,
-    "date": "2026-07-02T19:23:31Z"
+    "title": "CVE-2026-52817 — Linuxfabrik Monitoring Plugins: Sudoers may be able to obtain privilege escalation via /usr/bin/apt-get arguments",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52817",
+    "score": 7.5,
+    "date": "2026-07-02T20:23:56Z"
    },
    {
-    "title": "GHSA-h72h-ppcx-998p — Zebra has pre-handshake buffer capacity reservation based on attacker-claimed body length",
-    "url": "https://github.com/advisories/GHSA-h72h-ppcx-998p",
-    "score": 2,
-    "date": "2026-07-02T19:42:05Z"
-   },
-   {
-    "title": "GHSA-443g-gwgp-49x4 — zebrad vulnerable to getblocks/getheaders locator CPU amplification via uncapped vector length",
-    "url": "https://github.com/advisories/GHSA-443g-gwgp-49x4",
-    "score": 2,
-    "date": "2026-07-02T19:34:21Z"
+    "title": "CVE-2026-45075 — Symfony's HEAD Request Bypasses methods: ['GET'] Filter in #[IsGranted] / #[IsSignatureValid] / #[IsCsrfTokenValid]",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45075",
+    "score": 7.5,
+    "date": "2026-05-27T21:12:38Z"
    }
   ],
   "kev": [
@@ -469,13 +469,13 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1269,
+    "stars": 1272,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 368,
+    "stars": 371,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 1,
+  "crit": 2,
   "kev": 1631,
   "adv": 12,
   "feed": 48
