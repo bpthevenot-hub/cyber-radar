@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-02T18:04:00.681Z",
+ "generatedAt": "2026-07-02T19:55:43.755Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-52735 — zebrad has consensus divergence via P2SH sigop undercount in pure-Rust disabled-opcode parser",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52735",
+    "score": 9.5,
+    "date": "2026-07-02T19:43:36Z"
+   },
+   {
+    "title": "CVE-2026-52736 — Zebra has block suppression via NU5 same-header body poisoning of sent-hash cache",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52736",
+    "score": 7.5,
+    "date": "2026-07-02T19:43:08Z"
+   },
+   {
+    "title": "GHSA-f9ff-5x35-7gfw — Grackle: Fail-open authorization in the MCP tool layer lets scoped agents perform cross-task and cross-session mutations (IDOR)",
+    "url": "https://github.com/advisories/GHSA-f9ff-5x35-7gfw",
+    "score": 7.5,
+    "date": "2026-07-02T19:35:03Z"
+   },
+   {
+    "title": "CVE-2026-4776 — Mautic has SQL Injection in API Contact Filtering",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4776",
+    "score": 7.5,
+    "date": "2026-07-02T19:25:18Z"
+   },
+   {
+    "title": "CVE-2026-49255 — electerm has Command Injection in File System Operations (rmrf, mv, cp)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49255",
+    "score": 7.5,
+    "date": "2026-07-02T19:22:31Z"
+   },
+   {
+    "title": "CVE-2026-52738 — Zebra: Finalized address balance credit-first overflow on consensus-valid blocks",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52738",
+    "score": 5,
+    "date": "2026-07-02T19:44:54Z"
+   },
+   {
+    "title": "CVE-2026-52737 — Zebra has sync restart poisoning from single unauthenticated peer via above-lookahead block",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52737",
+    "score": 5,
+    "date": "2026-07-02T19:44:24Z"
+   },
+   {
+    "title": "CVE-2026-52732 — zebrad has mempool transaction admission denial via single-peer inbound queue saturation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52732",
+    "score": 5,
+    "date": "2026-07-02T19:39:02Z"
+   },
+   {
+    "title": "GHSA-c8w6-x74f-vmg3 — zebrad vulnerable to full node denial of service via crafted Sapling receiver in z_listunifiedreceivers",
+    "url": "https://github.com/advisories/GHSA-c8w6-x74f-vmg3",
+    "score": 5,
+    "date": "2026-07-02T19:37:58Z"
+   },
+   {
+    "title": "CVE-2026-52731 — zebrad has full node denial of service via non-ASCII LongPollId in getblocktemplate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52731",
+    "score": 5,
+    "date": "2026-07-02T19:28:03Z"
+   },
+   {
+    "title": "GHSA-q4rm-m6xh-5pv7 — Froxlor customer can create MySQL databases on disallowed servers via Mysqls.add API",
+    "url": "https://github.com/advisories/GHSA-q4rm-m6xh-5pv7",
+    "score": 5,
+    "date": "2026-07-02T19:23:49Z"
+   },
+   {
+    "title": "GHSA-mr9h-45p9-fg8h — Froxlor: Authenticated customers can read other customers' allowed sender aliases",
+    "url": "https://github.com/advisories/GHSA-mr9h-45p9-fg8h",
+    "score": 5,
+    "date": "2026-07-02T19:23:31Z"
+   },
+   {
+    "title": "GHSA-h72h-ppcx-998p — Zebra has pre-handshake buffer capacity reservation based on attacker-claimed body length",
+    "url": "https://github.com/advisories/GHSA-h72h-ppcx-998p",
+    "score": 2,
+    "date": "2026-07-02T19:42:05Z"
+   },
+   {
+    "title": "GHSA-443g-gwgp-49x4 — zebrad vulnerable to getblocks/getheaders locator CPU amplification via uncapped vector length",
+    "url": "https://github.com/advisories/GHSA-443g-gwgp-49x4",
+    "score": 2,
+    "date": "2026-07-02T19:34:21Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,91 +203,105 @@
   ],
   "adv": [
    {
-    "title": "mediawiki/maps has stored XSS through the overlays parameter in the display_map parser function",
-    "url": "https://github.com/advisories/GHSA-4h7g-5542-v3fc",
-    "score": 8.6,
-    "ghsa": "GHSA-4h7g-5542-v3fc",
-    "date": "2026-07-02T17:51:24Z"
+    "title": "Mautic has Stored Cross-Site Scripting (XSS) in Project Option Selector",
+    "url": "https://github.com/advisories/GHSA-5hvg-w58j-545m",
+    "score": 5.4,
+    "ghsa": "GHSA-5hvg-w58j-545m",
+    "date": "2026-07-02T19:49:27Z"
    },
    {
-    "title": "Dulwich's submodule path traversal in porcelain.submodule_update / porcelain.clone(recurse_submodules=True) yields RCE via attacker-dropped .git/hooks",
-    "url": "https://github.com/advisories/GHSA-gfhv-vqv2-4544",
-    "score": 7.5,
-    "ghsa": "GHSA-gfhv-vqv2-4544",
-    "date": "2026-07-02T17:50:00Z"
+    "title": "Mautic has Stored Cross-Site Scripting (XSS) in Projects Component",
+    "url": "https://github.com/advisories/GHSA-7h65-whp7-rgqf",
+    "score": 7.6,
+    "ghsa": "GHSA-7h65-whp7-rgqf",
+    "date": "2026-07-02T19:49:14Z"
    },
    {
-    "title": "Langroid: SQLChatAgent _validate_query blocklist misses pg_read_file family enabling arbitrary file read",
-    "url": "https://github.com/advisories/GHSA-pmch-g965-grmr",
-    "score": 7.5,
-    "ghsa": "GHSA-pmch-g965-grmr",
-    "date": "2026-07-02T17:42:09Z"
-   },
-   {
-    "title": "Langroid: Path traversal in the file tools allows read/write outside configured current directory",
-    "url": "https://github.com/advisories/GHSA-fg23-3346-88f5",
+    "title": "Mautic has an Authorization Bypass in API v2 Endpoints",
+    "url": "https://github.com/advisories/GHSA-2jrw-c95w-h43g",
     "score": 7.1,
-    "ghsa": "GHSA-fg23-3346-88f5",
-    "date": "2026-07-02T17:38:03Z"
+    "ghsa": "GHSA-2jrw-c95w-h43g",
+    "date": "2026-07-02T19:49:00Z"
    },
    {
-    "title": "Kerberos Hub private key (X-Kerberos-Hub-PrivateKey) leaked to cross-host redirect target due to redirect-following HTTP client without CheckRedirect",
-    "url": "https://github.com/advisories/GHSA-h5gx-45rj-2h5j",
+    "title": "Mautic vulnerable to Path Traversal via Campaign Import",
+    "url": "https://github.com/advisories/GHSA-6r9h-4h75-7q4x",
+    "score": 9.9,
+    "ghsa": "GHSA-6r9h-4h75-7q4x",
+    "date": "2026-07-02T19:48:50Z"
+   },
+   {
+    "title": "Mautic has Server-Side Template Injection (SSTI) in Theme Templates",
+    "url": "https://github.com/advisories/GHSA-9fx4-7cmj-47vg",
+    "score": 9.9,
+    "ghsa": "GHSA-9fx4-7cmj-47vg",
+    "date": "2026-07-02T19:48:08Z"
+   },
+   {
+    "title": "Mautic Focus component Vulnerable to SSRF",
+    "url": "https://github.com/advisories/GHSA-jmv8-8j9j-rcpc",
+    "score": 6.4,
+    "ghsa": "GHSA-jmv8-8j9j-rcpc",
+    "date": "2026-07-02T19:47:38Z"
+   },
+   {
+    "title": "Zebra: Repeated Non-Finalized Shielded Transaction Aborts Zebra Before Duplicate-Nullifier Rejection",
+    "url": "https://github.com/advisories/GHSA-hhm7-qrv5-h4r6",
+    "score": 5.9,
+    "ghsa": "GHSA-hhm7-qrv5-h4r6",
+    "date": "2026-07-02T19:46:35Z"
+   },
+   {
+    "title": "Zebra: Finalized address balance credit-first overflow on consensus-valid blocks",
+    "url": "https://github.com/advisories/GHSA-w834-cf6p-9m9w",
     "score": null,
-    "ghsa": "GHSA-h5gx-45rj-2h5j",
-    "date": "2026-07-02T17:33:36Z"
+    "ghsa": "GHSA-w834-cf6p-9m9w",
+    "date": "2026-07-02T19:44:54Z"
    },
    {
-    "title": "OpenClaw: Native command authorization could skip owner-command enforcement",
-    "url": "https://github.com/advisories/GHSA-p73f-w79w-jqr5",
+    "title": "Zebra has sync restart poisoning from single unauthenticated peer via above-lookahead block",
+    "url": "https://github.com/advisories/GHSA-gvjc-3w7c-92jx",
+    "score": 5.3,
+    "ghsa": "GHSA-gvjc-3w7c-92jx",
+    "date": "2026-07-02T19:44:24Z"
+   },
+   {
+    "title": "zebrad has consensus divergence via P2SH sigop undercount in pure-Rust disabled-opcode parser",
+    "url": "https://github.com/advisories/GHSA-gf9r-m956-97qx",
+    "score": 9.5,
+    "ghsa": "GHSA-gf9r-m956-97qx",
+    "date": "2026-07-02T19:43:36Z"
+   },
+   {
+    "title": "Zebra has block suppression via NU5 same-header body poisoning of sent-hash cache",
+    "url": "https://github.com/advisories/GHSA-4m69-67m6-prqp",
     "score": 7.5,
-    "ghsa": "GHSA-p73f-w79w-jqr5",
-    "date": "2026-07-02T17:23:43Z"
+    "ghsa": "GHSA-4m69-67m6-prqp",
+    "date": "2026-07-02T19:43:08Z"
    },
    {
-    "title": "OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
-    "url": "https://github.com/advisories/GHSA-j472-gf56-x589",
-    "score": 7.5,
-    "ghsa": "GHSA-j472-gf56-x589",
-    "date": "2026-07-02T17:22:52Z"
-   },
-   {
-    "title": "OpenClaw: Trusted retry endpoint checks could match hostname prefixes",
-    "url": "https://github.com/advisories/GHSA-77q5-rr5v-x43q",
-    "score": 7.5,
-    "ghsa": "GHSA-77q5-rr5v-x43q",
-    "date": "2026-07-02T17:22:11Z"
-   },
-   {
-    "title": "OpenClaw: Telegram interactive callbacks could skip commands.allowFrom",
-    "url": "https://github.com/advisories/GHSA-w5ww-7chg-mxcq",
-    "score": 7.5,
-    "ghsa": "GHSA-w5ww-7chg-mxcq",
-    "date": "2026-07-02T17:18:51Z"
-   },
-   {
-    "title": "Cmov/CmovEq on aarch64 can produce wrong results if high-bits of registers are set",
-    "url": "https://github.com/advisories/GHSA-3rjw-m598-pq24",
-    "score": null,
-    "ghsa": "GHSA-3rjw-m598-pq24",
-    "date": "2026-07-02T17:18:11Z"
-   },
-   {
-    "title": "Contour has Improper JWT Verification for Non-SNI Requests on Virtual Hosts with Fallback Certificate Enabled",
-    "url": "https://github.com/advisories/GHSA-g3xr-5w5j-w4q4",
-    "score": 6.5,
-    "ghsa": "GHSA-g3xr-5w5j-w4q4",
-    "date": "2026-07-02T17:15:20Z"
-   },
-   {
-    "title": "OpenClaw: Matrix allowFrom could bind to mutable display names",
-    "url": "https://github.com/advisories/GHSA-7hxm-f538-3xp6",
-    "score": 8.8,
-    "ghsa": "GHSA-7hxm-f538-3xp6",
-    "date": "2026-07-02T17:13:58Z"
+    "title": "Zebra has pre-handshake buffer capacity reservation based on attacker-claimed body length",
+    "url": "https://github.com/advisories/GHSA-h72h-ppcx-998p",
+    "score": 3.7,
+    "ghsa": "GHSA-h72h-ppcx-998p",
+    "date": "2026-07-02T19:42:05Z"
    }
   ],
   "thn": [
+   {
+    "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+    "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+    "date": "Fri, 03 Jul 2026 00:24:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+    "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+    "date": "Fri, 03 Jul 2026 00:00:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
     "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
@@ -270,20 +369,6 @@
     "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
     "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
     "date": "Wed, 01 Jul 2026 23:23:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
-    "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
-    "date": "Wed, 01 Jul 2026 22:48:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-    "url": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-    "date": "Wed, 01 Jul 2026 20:56:55 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -384,19 +469,19 @@
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1259,
+    "stars": 1265,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 366,
+    "stars": 368,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 284,
+    "stars": 286,
     "lang": "Swift"
    },
    {
@@ -414,7 +499,13 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 176,
+    "stars": 179,
+    "lang": "TypeScript"
+   },
+   {
+    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
+    "url": "https://github.com/DSB-117/brainblast",
+    "stars": 169,
     "lang": "TypeScript"
    },
    {
@@ -422,12 +513,6 @@
     "url": "https://github.com/openhackai/OpenHack",
     "stars": 169,
     "lang": "Python"
-   },
-   {
-    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
-    "url": "https://github.com/DSB-117/brainblast",
-    "stars": 169,
-    "lang": "TypeScript"
    },
    {
     "title": "aliyun/alibabacloud-ecs-troubleshoot-skills — Troubleshooting skills for Alibaba Cloud ECS",
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 1,
   "kev": 1631,
   "adv": 12,
   "feed": 48
