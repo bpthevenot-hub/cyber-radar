@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-02T12:22:40.409Z",
+ "generatedAt": "2026-07-02T15:35:15.117Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,6 +118,27 @@
   ],
   "adv": [
    {
+    "title": "mcp-memory-service: Missing Authentication on Document API Endpoints Allows Unauthenticated Memory Read/Write/Delete",
+    "url": "https://github.com/advisories/GHSA-84hp-mqvj-3p8h",
+    "score": 9.8,
+    "ghsa": "GHSA-84hp-mqvj-3p8h",
+    "date": "2026-07-02T15:26:23Z"
+   },
+   {
+    "title": "GoFiber Vulnerable to X-Real-IP Spoofing via Header.Add() in BalancerForward",
+    "url": "https://github.com/advisories/GHSA-gcfq-8gqf-4876",
+    "score": 5.3,
+    "ghsa": "GHSA-gcfq-8gqf-4876",
+    "date": "2026-07-02T13:50:45Z"
+   },
+   {
+    "title": "GoFiber Vulnerable to Username Enumeration via Timing Oracle in BasicAuth Default Authorizer",
+    "url": "https://github.com/advisories/GHSA-g5vh-55hw-rxm8",
+    "score": 5.3,
+    "ghsa": "GHSA-g5vh-55hw-rxm8",
+    "date": "2026-07-02T13:46:25Z"
+   },
+   {
     "title": "OpenClaw MCP SSE redirects could forward Authorization headers",
     "url": "https://github.com/advisories/GHSA-9c3v-684m-579c",
     "score": 6.5,
@@ -179,30 +200,30 @@
     "score": null,
     "ghsa": "GHSA-8xwf-rjm4-xvhv",
     "date": "2026-07-01T21:43:10Z"
-   },
-   {
-    "title": "oras-go blob upload vulnerable to credential forwarding via unvalidated Location header",
-    "url": "https://github.com/advisories/GHSA-jxpm-75mh-9fp7",
-    "score": 7.5,
-    "ghsa": "GHSA-jxpm-75mh-9fp7",
-    "date": "2026-07-01T21:35:45Z"
-   },
-   {
-    "title": "Keycloak has privilege escalation via improper scope mapping enforcement",
-    "url": "https://github.com/advisories/GHSA-32h4-44jj-c5vx",
-    "score": 7.3,
-    "ghsa": "GHSA-32h4-44jj-c5vx",
-    "date": "2026-07-01T21:20:38Z"
-   },
-   {
-    "title": "oras-go: Malicious registry can hijack Bearer token realm to exfiltrate credentials and refresh tokens",
-    "url": "https://github.com/advisories/GHSA-xf85-363p-868w",
-    "score": 2,
-    "ghsa": "GHSA-xf85-363p-868w",
-    "date": "2026-07-01T21:06:10Z"
    }
   ],
   "thn": [
+   {
+    "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+    "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+    "date": "Thu, 02 Jul 2026 20:54:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+    "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+    "date": "Thu, 02 Jul 2026 18:34:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
+    "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+    "date": "Thu, 02 Jul 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
     "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
@@ -265,32 +286,25 @@
     "date": "Wed, 01 Jul 2026 20:56:55 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
-    "url": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-    "date": "Wed, 01 Jul 2026 20:55:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
-    "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-    "date": "Wed, 01 Jul 2026 20:12:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
-    "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-    "date": "Wed, 01 Jul 2026 19:26:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
    {
-    "title": "Microsoft fixes bug that removed Copilot button in Outlook",
+    "title": "Google loses final appeal to overturn €4.1 billion EU fine",
+    "url": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
+    "date": "Thu, 02 Jul 2026 11:18:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
+    "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+    "date": "Thu, 02 Jul 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
     "date": "Thu, 02 Jul 2026 08:15:47 -0400",
     "badge": "CONSO",
@@ -358,51 +372,37 @@
     "date": "Wed, 01 Jul 2026 13:32:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Webinar: Why traditional email security is no longer enough",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-    "date": "Wed, 01 Jul 2026 12:54:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-    "date": "Wed, 01 Jul 2026 12:38:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6306,
+    "stars": 6309,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1244,
+    "stars": 1253,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 363,
+    "stars": 364,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 281,
+    "stars": 282,
     "lang": "Swift"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor",
     "url": "https://github.com/adshao/flounder",
-    "stars": 271,
+    "stars": 270,
     "lang": "TypeScript"
    },
    {
@@ -410,6 +410,12 @@
     "url": "https://github.com/jestasecurity/thumper",
     "stars": 222,
     "lang": "Python"
+   },
+   {
+    "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
+    "url": "https://github.com/badchars/darknet-mcp-server",
+    "stars": 173,
+    "lang": "TypeScript"
    },
    {
     "title": "openhackai/OpenHack — Open Source Agentic Security Scanner",
@@ -421,12 +427,6 @@
     "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
     "url": "https://github.com/DSB-117/brainblast",
     "stars": 169,
-    "lang": "TypeScript"
-   },
-   {
-    "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
-    "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 168,
     "lang": "TypeScript"
    },
    {
