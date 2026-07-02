@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-02T15:35:15.117Z",
+ "generatedAt": "2026-07-02T18:04:00.681Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "mcp-memory-service: Missing Authentication on Document API Endpoints Allows Unauthenticated Memory Read/Write/Delete",
-    "url": "https://github.com/advisories/GHSA-84hp-mqvj-3p8h",
-    "score": 9.8,
-    "ghsa": "GHSA-84hp-mqvj-3p8h",
-    "date": "2026-07-02T15:26:23Z"
+    "title": "mediawiki/maps has stored XSS through the overlays parameter in the display_map parser function",
+    "url": "https://github.com/advisories/GHSA-4h7g-5542-v3fc",
+    "score": 8.6,
+    "ghsa": "GHSA-4h7g-5542-v3fc",
+    "date": "2026-07-02T17:51:24Z"
    },
    {
-    "title": "GoFiber Vulnerable to X-Real-IP Spoofing via Header.Add() in BalancerForward",
-    "url": "https://github.com/advisories/GHSA-gcfq-8gqf-4876",
-    "score": 5.3,
-    "ghsa": "GHSA-gcfq-8gqf-4876",
-    "date": "2026-07-02T13:50:45Z"
-   },
-   {
-    "title": "GoFiber Vulnerable to Username Enumeration via Timing Oracle in BasicAuth Default Authorizer",
-    "url": "https://github.com/advisories/GHSA-g5vh-55hw-rxm8",
-    "score": 5.3,
-    "ghsa": "GHSA-g5vh-55hw-rxm8",
-    "date": "2026-07-02T13:46:25Z"
-   },
-   {
-    "title": "OpenClaw MCP SSE redirects could forward Authorization headers",
-    "url": "https://github.com/advisories/GHSA-9c3v-684m-579c",
-    "score": 6.5,
-    "ghsa": "GHSA-9c3v-684m-579c",
-    "date": "2026-07-01T22:09:28Z"
-   },
-   {
-    "title": "Apify Model Context Protocol (MCP) server: Actor MCP path authority injection leaks Apify token",
-    "url": "https://github.com/advisories/GHSA-6gr2-qh89-hxwm",
-    "score": 8.1,
-    "ghsa": "GHSA-6gr2-qh89-hxwm",
-    "date": "2026-07-01T22:02:15Z"
-   },
-   {
-    "title": "goshs: Share-link ?token=… redemption races past download limit",
-    "url": "https://github.com/advisories/GHSA-j48m-h7xq-2xpj",
-    "score": 5.9,
-    "ghsa": "GHSA-j48m-h7xq-2xpj",
-    "date": "2026-07-01T21:59:08Z"
-   },
-   {
-    "title": "Ghost: Cache-poisoning XSS in Ghost frontend via x-ghost-preview header",
-    "url": "https://github.com/advisories/GHSA-62q6-4hv4-vjrw",
-    "score": 9.6,
-    "ghsa": "GHSA-62q6-4hv4-vjrw",
-    "date": "2026-07-01T21:58:32Z"
-   },
-   {
-    "title": "goshs: WebDAV listener ignores --read-only, --upload-only, and --no-delete mode flags",
-    "url": "https://github.com/advisories/GHSA-3whc-qvhv-xqjp",
-    "score": 8.1,
-    "ghsa": "GHSA-3whc-qvhv-xqjp",
-    "date": "2026-07-01T21:56:40Z"
-   },
-   {
-    "title": "ORAS Go forwards registry credentials across registry redirects",
-    "url": "https://github.com/advisories/GHSA-vh4v-2xq2-g5cg",
-    "score": null,
-    "ghsa": "GHSA-vh4v-2xq2-g5cg",
-    "date": "2026-07-01T21:54:06Z"
-   },
-   {
-    "title": "OnGres SCRAM silent channel-binding authentication downgrade via unsupported certificate algorithms",
-    "url": "https://github.com/advisories/GHSA-p9jg-fcr6-3mhf",
+    "title": "Dulwich's submodule path traversal in porcelain.submodule_update / porcelain.clone(recurse_submodules=True) yields RCE via attacker-dropped .git/hooks",
+    "url": "https://github.com/advisories/GHSA-gfhv-vqv2-4544",
     "score": 7.5,
-    "ghsa": "GHSA-p9jg-fcr6-3mhf",
-    "date": "2026-07-01T21:51:17Z"
+    "ghsa": "GHSA-gfhv-vqv2-4544",
+    "date": "2026-07-02T17:50:00Z"
    },
    {
-    "title": "`oras-go` tar extraction: Hardlink entry with relative Linkname escapes extract dir via process CWD resolution",
-    "url": "https://github.com/advisories/GHSA-fxhp-mv3v-67qp",
+    "title": "Langroid: SQLChatAgent _validate_query blocklist misses pg_read_file family enabling arbitrary file read",
+    "url": "https://github.com/advisories/GHSA-pmch-g965-grmr",
+    "score": 7.5,
+    "ghsa": "GHSA-pmch-g965-grmr",
+    "date": "2026-07-02T17:42:09Z"
+   },
+   {
+    "title": "Langroid: Path traversal in the file tools allows read/write outside configured current directory",
+    "url": "https://github.com/advisories/GHSA-fg23-3346-88f5",
     "score": 7.1,
-    "ghsa": "GHSA-fxhp-mv3v-67qp",
-    "date": "2026-07-01T21:48:04Z"
+    "ghsa": "GHSA-fg23-3346-88f5",
+    "date": "2026-07-02T17:38:03Z"
    },
    {
-    "title": "oras-go has file store write outside workingDir via symlink traversal",
-    "url": "https://github.com/advisories/GHSA-8xwf-rjm4-xvhv",
+    "title": "Kerberos Hub private key (X-Kerberos-Hub-PrivateKey) leaked to cross-host redirect target due to redirect-following HTTP client without CheckRedirect",
+    "url": "https://github.com/advisories/GHSA-h5gx-45rj-2h5j",
     "score": null,
-    "ghsa": "GHSA-8xwf-rjm4-xvhv",
-    "date": "2026-07-01T21:43:10Z"
+    "ghsa": "GHSA-h5gx-45rj-2h5j",
+    "date": "2026-07-02T17:33:36Z"
+   },
+   {
+    "title": "OpenClaw: Native command authorization could skip owner-command enforcement",
+    "url": "https://github.com/advisories/GHSA-p73f-w79w-jqr5",
+    "score": 7.5,
+    "ghsa": "GHSA-p73f-w79w-jqr5",
+    "date": "2026-07-02T17:23:43Z"
+   },
+   {
+    "title": "OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
+    "url": "https://github.com/advisories/GHSA-j472-gf56-x589",
+    "score": 7.5,
+    "ghsa": "GHSA-j472-gf56-x589",
+    "date": "2026-07-02T17:22:52Z"
+   },
+   {
+    "title": "OpenClaw: Trusted retry endpoint checks could match hostname prefixes",
+    "url": "https://github.com/advisories/GHSA-77q5-rr5v-x43q",
+    "score": 7.5,
+    "ghsa": "GHSA-77q5-rr5v-x43q",
+    "date": "2026-07-02T17:22:11Z"
+   },
+   {
+    "title": "OpenClaw: Telegram interactive callbacks could skip commands.allowFrom",
+    "url": "https://github.com/advisories/GHSA-w5ww-7chg-mxcq",
+    "score": 7.5,
+    "ghsa": "GHSA-w5ww-7chg-mxcq",
+    "date": "2026-07-02T17:18:51Z"
+   },
+   {
+    "title": "Cmov/CmovEq on aarch64 can produce wrong results if high-bits of registers are set",
+    "url": "https://github.com/advisories/GHSA-3rjw-m598-pq24",
+    "score": null,
+    "ghsa": "GHSA-3rjw-m598-pq24",
+    "date": "2026-07-02T17:18:11Z"
+   },
+   {
+    "title": "Contour has Improper JWT Verification for Non-SNI Requests on Virtual Hosts with Fallback Certificate Enabled",
+    "url": "https://github.com/advisories/GHSA-g3xr-5w5j-w4q4",
+    "score": 6.5,
+    "ghsa": "GHSA-g3xr-5w5j-w4q4",
+    "date": "2026-07-02T17:15:20Z"
+   },
+   {
+    "title": "OpenClaw: Matrix allowFrom could bind to mutable display names",
+    "url": "https://github.com/advisories/GHSA-7hxm-f538-3xp6",
+    "score": 8.8,
+    "ghsa": "GHSA-7hxm-f538-3xp6",
+    "date": "2026-07-02T17:13:58Z"
    }
   ],
   "thn": [
@@ -378,25 +378,25 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6309,
+    "stars": 6310,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1253,
+    "stars": 1259,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 364,
+    "stars": 366,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 282,
+    "stars": 284,
     "lang": "Swift"
    },
    {
@@ -408,13 +408,13 @@
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 222,
+    "stars": 223,
     "lang": "Python"
    },
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 173,
+    "stars": 176,
     "lang": "TypeScript"
    },
    {
@@ -550,6 +550,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "FIFA was saved this time",
+    "url": "https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/",
+    "date": "2026-07-02T16:14:57+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1ulndzc/its_37oc_and_all_we_can_think_about_is_coldfusion/",
+    "date": "2026-07-02T16:40:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)",
     "url": "https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/",
     "date": "2026-07-01T14:52:02+00:00",
@@ -602,20 +616,6 @@
     "title": "CVE-2025-52465 geoserver arbitrary file write vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1ufdc3k/cve202552465_geoserver_arbitrary_file_write/",
     "date": "2026-06-25T15:30:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CargoWise WebTracker - The keys were in the cargo",
-    "url": "https://www.reddit.com/r/netsec/comments/1uf7h8g/cargowise_webtracker_the_keys_were_in_the_cargo/",
-    "date": "2026-06-25T11:34:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Exploiting vulnerabilities in Johnson &amp; Johnson web apps",
-    "url": "https://www.reddit.com/r/netsec/comments/1ueiif9/exploiting_vulnerabilities_in_johnson_johnson_web/",
-    "date": "2026-06-24T16:34:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
