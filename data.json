@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-02T19:55:43.755Z",
+ "generatedAt": "2026-07-02T21:36:17.331Z",
  "sources": {
   "cve": [
    {
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Mautic has Stored Cross-Site Scripting (XSS) in Project Option Selector",
-    "url": "https://github.com/advisories/GHSA-5hvg-w58j-545m",
-    "score": 5.4,
-    "ghsa": "GHSA-5hvg-w58j-545m",
-    "date": "2026-07-02T19:49:27Z"
-   },
-   {
-    "title": "Mautic has Stored Cross-Site Scripting (XSS) in Projects Component",
-    "url": "https://github.com/advisories/GHSA-7h65-whp7-rgqf",
-    "score": 7.6,
-    "ghsa": "GHSA-7h65-whp7-rgqf",
-    "date": "2026-07-02T19:49:14Z"
-   },
-   {
-    "title": "Mautic has an Authorization Bypass in API v2 Endpoints",
-    "url": "https://github.com/advisories/GHSA-2jrw-c95w-h43g",
-    "score": 7.1,
-    "ghsa": "GHSA-2jrw-c95w-h43g",
-    "date": "2026-07-02T19:49:00Z"
-   },
-   {
-    "title": "Mautic vulnerable to Path Traversal via Campaign Import",
-    "url": "https://github.com/advisories/GHSA-6r9h-4h75-7q4x",
-    "score": 9.9,
-    "ghsa": "GHSA-6r9h-4h75-7q4x",
-    "date": "2026-07-02T19:48:50Z"
-   },
-   {
-    "title": "Mautic has Server-Side Template Injection (SSTI) in Theme Templates",
-    "url": "https://github.com/advisories/GHSA-9fx4-7cmj-47vg",
-    "score": 9.9,
-    "ghsa": "GHSA-9fx4-7cmj-47vg",
-    "date": "2026-07-02T19:48:08Z"
-   },
-   {
-    "title": "Mautic Focus component Vulnerable to SSRF",
-    "url": "https://github.com/advisories/GHSA-jmv8-8j9j-rcpc",
-    "score": 6.4,
-    "ghsa": "GHSA-jmv8-8j9j-rcpc",
-    "date": "2026-07-02T19:47:38Z"
-   },
-   {
-    "title": "Zebra: Repeated Non-Finalized Shielded Transaction Aborts Zebra Before Duplicate-Nullifier Rejection",
-    "url": "https://github.com/advisories/GHSA-hhm7-qrv5-h4r6",
-    "score": 5.9,
-    "ghsa": "GHSA-hhm7-qrv5-h4r6",
-    "date": "2026-07-02T19:46:35Z"
-   },
-   {
-    "title": "Zebra: Finalized address balance credit-first overflow on consensus-valid blocks",
-    "url": "https://github.com/advisories/GHSA-w834-cf6p-9m9w",
-    "score": null,
-    "ghsa": "GHSA-w834-cf6p-9m9w",
-    "date": "2026-07-02T19:44:54Z"
-   },
-   {
-    "title": "Zebra has sync restart poisoning from single unauthenticated peer via above-lookahead block",
-    "url": "https://github.com/advisories/GHSA-gvjc-3w7c-92jx",
-    "score": 5.3,
-    "ghsa": "GHSA-gvjc-3w7c-92jx",
-    "date": "2026-07-02T19:44:24Z"
-   },
-   {
-    "title": "zebrad has consensus divergence via P2SH sigop undercount in pure-Rust disabled-opcode parser",
-    "url": "https://github.com/advisories/GHSA-gf9r-m956-97qx",
-    "score": 9.5,
-    "ghsa": "GHSA-gf9r-m956-97qx",
-    "date": "2026-07-02T19:43:36Z"
-   },
-   {
-    "title": "Zebra has block suppression via NU5 same-header body poisoning of sent-hash cache",
-    "url": "https://github.com/advisories/GHSA-4m69-67m6-prqp",
+    "title": "Recce server has unauthenticated SQL execution that allows local file read/write through DuckDB",
+    "url": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
     "score": 7.5,
-    "ghsa": "GHSA-4m69-67m6-prqp",
-    "date": "2026-07-02T19:43:08Z"
+    "ghsa": "GHSA-rh62-j648-g5qc",
+    "date": "2026-07-02T21:14:38Z"
    },
    {
-    "title": "Zebra has pre-handshake buffer capacity reservation based on attacker-claimed body length",
-    "url": "https://github.com/advisories/GHSA-h72h-ppcx-998p",
-    "score": 3.7,
-    "ghsa": "GHSA-h72h-ppcx-998p",
-    "date": "2026-07-02T19:42:05Z"
+    "title": "9router has an Incomplete Fix: Local-Only Access Gate Bypass in 9router via Host Header SpoofING",
+    "url": "https://github.com/advisories/GHSA-6g2f-w7g3-77vf",
+    "score": 7.5,
+    "ghsa": "GHSA-6g2f-w7g3-77vf",
+    "date": "2026-07-02T21:13:19Z"
+   },
+   {
+    "title": "golang.org/x/image/tiff has excessive resource consumption in PackBits decompression",
+    "url": "https://github.com/advisories/GHSA-q675-qj96-32m9",
+    "score": 7.5,
+    "ghsa": "GHSA-q675-qj96-32m9",
+    "date": "2026-07-02T21:01:22Z"
+   },
+   {
+    "title": "9router's Hardcoded Default fallback JWT Secret Allows Authentication Bypass",
+    "url": "https://github.com/advisories/GHSA-jphh-m39h-6gwx",
+    "score": 9.8,
+    "ghsa": "GHSA-jphh-m39h-6gwx",
+    "date": "2026-07-02T20:56:55Z"
+   },
+   {
+    "title": "Kiwi TCMS's /init-db/ page renders and responds to requests after first use",
+    "url": "https://github.com/advisories/GHSA-v8rp-6xcv-fwgh",
+    "score": 2,
+    "ghsa": "GHSA-v8rp-6xcv-fwgh",
+    "date": "2026-07-02T20:55:22Z"
+   },
+   {
+    "title": "LaunchServer FileServerHandler has an unauthenticated path traversal issue",
+    "url": "https://github.com/advisories/GHSA-5g75-477j-2c2f",
+    "score": 9.8,
+    "ghsa": "GHSA-5g75-477j-2c2f",
+    "date": "2026-07-02T20:49:18Z"
+   },
+   {
+    "title": "SimpleSAMLphp SP accepts a response from an unexpected IdP when unsigned `Response/InResponseTo` is combined with a signed assertion lacking `SubjectC",
+    "url": "https://github.com/advisories/GHSA-q8r6-xj3f-wrrm",
+    "score": 7.1,
+    "ghsa": "GHSA-q8r6-xj3f-wrrm",
+    "date": "2026-07-02T20:47:21Z"
+   },
+   {
+    "title": "Algernon vulnerable to server-side script source disclosure on Windows via NTFS filename",
+    "url": "https://github.com/advisories/GHSA-mm6c-5j6x-hq8m",
+    "score": 7.5,
+    "ghsa": "GHSA-mm6c-5j6x-hq8m",
+    "date": "2026-07-02T20:46:42Z"
+   },
+   {
+    "title": "jxl-grid on 32-bit platforms has an out-of-bounds writes due to integer overflow",
+    "url": "https://github.com/advisories/GHSA-5pmv-rx8r-wmv5",
+    "score": 7.3,
+    "ghsa": "GHSA-5pmv-rx8r-wmv5",
+    "date": "2026-07-02T20:45:59Z"
+   },
+   {
+    "title": "jxl-oxide: `FrameBuffer::new` creates out-of-bounds slices on overflow",
+    "url": "https://github.com/advisories/GHSA-66m8-c62j-h6v5",
+    "score": 6.2,
+    "ghsa": "GHSA-66m8-c62j-h6v5",
+    "date": "2026-07-02T20:45:10Z"
+   },
+   {
+    "title": "jxl-oxide: integer subtraction overflow panic in cluster_from_table via crafted JXL input (DoS)",
+    "url": "https://github.com/advisories/GHSA-2v8p-fqpx-2q3w",
+    "score": 6.2,
+    "ghsa": "GHSA-2v8p-fqpx-2q3w",
+    "date": "2026-07-02T20:44:57Z"
+   },
+   {
+    "title": "Kimai Favorite Timesheet Add and Remove Endpoints Allows Cross-User Bookmark Manipulation",
+    "url": "https://github.com/advisories/GHSA-j5mc-p8qg-39j7",
+    "score": 2,
+    "ghsa": "GHSA-j5mc-p8qg-39j7",
+    "date": "2026-07-02T20:44:05Z"
    }
   ],
   "thn": [
@@ -463,13 +463,13 @@
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6310,
+    "stars": 6311,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1265,
+    "stars": 1269,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 179,
+    "stars": 180,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
     "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 114,
+    "stars": 115,
     "lang": "Python"
    }
   ],
