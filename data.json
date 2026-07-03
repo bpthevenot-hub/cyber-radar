@@ -1,90 +1,66 @@
 {
- "generatedAt": "2026-07-02T23:32:16.142Z",
+ "generatedAt": "2026-07-03T04:12:30.882Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-52830 — fast-mcp-telegram: Bearer token path traversal bypasses reserved Telegram session protection",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52830",
-    "score": 9.5,
-    "date": "2026-07-02T20:38:50Z"
-   },
-   {
-    "title": "CVE-2025-8077 — NeuVector admin account has insecure default password",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-8077",
-    "score": 9.5,
-    "date": "2025-08-28T13:33:36Z"
-   },
-   {
-    "title": "CVE-2026-49284 — SimpleSAMLphp SP accepts a response from an unexpected IdP when unsigned `Response/InResponseTo` is combined with a signed assertion lacking",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49284",
+    "title": "CVE-2026-14327 — The AR for WordPress plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 8.40 via the 'file' par",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14327",
     "score": 7.5,
-    "date": "2026-07-02T20:47:21Z"
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-52792 — Algernon vulnerable to server-side script source disclosure on Windows via NTFS filename",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52792",
+    "title": "CVE-2022-4990 — ** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Input in the ASUS AI Suite 3 driver allows a local user to bypa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-4990",
     "score": 7.5,
-    "date": "2026-07-02T20:46:42Z"
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-52834 — jxl-grid on 32-bit platforms has an out-of-bounds writes due to integer overflow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52834",
+    "title": "CVE-2022-4989 — ** UNSUPPORTED WHEN ASSIGNED ** Improper Validation of Specified Quantity in Input in the ASUS AI Suite 3 driver allows a local user to acce",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-4989",
     "score": 7.5,
-    "date": "2026-07-02T20:45:59Z"
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-2092 — Keycloak: Unauthorized access via improper validation of encrypted SAML assertions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-2092",
+    "title": "CVE-2026-8921 — External Control of File Name or Path vulnerability in ASUS Business Manager allows a local user to execute arbitrary code with SYSTEM privi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8921",
     "score": 7.5,
-    "date": "2026-07-02T20:42:23Z"
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-50200 — Steeltoe's env sanitizer misses connection strings — leaks embedded DB passwords",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50200",
-    "score": 7.5,
-    "date": "2026-07-02T20:31:11Z"
+    "title": "CVE-2026-12731 — The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Script",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12731",
+    "score": 5,
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-50196 — Steeltoe.Discovery.Eureka: Unrecognized DataCenterInfo.Name poisons entire registry fetch",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50196",
-    "score": 7.5,
-    "date": "2026-07-02T20:30:03Z"
+    "title": "CVE-2026-12734 — The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot plugin for WordPress is vulnerable to Stored Cross-Site Script",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12734",
+    "score": 5,
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-50194 — Steeltoe vulnerable to management-port isolation bypass via spoofed Host header",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50194",
-    "score": 7.5,
-    "date": "2026-07-02T20:29:13Z"
+    "title": "CVE-2026-12729 — The weDocs: AI Powered Knowledge Base, Docs, Documentation, Wiki & AI Chatbot plugin for WordPress is vulnerable to Missing Authorization in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12729",
+    "score": 5,
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-49289 — SimpleSAMLphp has Possible DoS via XPath Transform",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49289",
-    "score": 7.5,
-    "date": "2026-07-02T20:27:23Z"
+    "title": "CVE-2026-12960 — An Improper Export of Android Application Components vulnerability in ASUS Router App allows a third-party application on the same device to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12960",
+    "score": 5,
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-52829 — Zebra Address Book Aborted by IPv4-Mapped Mempool Misbehavior Update",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52829",
-    "score": 7.5,
-    "date": "2026-07-02T20:26:56Z"
+    "title": "CVE-2026-12920 — The Cookie Banner for GDPR / CCPA – WPLP Cookie Consent plugin for WordPress is vulnerable to generic SQL Injection via the 's' parameter in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12920",
+    "score": 5,
+    "date": "2026-07-03T03:34:13Z"
    },
    {
-    "title": "CVE-2026-49283 — SimpleSAMLphp HTTP-Artifact TLS validator confusion allows cross-IdP authentication bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49283",
-    "score": 7.5,
-    "date": "2026-07-02T20:25:56Z"
-   },
-   {
-    "title": "CVE-2026-52817 — Linuxfabrik Monitoring Plugins: Sudoers may be able to obtain privilege escalation via /usr/bin/apt-get arguments",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52817",
-    "score": 7.5,
-    "date": "2026-07-02T20:23:56Z"
-   },
-   {
-    "title": "CVE-2026-45075 — Symfony's HEAD Request Bypasses methods: ['GET'] Filter in #[IsGranted] / #[IsSignatureValid] / #[IsCsrfTokenValid]",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45075",
-    "score": 7.5,
-    "date": "2026-05-27T21:12:38Z"
+    "title": "CVE-2026-48931 — A flaw in Node.js HTTP Agent can cause a client to accept as valid a response that is send before the client has sent the request. This vuln",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48931",
+    "score": 2,
+    "date": "2026-06-22T21:31:00Z"
    }
   ],
   "kev": [
@@ -375,6 +351,20 @@
   ],
   "bleep": [
    {
+    "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
+    "date": "Thu, 02 Jul 2026 21:37:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Claude Fable relaunch disappoints users with nerfed performance",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
+    "date": "Thu, 02 Jul 2026 20:48:30 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Google loses final appeal to overturn €4.1 billion EU fine",
     "url": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
     "date": "Thu, 02 Jul 2026 11:18:51 -0400",
@@ -443,45 +433,31 @@
     "date": "Wed, 01 Jul 2026 17:09:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-    "url": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-    "date": "Wed, 01 Jul 2026 16:08:13 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "DHS confirms hackers breached HSIN info-sharing platform",
-    "url": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-    "date": "Wed, 01 Jul 2026 13:32:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "anthropics/defending-code-reference-harness — Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
-    "stars": 6311,
+    "stars": 6317,
     "lang": "Python"
    },
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1272,
+    "stars": 1277,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 371,
+    "stars": 378,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 286,
+    "stars": 287,
     "lang": "Swift"
    },
    {
@@ -499,7 +475,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 180,
+    "stars": 182,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1631,
   "adv": 12,
   "feed": 48
