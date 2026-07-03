@@ -1,90 +1,42 @@
 {
- "generatedAt": "2026-07-03T19:53:13.997Z",
+ "generatedAt": "2026-07-03T21:34:44.408Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-53478 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53478",
-    "score": 7.5,
-    "date": "2026-07-03T15:31:59Z"
-   },
-   {
-    "title": "CVE-2026-49814 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49814",
-    "score": 7.5,
-    "date": "2026-07-03T15:31:59Z"
-   },
-   {
-    "title": "CVE-2026-49815 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49815",
-    "score": 7.5,
-    "date": "2026-07-03T15:31:59Z"
-   },
-   {
-    "title": "CVE-2026-14459 — Improper neutralization of argument delimiters in a command ('argument injection') vulnerability in TUBITAK BILGEM Software Technologies Res",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14459",
-    "score": 7.5,
-    "date": "2026-07-03T15:31:58Z"
-   },
-   {
-    "title": "CVE-2026-14460 — Missing Authorization vulnerability in TUBITAK BILGEM Software Technologies Research Institute pardus-software allows Argument Injection. Th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14460",
-    "score": 7.5,
-    "date": "2026-07-03T15:31:58Z"
-   },
-   {
-    "title": "CVE-2026-54371 — attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr utilities that allows local attackers to e",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54371",
-    "score": 7.5,
-    "date": "2026-06-29T15:32:06Z"
-   },
-   {
-    "title": "CVE-2026-46464 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46464",
+    "title": "CVE-2026-14614 — A flaw was found in the ClientResource component of Keycloak's admin services when Fine-Grained Admin Permissions (FGAP) v2 is enabled. This",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14614",
     "score": 5,
-    "date": "2026-07-03T15:31:58Z"
+    "date": "2026-07-03T18:31:06Z"
    },
    {
-    "title": "CVE-2026-49813 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49813",
+    "title": "CVE-2026-14613 — A vulnerability was discovered in Keycloak's administrative interface that allows certain administrators to see information about groups the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14613",
     "score": 5,
-    "date": "2026-07-03T15:31:58Z"
+    "date": "2026-07-03T18:31:06Z"
    },
    {
-    "title": "CVE-2026-46465 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46465",
+    "title": "CVE-2026-14615 — A flaw was found in the Fine-Grained Admin Permissions (FGAP) v2 implementation within Keycloak's administrative services. When FGAP v2 is e",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14615",
     "score": 5,
-    "date": "2026-07-03T15:31:58Z"
+    "date": "2026-07-03T18:31:06Z"
    },
    {
-    "title": "CVE-2026-44268 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.6, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44268",
+    "title": "CVE-2026-14612 — Two off-by-one errors in the FreeIPA ipa-otpd daemon's OAuth2 device authorization handler can cause out-of-bounds memory access when proces",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14612",
     "score": 5,
+    "date": "2026-07-03T18:31:05Z"
+   },
+   {
+    "title": "CVE-2026-56015 — Net::IP::LPM versions through 1.10 for Perl allow a heap out-of-bounds read via an unbounded prefix length. add() passes the prefix string t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56015",
+    "score": null,
     "date": "2026-07-03T15:31:57Z"
    },
    {
-    "title": "CVE-2026-46463 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46463",
-    "score": 5,
-    "date": "2026-07-03T15:31:57Z"
-   },
-   {
-    "title": "CVE-2026-46730 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.7, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46730",
-    "score": 5,
-    "date": "2026-07-03T15:31:57Z"
-   },
-   {
-    "title": "CVE-2026-59234 — Authorization Bypass Through User-Controlled Key (CWE-639) in CalendarDeleteEventController (app/Http/Controllers/Calendar/CalendarDeleteEve",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59234",
-    "score": 5,
-    "date": "2026-07-03T15:31:57Z"
-   },
-   {
-    "title": "CVE-2026-54483 — Dell PowerProtect Data Domain, versions 7.7.1.0 through 8.6, LTS2026 release version 8.6.1.0 through 8.6.1.10, LTS2025 release version 8.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54483",
-    "score": 5,
-    "date": "2026-07-03T15:31:57Z"
+    "title": "MAL-2026-5188 — Malicious code in hello244a (npm)",
+    "url": "https://github.com/advisories/MAL-2026-5188",
+    "score": null,
+    "date": "2026-06-04T20:49:51Z"
    }
   ],
   "kev": [
@@ -289,6 +241,20 @@
   ],
   "thn": [
    {
+    "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+    "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+    "date": "Sat, 04 Jul 2026 01:49:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+    "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+    "date": "Sat, 04 Jul 2026 01:10:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
     "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
     "date": "Sat, 04 Jul 2026 00:25:24 +0530",
@@ -355,20 +321,6 @@
     "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
     "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
     "date": "Thu, 02 Jul 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-    "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-    "date": "Thu, 02 Jul 2026 14:43:13 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-    "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-    "date": "Thu, 02 Jul 2026 13:30:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -475,13 +427,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 398,
+    "stars": 400,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 290,
+    "stars": 291,
     "lang": "Swift"
    },
    {
