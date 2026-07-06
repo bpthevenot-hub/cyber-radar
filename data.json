@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-06T16:32:10.128Z",
+ "generatedAt": "2026-07-06T19:09:59.573Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,6 +118,69 @@
   ],
   "adv": [
    {
+    "title": "chmod: --preserve-root bypassed by any path that resolves to root (e.g. /../)",
+    "url": "https://github.com/advisories/GHSA-4c7q-4928-8445",
+    "score": 7.3,
+    "ghsa": "GHSA-4c7q-4928-8445",
+    "date": "2026-07-06T17:41:45Z"
+   },
+   {
+    "title": "flyto-core has Unauthenticated Command Execution via HTTP MCP `execute_module`",
+    "url": "https://github.com/advisories/GHSA-h9f9-h6gm-wc85",
+    "score": 8.4,
+    "ghsa": "GHSA-h9f9-h6gm-wc85",
+    "date": "2026-07-06T17:41:03Z"
+   },
+   {
+    "title": "flyto-core has SSRF guard bypass via IPv6 transition addresses (IPv4-mapped / 6to4 / NAT64) in validate_url_ssrf",
+    "url": "https://github.com/advisories/GHSA-794r-5rp2-fpg8",
+    "score": 7.1,
+    "ghsa": "GHSA-794r-5rp2-fpg8",
+    "date": "2026-07-06T17:30:34Z"
+   },
+   {
+    "title": "Scriban: Template Writes to Arbitrary CLR Properties via `TypedObjectAccessor` (Mass Assignment + `private` / `init` / `internal` Setter Bypass)",
+    "url": "https://github.com/advisories/GHSA-7jvp-hj45-2f2m",
+    "score": 7.5,
+    "ghsa": "GHSA-7jvp-hj45-2f2m",
+    "date": "2026-07-06T17:30:17Z"
+   },
+   {
+    "title": "WeasyPrint has CSS Injection via Presentational Hints",
+    "url": "https://github.com/advisories/GHSA-jhhc-3hcp-qhm5",
+    "score": 6.5,
+    "ghsa": "GHSA-jhhc-3hcp-qhm5",
+    "date": "2026-07-06T17:29:53Z"
+   },
+   {
+    "title": "Cilium vulnerable to sensitive information disclosure and cluster disruption via local Envoy admin socket access",
+    "url": "https://github.com/advisories/GHSA-3fcv-jvfp-m4q9",
+    "score": 9.2,
+    "ghsa": "GHSA-3fcv-jvfp-m4q9",
+    "date": "2026-07-06T17:03:20Z"
+   },
+   {
+    "title": "OpenRemote read-only asset users can write predicted datapoints",
+    "url": "https://github.com/advisories/GHSA-xj53-j257-hxvg",
+    "score": 4.3,
+    "ghsa": "GHSA-xj53-j257-hxvg",
+    "date": "2026-07-06T16:52:35Z"
+   },
+   {
+    "title": "Formie Hidden field defaults vulnerable to Server-Side Template Injection",
+    "url": "https://github.com/advisories/GHSA-565m-g33j-jq96",
+    "score": 9.8,
+    "ghsa": "GHSA-565m-g33j-jq96",
+    "date": "2026-07-06T16:52:16Z"
+   },
+   {
+    "title": "Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
+    "url": "https://github.com/advisories/GHSA-55f6-pf8r-c2f4",
+    "score": 7.8,
+    "ghsa": "GHSA-55f6-pf8r-c2f4",
+    "date": "2026-07-06T16:41:43Z"
+   },
+   {
     "title": "Recce server has unauthenticated SQL execution that allows local file read/write through DuckDB",
     "url": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
     "score": 7.5,
@@ -137,72 +200,23 @@
     "score": 7.5,
     "ghsa": "GHSA-q675-qj96-32m9",
     "date": "2026-07-02T21:01:22Z"
-   },
-   {
-    "title": "9router's Hardcoded Default fallback JWT Secret Allows Authentication Bypass",
-    "url": "https://github.com/advisories/GHSA-jphh-m39h-6gwx",
-    "score": 9.8,
-    "ghsa": "GHSA-jphh-m39h-6gwx",
-    "date": "2026-07-02T20:56:55Z"
-   },
-   {
-    "title": "Kiwi TCMS's /init-db/ page renders and responds to requests after first use",
-    "url": "https://github.com/advisories/GHSA-v8rp-6xcv-fwgh",
-    "score": 2,
-    "ghsa": "GHSA-v8rp-6xcv-fwgh",
-    "date": "2026-07-02T20:55:22Z"
-   },
-   {
-    "title": "LaunchServer FileServerHandler has an unauthenticated path traversal issue",
-    "url": "https://github.com/advisories/GHSA-5g75-477j-2c2f",
-    "score": 9.8,
-    "ghsa": "GHSA-5g75-477j-2c2f",
-    "date": "2026-07-02T20:49:18Z"
-   },
-   {
-    "title": "SimpleSAMLphp SP accepts a response from an unexpected IdP when unsigned `Response/InResponseTo` is combined with a signed assertion lacking `SubjectC",
-    "url": "https://github.com/advisories/GHSA-q8r6-xj3f-wrrm",
-    "score": 7.1,
-    "ghsa": "GHSA-q8r6-xj3f-wrrm",
-    "date": "2026-07-02T20:47:21Z"
-   },
-   {
-    "title": "Algernon vulnerable to server-side script source disclosure on Windows via NTFS filename",
-    "url": "https://github.com/advisories/GHSA-mm6c-5j6x-hq8m",
-    "score": 7.5,
-    "ghsa": "GHSA-mm6c-5j6x-hq8m",
-    "date": "2026-07-02T20:46:42Z"
-   },
-   {
-    "title": "jxl-grid on 32-bit platforms has an out-of-bounds writes due to integer overflow",
-    "url": "https://github.com/advisories/GHSA-5pmv-rx8r-wmv5",
-    "score": 7.3,
-    "ghsa": "GHSA-5pmv-rx8r-wmv5",
-    "date": "2026-07-02T20:45:59Z"
-   },
-   {
-    "title": "jxl-oxide: `FrameBuffer::new` creates out-of-bounds slices on overflow",
-    "url": "https://github.com/advisories/GHSA-66m8-c62j-h6v5",
-    "score": 6.2,
-    "ghsa": "GHSA-66m8-c62j-h6v5",
-    "date": "2026-07-02T20:45:10Z"
-   },
-   {
-    "title": "jxl-oxide: integer subtraction overflow panic in cluster_from_table via crafted JXL input (DoS)",
-    "url": "https://github.com/advisories/GHSA-2v8p-fqpx-2q3w",
-    "score": 6.2,
-    "ghsa": "GHSA-2v8p-fqpx-2q3w",
-    "date": "2026-07-02T20:44:57Z"
-   },
-   {
-    "title": "Kimai Favorite Timesheet Add and Remove Endpoints Allows Cross-User Bookmark Manipulation",
-    "url": "https://github.com/advisories/GHSA-j5mc-p8qg-39j7",
-    "score": 2,
-    "ghsa": "GHSA-j5mc-p8qg-39j7",
-    "date": "2026-07-02T20:44:05Z"
    }
   ],
   "thn": [
+   {
+    "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+    "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+    "date": "Mon, 06 Jul 2026 23:07:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+    "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+    "date": "Mon, 06 Jul 2026 21:58:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
     "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
@@ -272,23 +286,16 @@
     "date": "Sat, 04 Jul 2026 01:49:31 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
-    "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-    "date": "Sat, 04 Jul 2026 01:10:01 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-    "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-    "date": "Sat, 04 Jul 2026 00:25:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
+    "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
+    "date": "Mon, 06 Jul 2026 14:25:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
     "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
@@ -365,13 +372,6 @@
     "date": "Thu, 02 Jul 2026 08:15:47 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-    "date": "Thu, 02 Jul 2026 07:35:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 505,
+    "stars": 509,
     "lang": "—"
    },
    {
@@ -396,7 +396,7 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
     "url": "https://github.com/adshao/flounder",
-    "stars": 296,
+    "stars": 298,
     "lang": "TypeScript"
    },
    {
@@ -426,13 +426,13 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 154,
+    "stars": 163,
     "lang": "TypeScript"
    },
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 132,
+    "stars": 133,
     "lang": "JavaScript"
    },
    {
