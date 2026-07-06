@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-06T19:09:59.573Z",
+ "generatedAt": "2026-07-06T21:03:38.787Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,91 +118,98 @@
   ],
   "adv": [
    {
-    "title": "chmod: --preserve-root bypassed by any path that resolves to root (e.g. /../)",
-    "url": "https://github.com/advisories/GHSA-4c7q-4928-8445",
-    "score": 7.3,
-    "ghsa": "GHSA-4c7q-4928-8445",
-    "date": "2026-07-06T17:41:45Z"
+    "title": "Coder: Route hijacking through lack of validation of agent-supplied AllowedIPs in tailnet coordinator",
+    "url": "https://github.com/advisories/GHSA-wrq8-fcv5-8hvp",
+    "score": 8.2,
+    "ghsa": "GHSA-wrq8-fcv5-8hvp",
+    "date": "2026-07-06T20:58:30Z"
    },
    {
-    "title": "flyto-core has Unauthenticated Command Execution via HTTP MCP `execute_module`",
-    "url": "https://github.com/advisories/GHSA-h9f9-h6gm-wc85",
-    "score": 8.4,
-    "ghsa": "GHSA-h9f9-h6gm-wc85",
-    "date": "2026-07-06T17:41:03Z"
+    "title": "Coder's workspace app upsert allows cross-workspace agent rebinding via user-controlled app ID",
+    "url": "https://github.com/advisories/GHSA-9rjw-3gwp-f59v",
+    "score": 8.7,
+    "ghsa": "GHSA-9rjw-3gwp-f59v",
+    "date": "2026-07-06T20:55:37Z"
    },
    {
-    "title": "flyto-core has SSRF guard bypass via IPv6 transition addresses (IPv4-mapped / 6to4 / NAT64) in validate_url_ssrf",
-    "url": "https://github.com/advisories/GHSA-794r-5rp2-fpg8",
-    "score": 7.1,
-    "ghsa": "GHSA-794r-5rp2-fpg8",
-    "date": "2026-07-06T17:30:34Z"
+    "title": "Coder's unbounded memory allocation in provisioner file upload allows authenticated denial of service",
+    "url": "https://github.com/advisories/GHSA-f962-qm93-mj4c",
+    "score": 4.9,
+    "ghsa": "GHSA-f962-qm93-mj4c",
+    "date": "2026-07-06T20:54:41Z"
    },
    {
-    "title": "Scriban: Template Writes to Arbitrary CLR Properties via `TypedObjectAccessor` (Mass Assignment + `private` / `init` / `internal` Setter Bypass)",
-    "url": "https://github.com/advisories/GHSA-7jvp-hj45-2f2m",
-    "score": 7.5,
-    "ghsa": "GHSA-7jvp-hj45-2f2m",
-    "date": "2026-07-06T17:30:17Z"
+    "title": "Coder vulnerable to SSH config injection via unsanitized server-supplied values in `coder config-ssh`",
+    "url": "https://github.com/advisories/GHSA-mcqq-fqgf-rxwm",
+    "score": 8.3,
+    "ghsa": "GHSA-mcqq-fqgf-rxwm",
+    "date": "2026-07-06T20:53:54Z"
    },
    {
-    "title": "WeasyPrint has CSS Injection via Presentational Hints",
-    "url": "https://github.com/advisories/GHSA-jhhc-3hcp-qhm5",
-    "score": 6.5,
-    "ghsa": "GHSA-jhhc-3hcp-qhm5",
-    "date": "2026-07-06T17:29:53Z"
+    "title": "Coder: User-admin role can reset owner account password",
+    "url": "https://github.com/advisories/GHSA-29xf-69gq-m9jx",
+    "score": 7.2,
+    "ghsa": "GHSA-29xf-69gq-m9jx",
+    "date": "2026-07-06T20:53:04Z"
    },
    {
-    "title": "Cilium vulnerable to sensitive information disclosure and cluster disruption via local Envoy admin socket access",
-    "url": "https://github.com/advisories/GHSA-3fcv-jvfp-m4q9",
-    "score": 9.2,
-    "ghsa": "GHSA-3fcv-jvfp-m4q9",
-    "date": "2026-07-06T17:03:20Z"
+    "title": "Coder vulnerable to OIDC account takeover via email-based user matching and email_verified bypass",
+    "url": "https://github.com/advisories/GHSA-9r87-mvcw-x35f",
+    "score": 7.4,
+    "ghsa": "GHSA-9r87-mvcw-x35f",
+    "date": "2026-07-06T20:52:13Z"
    },
    {
-    "title": "OpenRemote read-only asset users can write predicted datapoints",
-    "url": "https://github.com/advisories/GHSA-xj53-j257-hxvg",
-    "score": 4.3,
-    "ghsa": "GHSA-xj53-j257-hxvg",
-    "date": "2026-07-06T16:52:35Z"
+    "title": "Coder's OIDC email_verified type coercion bypass enables account takeover via unverified email linking",
+    "url": "https://github.com/advisories/GHSA-75vm-6w67-gwvp",
+    "score": 7.4,
+    "ghsa": "GHSA-75vm-6w67-gwvp",
+    "date": "2026-07-06T20:50:35Z"
    },
    {
-    "title": "Formie Hidden field defaults vulnerable to Server-Side Template Injection",
-    "url": "https://github.com/advisories/GHSA-565m-g33j-jq96",
-    "score": 9.8,
-    "ghsa": "GHSA-565m-g33j-jq96",
-    "date": "2026-07-06T16:52:16Z"
+    "title": "OpenRemote has an incomplete fix for CVE-2026-40882: XXE in KNXProtocol.startAssetImport() allows arbitrary file read via unprotected XMLInputFactory",
+    "url": "https://github.com/advisories/GHSA-7v6w-c3f4-9wpq",
+    "score": 7.6,
+    "ghsa": "GHSA-7v6w-c3f4-9wpq",
+    "date": "2026-07-06T20:49:51Z"
    },
    {
-    "title": "Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
-    "url": "https://github.com/advisories/GHSA-55f6-pf8r-c2f4",
-    "score": 7.8,
-    "ghsa": "GHSA-55f6-pf8r-c2f4",
-    "date": "2026-07-06T16:41:43Z"
+    "title": "OpenRemote has Cross-Realm User Information Disclosure in UserResourceImpl",
+    "url": "https://github.com/advisories/GHSA-xqr9-4wvv-gvch",
+    "score": 7.7,
+    "ghsa": "GHSA-xqr9-4wvv-gvch",
+    "date": "2026-07-06T20:47:57Z"
    },
    {
-    "title": "Recce server has unauthenticated SQL execution that allows local file read/write through DuckDB",
-    "url": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
-    "score": 7.5,
-    "ghsa": "GHSA-rh62-j648-g5qc",
-    "date": "2026-07-02T21:14:38Z"
+    "title": "CiliumLocalRedirectPolicy addressMatcher allows cross-namespace service traffic hijacking and can break service translation",
+    "url": "https://github.com/advisories/GHSA-q6h5-q3q6-f87x",
+    "score": 6.9,
+    "ghsa": "GHSA-q6h5-q3q6-f87x",
+    "date": "2026-07-06T20:45:38Z"
    },
    {
-    "title": "9router has an Incomplete Fix: Local-Only Access Gate Bypass in 9router via Host Header SpoofING",
-    "url": "https://github.com/advisories/GHSA-6g2f-w7g3-77vf",
-    "score": 7.5,
-    "ghsa": "GHSA-6g2f-w7g3-77vf",
-    "date": "2026-07-02T21:13:19Z"
+    "title": "GoFiber never set HSTS header in helmet middleware due to incorrect protocol check",
+    "url": "https://github.com/advisories/GHSA-gv83-gqw6-9j2c",
+    "score": 4.8,
+    "ghsa": "GHSA-gv83-gqw6-9j2c",
+    "date": "2026-07-06T20:43:12Z"
    },
    {
-    "title": "golang.org/x/image/tiff has excessive resource consumption in PackBits decompression",
-    "url": "https://github.com/advisories/GHSA-q675-qj96-32m9",
-    "score": 7.5,
-    "ghsa": "GHSA-q675-qj96-32m9",
-    "date": "2026-07-02T21:01:22Z"
+    "title": "Langroid: handle_message() executes user-supplied tool JSON without sender verification",
+    "url": "https://github.com/advisories/GHSA-gjgq-w2m6-wr5q",
+    "score": 8.1,
+    "ghsa": "GHSA-gjgq-w2m6-wr5q",
+    "date": "2026-07-06T20:42:18Z"
    }
   ],
   "thn": [
+   {
+    "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+    "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+    "date": "Tue, 07 Jul 2026 00:04:26 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
     "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
@@ -279,16 +286,23 @@
     "date": "Sat, 04 Jul 2026 16:47:24 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
-    "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-    "date": "Sat, 04 Jul 2026 01:49:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Phishing poses as big-brand job interview to steal Google accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+    "date": "Mon, 06 Jul 2026 16:27:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
+    "date": "Mon, 06 Jul 2026 16:23:45 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
     "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
@@ -358,20 +372,6 @@
     "date": "Thu, 02 Jul 2026 11:18:51 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-    "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-    "date": "Thu, 02 Jul 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
-    "date": "Thu, 02 Jul 2026 08:15:47 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 509,
+    "stars": 512,
     "lang": "—"
    },
    {
@@ -396,7 +396,7 @@
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
     "url": "https://github.com/adshao/flounder",
-    "stars": 298,
+    "stars": 300,
     "lang": "TypeScript"
    },
    {
@@ -408,7 +408,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 196,
+    "stars": 197,
     "lang": "TypeScript"
    },
    {
@@ -426,7 +426,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 163,
+    "stars": 165,
     "lang": "TypeScript"
    },
    {
