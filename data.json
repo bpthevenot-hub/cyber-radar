@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-06T21:03:38.787Z",
+ "generatedAt": "2026-07-06T22:40:23.452Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "Coder: Route hijacking through lack of validation of agent-supplied AllowedIPs in tailnet coordinator",
-    "url": "https://github.com/advisories/GHSA-wrq8-fcv5-8hvp",
-    "score": 8.2,
-    "ghsa": "GHSA-wrq8-fcv5-8hvp",
-    "date": "2026-07-06T20:58:30Z"
+    "title": "cut: -s ignored in -z -d '' newline-delimiter mode",
+    "url": "https://github.com/advisories/GHSA-pmfc-4wjj-gmhx",
+    "score": 3.3,
+    "ghsa": "GHSA-pmfc-4wjj-gmhx",
+    "date": "2026-07-06T21:54:29Z"
    },
    {
-    "title": "Coder's workspace app upsert allows cross-workspace agent rebinding via user-controlled app ID",
-    "url": "https://github.com/advisories/GHSA-9rjw-3gwp-f59v",
-    "score": 8.7,
-    "ghsa": "GHSA-9rjw-3gwp-f59v",
-    "date": "2026-07-06T20:55:37Z"
+    "title": "mknod: Device nodes created mislabeled on SELinux, with broken cleanup (remove_dir on a node)",
+    "url": "https://github.com/advisories/GHSA-r9hw-mj3w-phcq",
+    "score": 3.4,
+    "ghsa": "GHSA-r9hw-mj3w-phcq",
+    "date": "2026-07-06T21:54:05Z"
    },
    {
-    "title": "Coder's unbounded memory allocation in provisioner file upload allows authenticated denial of service",
-    "url": "https://github.com/advisories/GHSA-f962-qm93-mj4c",
-    "score": 4.9,
-    "ghsa": "GHSA-f962-qm93-mj4c",
-    "date": "2026-07-06T20:54:41Z"
+    "title": "mkfifo: permissions of an existing file are changed after FIFO creation fails",
+    "url": "https://github.com/advisories/GHSA-pmf6-rcx4-v53v",
+    "score": 7.1,
+    "ghsa": "GHSA-pmf6-rcx4-v53v",
+    "date": "2026-07-06T21:53:34Z"
    },
    {
-    "title": "Coder vulnerable to SSH config injection via unsanitized server-supplied values in `coder config-ssh`",
-    "url": "https://github.com/advisories/GHSA-mcqq-fqgf-rxwm",
+    "title": "Coder's workspace agent API insecure redirect handling allowed cross-agent file read and write",
+    "url": "https://github.com/advisories/GHSA-qrwj-vh9x-gw5v",
     "score": 8.3,
-    "ghsa": "GHSA-mcqq-fqgf-rxwm",
-    "date": "2026-07-06T20:53:54Z"
+    "ghsa": "GHSA-qrwj-vh9x-gw5v",
+    "date": "2026-07-06T21:52:31Z"
    },
    {
-    "title": "Coder: User-admin role can reset owner account password",
-    "url": "https://github.com/advisories/GHSA-29xf-69gq-m9jx",
-    "score": 7.2,
-    "ghsa": "GHSA-29xf-69gq-m9jx",
-    "date": "2026-07-06T20:53:04Z"
+    "title": "OpenRemote has Authenticated SQL Injection via Datapoint Crosstab Export",
+    "url": "https://github.com/advisories/GHSA-cgfv-jrfp-2r7v",
+    "score": 7.5,
+    "ghsa": "GHSA-cgfv-jrfp-2r7v",
+    "date": "2026-07-06T21:51:32Z"
    },
    {
-    "title": "Coder vulnerable to OIDC account takeover via email-based user matching and email_verified bypass",
-    "url": "https://github.com/advisories/GHSA-9r87-mvcw-x35f",
-    "score": 7.4,
-    "ghsa": "GHSA-9r87-mvcw-x35f",
-    "date": "2026-07-06T20:52:13Z"
+    "title": "Kiwi TCMS vulnerable to stored XSS via JavaScript: URI in extra_link field (TestPlan & TestCase)",
+    "url": "https://github.com/advisories/GHSA-473p-56xx-vg67",
+    "score": 2,
+    "ghsa": "GHSA-473p-56xx-vg67",
+    "date": "2026-07-06T21:49:41Z"
    },
    {
-    "title": "Coder's OIDC email_verified type coercion bypass enables account takeover via unverified email linking",
-    "url": "https://github.com/advisories/GHSA-75vm-6w67-gwvp",
-    "score": 7.4,
-    "ghsa": "GHSA-75vm-6w67-gwvp",
-    "date": "2026-07-06T20:50:35Z"
+    "title": "9router: Login brute-force protection bypass via spoofed X-Forwarded-For header",
+    "url": "https://github.com/advisories/GHSA-7cfm-pqrj-xgq7",
+    "score": 7.3,
+    "ghsa": "GHSA-7cfm-pqrj-xgq7",
+    "date": "2026-07-06T21:46:20Z"
    },
    {
-    "title": "OpenRemote has an incomplete fix for CVE-2026-40882: XXE in KNXProtocol.startAssetImport() allows arbitrary file read via unprotected XMLInputFactory",
-    "url": "https://github.com/advisories/GHSA-7v6w-c3f4-9wpq",
-    "score": 7.6,
-    "ghsa": "GHSA-7v6w-c3f4-9wpq",
-    "date": "2026-07-06T20:49:51Z"
+    "title": "9routers has Exposure of Sensitive Information and Unprotected Database Import/Export, Allowing Complete Credential Theft and Database Takeover",
+    "url": "https://github.com/advisories/GHSA-qvfm-67h2-2qfx",
+    "score": 9.9,
+    "ghsa": "GHSA-qvfm-67h2-2qfx",
+    "date": "2026-07-06T21:37:49Z"
    },
    {
-    "title": "OpenRemote has Cross-Realm User Information Disclosure in UserResourceImpl",
-    "url": "https://github.com/advisories/GHSA-xqr9-4wvv-gvch",
-    "score": 7.7,
-    "ghsa": "GHSA-xqr9-4wvv-gvch",
-    "date": "2026-07-06T20:47:57Z"
+    "title": "Craft CMS: Potential authenticated Remote Code Execution via referrer redirect",
+    "url": "https://github.com/advisories/GHSA-f74w-488g-8x5r",
+    "score": 7.5,
+    "ghsa": "GHSA-f74w-488g-8x5r",
+    "date": "2026-07-06T21:37:06Z"
    },
    {
-    "title": "CiliumLocalRedirectPolicy addressMatcher allows cross-namespace service traffic hijacking and can break service translation",
-    "url": "https://github.com/advisories/GHSA-q6h5-q3q6-f87x",
-    "score": 6.9,
-    "ghsa": "GHSA-q6h5-q3q6-f87x",
-    "date": "2026-07-06T20:45:38Z"
+    "title": "Craft CMS: Stored XSS via Structure entry title in table view",
+    "url": "https://github.com/advisories/GHSA-xrqc-p465-2xvg",
+    "score": null,
+    "ghsa": "GHSA-xrqc-p465-2xvg",
+    "date": "2026-07-06T21:35:02Z"
    },
    {
-    "title": "GoFiber never set HSTS header in helmet middleware due to incorrect protocol check",
-    "url": "https://github.com/advisories/GHSA-gv83-gqw6-9j2c",
-    "score": 4.8,
-    "ghsa": "GHSA-gv83-gqw6-9j2c",
-    "date": "2026-07-06T20:43:12Z"
+    "title": "Craft CMS: Sensitive File Disclosure / Server-Side File Read",
+    "url": "https://github.com/advisories/GHSA-287w-mxq6-x2cp",
+    "score": null,
+    "ghsa": "GHSA-287w-mxq6-x2cp",
+    "date": "2026-07-06T21:29:49Z"
    },
    {
-    "title": "Langroid: handle_message() executes user-supplied tool JSON without sender verification",
-    "url": "https://github.com/advisories/GHSA-gjgq-w2m6-wr5q",
-    "score": 8.1,
-    "ghsa": "GHSA-gjgq-w2m6-wr5q",
-    "date": "2026-07-06T20:42:18Z"
+    "title": "Craft CMS: DOM XSS via GitHub issue title in CraftSupport widget",
+    "url": "https://github.com/advisories/GHSA-24x4-j6x9-rfw5",
+    "score": 7.5,
+    "ghsa": "GHSA-24x4-j6x9-rfw5",
+    "date": "2026-07-06T21:29:16Z"
    }
   ],
   "thn": [
@@ -384,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 512,
+    "stars": 513,
     "lang": "—"
    },
    {
@@ -426,7 +426,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 165,
+    "stars": 168,
     "lang": "TypeScript"
    },
    {
