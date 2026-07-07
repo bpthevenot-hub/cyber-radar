@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-07T08:46:03.547Z",
+ "generatedAt": "2026-07-07T12:11:45.007Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2022-3146 — tripleo-ansible may disclose important configuration details from an OpenStack deployment",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-3146",
+    "score": null,
+    "date": "2026-07-07T10:17:28.635311Z"
+   },
+   {
+    "title": "CVE-2022-3101 — tripleo-ansible may disclose important configuration details from an OpenStack deployment",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-3101",
+    "score": null,
+    "date": "2026-07-07T10:17:28.592137Z"
+   },
+   {
+    "title": "CVE-2023-27522 — Apache HTTP Server via mod_proxy_uwsgi HTTP response smuggling",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-27522",
+    "score": null,
+    "date": "2026-07-07T10:17:28.280695Z"
+   },
+   {
+    "title": "CVE-2023-22432 — Open redirect in web2py",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-22432",
+    "score": null,
+    "date": "2026-07-07T10:17:28.107147Z"
+   },
+   {
+    "title": "CVE-2022-41909 — Segfault in `CompositeTensorVariantToComponents`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41909",
+    "score": null,
+    "date": "2026-07-07T10:17:24.904896Z"
+   },
+   {
+    "title": "CVE-2022-41908 — `CHECK` fail via inputs in `PyFunc`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41908",
+    "score": null,
+    "date": "2026-07-07T10:17:24.840210Z"
+   },
+   {
+    "title": "CVE-2022-41900 — FractionalMaxPool and FractionalAVGPool heap out-of-bounds acess",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41900",
+    "score": null,
+    "date": "2026-07-07T10:17:24.574177Z"
+   },
+   {
+    "title": "CVE-2022-41896 — `tf.raw_ops.Mfcc` crashes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41896",
+    "score": null,
+    "date": "2026-07-07T10:17:24.332172Z"
+   },
+   {
+    "title": "CVE-2022-41894 — Buffer overflow in `CONV_3D_TRANSPOSE` on TFLite",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41894",
+    "score": null,
+    "date": "2026-07-07T10:17:24.149856Z"
+   },
+   {
+    "title": "CVE-2022-41889 — Segfault via invalid attributes in `pywrap_tfe_src.cc`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41889",
+    "score": null,
+    "date": "2026-07-07T10:17:23.864505Z"
+   },
+   {
+    "title": "CVE-2022-41884 — Seg fault in `ndarray_tensor_bridge` due to zero and large inputs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41884",
+    "score": null,
+    "date": "2026-07-07T10:17:23.547651Z"
+   },
+   {
+    "title": "CVE-2022-44020 — OpenStack Sushy-Tools and VirtualBMC Improper Preservation of Permissions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-44020",
+    "score": null,
+    "date": "2026-07-07T10:17:22.957829Z"
+   },
+   {
+    "title": "CVE-2022-39348 — Twisted vulnerable to NameVirtualHost Host header injection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-39348",
+    "score": null,
+    "date": "2026-07-07T10:17:22.852562Z"
+   },
+   {
+    "title": "CVE-2022-35983 — TensorFlow vulnerable to `CHECK` fail in `Save` and `SaveSlices`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-35983",
+    "score": null,
+    "date": "2026-07-07T10:17:22.089773Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+    "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+    "date": "Tue, 07 Jul 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+    "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+    "date": "Tue, 07 Jul 2026 14:40:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
     "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
     "date": "Tue, 07 Jul 2026 12:10:47 +0530",
@@ -272,23 +371,23 @@
     "date": "Mon, 06 Jul 2026 13:43:33 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
-    "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
-    "date": "Mon, 06 Jul 2026 12:57:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-    "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
-    "date": "Mon, 06 Jul 2026 12:03:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
+    "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
+    "date": "Tue, 07 Jul 2026 08:06:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft to enable Windows settings backup by default for orgs",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+    "date": "Tue, 07 Jul 2026 05:41:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "BeyondTrust warns of critical flaws in remote access software",
     "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
@@ -358,45 +457,31 @@
     "date": "Fri, 03 Jul 2026 13:50:04 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-    "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-    "date": "Fri, 03 Jul 2026 10:12:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-    "date": "Thu, 02 Jul 2026 21:37:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1299,
+    "stars": 1298,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 530,
+    "stars": 531,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
     "url": "https://github.com/adshao/flounder",
-    "stars": 303,
+    "stars": 306,
     "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 303,
+    "stars": 304,
     "lang": "Swift"
    },
    {
@@ -408,13 +493,13 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 197,
+    "stars": 196,
     "lang": "TypeScript"
    },
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 181,
+    "stars": 184,
     "lang": "TypeScript"
    },
    {
@@ -550,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Call Stack Spoofing via Runtime .pdata Parsing to Evade RtlVirtualUnwind",
+    "url": "https://www.reddit.com/r/netsec/comments/1ups5hc/call_stack_spoofing_via_runtime_pdata_parsing_to/",
+    "date": "2026-07-07T11:22:02+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "New OST2 class: &quot;Architecture 1901: From zero to QEMU - A Gentle introduction to emulators from the ground up!&quot;",
     "url": "https://www.reddit.com/r/netsec/comments/1uoz05q/new_ost2_class_architecture_1901_from_zero_to/",
     "date": "2026-07-06T14:30:31+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-06-29T19:27:02+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "I tried a Local AI model (Qwen 3.6 27b) for security research and it works surprisingly well.",
-    "url": "https://www.reddit.com/r/netsec/comments/1uhveou/i_tried_a_local_ai_model_qwen_36_27b_for_security/",
-    "date": "2026-06-28T11:56:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +722,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
