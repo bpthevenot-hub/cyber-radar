@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-07T20:59:26.928Z",
+ "generatedAt": "2026-07-07T22:33:03.082Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-59707 — LocalAI contains an unauthenticated server-side request forgery vulnerability in the POST /models/apply endpoint that allows attackers to fe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59707",
+    "score": 9.5,
+    "date": "2026-07-07T21:31:36Z"
+   },
+   {
+    "title": "CVE-2026-58473 — Cognee before 1.2.0 contains an improper access control vulnerability that allows unauthenticated attackers to overwrite the global LLM prov",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58473",
+    "score": 9.5,
+    "date": "2026-07-07T21:31:36Z"
+   },
+   {
+    "title": "CVE-2026-40139 — A critical pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust Remote Support. Improper processing of aut",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40139",
+    "score": 9.5,
+    "date": "2026-07-06T18:31:14Z"
+   },
+   {
+    "title": "CVE-2026-48282 — ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traver",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48282",
+    "score": 9.5,
+    "date": "2026-06-30T18:31:37Z"
+   },
+   {
+    "title": "CVE-2026-56290 — The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and le",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56290",
+    "score": 9.5,
+    "date": "2026-06-29T15:32:07Z"
+   },
+   {
+    "title": "CVE-2026-12866 — All versions of the package expr-eval are vulnerable to Code Execution via the toJSFunction() API. An attacker can execute arbitrary JavaScr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12866",
+    "score": 9.5,
+    "date": "2026-06-23T06:30:41Z"
+   },
+   {
+    "title": "CVE-2026-48908 — A vulnerability in the SP Page Builder for Joomla allows the upload of arbitrary files for unauthenticated users, ultimately resulting in PH",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48908",
+    "score": 9.5,
+    "date": "2026-06-20T15:32:23Z"
+   },
+   {
+    "title": "CVE-2026-58583 — FluxInk (formerly Sunia SPB Peripheral) Color Management Driver (TcnPeripheral64.sys) 1.0.7.2 allows local privilege escalation for a standa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58583",
+    "score": 7.5,
+    "date": "2026-07-07T21:31:36Z"
+   },
+   {
+    "title": "CVE-2026-58469 — GNU Wget through 1.25.0, fixed in commit 37a40fc, contains a heap buffer underread vulnerability in the clean_metalink_string() function wit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58469",
+    "score": 7.5,
+    "date": "2026-07-07T21:31:36Z"
+   },
+   {
+    "title": "CVE-2026-59708 — The GET /api/v1/public/:accessId/portfolio endpoint in ghostfolio accepts private access IDs without validating granteeUserId filtering, all",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59708",
+    "score": 7.5,
+    "date": "2026-07-07T21:31:36Z"
+   },
+   {
+    "title": "CVE-2026-7017 — HTTP::Tiny versions before 0.095 for Perl forward credential headers to cross-origin redirect targets. When the server returns a 3xx redirec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7017",
+    "score": 7.5,
+    "date": "2026-07-07T21:31:35Z"
+   },
+   {
+    "title": "CVE-2026-11610 — A heap buffer overflow flaw was found in the SASL I/O layer of 389 Directory Server (389-ds-base). After a successful SASL bind with integri",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11610",
+    "score": 7.5,
+    "date": "2026-07-07T12:31:35Z"
+   },
+   {
+    "title": "CVE-2026-40141 — A high-severity vulnerability exists in a web application component of BeyondTrust Remote Support and Privileged Remote Access related to th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40141",
+    "score": 7.5,
+    "date": "2026-07-06T18:31:15Z"
+   },
+   {
+    "title": "CVE-2026-40140 — BeyondTrust Remote Support and Privileged Remote Access contain a high-severity pre-authentication vulnerability in the network communicatio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40140",
+    "score": 7.5,
+    "date": "2026-07-06T18:31:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Accenture confirms breach after hacker offers stolen data for sale",
+    "url": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
+    "date": "Tue, 07 Jul 2026 18:06:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
     "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
     "date": "Tue, 07 Jul 2026 14:52:19 -0400",
@@ -365,13 +457,6 @@
     "date": "Mon, 06 Jul 2026 16:23:45 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-    "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-    "date": "Mon, 06 Jul 2026 14:25:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 536,
+    "stars": 538,
     "lang": "—"
    },
    {
@@ -396,13 +481,13 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 305,
+    "stars": 306,
     "lang": "Swift"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 223,
+    "stars": 224,
     "lang": "Python"
    },
    {
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 7,
   "kev": 1635,
   "adv": 12,
   "feed": 48
