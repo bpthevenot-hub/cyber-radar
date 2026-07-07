@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-07T15:19:20.247Z",
+ "generatedAt": "2026-07-07T18:23:35.365Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-25517 — Wagtail has improper permission handling on admin preview endpoints",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-25517",
+    "score": null,
+    "date": "2026-07-07T16:42:05.813187Z"
+   },
+   {
+    "title": "CVE-2026-24049 — Wheel Affected by Arbitrary File Permission Modification via Path Traversal in wheel unpack",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24049",
+    "score": null,
+    "date": "2026-07-07T16:03:19.867108Z"
+   },
+   {
+    "title": "CVE-2025-68616 — WeasyPrint has a Server-Side Request Forgery (SSRF) Protection Bypass via HTTP Redirect",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-68616",
+    "score": null,
+    "date": "2026-07-07T16:03:19.122947Z"
+   },
+   {
+    "title": "CVE-2026-23535 — Weblate wlc path traversal vulnerability: Unsanitized API slugs in download command",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-23535",
+    "score": null,
+    "date": "2026-07-07T16:03:18.960085Z"
+   },
+   {
+    "title": "CVE-2026-21889 — Weblate leaks information via screenshots",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21889",
+    "score": null,
+    "date": "2026-07-07T16:03:18.828724Z"
+   },
+   {
+    "title": "CVE-2026-22251 — Weblate wlc has insecure API key configuration",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22251",
+    "score": null,
+    "date": "2026-07-07T16:03:18.162502Z"
+   },
+   {
+    "title": "CVE-2026-22250 — Weblate command-line client susceptible to SSL verification skip",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22250",
+    "score": null,
+    "date": "2026-07-07T16:03:18.118006Z"
+   },
+   {
+    "title": "CVE-2026-21860 — Werkzeug safe_join() allows Windows special device names with compound extensions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21860",
+    "score": null,
+    "date": "2026-07-07T16:03:17.057343Z"
+   },
+   {
+    "title": "CVE-2025-68279 — Weblate has an arbitrary file read via symbolic links",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-68279",
+    "score": null,
+    "date": "2026-07-07T16:03:13.529903Z"
+   },
+   {
+    "title": "CVE-2025-64725 — Weblate has improper validation upon invitation acceptance",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-64725",
+    "score": null,
+    "date": "2026-07-07T16:03:12.872307Z"
+   },
+   {
+    "title": "CVE-2025-66221 — Werkzeug safe_join() allows Windows special device names",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-66221",
+    "score": null,
+    "date": "2026-07-07T16:03:11.673679Z"
+   },
+   {
+    "title": "CVE-2025-59425 — vLLM is vulnerable to timing attack at bearer auth",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-59425",
+    "score": null,
+    "date": "2026-07-07T16:03:06.800906Z"
+   },
+   {
+    "title": "CVE-2025-8406 — ZenML is vulnerable to Path Traversal through its `PathMaterializer` class",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-8406",
+    "score": null,
+    "date": "2026-07-07T16:03:06.450033Z"
+   },
+   {
+    "title": "CVE-2025-11059 — xml2rfc is vulnerable to arbitrary file reads through prepped files",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-11059",
+    "score": null,
+    "date": "2026-07-07T16:03:04.649471Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "Open WebUI has Blind Server Side Request Forgery in its Image Edit Functionality",
+    "url": "https://github.com/advisories/GHSA-jgx9-jr5x-mvpv",
+    "score": 4.3,
+    "ghsa": "GHSA-jgx9-jr5x-mvpv",
+    "date": "2026-07-07T16:51:30Z"
+   },
+   {
+    "title": "Open WebUI vulnerable to Stored XSS via iFrame embeds in response messages",
+    "url": "https://github.com/advisories/GHSA-vjm7-m4xh-7wrc",
+    "score": 7.3,
+    "ghsa": "GHSA-vjm7-m4xh-7wrc",
+    "date": "2026-07-07T16:51:22Z"
+   },
+   {
+    "title": "Open WebUI vulnerable to Stored XSS via iFrame in citations model",
+    "url": "https://github.com/advisories/GHSA-xc8p-9rr6-97r2",
+    "score": 7.3,
+    "ghsa": "GHSA-xc8p-9rr6-97r2",
+    "date": "2026-07-07T16:51:13Z"
+   },
+   {
+    "title": "Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions",
+    "url": "https://github.com/advisories/GHSA-9f4f-jv96-8766",
+    "score": 7.5,
+    "ghsa": "GHSA-9f4f-jv96-8766",
+    "date": "2026-07-07T16:50:59Z"
+   },
+   {
+    "title": "Open WebUI allows limited stored XSS vila uploaded html file",
+    "url": "https://github.com/advisories/GHSA-8gh5-qqh8-hq3x",
+    "score": null,
+    "ghsa": "GHSA-8gh5-qqh8-hq3x",
+    "date": "2026-07-07T16:50:43Z"
+   },
+   {
     "title": "EGroupware Vulnerable to Local File Inclusion via file:// URI in Mail Compose",
     "url": "https://github.com/advisories/GHSA-c8m7-r2jv-rw63",
     "score": 6.5,
@@ -165,44 +285,30 @@
     "score": 9.5,
     "ghsa": "GHSA-h9qx-v5xp-ph8p",
     "date": "2026-07-07T13:01:01Z"
-   },
-   {
-    "title": "cut: -s ignored in -z -d '' newline-delimiter mode",
-    "url": "https://github.com/advisories/GHSA-pmfc-4wjj-gmhx",
-    "score": 3.3,
-    "ghsa": "GHSA-pmfc-4wjj-gmhx",
-    "date": "2026-07-06T21:54:29Z"
-   },
-   {
-    "title": "mknod: Device nodes created mislabeled on SELinux, with broken cleanup (remove_dir on a node)",
-    "url": "https://github.com/advisories/GHSA-r9hw-mj3w-phcq",
-    "score": 3.4,
-    "ghsa": "GHSA-r9hw-mj3w-phcq",
-    "date": "2026-07-06T21:54:05Z"
-   },
-   {
-    "title": "mkfifo: permissions of an existing file are changed after FIFO creation fails",
-    "url": "https://github.com/advisories/GHSA-pmf6-rcx4-v53v",
-    "score": 7.1,
-    "ghsa": "GHSA-pmf6-rcx4-v53v",
-    "date": "2026-07-06T21:53:34Z"
-   },
-   {
-    "title": "Coder's workspace agent API insecure redirect handling allowed cross-agent file read and write",
-    "url": "https://github.com/advisories/GHSA-qrwj-vh9x-gw5v",
-    "score": 8.3,
-    "ghsa": "GHSA-qrwj-vh9x-gw5v",
-    "date": "2026-07-06T21:52:31Z"
-   },
-   {
-    "title": "OpenRemote has Authenticated SQL Injection via Datapoint Crosstab Export",
-    "url": "https://github.com/advisories/GHSA-cgfv-jrfp-2r7v",
-    "score": 7.5,
-    "ghsa": "GHSA-cgfv-jrfp-2r7v",
-    "date": "2026-07-06T21:51:32Z"
    }
   ],
   "thn": [
+   {
+    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+    "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+    "date": "Tue, 07 Jul 2026 22:40:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+    "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+    "date": "Tue, 07 Jul 2026 22:07:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+    "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+    "date": "Tue, 07 Jul 2026 20:44:14 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
     "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
@@ -265,30 +371,23 @@
     "date": "Mon, 06 Jul 2026 23:07:01 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-    "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-    "date": "Mon, 06 Jul 2026 21:58:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-    "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-    "date": "Mon, 06 Jul 2026 18:31:14 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-    "url": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-    "date": "Mon, 06 Jul 2026 17:00:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hidden backdoor in Tenda router firmware grants admin access",
+    "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+    "date": "Tue, 07 Jul 2026 13:27:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
+    "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+    "date": "Tue, 07 Jul 2026 11:21:21 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
     "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
@@ -358,20 +457,6 @@
     "date": "Mon, 06 Jul 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-    "date": "Mon, 06 Jul 2026 09:18:37 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Flipper Zero firmware development continues with community help",
-    "url": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
-    "date": "Sun, 05 Jul 2026 10:14:52 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 532,
+    "stars": 533,
     "lang": "—"
    },
    {
@@ -396,7 +481,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 304,
+    "stars": 305,
     "lang": "Swift"
    },
    {
@@ -408,13 +493,13 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 196,
+    "stars": 198,
     "lang": "TypeScript"
    },
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 187,
+    "stars": 190,
     "lang": "TypeScript"
    },
    {
@@ -557,13 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A rule mapped to MITRE is not the same as real coverage",
-    "url": "https://www.reddit.com/r/netsec/comments/1upxwln/a_rule_mapped_to_mitre_is_not_the_same_as_real/",
-    "date": "2026-07-07T15:09:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "New OST2 class: &quot;Architecture 1901: From zero to QEMU - A Gentle introduction to emulators from the ground up!&quot;",
     "url": "https://www.reddit.com/r/netsec/comments/1uoz05q/new_ost2_class_architecture_1901_from_zero_to/",
     "date": "2026-07-06T14:30:31+00:00",
@@ -618,6 +696,13 @@
     "date": "2026-06-30T10:07:33+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/",
+    "date": "2026-06-29T19:27:02+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -633,7 +718,7 @@
  },
  "kpis": {
   "crit": 0,
-  "kev": 1631,
+  "kev": 1634,
   "adv": 12,
   "feed": 48
  },
