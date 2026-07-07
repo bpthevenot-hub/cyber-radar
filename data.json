@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-07T05:10:18.348Z",
+ "generatedAt": "2026-07-07T08:46:03.547Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -204,6 +204,20 @@
   ],
   "thn": [
    {
+    "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+    "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+    "date": "Tue, 07 Jul 2026 12:10:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+    "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+    "date": "Tue, 07 Jul 2026 10:46:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
     "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
     "date": "Tue, 07 Jul 2026 00:04:26 +0530",
@@ -272,23 +286,23 @@
     "date": "Mon, 06 Jul 2026 12:03:56 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
-    "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
-    "date": "Sat, 04 Jul 2026 18:17:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
-    "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-    "date": "Sat, 04 Jul 2026 16:47:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "BeyondTrust warns of critical flaws in remote access software",
+    "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+    "date": "Tue, 07 Jul 2026 04:12:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
+    "date": "Tue, 07 Jul 2026 03:37:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Phishing poses as big-brand job interview to steal Google accounts",
     "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
@@ -358,20 +372,6 @@
     "date": "Thu, 02 Jul 2026 21:37:09 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Claude Fable relaunch disappoints users with nerfed performance",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
-    "date": "Thu, 02 Jul 2026 20:48:30 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Google loses final appeal to overturn €4.1 billion EU fine",
-    "url": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
-    "date": "Thu, 02 Jul 2026 11:18:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,20 +384,20 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 524,
+    "stars": 530,
     "lang": "—"
+   },
+   {
+    "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
+    "url": "https://github.com/adshao/flounder",
+    "stars": 303,
+    "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
     "stars": 303,
     "lang": "Swift"
-   },
-   {
-    "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
-    "url": "https://github.com/adshao/flounder",
-    "stars": 301,
-    "lang": "TypeScript"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
@@ -414,7 +414,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 176,
+    "stars": 181,
     "lang": "TypeScript"
    },
    {
@@ -438,13 +438,13 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 110,
+    "stars": 111,
     "lang": "JavaScript"
    },
    {
     "title": "manticore-projects/aurscan — Automatically scan AUR packages for malware before installing (using LLM/AI)",
     "url": "https://github.com/manticore-projects/aurscan",
-    "stars": 108,
+    "stars": 109,
     "lang": "Go"
    }
   ],
@@ -622,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +637,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
