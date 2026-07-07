@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-07T12:11:45.007Z",
+ "generatedAt": "2026-07-07T15:19:20.247Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2022-3146 — tripleo-ansible may disclose important configuration details from an OpenStack deployment",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-3146",
-    "score": null,
-    "date": "2026-07-07T10:17:28.635311Z"
-   },
-   {
-    "title": "CVE-2022-3101 — tripleo-ansible may disclose important configuration details from an OpenStack deployment",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-3101",
-    "score": null,
-    "date": "2026-07-07T10:17:28.592137Z"
-   },
-   {
-    "title": "CVE-2023-27522 — Apache HTTP Server via mod_proxy_uwsgi HTTP response smuggling",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-27522",
-    "score": null,
-    "date": "2026-07-07T10:17:28.280695Z"
-   },
-   {
-    "title": "CVE-2023-22432 — Open redirect in web2py",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-22432",
-    "score": null,
-    "date": "2026-07-07T10:17:28.107147Z"
-   },
-   {
-    "title": "CVE-2022-41909 — Segfault in `CompositeTensorVariantToComponents`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41909",
-    "score": null,
-    "date": "2026-07-07T10:17:24.904896Z"
-   },
-   {
-    "title": "CVE-2022-41908 — `CHECK` fail via inputs in `PyFunc`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41908",
-    "score": null,
-    "date": "2026-07-07T10:17:24.840210Z"
-   },
-   {
-    "title": "CVE-2022-41900 — FractionalMaxPool and FractionalAVGPool heap out-of-bounds acess",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41900",
-    "score": null,
-    "date": "2026-07-07T10:17:24.574177Z"
-   },
-   {
-    "title": "CVE-2022-41896 — `tf.raw_ops.Mfcc` crashes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41896",
-    "score": null,
-    "date": "2026-07-07T10:17:24.332172Z"
-   },
-   {
-    "title": "CVE-2022-41894 — Buffer overflow in `CONV_3D_TRANSPOSE` on TFLite",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41894",
-    "score": null,
-    "date": "2026-07-07T10:17:24.149856Z"
-   },
-   {
-    "title": "CVE-2022-41889 — Segfault via invalid attributes in `pywrap_tfe_src.cc`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41889",
-    "score": null,
-    "date": "2026-07-07T10:17:23.864505Z"
-   },
-   {
-    "title": "CVE-2022-41884 — Seg fault in `ndarray_tensor_bridge` due to zero and large inputs",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-41884",
-    "score": null,
-    "date": "2026-07-07T10:17:23.547651Z"
-   },
-   {
-    "title": "CVE-2022-44020 — OpenStack Sushy-Tools and VirtualBMC Improper Preservation of Permissions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-44020",
-    "score": null,
-    "date": "2026-07-07T10:17:22.957829Z"
-   },
-   {
-    "title": "CVE-2022-39348 — Twisted vulnerable to NameVirtualHost Host header injection",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-39348",
-    "score": null,
-    "date": "2026-07-07T10:17:22.852562Z"
-   },
-   {
-    "title": "CVE-2022-35983 — TensorFlow vulnerable to `CHECK` fail in `Save` and `SaveSlices`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-35983",
-    "score": null,
-    "date": "2026-07-07T10:17:22.089773Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -203,6 +118,55 @@
   ],
   "adv": [
    {
+    "title": "EGroupware Vulnerable to Local File Inclusion via file:// URI in Mail Compose",
+    "url": "https://github.com/advisories/GHSA-c8m7-r2jv-rw63",
+    "score": 6.5,
+    "ghsa": "GHSA-c8m7-r2jv-rw63",
+    "date": "2026-07-07T13:02:43Z"
+   },
+   {
+    "title": "ONNX has Null Pointer Dereference in Upsample Version Converter Adapter (Zero Inputs)",
+    "url": "https://github.com/advisories/GHSA-hwpq-hmq9-wj77",
+    "score": 5.5,
+    "ghsa": "GHSA-hwpq-hmq9-wj77",
+    "date": "2026-07-07T13:02:10Z"
+   },
+   {
+    "title": "New API is vulnerable to CSRF through user email binding",
+    "url": "https://github.com/advisories/GHSA-26v7-h57m-gh9m",
+    "score": 5.3,
+    "ghsa": "GHSA-26v7-h57m-gh9m",
+    "date": "2026-07-07T13:01:49Z"
+   },
+   {
+    "title": "EGroupware has Authenticated RCE via Malicious eTemplate Upload",
+    "url": "https://github.com/advisories/GHSA-8737-2x9g-xjj7",
+    "score": 7.5,
+    "ghsa": "GHSA-8737-2x9g-xjj7",
+    "date": "2026-07-07T13:01:31Z"
+   },
+   {
+    "title": "XWiki Platform Old Core: Resource path traversal via /skin/ action endpoint in Jetty 12+",
+    "url": "https://github.com/advisories/GHSA-qj4x-9g63-25g6",
+    "score": 7.5,
+    "ghsa": "GHSA-qj4x-9g63-25g6",
+    "date": "2026-07-07T13:01:21Z"
+   },
+   {
+    "title": "New API: SSRF Protection Bypass via Unresolved Hostname in Notification URLs",
+    "url": "https://github.com/advisories/GHSA-6qcr-qxgr-m7fv",
+    "score": 7.7,
+    "ghsa": "GHSA-6qcr-qxgr-m7fv",
+    "date": "2026-07-07T13:01:12Z"
+   },
+   {
+    "title": "EGroupware has a Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-h9qx-v5xp-ph8p",
+    "score": 9.5,
+    "ghsa": "GHSA-h9qx-v5xp-ph8p",
+    "date": "2026-07-07T13:01:01Z"
+   },
+   {
     "title": "cut: -s ignored in -z -d '' newline-delimiter mode",
     "url": "https://github.com/advisories/GHSA-pmfc-4wjj-gmhx",
     "score": 3.3,
@@ -236,58 +200,30 @@
     "score": 7.5,
     "ghsa": "GHSA-cgfv-jrfp-2r7v",
     "date": "2026-07-06T21:51:32Z"
-   },
-   {
-    "title": "Kiwi TCMS vulnerable to stored XSS via JavaScript: URI in extra_link field (TestPlan & TestCase)",
-    "url": "https://github.com/advisories/GHSA-473p-56xx-vg67",
-    "score": 2,
-    "ghsa": "GHSA-473p-56xx-vg67",
-    "date": "2026-07-06T21:49:41Z"
-   },
-   {
-    "title": "9router: Login brute-force protection bypass via spoofed X-Forwarded-For header",
-    "url": "https://github.com/advisories/GHSA-7cfm-pqrj-xgq7",
-    "score": 7.3,
-    "ghsa": "GHSA-7cfm-pqrj-xgq7",
-    "date": "2026-07-06T21:46:20Z"
-   },
-   {
-    "title": "9routers has Exposure of Sensitive Information and Unprotected Database Import/Export, Allowing Complete Credential Theft and Database Takeover",
-    "url": "https://github.com/advisories/GHSA-qvfm-67h2-2qfx",
-    "score": 9.9,
-    "ghsa": "GHSA-qvfm-67h2-2qfx",
-    "date": "2026-07-06T21:37:49Z"
-   },
-   {
-    "title": "Craft CMS: Potential authenticated Remote Code Execution via referrer redirect",
-    "url": "https://github.com/advisories/GHSA-f74w-488g-8x5r",
-    "score": 7.5,
-    "ghsa": "GHSA-f74w-488g-8x5r",
-    "date": "2026-07-06T21:37:06Z"
-   },
-   {
-    "title": "Craft CMS: Stored XSS via Structure entry title in table view",
-    "url": "https://github.com/advisories/GHSA-xrqc-p465-2xvg",
-    "score": null,
-    "ghsa": "GHSA-xrqc-p465-2xvg",
-    "date": "2026-07-06T21:35:02Z"
-   },
-   {
-    "title": "Craft CMS: Sensitive File Disclosure / Server-Side File Read",
-    "url": "https://github.com/advisories/GHSA-287w-mxq6-x2cp",
-    "score": null,
-    "ghsa": "GHSA-287w-mxq6-x2cp",
-    "date": "2026-07-06T21:29:49Z"
-   },
-   {
-    "title": "Craft CMS: DOM XSS via GitHub issue title in CraftSupport widget",
-    "url": "https://github.com/advisories/GHSA-24x4-j6x9-rfw5",
-    "score": 7.5,
-    "ghsa": "GHSA-24x4-j6x9-rfw5",
-    "date": "2026-07-06T21:29:16Z"
    }
   ],
   "thn": [
+   {
+    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+    "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+    "date": "Tue, 07 Jul 2026 19:34:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+    "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+    "date": "Tue, 07 Jul 2026 18:57:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+    "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+    "date": "Tue, 07 Jul 2026 18:57:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
     "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
@@ -350,30 +286,23 @@
     "date": "Mon, 06 Jul 2026 17:00:02 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-    "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
-    "date": "Mon, 06 Jul 2026 16:28:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
-    "url": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-    "date": "Mon, 06 Jul 2026 14:20:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
-    "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
-    "date": "Mon, 06 Jul 2026 13:43:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+    "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+    "date": "Tue, 07 Jul 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+    "date": "Tue, 07 Jul 2026 08:12:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
     "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
@@ -443,20 +372,6 @@
     "date": "Sun, 05 Jul 2026 10:14:52 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "JadePuffer ransomware used AI agent to automate entire attack",
-    "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
-    "date": "Sat, 04 Jul 2026 10:16:38 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-    "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-    "date": "Fri, 03 Jul 2026 13:50:04 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +384,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 531,
+    "stars": 532,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
     "url": "https://github.com/adshao/flounder",
-    "stars": 306,
+    "stars": 307,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +414,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 184,
+    "stars": 187,
     "lang": "TypeScript"
    },
    {
@@ -517,13 +432,13 @@
    {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
     "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 121,
+    "stars": 122,
     "lang": "Python"
    },
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 111,
+    "stars": 112,
     "lang": "JavaScript"
    },
    {
@@ -635,9 +550,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Call Stack Spoofing via Runtime .pdata Parsing to Evade RtlVirtualUnwind",
-    "url": "https://www.reddit.com/r/netsec/comments/1ups5hc/call_stack_spoofing_via_runtime_pdata_parsing_to/",
-    "date": "2026-07-07T11:22:02+00:00",
+    "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (&quot;Additionally&quot;) bypassed",
+    "url": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
+    "date": "2026-07-07T15:16:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "A rule mapped to MITRE is not the same as real coverage",
+    "url": "https://www.reddit.com/r/netsec/comments/1upxwln/a_rule_mapped_to_mitre_is_not_the_same_as_real/",
+    "date": "2026-07-07T15:09:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -694,13 +616,6 @@
     "title": "Auditing OpenReception: 16 CVEs in an end-to-end encrypted appointment booking platform (unauthenticated admin creation, account takeover, E2E bypass)",
     "url": "https://www.reddit.com/r/netsec/comments/1ujl1k0/auditing_openreception_16_cves_in_an_endtoend/",
     "date": "2026-06-30T10:07:33+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/",
-    "date": "2026-06-29T19:27:02+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
