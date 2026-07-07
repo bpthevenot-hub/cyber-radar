@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-07T18:23:35.365Z",
+ "generatedAt": "2026-07-07T20:59:26.928Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-25517 — Wagtail has improper permission handling on admin preview endpoints",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-25517",
-    "score": null,
-    "date": "2026-07-07T16:42:05.813187Z"
-   },
-   {
-    "title": "CVE-2026-24049 — Wheel Affected by Arbitrary File Permission Modification via Path Traversal in wheel unpack",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24049",
-    "score": null,
-    "date": "2026-07-07T16:03:19.867108Z"
-   },
-   {
-    "title": "CVE-2025-68616 — WeasyPrint has a Server-Side Request Forgery (SSRF) Protection Bypass via HTTP Redirect",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-68616",
-    "score": null,
-    "date": "2026-07-07T16:03:19.122947Z"
-   },
-   {
-    "title": "CVE-2026-23535 — Weblate wlc path traversal vulnerability: Unsanitized API slugs in download command",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-23535",
-    "score": null,
-    "date": "2026-07-07T16:03:18.960085Z"
-   },
-   {
-    "title": "CVE-2026-21889 — Weblate leaks information via screenshots",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21889",
-    "score": null,
-    "date": "2026-07-07T16:03:18.828724Z"
-   },
-   {
-    "title": "CVE-2026-22251 — Weblate wlc has insecure API key configuration",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22251",
-    "score": null,
-    "date": "2026-07-07T16:03:18.162502Z"
-   },
-   {
-    "title": "CVE-2026-22250 — Weblate command-line client susceptible to SSL verification skip",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22250",
-    "score": null,
-    "date": "2026-07-07T16:03:18.118006Z"
-   },
-   {
-    "title": "CVE-2026-21860 — Werkzeug safe_join() allows Windows special device names with compound extensions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21860",
-    "score": null,
-    "date": "2026-07-07T16:03:17.057343Z"
-   },
-   {
-    "title": "CVE-2025-68279 — Weblate has an arbitrary file read via symbolic links",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-68279",
-    "score": null,
-    "date": "2026-07-07T16:03:13.529903Z"
-   },
-   {
-    "title": "CVE-2025-64725 — Weblate has improper validation upon invitation acceptance",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-64725",
-    "score": null,
-    "date": "2026-07-07T16:03:12.872307Z"
-   },
-   {
-    "title": "CVE-2025-66221 — Werkzeug safe_join() allows Windows special device names",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-66221",
-    "score": null,
-    "date": "2026-07-07T16:03:11.673679Z"
-   },
-   {
-    "title": "CVE-2025-59425 — vLLM is vulnerable to timing attack at bearer auth",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-59425",
-    "score": null,
-    "date": "2026-07-07T16:03:06.800906Z"
-   },
-   {
-    "title": "CVE-2025-8406 — ZenML is vulnerable to Path Traversal through its `PathMaterializer` class",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-8406",
-    "score": null,
-    "date": "2026-07-07T16:03:06.450033Z"
-   },
-   {
-    "title": "CVE-2025-11059 — xml2rfc is vulnerable to arbitrary file reads through prepped files",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-11059",
-    "score": null,
-    "date": "2026-07-07T16:03:04.649471Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -203,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "Open WebUI has Blind Server Side Request Forgery in its Image Edit Functionality",
-    "url": "https://github.com/advisories/GHSA-jgx9-jr5x-mvpv",
-    "score": 4.3,
-    "ghsa": "GHSA-jgx9-jr5x-mvpv",
-    "date": "2026-07-07T16:51:30Z"
+    "title": "@better-auth/scim: Account/provider takeover via missing owner binding on non-org SCIM providers",
+    "url": "https://github.com/advisories/GHSA-j8v8-g9cx-5qf4",
+    "score": 8.3,
+    "ghsa": "GHSA-j8v8-g9cx-5qf4",
+    "date": "2026-07-07T20:57:05Z"
    },
    {
-    "title": "Open WebUI vulnerable to Stored XSS via iFrame embeds in response messages",
-    "url": "https://github.com/advisories/GHSA-vjm7-m4xh-7wrc",
-    "score": 7.3,
-    "ghsa": "GHSA-vjm7-m4xh-7wrc",
-    "date": "2026-07-07T16:51:22Z"
+    "title": "Better Auth: Stale sessions persist after user deletion across admin, anonymous, and SCIM flows",
+    "url": "https://github.com/advisories/GHSA-2vg6-77g8-24mp",
+    "score": 3.8,
+    "ghsa": "GHSA-2vg6-77g8-24mp",
+    "date": "2026-07-07T20:56:45Z"
    },
    {
-    "title": "Open WebUI vulnerable to Stored XSS via iFrame in citations model",
-    "url": "https://github.com/advisories/GHSA-xc8p-9rr6-97r2",
-    "score": 7.3,
-    "ghsa": "GHSA-xc8p-9rr6-97r2",
-    "date": "2026-07-07T16:51:13Z"
+    "title": "@better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
+    "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
+    "score": 8.1,
+    "ghsa": "GHSA-7w99-5wm4-3g79",
+    "date": "2026-07-07T20:56:35Z"
    },
    {
-    "title": "Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions",
-    "url": "https://github.com/advisories/GHSA-9f4f-jv96-8766",
-    "score": 7.5,
-    "ghsa": "GHSA-9f4f-jv96-8766",
-    "date": "2026-07-07T16:50:59Z"
+    "title": "@better-auth/sso provider registration has server-side request forgery via unvalidated OIDC endpoints",
+    "url": "https://github.com/advisories/GHSA-5rr4-8452-hf4v",
+    "score": 9.6,
+    "ghsa": "GHSA-5rr4-8452-hf4v",
+    "date": "2026-07-07T20:56:19Z"
    },
    {
-    "title": "Open WebUI allows limited stored XSS vila uploaded html file",
-    "url": "https://github.com/advisories/GHSA-8gh5-qqh8-hq3x",
-    "score": null,
-    "ghsa": "GHSA-8gh5-qqh8-hq3x",
-    "date": "2026-07-07T16:50:43Z"
+    "title": "Better Auth: OAuth refresh-token rotation forks the token family on concurrent redemption",
+    "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
+    "score": 8.1,
+    "ghsa": "GHSA-392p-2q2v-4372",
+    "date": "2026-07-07T20:55:48Z"
    },
    {
-    "title": "EGroupware Vulnerable to Local File Inclusion via file:// URI in Mail Compose",
-    "url": "https://github.com/advisories/GHSA-c8m7-r2jv-rw63",
-    "score": 6.5,
-    "ghsa": "GHSA-c8m7-r2jv-rw63",
-    "date": "2026-07-07T13:02:43Z"
+    "title": "Better Auth has insecure cryptographic defaults in oidcProvider: alg=none advertised and plain PKCE accepted by default",
+    "url": "https://github.com/advisories/GHSA-9h47-pqcx-hjr4",
+    "score": 8.7,
+    "ghsa": "GHSA-9h47-pqcx-hjr4",
+    "date": "2026-07-07T20:55:41Z"
    },
    {
-    "title": "ONNX has Null Pointer Dereference in Upsample Version Converter Adapter (Zero Inputs)",
-    "url": "https://github.com/advisories/GHSA-hwpq-hmq9-wj77",
-    "score": 5.5,
-    "ghsa": "GHSA-hwpq-hmq9-wj77",
-    "date": "2026-07-07T13:02:10Z"
-   },
-   {
-    "title": "New API is vulnerable to CSRF through user email binding",
-    "url": "https://github.com/advisories/GHSA-26v7-h57m-gh9m",
-    "score": 5.3,
-    "ghsa": "GHSA-26v7-h57m-gh9m",
-    "date": "2026-07-07T13:01:49Z"
-   },
-   {
-    "title": "EGroupware has Authenticated RCE via Malicious eTemplate Upload",
-    "url": "https://github.com/advisories/GHSA-8737-2x9g-xjj7",
-    "score": 7.5,
-    "ghsa": "GHSA-8737-2x9g-xjj7",
-    "date": "2026-07-07T13:01:31Z"
-   },
-   {
-    "title": "XWiki Platform Old Core: Resource path traversal via /skin/ action endpoint in Jetty 12+",
-    "url": "https://github.com/advisories/GHSA-qj4x-9g63-25g6",
-    "score": 7.5,
-    "ghsa": "GHSA-qj4x-9g63-25g6",
-    "date": "2026-07-07T13:01:21Z"
-   },
-   {
-    "title": "New API: SSRF Protection Bypass via Unresolved Hostname in Notification URLs",
-    "url": "https://github.com/advisories/GHSA-6qcr-qxgr-m7fv",
+    "title": "Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
+    "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
     "score": 7.7,
-    "ghsa": "GHSA-6qcr-qxgr-m7fv",
-    "date": "2026-07-07T13:01:12Z"
+    "ghsa": "GHSA-86j7-9j95-vpqj",
+    "date": "2026-07-07T20:55:28Z"
    },
    {
-    "title": "EGroupware has a Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-h9qx-v5xp-ph8p",
-    "score": 9.5,
-    "ghsa": "GHSA-h9qx-v5xp-ph8p",
-    "date": "2026-07-07T13:01:01Z"
+    "title": "Better Auth has an account takeover issue via OAuth auto-link to unverified pre-registered email",
+    "url": "https://github.com/advisories/GHSA-g38m-r43w-p2q7",
+    "score": 8.3,
+    "ghsa": "GHSA-g38m-r43w-p2q7",
+    "date": "2026-07-07T20:55:13Z"
+   },
+   {
+    "title": "Better Auth vulnerable to unauthorized invitation acceptance via unverified email match in organization plugin",
+    "url": "https://github.com/advisories/GHSA-fmh4-wcc4-5jm3",
+    "score": 7.7,
+    "ghsa": "GHSA-fmh4-wcc4-5jm3",
+    "date": "2026-07-07T20:54:51Z"
+   },
+   {
+    "title": "@better-auth/oauth-provider may provide access tokens for unauthorized audiences via unbound resource indicators",
+    "url": "https://github.com/advisories/GHSA-p2fr-6hmx-4528",
+    "score": 6.4,
+    "ghsa": "GHSA-p2fr-6hmx-4528",
+    "date": "2026-07-07T20:54:32Z"
+   },
+   {
+    "title": "Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
+    "url": "https://github.com/advisories/GHSA-pw9m-5jxm-xr6h",
+    "score": 9.1,
+    "ghsa": "GHSA-pw9m-5jxm-xr6h",
+    "date": "2026-07-07T20:11:50Z"
+   },
+   {
+    "title": "netfoil: Attacker controlled data written to logs",
+    "url": "https://github.com/advisories/GHSA-7856-g3gv-9wq8",
+    "score": 2,
+    "ghsa": "GHSA-7856-g3gv-9wq8",
+    "date": "2026-07-07T20:04:22Z"
    }
   ],
   "thn": [
@@ -375,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+    "date": "Tue, 07 Jul 2026 14:52:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hidden backdoor in Tenda router firmware grants admin access",
     "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
     "date": "Tue, 07 Jul 2026 13:27:22 -0400",
@@ -450,26 +372,19 @@
     "date": "Mon, 06 Jul 2026 14:25:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-    "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-    "date": "Mon, 06 Jul 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1298,
+    "stars": 1299,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 533,
+    "stars": 536,
     "lang": "—"
    },
    {
@@ -499,7 +414,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 190,
+    "stars": 191,
     "lang": "TypeScript"
    },
    {
@@ -718,7 +633,7 @@
  },
  "kpis": {
   "crit": 0,
-  "kev": 1634,
+  "kev": 1635,
   "adv": 12,
   "feed": 48
  },
