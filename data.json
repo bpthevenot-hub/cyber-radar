@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-08T03:50:41.765Z",
+ "generatedAt": "2026-07-08T06:40:45.977Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-56843 — Incorrect authorization in the XML-RPC API of WebPros Plesk before 18.0.78.4 allows a low-privileged authenticated customer to look up domai",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56843",
-    "score": 9.5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-60002 — ssh in OpenSSH before 10.4 can have a use-after-free when a server changes its host key during a key re-exchange. (This outcome occurs only ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60002",
-    "score": 7.5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2025-13914 — A Key Exchange without Entity Authentication vulnerability in the SSH implementation of Juniper Networks Apstra allows a unauthenticated, MI",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-13914",
-    "score": 7.5,
-    "date": "2026-04-10T00:30:29Z"
-   },
-   {
-    "title": "CVE-2026-59999 — In sshd in OpenSSH before 10.4, DisableForwarding=yes was supposed to take precedence over PermitTunnel=yes, but did not.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59999",
-    "score": 5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-59996 — scp in OpenSSH before 10.4 may place a file in the parent directory of an intended directory when the copy occurs between two remote destina",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59996",
-    "score": 5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-60001 — sshd in OpenSSH before 10.4 does not always honor the minimum authentication delay.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60001",
-    "score": 5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-59997 — internal-sftp in sshd in OpenSSH before 10.4 recognizes only the first 9 command-line arguments, which can be important if a later command-l",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59997",
-    "score": 5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-59998 — sshd in OpenSSH before 10.4 has an undocumented security-relevant behavior: GSSAPIStrictAcceptorCheck has no value if the server is in Windo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59998",
-    "score": 5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-59995 — sftp in OpenSSH before 10.4 does not properly constrain the location of downloaded files when \"sftp server:/path .\" is used with an attacker",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59995",
-    "score": 5,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-6058 — ** UNSUPPORTED WHEN ASSIGNED ** An improper encoding or escaping vulnerability in the CGI program of Zyxel WRE6505 v2 firmware version V1.00",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6058",
-    "score": 5,
-    "date": "2026-04-21T03:31:06Z"
-   },
-   {
-    "title": "CVE-2026-40002 — Red Magic 11 Pro (NX809J) contains a vulnerability that allows non-privileged applications to trigger sensitive operations. The vulnerabilit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40002",
-    "score": 5,
-    "date": "2026-04-17T09:31:18Z"
-   },
-   {
-    "title": "CVE-2026-60000 — sshd in OpenSSH before 10.4 allows remote attackers to cause a denial of service (resource consumption from excessive authentication attempt",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60000",
-    "score": 2,
-    "date": "2026-07-08T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-22051 — StorageGRID (formerly StorageGRID Webscale) versions prior to 11.9.0.13 and 12.0.0.6 are susceptible to a Information Disclosure vulnerabili",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22051",
-    "score": 2,
-    "date": "2026-04-21T00:32:14Z"
-   },
-   {
-    "title": "CVE-2026-14895 — String::Util versions before 1.36 for Perl are susceptible to a regular expression denial of service. The trim and rtrim functions stripped ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14895",
-    "score": null,
-    "date": "2026-07-08T00:37:56Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -289,6 +204,20 @@
   ],
   "thn": [
    {
+    "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+    "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+    "date": "Wed, 08 Jul 2026 11:46:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+    "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+    "date": "Wed, 08 Jul 2026 11:03:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
     "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
     "date": "Tue, 07 Jul 2026 22:40:15 +0530",
@@ -355,20 +284,6 @@
     "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
     "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
     "date": "Tue, 07 Jul 2026 10:46:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
-    "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-    "date": "Tue, 07 Jul 2026 00:04:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
-    "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-    "date": "Mon, 06 Jul 2026 23:07:01 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -469,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 546,
+    "stars": 553,
     "lang": "—"
    },
    {
@@ -499,7 +414,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 193,
+    "stars": 195,
     "lang": "TypeScript"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 1,
+  "crit": 0,
   "kev": 1635,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
