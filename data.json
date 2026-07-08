@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-08T20:38:55.553Z",
+ "generatedAt": "2026-07-08T22:26:57.683Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-54334 — UEFI Firmware Parser has a heap out-of-bounds write in tiano decompressor ReadCLen",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54334",
-    "score": 9.5,
-    "date": "2026-04-16T01:31:09Z"
-   },
-   {
-    "title": "CVE-2026-54333 — UEFI Firmware Parser has a stack out-of-bounds write in tiano decompressor MakeTable",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54333",
-    "score": 9.5,
-    "date": "2026-04-16T01:30:48Z"
-   },
-   {
-    "title": "CVE-2022-32511 — JMESPath for Ruby uses unsafe JSON.load when safe JSON.parse is preferable",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-32511",
-    "score": 9.5,
-    "date": "2022-06-07T00:00:31Z"
-   },
-   {
-    "title": "CVE-2026-54307 — n8n: Credential Exfiltration via Permission Bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54307",
-    "score": 7.5,
-    "date": "2026-06-16T23:02:05Z"
-   },
-   {
-    "title": "CVE-2026-48779 — ws: Memory exhaustion DoS from tiny fragments and data chunks",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48779",
-    "score": 7.5,
-    "date": "2026-06-15T16:34:23Z"
-   },
-   {
-    "title": "CVE-2026-48017 — DbGate: Remote Code Execution via functionName injection in loadReader endpoint",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48017",
-    "score": 7.5,
-    "date": "2026-06-05T16:39:38Z"
-   },
-   {
-    "title": "CVE-2026-47684 — Sync-in Server: SSRF protection bypass via IPv4-mapped IPv6 addresses in regExpPrivateIP",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47684",
-    "score": 7.5,
-    "date": "2026-06-05T16:34:59Z"
-   },
-   {
-    "title": "CVE-2026-47261 — wasmtime-wasi: WASI path_open(TRUNCATE) bypasses `FilePerms::WRITE` host restriction",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47261",
-    "score": 7.5,
-    "date": "2026-06-05T15:47:02Z"
-   },
-   {
-    "title": "CVE-2026-42089 — yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42089",
-    "score": 7.5,
-    "date": "2026-05-26T23:10:38Z"
-   },
-   {
-    "title": "CVE-2026-35433 — Microsoft Security Advisory CVE-2026-35433 – .NET Elevation of Privilege Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-35433",
-    "score": 7.5,
-    "date": "2026-05-18T19:20:19Z"
-   },
-   {
-    "title": "CVE-2025-71261 — Harvester's SUSE Virtualization Registration Client Vulnerable to MITM and DOS",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71261",
-    "score": 7.5,
-    "date": "2026-05-06T20:16:08Z"
-   },
-   {
-    "title": "CVE-2026-43003 — OpenStack Ironic Python Agent Includes Functionality from Untrusted Control Sphere",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43003",
-    "score": 7.5,
-    "date": "2026-05-01T09:30:25Z"
-   },
-   {
-    "title": "CVE-2022-23913 — Apache ActiveMQ Artemis Uncontrolled Resource Consumption (DoS)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-23913",
-    "score": 7.5,
-    "date": "2022-02-06T00:00:55Z"
-   },
-   {
-    "title": "CVE-2026-55599 — phpseclib: X.509 certificate validation sends attacker-controlled outbound requests (server-side request forgery) via Authority Information ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55599",
-    "score": 5,
-    "date": "2026-06-16T15:03:58Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -203,6 +118,27 @@
   ],
   "adv": [
    {
+    "title": "Serena: Unauthenticated Flask dashboard on fixed port enables DNS rebinding → memory poisoning → RCE",
+    "url": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q",
+    "score": 8.3,
+    "ghsa": "GHSA-37h2-6p4f-mp3q",
+    "date": "2026-07-08T21:12:08Z"
+   },
+   {
+    "title": "NL Portal: IDOR allows any authenticated user to complete and tamper with another user's taak",
+    "url": "https://github.com/advisories/GHSA-6h3c-r723-7fx3",
+    "score": 8.1,
+    "ghsa": "GHSA-6h3c-r723-7fx3",
+    "date": "2026-07-08T21:12:00Z"
+   },
+   {
+    "title": "NL Portal: Missing per-user authorization on document and decision GraphQL queries in nl-portal-backend-libraries",
+    "url": "https://github.com/advisories/GHSA-qpm9-h556-mwxm",
+    "score": 6.5,
+    "ghsa": "GHSA-qpm9-h556-mwxm",
+    "date": "2026-07-08T21:11:54Z"
+   },
+   {
     "title": "Waku has an Open Redirect via `unstable_redirect` Helper",
     "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
     "score": 3.1,
@@ -264,27 +200,6 @@
     "score": 5.3,
     "ghsa": "GHSA-mxwc-wh95-pw4g",
     "date": "2026-07-08T20:24:46Z"
-   },
-   {
-    "title": "Sharp Missing Authorization Check in Quick Creation Command Endpoints",
-    "url": "https://github.com/advisories/GHSA-vmwx-m75v-qvch",
-    "score": 4.3,
-    "ghsa": "GHSA-vmwx-m75v-qvch",
-    "date": "2026-07-08T20:24:36Z"
-   },
-   {
-    "title": "Nuclio: Unsanitized cron trigger event headers/body injected into CronJob shell command leads to persistent RCE",
-    "url": "https://github.com/advisories/GHSA-v5px-423j-pf7p",
-    "score": 10,
-    "ghsa": "GHSA-v5px-423j-pf7p",
-    "date": "2026-07-08T20:24:20Z"
-   },
-   {
-    "title": "async-tar PAX extension-header desync enables tar entry/content smuggling",
-    "url": "https://github.com/advisories/GHSA-35rm-7j9c-2f7m",
-    "score": null,
-    "ghsa": "GHSA-35rm-7j9c-2f7m",
-    "date": "2026-07-08T20:24:12Z"
    }
   ],
   "thn": [
@@ -375,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Mount Royal University confirms breach as hackers claim attack",
+    "url": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+    "date": "Wed, 08 Jul 2026 17:26:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
     "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
     "date": "Wed, 08 Jul 2026 15:54:59 -0400",
@@ -450,13 +372,6 @@
     "date": "Tue, 07 Jul 2026 14:52:19 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hidden backdoor in Tenda router firmware grants admin access",
-    "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
-    "date": "Tue, 07 Jul 2026 13:27:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 567,
+    "stars": 572,
     "lang": "—"
    },
    {
@@ -635,16 +550,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches",
-    "url": "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/",
-    "date": "2026-07-08T16:24:55+00:00",
+    "title": "1 in 2 devices sold in Africa exfiltrate data to China",
+    "url": "https://www.reddit.com/r/netsec/comments/1ur02bp/1_in_2_devices_sold_in_africa_exfiltrate_data_to/",
+    "date": "2026-07-08T17:49:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "1 in 2 devices sold in Africa exfiltrate data to China",
-    "url": "https://www.reddit.com/r/netsec/comments/1ur02bp/1_in_2_devices_sold_in_africa_exfiltrate_data_to/",
-    "date": "2026-07-08T17:49:21+00:00",
+    "title": "Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches",
+    "url": "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/",
+    "date": "2026-07-08T16:24:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +632,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 0,
   "kev": 1635,
   "adv": 12,
   "feed": 48
