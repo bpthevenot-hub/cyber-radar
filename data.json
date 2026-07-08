@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-08T06:40:45.977Z",
+ "generatedAt": "2026-07-08T09:40:48.555Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -204,6 +204,13 @@
   ],
   "thn": [
    {
+    "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+    "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+    "date": "Wed, 08 Jul 2026 14:34:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
     "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
     "date": "Wed, 08 Jul 2026 11:46:44 +0530",
@@ -279,16 +286,23 @@
     "date": "Tue, 07 Jul 2026 12:10:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
-    "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-    "date": "Tue, 07 Jul 2026 10:46:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Ubiquiti warns of new max severity UniFi OS vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+    "date": "Wed, 08 Jul 2026 04:15:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+    "date": "Wed, 08 Jul 2026 03:16:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Accenture confirms breach after hacker offers stolen data for sale",
     "url": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
@@ -358,20 +372,6 @@
     "date": "Tue, 07 Jul 2026 03:37:38 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Phishing poses as big-brand job interview to steal Google accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-    "date": "Mon, 06 Jul 2026 16:27:37 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-    "date": "Mon, 06 Jul 2026 16:23:45 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,13 +384,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 553,
+    "stars": 556,
     "lang": "—"
    },
    {
     "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
     "url": "https://github.com/adshao/flounder",
-    "stars": 309,
+    "stars": 310,
     "lang": "TypeScript"
    },
    {
@@ -402,7 +402,7 @@
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 224,
+    "stars": 223,
     "lang": "Python"
    },
    {
@@ -414,20 +414,26 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 195,
+    "stars": 196,
     "lang": "TypeScript"
    },
    {
     "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
     "url": "https://github.com/DSB-117/brainblast",
-    "stars": 169,
+    "stars": 168,
     "lang": "TypeScript"
    },
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 133,
+    "stars": 134,
     "lang": "JavaScript"
+   },
+   {
+    "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
+    "url": "https://github.com/Brain0-ai/brain0",
+    "stars": 130,
+    "lang": "Rust"
    },
    {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
@@ -440,12 +446,6 @@
     "url": "https://github.com/Lolitide/VirusDetector",
     "stars": 112,
     "lang": "JavaScript"
-   },
-   {
-    "title": "manticore-projects/aurscan — Automatically scan AUR packages for malware before installing (using LLM/AI)",
-    "url": "https://github.com/manticore-projects/aurscan",
-    "stars": 109,
-    "lang": "Go"
    }
   ],
   "hn": [
@@ -622,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +637,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
