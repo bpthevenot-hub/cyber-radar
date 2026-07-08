@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-07-07T22:33:03.082Z",
+ "generatedAt": "2026-07-08T00:14:50.623Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-59707 — LocalAI contains an unauthenticated server-side request forgery vulnerability in the POST /models/apply endpoint that allows attackers to fe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59707",
-    "score": 9.5,
-    "date": "2026-07-07T21:31:36Z"
-   },
-   {
-    "title": "CVE-2026-58473 — Cognee before 1.2.0 contains an improper access control vulnerability that allows unauthenticated attackers to overwrite the global LLM prov",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58473",
-    "score": 9.5,
-    "date": "2026-07-07T21:31:36Z"
-   },
-   {
-    "title": "CVE-2026-40139 — A critical pre-authentication vulnerability exists in the authentication subsystem of BeyondTrust Remote Support. Improper processing of aut",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40139",
-    "score": 9.5,
-    "date": "2026-07-06T18:31:14Z"
-   },
-   {
-    "title": "CVE-2026-48282 — ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traver",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48282",
-    "score": 9.5,
-    "date": "2026-06-30T18:31:37Z"
-   },
-   {
-    "title": "CVE-2026-56290 — The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and le",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56290",
-    "score": 9.5,
-    "date": "2026-06-29T15:32:07Z"
-   },
-   {
-    "title": "CVE-2026-12866 — All versions of the package expr-eval are vulnerable to Code Execution via the toJSFunction() API. An attacker can execute arbitrary JavaScr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12866",
-    "score": 9.5,
-    "date": "2026-06-23T06:30:41Z"
-   },
-   {
-    "title": "CVE-2026-48908 — A vulnerability in the SP Page Builder for Joomla allows the upload of arbitrary files for unauthenticated users, ultimately resulting in PH",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48908",
-    "score": 9.5,
-    "date": "2026-06-20T15:32:23Z"
-   },
-   {
-    "title": "CVE-2026-58583 — FluxInk (formerly Sunia SPB Peripheral) Color Management Driver (TcnPeripheral64.sys) 1.0.7.2 allows local privilege escalation for a standa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58583",
-    "score": 7.5,
-    "date": "2026-07-07T21:31:36Z"
-   },
-   {
-    "title": "CVE-2026-58469 — GNU Wget through 1.25.0, fixed in commit 37a40fc, contains a heap buffer underread vulnerability in the clean_metalink_string() function wit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58469",
-    "score": 7.5,
-    "date": "2026-07-07T21:31:36Z"
-   },
-   {
-    "title": "CVE-2026-59708 — The GET /api/v1/public/:accessId/portfolio endpoint in ghostfolio accepts private access IDs without validating granteeUserId filtering, all",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59708",
-    "score": 7.5,
-    "date": "2026-07-07T21:31:36Z"
-   },
-   {
-    "title": "CVE-2026-7017 — HTTP::Tiny versions before 0.095 for Perl forward credential headers to cross-origin redirect targets. When the server returns a 3xx redirec",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7017",
-    "score": 7.5,
-    "date": "2026-07-07T21:31:35Z"
-   },
-   {
-    "title": "CVE-2026-11610 — A heap buffer overflow flaw was found in the SASL I/O layer of 389 Directory Server (389-ds-base). After a successful SASL bind with integri",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11610",
-    "score": 7.5,
-    "date": "2026-07-07T12:31:35Z"
-   },
-   {
-    "title": "CVE-2026-40141 — A high-severity vulnerability exists in a web application component of BeyondTrust Remote Support and Privileged Remote Access related to th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40141",
-    "score": 7.5,
-    "date": "2026-07-06T18:31:15Z"
-   },
-   {
-    "title": "CVE-2026-40140 — BeyondTrust Remote Support and Privileged Remote Access contain a high-severity pre-authentication vulnerability in the network communicatio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40140",
-    "score": 7.5,
-    "date": "2026-07-06T18:31:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -203,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "@better-auth/scim: Account/provider takeover via missing owner binding on non-org SCIM providers",
-    "url": "https://github.com/advisories/GHSA-j8v8-g9cx-5qf4",
-    "score": 8.3,
-    "ghsa": "GHSA-j8v8-g9cx-5qf4",
-    "date": "2026-07-07T20:57:05Z"
+    "title": "Weblate SSRF: outbound URL guard misses some private ranges",
+    "url": "https://github.com/advisories/GHSA-vmfc-9982-2m45",
+    "score": 5.9,
+    "ghsa": "GHSA-vmfc-9982-2m45",
+    "date": "2026-07-07T23:46:33Z"
    },
    {
-    "title": "Better Auth: Stale sessions persist after user deletion across admin, anonymous, and SCIM flows",
-    "url": "https://github.com/advisories/GHSA-2vg6-77g8-24mp",
-    "score": 3.8,
-    "ghsa": "GHSA-2vg6-77g8-24mp",
-    "date": "2026-07-07T20:56:45Z"
+    "title": "oasdiff does not enforce --allow-external-refs=false on the git-revision load path (SSRF / local file read)",
+    "url": "https://github.com/advisories/GHSA-2jcc-mxv7-p3f9",
+    "score": null,
+    "ghsa": "GHSA-2jcc-mxv7-p3f9",
+    "date": "2026-07-07T23:45:05Z"
    },
    {
-    "title": "@better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
-    "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
-    "score": 8.1,
-    "ghsa": "GHSA-7w99-5wm4-3g79",
-    "date": "2026-07-07T20:56:35Z"
+    "title": "KEDA has PostgreSQL connection string parameter injection via incomplete whitespace escaping",
+    "url": "https://github.com/advisories/GHSA-6w3m-4hhp-775q",
+    "score": 5.9,
+    "ghsa": "GHSA-6w3m-4hhp-775q",
+    "date": "2026-07-07T23:44:13Z"
    },
    {
-    "title": "@better-auth/sso provider registration has server-side request forgery via unvalidated OIDC endpoints",
-    "url": "https://github.com/advisories/GHSA-5rr4-8452-hf4v",
+    "title": "Flask-Security-Too: WebAuthn reauthentication freshness bypass via cross-user assertion",
+    "url": "https://github.com/advisories/GHSA-f66q-9rf6-8795",
+    "score": null,
+    "ghsa": "GHSA-f66q-9rf6-8795",
+    "date": "2026-07-07T23:43:12Z"
+   },
+   {
+    "title": "Goploy: Arbitrary File Read via Path Traversal in /deploy/fileDiff allows Remote Server Compromise",
+    "url": "https://github.com/advisories/GHSA-4g5x-hcwm-82jw",
+    "score": 7.7,
+    "ghsa": "GHSA-4g5x-hcwm-82jw",
+    "date": "2026-07-07T23:42:24Z"
+   },
+   {
+    "title": "Goploy: Cross-namespace IDOR and RCE via body-supplied row id in project and project_file handlers",
+    "url": "https://github.com/advisories/GHSA-26rh-24rg-j3vv",
     "score": 9.6,
-    "ghsa": "GHSA-5rr4-8452-hf4v",
-    "date": "2026-07-07T20:56:19Z"
+    "ghsa": "GHSA-26rh-24rg-j3vv",
+    "date": "2026-07-07T23:42:12Z"
    },
    {
-    "title": "Better Auth: OAuth refresh-token rotation forks the token family on concurrent redemption",
-    "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
-    "score": 8.1,
-    "ghsa": "GHSA-392p-2q2v-4372",
-    "date": "2026-07-07T20:55:48Z"
+    "title": "ha-mcp: Add-on settings and policy routes are reachable without authentication at the bare root path",
+    "url": "https://github.com/advisories/GHSA-q855-8rh5-jfgq",
+    "score": 6.5,
+    "ghsa": "GHSA-q855-8rh5-jfgq",
+    "date": "2026-07-07T23:41:21Z"
    },
    {
-    "title": "Better Auth has insecure cryptographic defaults in oidcProvider: alg=none advertised and plain PKCE accepted by default",
-    "url": "https://github.com/advisories/GHSA-9h47-pqcx-hjr4",
-    "score": 8.7,
-    "ghsa": "GHSA-9h47-pqcx-hjr4",
-    "date": "2026-07-07T20:55:41Z"
+    "title": "rama has Stored XSS in ServeDir HTML directory listing via unescaped file names and URI path",
+    "url": "https://github.com/advisories/GHSA-cwv4-h3j5-w3cf",
+    "score": 3.7,
+    "ghsa": "GHSA-cwv4-h3j5-w3cf",
+    "date": "2026-07-07T23:41:12Z"
    },
    {
-    "title": "Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
-    "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
-    "score": 7.7,
-    "ghsa": "GHSA-86j7-9j95-vpqj",
-    "date": "2026-07-07T20:55:28Z"
+    "title": "aiosmtplib vulnerable to SMTP command injection via CR/LF in sender/recipient address",
+    "url": "https://github.com/advisories/GHSA-v3q9-hj7j-63hq",
+    "score": null,
+    "ghsa": "GHSA-v3q9-hj7j-63hq",
+    "date": "2026-07-07T23:40:52Z"
    },
    {
-    "title": "Better Auth has an account takeover issue via OAuth auto-link to unverified pre-registered email",
-    "url": "https://github.com/advisories/GHSA-g38m-r43w-p2q7",
-    "score": 8.3,
-    "ghsa": "GHSA-g38m-r43w-p2q7",
-    "date": "2026-07-07T20:55:13Z"
+    "title": "Kite has an authenticated cluster RBAC bypass in /api/v1/overview",
+    "url": "https://github.com/advisories/GHSA-gvhc-wv3v-7pf8",
+    "score": 4.3,
+    "ghsa": "GHSA-gvhc-wv3v-7pf8",
+    "date": "2026-07-07T23:40:35Z"
    },
    {
-    "title": "Better Auth vulnerable to unauthorized invitation acceptance via unverified email match in organization plugin",
-    "url": "https://github.com/advisories/GHSA-fmh4-wcc4-5jm3",
-    "score": 7.7,
-    "ghsa": "GHSA-fmh4-wcc4-5jm3",
-    "date": "2026-07-07T20:54:51Z"
-   },
-   {
-    "title": "@better-auth/oauth-provider may provide access tokens for unauthorized audiences via unbound resource indicators",
-    "url": "https://github.com/advisories/GHSA-p2fr-6hmx-4528",
-    "score": 6.4,
-    "ghsa": "GHSA-p2fr-6hmx-4528",
-    "date": "2026-07-07T20:54:32Z"
-   },
-   {
-    "title": "Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
-    "url": "https://github.com/advisories/GHSA-pw9m-5jxm-xr6h",
-    "score": 9.1,
-    "ghsa": "GHSA-pw9m-5jxm-xr6h",
-    "date": "2026-07-07T20:11:50Z"
-   },
-   {
-    "title": "netfoil: Attacker controlled data written to logs",
-    "url": "https://github.com/advisories/GHSA-7856-g3gv-9wq8",
+    "title": "Webauthn: SimpleFakeCredentialGenerator with an empty secret produces predictable fake credentials, weakening username enumeration protection",
+    "url": "https://github.com/advisories/GHSA-gq4g-fpc9-vjfq",
     "score": 2,
-    "ghsa": "GHSA-7856-g3gv-9wq8",
-    "date": "2026-07-07T20:04:22Z"
+    "ghsa": "GHSA-gq4g-fpc9-vjfq",
+    "date": "2026-07-07T23:39:43Z"
+   },
+   {
+    "title": "ratex-parser has unbounded parser recursion that leads to stack overflow (process abort)",
+    "url": "https://github.com/advisories/GHSA-4w5h-hx6r-28q7",
+    "score": null,
+    "ghsa": "GHSA-4w5h-hx6r-28q7",
+    "date": "2026-07-07T23:39:30Z"
    }
   ],
   "thn": [
@@ -469,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 538,
+    "stars": 543,
     "lang": "—"
    },
    {
@@ -499,7 +414,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 191,
+    "stars": 192,
     "lang": "TypeScript"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 0,
   "kev": 1635,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
