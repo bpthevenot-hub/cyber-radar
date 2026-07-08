@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-08T18:50:03.962Z",
+ "generatedAt": "2026-07-08T20:38:55.553Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-54334 — UEFI Firmware Parser has a heap out-of-bounds write in tiano decompressor ReadCLen",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54334",
+    "score": 9.5,
+    "date": "2026-04-16T01:31:09Z"
+   },
+   {
+    "title": "CVE-2026-54333 — UEFI Firmware Parser has a stack out-of-bounds write in tiano decompressor MakeTable",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54333",
+    "score": 9.5,
+    "date": "2026-04-16T01:30:48Z"
+   },
+   {
+    "title": "CVE-2022-32511 — JMESPath for Ruby uses unsafe JSON.load when safe JSON.parse is preferable",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-32511",
+    "score": 9.5,
+    "date": "2022-06-07T00:00:31Z"
+   },
+   {
+    "title": "CVE-2026-54307 — n8n: Credential Exfiltration via Permission Bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54307",
+    "score": 7.5,
+    "date": "2026-06-16T23:02:05Z"
+   },
+   {
+    "title": "CVE-2026-48779 — ws: Memory exhaustion DoS from tiny fragments and data chunks",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48779",
+    "score": 7.5,
+    "date": "2026-06-15T16:34:23Z"
+   },
+   {
+    "title": "CVE-2026-48017 — DbGate: Remote Code Execution via functionName injection in loadReader endpoint",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48017",
+    "score": 7.5,
+    "date": "2026-06-05T16:39:38Z"
+   },
+   {
+    "title": "CVE-2026-47684 — Sync-in Server: SSRF protection bypass via IPv4-mapped IPv6 addresses in regExpPrivateIP",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47684",
+    "score": 7.5,
+    "date": "2026-06-05T16:34:59Z"
+   },
+   {
+    "title": "CVE-2026-47261 — wasmtime-wasi: WASI path_open(TRUNCATE) bypasses `FilePerms::WRITE` host restriction",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47261",
+    "score": 7.5,
+    "date": "2026-06-05T15:47:02Z"
+   },
+   {
+    "title": "CVE-2026-42089 — yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42089",
+    "score": 7.5,
+    "date": "2026-05-26T23:10:38Z"
+   },
+   {
+    "title": "CVE-2026-35433 — Microsoft Security Advisory CVE-2026-35433 – .NET Elevation of Privilege Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-35433",
+    "score": 7.5,
+    "date": "2026-05-18T19:20:19Z"
+   },
+   {
+    "title": "CVE-2025-71261 — Harvester's SUSE Virtualization Registration Client Vulnerable to MITM and DOS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71261",
+    "score": 7.5,
+    "date": "2026-05-06T20:16:08Z"
+   },
+   {
+    "title": "CVE-2026-43003 — OpenStack Ironic Python Agent Includes Functionality from Untrusted Control Sphere",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43003",
+    "score": 7.5,
+    "date": "2026-05-01T09:30:25Z"
+   },
+   {
+    "title": "CVE-2022-23913 — Apache ActiveMQ Artemis Uncontrolled Resource Consumption (DoS)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-23913",
+    "score": 7.5,
+    "date": "2022-02-06T00:00:55Z"
+   },
+   {
+    "title": "CVE-2026-55599 — phpseclib: X.509 certificate validation sends attacker-controlled outbound requests (server-side request forgery) via Authority Information ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55599",
+    "score": 5,
+    "date": "2026-06-16T15:03:58Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Weblate SSRF: outbound URL guard misses some private ranges",
-    "url": "https://github.com/advisories/GHSA-vmfc-9982-2m45",
-    "score": 5.9,
-    "ghsa": "GHSA-vmfc-9982-2m45",
-    "date": "2026-07-07T23:46:33Z"
+    "title": "Waku has an Open Redirect via `unstable_redirect` Helper",
+    "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
+    "score": 3.1,
+    "ghsa": "GHSA-43fc-v873-qw85",
+    "date": "2026-07-08T20:30:21Z"
    },
    {
-    "title": "oasdiff does not enforce --allow-external-refs=false on the git-revision load path (SSRF / local file read)",
-    "url": "https://github.com/advisories/GHSA-2jcc-mxv7-p3f9",
-    "score": null,
-    "ghsa": "GHSA-2jcc-mxv7-p3f9",
-    "date": "2026-07-07T23:45:05Z"
-   },
-   {
-    "title": "KEDA has PostgreSQL connection string parameter injection via incomplete whitespace escaping",
-    "url": "https://github.com/advisories/GHSA-6w3m-4hhp-775q",
-    "score": 5.9,
-    "ghsa": "GHSA-6w3m-4hhp-775q",
-    "date": "2026-07-07T23:44:13Z"
-   },
-   {
-    "title": "Flask-Security-Too: WebAuthn reauthentication freshness bypass via cross-user assertion",
-    "url": "https://github.com/advisories/GHSA-f66q-9rf6-8795",
-    "score": null,
-    "ghsa": "GHSA-f66q-9rf6-8795",
-    "date": "2026-07-07T23:43:12Z"
-   },
-   {
-    "title": "Goploy: Arbitrary File Read via Path Traversal in /deploy/fileDiff allows Remote Server Compromise",
-    "url": "https://github.com/advisories/GHSA-4g5x-hcwm-82jw",
-    "score": 7.7,
-    "ghsa": "GHSA-4g5x-hcwm-82jw",
-    "date": "2026-07-07T23:42:24Z"
-   },
-   {
-    "title": "Goploy: Cross-namespace IDOR and RCE via body-supplied row id in project and project_file handlers",
-    "url": "https://github.com/advisories/GHSA-26rh-24rg-j3vv",
-    "score": 9.6,
-    "ghsa": "GHSA-26rh-24rg-j3vv",
-    "date": "2026-07-07T23:42:12Z"
-   },
-   {
-    "title": "ha-mcp: Add-on settings and policy routes are reachable without authentication at the bare root path",
-    "url": "https://github.com/advisories/GHSA-q855-8rh5-jfgq",
+    "title": "Waku: Cross-Origin CSRF on RSC Server Action Dispatch",
+    "url": "https://github.com/advisories/GHSA-75w3-gmqx-993q",
     "score": 6.5,
-    "ghsa": "GHSA-q855-8rh5-jfgq",
-    "date": "2026-07-07T23:41:21Z"
+    "ghsa": "GHSA-75w3-gmqx-993q",
+    "date": "2026-07-08T20:27:11Z"
    },
    {
-    "title": "rama has Stored XSS in ServeDir HTML directory listing via unescaped file names and URI path",
-    "url": "https://github.com/advisories/GHSA-cwv4-h3j5-w3cf",
-    "score": 3.7,
-    "ghsa": "GHSA-cwv4-h3j5-w3cf",
-    "date": "2026-07-07T23:41:12Z"
+    "title": "Joro: Unauthenticated Cross-Origin Plugin Upload Leads to RCE",
+    "url": "https://github.com/advisories/GHSA-xqhv-chqm-fhcc",
+    "score": 9.6,
+    "ghsa": "GHSA-xqhv-chqm-fhcc",
+    "date": "2026-07-08T20:27:02Z"
    },
    {
-    "title": "aiosmtplib vulnerable to SMTP command injection via CR/LF in sender/recipient address",
-    "url": "https://github.com/advisories/GHSA-v3q9-hj7j-63hq",
+    "title": "OneRingBuf has a Use After Free Vulnerability",
+    "url": "https://github.com/advisories/GHSA-q95x-7g78-rccv",
     "score": null,
-    "ghsa": "GHSA-v3q9-hj7j-63hq",
-    "date": "2026-07-07T23:40:52Z"
+    "ghsa": "GHSA-q95x-7g78-rccv",
+    "date": "2026-07-08T20:26:23Z"
    },
    {
-    "title": "Kite has an authenticated cluster RBAC bypass in /api/v1/overview",
-    "url": "https://github.com/advisories/GHSA-gvhc-wv3v-7pf8",
+    "title": "DSpace: Path Traversal is possible through LDN message generation",
+    "url": "https://github.com/advisories/GHSA-9qm4-rh6w-pq5x",
+    "score": 5.5,
+    "ghsa": "GHSA-9qm4-rh6w-pq5x",
+    "date": "2026-07-08T20:26:15Z"
+   },
+   {
+    "title": "DSpace: ORE resource URI does not validate scheme for non-web resources",
+    "url": "https://github.com/advisories/GHSA-c827-pw3m-67w7",
+    "score": 4.4,
+    "ghsa": "GHSA-c827-pw3m-67w7",
+    "date": "2026-07-08T20:25:54Z"
+   },
+   {
+    "title": "DSpace has a possible Path Traversal Vulnerability in its Curation Task Reporter output path",
+    "url": "https://github.com/advisories/GHSA-v66x-68f2-pxf5",
+    "score": 5.5,
+    "ghsa": "GHSA-v66x-68f2-pxf5",
+    "date": "2026-07-08T20:25:07Z"
+   },
+   {
+    "title": "DSpace has possible Remote Code Execution (RCE) through Velocity Templates used by LDN",
+    "url": "https://github.com/advisories/GHSA-9x82-rm84-c6x7",
+    "score": 8,
+    "ghsa": "GHSA-9x82-rm84-c6x7",
+    "date": "2026-07-08T20:25:01Z"
+   },
+   {
+    "title": "Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
+    "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+    "score": 5.3,
+    "ghsa": "GHSA-mxwc-wh95-pw4g",
+    "date": "2026-07-08T20:24:46Z"
+   },
+   {
+    "title": "Sharp Missing Authorization Check in Quick Creation Command Endpoints",
+    "url": "https://github.com/advisories/GHSA-vmwx-m75v-qvch",
     "score": 4.3,
-    "ghsa": "GHSA-gvhc-wv3v-7pf8",
-    "date": "2026-07-07T23:40:35Z"
+    "ghsa": "GHSA-vmwx-m75v-qvch",
+    "date": "2026-07-08T20:24:36Z"
    },
    {
-    "title": "Webauthn: SimpleFakeCredentialGenerator with an empty secret produces predictable fake credentials, weakening username enumeration protection",
-    "url": "https://github.com/advisories/GHSA-gq4g-fpc9-vjfq",
-    "score": 2,
-    "ghsa": "GHSA-gq4g-fpc9-vjfq",
-    "date": "2026-07-07T23:39:43Z"
+    "title": "Nuclio: Unsanitized cron trigger event headers/body injected into CronJob shell command leads to persistent RCE",
+    "url": "https://github.com/advisories/GHSA-v5px-423j-pf7p",
+    "score": 10,
+    "ghsa": "GHSA-v5px-423j-pf7p",
+    "date": "2026-07-08T20:24:20Z"
    },
    {
-    "title": "ratex-parser has unbounded parser recursion that leads to stack overflow (process abort)",
-    "url": "https://github.com/advisories/GHSA-4w5h-hx6r-28q7",
+    "title": "async-tar PAX extension-header desync enables tar entry/content smuggling",
+    "url": "https://github.com/advisories/GHSA-35rm-7j9c-2f7m",
     "score": null,
-    "ghsa": "GHSA-4w5h-hx6r-28q7",
-    "date": "2026-07-07T23:39:30Z"
+    "ghsa": "GHSA-35rm-7j9c-2f7m",
+    "date": "2026-07-08T20:24:12Z"
    }
   ],
   "thn": [
@@ -290,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+    "date": "Wed, 08 Jul 2026 15:54:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+    "date": "Wed, 08 Jul 2026 14:56:02 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
     "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
     "date": "Wed, 08 Jul 2026 12:47:25 -0400",
@@ -358,20 +457,6 @@
     "date": "Tue, 07 Jul 2026 13:27:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
-    "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
-    "date": "Tue, 07 Jul 2026 11:21:21 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-    "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-    "date": "Tue, 07 Jul 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 565,
+    "stars": 567,
     "lang": "—"
    },
    {
@@ -396,7 +481,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 308,
+    "stars": 309,
     "lang": "Swift"
    },
    {
@@ -414,7 +499,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 198,
+    "stars": 199,
     "lang": "TypeScript"
    },
    {
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1635,
   "adv": 12,
   "feed": 48
