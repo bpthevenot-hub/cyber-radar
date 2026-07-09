@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-09T18:12:51.487Z",
+ "generatedAt": "2026-07-09T20:10:09.018Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-27621 — TypiCMS Core has Stored Cross-Site Scripting (XSS) via SVG File Upload",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27621",
+    "score": 5,
+    "date": "2026-02-25T16:06:59Z"
+   },
+   {
+    "title": "MAL-2026-10088 — Malicious code in lovable-tager (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10088",
+    "score": null,
+    "date": "2026-07-09T17:00:49Z"
+   },
+   {
+    "title": "MAL-2026-10087 — Malicious code in eslint-plus (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10087",
+    "score": null,
+    "date": "2026-07-09T16:50:45Z"
+   },
+   {
+    "title": "MAL-2026-10090 — Malicious code in nonenull1 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10090",
+    "score": null,
+    "date": "2026-07-09T16:34:31Z"
+   },
+   {
+    "title": "MAL-2026-10063 — Malicious code in express-router-engine (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10063",
+    "score": null,
+    "date": "2026-07-09T15:55:17Z"
+   },
+   {
+    "title": "MAL-2026-10073 — Malicious code in tailwind-animate-v4 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10073",
+    "score": null,
+    "date": "2026-07-09T15:28:38Z"
+   },
+   {
+    "title": "MAL-2026-10019 — Malicious code in client-cookies-agent (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10019",
+    "score": null,
+    "date": "2026-07-09T12:25:53Z"
+   },
+   {
+    "title": "MAL-2026-6984 — Malicious code in @vite-ln/build-ts (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6984",
+    "score": null,
+    "date": "2026-07-08T15:04:55Z"
+   },
+   {
+    "title": "MAL-2026-6964 — Malicious code in na-rony (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6964",
+    "score": null,
+    "date": "2026-07-08T08:26:02Z"
+   },
+   {
+    "title": "MAL-2026-6962 — Malicious code in gas-log (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6962",
+    "score": null,
+    "date": "2026-07-08T08:21:06Z"
+   },
+   {
+    "title": "MAL-2026-6947 — Malicious code in paperclip-host-utils (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6947",
+    "score": null,
+    "date": "2026-07-07T16:16:40Z"
+   },
+   {
+    "title": "MAL-2026-6939 — Malicious code in polytrade (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6939",
+    "score": null,
+    "date": "2026-07-07T16:07:02Z"
+   },
+   {
+    "title": "MAL-2026-6923 — Malicious code in notifier-utils (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6923",
+    "score": null,
+    "date": "2026-07-07T15:13:22Z"
+   },
+   {
+    "title": "MAL-2026-6921 — Malicious code in jsf-utils (npm)",
+    "url": "https://github.com/advisories/MAL-2026-6921",
+    "score": null,
+    "date": "2026-07-07T15:13:22Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+    "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+    "date": "Fri, 10 Jul 2026 00:08:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+    "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+    "date": "Thu, 09 Jul 2026 23:38:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
     "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
     "date": "Thu, 09 Jul 2026 22:19:02 +0530",
@@ -272,23 +371,16 @@
     "date": "Thu, 09 Jul 2026 09:31:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-    "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-    "date": "Wed, 08 Jul 2026 22:32:12 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
-    "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-    "date": "Wed, 08 Jul 2026 20:37:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+    "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+    "date": "Thu, 09 Jul 2026 16:10:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New Helix vishing group emerges in SharePoint data theft attacks",
     "url": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
@@ -365,13 +457,6 @@
     "date": "Wed, 08 Jul 2026 14:56:02 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-    "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-    "date": "Wed, 08 Jul 2026 12:47:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 599,
+    "stars": 601,
     "lang": "—"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 209,
+    "stars": 210,
     "lang": "TypeScript"
    },
    {
@@ -550,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "1 in 2 devices sold in Africa exfiltrate data to China",
-    "url": "https://www.reddit.com/r/netsec/comments/1ur02bp/1_in_2_devices_sold_in_africa_exfiltrate_data_to/",
-    "date": "2026-07-08T17:49:21+00:00",
+    "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
+    "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
+    "date": "2026-07-09T14:28:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
-    "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
-    "date": "2026-07-09T14:28:00+00:00",
+    "title": "1 in 2 devices sold in Africa exfiltrate data to China",
+    "url": "https://www.reddit.com/r/netsec/comments/1ur02bp/1_in_2_devices_sold_in_africa_exfiltrate_data_to/",
+    "date": "2026-07-08T17:49:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
