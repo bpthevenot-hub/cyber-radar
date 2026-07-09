@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-09T12:17:22.228Z",
+ "generatedAt": "2026-07-09T16:09:59.661Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -118,91 +118,98 @@
   ],
   "adv": [
    {
-    "title": "Serena: Unauthenticated Flask dashboard on fixed port enables DNS rebinding → memory poisoning → RCE",
-    "url": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q",
-    "score": 8.3,
-    "ghsa": "GHSA-37h2-6p4f-mp3q",
-    "date": "2026-07-08T21:12:08Z"
-   },
-   {
-    "title": "NL Portal: IDOR allows any authenticated user to complete and tamper with another user's taak",
-    "url": "https://github.com/advisories/GHSA-6h3c-r723-7fx3",
-    "score": 8.1,
-    "ghsa": "GHSA-6h3c-r723-7fx3",
-    "date": "2026-07-08T21:12:00Z"
-   },
-   {
-    "title": "NL Portal: Missing per-user authorization on document and decision GraphQL queries in nl-portal-backend-libraries",
-    "url": "https://github.com/advisories/GHSA-qpm9-h556-mwxm",
+    "title": "Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
+    "url": "https://github.com/advisories/GHSA-382c-vx95-w3p5",
     "score": 6.5,
-    "ghsa": "GHSA-qpm9-h556-mwxm",
-    "date": "2026-07-08T21:11:54Z"
+    "ghsa": "GHSA-382c-vx95-w3p5",
+    "date": "2026-07-09T13:44:51Z"
    },
    {
-    "title": "Waku has an Open Redirect via `unstable_redirect` Helper",
-    "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
-    "score": 3.1,
-    "ghsa": "GHSA-43fc-v873-qw85",
-    "date": "2026-07-08T20:30:21Z"
+    "title": "Admidio: CSRF on Plugin Install, Uninstall, and Update via Unprotected GET Requests",
+    "url": "https://github.com/advisories/GHSA-hm42-q32m-vj4f",
+    "score": 5.2,
+    "ghsa": "GHSA-hm42-q32m-vj4f",
+    "date": "2026-07-09T13:44:40Z"
    },
    {
-    "title": "Waku: Cross-Origin CSRF on RSC Server Action Dispatch",
-    "url": "https://github.com/advisories/GHSA-75w3-gmqx-993q",
-    "score": 6.5,
-    "ghsa": "GHSA-75w3-gmqx-993q",
-    "date": "2026-07-08T20:27:11Z"
+    "title": "Craft CMS: RCE via missing cleanseConfig in FieldsController::actionRenderCardPreview",
+    "url": "https://github.com/advisories/GHSA-86vw-x4ww-x467",
+    "score": 7.5,
+    "ghsa": "GHSA-86vw-x4ww-x467",
+    "date": "2026-07-09T13:44:12Z"
    },
    {
-    "title": "Joro: Unauthenticated Cross-Origin Plugin Upload Leads to RCE",
-    "url": "https://github.com/advisories/GHSA-xqhv-chqm-fhcc",
-    "score": 9.6,
-    "ghsa": "GHSA-xqhv-chqm-fhcc",
-    "date": "2026-07-08T20:27:02Z"
+    "title": "Craft CMS has authenticated path traversal in `assets/icon`, allowing local `.svg` file read",
+    "url": "https://github.com/advisories/GHSA-c43v-4cr8-6mvp",
+    "score": 2,
+    "ghsa": "GHSA-c43v-4cr8-6mvp",
+    "date": "2026-07-09T13:44:06Z"
    },
    {
-    "title": "OneRingBuf has a Use After Free Vulnerability",
-    "url": "https://github.com/advisories/GHSA-q95x-7g78-rccv",
+    "title": "Ruby CSS Parser: SSRF and Local File Disclosure in `CssParser::Parser#read_remote_file`",
+    "url": "https://github.com/advisories/GHSA-9pmc-p236-855h",
+    "score": 7.5,
+    "ghsa": "GHSA-9pmc-p236-855h",
+    "date": "2026-07-09T13:43:13Z"
+   },
+   {
+    "title": "org.hl7.fhir.core: ReDoS via FHIRPath matches()/replaceMatches() in FHIR Validator HTTP Endpoint",
+    "url": "https://github.com/advisories/GHSA-7cmj-v6x8-frvv",
+    "score": 7.5,
+    "ghsa": "GHSA-7cmj-v6x8-frvv",
+    "date": "2026-07-09T13:43:03Z"
+   },
+   {
+    "title": "pymonocypher: Potential heap buffer overflow on nb_blocks in argon2i_32 when provided buffer is too small",
+    "url": "https://github.com/advisories/GHSA-8f95-v3jq-cj86",
     "score": null,
-    "ghsa": "GHSA-q95x-7g78-rccv",
-    "date": "2026-07-08T20:26:23Z"
+    "ghsa": "GHSA-8f95-v3jq-cj86",
+    "date": "2026-07-09T13:42:46Z"
    },
    {
-    "title": "DSpace: Path Traversal is possible through LDN message generation",
-    "url": "https://github.com/advisories/GHSA-9qm4-rh6w-pq5x",
-    "score": 5.5,
-    "ghsa": "GHSA-9qm4-rh6w-pq5x",
-    "date": "2026-07-08T20:26:15Z"
+    "title": "Note Mark: Path traversal via unsanitized book/note slug in migrate export (sibling of GHSA-g49p)",
+    "url": "https://github.com/advisories/GHSA-rqrh-8wpv-x7hh",
+    "score": 7.5,
+    "ghsa": "GHSA-rqrh-8wpv-x7hh",
+    "date": "2026-07-09T13:41:35Z"
    },
    {
-    "title": "DSpace: ORE resource URI does not validate scheme for non-web resources",
-    "url": "https://github.com/advisories/GHSA-c827-pw3m-67w7",
-    "score": 4.4,
-    "ghsa": "GHSA-c827-pw3m-67w7",
-    "date": "2026-07-08T20:25:54Z"
-   },
-   {
-    "title": "DSpace has a possible Path Traversal Vulnerability in its Curation Task Reporter output path",
-    "url": "https://github.com/advisories/GHSA-v66x-68f2-pxf5",
-    "score": 5.5,
-    "ghsa": "GHSA-v66x-68f2-pxf5",
-    "date": "2026-07-08T20:25:07Z"
-   },
-   {
-    "title": "DSpace has possible Remote Code Execution (RCE) through Velocity Templates used by LDN",
-    "url": "https://github.com/advisories/GHSA-9x82-rm84-c6x7",
-    "score": 8,
-    "ghsa": "GHSA-9x82-rm84-c6x7",
-    "date": "2026-07-08T20:25:01Z"
-   },
-   {
-    "title": "Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
-    "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+    "title": "Note Mark: Unauthenticated disclosure of soft-deleted note metadata via deleted=true on public books",
+    "url": "https://github.com/advisories/GHSA-588f-fvcv-xhvf",
     "score": 5.3,
-    "ghsa": "GHSA-mxwc-wh95-pw4g",
-    "date": "2026-07-08T20:24:46Z"
+    "ghsa": "GHSA-588f-fvcv-xhvf",
+    "date": "2026-07-09T13:41:29Z"
+   },
+   {
+    "title": "Soup Sieve: Regular Expression Denial of Service (ReDoS) via Selector Parser",
+    "url": "https://github.com/advisories/GHSA-836r-79rf-4m37",
+    "score": 7.5,
+    "ghsa": "GHSA-836r-79rf-4m37",
+    "date": "2026-07-09T13:37:46Z"
+   },
+   {
+    "title": "Soup Sieve has Memory Exhaustion via Large Comma-Separated Selector Lists",
+    "url": "https://github.com/advisories/GHSA-2wc2-fm75-p42x",
+    "score": 7.5,
+    "ghsa": "GHSA-2wc2-fm75-p42x",
+    "date": "2026-07-09T13:37:40Z"
+   },
+   {
+    "title": "Phantom: Arbitrary file write and decode-bomb DoS via unconfined MCP tool paths",
+    "url": "https://github.com/advisories/GHSA-52vm-mxx8-f227",
+    "score": 7.7,
+    "ghsa": "GHSA-52vm-mxx8-f227",
+    "date": "2026-07-09T13:37:34Z"
    }
   ],
   "thn": [
+   {
+    "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
+    "url": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+    "date": "Thu, 09 Jul 2026 17:56:58 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Summer of Clearinghouses",
     "url": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
@@ -279,16 +286,23 @@
     "date": "Wed, 08 Jul 2026 18:30:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-    "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-    "date": "Wed, 08 Jul 2026 18:22:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+    "date": "Thu, 09 Jul 2026 10:39:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
+    "url": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+    "date": "Thu, 09 Jul 2026 10:02:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft to retire the OWA Light client in Exchange Server",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
@@ -358,20 +372,6 @@
     "date": "Wed, 08 Jul 2026 08:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Telco giant KDDI says data breach affects over 12 million people",
-    "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-    "date": "Wed, 08 Jul 2026 07:24:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-    "date": "Wed, 08 Jul 2026 05:58:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 591,
+    "stars": 596,
     "lang": "—"
    },
    {
@@ -408,7 +408,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 208,
+    "stars": 209,
     "lang": "TypeScript"
    },
    {
@@ -426,7 +426,7 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 150,
+    "stars": 151,
     "lang": "JavaScript"
    },
    {
@@ -557,6 +557,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
+    "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
+    "date": "2026-07-09T14:28:00+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches",
     "url": "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/",
     "date": "2026-07-08T16:24:55+00:00",
@@ -609,13 +616,6 @@
     "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1ulndzc/its_37oc_and_all_we_can_think_about_is_coldfusion/",
     "date": "2026-07-02T16:40:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)",
-    "url": "https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/",
-    "date": "2026-07-01T14:52:02+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
