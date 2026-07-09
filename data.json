@@ -1,30 +1,90 @@
 {
- "generatedAt": "2026-07-09T21:49:51.145Z",
+ "generatedAt": "2026-07-09T23:39:42.660Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-15308 — The incremental HTML parser (html.parser.HTMLParser) allows for CPU denial-of-service through repeated unterminated markup declarations when",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15308",
+    "score": 9.5,
+    "date": "2026-07-09T18:31:51Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "title": "CVE-2026-56000 — Local attackers with a X connection able to provide GLX commit to the X server xorg-server before 21.2.24 and xwayland before 24.1.13 could ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56000",
+    "score": 9.5,
+    "date": "2026-07-08T09:31:49Z"
    },
    {
-    "title": "CVE-2010-3198 — Withdrawn as duplicate of PYSEC-2010-32 ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a de",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
-    "score": null,
-    "date": "2010-09-08T20:00:04.573Z"
+    "title": "CVE-2026-33800 — An Unchecked Input for Loop Condition vulnerability in the Packet Forwarding Engine (pfe) of Juniper Networks Junos OS on MX Series allows a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33800",
+    "score": 7.5,
+    "date": "2026-07-09T21:31:21Z"
    },
    {
-    "title": "CVE-2010-3198 — ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a denial of service (crash of worker threads",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
-    "score": null,
-    "date": "2010-09-08T20:00:00Z"
+    "title": "CVE-2026-33801 — An Improper Check for Unusual or Exceptional Conditions vulnerability in the routing protocol daemon (RPD) of Juniper Networks Junos OS and ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33801",
+    "score": 7.5,
+    "date": "2026-07-09T21:31:21Z"
+   },
+   {
+    "title": "CVE-2026-33794 — An Improper Check for Unusual or Exceptional Conditions vulnerability in the advanced forwarding toolkit (evo-aftmand) of Juniper Networks J",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33794",
+    "score": 7.5,
+    "date": "2026-07-09T21:31:21Z"
+   },
+   {
+    "title": "CVE-2026-13492 — The UsersWP plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 1.2.65. This is due to insuffici",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13492",
+    "score": 7.5,
+    "date": "2026-07-09T21:31:20Z"
+   },
+   {
+    "title": "CVE-2025-63579 — Unauthorized use of Kyocera printers, allows all information stored in the Kyocera address book to be exported. The security measure that en",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-63579",
+    "score": 7.5,
+    "date": "2026-07-09T21:31:19Z"
+   },
+   {
+    "title": "CVE-2026-13462 — PayRange Android app, version 7.0.7 and below, contains an SSL bypass vulnerability that allows invalid certificates to be accepted in appli",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13462",
+    "score": 7.5,
+    "date": "2026-07-09T18:31:51Z"
+   },
+   {
+    "title": "CVE-2026-0288 — Multiple buffer overflow vulnerabilities in the User-ID Terminal Server Agent (TSA) component of Palo Alto Networks PAN-OS software allow an",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-0288",
+    "score": 7.5,
+    "date": "2026-07-08T21:30:30Z"
+   },
+   {
+    "title": "CVE-2026-13383 — An Out-of-bounds Write vulnerability in WatchGuard Fireware OS ikestubd process could allow an authenticated privileged user to execute arbi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13383",
+    "score": 7.5,
+    "date": "2026-07-03T00:31:54Z"
+   },
+   {
+    "title": "CVE-2026-13384 — An Out-of-bounds Write vulnerability in WatchGuard Fireware OS wgagent process could allow an authenticated privileged user to execute arbit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13384",
+    "score": 7.5,
+    "date": "2026-07-03T00:31:54Z"
+   },
+   {
+    "title": "CVE-2026-8858 — IBM i 7.6, 7.5, 7.4, and 7.3, IBM WebSphere Application Server and IBM WebSphere Application Server Liberty are vulnerable to remote code ex",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8858",
+    "score": 7.5,
+    "date": "2026-06-22T18:34:16Z"
+   },
+   {
+    "title": "CVE-2026-9072 — IBM i 7.6, 7.5, 7.4, and 7.3, IBM WebSphere Application Server, and IBM WebSphere Application Server Liberty - when using Intelligent Manage",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9072",
+    "score": 7.5,
+    "date": "2026-06-22T18:34:16Z"
+   },
+   {
+    "title": "CVE-2026-46215 — In the Linux kernel, the following vulnerability has been resolved: drm: Set old handle to NULL before prime swap in change_handle There was",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46215",
+    "score": 7.5,
+    "date": "2026-05-28T12:30:33Z"
    }
   ],
   "kev": [
@@ -143,6 +203,76 @@
   ],
   "adv": [
    {
+    "title": "GoBGP confederation validation panics on empty AS_PATH attribute",
+    "url": "https://github.com/advisories/GHSA-frrj-87jh-2772",
+    "score": 5.9,
+    "ghsa": "GHSA-frrj-87jh-2772",
+    "date": "2026-07-09T23:21:05Z"
+   },
+   {
+    "title": "GoBGP: BGP OPEN capability parser may read capability values outside declared CapLen boundaries",
+    "url": "https://github.com/advisories/GHSA-gjrg-jjr3-56cm",
+    "score": 5.9,
+    "ghsa": "GHSA-gjrg-jjr3-56cm",
+    "date": "2026-07-09T23:20:57Z"
+   },
+   {
+    "title": "psd-tools vulnerable to arbitrary file write via smart-object filename",
+    "url": "https://github.com/advisories/GHSA-2rmg-vrx8-9j2f",
+    "score": null,
+    "ghsa": "GHSA-2rmg-vrx8-9j2f",
+    "date": "2026-07-09T23:20:47Z"
+   },
+   {
+    "title": "sigstore-go has a multi-log threshold bypass via single compromised log",
+    "url": "https://github.com/advisories/GHSA-9vcr-p3rj-q5q6",
+    "score": 5.9,
+    "ghsa": "GHSA-9vcr-p3rj-q5q6",
+    "date": "2026-07-09T23:20:30Z"
+   },
+   {
+    "title": "Rattler vulnerable to package cache path traversal via conda package build string",
+    "url": "https://github.com/advisories/GHSA-h672-p7h7-97v9",
+    "score": 5.4,
+    "ghsa": "GHSA-h672-p7h7-97v9",
+    "date": "2026-07-09T23:20:12Z"
+   },
+   {
+    "title": "OpenRun: Redirect URL validation bypass using //host paths leads to Open Redirect",
+    "url": "https://github.com/advisories/GHSA-h5g6-xmh4-hc37",
+    "score": null,
+    "ghsa": "GHSA-h5g6-xmh4-hc37",
+    "date": "2026-07-09T23:19:39Z"
+   },
+   {
+    "title": "mint: Unbounded streams map growth via PUSH_PROMISE without follow-up HEADERS",
+    "url": "https://github.com/advisories/GHSA-g586-ccqf-7x4r",
+    "score": 7.5,
+    "ghsa": "GHSA-g586-ccqf-7x4r",
+    "date": "2026-07-09T23:19:29Z"
+   },
+   {
+    "title": "mint: Unbounded CONTINUATION/HEADERS frame accumulation (CONTINUATION flood)",
+    "url": "https://github.com/advisories/GHSA-2p26-p43x-fhp8",
+    "score": 7.5,
+    "ghsa": "GHSA-2p26-p43x-fhp8",
+    "date": "2026-07-09T23:19:23Z"
+   },
+   {
+    "title": "mint: Content-Length header accepts non-RFC \"+\" sign prefix",
+    "url": "https://github.com/advisories/GHSA-mjqx-c6f6-7rc2",
+    "score": null,
+    "ghsa": "GHSA-mjqx-c6f6-7rc2",
+    "date": "2026-07-09T23:19:16Z"
+   },
+   {
+    "title": "mint has potential CRLF injection in its HTTP request line via unvalidated `method`/`target`",
+    "url": "https://github.com/advisories/GHSA-2pg6-44cx-c49v",
+    "score": 2,
+    "ghsa": "GHSA-2pg6-44cx-c49v",
+    "date": "2026-07-09T23:19:12Z"
+   },
+   {
     "title": "pypdf: Possible infinite loop when processing threads/articles in writer",
     "url": "https://github.com/advisories/GHSA-g9xf-7f8q-9mcj",
     "score": null,
@@ -155,76 +285,6 @@
     "score": null,
     "ghsa": "GHSA-mr9r-h354-966r",
     "date": "2026-07-09T21:03:51Z"
-   },
-   {
-    "title": "Sylius: Channel-based payment method restriction bypass on shop account orders API endpoint",
-    "url": "https://github.com/advisories/GHSA-6955-hrm5-c4qp",
-    "score": 4.3,
-    "ghsa": "GHSA-6955-hrm5-c4qp",
-    "date": "2026-07-09T21:03:46Z"
-   },
-   {
-    "title": "Sylius: Cart FormComponent allows modification or deletion of an already-completed order",
-    "url": "https://github.com/advisories/GHSA-5597-7rmh-97q5",
-    "score": 6.5,
-    "ghsa": "GHSA-5597-7rmh-97q5",
-    "date": "2026-07-09T21:03:41Z"
-   },
-   {
-    "title": "YesWiki has Unsafe eval() in its Formula Calculato, Leading to Remote Code Execution & Denial of Service",
-    "url": "https://github.com/advisories/GHSA-px5m-h76g-p7p8",
-    "score": 9.8,
-    "ghsa": "GHSA-px5m-h76g-p7p8",
-    "date": "2026-07-09T21:03:04Z"
-   },
-   {
-    "title": "YesWiki Vulnerable to Authenticated PHP Object Injection in BazarImportAction via unserialize",
-    "url": "https://github.com/advisories/GHSA-9369-69wj-7m2f",
-    "score": 9.5,
-    "ghsa": "GHSA-9369-69wj-7m2f",
-    "date": "2026-07-09T21:02:58Z"
-   },
-   {
-    "title": "YesWiki has Authenticated SQL Injection via ReactionManager",
-    "url": "https://github.com/advisories/GHSA-4pf7-cc4r-g63h",
-    "score": 8.8,
-    "ghsa": "GHSA-4pf7-cc4r-g63h",
-    "date": "2026-07-09T21:02:40Z"
-   },
-   {
-    "title": "YesWiki Vulnerable to Reflected XSS via Unescaped `id` Parameter in Bazar Widget HTML Attributes",
-    "url": "https://github.com/advisories/GHSA-r5xw-gcgw-hwp5",
-    "score": 6.1,
-    "ghsa": "GHSA-r5xw-gcgw-hwp5",
-    "date": "2026-07-09T21:01:10Z"
-   },
-   {
-    "title": "YesWiki Vulnerable to Reflected XSS via Unescaped Archived-Revision `time` Parameter in `handlers/page/show.php`",
-    "url": "https://github.com/advisories/GHSA-35f3-pg38-486f",
-    "score": 6.1,
-    "ghsa": "GHSA-35f3-pg38-486f",
-    "date": "2026-07-09T21:00:55Z"
-   },
-   {
-    "title": "YesWiki has stored XSS in Bazar form-field templates via unescaped field.label / field.hint (|raw('html'))",
-    "url": "https://github.com/advisories/GHSA-xc7j-3g8q-9vh4",
-    "score": 5.5,
-    "ghsa": "GHSA-xc7j-3g8q-9vh4",
-    "date": "2026-07-09T21:00:33Z"
-   },
-   {
-    "title": "YesWiki: Second-Order SQL Injection in Page Delete API via Unescaped Page Tag (`ApiController::deletePage`)",
-    "url": "https://github.com/advisories/GHSA-8f2v-2qhj-gfwg",
-    "score": 8.3,
-    "ghsa": "GHSA-8f2v-2qhj-gfwg",
-    "date": "2026-07-09T21:00:14Z"
-   },
-   {
-    "title": "YesWiki: SQL Injection possible through public Bazar entry-listing APIs via numeric `query`/`queries` filters",
-    "url": "https://github.com/advisories/GHSA-qg78-vmvc-fhjw",
-    "score": 7.5,
-    "ghsa": "GHSA-qg78-vmvc-fhjw",
-    "date": "2026-07-09T21:00:05Z"
    }
   ],
   "thn": [
@@ -315,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenMandriva Linux says contributor tried to sabotage the project",
+    "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+    "date": "Thu, 09 Jul 2026 18:14:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
     "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
     "date": "Thu, 09 Jul 2026 16:10:00 -0400",
@@ -390,13 +457,6 @@
     "date": "Wed, 08 Jul 2026 15:54:59 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-    "date": "Wed, 08 Jul 2026 14:56:02 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -409,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 602,
+    "stars": 603,
     "lang": "—"
    },
    {
@@ -451,7 +511,7 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 153,
+    "stars": 154,
     "lang": "JavaScript"
    },
    {
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1635,
   "adv": 12,
   "feed": 48
