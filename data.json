@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-09T01:04:57.297Z",
+ "generatedAt": "2026-07-09T05:12:32.087Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2023-31541 — A unrestricted file upload vulnerability was discovered in the ‘Browse and upload images’ feature of the CKEditor v1.2.3 plugin for Redmine,",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-31541",
+    "score": 9.5,
+    "date": "2023-06-13T18:30:39Z"
+   },
+   {
+    "title": "CVE-2026-46242 — In the Linux kernel, the following vulnerability has been resolved: eventpoll: fix ep_remove struct eventpoll / struct file UAF ep_remove() ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46242",
+    "score": 7.5,
+    "date": "2026-05-30T15:30:21Z"
+   },
+   {
+    "title": "CVE-2022-28944 — Certain EMCO Software products are affected by: CWE-494: Download of Code Without Integrity Check. This affects MSI Package Builder for Wind",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-28944",
+    "score": 7.5,
+    "date": "2022-05-24T00:00:25Z"
+   },
+   {
+    "title": "CVE-2022-38901 — A Cross-site scripting (XSS) vulnerability in the Document and Media module - file upload functionality in Liferay Digital Experience Platfo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-38901",
+    "score": 5,
+    "date": "2022-10-19T12:00:21Z"
+   },
+   {
+    "title": "CVE-2022-38902 — A Cross-site scripting (XSS) vulnerability in the Blog module - add new topic functionality in Liferay Digital Experience Platform 7.3.10 SP",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-38902",
+    "score": 5,
+    "date": "2022-10-13T19:00:17Z"
+   },
+   {
+    "title": "CVE-2026-15138 — A security vulnerability has been detected in tumf mcp-text-editor up to 1.0.2. This issue affects the function _validate_file_path of the f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15138",
+    "score": 2,
+    "date": "2026-07-09T03:32:45Z"
+   },
+   {
+    "title": "CVE-2026-4360 — In the Tarfile.extract() function, the filter parameter is not passed properly when extracting hardlinks. An affected system that extracts c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4360",
+    "score": 2,
+    "date": "2026-06-30T15:30:46Z"
+   },
+   {
+    "title": "MAL-2026-7026 — Malicious code in tailwind-core (npm)",
+    "url": "https://github.com/advisories/MAL-2026-7026",
+    "score": null,
+    "date": "2026-07-09T02:51:12Z"
+   },
+   {
+    "title": "CVE-2026-37271 — CVE-2026-37271",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-37271",
+    "score": null,
+    "date": "2026-07-07T23:16:54.773"
+   },
+   {
+    "title": "CVE-2026-37270 — CVE-2026-37270",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-37270",
+    "score": null,
+    "date": "2026-07-07T23:16:54.657"
+   },
+   {
+    "title": "CVE-2026-56139 — CVE-2026-56139",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56139",
+    "score": null,
+    "date": "2026-07-06T09:16:39.157"
+   },
+   {
+    "title": "CVE-2026-55994 — CVE-2026-55994",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55994",
+    "score": null,
+    "date": "2026-07-06T09:16:39.033"
+   },
+   {
+    "title": "CVE-2026-55993 — CVE-2026-55993",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55993",
+    "score": null,
+    "date": "2026-07-06T09:16:38.897"
+   },
+   {
+    "title": "CVE-2026-53913 — CVE-2026-53913",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53913",
+    "score": null,
+    "date": "2026-07-06T09:16:38.753"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+    "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+    "date": "Thu, 09 Jul 2026 09:57:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+    "url": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+    "date": "Thu, 09 Jul 2026 09:31:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
     "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
     "date": "Wed, 08 Jul 2026 22:32:12 +0530",
@@ -270,20 +369,6 @@
     "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
     "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
     "date": "Wed, 08 Jul 2026 11:46:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-    "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-    "date": "Wed, 08 Jul 2026 11:03:12 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
-    "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
-    "date": "Tue, 07 Jul 2026 22:40:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -384,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 574,
+    "stars": 582,
     "lang": "—"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 204,
+    "stars": 205,
     "lang": "TypeScript"
    },
    {
@@ -426,7 +511,7 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 138,
+    "stars": 141,
     "lang": "JavaScript"
    },
    {
@@ -444,7 +529,7 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 112,
+    "stars": 114,
     "lang": "JavaScript"
    }
   ],
@@ -632,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 1,
   "kev": 1635,
   "adv": 12,
   "feed": 48
