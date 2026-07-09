@@ -1,90 +1,30 @@
 {
- "generatedAt": "2026-07-09T20:10:09.018Z",
+ "generatedAt": "2026-07-09T21:49:51.145Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-27621 — TypiCMS Core has Stored Cross-Site Scripting (XSS) via SVG File Upload",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27621",
-    "score": 5,
-    "date": "2026-02-25T16:06:59Z"
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "MAL-2026-10088 — Malicious code in lovable-tager (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10088",
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
-    "date": "2026-07-09T17:00:49Z"
+    "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-10087 — Malicious code in eslint-plus (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10087",
+    "title": "CVE-2010-3198 — Withdrawn as duplicate of PYSEC-2010-32 ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a de",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
     "score": null,
-    "date": "2026-07-09T16:50:45Z"
+    "date": "2010-09-08T20:00:04.573Z"
    },
    {
-    "title": "MAL-2026-10090 — Malicious code in nonenull1 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10090",
+    "title": "CVE-2010-3198 — ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a denial of service (crash of worker threads",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
     "score": null,
-    "date": "2026-07-09T16:34:31Z"
-   },
-   {
-    "title": "MAL-2026-10063 — Malicious code in express-router-engine (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10063",
-    "score": null,
-    "date": "2026-07-09T15:55:17Z"
-   },
-   {
-    "title": "MAL-2026-10073 — Malicious code in tailwind-animate-v4 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10073",
-    "score": null,
-    "date": "2026-07-09T15:28:38Z"
-   },
-   {
-    "title": "MAL-2026-10019 — Malicious code in client-cookies-agent (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10019",
-    "score": null,
-    "date": "2026-07-09T12:25:53Z"
-   },
-   {
-    "title": "MAL-2026-6984 — Malicious code in @vite-ln/build-ts (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6984",
-    "score": null,
-    "date": "2026-07-08T15:04:55Z"
-   },
-   {
-    "title": "MAL-2026-6964 — Malicious code in na-rony (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6964",
-    "score": null,
-    "date": "2026-07-08T08:26:02Z"
-   },
-   {
-    "title": "MAL-2026-6962 — Malicious code in gas-log (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6962",
-    "score": null,
-    "date": "2026-07-08T08:21:06Z"
-   },
-   {
-    "title": "MAL-2026-6947 — Malicious code in paperclip-host-utils (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6947",
-    "score": null,
-    "date": "2026-07-07T16:16:40Z"
-   },
-   {
-    "title": "MAL-2026-6939 — Malicious code in polytrade (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6939",
-    "score": null,
-    "date": "2026-07-07T16:07:02Z"
-   },
-   {
-    "title": "MAL-2026-6923 — Malicious code in notifier-utils (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6923",
-    "score": null,
-    "date": "2026-07-07T15:13:22Z"
-   },
-   {
-    "title": "MAL-2026-6921 — Malicious code in jsf-utils (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6921",
-    "score": null,
-    "date": "2026-07-07T15:13:22Z"
+    "date": "2010-09-08T20:00:00Z"
    }
   ],
   "kev": [
@@ -203,88 +143,88 @@
   ],
   "adv": [
    {
-    "title": "Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
-    "url": "https://github.com/advisories/GHSA-382c-vx95-w3p5",
-    "score": 6.5,
-    "ghsa": "GHSA-382c-vx95-w3p5",
-    "date": "2026-07-09T13:44:51Z"
-   },
-   {
-    "title": "Admidio: CSRF on Plugin Install, Uninstall, and Update via Unprotected GET Requests",
-    "url": "https://github.com/advisories/GHSA-hm42-q32m-vj4f",
-    "score": 5.2,
-    "ghsa": "GHSA-hm42-q32m-vj4f",
-    "date": "2026-07-09T13:44:40Z"
-   },
-   {
-    "title": "Craft CMS: RCE via missing cleanseConfig in FieldsController::actionRenderCardPreview",
-    "url": "https://github.com/advisories/GHSA-86vw-x4ww-x467",
-    "score": 7.5,
-    "ghsa": "GHSA-86vw-x4ww-x467",
-    "date": "2026-07-09T13:44:12Z"
-   },
-   {
-    "title": "Craft CMS has authenticated path traversal in `assets/icon`, allowing local `.svg` file read",
-    "url": "https://github.com/advisories/GHSA-c43v-4cr8-6mvp",
-    "score": 2,
-    "ghsa": "GHSA-c43v-4cr8-6mvp",
-    "date": "2026-07-09T13:44:06Z"
-   },
-   {
-    "title": "Ruby CSS Parser: SSRF and Local File Disclosure in `CssParser::Parser#read_remote_file`",
-    "url": "https://github.com/advisories/GHSA-9pmc-p236-855h",
-    "score": 7.5,
-    "ghsa": "GHSA-9pmc-p236-855h",
-    "date": "2026-07-09T13:43:13Z"
-   },
-   {
-    "title": "org.hl7.fhir.core: ReDoS via FHIRPath matches()/replaceMatches() in FHIR Validator HTTP Endpoint",
-    "url": "https://github.com/advisories/GHSA-7cmj-v6x8-frvv",
-    "score": 7.5,
-    "ghsa": "GHSA-7cmj-v6x8-frvv",
-    "date": "2026-07-09T13:43:03Z"
-   },
-   {
-    "title": "pymonocypher: Potential heap buffer overflow on nb_blocks in argon2i_32 when provided buffer is too small",
-    "url": "https://github.com/advisories/GHSA-8f95-v3jq-cj86",
+    "title": "pypdf: Possible infinite loop when processing threads/articles in writer",
+    "url": "https://github.com/advisories/GHSA-g9xf-7f8q-9mcj",
     "score": null,
-    "ghsa": "GHSA-8f95-v3jq-cj86",
-    "date": "2026-07-09T13:42:46Z"
+    "ghsa": "GHSA-g9xf-7f8q-9mcj",
+    "date": "2026-07-09T21:09:53Z"
    },
    {
-    "title": "Note Mark: Path traversal via unsanitized book/note slug in migrate export (sibling of GHSA-g49p)",
-    "url": "https://github.com/advisories/GHSA-rqrh-8wpv-x7hh",
+    "title": "Sylius: IDOR on Shop Payment Request API endpoints",
+    "url": "https://github.com/advisories/GHSA-mr9r-h354-966r",
+    "score": null,
+    "ghsa": "GHSA-mr9r-h354-966r",
+    "date": "2026-07-09T21:03:51Z"
+   },
+   {
+    "title": "Sylius: Channel-based payment method restriction bypass on shop account orders API endpoint",
+    "url": "https://github.com/advisories/GHSA-6955-hrm5-c4qp",
+    "score": 4.3,
+    "ghsa": "GHSA-6955-hrm5-c4qp",
+    "date": "2026-07-09T21:03:46Z"
+   },
+   {
+    "title": "Sylius: Cart FormComponent allows modification or deletion of an already-completed order",
+    "url": "https://github.com/advisories/GHSA-5597-7rmh-97q5",
+    "score": 6.5,
+    "ghsa": "GHSA-5597-7rmh-97q5",
+    "date": "2026-07-09T21:03:41Z"
+   },
+   {
+    "title": "YesWiki has Unsafe eval() in its Formula Calculato, Leading to Remote Code Execution & Denial of Service",
+    "url": "https://github.com/advisories/GHSA-px5m-h76g-p7p8",
+    "score": 9.8,
+    "ghsa": "GHSA-px5m-h76g-p7p8",
+    "date": "2026-07-09T21:03:04Z"
+   },
+   {
+    "title": "YesWiki Vulnerable to Authenticated PHP Object Injection in BazarImportAction via unserialize",
+    "url": "https://github.com/advisories/GHSA-9369-69wj-7m2f",
+    "score": 9.5,
+    "ghsa": "GHSA-9369-69wj-7m2f",
+    "date": "2026-07-09T21:02:58Z"
+   },
+   {
+    "title": "YesWiki has Authenticated SQL Injection via ReactionManager",
+    "url": "https://github.com/advisories/GHSA-4pf7-cc4r-g63h",
+    "score": 8.8,
+    "ghsa": "GHSA-4pf7-cc4r-g63h",
+    "date": "2026-07-09T21:02:40Z"
+   },
+   {
+    "title": "YesWiki Vulnerable to Reflected XSS via Unescaped `id` Parameter in Bazar Widget HTML Attributes",
+    "url": "https://github.com/advisories/GHSA-r5xw-gcgw-hwp5",
+    "score": 6.1,
+    "ghsa": "GHSA-r5xw-gcgw-hwp5",
+    "date": "2026-07-09T21:01:10Z"
+   },
+   {
+    "title": "YesWiki Vulnerable to Reflected XSS via Unescaped Archived-Revision `time` Parameter in `handlers/page/show.php`",
+    "url": "https://github.com/advisories/GHSA-35f3-pg38-486f",
+    "score": 6.1,
+    "ghsa": "GHSA-35f3-pg38-486f",
+    "date": "2026-07-09T21:00:55Z"
+   },
+   {
+    "title": "YesWiki has stored XSS in Bazar form-field templates via unescaped field.label / field.hint (|raw('html'))",
+    "url": "https://github.com/advisories/GHSA-xc7j-3g8q-9vh4",
+    "score": 5.5,
+    "ghsa": "GHSA-xc7j-3g8q-9vh4",
+    "date": "2026-07-09T21:00:33Z"
+   },
+   {
+    "title": "YesWiki: Second-Order SQL Injection in Page Delete API via Unescaped Page Tag (`ApiController::deletePage`)",
+    "url": "https://github.com/advisories/GHSA-8f2v-2qhj-gfwg",
+    "score": 8.3,
+    "ghsa": "GHSA-8f2v-2qhj-gfwg",
+    "date": "2026-07-09T21:00:14Z"
+   },
+   {
+    "title": "YesWiki: SQL Injection possible through public Bazar entry-listing APIs via numeric `query`/`queries` filters",
+    "url": "https://github.com/advisories/GHSA-qg78-vmvc-fhjw",
     "score": 7.5,
-    "ghsa": "GHSA-rqrh-8wpv-x7hh",
-    "date": "2026-07-09T13:41:35Z"
-   },
-   {
-    "title": "Note Mark: Unauthenticated disclosure of soft-deleted note metadata via deleted=true on public books",
-    "url": "https://github.com/advisories/GHSA-588f-fvcv-xhvf",
-    "score": 5.3,
-    "ghsa": "GHSA-588f-fvcv-xhvf",
-    "date": "2026-07-09T13:41:29Z"
-   },
-   {
-    "title": "Soup Sieve: Regular Expression Denial of Service (ReDoS) via Selector Parser",
-    "url": "https://github.com/advisories/GHSA-836r-79rf-4m37",
-    "score": 7.5,
-    "ghsa": "GHSA-836r-79rf-4m37",
-    "date": "2026-07-09T13:37:46Z"
-   },
-   {
-    "title": "Soup Sieve has Memory Exhaustion via Large Comma-Separated Selector Lists",
-    "url": "https://github.com/advisories/GHSA-2wc2-fm75-p42x",
-    "score": 7.5,
-    "ghsa": "GHSA-2wc2-fm75-p42x",
-    "date": "2026-07-09T13:37:40Z"
-   },
-   {
-    "title": "Phantom: Arbitrary file write and decode-bomb DoS via unconfined MCP tool paths",
-    "url": "https://github.com/advisories/GHSA-52vm-mxx8-f227",
-    "score": 7.7,
-    "ghsa": "GHSA-52vm-mxx8-f227",
-    "date": "2026-07-09T13:37:34Z"
+    "ghsa": "GHSA-qg78-vmvc-fhjw",
+    "date": "2026-07-09T21:00:05Z"
    }
   ],
   "thn": [
@@ -469,7 +409,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 601,
+    "stars": 602,
     "lang": "—"
    },
    {
@@ -493,7 +433,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 210,
+    "stars": 211,
     "lang": "TypeScript"
    },
    {
