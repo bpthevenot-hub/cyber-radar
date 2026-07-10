@@ -1,7 +1,55 @@
 {
- "generatedAt": "2026-07-10T20:44:59.757Z",
+ "generatedAt": "2026-07-10T22:27:20.548Z",
  "sources": {
   "cve": [
+   {
+    "title": "MAL-2026-10099 — Malicious code in polipoli-pak (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10099",
+    "score": null,
+    "date": "2026-07-09T22:52:20Z"
+   },
+   {
+    "title": "CVE-2026-59213 — CVE-2026-59213",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59213",
+    "score": null,
+    "date": "2026-07-09T17:17:02.030"
+   },
+   {
+    "title": "CVE-2026-59212 — CVE-2026-59212",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59212",
+    "score": null,
+    "date": "2026-07-09T17:17:01.903"
+   },
+   {
+    "title": "CVE-2026-48492 — CVE-2026-48492",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48492",
+    "score": null,
+    "date": "2026-07-08T22:17:14.870"
+   },
+   {
+    "title": "CVE-2026-55542 — CVE-2026-55542",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55542",
+    "score": null,
+    "date": "2026-07-08T21:16:50.117"
+   },
+   {
+    "title": "CVE-2026-59897 — CVE-2026-59897",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59897",
+    "score": null,
+    "date": "2026-07-08T17:17:27.637"
+   },
+   {
+    "title": "CVE-2026-59896 — CVE-2026-59896",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59896",
+    "score": null,
+    "date": "2026-07-08T17:17:27.493"
+   },
+   {
+    "title": "CVE-2026-59895 — CVE-2026-59895",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59895",
+    "score": null,
+    "date": "2026-07-08T17:17:27.353"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -131,6 +179,20 @@
   ],
   "adv": [
    {
+    "title": "TSDProxy: Internal proxy auth token forwarded to backend services enables management API escalation",
+    "url": "https://github.com/advisories/GHSA-g936-7jqj-mwv8",
+    "score": 9,
+    "ghsa": "GHSA-g936-7jqj-mwv8",
+    "date": "2026-07-10T21:43:13Z"
+   },
+   {
+    "title": "melange: Incomplete package integrity verification allows data section substitution",
+    "url": "https://github.com/advisories/GHSA-fpg8-7664-jc5q",
+    "score": 8.3,
+    "ghsa": "GHSA-fpg8-7664-jc5q",
+    "date": "2026-07-10T21:43:05Z"
+   },
+   {
     "title": "Excon does not redact additional sensitive/risky headers when following redirects",
     "url": "https://github.com/advisories/GHSA-48rx-c7pg-q66r",
     "score": 6.5,
@@ -199,20 +261,6 @@
     "score": 8.8,
     "ghsa": "GHSA-qv4m-m73m-8hj7",
     "date": "2026-07-10T19:34:03Z"
-   },
-   {
-    "title": "BabelDOC: Arbitrary Code Execution via CMap Pickle Deserialization in babeldoc/pdfminer/cmapdb.py",
-    "url": "https://github.com/advisories/GHSA-m8gf-v64p-gfmg",
-    "score": 7.8,
-    "ghsa": "GHSA-m8gf-v64p-gfmg",
-    "date": "2026-07-10T19:32:44Z"
-   },
-   {
-    "title": "File Browser: Command Injection via Authentication Hook Shell Substitution (Pre-Authentication RCE)",
-    "url": "https://github.com/advisories/GHSA-m93h-4hw7-5qcm",
-    "score": 9.5,
-    "ghsa": "GHSA-m93h-4hw7-5qcm",
-    "date": "2026-07-10T19:32:32Z"
    }
   ],
   "thn": [
@@ -303,6 +351,13 @@
   ],
   "bleep": [
    {
+    "title": "New U-Boot flaws could enable stealthy firmware attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+    "date": "Fri, 10 Jul 2026 17:59:02 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
     "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
     "date": "Fri, 10 Jul 2026 13:46:10 -0400",
@@ -378,26 +433,19 @@
     "date": "Thu, 09 Jul 2026 13:08:29 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
-    "date": "Thu, 09 Jul 2026 13:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
     "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1301,
+    "stars": 1302,
     "lang": "TypeScript"
    },
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 621,
+    "stars": 622,
     "lang": "—"
    },
    {
@@ -421,7 +469,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 216,
+    "stars": 217,
     "lang": "TypeScript"
    },
    {
@@ -445,13 +493,13 @@
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 132,
+    "stars": 133,
     "lang": "Rust"
    },
    {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
     "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 122,
+    "stars": 123,
     "lang": "Python"
    },
    {
@@ -563,6 +611,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Closing the Timing Gap: Defensive Temporal Observability",
+    "url": "https://www.reddit.com/r/netsec/comments/1uszoli/closing_the_timing_gap_defensive_temporal/",
+    "date": "2026-07-10T20:46:21+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Inside Raton RAT: A Commodity Trojan That Tries to Do Everything",
+    "url": "https://www.reddit.com/r/netsec/comments/1ut205g/inside_raton_rat_a_commodity_trojan_that_tries_to/",
+    "date": "2026-07-10T22:16:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Towards CSI: What's the best harness? (arXiv 2026)",
     "url": "https://www.reddit.com/r/netsec/comments/1usj1gg/towards_csi_whats_the_best_harness_arxiv_2026/",
     "date": "2026-07-10T09:49:46+00:00",
@@ -615,20 +677,6 @@
     "title": "Bad Epoll: The bug missed by Mythos",
     "url": "https://www.reddit.com/r/netsec/comments/1uqe6g8/bad_epoll_the_bug_missed_by_mythos/",
     "date": "2026-07-08T01:11:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "New OST2 class: &quot;Architecture 1901: From zero to QEMU - A Gentle introduction to emulators from the ground up!&quot;",
-    "url": "https://www.reddit.com/r/netsec/comments/1uoz05q/new_ost2_class_architecture_1901_from_zero_to/",
-    "date": "2026-07-06T14:30:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Windows Service - Playbook &amp; Detection Strategies",
-    "url": "https://www.reddit.com/r/netsec/comments/1uor6dt/windows_service_playbook_detection_strategies/",
-    "date": "2026-07-06T08:17:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
