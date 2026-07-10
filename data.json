@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-07-10T12:10:00.738Z",
+ "generatedAt": "2026-07-10T15:05:18.680Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2010-3198 — Withdrawn as duplicate of PYSEC-2010-32 ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a de",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
+    "score": null,
+    "date": "2010-09-08T20:00:04.573Z"
+   },
+   {
+    "title": "CVE-2010-3198 — ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a denial of service (crash of worker threads",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
+    "score": null,
+    "date": "2010-09-08T20:00:00Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +143,20 @@
   ],
   "adv": [
    {
+    "title": "morgan vulnerable to Log Forging via unneutralized control characters in :remote-user",
+    "url": "https://github.com/advisories/GHSA-4vj7-5mj6-jm8m",
+    "score": 5.3,
+    "ghsa": "GHSA-4vj7-5mj6-jm8m",
+    "date": "2026-07-10T14:32:15Z"
+   },
+   {
+    "title": "API Platform Core vulnerable to cross-user attribute leak in JSON:API and HAL item normalizers due to missing isCacheKeySafe gate",
+    "url": "https://github.com/advisories/GHSA-pjhx-3c3w-9v23",
+    "score": 5.9,
+    "ghsa": "GHSA-pjhx-3c3w-9v23",
+    "date": "2026-07-10T14:32:01Z"
+   },
+   {
     "title": "Tesla vulnerable to multipart part smuggling via unescaped `content-disposition` values",
     "url": "https://github.com/advisories/GHSA-28jh-g32x-v9v4",
     "score": 2,
@@ -186,23 +225,23 @@
     "score": 5.9,
     "ghsa": "GHSA-9vcr-p3rj-q5q6",
     "date": "2026-07-09T23:20:30Z"
-   },
-   {
-    "title": "Rattler vulnerable to package cache path traversal via conda package build string",
-    "url": "https://github.com/advisories/GHSA-h672-p7h7-97v9",
-    "score": 5.4,
-    "ghsa": "GHSA-h672-p7h7-97v9",
-    "date": "2026-07-09T23:20:12Z"
-   },
-   {
-    "title": "OpenRun: Redirect URL validation bypass using //host paths leads to Open Redirect",
-    "url": "https://github.com/advisories/GHSA-h5g6-xmh4-hc37",
-    "score": null,
-    "ghsa": "GHSA-h5g6-xmh4-hc37",
-    "date": "2026-07-09T23:19:39Z"
    }
   ],
   "thn": [
+   {
+    "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+    "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+    "date": "Fri, 10 Jul 2026 19:49:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+    "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+    "date": "Fri, 10 Jul 2026 18:45:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
     "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
@@ -239,7 +278,7 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
     "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
     "date": "Fri, 10 Jul 2026 14:30:05 +0530",
     "badge": "THREAT",
@@ -272,23 +311,16 @@
     "date": "Thu, 09 Jul 2026 22:19:02 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-    "url": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-    "date": "Thu, 09 Jul 2026 20:39:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-    "url": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-    "date": "Thu, 09 Jul 2026 17:56:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+    "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+    "date": "Fri, 10 Jul 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Zimbra urges customers to patch critical web client XSS flaw",
     "url": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
@@ -365,13 +397,6 @@
     "date": "Thu, 09 Jul 2026 03:47:16 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
-    "date": "Thu, 09 Jul 2026 01:42:49 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,13 +409,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 614,
+    "stars": 616,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 311,
+    "stars": 312,
     "lang": "Swift"
    },
    {
@@ -550,16 +575,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Can AI-generated adversaries break TTP-based attribution? (arXiv 2026)",
-    "url": "https://www.reddit.com/r/netsec/comments/1uslf2v/can_aigenerated_adversaries_break_ttpbased/",
-    "date": "2026-07-10T11:50:48+00:00",
+    "title": "Towards CSI: What's the best harness? (arXiv 2026)",
+    "url": "https://www.reddit.com/r/netsec/comments/1usj1gg/towards_csi_whats_the_best_harness_arxiv_2026/",
+    "date": "2026-07-10T09:49:46+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Towards CSI: What's the best harness? (arXiv 2026)",
-    "url": "https://www.reddit.com/r/netsec/comments/1usj1gg/towards_csi_whats_the_best_harness_arxiv_2026/",
-    "date": "2026-07-10T09:49:46+00:00",
+    "title": "Can AI-generated adversaries break TTP-based attribution? (arXiv 2026)",
+    "url": "https://www.reddit.com/r/netsec/comments/1uslf2v/can_aigenerated_adversaries_break_ttpbased/",
+    "date": "2026-07-10T11:50:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +647,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +662,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
