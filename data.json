@@ -1,32 +1,7 @@
 {
- "generatedAt": "2026-07-10T08:44:22.891Z",
+ "generatedAt": "2026-07-10T12:10:00.738Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2010-3198 — Withdrawn as duplicate of PYSEC-2010-32 ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a de",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
-    "score": null,
-    "date": "2010-09-08T20:00:04.573Z"
-   },
-   {
-    "title": "CVE-2010-3198 — ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a denial of service (crash of worker threads",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2010-3198",
-    "score": null,
-    "date": "2010-09-08T20:00:00Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -229,6 +204,55 @@
   ],
   "thn": [
    {
+    "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+    "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+    "date": "Fri, 10 Jul 2026 17:17:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+    "url": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+    "date": "Fri, 10 Jul 2026 17:09:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+    "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+    "date": "Fri, 10 Jul 2026 17:00:02 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+    "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+    "date": "Fri, 10 Jul 2026 16:26:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+    "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+    "date": "Fri, 10 Jul 2026 16:00:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
+    "date": "Fri, 10 Jul 2026 14:30:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+    "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
+    "date": "Fri, 10 Jul 2026 13:40:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
     "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
     "date": "Fri, 10 Jul 2026 00:08:49 +0530",
@@ -262,58 +286,16 @@
     "date": "Thu, 09 Jul 2026 17:56:58 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Summer of Clearinghouses",
-    "url": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
-    "date": "Thu, 09 Jul 2026 16:30:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
-    "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
-    "date": "Thu, 09 Jul 2026 16:13:09 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-    "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-    "date": "Thu, 09 Jul 2026 14:18:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-    "url": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-    "date": "Thu, 09 Jul 2026 12:51:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-    "url": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-    "date": "Thu, 09 Jul 2026 10:45:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
-    "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-    "date": "Thu, 09 Jul 2026 09:57:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
-    "url": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
-    "date": "Thu, 09 Jul 2026 09:31:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Zimbra urges customers to patch critical web client XSS flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+    "date": "Fri, 10 Jul 2026 07:47:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
     "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
@@ -390,13 +372,6 @@
     "date": "Thu, 09 Jul 2026 01:42:49 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Mount Royal University confirms breach as hackers claim attack",
-    "url": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-    "date": "Wed, 08 Jul 2026 17:26:59 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -409,7 +384,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 611,
+    "stars": 614,
     "lang": "—"
    },
    {
@@ -575,6 +550,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Can AI-generated adversaries break TTP-based attribution? (arXiv 2026)",
+    "url": "https://www.reddit.com/r/netsec/comments/1uslf2v/can_aigenerated_adversaries_break_ttpbased/",
+    "date": "2026-07-10T11:50:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Towards CSI: What's the best harness? (arXiv 2026)",
+    "url": "https://www.reddit.com/r/netsec/comments/1usj1gg/towards_csi_whats_the_best_harness_arxiv_2026/",
+    "date": "2026-07-10T09:49:46+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
     "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
     "date": "2026-07-09T14:28:00+00:00",
@@ -629,25 +618,11 @@
     "date": "2026-07-06T08:17:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Playing Around With ADIDNS RPC Internals",
-    "url": "https://www.reddit.com/r/netsec/comments/1uosc1r/playing_around_with_adidns_rpc_internals/",
-    "date": "2026-07-06T09:25:13+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "FIFA was saved this time",
-    "url": "https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/",
-    "date": "2026-07-02T16:14:57+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -662,5 +637,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
