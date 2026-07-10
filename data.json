@@ -1,12 +1,54 @@
 {
- "generatedAt": "2026-07-10T17:12:31.767Z",
+ "generatedAt": "2026-07-10T18:49:52.933Z",
  "sources": {
   "cve": [
    {
-    "title": "OSV-2025-1020 — Heap-buffer-overflow in mmcall",
-    "url": "https://github.com/advisories/OSV-2025-1020",
+    "title": "MAL-2026-10132 — Malicious code in react-jsonwebtoken (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10132",
     "score": null,
-    "date": "2025-12-25T00:17:49.020029Z"
+    "date": "2026-07-10T16:16:01Z"
+   },
+   {
+    "title": "MAL-2026-10135 — Malicious code in theta-sdk-js (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10135",
+    "score": null,
+    "date": "2026-07-10T16:15:18Z"
+   },
+   {
+    "title": "MAL-2026-10133 — Malicious code in stella-ai-cli (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10133",
+    "score": null,
+    "date": "2026-07-10T15:59:49Z"
+   },
+   {
+    "title": "MAL-2026-10134 — Malicious code in stella-coder (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10134",
+    "score": null,
+    "date": "2026-07-10T15:59:07Z"
+   },
+   {
+    "title": "MAL-2026-10138 — Malicious code in uac-package (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10138",
+    "score": null,
+    "date": "2026-07-10T15:50:23Z"
+   },
+   {
+    "title": "MAL-2026-10111 — Malicious code in nodepack-daemon (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10111",
+    "score": null,
+    "date": "2026-07-10T02:45:25Z"
+   },
+   {
+    "title": "MAL-2026-10077 — Malicious code in type-slint (npm)",
+    "url": "https://github.com/advisories/MAL-2026-10077",
+    "score": null,
+    "date": "2026-07-09T15:55:00Z"
+   },
+   {
+    "title": "MAL-2026-5581 — Malicious code in webpack-patch (npm)",
+    "url": "https://github.com/advisories/MAL-2026-5581",
+    "score": null,
+    "date": "2026-06-11T05:06:30Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -19,30 +61,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "OSV-2024-719 — Heap-buffer-overflow in hevc_ref_pic_lists_modification",
-    "url": "https://github.com/advisories/OSV-2024-719",
-    "score": null,
-    "date": "2024-08-07T00:05:22.699506Z"
-   },
-   {
-    "title": "OSV-2024-695 — Stack-buffer-overflow in gf_vvc_parse_nalu_bs",
-    "url": "https://github.com/advisories/OSV-2024-695",
-    "score": null,
-    "date": "2024-07-31T00:02:35.217594Z"
-   },
-   {
-    "title": "OSV-2024-664 — Heap-buffer-overflow in gf_dash_group_get_template",
-    "url": "https://github.com/advisories/OSV-2024-664",
-    "score": null,
-    "date": "2024-07-18T00:13:55.576218Z"
-   },
-   {
-    "title": "OSV-2024-659 — Index-out-of-bounds in gf_vvc_parse_nalu_bs",
-    "url": "https://github.com/advisories/OSV-2024-659",
-    "score": null,
-    "date": "2024-07-18T00:01:18.765548Z"
    },
    {
     "title": "CVE-2010-3198 — Withdrawn as duplicate of PYSEC-2010-32 ZServer in Zope 2.10.x before 2.10.12 and 2.11.x before 2.11.7 allows remote attackers to cause a de",
@@ -173,6 +191,13 @@
   ],
   "adv": [
    {
+    "title": "MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
+    "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
+    "score": 6.5,
+    "ghsa": "GHSA-489g-7rxv-6c8q",
+    "date": "2026-07-10T18:01:22Z"
+   },
+   {
     "title": "tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
     "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
     "score": 4.3,
@@ -248,16 +273,23 @@
     "score": 7.5,
     "ghsa": "GHSA-qcq2-496w-v96p",
     "date": "2026-07-09T23:52:27Z"
-   },
-   {
-    "title": "GoBGP confederation validation panics on empty AS_PATH attribute",
-    "url": "https://github.com/advisories/GHSA-frrj-87jh-2772",
-    "score": 5.9,
-    "ghsa": "GHSA-frrj-87jh-2772",
-    "date": "2026-07-09T23:21:05Z"
    }
   ],
   "thn": [
+   {
+    "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+    "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+    "date": "Fri, 10 Jul 2026 22:59:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+    "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+    "date": "Fri, 10 Jul 2026 21:27:14 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
     "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
@@ -327,23 +359,16 @@
     "date": "Fri, 10 Jul 2026 13:40:12 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-    "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-    "date": "Fri, 10 Jul 2026 00:08:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-    "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-    "date": "Thu, 09 Jul 2026 23:38:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+    "date": "Fri, 10 Jul 2026 13:46:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Police suspects Dutch hackers were involved in Odido breach",
     "url": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
@@ -420,13 +445,6 @@
     "date": "Thu, 09 Jul 2026 13:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
-    "date": "Thu, 09 Jul 2026 10:39:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -439,7 +457,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 617,
+    "stars": 619,
     "lang": "—"
    },
    {
@@ -688,7 +706,7 @@
  },
  "kpis": {
   "crit": 0,
-  "kev": 1635,
+  "kev": 1637,
   "adv": 12,
   "feed": 48
  },
