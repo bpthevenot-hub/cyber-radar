@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T18:58:28.882Z",
+ "generatedAt": "2026-07-10T20:44:59.757Z",
  "sources": {
   "cve": [
    {
@@ -131,95 +131,102 @@
   ],
   "adv": [
    {
-    "title": "MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
-    "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
+    "title": "Excon does not redact additional sensitive/risky headers when following redirects",
+    "url": "https://github.com/advisories/GHSA-48rx-c7pg-q66r",
     "score": 6.5,
-    "ghsa": "GHSA-489g-7rxv-6c8q",
-    "date": "2026-07-10T18:01:22Z"
+    "ghsa": "GHSA-48rx-c7pg-q66r",
+    "date": "2026-07-10T20:37:29Z"
    },
    {
-    "title": "tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
-    "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
-    "score": 4.3,
-    "ghsa": "GHSA-jxj7-g6gm-49j7",
-    "date": "2026-07-10T16:05:00Z"
-   },
-   {
-    "title": "libp2p: CPU DoS via oversized IHAVE and IWANT control message arrays",
-    "url": "https://github.com/advisories/GHSA-cwc9-cp4j-mcvv",
+    "title": "Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
+    "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
     "score": 7.5,
-    "ghsa": "GHSA-cwc9-cp4j-mcvv",
-    "date": "2026-07-10T16:04:49Z"
+    "ghsa": "GHSA-h4g2-xfmw-q2c9",
+    "date": "2026-07-10T20:37:23Z"
    },
    {
-    "title": "Kimai has Server-Side Request Forgery in Invoice PDF Rendering via Markdown Image URLs",
-    "url": "https://github.com/advisories/GHSA-pj8j-p4g4-4vw8",
-    "score": null,
-    "ghsa": "GHSA-pj8j-p4g4-4vw8",
-    "date": "2026-07-10T16:04:40Z"
+    "title": "Secure Headers: CSP directive injection via sandbox, plugin_types, and report_to when given untrusted input",
+    "url": "https://github.com/advisories/GHSA-rqq5-2gf9-4w4q",
+    "score": 4.7,
+    "ghsa": "GHSA-rqq5-2gf9-4w4q",
+    "date": "2026-07-10T20:37:15Z"
    },
    {
-    "title": "morgan vulnerable to Log Forging via unneutralized control characters in :remote-user",
-    "url": "https://github.com/advisories/GHSA-4vj7-5mj6-jm8m",
-    "score": 5.3,
-    "ghsa": "GHSA-4vj7-5mj6-jm8m",
-    "date": "2026-07-10T14:32:15Z"
+    "title": "SiYuan: Stored XSS to RCE via Unsanitized Attribute View Asset Cell Content",
+    "url": "https://github.com/advisories/GHSA-56mp-4f3v-fgj2",
+    "score": 9.9,
+    "ghsa": "GHSA-56mp-4f3v-fgj2",
+    "date": "2026-07-10T20:37:04Z"
    },
    {
-    "title": "API Platform Core vulnerable to cross-user attribute leak in JSON:API and HAL item normalizers due to missing isCacheKeySafe gate",
-    "url": "https://github.com/advisories/GHSA-pjhx-3c3w-9v23",
-    "score": 5.9,
-    "ghsa": "GHSA-pjhx-3c3w-9v23",
-    "date": "2026-07-10T14:32:01Z"
+    "title": "prestashop/ps_facetedsearch: PHP Object Injection in faceted search cache allows unauthenticated RCE",
+    "url": "https://github.com/advisories/GHSA-m5f5-28qr-9g9r",
+    "score": 10,
+    "ghsa": "GHSA-m5f5-28qr-9g9r",
+    "date": "2026-07-10T20:36:56Z"
    },
    {
-    "title": "Tesla vulnerable to multipart part smuggling via unescaped `content-disposition` values",
-    "url": "https://github.com/advisories/GHSA-28jh-g32x-v9v4",
-    "score": 2,
-    "ghsa": "GHSA-28jh-g32x-v9v4",
-    "date": "2026-07-10T00:04:37Z"
+    "title": "SiYuan: Stored XSS to RCE via attribute-view cell rendering in genAVValueHTML()",
+    "url": "https://github.com/advisories/GHSA-5xfx-xj4h-5p7r",
+    "score": 9.9,
+    "ghsa": "GHSA-5xfx-xj4h-5p7r",
+    "date": "2026-07-10T19:34:53Z"
    },
    {
-    "title": "Tesla vulnerable to atom exhaustion via untrusted URL scheme",
-    "url": "https://github.com/advisories/GHSA-h74c-q9j7-mpcm",
-    "score": 7.5,
-    "ghsa": "GHSA-h74c-q9j7-mpcm",
-    "date": "2026-07-10T00:03:51Z"
+    "title": "mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
+    "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
+    "score": 7.7,
+    "ghsa": "GHSA-g5r6-gv6m-f5jv",
+    "date": "2026-07-10T19:34:37Z"
    },
    {
-    "title": "Tesla: Authorization header leaks on cross-origin redirect via case-sensitive filtering",
-    "url": "https://github.com/advisories/GHSA-9m9w-gxf7-rh8m",
-    "score": 7.5,
-    "ghsa": "GHSA-9m9w-gxf7-rh8m",
-    "date": "2026-07-10T00:03:31Z"
+    "title": "mcp-atlassian: Arbitrary server-side file read via attachment upload",
+    "url": "https://github.com/advisories/GHSA-wm45-qh3g-v83f",
+    "score": 7.7,
+    "ghsa": "GHSA-wm45-qh3g-v83f",
+    "date": "2026-07-10T19:34:30Z"
    },
    {
-    "title": "Tesla has decompression bomb on response body",
-    "url": "https://github.com/advisories/GHSA-mc85-72gr-vm9f",
-    "score": 7.5,
-    "ghsa": "GHSA-mc85-72gr-vm9f",
-    "date": "2026-07-10T00:03:23Z"
+    "title": "SafeInstall agent guard shell parsing can miss raw package execution",
+    "url": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x",
+    "score": 8.8,
+    "ghsa": "GHSA-xrmc-c5cg-rv7x",
+    "date": "2026-07-10T19:34:14Z"
    },
    {
-    "title": "Tesla has CRLF injection in request `Content-Type` header via `add_content_type_param`",
-    "url": "https://github.com/advisories/GHSA-q7jx-v53g-848w",
-    "score": 2,
-    "ghsa": "GHSA-q7jx-v53g-848w",
-    "date": "2026-07-10T00:03:12Z"
+    "title": "NotrinosERP: Authenticated arbitrary file upload leads to remote code execution via HRM employee \"Documents\" (doc_file)",
+    "url": "https://github.com/advisories/GHSA-qv4m-m73m-8hj7",
+    "score": 8.8,
+    "ghsa": "GHSA-qv4m-m73m-8hj7",
+    "date": "2026-07-10T19:34:03Z"
    },
    {
-    "title": "Mistune: Potential DoS via quadratic-time parsing in parse_link_text",
-    "url": "https://github.com/advisories/GHSA-qcq2-496w-v96p",
-    "score": 7.5,
-    "ghsa": "GHSA-qcq2-496w-v96p",
-    "date": "2026-07-09T23:52:27Z"
+    "title": "BabelDOC: Arbitrary Code Execution via CMap Pickle Deserialization in babeldoc/pdfminer/cmapdb.py",
+    "url": "https://github.com/advisories/GHSA-m8gf-v64p-gfmg",
+    "score": 7.8,
+    "ghsa": "GHSA-m8gf-v64p-gfmg",
+    "date": "2026-07-10T19:32:44Z"
+   },
+   {
+    "title": "File Browser: Command Injection via Authentication Hook Shell Substitution (Pre-Authentication RCE)",
+    "url": "https://github.com/advisories/GHSA-m93h-4hw7-5qcm",
+    "score": 9.5,
+    "ghsa": "GHSA-m93h-4hw7-5qcm",
+    "date": "2026-07-10T19:32:32Z"
    }
   ],
   "thn": [
    {
+    "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+    "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+    "date": "Fri, 10 Jul 2026 22:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
     "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-    "date": "Fri, 10 Jul 2026 22:59:28 +0530",
+    "date": "Fri, 10 Jul 2026 21:59:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -290,13 +297,6 @@
     "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
     "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
     "date": "Fri, 10 Jul 2026 14:30:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
-    "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
-    "date": "Fri, 10 Jul 2026 13:40:12 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,7 +397,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 619,
+    "stars": 621,
     "lang": "—"
    },
    {
@@ -421,7 +421,7 @@
    {
     "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
     "url": "https://github.com/flythenimbus/bramble",
-    "stars": 215,
+    "stars": 216,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +457,7 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 116,
+    "stars": 117,
     "lang": "JavaScript"
    }
   ],
