@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-07-11T12:08:04.763Z",
+ "generatedAt": "2026-07-11T13:57:27.331Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-9282 — The W3 Total Cache plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 2.9.4 via the setupSource",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9282",
-    "score": 7.5,
-    "date": "2026-07-11T09:34:19Z"
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "CVE-2026-1359 — The Genolve – AI image AI video generation plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capabili",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-1359",
-    "score": 7.5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-4661 — The WP CTA – Sticky CTA Builder, Generate Leads, Promote Sales plugin for WordPress is vulnerable to time-based blind SQL Injection via the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4661",
-    "score": 7.5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-6939 — The CorvusPay WooCommerce Payment Gateway plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'approval_code' paramete",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6939",
-    "score": 7.5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-15155 — The Essential Addons for Elementor – Popular Elementor Templates & Widgets plugin for WordPress is vulnerable to Authenticated Account Takeo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15155",
-    "score": 7.5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2025-6784 — The Code Engine plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 0.3.5 via the 'code-engine",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-6784",
-    "score": 7.5,
-    "date": "2026-07-11T09:34:17Z"
-   },
-   {
-    "title": "CVE-2026-12994 — The WCFM – Frontend Manager for WooCommerce plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including,",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12994",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-15010 — The bbp Style Pack plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 6.4.5 via the Topic F",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15010",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-11591 — The Widgets for Google Reviews plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11591",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-6801 — The Context Blog theme for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.3.5 via the con",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6801",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-9017 — The NEX-Forms – Ultimate Forms Plugin for WordPress plugin for WordPress is vulnerable to authorization bypass in all versions up to, and in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9017",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-1382 — The fresh Podcaster plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'freshpodcaster' shortcode in all versions up ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-1382",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-12738 — The WP Easy Pay – Payment and Donation form Builder for Square plugin for WordPress is vulnerable to authorization bypass in all versions up",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12738",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
-   },
-   {
-    "title": "CVE-2026-11901 — The WP Hotel Booking plugin for WordPress is vulnerable to Insufficient Verification of Data Authenticity in all versions up to, and includi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11901",
-    "score": 5,
-    "date": "2026-07-11T09:34:18Z"
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -517,7 +445,7 @@
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 133,
+    "stars": 136,
     "lang": "Rust"
    },
    {
