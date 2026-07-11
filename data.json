@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-11T15:25:41.650Z",
+ "generatedAt": "2026-07-11T17:24:58.629Z",
  "sources": {
   "cve": [
    {
@@ -15,6 +15,12 @@
     "date": "2026-07-11T12:30:23Z"
    },
    {
+    "title": "OSV-2025-266 — Heap-buffer-overflow in lj_buf_ruleb128",
+    "url": "https://github.com/advisories/OSV-2025-266",
+    "score": null,
+    "date": "2025-04-08T00:17:06.279554Z"
+   },
+   {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": null,
@@ -25,6 +31,60 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "OSV-2024-679 — Heap-buffer-overflow in readImage4v2",
+    "url": "https://github.com/advisories/OSV-2024-679",
+    "score": null,
+    "date": "2024-07-25T00:14:34.485446Z"
+   },
+   {
+    "title": "OSV-2024-245 — Security exception in com.github.javaparser.ast.validator.TreeVisitorValidator.accept",
+    "url": "https://github.com/advisories/OSV-2024-245",
+    "score": null,
+    "date": "2024-04-08T00:11:03.595756Z"
+   },
+   {
+    "title": "OSV-2023-800 — Heap-buffer-overflow in XCFImageFormat::loadTileRLE",
+    "url": "https://github.com/advisories/OSV-2023-800",
+    "score": null,
+    "date": "2023-09-07T14:00:27.693270Z"
+   },
+   {
+    "title": "OSV-2023-55 — Index-out-of-bounds in LibRaw::apply_tiff",
+    "url": "https://github.com/advisories/OSV-2023-55",
+    "score": null,
+    "date": "2023-02-07T13:00:07.438565Z"
+   },
+   {
+    "title": "OSV-2022-1018 — Index-out-of-bounds in LibRaw::kodak_radc_load_raw",
+    "url": "https://github.com/advisories/OSV-2022-1018",
+    "score": null,
+    "date": "2022-10-06T00:02:27.511658Z"
+   },
+   {
+    "title": "OSV-2021-948 — Use-of-uninitialized-value in residual_coding",
+    "url": "https://github.com/advisories/OSV-2021-948",
+    "score": null,
+    "date": "2021-07-10T00:01:12.890029Z"
+   },
+   {
+    "title": "OSV-2021-735 — Use-of-uninitialized-value in decode_CABAC_FL_bypass",
+    "url": "https://github.com/advisories/OSV-2021-735",
+    "score": null,
+    "date": "2021-05-08T00:00:14.355747Z"
+   },
+   {
+    "title": "OSV-2021-586 — Use-of-uninitialized-value in void intra_prediction_angular<unsigned short>",
+    "url": "https://github.com/advisories/OSV-2021-586",
+    "score": null,
+    "date": "2021-03-31T00:01:03.787831Z"
+   },
+   {
+    "title": "OSV-2021-525 — Use-of-uninitialized-value in void edge_filtering_chroma_internal<unsigned char>",
+    "url": "https://github.com/advisories/OSV-2021-525",
+    "score": null,
+    "date": "2021-03-16T00:00:19.176877Z"
    }
   ],
   "kev": [
@@ -409,13 +469,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 648,
+    "stars": 650,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 318,
+    "stars": 320,
     "lang": "Swift"
    },
    {
@@ -427,7 +487,7 @@
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 248,
+    "stars": 296,
     "lang": "Rust"
    },
    {
@@ -457,7 +517,7 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 155,
+    "stars": 156,
     "lang": "JavaScript"
    },
    {
@@ -575,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Scanning malicious websites with arbitrary number of VPN tunnels (Part 2)",
+    "url": "https://www.reddit.com/r/netsec/comments/1uto85z/scanning_malicious_websites_with_arbitrary_number/",
+    "date": "2026-07-11T16:13:28+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
     "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
     "date": "2026-07-09T14:28:00+00:00",
@@ -634,13 +701,6 @@
     "title": "Playing Around With ADIDNS RPC Internals",
     "url": "https://www.reddit.com/r/netsec/comments/1uosc1r/playing_around_with_adidns_rpc_internals/",
     "date": "2026-07-06T09:25:13+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "FIFA was saved this time",
-    "url": "https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/",
-    "date": "2026-07-02T16:14:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
