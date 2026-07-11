@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-07-11T06:28:56.339Z",
+ "generatedAt": "2026-07-11T09:00:47.831Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-2354 — The Swiss Toolkit For WP plugin for WordPress is vulnerable to arbitrary file upload due to a flawed file type validation bypass in the `upl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-2354",
+    "score": 7.5,
+    "date": "2026-07-11T06:31:16Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "title": "CVE-2026-13378 — The Form Vibes – Database Manager for Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Contact Form 7 Form Field ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13378",
+    "score": 7.5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-3576 — The Planyo Online Reservation System plugin for WordPress is vulnerable to Server-Side Request Forgery leading to Local File Inclusion in al",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3576",
+    "score": 7.5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-7655 — The SureCart plugin for WordPress is vulnerable to privilege escalation via account takeover in versions up to, and including, 4.2.3. This i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7655",
+    "score": 7.5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-14262 — The Simple JWT Login – Allows you to use JWT on REST endpoints. plugin for WordPress is vulnerable to Authentication Bypass to Privilege Esc",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14262",
+    "score": 7.5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-13116 — The PDF Invoices & Packing Slips for WooCommerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13116",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-3552 — The SurfLink - Ultimate Link Manager plugin for WordPress is vulnerable to unauthorized data modification due to a missing capability check ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3552",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-15097 — The Themify Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'height_slider' Slider Module Field in all version",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15097",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-1832 — The ThriveDesk – Live Chat, AI Chatbot, Helpdesk & Knowledge Base plugin for WordPress is vulnerable to unauthorized cache deletion due to a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-1832",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-15096 — The Themify Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Map Module 'b_width_map' Field in all versions up ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15096",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-7559 — The Affilia – Affiliate Program & Referral Tracking for WordPress plugin for WordPress is vulnerable to unauthorized access in all versions ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7559",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-6803 — The AI Chatbot & Workflow Automation by AIWU plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and includin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6803",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-9738 — The Print, PDF, Email by PrintFriendly plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'content_position_css' para",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9738",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-13250 — The Solace Extra plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.5.3. This is due to the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13250",
+    "score": 5,
+    "date": "2026-07-11T06:31:16Z"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+    "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+    "date": "Sat, 11 Jul 2026 12:15:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
     "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
     "date": "Fri, 10 Jul 2026 22:00:00 +0530",
@@ -290,13 +369,6 @@
     "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
     "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
     "date": "Fri, 10 Jul 2026 16:00:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
-    "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-    "date": "Fri, 10 Jul 2026 14:30:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,13 +469,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 636,
+    "stars": 639,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 313,
+    "stars": 315,
     "lang": "Swift"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 201,
+    "stars": 202,
     "lang": "TypeScript"
    },
    {
@@ -563,34 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Inside Raton RAT: A Commodity Trojan That Tries to Do Everything",
-    "url": "https://www.reddit.com/r/netsec/comments/1ut205g/inside_raton_rat_a_commodity_trojan_that_tries_to/",
-    "date": "2026-07-10T22:16:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Closing the Timing Gap: Defensive Temporal Observability",
-    "url": "https://www.reddit.com/r/netsec/comments/1uszoli/closing_the_timing_gap_defensive_temporal/",
-    "date": "2026-07-10T20:46:21+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Towards CSI: What's the best harness? (arXiv 2026)",
-    "url": "https://www.reddit.com/r/netsec/comments/1usj1gg/towards_csi_whats_the_best_harness_arxiv_2026/",
-    "date": "2026-07-10T09:49:46+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Can AI-generated adversaries break TTP-based attribution? (arXiv 2026)",
-    "url": "https://www.reddit.com/r/netsec/comments/1uslf2v/can_aigenerated_adversaries_break_ttpbased/",
-    "date": "2026-07-10T11:50:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
     "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
     "date": "2026-07-09T14:28:00+00:00",
@@ -629,6 +673,34 @@
     "title": "Bad Epoll: The bug missed by Mythos",
     "url": "https://www.reddit.com/r/netsec/comments/1uqe6g8/bad_epoll_the_bug_missed_by_mythos/",
     "date": "2026-07-08T01:11:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "New OST2 class: &quot;Architecture 1901: From zero to QEMU - A Gentle introduction to emulators from the ground up!&quot;",
+    "url": "https://www.reddit.com/r/netsec/comments/1uoz05q/new_ost2_class_architecture_1901_from_zero_to/",
+    "date": "2026-07-06T14:30:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Windows Service - Playbook &amp; Detection Strategies",
+    "url": "https://www.reddit.com/r/netsec/comments/1uor6dt/windows_service_playbook_detection_strategies/",
+    "date": "2026-07-06T08:17:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Playing Around With ADIDNS RPC Internals",
+    "url": "https://www.reddit.com/r/netsec/comments/1uosc1r/playing_around_with_adidns_rpc_internals/",
+    "date": "2026-07-06T09:25:13+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "FIFA was saved this time",
+    "url": "https://www.reddit.com/r/netsec/comments/1ulmoyx/fifa_was_saved_this_time/",
+    "date": "2026-07-02T16:14:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
