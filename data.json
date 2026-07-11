@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-07-11T13:57:27.331Z",
+ "generatedAt": "2026-07-11T15:25:41.650Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-57828 — The Joomla extension Phoca Downloads is vulnerable to an authenticated arbitrary file upload that allows registered users uploading executab",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57828",
+    "score": 9.5,
+    "date": "2026-07-11T12:30:23Z"
+   },
+   {
+    "title": "CVE-2026-57827 — The Joomla extension RSFiles is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57827",
+    "score": 9.5,
+    "date": "2026-07-11T12:30:23Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -303,6 +315,13 @@
   ],
   "bleep": [
    {
+    "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+    "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+    "date": "Sat, 11 Jul 2026 10:18:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
     "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
     "date": "Sat, 11 Jul 2026 05:03:57 -0400",
@@ -378,13 +397,6 @@
     "date": "Thu, 09 Jul 2026 18:14:13 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-    "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-    "date": "Thu, 09 Jul 2026 16:10:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +409,13 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 646,
+    "stars": 648,
     "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 316,
+    "stars": 318,
     "lang": "Swift"
    },
    {
@@ -411,6 +423,12 @@
     "url": "https://github.com/adshao/flounder",
     "stars": 309,
     "lang": "TypeScript"
+   },
+   {
+    "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
+    "url": "https://github.com/Brain0-ai/brain0",
+    "stars": 248,
+    "lang": "Rust"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
@@ -441,12 +459,6 @@
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
     "stars": 155,
     "lang": "JavaScript"
-   },
-   {
-    "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
-    "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 136,
-    "lang": "Rust"
    },
    {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
@@ -645,7 +657,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1637,
   "adv": 12,
   "feed": 48
