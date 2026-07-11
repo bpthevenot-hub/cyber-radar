@@ -1,30 +1,90 @@
 {
- "generatedAt": "2026-07-11T00:12:48.802Z",
+ "generatedAt": "2026-07-11T03:46:42.631Z",
  "sources": {
   "cve": [
    {
-    "title": "MAL-2026-10175 — Malicious code in chai-as-doc (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10175",
-    "score": null,
-    "date": "2026-07-10T21:24:50Z"
+    "title": "CVE-2026-20744 — The charging station websocket endpoint accepts connections without proper authentication, which could lead to privilege escalation.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20744",
+    "score": 9.5,
+    "date": "2026-07-11T00:31:50Z"
    },
    {
-    "title": "MAL-2026-10176 — Malicious code in uncaxss (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10176",
-    "score": null,
-    "date": "2026-07-10T21:24:28Z"
+    "title": "CVE-2026-13756 — The WP Grid Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.3.3. This is due to m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13756",
+    "score": 7.5,
+    "date": "2026-07-11T02:32:45Z"
    },
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-42952 — Previously, there was no throttling on repeated authentication attempts to the charging station backend, which could allow an attacker to ex",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42952",
+    "score": 7.5,
+    "date": "2026-07-11T00:31:50Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "title": "CVE-2026-44383 — Multiple connections to the backend using the same charging station ID are allowed, which could allow an attacker to deploy multiple instanc",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44383",
+    "score": 7.5,
+    "date": "2026-07-11T00:31:50Z"
+   },
+   {
+    "title": "CVE-2026-14480 — OpenPLC Runtime v3 contains an authenticated arbitrary file write vulnerability in the legacy web UI program‑upload workflow. The applicatio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14480",
+    "score": 7.5,
+    "date": "2026-07-11T00:31:49Z"
+   },
+   {
+    "title": "CVE-2026-11426 — The UnderConstructionPage PRO plugin for WordPress is vulnerable to Arbitrary File Read in all versions up to, and including, 5.76. This is ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11426",
+    "score": 5,
+    "date": "2026-07-11T02:32:45Z"
+   },
+   {
+    "title": "CVE-2026-49844 — Improper encoding of non-finite floating-point values during MapMessage JSON serialization in Apache Log4j API produces output that is not v",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49844",
+    "score": 5,
+    "date": "2026-07-11T00:31:48Z"
+   },
+   {
+    "title": "CVE-2026-15087 — vulnerability in Drupal Clean RESTful allows . This issue affects Clean RESTful versions: *.*.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15087",
     "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "date": "2026-07-11T00:31:50Z"
+   },
+   {
+    "title": "CVE-2026-15089 — vulnerability in Drupal Commerce guest registration allows . This issue affects Commerce guest registration versions: *.*.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15089",
+    "score": null,
+    "date": "2026-07-11T00:31:50Z"
+   },
+   {
+    "title": "CVE-2026-14286 — Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14286",
+    "score": null,
+    "date": "2026-07-11T00:31:49Z"
+   },
+   {
+    "title": "CVE-2026-58591 — Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Colorbox allows Cross-Site Scri",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58591",
+    "score": null,
+    "date": "2026-07-11T00:31:49Z"
+   },
+   {
+    "title": "CVE-2026-58589 — Missing Authorization vulnerability in Drupal FlowDrop allows Forceful Browsing. This issue affects FlowDrop versions: from 0.0.0 to 1.6.0.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58589",
+    "score": null,
+    "date": "2026-07-11T00:31:49Z"
+   },
+   {
+    "title": "CVE-2026-15086 — vulnerability in Drupal Raw Formatter [Meta Tag Formatter] allows . This issue affects Raw Formatter [Meta Tag Formatter] versions: *.*.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15086",
+    "score": null,
+    "date": "2026-07-11T00:31:49Z"
+   },
+   {
+    "title": "CVE-2026-58587 — Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal Drupal Canvas allows Cross-Site",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58587",
+    "score": null,
+    "date": "2026-07-11T00:31:49Z"
    }
   ],
   "kev": [
@@ -409,7 +469,7 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 626,
+    "stars": 632,
     "lang": "—"
    },
    {
@@ -469,7 +529,7 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 117,
+    "stars": 118,
     "lang": "JavaScript"
    }
   ],
@@ -575,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Closing the Timing Gap: Defensive Temporal Observability",
-    "url": "https://www.reddit.com/r/netsec/comments/1uszoli/closing_the_timing_gap_defensive_temporal/",
-    "date": "2026-07-10T20:46:21+00:00",
+    "title": "Inside Raton RAT: A Commodity Trojan That Tries to Do Everything",
+    "url": "https://www.reddit.com/r/netsec/comments/1ut205g/inside_raton_rat_a_commodity_trojan_that_tries_to/",
+    "date": "2026-07-10T22:16:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Inside Raton RAT: A Commodity Trojan That Tries to Do Everything",
-    "url": "https://www.reddit.com/r/netsec/comments/1ut205g/inside_raton_rat_a_commodity_trojan_that_tries_to/",
-    "date": "2026-07-10T22:16:31+00:00",
+    "title": "Closing the Timing Gap: Defensive Temporal Observability",
+    "url": "https://www.reddit.com/r/netsec/comments/1uszoli/closing_the_timing_gap_defensive_temporal/",
+    "date": "2026-07-10T20:46:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 1,
   "kev": 1637,
   "adv": 12,
   "feed": 48
