@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-07-11T17:24:58.629Z",
+ "generatedAt": "2026-07-11T19:35:06.218Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-57828 — The Joomla extension Phoca Downloads is vulnerable to an authenticated arbitrary file upload that allows registered users uploading executab",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57828",
-    "score": 9.5,
-    "date": "2026-07-11T12:30:23Z"
-   },
-   {
-    "title": "CVE-2026-57827 — The Joomla extension RSFiles is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to f",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57827",
-    "score": 9.5,
-    "date": "2026-07-11T12:30:23Z"
-   },
-   {
-    "title": "OSV-2025-266 — Heap-buffer-overflow in lj_buf_ruleb128",
-    "url": "https://github.com/advisories/OSV-2025-266",
-    "score": null,
-    "date": "2025-04-08T00:17:06.279554Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -31,60 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "OSV-2024-679 — Heap-buffer-overflow in readImage4v2",
-    "url": "https://github.com/advisories/OSV-2024-679",
-    "score": null,
-    "date": "2024-07-25T00:14:34.485446Z"
-   },
-   {
-    "title": "OSV-2024-245 — Security exception in com.github.javaparser.ast.validator.TreeVisitorValidator.accept",
-    "url": "https://github.com/advisories/OSV-2024-245",
-    "score": null,
-    "date": "2024-04-08T00:11:03.595756Z"
-   },
-   {
-    "title": "OSV-2023-800 — Heap-buffer-overflow in XCFImageFormat::loadTileRLE",
-    "url": "https://github.com/advisories/OSV-2023-800",
-    "score": null,
-    "date": "2023-09-07T14:00:27.693270Z"
-   },
-   {
-    "title": "OSV-2023-55 — Index-out-of-bounds in LibRaw::apply_tiff",
-    "url": "https://github.com/advisories/OSV-2023-55",
-    "score": null,
-    "date": "2023-02-07T13:00:07.438565Z"
-   },
-   {
-    "title": "OSV-2022-1018 — Index-out-of-bounds in LibRaw::kodak_radc_load_raw",
-    "url": "https://github.com/advisories/OSV-2022-1018",
-    "score": null,
-    "date": "2022-10-06T00:02:27.511658Z"
-   },
-   {
-    "title": "OSV-2021-948 — Use-of-uninitialized-value in residual_coding",
-    "url": "https://github.com/advisories/OSV-2021-948",
-    "score": null,
-    "date": "2021-07-10T00:01:12.890029Z"
-   },
-   {
-    "title": "OSV-2021-735 — Use-of-uninitialized-value in decode_CABAC_FL_bypass",
-    "url": "https://github.com/advisories/OSV-2021-735",
-    "score": null,
-    "date": "2021-05-08T00:00:14.355747Z"
-   },
-   {
-    "title": "OSV-2021-586 — Use-of-uninitialized-value in void intra_prediction_angular<unsigned short>",
-    "url": "https://github.com/advisories/OSV-2021-586",
-    "score": null,
-    "date": "2021-03-31T00:01:03.787831Z"
-   },
-   {
-    "title": "OSV-2021-525 — Use-of-uninitialized-value in void edge_filtering_chroma_internal<unsigned char>",
-    "url": "https://github.com/advisories/OSV-2021-525",
-    "score": null,
-    "date": "2021-03-16T00:00:19.176877Z"
    }
   ],
   "kev": [
@@ -289,6 +217,20 @@
   ],
   "thn": [
    {
+    "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+    "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+    "date": "Sat, 11 Jul 2026 23:29:26 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+    "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+    "date": "Sat, 11 Jul 2026 23:19:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
     "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
     "date": "Sat, 11 Jul 2026 12:15:55 +0530",
@@ -355,20 +297,6 @@
     "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
     "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
     "date": "Fri, 10 Jul 2026 17:00:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
-    "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-    "date": "Fri, 10 Jul 2026 16:26:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-    "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-    "date": "Fri, 10 Jul 2026 16:00:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -469,8 +397,14 @@
    {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 650,
+    "stars": 653,
     "lang": "—"
+   },
+   {
+    "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
+    "url": "https://github.com/Brain0-ai/brain0",
+    "stars": 327,
+    "lang": "Rust"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker. Unlock your Mac apps using Face , TouchID or passw",
@@ -483,12 +417,6 @@
     "url": "https://github.com/adshao/flounder",
     "stars": 309,
     "lang": "TypeScript"
-   },
-   {
-    "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
-    "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 296,
-    "lang": "Rust"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
@@ -517,13 +445,13 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 156,
+    "stars": 157,
     "lang": "JavaScript"
    },
    {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
     "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 123,
+    "stars": 124,
     "lang": "Python"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1637,
   "adv": 12,
   "feed": 48
