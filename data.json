@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-07-20T18:23:20.650Z",
+ "generatedAt": "2026-07-20T20:43:33.960Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-7143 — Pulp incorrectly assigns RBAC permissions in tasks that create objects",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-7143",
+    "score": null,
+    "date": "2026-07-07T14:34:38.535044Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -131,6 +137,55 @@
   ],
   "adv": [
    {
+    "title": "Composer: Arbitrary file write outside vendor via malicious transitive package name",
+    "url": "https://github.com/advisories/GHSA-499r-g7pc-vmp9",
+    "score": 7,
+    "ghsa": "GHSA-499r-g7pc-vmp9",
+    "date": "2026-07-20T19:15:29Z"
+   },
+   {
+    "title": "vLLM denial of service via prompt embeds on M-RoPE models",
+    "url": "https://github.com/advisories/GHSA-33cg-gxv8-3p8g",
+    "score": 7.5,
+    "ghsa": "GHSA-33cg-gxv8-3p8g",
+    "date": "2026-07-20T19:13:07Z"
+   },
+   {
+    "title": "pillow-heif: Integer Overflow in Encode Path Buffer Validation Leads to Heap Out-of-Bounds Read",
+    "url": "https://github.com/advisories/GHSA-5gjj-6r7v-ph3x",
+    "score": null,
+    "ghsa": "GHSA-5gjj-6r7v-ph3x",
+    "date": "2026-07-20T19:08:04Z"
+   },
+   {
+    "title": "changedetection.io is vulnerable to unauthenticated static path traversal",
+    "url": "https://github.com/advisories/GHSA-9jj8-v89v-xjvw",
+    "score": 5.3,
+    "ghsa": "GHSA-9jj8-v89v-xjvw",
+    "date": "2026-07-20T19:06:55Z"
+   },
+   {
+    "title": "Tornado: Quadratic DoS via Crafted Multipart Parameters",
+    "url": "https://github.com/advisories/GHSA-jhmp-mqwm-3gq8",
+    "score": 7.5,
+    "ghsa": "GHSA-jhmp-mqwm-3gq8",
+    "date": "2026-07-20T18:57:54Z"
+   },
+   {
+    "title": "Tornado: Quadratic DoS via Repeated Header Coalescing",
+    "url": "https://github.com/advisories/GHSA-c98p-7wgm-6p64",
+    "score": 7.5,
+    "ghsa": "GHSA-c98p-7wgm-6p64",
+    "date": "2026-07-20T18:57:34Z"
+   },
+   {
+    "title": "Tornado vulnerable to Header Injection and XSS via reason argument",
+    "url": "https://github.com/advisories/GHSA-pr2v-jx2c-wg9f",
+    "score": 5.4,
+    "ghsa": "GHSA-pr2v-jx2c-wg9f",
+    "date": "2026-07-20T18:55:11Z"
+   },
+   {
     "title": "Axios: Excessive recursion in formDataToJSON can cause denial of service",
     "url": "https://github.com/advisories/GHSA-42h9-826w-cgv3",
     "score": null,
@@ -164,58 +219,16 @@
     "score": 5.7,
     "ghsa": "GHSA-5587-2x54-jj6h",
     "date": "2026-07-17T21:46:18Z"
-   },
-   {
-    "title": "CloudTAK: Authenticated full-read SSRF in the /api/esri* routes — user-controlled URL fetched with no IP-classification guard",
-    "url": "https://github.com/advisories/GHSA-r95q-fp26-h3hc",
-    "score": 7.5,
-    "ghsa": "GHSA-r95q-fp26-h3hc",
-    "date": "2026-07-17T21:35:10Z"
-   },
-   {
-    "title": "PocketSphinx: Buffer overflows in language and acoustic model loading code",
-    "url": "https://github.com/advisories/GHSA-56r5-2p2f-7cxp",
-    "score": null,
-    "ghsa": "GHSA-56r5-2p2f-7cxp",
-    "date": "2026-07-17T21:19:17Z"
-   },
-   {
-    "title": "AngleSharp HTML5 Spec Compliance: mXSS via annotation-xml HTML Integration Point Bypass",
-    "url": "https://github.com/advisories/GHSA-pgww-w46g-26qg",
-    "score": 6.9,
-    "ghsa": "GHSA-pgww-w46g-26qg",
-    "date": "2026-07-17T21:17:10Z"
-   },
-   {
-    "title": "PRoot-Distro has Path Traversal in proot-distro copy — Arbitrary Read, Write, and Persistent Code Execution Outside Container Rootfs",
-    "url": "https://github.com/advisories/GHSA-mfr4-mq8w-vmg6",
-    "score": 6.6,
-    "ghsa": "GHSA-mfr4-mq8w-vmg6",
-    "date": "2026-07-17T20:25:37Z"
-   },
-   {
-    "title": "ExifReader HEIC/AVIF ISO-BMFF parser throws uncaught RangeError on truncated boxes",
-    "url": "https://github.com/advisories/GHSA-g77h-45rf-hcx4",
-    "score": 5.3,
-    "ghsa": "GHSA-g77h-45rf-hcx4",
-    "date": "2026-07-17T20:19:39Z"
-   },
-   {
-    "title": "Flask-Reuploaded: Extension-denylist bypass via case-folding asymmetry in name-override path (incomplete-fix variant of CVE-2026-27641)",
-    "url": "https://github.com/advisories/GHSA-937x-gpqr-72gg",
-    "score": 7.5,
-    "ghsa": "GHSA-937x-gpqr-72gg",
-    "date": "2026-07-17T20:11:35Z"
-   },
-   {
-    "title": "Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
-    "url": "https://github.com/advisories/GHSA-c4gh-rv8h-q9vw",
-    "score": 7.5,
-    "ghsa": "GHSA-c4gh-rv8h-q9vw",
-    "date": "2026-07-17T19:53:34Z"
    }
   ],
   "thn": [
+   {
+    "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+    "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+    "date": "Mon, 20 Jul 2026 23:53:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
     "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
@@ -290,13 +303,6 @@
     "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
     "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
     "date": "Sun, 19 Jul 2026 19:00:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-    "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
-    "date": "Sun, 19 Jul 2026 18:48:56 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,7 +403,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 466,
+    "stars": 471,
     "lang": "—"
    },
    {
@@ -409,7 +415,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 342,
+    "stars": 343,
     "lang": "Swift"
    },
    {
@@ -421,7 +427,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 270,
+    "stars": 273,
     "lang": "Java"
    },
    {
@@ -570,13 +576,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Escalating All The Privileges With Foxit PDF Reader (CVE-2026–57239)",
-    "url": "https://www.reddit.com/r/netsec/comments/1v1ffuz/escalating_all_the_privileges_with_foxit_pdf/",
-    "date": "2026-07-20T08:19:53+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Post-Compilation Obfuscation Is Outdated: Moving Polymorphism Directly into CMake",
     "url": "https://www.reddit.com/r/netsec/comments/1v1ql9a/postcompilation_obfuscation_is_outdated_moving/",
     "date": "2026-07-20T16:36:56+00:00",
@@ -587,6 +586,13 @@
     "title": "Crawling the Complete IPv4 Reverse DNS Space",
     "url": "https://www.reddit.com/r/netsec/comments/1v1o8ci/crawling_the_complete_ipv4_reverse_dns_space/",
     "date": "2026-07-20T15:09:12+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Escalating All The Privileges With Foxit PDF Reader (CVE-2026–57239)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v1ffuz/escalating_all_the_privileges_with_foxit_pdf/",
+    "date": "2026-07-20T08:19:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
