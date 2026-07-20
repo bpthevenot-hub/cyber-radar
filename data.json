@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T00:13:36.939Z",
+ "generatedAt": "2026-07-20T16:03:04.627Z",
  "sources": {
   "cve": [
    {
@@ -131,334 +131,334 @@
   ],
   "adv": [
    {
-    "title": "TSDProxy: Internal proxy auth token forwarded to backend services enables management API escalation",
-    "url": "https://github.com/advisories/GHSA-g936-7jqj-mwv8",
-    "score": 9,
-    "ghsa": "GHSA-g936-7jqj-mwv8",
-    "date": "2026-07-10T21:43:13Z"
+    "title": "Skipper: Incomplete fix for CVE-2026-50197: an oversized body can bypass OPA deny-on-presence Rego policies",
+    "url": "https://github.com/advisories/GHSA-8qqm-fp2q-v734",
+    "score": 8.2,
+    "ghsa": "GHSA-8qqm-fp2q-v734",
+    "date": "2026-07-17T21:49:48Z"
    },
    {
-    "title": "melange: Incomplete package integrity verification allows data section substitution",
-    "url": "https://github.com/advisories/GHSA-fpg8-7664-jc5q",
-    "score": 8.3,
-    "ghsa": "GHSA-fpg8-7664-jc5q",
-    "date": "2026-07-10T21:43:05Z"
+    "title": "Skipper's routesrv-no-auth component: All routesrv API Endpoints Lack Authentication",
+    "url": "https://github.com/advisories/GHSA-5587-2x54-jj6h",
+    "score": 5.7,
+    "ghsa": "GHSA-5587-2x54-jj6h",
+    "date": "2026-07-17T21:46:18Z"
    },
    {
-    "title": "Excon does not redact additional sensitive/risky headers when following redirects",
-    "url": "https://github.com/advisories/GHSA-48rx-c7pg-q66r",
-    "score": 6.5,
-    "ghsa": "GHSA-48rx-c7pg-q66r",
-    "date": "2026-07-10T20:37:29Z"
-   },
-   {
-    "title": "Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
-    "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
+    "title": "CloudTAK: Authenticated full-read SSRF in the /api/esri* routes — user-controlled URL fetched with no IP-classification guard",
+    "url": "https://github.com/advisories/GHSA-r95q-fp26-h3hc",
     "score": 7.5,
-    "ghsa": "GHSA-h4g2-xfmw-q2c9",
-    "date": "2026-07-10T20:37:23Z"
+    "ghsa": "GHSA-r95q-fp26-h3hc",
+    "date": "2026-07-17T21:35:10Z"
    },
    {
-    "title": "Secure Headers: CSP directive injection via sandbox, plugin_types, and report_to when given untrusted input",
-    "url": "https://github.com/advisories/GHSA-rqq5-2gf9-4w4q",
-    "score": 4.7,
-    "ghsa": "GHSA-rqq5-2gf9-4w4q",
-    "date": "2026-07-10T20:37:15Z"
+    "title": "PocketSphinx: Buffer overflows in language and acoustic model loading code",
+    "url": "https://github.com/advisories/GHSA-56r5-2p2f-7cxp",
+    "score": null,
+    "ghsa": "GHSA-56r5-2p2f-7cxp",
+    "date": "2026-07-17T21:19:17Z"
    },
    {
-    "title": "SiYuan: Stored XSS to RCE via Unsanitized Attribute View Asset Cell Content",
-    "url": "https://github.com/advisories/GHSA-56mp-4f3v-fgj2",
-    "score": 9.9,
-    "ghsa": "GHSA-56mp-4f3v-fgj2",
-    "date": "2026-07-10T20:37:04Z"
+    "title": "AngleSharp HTML5 Spec Compliance: mXSS via annotation-xml HTML Integration Point Bypass",
+    "url": "https://github.com/advisories/GHSA-pgww-w46g-26qg",
+    "score": 6.9,
+    "ghsa": "GHSA-pgww-w46g-26qg",
+    "date": "2026-07-17T21:17:10Z"
    },
    {
-    "title": "prestashop/ps_facetedsearch: PHP Object Injection in faceted search cache allows unauthenticated RCE",
-    "url": "https://github.com/advisories/GHSA-m5f5-28qr-9g9r",
-    "score": 10,
-    "ghsa": "GHSA-m5f5-28qr-9g9r",
-    "date": "2026-07-10T20:36:56Z"
+    "title": "PRoot-Distro has Path Traversal in proot-distro copy — Arbitrary Read, Write, and Persistent Code Execution Outside Container Rootfs",
+    "url": "https://github.com/advisories/GHSA-mfr4-mq8w-vmg6",
+    "score": 6.6,
+    "ghsa": "GHSA-mfr4-mq8w-vmg6",
+    "date": "2026-07-17T20:25:37Z"
    },
    {
-    "title": "SiYuan: Stored XSS to RCE via attribute-view cell rendering in genAVValueHTML()",
-    "url": "https://github.com/advisories/GHSA-5xfx-xj4h-5p7r",
-    "score": 9.9,
-    "ghsa": "GHSA-5xfx-xj4h-5p7r",
-    "date": "2026-07-10T19:34:53Z"
+    "title": "ExifReader HEIC/AVIF ISO-BMFF parser throws uncaught RangeError on truncated boxes",
+    "url": "https://github.com/advisories/GHSA-g77h-45rf-hcx4",
+    "score": 5.3,
+    "ghsa": "GHSA-g77h-45rf-hcx4",
+    "date": "2026-07-17T20:19:39Z"
    },
    {
-    "title": "mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
-    "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
-    "score": 7.7,
-    "ghsa": "GHSA-g5r6-gv6m-f5jv",
-    "date": "2026-07-10T19:34:37Z"
+    "title": "Flask-Reuploaded: Extension-denylist bypass via case-folding asymmetry in name-override path (incomplete-fix variant of CVE-2026-27641)",
+    "url": "https://github.com/advisories/GHSA-937x-gpqr-72gg",
+    "score": 7.5,
+    "ghsa": "GHSA-937x-gpqr-72gg",
+    "date": "2026-07-17T20:11:35Z"
    },
    {
-    "title": "mcp-atlassian: Arbitrary server-side file read via attachment upload",
-    "url": "https://github.com/advisories/GHSA-wm45-qh3g-v83f",
-    "score": 7.7,
-    "ghsa": "GHSA-wm45-qh3g-v83f",
-    "date": "2026-07-10T19:34:30Z"
+    "title": "Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
+    "url": "https://github.com/advisories/GHSA-c4gh-rv8h-q9vw",
+    "score": 7.5,
+    "ghsa": "GHSA-c4gh-rv8h-q9vw",
+    "date": "2026-07-17T19:53:34Z"
    },
    {
-    "title": "SafeInstall agent guard shell parsing can miss raw package execution",
-    "url": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x",
-    "score": 8.8,
-    "ghsa": "GHSA-xrmc-c5cg-rv7x",
-    "date": "2026-07-10T19:34:14Z"
+    "title": "Prompty: Arbitrary file read via file reference expansion",
+    "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+    "score": 7.5,
+    "ghsa": "GHSA-wxhm-2mq7-7697",
+    "date": "2026-07-17T19:46:05Z"
    },
    {
-    "title": "NotrinosERP: Authenticated arbitrary file upload leads to remote code execution via HRM employee \"Documents\" (doc_file)",
-    "url": "https://github.com/advisories/GHSA-qv4m-m73m-8hj7",
-    "score": 8.8,
-    "ghsa": "GHSA-qv4m-m73m-8hj7",
-    "date": "2026-07-10T19:34:03Z"
+    "title": "mcp-memory-keeper: Arbitrary local file read in context_import via unvalidated filePath",
+    "url": "https://github.com/advisories/GHSA-f7wf-v2vw-mpcx",
+    "score": 6.2,
+    "ghsa": "GHSA-f7wf-v2vw-mpcx",
+    "date": "2026-07-17T19:23:07Z"
+   },
+   {
+    "title": "Formie: Missing authorization in administrative settings allows low-privileged CP users to modify plugin configuration",
+    "url": "https://github.com/advisories/GHSA-cvpc-hccg-wmw4",
+    "score": 6.3,
+    "ghsa": "GHSA-cvpc-hccg-wmw4",
+    "date": "2026-07-17T19:05:57Z"
    }
   ],
   "thn": [
    {
-    "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-    "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-    "date": "Sat, 11 Jul 2026 23:29:26 +0530",
+    "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+    "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+    "date": "Mon, 20 Jul 2026 20:03:43 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-    "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-    "date": "Sat, 11 Jul 2026 23:19:31 +0530",
+    "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+    "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+    "date": "Mon, 20 Jul 2026 19:02:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-    "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-    "date": "Sat, 11 Jul 2026 12:15:55 +0530",
+    "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+    "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+    "date": "Mon, 20 Jul 2026 17:43:39 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-    "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-    "date": "Fri, 10 Jul 2026 22:00:00 +0530",
+    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+    "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+    "date": "Mon, 20 Jul 2026 17:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-    "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-    "date": "Fri, 10 Jul 2026 21:59:00 +0530",
+    "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+    "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+    "date": "Mon, 20 Jul 2026 14:40:56 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-    "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-    "date": "Fri, 10 Jul 2026 21:27:14 +0530",
+    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+    "date": "Mon, 20 Jul 2026 14:37:11 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
-    "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-    "date": "Fri, 10 Jul 2026 20:21:49 +0530",
+    "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+    "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+    "date": "Mon, 20 Jul 2026 10:57:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
-    "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
-    "date": "Fri, 10 Jul 2026 19:49:50 +0530",
+    "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+    "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+    "date": "Mon, 20 Jul 2026 10:45:39 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-    "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-    "date": "Fri, 10 Jul 2026 18:45:23 +0530",
+    "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+    "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+    "date": "Mon, 20 Jul 2026 02:12:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
-    "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-    "date": "Fri, 10 Jul 2026 17:17:43 +0530",
+    "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+    "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+    "date": "Sun, 19 Jul 2026 19:00:55 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
-    "url": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
-    "date": "Fri, 10 Jul 2026 17:09:40 +0530",
+    "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+    "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+    "date": "Sun, 19 Jul 2026 18:48:56 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
-    "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-    "date": "Fri, 10 Jul 2026 17:00:02 +0530",
+    "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+    "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+    "date": "Sat, 18 Jul 2026 02:50:10 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
   ],
   "bleep": [
    {
-    "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-    "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-    "date": "Sat, 11 Jul 2026 10:18:23 -0400",
+    "title": "An AI SOC Evaluation Guide for Security Leaders",
+    "url": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
+    "date": "Mon, 20 Jul 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-    "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-    "date": "Sat, 11 Jul 2026 05:03:57 -0400",
+    "title": "Hugging Face warns an autonomous AI agent hacked its network",
+    "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+    "date": "Mon, 20 Jul 2026 07:56:28 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "New U-Boot flaws could enable stealthy firmware attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-    "date": "Fri, 10 Jul 2026 17:59:02 -0400",
+    "title": "Microsoft confirms Windows Server Update Services sync delays",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+    "date": "Mon, 20 Jul 2026 06:47:28 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-    "date": "Fri, 10 Jul 2026 13:46:10 -0400",
+    "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
+    "date": "Mon, 20 Jul 2026 06:06:17 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Police suspects Dutch hackers were involved in Odido breach",
-    "url": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-    "date": "Fri, 10 Jul 2026 12:37:01 -0400",
+    "title": "Critical ServiceNow code execution flaw now exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+    "date": "Mon, 20 Jul 2026 05:29:20 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
-    "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
-    "date": "Fri, 10 Jul 2026 12:26:10 -0400",
+    "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+    "date": "Sun, 19 Jul 2026 10:23:46 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-    "date": "Fri, 10 Jul 2026 11:48:38 -0400",
+    "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+    "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+    "date": "Sat, 18 Jul 2026 15:32:02 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Money launderer accused of stealing seized crypto while in prison",
-    "url": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
-    "date": "Fri, 10 Jul 2026 11:30:19 -0400",
+    "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+    "date": "Sat, 18 Jul 2026 13:22:47 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
-    "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-    "date": "Fri, 10 Jul 2026 10:00:10 -0400",
+    "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+    "date": "Sat, 18 Jul 2026 10:17:19 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Zimbra urges customers to patch critical web client XSS flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
-    "date": "Fri, 10 Jul 2026 07:47:38 -0400",
+    "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+    "url": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+    "date": "Sat, 18 Jul 2026 09:15:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
-    "date": "Fri, 10 Jul 2026 04:17:52 -0400",
+    "title": "Abbott probes two cyber incidents amid extortion claims",
+    "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+    "date": "Fri, 17 Jul 2026 16:45:52 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "OpenMandriva Linux says contributor tried to sabotage the project",
-    "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-    "date": "Thu, 09 Jul 2026 18:14:13 -0400",
+    "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+    "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+    "date": "Fri, 17 Jul 2026 13:56:21 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
-    "title": "Albert-Weasker/niubi_guard — Open-source GitHub repository abuse detection and response system.",
-    "url": "https://github.com/Albert-Weasker/niubi_guard",
-    "stars": 1302,
-    "lang": "TypeScript"
-   },
-   {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
-    "stars": 660,
+    "stars": 878,
     "lang": "—"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 345,
+    "stars": 465,
     "lang": "Rust"
+   },
+   {
+    "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
+    "url": "https://github.com/google/mantis",
+    "stars": 463,
+    "lang": "—"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 321,
+    "stars": 342,
     "lang": "Swift"
    },
    {
-    "title": "adshao/flounder — Autonomous white-hat security auditor for AI-driven code review, bug bounty research, exploit construction, an",
-    "url": "https://github.com/adshao/flounder",
-    "stars": 309,
+    "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
+    "url": "https://github.com/okasi/bot-signal",
+    "stars": 311,
+    "lang": "TypeScript"
+   },
+   {
+    "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
+    "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
+    "stars": 269,
+    "lang": "Java"
+   },
+   {
+    "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
+    "url": "https://github.com/badchars/darknet-mcp-server",
+    "stars": 256,
     "lang": "TypeScript"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 223,
+    "stars": 224,
     "lang": "Python"
-   },
-   {
-    "title": "flythenimbus/bramble — Local-first, encrypted password manager.",
-    "url": "https://github.com/flythenimbus/bramble",
-    "stars": 220,
-    "lang": "TypeScript"
-   },
-   {
-    "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
-    "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 203,
-    "lang": "TypeScript"
-   },
-   {
-    "title": "DSB-117/brainblast — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wr",
-    "url": "https://github.com/DSB-117/brainblast",
-    "stars": 167,
-    "lang": "TypeScript"
    },
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 157,
+    "stars": 159,
     "lang": "JavaScript"
-   },
-   {
-    "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
-    "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 124,
-    "lang": "Python"
    },
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 119,
+    "stars": 151,
     "lang": "JavaScript"
+   },
+   {
+    "title": "m-novotny/memguard-rs — Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time compa",
+    "url": "https://github.com/m-novotny/memguard-rs",
+    "stars": 131,
+    "lang": "Rust"
+   },
+   {
+    "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
+    "url": "https://github.com/SantanderAI/autoguardrails",
+    "stars": 125,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -563,72 +563,72 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Scanning malicious websites with arbitrary number of VPN tunnels (Part 2)",
-    "url": "https://www.reddit.com/r/netsec/comments/1uto85z/scanning_malicious_websites_with_arbitrary_number/",
-    "date": "2026-07-11T16:13:28+00:00",
+    "title": "Exploit brokers pay $500,000 for a WordPress RCE. I found one with GPT5.6 Sol Ultra and $25",
+    "url": "https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/",
+    "date": "2026-07-20T08:12:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
-    "url": "https://www.reddit.com/r/netsec/comments/1urrw3w/suspected_russian_threat_actor_impersonates/",
-    "date": "2026-07-09T14:28:00+00:00",
+    "title": "Escalating All The Privileges With Foxit PDF Reader (CVE-2026–57239)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v1ffuz/escalating_all_the_privileges_with_foxit_pdf/",
+    "date": "2026-07-20T08:19:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "1 in 2 devices sold in Africa exfiltrate data to China",
-    "url": "https://www.reddit.com/r/netsec/comments/1ur02bp/1_in_2_devices_sold_in_africa_exfiltrate_data_to/",
-    "date": "2026-07-08T17:49:21+00:00",
+    "title": "Interstitial Risk: When Two Correct Systems Make One Vulnerable One",
+    "url": "https://www.reddit.com/r/netsec/comments/1v1p5k7/interstitial_risk_when_two_correct_systems_make/",
+    "date": "2026-07-20T15:43:49+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Drift Corpus: binary diffs of 240+ 2026 Windows kernel patches",
-    "url": "https://www.reddit.com/r/netsec/comments/1uqxlxq/drift_corpus_binary_diffs_of_240_2026_windows/",
-    "date": "2026-07-08T16:24:55+00:00",
+    "title": "Crawling the Complete IPv4 Reverse DNS Space",
+    "url": "https://www.reddit.com/r/netsec/comments/1v1o8ci/crawling_the_complete_ipv4_reverse_dns_space/",
+    "date": "2026-07-20T15:09:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Inside an AI coal mine security camera network powered by plaintext passwords",
-    "url": "https://www.reddit.com/r/netsec/comments/1uqz7se/inside_an_ai_coal_mine_security_camera_network/",
-    "date": "2026-07-08T17:20:10+00:00",
+    "title": "Multiple Chinese civic apps share one reward/lottery backend whose signing secret is recoverable",
+    "url": "https://www.reddit.com/r/netsec/comments/1v09pze/multiple_chinese_civic_apps_share_one/",
+    "date": "2026-07-18T22:46:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "GitLost: a public GitHub issue can steer an org's Agentic Workflow into leaking private repo contents, and a one-word prefix (&quot;Additionally&quot;) bypassed",
-    "url": "https://www.reddit.com/r/netsec/comments/1upy3gm/gitlost_a_public_github_issue_can_steer_an_orgs/",
-    "date": "2026-07-07T15:16:22+00:00",
+    "title": "wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner",
+    "url": "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
+    "date": "2026-07-18T21:17:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Bad Epoll: The bug missed by Mythos",
-    "url": "https://www.reddit.com/r/netsec/comments/1uqe6g8/bad_epoll_the_bug_missed_by_mythos/",
-    "date": "2026-07-08T01:11:45+00:00",
+    "title": "Pixels to Payload: Dissecting a Four-Stage Bitmap-Steganography Dropper Delivering AsyncRAT :: Rhys Downing",
+    "url": "https://www.reddit.com/r/netsec/comments/1v01uhq/pixels_to_payload_dissecting_a_fourstage/",
+    "date": "2026-07-18T17:26:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "New OST2 class: &quot;Architecture 1901: From zero to QEMU - A Gentle introduction to emulators from the ground up!&quot;",
-    "url": "https://www.reddit.com/r/netsec/comments/1uoz05q/new_ost2_class_architecture_1901_from_zero_to/",
-    "date": "2026-07-06T14:30:31+00:00",
+    "title": "wp2shell: Pre Authentication RCE in WordPress Core",
+    "url": "https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/",
+    "date": "2026-07-18T01:13:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Windows Service - Playbook &amp; Detection Strategies",
-    "url": "https://www.reddit.com/r/netsec/comments/1uor6dt/windows_service_playbook_detection_strategies/",
-    "date": "2026-07-06T08:17:14+00:00",
+    "title": "Keeping private namespaces private - Quad9 blog",
+    "url": "https://www.reddit.com/r/netsec/comments/1uzhprd/keeping_private_namespaces_private_quad9_blog/",
+    "date": "2026-07-18T01:00:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Playing Around With ADIDNS RPC Internals",
-    "url": "https://www.reddit.com/r/netsec/comments/1uosc1r/playing_around_with_adidns_rpc_internals/",
-    "date": "2026-07-06T09:25:13+00:00",
+    "title": "Openwrt pre-auth remote root exploit",
+    "url": "https://www.reddit.com/r/netsec/comments/1uz8qh3/openwrt_preauth_remote_root_exploit/",
+    "date": "2026-07-17T18:56:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 0,
-  "kev": 1637,
+  "kev": 1647,
   "adv": 12,
   "feed": 48
  },
