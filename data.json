@@ -1,90 +1,66 @@
 {
- "generatedAt": "2026-07-20T23:27:33.020Z",
+ "generatedAt": "2026-07-21T03:50:36.408Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-47304 — Microsoft Security Advisory CVE-2026-47304 – .NET Security Feature Bypass Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47304",
+    "title": "CVE-2026-6952 — A post-authentication command injection vulnerability in the \"LogServer\" field of the syslog component in Zyxel AX7501-B1 firmware versions ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6952",
     "score": 7.5,
-    "date": "2026-07-20T22:44:42Z"
+    "date": "2026-07-21T03:32:09Z"
    },
    {
-    "title": "CVE-2026-47302 — Microsoft Security Advisory CVE-2026-47302 – .NET Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47302",
+    "title": "CVE-2026-14476 — A path traversal flaw was found in SSSD's AD GPO provider. The ad_gpo_extract_smb_components() function does not sanitize .. sequences in th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14476",
     "score": 7.5,
-    "date": "2026-07-20T22:42:04Z"
+    "date": "2026-07-07T12:31:35Z"
    },
    {
-    "title": "CVE-2026-57108 — Microsoft Security Advisory CVE-2026-57108 – .NET Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57108",
-    "score": 7.5,
-    "date": "2026-07-20T22:41:42Z"
-   },
-   {
-    "title": "GHSA-gcfj-64vw-6mp9 — Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning",
-    "url": "https://github.com/advisories/GHSA-gcfj-64vw-6mp9",
-    "score": 7.5,
-    "date": "2026-07-20T22:40:07Z"
-   },
-   {
-    "title": "CVE-2026-62685 — File Browser: Colliding username normalization gives two users the same home directory",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62685",
-    "score": 7.5,
-    "date": "2026-07-20T22:19:10Z"
-   },
-   {
-    "title": "GHSA-hcpx-6fm6-wx23 — Axios form serializer maxDepth bypass via {} metatoken",
-    "url": "https://github.com/advisories/GHSA-hcpx-6fm6-wx23",
+    "title": "CVE-2026-63729 — The SyncTeX parser (synctex_parser.c) shipped with TeX Live and embedded by downstream consumers such as GNOME Evince contains a heap use-af",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63729",
     "score": 5,
-    "date": "2026-07-20T22:38:04Z"
+    "date": "2026-07-21T03:32:09Z"
    },
    {
-    "title": "GHSA-7q8q-rj6j-mhjq — Axios: Nested axios option objects can consume polluted prototype values",
-    "url": "https://github.com/advisories/GHSA-7q8q-rj6j-mhjq",
+    "title": "CVE-2026-16331 — A security vulnerability has been detected in D-Link DNS-320 1.0.2. This affects an unknown function of the file /web/function/save_ajax.php",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16331",
     "score": 5,
-    "date": "2026-07-20T22:37:31Z"
+    "date": "2026-07-21T03:32:09Z"
    },
    {
-    "title": "GHSA-mwf2-3pr3-8698 — Axios: HTTP/2 streamed uploads bypass `maxBodyLength`",
-    "url": "https://github.com/advisories/GHSA-mwf2-3pr3-8698",
+    "title": "CVE-2026-16332 — A vulnerability was detected in D-Link DNS-320 1.0.2. This impacts an unknown function of the file /mydlink/multi_uploadify.php. Performing ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16332",
     "score": 5,
-    "date": "2026-07-20T22:37:03Z"
+    "date": "2026-07-21T03:32:09Z"
    },
    {
-    "title": "GHSA-jqh4-m9w3-8hp9 — Axios: Fetch adapter `ReadableStream` uploads bypass `maxBodyLength`",
-    "url": "https://github.com/advisories/GHSA-jqh4-m9w3-8hp9",
+    "title": "CVE-2026-16329 — A vulnerability was identified in D-Link DNS-320 1.0.2. Impacted is an unknown function of the file /photo_center/php/uploadify.php. The man",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16329",
     "score": 5,
-    "date": "2026-07-20T22:27:12Z"
+    "date": "2026-07-21T03:32:08Z"
    },
    {
-    "title": "GHSA-mmx7-hfxf-jppx — Axios: Prototype pollution gadgets can alter axios request construction",
-    "url": "https://github.com/advisories/GHSA-mmx7-hfxf-jppx",
+    "title": "CVE-2026-16330 — A weakness has been identified in D-Link DNS-320 1.0.2. The impacted element is an unknown function of the file /web/jquery/uploader/uploadi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16330",
     "score": 5,
-    "date": "2026-07-20T22:25:07Z"
+    "date": "2026-07-21T03:32:08Z"
    },
    {
-    "title": "GHSA-f4gw-2p7v-4548 — Axios: NO_PROXY bypass for 0.0.0.0 local addresses in axios",
-    "url": "https://github.com/advisories/GHSA-f4gw-2p7v-4548",
-    "score": 5,
-    "date": "2026-07-20T22:20:18Z"
-   },
-   {
-    "title": "CVE-2026-62843 — File Browser: Archive builder turns backslash filenames into path traversal (zip-slip)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62843",
-    "score": 5,
-    "date": "2026-07-20T22:16:09Z"
-   },
-   {
-    "title": "CVE-2026-62684 — File Browser: Share API exposes the password hash and bypass token",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62684",
+    "title": "CVE-2026-16334 — A vulnerability was identified in itsourcecode Hospital Management System 1.0. This vulnerability affects unknown code of the file /prescrip",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16334",
     "score": 2,
-    "date": "2026-07-20T22:17:56Z"
+    "date": "2026-07-21T03:32:09Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": null,
     "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -203,6 +179,20 @@
   ],
   "adv": [
    {
+    "title": "Guzzle: URI fragments disclosed in redirect Referer headers",
+    "url": "https://github.com/advisories/GHSA-h95v-h523-3mw8",
+    "score": 5.9,
+    "ghsa": "GHSA-h95v-h523-3mw8",
+    "date": "2026-07-20T23:28:36Z"
+   },
+   {
+    "title": "Guzzle: Host-only cookie scope is not preserved",
+    "url": "https://github.com/advisories/GHSA-wm3w-8rrp-j577",
+    "score": 5.9,
+    "ghsa": "GHSA-wm3w-8rrp-j577",
+    "date": "2026-07-20T23:27:49Z"
+   },
+   {
     "title": "Guzzle: Unbounded response cookies risk denial of service",
     "url": "https://github.com/advisories/GHSA-f283-ghqc-fg79",
     "score": 5.3,
@@ -271,20 +261,6 @@
     "score": 7.5,
     "ghsa": "GHSA-vjc4-5qp5-m44j",
     "date": "2026-07-20T23:18:32Z"
-   },
-   {
-    "title": "Pillow EpsImagePlugin negative %%BeginBinary byte count causes infinite loop denial of service",
-    "url": "https://github.com/advisories/GHSA-pg7v-jwj7-p798",
-    "score": 5.3,
-    "ghsa": "GHSA-pg7v-jwj7-p798",
-    "date": "2026-07-20T23:11:51Z"
-   },
-   {
-    "title": "Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
-    "url": "https://github.com/advisories/GHSA-jjj6-mw9f-p565",
-    "score": 7.5,
-    "ghsa": "GHSA-jjj6-mw9f-p565",
-    "date": "2026-07-20T23:11:29Z"
    }
   ],
   "thn": [
@@ -469,7 +445,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 471,
+    "stars": 473,
     "lang": "—"
    },
    {
@@ -493,7 +469,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 273,
+    "stars": 275,
     "lang": "Java"
    },
    {
@@ -511,13 +487,13 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 159,
+    "stars": 160,
     "lang": "JavaScript"
    },
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 151,
+    "stars": 152,
     "lang": "JavaScript"
    },
    {
