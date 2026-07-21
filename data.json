@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-07-21T22:13:47.766Z",
+ "generatedAt": "2026-07-21T23:15:16.074Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-20896 — Gitea Docker image: `REVERSE_PROXY_TRUSTED_PROXIES = *` default lets any source IP impersonate any user via `X-WEBAUTH-USER`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20896",
-    "score": 9.5,
-    "date": "2026-07-21T20:28:58Z"
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "CVE-2026-22874 — Gitea: Incomplete SSRF Protection in Webhook and Migration Allow-list Default Filter",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22874",
-    "score": 9.5,
-    "date": "2026-07-21T20:27:17Z"
-   },
-   {
-    "title": "CVE-2026-56750 — Gitea Remember-Me Token Theft Not Invalidating Attacker Session",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56750",
-    "score": 9.5,
-    "date": "2026-07-21T20:20:21Z"
-   },
-   {
-    "title": "CVE-2026-28740 — Gitea: Git LFS object reuse allows non-Code access to authorize private source objects",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28740",
-    "score": 7.5,
-    "date": "2026-07-21T20:29:43Z"
-   },
-   {
-    "title": "CVE-2026-56654 — Gitea: Privilege Escalation via Access Token Scope Escalation in API",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56654",
-    "score": 7.5,
-    "date": "2026-07-21T20:24:25Z"
-   },
-   {
-    "title": "CVE-2026-56755 — Gitea: Denial of Service (CPU & Memory Exhaustion) via O(N^2) String Concatenation in Debian Package Upload",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56755",
-    "score": 7.5,
-    "date": "2026-07-21T20:24:09Z"
-   },
-   {
-    "title": "CVE-2026-58439 — Gitea: Branch Protection Bypass via PR Retargeting Preserves Stale `official` Approval Flag",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58439",
-    "score": 7.5,
-    "date": "2026-07-21T20:14:12Z"
-   },
-   {
-    "title": "GHSA-956x-8gvw-wg5v — GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_c",
-    "url": "https://github.com/advisories/GHSA-956x-8gvw-wg5v",
-    "score": 7.5,
-    "date": "2026-07-21T20:10:06Z"
-   },
-   {
-    "title": "CVE-2026-27761 — Gitea: API access token scope enforcement bypass on repository RSS/Atom feed endpoints leaks private repository commit data",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27761",
-    "score": 5,
-    "date": "2026-07-21T20:30:11Z"
-   },
-   {
-    "title": "GHSA-rjvx-x5h2-6px5 — Gitea: API Fork Endpoint Authorization Bypass Allows Organization Members to Bypass Repository Creation Restrictions",
-    "url": "https://github.com/advisories/GHSA-rjvx-x5h2-6px5",
-    "score": 5,
-    "date": "2026-07-21T20:26:37Z"
-   },
-   {
-    "title": "CVE-2026-58507 — Gitea: Private Repository Existence Disclosure via go-get Meta Endpoint",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58507",
-    "score": 5,
-    "date": "2026-07-21T20:23:48Z"
-   },
-   {
-    "title": "CVE-2026-57886 — Gitea: Cross-repository issue/comment attachment re-linking can expose private attachment content",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57886",
-    "score": 5,
-    "date": "2026-07-21T20:22:58Z"
-   },
-   {
-    "title": "CVE-2026-58425 — Gitea: OAuth token introspection returns metadata of tokens issued to other clients (RFC 7662 section 4 violation)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58425",
-    "score": 5,
-    "date": "2026-07-21T20:21:33Z"
-   },
-   {
-    "title": "CVE-2026-59763 — Gitea: Unbounded Arch package file metadata can cause resource amplification in Gitea package uploads",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59763",
-    "score": 5,
-    "date": "2026-07-21T20:20:49Z"
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -375,6 +303,20 @@
   ],
   "bleep": [
    {
+    "title": "Police dismantle Kratos phishing platform, arrest developer",
+    "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+    "date": "Tue, 21 Jul 2026 19:07:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+    "url": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+    "date": "Tue, 21 Jul 2026 18:34:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
     "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
     "date": "Tue, 21 Jul 2026 16:06:55 -0400",
@@ -443,20 +385,6 @@
     "date": "Mon, 20 Jul 2026 18:23:23 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
-    "date": "Mon, 20 Jul 2026 18:22:56 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
-    "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
-    "date": "Mon, 20 Jul 2026 17:14:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -505,7 +433,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 248,
+    "stars": 251,
     "lang": "JavaScript"
    },
    {
@@ -670,13 +598,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Domain registration information should be transparent",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2mtaz/domain_registration_information_should_be/",
-    "date": "2026-07-21T16:06:58+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Crawling the Complete IPv4 Reverse DNS Space",
     "url": "https://www.reddit.com/r/netsec/comments/1v1o8ci/crawling_the_complete_ipv4_reverse_dns_space/",
     "date": "2026-07-20T15:09:12+00:00",
@@ -703,6 +624,13 @@
     "date": "2026-07-18T21:17:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Pixels to Payload: Dissecting a Four-Stage Bitmap-Steganography Dropper Delivering AsyncRAT :: Rhys Downing",
+    "url": "https://www.reddit.com/r/netsec/comments/1v01uhq/pixels_to_payload_dissecting_a_fourstage/",
+    "date": "2026-07-18T17:26:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 0,
   "kev": 1651,
   "adv": 12,
   "feed": 48
