@@ -1,66 +1,90 @@
 {
- "generatedAt": "2026-07-21T03:50:36.408Z",
+ "generatedAt": "2026-07-21T06:43:42.780Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-6952 — A post-authentication command injection vulnerability in the \"LogServer\" field of the syslog component in Zyxel AX7501-B1 firmware versions ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6952",
+    "title": "CVE-2026-13439 — The Easy Form Builder by WhiteStudio plugin for WordPress is vulnerable to Unauthenticated Privilege Escalation to Administrator in versions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13439",
+    "score": 9.5,
+    "date": "2026-07-21T06:31:18Z"
+   },
+   {
+    "title": "CVE-2026-12701 — A path traversal vulnerability was found in pulpcore. The relative_path_validator function only verifies that content paths do not begin wit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12701",
+    "score": 9.5,
+    "date": "2026-07-20T15:32:08Z"
+   },
+   {
+    "title": "CVE-2026-59776 — Missing Cryptographic Step (CWE-325) vulnerability exists in certain FeliCa IC chips shipped in or before 2017. If the vulnerability is expl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59776",
     "score": 7.5,
-    "date": "2026-07-21T03:32:09Z"
+    "date": "2026-07-21T06:31:16Z"
    },
    {
-    "title": "CVE-2026-14476 — A path traversal flaw was found in SSSD's AD GPO provider. The ad_gpo_extract_smb_components() function does not sanitize .. sequences in th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14476",
+    "title": "CVE-2026-12382 — A flaw was found in the AAP Gateway Envoy proxy configuration. The non-mTLS route to EDA event streams does not remove the Subject HTTP head",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12382",
     "score": 7.5,
-    "date": "2026-07-07T12:31:35Z"
+    "date": "2026-07-15T18:31:58Z"
    },
    {
-    "title": "CVE-2026-63729 — The SyncTeX parser (synctex_parser.c) shipped with TeX Live and embedded by downstream consumers such as GNOME Evince contains a heap use-af",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63729",
+    "title": "CVE-2026-58016 — A flaw was found in GLib. A state confusion issue exists in g_dbus_node_info_new_for_xml() in the gio/gdbusintrospection.c file when process",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58016",
+    "score": 7.5,
+    "date": "2026-06-30T15:30:45Z"
+   },
+   {
+    "title": "CVE-2026-16266 — Versions of the package mongo-object before 3.0.3 are vulnerable to Prototype Pollution via the expandKey() function in util.js. An attacker",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16266",
     "score": 5,
-    "date": "2026-07-21T03:32:09Z"
+    "date": "2026-07-21T06:31:18Z"
    },
    {
-    "title": "CVE-2026-16331 — A security vulnerability has been detected in D-Link DNS-320 1.0.2. This affects an unknown function of the file /web/function/save_ajax.php",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16331",
+    "title": "CVE-2026-15927 — A flaw was found in Red Hat Quay's repository-level mirror configuration feature. The POST and PUT handlers in endpoints/api/mirror.py accep",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15927",
     "score": 5,
-    "date": "2026-07-21T03:32:09Z"
+    "date": "2026-07-21T06:31:18Z"
    },
    {
-    "title": "CVE-2026-16332 — A vulnerability was detected in D-Link DNS-320 1.0.2. This impacts an unknown function of the file /mydlink/multi_uploadify.php. Performing ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16332",
+    "title": "CVE-2026-15782 — The WPForms – AI Form Builder for WordPress – Contact Forms, Payment Forms, Survey Form, Quiz & More plugin for WordPress is vulnerable to S",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15782",
     "score": 5,
-    "date": "2026-07-21T03:32:09Z"
+    "date": "2026-07-21T06:31:18Z"
    },
    {
-    "title": "CVE-2026-16329 — A vulnerability was identified in D-Link DNS-320 1.0.2. Impacted is an unknown function of the file /photo_center/php/uploadify.php. The man",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16329",
+    "title": "CVE-2026-3182 — Zohocorp ManageEngine Endpoint Central versions before 11.4.2528.34 are affected by cleartext transmission of sensitive information vulnerab",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3182",
     "score": 5,
-    "date": "2026-07-21T03:32:08Z"
+    "date": "2026-07-21T06:31:18Z"
    },
    {
-    "title": "CVE-2026-16330 — A weakness has been identified in D-Link DNS-320 1.0.2. The impacted element is an unknown function of the file /web/jquery/uploader/uploadi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16330",
+    "title": "CVE-2026-15811 — A vulnerability was found in kronosnet's (version <=1.34) cryptographic configuration management. The framework does not correctly zero-out ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15811",
     "score": 5,
-    "date": "2026-07-21T03:32:08Z"
+    "date": "2026-07-21T06:31:18Z"
    },
    {
-    "title": "CVE-2026-16334 — A vulnerability was identified in itsourcecode Hospital Management System 1.0. This vulnerability affects unknown code of the file /prescrip",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16334",
-    "score": 2,
-    "date": "2026-07-21T03:32:09Z"
+    "title": "CVE-2026-15812 — A vulnerability was found in the internal Access Control List (ACL) subsystem of kronosnet (Version affected: <= 1.34). When the framework i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15812",
+    "score": 5,
+    "date": "2026-07-21T06:31:18Z"
    },
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-15156 — The Essential Addons for Elementor – Popular Elementor Templates & Widgets plugin for WordPress is vulnerable to Stored Cross-Site Scripting",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15156",
+    "score": 5,
+    "date": "2026-07-21T06:31:17Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "title": "CVE-2023-37507 — HCL DevOps Plan is susceptible to an information disclosure that can allow an attacker to focus their attacks based upon the information rev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-37507",
+    "score": 5,
+    "date": "2026-07-21T06:31:17Z"
+   },
+   {
+    "title": "CVE-2026-16336 — A vulnerability was found in trinodb trino 481. Affected is an unknown function of the file core/trino-main/src/main/java/io/trino/server/Ex",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16336",
+    "score": 5,
+    "date": "2026-07-21T06:31:15Z"
    }
   ],
   "kev": [
@@ -469,7 +493,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 275,
+    "stars": 278,
     "lang": "Java"
    },
    {
@@ -693,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1647,
   "adv": 12,
   "feed": 48
