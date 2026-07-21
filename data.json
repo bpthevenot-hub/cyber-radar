@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-07-21T12:02:25.205Z",
+ "generatedAt": "2026-07-21T14:27:32.289Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-3183 — Zohocorp ManageEngine ADSelfService Plus versions before 6524 are vulnerable to Multi Factor Authentication Bypass.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3183",
-    "score": 7.5,
-    "date": "2026-07-21T09:31:43Z"
-   },
-   {
-    "title": "CVE-2026-1771 — The MapSVG plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the SVGFile constructor in al",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-1771",
-    "score": 7.5,
-    "date": "2026-07-21T09:31:43Z"
-   },
-   {
-    "title": "CVE-2026-57108 — .NET Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57108",
-    "score": 7.5,
-    "date": "2026-07-21T08:30:21.579Z"
-   },
-   {
-    "title": "CVE-2026-13585 — Allocation of Resources Without Limits and Throttling and Sensitive Information in Resource Not Removed Before Reuse in the ASUS System Cont",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13585",
-    "score": 7.5,
-    "date": "2026-07-15T03:32:51Z"
-   },
-   {
-    "title": "CVE-2026-8593 — Improper permission enforcement in Checkmk versions 2.5.0 before 2.5.0p9, 2.4.0 before 2.4.0p34, 2.3.0 before 2.3.0p49, and 2.2.0 (EOL) allo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8593",
-    "score": 5,
-    "date": "2026-07-21T09:31:43Z"
-   },
-   {
-    "title": "CVE-2026-15145 — The Essential Addons for Elementor – Popular Elementor Templates & Widgets plugin for WordPress is vulnerable to Stored Cross-Site Scripting",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15145",
-    "score": 5,
-    "date": "2026-07-21T09:31:43Z"
-   },
-   {
-    "title": "CVE-2026-15370 — A flaw was found in libssh. During SFTP server directory listing, the longname field is constructed with unsafe concatenation into a fixed-s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15370",
-    "score": 5,
-    "date": "2026-07-21T09:31:43Z"
-   },
-   {
-    "title": "CVE-2026-1372 — The Tutor LMS Elementor Addons plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 4.0.0 This ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-1372",
-    "score": 5,
-    "date": "2026-07-21T09:31:43Z"
-   },
-   {
-    "title": "CVE-2026-8082 — The bpost-shipping-platform WordPress plugin before 3.2.3 does not properly sanitize a parameter before using it in a SQL query during WooCo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8082",
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": null,
-    "date": "2026-07-21T09:31:42Z"
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "CVE-2026-13694 — The Bit Form WordPress plugin before 3.1.0 does not properly validate its workflow-trigger token once the associated transient has expired, ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13694",
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
-    "date": "2026-07-21T09:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14185 — The WPBot WordPress plugin before 8.2.0 does not perform a capability or nonce check in one of its retrieval-augmented-generation settings h",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14185",
-    "score": null,
-    "date": "2026-07-21T09:31:42Z"
-   },
-   {
-    "title": "CVE-2026-11767 — The Free Builder for Elementor WordPress plugin before 1.6.7 does not sanitise submitted contact form field values before storing them and o",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11767",
-    "score": null,
-    "date": "2026-07-21T09:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14183 — The Classified Listing WordPress plugin before 5.3.9 does not verify that the order targeted by its payment-receipt handler belongs to the r",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14183",
-    "score": null,
-    "date": "2026-07-21T09:31:42Z"
-   },
-   {
-    "title": "CVE-2026-14184 — The Academy LMS WordPress plugin before 3.8.1 does not verify ownership of a user-supplied user identifier in several of its lesson AJAX han",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14184",
-    "score": null,
-    "date": "2026-07-21T09:31:42Z"
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -289,6 +217,41 @@
   ],
   "thn": [
    {
+    "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+    "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+    "date": "Tue, 21 Jul 2026 19:34:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+    "url": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+    "date": "Tue, 21 Jul 2026 18:48:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+    "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+    "date": "Tue, 21 Jul 2026 17:28:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
+    "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+    "date": "Tue, 21 Jul 2026 17:12:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
+    "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
+    "date": "Tue, 21 Jul 2026 16:54:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
     "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
     "date": "Tue, 21 Jul 2026 14:29:30 +0530",
@@ -336,44 +299,16 @@
     "date": "Mon, 20 Jul 2026 19:02:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-    "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-    "date": "Mon, 20 Jul 2026 17:43:39 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-    "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-    "date": "Mon, 20 Jul 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-    "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-    "date": "Mon, 20 Jul 2026 14:40:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-    "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-    "date": "Mon, 20 Jul 2026 14:37:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-    "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-    "date": "Mon, 20 Jul 2026 10:57:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+    "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+    "date": "Tue, 21 Jul 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
     "url": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
@@ -450,13 +385,6 @@
     "date": "Mon, 20 Jul 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hugging Face warns an autonomous AI agent hacked its network",
-    "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-    "date": "Mon, 20 Jul 2026 07:56:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +397,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 474,
+    "stars": 476,
     "lang": "—"
    },
    {
@@ -511,7 +439,13 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 160,
+    "stars": 161,
+    "lang": "JavaScript"
+   },
+   {
+    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
+    "url": "https://github.com/Kritt-ai/open-kritt",
+    "stars": 155,
     "lang": "JavaScript"
    },
    {
@@ -525,12 +459,6 @@
     "url": "https://github.com/m-novotny/memguard-rs",
     "stars": 131,
     "lang": "Rust"
-   },
-   {
-    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
-    "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 128,
-    "lang": "JavaScript"
    }
   ],
   "hn": [
