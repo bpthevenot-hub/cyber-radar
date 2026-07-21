@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-21T14:27:32.289Z",
+ "generatedAt": "2026-07-21T16:47:02.520Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,55 @@
   ],
   "adv": [
    {
+    "title": "Microsoft Security Advisory CVE-2026-56170 – .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-j8gr-8fp3-5q5h",
+    "score": 7.5,
+    "ghsa": "GHSA-j8gr-8fp3-5q5h",
+    "date": "2026-07-21T16:15:00Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-50526 – .NET Tampering Vulnerability",
+    "url": "https://github.com/advisories/GHSA-55jh-fwmh-39m4",
+    "score": 7,
+    "ghsa": "GHSA-55jh-fwmh-39m4",
+    "date": "2026-07-21T16:14:37Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-47300 – .NET Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-8prm-248r-h957",
+    "score": 8.8,
+    "ghsa": "GHSA-8prm-248r-h957",
+    "date": "2026-07-21T16:13:38Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-47303 – .NET Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-2p3q-h3hg-jcqq",
+    "score": 8.8,
+    "ghsa": "GHSA-2p3q-h3hg-jcqq",
+    "date": "2026-07-21T16:07:53Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-50527 – .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-mmjf-rqrv-855v",
+    "score": 7.5,
+    "ghsa": "GHSA-mmjf-rqrv-855v",
+    "date": "2026-07-21T16:06:59Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-50650 – .NET Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-2969-4q4w-w5h3",
+    "score": 7.8,
+    "ghsa": "GHSA-2969-4q4w-w5h3",
+    "date": "2026-07-21T16:06:24Z"
+   },
+   {
+    "title": "Loofah `allowed_uri?` does not detect `javascript:` URIs split by named whitespace character references",
+    "url": "https://github.com/advisories/GHSA-8whx-365g-h9vv",
+    "score": 2,
+    "ghsa": "GHSA-8whx-365g-h9vv",
+    "date": "2026-07-21T15:04:14Z"
+   },
+   {
     "title": "Guzzle: URI fragments disclosed in redirect Referer headers",
     "url": "https://github.com/advisories/GHSA-h95v-h523-3mw8",
     "score": 5.9,
@@ -164,58 +213,30 @@
     "score": 3.7,
     "ghsa": "GHSA-hp3v-mfqw-h74c",
     "date": "2026-07-20T23:24:34Z"
-   },
-   {
-    "title": "body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement",
-    "url": "https://github.com/advisories/GHSA-v422-hmwv-36x6",
-    "score": 3.7,
-    "ghsa": "GHSA-v422-hmwv-36x6",
-    "date": "2026-07-20T23:23:26Z"
-   },
-   {
-    "title": "@astrojs/node: Backslash-prefixed paths not recognized as internal by trailing-slash redirect",
-    "url": "https://github.com/advisories/GHSA-r557-wffq-wvrc",
-    "score": 2,
-    "ghsa": "GHSA-r557-wffq-wvrc",
-    "date": "2026-07-20T23:22:22Z"
-   },
-   {
-    "title": "Astro: XSS via unescaped spread attribute names in renderHTMLElement (incomplete fix for CVE-2026-54298)",
-    "url": "https://github.com/advisories/GHSA-f48w-9m4c-m7f5",
-    "score": null,
-    "ghsa": "GHSA-f48w-9m4c-m7f5",
-    "date": "2026-07-20T23:21:58Z"
-   },
-   {
-    "title": "@astrojs/rss: XML Injection via Unescaped RSS Feed Fields",
-    "url": "https://github.com/advisories/GHSA-8j5q-mfj2-5q9q",
-    "score": 4.3,
-    "ghsa": "GHSA-8j5q-mfj2-5q9q",
-    "date": "2026-07-20T23:21:47Z"
-   },
-   {
-    "title": "Astro: Cross-site scripting via unescaped transition:* directive values on hydrated islands",
-    "url": "https://github.com/advisories/GHSA-7pw4-f3q4-r2p2",
-    "score": 2,
-    "ghsa": "GHSA-7pw4-f3q4-r2p2",
-    "date": "2026-07-20T23:21:02Z"
-   },
-   {
-    "title": "Pillow: Controlled heap out-of-bounds write in Pillow `ImageCmsTransform.apply()` via output mode mismatch",
-    "url": "https://github.com/advisories/GHSA-9hw9-ch79-4vh6",
-    "score": 7.5,
-    "ghsa": "GHSA-9hw9-ch79-4vh6",
-    "date": "2026-07-20T23:19:00Z"
-   },
-   {
-    "title": "Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
-    "url": "https://github.com/advisories/GHSA-vjc4-5qp5-m44j",
-    "score": 7.5,
-    "ghsa": "GHSA-vjc4-5qp5-m44j",
-    "date": "2026-07-20T23:18:32Z"
    }
   ],
   "thn": [
+   {
+    "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+    "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+    "date": "Tue, 21 Jul 2026 21:36:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+    "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+    "date": "Tue, 21 Jul 2026 20:39:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+    "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+    "date": "Tue, 21 Jul 2026 20:27:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
     "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
@@ -278,30 +299,16 @@
     "date": "Mon, 20 Jul 2026 23:53:03 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
-    "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
-    "date": "Mon, 20 Jul 2026 22:59:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
-    "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
-    "date": "Mon, 20 Jul 2026 20:03:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-    "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-    "date": "Mon, 20 Jul 2026 19:02:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+    "date": "Tue, 21 Jul 2026 12:41:50 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Closing the Identity Gaps in Critical Infrastructure Security",
     "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
@@ -378,13 +385,6 @@
     "date": "Mon, 20 Jul 2026 13:43:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "An AI SOC Evaluation Guide for Security Leaders",
-    "url": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
-    "date": "Mon, 20 Jul 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,7 +397,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 476,
+    "stars": 478,
     "lang": "—"
    },
    {
@@ -409,7 +409,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 347,
+    "stars": 349,
     "lang": "Swift"
    },
    {
@@ -421,13 +421,13 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 284,
+    "stars": 287,
     "lang": "Java"
    },
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 258,
+    "stars": 259,
     "lang": "TypeScript"
    },
    {
@@ -437,15 +437,15 @@
     "lang": "Python"
    },
    {
-    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 161,
+    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
+    "url": "https://github.com/Kritt-ai/open-kritt",
+    "stars": 200,
     "lang": "JavaScript"
    },
    {
-    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
-    "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 155,
+    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
+    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
+    "stars": 161,
     "lang": "JavaScript"
    },
    {
@@ -563,6 +563,27 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/",
+    "date": "2026-07-21T14:42:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The Hidden CCS2 Attack Surface on EV Chargers",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/",
+    "date": "2026-07-21T15:58:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Domain registration information should be transparent",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2mtaz/domain_registration_information_should_be/",
+    "date": "2026-07-21T16:06:58+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Leaking internal headers in Flask Ninja with deserialization",
     "url": "https://www.reddit.com/r/netsec/comments/1v2e5rb/leaking_internal_headers_in_flask_ninja_with/",
     "date": "2026-07-21T10:08:31+00:00",
@@ -610,27 +631,6 @@
     "date": "2026-07-18T17:26:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "wp2shell: Pre Authentication RCE in WordPress Core",
-    "url": "https://www.reddit.com/r/netsec/comments/1uzhzbu/wp2shell_pre_authentication_rce_in_wordpress_core/",
-    "date": "2026-07-18T01:13:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Keeping private namespaces private - Quad9 blog",
-    "url": "https://www.reddit.com/r/netsec/comments/1uzhprd/keeping_private_namespaces_private_quad9_blog/",
-    "date": "2026-07-18T01:00:57+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Openwrt pre-auth remote root exploit",
-    "url": "https://www.reddit.com/r/netsec/comments/1uz8qh3/openwrt_preauth_remote_root_exploit/",
-    "date": "2026-07-17T18:56:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 0,
-  "kev": 1647,
+  "kev": 1651,
   "adv": 12,
   "feed": 48
  },
