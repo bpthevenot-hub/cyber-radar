@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-07-21T20:37:47.222Z",
+ "generatedAt": "2026-07-21T22:13:47.766Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-20896 — Gitea Docker image: `REVERSE_PROXY_TRUSTED_PROXIES = *` default lets any source IP impersonate any user via `X-WEBAUTH-USER`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20896",
+    "score": 9.5,
+    "date": "2026-07-21T20:28:58Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "title": "CVE-2026-22874 — Gitea: Incomplete SSRF Protection in Webhook and Migration Allow-list Default Filter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22874",
+    "score": 9.5,
+    "date": "2026-07-21T20:27:17Z"
+   },
+   {
+    "title": "CVE-2026-56750 — Gitea Remember-Me Token Theft Not Invalidating Attacker Session",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56750",
+    "score": 9.5,
+    "date": "2026-07-21T20:20:21Z"
+   },
+   {
+    "title": "CVE-2026-28740 — Gitea: Git LFS object reuse allows non-Code access to authorize private source objects",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28740",
+    "score": 7.5,
+    "date": "2026-07-21T20:29:43Z"
+   },
+   {
+    "title": "CVE-2026-56654 — Gitea: Privilege Escalation via Access Token Scope Escalation in API",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56654",
+    "score": 7.5,
+    "date": "2026-07-21T20:24:25Z"
+   },
+   {
+    "title": "CVE-2026-56755 — Gitea: Denial of Service (CPU & Memory Exhaustion) via O(N^2) String Concatenation in Debian Package Upload",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56755",
+    "score": 7.5,
+    "date": "2026-07-21T20:24:09Z"
+   },
+   {
+    "title": "CVE-2026-58439 — Gitea: Branch Protection Bypass via PR Retargeting Preserves Stale `official` Approval Flag",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58439",
+    "score": 7.5,
+    "date": "2026-07-21T20:14:12Z"
+   },
+   {
+    "title": "GHSA-956x-8gvw-wg5v — GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_c",
+    "url": "https://github.com/advisories/GHSA-956x-8gvw-wg5v",
+    "score": 7.5,
+    "date": "2026-07-21T20:10:06Z"
+   },
+   {
+    "title": "CVE-2026-27761 — Gitea: API access token scope enforcement bypass on repository RSS/Atom feed endpoints leaks private repository commit data",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27761",
+    "score": 5,
+    "date": "2026-07-21T20:30:11Z"
+   },
+   {
+    "title": "GHSA-rjvx-x5h2-6px5 — Gitea: API Fork Endpoint Authorization Bypass Allows Organization Members to Bypass Repository Creation Restrictions",
+    "url": "https://github.com/advisories/GHSA-rjvx-x5h2-6px5",
+    "score": 5,
+    "date": "2026-07-21T20:26:37Z"
+   },
+   {
+    "title": "CVE-2026-58507 — Gitea: Private Repository Existence Disclosure via go-get Meta Endpoint",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58507",
+    "score": 5,
+    "date": "2026-07-21T20:23:48Z"
+   },
+   {
+    "title": "CVE-2026-57886 — Gitea: Cross-repository issue/comment attachment re-linking can expose private attachment content",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57886",
+    "score": 5,
+    "date": "2026-07-21T20:22:58Z"
+   },
+   {
+    "title": "CVE-2026-58425 — Gitea: OAuth token introspection returns metadata of tokens issued to other clients (RFC 7662 section 4 violation)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58425",
+    "score": 5,
+    "date": "2026-07-21T20:21:33Z"
+   },
+   {
+    "title": "CVE-2026-59763 — Gitea: Unbounded Arch package file metadata can cause resource amplification in Gitea package uploads",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59763",
+    "score": 5,
+    "date": "2026-07-21T20:20:49Z"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Gitea: Repository migration SSRF via multi-answer DNS allow-list bypass",
-    "url": "https://github.com/advisories/GHSA-h2x6-g7q6-344v",
-    "score": 6.5,
-    "ghsa": "GHSA-h2x6-g7q6-344v",
-    "date": "2026-07-21T20:37:45Z"
-   },
-   {
-    "title": "Gitea: SSRF in restore-repo via unsanitized pull_request.yml Head.CloneURL",
-    "url": "https://github.com/advisories/GHSA-xmj7-xj85-hfc3",
-    "score": 6.3,
-    "ghsa": "GHSA-xmj7-xj85-hfc3",
-    "date": "2026-07-21T20:37:29Z"
-   },
-   {
-    "title": "Gitea: Cross-repository IDOR in issue-dependency removal lets an attacker tamper with and comment on private repos they cannot access",
-    "url": "https://github.com/advisories/GHSA-xv9x-fj9g-vj6h",
-    "score": 2,
-    "ghsa": "GHSA-xv9x-fj9g-vj6h",
-    "date": "2026-07-21T20:36:59Z"
-   },
-   {
-    "title": "Gitea Actions Artifacts V4 signed URL HMAC ambiguity allows cross-repository artifact read and cross-task upload-state write",
-    "url": "https://github.com/advisories/GHSA-hg5r-vq93-9fv6",
-    "score": 9.6,
-    "ghsa": "GHSA-hg5r-vq93-9fv6",
-    "date": "2026-07-21T20:36:38Z"
-   },
-   {
-    "title": "Gitea: Permanent Fork PR Workflow Approval Gate Bypass",
-    "url": "https://github.com/advisories/GHSA-777r-4v59-6486",
-    "score": 8.9,
-    "ghsa": "GHSA-777r-4v59-6486",
-    "date": "2026-07-21T20:35:51Z"
-   },
-   {
-    "title": "Gitea: LFS authentication bypass via malformed SSH sub-verb allows unauthorized read access to private repositories",
-    "url": "https://github.com/advisories/GHSA-7wvc-rvp7-w99x",
-    "score": 7.7,
-    "ghsa": "GHSA-7wvc-rvp7-w99x",
-    "date": "2026-07-21T20:35:09Z"
-   },
-   {
-    "title": "Gitea: Unauthenticated ReDoS via CODEOWNERS pattern matching allows denial of service",
-    "url": "https://github.com/advisories/GHSA-v96j-25gv-g2w9",
+    "title": "fast-uri vulnerable to host confusion via literal backslash authority delimiter",
+    "url": "https://github.com/advisories/GHSA-v2hh-gcrm-f6hx",
     "score": 7.5,
-    "ghsa": "GHSA-v96j-25gv-g2w9",
-    "date": "2026-07-21T20:34:33Z"
+    "ghsa": "GHSA-v2hh-gcrm-f6hx",
+    "date": "2026-07-21T22:08:28Z"
    },
    {
-    "title": "Gitea: SSRF via HTTP Redirect in Repository Migration",
-    "url": "https://github.com/advisories/GHSA-rqhx-647v-wx32",
+    "title": "sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
+    "url": "https://github.com/advisories/GHSA-f88m-g3jw-g9cj",
+    "score": 7.5,
+    "ghsa": "GHSA-f88m-g3jw-g9cj",
+    "date": "2026-07-21T22:07:17Z"
+   },
+   {
+    "title": "fast-xml-parser: Repeated DOCTYPE declarations reset entity expansion limits",
+    "url": "https://github.com/advisories/GHSA-8r6m-32jq-jx6q",
+    "score": 7.5,
+    "ghsa": "GHSA-8r6m-32jq-jx6q",
+    "date": "2026-07-21T22:06:36Z"
+   },
+   {
+    "title": "GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
+    "url": "https://github.com/advisories/GHSA-rwj8-pgh3-r573",
+    "score": 7.5,
+    "ghsa": "GHSA-rwj8-pgh3-r573",
+    "date": "2026-07-21T22:06:09Z"
+   },
+   {
+    "title": "Rails HTML Sanitizers: Possible XSS vulnerability with certain configurations",
+    "url": "https://github.com/advisories/GHSA-cj75-f6xr-r4g7",
+    "score": null,
+    "ghsa": "GHSA-cj75-f6xr-r4g7",
+    "date": "2026-07-21T22:05:28Z"
+   },
+   {
+    "title": "Node.js Adapter for Hono: Unauthenticated memory-leak DoS via aborted WebSocket handshake",
+    "url": "https://github.com/advisories/GHSA-9mqv-5hh9-4cgg",
+    "score": 5.3,
+    "ghsa": "GHSA-9mqv-5hh9-4cgg",
+    "date": "2026-07-21T22:04:27Z"
+   },
+   {
+    "title": "gRPC-Go: xDS RBAC and HTTP/2 Vulnerabilities",
+    "url": "https://github.com/advisories/GHSA-hrxh-6v49-42gf",
+    "score": 7.5,
+    "ghsa": "GHSA-hrxh-6v49-42gf",
+    "date": "2026-07-21T22:03:55Z"
+   },
+   {
+    "title": "Loofah `allowed_uri?` does not detect `javascript:` URIs split by numeric character references without semicolons",
+    "url": "https://github.com/advisories/GHSA-5qhf-9phg-95m2",
+    "score": 2,
+    "ghsa": "GHSA-5qhf-9phg-95m2",
+    "date": "2026-07-21T22:03:11Z"
+   },
+   {
+    "title": "Loofah: SVG `href` attribute bypasses local-reference restriction",
+    "url": "https://github.com/advisories/GHSA-9wjq-cp2p-hrgf",
+    "score": 4.7,
+    "ghsa": "GHSA-9wjq-cp2p-hrgf",
+    "date": "2026-07-21T22:01:58Z"
+   },
+   {
+    "title": "jackson-databind: @JsonView ypassed for @JsonUnwrapped container properties on deserialization",
+    "url": "https://github.com/advisories/GHSA-5gvw-p9qm-jgwh",
     "score": 6.5,
-    "ghsa": "GHSA-rqhx-647v-wx32",
-    "date": "2026-07-21T20:33:52Z"
+    "ghsa": "GHSA-5gvw-p9qm-jgwh",
+    "date": "2026-07-21T22:00:43Z"
    },
    {
-    "title": "Gitea: API access token scope enforcement bypass on repository RSS/Atom feed endpoints leaks private repository commit data",
-    "url": "https://github.com/advisories/GHSA-3pww-vcvm-3gmj",
-    "score": 4.3,
-    "ghsa": "GHSA-3pww-vcvm-3gmj",
-    "date": "2026-07-21T20:30:11Z"
+    "title": "TypeORM: migration:generate template-literal code injection",
+    "url": "https://github.com/advisories/GHSA-2rp8-mm9q-fp49",
+    "score": 5.7,
+    "ghsa": "GHSA-2rp8-mm9q-fp49",
+    "date": "2026-07-21T21:59:23Z"
    },
    {
-    "title": "Gitea: Git LFS object reuse allows non-Code access to authorize private source objects",
-    "url": "https://github.com/advisories/GHSA-2m9v-5q2g-58vq",
-    "score": 7.1,
-    "ghsa": "GHSA-2m9v-5q2g-58vq",
-    "date": "2026-07-21T20:29:43Z"
-   },
-   {
-    "title": "Gitea Docker image: `REVERSE_PROXY_TRUSTED_PROXIES = *` default lets any source IP impersonate any user via `X-WEBAUTH-USER`",
-    "url": "https://github.com/advisories/GHSA-f75j-4cw6-rmx4",
-    "score": 9.8,
-    "ghsa": "GHSA-f75j-4cw6-rmx4",
-    "date": "2026-07-21T20:28:58Z"
-   },
-   {
-    "title": "Gitea: Incomplete SSRF Protection in Webhook and Migration Allow-list Default Filter",
-    "url": "https://github.com/advisories/GHSA-2r5c-gw76-rh3w",
-    "score": 9.6,
-    "ghsa": "GHSA-2r5c-gw76-rh3w",
-    "date": "2026-07-21T20:27:17Z"
+    "title": "jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)",
+    "url": "https://github.com/advisories/GHSA-r7wm-3cxj-wff9",
+    "score": 7.5,
+    "ghsa": "GHSA-r7wm-3cxj-wff9",
+    "date": "2026-07-21T21:58:53Z"
    }
   ],
   "thn": [
@@ -397,7 +469,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 479,
+    "stars": 481,
     "lang": "—"
    },
    {
@@ -421,7 +493,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 288,
+    "stars": 289,
     "lang": "Java"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 233,
+    "stars": 248,
     "lang": "JavaScript"
    },
    {
@@ -570,13 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The FCC Wants to Ban Burner Phones. The CNET Reporter Tracking This Story is Here to Chat. Ask Him Anything.",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2u11s/the_fcc_wants_to_ban_burner_phones_the_cnet/",
-    "date": "2026-07-21T20:19:58+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)",
     "url": "https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/",
     "date": "2026-07-21T14:42:45+00:00",
@@ -631,6 +696,13 @@
     "date": "2026-07-18T22:46:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner",
+    "url": "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
+    "date": "2026-07-18T21:17:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1651,
   "adv": 12,
   "feed": 48
