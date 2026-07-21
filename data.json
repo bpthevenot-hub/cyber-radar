@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-21T16:47:02.520Z",
+ "generatedAt": "2026-07-21T18:43:07.951Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,62 @@
   ],
   "adv": [
    {
+    "title": "Immutable.js `List` 32-bit trie overflow → unrecoverable DoS",
+    "url": "https://github.com/advisories/GHSA-v56q-mh7h-f735",
+    "score": 7.5,
+    "ghsa": "GHSA-v56q-mh7h-f735",
+    "date": "2026-07-21T18:36:27Z"
+   },
+   {
+    "title": "guzzlehttp/psr7: Host Confusion via Weak URI Host Validation",
+    "url": "https://github.com/advisories/GHSA-c2w2-prh8-qm98",
+    "score": 4.2,
+    "ghsa": "GHSA-c2w2-prh8-qm98",
+    "date": "2026-07-21T18:35:25Z"
+   },
+   {
+    "title": "websocket-driver-ruby: Denial of service via malformed Host header",
+    "url": "https://github.com/advisories/GHSA-2x63-gw47-w4mm",
+    "score": 7.5,
+    "ghsa": "GHSA-2x63-gw47-w4mm",
+    "date": "2026-07-21T18:34:42Z"
+   },
+   {
+    "title": "hono/jsx does not isolate context per request, leading to cross-request data disclosure",
+    "url": "https://github.com/advisories/GHSA-hvrm-45r6-mjfj",
+    "score": 6.5,
+    "ghsa": "GHSA-hvrm-45r6-mjfj",
+    "date": "2026-07-21T18:34:19Z"
+   },
+   {
+    "title": "Hono: Server-Side XSS via JSX Escaping Bypass in cx() Utility",
+    "url": "https://github.com/advisories/GHSA-w62v-xxxg-mg59",
+    "score": 6.1,
+    "ghsa": "GHSA-w62v-xxxg-mg59",
+    "date": "2026-07-21T18:33:50Z"
+   },
+   {
+    "title": "Hono: API Gateway v1 adapter can drop a distinct repeated request header value during de-duplication",
+    "url": "https://github.com/advisories/GHSA-xgm2-5f3f-mvvc",
+    "score": 4.8,
+    "ghsa": "GHSA-xgm2-5f3f-mvvc",
+    "date": "2026-07-21T18:18:13Z"
+   },
+   {
+    "title": "Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
+    "url": "https://github.com/advisories/GHSA-frvp-7c67-39w9",
+    "score": 5.9,
+    "ghsa": "GHSA-frvp-7c67-39w9",
+    "date": "2026-07-21T18:17:25Z"
+   },
+   {
+    "title": "PostgreSQL JDBC Driver: Silent channel-binding authentication downgrade via unsupported certificate algorithms",
+    "url": "https://github.com/advisories/GHSA-j92g-9f8w-j867",
+    "score": 7.5,
+    "ghsa": "GHSA-j92g-9f8w-j867",
+    "date": "2026-07-21T17:47:39Z"
+   },
+   {
     "title": "Microsoft Security Advisory CVE-2026-56170 – .NET Denial of Service Vulnerability",
     "url": "https://github.com/advisories/GHSA-j8gr-8fp3-5q5h",
     "score": 7.5,
@@ -157,62 +213,6 @@
     "score": 8.8,
     "ghsa": "GHSA-2p3q-h3hg-jcqq",
     "date": "2026-07-21T16:07:53Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-50527 – .NET Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-mmjf-rqrv-855v",
-    "score": 7.5,
-    "ghsa": "GHSA-mmjf-rqrv-855v",
-    "date": "2026-07-21T16:06:59Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-50650 – .NET Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-2969-4q4w-w5h3",
-    "score": 7.8,
-    "ghsa": "GHSA-2969-4q4w-w5h3",
-    "date": "2026-07-21T16:06:24Z"
-   },
-   {
-    "title": "Loofah `allowed_uri?` does not detect `javascript:` URIs split by named whitespace character references",
-    "url": "https://github.com/advisories/GHSA-8whx-365g-h9vv",
-    "score": 2,
-    "ghsa": "GHSA-8whx-365g-h9vv",
-    "date": "2026-07-21T15:04:14Z"
-   },
-   {
-    "title": "Guzzle: URI fragments disclosed in redirect Referer headers",
-    "url": "https://github.com/advisories/GHSA-h95v-h523-3mw8",
-    "score": 5.9,
-    "ghsa": "GHSA-h95v-h523-3mw8",
-    "date": "2026-07-20T23:28:36Z"
-   },
-   {
-    "title": "Guzzle: Host-only cookie scope is not preserved",
-    "url": "https://github.com/advisories/GHSA-wm3w-8rrp-j577",
-    "score": 5.9,
-    "ghsa": "GHSA-wm3w-8rrp-j577",
-    "date": "2026-07-20T23:27:49Z"
-   },
-   {
-    "title": "Guzzle: Unbounded response cookies risk denial of service",
-    "url": "https://github.com/advisories/GHSA-f283-ghqc-fg79",
-    "score": 5.3,
-    "ghsa": "GHSA-f283-ghqc-fg79",
-    "date": "2026-07-20T23:27:02Z"
-   },
-   {
-    "title": "Astro: composable `astro/hono` pipeline bypasses `security.checkOrigin` when `middleware()` is absent or misordered",
-    "url": "https://github.com/advisories/GHSA-8mv7-9c27-98vc",
-    "score": null,
-    "ghsa": "GHSA-8mv7-9c27-98vc",
-    "date": "2026-07-20T23:26:27Z"
-   },
-   {
-    "title": "@astrojs/netlify generates an overly-broad Netlify Image CDN allowlist because remotePatterns.pathname metacharacters are not escaped",
-    "url": "https://github.com/advisories/GHSA-hp3v-mfqw-h74c",
-    "score": 3.7,
-    "ghsa": "GHSA-hp3v-mfqw-h74c",
-    "date": "2026-07-20T23:24:34Z"
    }
   ],
   "thn": [
@@ -397,7 +397,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 478,
+    "stars": 479,
     "lang": "—"
    },
    {
@@ -409,7 +409,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 349,
+    "stars": 350,
     "lang": "Swift"
    },
    {
@@ -439,7 +439,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 200,
+    "stars": 219,
     "lang": "JavaScript"
    },
    {
@@ -577,6 +577,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "What happened after we pushed our .env to a public repo",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2or2t/what_happened_after_we_pushed_our_env_to_a_public/",
+    "date": "2026-07-21T17:15:47+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Domain registration information should be transparent",
     "url": "https://www.reddit.com/r/netsec/comments/1v2mtaz/domain_registration_information_should_be/",
     "date": "2026-07-21T16:06:58+00:00",
@@ -622,13 +629,6 @@
     "title": "wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner",
     "url": "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
     "date": "2026-07-18T21:17:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Pixels to Payload: Dissecting a Four-Stage Bitmap-Steganography Dropper Delivering AsyncRAT :: Rhys Downing",
-    "url": "https://www.reddit.com/r/netsec/comments/1v01uhq/pixels_to_payload_dissecting_a_fourstage/",
-    "date": "2026-07-18T17:26:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
