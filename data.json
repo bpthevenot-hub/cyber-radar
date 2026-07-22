@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-22T09:41:29.475Z",
+ "generatedAt": "2026-07-22T12:07:11.469Z",
  "sources": {
   "cve": [
    {
@@ -217,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "Why Modern SOCs Need Multi-Layered Detections",
+    "url": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+    "date": "Wed, 22 Jul 2026 16:55:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
     "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
     "date": "Wed, 22 Jul 2026 12:08:45 +0530",
@@ -292,16 +299,30 @@
     "date": "Tue, 21 Jul 2026 17:28:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-    "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-    "date": "Tue, 21 Jul 2026 17:12:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
+    "date": "Wed, 22 Jul 2026 07:43:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Stop renting storage space — this lifetime 2TB plan is yours for $59",
+    "url": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
+    "date": "Wed, 22 Jul 2026 07:09:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
+    "date": "Wed, 22 Jul 2026 06:44:52 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
     "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
@@ -364,27 +385,6 @@
     "date": "Tue, 21 Jul 2026 07:07:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
-    "date": "Tue, 21 Jul 2026 06:12:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
-    "date": "Tue, 21 Jul 2026 05:05:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
-    "url": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
-    "date": "Tue, 21 Jul 2026 04:06:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -409,7 +409,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 352,
+    "stars": 354,
     "lang": "Swift"
    },
    {
@@ -427,13 +427,13 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 283,
+    "stars": 290,
     "lang": "JavaScript"
    },
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 260,
+    "stars": 261,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +457,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 141,
+    "stars": 143,
     "lang": "Python"
    }
   ],
@@ -491,18 +491,18 @@
     "date": "2024-02-21T11:20:49Z"
    },
    {
+    "title": "OpenAI and Hugging Face address security incident during model evaluation",
+    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "points": 1269,
+    "comments": 868,
+    "date": "2026-07-21T20:09:52Z"
+   },
+   {
     "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
     "url": "https://plus.google.com/+MikeHearn/posts/LW1DXJ2BK8k",
     "points": 1217,
     "comments": 396,
     "date": "2013-11-06T04:51:41Z"
-   },
-   {
-    "title": "OpenAI and Hugging Face address security incident during model evaluation",
-    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1147,
-    "comments": 794,
-    "date": "2026-07-21T20:09:52Z"
    },
    {
     "title": "Senators push to ditch social security numbers in light of Equifax hack",
@@ -577,16 +577,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "What happened after we pushed our .env to a public repo",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2or2t/what_happened_after_we_pushed_our_env_to_a_public/",
-    "date": "2026-07-21T17:15:47+00:00",
+    "title": "Leaking internal headers in Flask Ninja with deserialization",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2e5rb/leaking_internal_headers_in_flask_ninja_with/",
+    "date": "2026-07-21T10:08:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Leaking internal headers in Flask Ninja with deserialization",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2e5rb/leaking_internal_headers_in_flask_ninja_with/",
-    "date": "2026-07-21T10:08:31+00:00",
+    "title": "What happened after we pushed our .env to a public repo",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2or2t/what_happened_after_we_pushed_our_env_to_a_public/",
+    "date": "2026-07-21T17:15:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
