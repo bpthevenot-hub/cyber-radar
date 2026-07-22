@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-07-22T00:11:50.820Z",
+ "generatedAt": "2026-07-22T03:51:20.799Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -396,7 +409,7 @@
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 350,
+    "stars": 351,
     "lang": "Swift"
    },
    {
@@ -408,7 +421,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 289,
+    "stars": 290,
     "lang": "Java"
    },
    {
@@ -420,7 +433,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 255,
+    "stars": 260,
     "lang": "JavaScript"
    },
    {
@@ -557,16 +570,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/",
-    "date": "2026-07-21T14:42:45+00:00",
+    "title": "What happened after we pushed our .env to a public repo",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2or2t/what_happened_after_we_pushed_our_env_to_a_public/",
+    "date": "2026-07-21T17:15:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "What happened after we pushed our .env to a public repo",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2or2t/what_happened_after_we_pushed_our_env_to_a_public/",
-    "date": "2026-07-21T17:15:47+00:00",
+    "title": "Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/",
+    "date": "2026-07-21T14:42:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +635,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +650,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
