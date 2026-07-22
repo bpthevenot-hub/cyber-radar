@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-07-22T03:51:20.799Z",
+ "generatedAt": "2026-07-22T06:44:39.464Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-15802 — The WP Foodbakery plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'delete_loca",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15802",
+    "score": 7.5,
+    "date": "2026-07-22T06:31:28Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "title": "RLSA-2026:40895 — Important: jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base security update",
+    "url": "https://github.com/advisories/RLSA-2026:40895",
     "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "date": "2026-07-17T12:03:25.223367Z"
+   },
+   {
+    "title": "RLSA-2026:40831 — Important: hplip security update",
+    "url": "https://github.com/advisories/RLSA-2026:40831",
+    "score": null,
+    "date": "2026-07-17T12:03:25.223367Z"
+   },
+   {
+    "title": "RLSA-2026:39976 — Important: hplip security update",
+    "url": "https://github.com/advisories/RLSA-2026:39976",
+    "score": null,
+    "date": "2026-07-16T12:05:50.790754Z"
+   },
+   {
+    "title": "RLSA-2026:39798 — Important: python3.9 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:39798",
+    "score": null,
+    "date": "2026-07-16T12:03:41.048961Z"
+   },
+   {
+    "title": "RLSA-2026:39771 — Important: python3.12 security update",
+    "url": "https://github.com/advisories/RLSA-2026:39771",
+    "score": null,
+    "date": "2026-07-16T12:03:41.048961Z"
+   },
+   {
+    "title": "RLSA-2026:39547 — Important: perl-XML-LibXML security update",
+    "url": "https://github.com/advisories/RLSA-2026:39547",
+    "score": null,
+    "date": "2026-07-15T18:05:36.412344Z"
+   },
+   {
+    "title": "RLSA-2026:39553 — Important: perl-XML-LibXML security update",
+    "url": "https://github.com/advisories/RLSA-2026:39553",
+    "score": null,
+    "date": "2026-07-15T18:03:26.556621Z"
+   },
+   {
+    "title": "RLSA-2026:39573 — Important: yggdrasil security update",
+    "url": "https://github.com/advisories/RLSA-2026:39573",
+    "score": null,
+    "date": "2026-07-15T12:06:01.640959Z"
+   },
+   {
+    "title": "RLSA-2026:39494 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:39494",
+    "score": null,
+    "date": "2026-07-15T12:06:01.640959Z"
+   },
+   {
+    "title": "RLSA-2026:39304 — Low: libxml2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:39304",
+    "score": null,
+    "date": "2026-07-15T12:06:01.640959Z"
+   },
+   {
+    "title": "RLSA-2026:39302 — Moderate: cups security update",
+    "url": "https://github.com/advisories/RLSA-2026:39302",
+    "score": null,
+    "date": "2026-07-15T12:06:01.640959Z"
+   },
+   {
+    "title": "RLSA-2026:39296 — Moderate: libinput security update",
+    "url": "https://github.com/advisories/RLSA-2026:39296",
+    "score": null,
+    "date": "2026-07-15T12:06:01.640959Z"
+   },
+   {
+    "title": "RLSA-2026:39297 — Moderate: edk2 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:39297",
+    "score": null,
+    "date": "2026-07-15T12:06:01.640959Z"
    }
   ],
   "kev": [
@@ -217,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+    "url": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+    "date": "Wed, 22 Jul 2026 11:30:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+    "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+    "date": "Wed, 22 Jul 2026 10:27:52 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+    "date": "Wed, 22 Jul 2026 09:48:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
     "url": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
     "date": "Wed, 22 Jul 2026 00:16:32 +0530",
@@ -278,30 +371,23 @@
     "date": "Tue, 21 Jul 2026 16:54:50 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-    "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-    "date": "Tue, 21 Jul 2026 14:29:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-    "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-    "date": "Tue, 21 Jul 2026 13:04:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-    "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-    "date": "Tue, 21 Jul 2026 11:59:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+    "date": "Wed, 22 Jul 2026 02:40:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI says its AI models hacked Hugging Face during testing",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
+    "date": "Wed, 22 Jul 2026 01:19:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Police dismantle Kratos phishing platform, arrest developer",
     "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
@@ -371,20 +457,6 @@
     "date": "Tue, 21 Jul 2026 04:06:26 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-    "date": "Mon, 20 Jul 2026 18:39:30 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-    "date": "Mon, 20 Jul 2026 18:23:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -403,13 +475,13 @@
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 465,
+    "stars": 468,
     "lang": "Rust"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 351,
+    "stars": 353,
     "lang": "Swift"
    },
    {
@@ -421,20 +493,20 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 290,
+    "stars": 292,
     "lang": "Java"
+   },
+   {
+    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
+    "url": "https://github.com/Kritt-ai/open-kritt",
+    "stars": 268,
+    "lang": "JavaScript"
    },
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
     "stars": 260,
     "lang": "TypeScript"
-   },
-   {
-    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
-    "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 260,
-    "lang": "JavaScript"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
@@ -451,14 +523,14 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 155,
+    "stars": 158,
     "lang": "JavaScript"
    },
    {
-    "title": "m-novotny/memguard-rs — Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time compa",
-    "url": "https://github.com/m-novotny/memguard-rs",
-    "stars": 131,
-    "lang": "Rust"
+    "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
+    "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
+    "stars": 136,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -533,18 +605,18 @@
     "date": "2016-12-15T03:19:38Z"
    },
    {
+    "title": "OpenAI and Hugging Face address security incident during model evaluation",
+    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "points": 983,
+    "comments": 670,
+    "date": "2026-07-21T20:09:52Z"
+   },
+   {
     "title": "Security by obscurity is underrated",
     "url": "https://utkusen.com/blog/security-by-obscurity-is-underrated.html",
     "points": 939,
     "comments": 510,
     "date": "2020-09-11T16:34:32Z"
-   },
-   {
-    "title": "Secret contract tied NSA and security industry pioneer",
-    "url": "http://www.reuters.com/article/2013/12/20/us-usa-security-rsa-idUSBRE9BJ1C220131220",
-    "points": 899,
-    "comments": 320,
-    "date": "2013-12-20T21:22:00Z"
    }
   ],
   "reddit": [
