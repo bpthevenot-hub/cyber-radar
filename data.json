@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-07-23T18:39:48.151Z",
+ "generatedAt": "2026-07-23T20:32:17.917Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "title": "RLSA-2026:43505 — Important: mariadb-connector-c security update",
+    "url": "https://github.com/advisories/RLSA-2026:43505",
     "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "date": "2026-07-23T06:07:38.939859Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "title": "RLSA-2026:43400 — Important: dogtag-pki security update",
+    "url": "https://github.com/advisories/RLSA-2026:43400",
     "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:42919 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:42919",
+    "score": null,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:41897 — Important: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41897",
+    "score": null,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:41895 — Important: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41895",
+    "score": null,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:41893 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41893",
+    "score": null,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:43307 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:43307",
+    "score": null,
+    "date": "2026-07-23T06:04:47.296368Z"
+   },
+   {
+    "title": "RLSA-2026:42952 — Moderate: glibc security update",
+    "url": "https://github.com/advisories/RLSA-2026:42952",
+    "score": null,
+    "date": "2026-07-23T06:04:47.296368Z"
+   },
+   {
+    "title": "RLSA-2026:42739 — Important: acl security update",
+    "url": "https://github.com/advisories/RLSA-2026:42739",
+    "score": null,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:42694 — Moderate: glibc security update",
+    "url": "https://github.com/advisories/RLSA-2026:42694",
+    "score": null,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:42096 — Important: c-ares security update",
+    "url": "https://github.com/advisories/RLSA-2026:42096",
+    "score": null,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:42063 — Important: glib2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:42063",
+    "score": null,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:41988 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:41988",
+    "score": null,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:41937 — Important: sssd security update",
+    "url": "https://github.com/advisories/RLSA-2026:41937",
+    "score": null,
+    "date": "2026-07-22T12:05:54.429340Z"
    }
   ],
   "kev": [
@@ -131,6 +203,62 @@
   ],
   "adv": [
    {
+    "title": "Ruby json: JSON generator heap buffer overflow when streaming to an IO",
+    "url": "https://github.com/advisories/GHSA-x2f5-4prf-w687",
+    "score": 3.7,
+    "ghsa": "GHSA-x2f5-4prf-w687",
+    "date": "2026-07-23T19:48:08Z"
+   },
+   {
+    "title": "c3p0 can, in combination with other libraries, compose to a \"sink\" for deserialization gadgets",
+    "url": "https://github.com/advisories/GHSA-w6w4-rjh9-9r58",
+    "score": null,
+    "ghsa": "GHSA-w6w4-rjh9-9r58",
+    "date": "2026-07-23T19:46:53Z"
+   },
+   {
+    "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+    "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+    "score": null,
+    "ghsa": "GHSA-wrjc-x8rr-h8h6",
+    "date": "2026-07-23T19:38:28Z"
+   },
+   {
+    "title": "React Router: Open redirect leading to XSS",
+    "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
+    "score": 6.9,
+    "ghsa": "GHSA-jjmj-jmhj-qwj2",
+    "date": "2026-07-23T19:36:31Z"
+   },
+   {
+    "title": "React Router: RSCErrorHandler Missing Protocol Validation (XSS)",
+    "url": "https://github.com/advisories/GHSA-h8fp-f39c-q6mh",
+    "score": 6.9,
+    "ghsa": "GHSA-h8fp-f39c-q6mh",
+    "date": "2026-07-23T19:35:57Z"
+   },
+   {
+    "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+    "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+    "score": 6.1,
+    "ghsa": "GHSA-337j-9hxr-rhxg",
+    "date": "2026-07-23T19:34:14Z"
+   },
+   {
+    "title": "ImageMagick: Information Disclosure in MNG decoder because allocated memory is left unchanged",
+    "url": "https://github.com/advisories/GHSA-8g53-9m3c-69xg",
+    "score": 5.3,
+    "ghsa": "GHSA-8g53-9m3c-69xg",
+    "date": "2026-07-23T19:33:39Z"
+   },
+   {
+    "title": "find-my-way: DDoS with HTTP2",
+    "url": "https://github.com/advisories/GHSA-c96f-x56v-gq3h",
+    "score": 7.5,
+    "ghsa": "GHSA-c96f-x56v-gq3h",
+    "date": "2026-07-23T19:33:15Z"
+   },
+   {
     "title": "pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
     "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
     "score": 7.5,
@@ -157,62 +285,6 @@
     "score": null,
     "ghsa": "GHSA-5qjq-93h5-hrgp",
     "date": "2026-07-23T15:06:58Z"
-   },
-   {
-    "title": "PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
-    "url": "https://github.com/advisories/GHSA-6g55-p6wh-862q",
-    "score": 7.5,
-    "ghsa": "GHSA-6g55-p6wh-862q",
-    "date": "2026-07-23T15:06:16Z"
-   },
-   {
-    "title": "PHPSpreadsheet: XLS/OLE sector-chain self-loop causes memory exhaustion",
-    "url": "https://github.com/advisories/GHSA-xh5m-36r6-47m3",
-    "score": 7.5,
-    "ghsa": "GHSA-xh5m-36r6-47m3",
-    "date": "2026-07-23T15:01:50Z"
-   },
-   {
-    "title": "PHPSpreadsheet: Gnumeric reader unbounded gzip expansion causes memory exhaustion",
-    "url": "https://github.com/advisories/GHSA-2mrg-gjxq-2gvr",
-    "score": 7.5,
-    "ghsa": "GHSA-2mrg-gjxq-2gvr",
-    "date": "2026-07-23T15:00:17Z"
-   },
-   {
-    "title": "PHPSpreadsheet: SSRF bypass via HTTP redirect in WEBSERVICE() domain whitelist",
-    "url": "https://github.com/advisories/GHSA-6hq5-7373-42rg",
-    "score": 7.7,
-    "ghsa": "GHSA-6hq5-7373-42rg",
-    "date": "2026-07-23T14:55:48Z"
-   },
-   {
-    "title": "Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
-    "url": "https://github.com/advisories/GHSA-8fpg-xm3f-6cx3",
-    "score": 9.5,
-    "ghsa": "GHSA-8fpg-xm3f-6cx3",
-    "date": "2026-07-23T14:52:23Z"
-   },
-   {
-    "title": "Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
-    "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
-    "score": 7.5,
-    "ghsa": "GHSA-xmf8-cvqr-rfgj",
-    "date": "2026-07-23T14:42:55Z"
-   },
-   {
-    "title": "Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
-    "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
-    "score": 9.5,
-    "ghsa": "GHSA-7rqj-j65f-68wh",
-    "date": "2026-07-23T14:40:15Z"
-   },
-   {
-    "title": "Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
-    "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
-    "score": 6.8,
-    "ghsa": "GHSA-x445-f3h2-j279",
-    "date": "2026-07-23T14:31:51Z"
    }
   ],
   "thn": [
@@ -303,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Australian energy provider Origin says data breach exposes client data",
+    "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
+    "date": "Thu, 23 Jul 2026 16:14:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+    "date": "Thu, 23 Jul 2026 15:48:30 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
     "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
     "date": "Thu, 23 Jul 2026 12:49:27 -0400",
@@ -371,20 +457,6 @@
     "date": "Wed, 22 Jul 2026 17:43:39 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "South Korea discloses data breach impacting diplomats worldwide",
-    "url": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
-    "date": "Wed, 22 Jul 2026 16:06:54 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-    "date": "Wed, 22 Jul 2026 12:59:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +469,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 587,
+    "stars": 607,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 500,
+    "stars": 505,
     "lang": "—"
    },
    {
@@ -413,21 +485,21 @@
     "lang": "Rust"
    },
    {
+    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
+    "url": "https://github.com/Kritt-ai/open-kritt",
+    "stars": 356,
+    "lang": "JavaScript"
+   },
+   {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
     "stars": 354,
     "lang": "Swift"
    },
    {
-    "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
-    "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 354,
-    "lang": "JavaScript"
-   },
-   {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 299,
+    "stars": 300,
     "lang": "Java"
    },
    {
@@ -486,8 +558,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1599,
-    "comments": 1124,
+    "points": 1601,
+    "comments": 1126,
     "date": "2026-07-21T20:09:52Z"
    },
    {
