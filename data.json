@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-23T14:36:32.802Z",
+ "generatedAt": "2026-07-23T16:49:36.588Z",
  "sources": {
   "cve": [
    {
@@ -149,91 +149,119 @@
   ],
   "adv": [
    {
+    "title": "pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
+    "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
+    "score": 7.5,
+    "ghsa": "GHSA-g867-7843-wf8q",
+    "date": "2026-07-23T16:37:07Z"
+   },
+   {
+    "title": "pypdf: Possible infinite loop for not terminated inline images",
+    "url": "https://github.com/advisories/GHSA-5xf7-4p34-54qr",
+    "score": 7.5,
+    "ghsa": "GHSA-5xf7-4p34-54qr",
+    "date": "2026-07-23T16:36:41Z"
+   },
+   {
+    "title": "pypdf: Possible long runtimes for repeated malformed cross-reference entries",
+    "url": "https://github.com/advisories/GHSA-55h5-xmcq-c37v",
+    "score": null,
+    "ghsa": "GHSA-55h5-xmcq-c37v",
+    "date": "2026-07-23T15:07:33Z"
+   },
+   {
+    "title": "pypdf: Possible large memory usage for wrong image dimensions",
+    "url": "https://github.com/advisories/GHSA-5qjq-93h5-hrgp",
+    "score": null,
+    "ghsa": "GHSA-5qjq-93h5-hrgp",
+    "date": "2026-07-23T15:06:58Z"
+   },
+   {
+    "title": "PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
+    "url": "https://github.com/advisories/GHSA-6g55-p6wh-862q",
+    "score": 7.5,
+    "ghsa": "GHSA-6g55-p6wh-862q",
+    "date": "2026-07-23T15:06:16Z"
+   },
+   {
+    "title": "PHPSpreadsheet: XLS/OLE sector-chain self-loop causes memory exhaustion",
+    "url": "https://github.com/advisories/GHSA-xh5m-36r6-47m3",
+    "score": 7.5,
+    "ghsa": "GHSA-xh5m-36r6-47m3",
+    "date": "2026-07-23T15:01:50Z"
+   },
+   {
+    "title": "PHPSpreadsheet: Gnumeric reader unbounded gzip expansion causes memory exhaustion",
+    "url": "https://github.com/advisories/GHSA-2mrg-gjxq-2gvr",
+    "score": 7.5,
+    "ghsa": "GHSA-2mrg-gjxq-2gvr",
+    "date": "2026-07-23T15:00:17Z"
+   },
+   {
+    "title": "PHPSpreadsheet: SSRF bypass via HTTP redirect in WEBSERVICE() domain whitelist",
+    "url": "https://github.com/advisories/GHSA-6hq5-7373-42rg",
+    "score": 7.7,
+    "ghsa": "GHSA-6hq5-7373-42rg",
+    "date": "2026-07-23T14:55:48Z"
+   },
+   {
+    "title": "Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
+    "url": "https://github.com/advisories/GHSA-8fpg-xm3f-6cx3",
+    "score": 9.5,
+    "ghsa": "GHSA-8fpg-xm3f-6cx3",
+    "date": "2026-07-23T14:52:23Z"
+   },
+   {
+    "title": "Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
+    "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
+    "score": 7.5,
+    "ghsa": "GHSA-xmf8-cvqr-rfgj",
+    "date": "2026-07-23T14:42:55Z"
+   },
+   {
+    "title": "Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
+    "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
+    "score": 9.5,
+    "ghsa": "GHSA-7rqj-j65f-68wh",
+    "date": "2026-07-23T14:40:15Z"
+   },
+   {
     "title": "Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
     "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
     "score": 6.8,
     "ghsa": "GHSA-x445-f3h2-j279",
     "date": "2026-07-23T14:31:51Z"
-   },
-   {
-    "title": "n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
-    "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
-    "score": null,
-    "ghsa": "GHSA-652q-gvq3-74qv",
-    "date": "2026-07-22T23:20:24Z"
-   },
-   {
-    "title": "n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
-    "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
-    "score": null,
-    "ghsa": "GHSA-jqwr-vx3p-r266",
-    "date": "2026-07-22T23:20:03Z"
-   },
-   {
-    "title": "n8n: Cross-Tenant Module-Cache Poisoning in the JS Task Runner",
-    "url": "https://github.com/advisories/GHSA-9cmh-xcqm-5hqr",
-    "score": null,
-    "ghsa": "GHSA-9cmh-xcqm-5hqr",
-    "date": "2026-07-22T23:18:39Z"
-   },
-   {
-    "title": "JupyterLab: Cross-site scripting (XSS) via crafted settings file (`overrides.json`)",
-    "url": "https://github.com/advisories/GHSA-pppj-hq3g-57pj",
-    "score": 7.5,
-    "ghsa": "GHSA-pppj-hq3g-57pj",
-    "date": "2026-07-22T23:16:18Z"
-   },
-   {
-    "title": "JupyterLab: Image viewer allows XSS when opening malicious image in new browser tab",
-    "url": "https://github.com/advisories/GHSA-gx64-gj6p-pc4c",
-    "score": 7.5,
-    "ghsa": "GHSA-gx64-gj6p-pc4c",
-    "date": "2026-07-22T23:14:44Z"
-   },
-   {
-    "title": "JupyterLab: PyPI extension blocklist package-name canonicalization bypass",
-    "url": "https://github.com/advisories/GHSA-89vp-jrxv-24w8",
-    "score": null,
-    "ghsa": "GHSA-89vp-jrxv-24w8",
-    "date": "2026-07-22T23:14:27Z"
-   },
-   {
-    "title": "JupyterLab PluginManager lock-rule enforcement bypass",
-    "url": "https://github.com/advisories/GHSA-h5v5-8746-g7mm",
-    "score": null,
-    "ghsa": "GHSA-h5v5-8746-g7mm",
-    "date": "2026-07-22T23:13:34Z"
-   },
-   {
-    "title": "JupyterLab: Allowlist/blocklist check in `PyPIExtensionManager.install()` not enforced for direct callers (missing `await`)",
-    "url": "https://github.com/advisories/GHSA-whvh-wf3x-g77j",
-    "score": 2,
-    "ghsa": "GHSA-whvh-wf3x-g77j",
-    "date": "2026-07-22T23:12:22Z"
-   },
-   {
-    "title": "Next.js: Server-Side Request Forgery in Server Actions on custom servers",
-    "url": "https://github.com/advisories/GHSA-89xv-2m56-2m9x",
-    "score": 7.5,
-    "ghsa": "GHSA-89xv-2m56-2m9x",
-    "date": "2026-07-22T23:09:48Z"
-   },
-   {
-    "title": "Next.js: Cache confusion of response bodies for requests with bodies",
-    "url": "https://github.com/advisories/GHSA-68g3-v927-f742",
-    "score": null,
-    "ghsa": "GHSA-68g3-v927-f742",
-    "date": "2026-07-22T23:08:17Z"
-   },
-   {
-    "title": "Next.js: Cache confusion of response bodies for requests with bodies containing invalid UTF-8 byte sequences",
-    "url": "https://github.com/advisories/GHSA-4633-3j49-mh5q",
-    "score": null,
-    "ghsa": "GHSA-4633-3j49-mh5q",
-    "date": "2026-07-22T23:06:12Z"
    }
   ],
   "thn": [
+   {
+    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+    "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+    "date": "Thu, 23 Jul 2026 20:32:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+    "date": "Thu, 23 Jul 2026 18:57:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+    "url": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+    "date": "Thu, 23 Jul 2026 18:41:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+    "url": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+    "date": "Thu, 23 Jul 2026 17:50:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
     "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
@@ -289,37 +317,30 @@
     "date": "Wed, 22 Jul 2026 20:31:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-    "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
-    "date": "Wed, 22 Jul 2026 18:06:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "The Fastest Path to AI Adoption Runs Through Security",
-    "url": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
-    "date": "Wed, 22 Jul 2026 17:28:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-    "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-    "date": "Wed, 22 Jul 2026 17:00:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Why Modern SOCs Need Multi-Layered Detections",
-    "url": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
-    "date": "Wed, 22 Jul 2026 16:55:35 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+    "date": "Thu, 23 Jul 2026 12:49:27 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+    "date": "Thu, 23 Jul 2026 12:32:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+    "date": "Thu, 23 Jul 2026 11:34:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
     "url": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
@@ -382,27 +403,6 @@
     "date": "Wed, 22 Jul 2026 12:59:17 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-    "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-    "date": "Wed, 22 Jul 2026 11:30:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
-    "url": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
-    "date": "Wed, 22 Jul 2026 10:15:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
-    "url": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
-    "date": "Wed, 22 Jul 2026 09:22:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -413,21 +413,21 @@
     "lang": "—"
    },
    {
-    "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
-    "url": "https://github.com/google/mantis",
-    "stars": 489,
-    "lang": "—"
-   },
-   {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 479,
+    "stars": 554,
     "lang": "TypeScript"
+   },
+   {
+    "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
+    "url": "https://github.com/google/mantis",
+    "stars": 496,
+    "lang": "—"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 396,
+    "stars": 397,
     "lang": "Rust"
    },
    {
@@ -439,7 +439,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 350,
+    "stars": 353,
     "lang": "JavaScript"
    },
    {
@@ -451,7 +451,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 265,
+    "stars": 266,
     "lang": "TypeScript"
    },
    {
@@ -461,15 +461,15 @@
     "lang": "Python"
    },
    {
-    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
-    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 162,
+    "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
+    "url": "https://github.com/Lolitide/VirusDetector",
+    "stars": 163,
     "lang": "JavaScript"
    },
    {
-    "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
-    "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 161,
+    "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
+    "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
+    "stars": 162,
     "lang": "JavaScript"
    },
    {
@@ -504,8 +504,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1591,
-    "comments": 1113,
+    "points": 1596,
+    "comments": 1124,
     "date": "2026-07-21T20:09:52Z"
    },
    {
