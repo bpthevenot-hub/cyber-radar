@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-07-23T12:04:51.647Z",
+ "generatedAt": "2026-07-23T14:36:32.802Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-65898 — DOMPurify: Permanent `ALLOWED_ATTR` pollution via `setConfig()` bypassing the hook clone-guard (incomplete fix of the 3.4.7 hook-pollution p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65898",
+    "score": 5,
+    "date": "2026-06-18T14:27:37Z"
+   },
+   {
+    "title": "CVE-2026-65899 — DOMPurify: Trusted Types policy survives `clearConfig()` and can poison later `RETURN_TRUSTED_TYPE` output",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65899",
+    "score": 2,
+    "date": "2026-06-15T20:12:53Z"
+   },
+   {
+    "title": "CVE-2026-65900 — DOMPurify: SAFE_FOR_TEMPLATES bypass - template expressions survive sanitization inside <template> content when using DOM output modes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65900",
+    "score": 2,
+    "date": "2026-06-15T20:02:40Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -131,6 +149,13 @@
   ],
   "adv": [
    {
+    "title": "Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
+    "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
+    "score": 6.8,
+    "ghsa": "GHSA-x445-f3h2-j279",
+    "date": "2026-07-23T14:31:51Z"
+   },
+   {
     "title": "n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
     "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
     "score": null,
@@ -206,13 +231,6 @@
     "score": null,
     "ghsa": "GHSA-4633-3j49-mh5q",
     "date": "2026-07-22T23:06:12Z"
-   },
-   {
-    "title": "Next.js: Unbounded Server Action payload in Edge runtime",
-    "url": "https://github.com/advisories/GHSA-4c39-4ccg-62r3",
-    "score": null,
-    "ghsa": "GHSA-4c39-4ccg-62r3",
-    "date": "2026-07-22T23:02:43Z"
    }
   ],
   "thn": [
@@ -303,6 +321,20 @@
   ],
   "bleep": [
    {
+    "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+    "url": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+    "date": "Thu, 23 Jul 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "EU fines Google $1 billion for search, app store antitrust violations",
+    "url": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
+    "date": "Thu, 23 Jul 2026 08:33:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
     "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
     "date": "Thu, 23 Jul 2026 07:40:16 -0400",
@@ -371,20 +403,6 @@
     "date": "Wed, 22 Jul 2026 09:22:20 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
-    "date": "Wed, 22 Jul 2026 07:43:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Stop renting storage space — this lifetime 2TB plan is yours for $59",
-    "url": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
-    "date": "Wed, 22 Jul 2026 07:09:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,20 +415,20 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 487,
+    "stars": 489,
     "lang": "—"
+   },
+   {
+    "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
+    "url": "https://github.com/okasi/bot-signal",
+    "stars": 479,
+    "lang": "TypeScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
     "stars": 396,
     "lang": "Rust"
-   },
-   {
-    "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
-    "url": "https://github.com/okasi/bot-signal",
-    "stars": 380,
-    "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
@@ -421,7 +439,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 347,
+    "stars": 350,
     "lang": "JavaScript"
    },
    {
@@ -433,7 +451,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 264,
+    "stars": 265,
     "lang": "TypeScript"
    },
    {
@@ -445,13 +463,13 @@
    {
     "title": "vinayaklatthe/microsoft-security-skills — Curated Microsoft Security skills for AI agents - Defender, Sentinel, Entra, Purview, Intune, Security Copilot",
     "url": "https://github.com/vinayaklatthe/microsoft-security-skills",
-    "stars": 161,
+    "stars": 162,
     "lang": "JavaScript"
    },
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 160,
+    "stars": 161,
     "lang": "JavaScript"
    },
    {
@@ -486,8 +504,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1587,
-    "comments": 1108,
+    "points": 1591,
+    "comments": 1113,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -570,6 +588,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Open Evaluation Framework for AI Pentesting Agents on Real-World Targets",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4dup4/open_evaluation_framework_for_ai_pentesting/",
+    "date": "2026-07-23T13:24:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Device Code Phishing: The Microsoft 365 Attack That Walks Past MFA",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4dmll/device_code_phishing_the_microsoft_365_attack/",
+    "date": "2026-07-23T13:15:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)",
     "url": "https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/",
     "date": "2026-07-22T14:46:52+00:00",
@@ -615,20 +647,6 @@
     "title": "Crawling the Complete IPv4 Reverse DNS Space",
     "url": "https://www.reddit.com/r/netsec/comments/1v1o8ci/crawling_the_complete_ipv4_reverse_dns_space/",
     "date": "2026-07-20T15:09:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Escalating All The Privileges With Foxit PDF Reader (CVE-2026–57239)",
-    "url": "https://www.reddit.com/r/netsec/comments/1v1ffuz/escalating_all_the_privileges_with_foxit_pdf/",
-    "date": "2026-07-20T08:19:53+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Multiple Chinese civic apps share one reward/lottery backend whose signing secret is recoverable",
-    "url": "https://www.reddit.com/r/netsec/comments/1v09pze/multiple_chinese_civic_apps_share_one/",
-    "date": "2026-07-18T22:46:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
