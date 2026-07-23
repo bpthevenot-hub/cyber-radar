@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-07-23T16:49:36.588Z",
+ "generatedAt": "2026-07-23T18:39:48.151Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-65898 — DOMPurify: Permanent `ALLOWED_ATTR` pollution via `setConfig()` bypassing the hook clone-guard (incomplete fix of the 3.4.7 hook-pollution p",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65898",
-    "score": 5,
-    "date": "2026-06-18T14:27:37Z"
-   },
-   {
-    "title": "CVE-2026-65899 — DOMPurify: Trusted Types policy survives `clearConfig()` and can poison later `RETURN_TRUSTED_TYPE` output",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65899",
-    "score": 2,
-    "date": "2026-06-15T20:12:53Z"
-   },
-   {
-    "title": "CVE-2026-65900 — DOMPurify: SAFE_FOR_TEMPLATES bypass - template expressions survive sanitization inside <template> content when using DOM output modes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65900",
-    "score": 2,
-    "date": "2026-06-15T20:02:40Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -235,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+    "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+    "date": "Fri, 24 Jul 2026 00:06:08 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
     "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
     "date": "Thu, 23 Jul 2026 20:32:07 +0530",
@@ -308,13 +297,6 @@
     "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
     "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
     "date": "Wed, 22 Jul 2026 23:37:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
-    "url": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
-    "date": "Wed, 22 Jul 2026 20:31:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -415,13 +397,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 554,
+    "stars": 587,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 496,
+    "stars": 500,
     "lang": "—"
    },
    {
@@ -439,7 +421,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 353,
+    "stars": 354,
     "lang": "JavaScript"
    },
    {
@@ -475,7 +457,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 151,
+    "stars": 152,
     "lang": "Python"
    }
   ],
@@ -504,7 +486,7 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1596,
+    "points": 1599,
     "comments": 1124,
     "date": "2026-07-21T20:09:52Z"
    },
@@ -588,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Thailand's Ministry of Finance targeted with an AI agent running with approval prompts disabled",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4mg4l/thailands_ministry_of_finance_targeted_with_an_ai/",
+    "date": "2026-07-23T18:33:23+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Open Evaluation Framework for AI Pentesting Agents on Real-World Targets",
     "url": "https://www.reddit.com/r/netsec/comments/1v4dup4/open_evaluation_framework_for_ai_pentesting/",
     "date": "2026-07-23T13:24:29+00:00",
@@ -640,13 +629,6 @@
     "title": "Exploit brokers pay $500,000 for a WordPress RCE. I found one with GPT5.6 Sol Ultra and $25",
     "url": "https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/",
     "date": "2026-07-20T08:12:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Crawling the Complete IPv4 Reverse DNS Space",
-    "url": "https://www.reddit.com/r/netsec/comments/1v1o8ci/crawling_the_complete_ipv4_reverse_dns_space/",
-    "date": "2026-07-20T15:09:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
