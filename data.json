@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-07-23T20:32:17.917Z",
+ "generatedAt": "2026-07-23T22:17:27.962Z",
  "sources": {
   "cve": [
    {
-    "title": "RLSA-2026:43505 — Important: mariadb-connector-c security update",
-    "url": "https://github.com/advisories/RLSA-2026:43505",
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "RLSA-2026:43400 — Important: dogtag-pki security update",
-    "url": "https://github.com/advisories/RLSA-2026:43400",
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:42919 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:42919",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41897 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41897",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41895 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41895",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41893 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41893",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:43307 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:43307",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:42952 — Moderate: glibc security update",
-    "url": "https://github.com/advisories/RLSA-2026:42952",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:42739 — Important: acl security update",
-    "url": "https://github.com/advisories/RLSA-2026:42739",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:42694 — Moderate: glibc security update",
-    "url": "https://github.com/advisories/RLSA-2026:42694",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:42096 — Important: c-ares security update",
-    "url": "https://github.com/advisories/RLSA-2026:42096",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:42063 — Important: glib2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:42063",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:41988 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:41988",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:41937 — Important: sssd security update",
-    "url": "https://github.com/advisories/RLSA-2026:41937",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "New Dolphin X malware uses AI to rank high-value targets",
+    "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+    "date": "Thu, 23 Jul 2026 17:20:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Australian energy provider Origin says data breach exposes client data",
     "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
     "date": "Thu, 23 Jul 2026 16:14:35 -0400",
@@ -450,13 +385,6 @@
     "date": "Thu, 23 Jul 2026 04:13:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-    "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-    "date": "Wed, 22 Jul 2026 17:43:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +397,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 607,
+    "stars": 614,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 505,
+    "stars": 509,
     "lang": "—"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 356,
+    "stars": 357,
     "lang": "JavaScript"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 152,
+    "stars": 153,
     "lang": "Python"
    }
   ],
@@ -558,7 +486,7 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1601,
+    "points": 1604,
     "comments": 1126,
     "date": "2026-07-21T20:09:52Z"
    },
@@ -635,6 +563,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Thailand's Ministry of Finance targeted with an AI agent running with approval prompts disabled",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4mg4l/thailands_ministry_of_finance_targeted_with_an_ai/",
+    "date": "2026-07-23T18:33:23+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
     "date": "2026-07-22T22:21:24+00:00",
@@ -642,9 +577,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Thailand's Ministry of Finance targeted with an AI agent running with approval prompts disabled",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4mg4l/thailands_ministry_of_finance_targeted_with_an_ai/",
-    "date": "2026-07-23T18:33:23+00:00",
+    "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
+    "date": "2026-07-23T22:11:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -694,13 +629,6 @@
     "title": "Leaking internal headers in Flask Ninja with deserialization",
     "url": "https://www.reddit.com/r/netsec/comments/1v2e5rb/leaking_internal_headers_in_flask_ninja_with/",
     "date": "2026-07-21T10:08:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Exploit brokers pay $500,000 for a WordPress RCE. I found one with GPT5.6 Sol Ultra and $25",
-    "url": "https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/",
-    "date": "2026-07-20T08:12:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
