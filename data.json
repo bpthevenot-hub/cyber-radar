@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-22T14:28:32.388Z",
+ "generatedAt": "2026-07-23T12:04:51.647Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,147 @@
   ],
   "adv": [
    {
-    "title": "fast-uri vulnerable to host confusion via literal backslash authority delimiter",
-    "url": "https://github.com/advisories/GHSA-v2hh-gcrm-f6hx",
-    "score": 7.5,
-    "ghsa": "GHSA-v2hh-gcrm-f6hx",
-    "date": "2026-07-21T22:08:28Z"
-   },
-   {
-    "title": "sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
-    "url": "https://github.com/advisories/GHSA-f88m-g3jw-g9cj",
-    "score": 7.5,
-    "ghsa": "GHSA-f88m-g3jw-g9cj",
-    "date": "2026-07-21T22:07:17Z"
-   },
-   {
-    "title": "fast-xml-parser: Repeated DOCTYPE declarations reset entity expansion limits",
-    "url": "https://github.com/advisories/GHSA-8r6m-32jq-jx6q",
-    "score": 7.5,
-    "ghsa": "GHSA-8r6m-32jq-jx6q",
-    "date": "2026-07-21T22:06:36Z"
-   },
-   {
-    "title": "GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
-    "url": "https://github.com/advisories/GHSA-rwj8-pgh3-r573",
-    "score": 7.5,
-    "ghsa": "GHSA-rwj8-pgh3-r573",
-    "date": "2026-07-21T22:06:09Z"
-   },
-   {
-    "title": "Rails HTML Sanitizers: Possible XSS vulnerability with certain configurations",
-    "url": "https://github.com/advisories/GHSA-cj75-f6xr-r4g7",
+    "title": "n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
+    "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
     "score": null,
-    "ghsa": "GHSA-cj75-f6xr-r4g7",
-    "date": "2026-07-21T22:05:28Z"
+    "ghsa": "GHSA-652q-gvq3-74qv",
+    "date": "2026-07-22T23:20:24Z"
    },
    {
-    "title": "Node.js Adapter for Hono: Unauthenticated memory-leak DoS via aborted WebSocket handshake",
-    "url": "https://github.com/advisories/GHSA-9mqv-5hh9-4cgg",
-    "score": 5.3,
-    "ghsa": "GHSA-9mqv-5hh9-4cgg",
-    "date": "2026-07-21T22:04:27Z"
+    "title": "n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
+    "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
+    "score": null,
+    "ghsa": "GHSA-jqwr-vx3p-r266",
+    "date": "2026-07-22T23:20:03Z"
    },
    {
-    "title": "gRPC-Go: xDS RBAC and HTTP/2 Vulnerabilities",
-    "url": "https://github.com/advisories/GHSA-hrxh-6v49-42gf",
+    "title": "n8n: Cross-Tenant Module-Cache Poisoning in the JS Task Runner",
+    "url": "https://github.com/advisories/GHSA-9cmh-xcqm-5hqr",
+    "score": null,
+    "ghsa": "GHSA-9cmh-xcqm-5hqr",
+    "date": "2026-07-22T23:18:39Z"
+   },
+   {
+    "title": "JupyterLab: Cross-site scripting (XSS) via crafted settings file (`overrides.json`)",
+    "url": "https://github.com/advisories/GHSA-pppj-hq3g-57pj",
     "score": 7.5,
-    "ghsa": "GHSA-hrxh-6v49-42gf",
-    "date": "2026-07-21T22:03:55Z"
+    "ghsa": "GHSA-pppj-hq3g-57pj",
+    "date": "2026-07-22T23:16:18Z"
    },
    {
-    "title": "Loofah `allowed_uri?` does not detect `javascript:` URIs split by numeric character references without semicolons",
-    "url": "https://github.com/advisories/GHSA-5qhf-9phg-95m2",
+    "title": "JupyterLab: Image viewer allows XSS when opening malicious image in new browser tab",
+    "url": "https://github.com/advisories/GHSA-gx64-gj6p-pc4c",
+    "score": 7.5,
+    "ghsa": "GHSA-gx64-gj6p-pc4c",
+    "date": "2026-07-22T23:14:44Z"
+   },
+   {
+    "title": "JupyterLab: PyPI extension blocklist package-name canonicalization bypass",
+    "url": "https://github.com/advisories/GHSA-89vp-jrxv-24w8",
+    "score": null,
+    "ghsa": "GHSA-89vp-jrxv-24w8",
+    "date": "2026-07-22T23:14:27Z"
+   },
+   {
+    "title": "JupyterLab PluginManager lock-rule enforcement bypass",
+    "url": "https://github.com/advisories/GHSA-h5v5-8746-g7mm",
+    "score": null,
+    "ghsa": "GHSA-h5v5-8746-g7mm",
+    "date": "2026-07-22T23:13:34Z"
+   },
+   {
+    "title": "JupyterLab: Allowlist/blocklist check in `PyPIExtensionManager.install()` not enforced for direct callers (missing `await`)",
+    "url": "https://github.com/advisories/GHSA-whvh-wf3x-g77j",
     "score": 2,
-    "ghsa": "GHSA-5qhf-9phg-95m2",
-    "date": "2026-07-21T22:03:11Z"
+    "ghsa": "GHSA-whvh-wf3x-g77j",
+    "date": "2026-07-22T23:12:22Z"
    },
    {
-    "title": "Loofah: SVG `href` attribute bypasses local-reference restriction",
-    "url": "https://github.com/advisories/GHSA-9wjq-cp2p-hrgf",
-    "score": 4.7,
-    "ghsa": "GHSA-9wjq-cp2p-hrgf",
-    "date": "2026-07-21T22:01:58Z"
-   },
-   {
-    "title": "jackson-databind: @JsonView ypassed for @JsonUnwrapped container properties on deserialization",
-    "url": "https://github.com/advisories/GHSA-5gvw-p9qm-jgwh",
-    "score": 6.5,
-    "ghsa": "GHSA-5gvw-p9qm-jgwh",
-    "date": "2026-07-21T22:00:43Z"
-   },
-   {
-    "title": "TypeORM: migration:generate template-literal code injection",
-    "url": "https://github.com/advisories/GHSA-2rp8-mm9q-fp49",
-    "score": 5.7,
-    "ghsa": "GHSA-2rp8-mm9q-fp49",
-    "date": "2026-07-21T21:59:23Z"
-   },
-   {
-    "title": "jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)",
-    "url": "https://github.com/advisories/GHSA-r7wm-3cxj-wff9",
+    "title": "Next.js: Server-Side Request Forgery in Server Actions on custom servers",
+    "url": "https://github.com/advisories/GHSA-89xv-2m56-2m9x",
     "score": 7.5,
-    "ghsa": "GHSA-r7wm-3cxj-wff9",
-    "date": "2026-07-21T21:58:53Z"
+    "ghsa": "GHSA-89xv-2m56-2m9x",
+    "date": "2026-07-22T23:09:48Z"
+   },
+   {
+    "title": "Next.js: Cache confusion of response bodies for requests with bodies",
+    "url": "https://github.com/advisories/GHSA-68g3-v927-f742",
+    "score": null,
+    "ghsa": "GHSA-68g3-v927-f742",
+    "date": "2026-07-22T23:08:17Z"
+   },
+   {
+    "title": "Next.js: Cache confusion of response bodies for requests with bodies containing invalid UTF-8 byte sequences",
+    "url": "https://github.com/advisories/GHSA-4633-3j49-mh5q",
+    "score": null,
+    "ghsa": "GHSA-4633-3j49-mh5q",
+    "date": "2026-07-22T23:06:12Z"
+   },
+   {
+    "title": "Next.js: Unbounded Server Action payload in Edge runtime",
+    "url": "https://github.com/advisories/GHSA-4c39-4ccg-62r3",
+    "score": null,
+    "ghsa": "GHSA-4c39-4ccg-62r3",
+    "date": "2026-07-22T23:02:43Z"
    }
   ],
   "thn": [
+   {
+    "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
+    "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
+    "date": "Thu, 23 Jul 2026 17:15:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+    "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+    "date": "Thu, 23 Jul 2026 16:58:54 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
+    "url": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
+    "date": "Thu, 23 Jul 2026 15:30:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+    "url": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+    "date": "Thu, 23 Jul 2026 13:34:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+    "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+    "date": "Thu, 23 Jul 2026 12:04:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+    "url": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+    "date": "Thu, 23 Jul 2026 00:07:42 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+    "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+    "date": "Wed, 22 Jul 2026 23:37:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+    "url": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+    "date": "Wed, 22 Jul 2026 20:31:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
     "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
@@ -243,65 +299,65 @@
     "date": "Wed, 22 Jul 2026 16:55:35 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-    "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-    "date": "Wed, 22 Jul 2026 12:08:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
-    "url": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-    "date": "Wed, 22 Jul 2026 11:30:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
-    "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-    "date": "Wed, 22 Jul 2026 10:27:52 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
-    "url": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
-    "date": "Wed, 22 Jul 2026 00:16:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
-    "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-    "date": "Tue, 21 Jul 2026 21:36:12 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-    "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-    "date": "Tue, 21 Jul 2026 20:39:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-    "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-    "date": "Tue, 21 Jul 2026 20:27:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-    "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-    "date": "Tue, 21 Jul 2026 19:34:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
+    "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
+    "date": "Thu, 23 Jul 2026 07:40:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+    "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+    "date": "Thu, 23 Jul 2026 06:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
+    "date": "Thu, 23 Jul 2026 05:20:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+    "date": "Thu, 23 Jul 2026 04:13:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
+    "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+    "date": "Wed, 22 Jul 2026 17:43:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "South Korea discloses data breach impacting diplomats worldwide",
+    "url": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
+    "date": "Wed, 22 Jul 2026 16:06:54 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+    "date": "Wed, 22 Jul 2026 12:59:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
+    "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+    "date": "Wed, 22 Jul 2026 11:30:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
     "url": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
@@ -329,62 +385,6 @@
     "date": "Wed, 22 Jul 2026 07:09:16 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
-    "date": "Wed, 22 Jul 2026 06:44:52 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-    "date": "Wed, 22 Jul 2026 02:40:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI says its AI models hacked Hugging Face during testing",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
-    "date": "Wed, 22 Jul 2026 01:19:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Police dismantle Kratos phishing platform, arrest developer",
-    "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
-    "date": "Tue, 21 Jul 2026 19:07:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
-    "url": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-    "date": "Tue, 21 Jul 2026 18:34:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
-    "date": "Tue, 21 Jul 2026 16:06:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-    "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-    "date": "Tue, 21 Jul 2026 14:50:54 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical wp2shell WordPress flaws exploited to install webshells",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
-    "date": "Tue, 21 Jul 2026 12:41:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,14 +397,20 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 481,
+    "stars": 487,
     "lang": "—"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 468,
+    "stars": 396,
     "lang": "Rust"
+   },
+   {
+    "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
+    "url": "https://github.com/okasi/bot-signal",
+    "stars": 380,
+    "lang": "TypeScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
@@ -413,33 +419,27 @@
     "lang": "Swift"
    },
    {
-    "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
-    "url": "https://github.com/okasi/bot-signal",
-    "stars": 304,
-    "lang": "TypeScript"
-   },
-   {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 300,
+    "stars": 347,
     "lang": "JavaScript"
    },
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 293,
+    "stars": 299,
     "lang": "Java"
    },
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 261,
+    "stars": 264,
     "lang": "TypeScript"
    },
    {
     "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
     "url": "https://github.com/jestasecurity/thumper",
-    "stars": 225,
+    "stars": 189,
     "lang": "Python"
    },
    {
@@ -451,13 +451,13 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 158,
+    "stars": 160,
     "lang": "JavaScript"
    },
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 146,
+    "stars": 151,
     "lang": "Python"
    }
   ],
@@ -484,18 +484,18 @@
     "date": "2025-02-21T15:05:24Z"
    },
    {
+    "title": "OpenAI and Hugging Face address security incident during model evaluation",
+    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "points": 1587,
+    "comments": 1108,
+    "date": "2026-07-21T20:09:52Z"
+   },
+   {
     "title": "Insecure vehicles should be banned, not security tools like the Flipper Zero",
     "url": "https://saveflipper.ca/",
     "points": 1496,
     "comments": 878,
     "date": "2024-02-21T11:20:49Z"
-   },
-   {
-    "title": "OpenAI and Hugging Face address security incident during model evaluation",
-    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1393,
-    "comments": 941,
-    "date": "2026-07-21T20:09:52Z"
    },
    {
     "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
@@ -563,6 +563,27 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
+    "url": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
+    "date": "2026-07-22T22:21:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/",
+    "date": "2026-07-22T14:46:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
+    "url": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
+    "date": "2026-07-22T19:08:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "The Hidden CCS2 Attack Surface on EV Chargers",
     "url": "https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/",
     "date": "2026-07-21T15:58:03+00:00",
@@ -591,13 +612,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "What happened after we pushed our .env to a public repo",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2or2t/what_happened_after_we_pushed_our_env_to_a_public/",
-    "date": "2026-07-21T17:15:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Crawling the Complete IPv4 Reverse DNS Space",
     "url": "https://www.reddit.com/r/netsec/comments/1v1o8ci/crawling_the_complete_ipv4_reverse_dns_space/",
     "date": "2026-07-20T15:09:12+00:00",
@@ -617,20 +631,6 @@
     "date": "2026-07-18T22:46:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "wp2shell (CVE-2026-63030): Pre-Auth RCE Chain in WordPress Core - Analysis and Open-Source Scanner",
-    "url": "https://www.reddit.com/r/netsec/comments/1v07npi/wp2shell_cve202663030_preauth_rce_chain_in/",
-    "date": "2026-07-18T21:17:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Pixels to Payload: Dissecting a Four-Stage Bitmap-Steganography Dropper Delivering AsyncRAT :: Rhys Downing",
-    "url": "https://www.reddit.com/r/netsec/comments/1v01uhq/pixels_to_payload_dissecting_a_fourstage/",
-    "date": "2026-07-18T17:26:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 0,
-  "kev": 1651,
+  "kev": 1653,
   "adv": 12,
   "feed": 48
  },
