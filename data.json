@@ -1,49 +1,7 @@
 {
- "generatedAt": "2026-07-24T15:49:29.256Z",
+ "generatedAt": "2026-07-24T17:54:49.306Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-55575 — LiquidJS: `pop` filter bypasses `memoryLimit` accounting that its array-filter siblings enforce",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55575",
-    "score": 7.5,
-    "date": "2026-07-24T14:05:20Z"
-   },
-   {
-    "title": "CVE-2026-54673 — electron-updater: Cross-origin redirect leaks `PRIVATE-TOKEN` and mixed-case `Authorization` credentials in `builder-util-runtime`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54673",
-    "score": 7.5,
-    "date": "2026-07-24T14:03:19Z"
-   },
-   {
-    "title": "CVE-2026-54672 — electron-updater: Uncontrolled search path elements within `AppImage` built by `app-builder-lib`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54672",
-    "score": 7.5,
-    "date": "2026-07-24T14:00:59Z"
-   },
-   {
-    "title": "CVE-2026-55597 — ImageMagick: Heap Buffer Over-Write in JP2 encoder when due to incorrect handling of arguments",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55597",
-    "score": 5,
-    "date": "2026-07-24T14:06:18Z"
-   },
-   {
-    "title": "CVE-2026-55595 — ImageMagick: Infinite Loop in connected-components when providing invalid arguments",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55595",
-    "score": 5,
-    "date": "2026-07-24T14:05:55Z"
-   },
-   {
-    "title": "CVE-2026-55594 — ImageMagick: Stack Overflow in MVG decoder due to missing depth check.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55594",
-    "score": 5,
-    "date": "2026-07-24T14:05:39Z"
-   },
-   {
-    "title": "CVE-2026-55510 — ImageMagick: Use-After-Free in crafted 8BIM when identifying an image",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55510",
-    "score": 5,
-    "date": "2026-07-24T14:04:31Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -173,91 +131,98 @@
   ],
   "adv": [
    {
-    "title": "ONNX: Heap-Buffer-Overflow READ in Gemm Version Converter Adapter via Undersized Input Shape",
-    "url": "https://github.com/advisories/GHSA-p893-rvq9-2xf9",
-    "score": 3.3,
-    "ghsa": "GHSA-p893-rvq9-2xf9",
-    "date": "2026-07-24T15:48:04Z"
+    "title": "Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
+    "url": "https://github.com/advisories/GHSA-gh7p-78x6-jw6m",
+    "score": null,
+    "ghsa": "GHSA-gh7p-78x6-jw6m",
+    "date": "2026-07-24T17:04:55Z"
    },
    {
-    "title": "Ray: Arbitrary code execution via ray.data.read_webdataset default decoder: pickle.loads(value) and torch.load(weights_only=False)",
-    "url": "https://github.com/advisories/GHSA-hhrp-gw25-jr43",
-    "score": 8.8,
-    "ghsa": "GHSA-hhrp-gw25-jr43",
-    "date": "2026-07-24T15:47:38Z"
+    "title": "Open WebUI: Private channel messages can be disclosed through cross-channel thread parent_id binding",
+    "url": "https://github.com/advisories/GHSA-73x5-h92w-xc2j",
+    "score": 3.1,
+    "ghsa": "GHSA-73x5-h92w-xc2j",
+    "date": "2026-07-24T17:04:31Z"
    },
    {
-    "title": "Microsoft Kiota: Code Generation Literal Injection in Kiota PHP Generator",
-    "url": "https://github.com/advisories/GHSA-jqwh-526h-c92j",
-    "score": 7.5,
-    "ghsa": "GHSA-jqwh-526h-c92j",
-    "date": "2026-07-24T15:46:46Z"
+    "title": "Open WebUI: Cross-user model-list exposure via static cache key in get_all_models (aiocache key= vs key_builder= misuse)",
+    "url": "https://github.com/advisories/GHSA-3wp3-xxj9-5jqq",
+    "score": 3.5,
+    "ghsa": "GHSA-3wp3-xxj9-5jqq",
+    "date": "2026-07-24T17:03:21Z"
    },
    {
-    "title": "Microsoft Kiota: Code Generation Literal Injection in Kiota Python Generator",
-    "url": "https://github.com/advisories/GHSA-7f3j-j7jj-r3vr",
-    "score": 7.5,
-    "ghsa": "GHSA-7f3j-j7jj-r3vr",
-    "date": "2026-07-24T15:45:40Z"
+    "title": "Open WebUI: Upload `metadata.knowledge_id` bypasses the knowledge-base write-access check (read-only users can add files to KB)",
+    "url": "https://github.com/advisories/GHSA-7r7x-gjvr-448g",
+    "score": 4.3,
+    "ghsa": "GHSA-7r7x-gjvr-448g",
+    "date": "2026-07-24T17:02:14Z"
    },
    {
-    "title": "Microsoft Kiota: Code Generation Literal Injection in Kiota Ruby Generator",
-    "url": "https://github.com/advisories/GHSA-xg2h-5xr2-29jw",
-    "score": 7.5,
-    "ghsa": "GHSA-xg2h-5xr2-29jw",
-    "date": "2026-07-24T15:44:32Z"
+    "title": "Open WebUI: Cross-user code-interpreter and tool execution via unvalidated Socket.IO event-caller session_id",
+    "url": "https://github.com/advisories/GHSA-74h3-cxq7-vc5q",
+    "score": 7.7,
+    "ghsa": "GHSA-74h3-cxq7-vc5q",
+    "date": "2026-07-24T17:01:53Z"
    },
    {
-    "title": "Better Auth: Account takeover via pre-account hijacking on magic-link and email-OTP sign-in",
-    "url": "https://github.com/advisories/GHSA-qq9h-g4jm-xgf3",
-    "score": 8.3,
-    "ghsa": "GHSA-qq9h-g4jm-xgf3",
-    "date": "2026-07-24T15:44:01Z"
-   },
-   {
-    "title": "@better-auth/stripe: cross-organization billing tampering in organization subscription actions",
-    "url": "https://github.com/advisories/GHSA-h3rm-78g3-j7cp",
+    "title": "Open WebUI: Cross-channel message overwrite via chat completion API (single-model and multimodel message_ids)",
+    "url": "https://github.com/advisories/GHSA-x2ff-v5v8-m75m",
     "score": 7.1,
-    "ghsa": "GHSA-h3rm-78g3-j7cp",
-    "date": "2026-07-24T15:43:22Z"
+    "ghsa": "GHSA-x2ff-v5v8-m75m",
+    "date": "2026-07-24T17:01:07Z"
    },
    {
-    "title": "@better-auth/scim: account takeover and stale access via SCIM provider-id collision",
-    "url": "https://github.com/advisories/GHSA-rjg6-39jm-rgg4",
-    "score": 9.9,
-    "ghsa": "GHSA-rjg6-39jm-rgg4",
-    "date": "2026-07-24T15:40:54Z"
+    "title": "Open WebUI: Realtime endpoints accept Redis-revoked JWTs after signout/backchannel logout",
+    "url": "https://github.com/advisories/GHSA-855v-hq7w-jmjw",
+    "score": 7.1,
+    "ghsa": "GHSA-855v-hq7w-jmjw",
+    "date": "2026-07-24T17:00:11Z"
    },
    {
-    "title": "ImageMagick: Heap Buffer Over-Write in X11 import with crafted window title",
-    "url": "https://github.com/advisories/GHSA-76q6-2p6h-xjqr",
-    "score": 1.8,
-    "ghsa": "GHSA-76q6-2p6h-xjqr",
-    "date": "2026-07-24T15:30:59Z"
+    "title": "Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
+    "url": "https://github.com/advisories/GHSA-gmfw-g93r-vg53",
+    "score": 3.1,
+    "ghsa": "GHSA-gmfw-g93r-vg53",
+    "date": "2026-07-24T16:59:44Z"
    },
    {
-    "title": "Microsoft Kiota: XML Doc-Comment Newline Breakout Code Injection",
-    "url": "https://github.com/advisories/GHSA-3hrf-2gc2-mx32",
-    "score": 7.5,
-    "ghsa": "GHSA-3hrf-2gc2-mx32",
-    "date": "2026-07-24T15:30:47Z"
+    "title": "Open WebUI: POST /api/v1/images/edit bypasses the global image-edit switch and the per-user image-generation permission",
+    "url": "https://github.com/advisories/GHSA-rqj7-6wrp-6g2g",
+    "score": 4.3,
+    "ghsa": "GHSA-rqj7-6wrp-6g2g",
+    "date": "2026-07-24T16:58:48Z"
    },
    {
-    "title": "httplib2: Decompression Bomb Denial of Service via Unbounded gzip/deflate Response Handling",
-    "url": "https://github.com/advisories/GHSA-j5g9-f88f-gfj3",
-    "score": 7.5,
-    "ghsa": "GHSA-j5g9-f88f-gfj3",
-    "date": "2026-07-24T15:15:05Z"
+    "title": "Open WebUI: ReDoS in skill-mention regexes causes whole-instance DoS on default config",
+    "url": "https://github.com/advisories/GHSA-ffpj-xv5c-p3gw",
+    "score": 6.5,
+    "ghsa": "GHSA-ffpj-xv5c-p3gw",
+    "date": "2026-07-24T16:55:55Z"
    },
    {
-    "title": "ImageMagick: Memory Leak in TIFF encoder when invalid tiff:tile-geometry is specified",
-    "url": "https://github.com/advisories/GHSA-h5r4-w88w-7ccr",
-    "score": 2.5,
-    "ghsa": "GHSA-h5r4-w88w-7ccr",
-    "date": "2026-07-24T15:14:25Z"
+    "title": "Open WebUI: Scheduled automations continue after pending-user deactivation and stored model ACL revocation",
+    "url": "https://github.com/advisories/GHSA-mvx4-532p-xfm9",
+    "score": 3.1,
+    "ghsa": "GHSA-mvx4-532p-xfm9",
+    "date": "2026-07-24T16:55:30Z"
+   },
+   {
+    "title": "Open WebUI: Account enumeration via observable login timing discrepancy",
+    "url": "https://github.com/advisories/GHSA-7rw5-9f7q-xj36",
+    "score": 5.3,
+    "ghsa": "GHSA-7rw5-9f7q-xj36",
+    "date": "2026-07-24T16:55:06Z"
    }
   ],
   "thn": [
+   {
+    "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+    "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+    "date": "Fri, 24 Jul 2026 20:42:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
     "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
@@ -334,16 +299,16 @@
     "date": "Thu, 23 Jul 2026 20:32:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-    "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-    "date": "Thu, 23 Jul 2026 18:57:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+    "date": "Fri, 24 Jul 2026 13:50:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
@@ -420,13 +385,6 @@
     "date": "Thu, 23 Jul 2026 12:32:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-    "date": "Thu, 23 Jul 2026 11:34:43 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -439,13 +397,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 664,
+    "stars": 665,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 530,
+    "stars": 532,
     "lang": "—"
    },
    {
@@ -457,13 +415,13 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 371,
+    "stars": 372,
     "lang": "JavaScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 358,
+    "stars": 359,
     "lang": "Swift"
    },
    {
@@ -528,8 +486,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1614,
-    "comments": 1139,
+    "points": 1615,
+    "comments": 1145,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -612,13 +570,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "DEF CON Middle East Postponed",
-    "url": "https://www.reddit.com/r/netsec/comments/1v5ez14/def_con_middle_east_postponed/",
-    "date": "2026-07-24T15:41:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "The way AI voice phishing gets demonstrated is making people worse at spotting it",
     "url": "https://www.reddit.com/r/netsec/comments/1v59mld/the_way_ai_voice_phishing_gets_demonstrated_is/",
     "date": "2026-07-24T12:12:09+00:00",
@@ -671,6 +622,13 @@
     "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
     "url": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
     "date": "2026-07-22T19:08:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The Hidden CCS2 Attack Surface on EV Chargers",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/",
+    "date": "2026-07-21T15:58:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
