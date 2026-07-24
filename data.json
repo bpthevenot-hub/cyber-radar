@@ -1,7 +1,79 @@
 {
- "generatedAt": "2026-07-24T17:54:49.306Z",
+ "generatedAt": "2026-07-24T19:50:01.862Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-59216 — Open WebUI: Cross-user code-interpreter and tool execution via unvalidated Socket.IO event-caller session_id",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59216",
+    "score": 7.5,
+    "date": "2026-07-24T17:01:53Z"
+   },
+   {
+    "title": "CVE-2026-59714 — Open WebUI: Cross-channel message overwrite via chat completion API (single-model and multimodel message_ids)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59714",
+    "score": 7.5,
+    "date": "2026-07-24T17:01:07Z"
+   },
+   {
+    "title": "CVE-2026-59219 — Open WebUI: Realtime endpoints accept Redis-revoked JWTs after signout/backchannel logout",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59219",
+    "score": 7.5,
+    "date": "2026-07-24T17:00:11Z"
+   },
+   {
+    "title": "CVE-2026-59222 — Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59222",
+    "score": 5,
+    "date": "2026-07-24T17:04:55Z"
+   },
+   {
+    "title": "CVE-2026-59217 — Open WebUI: Upload `metadata.knowledge_id` bypasses the knowledge-base write-access check (read-only users can add files to KB)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59217",
+    "score": 5,
+    "date": "2026-07-24T17:02:14Z"
+   },
+   {
+    "title": "CVE-2026-59227 — Open WebUI: POST /api/v1/images/edit bypasses the global image-edit switch and the per-user image-generation permission",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59227",
+    "score": 5,
+    "date": "2026-07-24T16:58:48Z"
+   },
+   {
+    "title": "CVE-2026-59220 — Open WebUI: ReDoS in skill-mention regexes causes whole-instance DoS on default config",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59220",
+    "score": 5,
+    "date": "2026-07-24T16:55:55Z"
+   },
+   {
+    "title": "CVE-2026-59218 — Open WebUI: Account enumeration via observable login timing discrepancy",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59218",
+    "score": 5,
+    "date": "2026-07-24T16:55:06Z"
+   },
+   {
+    "title": "CVE-2026-59215 — Open WebUI: Private channel messages can be disclosed through cross-channel thread parent_id binding",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59215",
+    "score": 2,
+    "date": "2026-07-24T17:04:31Z"
+   },
+   {
+    "title": "CVE-2026-59213 — Open WebUI: Cross-user model-list exposure via static cache key in get_all_models (aiocache key= vs key_builder= misuse)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59213",
+    "score": 2,
+    "date": "2026-07-24T17:03:21Z"
+   },
+   {
+    "title": "CVE-2026-59715 — Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59715",
+    "score": 2,
+    "date": "2026-07-24T16:59:44Z"
+   },
+   {
+    "title": "CVE-2026-59226 — Open WebUI: Scheduled automations continue after pending-user deactivation and stored model ACL revocation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59226",
+    "score": 2,
+    "date": "2026-07-24T16:55:30Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+    "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+    "date": "Fri, 24 Jul 2026 15:09:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
     "date": "Fri, 24 Jul 2026 13:50:37 -0400",
@@ -378,13 +457,6 @@
     "date": "Thu, 23 Jul 2026 12:49:27 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-    "date": "Thu, 23 Jul 2026 12:32:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +469,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 665,
+    "stars": 666,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 532,
+    "stars": 537,
     "lang": "—"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 267,
+    "stars": 268,
     "lang": "TypeScript"
    },
    {
@@ -486,8 +558,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1615,
-    "comments": 1145,
+    "points": 1616,
+    "comments": 1147,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -577,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Announcing the External Penetration Testing Program Pack",
+    "url": "https://www.reddit.com/r/netsec/comments/1v5j1wl/announcing_the_external_penetration_testing/",
+    "date": "2026-07-24T18:05:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
     "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
     "date": "2026-07-23T22:11:40+00:00",
@@ -622,13 +701,6 @@
     "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
     "url": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
     "date": "2026-07-22T19:08:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The Hidden CCS2 Attack Surface on EV Chargers",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/",
-    "date": "2026-07-21T15:58:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
