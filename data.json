@@ -1,7 +1,62 @@
 {
- "generatedAt": "2026-07-24T11:57:19.116Z",
+ "generatedAt": "2026-07-24T14:16:15.853Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-55575 — LiquidJS: `pop` filter bypasses `memoryLimit` accounting that its array-filter siblings enforce",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55575",
+    "score": 7.5,
+    "date": "2026-07-24T14:05:20Z"
+   },
+   {
+    "title": "CVE-2026-54673 — electron-updater: Cross-origin redirect leaks `PRIVATE-TOKEN` and mixed-case `Authorization` credentials in `builder-util-runtime`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54673",
+    "score": 7.5,
+    "date": "2026-07-24T14:03:19Z"
+   },
+   {
+    "title": "CVE-2026-54672 — electron-updater: Uncontrolled search path elements within `AppImage` built by `app-builder-lib`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54672",
+    "score": 7.5,
+    "date": "2026-07-24T14:00:59Z"
+   },
+   {
+    "title": "CVE-2026-55597 — ImageMagick: Heap Buffer Over-Write in JP2 encoder when due to incorrect handling of arguments",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55597",
+    "score": 5,
+    "date": "2026-07-24T14:06:18Z"
+   },
+   {
+    "title": "CVE-2026-55595 — ImageMagick: Infinite Loop in connected-components when providing invalid arguments",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55595",
+    "score": 5,
+    "date": "2026-07-24T14:05:55Z"
+   },
+   {
+    "title": "CVE-2026-55594 — ImageMagick: Stack Overflow in MVG decoder due to missing depth check.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55594",
+    "score": 5,
+    "date": "2026-07-24T14:05:39Z"
+   },
+   {
+    "title": "CVE-2026-55510 — ImageMagick: Use-After-Free in crafted 8BIM when identifying an image",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55510",
+    "score": 5,
+    "date": "2026-07-24T14:04:31Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,91 +173,105 @@
   ],
   "adv": [
    {
-    "title": "Ruby json: JSON generator heap buffer overflow when streaming to an IO",
-    "url": "https://github.com/advisories/GHSA-x2f5-4prf-w687",
+    "title": "ImageMagick: Heap-use-after-free via XMP profile could result in a crash",
+    "url": "https://github.com/advisories/GHSA-qh5g-q395-cx4j",
     "score": 3.7,
-    "ghsa": "GHSA-x2f5-4prf-w687",
-    "date": "2026-07-23T19:48:08Z"
+    "ghsa": "GHSA-qh5g-q395-cx4j",
+    "date": "2026-07-24T14:15:23Z"
    },
    {
-    "title": "c3p0 can, in combination with other libraries, compose to a \"sink\" for deserialization gadgets",
-    "url": "https://github.com/advisories/GHSA-w6w4-rjh9-9r58",
-    "score": null,
-    "ghsa": "GHSA-w6w4-rjh9-9r58",
-    "date": "2026-07-23T19:46:53Z"
+    "title": "ImageMagick: Code injection in HTML encoder due to incomplete fix of CVE-2026-25797",
+    "url": "https://github.com/advisories/GHSA-hc76-7mpc-qjqh",
+    "score": 5.7,
+    "ghsa": "GHSA-hc76-7mpc-qjqh",
+    "date": "2026-07-24T14:09:12Z"
    },
    {
-    "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
-    "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
-    "score": null,
-    "ghsa": "GHSA-wrjc-x8rr-h8h6",
-    "date": "2026-07-23T19:38:28Z"
+    "title": "ImageMagick: Policy Bypass due to an incomplete fix of CVE-2026-49219",
+    "url": "https://github.com/advisories/GHSA-56m6-8q75-f2rw",
+    "score": 4.7,
+    "ghsa": "GHSA-56m6-8q75-f2rw",
+    "date": "2026-07-24T14:08:37Z"
    },
    {
-    "title": "React Router: Open redirect leading to XSS",
-    "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
-    "score": 6.9,
-    "ghsa": "GHSA-jjmj-jmhj-qwj2",
-    "date": "2026-07-23T19:36:31Z"
+    "title": "ImageMagick: Policy Bypass possible with matrix-backed operations",
+    "url": "https://github.com/advisories/GHSA-rvhp-75f6-9jqh",
+    "score": 3.3,
+    "ghsa": "GHSA-rvhp-75f6-9jqh",
+    "date": "2026-07-24T14:08:14Z"
    },
    {
-    "title": "React Router: RSCErrorHandler Missing Protocol Validation (XSS)",
-    "url": "https://github.com/advisories/GHSA-h8fp-f39c-q6mh",
-    "score": 6.9,
-    "ghsa": "GHSA-h8fp-f39c-q6mh",
-    "date": "2026-07-23T19:35:57Z"
+    "title": "Quinn: Remote memory exhaustion in quinn-proto from unbounded out-of-order stream reassembly",
+    "url": "https://github.com/advisories/GHSA-4w2j-m93h-cj5j",
+    "score": 7.5,
+    "ghsa": "GHSA-4w2j-m93h-cj5j",
+    "date": "2026-07-24T14:07:54Z"
    },
    {
-    "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
-    "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+    "title": "React Router: Unauthenticated Denial of Service via Inefficient Route Matching",
+    "url": "https://github.com/advisories/GHSA-chx6-hx7r-mcp5",
+    "score": 7.5,
+    "ghsa": "GHSA-chx6-hx7r-mcp5",
+    "date": "2026-07-24T14:06:57Z"
+   },
+   {
+    "title": "ImageMagick: Policy Bypass in concatenate operation due to missing checks",
+    "url": "https://github.com/advisories/GHSA-82mp-vp5c-9pf7",
     "score": 6.1,
-    "ghsa": "GHSA-337j-9hxr-rhxg",
-    "date": "2026-07-23T19:34:14Z"
+    "ghsa": "GHSA-82mp-vp5c-9pf7",
+    "date": "2026-07-24T14:06:39Z"
    },
    {
-    "title": "ImageMagick: Information Disclosure in MNG decoder because allocated memory is left unchanged",
-    "url": "https://github.com/advisories/GHSA-8g53-9m3c-69xg",
+    "title": "ImageMagick: Heap Buffer Over-Write in JP2 encoder when due to incorrect handling of arguments",
+    "url": "https://github.com/advisories/GHSA-c4v7-w88g-m6c4",
+    "score": 5.5,
+    "ghsa": "GHSA-c4v7-w88g-m6c4",
+    "date": "2026-07-24T14:06:18Z"
+   },
+   {
+    "title": "ImageMagick: Infinite Loop in connected-components when providing invalid arguments",
+    "url": "https://github.com/advisories/GHSA-qhmf-7fc4-8q3h",
+    "score": 4.7,
+    "ghsa": "GHSA-qhmf-7fc4-8q3h",
+    "date": "2026-07-24T14:05:55Z"
+   },
+   {
+    "title": "ImageMagick: Stack Overflow in MVG decoder due to missing depth check.",
+    "url": "https://github.com/advisories/GHSA-mx48-2qq3-23hf",
     "score": 5.3,
-    "ghsa": "GHSA-8g53-9m3c-69xg",
-    "date": "2026-07-23T19:33:39Z"
+    "ghsa": "GHSA-mx48-2qq3-23hf",
+    "date": "2026-07-24T14:05:39Z"
    },
    {
-    "title": "find-my-way: DDoS with HTTP2",
-    "url": "https://github.com/advisories/GHSA-c96f-x56v-gq3h",
+    "title": "LiquidJS: `pop` filter bypasses `memoryLimit` accounting that its array-filter siblings enforce",
+    "url": "https://github.com/advisories/GHSA-g357-x5c3-c72p",
     "score": 7.5,
-    "ghsa": "GHSA-c96f-x56v-gq3h",
-    "date": "2026-07-23T19:33:15Z"
+    "ghsa": "GHSA-g357-x5c3-c72p",
+    "date": "2026-07-24T14:05:20Z"
    },
    {
-    "title": "pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
-    "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
-    "score": 7.5,
-    "ghsa": "GHSA-g867-7843-wf8q",
-    "date": "2026-07-23T16:37:07Z"
-   },
-   {
-    "title": "pypdf: Possible infinite loop for not terminated inline images",
-    "url": "https://github.com/advisories/GHSA-5xf7-4p34-54qr",
-    "score": 7.5,
-    "ghsa": "GHSA-5xf7-4p34-54qr",
-    "date": "2026-07-23T16:36:41Z"
-   },
-   {
-    "title": "pypdf: Possible long runtimes for repeated malformed cross-reference entries",
-    "url": "https://github.com/advisories/GHSA-55h5-xmcq-c37v",
-    "score": null,
-    "ghsa": "GHSA-55h5-xmcq-c37v",
-    "date": "2026-07-23T15:07:33Z"
-   },
-   {
-    "title": "pypdf: Possible large memory usage for wrong image dimensions",
-    "url": "https://github.com/advisories/GHSA-5qjq-93h5-hrgp",
-    "score": null,
-    "ghsa": "GHSA-5qjq-93h5-hrgp",
-    "date": "2026-07-23T15:06:58Z"
+    "title": "ImageMagick: Use-After-Free in crafted 8BIM when identifying an image",
+    "url": "https://github.com/advisories/GHSA-ff5c-8x9r-8qcw",
+    "score": 5.5,
+    "ghsa": "GHSA-ff5c-8x9r-8qcw",
+    "date": "2026-07-24T14:04:31Z"
    }
   ],
   "thn": [
+   {
+    "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+    "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+    "date": "Fri, 24 Jul 2026 17:23:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+    "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+    "date": "Fri, 24 Jul 2026 17:15:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
     "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
@@ -272,23 +341,30 @@
     "date": "Thu, 23 Jul 2026 18:41:09 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
-    "url": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
-    "date": "Thu, 23 Jul 2026 17:50:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
-    "url": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
-    "date": "Thu, 23 Jul 2026 17:15:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Chick-fil-A data breach affects more than 13,000 customers",
+    "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+    "date": "Fri, 24 Jul 2026 10:04:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+    "url": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+    "date": "Fri, 24 Jul 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+    "url": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+    "date": "Fri, 24 Jul 2026 08:56:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Man gets six years for hacking 750 women's Snapchat accounts",
     "url": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
@@ -351,27 +427,6 @@
     "date": "Thu, 23 Jul 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "EU fines Google $1 billion for search, app store antitrust violations",
-    "url": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
-    "date": "Thu, 23 Jul 2026 08:33:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
-    "url": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
-    "date": "Thu, 23 Jul 2026 07:40:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-    "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-    "date": "Thu, 23 Jul 2026 06:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,13 +439,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 663,
+    "stars": 664,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 522,
+    "stars": 526,
     "lang": "—"
    },
    {
@@ -402,13 +457,13 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 369,
+    "stars": 371,
     "lang": "JavaScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 354,
+    "stars": 357,
     "lang": "Swift"
    },
    {
@@ -474,7 +529,7 @@
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
     "points": 1613,
-    "comments": 1134,
+    "comments": 1137,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -557,6 +612,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The way AI voice phishing gets demonstrated is making people worse at spotting it",
+    "url": "https://www.reddit.com/r/netsec/comments/1v59mld/the_way_ai_voice_phishing_gets_demonstrated_is/",
+    "date": "2026-07-24T12:12:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
     "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
     "date": "2026-07-23T22:11:40+00:00",
@@ -611,18 +673,11 @@
     "date": "2026-07-21T15:58:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)",
-    "url": "https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/",
-    "date": "2026-07-21T14:42:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +692,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
