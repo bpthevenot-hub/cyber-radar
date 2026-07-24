@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-24T21:31:12.407Z",
+ "generatedAt": "2026-07-24T23:27:09.418Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "Budibase: MySQL DESCRIBE Backtick Injection via multipleStatements in Database Connector",
-    "url": "https://github.com/advisories/GHSA-2xgg-r2wc-c5r2",
-    "score": 7.6,
-    "ghsa": "GHSA-2xgg-r2wc-c5r2",
-    "date": "2026-07-24T21:26:19Z"
-   },
-   {
-    "title": "Budibase: NoSQL Injection via JSON Parameter Interpolation in MongoDB Query Execution",
-    "url": "https://github.com/advisories/GHSA-qw6m-8fw2-2v64",
-    "score": 8.3,
-    "ghsa": "GHSA-qw6m-8fw2-2v64",
-    "date": "2026-07-24T21:25:51Z"
-   },
-   {
-    "title": "Budibase: OAuth2 Token Disclosure via Automation Test Results Broadcast to Other Builders",
-    "url": "https://github.com/advisories/GHSA-gh4h-34gr-87r7",
-    "score": 5.7,
-    "ghsa": "GHSA-gh4h-34gr-87r7",
-    "date": "2026-07-24T21:25:20Z"
-   },
-   {
-    "title": "Budibase: Unauthenticated user information disclosure via public tenant user lookup endpoint",
-    "url": "https://github.com/advisories/GHSA-hr66-5mqr-8mpx",
+    "title": "etcd: `tlsListener.acceptLoop` spawns unbounded handshake goroutines with no deadline",
+    "url": "https://github.com/advisories/GHSA-6vch-q96h-7gc3",
     "score": 7.5,
-    "ghsa": "GHSA-hr66-5mqr-8mpx",
-    "date": "2026-07-24T21:25:00Z"
+    "ghsa": "GHSA-6vch-q96h-7gc3",
+    "date": "2026-07-24T22:40:16Z"
    },
    {
-    "title": "Budibase: Unauthenticated REST Datasource Credential Theft via Cross-Origin Auth Leak",
-    "url": "https://github.com/advisories/GHSA-mqhr-6j6h-74p5",
-    "score": 9.5,
-    "ghsa": "GHSA-mqhr-6j6h-74p5",
-    "date": "2026-07-24T21:22:51Z"
+    "title": "FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
+    "url": "https://github.com/advisories/GHSA-8q49-2h5h-434x",
+    "score": 5.9,
+    "ghsa": "GHSA-8q49-2h5h-434x",
+    "date": "2026-07-24T22:40:00Z"
    },
    {
-    "title": "Cloudreve WOPI view sessions can write files and WOPI access token secret is ignored",
-    "url": "https://github.com/advisories/GHSA-c3jm-gv5r-9wcp",
-    "score": 6.3,
-    "ghsa": "GHSA-c3jm-gv5r-9wcp",
-    "date": "2026-07-24T21:18:41Z"
+    "title": "kin-openapi openapi3filter: unauthenticated nil-pointer panic when validating a request against a `content` parameter whose media type has no schema",
+    "url": "https://github.com/advisories/GHSA-jpcw-4wr7-c3vq",
+    "score": 5.3,
+    "ghsa": "GHSA-jpcw-4wr7-c3vq",
+    "date": "2026-07-24T22:39:39Z"
    },
    {
-    "title": "Budibase: OIDC SSO account takeover: incoming identity linked by email without checking email_verified",
-    "url": "https://github.com/advisories/GHSA-hp6v-6jw7-gv2f",
-    "score": 9.5,
-    "ghsa": "GHSA-hp6v-6jw7-gv2f",
-    "date": "2026-07-24T21:17:39Z"
+    "title": "AWS Bedrock AgentCore: Improper neutralization of argument delimiters in the Python SDK install_packages()",
+    "url": "https://github.com/advisories/GHSA-j6g5-3hh3-pgw8",
+    "score": 7.3,
+    "ghsa": "GHSA-j6g5-3hh3-pgw8",
+    "date": "2026-07-24T22:38:56Z"
    },
    {
-    "title": "Budibase: DNS rebinding SSRF bypasses remain in OpenAPI import and REST query execution",
-    "url": "https://github.com/advisories/GHSA-xg5g-26x8-cvf4",
-    "score": 8.5,
-    "ghsa": "GHSA-xg5g-26x8-cvf4",
-    "date": "2026-07-24T21:17:25Z"
-   },
-   {
-    "title": "Budibase: S3 presigned URL endpoint authorization regression in v3.39.4 allows BASIC users to obtain S3 PutObject presigned URLs",
-    "url": "https://github.com/advisories/GHSA-xcx6-4f2g-hhgx",
-    "score": 7.7,
-    "ghsa": "GHSA-xcx6-4f2g-hhgx",
-    "date": "2026-07-24T21:17:03Z"
-   },
-   {
-    "title": "Budibase: Server Filesystem Existence/Read Oracle via Builder-Controlled MongoDB tlsCertificateKeyFile",
-    "url": "https://github.com/advisories/GHSA-ppr4-5f46-j9c6",
+    "title": "etcd: Watch API authorization bypass via open-ended range requests",
+    "url": "https://github.com/advisories/GHSA-xg4h-6gfc-h4m8",
     "score": 7.5,
-    "ghsa": "GHSA-ppr4-5f46-j9c6",
-    "date": "2026-07-24T21:16:41Z"
+    "ghsa": "GHSA-xg4h-6gfc-h4m8",
+    "date": "2026-07-24T22:38:22Z"
    },
    {
-    "title": "Budibase: SQL Injection via `multipleStatements: true`",
-    "url": "https://github.com/advisories/GHSA-q6x4-v3qx-85qw",
-    "score": 9.6,
-    "ghsa": "GHSA-q6x4-v3qx-85qw",
-    "date": "2026-07-24T21:15:02Z"
-   },
-   {
-    "title": "Budibase: Email Change IDOR via POST /api/v2/email allows full Account Takeover (accountId not validated against session)",
-    "url": "https://github.com/advisories/GHSA-c8vc-7pv3-g98p",
+    "title": "Smithy-RS: Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of servic",
+    "url": "https://github.com/advisories/GHSA-jvxp-qmx7-gjpx",
     "score": 7.5,
-    "ghsa": "GHSA-c8vc-7pv3-g98p",
-    "date": "2026-07-24T21:14:49Z"
+    "ghsa": "GHSA-jvxp-qmx7-gjpx",
+    "date": "2026-07-24T22:37:39Z"
+   },
+   {
+    "title": "libp2p: yamux connection DoS via oversized data frame",
+    "url": "https://github.com/advisories/GHSA-hmj8-5xmh-5573",
+    "score": 7.5,
+    "ghsa": "GHSA-hmj8-5xmh-5573",
+    "date": "2026-07-24T22:37:17Z"
+   },
+   {
+    "title": "Quasar: Prototype pollution in the extend() utility",
+    "url": "https://github.com/advisories/GHSA-3r53-75j5-3g7j",
+    "score": 5.6,
+    "ghsa": "GHSA-3r53-75j5-3g7j",
+    "date": "2026-07-24T22:36:45Z"
+   },
+   {
+    "title": "Oh My Posh: Arbitrary command execution via template injection in the path segment",
+    "url": "https://github.com/advisories/GHSA-6xj8-qv9j-xcjq",
+    "score": 7.8,
+    "ghsa": "GHSA-6xj8-qv9j-xcjq",
+    "date": "2026-07-24T22:36:11Z"
+   },
+   {
+    "title": "Oh My Posh: Terminal escape sequence injection via unsanitized prompt segment data",
+    "url": "https://github.com/advisories/GHSA-fwjx-9p69-h25h",
+    "score": 6.1,
+    "ghsa": "GHSA-fwjx-9p69-h25h",
+    "date": "2026-07-24T22:35:52Z"
+   },
+   {
+    "title": "OmniFaces: Forged combined-resource IDs and related output/push boundaries",
+    "url": "https://github.com/advisories/GHSA-fp43-vj7g-pg92",
+    "score": 7.5,
+    "ghsa": "GHSA-fp43-vj7g-pg92",
+    "date": "2026-07-24T22:35:27Z"
+   },
+   {
+    "title": "Shescape: Quadratic-time denial of service in the flag-protection",
+    "url": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
+    "score": 7.5,
+    "ghsa": "GHSA-gm3r-q2wp-hw87",
+    "date": "2026-07-24T22:35:08Z"
    }
   ],
   "thn": [
@@ -409,7 +409,7 @@
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 398,
+    "stars": 399,
     "lang": "Rust"
    },
    {
@@ -487,7 +487,7 @@
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
     "points": 1617,
-    "comments": 1149,
+    "comments": 1150,
     "date": "2026-07-21T20:09:52Z"
    },
    {
