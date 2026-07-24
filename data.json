@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-07-24T06:41:48.774Z",
+ "generatedAt": "2026-07-24T09:38:04.217Z",
  "sources": {
   "cve": [
    {
-    "title": "RLSA-2026:43505 — Important: mariadb-connector-c security update",
-    "url": "https://github.com/advisories/RLSA-2026:43505",
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "RLSA-2026:43400 — Important: dogtag-pki security update",
-    "url": "https://github.com/advisories/RLSA-2026:43400",
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:42919 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:42919",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41897 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41897",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41895 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41895",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41893 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41893",
-    "score": null,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:43307 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:43307",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:42952 — Moderate: glibc security update",
-    "url": "https://github.com/advisories/RLSA-2026:42952",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:41898 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41898",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:41896 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41896",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:41894 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41894",
-    "score": null,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:42739 — Important: acl security update",
-    "url": "https://github.com/advisories/RLSA-2026:42739",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:42694 — Moderate: glibc security update",
-    "url": "https://github.com/advisories/RLSA-2026:42694",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:42096 — Important: c-ares security update",
-    "url": "https://github.com/advisories/RLSA-2026:42096",
-    "score": null,
-    "date": "2026-07-22T12:05:54.429340Z"
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -289,6 +217,27 @@
   ],
   "thn": [
    {
+    "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+    "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+    "date": "Fri, 24 Jul 2026 13:11:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+    "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+    "date": "Fri, 24 Jul 2026 12:28:27 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+    "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+    "date": "Fri, 24 Jul 2026 12:20:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
     "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
     "date": "Fri, 24 Jul 2026 00:06:08 +0530",
@@ -350,30 +299,16 @@
     "date": "Thu, 23 Jul 2026 13:34:35 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
-    "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
-    "date": "Thu, 23 Jul 2026 12:04:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
-    "url": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
-    "date": "Thu, 23 Jul 2026 00:07:42 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
-    "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
-    "date": "Wed, 22 Jul 2026 23:37:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+    "date": "Fri, 24 Jul 2026 03:36:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New Dolphin X malware uses AI to rank high-value targets",
     "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
@@ -450,13 +385,6 @@
     "date": "Thu, 23 Jul 2026 05:20:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
-    "date": "Thu, 23 Jul 2026 04:13:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +397,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 663,
+    "stars": 659,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 520,
+    "stars": 521,
     "lang": "—"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 363,
+    "stars": 366,
     "lang": "JavaScript"
    },
    {
@@ -499,7 +427,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 301,
+    "stars": 302,
     "lang": "Java"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 158,
+    "stars": 160,
     "lang": "Python"
    }
   ],
@@ -558,8 +486,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1610,
-    "comments": 1132,
+    "points": 1612,
+    "comments": 1133,
     "date": "2026-07-21T20:09:52Z"
    },
    {
