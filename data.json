@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-07-23T22:17:27.962Z",
+ "generatedAt": "2026-07-24T00:13:20.775Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-49035 — The affected product is vulnerable to a heap-based buffer overflow via a crafted MMS Initiate request. Remote code execution (RCE) has been ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49035",
+    "score": 9.5,
+    "date": "2026-07-23T21:31:03Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "title": "CVE-2026-15981 — The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 5.4.4.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15981",
+    "score": 9.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-63359 — The Appriss Insights (Equifax) Victim Information Notification Exchange (VINE) applications allow an unauthenticated attacker to send a spec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63359",
+    "score": 9.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-6924 — A bug in the entropy initialization for SiWx917 causes the DRBG to use a predictable seed. As such, all random numbers generated in the Matt",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6924",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:03Z"
+   },
+   {
+    "title": "CVE-2026-50039 — The affected product is vulnerable to a stack-based buffer overflow, which may allow an attacker to cause a memory corruption via a Read Req",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50039",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:03Z"
+   },
+   {
+    "title": "CVE-2026-50103 — A NULL pointer dereference in the L2 GOOSE and R-GOOSE shared parser, which may allow a network-adjacent attacker to crash a subscribing app",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50103",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:03Z"
+   },
+   {
+    "title": "CVE-2026-50032 — A NULL pointer dereference in the MMS Write Named Variable List handler, which may allow a network adjacent attacker to crash the server by ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50032",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:03Z"
+   },
+   {
+    "title": "CVE-2026-65703 — FFmpeg versions 2.7 through 8.1.2 contain an out-of-bounds write vulnerability in the TDSC video decoder that allows remote attackers to cau",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65703",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-21653 — Victor SSRF vulnerability in Johnson Controls CCure 9000 and victor application server allows Server Side Request Forgery. This issue affect",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21653",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-15967 — Insufficient session expiration vulnerability in Progress MOVEit Transfer. This issue affects MOVEit Transfer: before 2025.1.5, from 2026.0.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15967",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-15968 — Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Progress MOVEit Transfer. This issue a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15968",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-65705 — FFmpeg versions 3.4 through 8.1.2 contain an out-of-bounds write vulnerability in the vf_floodfill video filter that allows attackers to cor",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65705",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-65706 — FFmpeg versions 3.0 through 8.1.2 contain an out-of-bounds write vulnerability in the vf_swaprect video filter that allows attackers to corr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65706",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-21655 — Deserialization of untrusted data vulnerability in Johnson Control victor on Windows allows capec-586. This issue affects victor: from 2.9 b",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21655",
+    "score": 7.5,
+    "date": "2026-07-23T21:31:02Z"
    }
   ],
   "kev": [
@@ -397,13 +469,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 614,
+    "stars": 622,
     "lang": "TypeScript"
    },
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 509,
+    "stars": 510,
     "lang": "—"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 357,
+    "stars": 359,
     "lang": "JavaScript"
    },
    {
@@ -486,8 +558,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1604,
-    "comments": 1126,
+    "points": 1605,
+    "comments": 1129,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -563,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
+    "date": "2026-07-23T22:11:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Thailand's Ministry of Finance targeted with an AI agent running with approval prompts disabled",
     "url": "https://www.reddit.com/r/netsec/comments/1v4mg4l/thailands_ministry_of_finance_targeted_with_an_ai/",
     "date": "2026-07-23T18:33:23+00:00",
@@ -573,13 +652,6 @@
     "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
     "date": "2026-07-22T22:21:24+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
-    "date": "2026-07-23T22:11:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1653,
   "adv": 12,
   "feed": 48
