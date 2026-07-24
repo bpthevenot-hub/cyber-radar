@@ -1,79 +1,7 @@
 {
- "generatedAt": "2026-07-24T19:50:01.862Z",
+ "generatedAt": "2026-07-24T21:31:12.407Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-59216 — Open WebUI: Cross-user code-interpreter and tool execution via unvalidated Socket.IO event-caller session_id",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59216",
-    "score": 7.5,
-    "date": "2026-07-24T17:01:53Z"
-   },
-   {
-    "title": "CVE-2026-59714 — Open WebUI: Cross-channel message overwrite via chat completion API (single-model and multimodel message_ids)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59714",
-    "score": 7.5,
-    "date": "2026-07-24T17:01:07Z"
-   },
-   {
-    "title": "CVE-2026-59219 — Open WebUI: Realtime endpoints accept Redis-revoked JWTs after signout/backchannel logout",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59219",
-    "score": 7.5,
-    "date": "2026-07-24T17:00:11Z"
-   },
-   {
-    "title": "CVE-2026-59222 — Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59222",
-    "score": 5,
-    "date": "2026-07-24T17:04:55Z"
-   },
-   {
-    "title": "CVE-2026-59217 — Open WebUI: Upload `metadata.knowledge_id` bypasses the knowledge-base write-access check (read-only users can add files to KB)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59217",
-    "score": 5,
-    "date": "2026-07-24T17:02:14Z"
-   },
-   {
-    "title": "CVE-2026-59227 — Open WebUI: POST /api/v1/images/edit bypasses the global image-edit switch and the per-user image-generation permission",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59227",
-    "score": 5,
-    "date": "2026-07-24T16:58:48Z"
-   },
-   {
-    "title": "CVE-2026-59220 — Open WebUI: ReDoS in skill-mention regexes causes whole-instance DoS on default config",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59220",
-    "score": 5,
-    "date": "2026-07-24T16:55:55Z"
-   },
-   {
-    "title": "CVE-2026-59218 — Open WebUI: Account enumeration via observable login timing discrepancy",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59218",
-    "score": 5,
-    "date": "2026-07-24T16:55:06Z"
-   },
-   {
-    "title": "CVE-2026-59215 — Open WebUI: Private channel messages can be disclosed through cross-channel thread parent_id binding",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59215",
-    "score": 2,
-    "date": "2026-07-24T17:04:31Z"
-   },
-   {
-    "title": "CVE-2026-59213 — Open WebUI: Cross-user model-list exposure via static cache key in get_all_models (aiocache key= vs key_builder= misuse)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59213",
-    "score": 2,
-    "date": "2026-07-24T17:03:21Z"
-   },
-   {
-    "title": "CVE-2026-59715 — Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59715",
-    "score": 2,
-    "date": "2026-07-24T16:59:44Z"
-   },
-   {
-    "title": "CVE-2026-59226 — Open WebUI: Scheduled automations continue after pending-user deactivation and stored model ACL revocation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59226",
-    "score": 2,
-    "date": "2026-07-24T16:55:30Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -203,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
-    "url": "https://github.com/advisories/GHSA-gh7p-78x6-jw6m",
-    "score": null,
-    "ghsa": "GHSA-gh7p-78x6-jw6m",
-    "date": "2026-07-24T17:04:55Z"
+    "title": "Budibase: MySQL DESCRIBE Backtick Injection via multipleStatements in Database Connector",
+    "url": "https://github.com/advisories/GHSA-2xgg-r2wc-c5r2",
+    "score": 7.6,
+    "ghsa": "GHSA-2xgg-r2wc-c5r2",
+    "date": "2026-07-24T21:26:19Z"
    },
    {
-    "title": "Open WebUI: Private channel messages can be disclosed through cross-channel thread parent_id binding",
-    "url": "https://github.com/advisories/GHSA-73x5-h92w-xc2j",
-    "score": 3.1,
-    "ghsa": "GHSA-73x5-h92w-xc2j",
-    "date": "2026-07-24T17:04:31Z"
+    "title": "Budibase: NoSQL Injection via JSON Parameter Interpolation in MongoDB Query Execution",
+    "url": "https://github.com/advisories/GHSA-qw6m-8fw2-2v64",
+    "score": 8.3,
+    "ghsa": "GHSA-qw6m-8fw2-2v64",
+    "date": "2026-07-24T21:25:51Z"
    },
    {
-    "title": "Open WebUI: Cross-user model-list exposure via static cache key in get_all_models (aiocache key= vs key_builder= misuse)",
-    "url": "https://github.com/advisories/GHSA-3wp3-xxj9-5jqq",
-    "score": 3.5,
-    "ghsa": "GHSA-3wp3-xxj9-5jqq",
-    "date": "2026-07-24T17:03:21Z"
+    "title": "Budibase: OAuth2 Token Disclosure via Automation Test Results Broadcast to Other Builders",
+    "url": "https://github.com/advisories/GHSA-gh4h-34gr-87r7",
+    "score": 5.7,
+    "ghsa": "GHSA-gh4h-34gr-87r7",
+    "date": "2026-07-24T21:25:20Z"
    },
    {
-    "title": "Open WebUI: Upload `metadata.knowledge_id` bypasses the knowledge-base write-access check (read-only users can add files to KB)",
-    "url": "https://github.com/advisories/GHSA-7r7x-gjvr-448g",
-    "score": 4.3,
-    "ghsa": "GHSA-7r7x-gjvr-448g",
-    "date": "2026-07-24T17:02:14Z"
+    "title": "Budibase: Unauthenticated user information disclosure via public tenant user lookup endpoint",
+    "url": "https://github.com/advisories/GHSA-hr66-5mqr-8mpx",
+    "score": 7.5,
+    "ghsa": "GHSA-hr66-5mqr-8mpx",
+    "date": "2026-07-24T21:25:00Z"
    },
    {
-    "title": "Open WebUI: Cross-user code-interpreter and tool execution via unvalidated Socket.IO event-caller session_id",
-    "url": "https://github.com/advisories/GHSA-74h3-cxq7-vc5q",
+    "title": "Budibase: Unauthenticated REST Datasource Credential Theft via Cross-Origin Auth Leak",
+    "url": "https://github.com/advisories/GHSA-mqhr-6j6h-74p5",
+    "score": 9.5,
+    "ghsa": "GHSA-mqhr-6j6h-74p5",
+    "date": "2026-07-24T21:22:51Z"
+   },
+   {
+    "title": "Cloudreve WOPI view sessions can write files and WOPI access token secret is ignored",
+    "url": "https://github.com/advisories/GHSA-c3jm-gv5r-9wcp",
+    "score": 6.3,
+    "ghsa": "GHSA-c3jm-gv5r-9wcp",
+    "date": "2026-07-24T21:18:41Z"
+   },
+   {
+    "title": "Budibase: OIDC SSO account takeover: incoming identity linked by email without checking email_verified",
+    "url": "https://github.com/advisories/GHSA-hp6v-6jw7-gv2f",
+    "score": 9.5,
+    "ghsa": "GHSA-hp6v-6jw7-gv2f",
+    "date": "2026-07-24T21:17:39Z"
+   },
+   {
+    "title": "Budibase: DNS rebinding SSRF bypasses remain in OpenAPI import and REST query execution",
+    "url": "https://github.com/advisories/GHSA-xg5g-26x8-cvf4",
+    "score": 8.5,
+    "ghsa": "GHSA-xg5g-26x8-cvf4",
+    "date": "2026-07-24T21:17:25Z"
+   },
+   {
+    "title": "Budibase: S3 presigned URL endpoint authorization regression in v3.39.4 allows BASIC users to obtain S3 PutObject presigned URLs",
+    "url": "https://github.com/advisories/GHSA-xcx6-4f2g-hhgx",
     "score": 7.7,
-    "ghsa": "GHSA-74h3-cxq7-vc5q",
-    "date": "2026-07-24T17:01:53Z"
+    "ghsa": "GHSA-xcx6-4f2g-hhgx",
+    "date": "2026-07-24T21:17:03Z"
    },
    {
-    "title": "Open WebUI: Cross-channel message overwrite via chat completion API (single-model and multimodel message_ids)",
-    "url": "https://github.com/advisories/GHSA-x2ff-v5v8-m75m",
-    "score": 7.1,
-    "ghsa": "GHSA-x2ff-v5v8-m75m",
-    "date": "2026-07-24T17:01:07Z"
+    "title": "Budibase: Server Filesystem Existence/Read Oracle via Builder-Controlled MongoDB tlsCertificateKeyFile",
+    "url": "https://github.com/advisories/GHSA-ppr4-5f46-j9c6",
+    "score": 7.5,
+    "ghsa": "GHSA-ppr4-5f46-j9c6",
+    "date": "2026-07-24T21:16:41Z"
    },
    {
-    "title": "Open WebUI: Realtime endpoints accept Redis-revoked JWTs after signout/backchannel logout",
-    "url": "https://github.com/advisories/GHSA-855v-hq7w-jmjw",
-    "score": 7.1,
-    "ghsa": "GHSA-855v-hq7w-jmjw",
-    "date": "2026-07-24T17:00:11Z"
+    "title": "Budibase: SQL Injection via `multipleStatements: true`",
+    "url": "https://github.com/advisories/GHSA-q6x4-v3qx-85qw",
+    "score": 9.6,
+    "ghsa": "GHSA-q6x4-v3qx-85qw",
+    "date": "2026-07-24T21:15:02Z"
    },
    {
-    "title": "Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
-    "url": "https://github.com/advisories/GHSA-gmfw-g93r-vg53",
-    "score": 3.1,
-    "ghsa": "GHSA-gmfw-g93r-vg53",
-    "date": "2026-07-24T16:59:44Z"
-   },
-   {
-    "title": "Open WebUI: POST /api/v1/images/edit bypasses the global image-edit switch and the per-user image-generation permission",
-    "url": "https://github.com/advisories/GHSA-rqj7-6wrp-6g2g",
-    "score": 4.3,
-    "ghsa": "GHSA-rqj7-6wrp-6g2g",
-    "date": "2026-07-24T16:58:48Z"
-   },
-   {
-    "title": "Open WebUI: ReDoS in skill-mention regexes causes whole-instance DoS on default config",
-    "url": "https://github.com/advisories/GHSA-ffpj-xv5c-p3gw",
-    "score": 6.5,
-    "ghsa": "GHSA-ffpj-xv5c-p3gw",
-    "date": "2026-07-24T16:55:55Z"
-   },
-   {
-    "title": "Open WebUI: Scheduled automations continue after pending-user deactivation and stored model ACL revocation",
-    "url": "https://github.com/advisories/GHSA-mvx4-532p-xfm9",
-    "score": 3.1,
-    "ghsa": "GHSA-mvx4-532p-xfm9",
-    "date": "2026-07-24T16:55:30Z"
-   },
-   {
-    "title": "Open WebUI: Account enumeration via observable login timing discrepancy",
-    "url": "https://github.com/advisories/GHSA-7rw5-9f7q-xj36",
-    "score": 5.3,
-    "ghsa": "GHSA-7rw5-9f7q-xj36",
-    "date": "2026-07-24T16:55:06Z"
+    "title": "Budibase: Email Change IDOR via POST /api/v2/email allows full Account Takeover (accountId not validated against session)",
+    "url": "https://github.com/advisories/GHSA-c8vc-7pv3-g98p",
+    "score": 7.5,
+    "ghsa": "GHSA-c8vc-7pv3-g98p",
+    "date": "2026-07-24T21:14:49Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "OnTrac notifies customers of data breach after network hack",
+    "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+    "date": "Fri, 24 Jul 2026 15:55:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
     "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
     "date": "Fri, 24 Jul 2026 15:09:09 -0400",
@@ -450,13 +385,6 @@
     "date": "Thu, 23 Jul 2026 15:48:30 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
-    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-    "date": "Thu, 23 Jul 2026 12:49:27 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,25 +403,25 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 537,
+    "stars": 538,
     "lang": "—"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 397,
+    "stars": 398,
     "lang": "Rust"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 372,
+    "stars": 373,
     "lang": "JavaScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 359,
+    "stars": 360,
     "lang": "Swift"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 160,
+    "stars": 161,
     "lang": "Python"
    }
   ],
@@ -558,8 +486,8 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1616,
-    "comments": 1147,
+    "points": 1617,
+    "comments": 1149,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -642,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "What syscall-layer tooling cannot see in P2P infrastructure",
+    "url": "https://www.reddit.com/r/netsec/comments/1v5m0rq/what_syscalllayer_tooling_cannot_see_in_p2p/",
+    "date": "2026-07-24T19:51:51+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "The way AI voice phishing gets demonstrated is making people worse at spotting it",
     "url": "https://www.reddit.com/r/netsec/comments/1v59mld/the_way_ai_voice_phishing_gets_demonstrated_is/",
     "date": "2026-07-24T12:12:09+00:00",
@@ -694,13 +629,6 @@
     "title": "I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)",
     "url": "https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/",
     "date": "2026-07-22T14:46:52+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
-    "url": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
-    "date": "2026-07-22T19:08:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
