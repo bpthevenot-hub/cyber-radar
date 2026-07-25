@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-07-25T15:31:35.095Z",
+ "generatedAt": "2026-07-25T17:18:32.560Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-66013 — OpenRemote before 1.26.2 contains an authentication bypass vulnerability in the console registration API that allows unauthenticated attacke",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66013",
-    "score": 9.5,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-66012 — SiYuan before v3.7.2 contains a missing authorization vulnerability in the POST /mcp kernel endpoint, which is gated only by a general auth ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66012",
-    "score": 9.5,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-66011 — ImageMagick before 7.1.2-27 contains a memory leak vulnerability in the magick command-line interface when invalid options are provided. Att",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66011",
-    "score": 5,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64515 — In the Linux kernel, the following vulnerability has been resolved: wifi: mac80211: fix MLE defragmentation If either reconf or EPCS multi-l",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64515",
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": null,
-    "date": "2026-07-25T12:31:39Z"
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "CVE-2026-64522 — In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: Fix eswitch mode block underflow on IPsec acquire SA mlx5e_xf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64522",
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64516 — In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu/vce1: Fix VCE 1 firmware size and offsets The VCPU BO contain",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64516",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64525 — In the Linux kernel, the following vulnerability has been resolved: xfrm: move policy_bydst RCU sync from per-netns .exit to .pre_exit The s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64525",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64520 — In the Linux kernel, the following vulnerability has been resolved: firmware: arm_ffa: Bound PARTITION_INFO_GET_REGS copies The register-bas",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64520",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64518 — In the Linux kernel, the following vulnerability has been resolved: tcp: Fix out-of-bounds access for twsk in tcp_ao_established_key(). lock",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64518",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64517 — In the Linux kernel, the following vulnerability has been resolved: drm/xe/gsc: Fix double-free of managed BO in error path The error path i",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64517",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64526 — In the Linux kernel, the following vulnerability has been resolved: ethtool: tsconfig: fix missing ethnl_ops_complete() tsconfig_prepare_dat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64526",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64519 — In the Linux kernel, the following vulnerability has been resolved: NFSD: Fix infinite loop in layout state revocation find_one_sb_stid() sk",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64519",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64521 — In the Linux kernel, the following vulnerability has been resolved: pinctrl: meson: amlogic-a4: fix deadlock issue Accessing the pinconf-pin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64521",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
-   },
-   {
-    "title": "CVE-2026-64523 — In the Linux kernel, the following vulnerability has been resolved: net/handshake: Take a long-lived file reference at submit handshake_nl_a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64523",
-    "score": null,
-    "date": "2026-07-25T12:31:39Z"
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -475,7 +403,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 547,
+    "stars": 548,
     "lang": "—"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 384,
+    "stars": 388,
     "lang": "JavaScript"
    },
    {
@@ -517,7 +445,7 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 170,
+    "stars": 171,
     "lang": "JavaScript"
    },
    {
@@ -558,7 +486,7 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1622,
+    "points": 1623,
     "comments": 1153,
     "date": "2026-07-21T20:09:52Z"
    },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1653,
   "adv": 12,
   "feed": 48
