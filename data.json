@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-07-25T09:13:53.162Z",
+ "generatedAt": "2026-07-25T10:47:40.549Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": null,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": null,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI confirms ChatGPT is down worldwide",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+    "date": "Sat, 25 Jul 2026 05:31:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "OnTrac notifies customers of data breach after network hack",
     "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
     "date": "Fri, 24 Jul 2026 15:55:01 -0400",
@@ -365,13 +385,6 @@
     "date": "Thu, 23 Jul 2026 16:14:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-    "date": "Thu, 23 Jul 2026 15:48:30 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -402,7 +415,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 379,
+    "stars": 380,
     "lang": "JavaScript"
    },
    {
@@ -438,7 +451,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker lab + one-payload exploit + defensive scanner for the fastjson 1.2.66-1.2.83 @JSONType remote-class-loa",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 162,
+    "stars": 163,
     "lang": "Python"
    },
    {
@@ -550,6 +563,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A featured Chrome extension &quot;Planet Search&quot; (2M installs) routes every query to the nextgeeker[.]com hijacker network",
+    "url": "https://www.reddit.com/r/netsec/comments/1v64mjy/a_featured_chrome_extension_planet_search_2m/",
+    "date": "2026-07-25T10:23:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
     "url": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
     "date": "2026-07-24T05:53:48+00:00",
@@ -611,18 +631,11 @@
     "date": "2026-07-23T13:24:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)",
-    "url": "https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/",
-    "date": "2026-07-22T14:46:52+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -637,5 +650,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
