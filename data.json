@@ -1,18 +1,90 @@
 {
- "generatedAt": "2026-07-25T12:11:15.821Z",
+ "generatedAt": "2026-07-25T14:04:58.187Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
+    "title": "CVE-2026-66013 — OpenRemote before 1.26.2 contains an authentication bypass vulnerability in the console registration API that allows unauthenticated attacke",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66013",
+    "score": 9.5,
+    "date": "2026-07-25T12:31:39Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "title": "CVE-2026-66012 — SiYuan before v3.7.2 contains a missing authorization vulnerability in the POST /mcp kernel endpoint, which is gated only by a general auth ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66012",
+    "score": 9.5,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-66011 — ImageMagick before 7.1.2-27 contains a memory leak vulnerability in the magick command-line interface when invalid options are provided. Att",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66011",
+    "score": 5,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64515 — In the Linux kernel, the following vulnerability has been resolved: wifi: mac80211: fix MLE defragmentation If either reconf or EPCS multi-l",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64515",
     "score": null,
-    "date": "2024-11-05T16:04:14Z"
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64522 — In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: Fix eswitch mode block underflow on IPsec acquire SA mlx5e_xf",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64522",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64516 — In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu/vce1: Fix VCE 1 firmware size and offsets The VCPU BO contain",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64516",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64525 — In the Linux kernel, the following vulnerability has been resolved: xfrm: move policy_bydst RCU sync from per-netns .exit to .pre_exit The s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64525",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64520 — In the Linux kernel, the following vulnerability has been resolved: firmware: arm_ffa: Bound PARTITION_INFO_GET_REGS copies The register-bas",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64520",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64518 — In the Linux kernel, the following vulnerability has been resolved: tcp: Fix out-of-bounds access for twsk in tcp_ao_established_key(). lock",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64518",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64517 — In the Linux kernel, the following vulnerability has been resolved: drm/xe/gsc: Fix double-free of managed BO in error path The error path i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64517",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64526 — In the Linux kernel, the following vulnerability has been resolved: ethtool: tsconfig: fix missing ethnl_ops_complete() tsconfig_prepare_dat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64526",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64519 — In the Linux kernel, the following vulnerability has been resolved: NFSD: Fix infinite loop in layout state revocation find_one_sb_stid() sk",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64519",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64521 — In the Linux kernel, the following vulnerability has been resolved: pinctrl: meson: amlogic-a4: fix deadlock issue Accessing the pinconf-pin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64521",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
+   },
+   {
+    "title": "CVE-2026-64523 — In the Linux kernel, the following vulnerability has been resolved: net/handshake: Take a long-lived file reference at submit handshake_nl_a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64523",
+    "score": null,
+    "date": "2026-07-25T12:31:39Z"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+    "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+    "date": "Sat, 25 Jul 2026 18:22:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
     "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
     "date": "Sat, 25 Jul 2026 15:44:26 +0530",
@@ -290,13 +369,6 @@
     "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
     "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
     "date": "Fri, 24 Jul 2026 15:39:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-    "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-    "date": "Fri, 24 Jul 2026 13:11:06 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,7 +475,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 543,
+    "stars": 546,
     "lang": "—"
    },
    {
@@ -415,13 +487,13 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 380,
+    "stars": 382,
     "lang": "JavaScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 364,
+    "stars": 365,
     "lang": "Swift"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 169,
+    "stars": 170,
     "lang": "JavaScript"
    },
    {
@@ -486,7 +558,7 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1619,
+    "points": 1621,
     "comments": 1152,
     "date": "2026-07-21T20:09:52Z"
    },
@@ -563,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A featured Chrome extension &quot;Planet Search&quot; (2M installs) routes every query to the nextgeeker[.]com hijacker network",
-    "url": "https://www.reddit.com/r/netsec/comments/1v64mjy/a_featured_chrome_extension_planet_search_2m/",
-    "date": "2026-07-25T10:23:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
     "url": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
     "date": "2026-07-24T05:53:48+00:00",
@@ -577,30 +642,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "What syscall-layer tooling cannot see in P2P infrastructure",
-    "url": "https://www.reddit.com/r/netsec/comments/1v5m0rq/what_syscalllayer_tooling_cannot_see_in_p2p/",
-    "date": "2026-07-24T19:51:51+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The way AI voice phishing gets demonstrated is making people worse at spotting it",
-    "url": "https://www.reddit.com/r/netsec/comments/1v59mld/the_way_ai_voice_phishing_gets_demonstrated_is/",
-    "date": "2026-07-24T12:12:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
     "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
     "date": "2026-07-23T22:11:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Announcing the External Penetration Testing Program Pack",
-    "url": "https://www.reddit.com/r/netsec/comments/1v5j1wl/announcing_the_external_penetration_testing/",
-    "date": "2026-07-24T18:05:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -619,16 +663,44 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Device Code Phishing: The Microsoft 365 Attack That Walks Past MFA",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4dmll/device_code_phishing_the_microsoft_365_attack/",
-    "date": "2026-07-23T13:15:30+00:00",
+    "title": "I was reporter #11 for a WPForms PayPal webhook vulnerability (CVE-2026-4986)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v3i9il/i_was_reporter_11_for_a_wpforms_paypal_webhook/",
+    "date": "2026-07-22T14:46:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Open Evaluation Framework for AI Pentesting Agents on Real-World Targets",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4dup4/open_evaluation_framework_for_ai_pentesting/",
-    "date": "2026-07-23T13:24:29+00:00",
+    "title": "CVE-2026-50458: Finding a UAF in the Windows Brokering File System",
+    "url": "https://www.reddit.com/r/netsec/comments/1v3ptel/cve202650458_finding_a_uaf_in_the_windows/",
+    "date": "2026-07-22T19:08:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The Hidden CCS2 Attack Surface on EV Chargers",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2mk3z/the_hidden_ccs2_attack_surface_on_ev_chargers/",
+    "date": "2026-07-21T15:58:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Writeup &amp; POC: CVE-2026-49176 Windows WalletService to SYSTEM (LPE)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2kg4q/writeup_poc_cve202649176_windows_walletservice_to/",
+    "date": "2026-07-21T14:42:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Leaking internal headers in Flask Ninja with deserialization",
+    "url": "https://www.reddit.com/r/netsec/comments/1v2e5rb/leaking_internal_headers_in_flask_ninja_with/",
+    "date": "2026-07-21T10:08:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Exploit brokers pay $500,000 for a WordPress RCE. I found one with GPT5.6 Sol Ultra and $25",
+    "url": "https://www.reddit.com/r/netsec/comments/1v1fbe1/exploit_brokers_pay_500000_for_a_wordpress_rce_i/",
+    "date": "2026-07-20T08:12:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1653,
   "adv": 12,
   "feed": 48
