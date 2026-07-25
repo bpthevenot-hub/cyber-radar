@@ -1,20 +1,7 @@
 {
- "generatedAt": "2026-07-25T06:31:33.229Z",
+ "generatedAt": "2026-07-25T09:13:53.162Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": null,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": null,
-    "date": "2024-11-05T16:04:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -217,6 +204,13 @@
   ],
   "thn": [
    {
+    "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+    "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+    "date": "Sat, 25 Jul 2026 14:04:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
     "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
     "date": "Fri, 24 Jul 2026 20:42:35 +0530",
@@ -290,13 +284,6 @@
     "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
     "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
     "date": "Fri, 24 Jul 2026 00:06:08 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-    "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-    "date": "Thu, 23 Jul 2026 20:32:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,7 +390,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 541,
+    "stars": 543,
     "lang": "—"
    },
    {
@@ -415,13 +402,13 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 375,
+    "stars": 379,
     "lang": "JavaScript"
    },
    {
     "title": "dweep-desai/FaceGate-Mac — World's first Face Authentication enabled MacOS App-locker, completely free and open-source. Unlock your Mac a",
     "url": "https://github.com/dweep-desai/FaceGate-Mac",
-    "stars": 362,
+    "stars": 363,
     "lang": "Swift"
    },
    {
@@ -445,7 +432,7 @@
    {
     "title": "Lolitide/VirusDetector — Chrome/Edge 浏览器扩展，5 规则实时检测银狐木马钓鱼仿冒网站。域名仿冒 · ICP备案核查 · 下载拦截 · 链接分析 · 代码工程化 — 零依赖 Manifest V3。",
     "url": "https://github.com/Lolitide/VirusDetector",
-    "stars": 167,
+    "stars": 169,
     "lang": "JavaScript"
    },
    {
@@ -487,7 +474,7 @@
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
     "points": 1619,
-    "comments": 1150,
+    "comments": 1152,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -635,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -650,5 +637,5 @@
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
