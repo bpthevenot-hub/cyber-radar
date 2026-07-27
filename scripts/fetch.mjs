@@ -53,38 +53,79 @@ function parseAtom(xml, n = 12) {
   return items;
 }
 
+// Base score CVSS 3.x calculé depuis le vecteur (formule officielle) — null si vecteur illisible.
+function cvssBase(vec) {
+  const m = String(vec).match(/CVSS:3[.\d]*\/(.+)/i);
+  if (!m) return null;
+  const p = {};
+  for (const part of m[1].split('/')) { const [k, v] = part.split(':'); p[k] = v; }
+  const AV = { N: 0.85, A: 0.62, L: 0.55, P: 0.2 }[p.AV];
+  const AC = { L: 0.77, H: 0.44 }[p.AC];
+  const PR = (p.S === 'C' ? { N: 0.85, L: 0.68, H: 0.5 } : { N: 0.85, L: 0.62, H: 0.27 })[p.PR];
+  const UI = { N: 0.85, R: 0.62 }[p.UI];
+  const w = { H: 0.56, L: 0.22, N: 0 };
+  if ([AV, AC, PR, UI, w[p.C], w[p.I], w[p.A]].some((x) => x == null)) return null;
+  const iss = 1 - (1 - w[p.C]) * (1 - w[p.I]) * (1 - w[p.A]);
+  const impact = p.S === 'C' ? 7.52 * (iss - 0.029) - 3.25 * Math.pow(iss - 0.02, 15) : 6.42 * iss;
+  if (impact <= 0) return 0;
+  const expl = 8.22 * AV * AC * PR * UI;
+  const raw = p.S === 'C' ? Math.min(1.08 * (impact + expl), 10) : Math.min(impact + expl, 10);
+  return Math.ceil(raw * 10) / 10;
+}
+
 const SOURCES = {
-  // 1) CVE récentes (CIRCL — format OSV : CVE dans aliases, sévérité via vecteur CVSS)
+  // 1) CVE récentes (CIRCL — flux MIXTE : enregistrements OSV (CVE dans aliases, sévérité
+  //    = vecteur CVSS) ET documents CSAF d'éditeurs (Red Hat, Cisco… : CVE + baseScore
+  //    numérique dans vulnerabilities[].scores). Les deux formes sont normalisées ; avant
+  //    le 2026-07-27 les CSAF étaient jetés et les vecteurs jamais scorés → radar menteur.
   async cve() {
     const data = await get('https://cve.circl.lu/api/last/60');
     const arr = Array.isArray(data) ? data : (data.results || data.cves || []);
     const sevMap = { CRITICAL: 9.5, HIGH: 7.5, MODERATE: 5, MEDIUM: 5, LOW: 2 };
-    const out = arr.map((c) => {
-      const cveId = (c.aliases || []).find((a) => /^CVE-/.test(a)) || (/^CVE-/.test(c.id || '') ? c.id : c.id);
-      if (!cveId) return null;
-      // score : vecteur CVSS (OSV) -> baseScore approximé, sinon sévérité textuelle
+    const out = [];
+    for (const c of arr) {
+      if (!c) continue;
+      if (c.document) {
+        // — CSAF (avis éditeur) : une entrée par document, score = max des baseScore
+        const doc = c.document, vulns = c.vulnerabilities || [];
+        const cves = vulns.map((v) => v.cve).filter((x) => /^CVE-/.test(x || ''));
+        if (!cves.length) continue;
+        let score = null;
+        for (const v of vulns) for (const s of (v.scores || [])) {
+          const b = s?.cvss_v3?.baseScore ?? s?.cvss_v4?.baseScore;
+          if (b != null) score = Math.max(score ?? 0, Number(b));
+        }
+        const url = (doc.references || []).find((r) => r.category === 'self')?.url
+          || `https://www.cve.org/CVERecord?id=${cves[0]}`;
+        const extra = cves.length - 1;
+        out.push({ title: `${cves[0]} — ${clip(doc.title || cves[0], 140)}${extra > 0 ? ` (+${extra} CVE)` : ''}`,
+          url, score: score == null ? null : Number(score),
+          date: doc.tracking?.current_release_date || doc.tracking?.initial_release_date || null });
+        continue;
+      }
+      // — OSV (PYSEC/GHSA…) : CVE dans aliases, score via baseScore inline ou vecteur CVSS
+      const cveId = (c.aliases || []).find((a) => /^CVE-/.test(a)) || c.id;
+      if (!cveId) continue;
       let score = null;
-      const sevArr = c.severity || c?.database_specific?.severity;
-      try {
-        if (Array.isArray(sevArr)) {
-          for (const s of sevArr) {
-            const m = String(s.score || '').match(/baseScore['":\s]+([\d.]+)/i);
-            if (m) { score = Number(m[1]); break; }
-          }
+      const sevArr = c.severity;
+      if (Array.isArray(sevArr)) {
+        for (const s of sevArr) {
+          const m = String(s.score || '').match(/baseScore['":\s]+([\d.]+)/i);
+          if (m) { score = Number(m[1]); break; }
+          const v = cvssBase(s.score);
+          if (v != null) { score = v; break; }
         }
-        if (score == null) {
-          const txt = String(c?.database_specific?.severity || '').toUpperCase();
-          if (sevMap[txt] != null) score = sevMap[txt];
-        }
-      } catch {}
+      }
+      if (score == null) {
+        const txt = String(c?.database_specific?.severity || '').toUpperCase();
+        if (sevMap[txt] != null) score = sevMap[txt];
+      }
       const summary = c.summary || c.details || cveId;
-      const date = c.published || c.modified || null;
-      const linkId = /^CVE-/.test(cveId) ? cveId : cveId;
-      return { title: `${cveId} — ${clip(summary, 140)}`,
+      out.push({ title: `${cveId} — ${clip(summary, 140)}`,
         url: /^CVE-/.test(cveId) ? `https://www.cve.org/CVERecord?id=${cveId}` : `https://github.com/advisories/${cveId}`,
-        score: score == null ? null : Number(score), date };
-    }).filter(Boolean);
-    // tri : score d'abord, puis date récente
+        score: score == null ? null : Number(score), date: c.published || c.modified || null });
+    }
+    // tri : score d'abord, puis date récente (invariant : score null ≠ 0)
     out.sort((a, b) => (b.score || 0) - (a.score || 0) || (new Date(b.date || 0) - new Date(a.date || 0)));
     return out.slice(0, 14);
   },
@@ -149,7 +190,8 @@ const keys = ['cve', 'kev', 'adv', 'thn', 'bleep', 'tools', 'hn', 'reddit'];
 
 const results = await Promise.allSettled(keys.map((k) => SOURCES[k]()));
 keys.forEach((k, i) => {
-  if (results[i].status === 'fulfilled') { out.sources[k] = results[i].value; out.status[k] = true; }
+  // lumière honnête : une source qui répond mais ne livre RIEN est en panne (plus de vert à vide)
+  if (results[i].status === 'fulfilled') { out.sources[k] = results[i].value; out.status[k] = results[i].value.length > 0; }
   else { out.sources[k] = []; out.status[k] = false; console.error(`[${k}]`, results[i].reason?.message || results[i].reason); }
 });
 
