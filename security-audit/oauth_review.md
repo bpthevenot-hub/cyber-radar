@@ -25,18 +25,18 @@ elle survit au changement de mot de passe et à la déconnexion des sessions. À
 1. Ouvre **https://myaccount.microsoft.com/** → « Confidentialité » / « Applications et services
    auxquels vous avez donné accès », et **https://account.live.com/consent/Manage** pour un
    compte personnel.
-2. Pour un compte pro/école (TBS) : **https://myapps.microsoft.com/** liste tes apps ; la
+2. Pour un compte pro/école : **https://myapps.microsoft.com/** liste tes apps ; la
    révocation de consentement d'entreprise peut dépendre de l'admin.
 3. Révoque tout consentement inconnu demandant `Mail.ReadWrite`, `Mail.Send`,
    `MailboxSettings.ReadWrite`, `offline_access`, `full_access_as_user`.
 
-## Après révocation (vérification — §23)
+## Après révocation (vérification)
 
 - Recharge la page : l'app doit avoir disparu.
 - Relance `gmail_audit.py` / `graph_audit.py` : plus de constat OAuth élevé.
 - Surveille les nouvelles connexions pendant quelques jours.
 
-## Ordre de remédiation en cas de compromission confirmée (§22)
+## Ordre de remédiation en cas de compromission confirmée
 
 1. Préserver les preuves (export, captures, hash).
 2. Sécuriser l'e-mail **et** le téléphone de récupération d'abord.

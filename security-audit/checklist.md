@@ -23,7 +23,7 @@ officielles. Coche au fur et à mesure. Reporte les anomalies dans le tableau fi
 > Les scripts `gmail_audit.py` couvrent A3–A8 automatiquement. A1–A2, A9–A12 restent manuels
 > (pas d'API grand public fiable pour les journaux de connexion).
 
-## B. Microsoft / Outlook (perso + TBS)
+## B. Microsoft / Outlook (perso + établissement)
 
 | # | Vérification | URL / chemin | Anomalie si… |
 |---|---|---|---|
@@ -33,9 +33,9 @@ officielles. Coche au fur et à mesure. Reporte les anomalies dans le tableau fi
 | B4 | Méthodes de sécurité (MFA) | account.microsoft.com/security | Méthode/téléphone inconnu |
 | B5 | Alias & récupération | account.live.com | Alias/e-mail de secours inconnu |
 | B6 | Apps consenties | myapps.microsoft.com | App inconnue à privilèges mail |
-| B7 | (TBS) accès délégués / boîtes partagées | dépend de l'admin | Délégué inconnu |
+| B7 | (établissement) accès délégués / boîtes partagées | dépend de l'admin | Délégué inconnu |
 
-> `graph_audit.py` couvre B2, B3, B6 (selon scopes). Pour TBS, certaines lectures exigent
+> `graph_audit.py` couvre B2, B3, B6 (selon scopes). Pour un tenant d'établissement, certaines lectures exigent
 > l'admin : prépare une demande précise au support informatique de l'école.
 
 ## C. macOS (à faire sur le Mac lui-même)
@@ -61,7 +61,7 @@ officielles. Coche au fur et à mesure. Reporte les anomalies dans le tableau fi
 | ___ |  |  |  |  |
 | ___ |  |  |  |  |
 
-## Classement des constats (rappel §13)
+## Classement des constats
 
 `CONFIRMÉ` / `PROBABLE` / `POSSIBLE` / `NON PROUVÉ` / `FAUX POSITIF` /
 `NON VÉRIFIABLE AVEC LES ACCÈS ACTUELS` — gravité `CRITIQUE`→`INFORMATION`.

@@ -3,7 +3,7 @@
 
 Ne modifie jamais rien : uniquement des appels GET. Signale proprement les objets
 inaccessibles (scopes admin manquants) au lieu d'échouer — utile pour un compte
-institutionnel (ex. TBS) où certaines lectures dépendent de l'administrateur.
+institutionnel (école / entreprise) où certaines lectures dépendent de l'administrateur.
 
 Objets audités
 --------------
@@ -19,7 +19,7 @@ Usage
 -----
     pip install -r requirements.txt
     export MS_CLIENT_ID=<app-registration-client-id>
-    export MS_TENANT=common          # ou l'ID de tenant TBS
+    export MS_TENANT=common          # ou l'ID de ton tenant d'établissement
     python graph_audit.py --account utilisateur@example.org
 """
 from __future__ import annotations

@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 - Les **journaux de connexion** détaillés Google/Microsoft et la révocation de sessions se
   font dans les consoles web (voir `checklist.md`).
-- Sur un **tenant TBS / entreprise**, certaines lectures exigent un rôle admin : le script le
+- Sur un **tenant d'entreprise / d'établissement**, certaines lectures exigent un rôle admin : le script le
   signale proprement au lieu d'échouer.
 - La **messagerie vocale / SIM / opérateur** ne sont pas des objets d'API e-mail :
   voir `voicemail-diagnostic.md`.

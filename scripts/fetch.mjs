@@ -92,8 +92,8 @@ const SOURCES = {
         if (!cves.length) continue;
         let score = null;
         for (const v of vulns) for (const s of (v.scores || [])) {
-          const b = s?.cvss_v3?.baseScore ?? s?.cvss_v4?.baseScore;
-          if (b != null) score = Math.max(score ?? 0, Number(b));
+          const b = Number(s?.cvss_v3?.baseScore ?? s?.cvss_v4?.baseScore);
+          if (Number.isFinite(b)) score = Math.max(score ?? 0, b);
         }
         const url = (doc.references || []).find((r) => r.category === 'self')?.url
           || `https://www.cve.org/CVERecord?id=${cves[0]}`;

@@ -68,7 +68,7 @@ Ne conclure à une attaque **que** si ≥1 signal fort ci-dessous est présent :
 Actions : le supprimer, appeler l'opérateur pour verrouiller la ligne (PIN de portabilité /
 RIO), puis sécuriser Apple ID / Google / Microsoft (mot de passe + MFA depuis un appareil sain).
 
-## 5. Fiche à remplir (pour le rapport §25)
+## 5. Fiche à remplir (pour ton rapport d'incident privé)
 
 ```
 Cause identifiée :
