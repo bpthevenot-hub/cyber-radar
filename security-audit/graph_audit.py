@@ -20,7 +20,7 @@ Usage
     pip install -r requirements.txt
     export MS_CLIENT_ID=<app-registration-client-id>
     export MS_TENANT=common          # ou l'ID de tenant TBS
-    python graph_audit.py --account baptiste@tbs-education.fr
+    python graph_audit.py --account utilisateur@example.org
 """
 from __future__ import annotations
 

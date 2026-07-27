@@ -51,7 +51,7 @@ pip install -r requirements.txt
 2. Active **Gmail API**.
 3. Crée des identifiants **OAuth 2.0 Client ID** de type *Desktop app*.
 4. Télécharge le `credentials.json` dans ce dossier.
-5. Lance : `python gmail_audit.py --account bp.thevenot@gmail.com`
+5. Lance : `python gmail_audit.py --account utilisateur@example.com`
    Un navigateur s'ouvre pour le consentement (compte que TU contrôles).
 
 ### Microsoft (Outlook / 365)

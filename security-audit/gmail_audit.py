@@ -22,7 +22,7 @@ Usage
 -----
     pip install -r requirements.txt
     # credentials.json OAuth "Desktop app" présent dans ce dossier
-    python gmail_audit.py --account bp.thevenot@gmail.com
+    python gmail_audit.py --account utilisateur@example.com
 
 Scopes : gmail.settings.basic + gmail.readonly. Voir README (note sur les scopes).
 """
