@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T18:49:45.703Z",
+ "generatedAt": "2026-07-28T20:36:08.149Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-07-28T19:28:34+00:00"
+   },
+   {
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-07-28T19:28:33+00:00"
+   },
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-07-28T19:28:32+00:00"
+   },
+   {
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "score": 9.1,
+    "date": "2026-07-28T19:28:32+00:00"
+   },
+   {
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "score": 9.1,
+    "date": "2026-07-28T19:28:32+00:00"
+   },
+   {
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-07-28T19:28:28+00:00"
+   },
+   {
+    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
+    "score": 9,
+    "date": "2026-07-28T19:28:31+00:00"
+   },
+   {
+    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42078",
+    "score": 9,
+    "date": "2026-07-28T19:28:31+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46903",
+    "score": 8.8,
+    "date": "2026-07-28T19:28:36+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:44622",
+    "score": 8.8,
+    "date": "2026-07-28T19:28:36+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
+    "score": 8.8,
+    "date": "2026-07-28T19:28:33+00:00"
+   },
+   {
+    "title": "CVE-2026-10840 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.8.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41036",
+    "score": 8.8,
+    "date": "2026-07-28T19:28:28+00:00"
    }
   ],
   "kev": [
@@ -131,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "Cosmos-Server's constellation public-devices endpoint accepts arbitrary bearer tokens",
+    "url": "https://github.com/advisories/GHSA-5fqm-cc34-fcf5",
+    "score": 5.3,
+    "ghsa": "GHSA-5fqm-cc34-fcf5",
+    "date": "2026-07-28T20:32:34Z"
+   },
+   {
+    "title": "Fission: SanitizeFilePath lexical HasPrefix bypass permits sibling-directory escape",
+    "url": "https://github.com/advisories/GHSA-r5jh-q2mw-gcx4",
+    "score": 3.6,
+    "ghsa": "GHSA-r5jh-q2mw-gcx4",
+    "date": "2026-07-28T20:18:30Z"
+   },
+   {
+    "title": "Fission: Zip Slip in pkg/utils/zip.go:Unarchive allows fetcher to write outside the destination directory",
+    "url": "https://github.com/advisories/GHSA-q6vm-xqc9-v3ff",
+    "score": 7.7,
+    "ghsa": "GHSA-q6vm-xqc9-v3ff",
+    "date": "2026-07-28T20:16:52Z"
+   },
+   {
+    "title": "Fission: HTTPTrigger admission omits RelativeURL / Prefix validation; kubectl apply bypasses CLI checks",
+    "url": "https://github.com/advisories/GHSA-vchh-r53j-8mpw",
+    "score": 4.3,
+    "ghsa": "GHSA-vchh-r53j-8mpw",
+    "date": "2026-07-28T20:16:00Z"
+   },
+   {
+    "title": "Fission: Incomplete capability denylist in Environment/Function PodSpec validation allows tenant-added CAP_SYS_TIME and cross-tenant node wall-clock c",
+    "url": "https://github.com/advisories/GHSA-qf5v-m7p4-95rp",
+    "score": 8.5,
+    "ghsa": "GHSA-qf5v-m7p4-95rp",
+    "date": "2026-07-28T20:12:45Z"
+   },
+   {
     "title": "pytonapi has a Webhook Custom Path Authentication Bypass",
     "url": "https://github.com/advisories/GHSA-3fcr-jvgp-7f58",
     "score": 7.5,
@@ -178,44 +285,16 @@
     "score": 2,
     "ghsa": "GHSA-j7fr-3v8c-3qc3",
     "date": "2026-07-28T16:23:57Z"
-   },
-   {
-    "title": "sqlite3-ruby has Use-After-Free When Redefining SQLite Functions with Different Arity",
-    "url": "https://github.com/advisories/GHSA-28hh-pr2h-2w89",
-    "score": 2,
-    "ghsa": "GHSA-28hh-pr2h-2w89",
-    "date": "2026-07-28T16:21:31Z"
-   },
-   {
-    "title": "GoPacket's sFlow ExtendedGatewayFlow decoder: unbounded attacker-controlled allocation (104-byte UDP datagram -> up to 16 GiB make) -> unauthenticated",
-    "url": "https://github.com/advisories/GHSA-g6v3-7xmc-w563",
-    "score": null,
-    "ghsa": "GHSA-g6v3-7xmc-w563",
-    "date": "2026-07-28T16:17:26Z"
-   },
-   {
-    "title": "GoPacket's Diameter AVP decoder: uint32 underflow on vendor header size leads to unbounded ~4 GiB allocation (unauthenticated remote DoS)",
-    "url": "https://github.com/advisories/GHSA-6r28-9ppf-4hj5",
-    "score": null,
-    "ghsa": "GHSA-6r28-9ppf-4hj5",
-    "date": "2026-07-28T16:14:36Z"
-   },
-   {
-    "title": "nono-cli'scregistry pack verification can fail open when provenance metadata is absent",
-    "url": "https://github.com/advisories/GHSA-hc4m-q9jh-xw4j",
-    "score": 6.6,
-    "ghsa": "GHSA-hc4m-q9jh-xw4j",
-    "date": "2026-07-28T15:51:30Z"
-   },
-   {
-    "title": "Pterodactyl's improper JWT scoping allows subuser to upload files when not explicitly granted `file.create` permissions",
-    "url": "https://github.com/advisories/GHSA-8r6w-3qq5-4p4r",
-    "score": 8.1,
-    "ghsa": "GHSA-8r6w-3qq5-4p4r",
-    "date": "2026-07-28T15:43:25Z"
    }
   ],
   "thn": [
+   {
+    "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+    "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+    "date": "Wed, 29 Jul 2026 00:29:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
     "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
@@ -290,13 +369,6 @@
     "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
     "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
     "date": "Mon, 27 Jul 2026 22:46:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-    "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-    "date": "Mon, 27 Jul 2026 20:10:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,7 +475,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 579,
+    "stars": 580,
     "lang": "—"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 294,
+    "stars": 295,
     "lang": "TypeScript"
    },
    {
@@ -570,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Designing Patterns to Prevent IDOR",
-    "url": "https://www.reddit.com/r/netsec/comments/1v90f7y/designing_patterns_to_prevent_idor/",
-    "date": "2026-07-28T14:39:44+00:00",
+    "title": "Claude Mythos degrades HAWK and developed new exploit for round-reduced AES",
+    "url": "https://www.reddit.com/r/netsec/comments/1v99ae2/claude_mythos_degrades_hawk_and_developed_new/",
+    "date": "2026-07-28T19:53:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Flying Eagle Android RAT: TLS Certificate Pivots, Panel Fingerprints, and 170 Servers Across Hong Kong ASNs",
-    "url": "https://www.reddit.com/r/netsec/comments/1v95msb/flying_eagle_android_rat_tls_certificate_pivots/",
-    "date": "2026-07-28T17:45:41+00:00",
+    "title": "Hush Security raises $30 million to govern enterprise AI agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1v9904d/hush_security_raises_30_million_to_govern/",
+    "date": "2026-07-28T19:43:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -612,13 +684,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The state of vibe-coded app security: my analysis of 549 self-described AI-generated repos (study + raw data)",
-    "url": "https://www.reddit.com/r/netsec/comments/1v8vb4p/the_state_of_vibecoded_app_security_my_analysis/",
-    "date": "2026-07-28T11:11:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CFP Open – Looking for Technical AI &amp; Security Research for Après Slopes Summit 2027",
     "url": "https://www.reddit.com/r/netsec/comments/1v6grho/cfp_open_looking_for_technical_ai_security/",
     "date": "2026-07-25T18:59:32+00:00",
@@ -629,6 +694,13 @@
     "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
     "url": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
     "date": "2026-07-24T05:53:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
+    "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
+    "date": "2026-07-23T22:11:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 10,
   "kev": 1655,
   "adv": 12,
   "feed": 48
