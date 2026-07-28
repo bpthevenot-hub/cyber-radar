@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-07-28T20:36:08.149Z",
+ "generatedAt": "2026-07-28T22:27:01.262Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-54658 — @hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54658",
+    "score": 9.8,
+    "date": "2026-07-28T22:19:23Z"
+   },
+   {
+    "title": "CVE-2026-14512 — IBM WebSphere Application Server 9.0, and 8.5 traditional is vulnerable to pre-authentication unsafe deserialization which could allow a rem",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14512",
+    "score": 9.8,
+    "date": "2026-07-28T21:31:34Z"
+   },
+   {
+    "title": "CVE-2026-14446 — IBM WebSphere Application Server 9.0, and 8.5 is vulnerable to broken access control/privilege escalation in the administrative console.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14446",
+    "score": 9.8,
+    "date": "2026-07-28T21:31:34Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "title": "CVE-2026-6881 — A SQL Injection in the Giving Reports functionality in Ellucian Advance Web and Legacy Advance allows an authenticated attacker to extract s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6881",
+    "score": 9.5,
+    "date": "2026-07-28T21:31:34Z"
+   },
+   {
+    "title": "CVE-2026-14973 — IBM Aspera Desktop App 1.0.5 through 1.0.19 IBM Aspera for desktop can allow files to be written outside of the user's selected download des",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14973",
+    "score": 9.3,
+    "date": "2026-07-28T21:31:34Z"
+   },
+   {
+    "title": "CVE-2026-64863 — goshs --no-delete WebDAV MOVE bypass allows file deletion/overwrite",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64863",
     "score": 9.1,
-    "date": "2026-07-28T19:28:34+00:00"
+    "date": "2026-07-28T22:03:12Z"
    },
    {
-    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "title": "CVE-2026-62325 — goshs SFTP authentication bypass via empty password (incomplete fix of CVE-2026-40884)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62325",
     "score": 9.1,
-    "date": "2026-07-28T19:28:33+00:00"
+    "date": "2026-07-28T21:56:28Z"
    },
    {
-    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "title": "CVE-2026-14958 — IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could allow a remote authenticated attacker to execute arbitrary code due to unquoted shell inter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14958",
     "score": 9.1,
-    "date": "2026-07-28T19:28:32+00:00"
+    "date": "2026-07-28T21:31:34Z"
    },
    {
-    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "title": "CVE-2026-14959 — IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could allow a remote authenticated attacker to execute arbitrary code due to shell command inject",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14959",
     "score": 9.1,
-    "date": "2026-07-28T19:28:32+00:00"
+    "date": "2026-07-28T21:31:34Z"
    },
    {
-    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
-    "score": 9.1,
-    "date": "2026-07-28T19:28:32+00:00"
-   },
-   {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
-    "score": 9.1,
-    "date": "2026-07-28T19:28:28+00:00"
-   },
-   {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
-    "score": 9,
-    "date": "2026-07-28T19:28:31+00:00"
-   },
-   {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42078",
-    "score": 9,
-    "date": "2026-07-28T19:28:31+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46903",
+    "title": "CVE-2026-54653 — `datamodel-code-generator` vulnerable to code injection in via attacker-controlled `default_factory` schema field",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54653",
     "score": 8.8,
-    "date": "2026-07-28T19:28:36+00:00"
+    "date": "2026-07-28T21:48:14Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44622",
+    "title": "CVE-2026-57510 — SuperPlane before 0.27.0 contains a broken object-level authorization vulnerability in the CanvasService gRPC handlers that allows authentic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57510",
     "score": 8.8,
-    "date": "2026-07-28T19:28:36+00:00"
+    "date": "2026-07-28T21:31:33Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
-    "score": 8.8,
-    "date": "2026-07-28T19:28:33+00:00"
-   },
-   {
-    "title": "CVE-2026-10840 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.8.1 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41036",
-    "score": 8.8,
-    "date": "2026-07-28T19:28:28+00:00"
+    "title": "CVE-2026-15325 — IBM WebSphere Application Server 9.0, and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 is vulnerable to HTTP",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15325",
+    "score": 8.7,
+    "date": "2026-07-28T21:31:34Z"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Cosmos-Server's constellation public-devices endpoint accepts arbitrary bearer tokens",
-    "url": "https://github.com/advisories/GHSA-5fqm-cc34-fcf5",
+    "title": "goshs has ACL Bypass & Path Traversal",
+    "url": "https://github.com/advisories/GHSA-964w-f6gj-5236",
     "score": 5.3,
-    "ghsa": "GHSA-5fqm-cc34-fcf5",
-    "date": "2026-07-28T20:32:34Z"
+    "ghsa": "GHSA-964w-f6gj-5236",
+    "date": "2026-07-28T22:26:28Z"
    },
    {
-    "title": "Fission: SanitizeFilePath lexical HasPrefix bypass permits sibling-directory escape",
-    "url": "https://github.com/advisories/GHSA-r5jh-q2mw-gcx4",
-    "score": 3.6,
-    "ghsa": "GHSA-r5jh-q2mw-gcx4",
-    "date": "2026-07-28T20:18:30Z"
+    "title": "Pagy I18n locale option is not validated before being used in a file path",
+    "url": "https://github.com/advisories/GHSA-2xmw-f8j8-wfxc",
+    "score": null,
+    "ghsa": "GHSA-2xmw-f8j8-wfxc",
+    "date": "2026-07-28T22:25:29Z"
    },
    {
-    "title": "Fission: Zip Slip in pkg/utils/zip.go:Unarchive allows fetcher to write outside the destination directory",
-    "url": "https://github.com/advisories/GHSA-q6vm-xqc9-v3ff",
-    "score": 7.7,
-    "ghsa": "GHSA-q6vm-xqc9-v3ff",
-    "date": "2026-07-28T20:16:52Z"
+    "title": "skilo add follows symbolic links, allowing arbitrary local file disclosure from a malicious skill source",
+    "url": "https://github.com/advisories/GHSA-6xx4-9wp6-65p7",
+    "score": 6.5,
+    "ghsa": "GHSA-6xx4-9wp6-65p7",
+    "date": "2026-07-28T22:23:48Z"
    },
    {
-    "title": "Fission: HTTPTrigger admission omits RelativeURL / Prefix validation; kubectl apply bypasses CLI checks",
-    "url": "https://github.com/advisories/GHSA-vchh-r53j-8mpw",
-    "score": 4.3,
-    "ghsa": "GHSA-vchh-r53j-8mpw",
-    "date": "2026-07-28T20:16:00Z"
+    "title": "Style Dictionary - Prototype Pollution in convertTokenData utility function",
+    "url": "https://github.com/advisories/GHSA-vj5c-m527-mpff",
+    "score": 8.8,
+    "ghsa": "GHSA-vj5c-m527-mpff",
+    "date": "2026-07-28T22:23:03Z"
    },
    {
-    "title": "Fission: Incomplete capability denylist in Environment/Function PodSpec validation allows tenant-added CAP_SYS_TIME and cross-tenant node wall-clock c",
-    "url": "https://github.com/advisories/GHSA-qf5v-m7p4-95rp",
-    "score": 8.5,
-    "ghsa": "GHSA-qf5v-m7p4-95rp",
-    "date": "2026-07-28T20:12:45Z"
-   },
-   {
-    "title": "pytonapi has a Webhook Custom Path Authentication Bypass",
-    "url": "https://github.com/advisories/GHSA-3fcr-jvgp-7f58",
-    "score": 7.5,
-    "ghsa": "GHSA-3fcr-jvgp-7f58",
-    "date": "2026-07-28T17:09:02Z"
-   },
-   {
-    "title": "SIPSorcery: Malformed UDP packet on the RTP/ICE socket can remotely terminate a media session (DoS)",
-    "url": "https://github.com/advisories/GHSA-28gm-jrmw-xx93",
-    "score": 7.5,
-    "ghsa": "GHSA-28gm-jrmw-xx93",
-    "date": "2026-07-28T17:01:19Z"
-   },
-   {
-    "title": "Poweradmin has Host Header Injection in OIDC redirect_uri, SAML ACS/SLO URL, and Logout Redirect Construction.",
-    "url": "https://github.com/advisories/GHSA-3735-5339-xfwx",
-    "score": 9.6,
-    "ghsa": "GHSA-3735-5339-xfwx",
-    "date": "2026-07-28T16:40:05Z"
-   },
-   {
-    "title": "QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
-    "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
+    "title": "openhole-server vulnerable to path traversal via URL-decoded request path",
+    "url": "https://github.com/advisories/GHSA-fh2f-xfxc-q9cc",
     "score": 8.6,
-    "ghsa": "GHSA-85rg-p3fr-xc2f",
-    "date": "2026-07-28T16:36:47Z"
+    "ghsa": "GHSA-fh2f-xfxc-q9cc",
+    "date": "2026-07-28T22:20:51Z"
    },
    {
-    "title": "OAuth2::Client#request: Protocol-relative redirect Location overrides authority, leaking bearer Authorization to attacker host",
-    "url": "https://github.com/advisories/GHSA-pp92-crg2-gfv9",
-    "score": 8.6,
-    "ghsa": "GHSA-pp92-crg2-gfv9",
-    "date": "2026-07-28T16:32:45Z"
+    "title": "@hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
+    "url": "https://github.com/advisories/GHSA-6wcc-39rp-hh9p",
+    "score": 9.8,
+    "ghsa": "GHSA-6wcc-39rp-hh9p",
+    "date": "2026-07-28T22:19:23Z"
    },
    {
-    "title": "OAuth: Cross-origin token-request redirects can expose signed request metadata",
-    "url": "https://github.com/advisories/GHSA-prq8-7wvh-44qh",
-    "score": 7.2,
-    "ghsa": "GHSA-prq8-7wvh-44qh",
-    "date": "2026-07-28T16:27:11Z"
+    "title": "td has pre-auth denial of service via unbounded memory allocation in proto.UnencryptedMessage.Decode",
+    "url": "https://github.com/advisories/GHSA-whmm-qj9r-wvr2",
+    "score": 7.5,
+    "ghsa": "GHSA-whmm-qj9r-wvr2",
+    "date": "2026-07-28T22:15:28Z"
    },
    {
-    "title": "sqlite3-ruby has Use-After-Free in SQLite Aggregate Function Callbacks",
-    "url": "https://github.com/advisories/GHSA-j7fr-3v8c-3qc3",
-    "score": 2,
-    "ghsa": "GHSA-j7fr-3v8c-3qc3",
-    "date": "2026-07-28T16:23:57Z"
+    "title": "goshs has a Path Traversal issue",
+    "url": "https://github.com/advisories/GHSA-wg2q-39h6-66x9",
+    "score": 6.5,
+    "ghsa": "GHSA-wg2q-39h6-66x9",
+    "date": "2026-07-28T22:08:53Z"
+   },
+   {
+    "title": "goshs --no-delete WebDAV MOVE bypass allows file deletion/overwrite",
+    "url": "https://github.com/advisories/GHSA-hq33-8jgp-8qq3",
+    "score": 9.1,
+    "ghsa": "GHSA-hq33-8jgp-8qq3",
+    "date": "2026-07-28T22:03:12Z"
+   },
+   {
+    "title": "goshs: File-based .goshs ACL authorization bypass via the ?bulk zip-download route (unauthenticated read; residual of GHSA-wvhv-qcqf-f3cx)",
+    "url": "https://github.com/advisories/GHSA-rmxw-pq4x-3fvh",
+    "score": 7.5,
+    "ghsa": "GHSA-rmxw-pq4x-3fvh",
+    "date": "2026-07-28T21:59:48Z"
+   },
+   {
+    "title": "goshs SFTP authentication bypass via empty password (incomplete fix of CVE-2026-40884)",
+    "url": "https://github.com/advisories/GHSA-rjrw-mjq6-hpmm",
+    "score": 9.1,
+    "ghsa": "GHSA-rjrw-mjq6-hpmm",
+    "date": "2026-07-28T21:56:28Z"
+   },
+   {
+    "title": "`datamodel-code-generator` vulnerable to code injection via unescaped carriage return in `--extra-template-data` `comment` field",
+    "url": "https://github.com/advisories/GHSA-wjv6-jcfj-mf9r",
+    "score": 7.8,
+    "ghsa": "GHSA-wjv6-jcfj-mf9r",
+    "date": "2026-07-28T21:50:09Z"
    }
   ],
   "thn": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+    "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+    "date": "Tue, 28 Jul 2026 17:17:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+    "date": "Tue, 28 Jul 2026 16:37:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "CISA shares advice on isolating vital systems during cyberattacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
     "date": "Tue, 28 Jul 2026 14:41:04 -0400",
@@ -443,20 +457,6 @@
     "date": "Mon, 27 Jul 2026 13:29:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-    "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-    "date": "Mon, 27 Jul 2026 11:39:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Ernst &amp; Young data breach claimed by ShinyHunters extortion gang",
-    "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-    "date": "Mon, 27 Jul 2026 11:12:27 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +475,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 580,
+    "stars": 582,
     "lang": "—"
    },
    {
@@ -559,7 +559,7 @@
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
     "points": 1631,
-    "comments": 1156,
+    "comments": 1157,
     "date": "2026-07-21T20:09:52Z"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 10,
+  "crit": 11,
   "kev": 1655,
   "adv": 12,
   "feed": 48
