@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T14:45:26.705Z",
+ "generatedAt": "2026-07-28T16:53:15.049Z",
  "sources": {
   "cve": [
    {
@@ -15,40 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46903",
-    "score": 8.8,
-    "date": "2026-07-28T13:23:28+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44622",
-    "score": 8.8,
-    "date": "2026-07-28T13:23:28+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
-    "score": 8.8,
-    "date": "2026-07-28T13:23:26+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.4.7 security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41030",
-    "score": 8.8,
-    "date": "2026-07-28T13:23:26+00:00"
-   },
-   {
-    "title": "CVE-2025-47950 — Red Hat Security Advisory: Submariner v0.20 security fixes and container updates (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36873",
-    "score": 8.8,
-    "date": "2026-07-28T13:23:25+00:00"
-   },
-   {
-    "title": "CVE-2026-9165 — Red Hat Security Advisory: RHACS 4.11.1 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36207",
-    "score": 8.8,
-    "date": "2026-07-28T13:23:23+00:00"
+    "title": "CVE-2026-54619 — sqlite3-ruby has Use-After-Free When Redefining SQLite Functions with Different Arity",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54619",
+    "score": 2,
+    "date": "2026-07-28T16:21:31Z"
    }
   ],
   "kev": [
@@ -167,91 +137,105 @@
   ],
   "adv": [
    {
-    "title": "@wakaru/cli arbitrary file write during bundle unpack",
-    "url": "https://github.com/advisories/GHSA-7wpj-vvmv-pgm8",
-    "score": 7.1,
-    "ghsa": "GHSA-7wpj-vvmv-pgm8",
-    "date": "2026-07-28T14:44:01Z"
+    "title": "Poweradmin has Host Header Injection in OIDC redirect_uri, SAML ACS/SLO URL, and Logout Redirect Construction.",
+    "url": "https://github.com/advisories/GHSA-3735-5339-xfwx",
+    "score": 9.6,
+    "ghsa": "GHSA-3735-5339-xfwx",
+    "date": "2026-07-28T16:40:05Z"
    },
    {
-    "title": "GitHub MCP Server has Nil Pointer Dereference DoS in completion/complete Handler",
-    "url": "https://github.com/advisories/GHSA-w4q6-qw23-4rg7",
-    "score": 7.5,
-    "ghsa": "GHSA-w4q6-qw23-4rg7",
-    "date": "2026-07-28T14:35:10Z"
-   },
-   {
-    "title": "lettre has TLS hostname verification disabled when using Boring TLS backend",
-    "url": "https://github.com/advisories/GHSA-4pj9-g833-qx53",
-    "score": 9.5,
-    "ghsa": "GHSA-4pj9-g833-qx53",
-    "date": "2026-07-28T14:29:10Z"
-   },
-   {
-    "title": "WordPress Coding Standards (WordPressCS) contains an arbitrary code execution vulnerability",
-    "url": "https://github.com/advisories/GHSA-3pwp-g2mj-5p3v",
+    "title": "QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
+    "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
     "score": 8.6,
-    "ghsa": "GHSA-3pwp-g2mj-5p3v",
-    "date": "2026-07-28T14:28:12Z"
+    "ghsa": "GHSA-85rg-p3fr-xc2f",
+    "date": "2026-07-28T16:36:47Z"
    },
    {
-    "title": "java-client Allows Network Pivot via Unvalidated directConnect Redirect in AppiumCommandExecutor",
-    "url": "https://github.com/advisories/GHSA-28f5-38xr-jh2w",
-    "score": 8.2,
-    "ghsa": "GHSA-28f5-38xr-jh2w",
-    "date": "2026-07-28T14:26:53Z"
+    "title": "OAuth2::Client#request: Protocol-relative redirect Location overrides authority, leaking bearer Authorization to attacker host",
+    "url": "https://github.com/advisories/GHSA-pp92-crg2-gfv9",
+    "score": 8.6,
+    "ghsa": "GHSA-pp92-crg2-gfv9",
+    "date": "2026-07-28T16:32:45Z"
    },
    {
-    "title": "Pocket ID has a reauthentication bypass via one-time access token login — passkey step-up requirement defeated by JWT freshness check that accepts any",
-    "url": "https://github.com/advisories/GHSA-hp74-gm6m-2qm5",
+    "title": "OAuth: Cross-origin token-request redirects can expose signed request metadata",
+    "url": "https://github.com/advisories/GHSA-prq8-7wvh-44qh",
+    "score": 7.2,
+    "ghsa": "GHSA-prq8-7wvh-44qh",
+    "date": "2026-07-28T16:27:11Z"
+   },
+   {
+    "title": "sqlite3-ruby has Use-After-Free in SQLite Aggregate Function Callbacks",
+    "url": "https://github.com/advisories/GHSA-j7fr-3v8c-3qc3",
+    "score": 2,
+    "ghsa": "GHSA-j7fr-3v8c-3qc3",
+    "date": "2026-07-28T16:23:57Z"
+   },
+   {
+    "title": "sqlite3-ruby has Use-After-Free When Redefining SQLite Functions with Different Arity",
+    "url": "https://github.com/advisories/GHSA-28hh-pr2h-2w89",
+    "score": 2,
+    "ghsa": "GHSA-28hh-pr2h-2w89",
+    "date": "2026-07-28T16:21:31Z"
+   },
+   {
+    "title": "GoPacket's sFlow ExtendedGatewayFlow decoder: unbounded attacker-controlled allocation (104-byte UDP datagram -> up to 16 GiB make) -> unauthenticated",
+    "url": "https://github.com/advisories/GHSA-g6v3-7xmc-w563",
     "score": null,
-    "ghsa": "GHSA-hp74-gm6m-2qm5",
-    "date": "2026-07-28T14:25:30Z"
+    "ghsa": "GHSA-g6v3-7xmc-w563",
+    "date": "2026-07-28T16:17:26Z"
    },
    {
-    "title": "Pocket ID: OIDC refresh token flow bypasses authorization revocation, account disabling, and group restrictions",
-    "url": "https://github.com/advisories/GHSA-w6p7-2fxx-4f44",
+    "title": "GoPacket's Diameter AVP decoder: uint32 underflow on vendor header size leads to unbounded ~4 GiB allocation (unauthenticated remote DoS)",
+    "url": "https://github.com/advisories/GHSA-6r28-9ppf-4hj5",
+    "score": null,
+    "ghsa": "GHSA-6r28-9ppf-4hj5",
+    "date": "2026-07-28T16:14:36Z"
+   },
+   {
+    "title": "nono-cli'scregistry pack verification can fail open when provenance metadata is absent",
+    "url": "https://github.com/advisories/GHSA-hc4m-q9jh-xw4j",
+    "score": 6.6,
+    "ghsa": "GHSA-hc4m-q9jh-xw4j",
+    "date": "2026-07-28T15:51:30Z"
+   },
+   {
+    "title": "Pterodactyl's improper JWT scoping allows subuser to upload files when not explicitly granted `file.create` permissions",
+    "url": "https://github.com/advisories/GHSA-8r6w-3qq5-4p4r",
+    "score": 8.1,
+    "ghsa": "GHSA-8r6w-3qq5-4p4r",
+    "date": "2026-07-28T15:43:25Z"
+   },
+   {
+    "title": "@novu/application-generic: `validateUrlSsrf` permits CGNAT (100.64.0.0/10) destinations — affects Workflow HTTP request step + Webhook filter conditio",
+    "url": "https://github.com/advisories/GHSA-vg6v-j97m-h5xq",
+    "score": 6.8,
+    "ghsa": "GHSA-vg6v-j97m-h5xq",
+    "date": "2026-07-28T14:59:22Z"
+   },
+   {
+    "title": "Pterodactyl's shared global rate-limit key on login and 2FA checkpoint enables unauthenticated panel-wide authentication lockout (DoS)",
+    "url": "https://github.com/advisories/GHSA-xvc3-826v-xf47",
     "score": 7.5,
-    "ghsa": "GHSA-w6p7-2fxx-4f44",
-    "date": "2026-07-28T14:12:44Z"
-   },
-   {
-    "title": "org.xwiki.contrib:discussions-server has Cross-Site Request Forgery (CSRF) issue that makes it possible to delete messages",
-    "url": "https://github.com/advisories/GHSA-4j38-rw27-97gx",
-    "score": 6.5,
-    "ghsa": "GHSA-4j38-rw27-97gx",
-    "date": "2026-07-27T17:04:00Z"
-   },
-   {
-    "title": "etcd: `tlsListener.acceptLoop` spawns unbounded handshake goroutines with no deadline",
-    "url": "https://github.com/advisories/GHSA-6vch-q96h-7gc3",
-    "score": 7.5,
-    "ghsa": "GHSA-6vch-q96h-7gc3",
-    "date": "2026-07-24T22:40:16Z"
-   },
-   {
-    "title": "FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
-    "url": "https://github.com/advisories/GHSA-8q49-2h5h-434x",
-    "score": 5.9,
-    "ghsa": "GHSA-8q49-2h5h-434x",
-    "date": "2026-07-24T22:40:00Z"
-   },
-   {
-    "title": "kin-openapi openapi3filter: unauthenticated nil-pointer panic when validating a request against a `content` parameter whose media type has no schema",
-    "url": "https://github.com/advisories/GHSA-jpcw-4wr7-c3vq",
-    "score": 5.3,
-    "ghsa": "GHSA-jpcw-4wr7-c3vq",
-    "date": "2026-07-24T22:39:39Z"
-   },
-   {
-    "title": "AWS Bedrock AgentCore: Improper neutralization of argument delimiters in the Python SDK install_packages()",
-    "url": "https://github.com/advisories/GHSA-j6g5-3hh3-pgw8",
-    "score": 7.3,
-    "ghsa": "GHSA-j6g5-3hh3-pgw8",
-    "date": "2026-07-24T22:38:56Z"
+    "ghsa": "GHSA-xvc3-826v-xf47",
+    "date": "2026-07-28T14:57:59Z"
    }
   ],
   "thn": [
+   {
+    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+    "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+    "date": "Tue, 28 Jul 2026 20:31:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+    "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+    "date": "Tue, 28 Jul 2026 20:11:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
     "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
@@ -319,20 +303,6 @@
     "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
     "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
     "date": "Mon, 27 Jul 2026 20:10:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
-    "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
-    "date": "Mon, 27 Jul 2026 19:40:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
-    "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
-    "date": "Mon, 27 Jul 2026 18:35:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -445,7 +415,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 436,
+    "stars": 437,
     "lang": "JavaScript"
    },
    {
@@ -463,7 +433,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 293,
+    "stars": 294,
     "lang": "TypeScript"
    },
    {
@@ -485,16 +455,16 @@
     "lang": "Rust"
    },
    {
+    "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
+    "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
+    "stars": 127,
+    "lang": "—"
+   },
+   {
     "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
     "url": "https://github.com/SantanderAI/autoguardrails",
     "stars": 126,
     "lang": "Python"
-   },
-   {
-    "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
-    "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 126,
-    "lang": "—"
    }
   ],
   "hn": [
@@ -522,7 +492,7 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1630,
+    "points": 1631,
     "comments": 1156,
     "date": "2026-07-21T20:09:52Z"
    },
