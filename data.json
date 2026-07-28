@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T16:53:15.049Z",
+ "generatedAt": "2026-07-28T18:49:45.703Z",
  "sources": {
   "cve": [
    {
@@ -13,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-54619 — sqlite3-ruby has Use-After-Free When Redefining SQLite Functions with Different Arity",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54619",
-    "score": 2,
-    "date": "2026-07-28T16:21:31Z"
    }
   ],
   "kev": [
@@ -137,6 +131,20 @@
   ],
   "adv": [
    {
+    "title": "pytonapi has a Webhook Custom Path Authentication Bypass",
+    "url": "https://github.com/advisories/GHSA-3fcr-jvgp-7f58",
+    "score": 7.5,
+    "ghsa": "GHSA-3fcr-jvgp-7f58",
+    "date": "2026-07-28T17:09:02Z"
+   },
+   {
+    "title": "SIPSorcery: Malformed UDP packet on the RTP/ICE socket can remotely terminate a media session (DoS)",
+    "url": "https://github.com/advisories/GHSA-28gm-jrmw-xx93",
+    "score": 7.5,
+    "ghsa": "GHSA-28gm-jrmw-xx93",
+    "date": "2026-07-28T17:01:19Z"
+   },
+   {
     "title": "Poweradmin has Host Header Injection in OIDC redirect_uri, SAML ACS/SLO URL, and Logout Redirect Construction.",
     "url": "https://github.com/advisories/GHSA-3735-5339-xfwx",
     "score": 9.6,
@@ -205,20 +213,6 @@
     "score": 8.1,
     "ghsa": "GHSA-8r6w-3qq5-4p4r",
     "date": "2026-07-28T15:43:25Z"
-   },
-   {
-    "title": "@novu/application-generic: `validateUrlSsrf` permits CGNAT (100.64.0.0/10) destinations — affects Workflow HTTP request step + Webhook filter conditio",
-    "url": "https://github.com/advisories/GHSA-vg6v-j97m-h5xq",
-    "score": 6.8,
-    "ghsa": "GHSA-vg6v-j97m-h5xq",
-    "date": "2026-07-28T14:59:22Z"
-   },
-   {
-    "title": "Pterodactyl's shared global rate-limit key on login and 2FA checkpoint enables unauthenticated panel-wide authentication lockout (DoS)",
-    "url": "https://github.com/advisories/GHSA-xvc3-826v-xf47",
-    "score": 7.5,
-    "ghsa": "GHSA-xvc3-826v-xf47",
-    "date": "2026-07-28T14:57:59Z"
    }
   ],
   "thn": [
@@ -309,6 +303,20 @@
   ],
   "bleep": [
    {
+    "title": "CISA shares advice on isolating vital systems during cyberattacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+    "date": "Tue, 28 Jul 2026 14:41:04 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+    "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+    "date": "Tue, 28 Jul 2026 14:08:50 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Is Your SSO Protected Against Modern Credential Attacks?",
     "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
     "date": "Tue, 28 Jul 2026 10:00:10 -0400",
@@ -377,20 +385,6 @@
     "date": "Mon, 27 Jul 2026 11:12:27 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-    "url": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-    "date": "Mon, 27 Jul 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-    "date": "Sun, 26 Jul 2026 10:13:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -409,7 +403,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 577,
+    "stars": 579,
     "lang": "—"
    },
    {
@@ -445,7 +439,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 184,
+    "stars": 185,
     "lang": "Python"
    },
    {
@@ -576,13 +570,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles",
-    "url": "https://www.reddit.com/r/netsec/comments/1v832a6/exploiting_volvoeichers_fleet_management_platform/",
-    "date": "2026-07-27T15:07:13+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Designing Patterns to Prevent IDOR",
     "url": "https://www.reddit.com/r/netsec/comments/1v90f7y/designing_patterns_to_prevent_idor/",
     "date": "2026-07-28T14:39:44+00:00",
@@ -590,9 +577,30 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Flying Eagle Android RAT: TLS Certificate Pivots, Panel Fingerprints, and 170 Servers Across Hong Kong ASNs",
+    "url": "https://www.reddit.com/r/netsec/comments/1v95msb/flying_eagle_android_rat_tls_certificate_pivots/",
+    "date": "2026-07-28T17:45:41+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles",
+    "url": "https://www.reddit.com/r/netsec/comments/1v832a6/exploiting_volvoeichers_fleet_management_platform/",
+    "date": "2026-07-27T15:07:13+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
     "url": "https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/",
     "date": "2026-07-28T14:04:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "How AI is powering business email compromise at scale",
+    "url": "https://www.reddit.com/r/netsec/comments/1v8ym0e/how_ai_is_powering_business_email_compromise_at/",
+    "date": "2026-07-28T13:31:23+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -611,30 +619,16 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CFP Open – Looking for Technical AI &amp; Security Research for Après Slopes Summit 2027",
+    "url": "https://www.reddit.com/r/netsec/comments/1v6grho/cfp_open_looking_for_technical_ai_security/",
+    "date": "2026-07-25T18:59:32+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Escaping Claude Cowork’s local VM sandbox via CVE-2026-46331",
     "url": "https://www.reddit.com/r/netsec/comments/1v52lix/escaping_claude_coworks_local_vm_sandbox_via/",
     "date": "2026-07-24T05:53:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
-    "date": "2026-07-23T22:11:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Thailand's Ministry of Finance targeted with an AI agent running with approval prompts disabled",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4mg4l/thailands_ministry_of_finance_targeted_with_an_ai/",
-    "date": "2026-07-23T18:33:23+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "GitHub issues $100,000 bounty for critical RCE vulnerability",
-    "url": "https://www.reddit.com/r/netsec/comments/1v3v5za/github_issues_100000_bounty_for_critical_rce/",
-    "date": "2026-07-22T22:21:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
