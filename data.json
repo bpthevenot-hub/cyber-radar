@@ -1,7 +1,49 @@
 {
- "generatedAt": "2026-07-28T09:58:12.524Z",
+ "generatedAt": "2026-07-28T12:16:10.764Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-28757 — Red Hat Security Advisory: OpenShift Container Platform 4.15.62 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4419",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:24+00:00"
+   },
+   {
+    "title": "CVE-2025-5987 — Red Hat Security Advisory: OpenShift Container Platform 4.13.64 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3415",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:18+00:00"
+   },
+   {
+    "title": "CVE-2025-6176 — Red Hat Security Advisory: OpenShift Container Platform 4.14.62 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2974",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:18+00:00"
+   },
+   {
+    "title": "CVE-2025-13601 — Red Hat Security Advisory: OpenShift Container Platform 4.17.49 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2671",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:17+00:00"
+   },
+   {
+    "title": "CVE-2025-13601 — Red Hat Security Advisory: OpenShift Container Platform 4.16.57 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2659",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:17+00:00"
+   },
+   {
+    "title": "CVE-2025-13601 — Red Hat Security Advisory: OpenShift Container Platform 4.19.24 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2633",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:17+00:00"
+   },
+   {
+    "title": "CVE-2025-13601 — Red Hat Security Advisory: OpenShift Container Platform 4.18.33 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2072",
+    "score": 9.8,
+    "date": "2026-07-28T10:23:16+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +57,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:30+00:00"
+    "title": "CVE-2024-5642 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0414",
+    "score": 8.8,
+    "date": "2026-07-28T10:23:16+00:00"
    },
    {
-    "title": "CVE-2026-29063 — Red Hat Security Advisory: OpenShift Container Platform 4.20.26 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:27063",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:15+00:00"
+    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.3.1 (CUDA) (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8748",
+    "score": 8.8,
+    "date": "2026-07-28T10:23:03+00:00"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.19.35 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:27004",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:13+00:00"
+    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.1 (ROCm) (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8747",
+    "score": 8.8,
+    "date": "2026-07-28T10:23:03+00:00"
    },
    {
-    "title": "CVE-2026-1784 — Red Hat Security Advisory: OpenShift Container Platform 4.20.25 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25194",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:11+00:00"
+    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.1 (CUDA) (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8746",
+    "score": 8.8,
+    "date": "2026-07-28T10:23:02+00:00"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.21.20 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25187",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:10+00:00"
-   },
-   {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 bug fix and security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20041",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:02+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.21.17 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20034",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:01+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Assisted Installer RHEL 9 components for Multicluster Engine for Kubernetes 2.11.2 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19108",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:00+00:00"
-   },
-   {
-    "title": "CVE-2026-32285 — Red Hat Security Advisory: Assisted Installer RHEL 9 components for Multicluster Engine for Kubernetes 2.10.3 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19099",
-    "score": 9.1,
-    "date": "2026-07-28T09:23:00+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.17.54 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17598",
-    "score": 9.1,
-    "date": "2026-07-28T09:22:57+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.20.23 bug fix and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17468",
-    "score": 9.1,
-    "date": "2026-07-28T09:22:54+00:00"
-   },
-   {
-    "title": "CVE-2026-32285 — Red Hat Security Advisory: Assisted Installer RHEL 9 components for Multicluster Engine for Kubernetes 2.8.6 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17123",
-    "score": 9.1,
-    "date": "2026-07-28T09:22:49+00:00"
+    "title": "CVE-2025-61662 — Red Hat Security Advisory: OpenShift Container Platform 4.17.54 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17596",
+    "score": 8.2,
+    "date": "2026-07-28T10:22:58+00:00"
    }
   ],
   "kev": [
@@ -303,7 +303,7 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
     "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
     "date": "Tue, 28 Jul 2026 11:37:22 +0530",
     "badge": "THREAT",
@@ -374,6 +374,13 @@
    }
   ],
   "bleep": [
+   {
+    "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+    "date": "Tue, 28 Jul 2026 08:10:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
     "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
@@ -450,13 +457,6 @@
     "date": "Sat, 25 Jul 2026 18:37:47 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Malicious sites use JavaScript to build malware in browser memory",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-    "date": "Sat, 25 Jul 2026 11:21:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -481,7 +481,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 434,
+    "stars": 435,
     "lang": "JavaScript"
    },
    {
@@ -642,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "New vBulletin Vulnerability!",
-    "url": "https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/",
-    "date": "2026-07-27T14:00:29+00:00",
+    "title": "The state of vibe-coded app security: my analysis of 549 self-described AI-generated repos (study + raw data)",
+    "url": "https://www.reddit.com/r/netsec/comments/1v8vb4p/the_state_of_vibecoded_app_security_my_analysis/",
+    "date": "2026-07-28T11:11:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Pollard's P-1 Factoring Algorithm in Plain C",
-    "url": "https://www.reddit.com/r/netsec/comments/1v8ek4i/pollards_p1_factoring_algorithm_in_plain_c/",
-    "date": "2026-07-27T21:54:59+00:00",
+    "title": "New vBulletin Vulnerability!",
+    "url": "https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/",
+    "date": "2026-07-27T14:00:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 9,
   "kev": 1655,
   "adv": 12,
   "feed": 48
