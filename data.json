@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-29T14:00:54.962Z",
+ "generatedAt": "2026-07-29T15:02:20.546Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
+    "score": 9.9,
+    "date": "2026-07-29T14:41:47+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.12.15 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4942",
+    "score": 9.1,
+    "date": "2026-07-29T14:41:51+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
+    "score": 9.1,
+    "date": "2026-07-29T14:41:44+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40945",
+    "score": 9.1,
+    "date": "2026-07-29T14:41:44+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40118",
+    "score": 9.1,
+    "date": "2026-07-29T14:41:44+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.12.1 release. (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42047",
+    "score": 8.8,
+    "date": "2026-07-29T14:41:45+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Services on OpenShift 18.0 (golang-github-openstack-k8s-operators-os-diff) security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:39810",
+    "score": 8.8,
+    "date": "2026-07-29T14:41:42+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat Quay 3.13.11 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4185",
+    "score": 8.7,
+    "date": "2026-07-29T14:41:47+00:00"
+   },
+   {
+    "title": "CVE-2022-30187 — Red Hat Security Advisory: Red Hat Quay 3.14.6 (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4215",
+    "score": 8.7,
+    "date": "2026-07-29T14:41:46+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHACS 4.9.4 security and bug fix update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4467",
+    "score": 8.3,
+    "date": "2026-07-29T14:41:52+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHACS 4.8.9 security and bug fix update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4466",
+    "score": 8.3,
+    "date": "2026-07-29T14:41:47+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.2 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3884",
+    "score": 8.2,
+    "date": "2026-07-29T14:41:39+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +203,48 @@
   ],
   "adv": [
    {
+    "title": "swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
+    "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
+    "score": 8.3,
+    "ghsa": "GHSA-w284-33mx-6g9v",
+    "date": "2026-07-29T14:35:02Z"
+   },
+   {
+    "title": "swagger-typescript-api vulnerable to code injection via unescaped enum string values",
+    "url": "https://github.com/advisories/GHSA-5f94-x226-ccpm",
+    "score": 8.3,
+    "ghsa": "GHSA-5f94-x226-ccpm",
+    "date": "2026-07-29T14:33:00Z"
+   },
+   {
+    "title": "swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
+    "url": "https://github.com/advisories/GHSA-38c3-wv3c-v3xj",
+    "score": 8.3,
+    "ghsa": "GHSA-38c3-wv3c-v3xj",
+    "date": "2026-07-29T14:31:15Z"
+   },
+   {
+    "title": "swagger-typescript-api vulnerable to Server-Side Request Forgery via spec `$ref`",
+    "url": "https://github.com/advisories/GHSA-x36r-4347-pm5x",
+    "score": 6.1,
+    "ghsa": "GHSA-x36r-4347-pm5x",
+    "date": "2026-07-29T14:28:58Z"
+   },
+   {
+    "title": "swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
+    "url": "https://github.com/advisories/GHSA-hqj5-cw9f-rx67",
+    "score": 8.3,
+    "ghsa": "GHSA-hqj5-cw9f-rx67",
+    "date": "2026-07-29T14:26:38Z"
+   },
+   {
+    "title": "swagger-typescript-api vulnerable to authorization-token exfiltration via spec `$ref`",
+    "url": "https://github.com/advisories/GHSA-h754-fxp7-88wx",
+    "score": 7.4,
+    "ghsa": "GHSA-h754-fxp7-88wx",
+    "date": "2026-07-29T14:22:46Z"
+   },
+   {
     "title": "goshs has ACL Bypass & Path Traversal",
     "url": "https://github.com/advisories/GHSA-964w-f6gj-5236",
     "score": 5.3,
@@ -158,51 +285,23 @@
     "score": 9.8,
     "ghsa": "GHSA-6wcc-39rp-hh9p",
     "date": "2026-07-28T22:19:23Z"
-   },
-   {
-    "title": "td has pre-auth denial of service via unbounded memory allocation in proto.UnencryptedMessage.Decode",
-    "url": "https://github.com/advisories/GHSA-whmm-qj9r-wvr2",
-    "score": 7.5,
-    "ghsa": "GHSA-whmm-qj9r-wvr2",
-    "date": "2026-07-28T22:15:28Z"
-   },
-   {
-    "title": "goshs has a Path Traversal issue",
-    "url": "https://github.com/advisories/GHSA-wg2q-39h6-66x9",
-    "score": 6.5,
-    "ghsa": "GHSA-wg2q-39h6-66x9",
-    "date": "2026-07-28T22:08:53Z"
-   },
-   {
-    "title": "goshs --no-delete WebDAV MOVE bypass allows file deletion/overwrite",
-    "url": "https://github.com/advisories/GHSA-hq33-8jgp-8qq3",
-    "score": 9.1,
-    "ghsa": "GHSA-hq33-8jgp-8qq3",
-    "date": "2026-07-28T22:03:12Z"
-   },
-   {
-    "title": "goshs: File-based .goshs ACL authorization bypass via the ?bulk zip-download route (unauthenticated read; residual of GHSA-wvhv-qcqf-f3cx)",
-    "url": "https://github.com/advisories/GHSA-rmxw-pq4x-3fvh",
-    "score": 7.5,
-    "ghsa": "GHSA-rmxw-pq4x-3fvh",
-    "date": "2026-07-28T21:59:48Z"
-   },
-   {
-    "title": "goshs SFTP authentication bypass via empty password (incomplete fix of CVE-2026-40884)",
-    "url": "https://github.com/advisories/GHSA-rjrw-mjq6-hpmm",
-    "score": 9.1,
-    "ghsa": "GHSA-rjrw-mjq6-hpmm",
-    "date": "2026-07-28T21:56:28Z"
-   },
-   {
-    "title": "`datamodel-code-generator` vulnerable to code injection via unescaped carriage return in `--extra-template-data` `comment` field",
-    "url": "https://github.com/advisories/GHSA-wjv6-jcfj-mf9r",
-    "score": 7.8,
-    "ghsa": "GHSA-wjv6-jcfj-mf9r",
-    "date": "2026-07-28T21:50:09Z"
    }
   ],
   "thn": [
+   {
+    "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+    "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+    "date": "Wed, 29 Jul 2026 19:18:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+    "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+    "date": "Wed, 29 Jul 2026 19:12:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
     "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
@@ -272,23 +371,23 @@
     "date": "Wed, 29 Jul 2026 00:29:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-    "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-    "date": "Tue, 28 Jul 2026 20:31:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-    "url": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-    "date": "Tue, 28 Jul 2026 20:11:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers target over 30 Minnesota water utilities in coordinated OT attack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+    "date": "Wed, 29 Jul 2026 10:55:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+    "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+    "date": "Wed, 29 Jul 2026 10:02:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
@@ -358,20 +457,6 @@
     "date": "Mon, 27 Jul 2026 19:49:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-    "date": "Mon, 27 Jul 2026 18:49:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-    "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-    "date": "Mon, 27 Jul 2026 17:08:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -390,13 +475,13 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 589,
+    "stars": 591,
     "lang": "—"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 447,
+    "stars": 448,
     "lang": "JavaScript"
    },
    {
@@ -420,7 +505,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 188,
+    "stars": 189,
     "lang": "Python"
    },
    {
@@ -571,6 +656,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "url": "https://www.reddit.com/r/netsec/comments/1v9yd7p/anatomy_of_a_frontier_lab_agent_intrusion_a/",
+    "date": "2026-07-29T14:49:04+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles",
     "url": "https://www.reddit.com/r/netsec/comments/1v832a6/exploiting_volvoeichers_fleet_management_platform/",
     "date": "2026-07-27T15:07:13+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-07-24T05:53:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "XBOW Agents found three RCEs as SYSTEM (and root) on Bing Image Search",
-    "url": "https://www.reddit.com/r/netsec/comments/1v4sh8t/xbow_agents_found_three_rces_as_system_and_root/",
-    "date": "2026-07-23T22:11:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 7,
   "kev": 1655,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
