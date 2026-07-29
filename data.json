@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-29T15:02:20.546Z",
+ "generatedAt": "2026-07-29T15:56:10.201Z",
  "sources": {
   "cve": [
    {
@@ -81,10 +81,10 @@
     "date": "2026-07-29T14:41:47+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.2 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3884",
-    "score": 8.2,
-    "date": "2026-07-29T14:41:39+00:00"
+    "title": "CVE-2026-49755 — Req vulnerable to unbounded archive/compression extraction triggered by response content-type",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49755",
+    "score": 7.5,
+    "date": "2026-07-29T15:23:16Z"
    }
   ],
   "kev": [
@@ -203,6 +203,76 @@
   ],
   "adv": [
    {
+    "title": "Quarkus: Authentication/Authorization Bypass via Advanced Path Normalization Vulnerabilities",
+    "url": "https://github.com/advisories/GHSA-qcxp-gm7m-4j5v",
+    "score": 7.5,
+    "ghsa": "GHSA-qcxp-gm7m-4j5v",
+    "date": "2026-07-29T15:40:05Z"
+   },
+   {
+    "title": "@dynatrace-oss/dynatrace-mcp-server's create_dynatrace_notebook missing the human-approval gate",
+    "url": "https://github.com/advisories/GHSA-pc2w-4mq8-32qw",
+    "score": 3.7,
+    "ghsa": "GHSA-pc2w-4mq8-32qw",
+    "date": "2026-07-29T15:36:19Z"
+   },
+   {
+    "title": "Penelope unsafe tar extraction allows arbitrary local file write via crafted session archive",
+    "url": "https://github.com/advisories/GHSA-f42x-p2mx-hm8r",
+    "score": 5.9,
+    "ghsa": "GHSA-f42x-p2mx-hm8r",
+    "date": "2026-07-29T15:34:16Z"
+   },
+   {
+    "title": "Req vulnerable to multipart form-data header injection via unescaped name/filename/content_type",
+    "url": "https://github.com/advisories/GHSA-px9f-whj3-246m",
+    "score": null,
+    "ghsa": "GHSA-px9f-whj3-246m",
+    "date": "2026-07-29T15:29:14Z"
+   },
+   {
+    "title": "Req vulnerable to unbounded archive/compression extraction triggered by response content-type",
+    "url": "https://github.com/advisories/GHSA-655f-mp8p-96gv",
+    "score": 7.5,
+    "ghsa": "GHSA-655f-mp8p-96gv",
+    "date": "2026-07-29T15:23:16Z"
+   },
+   {
+    "title": "veraPDF Parser DoS via PostScript Type 1 Font Programs",
+    "url": "https://github.com/advisories/GHSA-7c26-995w-6f47",
+    "score": null,
+    "ghsa": "GHSA-7c26-995w-6f47",
+    "date": "2026-07-29T15:19:04Z"
+   },
+   {
+    "title": "veraPDF Parser DoS via PostScript CMap Streams",
+    "url": "https://github.com/advisories/GHSA-jrmc-qg6p-94fp",
+    "score": null,
+    "ghsa": "GHSA-jrmc-qg6p-94fp",
+    "date": "2026-07-29T15:17:32Z"
+   },
+   {
+    "title": "veraPDF-validatio: Use of Default `DocumentBuilderFactory` leads to XXE When Processing Untrusted PDFs",
+    "url": "https://github.com/advisories/GHSA-cg9x-g3gm-h5h6",
+    "score": 6.5,
+    "ghsa": "GHSA-cg9x-g3gm-h5h6",
+    "date": "2026-07-29T15:14:32Z"
+   },
+   {
+    "title": "veraPDF Validation XXE via Rich Text",
+    "url": "https://github.com/advisories/GHSA-3jh7-wm29-q568",
+    "score": 7.5,
+    "ghsa": "GHSA-3jh7-wm29-q568",
+    "date": "2026-07-29T15:11:43Z"
+   },
+   {
+    "title": "veraPDF Validation XXE via XFA",
+    "url": "https://github.com/advisories/GHSA-36mm-w85j-3q2j",
+    "score": 7.5,
+    "ghsa": "GHSA-36mm-w85j-3q2j",
+    "date": "2026-07-29T15:08:17Z"
+   },
+   {
     "title": "swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
     "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
     "score": 8.3,
@@ -215,79 +285,23 @@
     "score": 8.3,
     "ghsa": "GHSA-5f94-x226-ccpm",
     "date": "2026-07-29T14:33:00Z"
-   },
-   {
-    "title": "swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
-    "url": "https://github.com/advisories/GHSA-38c3-wv3c-v3xj",
-    "score": 8.3,
-    "ghsa": "GHSA-38c3-wv3c-v3xj",
-    "date": "2026-07-29T14:31:15Z"
-   },
-   {
-    "title": "swagger-typescript-api vulnerable to Server-Side Request Forgery via spec `$ref`",
-    "url": "https://github.com/advisories/GHSA-x36r-4347-pm5x",
-    "score": 6.1,
-    "ghsa": "GHSA-x36r-4347-pm5x",
-    "date": "2026-07-29T14:28:58Z"
-   },
-   {
-    "title": "swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
-    "url": "https://github.com/advisories/GHSA-hqj5-cw9f-rx67",
-    "score": 8.3,
-    "ghsa": "GHSA-hqj5-cw9f-rx67",
-    "date": "2026-07-29T14:26:38Z"
-   },
-   {
-    "title": "swagger-typescript-api vulnerable to authorization-token exfiltration via spec `$ref`",
-    "url": "https://github.com/advisories/GHSA-h754-fxp7-88wx",
-    "score": 7.4,
-    "ghsa": "GHSA-h754-fxp7-88wx",
-    "date": "2026-07-29T14:22:46Z"
-   },
-   {
-    "title": "goshs has ACL Bypass & Path Traversal",
-    "url": "https://github.com/advisories/GHSA-964w-f6gj-5236",
-    "score": 5.3,
-    "ghsa": "GHSA-964w-f6gj-5236",
-    "date": "2026-07-28T22:26:28Z"
-   },
-   {
-    "title": "Pagy I18n locale option is not validated before being used in a file path",
-    "url": "https://github.com/advisories/GHSA-2xmw-f8j8-wfxc",
-    "score": null,
-    "ghsa": "GHSA-2xmw-f8j8-wfxc",
-    "date": "2026-07-28T22:25:29Z"
-   },
-   {
-    "title": "skilo add follows symbolic links, allowing arbitrary local file disclosure from a malicious skill source",
-    "url": "https://github.com/advisories/GHSA-6xx4-9wp6-65p7",
-    "score": 6.5,
-    "ghsa": "GHSA-6xx4-9wp6-65p7",
-    "date": "2026-07-28T22:23:48Z"
-   },
-   {
-    "title": "Style Dictionary - Prototype Pollution in convertTokenData utility function",
-    "url": "https://github.com/advisories/GHSA-vj5c-m527-mpff",
-    "score": 8.8,
-    "ghsa": "GHSA-vj5c-m527-mpff",
-    "date": "2026-07-28T22:23:03Z"
-   },
-   {
-    "title": "openhole-server vulnerable to path traversal via URL-decoded request path",
-    "url": "https://github.com/advisories/GHSA-fh2f-xfxc-q9cc",
-    "score": 8.6,
-    "ghsa": "GHSA-fh2f-xfxc-q9cc",
-    "date": "2026-07-28T22:20:51Z"
-   },
-   {
-    "title": "@hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
-    "url": "https://github.com/advisories/GHSA-6wcc-39rp-hh9p",
-    "score": 9.8,
-    "ghsa": "GHSA-6wcc-39rp-hh9p",
-    "date": "2026-07-28T22:19:23Z"
    }
   ],
   "thn": [
+   {
+    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+    "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+    "date": "Wed, 29 Jul 2026 21:09:30 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+    "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+    "date": "Wed, 29 Jul 2026 21:01:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
     "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
@@ -355,20 +369,6 @@
     "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
     "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
     "date": "Wed, 29 Jul 2026 12:37:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-    "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-    "date": "Wed, 29 Jul 2026 09:50:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-    "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-    "date": "Wed, 29 Jul 2026 00:29:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -475,7 +475,7 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 591,
+    "stars": 592,
     "lang": "—"
    },
    {
