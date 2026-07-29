@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-07-29T21:37:13.283Z",
+ "generatedAt": "2026-07-29T22:38:06.511Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-07-29T21:23:36+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-07-29T20:43:05+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-07-29T20:43:04+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-07-29T20:43:04+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-07-29T20:43:03+00:00"
+   },
+   {
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-07-29T21:23:44+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
+    "score": 9.1,
+    "date": "2026-07-29T21:23:38+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.4.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34364",
+    "score": 9.1,
+    "date": "2026-07-29T21:23:36+00:00"
+   },
+   {
+    "title": "CVE-2026-44172 — Red Hat Security Advisory: mariadb-connector-c security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47772",
+    "score": 9.1,
+    "date": "2026-07-29T21:20:34+00:00"
+   },
+   {
+    "title": "CVE-2026-44172 — Red Hat Security Advisory: mariadb-connector-c security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43505",
+    "score": 9.1,
+    "date": "2026-07-29T21:20:24+00:00"
+   },
+   {
+    "title": "CVE-2026-44172 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:30135",
+    "score": 9.1,
+    "date": "2026-07-29T21:20:24+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-07-29T20:43:03+00:00"
    }
   ],
   "kev": [
@@ -303,16 +375,16 @@
   ],
   "bleep": [
    {
-    "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
-    "date": "Wed, 29 Jul 2026 17:35:40 -0400",
+    "title": "Anthropic confirms Claude is down worldwide",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+    "date": "Wed, 29 Jul 2026 17:39:29 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
-    "title": "Anthropic confirms Claude is down worldwide",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
-    "date": "Wed, 29 Jul 2026 16:59:32 -0400",
+    "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+    "date": "Wed, 29 Jul 2026 17:35:40 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
@@ -389,6 +461,12 @@
   ],
   "tools": [
    {
+    "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
+    "url": "https://github.com/openai/codex-security",
+    "stars": 4816,
+    "lang": "TypeScript"
+   },
+   {
     "title": "tianchong-zerotemp/dianxing — DianXing - AI-Driven End-to-End Code Security Auditing",
     "url": "https://github.com/tianchong-zerotemp/dianxing",
     "stars": 876,
@@ -453,12 +531,6 @@
     "url": "https://github.com/SantanderAI/autoguardrails",
     "stars": 127,
     "lang": "Python"
-   },
-   {
-    "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
-    "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
-    "stars": 87,
-    "lang": "—"
    }
   ],
   "hn": [
@@ -591,16 +663,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How We Hacked Thousands of Data Centers in Minutes Using a 20-Year-Old Vulnerability",
-    "url": "https://www.reddit.com/r/netsec/comments/1v8ylt4/how_we_hacked_thousands_of_data_centers_in/",
-    "date": "2026-07-28T13:31:09+00:00",
+    "title": "HTTP Request Smuggling in Hiawatha",
+    "url": "https://www.reddit.com/r/netsec/comments/1v9ut34/http_request_smuggling_in_hiawatha/",
+    "date": "2026-07-29T12:29:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "HTTP Request Smuggling in Hiawatha",
-    "url": "https://www.reddit.com/r/netsec/comments/1v9ut34/http_request_smuggling_in_hiawatha/",
-    "date": "2026-07-29T12:29:38+00:00",
+    "title": "How We Hacked Thousands of Data Centers in Minutes Using a 20-Year-Old Vulnerability",
+    "url": "https://www.reddit.com/r/netsec/comments/1v8ylt4/how_we_hacked_thousands_of_data_centers_in/",
+    "date": "2026-07-28T13:31:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1656,
   "adv": 12,
   "feed": 48
