@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-07-29T15:56:10.201Z",
+ "generatedAt": "2026-07-29T16:46:32.350Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
-    "score": 9.9,
-    "date": "2026-07-29T14:41:47+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.12.15 (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4942",
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-07-29T15:43:24+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-07-29T15:43:24+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-07-29T15:43:23+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.17.9.1 Async Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42150",
     "score": 9.1,
-    "date": "2026-07-29T14:41:51+00:00"
+    "date": "2026-07-29T15:43:38+00:00"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
     "score": 9.1,
-    "date": "2026-07-29T14:41:44+00:00"
+    "date": "2026-07-29T15:43:35+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40945",
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.19.2.1 Async Update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42240",
     "score": 9.1,
-    "date": "2026-07-29T14:41:44+00:00"
+    "date": "2026-07-29T15:43:34+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40118",
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.18.7.1 Async Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42151",
     "score": 9.1,
-    "date": "2026-07-29T14:41:44+00:00"
+    "date": "2026-07-29T15:43:34+00:00"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.12.1 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42047",
-    "score": 8.8,
-    "date": "2026-07-29T14:41:45+00:00"
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "score": 9.1,
+    "date": "2026-07-29T15:43:34+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Services on OpenShift 18.0 (golang-github-openstack-k8s-operators-os-diff) security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:39810",
-    "score": 8.8,
-    "date": "2026-07-29T14:41:42+00:00"
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42051",
+    "score": 9.1,
+    "date": "2026-07-29T15:43:33+00:00"
    },
    {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat Quay 3.13.11 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4185",
-    "score": 8.7,
-    "date": "2026-07-29T14:41:47+00:00"
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.15.1 release. (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42049",
+    "score": 9.1,
+    "date": "2026-07-29T15:43:32+00:00"
    },
    {
-    "title": "CVE-2022-30187 — Red Hat Security Advisory: Red Hat Quay 3.14.6 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4215",
-    "score": 8.7,
-    "date": "2026-07-29T14:41:46+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
+    "score": 9.1,
+    "date": "2026-07-29T15:43:13+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHACS 4.9.4 security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4467",
-    "score": 8.3,
-    "date": "2026-07-29T14:41:52+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHACS 4.8.9 security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4466",
-    "score": 8.3,
-    "date": "2026-07-29T14:41:47+00:00"
-   },
-   {
-    "title": "CVE-2026-49755 — Req vulnerable to unbounded archive/compression extraction triggered by response content-type",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49755",
-    "score": 7.5,
-    "date": "2026-07-29T15:23:16Z"
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "score": 9.1,
+    "date": "2026-07-29T15:39:07+00:00"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
+    "title": "proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
+    "url": "https://github.com/advisories/GHSA-7h3g-4w2f-fj2f",
+    "score": 8.2,
+    "ghsa": "GHSA-7h3g-4w2f-fj2f",
+    "date": "2026-07-29T16:42:11Z"
+   },
+   {
+    "title": "`proot-distro install` has a Symlink Escape (Arbitrary Host File Write) via Malicious Tar Archive",
+    "url": "https://github.com/advisories/GHSA-9xq3-3fqg-4vg7",
+    "score": 8.2,
+    "ghsa": "GHSA-9xq3-3fqg-4vg7",
+    "date": "2026-07-29T16:32:34Z"
+   },
+   {
+    "title": "Easy!Appointments disable_booking_message rendered as raw HTML on public booking page — Stored XSS",
+    "url": "https://github.com/advisories/GHSA-996f-334j-67g7",
+    "score": 2.6,
+    "ghsa": "GHSA-996f-334j-67g7",
+    "date": "2026-07-29T16:30:09Z"
+   },
+   {
+    "title": "Easy!Appointments: Authorization bypass in Google OAuth provider binding lets any backend user rebind a peer provider's Google sync",
+    "url": "https://github.com/advisories/GHSA-8hm4-r66f-29wr",
+    "score": 3.1,
+    "ghsa": "GHSA-8hm4-r66f-29wr",
+    "date": "2026-07-29T16:29:26Z"
+   },
+   {
+    "title": "Easy!Appointments has unauthenticated customer PII disclosure on booking reschedule page",
+    "url": "https://github.com/advisories/GHSA-xgr6-pqjv-3pf8",
+    "score": null,
+    "ghsa": "GHSA-xgr6-pqjv-3pf8",
+    "date": "2026-07-29T16:28:23Z"
+   },
+   {
+    "title": "Easy!Appointments appointments/store and appointments/update allow cross-provider appointment injection — Authorization Bypass",
+    "url": "https://github.com/advisories/GHSA-w8xc-8g92-v77h",
+    "score": 3.3,
+    "ghsa": "GHSA-w8xc-8g92-v77h",
+    "date": "2026-07-29T16:26:25Z"
+   },
+   {
+    "title": "Easy!Appointments has server-side request forgery in CalDAV connection test that exposes the deployment's internal network",
+    "url": "https://github.com/advisories/GHSA-pm5p-7w5h-jm5q",
+    "score": 2.7,
+    "ghsa": "GHSA-pm5p-7w5h-jm5q",
+    "date": "2026-07-29T16:24:27Z"
+   },
+   {
+    "title": "Easy!Appointments Vulnerable to Appointments Takeover via Excessive Data Exposure",
+    "url": "https://github.com/advisories/GHSA-4vmm-5qvc-w5p7",
+    "score": 7.1,
+    "ghsa": "GHSA-4vmm-5qvc-w5p7",
+    "date": "2026-07-29T16:22:17Z"
+   },
+   {
+    "title": "olm dependency deprecation: CVE-2022-39255 and CVE-2024-45193",
+    "url": "https://github.com/advisories/GHSA-wchh-9x6h-7f6p",
+    "score": null,
+    "ghsa": "GHSA-wchh-9x6h-7f6p",
+    "date": "2026-07-29T16:11:45Z"
+   },
+   {
+    "title": "AgentCore CLI Bedrock Agent Import Vulnerable to Code Injection via Improper Triple-Quote Escaping",
+    "url": "https://github.com/advisories/GHSA-m4x6-gwgp-4pm7",
+    "score": 9,
+    "ghsa": "GHSA-m4x6-gwgp-4pm7",
+    "date": "2026-07-29T16:10:46Z"
+   },
+   {
+    "title": "prebid-server's request forgery vulnerability allows for possible host environment data extraction",
+    "url": "https://github.com/advisories/GHSA-4p3g-4hcj-wpvx",
+    "score": 10,
+    "ghsa": "GHSA-4p3g-4hcj-wpvx",
+    "date": "2026-07-29T16:00:36Z"
+   },
+   {
     "title": "Quarkus: Authentication/Authorization Bypass via Advanced Path Normalization Vulnerabilities",
     "url": "https://github.com/advisories/GHSA-qcxp-gm7m-4j5v",
     "score": 7.5,
     "ghsa": "GHSA-qcxp-gm7m-4j5v",
     "date": "2026-07-29T15:40:05Z"
-   },
-   {
-    "title": "@dynatrace-oss/dynatrace-mcp-server's create_dynatrace_notebook missing the human-approval gate",
-    "url": "https://github.com/advisories/GHSA-pc2w-4mq8-32qw",
-    "score": 3.7,
-    "ghsa": "GHSA-pc2w-4mq8-32qw",
-    "date": "2026-07-29T15:36:19Z"
-   },
-   {
-    "title": "Penelope unsafe tar extraction allows arbitrary local file write via crafted session archive",
-    "url": "https://github.com/advisories/GHSA-f42x-p2mx-hm8r",
-    "score": 5.9,
-    "ghsa": "GHSA-f42x-p2mx-hm8r",
-    "date": "2026-07-29T15:34:16Z"
-   },
-   {
-    "title": "Req vulnerable to multipart form-data header injection via unescaped name/filename/content_type",
-    "url": "https://github.com/advisories/GHSA-px9f-whj3-246m",
-    "score": null,
-    "ghsa": "GHSA-px9f-whj3-246m",
-    "date": "2026-07-29T15:29:14Z"
-   },
-   {
-    "title": "Req vulnerable to unbounded archive/compression extraction triggered by response content-type",
-    "url": "https://github.com/advisories/GHSA-655f-mp8p-96gv",
-    "score": 7.5,
-    "ghsa": "GHSA-655f-mp8p-96gv",
-    "date": "2026-07-29T15:23:16Z"
-   },
-   {
-    "title": "veraPDF Parser DoS via PostScript Type 1 Font Programs",
-    "url": "https://github.com/advisories/GHSA-7c26-995w-6f47",
-    "score": null,
-    "ghsa": "GHSA-7c26-995w-6f47",
-    "date": "2026-07-29T15:19:04Z"
-   },
-   {
-    "title": "veraPDF Parser DoS via PostScript CMap Streams",
-    "url": "https://github.com/advisories/GHSA-jrmc-qg6p-94fp",
-    "score": null,
-    "ghsa": "GHSA-jrmc-qg6p-94fp",
-    "date": "2026-07-29T15:17:32Z"
-   },
-   {
-    "title": "veraPDF-validatio: Use of Default `DocumentBuilderFactory` leads to XXE When Processing Untrusted PDFs",
-    "url": "https://github.com/advisories/GHSA-cg9x-g3gm-h5h6",
-    "score": 6.5,
-    "ghsa": "GHSA-cg9x-g3gm-h5h6",
-    "date": "2026-07-29T15:14:32Z"
-   },
-   {
-    "title": "veraPDF Validation XXE via Rich Text",
-    "url": "https://github.com/advisories/GHSA-3jh7-wm29-q568",
-    "score": 7.5,
-    "ghsa": "GHSA-3jh7-wm29-q568",
-    "date": "2026-07-29T15:11:43Z"
-   },
-   {
-    "title": "veraPDF Validation XXE via XFA",
-    "url": "https://github.com/advisories/GHSA-36mm-w85j-3q2j",
-    "score": 7.5,
-    "ghsa": "GHSA-36mm-w85j-3q2j",
-    "date": "2026-07-29T15:08:17Z"
-   },
-   {
-    "title": "swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
-    "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
-    "score": 8.3,
-    "ghsa": "GHSA-w284-33mx-6g9v",
-    "date": "2026-07-29T14:35:02Z"
-   },
-   {
-    "title": "swagger-typescript-api vulnerable to code injection via unescaped enum string values",
-    "url": "https://github.com/advisories/GHSA-5f94-x226-ccpm",
-    "score": 8.3,
-    "ghsa": "GHSA-5f94-x226-ccpm",
-    "date": "2026-07-29T14:33:00Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+    "date": "Wed, 29 Jul 2026 12:04:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers target over 30 Minnesota water utilities in coordinated OT attack",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
     "date": "Wed, 29 Jul 2026 10:55:57 -0400",
@@ -448,13 +455,6 @@
     "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
     "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
     "date": "Tue, 28 Jul 2026 05:10:03 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-    "date": "Mon, 27 Jul 2026 19:49:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 14,
   "kev": 1655,
   "adv": 12,
   "feed": 48
