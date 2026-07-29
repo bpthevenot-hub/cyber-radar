@@ -1,24 +1,12 @@
 {
- "generatedAt": "2026-07-28T22:27:01.262Z",
+ "generatedAt": "2026-07-29T00:11:50.635Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-54658 — @hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54658",
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
     "score": 9.8,
-    "date": "2026-07-28T22:19:23Z"
-   },
-   {
-    "title": "CVE-2026-14512 — IBM WebSphere Application Server 9.0, and 8.5 traditional is vulnerable to pre-authentication unsafe deserialization which could allow a rem",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14512",
-    "score": 9.8,
-    "date": "2026-07-28T21:31:34Z"
-   },
-   {
-    "title": "CVE-2026-14446 — IBM WebSphere Application Server 9.0, and 8.5 is vulnerable to broken access control/privilege escalation in the administrative console.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14446",
-    "score": 9.8,
-    "date": "2026-07-28T21:31:34Z"
+    "date": "2026-07-28T23:10:08+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -33,58 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-6881 — A SQL Injection in the Giving Reports functionality in Ellucian Advance Web and Legacy Advance allows an authenticated attacker to extract s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6881",
-    "score": 9.5,
-    "date": "2026-07-28T21:31:34Z"
-   },
-   {
-    "title": "CVE-2026-14973 — IBM Aspera Desktop App 1.0.5 through 1.0.19 IBM Aspera for desktop can allow files to be written outside of the user's selected download des",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14973",
-    "score": 9.3,
-    "date": "2026-07-28T21:31:34Z"
-   },
-   {
-    "title": "CVE-2026-64863 — goshs --no-delete WebDAV MOVE bypass allows file deletion/overwrite",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64863",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
     "score": 9.1,
-    "date": "2026-07-28T22:03:12Z"
+    "date": "2026-07-28T23:10:09+00:00"
    },
    {
-    "title": "CVE-2026-62325 — goshs SFTP authentication bypass via empty password (incomplete fix of CVE-2026-40884)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62325",
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
     "score": 9.1,
-    "date": "2026-07-28T21:56:28Z"
+    "date": "2026-07-28T23:10:09+00:00"
    },
    {
-    "title": "CVE-2026-14958 — IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could allow a remote authenticated attacker to execute arbitrary code due to unquoted shell inter",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14958",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
     "score": 9.1,
-    "date": "2026-07-28T21:31:34Z"
+    "date": "2026-07-28T23:10:07+00:00"
    },
    {
-    "title": "CVE-2026-14959 — IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could allow a remote authenticated attacker to execute arbitrary code due to shell command inject",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14959",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
     "score": 9.1,
-    "date": "2026-07-28T21:31:34Z"
+    "date": "2026-07-28T23:10:07+00:00"
    },
    {
-    "title": "CVE-2026-54653 — `datamodel-code-generator` vulnerable to code injection in via attacker-controlled `default_factory` schema field",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54653",
-    "score": 8.8,
-    "date": "2026-07-28T21:48:14Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:07+00:00"
    },
    {
-    "title": "CVE-2026-57510 — SuperPlane before 0.27.0 contains a broken object-level authorization vulnerability in the CanvasService gRPC handlers that allows authentic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57510",
-    "score": 8.8,
-    "date": "2026-07-28T21:31:33Z"
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:06+00:00"
    },
    {
-    "title": "CVE-2026-15325 — IBM WebSphere Application Server 9.0, and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 is vulnerable to HTTP",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15325",
-    "score": 8.7,
-    "date": "2026-07-28T21:31:34Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:04+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:04+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:03+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:03+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
+    "score": 9.1,
+    "date": "2026-07-28T23:10:03+00:00"
    }
   ],
   "kev": [
@@ -475,13 +475,13 @@
    {
     "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
     "url": "https://github.com/google/mantis",
-    "stars": 582,
+    "stars": 583,
     "lang": "—"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 437,
+    "stars": 438,
     "lang": "JavaScript"
    },
    {
@@ -501,12 +501,6 @@
     "url": "https://github.com/badchars/darknet-mcp-server",
     "stars": 295,
     "lang": "TypeScript"
-   },
-   {
-    "title": "jestasecurity/thumper — Thumper is an open-source tripwire for the Shai-Hulud npm worm. Plant fake-but-realistic credentials where the",
-    "url": "https://github.com/jestasecurity/thumper",
-    "stars": 189,
-    "lang": "Python"
    },
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
@@ -531,6 +525,12 @@
     "url": "https://github.com/SantanderAI/autoguardrails",
     "stars": 126,
     "lang": "Python"
+   },
+   {
+    "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
+    "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
+    "stars": 84,
+    "lang": "—"
    }
   ],
   "hn": [
@@ -649,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Hush Security raises $30 million to govern enterprise AI agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1v9904d/hush_security_raises_30_million_to_govern/",
-    "date": "2026-07-28T19:43:17+00:00",
+    "title": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles",
+    "url": "https://www.reddit.com/r/netsec/comments/1v832a6/exploiting_volvoeichers_fleet_management_platform/",
+    "date": "2026-07-27T15:07:13+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles",
-    "url": "https://www.reddit.com/r/netsec/comments/1v832a6/exploiting_volvoeichers_fleet_management_platform/",
-    "date": "2026-07-27T15:07:13+00:00",
+    "title": "Hush Security raises $30 million to govern enterprise AI agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1v9904d/hush_security_raises_30_million_to_govern/",
+    "date": "2026-07-28T19:43:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 11,
+  "crit": 14,
   "kev": 1655,
   "adv": 12,
   "feed": 48
