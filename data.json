@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-07-29T23:39:24.447Z",
+ "generatedAt": "2026-07-30T00:51:00.552Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
-    "score": 9.8,
-    "date": "2026-07-29T21:23:36+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
-    "score": 9.4,
-    "date": "2026-07-29T20:43:05+00:00"
-   },
-   {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
-    "score": 9.4,
-    "date": "2026-07-29T20:43:04+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
-    "score": 9.4,
-    "date": "2026-07-29T20:43:04+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
-    "score": 9.4,
-    "date": "2026-07-29T20:43:03+00:00"
-   },
-   {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "title": "CVE-2026-51992 — SQL Injection vulnerability in ClickHouse Server Versions <= 26.3.9.8 allows a remote attacker to execute arbitrary code via the create dict",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51992",
     "score": 9.1,
-    "date": "2026-07-29T21:23:44+00:00"
+    "date": "2026-07-29T18:31:40Z"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
-    "score": 9.1,
-    "date": "2026-07-29T21:23:38+00:00"
+    "title": "CVE-2026-18022 — Integer wraparound in IVFFlat index build in pgvector before 0.8.6 allows a database user to write data out-of-bounds, which could lead to a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18022",
+    "score": 8.8,
+    "date": "2026-07-29T21:31:00Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.4.6 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34364",
-    "score": 9.1,
-    "date": "2026-07-29T21:23:36+00:00"
+    "title": "CVE-2026-5490 — DriveLock SQL Injection Privilege Escalation Vulnerability. This vulnerability allows remote attackers to escalate privileges on affected in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5490",
+    "score": 8.8,
+    "date": "2026-07-29T21:31:00Z"
    },
    {
-    "title": "CVE-2026-44172 — Red Hat Security Advisory: mariadb-connector-c security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47772",
-    "score": 9.1,
-    "date": "2026-07-29T21:20:34+00:00"
+    "title": "CVE-2026-67201 — V through 0.5.2, fixed in commit 85859f0, contains a server-side request forgery (SSRF) bypass vulnerability that allows attackers to circum",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67201",
+    "score": 8.6,
+    "date": "2026-07-29T21:30:59Z"
    },
    {
-    "title": "CVE-2026-44172 — Red Hat Security Advisory: mariadb-connector-c security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43505",
-    "score": 9.1,
-    "date": "2026-07-29T21:20:24+00:00"
+    "title": "CVE-2026-6267 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1.0 before 19.0.5, 19.1 before 19.1.3, and 19.2 before 19.2.1 ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6267",
+    "score": 8.5,
+    "date": "2026-07-29T21:31:01Z"
    },
    {
-    "title": "CVE-2026-44172 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:30135",
-    "score": 9.1,
-    "date": "2026-07-29T21:20:24+00:00"
+    "title": "CVE-2026-12436 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.0 before 19.0.5, 19.1 before 19.1.3, and 19.2 before 19.2.1 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12436",
+    "score": 8.4,
+    "date": "2026-07-29T21:31:00Z"
    },
    {
-    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
-    "score": 9.1,
-    "date": "2026-07-29T20:43:03+00:00"
+    "title": "CVE-2026-13308 — Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13308",
+    "score": 8.1,
+    "date": "2026-07-29T21:31:01Z"
+   },
+   {
+    "title": "CVE-2026-6102 — MSI Center NTIOLib_X64 Origin Validation Error Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escala",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6102",
+    "score": 7.8,
+    "date": "2026-07-29T21:31:01Z"
+   },
+   {
+    "title": "CVE-2026-5056 — GStreamer qtdemux Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arb",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5056",
+    "score": 7.8,
+    "date": "2026-07-29T21:31:00Z"
+   },
+   {
+    "title": "CVE-2026-13268 — G DATA Total Security Backup Service Link Following Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to e",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13268",
+    "score": 7.8,
+    "date": "2026-07-29T21:31:00Z"
+   },
+   {
+    "title": "CVE-2026-15975 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 11.8 before 19.0.5, 19.1 before 19.1.3, and 19.2 before 19.2.1 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15975",
+    "score": 7.5,
+    "date": "2026-07-29T21:31:00Z"
+   },
+   {
+    "title": "CVE-2026-5491 — DriveLock Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive informa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5491",
+    "score": 7.5,
+    "date": "2026-07-29T21:31:00Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+    "date": "Wed, 29 Jul 2026 19:44:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Anthropic confirms Claude is down worldwide",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
     "date": "Wed, 29 Jul 2026 17:39:29 -0400",
@@ -450,20 +457,13 @@
     "date": "Tue, 28 Jul 2026 14:41:04 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-    "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-    "date": "Tue, 28 Jul 2026 14:08:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 4860,
+    "stars": 4940,
     "lang": "TypeScript"
    },
    {
@@ -477,12 +477,6 @@
     "url": "https://github.com/okasi/bot-signal",
     "stars": 668,
     "lang": "TypeScript"
-   },
-   {
-    "title": "google/mantis — A modular, stack-agnostic toolkit of security review skills for AI coding agents to autonomously find, reprodu",
-    "url": "https://github.com/google/mantis",
-    "stars": 593,
-    "lang": "—"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
@@ -527,10 +521,16 @@
     "lang": "—"
    },
    {
-    "title": "SantanderAI/autoguardrails — Alignment-research scaffold (autoresearch-style) for LLM guardrails: search over a single policy.md surface",
-    "url": "https://github.com/SantanderAI/autoguardrails",
-    "stars": 127,
-    "lang": "Python"
+    "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
+    "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
+    "stars": 87,
+    "lang": "—"
+   },
+   {
+    "title": "wellwelwel/lagune — 🌊 Lagune is your security copilot as you build, your Blue Team when you audit, whether you're a developer or ",
+    "url": "https://github.com/wellwelwel/lagune",
+    "stars": 86,
+    "lang": "TypeScript"
    }
   ],
   "hn": [
@@ -663,6 +663,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Detection and Enforcement for Endpoint AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1vadzuv/detection_and_enforcement_for_endpoint_ai_agents/",
+    "date": "2026-07-30T00:22:35+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "HTTP Request Smuggling in Hiawatha",
     "url": "https://www.reddit.com/r/netsec/comments/1v9ut34/http_request_smuggling_in_hiawatha/",
     "date": "2026-07-29T12:29:38+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-07-28T13:31:23+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "New vBulletin Vulnerability!",
-    "url": "https://www.reddit.com/r/netsec/comments/1v8192k/new_vbulletin_vulnerability/",
-    "date": "2026-07-27T14:00:29+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 3,
   "kev": 1656,
   "adv": 12,
   "feed": 48
