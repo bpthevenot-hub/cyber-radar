@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-07-30T02:00:41.934Z",
+ "generatedAt": "2026-07-30T03:24:01.169Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-33454 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.14 for Quarkus 3.27 update is now available (RHBQ 3.27.3.SP2) (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19835",
+    "score": 9.9,
+    "date": "2026-07-30T01:42:19+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-51992 — SQL Injection vulnerability in ClickHouse Server Versions <= 26.3.9.8 allows a remote attacker to execute arbitrary code via the create dict",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51992",
+    "title": "CVE-2024-9621 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.4 for Quarkus 3.8 update is now available (RHBQ 3.8.6.SP2) (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:10035",
     "score": 9.1,
-    "date": "2026-07-29T18:31:40Z"
+    "date": "2026-07-30T01:43:25+00:00"
    },
    {
-    "title": "CVE-2026-18022 — Integer wraparound in IVFFlat index build in pgvector before 0.8.6 allows a database user to write data out-of-bounds, which could lead to a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18022",
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-07-30T01:43:10+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
+    "score": 9.1,
+    "date": "2026-07-30T01:43:06+00:00"
+   },
+   {
+    "title": "CVE-2025-48431 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.3 security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24539",
+    "score": 9.1,
+    "date": "2026-07-30T01:42:57+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Multicluster Global Hub 1.6.2 security update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23345",
+    "score": 9.1,
+    "date": "2026-07-30T01:42:56+00:00"
+   },
+   {
+    "title": "CVE-2026-21728 — Red Hat Security Advisory: Multicluster Global Hub 1.3.4 security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22423",
+    "score": 9.1,
+    "date": "2026-07-30T01:42:46+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Multicluster Global Hub 1.4.5 security update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22347",
+    "score": 9.1,
+    "date": "2026-07-30T01:42:37+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Multicluster Global Hub 1.5.4 security update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21769",
+    "score": 9.1,
+    "date": "2026-07-30T01:42:37+00:00"
+   },
+   {
+    "title": "CVE-2024-10234 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.23 Security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:10931",
     "score": 8.8,
-    "date": "2026-07-29T21:31:00Z"
+    "date": "2026-07-30T01:47:14+00:00"
    },
    {
-    "title": "CVE-2026-5490 — DriveLock SQL Injection Privilege Escalation Vulnerability. This vulnerability allows remote attackers to escalate privileges on affected in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5490",
+    "title": "CVE-2024-10234 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.23 Security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:10926",
     "score": 8.8,
-    "date": "2026-07-29T21:31:00Z"
+    "date": "2026-07-30T01:47:14+00:00"
    },
    {
-    "title": "CVE-2026-67201 — V through 0.5.2, fixed in commit 85859f0, contains a server-side request forgery (SSRF) bypass vulnerability that allows attackers to circum",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67201",
-    "score": 8.6,
-    "date": "2026-07-29T21:30:59Z"
-   },
-   {
-    "title": "CVE-2026-6267 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1.0 before 19.0.5, 19.1 before 19.1.3, and 19.2 before 19.2.1 ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6267",
-    "score": 8.5,
-    "date": "2026-07-29T21:31:01Z"
-   },
-   {
-    "title": "CVE-2026-12436 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.0 before 19.0.5, 19.1 before 19.1.3, and 19.2 before 19.2.1 th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12436",
-    "score": 8.4,
-    "date": "2026-07-29T21:31:00Z"
-   },
-   {
-    "title": "CVE-2026-13308 — Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13308",
-    "score": 8.1,
-    "date": "2026-07-29T21:31:01Z"
-   },
-   {
-    "title": "CVE-2026-6102 — MSI Center NTIOLib_X64 Origin Validation Error Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escala",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6102",
-    "score": 7.8,
-    "date": "2026-07-29T21:31:01Z"
-   },
-   {
-    "title": "CVE-2026-5056 — GStreamer qtdemux Stack-based Buffer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arb",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5056",
-    "score": 7.8,
-    "date": "2026-07-29T21:31:00Z"
-   },
-   {
-    "title": "CVE-2026-13268 — G DATA Total Security Backup Service Link Following Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to e",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13268",
-    "score": 7.8,
-    "date": "2026-07-29T21:31:00Z"
-   },
-   {
-    "title": "CVE-2026-15975 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 11.8 before 19.0.5, 19.1 before 19.1.3, and 19.2 before 19.2.1 th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15975",
-    "score": 7.5,
-    "date": "2026-07-29T21:31:00Z"
-   },
-   {
-    "title": "CVE-2026-5491 — DriveLock Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive informa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5491",
-    "score": 7.5,
-    "date": "2026-07-29T21:31:00Z"
+    "title": "CVE-2024-10234 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.23 Security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:10925",
+    "score": 8.8,
+    "date": "2026-07-30T01:47:14+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 5044,
+    "stars": 5157,
     "lang": "TypeScript"
    },
    {
@@ -475,13 +475,13 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 668,
+    "stars": 667,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 451,
+    "stars": 453,
     "lang": "JavaScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 11,
   "kev": 1656,
   "adv": 12,
   "feed": 48
