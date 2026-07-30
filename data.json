@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-07-30T11:01:03.095Z",
+ "generatedAt": "2026-07-30T11:57:54.241Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "score": 9.8,
+    "date": "2026-07-30T10:01:18+00:00"
+   },
+   {
+    "title": "CVE-2026-44090 — Phoenix Contact: Multiple vulnerabilities in the firmware of CHARX SEC3xxx charging controllers (+19 CVE)",
+    "url": "https://certvde.com/en/advisories/VDE-2026-008",
+    "score": 9.8,
+    "date": "2026-07-30T10:00:00.000Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
+    "score": 9.6,
+    "date": "2026-07-30T10:01:20+00:00"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
+    "score": 9.6,
+    "date": "2026-07-30T10:01:19+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:27+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:27+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:26+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:25+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:25+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:24+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:23+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-07-30T10:01:23+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 5599,
+    "stars": 5686,
     "lang": "TypeScript"
    },
    {
@@ -390,19 +475,19 @@
    {
     "title": "okasi/bot-signal — TypeScript bot detection: catch WebDriver, headless Chrome, Playwright/Puppeteer, robotic mouse/typing, datace",
     "url": "https://github.com/okasi/bot-signal",
-    "stars": 667,
+    "stars": 666,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 455,
+    "stars": 456,
     "lang": "JavaScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 397,
+    "stars": 395,
     "lang": "Rust"
    },
    {
@@ -414,7 +499,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 295,
+    "stars": 296,
     "lang": "TypeScript"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1656,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
