@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T14:00:07.443Z",
+ "generatedAt": "2026-07-30T15:01:48.836Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,98 @@
   ],
   "adv": [
    {
-    "title": "mathlive's Lack of Escaping of HTML allows for XSS",
-    "url": "https://github.com/advisories/GHSA-fm7p-gw32-828p",
-    "score": 6.3,
-    "ghsa": "GHSA-fm7p-gw32-828p",
-    "date": "2026-07-29T17:21:26Z"
+    "title": "Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
+    "url": "https://github.com/advisories/GHSA-c9hr-64h3-gxpc",
+    "score": 8.5,
+    "ghsa": "GHSA-c9hr-64h3-gxpc",
+    "date": "2026-07-30T14:48:16Z"
    },
    {
-    "title": "OpenTelemetry Java Instrumentation: JDBC Auto-Instrumentation Logging Clear-Text Passwords",
-    "url": "https://github.com/advisories/GHSA-rwqx-fvqh-6wm4",
-    "score": 6.5,
-    "ghsa": "GHSA-rwqx-fvqh-6wm4",
-    "date": "2026-07-29T17:18:34Z"
+    "title": "Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
+    "url": "https://github.com/advisories/GHSA-pgwh-4jj4-qm8v",
+    "score": 8.5,
+    "ghsa": "GHSA-pgwh-4jj4-qm8v",
+    "date": "2026-07-30T14:48:05Z"
    },
    {
-    "title": "OpenTelemetry Javaagent RMI context propagation allows resource exhaustion",
-    "url": "https://github.com/advisories/GHSA-fq3f-m5qm-99f5",
-    "score": 5.3,
-    "ghsa": "GHSA-fq3f-m5qm-99f5",
-    "date": "2026-07-29T17:16:32Z"
+    "title": "Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
+    "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
+    "score": 9.3,
+    "ghsa": "GHSA-jx74-cqjv-2c67",
+    "date": "2026-07-30T14:47:41Z"
    },
    {
-    "title": "ActiveRecord::Tenanted::Storage::DiskService#path_for has a possible path traversal",
-    "url": "https://github.com/advisories/GHSA-pmwx-rm49-xv39",
-    "score": 2,
-    "ghsa": "GHSA-pmwx-rm49-xv39",
-    "date": "2026-07-29T17:06:00Z"
+    "title": "Flyto2 Core: LLM/API keys leak to an attacker-controlled base_url",
+    "url": "https://github.com/advisories/GHSA-qq9q-xgm3-xv9g",
+    "score": 8.6,
+    "ghsa": "GHSA-qq9q-xgm3-xv9g",
+    "date": "2026-07-30T14:47:16Z"
    },
    {
-    "title": "netfoil: Incorrect block responses could lead to localhost traffic",
-    "url": "https://github.com/advisories/GHSA-xvg2-cgv6-6h7v",
-    "score": 7.5,
-    "ghsa": "GHSA-xvg2-cgv6-6h7v",
-    "date": "2026-07-29T17:03:48Z"
+    "title": "Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
+    "url": "https://github.com/advisories/GHSA-hr7p-wg7r-hg9m",
+    "score": 8.6,
+    "ghsa": "GHSA-hr7p-wg7r-hg9m",
+    "date": "2026-07-30T14:47:01Z"
    },
    {
-    "title": "Logging operator has Fluentd configuration injection that allows remote code execution",
-    "url": "https://github.com/advisories/GHSA-mjqf-28ph-426h",
-    "score": 9.9,
-    "ghsa": "GHSA-mjqf-28ph-426h",
-    "date": "2026-07-29T17:01:29Z"
+    "title": "Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
+    "url": "https://github.com/advisories/GHSA-2956-977x-2w3r",
+    "score": 10,
+    "ghsa": "GHSA-2956-977x-2w3r",
+    "date": "2026-07-30T14:46:43Z"
    },
    {
-    "title": "ZITADEL Users Can Self-Verify Email/Phone via API",
-    "url": "https://github.com/advisories/GHSA-jq8w-8q2f-ffm9",
-    "score": 7.5,
-    "ghsa": "GHSA-jq8w-8q2f-ffm9",
-    "date": "2026-07-29T16:54:49Z"
-   },
-   {
-    "title": "proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
-    "url": "https://github.com/advisories/GHSA-7h3g-4w2f-fj2f",
-    "score": 8.2,
-    "ghsa": "GHSA-7h3g-4w2f-fj2f",
-    "date": "2026-07-29T16:42:11Z"
-   },
-   {
-    "title": "`proot-distro install` has a Symlink Escape (Arbitrary Host File Write) via Malicious Tar Archive",
-    "url": "https://github.com/advisories/GHSA-9xq3-3fqg-4vg7",
-    "score": 8.2,
-    "ghsa": "GHSA-9xq3-3fqg-4vg7",
-    "date": "2026-07-29T16:32:34Z"
-   },
-   {
-    "title": "Easy!Appointments disable_booking_message rendered as raw HTML on public booking page — Stored XSS",
-    "url": "https://github.com/advisories/GHSA-996f-334j-67g7",
-    "score": 2.6,
-    "ghsa": "GHSA-996f-334j-67g7",
-    "date": "2026-07-29T16:30:09Z"
-   },
-   {
-    "title": "Easy!Appointments: Authorization bypass in Google OAuth provider binding lets any backend user rebind a peer provider's Google sync",
-    "url": "https://github.com/advisories/GHSA-8hm4-r66f-29wr",
-    "score": 3.1,
-    "ghsa": "GHSA-8hm4-r66f-29wr",
-    "date": "2026-07-29T16:29:26Z"
-   },
-   {
-    "title": "Easy!Appointments has unauthenticated customer PII disclosure on booking reschedule page",
-    "url": "https://github.com/advisories/GHSA-xgr6-pqjv-3pf8",
+    "title": "linuxfabrik-lib: fetch() forwards credential headers across a cross-origin redirect",
+    "url": "https://github.com/advisories/GHSA-4jc5-g844-4x33",
     "score": null,
-    "ghsa": "GHSA-xgr6-pqjv-3pf8",
-    "date": "2026-07-29T16:28:23Z"
+    "ghsa": "GHSA-4jc5-g844-4x33",
+    "date": "2026-07-30T14:46:13Z"
+   },
+   {
+    "title": "MCP Ruby SDK: Ruby SSE Session Poisoning",
+    "url": "https://github.com/advisories/GHSA-5p9g-j988-pcwv",
+    "score": 7.5,
+    "ghsa": "GHSA-5p9g-j988-pcwv",
+    "date": "2026-07-30T14:44:28Z"
+   },
+   {
+    "title": "MCP Ruby SDK: Unbounded JSON-RPC request body causes uncontrolled memory allocation in StreamableHTTPTransport",
+    "url": "https://github.com/advisories/GHSA-h669-8m4g-r2hc",
+    "score": 7.5,
+    "ghsa": "GHSA-h669-8m4g-r2hc",
+    "date": "2026-07-30T14:44:06Z"
+   },
+   {
+    "title": "MCP Ruby SDK: Unbounded session retention in StreamableHTTPTransport allows memory exhaustion via initialize flood",
+    "url": "https://github.com/advisories/GHSA-52jp-gj8w-j6xh",
+    "score": 5.3,
+    "ghsa": "GHSA-52jp-gj8w-j6xh",
+    "date": "2026-07-30T14:43:29Z"
+   },
+   {
+    "title": "MCP Ruby SDK: Unbounded line buffer in stdio transports leads to memory exhaustion (DoS)",
+    "url": "https://github.com/advisories/GHSA-7683-3w9x-ch42",
+    "score": 6.2,
+    "ghsa": "GHSA-7683-3w9x-ch42",
+    "date": "2026-07-30T14:41:58Z"
+   },
+   {
+    "title": "MCP Ruby SDK: Streamable HTTP transport lacks DNS-rebinding (Host/Origin) protection",
+    "url": "https://github.com/advisories/GHSA-rjr6-rcgv-9m7m",
+    "score": null,
+    "ghsa": "GHSA-rjr6-rcgv-9m7m",
+    "date": "2026-07-30T14:41:39Z"
    }
   ],
   "thn": [
+   {
+    "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+    "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+    "date": "Thu, 30 Jul 2026 19:04:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
     "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
@@ -292,16 +299,16 @@
     "date": "Wed, 29 Jul 2026 21:01:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-    "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-    "date": "Wed, 29 Jul 2026 19:18:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "After the Break-In: What Attackers Do Once They're Already Inside",
+    "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+    "date": "Thu, 30 Jul 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
     "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
@@ -378,20 +385,13 @@
     "date": "Tue, 28 Jul 2026 16:37:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA shares advice on isolating vital systems during cyberattacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
-    "date": "Tue, 28 Jul 2026 14:41:04 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 5934,
+    "stars": 6066,
     "lang": "TypeScript"
    },
    {
@@ -563,6 +563,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "KindaRails2Shell: arbitrary file read to RCE in Rails Active Storage via libvips (CVE-2026-66066)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vauljz/kindarails2shell_arbitrary_file_read_to_rce_in/",
+    "date": "2026-07-30T14:04:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Your House Has an FFmpeg Problem - elttam",
     "url": "https://www.reddit.com/r/netsec/comments/1v9uffn/your_house_has_an_ffmpeg_problem_elttam/",
     "date": "2026-07-29T12:12:55+00:00",
@@ -622,13 +629,6 @@
     "title": "Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)",
     "url": "https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/",
     "date": "2026-07-28T14:04:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How AI is powering business email compromise at scale",
-    "url": "https://www.reddit.com/r/netsec/comments/1v8ym0e/how_ai_is_powering_business_email_compromise_at/",
-    "date": "2026-07-28T13:31:23+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
