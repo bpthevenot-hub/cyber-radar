@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T20:43:52.631Z",
+ "generatedAt": "2026-07-30T21:44:00.153Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "AWS Amplify Studio UI Component Properties Has an Input Validation Issue",
+    "url": "https://github.com/advisories/GHSA-hf3j-86p7-mfw8",
+    "score": 9.5,
+    "ghsa": "GHSA-hf3j-86p7-mfw8",
+    "date": "2026-07-30T20:57:24Z"
+   },
+   {
     "title": "Active Storage has possible arbitrary file read and remote code execution in Active Storage variant processing",
     "url": "https://github.com/advisories/GHSA-xr9x-r78c-5hrm",
     "score": 9.5,
@@ -206,13 +213,6 @@
     "score": 7.5,
     "ghsa": "GHSA-5p9g-j988-pcwv",
     "date": "2026-07-30T14:44:28Z"
-   },
-   {
-    "title": "MCP Ruby SDK: Unbounded JSON-RPC request body causes uncontrolled memory allocation in StreamableHTTPTransport",
-    "url": "https://github.com/advisories/GHSA-h669-8m4g-r2hc",
-    "score": 7.5,
-    "ghsa": "GHSA-h669-8m4g-r2hc",
-    "date": "2026-07-30T14:44:06Z"
    }
   ],
   "thn": [
@@ -391,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 6586,
+    "stars": 6645,
     "lang": "TypeScript"
    },
    {
