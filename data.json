@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T17:51:05.515Z",
+ "generatedAt": "2026-07-30T18:50:03.105Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "Active Storage has possible arbitrary file read and remote code execution in Active Storage variant processing",
+    "url": "https://github.com/advisories/GHSA-xr9x-r78c-5hrm",
+    "score": 9.5,
+    "ghsa": "GHSA-xr9x-r78c-5hrm",
+    "date": "2026-07-30T18:23:33Z"
+   },
+   {
     "title": "MessagePack::Buffer#clear Use-After-Free that Enables Cross-Buffer Disclosure",
     "url": "https://github.com/advisories/GHSA-4mrv-5p47-p938",
     "score": 2,
@@ -206,13 +213,6 @@
     "score": 7.5,
     "ghsa": "GHSA-h669-8m4g-r2hc",
     "date": "2026-07-30T14:44:06Z"
-   },
-   {
-    "title": "MCP Ruby SDK: Unbounded session retention in StreamableHTTPTransport allows memory exhaustion via initialize flood",
-    "url": "https://github.com/advisories/GHSA-52jp-gj8w-j6xh",
-    "score": 5.3,
-    "ghsa": "GHSA-52jp-gj8w-j6xh",
-    "date": "2026-07-30T14:43:29Z"
    }
   ],
   "thn": [
@@ -301,12 +301,97 @@
     "badgeClass": "b-high"
    }
   ],
-  "bleep": [],
+  "bleep": [
+   {
+    "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+    "date": "Thu, 30 Jul 2026 14:13:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
+    "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
+    "date": "Thu, 30 Jul 2026 14:00:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+    "url": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+    "date": "Thu, 30 Jul 2026 13:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+    "date": "Thu, 30 Jul 2026 12:46:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+    "date": "Thu, 30 Jul 2026 11:56:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Analog Devices discloses data breach, says operations unaffected",
+    "url": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
+    "date": "Thu, 30 Jul 2026 11:12:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "After the Break-In: What Attackers Do Once They're Already Inside",
+    "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+    "date": "Thu, 30 Jul 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+    "date": "Wed, 29 Jul 2026 19:44:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Anthropic confirms Claude is down worldwide",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+    "date": "Wed, 29 Jul 2026 17:39:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+    "date": "Wed, 29 Jul 2026 17:35:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+    "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+    "date": "Wed, 29 Jul 2026 13:54:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+    "date": "Wed, 29 Jul 2026 12:04:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   }
+  ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 6365,
+    "stars": 6442,
     "lang": "TypeScript"
    },
    {
@@ -366,7 +451,7 @@
    {
     "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
     "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
-    "stars": 89,
+    "stars": 90,
     "lang": "—"
    },
    {
@@ -554,7 +639,7 @@
   "kev": true,
   "adv": true,
   "thn": true,
-  "bleep": false,
+  "bleep": true,
   "tools": true,
   "hn": true,
   "reddit": true
@@ -563,7 +648,7 @@
   "crit": 2,
   "kev": 1656,
   "adv": 12,
-  "feed": 36
+  "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
