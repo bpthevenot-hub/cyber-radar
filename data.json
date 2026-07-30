@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T15:57:24.970Z",
+ "generatedAt": "2026-07-30T16:50:53.079Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-41840 — Spring Framework Denial of Service via Multipart Requests in WebFlux",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41840",
+    "score": 5.9,
+    "date": "2026-06-09T06:31:57Z"
+   },
+   {
+    "title": "CVE-2026-41839 — Spring Framework Escalation via Session Fixation in WebFlux",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41839",
+    "score": 4.2,
+    "date": "2026-06-09T06:31:57Z"
    }
   ],
   "kev": [
@@ -131,6 +143,20 @@
   ],
   "adv": [
    {
+    "title": "MessagePack::Buffer#clear Use-After-Free that Enables Cross-Buffer Disclosure",
+    "url": "https://github.com/advisories/GHSA-4mrv-5p47-p938",
+    "score": 2,
+    "ghsa": "GHSA-4mrv-5p47-p938",
+    "date": "2026-07-30T16:33:12Z"
+   },
+   {
+    "title": "dssrf has an SSRF bypass with remove_at_symbol_in_string",
+    "url": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2",
+    "score": 7.5,
+    "ghsa": "GHSA-cg4g-m8jx-vjv2",
+    "date": "2026-07-30T16:26:52Z"
+   },
+   {
     "title": "Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
     "url": "https://github.com/advisories/GHSA-c9hr-64h3-gxpc",
     "score": 8.5,
@@ -199,23 +225,16 @@
     "score": 5.3,
     "ghsa": "GHSA-52jp-gj8w-j6xh",
     "date": "2026-07-30T14:43:29Z"
-   },
-   {
-    "title": "MCP Ruby SDK: Unbounded line buffer in stdio transports leads to memory exhaustion (DoS)",
-    "url": "https://github.com/advisories/GHSA-7683-3w9x-ch42",
-    "score": 6.2,
-    "ghsa": "GHSA-7683-3w9x-ch42",
-    "date": "2026-07-30T14:41:58Z"
-   },
-   {
-    "title": "MCP Ruby SDK: Streamable HTTP transport lacks DNS-rebinding (Host/Origin) protection",
-    "url": "https://github.com/advisories/GHSA-rjr6-rcgv-9m7m",
-    "score": null,
-    "ghsa": "GHSA-rjr6-rcgv-9m7m",
-    "date": "2026-07-30T14:41:39Z"
    }
   ],
   "thn": [
+   {
+    "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+    "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+    "date": "Thu, 30 Jul 2026 20:55:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
     "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
@@ -292,16 +311,16 @@
     "date": "Wed, 29 Jul 2026 21:09:30 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-    "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-    "date": "Wed, 29 Jul 2026 21:01:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+    "date": "Thu, 30 Jul 2026 12:46:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
@@ -378,20 +397,13 @@
     "date": "Wed, 29 Jul 2026 09:56:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "These near-mint ASUS Chromebook refurbs are only $145",
-    "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-    "date": "Wed, 29 Jul 2026 07:12:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 6174,
+    "stars": 6274,
     "lang": "TypeScript"
    },
    {
@@ -409,7 +421,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 457,
+    "stars": 458,
     "lang": "JavaScript"
    },
    {
