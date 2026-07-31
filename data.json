@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-07-31T17:52:06.049Z",
+ "generatedAt": "2026-07-31T18:48:16.014Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2022-1471 — Red Hat Security Advisory: Red Hat build of Quarkus 2.7.7 release and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1006",
+    "score": 9.8,
+    "date": "2026-07-31T17:05:25+00:00"
+   },
+   {
+    "title": "CVE-2022-3171 — Red Hat Security Advisory: Red Hat build of Quarkus 2.13.5 release and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:9023",
+    "score": 9.8,
+    "date": "2026-07-31T17:05:25+00:00"
+   },
+   {
+    "title": "CVE-2019-8331 — Red Hat Security Advisory: Red Hat Fuse 7.11.1 release and security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:8652",
+    "score": 9.8,
+    "date": "2026-07-31T17:05:23+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-52856 — Wings: Maliciously crafted packet during SFTP connection handshake causes denial of service",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52856",
-    "score": 7.5,
-    "date": "2026-07-31T16:20:25Z"
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.2 security update (+27 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:44481",
+    "score": 8.8,
+    "date": "2026-07-31T17:19:32+00:00"
+   },
+   {
+    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.9.10 security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48872",
+    "score": 8.8,
+    "date": "2026-07-31T17:00:18+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47149",
+    "score": 8.8,
+    "date": "2026-07-31T17:00:18+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:44622",
+    "score": 8.8,
+    "date": "2026-07-31T17:00:18+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
+    "score": 8.8,
+    "date": "2026-07-31T17:00:18+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.4.7 security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41030",
+    "score": 8.8,
+    "date": "2026-07-31T16:59:55+00:00"
+   },
+   {
+    "title": "CVE-2025-47950 — Red Hat Security Advisory: Submariner v0.20 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36873",
+    "score": 8.8,
+    "date": "2026-07-31T16:59:51+00:00"
+   },
+   {
+    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.10.6 security and bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48913",
+    "score": 8.2,
+    "date": "2026-07-31T17:00:22+00:00"
+   },
+   {
+    "title": "CVE-2026-44740 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:32974",
+    "score": 8.2,
+    "date": "2026-07-31T16:59:53+00:00"
    }
   ],
   "kev": [
@@ -137,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "Thumbor treats ALLOWED_SOURCES string patterns as unescaped regex, allowing hostname bypass via wildcard dot",
+    "url": "https://github.com/advisories/GHSA-6x26-6r6f-m537",
+    "score": 8.2,
+    "ghsa": "GHSA-6x26-6r6f-m537",
+    "date": "2026-07-31T18:36:03Z"
+   },
+   {
     "title": "@phun-ky/defaults-deep Has a Prototype Pollution issue via Unsafe Recursive Property Merging",
     "url": "https://github.com/advisories/GHSA-mj3g-7xcc-x4vh",
     "score": 7.3,
@@ -212,16 +285,16 @@
     "score": 7.5,
     "ghsa": "GHSA-93wv-jw9v-4972",
     "date": "2026-07-31T16:51:50Z"
-   },
-   {
-    "title": "Natural Language Toolkit (NLTK): DNS-rebinding SSRF filter bypass in nltk.pathsec.urlopen (nltk.download / nltk.data.load) defeats ENFORCE mode",
-    "url": "https://github.com/advisories/GHSA-qvv7-cg9c-w4x3",
-    "score": 8.6,
-    "ghsa": "GHSA-qvv7-cg9c-w4x3",
-    "date": "2026-07-31T16:51:29Z"
    }
   ],
   "thn": [
+   {
+    "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+    "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+    "date": "Fri, 31 Jul 2026 22:09:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
     "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
@@ -296,13 +369,6 @@
     "title": "The Network Has Become the Control Plane for AI Security",
     "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
     "date": "Thu, 30 Jul 2026 17:02:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
-    "url": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
-    "date": "Thu, 30 Jul 2026 16:03:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7750,
+    "stars": 7768,
     "lang": "TypeScript"
    },
    {
@@ -415,7 +481,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 463,
+    "stars": 464,
     "lang": "JavaScript"
    },
    {
@@ -463,7 +529,7 @@
    {
     "title": "wellwelwel/lagune — 🌊 Lagune is your security copilot as you build, your Blue Team when you audit, whether you're a developer or ",
     "url": "https://github.com/wellwelwel/lagune",
-    "stars": 86,
+    "stars": 87,
     "lang": "TypeScript"
    }
   ],
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 5,
   "kev": 1656,
   "adv": 12,
   "feed": 48
