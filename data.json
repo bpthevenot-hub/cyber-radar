@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-07-31T18:48:16.014Z",
+ "generatedAt": "2026-07-31T19:52:10.576Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2022-1471 — Red Hat Security Advisory: Red Hat build of Quarkus 2.7.7 release and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:1006",
-    "score": 9.8,
-    "date": "2026-07-31T17:05:25+00:00"
-   },
-   {
-    "title": "CVE-2022-3171 — Red Hat Security Advisory: Red Hat build of Quarkus 2.13.5 release and security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:9023",
-    "score": 9.8,
-    "date": "2026-07-31T17:05:25+00:00"
-   },
-   {
-    "title": "CVE-2019-8331 — Red Hat Security Advisory: Red Hat Fuse 7.11.1 release and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8652",
-    "score": 9.8,
-    "date": "2026-07-31T17:05:23+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.2 security update (+27 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44481",
+    "title": "CVE-2026-6734 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48151",
     "score": 8.8,
-    "date": "2026-07-31T17:19:32+00:00"
+    "date": "2026-07-31T18:23:37+00:00"
    },
    {
-    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.9.10 security and bug fix update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48872",
+    "title": "CVE-2026-6734 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.29.0 Release. (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36820",
     "score": 8.8,
-    "date": "2026-07-31T17:00:18+00:00"
+    "date": "2026-07-31T18:23:32+00:00"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47149",
-    "score": 8.8,
-    "date": "2026-07-31T17:00:18+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44622",
-    "score": 8.8,
-    "date": "2026-07-31T17:00:18+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
-    "score": 8.8,
-    "date": "2026-07-31T17:00:18+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.4.7 security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41030",
-    "score": 8.8,
-    "date": "2026-07-31T16:59:55+00:00"
-   },
-   {
-    "title": "CVE-2025-47950 — Red Hat Security Advisory: Submariner v0.20 security fixes and container updates (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36873",
-    "score": 8.8,
-    "date": "2026-07-31T16:59:51+00:00"
-   },
-   {
-    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.10.6 security and bug fix update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48913",
-    "score": 8.2,
-    "date": "2026-07-31T17:00:22+00:00"
-   },
-   {
-    "title": "CVE-2026-44740 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:32974",
-    "score": 8.2,
-    "date": "2026-07-31T16:59:53+00:00"
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.2 release. (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36754",
+    "score": 8.7,
+    "date": "2026-07-31T18:23:35+00:00"
    }
   ],
   "kev": [
@@ -203,91 +149,98 @@
   ],
   "adv": [
    {
-    "title": "Thumbor treats ALLOWED_SOURCES string patterns as unescaped regex, allowing hostname bypass via wildcard dot",
-    "url": "https://github.com/advisories/GHSA-6x26-6r6f-m537",
-    "score": 8.2,
-    "ghsa": "GHSA-6x26-6r6f-m537",
-    "date": "2026-07-31T18:36:03Z"
+    "title": "zaino-state has a Non-Finalized State Reorg — No Cycle Detection or Depth Limit",
+    "url": "https://github.com/advisories/GHSA-3whf-vgf2-9w6g",
+    "score": null,
+    "ghsa": "GHSA-3whf-vgf2-9w6g",
+    "date": "2026-07-31T19:49:35Z"
    },
    {
-    "title": "@phun-ky/defaults-deep Has a Prototype Pollution issue via Unsafe Recursive Property Merging",
-    "url": "https://github.com/advisories/GHSA-mj3g-7xcc-x4vh",
-    "score": 7.3,
-    "ghsa": "GHSA-mj3g-7xcc-x4vh",
-    "date": "2026-07-31T17:49:08Z"
+    "title": "NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
+    "url": "https://github.com/advisories/GHSA-p849-8hwh-84j9",
+    "score": 10,
+    "ghsa": "GHSA-p849-8hwh-84j9",
+    "date": "2026-07-31T19:44:59Z"
    },
    {
-    "title": "vault-addr annotation SSRF -- webhook makes outbound HTTP call to attacker URL during admission; vault-serviceaccount enables cluster-wide SA token th",
-    "url": "https://github.com/advisories/GHSA-r2v3-8gwf-7ghm",
-    "score": 9.6,
-    "ghsa": "GHSA-r2v3-8gwf-7ghm",
-    "date": "2026-07-31T17:45:02Z"
-   },
-   {
-    "title": "hashi-vault-js has a path traversal and query parameter injection",
-    "url": "https://github.com/advisories/GHSA-g956-2f74-rmv7",
+    "title": "Redaxo has a Mediapool isAllowedExtension bypass via multi-segment filename that leads to authenticated RCE on Apache mod_php multi-extension handlers",
+    "url": "https://github.com/advisories/GHSA-98pp-vccm-qm25",
     "score": 7.5,
-    "ghsa": "GHSA-g956-2f74-rmv7",
-    "date": "2026-07-31T17:03:27Z"
+    "ghsa": "GHSA-98pp-vccm-qm25",
+    "date": "2026-07-31T19:43:51Z"
    },
    {
-    "title": "dssrf: any users using 1.1.1.1 DNS is impacted by SSRF",
-    "url": "https://github.com/advisories/GHSA-5846-7qm3-r52j",
-    "score": 7.5,
-    "ghsa": "GHSA-5846-7qm3-r52j",
-    "date": "2026-07-31T16:58:42Z"
-   },
-   {
-    "title": "Capsule has an incomplete fix of CVE-2026-22872: TenantResource RawItems and Generators still allow cluster-scoped resource creation (cross-tenant pri",
-    "url": "https://github.com/advisories/GHSA-jr6p-8pjj-mfx6",
-    "score": 6.6,
-    "ghsa": "GHSA-jr6p-8pjj-mfx6",
-    "date": "2026-07-31T16:53:42Z"
-   },
-   {
-    "title": "Capsule: CapsuleConfiguration NodeMetadata regex fields lack webhook validation, allowing MustCompile panic on all Node admission requests",
-    "url": "https://github.com/advisories/GHSA-68cj-mvg9-rgm2",
-    "score": 6.8,
-    "ghsa": "GHSA-68cj-mvg9-rgm2",
-    "date": "2026-07-31T16:53:25Z"
-   },
-   {
-    "title": "re2: Out-of-bounds heap read in `exec`/`test`/`match` via attacker-influenced `lastIndex` on a non-ASCII subject → uncatchable process crash (DoS)",
-    "url": "https://github.com/advisories/GHSA-ff84-5f28-78qj",
-    "score": 5.7,
-    "ghsa": "GHSA-ff84-5f28-78qj",
-    "date": "2026-07-31T16:53:16Z"
-   },
-   {
-    "title": "re2: Global `String.prototype.match` with an empty-matchable pattern never advances → infinite loop with unbounded native memory growth (DoS)",
-    "url": "https://github.com/advisories/GHSA-6hxr-mr5r-9836",
-    "score": 6.2,
-    "ghsa": "GHSA-6hxr-mr5r-9836",
-    "date": "2026-07-31T16:53:08Z"
-   },
-   {
-    "title": "Sylius Mollie Plugin has unauthenticated IDOR that leaks order token and customer PII",
-    "url": "https://github.com/advisories/GHSA-x83g-979r-f5fh",
+    "title": "ImageMagick: Heap Buffer Over-Read in XCF decoder due to integer conversion overflow",
+    "url": "https://github.com/advisories/GHSA-pjxj-pchx-4c3m",
     "score": 6.5,
-    "ghsa": "GHSA-x83g-979r-f5fh",
-    "date": "2026-07-31T16:52:59Z"
+    "ghsa": "GHSA-pjxj-pchx-4c3m",
+    "date": "2026-07-31T19:40:08Z"
    },
    {
-    "title": "Sylius Mollie Plugin vulnerable to payment status forgery via the payment webhook",
-    "url": "https://github.com/advisories/GHSA-rc52-c4hv-w89p",
-    "score": 7.5,
-    "ghsa": "GHSA-rc52-c4hv-w89p",
-    "date": "2026-07-31T16:52:39Z"
+    "title": "Savon::Model evaluates WSDL operation names as Ruby source",
+    "url": "https://github.com/advisories/GHSA-mx5j-mp4f-g8jg",
+    "score": 8.1,
+    "ghsa": "GHSA-mx5j-mp4f-g8jg",
+    "date": "2026-07-31T19:38:25Z"
    },
    {
-    "title": "Netty: HTTP/2 decompression leaks ByteBuf reference count when the decompressor channel is already closed (Direct memory leak / OOM DoS)",
-    "url": "https://github.com/advisories/GHSA-93wv-jw9v-4972",
+    "title": "Jodit has cross-site scripting (XSS) via <script> nested in SVG that bypasses clean-html sanitization",
+    "url": "https://github.com/advisories/GHSA-45qg-252v-3f7p",
+    "score": null,
+    "ghsa": "GHSA-45qg-252v-3f7p",
+    "date": "2026-07-31T19:15:57Z"
+   },
+   {
+    "title": "Jodit Editor: Mutation XSS in jodit clean-html via a MathML/style rawtext carrier",
+    "url": "https://github.com/advisories/GHSA-rxcw-mc6f-6hr3",
+    "score": 7.2,
+    "ghsa": "GHSA-rxcw-mc6f-6hr3",
+    "date": "2026-07-31T19:12:40Z"
+   },
+   {
+    "title": "Jodit has prototype pollution via Jodit.configure() / ConfigMerge",
+    "url": "https://github.com/advisories/GHSA-5957-5c94-3v7w",
+    "score": null,
+    "ghsa": "GHSA-5957-5c94-3v7w",
+    "date": "2026-07-31T19:10:16Z"
+   },
+   {
+    "title": "Jodit has incomplete javascript: scheme normalization in sanitizeHTMLElement href check that allows link XSS",
+    "url": "https://github.com/advisories/GHSA-j839-gqq4-gf9j",
+    "score": 5.4,
+    "ghsa": "GHSA-j839-gqq4-gf9j",
+    "date": "2026-07-31T19:08:20Z"
+   },
+   {
+    "title": "Thumbor has path traversal via post-validation URL decoding bypass in file_loader",
+    "url": "https://github.com/advisories/GHSA-cj54-hpcc-gj6h",
     "score": 7.5,
-    "ghsa": "GHSA-93wv-jw9v-4972",
-    "date": "2026-07-31T16:51:50Z"
+    "ghsa": "GHSA-cj54-hpcc-gj6h",
+    "date": "2026-07-31T19:03:54Z"
+   },
+   {
+    "title": "Thumbor proportion filter allows unbounded post-transform resize leading to remote DoS",
+    "url": "https://github.com/advisories/GHSA-phj3-59pf-cp83",
+    "score": 7.5,
+    "ghsa": "GHSA-phj3-59pf-cp83",
+    "date": "2026-07-31T19:00:44Z"
+   },
+   {
+    "title": "Thumbor has Regex Denial of Service (ReDoS) in `convolution` filter",
+    "url": "https://github.com/advisories/GHSA-5vjc-7cxw-4w6j",
+    "score": 7.5,
+    "ghsa": "GHSA-5vjc-7cxw-4w6j",
+    "date": "2026-07-31T18:58:28Z"
    }
   ],
   "thn": [
+   {
+    "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+    "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
+    "date": "Sat, 01 Aug 2026 00:22:04 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
     "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
@@ -364,16 +317,16 @@
     "date": "Thu, 30 Jul 2026 17:24:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "The Network Has Become the Control Plane for AI Security",
-    "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-    "date": "Thu, 30 Jul 2026 17:02:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
+    "date": "Fri, 31 Jul 2026 14:52:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
     "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
@@ -450,20 +403,13 @@
     "date": "Thu, 30 Jul 2026 11:56:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Analog Devices discloses data breach, says operations unaffected",
-    "url": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
-    "date": "Thu, 30 Jul 2026 11:12:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7768,
+    "stars": 7779,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +663,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1656,
   "adv": 12,
   "feed": 48
