@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T16:54:18.423Z",
+ "generatedAt": "2026-07-31T17:52:06.049Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-52856 — Wings: Maliciously crafted packet during SFTP connection handshake causes denial of service",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52856",
+    "score": 7.5,
+    "date": "2026-07-31T16:20:25Z"
    }
   ],
   "kev": [
@@ -131,6 +137,34 @@
   ],
   "adv": [
    {
+    "title": "@phun-ky/defaults-deep Has a Prototype Pollution issue via Unsafe Recursive Property Merging",
+    "url": "https://github.com/advisories/GHSA-mj3g-7xcc-x4vh",
+    "score": 7.3,
+    "ghsa": "GHSA-mj3g-7xcc-x4vh",
+    "date": "2026-07-31T17:49:08Z"
+   },
+   {
+    "title": "vault-addr annotation SSRF -- webhook makes outbound HTTP call to attacker URL during admission; vault-serviceaccount enables cluster-wide SA token th",
+    "url": "https://github.com/advisories/GHSA-r2v3-8gwf-7ghm",
+    "score": 9.6,
+    "ghsa": "GHSA-r2v3-8gwf-7ghm",
+    "date": "2026-07-31T17:45:02Z"
+   },
+   {
+    "title": "hashi-vault-js has a path traversal and query parameter injection",
+    "url": "https://github.com/advisories/GHSA-g956-2f74-rmv7",
+    "score": 7.5,
+    "ghsa": "GHSA-g956-2f74-rmv7",
+    "date": "2026-07-31T17:03:27Z"
+   },
+   {
+    "title": "dssrf: any users using 1.1.1.1 DNS is impacted by SSRF",
+    "url": "https://github.com/advisories/GHSA-5846-7qm3-r52j",
+    "score": 7.5,
+    "ghsa": "GHSA-5846-7qm3-r52j",
+    "date": "2026-07-31T16:58:42Z"
+   },
+   {
     "title": "Capsule has an incomplete fix of CVE-2026-22872: TenantResource RawItems and Generators still allow cluster-scoped resource creation (cross-tenant pri",
     "url": "https://github.com/advisories/GHSA-jr6p-8pjj-mfx6",
     "score": 6.6,
@@ -185,34 +219,6 @@
     "score": 8.6,
     "ghsa": "GHSA-qvv7-cg9c-w4x3",
     "date": "2026-07-31T16:51:29Z"
-   },
-   {
-    "title": "Natural Language Toolkit (NLTK): ReDoS in NLTK ReviewsCorpusReader FEATURES regex",
-    "url": "https://github.com/advisories/GHSA-fg7f-2386-8897",
-    "score": 7.5,
-    "ghsa": "GHSA-fg7f-2386-8897",
-    "date": "2026-07-31T16:51:09Z"
-   },
-   {
-    "title": "Natural Language Toolkit (NLTK): Path Traversal in NKJPCorpusReader leads to Arbitrary File Read and bypasses the nltk.pathsec sandbox (ENFORCE=True)",
-    "url": "https://github.com/advisories/GHSA-6hm5-jgcp-p838",
-    "score": 7.5,
-    "ghsa": "GHSA-6hm5-jgcp-p838",
-    "date": "2026-07-31T16:50:55Z"
-   },
-   {
-    "title": "Natural Language Toolkit (NLTK) has path traversal in FramenetCorpusReader.frame() that allows arbitrary XML file read, bypassing the nltk.pathsec san",
-    "url": "https://github.com/advisories/GHSA-xh95-f55m-82fw",
-    "score": 7.5,
-    "ghsa": "GHSA-xh95-f55m-82fw",
-    "date": "2026-07-31T16:50:41Z"
-   },
-   {
-    "title": "`nx graph` dev server permissive CORS policy",
-    "url": "https://github.com/advisories/GHSA-g2r8-wvmj-jf5w",
-    "score": 5.9,
-    "ghsa": "GHSA-g2r8-wvmj-jf5w",
-    "date": "2026-07-31T16:50:24Z"
    }
   ],
   "thn": [
@@ -303,6 +309,13 @@
   ],
   "bleep": [
    {
+    "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
+    "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
+    "date": "Fri, 31 Jul 2026 13:35:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
     "date": "Fri, 31 Jul 2026 12:49:49 -0400",
@@ -378,20 +391,13 @@
     "date": "Thu, 30 Jul 2026 11:12:25 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "After the Break-In: What Attackers Do Once They're Already Inside",
-    "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
-    "date": "Thu, 30 Jul 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7735,
+    "stars": 7750,
     "lang": "TypeScript"
    },
    {
