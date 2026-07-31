@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T16:00:19.479Z",
+ "generatedAt": "2026-07-31T16:54:18.423Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "@dynatrace-oss/dynatrace-mcp-server has a DQL injection via parameters not documented as DQL",
-    "url": "https://github.com/advisories/GHSA-pqh8-p93p-2rx7",
-    "score": 4.3,
-    "ghsa": "GHSA-pqh8-p93p-2rx7",
-    "date": "2026-07-31T15:56:12Z"
+    "title": "Capsule has an incomplete fix of CVE-2026-22872: TenantResource RawItems and Generators still allow cluster-scoped resource creation (cross-tenant pri",
+    "url": "https://github.com/advisories/GHSA-jr6p-8pjj-mfx6",
+    "score": 6.6,
+    "ghsa": "GHSA-jr6p-8pjj-mfx6",
+    "date": "2026-07-31T16:53:42Z"
    },
    {
-    "title": "AWS Amplify Studio UI Component Properties Has an Input Validation Issue",
-    "url": "https://github.com/advisories/GHSA-hf3j-86p7-mfw8",
-    "score": 9.5,
-    "ghsa": "GHSA-hf3j-86p7-mfw8",
-    "date": "2026-07-30T20:57:24Z"
+    "title": "Capsule: CapsuleConfiguration NodeMetadata regex fields lack webhook validation, allowing MustCompile panic on all Node admission requests",
+    "url": "https://github.com/advisories/GHSA-68cj-mvg9-rgm2",
+    "score": 6.8,
+    "ghsa": "GHSA-68cj-mvg9-rgm2",
+    "date": "2026-07-31T16:53:25Z"
    },
    {
-    "title": "Active Storage has possible arbitrary file read and remote code execution in Active Storage variant processing",
-    "url": "https://github.com/advisories/GHSA-xr9x-r78c-5hrm",
-    "score": 9.5,
-    "ghsa": "GHSA-xr9x-r78c-5hrm",
-    "date": "2026-07-30T18:23:33Z"
+    "title": "re2: Out-of-bounds heap read in `exec`/`test`/`match` via attacker-influenced `lastIndex` on a non-ASCII subject → uncatchable process crash (DoS)",
+    "url": "https://github.com/advisories/GHSA-ff84-5f28-78qj",
+    "score": 5.7,
+    "ghsa": "GHSA-ff84-5f28-78qj",
+    "date": "2026-07-31T16:53:16Z"
    },
    {
-    "title": "MessagePack::Buffer#clear Use-After-Free that Enables Cross-Buffer Disclosure",
-    "url": "https://github.com/advisories/GHSA-4mrv-5p47-p938",
-    "score": 2,
-    "ghsa": "GHSA-4mrv-5p47-p938",
-    "date": "2026-07-30T16:33:12Z"
+    "title": "re2: Global `String.prototype.match` with an empty-matchable pattern never advances → infinite loop with unbounded native memory growth (DoS)",
+    "url": "https://github.com/advisories/GHSA-6hxr-mr5r-9836",
+    "score": 6.2,
+    "ghsa": "GHSA-6hxr-mr5r-9836",
+    "date": "2026-07-31T16:53:08Z"
    },
    {
-    "title": "dssrf has an SSRF bypass with remove_at_symbol_in_string",
-    "url": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2",
+    "title": "Sylius Mollie Plugin has unauthenticated IDOR that leaks order token and customer PII",
+    "url": "https://github.com/advisories/GHSA-x83g-979r-f5fh",
+    "score": 6.5,
+    "ghsa": "GHSA-x83g-979r-f5fh",
+    "date": "2026-07-31T16:52:59Z"
+   },
+   {
+    "title": "Sylius Mollie Plugin vulnerable to payment status forgery via the payment webhook",
+    "url": "https://github.com/advisories/GHSA-rc52-c4hv-w89p",
     "score": 7.5,
-    "ghsa": "GHSA-cg4g-m8jx-vjv2",
-    "date": "2026-07-30T16:26:52Z"
+    "ghsa": "GHSA-rc52-c4hv-w89p",
+    "date": "2026-07-31T16:52:39Z"
    },
    {
-    "title": "Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
-    "url": "https://github.com/advisories/GHSA-c9hr-64h3-gxpc",
-    "score": 8.5,
-    "ghsa": "GHSA-c9hr-64h3-gxpc",
-    "date": "2026-07-30T14:48:16Z"
+    "title": "Netty: HTTP/2 decompression leaks ByteBuf reference count when the decompressor channel is already closed (Direct memory leak / OOM DoS)",
+    "url": "https://github.com/advisories/GHSA-93wv-jw9v-4972",
+    "score": 7.5,
+    "ghsa": "GHSA-93wv-jw9v-4972",
+    "date": "2026-07-31T16:51:50Z"
    },
    {
-    "title": "Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
-    "url": "https://github.com/advisories/GHSA-pgwh-4jj4-qm8v",
-    "score": 8.5,
-    "ghsa": "GHSA-pgwh-4jj4-qm8v",
-    "date": "2026-07-30T14:48:05Z"
-   },
-   {
-    "title": "Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
-    "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
-    "score": 9.3,
-    "ghsa": "GHSA-jx74-cqjv-2c67",
-    "date": "2026-07-30T14:47:41Z"
-   },
-   {
-    "title": "Flyto2 Core: LLM/API keys leak to an attacker-controlled base_url",
-    "url": "https://github.com/advisories/GHSA-qq9q-xgm3-xv9g",
+    "title": "Natural Language Toolkit (NLTK): DNS-rebinding SSRF filter bypass in nltk.pathsec.urlopen (nltk.download / nltk.data.load) defeats ENFORCE mode",
+    "url": "https://github.com/advisories/GHSA-qvv7-cg9c-w4x3",
     "score": 8.6,
-    "ghsa": "GHSA-qq9q-xgm3-xv9g",
-    "date": "2026-07-30T14:47:16Z"
+    "ghsa": "GHSA-qvv7-cg9c-w4x3",
+    "date": "2026-07-31T16:51:29Z"
    },
    {
-    "title": "Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
-    "url": "https://github.com/advisories/GHSA-hr7p-wg7r-hg9m",
-    "score": 8.6,
-    "ghsa": "GHSA-hr7p-wg7r-hg9m",
-    "date": "2026-07-30T14:47:01Z"
+    "title": "Natural Language Toolkit (NLTK): ReDoS in NLTK ReviewsCorpusReader FEATURES regex",
+    "url": "https://github.com/advisories/GHSA-fg7f-2386-8897",
+    "score": 7.5,
+    "ghsa": "GHSA-fg7f-2386-8897",
+    "date": "2026-07-31T16:51:09Z"
    },
    {
-    "title": "Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
-    "url": "https://github.com/advisories/GHSA-2956-977x-2w3r",
-    "score": 10,
-    "ghsa": "GHSA-2956-977x-2w3r",
-    "date": "2026-07-30T14:46:43Z"
+    "title": "Natural Language Toolkit (NLTK): Path Traversal in NKJPCorpusReader leads to Arbitrary File Read and bypasses the nltk.pathsec sandbox (ENFORCE=True)",
+    "url": "https://github.com/advisories/GHSA-6hm5-jgcp-p838",
+    "score": 7.5,
+    "ghsa": "GHSA-6hm5-jgcp-p838",
+    "date": "2026-07-31T16:50:55Z"
    },
    {
-    "title": "linuxfabrik-lib: fetch() forwards credential headers across a cross-origin redirect",
-    "url": "https://github.com/advisories/GHSA-4jc5-g844-4x33",
-    "score": null,
-    "ghsa": "GHSA-4jc5-g844-4x33",
-    "date": "2026-07-30T14:46:13Z"
+    "title": "Natural Language Toolkit (NLTK) has path traversal in FramenetCorpusReader.frame() that allows arbitrary XML file read, bypassing the nltk.pathsec san",
+    "url": "https://github.com/advisories/GHSA-xh95-f55m-82fw",
+    "score": 7.5,
+    "ghsa": "GHSA-xh95-f55m-82fw",
+    "date": "2026-07-31T16:50:41Z"
+   },
+   {
+    "title": "`nx graph` dev server permissive CORS policy",
+    "url": "https://github.com/advisories/GHSA-g2r8-wvmj-jf5w",
+    "score": 5.9,
+    "ghsa": "GHSA-g2r8-wvmj-jf5w",
+    "date": "2026-07-31T16:50:24Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
+    "date": "Fri, 31 Jul 2026 12:49:49 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "ESET tracks rise in malicious AI skills and adaptable malware",
     "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
     "date": "Fri, 31 Jul 2026 10:01:11 -0400",
@@ -378,20 +385,13 @@
     "date": "Thu, 30 Jul 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
-    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
-    "date": "Wed, 29 Jul 2026 19:44:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7723,
+    "stars": 7735,
     "lang": "TypeScript"
    },
    {
