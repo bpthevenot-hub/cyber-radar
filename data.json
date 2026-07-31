@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T20:48:12.314Z",
+ "generatedAt": "2026-07-31T21:41:53.953Z",
  "sources": {
   "cve": [
    {
@@ -15,16 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-50636 — LimeSurvey has a SQL Injection issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50636",
-    "score": 8.8,
-    "date": "2026-06-09T18:31:04Z"
+    "title": "CVE-2026-35397 — Jupyter Server: Path Traversal via incorrect startswith() root directory check allows access to sibling directories",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-35397",
+    "score": 7.1,
+    "date": "2026-05-05T16:49:10Z"
    },
    {
-    "title": "CVE-2026-50635 — LimeSurvey constructs account password-reset links from the client-supplied HTTP Host header without validating it.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50635",
-    "score": 8.8,
-    "date": "2026-06-09T18:31:04Z"
+    "title": "CVE-2026-5422 — Duplicate Advisory: Jupyter Server vulnerable to Path Traversal via incorrect root directory boundary check in _get_os_path()",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5422",
+    "score": 6.8,
+    "date": "2026-06-02T12:31:26Z"
+   },
+   {
+    "title": "CVE-2026-49834 — sigstore-go has a multi-log threshold bypass via single compromised log",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49834",
+    "score": 5.9,
+    "date": "2026-07-09T23:20:30Z"
    }
   ],
   "kev": [
@@ -315,6 +321,20 @@
   ],
   "bleep": [
    {
+    "title": "Arch Linux disables AUR package adoption to stop malware flood",
+    "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+    "date": "Fri, 31 Jul 2026 17:38:08 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+    "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+    "date": "Fri, 31 Jul 2026 17:09:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
     "date": "Fri, 31 Jul 2026 14:52:44 -0400",
@@ -383,27 +403,13 @@
     "date": "Thu, 30 Jul 2026 13:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
-    "date": "Thu, 30 Jul 2026 12:46:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
-    "date": "Thu, 30 Jul 2026 11:56:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7785,
+    "stars": 7792,
     "lang": "TypeScript"
    },
    {
@@ -498,7 +504,7 @@
    {
     "title": "OpenAI and Hugging Face address security incident during model evaluation",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1631,
+    "points": 1632,
     "comments": 1158,
     "date": "2026-07-21T20:09:52Z"
    },
@@ -582,6 +588,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Investigating three real-world incidents in Anthropic's evaluations",
+    "url": "https://www.reddit.com/r/netsec/comments/1vc3djn/investigating_three_realworld_incidents_in/",
+    "date": "2026-07-31T21:07:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware",
     "url": "https://www.reddit.com/r/netsec/comments/1vbs8hf/predictable_rng_fallback_and_32bit_reseed_in/",
     "date": "2026-07-31T14:17:09+00:00",
@@ -634,13 +647,6 @@
     "title": "Detection and Enforcement for Endpoint AI Agents",
     "url": "https://www.reddit.com/r/netsec/comments/1vadzuv/detection_and_enforcement_for_endpoint_ai_agents/",
     "date": "2026-07-30T00:22:35+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-    "url": "https://www.reddit.com/r/netsec/comments/1v9yd7p/anatomy_of_a_frontier_lab_agent_intrusion_a/",
-    "date": "2026-07-29T14:49:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
