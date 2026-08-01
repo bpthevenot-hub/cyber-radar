@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-01T00:58:21.554Z",
+ "generatedAt": "2026-08-01T02:01:17.910Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-59340 — jinjava has Sandbox Bypass via JavaType-Based Deserialization",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-59340",
-    "score": 9.8,
-    "date": "2025-09-17T19:56:21Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-10263 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49031",
+    "title": "RLSA-2026:43505 — Important: mariadb-connector-c security update",
+    "url": "https://github.com/advisories/RLSA-2026:43505",
+    "score": 9.1,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:47101 — Important: firefox security update",
+    "url": "https://github.com/advisories/RLSA-2026:47101",
+    "score": 8.8,
+    "date": "2026-07-30T12:06:30.380063Z"
+   },
+   {
+    "title": "RLSA-2026:47083 — Important: pipewire security update",
+    "url": "https://github.com/advisories/RLSA-2026:47083",
+    "score": 8.8,
+    "date": "2026-07-29T18:06:20.508719Z"
+   },
+   {
+    "title": "RLSA-2026:41897 — Important: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41897",
+    "score": 8.8,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:41895 — Important: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41895",
+    "score": 8.8,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:41893 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41893",
+    "score": 8.8,
+    "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "RLSA-2026:41937 — Important: sssd security update",
+    "url": "https://github.com/advisories/RLSA-2026:41937",
+    "score": 8.8,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:40833 — Important: pacemaker security update",
+    "url": "https://github.com/advisories/RLSA-2026:40833",
+    "score": 8.6,
+    "date": "2026-07-22T12:05:54.429340Z"
+   },
+   {
+    "title": "RLSA-2026:44391 — Important: libpq security update",
+    "url": "https://github.com/advisories/RLSA-2026:44391",
     "score": 8.4,
-    "date": "2026-07-31T22:14:47+00:00"
+    "date": "2026-07-27T12:07:26.942038Z"
    },
    {
-    "title": "CVE-2025-10263 — Red Hat Security Advisory: kernel security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49033",
-    "score": 8.4,
-    "date": "2026-07-31T22:14:44+00:00"
+    "title": "RLSA-2026:46395 — Important: go-fdo-server security update",
+    "url": "https://github.com/advisories/RLSA-2026:46395",
+    "score": 8.2,
+    "date": "2026-07-28T18:05:53.082410Z"
    },
    {
-    "title": "CVE-2026-31692 — Red Hat Security Advisory: kernel security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49214",
-    "score": 7.8,
-    "date": "2026-07-31T22:14:46+00:00"
+    "title": "RLSA-2026:44438 — Important: compat-openssl11 security update",
+    "url": "https://github.com/advisories/RLSA-2026:44438",
+    "score": 8.1,
+    "date": "2026-07-27T12:04:22.718076Z"
    },
    {
-    "title": "CVE-2026-52923 — Red Hat Security Advisory: kernel security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49212",
-    "score": 7.8,
-    "date": "2026-07-31T22:14:46+00:00"
-   },
-   {
-    "title": "CVE-2026-31692 — Red Hat Security Advisory: kernel-rt security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49213",
-    "score": 7.8,
-    "date": "2026-07-31T22:14:45+00:00"
-   },
-   {
-    "title": "CVE-2025-68211 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49211",
-    "score": 7.8,
-    "date": "2026-07-31T22:14:44+00:00"
-   },
-   {
-    "title": "CVE-2026-64530 — Red Hat Security Advisory: kernel security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49032",
-    "score": 7.8,
-    "date": "2026-07-31T22:14:44+00:00"
-   },
-   {
-    "title": "CVE-2026-54910 — FileBrowser Quantum's path traversal issue in subtitle handler allows any authenticated user to read arbitrary files",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54910",
-    "score": 7.7,
-    "date": "2026-07-31T22:35:05Z"
-   },
-   {
-    "title": "CVE-2026-54785 — gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54785",
-    "score": 6.2,
-    "date": "2026-07-31T22:31:20Z"
-   },
-   {
-    "title": "CVE-2023-39522 — Withdrawn Advisory: Username enumeration attack in goauthentik",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-39522",
-    "score": 5.3,
-    "date": "2023-08-29T23:34:51Z"
-   },
-   {
-    "title": "CVE-2016-1000305 — guard-livereload has a directory traversal vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2016-1000305",
-    "score": 5,
-    "date": "2026-07-31T22:33:01Z"
+    "title": "RLSA-2026:43400 — Important: dogtag-pki security update",
+    "url": "https://github.com/advisories/RLSA-2026:43400",
+    "score": 8.1,
+    "date": "2026-07-23T06:07:38.939859Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7814,
+    "stars": 7821,
     "lang": "TypeScript"
    },
    {
