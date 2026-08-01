@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-01T02:01:17.910Z",
+ "generatedAt": "2026-08-01T03:28:55.531Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-68771 — ComfyUI v0.23.0 contains an unsafe deserialization vulnerability in the LoadTrainingDataset node that allows unauthenticated remote attacker",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68771",
+    "score": 9.8,
+    "date": "2026-08-01T00:30:55Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-17768 — Insufficient validation of untrusted input in WebSockets in Google Chrome prior to 151.0.7922.72 allowed a remote attacker who had compromis",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17768",
+    "score": 9.6,
+    "date": "2026-07-30T03:31:12Z"
    },
    {
     "title": "RLSA-2026:43505 — Important: mariadb-connector-c security update",
@@ -27,39 +39,21 @@
     "date": "2026-07-30T12:06:30.380063Z"
    },
    {
+    "title": "CVE-2026-17784 — Use after free in Audio in Google Chrome on Mac prior to 151.0.7922.72 allowed a remote attacker who had compromised the renderer process to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17784",
+    "score": 8.8,
+    "date": "2026-07-30T03:31:13Z"
+   },
+   {
     "title": "RLSA-2026:47083 — Important: pipewire security update",
     "url": "https://github.com/advisories/RLSA-2026:47083",
     "score": 8.8,
     "date": "2026-07-29T18:06:20.508719Z"
    },
    {
-    "title": "RLSA-2026:41897 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41897",
-    "score": 8.8,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41895 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41895",
-    "score": 8.8,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
-    "title": "RLSA-2026:41893 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41893",
-    "score": 8.8,
-    "date": "2026-07-23T06:07:38.939859Z"
-   },
-   {
     "title": "RLSA-2026:41937 — Important: sssd security update",
     "url": "https://github.com/advisories/RLSA-2026:41937",
     "score": 8.8,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:40833 — Important: pacemaker security update",
-    "url": "https://github.com/advisories/RLSA-2026:40833",
-    "score": 8.6,
     "date": "2026-07-22T12:05:54.429340Z"
    },
    {
@@ -75,16 +69,22 @@
     "date": "2026-07-28T18:05:53.082410Z"
    },
    {
-    "title": "RLSA-2026:44438 — Important: compat-openssl11 security update",
-    "url": "https://github.com/advisories/RLSA-2026:44438",
-    "score": 8.1,
-    "date": "2026-07-27T12:04:22.718076Z"
-   },
-   {
     "title": "RLSA-2026:43400 — Important: dogtag-pki security update",
     "url": "https://github.com/advisories/RLSA-2026:43400",
     "score": 8.1,
     "date": "2026-07-23T06:07:38.939859Z"
+   },
+   {
+    "title": "CVE-2026-0631 — An OS Command Injection vulnerability in TP-Link Archer BE230 v1.2(vpn modules) allows an adjacent authenticated attacker to execute arbitra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-0631",
+    "score": 8,
+    "date": "2026-02-02T18:31:33Z"
+   },
+   {
+    "title": "CVE-2026-34641 — Premiere Pro is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-34641",
+    "score": 7.8,
+    "date": "2026-08-01T00:30:55Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7821,
+    "stars": 7833,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 464,
+    "stars": 465,
     "lang": "JavaScript"
    },
    {
@@ -698,9 +698,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Detection and Enforcement for Endpoint AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1vadzuv/detection_and_enforcement_for_endpoint_ai_agents/",
-    "date": "2026-07-30T00:22:35+00:00",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "url": "https://www.reddit.com/r/netsec/comments/1v9yd7p/anatomy_of_a_frontier_lab_agent_intrusion_a/",
+    "date": "2026-07-29T14:49:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1656,
   "adv": 12,
   "feed": 48
