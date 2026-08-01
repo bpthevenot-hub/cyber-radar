@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-01T08:01:32.625Z",
+ "generatedAt": "2026-08-01T09:01:31.425Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-3141 — The FormGent plugin for WordPress is vulnerable to unauthorized arbitrary file deletion due to a missing capability check on the /wp-json/fo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3141",
+    "score": 9.1,
+    "date": "2026-08-01T06:31:03Z"
    },
    {
     "title": "RLSA-2026:43505 — Important: mariadb-connector-c security update",
@@ -33,58 +39,52 @@
     "date": "2026-07-29T18:06:20.508719Z"
    },
    {
-    "title": "RLSA-2026:41897 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41897",
-    "score": 8.8,
+    "title": "RLSA-2026:44391 — Important: libpq security update",
+    "url": "https://github.com/advisories/RLSA-2026:44391",
+    "score": 8.4,
+    "date": "2026-07-27T12:07:26.942038Z"
+   },
+   {
+    "title": "RLSA-2026:46395 — Important: go-fdo-server security update",
+    "url": "https://github.com/advisories/RLSA-2026:46395",
+    "score": 8.2,
+    "date": "2026-07-28T18:05:53.082410Z"
+   },
+   {
+    "title": "RLSA-2026:43400 — Important: dogtag-pki security update",
+    "url": "https://github.com/advisories/RLSA-2026:43400",
+    "score": 8.1,
     "date": "2026-07-23T06:07:38.939859Z"
    },
    {
-    "title": "RLSA-2026:41895 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41895",
-    "score": 8.8,
+    "title": "RLSA-2026:48650 — Important: vim security update",
+    "url": "https://github.com/advisories/RLSA-2026:48650",
+    "score": 7.8,
+    "date": "2026-08-01T00:06:21.082706Z"
+   },
+   {
+    "title": "RLSA-2026:42919 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:42919",
+    "score": 7.8,
     "date": "2026-07-23T06:07:38.939859Z"
    },
    {
-    "title": "RLSA-2026:41893 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41893",
-    "score": 8.8,
-    "date": "2026-07-23T06:07:38.939859Z"
+    "title": "RLSA-2026:47757 — Important: openssh security update",
+    "url": "https://github.com/advisories/RLSA-2026:47757",
+    "score": 7.7,
+    "date": "2026-07-30T12:06:30.380063Z"
    },
    {
-    "title": "RLSA-2026:41898 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41898",
-    "score": 8.8,
-    "date": "2026-07-23T06:04:47.296368Z"
+    "title": "RLSA-2026:48585 — Important: fence-agents security update",
+    "url": "https://github.com/advisories/RLSA-2026:48585",
+    "score": 7.5,
+    "date": "2026-07-31T18:06:02.939248Z"
    },
    {
-    "title": "RLSA-2026:41896 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:41896",
-    "score": 8.8,
-    "date": "2026-07-23T06:04:47.296368Z"
-   },
-   {
-    "title": "RLSA-2026:41937 — Important: sssd security update",
-    "url": "https://github.com/advisories/RLSA-2026:41937",
-    "score": 8.8,
-    "date": "2026-07-22T12:05:54.429340Z"
-   },
-   {
-    "title": "RLSA-2026:42122 — Important: sssd security update",
-    "url": "https://github.com/advisories/RLSA-2026:42122",
-    "score": 8.8,
-    "date": "2026-07-22T12:03:41.844500Z"
-   },
-   {
-    "title": "RLSA-2026:42062 — Important: webkit2gtk3 security update",
-    "url": "https://github.com/advisories/RLSA-2026:42062",
-    "score": 8.8,
-    "date": "2026-07-22T12:03:41.844500Z"
-   },
-   {
-    "title": "RLSA-2026:40833 — Important: pacemaker security update",
-    "url": "https://github.com/advisories/RLSA-2026:40833",
-    "score": 8.6,
-    "date": "2026-07-22T12:05:54.429340Z"
+    "title": "RLSA-2026:48033 — Important: nodejs22 security update",
+    "url": "https://github.com/advisories/RLSA-2026:48033",
+    "score": 7.5,
+    "date": "2026-07-31T18:06:02.939248Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7872,
+    "stars": 7878,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 4,
   "kev": 1656,
   "adv": 12,
   "feed": 48
