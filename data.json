@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-07-31T23:39:01.656Z",
+ "generatedAt": "2026-08-01T00:58:21.554Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-59340 — jinjava has Sandbox Bypass via JavaType-Based Deserialization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-59340",
+    "score": 9.8,
+    "date": "2025-09-17T19:56:21Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6170",
-    "score": 9.6,
-    "date": "2026-07-31T21:16:36+00:00"
+    "title": "CVE-2025-10263 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49031",
+    "score": 8.4,
+    "date": "2026-07-31T22:14:47+00:00"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6166",
-    "score": 9.6,
-    "date": "2026-07-31T21:16:36+00:00"
+    "title": "CVE-2025-10263 — Red Hat Security Advisory: kernel security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49033",
+    "score": 8.4,
+    "date": "2026-07-31T22:14:44+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
-    "score": 9.1,
-    "date": "2026-07-31T21:16:40+00:00"
+    "title": "CVE-2026-31692 — Red Hat Security Advisory: kernel security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49214",
+    "score": 7.8,
+    "date": "2026-07-31T22:14:46+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6567",
-    "score": 9.1,
-    "date": "2026-07-31T21:16:40+00:00"
+    "title": "CVE-2026-52923 — Red Hat Security Advisory: kernel security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49212",
+    "score": 7.8,
+    "date": "2026-07-31T22:14:46+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6497",
-    "score": 9.1,
-    "date": "2026-07-31T21:16:39+00:00"
+    "title": "CVE-2026-31692 — Red Hat Security Advisory: kernel-rt security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49213",
+    "score": 7.8,
+    "date": "2026-07-31T22:14:45+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.10.19 (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5665",
-    "score": 9.1,
-    "date": "2026-07-31T21:16:35+00:00"
+    "title": "CVE-2025-68211 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49211",
+    "score": 7.8,
+    "date": "2026-07-31T22:14:44+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
-    "score": 8.8,
-    "date": "2026-07-31T21:16:47+00:00"
+    "title": "CVE-2026-64530 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49032",
+    "score": 7.8,
+    "date": "2026-07-31T22:14:44+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
-    "score": 8.8,
-    "date": "2026-07-31T21:16:43+00:00"
+    "title": "CVE-2026-54910 — FileBrowser Quantum's path traversal issue in subtitle handler allows any authenticated user to read arbitrary files",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54910",
+    "score": 7.7,
+    "date": "2026-07-31T22:35:05Z"
    },
    {
-    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
-    "score": 8.8,
-    "date": "2026-07-31T21:16:41+00:00"
+    "title": "CVE-2026-54785 — gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54785",
+    "score": 6.2,
+    "date": "2026-07-31T22:31:20Z"
    },
    {
-    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7291",
-    "score": 8.8,
-    "date": "2026-07-31T21:16:41+00:00"
+    "title": "CVE-2023-39522 — Withdrawn Advisory: Username enumeration attack in goauthentik",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-39522",
+    "score": 5.3,
+    "date": "2023-08-29T23:34:51Z"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.0 Release. (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6192",
-    "score": 8.8,
-    "date": "2026-07-31T21:16:37+00:00"
-   },
-   {
-    "title": "CVE-2025-61728 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8448",
-    "score": 8.6,
-    "date": "2026-07-31T21:16:44+00:00"
+    "title": "CVE-2016-1000305 — guard-livereload has a directory traversal vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2016-1000305",
+    "score": 5,
+    "date": "2026-07-31T22:33:01Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 7802,
+    "stars": 7814,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 298,
+    "stars": 299,
     "lang": "TypeScript"
    },
    {
@@ -527,10 +527,10 @@
     "lang": "—"
    },
    {
-    "title": "wellwelwel/lagune — 🌊 Lagune is your security copilot as you build, your Blue Team when you audit, whether you're a developer or ",
-    "url": "https://github.com/wellwelwel/lagune",
-    "stars": 87,
-    "lang": "TypeScript"
+    "title": "itshamzabendelladj/AIGuardSIEM — A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go",
+    "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
+    "stars": 77,
+    "lang": "C++"
    }
   ],
   "hn": [
@@ -635,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Full Rails RCE technical writeup... KindaRails2Shell: How a MATLAB file reads your secrets and pops a shell on Ruby on Rails | Ethiack",
-    "url": "https://www.reddit.com/r/netsec/comments/1vbnvo5/full_rails_rce_technical_writeup_kindarails2shell/",
-    "date": "2026-07-31T11:08:19+00:00",
+    "title": "Investigating three real-world incidents in Anthropic's evaluations",
+    "url": "https://www.reddit.com/r/netsec/comments/1vc3djn/investigating_three_realworld_incidents_in/",
+    "date": "2026-07-31T21:07:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Investigating three real-world incidents in Anthropic's evaluations",
-    "url": "https://www.reddit.com/r/netsec/comments/1vc3djn/investigating_three_realworld_incidents_in/",
-    "date": "2026-07-31T21:07:52+00:00",
+    "title": "Full Rails RCE technical writeup... KindaRails2Shell: How a MATLAB file reads your secrets and pops a shell on Ruby on Rails | Ethiack",
+    "url": "https://www.reddit.com/r/netsec/comments/1vbnvo5/full_rails_rce_technical_writeup_kindarails2shell/",
+    "date": "2026-07-31T11:08:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 3,
   "kev": 1656,
   "adv": 12,
   "feed": 48
