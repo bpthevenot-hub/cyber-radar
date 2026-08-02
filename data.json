@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-08-02T17:40:13.223Z",
+ "generatedAt": "2026-08-02T18:38:43.673Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.4 release. (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13826",
-    "score": 9.8,
-    "date": "2026-08-02T15:39:14+00:00"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13545",
-    "score": 9.1,
-    "date": "2026-08-02T15:39:10+00:00"
-   },
-   {
-    "title": "CVE-2025-69534 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13512",
-    "score": 9.1,
-    "date": "2026-08-02T15:39:09+00:00"
-   },
-   {
-    "title": "CVE-2025-14550 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13508",
-    "score": 9.1,
-    "date": "2026-08-02T15:39:08+00:00"
-   },
-   {
-    "title": "CVE-2026-27140 — Red Hat Security Advisory: go-toolset:rhel8 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10704",
-    "score": 9,
-    "date": "2026-08-02T15:38:55+00:00"
-   },
-   {
-    "title": "CVE-2026-4519 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.1 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10140",
-    "score": 8.8,
-    "date": "2026-08-02T15:38:55+00:00"
-   },
-   {
-    "title": "CVE-2026-4519 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.1 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10141",
-    "score": 8.8,
-    "date": "2026-08-02T15:38:51+00:00"
-   },
-   {
-    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
-    "score": 8.6,
-    "date": "2026-08-02T15:38:22+00:00"
-   },
-   {
-    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
-    "score": 8.5,
-    "date": "2026-08-02T15:38:39+00:00"
-   },
-   {
-    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.1 security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10065",
-    "score": 8.2,
-    "date": "2026-08-02T15:38:47+00:00"
-   },
-   {
-    "title": "CVE-2026-4424 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.2 Technology Preview security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11768",
-    "score": 8.1,
-    "date": "2026-08-02T15:39:07+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 2.6.15 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11688",
-    "score": 8.1,
-    "date": "2026-08-02T15:39:03+00:00"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -463,13 +378,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8128,
+    "stars": 8140,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 807,
+    "stars": 828,
     "lang": "JavaScript"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 0,
   "kev": 1656,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
