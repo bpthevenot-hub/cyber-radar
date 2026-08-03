@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-08-03T21:43:07.491Z",
+ "generatedAt": "2026-08-03T22:38:33.401Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2022-3064 — Red Hat Security Advisory: container-tools:rhel8 security and bug fix update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6939",
+    "score": 9.8,
+    "date": "2026-08-03T22:10:13+00:00"
+   },
+   {
+    "title": "CVE-2022-3064 — Red Hat Security Advisory: container-tools:4.0 security and bug fix update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6938",
+    "score": 9.8,
+    "date": "2026-08-03T22:10:12+00:00"
+   },
+   {
+    "title": "CVE-2022-0759 — Red Hat Security Advisory: Satellite 6.14 security and bug fix update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6818",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:49+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: podman security, bug fix, and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6474",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:41+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: buildah security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6473",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:40+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: containernetworking-plugins security and bug fix update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6402",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:40+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: skopeo security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6363",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:38+00:00"
+   },
+   {
+    "title": "CVE-2022-25857 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.13 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6179",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:22+00:00"
+   },
+   {
+    "title": "CVE-2020-7692 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6172",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:18+00:00"
+   },
+   {
+    "title": "CVE-2022-1471 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.11 Openshift Jenkins security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6171",
+    "score": 9.8,
+    "date": "2026-08-03T22:09:17+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +75,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.12.88 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:12283",
-    "score": 9.1,
-    "date": "2026-08-03T19:30:24+00:00"
+    "title": "CVE-2021-43784 — Red Hat Security Advisory: runc security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6380",
+    "score": 7.8,
+    "date": "2026-08-03T22:09:40+00:00"
    },
    {
-    "title": "CVE-2026-15767 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42081",
-    "score": 8.8,
-    "date": "2026-08-03T19:22:59+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4435",
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh Containers for 2.2.12 (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7215",
     "score": 7.5,
-    "date": "2026-08-03T19:30:29+00:00"
-   },
-   {
-    "title": "CVE-2008-1891 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7305",
-    "score": 7.5,
-    "date": "2026-08-03T19:27:49+00:00"
-   },
-   {
-    "title": "CVE-2026-6734 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22380",
-    "score": 7.5,
-    "date": "2026-08-03T19:26:19+00:00"
-   },
-   {
-    "title": "CVE-2026-44431 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24009",
-    "score": 7.5,
-    "date": "2026-08-03T19:23:59+00:00"
-   },
-   {
-    "title": "CVE-2026-13697 — undici vulnerable to cross-user information disclosure and parse-time crash via degenerate private cache directives",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13697",
-    "score": 7.4,
-    "date": "2026-08-03T19:19:47Z"
-   },
-   {
-    "title": "CVE-2026-42257 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40380",
-    "score": 7.1,
-    "date": "2026-08-03T19:24:38+00:00"
-   },
-   {
-    "title": "CVE-2026-14643 — undici vulnerable to cross-user information disclosure via whitespace around equals in Cache-Control directives",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14643",
-    "score": 5.9,
-    "date": "2026-08-03T19:32:12Z"
-   },
-   {
-    "title": "CVE-2026-44927 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:16341",
-    "score": 5.3,
-    "date": "2026-08-03T19:29:46+00:00"
-   },
-   {
-    "title": "CVE-2026-22693 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7701",
-    "score": 5.3,
-    "date": "2026-08-03T19:28:24+00:00"
-   },
-   {
-    "title": "CVE-2026-54272 — ip-address: misclassification of IPv4-mapped/NAT64 IPv6 addresses can bypass SSRF and trust-boundary checks",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54272",
-    "score": 5,
-    "date": "2026-08-03T19:52:33Z"
+    "date": "2026-08-03T22:10:19+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8363,
+    "stars": 8368,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1234,
+    "stars": 1239,
     "lang": "JavaScript"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Before the first prompt: Code execution paths in trusted coding-agent projects",
+    "url": "https://www.reddit.com/r/netsec/comments/1verq4c/before_the_first_prompt_code_execution_paths_in/",
+    "date": "2026-08-03T22:13:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "The Risk of Fine-Tuned Open-Weight Models · MSec Operations Blog",
     "url": "https://www.reddit.com/r/netsec/comments/1vdqe9d/the_risk_of_finetuned_openweight_models_msec/",
     "date": "2026-08-02T19:00:48+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-07-29T18:57:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-    "url": "https://www.reddit.com/r/netsec/comments/1v9yd7p/anatomy_of_a_frontier_lab_agent_intrusion_a/",
-    "date": "2026-07-29T14:49:04+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 12,
   "kev": 1657,
   "adv": 12,
   "feed": 48
