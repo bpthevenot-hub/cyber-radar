@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-08-03T17:02:21.548Z",
+ "generatedAt": "2026-08-03T17:58:15.487Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-69152 — brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69152",
+    "score": 7.5,
+    "date": "2026-08-03T16:35:32Z"
+   },
+   {
+    "title": "CVE-2026-69151 — Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69151",
+    "score": 7.5,
+    "date": "2026-08-03T16:23:40Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +143,13 @@
   ],
   "adv": [
    {
+    "title": "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+    "url": "https://github.com/advisories/GHSA-fxqj-rqcc-2cmp",
+    "score": null,
+    "ghsa": "GHSA-fxqj-rqcc-2cmp",
+    "date": "2026-08-03T17:11:39Z"
+   },
+   {
     "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
     "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
     "score": 7.5,
@@ -193,13 +225,6 @@
     "score": null,
     "ghsa": "GHSA-wg4g-wm44-ch5j",
     "date": "2026-07-31T22:06:33Z"
-   },
-   {
-    "title": "Pion STUN vulnerable to remote denial of service via panic while parsing a malformed XOR-MAPPED-ADDRESS attribute",
-    "url": "https://github.com/advisories/GHSA-34rh-wp3j-6cxc",
-    "score": 5.3,
-    "ghsa": "GHSA-34rh-wp3j-6cxc",
-    "date": "2026-07-31T22:03:42Z"
    }
   ],
   "thn": [
@@ -378,13 +403,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8347,
+    "stars": 8350,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1198,
+    "stars": 1208,
     "lang": "JavaScript"
    },
    {
@@ -438,7 +463,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 76,
+    "stars": 77,
     "lang": "Python"
    },
    {
@@ -622,7 +647,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +657,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1656,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
