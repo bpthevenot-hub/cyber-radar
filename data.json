@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-03T18:56:06.376Z",
+ "generatedAt": "2026-08-03T19:54:02.081Z",
  "sources": {
   "cve": [
    {
@@ -15,16 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-69152 — brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69152",
-    "score": 7.5,
-    "date": "2026-08-03T16:35:32Z"
+    "title": "RLSA-2026:42122 — Important: sssd security update",
+    "url": "https://github.com/advisories/RLSA-2026:42122",
+    "score": 8.8,
+    "date": "2026-07-22T12:03:41.844500Z"
    },
    {
-    "title": "CVE-2026-69151 — Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69151",
+    "title": "RLSA-2026:42062 — Important: webkit2gtk3 security update",
+    "url": "https://github.com/advisories/RLSA-2026:42062",
+    "score": 8.8,
+    "date": "2026-07-22T12:03:41.844500Z"
+   },
+   {
+    "title": "RLSA-2026:42088 — Important: webkit2gtk3 security update",
+    "url": "https://github.com/advisories/RLSA-2026:42088",
+    "score": 8.8,
+    "date": "2026-07-21T06:00:53.836342Z"
+   },
+   {
+    "title": "RLSA-2026:41948 — Important: javapackages-tools:201801 security update",
+    "url": "https://github.com/advisories/RLSA-2026:41948",
+    "score": 8.3,
+    "date": "2026-07-20T18:01:02.046746Z"
+   },
+   {
+    "title": "RLSA-2026:43218 — Important: pki-deps:10.6 security update",
+    "url": "https://github.com/advisories/RLSA-2026:43218",
+    "score": 8.1,
+    "date": "2026-07-22T12:01:08.158663Z"
+   },
+   {
+    "title": "RLSA-2026:41947 — Important: nodejs:22 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:41947",
+    "score": 8.1,
+    "date": "2026-07-20T18:01:02.046746Z"
+   },
+   {
+    "title": "RLSA-2026:42828 — Important: httpd:2.4 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:42828",
+    "score": 7.7,
+    "date": "2026-07-21T18:01:06.762101Z"
+   },
+   {
+    "title": "RLSA-2026:42089 — Important: glib2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:42089",
     "score": 7.5,
-    "date": "2026-08-03T16:23:40Z"
+    "date": "2026-07-22T12:03:41.844500Z"
+   },
+   {
+    "title": "RLSA-2026:41949 — Important: python3.14 security update",
+    "url": "https://github.com/advisories/RLSA-2026:41949",
+    "score": 7.5,
+    "date": "2026-07-22T12:03:41.844500Z"
+   },
+   {
+    "title": "RLSA-2026:41905 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:41905",
+    "score": 7.5,
+    "date": "2026-07-22T12:03:41.844500Z"
+   },
+   {
+    "title": "RLSA-2026:42550 — Important: kernel-rt security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:42550",
+    "score": 7.5,
+    "date": "2026-07-22T06:00:34.832520Z"
+   },
+   {
+    "title": "RLSA-2026:42552 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:42552",
+    "score": 7.5,
+    "date": "2026-07-22T06:00:17.447455Z"
    }
   ],
   "kev": [
@@ -143,6 +203,62 @@
   ],
   "adv": [
    {
+    "title": "ip-address: misclassification of IPv4-mapped/NAT64 IPv6 addresses can bypass SSRF and trust-boundary checks",
+    "url": "https://github.com/advisories/GHSA-22jq-vg5j-6vgg",
+    "score": null,
+    "ghsa": "GHSA-22jq-vg5j-6vgg",
+    "date": "2026-08-03T19:52:33Z"
+   },
+   {
+    "title": "undici vulnerable to CRLF Injection via blob-like body 'type' property",
+    "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
+    "score": 4.2,
+    "ghsa": "GHSA-m8rv-5g2x-5cg5",
+    "date": "2026-08-03T19:33:53Z"
+   },
+   {
+    "title": "undici vulnerable to cross-user information disclosure via whitespace around equals in Cache-Control directives",
+    "url": "https://github.com/advisories/GHSA-jr45-8vmc-qm54",
+    "score": 5.9,
+    "ghsa": "GHSA-jr45-8vmc-qm54",
+    "date": "2026-08-03T19:32:12Z"
+   },
+   {
+    "title": "undici vulnerable to cookie attribute injection via unsanitized domain and unparsed setCookie fields",
+    "url": "https://github.com/advisories/GHSA-v3r7-h72x-cjcm",
+    "score": 4.8,
+    "ghsa": "GHSA-v3r7-h72x-cjcm",
+    "date": "2026-08-03T19:30:52Z"
+   },
+   {
+    "title": "undici vulnerable to downstream response desynchronization via retry interceptor",
+    "url": "https://github.com/advisories/GHSA-8xcm-r25x-g524",
+    "score": 4.8,
+    "ghsa": "GHSA-8xcm-r25x-g524",
+    "date": "2026-08-03T19:24:33Z"
+   },
+   {
+    "title": "undici vulnerable to cross-user information disclosure and parse-time crash via degenerate private cache directives",
+    "url": "https://github.com/advisories/GHSA-4cwx-7wf7-3272",
+    "score": 7.4,
+    "ghsa": "GHSA-4cwx-7wf7-3272",
+    "date": "2026-08-03T19:19:47Z"
+   },
+   {
+    "title": "fast-uri vulnerable to host confusion via backslash authority introducer",
+    "url": "https://github.com/advisories/GHSA-7p8r-x3mc-p8w7",
+    "score": 7.5,
+    "ghsa": "GHSA-7p8r-x3mc-p8w7",
+    "date": "2026-08-03T19:16:43Z"
+   },
+   {
+    "title": "Socket.IO: Zero-attachment Memory Exhaustion",
+    "url": "https://github.com/advisories/GHSA-2m8v-j782-fhvr",
+    "score": 7.5,
+    "ghsa": "GHSA-2m8v-j782-fhvr",
+    "date": "2026-08-03T19:09:44Z"
+   },
+   {
     "title": "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
     "url": "https://github.com/advisories/GHSA-fxqj-rqcc-2cmp",
     "score": null,
@@ -169,65 +285,16 @@
     "score": 7.5,
     "ghsa": "GHSA-vpx6-8pjr-4g3v",
     "date": "2026-08-03T16:14:43Z"
-   },
-   {
-    "title": "Angular: Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
-    "url": "https://github.com/advisories/GHSA-jhpw-976m-542j",
-    "score": 7.5,
-    "ghsa": "GHSA-jhpw-976m-542j",
-    "date": "2026-08-03T15:59:13Z"
-   },
-   {
-    "title": "Russh: Channel-scoped server callbacks can be reached without an open channel",
-    "url": "https://github.com/advisories/GHSA-m65r-rprj-r5rg",
-    "score": 6.5,
-    "ghsa": "GHSA-m65r-rprj-r5rg",
-    "date": "2026-08-03T15:35:00Z"
-   },
-   {
-    "title": "FileBrowser Quantum's path traversal issue in subtitle handler allows any authenticated user to read arbitrary files",
-    "url": "https://github.com/advisories/GHSA-vvp7-h4fj-m28w",
-    "score": 7.7,
-    "ghsa": "GHSA-vvp7-h4fj-m28w",
-    "date": "2026-07-31T22:35:05Z"
-   },
-   {
-    "title": "guard-livereload has a directory traversal vulnerability",
-    "url": "https://github.com/advisories/GHSA-g65v-27r3-5p6m",
-    "score": null,
-    "ghsa": "GHSA-g65v-27r3-5p6m",
-    "date": "2026-07-31T22:33:01Z"
-   },
-   {
-    "title": "gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
-    "url": "https://github.com/advisories/GHSA-c5px-58j2-7fqp",
-    "score": 6.2,
-    "ghsa": "GHSA-c5px-58j2-7fqp",
-    "date": "2026-07-31T22:31:20Z"
-   },
-   {
-    "title": "WPGraphQL has deprecated `user` field on SendPasswordResetEmailPayload that leaks user existence + profile (defeats explicit anti-enumeration design)",
-    "url": "https://github.com/advisories/GHSA-jhh7-832h-f8hv",
-    "score": null,
-    "ghsa": "GHSA-jhh7-832h-f8hv",
-    "date": "2026-07-31T22:24:29Z"
-   },
-   {
-    "title": "core-geonetwork has an Open Redirect Bypass",
-    "url": "https://github.com/advisories/GHSA-pjp7-q6wp-97qx",
-    "score": null,
-    "ghsa": "GHSA-pjp7-q6wp-97qx",
-    "date": "2026-07-31T22:16:34Z"
-   },
-   {
-    "title": "Pion DTLS vulnerable to denial of service via panic while parsing a crafted ECDHE_PSK ServerKeyExchange message",
-    "url": "https://github.com/advisories/GHSA-wg4g-wm44-ch5j",
-    "score": null,
-    "ghsa": "GHSA-wg4g-wm44-ch5j",
-    "date": "2026-07-31T22:06:33Z"
    }
   ],
   "thn": [
+   {
+    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+    "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+    "date": "Tue, 04 Aug 2026 00:13:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
     "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
@@ -304,16 +371,16 @@
     "date": "Sat, 01 Aug 2026 14:33:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-    "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-    "date": "Sat, 01 Aug 2026 12:42:42 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+    "date": "Mon, 03 Aug 2026 15:25:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
@@ -390,26 +457,19 @@
     "date": "Fri, 31 Jul 2026 14:52:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-    "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-    "date": "Fri, 31 Jul 2026 13:35:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8354,
+    "stars": 8355,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1213,
+    "stars": 1223,
     "lang": "JavaScript"
    },
    {
@@ -582,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Xpsd: decide if a CVE is actually reachable in your tree (SARIF / GitHub code scanning)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vemopp/xpsd_decide_if_a_cve_is_actually_reachable_in/",
+    "date": "2026-08-03T19:04:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "The Risk of Fine-Tuned Open-Weight Models · MSec Operations Blog",
     "url": "https://www.reddit.com/r/netsec/comments/1vdqe9d/the_risk_of_finetuned_openweight_models_msec/",
     "date": "2026-08-02T19:00:48+00:00",
@@ -634,13 +701,6 @@
     "title": "Reversing of Eufy Security Video Doorbell sync protocol and wifi creds decryption from flash memory",
     "url": "https://www.reddit.com/r/netsec/comments/1va5h8n/reversing_of_eufy_security_video_doorbell_sync/",
     "date": "2026-07-29T18:57:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-    "url": "https://www.reddit.com/r/netsec/comments/1v9yd7p/anatomy_of_a_frontier_lab_agent_intrusion_a/",
-    "date": "2026-07-29T14:49:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
