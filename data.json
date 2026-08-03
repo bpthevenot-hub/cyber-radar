@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-08-03T15:20:10.386Z",
+ "generatedAt": "2026-08-03T17:02:21.548Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48959",
-    "score": 9.8,
-    "date": "2026-08-03T13:07:08+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48961",
-    "score": 9.8,
-    "date": "2026-08-03T13:07:03+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48960",
-    "score": 9.8,
-    "date": "2026-08-03T13:07:03+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security, bug fix, and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48606",
-    "score": 9.8,
-    "date": "2026-08-03T13:07:01+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48603",
-    "score": 9.8,
-    "date": "2026-08-03T13:07:01+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48586",
-    "score": 9.8,
-    "date": "2026-08-03T13:06:59+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48171",
-    "score": 9.8,
-    "date": "2026-08-03T13:06:59+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26335",
-    "score": 9.8,
-    "date": "2026-08-03T13:06:58+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26297",
-    "score": 9.8,
-    "date": "2026-08-03T13:06:56+00:00"
-   },
-   {
-    "title": "CVE-2026-8631 — Red Hat Security Advisory: hplip security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26228",
-    "score": 9.8,
-    "date": "2026-08-03T13:06:54+00:00"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
-    "score": 9.1,
-    "date": "2026-08-03T13:07:42+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
-    "score": 9.1,
-    "date": "2026-08-03T13:07:07+00:00"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -203,6 +118,41 @@
   ],
   "adv": [
    {
+    "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+    "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+    "score": 7.5,
+    "ghsa": "GHSA-rgw5-rvv9-x895",
+    "date": "2026-08-03T16:35:32Z"
+   },
+   {
+    "title": "Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+    "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+    "score": 7.5,
+    "ghsa": "GHSA-jj27-h5hq-8x99",
+    "date": "2026-08-03T16:23:40Z"
+   },
+   {
+    "title": "Angular SSR: Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS)",
+    "url": "https://github.com/advisories/GHSA-vpx6-8pjr-4g3v",
+    "score": 7.5,
+    "ghsa": "GHSA-vpx6-8pjr-4g3v",
+    "date": "2026-08-03T16:14:43Z"
+   },
+   {
+    "title": "Angular: Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
+    "url": "https://github.com/advisories/GHSA-jhpw-976m-542j",
+    "score": 7.5,
+    "ghsa": "GHSA-jhpw-976m-542j",
+    "date": "2026-08-03T15:59:13Z"
+   },
+   {
+    "title": "Russh: Channel-scoped server callbacks can be reached without an open channel",
+    "url": "https://github.com/advisories/GHSA-m65r-rprj-r5rg",
+    "score": 6.5,
+    "ghsa": "GHSA-m65r-rprj-r5rg",
+    "date": "2026-08-03T15:35:00Z"
+   },
+   {
     "title": "FileBrowser Quantum's path traversal issue in subtitle handler allows any authenticated user to read arbitrary files",
     "url": "https://github.com/advisories/GHSA-vvp7-h4fj-m28w",
     "score": 7.7,
@@ -250,44 +200,23 @@
     "score": 5.3,
     "ghsa": "GHSA-34rh-wp3j-6cxc",
     "date": "2026-07-31T22:03:42Z"
-   },
-   {
-    "title": "sigstore-go fails to check signature timestamps against a signing key's validity period",
-    "url": "https://github.com/advisories/GHSA-wqqc-jjcq-vfxm",
-    "score": 3.1,
-    "ghsa": "GHSA-wqqc-jjcq-vfxm",
-    "date": "2026-07-31T21:58:39Z"
-   },
-   {
-    "title": "@apostrophecms/seo Vulnerable to Stored XSS via Unsanitized Google Analytics / GTM ID Injected into Script Tag",
-    "url": "https://github.com/advisories/GHSA-wf43-fpp3-cf65",
-    "score": 8.7,
-    "ghsa": "GHSA-wf43-fpp3-cf65",
-    "date": "2026-07-31T21:53:56Z"
-   },
-   {
-    "title": "@apostrophecms/file pretty-URL Vulnerable to Unauthenticated SSRF via Host header",
-    "url": "https://github.com/advisories/GHSA-34pj-2622-jvxq",
-    "score": 3.7,
-    "ghsa": "GHSA-34pj-2622-jvxq",
-    "date": "2026-07-31T21:51:41Z"
-   },
-   {
-    "title": "Apostrophe has Server-Side Prototype Pollution in apos.util.set via patch operators that leads to process-wide authorization bypass",
-    "url": "https://github.com/advisories/GHSA-6h5j-32cf-4253",
-    "score": 9.1,
-    "ghsa": "GHSA-6h5j-32cf-4253",
-    "date": "2026-07-31T21:49:25Z"
-   },
-   {
-    "title": "sanitize-html has incomplete URI scheme validation in that allows javascript: URIs through action, formaction, data, poster, and background attributes",
-    "url": "https://github.com/advisories/GHSA-vccv-cmxp-4j9h",
-    "score": 5.4,
-    "ghsa": "GHSA-vccv-cmxp-4j9h",
-    "date": "2026-07-31T21:43:51Z"
    }
   ],
   "thn": [
+   {
+    "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+    "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+    "date": "Mon, 03 Aug 2026 21:54:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+    "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+    "date": "Mon, 03 Aug 2026 21:45:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
     "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
@@ -357,23 +286,16 @@
     "date": "Sat, 01 Aug 2026 12:42:42 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-    "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-    "date": "Sat, 01 Aug 2026 11:59:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-    "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-    "date": "Sat, 01 Aug 2026 00:22:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+    "date": "Mon, 03 Aug 2026 13:00:56 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
     "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
@@ -450,26 +372,19 @@
     "date": "Fri, 31 Jul 2026 13:35:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
-    "date": "Fri, 31 Jul 2026 12:49:49 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8332,
+    "stars": 8347,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1170,
+    "stars": 1198,
     "lang": "JavaScript"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 0,
   "kev": 1656,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
