@@ -1,18 +1,42 @@
 {
- "generatedAt": "2026-08-04T09:17:07.440Z",
+ "generatedAt": "2026-08-04T10:17:05.251Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2022-25857 — Red Hat Security Advisory: Red Hat Integration Camel for Spring Boot 3.18.3 Patch 2 release (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3641",
+    "title": "CVE-2021-46877 — Red Hat Security Advisory: Migration Toolkit for Applications security and bug fix update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4627",
     "score": 9.8,
-    "date": "2026-08-04T07:21:51+00:00"
+    "date": "2026-08-04T08:22:33+00:00"
    },
    {
-    "title": "CVE-2022-41853 — Red Hat Security Advisory: hsqldb security update",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8559",
+    "title": "CVE-2021-46877 — Red Hat Security Advisory: Red Hat support for Spring Boot 2.7.13 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4612",
     "score": 9.8,
-    "date": "2026-08-04T07:21:50+00:00"
+    "date": "2026-08-04T08:22:29+00:00"
+   },
+   {
+    "title": "CVE-2023-20873 — Red Hat Security Advisory: Red Hat Integration Camel for Spring Boot 3.20.2 release and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5148",
+    "score": 9.8,
+    "date": "2026-08-04T08:21:54+00:00"
+   },
+   {
+    "title": "CVE-2021-46877 — Red Hat Security Advisory: Red Hat Integration Camel for Spring Boot 3.18.3.2 release and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5147",
+    "score": 9.8,
+    "date": "2026-08-04T08:21:53+00:00"
+   },
+   {
+    "title": "CVE-2023-51079 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.4.1 for Spring Boot security update. (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4884",
+    "score": 9.8,
+    "date": "2026-08-04T08:21:52+00:00"
+   },
+   {
+    "title": "CVE-2022-46751 — Red Hat Security Advisory: Red Hat AMQ Streams 2.6.0 release and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7678",
+    "score": 9.8,
+    "date": "2026-08-04T08:21:40+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +51,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2022-1650 — Red Hat Security Advisory: .NET Core 3.1 security, bug fix, and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6057",
-    "score": 9.3,
-    "date": "2026-08-04T07:21:50+00:00"
-   },
-   {
-    "title": "CVE-2024-45338 — Red Hat Security Advisory: Red Hat Developer Hub 1.5.1 release. (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3374",
-    "score": 9.1,
-    "date": "2026-08-04T07:22:22+00:00"
-   },
-   {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
-    "score": 9.1,
-    "date": "2026-08-04T07:21:54+00:00"
-   },
-   {
-    "title": "CVE-2021-44549 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:8886",
+    "title": "CVE-2022-41862 — Red Hat Security Advisory: rh-postgresql13-postgresql security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7772",
     "score": 8.8,
-    "date": "2026-08-04T07:21:58+00:00"
+    "date": "2026-08-04T08:22:23+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
+    "title": "CVE-2022-2625 — Red Hat Security Advisory: postgresql:13 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7695",
     "score": 8.8,
-    "date": "2026-08-04T07:21:54+00:00"
+    "date": "2026-08-04T08:22:23+00:00"
    },
    {
-    "title": "CVE-2021-4104 — Red Hat Security Advisory: Red Hat JBoss Web Server 3.1 Service Pack 14 security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:0527",
+    "title": "CVE-2022-2625 — Red Hat Security Advisory: postgresql:12 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7694",
     "score": 8.8,
-    "date": "2026-08-04T07:21:48+00:00"
+    "date": "2026-08-04T08:22:21+00:00"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: RHOAI 2.16.4 - Red Hat OpenShift AI (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5807",
-    "score": 8.7,
-    "date": "2026-08-04T07:21:58+00:00"
+    "title": "CVE-2022-2625 — Red Hat Security Advisory: postgresql:12 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7667",
+    "score": 8.8,
+    "date": "2026-08-04T08:22:20+00:00"
    },
    {
-    "title": "CVE-2021-3121 — Red Hat Security Advisory: Red Hat AMQ Broker 7.10.1 release and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6916",
-    "score": 8.6,
-    "date": "2026-08-04T07:21:50+00:00"
+    "title": "CVE-2022-41862 — Red Hat Security Advisory: postgresql:12 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7666",
+    "score": 8.8,
+    "date": "2026-08-04T08:22:20+00:00"
    },
    {
-    "title": "CVE-2024-8698 — Red Hat Security Advisory: Red Hat build of Keycloak 24.0.8 Update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:6890",
-    "score": 7.7,
-    "date": "2026-08-04T07:21:44+00:00"
-   },
-   {
-    "title": "CVE-2024-8698 — Red Hat Security Advisory: Red Hat build of Keycloak 24.0.8 Images Update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:6889",
-    "score": 7.7,
-    "date": "2026-08-04T07:21:43+00:00"
+    "title": "CVE-2022-2625 — Red Hat Security Advisory: postgresql:13 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7580",
+    "score": 8.8,
+    "date": "2026-08-04T08:22:20+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+    "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+    "date": "Tue, 04 Aug 2026 14:33:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
     "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
     "date": "Tue, 04 Aug 2026 12:30:13 +0530",
@@ -362,13 +369,6 @@
     "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
     "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
     "date": "Mon, 03 Aug 2026 12:10:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-    "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-    "date": "Sat, 01 Aug 2026 22:47:22 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +463,19 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8458,
+    "stars": 8465,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1315,
+    "stars": 1323,
     "lang": "JavaScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 395,
+    "stars": 394,
     "lang": "Rust"
    },
    {
@@ -521,16 +521,16 @@
     "lang": "C++"
    },
    {
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "stars": 78,
+    "lang": "Python"
+   },
+   {
     "title": "bme-lyh/Codex-Skill-Manager — Review, install, update, and recover Codex Skills on Windows.",
     "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
     "stars": 77,
     "lang": "Go"
-   },
-   {
-    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
-    "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 77,
-    "lang": "Python"
    }
   ],
   "hn": [
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "HEVD: From Stack Overflows to Modern Pool Grooming",
+    "url": "https://www.reddit.com/r/netsec/comments/1vf5zwc/hevd_from_stack_overflows_to_modern_pool_grooming/",
+    "date": "2026-08-04T10:01:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "SQLite Critical CVEs or LLM Slop?",
     "url": "https://www.reddit.com/r/netsec/comments/1veedqw/sqlite_critical_cves_or_llm_slop/",
     "date": "2026-08-03T14:04:17+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-07-30T15:40:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Your House Has an FFmpeg Problem - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1v9uffn/your_house_has_an_ffmpeg_problem_elttam/",
-    "date": "2026-07-29T12:12:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 8,
   "kev": 1657,
   "adv": 12,
   "feed": 48
