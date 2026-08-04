@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-04T16:58:29.216Z",
+ "generatedAt": "2026-08-04T17:58:03.994Z",
  "sources": {
   "cve": [
    {
@@ -63,18 +63,6 @@
     "date": "2026-08-04T15:32:22Z"
    },
    {
-    "title": "CVE-2026-67248 — A stack-based buffer overflow vulnerability was found in the File Explorer on the ADM. The vulnerability occurs because user-controlled inpu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67248",
-    "score": 8.8,
-    "date": "2026-07-30T06:32:36Z"
-   },
-   {
-    "title": "CVE-2026-18577 — An incomplete patch for CVE-2026-18556 allows for authentication bypass and account takeover in N-central Versions through 2026.3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18577",
-    "score": 8.1,
-    "date": "2026-08-03T00:30:28Z"
-   },
-   {
     "title": "CVE-2026-10710 — A maliciously crafted FBX file, when parsed through Autodesk FBX SDK, can trigger a stack-based buffer overflow vulnerability in fbxsdk::Ext",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-10710",
     "score": 7.8,
@@ -85,6 +73,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-10709",
     "score": 7.8,
     "date": "2026-08-04T15:32:22Z"
+   },
+   {
+    "title": "CVE-2026-69258 — Flowise: Unauthenticated Property Injection into Flow Execution Context via Ungated `overrideConfig` Spread in Prediction API",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69258",
+    "score": 7.5,
+    "date": "2026-08-04T15:56:11Z"
+   },
+   {
+    "title": "CVE-2026-69257 — Flowise: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69257",
+    "score": 7.5,
+    "date": "2026-08-04T15:51:58Z"
    }
   ],
   "kev": [
@@ -203,6 +203,62 @@
   ],
   "adv": [
    {
+    "title": "Flowise: Incomplete Credential Redaction Exposes Secrets via API",
+    "url": "https://github.com/advisories/GHSA-rwrp-9823-p2xq",
+    "score": 6.5,
+    "ghsa": "GHSA-rwrp-9823-p2xq",
+    "date": "2026-08-04T17:57:35Z"
+   },
+   {
+    "title": "Flowise: Information Disclosure in GET /api/v1/upsert-history returns the entire server-wide upsert history",
+    "url": "https://github.com/advisories/GHSA-fr6g-7cq8-fg82",
+    "score": 7.5,
+    "ghsa": "GHSA-fr6g-7cq8-fg82",
+    "date": "2026-08-04T17:57:27Z"
+   },
+   {
+    "title": "Flowise: Cross-workspace credential IDOR in openai-assistants-vector-store",
+    "url": "https://github.com/advisories/GHSA-chm3-vqcf-52rx",
+    "score": 7.5,
+    "ghsa": "GHSA-chm3-vqcf-52rx",
+    "date": "2026-08-04T17:51:48Z"
+   },
+   {
+    "title": "Flowise: RCE via CSVAgent csvFile data URI base64 segment is interpolated into Python source without validation",
+    "url": "https://github.com/advisories/GHSA-4j8x-x6v7-w9rq",
+    "score": 9.5,
+    "ghsa": "GHSA-4j8x-x6v7-w9rq",
+    "date": "2026-08-04T17:43:48Z"
+   },
+   {
+    "title": "Flowise: Authenticated arbitrary file write in the `S3 Directory` document loader via unsanitized S3 object keys",
+    "url": "https://github.com/advisories/GHSA-88pr-878c-24wf",
+    "score": 7.5,
+    "ghsa": "GHSA-88pr-878c-24wf",
+    "date": "2026-08-04T17:43:45Z"
+   },
+   {
+    "title": "Flowise: RBAC Bypass Leading to Unauthorized Workspace Variables Disclosure",
+    "url": "https://github.com/advisories/GHSA-8r8h-6vcc-xhrv",
+    "score": 7.5,
+    "ghsa": "GHSA-8r8h-6vcc-xhrv",
+    "date": "2026-08-04T17:43:36Z"
+   },
+   {
+    "title": "Flowise: Pyodide validator Unicode homoglyph bypass leads to RCE",
+    "url": "https://github.com/advisories/GHSA-52fh-8v99-63c2",
+    "score": 9.5,
+    "ghsa": "GHSA-52fh-8v99-63c2",
+    "date": "2026-08-04T17:31:09Z"
+   },
+   {
+    "title": "Flowise: CVE-2025-8943 Patch Bypass: npm_config_yes bypasses MCP environment variable blocklist (Unauthenticated RCE)",
+    "url": "https://github.com/advisories/GHSA-xc48-889x-5qmw",
+    "score": 7.5,
+    "ghsa": "GHSA-xc48-889x-5qmw",
+    "date": "2026-08-04T17:09:48Z"
+   },
+   {
     "title": "Flowise: `DELETE /api/v1/chatflows/:id` does not validate resource type, allowing `agentflows:delete` and `chatflows:delete` to delete each other’s fl",
     "url": "https://github.com/advisories/GHSA-p5w8-m249-4r4v",
     "score": 7.5,
@@ -229,65 +285,16 @@
     "score": 7.5,
     "ghsa": "GHSA-c6xh-wv4j-ppv5",
     "date": "2026-08-04T15:51:58Z"
-   },
-   {
-    "title": "Remote Code Execution Vulnerability in CSVAgent",
-    "url": "https://github.com/advisories/GHSA-x6vm-w76m-8j7g",
-    "score": 9.5,
-    "ghsa": "GHSA-x6vm-w76m-8j7g",
-    "date": "2026-08-04T15:46:20Z"
-   },
-   {
-    "title": "Flowise: CSV Agent Remote Code Execution via Pyodide Code Injection — Root Shell Verified",
-    "url": "https://github.com/advisories/GHSA-vmv7-4m6c-3cg5",
-    "score": 9.5,
-    "ghsa": "GHSA-vmv7-4m6c-3cg5",
-    "date": "2026-08-04T15:40:28Z"
-   },
-   {
-    "title": "Flowise: RCE via NodeVM Sandbox Escape in executeJavaScriptCode() nodeVMOptions Override",
-    "url": "https://github.com/advisories/GHSA-3769-jgqc-cxm7",
-    "score": 9.5,
-    "ghsa": "GHSA-3769-jgqc-cxm7",
-    "date": "2026-08-04T15:29:12Z"
-   },
-   {
-    "title": "Flowise Sandbox Escape to RCE",
-    "url": "https://github.com/advisories/GHSA-wg86-r78f-74mp",
-    "score": 9.5,
-    "ghsa": "GHSA-wg86-r78f-74mp",
-    "date": "2026-08-04T15:13:33Z"
-   },
-   {
-    "title": "Flowise: Missing authorization on `/api/v1/files` allows low-privileged API keys to list and delete files across workspaces within the same organizati",
-    "url": "https://github.com/advisories/GHSA-wp74-f5hh-5f3r",
-    "score": 7.5,
-    "ghsa": "GHSA-wp74-f5hh-5f3r",
-    "date": "2026-08-04T14:54:03Z"
-   },
-   {
-    "title": "Flowise RCE via TypeORM DataSource",
-    "url": "https://github.com/advisories/GHSA-g32j-mmxr-gfq5",
-    "score": 9.5,
-    "ghsa": "GHSA-g32j-mmxr-gfq5",
-    "date": "2026-08-04T14:28:04Z"
-   },
-   {
-    "title": "Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
-    "url": "https://github.com/advisories/GHSA-r745-8hwv-h473",
-    "score": 7.5,
-    "ghsa": "GHSA-r745-8hwv-h473",
-    "date": "2026-08-04T14:20:49Z"
-   },
-   {
-    "title": "Flowise: IDOR vulnerability exists at the GET /api/v1/organization/customer-default-source endpoint",
-    "url": "https://github.com/advisories/GHSA-2364-jh4q-m9vm",
-    "score": null,
-    "ghsa": "GHSA-2364-jh4q-m9vm",
-    "date": "2026-08-04T14:16:46Z"
    }
   ],
   "thn": [
+   {
+    "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+    "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+    "date": "Tue, 04 Aug 2026 22:57:39 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
     "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
@@ -362,13 +369,6 @@
     "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
     "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
     "date": "Mon, 03 Aug 2026 19:33:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-    "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
-    "date": "Mon, 03 Aug 2026 17:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8501,
+    "stars": 8505,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1349,
+    "stars": 1354,
     "lang": "JavaScript"
    },
    {
@@ -515,16 +515,16 @@
     "lang": "—"
    },
    {
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "stars": 80,
+    "lang": "Python"
+   },
+   {
     "title": "itshamzabendelladj/AIGuardSIEM — A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go",
     "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
     "stars": 79,
     "lang": "C++"
-   },
-   {
-    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
-    "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 79,
-    "lang": "Python"
    },
    {
     "title": "bme-lyh/Codex-Skill-Manager — Review, install, update, and recover Codex Skills on Windows.",
@@ -656,6 +656,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfh4jw/the_gentlemen_affiliate_deploys_etherrat_across/",
+    "date": "2026-08-04T17:33:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Code Execution via Provisioning Packages",
     "url": "https://www.reddit.com/r/netsec/comments/1vf4kme/code_execution_via_provisioning_packages/",
     "date": "2026-08-04T08:38:17+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-07-31T11:08:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware",
-    "url": "https://www.reddit.com/r/netsec/comments/1vbs8hf/predictable_rng_fallback_and_32bit_reseed_in/",
-    "date": "2026-07-31T14:17:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -718,7 +718,7 @@
  },
  "kpis": {
   "crit": 7,
-  "kev": 1657,
+  "kev": 1660,
   "adv": 12,
   "feed": 48
  },
