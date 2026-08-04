@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-04T16:02:49.197Z",
+ "generatedAt": "2026-08-04T16:58:29.216Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-61515 — Puwell IP Camera firmware versions 2.x through 4.x contains an unauthenticated command injection vulnerability that allows remote attackers ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61515",
+    "score": 9.8,
+    "date": "2026-08-04T15:32:23Z"
+   },
+   {
+    "title": "CVE-2026-61514 — Puwell IP Camera firmware versions 2.x through 4.x contains an authentication bypass vulnerability that allows unauthenticated attackers to ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61514",
+    "score": 9.8,
+    "date": "2026-08-04T15:32:23Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-69251 — Flowise RCE via TypeORM DataSource",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69251",
+    "title": "CVE-2026-69256 — Remote Code Execution Vulnerability in CSVAgent",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69256",
     "score": 9.5,
-    "date": "2026-08-04T14:28:04Z"
+    "date": "2026-08-04T15:46:20Z"
    },
    {
-    "title": "CVE-2024-53141 — Red Hat Security Advisory: kpatch-patch-4_18_0-305_120_1, kpatch-patch-4_18_0-305_138_1, kpatch-patch-4_18_0-305_145_1, and kpatch-patch-4_1 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8348",
+    "title": "CVE-2026-69255 — Flowise: CSV Agent Remote Code Execution via Pyodide Code Injection — Root Shell Verified",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69255",
+    "score": 9.5,
+    "date": "2026-08-04T15:40:28Z"
+   },
+   {
+    "title": "CVE-2026-60007 — In Eclipse Milo versions 0.6.0 through 1.1.4, username-token processing returns distinguishable errors for invalid RSA PKCS#1 v1.5 padding a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60007",
+    "score": 9.5,
+    "date": "2026-08-04T15:32:22Z"
+   },
+   {
+    "title": "CVE-2026-18650 — Missing Authorization vulnerability in HAVELSAN Inc. Liman MYS allows Privilege Escalation. This issue affects Liman MYS: from 2.2.3 before ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18650",
+    "score": 8.8,
+    "date": "2026-08-04T15:32:23Z"
+   },
+   {
+    "title": "CVE-2026-67195 — Perspective 5.0.0 contains a remote code execution vulnerability that allows unauthenticated attackers to execute arbitrary operating system",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67195",
+    "score": 8.8,
+    "date": "2026-08-04T15:32:23Z"
+   },
+   {
+    "title": "CVE-2026-17070 — Missing Authorization vulnerability in HAVELSAN Inc. Liman MYS allows Accessing Functionality Not Properly Constrained by ACLs. This issue a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17070",
+    "score": 8.8,
+    "date": "2026-08-04T15:32:22Z"
+   },
+   {
+    "title": "CVE-2026-67248 — A stack-based buffer overflow vulnerability was found in the File Explorer on the ADM. The vulnerability occurs because user-controlled inpu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67248",
+    "score": 8.8,
+    "date": "2026-07-30T06:32:36Z"
+   },
+   {
+    "title": "CVE-2026-18577 — An incomplete patch for CVE-2026-18556 allows for authentication bypass and account takeover in N-central Versions through 2026.3.1",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18577",
+    "score": 8.1,
+    "date": "2026-08-03T00:30:28Z"
+   },
+   {
+    "title": "CVE-2026-10710 — A maliciously crafted FBX file, when parsed through Autodesk FBX SDK, can trigger a stack-based buffer overflow vulnerability in fbxsdk::Ext",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10710",
     "score": 7.8,
-    "date": "2026-08-04T14:08:46+00:00"
+    "date": "2026-08-04T15:32:22Z"
    },
    {
-    "title": "CVE-2024-53141 — Red Hat Security Advisory: kpatch-patch-5_14_0-284_104_1, kpatch-patch-5_14_0-284_52_1, kpatch-patch-5_14_0-284_79_1, and kpatch-patch-5_14_ (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8343",
+    "title": "CVE-2026-10709 — A maliciously crafted FBX file, when parsed through Autodesk FBX SDK, can trigger a stack-based buffer overflow vulnerability in fbxsdk::Fbx",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10709",
     "score": 7.8,
-    "date": "2026-08-04T14:08:43+00:00"
-   },
-   {
-    "title": "CVE-2024-53141 — Red Hat Security Advisory: kpatch-patch-4_18_0-372_118_1, kpatch-patch-4_18_0-372_131_1, kpatch-patch-4_18_0-372_137_1, and kpatch-patch-4_1 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8347",
-    "score": 7.8,
-    "date": "2026-08-04T14:08:41+00:00"
-   },
-   {
-    "title": "CVE-2024-53141 — Red Hat Security Advisory: kpatch-patch-4_18_0-477_43_1, kpatch-patch-4_18_0-477_67_1, kpatch-patch-4_18_0-477_81_1, and kpatch-patch-4_18_0 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8346",
-    "score": 7.8,
-    "date": "2026-08-04T14:08:41+00:00"
-   },
-   {
-    "title": "CVE-2026-69252 — Flowise: Missing authorization on `/api/v1/files` allows low-privileged API keys to list and delete files across workspaces within the same ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69252",
-    "score": 7.5,
-    "date": "2026-08-04T14:54:03Z"
-   },
-   {
-    "title": "CVE-2026-69250 — Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69250",
-    "score": 7.5,
-    "date": "2026-08-04T14:20:49Z"
-   },
-   {
-    "title": "GHSA-2364-jh4q-m9vm — Flowise: IDOR vulnerability exists at the GET /api/v1/organization/customer-default-source endpoint",
-    "url": "https://github.com/advisories/GHSA-2364-jh4q-m9vm",
-    "score": 5,
-    "date": "2026-08-04T14:16:46Z"
-   },
-   {
-    "title": "OSV-2023-1350 — Heap-buffer-overflow in inflate",
-    "url": "https://github.com/advisories/OSV-2023-1350",
-    "score": null,
-    "date": "2023-12-23T00:12:38.562149Z"
-   },
-   {
-    "title": "OSV-2023-606 — Heap-buffer-overflow in ZSTD_decompressMultiFrame",
-    "url": "https://github.com/advisories/OSV-2023-606",
-    "score": null,
-    "date": "2023-07-23T14:01:02.159160Z"
-   },
-   {
-    "title": "OSV-2023-319 — Heap-buffer-overflow in ZSTD_decompressSequencesLong_bmi2",
-    "url": "https://github.com/advisories/OSV-2023-319",
-    "score": null,
-    "date": "2023-04-16T14:01:58.406534Z"
-   },
-   {
-    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
-    "url": "https://github.com/advisories/OSV-2022-1198",
-    "score": null,
-    "date": "2022-11-23T13:02:06.623044Z"
+    "date": "2026-08-04T15:32:22Z"
    }
   ],
   "kev": [
@@ -203,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "Flowise: `DELETE /api/v1/chatflows/:id` does not validate resource type, allowing `agentflows:delete` and `chatflows:delete` to delete each other’s fl",
+    "url": "https://github.com/advisories/GHSA-p5w8-m249-4r4v",
+    "score": 7.5,
+    "ghsa": "GHSA-p5w8-m249-4r4v",
+    "date": "2026-08-04T16:50:32Z"
+   },
+   {
+    "title": "Flowise RCE via SQLite Record Manager Node",
+    "url": "https://github.com/advisories/GHSA-x3hf-7cj6-3r4m",
+    "score": 9.5,
+    "ghsa": "GHSA-x3hf-7cj6-3r4m",
+    "date": "2026-08-04T16:05:10Z"
+   },
+   {
     "title": "Flowise: Unauthenticated Property Injection into Flow Execution Context via Ungated `overrideConfig` Spread in Prediction API",
     "url": "https://github.com/advisories/GHSA-6vh2-wg4h-4vwj",
     "score": 7.5,
@@ -271,20 +285,6 @@
     "score": null,
     "ghsa": "GHSA-2364-jh4q-m9vm",
     "date": "2026-08-04T14:16:46Z"
-   },
-   {
-    "title": "python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
-    "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
-    "score": null,
-    "ghsa": "GHSA-m2h6-j472-rp4c",
-    "date": "2026-08-03T21:26:57Z"
-   },
-   {
-    "title": "python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
-    "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
-    "score": 7.5,
-    "ghsa": "GHSA-jwv3-5hgf-82ww",
-    "date": "2026-08-03T21:26:50Z"
    }
   ],
   "thn": [
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8498,
+    "stars": 8501,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1348,
+    "stars": 1349,
     "lang": "JavaScript"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Hardware Hacking: From zero to a Pre-Auth Stack Buffer Overflow on Amazon's best-selling router",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfdep6/hardware_hacking_from_zero_to_a_preauth_stack/",
+    "date": "2026-08-04T15:21:21+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "HEVD: From Stack Overflows to Modern Pool Grooming",
     "url": "https://www.reddit.com/r/netsec/comments/1vf5zwc/hevd_from_stack_overflows_to_modern_pool_grooming/",
     "date": "2026-08-04T10:01:24+00:00",
@@ -645,13 +652,6 @@
     "title": "Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category",
     "url": "https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/",
     "date": "2026-08-03T23:08:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Hardware Hacking: From zero to a Pre-Auth Stack Buffer Overflow on Amazon's best-selling router",
-    "url": "https://www.reddit.com/r/netsec/comments/1vfdep6/hardware_hacking_from_zero_to_a_preauth_stack/",
-    "date": "2026-08-04T15:21:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 7,
   "kev": 1657,
   "adv": 12,
   "feed": 48
