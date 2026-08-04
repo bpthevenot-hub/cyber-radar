@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-04T00:55:44.408Z",
+ "generatedAt": "2026-08-04T02:00:54.743Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-04T00:14:42+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-04T00:14:42+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-04T00:14:37+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:47+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:32+00:00"
+   },
+   {
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:28+00:00"
+   },
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:19+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.19.2.1 Async Update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42240",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:18+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.18.7.1 Async Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42151",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:18+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.17.9.1 Async Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42150",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:17+00:00"
+   },
+   {
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:13+00:00"
+   },
+   {
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "score": 9.1,
+    "date": "2026-08-04T00:14:13+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8377,
+    "stars": 8389,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1247,
+    "stars": 1258,
     "lang": "JavaScript"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 197,
+    "stars": 198,
     "lang": "Python"
    },
    {
@@ -578,6 +663,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Cruising for Shells in Flowise - elttam",
+    "url": "https://www.reddit.com/r/netsec/comments/1veba08/cruising_for_shells_in_flowise_elttam/",
+    "date": "2026-08-03T11:54:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Investigating three real-world incidents in Anthropic's evaluations",
     "url": "https://www.reddit.com/r/netsec/comments/1vc3djn/investigating_three_realworld_incidents_in/",
     "date": "2026-07-31T21:07:52+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-07-29T12:12:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Sixteen strangers and a shared obfuscator: mapping the wool scene",
-    "url": "https://www.reddit.com/r/netsec/comments/1va7x2g/sixteen_strangers_and_a_shared_obfuscator_mapping/",
-    "date": "2026-07-29T20:23:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1657,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
