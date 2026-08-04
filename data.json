@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-08-04T17:58:03.994Z",
+ "generatedAt": "2026-08-04T18:52:08.868Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-61515 — Puwell IP Camera firmware versions 2.x through 4.x contains an unauthenticated command injection vulnerability that allows remote attackers ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61515",
-    "score": 9.8,
-    "date": "2026-08-04T15:32:23Z"
-   },
-   {
-    "title": "CVE-2026-61514 — Puwell IP Camera firmware versions 2.x through 4.x contains an authentication bypass vulnerability that allows unauthenticated attackers to ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61514",
-    "score": 9.8,
-    "date": "2026-08-04T15:32:23Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-69256 — Remote Code Execution Vulnerability in CSVAgent",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69256",
-    "score": 9.5,
-    "date": "2026-08-04T15:46:20Z"
-   },
-   {
-    "title": "CVE-2026-69255 — Flowise: CSV Agent Remote Code Execution via Pyodide Code Injection — Root Shell Verified",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69255",
-    "score": 9.5,
-    "date": "2026-08-04T15:40:28Z"
-   },
-   {
-    "title": "CVE-2026-60007 — In Eclipse Milo versions 0.6.0 through 1.1.4, username-token processing returns distinguishable errors for invalid RSA PKCS#1 v1.5 padding a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60007",
-    "score": 9.5,
-    "date": "2026-08-04T15:32:22Z"
-   },
-   {
-    "title": "CVE-2026-18650 — Missing Authorization vulnerability in HAVELSAN Inc. Liman MYS allows Privilege Escalation. This issue affects Liman MYS: from 2.2.3 before ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18650",
-    "score": 8.8,
-    "date": "2026-08-04T15:32:23Z"
-   },
-   {
-    "title": "CVE-2026-67195 — Perspective 5.0.0 contains a remote code execution vulnerability that allows unauthenticated attackers to execute arbitrary operating system",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67195",
-    "score": 8.8,
-    "date": "2026-08-04T15:32:23Z"
-   },
-   {
-    "title": "CVE-2026-17070 — Missing Authorization vulnerability in HAVELSAN Inc. Liman MYS allows Accessing Functionality Not Properly Constrained by ACLs. This issue a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17070",
-    "score": 8.8,
-    "date": "2026-08-04T15:32:22Z"
-   },
-   {
-    "title": "CVE-2026-10710 — A maliciously crafted FBX file, when parsed through Autodesk FBX SDK, can trigger a stack-based buffer overflow vulnerability in fbxsdk::Ext",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10710",
-    "score": 7.8,
-    "date": "2026-08-04T15:32:22Z"
-   },
-   {
-    "title": "CVE-2026-10709 — A maliciously crafted FBX file, when parsed through Autodesk FBX SDK, can trigger a stack-based buffer overflow vulnerability in fbxsdk::Fbx",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10709",
-    "score": 7.8,
-    "date": "2026-08-04T15:32:22Z"
-   },
-   {
-    "title": "CVE-2026-69258 — Flowise: Unauthenticated Property Injection into Flow Execution Context via Ungated `overrideConfig` Spread in Prediction API",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69258",
+    "title": "CVE-2026-69262 — Flowise: `DELETE /api/v1/chatflows/:id` does not validate resource type, allowing `agentflows:delete` and `chatflows:delete` to delete each ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69262",
     "score": 7.5,
-    "date": "2026-08-04T15:56:11Z"
-   },
-   {
-    "title": "CVE-2026-69257 — Flowise: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69257",
-    "score": 7.5,
-    "date": "2026-08-04T15:51:58Z"
+    "date": "2026-08-04T16:50:32Z"
    }
   ],
   "kev": [
@@ -203,6 +137,13 @@
   ],
   "adv": [
    {
+    "title": "Flowise: Cross-Workspace OAuth2 Credential Metadata Leak",
+    "url": "https://github.com/advisories/GHSA-wch5-xp77-fxg4",
+    "score": 7.5,
+    "ghsa": "GHSA-wch5-xp77-fxg4",
+    "date": "2026-08-04T18:01:29Z"
+   },
+   {
     "title": "Flowise: Incomplete Credential Redaction Exposes Secrets via API",
     "url": "https://github.com/advisories/GHSA-rwrp-9823-p2xq",
     "score": 6.5,
@@ -278,13 +219,6 @@
     "score": 7.5,
     "ghsa": "GHSA-6vh2-wg4h-4vwj",
     "date": "2026-08-04T15:56:11Z"
-   },
-   {
-    "title": "Flowise: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses",
-    "url": "https://github.com/advisories/GHSA-c6xh-wv4j-ppv5",
-    "score": 7.5,
-    "ghsa": "GHSA-c6xh-wv4j-ppv5",
-    "date": "2026-08-04T15:51:58Z"
    }
   ],
   "thn": [
@@ -375,6 +309,13 @@
   ],
   "bleep": [
    {
+    "title": "77 Open VSX extensions found harvesting developer info",
+    "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+    "date": "Tue, 04 Aug 2026 14:50:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
     "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
     "date": "Tue, 04 Aug 2026 11:24:35 -0400",
@@ -450,20 +391,13 @@
     "date": "Sun, 02 Aug 2026 17:14:29 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-    "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-    "date": "Sun, 02 Aug 2026 10:17:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8505,
+    "stars": 8512,
     "lang": "TypeScript"
    },
    {
@@ -649,16 +583,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category",
-    "url": "https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/",
-    "date": "2026-08-03T23:08:09+00:00",
+    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfh4jw/the_gentlemen_affiliate_deploys_etherrat_across/",
+    "date": "2026-08-04T17:33:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
-    "url": "https://www.reddit.com/r/netsec/comments/1vfh4jw/the_gentlemen_affiliate_deploys_etherrat_across/",
-    "date": "2026-08-04T17:33:09+00:00",
+    "title": "Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category",
+    "url": "https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/",
+    "date": "2026-08-03T23:08:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +651,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 2,
   "kev": 1660,
   "adv": 12,
   "feed": 48
