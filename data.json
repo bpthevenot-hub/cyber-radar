@@ -1,66 +1,30 @@
 {
- "generatedAt": "2026-08-04T14:00:43.990Z",
+ "generatedAt": "2026-08-04T15:08:53.627Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-15721 — Cleartext storage of sensitive information vulnerability in Bilin Software and Informatics Consultancy Inc. HUMANIST Digital Human Resources",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15721",
-    "score": 9.8,
-    "date": "2026-08-04T12:34:50Z"
+    "title": "CVE-2024-7387 — Red Hat Security Advisory: OpenShift Container Platform 4.16.13 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6687",
+    "score": 9.9,
+    "date": "2026-08-04T13:04:05+00:00"
    },
    {
-    "title": "CVE-2026-14175 — Unrestricted upload of file with dangerous type vulnerability in Bilin Software and Informatics Consultancy Inc. HUMANIST Digital Human Reso",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14175",
+    "title": "CVE-2022-1471 — Red Hat Security Advisory: jenkins and jenkins-2-plugins security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0775",
     "score": 9.8,
-    "date": "2026-08-04T12:34:50Z"
+    "date": "2026-08-04T13:04:39+00:00"
    },
    {
-    "title": "CVE-2023-54292 — In the Linux kernel, the following vulnerability has been resolved: RDMA/irdma: Fix data race on CQP request done KCSAN detects a data race ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54292",
+    "title": "CVE-2020-7692 — Red Hat Security Advisory: Jenkins and Jenkins-2-plugins security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0778",
     "score": 9.8,
-    "date": "2025-12-30T15:30:35Z"
+    "date": "2026-08-04T13:04:38+00:00"
    },
    {
-    "title": "CVE-2023-54280 — In the Linux kernel, the following vulnerability has been resolved: cifs: fix potential race when tree connecting ipc Protect access of TCP_",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54280",
+    "title": "CVE-2021-26291 — Red Hat Security Advisory: jenkins and jenkins-2-plugins security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0776",
     "score": 9.8,
-    "date": "2025-12-30T15:30:34Z"
-   },
-   {
-    "title": "CVE-2023-54257 — In the Linux kernel, the following vulnerability has been resolved: net: macb: fix a memory corruption in extended buffer descriptor mode Fo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54257",
-    "score": 9.8,
-    "date": "2025-12-30T15:30:34Z"
-   },
-   {
-    "title": "CVE-2023-54258 — In the Linux kernel, the following vulnerability has been resolved: cifs: fix potential oops in cifs_oplock_break With deferred close we can",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54258",
-    "score": 9.8,
-    "date": "2025-12-30T15:30:33Z"
-   },
-   {
-    "title": "CVE-2023-54269 — In the Linux kernel, the following vulnerability has been resolved: SUNRPC: double free xprt_ctxt while still in use When an RPC request is ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54269",
-    "score": 9.8,
-    "date": "2025-12-30T15:30:33Z"
-   },
-   {
-    "title": "CVE-2023-54237 — In the Linux kernel, the following vulnerability has been resolved: net/smc: fix potential panic dues to unprotected smc_llc_srv_add_link() ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54237",
-    "score": 9.8,
-    "date": "2025-12-30T15:30:32Z"
-   },
-   {
-    "title": "CVE-2023-54223 — In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: xsk: Fix invalid buffer access for legacy rq The below crash ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54223",
-    "score": 9.8,
-    "date": "2025-12-30T15:30:32Z"
-   },
-   {
-    "title": "CVE-2023-54184 — In the Linux kernel, the following vulnerability has been resolved: scsi: target: iscsit: Free cmds before session free Commands from recove",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54184",
-    "score": 9.8,
-    "date": "2025-12-30T15:30:30Z"
+    "date": "2026-08-04T13:04:36+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -75,16 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-14804 — Use of hard-coded cryptographic key vulnerability in Bilin Software and Informatics Consultancy Inc. HUMANIST Digital Human Resources allows",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14804",
+    "title": "CVE-2023-44981 — Red Hat Security Advisory: Red Hat AMQ Broker 7.10.6 release and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0903",
     "score": 9.1,
-    "date": "2026-08-04T12:34:50Z"
+    "date": "2026-08-04T13:04:36+00:00"
    },
    {
-    "title": "CVE-2023-54203 — In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix slab-out-of-bounds in init_smb2_rsp_hdr When smb1 mount fails",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54203",
+    "title": "CVE-2023-44981 — Red Hat Security Advisory: Red Hat AMQ Broker 7.11.6 release and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0705",
     "score": 9.1,
-    "date": "2025-12-30T15:30:31Z"
+    "date": "2026-08-04T13:03:19+00:00"
+   },
+   {
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: OpenShift Container Platform 4.12.57 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2784",
+    "score": 8.6,
+    "date": "2026-08-04T13:03:51+00:00"
+   },
+   {
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: OpenShift Container Platform 4.13.42 packages and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2877",
+    "score": 8.6,
+    "date": "2026-08-04T13:03:49+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: OpenShift Container Platform 4.13.41 packages and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2049",
+    "score": 8.6,
+    "date": "2026-08-04T13:03:48+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: OpenShift Container Platform 4.14.24 packages and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2672",
+    "score": 8.6,
+    "date": "2026-08-04T13:03:47+00:00"
+   },
+   {
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: OpenShift Container Platform 4.15.12 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2669",
+    "score": 8.6,
+    "date": "2026-08-04T13:03:46+00:00"
+   },
+   {
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: OpenShift Container Platform 4.16.18 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:8260",
+    "score": 8.3,
+    "date": "2026-08-04T13:04:08+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,34 @@
   ],
   "adv": [
    {
+    "title": "Flowise: Missing authorization on `/api/v1/files` allows low-privileged API keys to list and delete files across workspaces within the same organizati",
+    "url": "https://github.com/advisories/GHSA-wp74-f5hh-5f3r",
+    "score": 7.5,
+    "ghsa": "GHSA-wp74-f5hh-5f3r",
+    "date": "2026-08-04T14:54:03Z"
+   },
+   {
+    "title": "Flowise RCE via TypeORM DataSource",
+    "url": "https://github.com/advisories/GHSA-g32j-mmxr-gfq5",
+    "score": 9.5,
+    "ghsa": "GHSA-g32j-mmxr-gfq5",
+    "date": "2026-08-04T14:28:04Z"
+   },
+   {
+    "title": "Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
+    "url": "https://github.com/advisories/GHSA-r745-8hwv-h473",
+    "score": 7.5,
+    "ghsa": "GHSA-r745-8hwv-h473",
+    "date": "2026-08-04T14:20:49Z"
+   },
+   {
+    "title": "Flowise: IDOR vulnerability exists at the GET /api/v1/organization/customer-default-source endpoint",
+    "url": "https://github.com/advisories/GHSA-2364-jh4q-m9vm",
+    "score": null,
+    "ghsa": "GHSA-2364-jh4q-m9vm",
+    "date": "2026-08-04T14:16:46Z"
+   },
+   {
     "title": "python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
     "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
     "score": null,
@@ -257,37 +285,23 @@
     "score": null,
     "ghsa": "GHSA-mq44-7p77-q5h7",
     "date": "2026-08-03T20:40:55Z"
-   },
-   {
-    "title": "Sequelize: SQL Injection (Oracle DB)",
-    "url": "https://github.com/advisories/GHSA-v8fg-2rw7-q452",
-    "score": 9.8,
-    "ghsa": "GHSA-v8fg-2rw7-q452",
-    "date": "2026-08-03T20:29:50Z"
-   },
-   {
-    "title": "Hono: ReDoS in CORS middleware via Access-Control-Request-Headers",
-    "url": "https://github.com/advisories/GHSA-8j4g-w8fx-2239",
-    "score": 5.3,
-    "ghsa": "GHSA-8j4g-w8fx-2239",
-    "date": "2026-08-03T20:23:30Z"
-   },
-   {
-    "title": "GitPython: Arbitrary file truncation via git rev-list --output argument injection in unguarded Commit.count",
-    "url": "https://github.com/advisories/GHSA-p538-c434-8v24",
-    "score": 5.4,
-    "ghsa": "GHSA-p538-c434-8v24",
-    "date": "2026-08-03T20:23:17Z"
-   },
-   {
-    "title": "GitPython: Incomplete unsafe_git_archive_options denylist omits --add-file / --add-virtual-file, enabling arbitrary file read via Repo.archive()",
-    "url": "https://github.com/advisories/GHSA-539m-9xh6-q6rr",
-    "score": 6.5,
-    "ghsa": "GHSA-539m-9xh6-q6rr",
-    "date": "2026-08-03T20:14:28Z"
    }
   ],
   "thn": [
+   {
+    "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+    "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+    "date": "Tue, 04 Aug 2026 19:00:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+    "url": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+    "date": "Tue, 04 Aug 2026 18:41:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
     "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
@@ -357,23 +371,16 @@
     "date": "Mon, 03 Aug 2026 17:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-    "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-    "date": "Mon, 03 Aug 2026 16:19:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-    "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-    "date": "Mon, 03 Aug 2026 14:43:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
+    "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+    "date": "Tue, 04 Aug 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
     "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
@@ -450,32 +457,25 @@
     "date": "Sat, 01 Aug 2026 10:20:30 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-    "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-    "date": "Fri, 31 Jul 2026 18:16:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8481,
+    "stars": 8490,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1342,
+    "stars": 1344,
     "lang": "JavaScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 394,
+    "stars": 395,
     "lang": "Rust"
    },
    {
@@ -515,16 +515,16 @@
     "lang": "—"
    },
    {
-    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
-    "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 80,
-    "lang": "Python"
-   },
-   {
     "title": "itshamzabendelladj/AIGuardSIEM — A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go",
     "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
     "stars": 79,
     "lang": "C++"
+   },
+   {
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "stars": 79,
+    "lang": "Python"
    },
    {
     "title": "bme-lyh/Codex-Skill-Manager — Review, install, update, and recover Codex Skills on Windows.",
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 8,
   "kev": 1657,
   "adv": 12,
   "feed": 48
