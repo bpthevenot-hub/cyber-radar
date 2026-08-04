@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-08-04T13:00:18.498Z",
+ "generatedAt": "2026-08-04T14:00:43.990Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-15721 — Cleartext storage of sensitive information vulnerability in Bilin Software and Informatics Consultancy Inc. HUMANIST Digital Human Resources",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15721",
+    "score": 9.8,
+    "date": "2026-08-04T12:34:50Z"
+   },
+   {
+    "title": "CVE-2026-14175 — Unrestricted upload of file with dangerous type vulnerability in Bilin Software and Informatics Consultancy Inc. HUMANIST Digital Human Reso",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14175",
+    "score": 9.8,
+    "date": "2026-08-04T12:34:50Z"
+   },
+   {
+    "title": "CVE-2023-54292 — In the Linux kernel, the following vulnerability has been resolved: RDMA/irdma: Fix data race on CQP request done KCSAN detects a data race ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54292",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:35Z"
+   },
+   {
+    "title": "CVE-2023-54280 — In the Linux kernel, the following vulnerability has been resolved: cifs: fix potential race when tree connecting ipc Protect access of TCP_",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54280",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:34Z"
+   },
+   {
+    "title": "CVE-2023-54257 — In the Linux kernel, the following vulnerability has been resolved: net: macb: fix a memory corruption in extended buffer descriptor mode Fo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54257",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:34Z"
+   },
+   {
+    "title": "CVE-2023-54258 — In the Linux kernel, the following vulnerability has been resolved: cifs: fix potential oops in cifs_oplock_break With deferred close we can",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54258",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:33Z"
+   },
+   {
+    "title": "CVE-2023-54269 — In the Linux kernel, the following vulnerability has been resolved: SUNRPC: double free xprt_ctxt while still in use When an RPC request is ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54269",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:33Z"
+   },
+   {
+    "title": "CVE-2023-54237 — In the Linux kernel, the following vulnerability has been resolved: net/smc: fix potential panic dues to unprotected smc_llc_srv_add_link() ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54237",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:32Z"
+   },
+   {
+    "title": "CVE-2023-54223 — In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: xsk: Fix invalid buffer access for legacy rq The below crash ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54223",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:32Z"
+   },
+   {
+    "title": "CVE-2023-54184 — In the Linux kernel, the following vulnerability has been resolved: scsi: target: iscsit: Free cmds before session free Commands from recove",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54184",
+    "score": 9.8,
+    "date": "2025-12-30T15:30:30Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +75,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.1.15 security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:33372",
-    "score": 9.6,
-    "date": "2026-08-04T10:44:37+00:00"
-   },
-   {
-    "title": "CVE-2024-29371 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.3.18 security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:33371",
-    "score": 9.6,
-    "date": "2026-08-04T10:44:35+00:00"
-   },
-   {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:18059",
+    "title": "CVE-2026-14804 — Use of hard-coded cryptographic key vulnerability in Bilin Software and Informatics Consultancy Inc. HUMANIST Digital Human Resources allows",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14804",
     "score": 9.1,
-    "date": "2026-08-04T10:54:47+00:00"
+    "date": "2026-08-04T12:34:50Z"
    },
    {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:18054",
+    "title": "CVE-2023-54203 — In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix slab-out-of-bounds in init_smb2_rsp_hdr When smb1 mount fails",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-54203",
     "score": 9.1,
-    "date": "2026-08-04T10:45:12+00:00"
-   },
-   {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:18055",
-    "score": 9.1,
-    "date": "2026-08-04T10:45:09+00:00"
-   },
-   {
-    "title": "CVE-2024-10234 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.23 Security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10931",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:35+00:00"
-   },
-   {
-    "title": "CVE-2024-10234 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.23 Security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10926",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:34+00:00"
-   },
-   {
-    "title": "CVE-2024-10234 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.23 Security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10925",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:33+00:00"
-   },
-   {
-    "title": "CVE-2025-2251 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.0.8 Security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10459",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:32+00:00"
-   },
-   {
-    "title": "CVE-2025-2251 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.0.8 Security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10453",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:31+00:00"
-   },
-   {
-    "title": "CVE-2025-2251 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.0.8 Security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10452",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:31+00:00"
-   },
-   {
-    "title": "CVE-2023-52428 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.4.3 for Spring Boot security update. (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:8064",
-    "score": 8.8,
-    "date": "2026-08-04T10:44:18+00:00"
+    "date": "2025-12-30T15:30:31Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8477,
+    "stars": 8481,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1339,
+    "stars": 1342,
     "lang": "JavaScript"
    },
    {
@@ -515,16 +515,16 @@
     "lang": "—"
    },
    {
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "stars": 80,
+    "lang": "Python"
+   },
+   {
     "title": "itshamzabendelladj/AIGuardSIEM — A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go",
     "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
     "stars": 79,
     "lang": "C++"
-   },
-   {
-    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
-    "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 79,
-    "lang": "Python"
    },
    {
     "title": "bme-lyh/Codex-Skill-Manager — Review, install, update, and recover Codex Skills on Windows.",
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 14,
   "kev": 1657,
   "adv": 12,
   "feed": 48
