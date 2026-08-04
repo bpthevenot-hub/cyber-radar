@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-04T21:39:47.895Z",
+ "generatedAt": "2026-08-04T23:27:56.572Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2020-0404 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+66 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:1988",
-    "score": 8.2,
-    "date": "2026-08-04T19:18:18+00:00"
-   },
-   {
-    "title": "CVE-2021-26341 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+408 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:2458",
-    "score": 8.1,
-    "date": "2026-08-04T19:17:25+00:00"
-   },
-   {
-    "title": "CVE-2022-49290 — Red Hat Security Advisory: kernel-rt security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1495",
-    "score": 7.8,
-    "date": "2026-08-04T19:18:10+00:00"
-   },
-   {
-    "title": "CVE-2022-50543 — Red Hat Security Advisory: kernel security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:22801",
-    "score": 7.8,
-    "date": "2026-08-04T19:18:07+00:00"
-   },
-   {
-    "title": "CVE-2022-50543 — Red Hat Security Advisory: kernel-rt security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:22800",
-    "score": 7.8,
-    "date": "2026-08-04T19:18:06+00:00"
-   },
-   {
-    "title": "CVE-2023-1206 — Red Hat Security Advisory: kernel security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5604",
-    "score": 7.8,
-    "date": "2026-08-04T19:18:01+00:00"
-   },
-   {
-    "title": "CVE-2023-53539 — Red Hat Security Advisory: kernel security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1445",
-    "score": 7.8,
-    "date": "2026-08-04T19:17:28+00:00"
-   },
-   {
-    "title": "CVE-2021-26341 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+197 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:2951",
-    "score": 7.8,
-    "date": "2026-08-04T19:17:25+00:00"
-   },
-   {
-    "title": "CVE-2019-14615 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2021:4356",
-    "score": 7.8,
-    "date": "2026-08-04T19:17:20+00:00"
-   },
-   {
-    "title": "CVE-2020-36558 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5627",
-    "score": 7.8,
-    "date": "2026-08-04T19:17:18+00:00"
-   },
-   {
-    "title": "CVE-2022-50341 — Red Hat Security Advisory: kernel security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2664",
+    "title": "CVE-2026-53950 — XSS in Ghost's ActivityPub client",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53950",
     "score": 7.5,
-    "date": "2026-08-04T19:18:12+00:00"
+    "date": "2026-08-04T21:54:01Z"
    },
    {
-    "title": "CVE-2022-50053 — Red Hat Security Advisory: kernel security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9870",
+    "title": "CVE-2026-48748 — Netty HTTP/3 QPACK Blocked Streams Memory Exhaustion",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48748",
     "score": 7.5,
-    "date": "2026-08-04T19:18:11+00:00"
+    "date": "2026-06-15T20:43:13Z"
+   },
+   {
+    "title": "CVE-2026-50163 — `oras-go` tar extraction: Hardlink entry with relative Linkname escapes extract dir via process CWD resolution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50163",
+    "score": 7.1,
+    "date": "2026-07-01T21:48:04Z"
+   },
+   {
+    "title": "CVE-2026-70594 — Ghost: Session Fixation in Ghost Admin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70594",
+    "score": 6.7,
+    "date": "2026-08-04T21:53:53Z"
+   },
+   {
+    "title": "CVE-2026-70593 — Ghost: Theme Upload Path Traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70593",
+    "score": 6.6,
+    "date": "2026-08-04T21:49:56Z"
+   },
+   {
+    "title": "CVE-2026-70592 — Ghost: Database Backup Path Traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70592",
+    "score": 5.5,
+    "date": "2026-08-04T21:41:33Z"
+   },
+   {
+    "title": "CVE-2026-59817 — Ghost: Paid gift memberships obtainable at minimal cost via the donations feature",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59817",
+    "score": 5.3,
+    "date": "2026-08-04T21:57:48Z"
+   },
+   {
+    "title": "CVE-2026-53947 — Ghost: Member existence leak via magic link sign-in response",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53947",
+    "score": 5.3,
+    "date": "2026-08-04T21:56:13Z"
+   },
+   {
+    "title": "CVE-2026-45045 — GoFiber Vulnerable to X-Real-IP Spoofing via Header.Add() in BalancerForward",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45045",
+    "score": 5.3,
+    "date": "2026-07-02T13:50:45Z"
+   },
+   {
+    "title": "GHSA-gj2h-2fpw-fhv9 — @nuxt/ui: UAuthForm / UForm SSR markup omits `method`, leaking credentials via GET if submitted before hydration",
+    "url": "https://github.com/advisories/GHSA-gj2h-2fpw-fhv9",
+    "score": 5,
+    "date": "2026-07-02T20:16:12Z"
+   },
+   {
+    "title": "CVE-2026-70591 — Ghost: Server-Side Request Forgery in Image Fetching",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70591",
+    "score": 4.1,
+    "date": "2026-08-04T21:38:17Z"
+   },
+   {
+    "title": "MAL-2026-11520 — Malicious code in psbt-utils (PyPI)",
+    "url": "https://github.com/advisories/MAL-2026-11520",
+    "score": null,
+    "date": "2026-08-04T10:03:35Z"
    }
   ],
   "kev": [
@@ -203,6 +203,48 @@
   ],
   "adv": [
    {
+    "title": "Ghost: Paid gift memberships obtainable at minimal cost via the donations feature",
+    "url": "https://github.com/advisories/GHSA-xm43-3m56-w3wf",
+    "score": 5.3,
+    "ghsa": "GHSA-xm43-3m56-w3wf",
+    "date": "2026-08-04T21:57:48Z"
+   },
+   {
+    "title": "Ghost: Member existence leak via magic link sign-in response",
+    "url": "https://github.com/advisories/GHSA-chgm-3698-jm42",
+    "score": 5.3,
+    "ghsa": "GHSA-chgm-3698-jm42",
+    "date": "2026-08-04T21:56:13Z"
+   },
+   {
+    "title": "XSS in Ghost's ActivityPub client",
+    "url": "https://github.com/advisories/GHSA-xpp7-93x6-v29m",
+    "score": 7.5,
+    "ghsa": "GHSA-xpp7-93x6-v29m",
+    "date": "2026-08-04T21:54:01Z"
+   },
+   {
+    "title": "Ghost: Session Fixation in Ghost Admin",
+    "url": "https://github.com/advisories/GHSA-7mpp-r37j-x5wh",
+    "score": 6.7,
+    "ghsa": "GHSA-7mpp-r37j-x5wh",
+    "date": "2026-08-04T21:53:53Z"
+   },
+   {
+    "title": "Ghost: Theme Upload Path Traversal",
+    "url": "https://github.com/advisories/GHSA-cjc9-q5gf-327p",
+    "score": 6.6,
+    "ghsa": "GHSA-cjc9-q5gf-327p",
+    "date": "2026-08-04T21:49:56Z"
+   },
+   {
+    "title": "Ghost: Database Backup Path Traversal",
+    "url": "https://github.com/advisories/GHSA-cj62-hvv2-2q5h",
+    "score": 5.5,
+    "ghsa": "GHSA-cj62-hvv2-2q5h",
+    "date": "2026-08-04T21:41:33Z"
+   },
+   {
     "title": "Ghost: Server-Side Request Forgery in Image Fetching",
     "url": "https://github.com/advisories/GHSA-gcvv-72q8-9v76",
     "score": 4.1,
@@ -243,48 +285,6 @@
     "score": 4.8,
     "ghsa": "GHSA-4wx2-7gvj-qfq3",
     "date": "2026-08-04T21:11:12Z"
-   },
-   {
-    "title": "Ghost: File Upload Content-Type Spoofing",
-    "url": "https://github.com/advisories/GHSA-944x-pm95-3jpr",
-    "score": 5.4,
-    "ghsa": "GHSA-944x-pm95-3jpr",
-    "date": "2026-08-04T21:05:39Z"
-   },
-   {
-    "title": "Ghost: Cross-Site Scripting in Universal Import",
-    "url": "https://github.com/advisories/GHSA-2gx6-7gx2-wwcf",
-    "score": 5,
-    "ghsa": "GHSA-2gx6-7gx2-wwcf",
-    "date": "2026-08-04T21:03:51Z"
-   },
-   {
-    "title": "Open WebUI: A folder write-collaborator can permanently delete the owner's chats by deleting a shared subfolder",
-    "url": "https://github.com/advisories/GHSA-3cg5-48j3-v4gv",
-    "score": 8.1,
-    "ghsa": "GHSA-3cg5-48j3-v4gv",
-    "date": "2026-08-04T20:58:12Z"
-   },
-   {
-    "title": "Open WebUI: Any authenticated user can stall a worker via a knowledge-search pattern that backtracks catastrophically",
-    "url": "https://github.com/advisories/GHSA-2f54-p244-32q6",
-    "score": 6.5,
-    "ghsa": "GHSA-2f54-p244-32q6",
-    "date": "2026-08-04T20:56:23Z"
-   },
-   {
-    "title": "Open WebUI: Stored XSS via unescaped KaTeX render-error fallback in rendered messages",
-    "url": "https://github.com/advisories/GHSA-pwxh-7358-jq2x",
-    "score": 8.7,
-    "ghsa": "GHSA-pwxh-7358-jq2x",
-    "date": "2026-08-04T20:54:17Z"
-   },
-   {
-    "title": "Open WebUI: Tool source code disclosed to read-only users via the tool list and get endpoints",
-    "url": "https://github.com/advisories/GHSA-3r7g-q6cg-q2vx",
-    "score": 6.5,
-    "ghsa": "GHSA-3r7g-q6cg-q2vx",
-    "date": "2026-08-04T20:51:41Z"
    }
   ],
   "thn": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+    "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+    "date": "Tue, 04 Aug 2026 18:18:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+    "date": "Tue, 04 Aug 2026 17:45:36 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
     "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
     "date": "Tue, 04 Aug 2026 15:03:09 -0400",
@@ -443,27 +457,13 @@
     "date": "Mon, 03 Aug 2026 11:04:39 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Inside the Underground Business of the Android BTMOB RAT malware",
-    "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
-    "date": "Mon, 03 Aug 2026 10:45:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
-    "date": "Sun, 02 Aug 2026 18:31:41 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8522,
+    "stars": 8526,
     "lang": "TypeScript"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Bugtraq is back 🥹",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/",
+    "date": "2026-08-04T22:48:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Hardware Hacking: From zero to a Pre-Auth Stack Buffer Overflow on Amazon's best-selling router",
     "url": "https://www.reddit.com/r/netsec/comments/1vfdep6/hardware_hacking_from_zero_to_a_preauth_stack/",
     "date": "2026-08-04T15:21:21+00:00",
@@ -694,13 +701,6 @@
     "title": "Full Rails RCE technical writeup... KindaRails2Shell: How a MATLAB file reads your secrets and pops a shell on Ruby on Rails | Ethiack",
     "url": "https://www.reddit.com/r/netsec/comments/1vbnvo5/full_rails_rce_technical_writeup_kindarails2shell/",
     "date": "2026-07-31T11:08:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware",
-    "url": "https://www.reddit.com/r/netsec/comments/1vbs8hf/predictable_rng_fallback_and_32bit_reseed_in/",
-    "date": "2026-07-31T14:17:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
