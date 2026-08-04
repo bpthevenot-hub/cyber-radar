@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-04T18:52:08.868Z",
+ "generatedAt": "2026-08-04T19:53:51.947Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-69262 — Flowise: `DELETE /api/v1/chatflows/:id` does not validate resource type, allowing `agentflows:delete` and `chatflows:delete` to delete each ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69262",
-    "score": 7.5,
-    "date": "2026-08-04T16:50:32Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.2 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24484",
+    "score": 9.6,
+    "date": "2026-08-04T18:08:02+00:00"
+   },
+   {
+    "title": "CVE-2026-1526 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.20.5 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21931",
+    "score": 9.6,
+    "date": "2026-08-04T18:07:54+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.20.5 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21932",
+    "score": 9.6,
+    "date": "2026-08-04T18:07:53+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:28+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:27+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:26+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:26+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:25+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:25+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:25+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:24+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-08-04T18:08:23+00:00"
    }
   ],
   "kev": [
@@ -137,6 +203,62 @@
   ],
   "adv": [
    {
+    "title": "Open WebUI: Account takeover via OAuth token exchange accepting tokens issued to any client",
+    "url": "https://github.com/advisories/GHSA-rq84-p6rr-vf89",
+    "score": 8.1,
+    "ghsa": "GHSA-rq84-p6rr-vf89",
+    "date": "2026-08-04T19:52:01Z"
+   },
+   {
+    "title": "Open WebUI: Any member with write access to a standard channel can edit or delete other members' messages",
+    "url": "https://github.com/advisories/GHSA-mj5r-jf49-m3w7",
+    "score": 5.4,
+    "ghsa": "GHSA-mj5r-jf49-m3w7",
+    "date": "2026-08-04T19:45:39Z"
+   },
+   {
+    "title": "Open WebUI: SSRF into internal services via unvalidated sub-resource requests in the Playwright web loader",
+    "url": "https://github.com/advisories/GHSA-w2rx-84hp-gg95",
+    "score": 7.7,
+    "ghsa": "GHSA-w2rx-84hp-gg95",
+    "date": "2026-08-04T19:40:48Z"
+   },
+   {
+    "title": "Flowise: Unauthenticated OAuth2 token refresh endpoint returns access tokens — enables token theft for any connected service",
+    "url": "https://github.com/advisories/GHSA-qgvm-j2hm-6m38",
+    "score": 9.5,
+    "ghsa": "GHSA-qgvm-j2hm-6m38",
+    "date": "2026-08-04T19:37:36Z"
+   },
+   {
+    "title": "Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
+    "score": 9.5,
+    "ghsa": "GHSA-5xvg-pmgg-3mxr",
+    "date": "2026-08-04T19:29:26Z"
+   },
+   {
+    "title": "Flowise: Broken Access Control in Stripe Subscription Endpoints Allows Cross-Tenant Billing Manipulation",
+    "url": "https://github.com/advisories/GHSA-gmmw-qg98-6j6p",
+    "score": 7.5,
+    "ghsa": "GHSA-gmmw-qg98-6j6p",
+    "date": "2026-08-04T19:24:07Z"
+   },
+   {
+    "title": "Flowise: Unauthenticated Credential Abuse via Text-to-Speech Endpoint Allows Unauthorized Use of Private Chatflow TTS Credentials",
+    "url": "https://github.com/advisories/GHSA-8gj2-2cvc-6xx7",
+    "score": null,
+    "ghsa": "GHSA-8gj2-2cvc-6xx7",
+    "date": "2026-08-04T19:19:44Z"
+   },
+   {
+    "title": "Flowise: Missing Authorization on Execution Update Endpoint",
+    "url": "https://github.com/advisories/GHSA-fm2f-4339-4p2f",
+    "score": 7.5,
+    "ghsa": "GHSA-fm2f-4339-4p2f",
+    "date": "2026-08-04T19:18:47Z"
+   },
+   {
     "title": "Flowise: Cross-Workspace OAuth2 Credential Metadata Leak",
     "url": "https://github.com/advisories/GHSA-wch5-xp77-fxg4",
     "score": 7.5,
@@ -163,62 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-chm3-vqcf-52rx",
     "date": "2026-08-04T17:51:48Z"
-   },
-   {
-    "title": "Flowise: RCE via CSVAgent csvFile data URI base64 segment is interpolated into Python source without validation",
-    "url": "https://github.com/advisories/GHSA-4j8x-x6v7-w9rq",
-    "score": 9.5,
-    "ghsa": "GHSA-4j8x-x6v7-w9rq",
-    "date": "2026-08-04T17:43:48Z"
-   },
-   {
-    "title": "Flowise: Authenticated arbitrary file write in the `S3 Directory` document loader via unsanitized S3 object keys",
-    "url": "https://github.com/advisories/GHSA-88pr-878c-24wf",
-    "score": 7.5,
-    "ghsa": "GHSA-88pr-878c-24wf",
-    "date": "2026-08-04T17:43:45Z"
-   },
-   {
-    "title": "Flowise: RBAC Bypass Leading to Unauthorized Workspace Variables Disclosure",
-    "url": "https://github.com/advisories/GHSA-8r8h-6vcc-xhrv",
-    "score": 7.5,
-    "ghsa": "GHSA-8r8h-6vcc-xhrv",
-    "date": "2026-08-04T17:43:36Z"
-   },
-   {
-    "title": "Flowise: Pyodide validator Unicode homoglyph bypass leads to RCE",
-    "url": "https://github.com/advisories/GHSA-52fh-8v99-63c2",
-    "score": 9.5,
-    "ghsa": "GHSA-52fh-8v99-63c2",
-    "date": "2026-08-04T17:31:09Z"
-   },
-   {
-    "title": "Flowise: CVE-2025-8943 Patch Bypass: npm_config_yes bypasses MCP environment variable blocklist (Unauthenticated RCE)",
-    "url": "https://github.com/advisories/GHSA-xc48-889x-5qmw",
-    "score": 7.5,
-    "ghsa": "GHSA-xc48-889x-5qmw",
-    "date": "2026-08-04T17:09:48Z"
-   },
-   {
-    "title": "Flowise: `DELETE /api/v1/chatflows/:id` does not validate resource type, allowing `agentflows:delete` and `chatflows:delete` to delete each other’s fl",
-    "url": "https://github.com/advisories/GHSA-p5w8-m249-4r4v",
-    "score": 7.5,
-    "ghsa": "GHSA-p5w8-m249-4r4v",
-    "date": "2026-08-04T16:50:32Z"
-   },
-   {
-    "title": "Flowise RCE via SQLite Record Manager Node",
-    "url": "https://github.com/advisories/GHSA-x3hf-7cj6-3r4m",
-    "score": 9.5,
-    "ghsa": "GHSA-x3hf-7cj6-3r4m",
-    "date": "2026-08-04T16:05:10Z"
-   },
-   {
-    "title": "Flowise: Unauthenticated Property Injection into Flow Execution Context via Ungated `overrideConfig` Spread in Prediction API",
-    "url": "https://github.com/advisories/GHSA-6vh2-wg4h-4vwj",
-    "score": 7.5,
-    "ghsa": "GHSA-6vh2-wg4h-4vwj",
-    "date": "2026-08-04T15:56:11Z"
    }
   ],
   "thn": [
@@ -309,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+    "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+    "date": "Tue, 04 Aug 2026 15:03:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "77 Open VSX extensions found harvesting developer info",
     "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
     "date": "Tue, 04 Aug 2026 14:50:55 -0400",
@@ -384,26 +457,19 @@
     "date": "Sun, 02 Aug 2026 18:31:41 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
-    "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
-    "date": "Sun, 02 Aug 2026 17:14:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8512,
+    "stars": 8517,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1354,
+    "stars": 1358,
     "lang": "JavaScript"
    },
    {
@@ -421,7 +487,7 @@
    {
     "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
     "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 302,
+    "stars": 303,
     "lang": "TypeScript"
    },
    {
@@ -576,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "HEVD: From Stack Overflows to Modern Pool Grooming",
-    "url": "https://www.reddit.com/r/netsec/comments/1vf5zwc/hevd_from_stack_overflows_to_modern_pool_grooming/",
-    "date": "2026-08-04T10:01:24+00:00",
+    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfh4jw/the_gentlemen_affiliate_deploys_etherrat_across/",
+    "date": "2026-08-04T17:33:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
-    "url": "https://www.reddit.com/r/netsec/comments/1vfh4jw/the_gentlemen_affiliate_deploys_etherrat_across/",
-    "date": "2026-08-04T17:33:09+00:00",
+    "title": "HEVD: From Stack Overflows to Modern Pool Grooming",
+    "url": "https://www.reddit.com/r/netsec/comments/1vf5zwc/hevd_from_stack_overflows_to_modern_pool_grooming/",
+    "date": "2026-08-04T10:01:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1660,
   "adv": 12,
   "feed": 48
