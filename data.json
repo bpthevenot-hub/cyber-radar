@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-08-03T23:41:31.804Z",
+ "generatedAt": "2026-08-04T00:55:44.408Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2022-3064 — Red Hat Security Advisory: container-tools:rhel8 security and bug fix update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6939",
-    "score": 9.8,
-    "date": "2026-08-03T22:10:13+00:00"
-   },
-   {
-    "title": "CVE-2022-3064 — Red Hat Security Advisory: container-tools:4.0 security and bug fix update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6938",
-    "score": 9.8,
-    "date": "2026-08-03T22:10:12+00:00"
-   },
-   {
-    "title": "CVE-2022-0759 — Red Hat Security Advisory: Satellite 6.14 security and bug fix update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6818",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:49+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: podman security, bug fix, and enhancement update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6474",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:41+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: buildah security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6473",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:40+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: containernetworking-plugins security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6402",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:40+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: skopeo security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6363",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:38+00:00"
-   },
-   {
-    "title": "CVE-2022-25857 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.13 OpenShift Jenkins security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6179",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:22+00:00"
-   },
-   {
-    "title": "CVE-2020-7692 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6172",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:18+00:00"
-   },
-   {
-    "title": "CVE-2022-1471 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.11 Openshift Jenkins security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6171",
-    "score": 9.8,
-    "date": "2026-08-03T22:09:17+00:00"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2021-43784 — Red Hat Security Advisory: runc security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6380",
-    "score": 7.8,
-    "date": "2026-08-03T22:09:40+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh Containers for 2.2.12 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7215",
-    "score": 7.5,
-    "date": "2026-08-03T22:10:19+00:00"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -375,6 +290,20 @@
   ],
   "bleep": [
    {
+    "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+    "date": "Mon, 03 Aug 2026 20:17:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
+    "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+    "date": "Mon, 03 Aug 2026 19:58:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
     "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
     "date": "Mon, 03 Aug 2026 16:01:22 -0400",
@@ -443,33 +372,19 @@
     "date": "Fri, 31 Jul 2026 18:16:42 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Arch Linux disables AUR package adoption to stop malware flood",
-    "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-    "date": "Fri, 31 Jul 2026 17:38:08 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-    "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-    "date": "Fri, 31 Jul 2026 17:09:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8370,
+    "stars": 8377,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1242,
+    "stars": 1247,
     "lang": "JavaScript"
    },
    {
@@ -635,16 +550,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "SQLite Critical CVEs or LLM Slop?",
-    "url": "https://www.reddit.com/r/netsec/comments/1veedqw/sqlite_critical_cves_or_llm_slop/",
-    "date": "2026-08-03T14:04:17+00:00",
+    "title": "Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category",
+    "url": "https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/",
+    "date": "2026-08-03T23:08:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category",
-    "url": "https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/",
-    "date": "2026-08-03T23:08:09+00:00",
+    "title": "SQLite Critical CVEs or LLM Slop?",
+    "url": "https://www.reddit.com/r/netsec/comments/1veedqw/sqlite_critical_cves_or_llm_slop/",
+    "date": "2026-08-03T14:04:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 0,
   "kev": 1657,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
