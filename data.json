@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-05T21:36:25.654Z",
+ "generatedAt": "2026-08-05T23:25:33.849Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-70615 — boringproxy through 0.10.0 contains a newline injection vulnerability that allows authenticated low-privileged users with tunnel-creation pe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70615",
+    "score": 9.9,
+    "date": "2026-08-05T21:31:39Z"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-08-05T21:40:08+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
-    "score": 9.4,
-    "date": "2026-08-05T20:40:30+00:00"
-   },
-   {
     "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:47735",
     "score": 9.4,
-    "date": "2026-08-05T20:40:28+00:00"
+    "date": "2026-08-05T21:40:24+00:00"
    },
    {
     "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:50843",
     "score": 9.1,
-    "date": "2026-08-05T20:40:34+00:00"
+    "date": "2026-08-05T21:40:26+00:00"
    },
    {
     "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:47952",
     "score": 9.1,
-    "date": "2026-08-05T20:40:33+00:00"
-   },
-   {
-    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
-    "score": 9.1,
-    "date": "2026-08-05T20:40:24+00:00"
+    "date": "2026-08-05T21:40:24+00:00"
    },
    {
     "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:43038",
     "score": 9.1,
-    "date": "2026-08-05T20:40:23+00:00"
+    "date": "2026-08-05T21:40:22+00:00"
    },
    {
     "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:42644",
     "score": 9.1,
-    "date": "2026-08-05T20:40:22+00:00"
+    "date": "2026-08-05T21:40:20+00:00"
    },
    {
-    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
     "score": 9.1,
-    "date": "2026-08-05T20:40:21+00:00"
+    "date": "2026-08-05T21:40:18+00:00"
    },
    {
     "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:42132",
     "score": 9.1,
-    "date": "2026-08-05T20:40:20+00:00"
+    "date": "2026-08-05T21:40:16+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
+    "score": 9.1,
+    "date": "2026-08-05T21:40:16+00:00"
    },
    {
     "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:41928",
     "score": 9.1,
-    "date": "2026-08-05T20:40:18+00:00"
+    "date": "2026-08-05T21:40:14+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.4.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34364",
     "score": 9.1,
-    "date": "2026-08-05T20:37:04+00:00"
-   },
-   {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
-    "score": 9,
-    "date": "2026-08-05T20:40:20+00:00"
+    "date": "2026-08-05T21:40:08+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "Traefik CRD IngressRouteTCP ServersTransport Cross-Provider Namespace Bypass",
+    "url": "https://github.com/advisories/GHSA-42cj-m3vj-89wv",
+    "score": null,
+    "ghsa": "GHSA-42cj-m3vj-89wv",
+    "date": "2026-08-05T21:53:35Z"
+   },
+   {
+    "title": "Traefik Gateway API HTTPRoute BackendRef ExtensionRef Namespace Confusion",
+    "url": "https://github.com/advisories/GHSA-qq9q-x9w4-chhj",
+    "score": null,
+    "ghsa": "GHSA-qq9q-x9w4-chhj",
+    "date": "2026-08-05T21:49:19Z"
+   },
+   {
+    "title": "Nuxt: Unauthenticated CPU exhaustion parsing and hashing the Nuxt island endpoint body before hash validation",
+    "url": "https://github.com/advisories/GHSA-9pgf-384g-p7mv",
+    "score": 7.5,
+    "ghsa": "GHSA-9pgf-384g-p7mv",
+    "date": "2026-08-05T21:43:03Z"
+   },
+   {
     "title": "Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
     "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
     "score": 8.1,
@@ -264,27 +285,6 @@
     "score": 3.1,
     "ghsa": "GHSA-gx4c-2hqx-cw2r",
     "date": "2026-08-05T20:43:11Z"
-   },
-   {
-    "title": "rclone `serve restic --private-repos` authorization bypass: `..` in the URL path lets an authenticated user read, overwrite and delete other users' re",
-    "url": "https://github.com/advisories/GHSA-fqj9-69pf-6pjg",
-    "score": 8.8,
-    "ghsa": "GHSA-fqj9-69pf-6pjg",
-    "date": "2026-08-05T20:41:22Z"
-   },
-   {
-    "title": "rclone: PowerShell Smart-Quote Filename Injection Enables SFTP Server-Side Command Execution",
-    "url": "https://github.com/advisories/GHSA-2m8m-jhrm-w6j2",
-    "score": 8,
-    "ghsa": "GHSA-2m8m-jhrm-w6j2",
-    "date": "2026-08-05T20:37:56Z"
-   },
-   {
-    "title": "rclone: WebDAV Credentials Survive a Same-Host HTTPS-to-HTTP Redirect",
-    "url": "https://github.com/advisories/GHSA-h4mf-4v27-hggj",
-    "score": 5.3,
-    "ghsa": "GHSA-h4mf-4v27-hggj",
-    "date": "2026-08-05T20:36:10Z"
    }
   ],
   "thn": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+    "date": "Wed, 05 Aug 2026 19:00:50 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+    "date": "Wed, 05 Aug 2026 17:53:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
     "date": "Wed, 05 Aug 2026 15:55:25 -0400",
@@ -443,33 +457,19 @@
     "date": "Tue, 04 Aug 2026 14:50:55 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-    "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-    "date": "Tue, 04 Aug 2026 11:24:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
-    "url": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
-    "date": "Tue, 04 Aug 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8607,
+    "stars": 8612,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1400,
+    "stars": 1401,
     "lang": "JavaScript"
    },
    {
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
-    "date": "2026-08-05T14:38:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "New Linux Bridge STP Vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1vg20wg/new_linux_bridge_stp_vulnerability/",
     "date": "2026-08-05T09:04:29+00:00",
@@ -649,9 +642,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "OpenAI agents rebuilt a secret message board after the company shut it down",
-    "url": "https://www.reddit.com/r/netsec/comments/1vgkb8k/openai_agents_rebuilt_a_secret_message_board/",
-    "date": "2026-08-05T21:17:05+00:00",
+    "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
+    "date": "2026-08-05T14:38:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -659,6 +652,13 @@
     "title": "Bugtraq is back 🥹",
     "url": "https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/",
     "date": "2026-08-04T22:48:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "OpenAI agents rebuilt a secret message board after the company shut it down",
+    "url": "https://www.reddit.com/r/netsec/comments/1vgkb8k/openai_agents_rebuilt_a_secret_message_board/",
+    "date": "2026-08-05T21:17:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
