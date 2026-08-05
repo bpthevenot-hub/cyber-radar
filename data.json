@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T09:59:36.581Z",
+ "generatedAt": "2026-08-05T12:19:20.129Z",
  "sources": {
   "cve": [
    {
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+    "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+    "date": "Wed, 05 Aug 2026 16:34:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+    "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+    "date": "Wed, 05 Aug 2026 16:05:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+    "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+    "date": "Wed, 05 Aug 2026 14:53:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
     "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
     "date": "Wed, 05 Aug 2026 13:23:50 +0530",
@@ -348,27 +369,6 @@
     "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
     "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
     "date": "Tue, 04 Aug 2026 16:06:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-    "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-    "date": "Tue, 04 Aug 2026 14:33:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-    "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-    "date": "Tue, 04 Aug 2026 12:30:13 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-    "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-    "date": "Tue, 04 Aug 2026 00:13:53 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8566,
+    "stars": 8573,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1385,
+    "stars": 1388,
     "lang": "JavaScript"
    },
    {
@@ -511,8 +511,14 @@
    {
     "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
     "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
-    "stars": 95,
+    "stars": 96,
     "lang": "—"
+   },
+   {
+    "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
+    "url": "https://github.com/domaup/coldcard-poc",
+    "stars": 95,
+    "lang": "Python"
    },
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
@@ -525,12 +531,6 @@
     "url": "https://github.com/itshamzabendelladj/AIGuardSIEM",
     "stars": 79,
     "lang": "C++"
-   },
-   {
-    "title": "bme-lyh/Codex-Skill-Manager — Review, install, update, and recover Codex Skills on Windows.",
-    "url": "https://github.com/bme-lyh/Codex-Skill-Manager",
-    "stars": 78,
-    "lang": "Go"
    }
   ],
   "hn": [
