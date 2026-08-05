@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T19:58:12.457Z",
+ "generatedAt": "2026-08-05T21:36:25.654Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-44605 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:33507",
-    "score": 5.5,
-    "date": "2026-08-05T17:29:13+00:00"
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-08-05T20:40:30+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-05T20:40:28+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:34+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:33+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:24+00:00"
+   },
+   {
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:23+00:00"
+   },
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:22+00:00"
+   },
+   {
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:21+00:00"
+   },
+   {
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:20+00:00"
+   },
+   {
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-08-05T20:40:18+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-05T20:37:04+00:00"
+   },
+   {
+    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
+    "score": 9,
+    "date": "2026-08-05T20:40:20+00:00"
    }
   ],
   "kev": [
@@ -137,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Electron: Sandboxed iframes can launch external protocol handlers",
-    "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
-    "score": 5.4,
-    "ghsa": "GHSA-p2rr-rvmm-c5fp",
-    "date": "2026-08-05T17:56:50Z"
+    "title": "Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
+    "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
+    "score": 8.1,
+    "ghsa": "GHSA-9473-5f9j-94wq",
+    "date": "2026-08-05T21:29:55Z"
    },
    {
-    "title": "Electron: DevTools embedder handler executes arbitrary files via shell open",
-    "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
-    "score": 6.9,
-    "ghsa": "GHSA-f2r8-jv7c-xqmp",
-    "date": "2026-08-05T17:49:14Z"
+    "title": "Unauthenticated Nuxt DevTools RPC allows arbitrary command execution on the developer's host",
+    "url": "https://github.com/advisories/GHSA-279x-mwfv-vcqv",
+    "score": 9.6,
+    "ghsa": "GHSA-279x-mwfv-vcqv",
+    "date": "2026-08-05T21:27:39Z"
    },
    {
-    "title": "Electron: contextBridge object copy honors prototype setters",
-    "url": "https://github.com/advisories/GHSA-ff2p-hmqr-hxm4",
-    "score": 5.4,
-    "ghsa": "GHSA-ff2p-hmqr-hxm4",
-    "date": "2026-08-05T17:41:20Z"
+    "title": "Nuxt: Unauthorized Component Instantiation via Server Island Props",
+    "url": "https://github.com/advisories/GHSA-48hr-524c-v5w3",
+    "score": 4.8,
+    "ghsa": "GHSA-48hr-524c-v5w3",
+    "date": "2026-08-05T21:21:33Z"
    },
    {
-    "title": "Electron: DevTools JavaScript Injection via Unsanitized Dock State Parameter",
-    "url": "https://github.com/advisories/GHSA-4f78-qhmw-8j8m",
-    "score": 5.7,
-    "ghsa": "GHSA-4f78-qhmw-8j8m",
-    "date": "2026-08-05T17:32:47Z"
-   },
-   {
-    "title": "Electron: Sandboxed iframe can bypass the allow-popups restriction via the OpenURL navigation path",
-    "url": "https://github.com/advisories/GHSA-9f4c-93c8-jc8g",
-    "score": 7.2,
-    "ghsa": "GHSA-9f4c-93c8-jc8g",
-    "date": "2026-08-05T17:27:18Z"
-   },
-   {
-    "title": "Electron: window.open features string controls some window options considered privileged",
-    "url": "https://github.com/advisories/GHSA-v93f-fgjr-hjrj",
-    "score": 5.3,
-    "ghsa": "GHSA-v93f-fgjr-hjrj",
-    "date": "2026-08-05T16:24:17Z"
-   },
-   {
-    "title": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
-    "url": "https://github.com/advisories/GHSA-r4w5-6pfg-jxp5",
-    "score": 5.9,
-    "ghsa": "GHSA-r4w5-6pfg-jxp5",
-    "date": "2026-08-05T16:07:59Z"
-   },
-   {
-    "title": "Electron: HTTP redirect followed into local file loader",
-    "url": "https://github.com/advisories/GHSA-v64r-4m7r-3mvq",
-    "score": 5.9,
-    "ghsa": "GHSA-v64r-4m7r-3mvq",
-    "date": "2026-08-05T16:04:09Z"
-   },
-   {
-    "title": "Electron: Custom protocol with supportFetchAPI but not corsEnabled allows cross-origin reads",
-    "url": "https://github.com/advisories/GHSA-v3j7-r9gq-3gjw",
-    "score": 7.4,
-    "ghsa": "GHSA-v3j7-r9gq-3gjw",
-    "date": "2026-08-05T15:59:45Z"
-   },
-   {
-    "title": "Electron: Extension tab APIs operate across session boundaries",
-    "url": "https://github.com/advisories/GHSA-m55f-7gqj-fr98",
-    "score": 6.6,
-    "ghsa": "GHSA-m55f-7gqj-fr98",
-    "date": "2026-08-05T15:57:11Z"
-   },
-   {
-    "title": "Electron: shell.openPath path validation bypass via embedded null byte",
-    "url": "https://github.com/advisories/GHSA-5c9j-mhmv-5xgx",
-    "score": 6,
-    "ghsa": "GHSA-5c9j-mhmv-5xgx",
-    "date": "2026-08-05T15:57:03Z"
-   },
-   {
-    "title": "Electron: Context isolation bypass via Function.prototype.bind hijack",
-    "url": "https://github.com/advisories/GHSA-h7rp-cf8h-j98x",
+    "title": "Nuxt runtime payload cache discloses another user's SSR data across users and to unauthenticated clients",
+    "url": "https://github.com/advisories/GHSA-wm8w-6qjm-cv43",
     "score": 7.5,
-    "ghsa": "GHSA-h7rp-cf8h-j98x",
-    "date": "2026-08-05T15:46:08Z"
+    "ghsa": "GHSA-wm8w-6qjm-cv43",
+    "date": "2026-08-05T21:14:33Z"
+   },
+   {
+    "title": "Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
+    "url": "https://github.com/advisories/GHSA-hxvh-4h3w-prp9",
+    "score": 8.2,
+    "ghsa": "GHSA-hxvh-4h3w-prp9",
+    "date": "2026-08-05T21:05:18Z"
+   },
+   {
+    "title": "Nuxt: Unauthenticated out-of-memory crash via unbounded v-for expansion in island rendering",
+    "url": "https://github.com/advisories/GHSA-hxcr-hm88-mpq6",
+    "score": 7.5,
+    "ghsa": "GHSA-hxcr-hm88-mpq6",
+    "date": "2026-08-05T20:59:04Z"
+   },
+   {
+    "title": "rclone: Local Encoding Path Traversal",
+    "url": "https://github.com/advisories/GHSA-7p4m-qxvv-g567",
+    "score": 6.9,
+    "ghsa": "GHSA-7p4m-qxvv-g567",
+    "date": "2026-08-05T20:48:46Z"
+   },
+   {
+    "title": "rclone archive extract allows S3 destination prefix escape via crafted archive paths",
+    "url": "https://github.com/advisories/GHSA-4vr5-p2gc-h23p",
+    "score": 5,
+    "ghsa": "GHSA-4vr5-p2gc-h23p",
+    "date": "2026-08-05T20:43:47Z"
+   },
+   {
+    "title": "rclone: S3 backend does not strip X-Amz-Security-Token on a same-host HTTPS->HTTP redirect",
+    "url": "https://github.com/advisories/GHSA-gx4c-2hqx-cw2r",
+    "score": 3.1,
+    "ghsa": "GHSA-gx4c-2hqx-cw2r",
+    "date": "2026-08-05T20:43:11Z"
+   },
+   {
+    "title": "rclone `serve restic --private-repos` authorization bypass: `..` in the URL path lets an authenticated user read, overwrite and delete other users' re",
+    "url": "https://github.com/advisories/GHSA-fqj9-69pf-6pjg",
+    "score": 8.8,
+    "ghsa": "GHSA-fqj9-69pf-6pjg",
+    "date": "2026-08-05T20:41:22Z"
+   },
+   {
+    "title": "rclone: PowerShell Smart-Quote Filename Injection Enables SFTP Server-Side Command Execution",
+    "url": "https://github.com/advisories/GHSA-2m8m-jhrm-w6j2",
+    "score": 8,
+    "ghsa": "GHSA-2m8m-jhrm-w6j2",
+    "date": "2026-08-05T20:37:56Z"
+   },
+   {
+    "title": "rclone: WebDAV Credentials Survive a Same-Host HTTPS-to-HTTP Redirect",
+    "url": "https://github.com/advisories/GHSA-h4mf-4v27-hggj",
+    "score": 5.3,
+    "ghsa": "GHSA-h4mf-4v27-hggj",
+    "date": "2026-08-05T20:36:10Z"
    }
   ],
   "thn": [
@@ -397,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8605,
+    "stars": 8607,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1399,
+    "stars": 1400,
     "lang": "JavaScript"
    },
    {
@@ -569,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
+    "date": "2026-08-05T14:38:12+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "New Linux Bridge STP Vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1vg20wg/new_linux_bridge_stp_vulnerability/",
     "date": "2026-08-05T09:04:29+00:00",
@@ -576,9 +649,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
-    "date": "2026-08-05T14:38:12+00:00",
+    "title": "OpenAI agents rebuilt a secret message board after the company shut it down",
+    "url": "https://www.reddit.com/r/netsec/comments/1vgkb8k/openai_agents_rebuilt_a_secret_message_board/",
+    "date": "2026-08-05T21:17:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -630,13 +703,6 @@
     "date": "2026-08-03T11:54:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The Risk of Fine-Tuned Open-Weight Models · MSec Operations Blog",
-    "url": "https://www.reddit.com/r/netsec/comments/1vdqe9d/the_risk_of_finetuned_openweight_models_msec/",
-    "date": "2026-08-02T19:00:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1661,
   "adv": 12,
   "feed": 48
