@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T15:31:33.807Z",
+ "generatedAt": "2026-08-05T17:55:57.375Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,105 @@
   ],
   "adv": [
    {
-    "title": "Electron: Off-screen rendering trusts GPU-supplied geometry over shared-memory size",
-    "url": "https://github.com/advisories/GHSA-pfmc-3mgc-p6fp",
-    "score": 3.9,
-    "ghsa": "GHSA-pfmc-3mgc-p6fp",
-    "date": "2026-08-05T15:27:27Z"
+    "title": "Electron: DevTools embedder handler executes arbitrary files via shell open",
+    "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
+    "score": 6.9,
+    "ghsa": "GHSA-f2r8-jv7c-xqmp",
+    "date": "2026-08-05T17:49:14Z"
    },
    {
-    "title": "Electron: Parent process code-sign check is spoofable",
-    "url": "https://github.com/advisories/GHSA-jm7p-cc5g-qwxx",
-    "score": 6.3,
-    "ghsa": "GHSA-jm7p-cc5g-qwxx",
-    "date": "2026-08-05T15:21:22Z"
+    "title": "Electron: contextBridge object copy honors prototype setters",
+    "url": "https://github.com/advisories/GHSA-ff2p-hmqr-hxm4",
+    "score": 5.4,
+    "ghsa": "GHSA-ff2p-hmqr-hxm4",
+    "date": "2026-08-05T17:41:20Z"
    },
    {
-    "title": "Ghost Content API filter bypass reveals private fields",
-    "url": "https://github.com/advisories/GHSA-jx35-x7fj-vgpr",
+    "title": "Electron: DevTools JavaScript Injection via Unsanitized Dock State Parameter",
+    "url": "https://github.com/advisories/GHSA-4f78-qhmw-8j8m",
+    "score": 5.7,
+    "ghsa": "GHSA-4f78-qhmw-8j8m",
+    "date": "2026-08-05T17:32:47Z"
+   },
+   {
+    "title": "Electron: Sandboxed iframe can bypass the allow-popups restriction via the OpenURL navigation path",
+    "url": "https://github.com/advisories/GHSA-9f4c-93c8-jc8g",
+    "score": 7.2,
+    "ghsa": "GHSA-9f4c-93c8-jc8g",
+    "date": "2026-08-05T17:27:18Z"
+   },
+   {
+    "title": "Electron: window.open features string controls some window options considered privileged",
+    "url": "https://github.com/advisories/GHSA-v93f-fgjr-hjrj",
     "score": 5.3,
-    "ghsa": "GHSA-jx35-x7fj-vgpr",
-    "date": "2026-08-05T14:42:47Z"
+    "ghsa": "GHSA-v93f-fgjr-hjrj",
+    "date": "2026-08-05T16:24:17Z"
    },
    {
-    "title": "Ghost: Cross-Site Scripting in Feature Image Captions",
-    "url": "https://github.com/advisories/GHSA-pr22-p9rp-2cqv",
-    "score": 4.3,
-    "ghsa": "GHSA-pr22-p9rp-2cqv",
-    "date": "2026-08-05T14:40:15Z"
+    "title": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+    "url": "https://github.com/advisories/GHSA-r4w5-6pfg-jxp5",
+    "score": 5.9,
+    "ghsa": "GHSA-r4w5-6pfg-jxp5",
+    "date": "2026-08-05T16:07:59Z"
    },
    {
-    "title": "Ghost: Server-Side Request Forgery Mitigation Issue",
-    "url": "https://github.com/advisories/GHSA-x5mm-wm4g-j5xv",
-    "score": 4,
-    "ghsa": "GHSA-x5mm-wm4g-j5xv",
-    "date": "2026-08-05T14:37:14Z"
+    "title": "Electron: HTTP redirect followed into local file loader",
+    "url": "https://github.com/advisories/GHSA-v64r-4m7r-3mvq",
+    "score": 5.9,
+    "ghsa": "GHSA-v64r-4m7r-3mvq",
+    "date": "2026-08-05T16:04:09Z"
    },
    {
-    "title": "Ghost: Paid gift memberships obtainable at minimal cost via the donations feature",
-    "url": "https://github.com/advisories/GHSA-xm43-3m56-w3wf",
-    "score": 5.3,
-    "ghsa": "GHSA-xm43-3m56-w3wf",
-    "date": "2026-08-04T21:57:48Z"
+    "title": "Electron: Custom protocol with supportFetchAPI but not corsEnabled allows cross-origin reads",
+    "url": "https://github.com/advisories/GHSA-v3j7-r9gq-3gjw",
+    "score": 7.4,
+    "ghsa": "GHSA-v3j7-r9gq-3gjw",
+    "date": "2026-08-05T15:59:45Z"
    },
    {
-    "title": "Ghost: Member existence leak via magic link sign-in response",
-    "url": "https://github.com/advisories/GHSA-chgm-3698-jm42",
-    "score": 5.3,
-    "ghsa": "GHSA-chgm-3698-jm42",
-    "date": "2026-08-04T21:56:13Z"
-   },
-   {
-    "title": "XSS in Ghost's ActivityPub client",
-    "url": "https://github.com/advisories/GHSA-xpp7-93x6-v29m",
-    "score": 7.5,
-    "ghsa": "GHSA-xpp7-93x6-v29m",
-    "date": "2026-08-04T21:54:01Z"
-   },
-   {
-    "title": "Ghost: Session Fixation in Ghost Admin",
-    "url": "https://github.com/advisories/GHSA-7mpp-r37j-x5wh",
-    "score": 6.7,
-    "ghsa": "GHSA-7mpp-r37j-x5wh",
-    "date": "2026-08-04T21:53:53Z"
-   },
-   {
-    "title": "Ghost: Theme Upload Path Traversal",
-    "url": "https://github.com/advisories/GHSA-cjc9-q5gf-327p",
+    "title": "Electron: Extension tab APIs operate across session boundaries",
+    "url": "https://github.com/advisories/GHSA-m55f-7gqj-fr98",
     "score": 6.6,
-    "ghsa": "GHSA-cjc9-q5gf-327p",
-    "date": "2026-08-04T21:49:56Z"
+    "ghsa": "GHSA-m55f-7gqj-fr98",
+    "date": "2026-08-05T15:57:11Z"
    },
    {
-    "title": "Ghost: Database Backup Path Traversal",
-    "url": "https://github.com/advisories/GHSA-cj62-hvv2-2q5h",
-    "score": 5.5,
-    "ghsa": "GHSA-cj62-hvv2-2q5h",
-    "date": "2026-08-04T21:41:33Z"
+    "title": "Electron: shell.openPath path validation bypass via embedded null byte",
+    "url": "https://github.com/advisories/GHSA-5c9j-mhmv-5xgx",
+    "score": 6,
+    "ghsa": "GHSA-5c9j-mhmv-5xgx",
+    "date": "2026-08-05T15:57:03Z"
    },
    {
-    "title": "Ghost: Server-Side Request Forgery in Image Fetching",
-    "url": "https://github.com/advisories/GHSA-gcvv-72q8-9v76",
-    "score": 4.1,
-    "ghsa": "GHSA-gcvv-72q8-9v76",
-    "date": "2026-08-04T21:38:17Z"
+    "title": "Electron: Context isolation bypass via Function.prototype.bind hijack",
+    "url": "https://github.com/advisories/GHSA-h7rp-cf8h-j98x",
+    "score": 7.5,
+    "ghsa": "GHSA-h7rp-cf8h-j98x",
+    "date": "2026-08-05T15:46:08Z"
+   },
+   {
+    "title": "Electron: Cross-origin iframe can position native autofill popup",
+    "url": "https://github.com/advisories/GHSA-x8rc-wpg4-grpf",
+    "score": 3.1,
+    "ghsa": "GHSA-x8rc-wpg4-grpf",
+    "date": "2026-08-05T15:40:32Z"
    }
   ],
   "thn": [
+   {
+    "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+    "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+    "date": "Wed, 05 Aug 2026 21:06:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+    "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+    "date": "Wed, 05 Aug 2026 20:44:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
     "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
@@ -224,7 +238,7 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
+    "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
     "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
     "date": "Wed, 05 Aug 2026 19:11:27 +0530",
     "badge": "THREAT",
@@ -285,23 +299,23 @@
     "date": "Wed, 05 Aug 2026 11:17:19 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-    "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-    "date": "Tue, 04 Aug 2026 22:57:39 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-    "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-    "date": "Tue, 04 Aug 2026 19:00:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "COLDCARD security audit phishing attack installs remote access tool",
+    "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+    "date": "Wed, 05 Aug 2026 13:49:41 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+    "date": "Wed, 05 Aug 2026 11:51:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Google Blogger locks hundreds of blogs in malware false positive",
     "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
@@ -371,39 +385,25 @@
     "date": "Mon, 03 Aug 2026 20:17:15 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-    "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-    "date": "Mon, 03 Aug 2026 19:58:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-    "url": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-    "date": "Mon, 03 Aug 2026 16:01:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8587,
+    "stars": 8597,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1393,
+    "stars": 1396,
     "lang": "JavaScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 395,
+    "stars": 389,
     "lang": "Rust"
    },
    {
@@ -439,7 +439,7 @@
    {
     "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
     "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 105,
+    "stars": 119,
     "lang": "Python"
    },
    {
@@ -570,16 +570,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Bugtraq is back 🥹",
-    "url": "https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/",
-    "date": "2026-08-04T22:48:37+00:00",
+    "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
+    "date": "2026-08-05T14:38:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
-    "date": "2026-08-05T14:38:12+00:00",
+    "title": "Bugtraq is back 🥹",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/",
+    "date": "2026-08-04T22:48:37+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1660,
+  "kev": 1661,
   "adv": 12,
   "feed": 48
  },
