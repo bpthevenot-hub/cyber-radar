@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-04T23:27:56.572Z",
+ "generatedAt": "2026-08-05T03:38:48.664Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-7387 — Red Hat Security Advisory: OpenShift Container Platform 4.16.13 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6687",
+    "score": 9.9,
+    "date": "2026-08-05T03:16:53+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-53950 — XSS in Ghost's ActivityPub client",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53950",
-    "score": 7.5,
-    "date": "2026-08-04T21:54:01Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: updated web-terminal/tooling container image (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:15828",
+    "score": 9.1,
+    "date": "2026-08-05T03:17:29+00:00"
    },
    {
-    "title": "CVE-2026-48748 — Netty HTTP/3 QPACK Blocked Streams Memory Exhaustion",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48748",
-    "score": 7.5,
-    "date": "2026-06-15T20:43:13Z"
+    "title": "CVE-2021-35065 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.24.0 Release. (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:19094",
+    "score": 8.8,
+    "date": "2026-08-05T03:17:29+00:00"
    },
    {
-    "title": "CVE-2026-50163 — `oras-go` tar extraction: Hardlink entry with relative Linkname escapes extract dir via process CWD resolution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50163",
-    "score": 7.1,
-    "date": "2026-07-01T21:48:04Z"
+    "title": "CVE-2023-29401 — Red Hat Security Advisory: OpenShift Container Platform 4.14.39 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:8235",
+    "score": 8.8,
+    "date": "2026-08-05T03:17:03+00:00"
    },
    {
-    "title": "CVE-2026-70594 — Ghost: Session Fixation in Ghost Admin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70594",
-    "score": 6.7,
-    "date": "2026-08-04T21:53:53Z"
+    "title": "CVE-2023-3462 — Red Hat Security Advisory: OpenShift Container Platform 4.17.1 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7922",
+    "score": 8.8,
+    "date": "2026-08-05T03:17:00+00:00"
    },
    {
-    "title": "CVE-2026-70593 — Ghost: Theme Upload Path Traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70593",
-    "score": 6.6,
-    "date": "2026-08-04T21:49:56Z"
+    "title": "CVE-2022-21698 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes 2.12.6 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:22684",
+    "score": 8.5,
+    "date": "2026-08-05T03:17:35+00:00"
    },
    {
-    "title": "CVE-2026-70592 — Ghost: Database Backup Path Traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70592",
-    "score": 5.5,
-    "date": "2026-08-04T21:41:33Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: OpenShift Container Platform 4.15.37 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:8425",
+    "score": 8.3,
+    "date": "2026-08-05T03:17:10+00:00"
    },
    {
-    "title": "CVE-2026-59817 — Ghost: Paid gift memberships obtainable at minimal cost via the donations feature",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59817",
-    "score": 5.3,
-    "date": "2026-08-04T21:57:48Z"
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: OpenShift Container Platform 4.16.18 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:8260",
+    "score": 8.3,
+    "date": "2026-08-05T03:17:03+00:00"
    },
    {
-    "title": "CVE-2026-53947 — Ghost: Member existence leak via magic link sign-in response",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53947",
-    "score": 5.3,
-    "date": "2026-08-04T21:56:13Z"
+    "title": "CVE-2019-25211 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.8.4 security and bug fix update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7164",
+    "score": 8.3,
+    "date": "2026-08-05T03:16:57+00:00"
    },
    {
-    "title": "CVE-2026-45045 — GoFiber Vulnerable to X-Real-IP Spoofing via Header.Add() in BalancerForward",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45045",
-    "score": 5.3,
-    "date": "2026-07-02T13:50:45Z"
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: OpenShift Container Platform 4.16.14 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6824",
+    "score": 8.3,
+    "date": "2026-08-05T03:16:55+00:00"
    },
    {
-    "title": "GHSA-gj2h-2fpw-fhv9 — @nuxt/ui: UAuthForm / UForm SSR markup omits `method`, leaking credentials via GET if submitted before hydration",
-    "url": "https://github.com/advisories/GHSA-gj2h-2fpw-fhv9",
-    "score": 5,
-    "date": "2026-07-02T20:16:12Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.15.2 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7753",
+    "score": 8.2,
+    "date": "2026-08-05T03:17:43+00:00"
    },
    {
-    "title": "CVE-2026-70591 — Ghost: Server-Side Request Forgery in Image Fetching",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-70591",
-    "score": 4.1,
-    "date": "2026-08-04T21:38:17Z"
-   },
-   {
-    "title": "MAL-2026-11520 — Malicious code in psbt-utils (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-11520",
-    "score": null,
-    "date": "2026-08-04T10:03:35Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "score": 8.2,
+    "date": "2026-08-05T03:17:41+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+    "date": "Tue, 04 Aug 2026 19:39:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
     "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
     "date": "Tue, 04 Aug 2026 18:18:20 -0400",
@@ -450,26 +457,19 @@
     "date": "Mon, 03 Aug 2026 13:00:56 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
-    "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
-    "date": "Mon, 03 Aug 2026 11:04:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8526,
+    "stars": 8543,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1359,
+    "stars": 1368,
     "lang": "JavaScript"
    },
    {
@@ -493,13 +493,13 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 199,
+    "stars": 200,
     "lang": "Python"
    },
    {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 133,
+    "stars": 134,
     "lang": "—"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 80,
+    "stars": 81,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Traditional networking vs SDN",
+    "url": "https://www.reddit.com/r/netsec/comments/1vfu4ci/traditional_networking_vs_sdn/",
+    "date": "2026-08-05T02:06:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Hardware Hacking: From zero to a Pre-Auth Stack Buffer Overflow on Amazon's best-selling router",
     "url": "https://www.reddit.com/r/netsec/comments/1vfdep6/hardware_hacking_from_zero_to_a_preauth_stack/",
     "date": "2026-08-04T15:21:21+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-07-31T21:07:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Full Rails RCE technical writeup... KindaRails2Shell: How a MATLAB file reads your secrets and pops a shell on Ruby on Rails | Ethiack",
-    "url": "https://www.reddit.com/r/netsec/comments/1vbnvo5/full_rails_rce_technical_writeup_kindarails2shell/",
-    "date": "2026-07-31T11:08:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1660,
   "adv": 12,
   "feed": 48
