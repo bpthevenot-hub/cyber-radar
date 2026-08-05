@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T17:55:57.375Z",
+ "generatedAt": "2026-08-05T19:58:12.457Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-44605 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:33507",
+    "score": 5.5,
+    "date": "2026-08-05T17:29:13+00:00"
    }
   ],
   "kev": [
@@ -131,6 +137,13 @@
   ],
   "adv": [
    {
+    "title": "Electron: Sandboxed iframes can launch external protocol handlers",
+    "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
+    "score": 5.4,
+    "ghsa": "GHSA-p2rr-rvmm-c5fp",
+    "date": "2026-08-05T17:56:50Z"
+   },
+   {
     "title": "Electron: DevTools embedder handler executes arbitrary files via shell open",
     "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
     "score": 6.9,
@@ -206,16 +219,23 @@
     "score": 7.5,
     "ghsa": "GHSA-h7rp-cf8h-j98x",
     "date": "2026-08-05T15:46:08Z"
-   },
-   {
-    "title": "Electron: Cross-origin iframe can position native autofill popup",
-    "url": "https://github.com/advisories/GHSA-x8rc-wpg4-grpf",
-    "score": 3.1,
-    "ghsa": "GHSA-x8rc-wpg4-grpf",
-    "date": "2026-08-05T15:40:32Z"
    }
   ],
   "thn": [
+   {
+    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+    "date": "Thu, 06 Aug 2026 00:14:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+    "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+    "date": "Thu, 06 Aug 2026 00:03:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
     "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
@@ -285,23 +305,16 @@
     "date": "Wed, 05 Aug 2026 13:23:50 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-    "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-    "date": "Wed, 05 Aug 2026 13:10:39 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-    "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-    "date": "Wed, 05 Aug 2026 11:17:19 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+    "date": "Wed, 05 Aug 2026 15:55:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "COLDCARD security audit phishing attack installs remote access tool",
     "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
@@ -378,32 +391,25 @@
     "date": "Tue, 04 Aug 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-    "date": "Mon, 03 Aug 2026 20:17:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 8597,
+    "stars": 8605,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1396,
+    "stars": 1399,
     "lang": "JavaScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 389,
+    "stars": 367,
     "lang": "Rust"
    },
    {
