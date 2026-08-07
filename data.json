@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-08-07T15:12:01.480Z",
+ "generatedAt": "2026-08-07T16:11:20.477Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18.1 for Spring Boot release. (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17668",
-    "score": 9.9,
-    "date": "2026-08-07T14:33:46+00:00"
-   },
-   {
-    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.1 Release. (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10175",
-    "score": 9.8,
-    "date": "2026-08-07T14:33:44+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "GHSA-wg23-69c2-gjc8 — Craft CMS: Passkey login accepts replayed WebAuthn assertions",
-    "url": "https://github.com/advisories/GHSA-wg23-69c2-gjc8",
-    "score": 9.5,
-    "date": "2026-08-07T14:57:29Z"
-   },
-   {
-    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
-    "score": 9.1,
-    "date": "2026-08-07T14:34:52+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
-    "score": 8.8,
-    "date": "2026-08-07T14:34:52+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: HawtIO 4.4.0 for Red Hat build of Apache Camel 4 Release and security update. (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25089",
-    "score": 8.8,
-    "date": "2026-08-07T14:33:50+00:00"
-   },
-   {
-    "title": "CVE-2026-2332 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18 for Quarkus 3.33 update is now available (RHBQ 3.33.1.GA) (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22453",
-    "score": 8.8,
-    "date": "2026-08-07T14:33:47+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51341",
-    "score": 8.2,
-    "date": "2026-08-07T14:34:52+00:00"
-   },
-   {
-    "title": "CVE-2024-42516 — Red Hat Security Advisory: httpd security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47046",
-    "score": 8.2,
-    "date": "2026-08-07T14:33:52+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Satellite 6.16.12 Async Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50223",
-    "score": 8.2,
-    "date": "2026-08-07T14:33:48+00:00"
-   },
-   {
-    "title": "CVE-2024-42516 — Red Hat Security Advisory: httpd:2.4 security, bug fix, and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42828",
-    "score": 7.7,
-    "date": "2026-08-07T14:33:51+00:00"
-   },
-   {
-    "title": "CVE-2024-42516 — Red Hat Security Advisory: httpd security, bug fix, and enhancement update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41906",
-    "score": 7.7,
-    "date": "2026-08-07T14:33:51+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,55 @@
   ],
   "adv": [
    {
+    "title": "GitPython: Unsafe git option guard bypass via split_single_char_options=False short-option token smuggling enables command execution",
+    "url": "https://github.com/advisories/GHSA-wvpp-8hx9-p66j",
+    "score": 8.8,
+    "ghsa": "GHSA-wvpp-8hx9-p66j",
+    "date": "2026-08-07T15:49:07Z"
+   },
+   {
+    "title": "GitPython: git-config OPTION-name injection via =/#/whitespace bypasses name validator, enabling forged core.sshCommand/hooksPath (RCE)",
+    "url": "https://github.com/advisories/GHSA-jm78-9fvv-mhgr",
+    "score": 8.8,
+    "ghsa": "GHSA-jm78-9fvv-mhgr",
+    "date": "2026-08-07T15:46:35Z"
+   },
+   {
+    "title": "GitPython: Arbitrary Git Repository Creation Outside the Working Tree via Unvalidated .gitmodules Submodule Name in GitPython",
+    "url": "https://github.com/advisories/GHSA-hmq2-w58f-27jc",
+    "score": 8.2,
+    "ghsa": "GHSA-hmq2-w58f-27jc",
+    "date": "2026-08-07T15:45:39Z"
+   },
+   {
+    "title": "GitPython: Arbitrary file read via --pathspec-from-file in IndexFile.remove() and Head.checkout()",
+    "url": "https://github.com/advisories/GHSA-hh9p-6wh2-4mfc",
+    "score": 6.5,
+    "ghsa": "GHSA-hh9p-6wh2-4mfc",
+    "date": "2026-08-07T15:43:56Z"
+   },
+   {
+    "title": "GitPython: Unguarded git option forwarding in Repo.init enables arbitrary command execution via --template clone hooks",
+    "url": "https://github.com/advisories/GHSA-9rj7-rf2p-w77r",
+    "score": 7.5,
+    "ghsa": "GHSA-9rj7-rf2p-w77r",
+    "date": "2026-08-07T15:36:43Z"
+   },
+   {
+    "title": "GitPython: Unguarded git read-tree option forwarding in IndexFile.from_tree/reset/merge_tree enables arbitrary file overwrite",
+    "url": "https://github.com/advisories/GHSA-4gmw-gg2m-w46p",
+    "score": 8.1,
+    "ghsa": "GHSA-4gmw-gg2m-w46p",
+    "date": "2026-08-07T15:33:57Z"
+   },
+   {
+    "title": "DOMPurify: IN_PLACE hook removal leaves a detached subtree executable, causing XSS",
+    "url": "https://github.com/advisories/GHSA-55q2-fjhq-7xh7",
+    "score": null,
+    "ghsa": "GHSA-55q2-fjhq-7xh7",
+    "date": "2026-08-07T15:30:47Z"
+   },
+   {
     "title": "Smarty Security stream restriction bypass through stream: resource",
     "url": "https://github.com/advisories/GHSA-rjhh-76wf-8xmw",
     "score": null,
@@ -236,55 +213,6 @@
     "score": 5.3,
     "ghsa": "GHSA-6hr6-w5qg-qmwg",
     "date": "2026-08-06T21:53:41Z"
-   },
-   {
-    "title": "Craft CMS: Authenticated leak of secret environment variables",
-    "url": "https://github.com/advisories/GHSA-596p-6jv8-775v",
-    "score": null,
-    "ghsa": "GHSA-596p-6jv8-775v",
-    "date": "2026-08-06T21:53:31Z"
-   },
-   {
-    "title": "Craft CMS: Missing authorization check allows non-admin control panel users access to user registration metrics",
-    "url": "https://github.com/advisories/GHSA-rvmm-v933-jgxq",
-    "score": null,
-    "ghsa": "GHSA-rvmm-v933-jgxq",
-    "date": "2026-08-06T21:42:58Z"
-   },
-   {
-    "title": "Craft CMS: Incorrect path validation could potentially lead to path traversal",
-    "url": "https://github.com/advisories/GHSA-7hxc-f267-h5q7",
-    "score": 2,
-    "ghsa": "GHSA-7hxc-f267-h5q7",
-    "date": "2026-08-06T21:36:11Z"
-   },
-   {
-    "title": "Craft CMS: Stored XSS in the control panel via unescaped draft name",
-    "url": "https://github.com/advisories/GHSA-2rp4-x2j7-qmcc",
-    "score": null,
-    "ghsa": "GHSA-2rp4-x2j7-qmcc",
-    "date": "2026-08-06T21:33:15Z"
-   },
-   {
-    "title": "PHP_CodeSniffer gitblame report command injection via crafted filename",
-    "url": "https://github.com/advisories/GHSA-hmqg-cxww-wqhq",
-    "score": 7.5,
-    "ghsa": "GHSA-hmqg-cxww-wqhq",
-    "date": "2026-08-06T21:31:34Z"
-   },
-   {
-    "title": "node-re2: Out-of-bounds heap read in `replace`/`split` via a `Buffer` ending in a truncated multi-byte UTF-8 character → adjacent heap memory disclose",
-    "url": "https://github.com/advisories/GHSA-j4r3-hg7j-8chg",
-    "score": 5.1,
-    "ghsa": "GHSA-j4r3-hg7j-8chg",
-    "date": "2026-08-06T21:26:14Z"
-   },
-   {
-    "title": "node-re2: String.prototype.replace(re2, template) aborts the Node process (uncatchable ToLocalChecked on empty MaybeLocal) when the result exceeds V8'",
-    "url": "https://github.com/advisories/GHSA-8hcv-x26h-mcgp",
-    "score": 6.2,
-    "ghsa": "GHSA-8hcv-x26h-mcgp",
-    "date": "2026-08-06T21:19:36Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+    "date": "Fri, 07 Aug 2026 11:48:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
     "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
     "date": "Fri, 07 Aug 2026 10:00:10 -0400",
@@ -450,26 +385,19 @@
     "date": "Wed, 05 Aug 2026 17:53:26 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
-    "date": "Wed, 05 Aug 2026 15:55:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9238,
+    "stars": 9242,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1566,
+    "stars": 1568,
     "lang": "JavaScript"
    },
    {
@@ -635,16 +563,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
-    "url": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
-    "date": "2026-08-06T21:22:53+00:00",
+    "title": "TrustFall: When the Trusted Execution Environment Cannot Be Trusted",
+    "url": "https://www.reddit.com/r/netsec/comments/1vi380e/trustfall_when_the_trusted_execution_environment/",
+    "date": "2026-08-07T15:08:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "TrustFall: When the Trusted Execution Environment Cannot Be Trusted",
-    "url": "https://www.reddit.com/r/netsec/comments/1vi380e/trustfall_when_the_trusted_execution_environment/",
-    "date": "2026-08-07T15:08:07+00:00",
+    "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
+    "url": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
+    "date": "2026-08-06T21:22:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1661,
   "adv": 12,
   "feed": 48
