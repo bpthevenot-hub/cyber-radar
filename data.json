@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-07T09:17:37.622Z",
+ "generatedAt": "2026-08-07T11:10:27.466Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-20267 — Kwetsbaarheden verholpen in Cisco IOS XE Software (+6 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20267",
+    "score": 9.8,
+    "date": "2026-08-07T08:29:53.031730Z"
+   },
    {
     "title": "CVE-2021-0920 — Red Hat Security Advisory: RHV-H security update (redhat-virtualization-host) 4.3.22 (+11 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2022:1263",
@@ -45,46 +51,40 @@
     "date": "2026-08-07T07:26:33+00:00"
    },
    {
-    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.5.3 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6787",
-    "score": 9.8,
-    "date": "2026-08-07T07:26:32+00:00"
-   },
-   {
-    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.5.3 security update on RHEL 7 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6782",
-    "score": 9.8,
-    "date": "2026-08-07T07:26:31+00:00"
-   },
-   {
-    "title": "CVE-2020-7020 — Red Hat Security Advisory: Red Hat Fuse 7.11.0 release and security update (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:5532",
-    "score": 9.8,
-    "date": "2026-08-07T07:26:30+00:00"
-   },
-   {
-    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.5 security update (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:4922",
-    "score": 9.8,
-    "date": "2026-08-07T07:26:28+00:00"
-   },
-   {
-    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.5 security update on RHEL 8 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:4919",
-    "score": 9.8,
-    "date": "2026-08-07T07:26:26+00:00"
-   },
-   {
-    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.5 security update on RHEL 7 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:4918",
-    "score": 9.8,
-    "date": "2026-08-07T07:26:25+00:00"
-   },
-   {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": 9.8,
     "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat AMQ Streams 2.4.0 release and security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3223",
+    "score": 8.8,
+    "date": "2026-08-07T07:31:21+00:00"
+   },
+   {
+    "title": "CVE-2021-0920 — Red Hat Security Advisory: kpatch-patch security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:0849",
+    "score": 8.8,
+    "date": "2026-08-07T07:26:52+00:00"
+   },
+   {
+    "title": "CVE-2021-0920 — Red Hat Security Advisory: Red Hat Virtualization Host security and bug fix update [ovirt-4.4.10] Async #1 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:0841",
+    "score": 8.8,
+    "date": "2026-08-07T07:26:52+00:00"
+   },
+   {
+    "title": "CVE-2021-0920 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:0825",
+    "score": 8.8,
+    "date": "2026-08-07T07:26:51+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,41 @@
   ],
   "thn": [
    {
+    "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
+    "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+    "date": "Fri, 07 Aug 2026 16:08:27 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+    "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+    "date": "Fri, 07 Aug 2026 15:39:54 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+    "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+    "date": "Fri, 07 Aug 2026 15:02:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+    "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+    "date": "Fri, 07 Aug 2026 14:22:11 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+    "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+    "date": "Fri, 07 Aug 2026 13:48:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
     "url": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
     "date": "Fri, 07 Aug 2026 12:20:05 +0530",
@@ -334,41 +369,6 @@
     "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
     "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
     "date": "Thu, 06 Aug 2026 17:19:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-    "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-    "date": "Thu, 06 Aug 2026 17:03:08 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-    "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-    "date": "Thu, 06 Aug 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-    "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-    "date": "Thu, 06 Aug 2026 14:49:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-    "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-    "date": "Thu, 06 Aug 2026 14:27:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-    "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-    "date": "Thu, 06 Aug 2026 13:35:22 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9199,
+    "stars": 9217,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1553,
+    "stars": 1556,
     "lang": "JavaScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 202,
+    "stars": 203,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 10,
   "kev": 1661,
   "adv": 12,
   "feed": 48
