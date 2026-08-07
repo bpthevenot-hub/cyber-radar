@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-08-07T13:42:25.189Z",
+ "generatedAt": "2026-08-07T15:12:01.480Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18.1 for Spring Boot release. (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17668",
+    "score": 9.9,
+    "date": "2026-08-07T14:33:46+00:00"
+   },
+   {
+    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.1 Release. (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10175",
     "score": 9.8,
-    "date": "2026-08-07T12:34:21+00:00"
+    "date": "2026-08-07T14:33:44+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.5 - Red Hat OpenShift AI (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37275",
+    "title": "GHSA-wg23-69c2-gjc8 — Craft CMS: Passkey login accepts replayed WebAuthn assertions",
+    "url": "https://github.com/advisories/GHSA-wg23-69c2-gjc8",
+    "score": 9.5,
+    "date": "2026-08-07T14:57:29Z"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
     "score": 9.1,
-    "date": "2026-08-07T12:34:21+00:00"
+    "date": "2026-08-07T14:34:52+00:00"
    },
    {
-    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.9.10 security and bug fix update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48872",
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
     "score": 8.8,
-    "date": "2026-08-07T12:34:39+00:00"
+    "date": "2026-08-07T14:34:52+00:00"
    },
    {
-    "title": "CVE-2025-4565 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3960",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: HawtIO 4.4.0 for Red Hat build of Apache Camel 4 Release and security update. (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25089",
     "score": 8.8,
-    "date": "2026-08-07T12:34:29+00:00"
+    "date": "2026-08-07T14:33:50+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3958",
-    "score": 8.5,
-    "date": "2026-08-07T12:34:25+00:00"
+    "title": "CVE-2026-2332 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18 for Quarkus 3.33 update is now available (RHBQ 3.33.1.GA) (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22453",
+    "score": 8.8,
+    "date": "2026-08-07T14:33:47+00:00"
    },
    {
-    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.10.6 security and bug fix update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48913",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51341",
     "score": 8.2,
-    "date": "2026-08-07T12:34:40+00:00"
+    "date": "2026-08-07T14:34:52+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.5.0 release (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:2789",
-    "score": 8.1,
-    "date": "2026-08-07T12:35:29+00:00"
+    "title": "CVE-2024-42516 — Red Hat Security Advisory: httpd security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47046",
+    "score": 8.2,
+    "date": "2026-08-07T14:33:52+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: yggdrasil security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:7592",
-    "score": 7.8,
-    "date": "2026-08-07T12:35:35+00:00"
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Satellite 6.16.12 Async Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50223",
+    "score": 8.2,
+    "date": "2026-08-07T14:33:48+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: delve and golang security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3773",
-    "score": 7.5,
-    "date": "2026-08-07T12:35:32+00:00"
+    "title": "CVE-2024-42516 — Red Hat Security Advisory: httpd:2.4 security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42828",
+    "score": 7.7,
+    "date": "2026-08-07T14:33:51+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: opentelemetry-collector security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3593",
-    "score": 7.5,
-    "date": "2026-08-07T12:35:31+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: opentelemetry-collector security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3335",
-    "score": 7.5,
-    "date": "2026-08-07T12:35:31+00:00"
-   },
-   {
-    "title": "CVE-2024-24790 — Red Hat Security Advisory: Updated 7.1 container image is now available in the Red Hat Ecosystem Catalog. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:4667",
-    "score": 6.7,
-    "date": "2026-08-07T12:35:33+00:00"
+    "title": "CVE-2024-42516 — Red Hat Security Advisory: httpd security, bug fix, and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41906",
+    "score": 7.7,
+    "date": "2026-08-07T14:33:51+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "Smarty Security stream restriction bypass through stream: resource",
+    "url": "https://github.com/advisories/GHSA-rjhh-76wf-8xmw",
+    "score": null,
+    "ghsa": "GHSA-rjhh-76wf-8xmw",
+    "date": "2026-08-07T15:10:51Z"
+   },
+   {
+    "title": "Smarty: Symlink path traversal out of trusted directories",
+    "url": "https://github.com/advisories/GHSA-f6wf-28g6-769x",
+    "score": null,
+    "ghsa": "GHSA-f6wf-28g6-769x",
+    "date": "2026-08-07T15:02:39Z"
+   },
+   {
+    "title": "Craft CMS: Passkey login accepts replayed WebAuthn assertions",
+    "url": "https://github.com/advisories/GHSA-wg23-69c2-gjc8",
+    "score": 9.5,
+    "ghsa": "GHSA-wg23-69c2-gjc8",
+    "date": "2026-08-07T14:57:29Z"
+   },
+   {
     "title": "Craft CMS: Arbitrary file read via SplFileObject in non-sandboxed template contexts",
     "url": "https://github.com/advisories/GHSA-957r-qf9p-67xw",
     "score": null,
@@ -264,27 +285,6 @@
     "score": 6.2,
     "ghsa": "GHSA-8hcv-x26h-mcgp",
     "date": "2026-08-06T21:19:36Z"
-   },
-   {
-    "title": "ngx-extended-pdf-viewer bundles a version of pdf.js vulnerable to CVE-2026-16633",
-    "url": "https://github.com/advisories/GHSA-w9hm-4m3m-fxmm",
-    "score": 7.5,
-    "ghsa": "GHSA-w9hm-4m3m-fxmm",
-    "date": "2026-08-06T21:13:59Z"
-   },
-   {
-    "title": "PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF",
-    "url": "https://github.com/advisories/GHSA-hq66-cqwq-w95j",
-    "score": 7.5,
-    "ghsa": "GHSA-hq66-cqwq-w95j",
-    "date": "2026-08-06T21:12:27Z"
-   },
-   {
-    "title": "jsoup: Cleaner may expose markup with custom raw-text elements",
-    "url": "https://github.com/advisories/GHSA-pmhh-3w7g-xqp8",
-    "score": 4.7,
-    "ghsa": "GHSA-pmhh-3w7g-xqp8",
-    "date": "2026-08-06T21:09:36Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
+    "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+    "date": "Fri, 07 Aug 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "North Carolina Ports confirms cyberattack disrupting operations",
     "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
     "date": "Fri, 07 Aug 2026 09:34:40 -0400",
@@ -450,26 +457,19 @@
     "date": "Wed, 05 Aug 2026 15:55:25 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "COLDCARD security audit phishing attack installs remote access tool",
-    "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-    "date": "Wed, 05 Aug 2026 13:49:41 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9225,
+    "stars": 9238,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1563,
+    "stars": 1566,
     "lang": "JavaScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
     "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 161,
+    "stars": 162,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "TrustFall: When the Trusted Execution Environment Cannot Be Trusted",
+    "url": "https://www.reddit.com/r/netsec/comments/1vi380e/trustfall_when_the_trusted_execution_environment/",
+    "date": "2026-08-07T15:08:07+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "From wallet drains to a 12-year-old CryptoJS entropy bug: the Ill Bloom investigation",
     "url": "https://www.reddit.com/r/netsec/comments/1vgr9gv/from_wallet_drains_to_a_12yearold_cryptojs/",
     "date": "2026-08-06T02:12:20+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-04T08:38:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "SQLite Critical CVEs or LLM Slop?",
-    "url": "https://www.reddit.com/r/netsec/comments/1veedqw/sqlite_critical_cves_or_llm_slop/",
-    "date": "2026-08-03T14:04:17+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 6,
   "kev": 1661,
   "adv": 12,
   "feed": 48
