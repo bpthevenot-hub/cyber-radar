@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-07T11:59:54.315Z",
+ "generatedAt": "2026-08-07T13:42:25.189Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-08-07T12:34:21+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-9169 — DLL Search Order Hijacking in LUCID Vision Labs Arena SDK 1.0.80.49 on Windows allows a local attacker to execute arbitrary code with the pr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9169",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.5 - Red Hat OpenShift AI (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37275",
+    "score": 9.1,
+    "date": "2026-08-07T12:34:21+00:00"
+   },
+   {
+    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.9.10 security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48872",
     "score": 8.8,
-    "date": "2026-08-07T09:31:53Z"
+    "date": "2026-08-07T12:34:39+00:00"
    },
    {
-    "title": "CVE-2026-66491 — Joomla Extension - phoca.cz - Arbitrary File Read in Phoca Commander 1.0.0-6.1.3 - Improper limitation of paths in the getSource function le",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66491",
+    "title": "CVE-2025-4565 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3960",
+    "score": 8.8,
+    "date": "2026-08-07T12:34:29+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3958",
+    "score": 8.5,
+    "date": "2026-08-07T12:34:25+00:00"
+   },
+   {
+    "title": "CVE-2026-13149 — Red Hat Security Advisory: RHACS 4.10.6 security and bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48913",
+    "score": 8.2,
+    "date": "2026-08-07T12:34:40+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.5.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:2789",
+    "score": 8.1,
+    "date": "2026-08-07T12:35:29+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: yggdrasil security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7592",
+    "score": 7.8,
+    "date": "2026-08-07T12:35:35+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: delve and golang security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3773",
     "score": 7.5,
-    "date": "2026-08-07T09:31:53Z"
+    "date": "2026-08-07T12:35:32+00:00"
    },
    {
-    "title": "CVE-2026-49007 — By accessing unencrypted information in the device firmware, an attacker can obtain the initial login credentials for the device's web inter",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49007",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: opentelemetry-collector security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3593",
     "score": 7.5,
-    "date": "2026-08-07T09:31:53Z"
+    "date": "2026-08-07T12:35:31+00:00"
    },
    {
-    "title": "CVE-2026-57585 — MessagePack is the serializer implementation for Python msgpack.org. Prior to 1.2.1, there is an Out-of-bounds read/crash on Unpacker reuse ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57585",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: opentelemetry-collector security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3335",
     "score": 7.5,
-    "date": "2026-06-30T22:16:57.837Z"
+    "date": "2026-08-07T12:35:31+00:00"
    },
    {
-    "title": "CVE-2025-0101 — WAGO: Year 2038 problem",
-    "url": "https://www.wago.com/de-en/automation-technology/psirt",
-    "score": 6.5,
-    "date": "2026-08-07T10:00:00.000Z"
-   },
-   {
-    "title": "CVE-2026-49008 — By accessing unencrypted information in the device firmware, an attacker can obtain credentials related to the integrity verification of a s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-49008",
-    "score": 6.5,
-    "date": "2026-08-07T09:31:53Z"
-   },
-   {
-    "title": "CVE-2026-18938 — A flaw was found in p11-kit. A local attacker, or one with equivalent access to a reachable RPC channel, could exploit an integer overflow v",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18938",
-    "score": 6.2,
-    "date": "2026-08-07T09:31:53Z"
-   },
-   {
-    "title": "CVE-2026-15211 — The Subscriptions for WooCommerce WordPress plugin before 2.0.1 does not validate the payment amount or bind the PayPal order token to the o",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15211",
-    "score": 5.9,
-    "date": "2026-08-07T09:31:52Z"
-   },
-   {
-    "title": "CVE-2026-16027 — Server-Side request forgery (SSRF) vulnerability in Revenue Administration Türkiye's E-Signature allows Server Side Request Forgery. This is",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16027",
-    "score": 5.4,
-    "date": "2026-08-07T09:31:52Z"
-   },
-   {
-    "title": "CVE-2026-15239 — The Simple CAPTCHA with Cloudflare Turnstile WordPress plugin before 1.42.0 does not bind its Turnstile validation cache to the single-use c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15239",
-    "score": 5.3,
-    "date": "2026-08-07T09:31:52Z"
-   },
-   {
-    "title": "CVE-2026-12261 — A vulnerability in `nltk.downloader` in nltk/nltk versions <= 3.9.4 allows for cross-package resource and model poisoning. The downloader ex",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12261",
-    "score": 5.3,
-    "date": "2026-08-07T09:31:52Z"
-   },
-   {
-    "title": "CVE-2026-15148 — The WP Events Manager WordPress plugin before 2.2.5 does not verify that an incoming payment notification originates from the site's configu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15148",
-    "score": 5.3,
-    "date": "2026-08-07T09:31:52Z"
+    "title": "CVE-2024-24790 — Red Hat Security Advisory: Updated 7.1 container image is now available in the Red Hat Ecosystem Catalog. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:4667",
+    "score": 6.7,
+    "date": "2026-08-07T12:35:33+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,34 @@
   ],
   "thn": [
    {
+    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+    "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+    "date": "Fri, 07 Aug 2026 18:26:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Growing Up The Hard Way",
+    "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+    "date": "Fri, 07 Aug 2026 17:25:26 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+    "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+    "date": "Fri, 07 Aug 2026 16:40:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+    "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+    "date": "Fri, 07 Aug 2026 16:28:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
     "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
     "date": "Fri, 07 Aug 2026 16:08:27 +0530",
@@ -299,13 +327,6 @@
     "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
     "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
     "date": "Fri, 07 Aug 2026 15:39:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-    "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-    "date": "Fri, 07 Aug 2026 15:02:57 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -350,30 +371,16 @@
     "date": "Thu, 06 Aug 2026 21:47:13 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-    "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-    "date": "Thu, 06 Aug 2026 20:54:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-    "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-    "date": "Thu, 06 Aug 2026 17:46:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-    "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-    "date": "Thu, 06 Aug 2026 17:19:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "North Carolina Ports confirms cyberattack disrupting operations",
+    "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+    "date": "Fri, 07 Aug 2026 09:34:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
@@ -450,26 +457,19 @@
     "date": "Wed, 05 Aug 2026 13:49:41 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-    "date": "Wed, 05 Aug 2026 11:51:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9221,
+    "stars": 9225,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1559,
+    "stars": 1563,
     "lang": "JavaScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 103,
+    "stars": 104,
     "lang": "JavaScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1661,
   "adv": 12,
   "feed": 48
