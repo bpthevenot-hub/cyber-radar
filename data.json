@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-07T16:11:20.477Z",
+ "generatedAt": "2026-08-07T17:11:25.777Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
+    "score": 9.9,
+    "date": "2026-08-07T15:40:28+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
+    "score": 9.1,
+    "date": "2026-08-07T15:40:24+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
+    "score": 9.1,
+    "date": "2026-08-07T15:40:23+00:00"
+   },
+   {
+    "title": "GHSA-wvpp-8hx9-p66j — GitPython: Unsafe git option guard bypass via split_single_char_options=False short-option token smuggling enables command execution",
+    "url": "https://github.com/advisories/GHSA-wvpp-8hx9-p66j",
+    "score": 8.8,
+    "date": "2026-08-07T15:49:07Z"
+   },
+   {
+    "title": "GHSA-jm78-9fvv-mhgr — GitPython: git-config OPTION-name injection via =/#/whitespace bypasses name validator, enabling forged core.sshCommand/hooksPath (RCE)",
+    "url": "https://github.com/advisories/GHSA-jm78-9fvv-mhgr",
+    "score": 8.8,
+    "date": "2026-08-07T15:46:35Z"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
+    "score": 8.8,
+    "date": "2026-08-07T15:40:48+00:00"
+   },
+   {
+    "title": "CVE-2019-10790 — Red Hat Security Advisory: Red Hat Ceph Storage (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2737",
+    "score": 8.7,
+    "date": "2026-08-07T15:40:21+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.3 (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1942",
+    "score": 8.7,
+    "date": "2026-08-07T15:40:18+00:00"
+   },
+   {
+    "title": "CVE-2025-9905 — Red Hat Security Advisory: RHOAI 2.22.3 - Red Hat OpenShift AI (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:22759",
+    "score": 8.6,
+    "date": "2026-08-07T15:40:11+00:00"
+   },
+   {
+    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.2 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2572",
+    "score": 8.5,
+    "date": "2026-08-07T15:40:21+00:00"
+   },
+   {
+    "title": "CVE-2022-21698 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes 2.12.6 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:22684",
+    "score": 8.5,
+    "date": "2026-08-07T15:40:12+00:00"
+   },
+   {
+    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes 2.12.6 security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:19961",
+    "score": 8.5,
+    "date": "2026-08-07T15:40:02+00:00"
    }
   ],
   "kev": [
@@ -131,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "API Platform Core: Relation IRIs are not type-checked: a related resource can be denormalised as the wrong resource type (type confusion)",
+    "url": "https://github.com/advisories/GHSA-9rjg-x2p2-h68h",
+    "score": 6.5,
+    "ghsa": "GHSA-9rjg-x2p2-h68h",
+    "date": "2026-08-07T16:54:42Z"
+   },
+   {
+    "title": "SvelteKit: ReDoS (O(n^2)) in content negotiation — unauthenticated DoS via the Accept header",
+    "url": "https://github.com/advisories/GHSA-29g2-3rmr-qm68",
+    "score": 5.3,
+    "ghsa": "GHSA-29g2-3rmr-qm68",
+    "date": "2026-08-07T16:50:02Z"
+   },
+   {
+    "title": "Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
+    "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
+    "score": null,
+    "ghsa": "GHSA-7c4v-fwgw-9rf7",
+    "date": "2026-08-07T16:45:21Z"
+   },
+   {
+    "title": "go-git: Malicious reference names may modify files outside the reference storage",
+    "url": "https://github.com/advisories/GHSA-qgq7-7hm3-q39j",
+    "score": 6.3,
+    "ghsa": "GHSA-qgq7-7hm3-q39j",
+    "date": "2026-08-07T16:41:51Z"
+   },
+   {
+    "title": "go-git: Worktree operations may follow symlinks",
+    "url": "https://github.com/advisories/GHSA-hc8v-wwc9-vgxm",
+    "score": 7.1,
+    "ghsa": "GHSA-hc8v-wwc9-vgxm",
+    "date": "2026-08-07T16:38:15Z"
+   },
+   {
     "title": "GitPython: Unsafe git option guard bypass via split_single_char_options=False short-option token smuggling enables command execution",
     "url": "https://github.com/advisories/GHSA-wvpp-8hx9-p66j",
     "score": 8.8,
@@ -178,41 +285,6 @@
     "score": null,
     "ghsa": "GHSA-55q2-fjhq-7xh7",
     "date": "2026-08-07T15:30:47Z"
-   },
-   {
-    "title": "Smarty Security stream restriction bypass through stream: resource",
-    "url": "https://github.com/advisories/GHSA-rjhh-76wf-8xmw",
-    "score": null,
-    "ghsa": "GHSA-rjhh-76wf-8xmw",
-    "date": "2026-08-07T15:10:51Z"
-   },
-   {
-    "title": "Smarty: Symlink path traversal out of trusted directories",
-    "url": "https://github.com/advisories/GHSA-f6wf-28g6-769x",
-    "score": null,
-    "ghsa": "GHSA-f6wf-28g6-769x",
-    "date": "2026-08-07T15:02:39Z"
-   },
-   {
-    "title": "Craft CMS: Passkey login accepts replayed WebAuthn assertions",
-    "url": "https://github.com/advisories/GHSA-wg23-69c2-gjc8",
-    "score": 9.5,
-    "ghsa": "GHSA-wg23-69c2-gjc8",
-    "date": "2026-08-07T14:57:29Z"
-   },
-   {
-    "title": "Craft CMS: Arbitrary file read via SplFileObject in non-sandboxed template contexts",
-    "url": "https://github.com/advisories/GHSA-957r-qf9p-67xw",
-    "score": null,
-    "ghsa": "GHSA-957r-qf9p-67xw",
-    "date": "2026-08-06T21:54:45Z"
-   },
-   {
-    "title": "h2: Duplicate Host header could facilitate request smuggling",
-    "url": "https://github.com/advisories/GHSA-6hr6-w5qg-qmwg",
-    "score": 5.3,
-    "ghsa": "GHSA-6hr6-w5qg-qmwg",
-    "date": "2026-08-06T21:53:41Z"
    }
   ],
   "thn": [
@@ -391,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9242,
+    "stars": 9246,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1568,
+    "stars": 1573,
     "lang": "JavaScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
     "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 162,
+    "stars": 163,
     "lang": "Python"
    },
    {
@@ -455,8 +527,8 @@
     "lang": "—"
    },
    {
-    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
-    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
+    "url": "https://github.com/anirudhnshandilya/auditpilot",
     "stars": 83,
     "lang": "Python"
    }
@@ -645,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1661,
+  "crit": 5,
+  "kev": 1662,
   "adv": 12,
   "feed": 48
  },
