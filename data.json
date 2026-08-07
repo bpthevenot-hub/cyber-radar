@@ -1,48 +1,90 @@
 {
- "generatedAt": "2026-08-07T07:45:51.789Z",
+ "generatedAt": "2026-08-07T09:17:37.622Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2021-0920 — Red Hat Security Advisory: RHV-H security update (redhat-virtualization-host) 4.3.22 (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:1263",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:55+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.1 security update on RHEL 8 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:7410",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:37+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.1 security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:7417",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:35+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:7411",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:35+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.5.3 security update on RHEL 8 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6783",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:35+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.1 security update on RHEL 7 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:7409",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:34+00:00"
+   },
+   {
+    "title": "CVE-2020-7746 — Red Hat Security Advisory: Red Hat Process Automation Manager 7.13.1 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6813",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:33+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.5.3 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6787",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:32+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat Single Sign-On 7.5.3 security update on RHEL 7 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6782",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:31+00:00"
+   },
+   {
+    "title": "CVE-2020-7020 — Red Hat Security Advisory: Red Hat Fuse 7.11.0 release and security update (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:5532",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:30+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.5 security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:4922",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:28+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.5 security update on RHEL 8 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:4919",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:26+00:00"
+   },
+   {
+    "title": "CVE-2020-36518 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.5 security update on RHEL 7 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:4918",
+    "score": 9.8,
+    "date": "2026-08-07T07:26:25+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": 9.8,
     "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-6734 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48151",
-    "score": 8.8,
-    "date": "2026-08-07T04:53:42+00:00"
-   },
-   {
-    "title": "CVE-2026-42587 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.7.1 XP 6.0.5.1 release (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50085",
-    "score": 8.7,
-    "date": "2026-08-07T04:53:45+00:00"
-   },
-   {
-    "title": "CVE-2026-44249 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.7 security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49701",
-    "score": 8.7,
-    "date": "2026-08-07T04:53:44+00:00"
-   },
-   {
-    "title": "CVE-2026-44249 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.7 security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49700",
-    "score": 8.7,
-    "date": "2026-08-07T04:53:43+00:00"
-   },
-   {
-    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Data Grid 8.6.2 security update (+37 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41951",
-    "score": 8.7,
-    "date": "2026-08-07T04:53:42+00:00"
    }
   ],
   "kev": [
@@ -247,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+    "url": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+    "date": "Fri, 07 Aug 2026 12:20:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
     "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
     "date": "Thu, 06 Aug 2026 23:28:30 +0530",
@@ -254,7 +303,7 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
     "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
     "date": "Thu, 06 Aug 2026 22:43:15 +0530",
     "badge": "THREAT",
@@ -320,13 +369,6 @@
     "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
     "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
     "date": "Thu, 06 Aug 2026 13:35:22 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-    "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-    "date": "Thu, 06 Aug 2026 12:49:54 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -421,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9178,
+    "stars": 9199,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1551,
+    "stars": 1553,
     "lang": "JavaScript"
    },
    {
@@ -451,13 +493,13 @@
    {
     "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
     "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 201,
+    "stars": 202,
     "lang": "Python"
    },
    {
     "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
     "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 162,
+    "stars": 160,
     "lang": "Python"
    },
    {
@@ -600,20 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I made a full JWT hacking tutorial + testing suite",
-    "url": "https://www.reddit.com/r/netsec/comments/1vhkk7h/i_made_a_full_jwt_hacking_tutorial_testing_suite/",
-    "date": "2026-08-06T23:43:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Zbtlink Routers Contain rctl Backdoor",
-    "url": "https://www.reddit.com/r/netsec/comments/1vhdb5i/zbtlink_routers_contain_rctl_backdoor/",
-    "date": "2026-08-06T18:57:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "From wallet drains to a 12-year-old CryptoJS entropy bug: the Ill Bloom investigation",
     "url": "https://www.reddit.com/r/netsec/comments/1vgr9gv/from_wallet_drains_to_a_12yearold_cryptojs/",
     "date": "2026-08-06T02:12:20+00:00",
@@ -661,6 +689,20 @@
     "date": "2026-08-03T23:08:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Code Execution via Provisioning Packages",
+    "url": "https://www.reddit.com/r/netsec/comments/1vf4kme/code_execution_via_provisioning_packages/",
+    "date": "2026-08-04T08:38:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "SQLite Critical CVEs or LLM Slop?",
+    "url": "https://www.reddit.com/r/netsec/comments/1veedqw/sqlite_critical_cves_or_llm_slop/",
+    "date": "2026-08-03T14:04:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -675,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1661,
   "adv": 12,
   "feed": 48
