@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-07T19:21:43.517Z",
+ "generatedAt": "2026-08-07T21:02:35.722Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2021-42581 — Red Hat Security Advisory: Red Hat Ceph Storage 6.1 Container security and bug fix update (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3642",
-    "score": 9.8,
-    "date": "2026-08-07T16:54:49+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,52 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2021-38561 — Red Hat Security Advisory: OpenShift Virtualization 4.12.0 Images security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:0408",
-    "score": 7.7,
-    "date": "2026-08-07T16:54:47+00:00"
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:46+00:00"
    },
    {
-    "title": "CVE-2022-1705 — Red Hat Security Advisory: Service Telemetry Framework 1.5 security update (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:1529",
-    "score": 7.5,
-    "date": "2026-08-07T16:54:49+00:00"
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:43+00:00"
    },
    {
-    "title": "CVE-2026-56818 — Netty: RedisArrayAggregator max-elements failure leaves retained partial aggregate state",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56818",
-    "score": 6.5,
-    "date": "2026-08-07T17:16:13Z"
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:43+00:00"
    },
    {
-    "title": "GHSA-x27w-589x-frm2 — Astro: Unauthenticated path override in the @astrojs/vercel ISR function",
-    "url": "https://github.com/advisories/GHSA-x27w-589x-frm2",
-    "score": 6.5,
-    "date": "2026-07-20T23:25:07Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:42+00:00"
    },
    {
-    "title": "CVE-2022-29526 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.11 low-latency extras update",
-    "url": "https://access.redhat.com/errata/RHBA-2022:5869",
-    "score": 6.2,
-    "date": "2026-08-07T16:54:52+00:00"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Satellite 6.16.9 Async Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27076",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:42+00:00"
    },
    {
-    "title": "GHSA-xxpx-f366-4xpq — Craft CMS:Authorization bypass: view-only Categories user can modify category structure via structures/move-element",
-    "url": "https://github.com/advisories/GHSA-xxpx-f366-4xpq",
-    "score": 5,
-    "date": "2026-08-06T21:43:54Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:41+00:00"
    },
    {
-    "title": "GHSA-38gx-cfqf-f652 — Duplicate Advisory: Axios: Prototype pollution auth subfields can inject Basic auth",
-    "url": "https://github.com/advisories/GHSA-38gx-cfqf-f652",
-    "score": 5,
-    "date": "2026-08-01T15:30:27Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 (etcd) security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:28047",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:39+00:00"
    },
    {
-    "title": "CVE-2026-67314 — Axios: Prototype pollution auth subfields can inject Basic auth",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67314",
-    "score": 5,
-    "date": "2026-07-20T17:51:17Z"
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Multicluster Global Hub 1.6.2 security update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23345",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:36+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23228",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:36+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Multicluster Global Hub 1.5.4 security update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21769",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:36+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22937",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:35+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22714",
+    "score": 9.1,
+    "date": "2026-08-07T18:39:34+00:00"
    }
   ],
   "kev": [
@@ -185,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "pypdf: Possible large memory usage for large /ToUnicode streams",
+    "url": "https://github.com/advisories/GHSA-fp3f-mc75-235c",
+    "score": null,
+    "ghsa": "GHSA-fp3f-mc75-235c",
+    "date": "2026-08-07T19:29:09Z"
+   },
+   {
     "title": "pypdf: Possible long runtimes/large memory usage for large CID font width ranges",
     "url": "https://github.com/advisories/GHSA-fwg2-594c-jp42",
     "score": null,
@@ -260,13 +285,6 @@
     "score": 4.8,
     "ghsa": "GHSA-7wmf-pw8j-mc78",
     "date": "2026-08-07T18:21:54Z"
-   },
-   {
-    "title": "jsii-diff: Command Injection via npm: package argument",
-    "url": "https://github.com/advisories/GHSA-wcx4-wpfv-mc5c",
-    "score": 7.8,
-    "ghsa": "GHSA-wcx4-wpfv-mc5c",
-    "date": "2026-08-07T18:15:47Z"
    }
   ],
   "thn": [
@@ -357,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+    "date": "Fri, 07 Aug 2026 16:14:46 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+    "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+    "date": "Fri, 07 Aug 2026 15:30:41 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
     "date": "Fri, 07 Aug 2026 11:48:20 -0400",
@@ -425,33 +457,19 @@
     "date": "Thu, 06 Aug 2026 10:02:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
-    "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
-    "date": "Wed, 05 Aug 2026 19:00:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
-    "date": "Wed, 05 Aug 2026 17:53:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9253,
+    "stars": 9260,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1578,
+    "stars": 1583,
     "lang": "JavaScript"
    },
    {
@@ -699,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 14,
   "kev": 1662,
   "adv": 12,
   "feed": 48
