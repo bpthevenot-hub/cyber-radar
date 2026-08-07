@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-08-07T18:05:38.303Z",
+ "generatedAt": "2026-08-07T19:21:43.517Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "title": "CVE-2021-42581 — Red Hat Security Advisory: Red Hat Ceph Storage 6.1 Container security and bug fix update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3642",
     "score": 9.8,
-    "date": "2026-08-07T16:42:44+00:00"
+    "date": "2026-08-07T16:54:49+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +21,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-08-07T16:42:45+00:00"
+    "title": "CVE-2021-38561 — Red Hat Security Advisory: OpenShift Virtualization 4.12.0 Images security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:0408",
+    "score": 7.7,
+    "date": "2026-08-07T16:54:47+00:00"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-08-07T16:42:44+00:00"
+    "title": "CVE-2022-1705 — Red Hat Security Advisory: Service Telemetry Framework 1.5 security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1529",
+    "score": 7.5,
+    "date": "2026-08-07T16:54:49+00:00"
    },
    {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.18.51 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48699",
-    "score": 9.4,
-    "date": "2026-08-07T16:42:38+00:00"
+    "title": "CVE-2026-56818 — Netty: RedisArrayAggregator max-elements failure leaves retained partial aggregate state",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56818",
+    "score": 6.5,
+    "date": "2026-08-07T17:16:13Z"
    },
    {
-    "title": "CVE-2026-9697 — Red Hat Security Advisory: OpenShift Container Platform 4.17.56 bug fix and security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47728",
-    "score": 9.4,
-    "date": "2026-08-07T16:42:35+00:00"
+    "title": "GHSA-x27w-589x-frm2 — Astro: Unauthenticated path override in the @astrojs/vercel ISR function",
+    "url": "https://github.com/advisories/GHSA-x27w-589x-frm2",
+    "score": 6.5,
+    "date": "2026-07-20T23:25:07Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:49+00:00"
+    "title": "CVE-2022-29526 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.11 low-latency extras update",
+    "url": "https://access.redhat.com/errata/RHBA-2022:5869",
+    "score": 6.2,
+    "date": "2026-08-07T16:54:52+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:49+00:00"
+    "title": "GHSA-xxpx-f366-4xpq — Craft CMS:Authorization bypass: view-only Categories user can modify category structure via structures/move-element",
+    "url": "https://github.com/advisories/GHSA-xxpx-f366-4xpq",
+    "score": 5,
+    "date": "2026-08-06T21:43:54Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:48+00:00"
+    "title": "GHSA-38gx-cfqf-f652 — Duplicate Advisory: Axios: Prototype pollution auth subfields can inject Basic auth",
+    "url": "https://github.com/advisories/GHSA-38gx-cfqf-f652",
+    "score": 5,
+    "date": "2026-08-01T15:30:27Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:48+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:47+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:47+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
-    "score": 9.1,
-    "date": "2026-08-07T16:42:47+00:00"
+    "title": "CVE-2026-67314 — Axios: Prototype pollution auth subfields can inject Basic auth",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67314",
+    "score": 5,
+    "date": "2026-07-20T17:51:17Z"
    }
   ],
   "kev": [
@@ -203,91 +185,112 @@
   ],
   "adv": [
    {
-    "title": "Netty: RedisArrayAggregator max-elements failure leaves retained partial aggregate state",
-    "url": "https://github.com/advisories/GHSA-p9jm-q85p-7mcp",
-    "score": 6.5,
-    "ghsa": "GHSA-p9jm-q85p-7mcp",
-    "date": "2026-08-07T17:16:13Z"
-   },
-   {
-    "title": "API Platform Core: Relation IRIs are not type-checked: a related resource can be denormalised as the wrong resource type (type confusion)",
-    "url": "https://github.com/advisories/GHSA-9rjg-x2p2-h68h",
-    "score": 6.5,
-    "ghsa": "GHSA-9rjg-x2p2-h68h",
-    "date": "2026-08-07T16:54:42Z"
-   },
-   {
-    "title": "SvelteKit: ReDoS (O(n^2)) in content negotiation — unauthenticated DoS via the Accept header",
-    "url": "https://github.com/advisories/GHSA-29g2-3rmr-qm68",
-    "score": 5.3,
-    "ghsa": "GHSA-29g2-3rmr-qm68",
-    "date": "2026-08-07T16:50:02Z"
-   },
-   {
-    "title": "Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
-    "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
+    "title": "pypdf: Possible long runtimes/large memory usage for large CID font width ranges",
+    "url": "https://github.com/advisories/GHSA-fwg2-594c-jp42",
     "score": null,
-    "ghsa": "GHSA-7c4v-fwgw-9rf7",
-    "date": "2026-08-07T16:45:21Z"
+    "ghsa": "GHSA-fwg2-594c-jp42",
+    "date": "2026-08-07T18:54:00Z"
    },
    {
-    "title": "go-git: Malicious reference names may modify files outside the reference storage",
-    "url": "https://github.com/advisories/GHSA-qgq7-7hm3-q39j",
-    "score": 6.3,
-    "ghsa": "GHSA-qgq7-7hm3-q39j",
-    "date": "2026-08-07T16:41:51Z"
+    "title": "crypto-js: Insufficient Entropy in Cryptographic Secret Generation via Vulnerable CryptoJS Dependency Chain",
+    "url": "https://github.com/advisories/GHSA-rg76-677x-56q9",
+    "score": 9,
+    "ghsa": "GHSA-rg76-677x-56q9",
+    "date": "2026-08-07T18:48:59Z"
    },
    {
-    "title": "go-git: Worktree operations may follow symlinks",
-    "url": "https://github.com/advisories/GHSA-hc8v-wwc9-vgxm",
-    "score": 7.1,
-    "ghsa": "GHSA-hc8v-wwc9-vgxm",
-    "date": "2026-08-07T16:38:15Z"
+    "title": "Hono: `memo()` retains SSR output across requests, leading to cross-user data disclosure",
+    "url": "https://github.com/advisories/GHSA-f23p-vx2j-j53r",
+    "score": 4.8,
+    "ghsa": "GHSA-f23p-vx2j-j53r",
+    "date": "2026-08-07T18:42:01Z"
    },
    {
-    "title": "GitPython: Unsafe git option guard bypass via split_single_char_options=False short-option token smuggling enables command execution",
-    "url": "https://github.com/advisories/GHSA-wvpp-8hx9-p66j",
-    "score": 8.8,
-    "ghsa": "GHSA-wvpp-8hx9-p66j",
-    "date": "2026-08-07T15:49:07Z"
+    "title": "Hono: Proxy Helper does not remove response headers listed in the `Connection` header",
+    "url": "https://github.com/advisories/GHSA-79qm-7rj5-m7r9",
+    "score": 3.7,
+    "ghsa": "GHSA-79qm-7rj5-m7r9",
+    "date": "2026-08-07T18:38:48Z"
    },
    {
-    "title": "GitPython: git-config OPTION-name injection via =/#/whitespace bypasses name validator, enabling forged core.sshCommand/hooksPath (RCE)",
-    "url": "https://github.com/advisories/GHSA-jm78-9fvv-mhgr",
-    "score": 8.8,
-    "ghsa": "GHSA-jm78-9fvv-mhgr",
-    "date": "2026-08-07T15:46:35Z"
+    "title": "Hono: Algorithmic Complexity DoS in Language Middleware",
+    "url": "https://github.com/advisories/GHSA-54fx-42gc-7vw4",
+    "score": 5.3,
+    "ghsa": "GHSA-54fx-42gc-7vw4",
+    "date": "2026-08-07T18:36:31Z"
    },
    {
-    "title": "GitPython: Arbitrary Git Repository Creation Outside the Working Tree via Unvalidated .gitmodules Submodule Name in GitPython",
-    "url": "https://github.com/advisories/GHSA-hmq2-w58f-27jc",
-    "score": 8.2,
-    "ghsa": "GHSA-hmq2-w58f-27jc",
-    "date": "2026-08-07T15:45:39Z"
+    "title": "Ruby JSON: JSON::ResumableParser#partial_value dereferences a freed input buffer and crashes on truncated duplicate-key streams",
+    "url": "https://github.com/advisories/GHSA-9hj4-r449-hfvc",
+    "score": 2,
+    "ghsa": "GHSA-9hj4-r449-hfvc",
+    "date": "2026-08-07T18:33:12Z"
    },
    {
-    "title": "GitPython: Arbitrary file read via --pathspec-from-file in IndexFile.remove() and Head.checkout()",
-    "url": "https://github.com/advisories/GHSA-hh9p-6wh2-4mfc",
-    "score": 6.5,
-    "ghsa": "GHSA-hh9p-6wh2-4mfc",
-    "date": "2026-08-07T15:43:56Z"
-   },
-   {
-    "title": "GitPython: Unguarded git option forwarding in Repo.init enables arbitrary command execution via --template clone hooks",
-    "url": "https://github.com/advisories/GHSA-9rj7-rf2p-w77r",
+    "title": "pymdown-extensions: exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
+    "url": "https://github.com/advisories/GHSA-gm37-52c6-37mw",
     "score": 7.5,
-    "ghsa": "GHSA-9rj7-rf2p-w77r",
-    "date": "2026-08-07T15:36:43Z"
+    "ghsa": "GHSA-gm37-52c6-37mw",
+    "date": "2026-08-07T18:26:07Z"
    },
    {
-    "title": "GitPython: Unguarded git read-tree option forwarding in IndexFile.from_tree/reset/merge_tree enables arbitrary file overwrite",
-    "url": "https://github.com/advisories/GHSA-4gmw-gg2m-w46p",
-    "score": 8.1,
-    "ghsa": "GHSA-4gmw-gg2m-w46p",
-    "date": "2026-08-07T15:33:57Z"
+    "title": "CodeIgniter: Uploaded file extension validation bypass in `is_image` and `mime_in` rules",
+    "url": "https://github.com/advisories/GHSA-mmj4-63m4-r6h5",
+    "score": 9.8,
+    "ghsa": "GHSA-mmj4-63m4-r6h5",
+    "date": "2026-08-07T18:24:21Z"
+   },
+   {
+    "title": "CodeIgniter: Path traversal in UploadedFile::move() when using client-provided filenames",
+    "url": "https://github.com/advisories/GHSA-hhmc-q9hp-r662",
+    "score": 7.5,
+    "ghsa": "GHSA-hhmc-q9hp-r662",
+    "date": "2026-08-07T18:23:46Z"
+   },
+   {
+    "title": "CodeIgniter: SQL injection in Query Builder deleteBatch() when used with where() conditions",
+    "url": "https://github.com/advisories/GHSA-c9w5-rwh3-7pm9",
+    "score": 9.4,
+    "ghsa": "GHSA-c9w5-rwh3-7pm9",
+    "date": "2026-08-07T18:22:59Z"
+   },
+   {
+    "title": "CodeIgniter: Spoofable forwarded HTTPS headers in IncomingRequest::isSecure()",
+    "url": "https://github.com/advisories/GHSA-7wmf-pw8j-mc78",
+    "score": 4.8,
+    "ghsa": "GHSA-7wmf-pw8j-mc78",
+    "date": "2026-08-07T18:21:54Z"
+   },
+   {
+    "title": "jsii-diff: Command Injection via npm: package argument",
+    "url": "https://github.com/advisories/GHSA-wcx4-wpfv-mc5c",
+    "score": 7.8,
+    "ghsa": "GHSA-wcx4-wpfv-mc5c",
+    "date": "2026-08-07T18:15:47Z"
    }
   ],
   "thn": [
+   {
+    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+    "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+    "date": "Sat, 08 Aug 2026 00:18:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+    "url": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+    "date": "Fri, 07 Aug 2026 23:59:08 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+    "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+    "date": "Fri, 07 Aug 2026 23:46:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
     "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
@@ -348,27 +351,6 @@
     "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
     "url": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
     "date": "Fri, 07 Aug 2026 12:20:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-    "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-    "date": "Thu, 06 Aug 2026 23:28:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
-    "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-    "date": "Thu, 06 Aug 2026 22:43:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-    "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-    "date": "Thu, 06 Aug 2026 21:47:13 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +445,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9249,
+    "stars": 9253,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1575,
+    "stars": 1578,
     "lang": "JavaScript"
    },
    {
@@ -497,12 +479,6 @@
     "lang": "Python"
    },
    {
-    "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
-    "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 165,
-    "lang": "Python"
-   },
-   {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
     "stars": 134,
@@ -517,7 +493,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 105,
+    "stars": 106,
     "lang": "JavaScript"
    },
    {
@@ -529,6 +505,12 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
+    "stars": 83,
+    "lang": "Python"
+   },
+   {
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
     "stars": 83,
     "lang": "Python"
    }
@@ -642,6 +624,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
+    "url": "https://www.reddit.com/r/netsec/comments/1vi8ibp/tldv_too_lazy_didnt_validate_181874_meetings_left/",
+    "date": "2026-08-07T18:23:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
     "url": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
     "date": "2026-08-06T21:22:53+00:00",
@@ -696,13 +685,6 @@
     "date": "2026-08-03T23:08:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Code Execution via Provisioning Packages",
-    "url": "https://www.reddit.com/r/netsec/comments/1vf4kme/code_execution_via_provisioning_packages/",
-    "date": "2026-08-04T08:38:17+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +699,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 3,
   "kev": 1662,
   "adv": 12,
   "feed": 48
