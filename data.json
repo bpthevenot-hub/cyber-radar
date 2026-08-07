@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-07T00:18:14.921Z",
+ "generatedAt": "2026-08-07T04:04:27.311Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-19170 — Use after free in WebGL in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escap",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19170",
+    "score": 9.6,
+    "date": "2026-08-07T00:31:18Z"
+   },
+   {
+    "title": "CVE-2026-19149 — Use after free in Aura in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape v",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19149",
+    "score": 9.6,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-19174 — Integer overflow in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19174",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:18Z"
+   },
+   {
+    "title": "CVE-2026-19169 — Insufficient validation of untrusted input in Contextual Tasks in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to perform",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19169",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-19162 — Out of bounds write in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19162",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-19151 — Use after free in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a cra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19151",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-19150 — Inappropriate implementation in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a san",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19150",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-19145 — Use after free in Translate in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox vi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19145",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-19168 — Inappropriate implementation in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a san",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19168",
+    "score": 8.8,
+    "date": "2026-08-07T00:31:17Z"
+   },
+   {
+    "title": "CVE-2026-69192 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50969",
+    "score": 8.6,
+    "date": "2026-08-07T03:12:30+00:00"
+   },
+   {
+    "title": "CVE-2026-69192 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50956",
+    "score": 8.6,
+    "date": "2026-08-07T03:12:08+00:00"
+   },
+   {
+    "title": "CVE-2026-19177 — Insufficient validation of untrusted input in UI in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19177",
+    "score": 8.3,
+    "date": "2026-08-07T00:31:18Z"
    }
   ],
   "kev": [
@@ -391,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9044,
+    "stars": 9138,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1528,
+    "stars": 1539,
     "lang": "JavaScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
     "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 154,
+    "stars": 159,
     "lang": "Python"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 97,
+    "stars": 102,
     "lang": "JavaScript"
    },
    {
@@ -457,7 +529,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 82,
+    "stars": 83,
     "lang": "Python"
    }
   ],
@@ -570,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Zbtlink Routers Contain rctl Backdoor",
-    "url": "https://www.reddit.com/r/netsec/comments/1vhdb5i/zbtlink_routers_contain_rctl_backdoor/",
-    "date": "2026-08-06T18:57:39+00:00",
+    "title": "I made a full JWT hacking tutorial + testing suite",
+    "url": "https://www.reddit.com/r/netsec/comments/1vhkk7h/i_made_a_full_jwt_hacking_tutorial_testing_suite/",
+    "date": "2026-08-06T23:43:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "I made a full JWT hacking tutorial + testing suite",
-    "url": "https://www.reddit.com/r/netsec/comments/1vhkk7h/i_made_a_full_jwt_hacking_tutorial_testing_suite/",
-    "date": "2026-08-06T23:43:45+00:00",
+    "title": "Zbtlink Routers Contain rctl Backdoor",
+    "url": "https://www.reddit.com/r/netsec/comments/1vhdb5i/zbtlink_routers_contain_rctl_backdoor/",
+    "date": "2026-08-06T18:57:39+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1661,
   "adv": 12,
   "feed": 48
