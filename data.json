@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-06T15:31:46.123Z",
+ "generatedAt": "2026-08-07T00:18:14.921Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,119 @@
   ],
   "adv": [
    {
-    "title": "Traefik CRD IngressRouteTCP ServersTransport Cross-Provider Namespace Bypass",
-    "url": "https://github.com/advisories/GHSA-42cj-m3vj-89wv",
+    "title": "Craft CMS: Arbitrary file read via SplFileObject in non-sandboxed template contexts",
+    "url": "https://github.com/advisories/GHSA-957r-qf9p-67xw",
     "score": null,
-    "ghsa": "GHSA-42cj-m3vj-89wv",
-    "date": "2026-08-05T21:53:35Z"
+    "ghsa": "GHSA-957r-qf9p-67xw",
+    "date": "2026-08-06T21:54:45Z"
    },
    {
-    "title": "Traefik Gateway API HTTPRoute BackendRef ExtensionRef Namespace Confusion",
-    "url": "https://github.com/advisories/GHSA-qq9q-x9w4-chhj",
+    "title": "h2: Duplicate Host header could facilitate request smuggling",
+    "url": "https://github.com/advisories/GHSA-6hr6-w5qg-qmwg",
+    "score": 5.3,
+    "ghsa": "GHSA-6hr6-w5qg-qmwg",
+    "date": "2026-08-06T21:53:41Z"
+   },
+   {
+    "title": "Craft CMS: Authenticated leak of secret environment variables",
+    "url": "https://github.com/advisories/GHSA-596p-6jv8-775v",
     "score": null,
-    "ghsa": "GHSA-qq9q-x9w4-chhj",
-    "date": "2026-08-05T21:49:19Z"
+    "ghsa": "GHSA-596p-6jv8-775v",
+    "date": "2026-08-06T21:53:31Z"
    },
    {
-    "title": "Nuxt: Unauthenticated CPU exhaustion parsing and hashing the Nuxt island endpoint body before hash validation",
-    "url": "https://github.com/advisories/GHSA-9pgf-384g-p7mv",
+    "title": "Craft CMS: Missing authorization check allows non-admin control panel users access to user registration metrics",
+    "url": "https://github.com/advisories/GHSA-rvmm-v933-jgxq",
+    "score": null,
+    "ghsa": "GHSA-rvmm-v933-jgxq",
+    "date": "2026-08-06T21:42:58Z"
+   },
+   {
+    "title": "Craft CMS: Incorrect path validation could potentially lead to path traversal",
+    "url": "https://github.com/advisories/GHSA-7hxc-f267-h5q7",
+    "score": 2,
+    "ghsa": "GHSA-7hxc-f267-h5q7",
+    "date": "2026-08-06T21:36:11Z"
+   },
+   {
+    "title": "Craft CMS: Stored XSS in the control panel via unescaped draft name",
+    "url": "https://github.com/advisories/GHSA-2rp4-x2j7-qmcc",
+    "score": null,
+    "ghsa": "GHSA-2rp4-x2j7-qmcc",
+    "date": "2026-08-06T21:33:15Z"
+   },
+   {
+    "title": "PHP_CodeSniffer gitblame report command injection via crafted filename",
+    "url": "https://github.com/advisories/GHSA-hmqg-cxww-wqhq",
     "score": 7.5,
-    "ghsa": "GHSA-9pgf-384g-p7mv",
-    "date": "2026-08-05T21:43:03Z"
+    "ghsa": "GHSA-hmqg-cxww-wqhq",
+    "date": "2026-08-06T21:31:34Z"
    },
    {
-    "title": "Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
-    "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
-    "score": 8.1,
-    "ghsa": "GHSA-9473-5f9j-94wq",
-    "date": "2026-08-05T21:29:55Z"
+    "title": "node-re2: Out-of-bounds heap read in `replace`/`split` via a `Buffer` ending in a truncated multi-byte UTF-8 character → adjacent heap memory disclose",
+    "url": "https://github.com/advisories/GHSA-j4r3-hg7j-8chg",
+    "score": 5.1,
+    "ghsa": "GHSA-j4r3-hg7j-8chg",
+    "date": "2026-08-06T21:26:14Z"
    },
    {
-    "title": "Unauthenticated Nuxt DevTools RPC allows arbitrary command execution on the developer's host",
-    "url": "https://github.com/advisories/GHSA-279x-mwfv-vcqv",
-    "score": 9.6,
-    "ghsa": "GHSA-279x-mwfv-vcqv",
-    "date": "2026-08-05T21:27:39Z"
+    "title": "node-re2: String.prototype.replace(re2, template) aborts the Node process (uncatchable ToLocalChecked on empty MaybeLocal) when the result exceeds V8'",
+    "url": "https://github.com/advisories/GHSA-8hcv-x26h-mcgp",
+    "score": 6.2,
+    "ghsa": "GHSA-8hcv-x26h-mcgp",
+    "date": "2026-08-06T21:19:36Z"
    },
    {
-    "title": "Nuxt: Unauthorized Component Instantiation via Server Island Props",
-    "url": "https://github.com/advisories/GHSA-48hr-524c-v5w3",
-    "score": 4.8,
-    "ghsa": "GHSA-48hr-524c-v5w3",
-    "date": "2026-08-05T21:21:33Z"
-   },
-   {
-    "title": "Nuxt runtime payload cache discloses another user's SSR data across users and to unauthenticated clients",
-    "url": "https://github.com/advisories/GHSA-wm8w-6qjm-cv43",
+    "title": "ngx-extended-pdf-viewer bundles a version of pdf.js vulnerable to CVE-2026-16633",
+    "url": "https://github.com/advisories/GHSA-w9hm-4m3m-fxmm",
     "score": 7.5,
-    "ghsa": "GHSA-wm8w-6qjm-cv43",
-    "date": "2026-08-05T21:14:33Z"
+    "ghsa": "GHSA-w9hm-4m3m-fxmm",
+    "date": "2026-08-06T21:13:59Z"
    },
    {
-    "title": "Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
-    "url": "https://github.com/advisories/GHSA-hxvh-4h3w-prp9",
-    "score": 8.2,
-    "ghsa": "GHSA-hxvh-4h3w-prp9",
-    "date": "2026-08-05T21:05:18Z"
-   },
-   {
-    "title": "Nuxt: Unauthenticated out-of-memory crash via unbounded v-for expansion in island rendering",
-    "url": "https://github.com/advisories/GHSA-hxcr-hm88-mpq6",
+    "title": "PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF",
+    "url": "https://github.com/advisories/GHSA-hq66-cqwq-w95j",
     "score": 7.5,
-    "ghsa": "GHSA-hxcr-hm88-mpq6",
-    "date": "2026-08-05T20:59:04Z"
+    "ghsa": "GHSA-hq66-cqwq-w95j",
+    "date": "2026-08-06T21:12:27Z"
    },
    {
-    "title": "rclone: Local Encoding Path Traversal",
-    "url": "https://github.com/advisories/GHSA-7p4m-qxvv-g567",
-    "score": 6.9,
-    "ghsa": "GHSA-7p4m-qxvv-g567",
-    "date": "2026-08-05T20:48:46Z"
-   },
-   {
-    "title": "rclone archive extract allows S3 destination prefix escape via crafted archive paths",
-    "url": "https://github.com/advisories/GHSA-4vr5-p2gc-h23p",
-    "score": 5,
-    "ghsa": "GHSA-4vr5-p2gc-h23p",
-    "date": "2026-08-05T20:43:47Z"
-   },
-   {
-    "title": "rclone: S3 backend does not strip X-Amz-Security-Token on a same-host HTTPS->HTTP redirect",
-    "url": "https://github.com/advisories/GHSA-gx4c-2hqx-cw2r",
-    "score": 3.1,
-    "ghsa": "GHSA-gx4c-2hqx-cw2r",
-    "date": "2026-08-05T20:43:11Z"
+    "title": "jsoup: Cleaner may expose markup with custom raw-text elements",
+    "url": "https://github.com/advisories/GHSA-pmhh-3w7g-xqp8",
+    "score": 4.7,
+    "ghsa": "GHSA-pmhh-3w7g-xqp8",
+    "date": "2026-08-06T21:09:36Z"
    }
   ],
   "thn": [
+   {
+    "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+    "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+    "date": "Thu, 06 Aug 2026 23:28:30 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+    "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+    "date": "Thu, 06 Aug 2026 22:43:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+    "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+    "date": "Thu, 06 Aug 2026 21:47:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+    "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+    "date": "Thu, 06 Aug 2026 20:54:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
     "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
@@ -271,37 +299,51 @@
     "date": "Thu, 06 Aug 2026 12:49:54 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-    "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-    "date": "Thu, 06 Aug 2026 12:21:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-    "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-    "date": "Thu, 06 Aug 2026 11:34:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-    "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-    "date": "Thu, 06 Aug 2026 00:14:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-    "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-    "date": "Thu, 06 Aug 2026 00:03:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+    "date": "Thu, 06 Aug 2026 18:48:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+    "date": "Thu, 06 Aug 2026 18:37:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+    "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+    "date": "Thu, 06 Aug 2026 16:07:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Swiss government SharePoint breach compromised 200 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+    "date": "Thu, 06 Aug 2026 14:14:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+    "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+    "date": "Thu, 06 Aug 2026 14:03:45 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Meta AI model hacked a company during misconfigured cyber test",
+    "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+    "date": "Thu, 06 Aug 2026 12:11:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
     "url": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
@@ -343,61 +385,19 @@
     "date": "Wed, 05 Aug 2026 11:51:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google Blogger locks hundreds of blogs in malware false positive",
-    "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
-    "date": "Wed, 05 Aug 2026 10:59:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "How AI-powered phishing killed blocklists for good",
-    "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-    "date": "Wed, 05 Aug 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
-    "date": "Tue, 04 Aug 2026 19:39:59 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-    "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-    "date": "Tue, 04 Aug 2026 18:18:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
-    "date": "Tue, 04 Aug 2026 17:45:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-    "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-    "date": "Tue, 04 Aug 2026 15:03:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9010,
+    "stars": 9044,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1491,
+    "stars": 1528,
     "lang": "JavaScript"
    },
    {
@@ -411,12 +411,6 @@
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
     "stars": 315,
     "lang": "Java"
-   },
-   {
-    "title": "badchars/darknet-mcp-server — 66-tool MCP server for dark web intelligence — breach data, ransomware tracking, Tor .onion access, malware an",
-    "url": "https://github.com/badchars/darknet-mcp-server",
-    "stars": 303,
-    "lang": "TypeScript"
    },
    {
     "title": "OlegSotnikov/sallyport — A Mac vault that runs authenticated actions for AI agents over MCP. The agent gets the operation, never the ke",
@@ -433,7 +427,7 @@
    {
     "title": "domaup/coldcard-poc — Coldcard Mk3 RNG vulnerability PoC — BIP39 seed reconstruction tool for the Block security disclosure (July 20",
     "url": "https://github.com/domaup/coldcard-poc",
-    "stars": 146,
+    "stars": 154,
     "lang": "Python"
    },
    {
@@ -449,16 +443,22 @@
     "lang": "Rust"
    },
    {
+    "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
+    "url": "https://github.com/Arcanum-Sec/wraith",
+    "stars": 97,
+    "lang": "JavaScript"
+   },
+   {
     "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
     "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
     "stars": 96,
     "lang": "—"
    },
    {
-    "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
-    "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 86,
-    "lang": "JavaScript"
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "stars": 82,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -563,6 +563,27 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
+    "url": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
+    "date": "2026-08-06T21:22:53+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Zbtlink Routers Contain rctl Backdoor",
+    "url": "https://www.reddit.com/r/netsec/comments/1vhdb5i/zbtlink_routers_contain_rctl_backdoor/",
+    "date": "2026-08-06T18:57:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "I made a full JWT hacking tutorial + testing suite",
+    "url": "https://www.reddit.com/r/netsec/comments/1vhkk7h/i_made_a_full_jwt_hacking_tutorial_testing_suite/",
+    "date": "2026-08-06T23:43:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "From wallet drains to a 12-year-old CryptoJS entropy bug: the Ill Bloom investigation",
     "url": "https://www.reddit.com/r/netsec/comments/1vgr9gv/from_wallet_drains_to_a_12yearold_cryptojs/",
     "date": "2026-08-06T02:12:20+00:00",
@@ -608,27 +629,6 @@
     "title": "Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category",
     "url": "https://www.reddit.com/r/netsec/comments/1vet23a/jackpot_a_browser_lab_of_10_deliberately/",
     "date": "2026-08-03T23:08:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Code Execution via Provisioning Packages",
-    "url": "https://www.reddit.com/r/netsec/comments/1vf4kme/code_execution_via_provisioning_packages/",
-    "date": "2026-08-04T08:38:17+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "SQLite Critical CVEs or LLM Slop?",
-    "url": "https://www.reddit.com/r/netsec/comments/1veedqw/sqlite_critical_cves_or_llm_slop/",
-    "date": "2026-08-03T14:04:17+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Cruising for Shells in Flowise - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1veba08/cruising_for_shells_in_flowise_elttam/",
-    "date": "2026-08-03T11:54:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
