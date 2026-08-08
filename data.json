@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-08T04:30:50.241Z",
+ "generatedAt": "2026-08-08T05:59:14.543Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-13629 — Malicious code in @coralxyz/anchor (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13629",
-    "score": null,
-    "date": "2026-08-08T00:52:09Z"
+    "title": "CVE-2026-8798 — In Bouncy Castle for Java FIPS (BC-FJA) before bc-fips 2.1.3, the native entropy source used on Intel platforms retried the CPU entropy inst",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8798",
+    "score": 7.5,
+    "date": "2026-08-08T03:31:12Z"
    },
    {
-    "title": "MAL-2026-13664 — Malicious code in titan-exchange-shared-permissions (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13664",
-    "score": null,
-    "date": "2026-08-08T00:52:01Z"
+    "title": "CVE-2026-13505 — In Bouncy Castle for Java FIPS (BC-FJA) before bc-fips 1.0.2.7 (1.0.X series), 2.0.2 (2.0.X series) and 2.1.3 (2.1.X series), sensitive key ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13505",
+    "score": 7.5,
+    "date": "2026-08-08T03:31:12Z"
    },
    {
-    "title": "MAL-2026-13633 — Malicious code in modern-localization (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13633",
-    "score": null,
-    "date": "2026-08-08T00:51:44Z"
+    "title": "CVE-2026-41186 — When Calico's shared debug server is enabled (disabled by default), the Calico kube-controllers and Goldmane components bind their Go pprof ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41186",
+    "score": 7.5,
+    "date": "2026-07-30T15:31:52Z"
    },
    {
-    "title": "MAL-2026-13631 — Malicious code in localization-fixer (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13631",
-    "score": null,
-    "date": "2026-08-08T00:51:34Z"
+    "title": "CVE-2026-6540 — Calico's Application Layer Policy (disabled by default), which enforces HTTP rules through Dikastes, fails to perform URL path normalization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6540",
+    "score": 7.5,
+    "date": "2026-07-30T15:31:52Z"
    },
    {
-    "title": "MAL-2026-13630 — Malicious code in @rbx-ts/services (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13630",
-    "score": null,
-    "date": "2026-08-08T00:47:57Z"
+    "title": "CVE-2025-4106 — An authenticated admin user with access to both the management WebUI and command line interface on a Firebox can enable a diagnostic debug s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-4106",
+    "score": 7.5,
+    "date": "2025-10-25T00:30:39Z"
    },
    {
-    "title": "MAL-2026-13632 — Malicious code in map-streak-kit (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13632",
-    "score": null,
-    "date": "2026-08-08T00:47:48Z"
+    "title": "CVE-2026-47364 — On every successful login, the Datadog Android application calls FirebaseCrashlytics.setUserId with the signed-in user's Datadog UUID — a st",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47364",
+    "score": 6.5,
+    "date": "2026-08-07T18:31:46Z"
    },
    {
-    "title": "MAL-2026-13640 — Malicious code in sme-rko-finance-front-operations-notifications-impl (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13640",
-    "score": null,
-    "date": "2026-08-08T00:47:40Z"
+    "title": "CVE-2026-41187 — Calico's apiserver wraps tier-scoped resources so that every operation runs through AuthorizeTierOperation, but the Delete override on Netwo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41187",
+    "score": 6.5,
+    "date": "2026-07-30T15:31:52Z"
    },
    {
-    "title": "MAL-2026-13649 — Malicious code in sme-rko-finance-front-operations-tax (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13649",
-    "score": null,
-    "date": "2026-08-08T00:47:27Z"
+    "title": "CVE-2026-47361 — BubbleChatActivity in the Datadog Android application is declared android:exported=\"true\" with no permission guard and accepts a SEND intent",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47361",
+    "score": 6.4,
+    "date": "2026-08-07T18:31:46Z"
    },
    {
-    "title": "MAL-2026-13660 — Malicious code in sme-rko-finance-front-payments-domain (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13660",
-    "score": null,
-    "date": "2026-08-08T00:47:18Z"
+    "title": "CVE-2026-47363 — The launcher activity AppActivity in the Datadog Android application is declared android:exported=\"true\" with launchMode=\"singleTask\" and no",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47363",
+    "score": 6.3,
+    "date": "2026-08-07T18:31:46Z"
    },
    {
-    "title": "MAL-2026-13661 — Malicious code in sme-rko-finance-front-payments-feed-adapter (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13661",
-    "score": null,
-    "date": "2026-08-08T00:47:10Z"
+    "title": "CVE-2025-0178 — Improper Input Validation vulnerability in WatchGuard Fireware OS allows an attacker to manipulate the value of the HTTP Host header in requ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-0178",
+    "score": 6.1,
+    "date": "2025-02-14T15:31:05Z"
    },
    {
-    "title": "MAL-2026-13659 — Malicious code in sme-rko-finance-front-payments-currency-payment-domain (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13659",
-    "score": null,
-    "date": "2026-08-08T00:46:57Z"
+    "title": "CVE-2026-44965 — Six Android App Widget configuration activities in the Datadog Android application are declared android:exported=\"true\" with no permission g",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44965",
+    "score": 5.5,
+    "date": "2026-08-07T18:31:46Z"
    },
    {
-    "title": "MAL-2026-13634 — Malicious code in sme-rko-finance-front-operations-domain (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13634",
-    "score": null,
-    "date": "2026-08-08T00:46:47Z"
+    "title": "CVE-2025-1910 — The WatchGuard Mobile VPN with SSL Client on Windows allows a locally authenticated non-administrative Windows user to escalate their privil",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1910",
+    "score": 5,
+    "date": "2025-12-05T00:31:05Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9280,
+    "stars": 9286,
     "lang": "TypeScript"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 84,
+    "stars": 85,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "RovoBlast: How One Click Triggered Atlassian’s AI Assistant to Leak Data",
+    "url": "https://www.reddit.com/r/netsec/comments/1vilqda/rovoblast_how_one_click_triggered_atlassians_ai/",
+    "date": "2026-08-08T03:57:07+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "TrustFall: When the Trusted Execution Environment Cannot Be Trusted",
     "url": "https://www.reddit.com/r/netsec/comments/1vi380e/trustfall_when_the_trusted_execution_environment/",
     "date": "2026-08-07T15:08:07+00:00",
@@ -652,13 +659,6 @@
     "title": "SCTPhantom: An 18-Year-Old SCTP ASCONF Transport Use-After-Free · Tencent Zhuque Lab",
     "url": "https://www.reddit.com/r/netsec/comments/1vijs4n/sctphantom_an_18yearold_sctp_asconf_transport/",
     "date": "2026-08-08T02:20:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "RovoBlast: How One Click Triggered Atlassian’s AI Assistant to Leak Data",
-    "url": "https://www.reddit.com/r/netsec/comments/1vilqda/rovoblast_how_one_click_triggered_atlassians_ai/",
-    "date": "2026-08-08T03:57:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
