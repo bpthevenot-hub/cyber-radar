@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-08T10:53:53.024Z",
+ "generatedAt": "2026-08-08T11:47:23.836Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-14526 — The AI Copilot – Content Generator plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.5.6. T",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14526",
+    "score": 9.8,
+    "date": "2026-08-08T09:30:20Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
-    "score": 9.4,
-    "date": "2026-08-08T07:25:21+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:44+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:44+00:00"
-   },
-   {
-    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:35+00:00"
-   },
-   {
-    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:34+00:00"
-   },
-   {
-    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:34+00:00"
-   },
-   {
-    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:33+00:00"
-   },
-   {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:29+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-08-08T07:25:23+00:00"
-   },
-   {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
-    "score": 9,
-    "date": "2026-08-08T07:25:31+00:00"
-   },
-   {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42078",
-    "score": 9,
-    "date": "2026-08-08T07:25:29+00:00"
-   },
-   {
     "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:44622",
     "score": 8.8,
     "date": "2026-08-08T07:54:49+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
+    "score": 8.8,
+    "date": "2026-08-08T07:54:44+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.4.7 security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41030",
+    "score": 8.8,
+    "date": "2026-08-08T07:54:44+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
+    "score": 8.8,
+    "date": "2026-08-08T07:54:41+00:00"
+   },
+   {
+    "title": "CVE-2008-1891 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8838",
+    "score": 7.5,
+    "date": "2026-08-08T09:13:55+00:00"
+   },
+   {
+    "title": "CVE-2008-1891 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7307",
+    "score": 7.5,
+    "date": "2026-08-08T09:13:54+00:00"
+   },
+   {
+    "title": "CVE-2008-1891 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7305",
+    "score": 7.5,
+    "date": "2026-08-08T09:13:52+00:00"
+   },
+   {
+    "title": "CVE-2026-19263 — A vulnerability was found in INQUIRELAB mcp-bridge-api up to b30a82aa1d1d1139e0de846c41c8aadee6e06114. The impacted element is an unknown fu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19263",
+    "score": 7.3,
+    "date": "2026-08-08T09:30:21Z"
+   },
+   {
+    "title": "CVE-2013-0270 — Red Hat Security Advisory: openstack-keystone security and bug fix update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2013:0708",
+    "score": 6.5,
+    "date": "2026-08-08T08:44:31+00:00"
+   },
+   {
+    "title": "CVE-2026-19268 — A vulnerability was identified in abdullah1854 MCPGateway up to 549f494a9e363f40530149de324b8097de424230. This impacts the function getUsage",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19268",
+    "score": 6.3,
+    "date": "2026-08-08T09:30:21Z"
+   },
+   {
+    "title": "CVE-2026-19266 — A vulnerability was determined in Kirachon context-engine up to 1.9.0. This affects the function execGitCommand of the file src/mcp/utils/gi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19266",
+    "score": 5.5,
+    "date": "2026-08-08T09:30:21Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9306,
+    "stars": 9308,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 82,
+    "stars": 84,
     "lang": "Python"
    }
   ],
@@ -635,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "RovoBlast: How One Click Triggered Atlassian’s AI Assistant to Leak Data",
-    "url": "https://www.reddit.com/r/netsec/comments/1vilqda/rovoblast_how_one_click_triggered_atlassians_ai/",
-    "date": "2026-08-08T03:57:07+00:00",
+    "title": "Write Once, Shell Everywhere - Turning Arbitrary File Writes into RCE (DEF CON Bug Bounty Village)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vir8aq/write_once_shell_everywhere_turning_arbitrary/",
+    "date": "2026-08-08T09:10:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Write Once, Shell Everywhere - Turning Arbitrary File Writes into RCE (DEF CON Bug Bounty Village)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vir8aq/write_once_shell_everywhere_turning_arbitrary/",
-    "date": "2026-08-08T09:10:24+00:00",
+    "title": "RovoBlast: How One Click Triggered Atlassian’s AI Assistant to Leak Data",
+    "url": "https://www.reddit.com/r/netsec/comments/1vilqda/rovoblast_how_one_click_triggered_atlassians_ai/",
+    "date": "2026-08-08T03:57:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 13,
+  "crit": 3,
   "kev": 1662,
   "adv": 12,
   "feed": 48
