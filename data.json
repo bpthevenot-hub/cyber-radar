@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-08T14:01:40.433Z",
+ "generatedAt": "2026-08-08T14:52:14.808Z",
  "sources": {
   "cve": [
    {
@@ -45,12 +45,6 @@
     "date": "2026-08-08T12:59:27+00:00"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6166",
-    "score": 9.6,
-    "date": "2026-08-08T12:59:26+00:00"
-   },
-   {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9872",
     "score": 9.1,
@@ -85,6 +79,12 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:9385",
     "score": 9.1,
     "date": "2026-08-08T13:00:26+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-08T13:00:21+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+    "date": "Sat, 08 Aug 2026 10:16:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
     "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
     "date": "Fri, 07 Aug 2026 16:14:46 -0400",
@@ -450,20 +457,13 @@
     "date": "Thu, 06 Aug 2026 12:11:39 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
-    "url": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
-    "date": "Thu, 06 Aug 2026 10:02:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9317,
+    "stars": 9321,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 137,
+    "stars": 138,
     "lang": "—"
    },
    {
