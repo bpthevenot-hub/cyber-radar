@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-08T05:59:14.543Z",
+ "generatedAt": "2026-08-08T07:18:00.648Z",
  "sources": {
   "cve": [
    {
@@ -15,6 +15,60 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 2.2.7 security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3645",
+    "score": 7.8,
+    "date": "2026-08-08T05:49:12+00:00"
+   },
+   {
+    "title": "CVE-2021-4235 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1326",
+    "score": 7.8,
+    "date": "2026-08-08T05:48:55+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.13.29 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0193",
+    "score": 7.5,
+    "date": "2026-08-08T05:49:18+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Virtualization 4.14.0 Images security and bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6817",
+    "score": 7.5,
+    "date": "2026-08-08T05:49:15+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.14.0 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5007",
+    "score": 7.5,
+    "date": "2026-08-08T05:49:14+00:00"
+   },
+   {
+    "title": "CVE-2018-17419 — Red Hat Security Advisory: OpenShift Container Platform 4.14.0 bug fix and security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5006",
+    "score": 7.5,
+    "date": "2026-08-08T05:49:12+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.11.34 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1504",
+    "score": 7.5,
+    "date": "2026-08-08T05:49:00+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.12.9 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1409",
+    "score": 7.5,
+    "date": "2026-08-08T05:48:58+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1328",
+    "score": 7.5,
+    "date": "2026-08-08T05:48:55+00:00"
+   },
+   {
     "title": "CVE-2026-8798 — In Bouncy Castle for Java FIPS (BC-FJA) before bc-fips 2.1.3, the native entropy source used on Intel platforms retried the CPU entropy inst",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-8798",
     "score": 7.5,
@@ -27,64 +81,10 @@
     "date": "2026-08-08T03:31:12Z"
    },
    {
-    "title": "CVE-2026-41186 — When Calico's shared debug server is enabled (disabled by default), the Calico kube-controllers and Goldmane components bind their Go pprof ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41186",
-    "score": 7.5,
-    "date": "2026-07-30T15:31:52Z"
-   },
-   {
-    "title": "CVE-2026-6540 — Calico's Application Layer Policy (disabled by default), which enforces HTTP rules through Dikastes, fails to perform URL path normalization",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6540",
-    "score": 7.5,
-    "date": "2026-07-30T15:31:52Z"
-   },
-   {
-    "title": "CVE-2025-4106 — An authenticated admin user with access to both the management WebUI and command line interface on a Firebox can enable a diagnostic debug s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-4106",
-    "score": 7.5,
-    "date": "2025-10-25T00:30:39Z"
-   },
-   {
-    "title": "CVE-2026-47364 — On every successful login, the Datadog Android application calls FirebaseCrashlytics.setUserId with the signed-in user's Datadog UUID — a st",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47364",
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.10.56 security update",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1656",
     "score": 6.5,
-    "date": "2026-08-07T18:31:46Z"
-   },
-   {
-    "title": "CVE-2026-41187 — Calico's apiserver wraps tier-scoped resources so that every operation runs through AuthorizeTierOperation, but the Delete override on Netwo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41187",
-    "score": 6.5,
-    "date": "2026-07-30T15:31:52Z"
-   },
-   {
-    "title": "CVE-2026-47361 — BubbleChatActivity in the Datadog Android application is declared android:exported=\"true\" with no permission guard and accepts a SEND intent",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47361",
-    "score": 6.4,
-    "date": "2026-08-07T18:31:46Z"
-   },
-   {
-    "title": "CVE-2026-47363 — The launcher activity AppActivity in the Datadog Android application is declared android:exported=\"true\" with launchMode=\"singleTask\" and no",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47363",
-    "score": 6.3,
-    "date": "2026-08-07T18:31:46Z"
-   },
-   {
-    "title": "CVE-2025-0178 — Improper Input Validation vulnerability in WatchGuard Fireware OS allows an attacker to manipulate the value of the HTTP Host header in requ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-0178",
-    "score": 6.1,
-    "date": "2025-02-14T15:31:05Z"
-   },
-   {
-    "title": "CVE-2026-44965 — Six Android App Widget configuration activities in the Datadog Android application are declared android:exported=\"true\" with no permission g",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44965",
-    "score": 5.5,
-    "date": "2026-08-07T18:31:46Z"
-   },
-   {
-    "title": "CVE-2025-1910 — The WatchGuard Mobile VPN with SSL Client on Windows allows a locally authenticated non-administrative Windows user to escalate their privil",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1910",
-    "score": 5,
-    "date": "2025-12-05T00:31:05Z"
+    "date": "2026-08-08T05:49:11+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9286,
+    "stars": 9292,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1587,
+    "stars": 1588,
     "lang": "JavaScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 83,
+    "stars": 82,
     "lang": "Python"
    }
   ],
