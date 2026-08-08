@@ -1,30 +1,12 @@
 {
- "generatedAt": "2026-08-08T19:02:23.077Z",
+ "generatedAt": "2026-08-08T19:47:19.559Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-7374 — Red Hat Security Advisory: OpenShift Virtualization v4.17 Images",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20763",
-    "score": 9.9,
-    "date": "2026-08-08T16:39:03+00:00"
-   },
-   {
-    "title": "CVE-2021-46877 — Red Hat Security Advisory: Satellite 6.13 Release (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:2097",
+    "title": "CVE-2022-32190 — Red Hat Bug Fix Advisory: MTV 2.4.3 Images (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2023:6109",
     "score": 9.8,
-    "date": "2026-08-08T16:41:47+00:00"
-   },
-   {
-    "title": "CVE-2019-8331 — Red Hat Security Advisory: Red Hat Fuse 7.11.1 release and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8652",
-    "score": 9.8,
-    "date": "2026-08-08T16:41:45+00:00"
-   },
-   {
-    "title": "CVE-2019-14853 — Red Hat Security Advisory: Satellite 6.10 Release (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2021:4702",
-    "score": 9.8,
-    "date": "2026-08-08T16:41:38+00:00"
+    "date": "2026-08-08T18:11:11+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2019-8331 — Red Hat Security Advisory: ovirt-web-ui security and bug fix update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2019:3024",
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.20.32 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48676",
+    "score": 9.4,
+    "date": "2026-08-08T18:10:08+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-08T18:10:00+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-08T18:09:59+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
     "score": 9.1,
-    "date": "2026-08-08T16:41:27+00:00"
+    "date": "2026-08-08T18:10:25+00:00"
    },
    {
-    "title": "CVE-2020-1953 — Red Hat Security Advisory: Red Hat AMQ Broker 7.7 release and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:2751",
-    "score": 9,
-    "date": "2026-08-08T16:41:31+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:24+00:00"
    },
    {
-    "title": "CVE-2018-15756 — Red Hat Security Advisory: Red Hat AMQ Broker 7.4.4 release and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3133",
-    "score": 9,
-    "date": "2026-08-08T16:41:29+00:00"
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:22+00:00"
    },
    {
-    "title": "CVE-2019-15845 — Red Hat Security Advisory: ruby:2.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:0582",
-    "score": 8.8,
-    "date": "2026-08-08T16:41:45+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:22+00:00"
    },
    {
-    "title": "CVE-2020-36327 — Red Hat Security Advisory: rh-ruby26-ruby security, bug fix, and enhancement update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:0708",
-    "score": 8.8,
-    "date": "2026-08-08T16:41:44+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:20+00:00"
    },
    {
-    "title": "CVE-2019-15845 — Red Hat Security Advisory: ruby:2.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:0581",
-    "score": 8.8,
-    "date": "2026-08-08T16:41:42+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:20+00:00"
    },
    {
-    "title": "CVE-2020-36327 — Red Hat Security Advisory: ruby:2.5 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2022:0548",
-    "score": 8.8,
-    "date": "2026-08-08T16:41:42+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:20+00:00"
    },
    {
-    "title": "CVE-2020-36327 — Red Hat Security Advisory: ruby:2.5 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2022:0547",
-    "score": 8.8,
-    "date": "2026-08-08T16:41:42+00:00"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-08-08T18:10:15+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9332,
+    "stars": 9333,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 140,
+    "stars": 141,
     "lang": "—"
    },
    {
@@ -649,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "RovoBlast: How One Click Triggered Atlassian’s AI Assistant to Leak Data",
-    "url": "https://www.reddit.com/r/netsec/comments/1vilqda/rovoblast_how_one_click_triggered_atlassians_ai/",
-    "date": "2026-08-08T03:57:07+00:00",
+    "title": "Analyzing a Multi-Stage PowerShell Payload Chain",
+    "url": "https://www.reddit.com/r/netsec/comments/1vj2hiw/analyzing_a_multistage_powershell_payload_chain/",
+    "date": "2026-08-08T17:55:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Analyzing a Multi-Stage PowerShell Payload Chain",
-    "url": "https://www.reddit.com/r/netsec/comments/1vj2hiw/analyzing_a_multistage_powershell_payload_chain/",
-    "date": "2026-08-08T17:55:01+00:00",
+    "title": "RovoBlast: How One Click Triggered Atlassian’s AI Assistant to Leak Data",
+    "url": "https://www.reddit.com/r/netsec/comments/1vilqda/rovoblast_how_one_click_triggered_atlassians_ai/",
+    "date": "2026-08-08T03:57:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
+  "crit": 14,
   "kev": 1662,
   "adv": 12,
   "feed": 48
