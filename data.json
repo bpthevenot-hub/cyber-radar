@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-08T11:47:23.836Z",
+ "generatedAt": "2026-08-08T13:15:26.224Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-7374 — Red Hat Security Advisory: OpenShift Virtualization v4.12 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:20825",
+    "score": 9.9,
+    "date": "2026-08-08T10:53:34+00:00"
+   },
    {
     "title": "CVE-2026-14526 — The AI Copilot – Content Generator plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 1.5.6. T",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-14526",
@@ -21,28 +27,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.6.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44622",
-    "score": 8.8,
-    "date": "2026-08-08T07:54:49+00:00"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Virtualization v4.21 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27892",
+    "score": 9.1,
+    "date": "2026-08-08T10:56:30+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.5.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42852",
-    "score": 8.8,
-    "date": "2026-08-08T07:54:44+00:00"
+    "title": "CVE-2026-49978 — Red Hat Security Advisory: OpenShift Virtualization v4.12 Images (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46623",
+    "score": 8.1,
+    "date": "2026-08-08T10:53:41+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Multicluster Global Hub 1.4.7 security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41030",
-    "score": 8.8,
-    "date": "2026-08-08T07:54:44+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
-    "score": 8.8,
-    "date": "2026-08-08T07:54:41+00:00"
+    "title": "CVE-2026-55827 — Red Hat Security Advisory: freerdp security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50747",
+    "score": 7.5,
+    "date": "2026-08-08T10:53:52+00:00"
    },
    {
     "title": "CVE-2008-1891 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+35 CVE)",
@@ -463,13 +463,13 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9308,
+    "stars": 9313,
     "lang": "TypeScript"
    },
    {
     "title": "Kritt-ai/open-kritt — Orchestrate AI agents to find real vulnerabilities in code.",
     "url": "https://github.com/Kritt-ai/open-kritt",
-    "stars": 1592,
+    "stars": 1594,
     "lang": "JavaScript"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 111,
+    "stars": 112,
     "lang": "JavaScript"
    },
    {
@@ -656,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "TrustFall: When the Trusted Execution Environment Cannot Be Trusted",
-    "url": "https://www.reddit.com/r/netsec/comments/1vi380e/trustfall_when_the_trusted_execution_environment/",
-    "date": "2026-08-07T15:08:07+00:00",
+    "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1viux00/def_con_talk_8_in_10_banks_in_belgium_hate_this/",
+    "date": "2026-08-08T12:36:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -666,6 +666,13 @@
     "title": "SCTPhantom: An 18-Year-Old SCTP ASCONF Transport Use-After-Free · Tencent Zhuque Lab",
     "url": "https://www.reddit.com/r/netsec/comments/1vijs4n/sctphantom_an_18yearold_sctp_asconf_transport/",
     "date": "2026-08-08T02:20:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "TrustFall: When the Trusted Execution Environment Cannot Be Trusted",
+    "url": "https://www.reddit.com/r/netsec/comments/1vi380e/trustfall_when_the_trusted_execution_environment/",
+    "date": "2026-08-07T15:08:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-08-05T14:38:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Bugtraq is back 🥹",
-    "url": "https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/",
-    "date": "2026-08-04T22:48:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1662,
   "adv": 12,
   "feed": 48
