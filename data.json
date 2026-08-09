@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-09T19:05:05.949Z",
+ "generatedAt": "2026-08-09T19:50:38.640Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-08-09T18:19:13+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-08-09T18:19:13+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-09T18:18:11+00:00"
+   },
+   {
+    "title": "CVE-2025-4565 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3960",
+    "score": 8.8,
+    "date": "2026-08-09T18:19:16+00:00"
+   },
+   {
+    "title": "CVE-2024-5642 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0414",
+    "score": 8.8,
+    "date": "2026-08-09T18:19:10+00:00"
+   },
+   {
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.10 security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47737",
+    "score": 8.8,
+    "date": "2026-08-09T18:18:13+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47451",
+    "score": 8.8,
+    "date": "2026-08-09T18:18:11+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46903",
+    "score": 8.8,
+    "date": "2026-08-09T18:18:06+00:00"
+   },
+   {
+    "title": "CVE-2026-33811 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.12 security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41055",
+    "score": 8.8,
+    "date": "2026-08-09T18:17:55+00:00"
+   },
+   {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: Red Hat Quay 3.9.24 (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40262",
+    "score": 8.8,
+    "date": "2026-08-09T18:17:51+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.18.4 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3874",
+    "score": 8.7,
+    "date": "2026-08-09T18:19:15+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.17.5 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3869",
+    "score": 8.7,
+    "date": "2026-08-09T18:19:14+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -564,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "HTTP/3 Trailer HEADERS Frame Triggers Unhandled Exception in Google ESF: 60s Hang &amp; QUIC INTERNAL_ERROR 0x0001 | Protocol RE | Netacoding",
+    "url": "https://www.reddit.com/r/netsec/comments/1vjze2a/http3_trailer_headers_frame_triggers_unhandled/",
+    "date": "2026-08-09T19:48:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1viux00/def_con_talk_8_in_10_banks_in_belgium_hate_this/",
     "date": "2026-08-08T12:36:20+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-08-08T02:20:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
-    "url": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
-    "date": "2026-08-06T21:22:53+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 5,
   "kev": 1662,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
