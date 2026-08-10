@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-08-10T12:02:16.456Z",
+ "generatedAt": "2026-08-10T13:48:21.594Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHOAI 2.25.3 - Red Hat OpenShift AI (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3782",
+    "score": 9.8,
+    "date": "2026-08-10T12:38:18+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: RHOAI 3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3713",
+    "score": 9.8,
+    "date": "2026-08-10T12:38:09+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-08-10T12:37:51+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-08-10T12:37:50+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-08-10T12:37:44+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-66405 — DEEBOT PRO M1 and DEEBOT PRO K1VAC leave the telnet servers enabled. The telnet service may be leveraged to log in to the affected products.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66405",
-    "score": 8.8,
-    "date": "2026-08-10T09:31:23Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.14.69 bug fix and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36611",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:58+00:00"
    },
    {
-    "title": "CVE-2026-64940 — Tegalog -Fumy Otegaru Memo Logger- provided by Nishishi Factory contains a vulnerability due to a permissive regular expression, which may a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64940",
-    "score": 8.6,
-    "date": "2026-08-10T09:31:22Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 security and extras update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34795",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:54+00:00"
    },
    {
-    "title": "CVE-2026-66407 — DEEBOT PRO M1 and DEEBOT PRO K1VAC improperly implement authentication in WebSocket communication. The WebSocket private key may be retrieve",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66407",
-    "score": 8.1,
-    "date": "2026-08-10T09:31:23Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.21.23 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34769",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:52+00:00"
    },
    {
-    "title": "CVE-2026-66403 — DEEBOT PRO M1 and DEEBOT PRO K1VAC leave the web server for debugging purposes enabled. The floor map and log information stored on the affe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66403",
-    "score": 7.5,
-    "date": "2026-08-10T09:31:23Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.4.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34364",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:46+00:00"
    },
    {
-    "title": "CVE-2026-21068 — Stack-based buffer overflow in libril_sem.so prior to SMR Aug-2026 Release 1 allows privileged local attackers to execute arbitrary code.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21068",
-    "score": 7.5,
-    "date": "2026-08-10T09:31:23Z"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.17.55 security and extras update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34100",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:42+00:00"
    },
    {
-    "title": "CVE-2026-21079 — Missing encryption of sensitive data in Smart Switch prior to version 3.7.72.6 allows adjacent attackers to intercept transmitted data.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21079",
-    "score": 7.5,
-    "date": "2026-08-10T09:31:23Z"
+    "title": "CVE-2026-27140 — Red Hat Security Advisory: OpenShift Container Platform 4.17.55 bug fix and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34099",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:41+00:00"
    },
    {
-    "title": "CVE-2026-21064 — Improper access control in Weaver prior to SMR Aug-2026 Release 1 allows local attackers to cause device inoperability.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21064",
-    "score": 7.5,
-    "date": "2026-08-10T09:31:23Z"
-   },
-   {
-    "title": "CVE-2026-21074 — Incorrect default permissions in Bixby prior to version 4.0.86.0 allows local attackers to execute arbitrary commands with Bixby privilege.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21074",
-    "score": 7.5,
-    "date": "2026-08-10T09:31:23Z"
-   },
-   {
-    "title": "CVE-2026-66404 — DEEBOT PRO M1 and DEEBOT PRO K1VAC do not validate server certificates in MQTT communications. Operation logs and activity logs stored on th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66404",
-    "score": 6.5,
-    "date": "2026-08-10T09:31:23Z"
-   },
-   {
-    "title": "CVE-2026-66411 — DEEBOT PRO M1 and DEEBOT PRO K1VAC incorrectly implement authentication algorithm in Websocket communications. An unauthenticated attacker m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66411",
-    "score": 5.3,
-    "date": "2026-08-10T09:31:24Z"
-   },
-   {
-    "title": "CVE-2026-66409 — DEEBOT PRO M1 and DEEBOT PRO K1VAC are configured with weak passwords for their Wi-Fi hotspot networks. The password may be analyzed and obt",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66409",
-    "score": 5.3,
-    "date": "2026-08-10T09:31:23Z"
-   },
-   {
-    "title": "CVE-2026-21083 — Improper input validation in Smart Switch prior to version 3.7.72.6 allows adjacent attackers to access sensitive data.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21083",
-    "score": 5,
-    "date": "2026-08-10T09:31:23Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: OpenShift Container Platform 4.17.55 packages and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34097",
+    "score": 9.1,
+    "date": "2026-08-10T12:37:40+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+    "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+    "date": "Mon, 10 Aug 2026 17:55:04 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+    "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+    "date": "Mon, 10 Aug 2026 17:22:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+    "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+    "date": "Mon, 10 Aug 2026 17:03:41 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
     "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
     "date": "Mon, 10 Aug 2026 13:08:23 +0530",
@@ -350,30 +371,23 @@
     "date": "Fri, 07 Aug 2026 23:59:08 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-    "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-    "date": "Fri, 07 Aug 2026 23:46:13 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-    "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-    "date": "Fri, 07 Aug 2026 18:26:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Growing Up The Hard Way",
-    "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-    "date": "Fri, 07 Aug 2026 17:25:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Member of The Com sent to prison for blackmail, sextortion",
+    "url": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
+    "date": "Mon, 10 Aug 2026 08:56:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "LexisNexis shuts down services after suspicious activity on servers",
+    "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+    "date": "Mon, 10 Aug 2026 08:11:52 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Valve notifies Steam hardware customers of a data breach",
     "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
@@ -443,27 +457,13 @@
     "date": "Thu, 06 Aug 2026 18:37:17 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-    "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-    "date": "Thu, 06 Aug 2026 16:07:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Swiss government SharePoint breach compromised 200 accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-    "date": "Thu, 06 Aug 2026 14:14:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9478,
+    "stars": 9482,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 91,
+    "stars": 90,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1662,
   "adv": 12,
   "feed": 48
