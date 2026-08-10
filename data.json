@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-10T21:04:19.601Z",
+ "generatedAt": "2026-08-10T22:00:53.458Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2023-3775 — Red Hat Security Advisory: OpenShift Container Platform 4.17.0 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3718",
+    "score": 9.9,
+    "date": "2026-08-10T20:43:07+00:00"
+   },
+   {
+    "title": "CVE-2023-39326 — Red Hat Security Advisory: Network Observability 1.6.0 for OpenShift (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3868",
+    "score": 9.8,
+    "date": "2026-08-10T20:43:12+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2023-3462 — Red Hat Security Advisory: OpenShift Container Platform 4.17.1 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7922",
+    "score": 8.8,
+    "date": "2026-08-10T20:43:19+00:00"
+   },
+   {
+    "title": "CVE-2022-3064 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.15.0 release (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4631",
+    "score": 8.8,
+    "date": "2026-08-10T20:43:14+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.15 OpenShift Jenkins security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4597",
+    "score": 8.8,
+    "date": "2026-08-10T20:43:13+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.13 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3636",
+    "score": 8.8,
+    "date": "2026-08-10T20:43:06+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3635",
+    "score": 8.8,
+    "date": "2026-08-10T20:43:06+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.14 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3634",
+    "score": 8.8,
+    "date": "2026-08-10T20:43:05+00:00"
+   },
+   {
+    "title": "CVE-2022-2880 — Red Hat Security Advisory: container-tools:rhel8 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3254",
+    "score": 8.6,
+    "date": "2026-08-10T20:43:04+00:00"
+   },
+   {
+    "title": "CVE-2022-21698 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes 2.12.6 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:22684",
+    "score": 8.5,
+    "date": "2026-08-10T20:43:30+00:00"
+   },
+   {
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: OpenShift Container Platform 4.16.14 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6824",
+    "score": 8.3,
+    "date": "2026-08-10T20:43:17+00:00"
+   },
+   {
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
+    "score": 8.3,
+    "date": "2026-08-10T20:43:15+00:00"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
+    "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+    "date": "Mon, 10 Aug 2026 17:12:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
     "url": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
     "date": "Mon, 10 Aug 2026 15:24:40 -0400",
@@ -378,20 +457,13 @@
     "date": "Fri, 07 Aug 2026 15:30:41 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-    "date": "Fri, 07 Aug 2026 11:48:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9508,
+    "stars": 9509,
     "lang": "TypeScript"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1662,
   "adv": 12,
   "feed": 48
