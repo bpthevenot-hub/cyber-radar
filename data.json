@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-08-11T15:17:43.580Z",
+ "generatedAt": "2026-08-11T17:15:48.193Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "SeaweedFS: Unauthenticated SSRF with response read-back via VolumeServer.FetchAndWriteNeedle",
+    "url": "https://github.com/advisories/GHSA-87fv-vqqr-m4jr",
+    "score": 9.3,
+    "ghsa": "GHSA-87fv-vqqr-m4jr",
+    "date": "2026-08-11T15:58:23Z"
+   },
+   {
     "title": "pypdf: Possible large memory usage for large /ToUnicode streams",
     "url": "https://github.com/advisories/GHSA-fp3f-mc75-235c",
     "score": null,
@@ -193,13 +213,6 @@
     "score": 9.4,
     "ghsa": "GHSA-c9w5-rwh3-7pm9",
     "date": "2026-08-07T18:22:59Z"
-   },
-   {
-    "title": "CodeIgniter: Spoofable forwarded HTTPS headers in IncomingRequest::isSecure()",
-    "url": "https://github.com/advisories/GHSA-7wmf-pw8j-mc78",
-    "score": 4.8,
-    "ghsa": "GHSA-7wmf-pw8j-mc78",
-    "date": "2026-08-07T18:21:54Z"
    }
   ],
   "thn": [
@@ -290,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+    "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+    "date": "Tue, 11 Aug 2026 11:59:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
     "url": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
     "date": "Tue, 11 Aug 2026 09:20:28 -0400",
@@ -365,20 +385,13 @@
     "date": "Mon, 10 Aug 2026 10:34:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-    "url": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-    "date": "Mon, 10 Aug 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9606,
+    "stars": 9611,
     "lang": "TypeScript"
    },
    {
@@ -390,7 +403,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 316,
+    "stars": 317,
     "lang": "Java"
    },
    {
@@ -426,7 +439,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 99,
+    "stars": 102,
     "lang": "Python"
    },
    {
@@ -444,7 +457,7 @@
    {
     "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
     "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-    "stars": 85,
+    "stars": 86,
     "lang": "Shell"
    }
   ],
@@ -557,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
+    "date": "2026-08-11T15:33:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Inside a Russian-speaking operator's toolkit for compromising Ukrainian IP cameras",
     "url": "https://www.reddit.com/r/netsec/comments/1vktfi3/inside_a_russianspeaking_operators_toolkit_for/",
     "date": "2026-08-10T18:41:25+00:00",
@@ -611,18 +631,11 @@
     "date": "2026-08-08T17:55:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Write Once, Shell Everywhere - Turning Arbitrary File Writes into RCE (DEF CON Bug Bounty Village)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vir8aq/write_once_shell_everywhere_turning_arbitrary/",
-    "date": "2026-08-08T09:10:24+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1662,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
