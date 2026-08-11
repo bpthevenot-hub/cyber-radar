@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-08-11T10:15:31.502Z",
+ "generatedAt": "2026-08-11T11:09:06.771Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-18948 — A flaw was found in Feast. The system improperly deserializes user-defined functions (UDFs) stored in its registry, which are serialized usi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18948",
-    "score": 9.9,
-    "date": "2026-08-10T21:32:07Z"
+    "title": "CVE-2026-16812 — Kwetsbaarheden verholpen in Arista VeloCloud Orchestrator On-Prem",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16812",
+    "score": 10,
+    "date": "2026-08-11T09:13:09.897543Z"
    },
    {
     "title": "CVE-2026-19425 — Travel Agency Management System developed by Win Men Intermational has a SQL Injection vulnerability. Unauthenticated remote attackers can i",
@@ -33,58 +33,58 @@
     "date": "2026-08-11T06:31:19Z"
    },
    {
-    "title": "CVE-2026-13716 — Path traversal in server import and admin file upload in Crafty Controller. Allows a remote, authenticated attacker to upload files to arbit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13716",
-    "score": 9.1,
+    "title": "CVE-2025-6625 — Modicon M340 Controller and Communication Modules",
+    "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2025-224-05&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2025-224-05.pdf",
+    "score": 7.5,
+    "date": "2026-08-11T07:00:00.000Z"
+   },
+   {
+    "title": "CVE-2026-4757 — A VAPIX API parameter had improper input validation which could allow code execution and potentially lead to a privilege escalation. This fl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-4757",
+    "score": 7.2,
     "date": "2026-08-11T06:31:19Z"
    },
    {
-    "title": "CVE-2026-18949 — A flaw was found in odh-dashboard. This vulnerability allows an attacker, who has compromised the dashboard's Service Account (SA) token, to",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18949",
-    "score": 8.8,
-    "date": "2026-08-10T21:32:07Z"
+    "title": "CVE-2026-13336 — Multiple Vulnerabilities on NetBotz 5 750/755 Products (+1 CVE)",
+    "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-223-02&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-223-02.pdf",
+    "score": 6.4,
+    "date": "2026-08-11T07:00:00.000Z"
    },
    {
-    "title": "CVE-2026-18982 — A flaw was found in the RHOAI training-operator. This vulnerability allows a user with standard edit or admin roles in any Kubernetes namesp",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18982",
-    "score": 8.8,
-    "date": "2026-08-10T21:32:07Z"
+    "title": "CVE-2026-16974 — The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the po",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16974",
+    "score": 6.4,
+    "date": "2026-08-11T06:31:19Z"
    },
    {
-    "title": "CVE-2026-18950 — A flaw was found in odh-dashboard. An authenticated user of the dashboard can exploit a vulnerability related to how RoleBindings are create",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18950",
-    "score": 8.8,
-    "date": "2026-08-10T21:32:07Z"
+    "title": "CVE-2026-6181 — The Device Configuration Framework is vulnerable to an authentication bypass flaw. This flaw can only be exploited after authenticating with",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6181",
+    "score": 5.9,
+    "date": "2026-08-11T06:31:19Z"
    },
    {
-    "title": "CVE-2026-18951 — A flaw was found in the Red Hat OpenShift AI (RHOAI) overlay for the training operator. The RHOAI overlay incorrectly aggregates `trainjobs`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18951",
-    "score": 8.8,
-    "date": "2026-08-10T21:32:07Z"
+    "title": "CVE-2026-5304 — An ACAP configuration file lacks input validation, which could potentially lead to privilege escalation. This vulnerability can only be expl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5304",
+    "score": 5.7,
+    "date": "2026-08-11T06:31:19Z"
    },
    {
-    "title": "CVE-2026-18617 — A flaw was found in the Data Science Pipelines Operator (DSPO). A namespace editor can exploit a vulnerability in the spec.database.customEx",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18617",
-    "score": 8.8,
-    "date": "2026-08-10T21:32:06Z"
+    "title": "CVE-2026-5303 — The ACAP framework contains a Time-of-Check to Time-of-Use (TOCTOU) race condition, which could potentially lead to privilege escalation. Th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5303",
+    "score": 5.7,
+    "date": "2026-08-11T06:31:19Z"
    },
    {
-    "title": "CVE-2026-16745 — A flaw was found in odh-dashboard, the web console component of Red Hat OpenShift AI (RHOAI). Due to incorrect network binding, a malicious ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16745",
-    "score": 8.8,
-    "date": "2026-07-23T12:32:23Z"
+    "title": "CVE-2026-13348 — Improper Restriction of Excessive Authentication Attempts vulnerability on PowerChute Serial Shutdown",
+    "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-223-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-223-01.pdf",
+    "score": 5.3,
+    "date": "2026-08-11T07:00:00.000Z"
    },
    {
-    "title": "CVE-2026-18608 — A flaw was found in the Data Science Pipelines Operator (DSPO). The operator's ClusterRole, which defines its permissions, includes extensiv",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18608",
-    "score": 8.7,
-    "date": "2026-08-10T21:32:06Z"
-   },
-   {
-    "title": "CVE-2026-18947 — A flaw was found in Feast. An authorization bypass vulnerability exists in the /materialize and /materialize-incremental endpoints. By sendi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18947",
-    "score": 8.5,
-    "date": "2026-08-10T21:32:07Z"
+    "title": "CVE-2026-6505 — The ACAP framework contains a Time-of-Check to Time-of-Use (TOCTOU) race condition, which could potentially lead to privilege escalation. Th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6505",
+    "score": 5.1,
+    "date": "2026-08-11T06:31:19Z"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+    "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+    "date": "Tue, 11 Aug 2026 16:18:26 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+    "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+    "date": "Tue, 11 Aug 2026 15:54:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+    "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+    "date": "Tue, 11 Aug 2026 14:46:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
     "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
     "date": "Tue, 11 Aug 2026 12:25:45 +0530",
@@ -350,30 +371,16 @@
     "date": "Mon, 10 Aug 2026 13:08:23 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-    "date": "Mon, 10 Aug 2026 11:20:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-    "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-    "date": "Sat, 08 Aug 2026 14:24:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-    "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-    "date": "Sat, 08 Aug 2026 13:33:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
+    "date": "Tue, 11 Aug 2026 07:03:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
     "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
@@ -450,20 +457,13 @@
     "date": "Mon, 10 Aug 2026 05:49:37 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-    "date": "Sat, 08 Aug 2026 10:16:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9567,
+    "stars": 9581,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 164,
+    "stars": 165,
     "lang": "—"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 95,
+    "stars": 96,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "SMAP is Pre-Disarmed: How a Stack Pivot That Shouldn't Work Revealed a Kernel-Wide Design Compromise",
+    "url": "https://www.reddit.com/r/netsec/comments/1vldzrh/smap_is_predisarmed_how_a_stack_pivot_that/",
+    "date": "2026-08-11T10:46:26+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Mandatory User Profile for Persistence &amp; EDR Evasion",
     "url": "https://www.reddit.com/r/netsec/comments/1vlbhe1/mandatory_user_profile_for_persistence_edr_evasion/",
     "date": "2026-08-11T08:20:56+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-08T03:57:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "tl;dv (Too Lazy; Didn't Validate): 181,874 Meetings Left Wide Open",
-    "url": "https://www.reddit.com/r/netsec/comments/1vi8ibp/tldv_too_lazy_didnt_validate_181874_meetings_left/",
-    "date": "2026-08-07T18:23:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 5,
   "kev": 1662,
   "adv": 12,
   "feed": 48
