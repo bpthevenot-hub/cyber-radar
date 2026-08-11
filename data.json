@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-08-11T21:06:57.877Z",
+ "generatedAt": "2026-08-11T22:07:34.830Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
-    "score": 9.8,
-    "date": "2026-08-11T18:41:54+00:00"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 bug fix and security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20041",
-    "score": 9.1,
-    "date": "2026-08-11T18:41:55+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
-    "score": 9.1,
-    "date": "2026-08-11T18:37:26+00:00"
-   },
-   {
-    "title": "CVE-2024-5642 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:0414",
-    "score": 8.8,
-    "date": "2026-08-11T18:41:26+00:00"
-   },
-   {
-    "title": "CVE-2026-29063 — Red Hat Security Advisory: General availability of the satellite/iop-host-inventory-frontend-rhel9 container image (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26232",
-    "score": 8.8,
-    "date": "2026-08-11T18:37:17+00:00"
-   },
-   {
-    "title": "CVE-2026-6322 — Red Hat Security Advisory: Technical preview of the satellite/iop-vulnerability-frontend-rhel9 container image (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26225",
-    "score": 8.8,
-    "date": "2026-08-11T18:37:17+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: HawtIO 4.4.0 for Red Hat build of Apache Camel 4 Release and security update. (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25089",
-    "score": 8.8,
-    "date": "2026-08-11T18:36:58+00:00"
-   },
-   {
-    "title": "CVE-2024-37890 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.15.4 (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3712",
-    "score": 8.7,
-    "date": "2026-08-11T18:42:39+00:00"
-   },
-   {
-    "title": "CVE-2024-37890 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.15.3 (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3710",
-    "score": 8.7,
-    "date": "2026-08-11T18:42:35+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Network Observability 1.11.0 for OpenShift (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2900",
-    "score": 8.7,
-    "date": "2026-08-11T18:42:32+00:00"
-   },
-   {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.10.18 (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2762",
-    "score": 8.7,
-    "date": "2026-08-11T18:42:30+00:00"
-   },
-   {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.9.18 (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2754",
-    "score": 8.7,
-    "date": "2026-08-11T18:42:27+00:00"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -375,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+    "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+    "date": "Tue, 11 Aug 2026 17:07:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
     "date": "Tue, 11 Aug 2026 15:45:31 -0400",
@@ -450,20 +372,13 @@
     "date": "Tue, 11 Aug 2026 07:03:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-    "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-    "date": "Tue, 11 Aug 2026 05:47:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9621,
+    "stars": 9622,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +396,7 @@
    {
     "title": "OlegSotnikov/sallyport — A Mac vault that runs authenticated actions for AI agents over MCP. The agent gets the operation, never the ke",
     "url": "https://github.com/OlegSotnikov/sallyport",
-    "stars": 245,
+    "stars": 246,
     "lang": "Swift"
    },
    {
@@ -635,16 +550,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
-    "date": "2026-08-11T15:33:52+00:00",
+    "title": "Expired DMARC reporting endpoint exposed a NYSE Fortune 1000's infrastructure for $10",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlsvsn/expired_dmarc_reporting_endpoint_exposed_a_nyse/",
+    "date": "2026-08-11T20:23:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Expired DMARC reporting endpoint exposed a NYSE Fortune 1000's infrastructure for $10",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlsvsn/expired_dmarc_reporting_endpoint_exposed_a_nyse/",
-    "date": "2026-08-11T20:23:28+00:00",
+    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
+    "date": "2026-08-11T15:33:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 0,
   "kev": 1665,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
