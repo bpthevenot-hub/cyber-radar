@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-08-11T18:11:25.575Z",
+ "generatedAt": "2026-08-11T19:28:28.763Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-08-11T17:34:17+00:00"
+   },
+   {
+    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
+    "score": 9.8,
+    "date": "2026-08-11T17:34:05+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.4 release. (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13826",
+    "score": 9.8,
+    "date": "2026-08-11T17:33:58+00:00"
+   },
+   {
+    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.1 Release. (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10175",
+    "score": 9.8,
+    "date": "2026-08-11T17:33:56+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +37,54 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-08-11T17:27:54+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.3 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36882",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:16+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:15+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:15+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:14+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:14+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:14+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 bug fix and security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:20041",
+    "score": 9.1,
+    "date": "2026-08-11T17:34:06+00:00"
    }
   ],
   "kev": [
@@ -131,6 +203,48 @@
   ],
   "adv": [
    {
+    "title": "Microsoft Security Advisory CVE-2026-70354 – .NET Core Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-gg8c-3338-xw2f",
+    "score": 7.8,
+    "ghsa": "GHSA-gg8c-3338-xw2f",
+    "date": "2026-08-11T19:24:47Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-62909 – .NET Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-9mr8-pwpw-3j2w",
+    "score": 6.7,
+    "ghsa": "GHSA-9mr8-pwpw-3j2w",
+    "date": "2026-08-11T19:04:21Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-62886 – .NET Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-jqhp-238x-qhgf",
+    "score": 7.8,
+    "ghsa": "GHSA-jqhp-238x-qhgf",
+    "date": "2026-08-11T18:58:08Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-62901 – .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-m93f-wj8c-rp8p",
+    "score": 7.5,
+    "ghsa": "GHSA-m93f-wj8c-rp8p",
+    "date": "2026-08-11T18:53:55Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-62899 – .NET Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-r6mh-95jw-g7qg",
+    "score": 5.9,
+    "ghsa": "GHSA-r6mh-95jw-g7qg",
+    "date": "2026-08-11T18:40:35Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-62898 – .NET Information Disclosure Vulnerability",
+    "url": "https://github.com/advisories/GHSA-c494-m2fq-59mx",
+    "score": 7.5,
+    "ghsa": "GHSA-c494-m2fq-59mx",
+    "date": "2026-08-11T18:28:37Z"
+   },
+   {
     "title": "SeaweedFS: Unauthenticated SSRF with response read-back via VolumeServer.FetchAndWriteNeedle",
     "url": "https://github.com/advisories/GHSA-87fv-vqqr-m4jr",
     "score": 9.3,
@@ -171,51 +285,16 @@
     "score": 3.7,
     "ghsa": "GHSA-79qm-7rj5-m7r9",
     "date": "2026-08-07T18:38:48Z"
-   },
-   {
-    "title": "Hono: Algorithmic Complexity DoS in Language Middleware",
-    "url": "https://github.com/advisories/GHSA-54fx-42gc-7vw4",
-    "score": 5.3,
-    "ghsa": "GHSA-54fx-42gc-7vw4",
-    "date": "2026-08-07T18:36:31Z"
-   },
-   {
-    "title": "Ruby JSON: JSON::ResumableParser#partial_value dereferences a freed input buffer and crashes on truncated duplicate-key streams",
-    "url": "https://github.com/advisories/GHSA-9hj4-r449-hfvc",
-    "score": 2,
-    "ghsa": "GHSA-9hj4-r449-hfvc",
-    "date": "2026-08-07T18:33:12Z"
-   },
-   {
-    "title": "pymdown-extensions: exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
-    "url": "https://github.com/advisories/GHSA-gm37-52c6-37mw",
-    "score": 7.5,
-    "ghsa": "GHSA-gm37-52c6-37mw",
-    "date": "2026-08-07T18:26:07Z"
-   },
-   {
-    "title": "CodeIgniter: Uploaded file extension validation bypass in `is_image` and `mime_in` rules",
-    "url": "https://github.com/advisories/GHSA-mmj4-63m4-r6h5",
-    "score": 9.8,
-    "ghsa": "GHSA-mmj4-63m4-r6h5",
-    "date": "2026-08-07T18:24:21Z"
-   },
-   {
-    "title": "CodeIgniter: Path traversal in UploadedFile::move() when using client-provided filenames",
-    "url": "https://github.com/advisories/GHSA-hhmc-q9hp-r662",
-    "score": 7.5,
-    "ghsa": "GHSA-hhmc-q9hp-r662",
-    "date": "2026-08-07T18:23:46Z"
-   },
-   {
-    "title": "CodeIgniter: SQL injection in Query Builder deleteBatch() when used with where() conditions",
-    "url": "https://github.com/advisories/GHSA-c9w5-rwh3-7pm9",
-    "score": 9.4,
-    "ghsa": "GHSA-c9w5-rwh3-7pm9",
-    "date": "2026-08-07T18:22:59Z"
    }
   ],
   "thn": [
+   {
+    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+    "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+    "date": "Wed, 12 Aug 2026 00:06:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
     "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
@@ -292,16 +371,23 @@
     "date": "Tue, 11 Aug 2026 11:18:44 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
-    "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-    "date": "Mon, 10 Aug 2026 22:59:17 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
+    "url": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
+    "date": "Tue, 11 Aug 2026 14:34:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft releases Windows 10 KB5120249 extended security update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
+    "date": "Tue, 11 Aug 2026 14:26:03 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
@@ -371,27 +457,13 @@
     "date": "Mon, 10 Aug 2026 19:07:21 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-    "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-    "date": "Mon, 10 Aug 2026 17:12:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-    "date": "Mon, 10 Aug 2026 15:24:40 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9616,
+    "stars": 9621,
     "lang": "TypeScript"
    },
    {
@@ -563,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "SMAP is Pre-Disarmed: How a Stack Pivot That Shouldn't Work Revealed a Kernel-Wide Design Compromise",
-    "url": "https://www.reddit.com/r/netsec/comments/1vldzrh/smap_is_predisarmed_how_a_stack_pivot_that/",
-    "date": "2026-08-11T10:46:26+00:00",
+    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
+    "date": "2026-08-11T15:33:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
-    "date": "2026-08-11T15:33:52+00:00",
+    "title": "SMAP is Pre-Disarmed: How a Stack Pivot That Shouldn't Work Revealed a Kernel-Wide Design Compromise",
+    "url": "https://www.reddit.com/r/netsec/comments/1vldzrh/smap_is_predisarmed_how_a_stack_pivot_that/",
+    "date": "2026-08-11T10:46:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1662,
   "adv": 12,
   "feed": 48
