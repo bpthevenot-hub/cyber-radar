@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-11T22:07:34.830Z",
+ "generatedAt": "2026-08-11T23:06:00.211Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-08-11T21:31:44+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:45+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:44+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:43+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:43+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:42+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:42+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:33+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-08-11T21:31:32+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-08-11T21:31:45+00:00"
+   },
+   {
+    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.3.1 (CUDA) (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8748",
+    "score": 8.8,
+    "date": "2026-08-11T21:31:34+00:00"
+   },
+   {
+    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.1 (ROCm) (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8747",
+    "score": 8.8,
+    "date": "2026-08-11T21:31:34+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+    "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+    "date": "Tue, 11 Aug 2026 18:15:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
     "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
     "date": "Tue, 11 Aug 2026 17:07:24 -0400",
@@ -365,13 +457,6 @@
     "date": "Tue, 11 Aug 2026 08:12:16 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
-    "date": "Tue, 11 Aug 2026 07:03:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -390,7 +475,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 318,
+    "stars": 319,
     "lang": "Java"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 165,
+    "stars": 164,
     "lang": "—"
    },
    {
@@ -438,7 +523,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 87,
+    "stars": 88,
     "lang": "Python"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 11,
   "kev": 1665,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
