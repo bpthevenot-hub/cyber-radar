@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-12T13:51:49.529Z",
+ "generatedAt": "2026-08-12T15:17:06.339Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "MAL-2026-13819 — Malicious code in kanyut (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13819",
-    "score": null,
-    "date": "2026-08-12T10:31:25Z"
-   },
-   {
-    "title": "MAL-2026-13780 — Malicious code in @noxzacode/eslint-config (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13780",
-    "score": null,
-    "date": "2026-08-12T10:31:25Z"
-   },
-   {
-    "title": "MAL-2026-13831 — Malicious code in noxleys (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13831",
-    "score": null,
-    "date": "2026-08-12T10:31:25Z"
-   },
-   {
-    "title": "MAL-2026-13781 — Malicious code in @noxzacode/libsignal-node (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13781",
-    "score": null,
-    "date": "2026-08-12T10:31:25Z"
-   },
-   {
-    "title": "MAL-2026-13805 — Malicious code in egair0810 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13805",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13836 — Malicious code in twcvhjlksdmx (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13836",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13832 — Malicious code in passport811 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13832",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13804 — Malicious code in dzvchorehui2 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13804",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13803 — Malicious code in dzcvhfruwluwe (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13803",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13826 — Malicious code in mobicommn (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13826",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13806 — Malicious code in egypt0811 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13806",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
-   },
-   {
-    "title": "MAL-2026-13824 — Malicious code in mnteckets (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13824",
-    "score": null,
-    "date": "2026-08-12T10:29:54Z"
    }
   ],
   "kev": [
@@ -203,6 +131,55 @@
   ],
   "adv": [
    {
+    "title": "nimiq-blockchain: Validity store off by one error",
+    "url": "https://github.com/advisories/GHSA-3763-qp59-59vf",
+    "score": 7.5,
+    "ghsa": "GHSA-3763-qp59-59vf",
+    "date": "2026-08-12T15:16:53Z"
+   },
+   {
+    "title": "LibreNMS: Reflected XSS via Proxmox instance/vmid GET parameters injected into document.title JavaScript assignment",
+    "url": "https://github.com/advisories/GHSA-jmqm-f8q4-v7wx",
+    "score": 5.4,
+    "ghsa": "GHSA-jmqm-f8q4-v7wx",
+    "date": "2026-08-12T15:16:22Z"
+   },
+   {
+    "title": "Winter: Authenticated backend users can bypass Users controller permission checks",
+    "url": "https://github.com/advisories/GHSA-j5jq-cr68-v2xx",
+    "score": 7.5,
+    "ghsa": "GHSA-j5jq-cr68-v2xx",
+    "date": "2026-08-12T15:15:17Z"
+   },
+   {
+    "title": "Winter: Broken access control in `Cms\\Controllers\\Index` allows cross-template actions and unauthorized asset uploads",
+    "url": "https://github.com/advisories/GHSA-5c4f-9pq9-6c77",
+    "score": 6.8,
+    "ghsa": "GHSA-5c4f-9pq9-6c77",
+    "date": "2026-08-12T15:14:47Z"
+   },
+   {
+    "title": "Winter: SQL Injection in Backend Filter Widget numberrange Scope via numbersFromAjax",
+    "url": "https://github.com/advisories/GHSA-m7jc-g4rc-jmvh",
+    "score": 5.9,
+    "ghsa": "GHSA-m7jc-g4rc-jmvh",
+    "date": "2026-08-12T14:41:13Z"
+   },
+   {
+    "title": "Winter: Stored XSS through Editor Settings custom styles",
+    "url": "https://github.com/advisories/GHSA-vgp4-2fc4-qff2",
+    "score": 8.1,
+    "ghsa": "GHSA-vgp4-2fc4-qff2",
+    "date": "2026-08-12T14:40:38Z"
+   },
+   {
+    "title": "Winter: Stored XSS through Brand Settings custom styles",
+    "url": "https://github.com/advisories/GHSA-v7cf-8gh9-gxmj",
+    "score": 8.1,
+    "ghsa": "GHSA-v7cf-8gh9-gxmj",
+    "date": "2026-08-12T14:40:21Z"
+   },
+   {
     "title": "Microsoft Security Advisory CVE-2026-62902 – .NET Information Disclosure Vulnerability",
     "url": "https://github.com/advisories/GHSA-9mrh-pw7c-9mqm",
     "score": 6.5,
@@ -236,58 +213,16 @@
     "score": 6.7,
     "ghsa": "GHSA-9mr8-pwpw-3j2w",
     "date": "2026-08-11T19:04:21Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62886 – .NET Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-jqhp-238x-qhgf",
-    "score": 7.8,
-    "ghsa": "GHSA-jqhp-238x-qhgf",
-    "date": "2026-08-11T18:58:08Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62901 – .NET Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-m93f-wj8c-rp8p",
-    "score": 7.5,
-    "ghsa": "GHSA-m93f-wj8c-rp8p",
-    "date": "2026-08-11T18:53:55Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62899 – .NET Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-r6mh-95jw-g7qg",
-    "score": 5.9,
-    "ghsa": "GHSA-r6mh-95jw-g7qg",
-    "date": "2026-08-11T18:40:35Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62898 – .NET Information Disclosure Vulnerability",
-    "url": "https://github.com/advisories/GHSA-c494-m2fq-59mx",
-    "score": 7.5,
-    "ghsa": "GHSA-c494-m2fq-59mx",
-    "date": "2026-08-11T18:28:37Z"
-   },
-   {
-    "title": "SeaweedFS: Unauthenticated SSRF with response read-back via VolumeServer.FetchAndWriteNeedle",
-    "url": "https://github.com/advisories/GHSA-87fv-vqqr-m4jr",
-    "score": 9.3,
-    "ghsa": "GHSA-87fv-vqqr-m4jr",
-    "date": "2026-08-11T15:58:23Z"
-   },
-   {
-    "title": "pypdf: Possible large memory usage for large /ToUnicode streams",
-    "url": "https://github.com/advisories/GHSA-fp3f-mc75-235c",
-    "score": null,
-    "ghsa": "GHSA-fp3f-mc75-235c",
-    "date": "2026-08-07T19:29:09Z"
-   },
-   {
-    "title": "pypdf: Possible long runtimes/large memory usage for large CID font width ranges",
-    "url": "https://github.com/advisories/GHSA-fwg2-594c-jp42",
-    "score": null,
-    "ghsa": "GHSA-fwg2-594c-jp42",
-    "date": "2026-08-07T18:54:00Z"
    }
   ],
   "thn": [
+   {
+    "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+    "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+    "date": "Wed, 12 Aug 2026 19:39:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
     "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
@@ -364,16 +299,23 @@
     "date": "Wed, 12 Aug 2026 00:38:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-    "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-    "date": "Wed, 12 Aug 2026 00:06:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "FBI: Hackers target online accounts to steal nude photos",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
+    "date": "Wed, 12 Aug 2026 10:15:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
+    "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
+    "date": "Wed, 12 Aug 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
     "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
@@ -443,33 +385,19 @@
     "date": "Tue, 11 Aug 2026 14:08:50 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 KB5121003 &amp; KB5120240 cumulative updates released",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
-    "date": "Tue, 11 Aug 2026 13:38:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-    "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-    "date": "Tue, 11 Aug 2026 11:59:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9686,
+    "stars": 9693,
     "lang": "TypeScript"
    },
    {
     "title": "Brain0-ai/brain0 — The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it:",
     "url": "https://github.com/Brain0-ai/brain0",
-    "stars": 368,
+    "stars": 369,
     "lang": "Rust"
    },
    {
@@ -493,7 +421,7 @@
    {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
-    "stars": 164,
+    "stars": 165,
     "lang": "—"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 107,
+    "stars": 108,
     "lang": "Python"
    },
    {
