@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-08-12T18:11:56.744Z",
+ "generatedAt": "2026-08-12T19:29:55.172Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53806",
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: RHOAI 3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3713",
     "score": 9.8,
-    "date": "2026-08-12T16:25:00+00:00"
-   },
-   {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security pdate (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53644",
-    "score": 9.8,
-    "date": "2026-08-12T16:25:00+00:00"
+    "date": "2026-08-12T17:28:09+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
-    "score": 8.8,
-    "date": "2026-08-12T16:25:00+00:00"
+    "title": "CVE-2025-12805 — Red Hat Security Advisory: RHOAI 2.25.2 - Red Hat OpenShift AI (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2695",
+    "score": 8.7,
+    "date": "2026-08-12T17:28:09+00:00"
    },
    {
-    "title": "CVE-2023-44270 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.3 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3069",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:59+00:00"
+    "title": "CVE-2025-12805 — Red Hat Security Advisory: RHOAI 2.25.2 - Red Hat OpenShift AI (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2106",
+    "score": 8.7,
+    "date": "2026-08-12T17:28:09+00:00"
    },
    {
-    "title": "CVE-2024-11831 — Red Hat Security Advisory: ACS 4.4 enhancement and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1468",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:57+00:00"
-   },
-   {
-    "title": "CVE-2024-11831 — Red Hat Security Advisory: ACS 4.5 enhancement and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1334",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:57+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: OpenShift API for Data Protection (OADP) 1.4.5 security and bug fix update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:11396",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:57+00:00"
-   },
-   {
-    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.17.14 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0654",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:55+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat Trusted Profile Analyzer 1.2.2 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0445",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:55+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat Trusted Profile Analyzer 1.2.2 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0444",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:55+00:00"
-   },
-   {
-    "title": "CVE-2024-21538 — Red Hat Security Advisory: OpenShift Container Platform 4.17.15 security and extras update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0875",
-    "score": 8.2,
-    "date": "2026-08-12T16:24:53+00:00"
-   },
-   {
-    "title": "CVE-2025-21613 — Red Hat Security Advisory: grafana security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3344",
+    "title": "CVE-2026-41729 — Spring Data REST is vulnerable to SpEL expression injection through map-typed properties when processing JSON Patch requests",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41729",
     "score": 8.1,
-    "date": "2026-08-12T16:24:59+00:00"
+    "date": "2026-06-10T00:31:52Z"
+   },
+   {
+    "title": "CVE-2026-41732 — Spring for Apache Pulsar: JsonPulsarHeaderMapper Trusted-Package Prefix Check Allows Unintended Subpackage Deserialization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41732",
+    "score": 8.1,
+    "date": "2026-06-10T00:31:52Z"
+   },
+   {
+    "title": "CVE-2026-62901 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:44914",
+    "score": 7.5,
+    "date": "2026-08-12T17:28:03+00:00"
+   },
+   {
+    "title": "CVE-2026-41728 — Spring Data REST has Improper Access Control in its JSON Patch Implementation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41728",
+    "score": 7.5,
+    "date": "2026-06-10T00:31:52Z"
+   },
+   {
+    "title": "CVE-2026-73086 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54412",
+    "score": 7.4,
+    "date": "2026-08-12T17:28:00+00:00"
+   },
+   {
+    "title": "CVE-2026-41727 — Spring for Apache Kafka: Improper Validation of Retry Topic Header Values Leads to Retry Sequence Manipulation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41727",
+    "score": 6.5,
+    "date": "2026-06-10T00:31:52Z"
+   },
+   {
+    "title": "CVE-2026-41730 — Spring Data REST potentially exposes persistence-layer internals to HTTP clients",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41730",
+    "score": 5.3,
+    "date": "2026-06-10T00:31:52Z"
+   },
+   {
+    "title": "MAL-2026-13927 — Malicious code in svelte-kit-vim (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13927",
+    "score": null,
+    "date": "2026-08-12T17:35:48Z"
+   },
+   {
+    "title": "MAL-2026-13915 — Malicious code in kit-map-vim (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13915",
+    "score": null,
+    "date": "2026-08-12T15:13:19Z"
    }
   ],
   "kev": [
@@ -203,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
+    "url": "https://github.com/advisories/GHSA-49m4-vp58-wgc9",
+    "score": 8.4,
+    "ghsa": "GHSA-49m4-vp58-wgc9",
+    "date": "2026-08-12T19:23:38Z"
+   },
+   {
+    "title": "SeaweedFS: Path traversal in the S3 and Iceberg REST gateways allows cross-bucket access",
+    "url": "https://github.com/advisories/GHSA-w62w-66v9-vvgv",
+    "score": 7.5,
+    "ghsa": "GHSA-w62w-66v9-vvgv",
+    "date": "2026-08-12T19:19:54Z"
+   },
+   {
     "title": "compliance-trestle has an URLSecurityValidator SSRF allowlist bypass via IPv4-mapped IPv6 and 0.0.0.0",
     "url": "https://github.com/advisories/GHSA-h47f-gmjp-m7rr",
     "score": 7.5,
@@ -271,20 +285,6 @@
     "score": 8.1,
     "ghsa": "GHSA-vgp4-2fc4-qff2",
     "date": "2026-08-12T14:40:38Z"
-   },
-   {
-    "title": "Winter: Stored XSS through Brand Settings custom styles",
-    "url": "https://github.com/advisories/GHSA-v7cf-8gh9-gxmj",
-    "score": 8.1,
-    "ghsa": "GHSA-v7cf-8gh9-gxmj",
-    "date": "2026-08-12T14:40:21Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62902 – .NET Information Disclosure Vulnerability",
-    "url": "https://github.com/advisories/GHSA-9mrh-pw7c-9mqm",
-    "score": 6.5,
-    "ghsa": "GHSA-9mrh-pw7c-9mqm",
-    "date": "2026-08-11T19:55:48Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+    "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+    "date": "Wed, 12 Aug 2026 14:54:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
     "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
     "date": "Wed, 12 Aug 2026 12:05:12 -0400",
@@ -450,20 +457,13 @@
     "date": "Tue, 11 Aug 2026 15:45:31 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
-    "url": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
-    "date": "Tue, 11 Aug 2026 14:34:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9697,
+    "stars": 9698,
     "lang": "TypeScript"
    },
    {
@@ -635,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Expired DMARC reporting endpoint exposed a NYSE Fortune 1000's infrastructure for $10",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlsvsn/expired_dmarc_reporting_endpoint_exposed_a_nyse/",
-    "date": "2026-08-11T20:23:28+00:00",
+    "title": "CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix",
+    "url": "https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/",
+    "date": "2026-08-12T10:31:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix",
-    "url": "https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/",
-    "date": "2026-08-12T10:31:17+00:00",
+    "title": "Expired DMARC reporting endpoint exposed a NYSE Fortune 1000's infrastructure for $10",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlsvsn/expired_dmarc_reporting_endpoint_exposed_a_nyse/",
+    "date": "2026-08-11T20:23:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 3,
   "kev": 1665,
   "adv": 12,
   "feed": 48
