@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-12T12:01:57.865Z",
+ "generatedAt": "2026-08-12T13:51:49.529Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "MAL-2026-13819 — Malicious code in kanyut (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13819",
+    "score": null,
+    "date": "2026-08-12T10:31:25Z"
+   },
+   {
+    "title": "MAL-2026-13780 — Malicious code in @noxzacode/eslint-config (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13780",
+    "score": null,
+    "date": "2026-08-12T10:31:25Z"
+   },
+   {
+    "title": "MAL-2026-13831 — Malicious code in noxleys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13831",
+    "score": null,
+    "date": "2026-08-12T10:31:25Z"
+   },
+   {
+    "title": "MAL-2026-13781 — Malicious code in @noxzacode/libsignal-node (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13781",
+    "score": null,
+    "date": "2026-08-12T10:31:25Z"
+   },
+   {
+    "title": "MAL-2026-13805 — Malicious code in egair0810 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13805",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13836 — Malicious code in twcvhjlksdmx (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13836",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13832 — Malicious code in passport811 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13832",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13804 — Malicious code in dzvchorehui2 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13804",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13803 — Malicious code in dzcvhfruwluwe (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13803",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13826 — Malicious code in mobicommn (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13826",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13806 — Malicious code in egypt0811 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13806",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   },
+   {
+    "title": "MAL-2026-13824 — Malicious code in mnteckets (npm)",
+    "url": "https://github.com/advisories/MAL-2026-13824",
+    "score": null,
+    "date": "2026-08-12T10:29:54Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+    "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+    "date": "Wed, 12 Aug 2026 17:17:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+    "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+    "date": "Wed, 12 Aug 2026 17:11:34 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
     "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
     "date": "Wed, 12 Aug 2026 16:43:03 +0530",
@@ -272,23 +371,16 @@
     "date": "Wed, 12 Aug 2026 00:06:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-    "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-    "date": "Tue, 11 Aug 2026 22:17:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-    "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
-    "date": "Tue, 11 Aug 2026 22:05:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
+    "date": "Wed, 12 Aug 2026 08:25:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Signal adds new security feature to thwart man-in-the-middle attacks",
     "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
@@ -365,20 +457,13 @@
     "date": "Tue, 11 Aug 2026 11:59:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
-    "url": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-    "date": "Tue, 11 Aug 2026 09:20:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9680,
+    "stars": 9686,
     "lang": "TypeScript"
    },
    {
@@ -557,13 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "GhostSplice: Malicious MCP Servers Split Instructions to Make AI Coding Agents Exfiltrate Secrets (ASSET Research Group)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlynwn/ghostsplice_malicious_mcp_servers_split/",
-    "date": "2026-08-12T00:14:46+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix",
     "url": "https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/",
     "date": "2026-08-12T10:31:17+00:00",
@@ -571,16 +649,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
-    "date": "2026-08-11T15:33:52+00:00",
+    "title": "ERPNext's Document Follow feature exposed unauthorized data",
+    "url": "https://www.reddit.com/r/netsec/comments/1vm95nk/erpnexts_document_follow_feature_exposed/",
+    "date": "2026-08-12T09:23:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "ERPNext's Document Follow feature exposed unauthorized data",
-    "url": "https://www.reddit.com/r/netsec/comments/1vm95nk/erpnexts_document_follow_feature_exposed/",
-    "date": "2026-08-12T09:23:41+00:00",
+    "title": "GhostSplice: Malicious MCP Servers Split Instructions to Make AI Coding Agents Exfiltrate Secrets (ASSET Research Group)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlynwn/ghostsplice_malicious_mcp_servers_split/",
+    "date": "2026-08-12T00:14:46+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
+    "date": "2026-08-11T15:33:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1665,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
