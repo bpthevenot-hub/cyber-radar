@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-12T19:29:55.172Z",
+ "generatedAt": "2026-08-12T21:06:00.471Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: RHOAI 3.3 - Red Hat OpenShift AI (+45 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3713",
-    "score": 9.8,
-    "date": "2026-08-12T17:28:09+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-12805 — Red Hat Security Advisory: RHOAI 2.25.2 - Red Hat OpenShift AI (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2695",
-    "score": 8.7,
-    "date": "2026-08-12T17:28:09+00:00"
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.1.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:18059",
+    "score": 9.1,
+    "date": "2026-08-12T18:38:32+00:00"
    },
    {
-    "title": "CVE-2025-12805 — Red Hat Security Advisory: RHOAI 2.25.2 - Red Hat OpenShift AI (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2106",
-    "score": 8.7,
-    "date": "2026-08-12T17:28:09+00:00"
+    "title": "CVE-2026-69106 — A low-privileged user may poison cached artifact metadata under specific conditions, potentially causing consumers to retrieve untrusted con",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69106",
+    "score": 8.8,
+    "date": "2026-08-12T18:31:22Z"
    },
    {
-    "title": "CVE-2026-41729 — Spring Data REST is vulnerable to SpEL expression injection through map-typed properties when processing JSON Patch requests",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41729",
-    "score": 8.1,
-    "date": "2026-06-10T00:31:52Z"
+    "title": "CVE-2026-18235 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to execute arbitrary Control Language commands due to insufficient ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18235",
+    "score": 8.3,
+    "date": "2026-08-12T18:31:22Z"
    },
    {
-    "title": "CVE-2026-41732 — Spring for Apache Pulsar: JsonPulsarHeaderMapper Trusted-Package Prefix Check Allows Unintended Subpackage Deserialization",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41732",
-    "score": 8.1,
-    "date": "2026-06-10T00:31:52Z"
-   },
-   {
-    "title": "CVE-2026-62901 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44914",
+    "title": "CVE-2026-50645 — Apache cxf-core: No restriction on attachment headers per message",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50645",
     "score": 7.5,
-    "date": "2026-08-12T17:28:03+00:00"
+    "date": "2026-06-12T12:31:34Z"
    },
    {
-    "title": "CVE-2026-41728 — Spring Data REST has Improper Access Control in its JSON Patch Implementation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41728",
-    "score": 7.5,
-    "date": "2026-06-10T00:31:52Z"
-   },
-   {
-    "title": "CVE-2026-73086 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54412",
-    "score": 7.4,
-    "date": "2026-08-12T17:28:00+00:00"
-   },
-   {
-    "title": "CVE-2026-41727 — Spring for Apache Kafka: Improper Validation of Retry Topic Header Values Leads to Retry Sequence Manipulation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41727",
-    "score": 6.5,
-    "date": "2026-06-10T00:31:52Z"
-   },
-   {
-    "title": "CVE-2026-41730 — Spring Data REST potentially exposes persistence-layer internals to HTTP clients",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41730",
+    "title": "CVE-2026-7427 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.5 before 19.0.6, 19.1 before 19.1.4, and 19.2 before 19.2.2 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7427",
     "score": 5.3,
-    "date": "2026-06-10T00:31:52Z"
-   },
-   {
-    "title": "MAL-2026-13927 — Malicious code in svelte-kit-vim (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13927",
-    "score": null,
-    "date": "2026-08-12T17:35:48Z"
-   },
-   {
-    "title": "MAL-2026-13915 — Malicious code in kit-map-vim (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13915",
-    "score": null,
-    "date": "2026-08-12T15:13:19Z"
+    "date": "2026-08-12T18:31:22Z"
    }
   ],
   "kev": [
@@ -203,6 +161,20 @@
   ],
   "adv": [
    {
+    "title": "SIPSorcery: Malformed UDP datagram crashes TurnServer receive loop with no restart, disabling TURN UDP relay for all clients (DoS)",
+    "url": "https://github.com/advisories/GHSA-pfvm-w89x-94jw",
+    "score": 7.5,
+    "ghsa": "GHSA-pfvm-w89x-94jw",
+    "date": "2026-08-12T19:31:48Z"
+   },
+   {
+    "title": "SIPSorcery vulnerable to Denial of Service via out-of-bounds read in SCTP SACK chunk parsing",
+    "url": "https://github.com/advisories/GHSA-jwjp-4649-v8jp",
+    "score": 7.5,
+    "ghsa": "GHSA-jwjp-4649-v8jp",
+    "date": "2026-08-12T19:30:43Z"
+   },
+   {
     "title": "MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
     "url": "https://github.com/advisories/GHSA-49m4-vp58-wgc9",
     "score": 8.4,
@@ -271,20 +243,6 @@
     "score": 6.8,
     "ghsa": "GHSA-5c4f-9pq9-6c77",
     "date": "2026-08-12T15:14:47Z"
-   },
-   {
-    "title": "Winter: SQL Injection in Backend Filter Widget numberrange Scope via numbersFromAjax",
-    "url": "https://github.com/advisories/GHSA-m7jc-g4rc-jmvh",
-    "score": 5.9,
-    "ghsa": "GHSA-m7jc-g4rc-jmvh",
-    "date": "2026-08-12T14:41:13Z"
-   },
-   {
-    "title": "Winter: Stored XSS through Editor Settings custom styles",
-    "url": "https://github.com/advisories/GHSA-vgp4-2fc4-qff2",
-    "score": 8.1,
-    "ghsa": "GHSA-vgp4-2fc4-qff2",
-    "date": "2026-08-12T14:40:38Z"
    }
   ],
   "thn": [
@@ -375,6 +333,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+    "date": "Wed, 12 Aug 2026 16:54:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
     "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
     "date": "Wed, 12 Aug 2026 14:54:57 -0400",
@@ -450,20 +415,13 @@
     "date": "Tue, 11 Aug 2026 17:07:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-    "date": "Tue, 11 Aug 2026 15:45:31 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9698,
+    "stars": 9702,
     "lang": "TypeScript"
    },
    {
