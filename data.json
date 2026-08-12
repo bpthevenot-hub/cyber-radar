@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-08-12T22:05:36.875Z",
+ "generatedAt": "2026-08-12T23:04:53.523Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
+    "score": 9.9,
+    "date": "2026-08-12T21:45:53+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53806",
+    "score": 9.8,
+    "date": "2026-08-12T21:46:08+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security pdate (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53644",
+    "score": 9.8,
+    "date": "2026-08-12T21:46:07+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-08-12T21:45:51+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-73421 — Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73421",
-    "score": 9.5,
-    "date": "2026-07-23T14:52:23Z"
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-12T21:46:22+00:00"
    },
    {
-    "title": "CVE-2026-73420 — Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73420",
-    "score": 9.5,
-    "date": "2026-07-23T14:40:15Z"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-12T21:46:19+00:00"
    },
    {
-    "title": "CVE-2026-73418 — Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73418",
-    "score": 7.5,
-    "date": "2026-07-23T14:42:55Z"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-12T21:46:19+00:00"
    },
    {
-    "title": "CVE-2026-54299 — Astro: Host header SSRF in prerendered error page fetch",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54299",
-    "score": 7.5,
-    "date": "2026-06-16T14:38:06Z"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-08-12T21:46:21+00:00"
    },
    {
-    "title": "CVE-2026-55199 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:29950",
-    "score": 7.1,
-    "date": "2026-08-12T20:48:32+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-08-12T21:45:50+00:00"
    },
    {
-    "title": "CVE-2026-50146 — Astro: Reflected XSS via unescaped slot name",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50146",
-    "score": 7.1,
-    "date": "2026-06-16T14:05:06Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-08-12T21:45:48+00:00"
    },
    {
-    "title": "CVE-2026-73419 — Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73419",
-    "score": 6.8,
-    "date": "2026-07-23T14:31:51Z"
+    "title": "CVE-2026-39828 — Red Hat Security Advisory: RHTAS 1.3.6 - Red Hat Trusted Artifact Signer Release (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40972",
+    "score": 8.8,
+    "date": "2026-08-12T21:46:19+00:00"
    },
    {
-    "title": "CVE-2026-73423 — Astro: composable `astro/hono` pipeline bypasses `security.checkOrigin` when `middleware()` is absent or misordered",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73423",
-    "score": 5,
-    "date": "2026-07-20T23:26:27Z"
-   },
-   {
-    "title": "CVE-2026-59729 — Astro: XSS via unescaped spread attribute names in renderHTMLElement (incomplete fix for CVE-2026-54298)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59729",
-    "score": 5,
-    "date": "2026-07-20T23:21:58Z"
-   },
-   {
-    "title": "CVE-2026-73422 — Astro: Reflected XSS via unescaped View Transition animation properties",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73422",
-    "score": 5,
-    "date": "2026-07-20T21:08:16Z"
-   },
-   {
-    "title": "CVE-2026-59728 — @astrojs/rss: XML Injection via Unescaped RSS Feed Fields",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59728",
-    "score": 4.3,
-    "date": "2026-07-20T23:21:47Z"
-   },
-   {
-    "title": "CVE-2026-73425 — @astrojs/netlify generates an overly-broad Netlify Image CDN allowlist because remotePatterns.pathname metacharacters are not escaped",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73425",
-    "score": 3.7,
-    "date": "2026-07-20T23:24:34Z"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
+    "score": 8.8,
+    "date": "2026-08-12T21:46:18+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Android malware combo takes out loans and relays victims' credit cards",
+    "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+    "date": "Wed, 12 Aug 2026 18:22:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
     "date": "Wed, 12 Aug 2026 16:54:59 -0400",
@@ -448,13 +455,6 @@
     "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
     "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
     "date": "Tue, 11 Aug 2026 18:15:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
-    "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
-    "date": "Tue, 11 Aug 2026 17:07:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 12,
   "kev": 1665,
   "adv": 12,
   "feed": 48
