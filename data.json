@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-12T15:17:06.339Z",
+ "generatedAt": "2026-08-12T16:14:05.844Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,34 @@
   ],
   "adv": [
    {
+    "title": "compliance-trestle has an URLSecurityValidator SSRF allowlist bypass via IPv4-mapped IPv6 and 0.0.0.0",
+    "url": "https://github.com/advisories/GHSA-h47f-gmjp-m7rr",
+    "score": 7.5,
+    "ghsa": "GHSA-h47f-gmjp-m7rr",
+    "date": "2026-08-12T15:21:17Z"
+   },
+   {
+    "title": "SSH.NET: ScpClient Recursive Download Allows Arbitrary File Write via Server-Controlled SCP Filenames",
+    "url": "https://github.com/advisories/GHSA-q939-rpr3-3284",
+    "score": 7.1,
+    "ghsa": "GHSA-q939-rpr3-3284",
+    "date": "2026-08-12T15:19:10Z"
+   },
+   {
+    "title": "Fleet: Observer-class users can view team enroll secrets and credential-bearing configuration via target search endpoint",
+    "url": "https://github.com/advisories/GHSA-88p2-jj8w-j8qg",
+    "score": 6.5,
+    "ghsa": "GHSA-88p2-jj8w-j8qg",
+    "date": "2026-08-12T15:18:13Z"
+   },
+   {
+    "title": "phpMyFAQ: SQL LIKE Wildcard Injection in Chat User Search Allows Authenticated User Enumeration",
+    "url": "https://github.com/advisories/GHSA-6pvm-2vjj-rx4w",
+    "score": 5.4,
+    "ghsa": "GHSA-6pvm-2vjj-rx4w",
+    "date": "2026-08-12T15:17:54Z"
+   },
+   {
     "title": "nimiq-blockchain: Validity store off by one error",
     "url": "https://github.com/advisories/GHSA-3763-qp59-59vf",
     "score": 7.5,
@@ -185,34 +213,6 @@
     "score": 6.5,
     "ghsa": "GHSA-9mrh-pw7c-9mqm",
     "date": "2026-08-11T19:55:48Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62871 – .NET Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-vg44-h755-9hw7",
-    "score": 7.8,
-    "ghsa": "GHSA-vg44-h755-9hw7",
-    "date": "2026-08-11T19:46:40Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62897 – .NET Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-fx4q-gjrx-2jw6",
-    "score": 7,
-    "ghsa": "GHSA-fx4q-gjrx-2jw6",
-    "date": "2026-08-11T19:36:34Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70354 – .NET Core Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-gg8c-3338-xw2f",
-    "score": 7.8,
-    "ghsa": "GHSA-gg8c-3338-xw2f",
-    "date": "2026-08-11T19:24:47Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-62909 – .NET Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-9mr8-pwpw-3j2w",
-    "score": 6.7,
-    "ghsa": "GHSA-9mr8-pwpw-3j2w",
-    "date": "2026-08-11T19:04:21Z"
    }
   ],
   "thn": [
@@ -303,6 +303,20 @@
   ],
   "bleep": [
    {
+    "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+    "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+    "date": "Wed, 12 Aug 2026 12:05:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+    "date": "Wed, 12 Aug 2026 11:38:08 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "FBI: Hackers target online accounts to steal nude photos",
     "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
     "date": "Wed, 12 Aug 2026 10:15:09 -0400",
@@ -371,27 +385,13 @@
     "date": "Tue, 11 Aug 2026 14:34:23 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft releases Windows 10 KB5120249 extended security update",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
-    "date": "Tue, 11 Aug 2026 14:26:03 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
-    "date": "Tue, 11 Aug 2026 14:08:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9693,
+    "stars": 9696,
     "lang": "TypeScript"
    },
    {
