@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-12T00:02:05.770Z",
+ "generatedAt": "2026-08-12T02:48:06.665Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-4775 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.5 (CUDA) (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:30089",
+    "score": 9.8,
+    "date": "2026-08-12T01:12:00+00:00"
+   },
+   {
+    "title": "CVE-2026-4775 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.5 (ROCm) (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:30088",
+    "score": 9.8,
+    "date": "2026-08-12T01:11:59+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.22.8 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48693",
+    "score": 9.4,
+    "date": "2026-08-12T01:11:51+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.20.32 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48676",
+    "score": 9.4,
+    "date": "2026-08-12T01:11:50+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.21.27 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48670",
+    "score": 9.4,
+    "date": "2026-08-12T01:11:50+00:00"
+   },
+   {
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-08-12T01:12:03+00:00"
+   },
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-08-12T01:12:02+00:00"
+   },
+   {
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "score": 9.1,
+    "date": "2026-08-12T01:12:02+00:00"
+   },
+   {
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "score": 9.1,
+    "date": "2026-08-12T01:12:02+00:00"
+   },
+   {
+    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36006",
+    "score": 9.1,
+    "date": "2026-08-12T01:12:01+00:00"
+   },
+   {
+    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36005",
+    "score": 9.1,
+    "date": "2026-08-12T01:12:00+00:00"
+   },
+   {
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-08-12T01:11:32+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
+    "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+    "date": "Tue, 11 Aug 2026 21:15:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
     "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
     "date": "Tue, 11 Aug 2026 18:15:22 -0400",
@@ -365,20 +457,13 @@
     "date": "Tue, 11 Aug 2026 09:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-    "date": "Tue, 11 Aug 2026 08:12:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9624,
+    "stars": 9644,
     "lang": "TypeScript"
    },
    {
@@ -426,7 +511,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 103,
+    "stars": 104,
     "lang": "Python"
    },
    {
@@ -444,7 +529,7 @@
    {
     "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
     "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-    "stars": 86,
+    "stars": 87,
     "lang": "Shell"
    }
   ],
@@ -564,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "GhostSplice: Malicious MCP Servers Split Instructions to Make AI Coding Agents Exfiltrate Secrets (ASSET Research Group)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vlynwn/ghostsplice_malicious_mcp_servers_split/",
+    "date": "2026-08-12T00:14:46+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "SMAP is Pre-Disarmed: How a Stack Pivot That Shouldn't Work Revealed a Kernel-Wide Design Compromise",
     "url": "https://www.reddit.com/r/netsec/comments/1vldzrh/smap_is_predisarmed_how_a_stack_pivot_that/",
     "date": "2026-08-11T10:46:26+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-08-09T03:59:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1viux00/def_con_talk_8_in_10_banks_in_belgium_hate_this/",
-    "date": "2026-08-08T12:36:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1665,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
