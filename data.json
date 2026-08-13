@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-13T15:17:45.081Z",
+ "generatedAt": "2026-08-13T17:16:18.911Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-73601 — Flowise versions before 3.1.3 contain a remote code execution vulnerability in the Custom MCP node when CUSTOM_MCP_PROTOCOL is set to stdio,",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73601",
-    "score": 9.5,
-    "date": "2026-08-13T12:31:10Z"
-   },
-   {
-    "title": "CVE-2026-73602 — Flowise before 3.1.3 contains a sandbox escape vulnerability in the vm2 JavaScript sandbox that allows authenticated users to execute arbitr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73602",
-    "score": 9.5,
-    "date": "2026-08-13T12:31:10Z"
-   },
-   {
-    "title": "CVE-2026-73486 — Flowise before 3.1.3 contains a code injection vulnerability in the CSV Agent node's customReadCSV parameter that allows authenticated attac",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73486",
-    "score": 9.5,
-    "date": "2026-08-13T12:31:09Z"
-   },
-   {
-    "title": "CVE-2026-73487 — Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable Agent nodes that allows unauthenticated attacke",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73487",
-    "score": 9.5,
-    "date": "2026-08-13T12:31:09Z"
-   },
-   {
-    "title": "CVE-2026-59507 — CWE-798: Use of Hard-coded Credentials CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-284: Improper Access Control",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59507",
-    "score": 9.3,
-    "date": "2026-08-13T12:31:09Z"
-   },
-   {
-    "title": "CVE-2026-59503 — CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-359: Exposure of Private Personal Information to an Unauthorized Act",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59503",
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
     "score": 9.1,
-    "date": "2026-08-13T12:31:09Z"
+    "date": "2026-08-13T15:43:32+00:00"
    },
    {
-    "title": "CVE-2026-73615 — Network-AI versions before 5.15.1 contain a security matcher bypass vulnerability where SandboxPolicy evaluates raw command strings with quo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73615",
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:30+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:30+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:30+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:29+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:29+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:27+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:27+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-08-13T15:43:24+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
     "score": 8.8,
-    "date": "2026-08-13T12:31:11Z"
+    "date": "2026-08-13T15:43:24+00:00"
    },
    {
-    "title": "CVE-2026-73625 — GitPython versions before 3.1.54 contain a remote code execution vulnerability in the check_unsafe_options guard that can be bypassed by smu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73625",
-    "score": 8.8,
-    "date": "2026-08-13T12:31:11Z"
-   },
-   {
-    "title": "CVE-2026-73614 — Network-AI ClaudeHookBridge before 5.15.1 truncates the target string to 500 characters before evaluating denyPatterns, while Claude Code ex",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73614",
-    "score": 8.8,
-    "date": "2026-08-13T12:31:11Z"
-   },
-   {
-    "title": "CVE-2026-73608 — SiYuan's development branch (endpoint introduced by commit 9b8e8956f, not present in v3.7.3 or master, patched in v3.7.4) contains a missing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73608",
+    "title": "CVE-2025-61731 — Red Hat Security Advisory: go-toolset:rhel8 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7876",
     "score": 8.6,
-    "date": "2026-08-13T12:31:10Z"
+    "date": "2026-08-13T15:43:24+00:00"
    },
    {
-    "title": "CVE-2026-73629 — Serendipity before 2.6.0 contains a server-side request forgery vulnerability in the serendipity_url_allowed() filter that fails to block he",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73629",
-    "score": 8.5,
-    "date": "2026-08-13T12:31:11Z"
-   },
-   {
-    "title": "CVE-2026-73618 — Budibase Server before 3.40.0 contains a NoSQL injection vulnerability in the MongoDB query execution endpoint where user-supplied parameter",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73618",
-    "score": 8.3,
-    "date": "2026-08-13T12:31:11Z"
+    "title": "CVE-2025-61731 — Red Hat Security Advisory: golang security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7883",
+    "score": 8.6,
+    "date": "2026-08-13T15:43:22+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+    "date": "Thu, 13 Aug 2026 12:40:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Trezor discloses data breach affecting nearly 14,000 customers",
     "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
     "date": "Thu, 13 Aug 2026 11:13:19 -0400",
@@ -450,20 +457,13 @@
     "date": "Wed, 12 Aug 2026 10:15:09 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-    "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-    "date": "Wed, 12 Aug 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9750,
+    "stars": 9759,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 138,
+    "stars": 151,
     "lang": "Python"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 116,
+    "stars": 118,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained",
+    "url": "https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/",
+    "date": "2026-08-13T15:20:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix",
     "url": "https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/",
     "date": "2026-08-12T10:31:17+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-11T14:22:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Mandatory User Profile for Persistence &amp; EDR Evasion",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlbhe1/mandatory_user_profile_for_persistence_edr_evasion/",
-    "date": "2026-08-11T08:20:56+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 11,
   "kev": 1665,
   "adv": 12,
   "feed": 48
