@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-13T17:16:18.911Z",
+ "generatedAt": "2026-08-13T18:12:21.936Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "title": "CVE-2026-73644 — OpenDJ SASL PLAIN authzid bypassing the proxy ACI scope check",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73644",
+    "score": 9.6,
+    "date": "2026-07-24T21:46:39Z"
+   },
+   {
+    "title": "CVE-2026-73567 — sm-crypto: Predictable SM2 key generation in Node.js: default RNG uses Math.random + wall clock",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73567",
     "score": 9.1,
-    "date": "2026-08-13T15:43:32+00:00"
+    "date": "2026-07-24T21:50:45Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:30+00:00"
+    "title": "CVE-2026-73568 — libp2p: yamux connection DoS via oversized data frame",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73568",
+    "score": 7.5,
+    "date": "2026-07-24T22:37:17Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:30+00:00"
+    "title": "CVE-2026-73643 — js-yaml: Exponential parsing time in flow collections leads to denial of service",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73643",
+    "score": 7.5,
+    "date": "2026-07-24T16:47:36Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:30+00:00"
+    "title": "CVE-2026-73569 — fast-xml-parser: Repeated DOCTYPE declarations reset entity expansion limits",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73569",
+    "score": 7.5,
+    "date": "2026-07-21T22:06:36Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:29+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:29+00:00"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:27+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:27+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
-    "score": 9.1,
-    "date": "2026-08-13T15:43:24+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
-    "score": 8.8,
-    "date": "2026-08-13T15:43:24+00:00"
-   },
-   {
-    "title": "CVE-2025-61731 — Red Hat Security Advisory: go-toolset:rhel8 security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7876",
-    "score": 8.6,
-    "date": "2026-08-13T15:43:24+00:00"
-   },
-   {
-    "title": "CVE-2025-61731 — Red Hat Security Advisory: golang security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7883",
-    "score": 8.6,
-    "date": "2026-08-13T15:43:22+00:00"
+    "title": "CVE-2026-73565 — Node.js Adapter for Hono: Unauthenticated memory-leak DoS via aborted WebSocket handshake",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73565",
+    "score": 5.3,
+    "date": "2026-07-21T22:04:27Z"
    }
   ],
   "kev": [
@@ -375,6 +339,20 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
+    "date": "Thu, 13 Aug 2026 13:46:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
+    "date": "Thu, 13 Aug 2026 13:33:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
     "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
     "date": "Thu, 13 Aug 2026 12:40:23 -0400",
@@ -443,20 +421,6 @@
     "date": "Wed, 12 Aug 2026 12:05:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
-    "date": "Wed, 12 Aug 2026 11:38:08 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI: Hackers target online accounts to steal nude photos",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
-    "date": "Wed, 12 Aug 2026 10:15:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +439,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 319,
+    "stars": 320,
     "lang": "Java"
    },
    {
@@ -499,7 +463,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 151,
+    "stars": 152,
     "lang": "Python"
    },
    {
@@ -635,16 +599,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months",
-    "url": "https://www.reddit.com/r/netsec/comments/1vn839b/a_stranger_has_been_reading_salesforce_and/",
-    "date": "2026-08-13T11:30:21+00:00",
+    "title": "From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained",
+    "url": "https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/",
+    "date": "2026-08-13T15:20:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained",
-    "url": "https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/",
-    "date": "2026-08-13T15:20:01+00:00",
+    "title": "A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months",
+    "url": "https://www.reddit.com/r/netsec/comments/1vn839b/a_stranger_has_been_reading_salesforce_and/",
+    "date": "2026-08-13T11:30:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +681,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 11,
+  "crit": 4,
   "kev": 1665,
   "adv": 12,
   "feed": 48
