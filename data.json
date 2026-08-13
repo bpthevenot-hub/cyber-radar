@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-13T12:02:04.754Z",
+ "generatedAt": "2026-08-13T13:51:40.896Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-15413 — The Link Factory WordPress plugin is a backdoor. Distributed as a \"homepage sentence publisher\", it exposes an operator-controlled REST API ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15413",
-    "score": 10,
-    "date": "2026-08-13T09:31:10Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
-    "score": 9.4,
-    "date": "2026-08-13T08:05:57+00:00"
+    "title": "CVE-2026-73601 — Flowise versions before 3.1.3 contain a remote code execution vulnerability in the Custom MCP node when CUSTOM_MCP_PROTOCOL is set to stdio,",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73601",
+    "score": 9.5,
+    "date": "2026-08-13T12:31:10Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
-    "score": 9.4,
-    "date": "2026-08-13T08:05:57+00:00"
+    "title": "CVE-2026-73602 — Flowise before 3.1.3 contains a sandbox escape vulnerability in the vm2 JavaScript sandbox that allows authenticated users to execute arbitr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73602",
+    "score": 9.5,
+    "date": "2026-08-13T12:31:10Z"
    },
    {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "title": "CVE-2026-73486 — Flowise before 3.1.3 contains a code injection vulnerability in the CSV Agent node's customReadCSV parameter that allows authenticated attac",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73486",
+    "score": 9.5,
+    "date": "2026-08-13T12:31:09Z"
+   },
+   {
+    "title": "CVE-2026-73487 — Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable Agent nodes that allows unauthenticated attacke",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73487",
+    "score": 9.5,
+    "date": "2026-08-13T12:31:09Z"
+   },
+   {
+    "title": "CVE-2026-59507 — CWE-798: Use of Hard-coded Credentials CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-284: Improper Access Control",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59507",
+    "score": 9.3,
+    "date": "2026-08-13T12:31:09Z"
+   },
+   {
+    "title": "CVE-2026-59503 — CWE-200: Exposure of Sensitive Information to an Unauthorized Actor CWE-359: Exposure of Private Personal Information to an Unauthorized Act",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59503",
     "score": 9.1,
-    "date": "2026-08-13T08:05:44+00:00"
+    "date": "2026-08-13T12:31:09Z"
    },
    {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
-    "score": 9.1,
-    "date": "2026-08-13T07:49:21+00:00"
-   },
-   {
-    "title": "CVE-2026-11840 — Zohocorp ManageEngine Password Manager Pro versions before 13232 and ManageEngine PAM360 versions before 8552 are vulnerable to authenticate",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11840",
+    "title": "CVE-2026-73615 — Network-AI versions before 5.15.1 contain a security matcher bypass vulnerability where SandboxPolicy evaluates raw command strings with quo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73615",
     "score": 8.8,
-    "date": "2026-08-13T09:31:09Z"
+    "date": "2026-08-13T12:31:11Z"
    },
    {
-    "title": "CVE-2019-10790 — Red Hat Security Advisory: Red Hat Ceph Storage (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2737",
-    "score": 8.7,
-    "date": "2026-08-13T07:49:23+00:00"
+    "title": "CVE-2026-73625 — GitPython versions before 3.1.54 contain a remote code execution vulnerability in the check_unsafe_options guard that can be bypassed by smu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73625",
+    "score": 8.8,
+    "date": "2026-08-13T12:31:11Z"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.3 (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1942",
-    "score": 8.7,
-    "date": "2026-08-13T07:49:16+00:00"
+    "title": "CVE-2026-73614 — Network-AI ClaudeHookBridge before 5.15.1 truncates the target string to 500 characters before evaluating denyPatterns, while Claude Code ex",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73614",
+    "score": 8.8,
+    "date": "2026-08-13T12:31:11Z"
    },
    {
-    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.2 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2572",
+    "title": "CVE-2026-73608 — SiYuan's development branch (endpoint introduced by commit 9b8e8956f, not present in v3.7.3 or master, patched in v3.7.4) contains a missing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73608",
+    "score": 8.6,
+    "date": "2026-08-13T12:31:10Z"
+   },
+   {
+    "title": "CVE-2026-73629 — Serendipity before 2.6.0 contains a server-side request forgery vulnerability in the serendipity_url_allowed() filter that fails to block he",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73629",
     "score": 8.5,
-    "date": "2026-08-13T07:49:19+00:00"
+    "date": "2026-08-13T12:31:11Z"
    },
    {
-    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.12.8 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5633",
-    "score": 8.2,
-    "date": "2026-08-13T07:49:36+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.15.62 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4423",
-    "score": 8.2,
-    "date": "2026-08-13T07:49:22+00:00"
-   },
-   {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.14.63 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5107",
-    "score": 7.5,
-    "date": "2026-08-13T07:49:26+00:00"
+    "title": "CVE-2026-73618 — Budibase Server before 3.40.0 contains a NoSQL injection vulnerability in the MongoDB query execution endpoint where user-supplied parameter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73618",
+    "score": 8.3,
+    "date": "2026-08-13T12:31:11Z"
    }
   ],
   "kev": [
@@ -203,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "ep_etherpad-lite: Cache-poisoning Cross-site Scripting and Open Redirect via x-proxy-path Header",
+    "url": "https://github.com/advisories/GHSA-fjgc-3mj7-8rg8",
+    "score": 6.1,
+    "ghsa": "GHSA-fjgc-3mj7-8rg8",
+    "date": "2026-08-13T13:46:07Z"
+   },
+   {
+    "title": "Pimcore: ClassDefinition UID regex missing end anchor allows SQL injection via Block.php unquoted table name",
+    "url": "https://github.com/advisories/GHSA-2mhj-fhvg-v428",
+    "score": 8.5,
+    "ghsa": "GHSA-2mhj-fhvg-v428",
+    "date": "2026-08-13T13:44:24Z"
+   },
+   {
     "title": "Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
     "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
     "score": 7.5,
@@ -271,20 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-3763-qp59-59vf",
     "date": "2026-08-12T15:16:53Z"
-   },
-   {
-    "title": "LibreNMS: Reflected XSS via Proxmox instance/vmid GET parameters injected into document.title JavaScript assignment",
-    "url": "https://github.com/advisories/GHSA-jmqm-f8q4-v7wx",
-    "score": 5.4,
-    "ghsa": "GHSA-jmqm-f8q4-v7wx",
-    "date": "2026-08-12T15:16:22Z"
-   },
-   {
-    "title": "Winter: Authenticated backend users can bypass Users controller permission checks",
-    "url": "https://github.com/advisories/GHSA-j5jq-cr68-v2xx",
-    "score": 7.5,
-    "ghsa": "GHSA-j5jq-cr68-v2xx",
-    "date": "2026-08-12T15:15:17Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "White House taps security firms for offensive hack-back operations",
+    "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
+    "date": "Thu, 13 Aug 2026 09:30:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "WhatsApp rolls out new feature that flags potential scam messages",
     "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
     "date": "Thu, 13 Aug 2026 07:50:22 -0400",
@@ -450,20 +457,13 @@
     "date": "Wed, 12 Aug 2026 07:21:42 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
-    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-    "date": "Wed, 12 Aug 2026 06:15:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9740,
+    "stars": 9744,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 128,
+    "stars": 129,
     "lang": "JavaScript"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 116,
+    "stars": 125,
     "lang": "Python"
    },
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 113,
+    "stars": 115,
     "lang": "Python"
    },
    {
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Two Parsers, One JSON and a Flag: Intigriti's July 2026 Challenge",
-    "url": "https://www.reddit.com/r/netsec/comments/1vn5k1p/two_parsers_one_json_and_a_flag_intigritis_july/",
-    "date": "2026-08-13T09:08:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months",
     "url": "https://www.reddit.com/r/netsec/comments/1vn839b/a_stranger_has_been_reading_salesforce_and/",
     "date": "2026-08-13T11:30:21+00:00",
@@ -652,6 +645,13 @@
     "title": "CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix",
     "url": "https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/",
     "date": "2026-08-12T10:31:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Can AI do novel security research? Meet the HTTP Terminator",
+    "url": "https://www.reddit.com/r/netsec/comments/1vn94sg/can_ai_do_novel_security_research_meet_the_http/",
+    "date": "2026-08-13T12:19:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 8,
   "kev": 1665,
   "adv": 12,
   "feed": 48
