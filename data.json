@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-13T10:30:43.764Z",
+ "generatedAt": "2026-08-13T12:02:04.754Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-15413 — The Link Factory WordPress plugin is a backdoor. Distributed as a \"homepage sentence publisher\", it exposes an operator-controlled REST API ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15413",
+    "score": 10,
+    "date": "2026-08-13T09:31:10Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -39,40 +45,10 @@
     "date": "2026-08-13T07:49:21+00:00"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.24 security, enhancement & bug fix update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26420",
-    "score": 9.1,
-    "date": "2026-08-13T07:12:30+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.24 security and extras update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21704",
-    "score": 9.1,
-    "date": "2026-08-13T07:12:23+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.18.43 security and extras update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21658",
-    "score": 9.1,
-    "date": "2026-08-13T07:12:21+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.16.63 security and extras update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20089",
-    "score": 9.1,
-    "date": "2026-08-13T07:12:18+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 security and extras update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20042",
-    "score": 9.1,
-    "date": "2026-08-13T07:12:18+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.21.17 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20034",
-    "score": 9.1,
-    "date": "2026-08-13T07:12:18+00:00"
+    "title": "CVE-2026-11840 — Zohocorp ManageEngine Password Manager Pro versions before 13232 and ManageEngine PAM360 versions before 8552 are vulnerable to authenticate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11840",
+    "score": 8.8,
+    "date": "2026-08-13T09:31:09Z"
    },
    {
     "title": "CVE-2019-10790 — Red Hat Security Advisory: Red Hat Ceph Storage (+17 CVE)",
@@ -85,6 +61,30 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:1942",
     "score": 8.7,
     "date": "2026-08-13T07:49:16+00:00"
+   },
+   {
+    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.2 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2572",
+    "score": 8.5,
+    "date": "2026-08-13T07:49:19+00:00"
+   },
+   {
+    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.12.8 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5633",
+    "score": 8.2,
+    "date": "2026-08-13T07:49:36+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.15.62 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4423",
+    "score": 8.2,
+    "date": "2026-08-13T07:49:22+00:00"
+   },
+   {
+    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.14.63 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5107",
+    "score": 7.5,
+    "date": "2026-08-13T07:49:26+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "WhatsApp rolls out new feature that flags potential scam messages",
+    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+    "date": "Thu, 13 Aug 2026 07:50:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
     "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
     "date": "Wed, 12 Aug 2026 19:07:23 -0400",
@@ -450,20 +457,13 @@
     "date": "Wed, 12 Aug 2026 06:15:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
-    "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
-    "date": "Tue, 11 Aug 2026 21:15:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9738,
+    "stars": 9740,
     "lang": "TypeScript"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 114,
+    "stars": 116,
     "lang": "Python"
    },
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 111,
+    "stars": 113,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months",
+    "url": "https://www.reddit.com/r/netsec/comments/1vn839b/a_stranger_has_been_reading_salesforce_and/",
+    "date": "2026-08-13T11:30:21+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix",
     "url": "https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/",
     "date": "2026-08-12T10:31:17+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-10T18:41:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Mandatory User Profile for Persistence &amp; EDR Evasion",
-    "url": "https://www.reddit.com/r/netsec/comments/1vlbhe1/mandatory_user_profile_for_persistence_edr_evasion/",
-    "date": "2026-08-11T08:20:56+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 7,
   "kev": 1665,
   "adv": 12,
   "feed": 48
