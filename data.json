@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-13T22:05:52.454Z",
+ "generatedAt": "2026-08-13T23:05:44.086Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-17482 — IBM Documentation Offline 1.0.0 through 1.4.1 could allow a remote attacker to execute arbitrary code due to improper control of file paths.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17482",
+    "score": 9.8,
+    "date": "2026-08-13T21:36:13Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-8715 — Vault Secrets Operator 1.3.0 up to 1.4.1 is vulnerable to an arbitrary file read and credential exfiltration issue in the AppRole authentica",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-8715",
+    "score": 9.6,
+    "date": "2026-08-13T21:36:14Z"
+   },
+   {
+    "title": "CVE-2026-19297 — IBM Langflow OSS 1.0.0 through 1.9.6 could allow a remote attacker to obtain unauthorized access to user accounts due to improper restrictio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19297",
+    "score": 9.1,
+    "date": "2026-08-13T21:36:13Z"
+   },
+   {
+    "title": "CVE-2026-18193 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to bypass security restrictions due to improper validation of user-controlled add",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18193",
+    "score": 8.9,
+    "date": "2026-08-13T21:36:13Z"
+   },
+   {
+    "title": "CVE-2026-18101 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a local attacker to gain elevated privileges due to improper management of thread authority swaps.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18101",
+    "score": 8.8,
+    "date": "2026-08-13T21:36:13Z"
+   },
+   {
+    "title": "CVE-2026-17481 — IBM Documentation Offline 1.0.0 through 1.4.1 could allow a remote attacker to execute arbitrary code due to improper output neutralization ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17481",
+    "score": 8.8,
+    "date": "2026-08-13T21:36:13Z"
+   },
+   {
+    "title": "CVE-2026-17502 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to cause a denial of service due to an out-of-bounds write.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17502",
+    "score": 8.6,
+    "date": "2026-08-13T21:36:13Z"
+   },
+   {
+    "title": "CVE-2026-18249 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote authenticated attacker to gain elevated privileges due to improper validation of pointers ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18249",
+    "score": 8.4,
+    "date": "2026-08-13T21:36:13Z"
+   },
+   {
+    "title": "CVE-2026-17101 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to execute arbitrary code or obtain sensitive information due to improper authent",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17101",
+    "score": 8.3,
+    "date": "2026-08-13T21:36:12Z"
+   },
+   {
+    "title": "CVE-2026-18509 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a local authenticated attacker to gain privilege escalation via the Navigator for i debugger. This ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18509",
+    "score": 8.2,
+    "date": "2026-08-13T21:36:14Z"
+   },
+   {
+    "title": "CVE-2026-17272 — IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to cause a denial of service due to a buffer overflow.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17272",
+    "score": 8.2,
+    "date": "2026-08-13T21:36:12Z"
+   },
+   {
+    "title": "CVE-2026-73530 — Flyto2 Core before 2.28.0 contains a server-side request forgery guard bypass vulnerability that allows attackers to reach internal services",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73530",
+    "score": 7.7,
+    "date": "2026-08-13T21:36:11Z"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9767,
+    "stars": 9769,
     "lang": "TypeScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 156,
+    "stars": 157,
     "lang": "Python"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 5,
   "kev": 1665,
   "adv": 12,
   "feed": 48
