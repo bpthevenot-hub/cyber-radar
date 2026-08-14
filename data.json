@@ -1,43 +1,7 @@
 {
- "generatedAt": "2026-08-14T13:47:33.200Z",
+ "generatedAt": "2026-08-14T15:09:18.271Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-72811 — SiYuan versions <= v3.7.2 contain a SQL injection vulnerability in the backlink/mention search query (kernel/model/backlink.go), which conca",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72811",
-    "score": 10,
-    "date": "2026-08-14T12:31:24Z"
-   },
-   {
-    "title": "CVE-2026-72824 — The Grav API plugin (getgrav/grav-plugin-api) before 1.0.13 contains an API key scope-cap bypass in PagesController::guardTwigContent(). The",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72824",
-    "score": 9.8,
-    "date": "2026-08-14T12:31:26Z"
-   },
-   {
-    "title": "CVE-2026-72830 — Grav API plugin versions before 1.0.13 fail to enforce API key scope caps in ConfigController super-scope gates, allowing scoped keys to wri",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72830",
-    "score": 9.8,
-    "date": "2026-08-14T12:31:26Z"
-   },
-   {
-    "title": "CVE-2026-72829 — The Grav API plugin (getgrav/grav-plugin-api) before 1.0.13 contains an API-key scope-cap bypass in UsersController's create() and update() ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72829",
-    "score": 9.8,
-    "date": "2026-08-14T12:31:26Z"
-   },
-   {
-    "title": "CVE-2026-72826 — The getgrav/grav-plugin-api plugin before 1.0.13 fails to validate that the scopes of a newly created API key are a subset of the caller's s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72826",
-    "score": 9.8,
-    "date": "2026-08-14T12:31:26Z"
-   },
-   {
-    "title": "CVE-2026-72822 — The getgrav/grav-plugin-api Composer package before 1.0.13 (affected <= 1.0.12) fails to enforce API key scope caps on the disable2fa endpoi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72822",
-    "score": 9.8,
-    "date": "2026-08-14T12:31:25Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -51,40 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2022-4993 — HTML::FormHandler versions through 0.40068 for Perl allow attacker selected method dispatch and resource exhaustion because _apply_actions a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2022-4993",
-    "score": 9.1,
-    "date": "2026-08-13T18:31:39Z"
+    "title": "MAL-2026-14026 — Malicious code in alelo-sdk (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14026",
+    "score": null,
+    "date": "2026-08-14T14:12:58Z"
    },
    {
-    "title": "CVE-2026-72837 — File Browser versions before 2.63.20 fail to honor the createUserDir isolation in proxy and hook authentication auto-provisioning paths. Att",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72837",
-    "score": 8.8,
-    "date": "2026-08-14T12:31:28Z"
+    "title": "MAL-2026-14027 — Malicious code in alelo-services (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14027",
+    "score": null,
+    "date": "2026-08-14T14:07:30Z"
    },
    {
-    "title": "CVE-2026-72833 — The Grav API plugin (getgrav/grav-plugin-api) versions >= 1.0.6 and <= 1.0.11 contain a privilege escalation vulnerability. A scoped API key",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72833",
-    "score": 8.8,
-    "date": "2026-08-14T12:31:27Z"
+    "title": "MAL-2026-14036 — Malicious code in notafollower1226 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14036",
+    "score": null,
+    "date": "2026-08-14T14:07:21Z"
    },
    {
-    "title": "CVE-2026-72831 — The Flex Objects plugin (through 1.4.6, tested with Grav 2.0.11) contains an incorrect authorization vulnerability in its Flex Objects API. ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72831",
-    "score": 8.8,
-    "date": "2026-08-14T12:31:26Z"
+    "title": "MAL-2026-14035 — Malicious code in notafollower122 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14035",
+    "score": null,
+    "date": "2026-08-14T14:07:06Z"
    },
    {
-    "title": "CVE-2026-72827 — Grav CMS before 2.0.13 contains a server-side template injection vulnerability in email-action parameters that allows low-privileged page ed",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72827",
-    "score": 8.8,
-    "date": "2026-08-14T12:31:26Z"
+    "title": "MAL-2026-14034 — Malicious code in notafollower1 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14034",
+    "score": null,
+    "date": "2026-08-14T14:06:58Z"
    },
    {
-    "title": "CVE-2026-72819 — Grav CMS before 2.0.13 contains a remote code execution vulnerability in the Flex Objects plugin settings validation that allows authenticat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72819",
-    "score": 8.8,
-    "date": "2026-08-14T12:31:25Z"
+    "title": "MAL-2026-14019 — Malicious code in fr-ito-web-react (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14019",
+    "score": null,
+    "date": "2026-08-14T06:50:50Z"
+   },
+   {
+    "title": "MAL-2026-14009 — Malicious code in root-locator (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14009",
+    "score": null,
+    "date": "2026-08-13T21:22:45Z"
+   },
+   {
+    "title": "MAL-2026-14013 — Malicious code in source-analyzer (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14013",
+    "score": null,
+    "date": "2026-08-13T21:22:25Z"
+   },
+   {
+    "title": "MAL-2026-14005 — Malicious code in path-match-js (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14005",
+    "score": null,
+    "date": "2026-08-13T21:21:47Z"
+   },
+   {
+    "title": "MAL-2026-14007 — Malicious code in react-shield (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14007",
+    "score": null,
+    "date": "2026-08-13T21:21:09Z"
+   },
+   {
+    "title": "MAL-2026-14014 — Malicious code in try-lock-runner (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14014",
+    "score": null,
+    "date": "2026-08-13T16:20:24Z"
+   },
+   {
+    "title": "MAL-2026-14012 — Malicious code in single-flight-lock (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14012",
+    "score": null,
+    "date": "2026-08-13T16:20:24Z"
    }
   ],
   "kev": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+    "date": "Fri, 14 Aug 2026 10:59:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+    "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+    "date": "Fri, 14 Aug 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
     "date": "Fri, 14 Aug 2026 09:45:18 -0400",
@@ -443,27 +457,13 @@
     "date": "Thu, 13 Aug 2026 13:33:28 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-    "date": "Thu, 13 Aug 2026 12:40:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-    "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-    "date": "Thu, 13 Aug 2026 11:13:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9811,
+    "stars": 9815,
     "lang": "TypeScript"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 204,
+    "stars": 209,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 129,
+    "stars": 130,
     "lang": "JavaScript"
    },
    {
@@ -517,7 +517,13 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 120,
+    "stars": 122,
+    "lang": "Python"
+   },
+   {
+    "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
+    "url": "https://github.com/duy90utc528/repo-publication-audit",
+    "stars": 97,
     "lang": "Python"
    },
    {
@@ -525,12 +531,6 @@
     "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
     "stars": 97,
     "lang": "Shell"
-   },
-   {
-    "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
-    "url": "https://github.com/duy90utc528/repo-publication-audit",
-    "stars": 95,
-    "lang": "Python"
    }
   ],
   "hn": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
+  "crit": 2,
   "kev": 1665,
   "adv": 12,
   "feed": 48
