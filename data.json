@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-14T20:48:43.164Z",
+ "generatedAt": "2026-08-14T21:43:29.220Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-08-14T19:21:20+00:00"
-   },
    {
     "title": "CVE-2026-42027 — Apache OpenNLP ExtensionLoader Vulnerable to Arbitrary Class Instantiation via Model Manifest",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-42027",
@@ -31,18 +25,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:7128",
     "score": 9.6,
     "date": "2026-08-14T19:21:22+00:00"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-08-14T19:21:20+00:00"
-   },
-   {
-    "title": "CVE-2026-53476 — Assisted Migration Agent: Path traversal in gzipped tarball handling enables arbitrary file write and remote code execution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53476",
-    "score": 9.6,
-    "date": "2026-06-10T15:31:33Z"
    },
    {
     "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
@@ -85,6 +67,24 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:9385",
     "score": 9.1,
     "date": "2026-08-14T19:21:29+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-14T19:21:28+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-08-14T19:21:26+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-08-14T19:21:26+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "Token Optimizer MCP: OS command injection in smart_user via username in get-user-info",
+    "url": "https://github.com/advisories/GHSA-49mq-fc6q-3h46",
+    "score": 8.4,
+    "ghsa": "GHSA-49mq-fc6q-3h46",
+    "date": "2026-08-14T21:42:06Z"
+   },
+   {
     "title": "ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)",
     "url": "https://github.com/advisories/GHSA-9hgc-g3w5-67cm",
     "score": 6.6,
@@ -278,13 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-m42h-3232-vpv3",
     "date": "2026-08-13T20:45:05Z"
-   },
-   {
-    "title": "vLLM: Completion prompt lists fan out into unbounded engine requests",
-    "url": "https://github.com/advisories/GHSA-87x5-vmc3-756j",
-    "score": 6.5,
-    "ghsa": "GHSA-87x5-vmc3-756j",
-    "date": "2026-08-13T18:40:06Z"
    }
   ],
   "thn": [
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I went looking for a managed-Postgres provider. Instead, I found a vulnerability in a 4-star PostgreSQL extension available everywhere! and turned it into code ",
+    "url": "https://www.reddit.com/r/netsec/comments/1vohdfo/i_went_looking_for_a_managedpostgres_provider/",
+    "date": "2026-08-14T19:43:10+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "You’re Back In The Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?)) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1vo06aj/youre_back_in_the_room_citrix_netscaler_preauth/",
     "date": "2026-08-14T07:10:17+00:00",
@@ -645,13 +652,6 @@
     "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain - elttam",
     "url": "https://www.reddit.com/r/netsec/comments/1vnxkvm/ruby_40_universal_rce_deserialization_gadget/",
     "date": "2026-08-14T04:46:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I went looking for a managed-Postgres provider. Instead, I found a vulnerability in a 4-star PostgreSQL extension available everywhere! and turned it into code ",
-    "url": "https://www.reddit.com/r/netsec/comments/1vohdfo/i_went_looking_for_a_managedpostgres_provider/",
-    "date": "2026-08-14T19:43:10+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
