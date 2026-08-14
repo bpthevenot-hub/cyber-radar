@@ -1,7 +1,49 @@
 {
- "generatedAt": "2026-08-14T00:01:26.418Z",
+ "generatedAt": "2026-08-14T03:01:29.504Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-72851 — Budibase before 3.40.0 contains an unauthenticated SQL injection vulnerability in webhook-triggered automations with EXECUTE_QUERY steps. At",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72851",
+    "score": 10,
+    "date": "2026-08-14T00:32:02Z"
+   },
+   {
+    "title": "CVE-2026-72842 — luci-app-lxc contains an ACL inconsistency vulnerability that allows low-privileged authenticated LuCI users to access backend container man",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72842",
+    "score": 9.9,
+    "date": "2026-08-14T00:32:02Z"
+   },
+   {
+    "title": "CVE-2026-72841 — luci-app-openvpn fails to properly validate the instance_name2 parameter during file upload, allowing authenticated users to perform path tr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72841",
+    "score": 9.9,
+    "date": "2026-08-14T00:32:01Z"
+   },
+   {
+    "title": "CVE-2026-72776 — AgenticSeek (commit fc242c7) contains an unauthenticated remote code execution vulnerability that allows any network-adjacent attacker to ex",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72776",
+    "score": 9.8,
+    "date": "2026-08-14T00:32:01Z"
+   },
+   {
+    "title": "CVE-2026-72839 — filebrowser through 2.63.16 fails to properly restrict scope and permissions when self-signup is enabled with default CreateUserDir setting.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72839",
+    "score": 9.8,
+    "date": "2026-08-14T00:32:01Z"
+   },
+   {
+    "title": "CVE-2026-68426 — In the Linux kernel, the following vulnerability has been resolved: xfrm: fix stale skb->prev after async crypto steals a GSO segment skb_gs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68426",
+    "score": 9.8,
+    "date": "2026-08-10T15:33:51Z"
+   },
+   {
+    "title": "CVE-2026-68385 — In the Linux kernel, the following vulnerability has been resolved: s390/checksum: Fix csum_partial() without vector facility Currently csum",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68385",
+    "score": 9.8,
+    "date": "2026-08-10T15:33:49Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +55,36 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-72850 — Budibase before 3.40.0 fails to properly sanitize S3 object keys, allowing authenticated builders to upload files with traversal sequences t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72850",
+    "score": 9.1,
+    "date": "2026-08-14T00:32:02Z"
+   },
+   {
+    "title": "CVE-2026-68431 — In the Linux kernel, the following vulnerability has been resolved: ksmbd: validate minimum PDU size for transform requests The receive path",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68431",
+    "score": 9.1,
+    "date": "2026-08-12T00:31:12Z"
+   },
+   {
+    "title": "CVE-2026-72840 — OpenWrt LuCI contains an overly permissive ACL definition in luci-mod-system-mounts that grants write access to /etc/crontabs/root to users ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72840",
+    "score": 8.8,
+    "date": "2026-08-14T00:32:01Z"
+   },
+   {
+    "title": "CVE-2026-68454 — In the Linux kernel, the following vulnerability has been resolved: KVM: s390: pci: Fix handling of AIF enable without AISB When a guest see",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68454",
+    "score": 8.8,
+    "date": "2026-08-13T15:34:43Z"
+   },
+   {
+    "title": "CVE-2026-68432 — In the Linux kernel, the following vulnerability has been resolved: vxlan: require CAP_NET_ADMIN in the device netns for changelink A tunnel",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68432",
+    "score": 8.8,
+    "date": "2026-08-12T00:31:12Z"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+    "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+    "date": "Thu, 13 Aug 2026 21:19:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
     "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
     "date": "Thu, 13 Aug 2026 17:12:47 -0400",
@@ -378,20 +457,13 @@
     "date": "Wed, 12 Aug 2026 19:07:23 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Android malware combo takes out loans and relays victims' credit cards",
-    "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
-    "date": "Wed, 12 Aug 2026 18:22:57 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9771,
+    "stars": 9780,
     "lang": "TypeScript"
    },
    {
@@ -419,16 +491,16 @@
     "lang": "Python"
    },
    {
+    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
+    "url": "https://github.com/Unclecheng-li/DeepSec",
+    "stars": 173,
+    "lang": "Python"
+   },
+   {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
     "stars": 165,
     "lang": "—"
-   },
-   {
-    "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
-    "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 159,
-    "lang": "Python"
    },
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
@@ -445,7 +517,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 118,
+    "stars": 120,
     "lang": "Python"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 11,
   "kev": 1665,
   "adv": 12,
   "feed": 48
