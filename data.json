@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-14T15:09:18.271Z",
+ "generatedAt": "2026-08-14T16:07:46.548Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "Authorizer: Zero-click account takeover via OAuth identity linking to unverified email accounts",
+    "url": "https://github.com/advisories/GHSA-29rf-f4vv-pvq6",
+    "score": 7.5,
+    "ghsa": "GHSA-29rf-f4vv-pvq6",
+    "date": "2026-08-14T15:36:15Z"
+   },
+   {
     "title": "Trigger.dev: Prototype pollution via run metadata operations → process-wide cross-tenant DoS",
     "url": "https://github.com/advisories/GHSA-p28v-f755-9qrg",
     "score": 8.5,
@@ -278,13 +285,6 @@
     "score": 8.5,
     "ghsa": "GHSA-2mhj-fhvg-v428",
     "date": "2026-08-13T13:44:24Z"
-   },
-   {
-    "title": "Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
-    "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
-    "score": 7.5,
-    "ghsa": "GHSA-cxgv-hp74-jj7r",
-    "date": "2026-08-12T23:21:06Z"
    }
   ],
   "thn": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9815,
+    "stars": 9818,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 321,
+    "stars": 322,
     "lang": "Java"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 209,
+    "stars": 213,
     "lang": "Python"
    },
    {
@@ -517,20 +517,20 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 122,
+    "stars": 121,
     "lang": "Python"
+   },
+   {
+    "title": "xyiqq/skilldoctor — Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
+    "url": "https://github.com/xyiqq/skilldoctor",
+    "stars": 101,
+    "lang": "TypeScript"
    },
    {
     "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
     "url": "https://github.com/duy90utc528/repo-publication-audit",
     "stars": 97,
     "lang": "Python"
-   },
-   {
-    "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
-    "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-    "stars": 97,
-    "lang": "Shell"
    }
   ],
   "hn": [
