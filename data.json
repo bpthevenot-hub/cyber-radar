@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-15T17:39:02.401Z",
+ "generatedAt": "2026-08-15T18:50:07.257Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-6104 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.14.2 (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3714",
+    "score": 9.9,
+    "date": "2026-08-15T18:03:14+00:00"
+   },
+   {
+    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
+    "score": 9.9,
+    "date": "2026-08-15T18:02:34+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-19895 — A vulnerability was detected in opensourcepos Open Source Point of Sale up to 3.4.2. This affects the function Login::index of the file app/",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19895",
-    "score": 3.7,
-    "date": "2026-08-15T15:30:37Z"
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: skopeo security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:9098",
+    "score": 8.3,
+    "date": "2026-08-15T18:03:03+00:00"
    },
    {
-    "title": "CVE-2026-19896 — A flaw has been found in mangroup dtale up to 3.22.0. This vulnerability affects the function build_secret_key of the file dtale/app.py of t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19896",
-    "score": 3.7,
-    "date": "2026-08-15T15:30:37Z"
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: ACS 4.4 enhancement and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6054",
+    "score": 8.3,
+    "date": "2026-08-15T18:02:32+00:00"
    },
    {
-    "title": "MAL-2026-14056 — Malicious code in gunzip-js (npm)",
-    "url": "https://github.com/advisories/MAL-2026-14056",
-    "score": null,
-    "date": "2026-08-15T15:31:09Z"
+    "title": "CVE-2023-45290 — Red Hat Security Advisory: container-tools:rhel8 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:5258",
+    "score": 8.3,
+    "date": "2026-08-15T18:02:15+00:00"
    },
    {
-    "title": "CVE-2026-15689 — Dancer2::Plugin::Auth::Extensible versions through 0.713 for Perl allow password reset link poisoning via the request Host header in _defaul",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15689",
-    "score": null,
-    "date": "2026-08-15T15:30:37Z"
+    "title": "CVE-2023-29483 — Red Hat Security Advisory: OpenShift Container Platform 4.14.34 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4960",
+    "score": 8.3,
+    "date": "2026-08-15T18:02:02+00:00"
    },
    {
-    "title": "CVE-2026-74577 — In the Linux kernel, the following vulnerability has been resolved: net: mpls: initialize rtm_tos in mpls_getroute() mpls_getroute() builds ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74577",
-    "score": null,
-    "date": "2026-08-15T15:30:37Z"
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: OpenShift Container Platform 4.16.4 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4613",
+    "score": 8.3,
+    "date": "2026-08-15T18:01:57+00:00"
    },
    {
-    "title": "CVE-2026-74576 — In the Linux kernel, the following vulnerability has been resolved: mm/slab: prevent unbounded recursion in free path with new kmalloc type ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74576",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
+    "title": "CVE-2023-44270 — Red Hat Security Advisory: RHODF-4.16-RHEL-9 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:1829",
+    "score": 8.2,
+    "date": "2026-08-15T18:03:09+00:00"
    },
    {
-    "title": "CVE-2026-74575 — In the Linux kernel, the following vulnerability has been resolved: thunderbolt: Prevent XDomain delayed work use-after-free on disconnect t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74575",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.15.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:0536",
+    "score": 8.2,
+    "date": "2026-08-15T18:03:05+00:00"
    },
    {
-    "title": "CVE-2026-74574 — In the Linux kernel, the following vulnerability has been resolved: dmaengine: idxd: fix fdev setup failure cleanup in idxd_cdev_open() The ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74574",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
+    "title": "CVE-2024-6104 — Red Hat Security Advisory: Multicluster Engine for Kubernetes 2.5.7 security updates and bug fixes (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6738",
+    "score": 8.2,
+    "date": "2026-08-15T18:02:48+00:00"
    },
    {
-    "title": "CVE-2026-74548 — In the Linux kernel, the following vulnerability has been resolved: forcedeth: fix UAF of txrx_stats in nv_remove nv_remove() frees the per-",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74548",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: OpenShift Container Platform 4.14.33 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4479",
+    "score": 8.1,
+    "date": "2026-08-15T18:01:55+00:00"
    },
    {
-    "title": "CVE-2026-74546 — In the Linux kernel, the following vulnerability has been resolved: hwmon: (adt7470) Fix divide-by-zero TOCTOU crash in fan speed read If th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74546",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74565 — In the Linux kernel, the following vulnerability has been resolved: netfilter: nf_tables: make nft_object rhltable per table The nft_object ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74565",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74557 — In the Linux kernel, the following vulnerability has been resolved: scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer iscsi_scs",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74557",
-    "score": null,
-    "date": "2026-08-15T15:30:36Z"
+    "title": "CVE-2024-6104 — Red Hat Security Advisory: OpenShift Container Platform 4.16.3 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4469",
+    "score": 8.1,
+    "date": "2026-08-15T18:01:53+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9855,
+    "stars": 9858,
     "lang": "TypeScript"
    },
    {
@@ -487,13 +487,13 @@
    {
     "title": "xyiqq/skilldoctor — Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
     "url": "https://github.com/xyiqq/skilldoctor",
-    "stars": 239,
+    "stars": 242,
     "lang": "TypeScript"
    },
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 239,
+    "stars": 240,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1665,
   "adv": 12,
   "feed": 48
