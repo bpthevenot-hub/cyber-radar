@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-08-15T19:38:43.820Z",
+ "generatedAt": "2026-08-15T20:42:10.457Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2024-6104 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.14.2 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3714",
-    "score": 9.9,
-    "date": "2026-08-15T18:03:14+00:00"
-   },
-   {
-    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
-    "score": 9.9,
-    "date": "2026-08-15T18:02:34+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-3727 — Red Hat Security Advisory: skopeo security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:9098",
-    "score": 8.3,
-    "date": "2026-08-15T18:03:03+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: HawtIO 4.4.0 for Red Hat build of Apache Camel 4 Release and security update. (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25089",
+    "score": 8.8,
+    "date": "2026-08-15T19:04:10+00:00"
    },
    {
-    "title": "CVE-2024-3727 — Red Hat Security Advisory: ACS 4.4 enhancement and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:6054",
-    "score": 8.3,
-    "date": "2026-08-15T18:02:32+00:00"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHTAS 1.3.2 - Red Hat Trusted Artifact Signer Release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2144",
+    "score": 8.8,
+    "date": "2026-08-15T19:04:00+00:00"
    },
    {
-    "title": "CVE-2023-45290 — Red Hat Security Advisory: container-tools:rhel8 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:5258",
-    "score": 8.3,
-    "date": "2026-08-15T18:02:15+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.2 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13542",
+    "score": 8.8,
+    "date": "2026-08-15T19:03:41+00:00"
    },
    {
-    "title": "CVE-2023-29483 — Red Hat Security Advisory: OpenShift Container Platform 4.14.34 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:4960",
-    "score": 8.3,
-    "date": "2026-08-15T18:02:02+00:00"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.26.0 Release. (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2456",
+    "score": 8.7,
+    "date": "2026-08-15T19:04:08+00:00"
    },
    {
-    "title": "CVE-2023-48795 — Red Hat Security Advisory: OpenShift Container Platform 4.16.4 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:4613",
-    "score": 8.3,
-    "date": "2026-08-15T18:01:57+00:00"
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.3 (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1942",
+    "score": 8.7,
+    "date": "2026-08-15T19:03:56+00:00"
    },
    {
-    "title": "CVE-2023-44270 — Red Hat Security Advisory: RHODF-4.16-RHEL-9 security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1829",
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: RHACS 4.8.8 security and bug fix update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1517",
+    "score": 8.7,
+    "date": "2026-08-15T19:03:45+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2343",
     "score": 8.2,
-    "date": "2026-08-15T18:03:09+00:00"
+    "date": "2026-08-15T19:04:06+00:00"
    },
    {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.15.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0536",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Kiali 2.17.3 for Red Hat OpenShift Service Mesh 3.2 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2149",
     "score": 8.2,
-    "date": "2026-08-15T18:03:05+00:00"
+    "date": "2026-08-15T19:04:02+00:00"
    },
    {
-    "title": "CVE-2024-6104 — Red Hat Security Advisory: Multicluster Engine for Kubernetes 2.5.7 security updates and bug fixes (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:6738",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Kiali 2.11.6 for Red Hat OpenShift Service Mesh 3.1 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2148",
     "score": 8.2,
-    "date": "2026-08-15T18:02:48+00:00"
+    "date": "2026-08-15T19:04:00+00:00"
    },
    {
-    "title": "CVE-2023-48795 — Red Hat Security Advisory: OpenShift Container Platform 4.14.33 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:4479",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Kiali 2.4.12 for Red Hat OpenShift Service Mesh 3.0 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2147",
+    "score": 8.2,
+    "date": "2026-08-15T19:04:00+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1845",
+    "score": 8.2,
+    "date": "2026-08-15T19:03:51+00:00"
+   },
+   {
+    "title": "CVE-2024-29371 — Red Hat Security Advisory: Streams for Apache Kafka 3.2.0 release and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13571",
     "score": 8.1,
-    "date": "2026-08-15T18:01:55+00:00"
-   },
-   {
-    "title": "CVE-2024-6104 — Red Hat Security Advisory: OpenShift Container Platform 4.16.3 security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:4469",
-    "score": 8.1,
-    "date": "2026-08-15T18:01:53+00:00"
+    "date": "2026-08-15T19:03:41+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9858,
+    "stars": 9859,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 130,
+    "stars": 131,
     "lang": "JavaScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1665,
   "adv": 12,
   "feed": 48
