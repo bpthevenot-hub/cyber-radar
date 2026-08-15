@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-15T08:48:12.999Z",
+ "generatedAt": "2026-08-15T09:43:52.894Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-58231 — Kwetsbaarheden verholpen in SAP Commerce Cloud Data Hub Adapter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58231",
+    "score": 10,
+    "date": "2026-08-15T07:41:13.295591Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -77,12 +83,6 @@
    {
     "title": "CVE-2026-74420 — In the Linux kernel, the following vulnerability has been resolved: drm/gpusvm: Reject VMAs with VM_IO or VM_PFNMAP when creating SVM ranges",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-74420",
-    "score": null,
-    "date": "2026-08-15T06:32:33Z"
-   },
-   {
-    "title": "CVE-2026-74412 — In the Linux kernel, the following vulnerability has been resolved: wifi: rtw88: fix wrong pci_get_drvdata type in AER handlers rtw88 stores",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74412",
     "score": null,
     "date": "2026-08-15T06:32:33Z"
    }
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9840,
+    "stars": 9842,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 322,
+    "stars": 323,
     "lang": "Java"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 225,
+    "stars": 226,
     "lang": "Python"
    },
    {
@@ -521,16 +521,16 @@
     "lang": "Python"
    },
    {
+    "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
+    "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
+    "stars": 100,
+    "lang": "Shell"
+   },
+   {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
     "stars": 99,
     "lang": "Python"
-   },
-   {
-    "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
-    "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-    "stars": 99,
-    "lang": "Shell"
    }
   ],
   "hn": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1665,
   "adv": 12,
   "feed": 48
