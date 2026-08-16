@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-08-16T07:03:01.301Z",
+ "generatedAt": "2026-08-16T07:48:05.024Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-19924 — A security vulnerability has been detected in Tenda AC10 16.03.10.09_multi_TDE01. This vulnerability affects the function R7WebsSecurityHand",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19924",
+    "title": "CVE-2026-18432 — The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.29.9. Th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18432",
     "score": 9.8,
-    "date": "2026-08-16T03:31:05Z"
+    "date": "2026-08-16T06:30:25Z"
+   },
+   {
+    "title": "CVE-2026-16098 — The ProSolution WP Client plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.0.10 via the p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16098",
+    "score": 9.8,
+    "date": "2026-08-16T06:30:25Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-6021 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7519",
+    "title": "CVE-2026-18316 — The Solace Extra plugin for WordPress is vulnerable to unauthorized modification and loss of data due to a missing capability check on the i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18316",
     "score": 9.1,
-    "date": "2026-08-16T03:45:03+00:00"
+    "date": "2026-08-16T06:30:26Z"
    },
    {
-    "title": "CVE-2026-6472 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21182",
+    "title": "CVE-2026-14524 — The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the proS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14524",
+    "score": 9.1,
+    "date": "2026-08-16T06:30:24Z"
+   },
+   {
+    "title": "CVE-2026-16099 — The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16099",
     "score": 8.8,
-    "date": "2026-08-16T03:59:24+00:00"
+    "date": "2026-08-16T06:30:25Z"
    },
    {
-    "title": "CVE-2026-67322 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:45940",
+    "title": "CVE-2026-17123 — The Royal Elementor Addons plugin for WordPress is vulnerable to Server-Side Request Forgery in versions up to, and including, 1.7.1064 via ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17123",
     "score": 8.8,
-    "date": "2026-08-16T03:43:03+00:00"
+    "date": "2026-08-16T06:30:25Z"
    },
    {
-    "title": "CVE-2026-69192 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50854",
-    "score": 8.6,
-    "date": "2026-08-16T03:41:27+00:00"
+    "title": "CVE-2026-14498 — The Query Wrangler plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.57 via the 'options",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14498",
+    "score": 8.8,
+    "date": "2026-08-16T06:30:24Z"
    },
    {
-    "title": "CVE-2012-6329 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6206",
-    "score": 8.2,
-    "date": "2026-08-16T04:07:36+00:00"
-   },
-   {
-    "title": "CVE-2026-40898 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:15862",
-    "score": 8.2,
-    "date": "2026-08-16T03:40:42+00:00"
-   },
-   {
-    "title": "CVE-2026-53486 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40415",
-    "score": 8.1,
-    "date": "2026-08-16T03:57:50+00:00"
-   },
-   {
-    "title": "CVE-2025-6075 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8824",
-    "score": 8.1,
-    "date": "2026-08-16T03:52:27+00:00"
-   },
-   {
-    "title": "CVE-2026-62899 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:44914",
-    "score": 7.8,
-    "date": "2026-08-16T03:53:47+00:00"
-   },
-   {
-    "title": "CVE-2026-48615 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:29012",
+    "title": "CVE-2026-29167 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25042",
     "score": 7.7,
-    "date": "2026-08-16T04:15:25+00:00"
+    "date": "2026-08-16T06:15:03+00:00"
    },
    {
-    "title": "CVE-2026-45491 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26994",
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54389",
     "score": 7.5,
-    "date": "2026-08-16T04:12:47+00:00"
+    "date": "2026-08-16T06:17:15+00:00"
+   },
+   {
+    "title": "CVE-2026-17581 — The WCPOS – Point of Sale (POS) plugin for WooCommerce plugin for WordPress is vulnerable to Code Injection via the 'thermal' Template Engin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17581",
+    "score": 7.2,
+    "date": "2026-08-16T06:30:25Z"
+   },
+   {
+    "title": "CVE-2026-15002 — The Platnosci Online Blue Media (Autopay) plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15002",
+    "score": 7.2,
+    "date": "2026-08-16T06:30:24Z"
+   },
+   {
+    "title": "CVE-2026-10035 — The Turnkey bbPress by WeaverTheme plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.7.1 vi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10035",
+    "score": 6.6,
+    "date": "2026-08-16T06:30:25Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9870,
+    "stars": 9871,
     "lang": "TypeScript"
    },
    {
@@ -475,13 +475,13 @@
    {
     "title": "xyiqq/skilldoctor — Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
     "url": "https://github.com/xyiqq/skilldoctor",
-    "stars": 286,
+    "stars": 290,
     "lang": "TypeScript"
    },
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 246,
+    "stars": 248,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 6,
   "kev": 1665,
   "adv": 12,
   "feed": 48
