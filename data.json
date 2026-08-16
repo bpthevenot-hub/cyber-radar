@@ -1,18 +1,54 @@
 {
- "generatedAt": "2026-08-16T14:42:15.626Z",
+ "generatedAt": "2026-08-16T15:39:48.146Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6404",
+    "title": "CVE-2021-42581 — Red Hat Security Advisory: Red Hat Ceph Storage 6.1 Container security and bug fix update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3642",
     "score": 9.8,
-    "date": "2026-08-16T13:24:01+00:00"
+    "date": "2026-08-16T14:27:35+00:00"
    },
    {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6309",
+    "title": "CVE-2022-41717 — Red Hat Security Advisory: OpenShift Container Platform 4.13.4 packages and security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3612",
     "score": 9.8,
-    "date": "2026-08-16T13:24:01+00:00"
+    "date": "2026-08-16T14:27:28+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: Release of OpenShift Serverless 1.29.0 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3455",
+    "score": 9.8,
+    "date": "2026-08-16T14:27:25+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Serverless Client kn 1.29.0 release (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3450",
+    "score": 9.8,
+    "date": "2026-08-16T14:27:23+00:00"
+   },
+   {
+    "title": "CVE-2021-28235 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 (etcd) security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3445",
+    "score": 9.8,
+    "date": "2026-08-16T14:27:19+00:00"
+   },
+   {
+    "title": "CVE-2022-27191 — Red Hat Security Advisory: OpenShift Container Platform 4.13.2 packages and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3366",
+    "score": 9.8,
+    "date": "2026-08-16T14:27:19+00:00"
+   },
+   {
+    "title": "CVE-2020-28500 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.7.4 security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6429",
+    "score": 9.8,
+    "date": "2026-08-16T14:26:20+00:00"
+   },
+   {
+    "title": "CVE-2021-39226 — Red Hat Security Advisory: OpenShift Container Platform 4.8.49 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6308",
+    "score": 9.8,
+    "date": "2026-08-16T14:26:03+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +63,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
-    "score": 9.4,
-    "date": "2026-08-16T13:24:55+00:00"
-   },
-   {
-    "title": "CVE-2024-53908 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.4 Product Security and Bug Fix Update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0721",
+    "title": "CVE-2022-1705 — Red Hat Security Advisory: Release of OpenShift Serverless Client kn 1.24.0 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6042",
     "score": 9.1,
-    "date": "2026-08-16T13:24:35+00:00"
+    "date": "2026-08-16T14:25:26+00:00"
    },
    {
-    "title": "CVE-2026-4599 — Red Hat Security Advisory: Red Hat Quay 3.9.20 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6926",
-    "score": 9.1,
-    "date": "2026-08-16T13:24:07+00:00"
+    "title": "CVE-2021-38561 — Red Hat Security Advisory: Logging Subsystem 5.5.0 - Red Hat OpenShift security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6051",
+    "score": 8.3,
+    "date": "2026-08-16T14:25:28+00:00"
    },
    {
-    "title": "CVE-2026-4599 — Red Hat Security Advisory: Red Hat Quay 3.10.20 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6912",
-    "score": 9.1,
-    "date": "2026-08-16T13:24:06+00:00"
+    "title": "CVE-2022-2990 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1325",
+    "score": 8.2,
+    "date": "2026-08-16T14:26:48+00:00"
    },
    {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.10 security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47737",
-    "score": 8.8,
-    "date": "2026-08-16T13:24:56+00:00"
-   },
-   {
-    "title": "CVE-2026-33811 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.12 security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41055",
-    "score": 8.8,
-    "date": "2026-08-16T13:24:49+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
-    "score": 8.8,
-    "date": "2026-08-16T13:24:24+00:00"
-   },
-   {
-    "title": "CVE-2025-4953 — Red Hat Security Advisory: OpenShift Container Platform 4.12.84 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:0316",
-    "score": 8.8,
-    "date": "2026-08-16T13:24:17+00:00"
-   },
-   {
-    "title": "CVE-2025-4953 — Red Hat Security Advisory: OpenShift Container Platform 4.15.60 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23113",
-    "score": 8.8,
-    "date": "2026-08-16T13:24:15+00:00"
-   },
-   {
-    "title": "CVE-2025-11561 — Red Hat Security Advisory: OpenShift Container Platform 4.18.29 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:21795",
-    "score": 8.8,
-    "date": "2026-08-16T13:24:14+00:00"
+    "title": "CVE-2021-38561 — Red Hat Security Advisory: OpenShift Virtualization 4.12.0 Images security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:0408",
+    "score": 7.7,
+    "date": "2026-08-16T14:26:41+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+    "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+    "date": "Sun, 16 Aug 2026 11:07:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
     "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
     "date": "Sat, 15 Aug 2026 10:14:38 -0400",
@@ -450,26 +457,19 @@
     "date": "Thu, 13 Aug 2026 17:12:47 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-    "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-    "date": "Thu, 13 Aug 2026 16:47:02 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9875,
+    "stars": 9878,
     "lang": "TypeScript"
    },
    {
     "title": "xyiqq/skilldoctor — Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
     "url": "https://github.com/xyiqq/skilldoctor",
-    "stars": 375,
+    "stars": 388,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 252,
+    "stars": 255,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 11,
   "kev": 1665,
   "adv": 12,
   "feed": 48
