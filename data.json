@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-17T05:01:06.179Z",
+ "generatedAt": "2026-08-17T05:53:02.187Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
-    "score": 9.9,
-    "date": "2026-08-17T03:55:30+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.22.8 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48693",
+    "score": 9.4,
+    "date": "2026-08-17T04:58:41+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-08-17T04:58:37+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-17T04:58:36+00:00"
+   },
+   {
     "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:47388",
     "score": 9.4,
-    "date": "2026-08-17T03:55:48+00:00"
+    "date": "2026-08-17T04:58:35+00:00"
    },
    {
     "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:46885",
     "score": 9.4,
-    "date": "2026-08-17T03:55:45+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-08-17T03:56:24+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
-    "score": 9.1,
-    "date": "2026-08-17T03:56:11+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 security advisory (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54757",
-    "score": 9.1,
-    "date": "2026-08-17T03:55:58+00:00"
+    "date": "2026-08-17T04:58:30+00:00"
    },
    {
     "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:51033",
     "score": 9.1,
-    "date": "2026-08-17T03:55:54+00:00"
+    "date": "2026-08-17T04:58:45+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
     "score": 9.1,
-    "date": "2026-08-17T03:55:50+00:00"
+    "date": "2026-08-17T04:58:29+00:00"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42051",
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
     "score": 9.1,
-    "date": "2026-08-17T03:55:27+00:00"
+    "date": "2026-08-17T04:58:20+00:00"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.15.1 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42049",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40945",
     "score": 9.1,
-    "date": "2026-08-17T03:55:26+00:00"
+    "date": "2026-08-17T04:58:15+00:00"
    },
    {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40118",
     "score": 9.1,
-    "date": "2026-08-17T03:55:22+00:00"
+    "date": "2026-08-17T04:58:09+00:00"
    },
    {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
     "score": 9.1,
-    "date": "2026-08-17T03:55:22+00:00"
+    "date": "2026-08-17T04:57:47+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36651",
+    "score": 9.1,
+    "date": "2026-08-17T04:57:45+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9898,
+    "stars": 9901,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
     "url": "https://github.com/jitpass/jit",
-    "stars": 113,
+    "stars": 114,
     "lang": "Go"
    }
   ],
