@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-08-17T09:02:55.390Z",
+ "generatedAt": "2026-08-17T10:00:21.047Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-74570 — In the Linux kernel, the following vulnerability has been resolved: ntfs: harden runlist realloc size calculations Add a shared helper to sa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74570",
-    "score": 9.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74569 — In the Linux kernel, the following vulnerability has been resolved: netfilter: nf_conntrack_sip: widen NAT rewrite delta to s32 in sip_help_",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74569",
-    "score": 9.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74556 — In the Linux kernel, the following vulnerability has been resolved: scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection b",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74556",
-    "score": 9.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74545 — In the Linux kernel, the following vulnerability has been resolved: rtase: fix double free of multi-frag skb on DMA map failure In rtase_sta",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74545",
-    "score": 9.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-74573 — In the Linux kernel, the following vulnerability has been resolved: iommu/arm-smmu-v3-iommufd: Require exactly one Stream ID for a vDEVICE a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74573",
-    "score": 9.3,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74568 — In the Linux kernel, the following vulnerability has been resolved: KVM: arm64: vgic: Fix race between LPI release and re-registration Fix a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74568",
-    "score": 9.3,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74575 — In the Linux kernel, the following vulnerability has been resolved: thunderbolt: Prevent XDomain delayed work use-after-free on disconnect t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74575",
-    "score": 8.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74561 — In the Linux kernel, the following vulnerability has been resolved: nexthop: avoid unlocked f6i_list walk in nh_rt_cache_flush nh_rt_cache_f",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74561",
-    "score": 8.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74554 — In the Linux kernel, the following vulnerability has been resolved: wifi: ath12k: fix out-of-bounds clear_bit in ath12k_mac_dp_peer_cleanup(",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74554",
-    "score": 8.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74562 — In the Linux kernel, the following vulnerability has been resolved: nexthop: take nh->lock for f6i_list walks in replace check and notify fi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74562",
-    "score": 8.8,
-    "date": "2026-08-15T15:30:36Z"
-   },
-   {
-    "title": "CVE-2026-74535 — In the Linux kernel, the following vulnerability has been resolved: Bluetooth: ISO: avoid deadlocks in iso_sock_timeout iso_sock_timeout() t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74535",
-    "score": 8.8,
-    "date": "2026-08-15T15:30:35Z"
-   },
-   {
-    "title": "CVE-2026-74541 — In the Linux kernel, the following vulnerability has been resolved: Bluetooth: ISO: clear iso_data always when detaching conn from hcon When",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74541",
-    "score": 8.8,
-    "date": "2026-08-15T15:30:35Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -375,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+    "date": "Mon, 17 Aug 2026 05:05:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
     "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
     "date": "Sun, 16 Aug 2026 19:47:06 -0400",
@@ -450,20 +372,13 @@
     "date": "Fri, 14 Aug 2026 07:55:45 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "RingCentral data breach exposed info of 1.6 million accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-    "date": "Fri, 14 Aug 2026 06:52:05 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9907,
+    "stars": 9910,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +390,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 267,
+    "stars": 268,
     "lang": "Python"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 0,
   "kev": 1665,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
