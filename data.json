@@ -1,7 +1,49 @@
 {
- "generatedAt": "2026-08-17T11:44:03.563Z",
+ "generatedAt": "2026-08-17T13:09:59.002Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Virtualization 4.13.3 Images security and bug fix update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4664",
+    "score": 9.8,
+    "date": "2026-08-17T10:18:01+00:00"
+   },
+   {
+    "title": "CVE-2021-46877 — Red Hat Security Advisory: Migration Toolkit for Applications security and bug fix update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4627",
+    "score": 9.8,
+    "date": "2026-08-17T10:18:00+00:00"
+   },
+   {
+    "title": "CVE-2022-2879 — Red Hat Security Advisory: Red Hat Service Interconnect 1.4 Release security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4003",
+    "score": 9.8,
+    "date": "2026-08-17T10:17:33+00:00"
+   },
+   {
+    "title": "CVE-2022-27191 — Red Hat Security Advisory: ACS 4.1 enhancement and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3943",
+    "score": 9.8,
+    "date": "2026-08-17T10:17:32+00:00"
+   },
+   {
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift API for Data Protection (OADP) 1.1.5 security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3918",
+    "score": 9.8,
+    "date": "2026-08-17T10:17:31+00:00"
+   },
+   {
+    "title": "CVE-2021-42581 — Red Hat Security Advisory: Red Hat Ceph Storage 6.1 Container security and bug fix update (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3642",
+    "score": 9.8,
+    "date": "2026-08-17T10:16:54+00:00"
+   },
+   {
+    "title": "CVE-2022-41717 — Red Hat Security Advisory: OpenShift Container Platform 4.13.4 packages and security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3612",
+    "score": 9.8,
+    "date": "2026-08-17T10:16:48+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +57,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-40896 — Red Hat Bug Fix Advisory: libxml2 bug fix and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHBA-2025:6597",
-    "score": 9.1,
-    "date": "2026-08-17T09:54:43+00:00"
+    "title": "CVE-2020-16250 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.13.0 security and bug fix update (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3742",
+    "score": 8.8,
+    "date": "2026-08-17T10:17:15+00:00"
    },
    {
-    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.18.27 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:19046",
-    "score": 9.1,
-    "date": "2026-08-17T09:54:19+00:00"
-   },
-   {
-    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.14.58 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:19041",
-    "score": 9.1,
-    "date": "2026-08-17T09:54:18+00:00"
-   },
-   {
-    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.17.42 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:18218",
-    "score": 9.1,
-    "date": "2026-08-17T09:54:17+00:00"
-   },
-   {
-    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.19.17 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:18217",
-    "score": 9.1,
-    "date": "2026-08-17T09:54:16+00:00"
-   },
-   {
-    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:15397",
-    "score": 9.1,
-    "date": "2026-08-17T09:54:13+00:00"
-   },
-   {
-    "title": "CVE-2025-5318 — Red Hat Security Advisory: OpenShift Container Platform 4.15.61 bug fix and security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1541",
-    "score": 8.6,
-    "date": "2026-08-17T09:54:21+00:00"
-   },
-   {
-    "title": "CVE-2025-5318 — Red Hat Security Advisory: OpenShift Container Platform 4.16.55 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:0326",
-    "score": 8.6,
-    "date": "2026-08-17T09:54:20+00:00"
-   },
-   {
-    "title": "CVE-2025-61728 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8448",
-    "score": 8.6,
-    "date": "2026-08-17T09:53:54+00:00"
-   },
-   {
-    "title": "CVE-2025-6176 — Red Hat Security Advisory: Satellite 6.16.7 Async Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5971",
-    "score": 8.5,
-    "date": "2026-08-17T09:53:48+00:00"
-   },
-   {
-    "title": "CVE-2025-6176 — Red Hat Security Advisory: Satellite 6.17.7 Async Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5970",
-    "score": 8.5,
-    "date": "2026-08-17T09:53:45+00:00"
-   },
-   {
-    "title": "CVE-2024-12797 — Red Hat Security Advisory: Red Hat Service Interconnect security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:9895",
+    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Virtualization 4.12.5 security and bug fix update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4421",
     "score": 8.1,
-    "date": "2026-08-17T09:55:28+00:00"
+    "date": "2026-08-17T10:17:57+00:00"
+   },
+   {
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: RHACS 4.1 enhancement and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5851",
+    "score": 7.5,
+    "date": "2026-08-17T10:18:40+00:00"
+   },
+   {
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: rhc-worker-script enhancement and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5835",
+    "score": 7.5,
+    "date": "2026-08-17T10:18:39+00:00"
+   },
+   {
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.3 Product Security and Bug Fix Update",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5810",
+    "score": 7.5,
+    "date": "2026-08-17T10:18:37+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "How MCP Servers Can Expose Enterprise Secrets",
+    "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+    "date": "Mon, 17 Aug 2026 17:28:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+    "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+    "date": "Mon, 17 Aug 2026 16:22:34 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
     "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
     "date": "Mon, 17 Aug 2026 14:59:55 +0530",
@@ -357,23 +371,16 @@
     "date": "Fri, 14 Aug 2026 16:14:34 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
-    "url": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
-    "date": "Fri, 14 Aug 2026 15:08:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud",
-    "url": "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
-    "date": "Fri, 14 Aug 2026 13:24:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+    "date": "Mon, 17 Aug 2026 08:33:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Philips and GE investigating Clop ransomware data theft claims",
     "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
@@ -450,20 +457,13 @@
     "date": "Fri, 14 Aug 2026 10:59:55 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-    "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-    "date": "Fri, 14 Aug 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9912,
+    "stars": 9914,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 268,
+    "stars": 270,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 126,
+    "stars": 128,
     "lang": "Python"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
     "url": "https://github.com/jitpass/jit",
-    "stars": 123,
+    "stars": 124,
     "lang": "Go"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
+    "date": "2026-08-17T12:17:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
     "url": "https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/",
     "date": "2026-08-16T13:33:02+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-13T20:15:35+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained",
-    "url": "https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/",
-    "date": "2026-08-13T15:20:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 9,
   "kev": 1665,
   "adv": 12,
   "feed": 48
