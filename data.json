@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-17T10:00:21.047Z",
+ "generatedAt": "2026-08-17T10:50:29.249Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2024-40896 — Red Hat Bug Fix Advisory: libxml2 bug fix and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2025:6597",
+    "score": 9.1,
+    "date": "2026-08-17T09:54:43+00:00"
+   },
+   {
+    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.18.27 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:19046",
+    "score": 9.1,
+    "date": "2026-08-17T09:54:19+00:00"
+   },
+   {
+    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.14.58 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:19041",
+    "score": 9.1,
+    "date": "2026-08-17T09:54:18+00:00"
+   },
+   {
+    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.17.42 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:18218",
+    "score": 9.1,
+    "date": "2026-08-17T09:54:17+00:00"
+   },
+   {
+    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.19.17 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:18217",
+    "score": 9.1,
+    "date": "2026-08-17T09:54:16+00:00"
+   },
+   {
+    "title": "CVE-2025-5914 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:15397",
+    "score": 9.1,
+    "date": "2026-08-17T09:54:13+00:00"
+   },
+   {
+    "title": "CVE-2025-5318 — Red Hat Security Advisory: OpenShift Container Platform 4.15.61 bug fix and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1541",
+    "score": 8.6,
+    "date": "2026-08-17T09:54:21+00:00"
+   },
+   {
+    "title": "CVE-2025-5318 — Red Hat Security Advisory: OpenShift Container Platform 4.16.55 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0326",
+    "score": 8.6,
+    "date": "2026-08-17T09:54:20+00:00"
+   },
+   {
+    "title": "CVE-2025-61728 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8448",
+    "score": 8.6,
+    "date": "2026-08-17T09:53:54+00:00"
+   },
+   {
+    "title": "CVE-2025-6176 — Red Hat Security Advisory: Satellite 6.16.7 Async Update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5971",
+    "score": 8.5,
+    "date": "2026-08-17T09:53:48+00:00"
+   },
+   {
+    "title": "CVE-2025-6176 — Red Hat Security Advisory: Satellite 6.17.7 Async Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5970",
+    "score": 8.5,
+    "date": "2026-08-17T09:53:45+00:00"
+   },
+   {
+    "title": "CVE-2024-12797 — Red Hat Security Advisory: Red Hat Service Interconnect security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9895",
+    "score": 8.1,
+    "date": "2026-08-17T09:55:28+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,91 +289,98 @@
   ],
   "thn": [
    {
-    "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-    "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-    "date": "Thu, 13 Aug 2026 11:39:48 +0530",
+    "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+    "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+    "date": "Mon, 17 Aug 2026 14:59:55 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-    "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-    "date": "Wed, 12 Aug 2026 23:09:27 +0530",
+    "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+    "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+    "date": "Mon, 17 Aug 2026 13:06:19 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-    "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-    "date": "Wed, 12 Aug 2026 19:39:50 +0530",
+    "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+    "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+    "date": "Sat, 15 Aug 2026 14:08:46 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-    "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-    "date": "Wed, 12 Aug 2026 17:17:38 +0530",
+    "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+    "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+    "date": "Sat, 15 Aug 2026 12:54:04 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
-    "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
-    "date": "Wed, 12 Aug 2026 17:11:34 +0530",
+    "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+    "url": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
+    "date": "Sat, 15 Aug 2026 00:18:46 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-    "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-    "date": "Wed, 12 Aug 2026 16:43:03 +0530",
+    "title": "IAM Compliance Requirements and Best Practices",
+    "url": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
+    "date": "Fri, 14 Aug 2026 22:49:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-    "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-    "date": "Wed, 12 Aug 2026 14:31:54 +0530",
+    "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
+    "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+    "date": "Fri, 14 Aug 2026 18:38:56 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-    "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-    "date": "Wed, 12 Aug 2026 13:34:52 +0530",
+    "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
+    "url": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
+    "date": "Fri, 14 Aug 2026 16:37:45 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-    "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-    "date": "Wed, 12 Aug 2026 13:01:40 +0530",
+    "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
+    "url": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
+    "date": "Fri, 14 Aug 2026 16:27:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-    "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-    "date": "Wed, 12 Aug 2026 12:11:38 +0530",
+    "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
+    "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+    "date": "Fri, 14 Aug 2026 16:14:34 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-    "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-    "date": "Wed, 12 Aug 2026 11:45:58 +0530",
+    "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
+    "url": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
+    "date": "Fri, 14 Aug 2026 15:08:56 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-    "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-    "date": "Wed, 12 Aug 2026 01:40:55 +0530",
+    "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud",
+    "url": "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
+    "date": "Fri, 14 Aug 2026 13:24:18 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "French tax authority data breach affects 678,000 individuals",
+    "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+    "date": "Mon, 17 Aug 2026 06:09:48 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
@@ -365,20 +457,13 @@
     "date": "Fri, 14 Aug 2026 09:45:18 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Shell investigates 'potential incident' after Clop data theft claims",
-    "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-    "date": "Fri, 14 Aug 2026 07:55:45 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9910,
+    "stars": 9911,
     "lang": "TypeScript"
    },
    {
@@ -550,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "They patched their SaaS and left the self-hosted OSS version vulnerable - AppFlowy Authenticated SQL Injection",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqojw3/they_patched_their_saas_and_left_the_selfhosted/",
+    "date": "2026-08-17T10:30:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
     "url": "https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/",
     "date": "2026-08-16T13:33:02+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-08-13T15:20:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Can AI do novel security research? Meet the HTTP Terminator",
-    "url": "https://www.reddit.com/r/netsec/comments/1vn94sg/can_ai_do_novel_security_research_meet_the_http/",
-    "date": "2026-08-13T12:19:41+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 8,
   "kev": 1665,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
