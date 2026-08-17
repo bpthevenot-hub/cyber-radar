@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-17T14:47:44.389Z",
+ "generatedAt": "2026-08-17T15:43:27.387Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-7374 — Red Hat Security Advisory: OpenShift Virtualization v4.13 Images",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20886",
-    "score": 9.9,
-    "date": "2026-08-17T12:56:44+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
-    "score": 8.5,
-    "date": "2026-08-17T12:56:04+00:00"
+    "title": "CVE-2026-18847 — CVE-2026-18847",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18847",
+    "score": null,
+    "date": "2026-08-12T17:17:25.920"
    },
    {
-    "title": "CVE-2025-4330 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54760",
-    "score": 8.4,
-    "date": "2026-08-17T12:56:18+00:00"
+    "title": "CVE-2026-61143 — CVE-2026-61143",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61143",
+    "score": null,
+    "date": "2026-07-21T22:18:45.640"
    },
    {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.21.24 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37186",
-    "score": 8.1,
-    "date": "2026-08-17T12:56:14+00:00"
+    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
+    "url": "https://github.com/advisories/OSV-2022-1259",
+    "score": null,
+    "date": "2022-12-13T13:00:46.870838Z"
    },
    {
-    "title": "CVE-2026-48586 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46989",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:32+00:00"
+    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
+    "url": "https://github.com/advisories/OSV-2022-1176",
+    "score": null,
+    "date": "2022-11-18T13:00:26.857477Z"
    },
    {
-    "title": "CVE-2026-48586 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46987",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:32+00:00"
+    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
+    "url": "https://github.com/advisories/OSV-2022-714",
+    "score": null,
+    "date": "2022-08-15T00:00:47.794062Z"
    },
    {
-    "title": "CVE-2026-48586 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46974",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:30+00:00"
+    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
+    "url": "https://github.com/advisories/OSV-2022-653",
+    "score": null,
+    "date": "2022-07-30T00:01:52.491112Z"
    },
    {
-    "title": "CVE-2026-6322 — Red Hat Security Advisory: OpenShift Container Platform 4.20.29 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37628",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:17+00:00"
+    "title": "OSV-2022-400 — Heap-double-free in dwg_free_XRECORD_private",
+    "url": "https://github.com/advisories/OSV-2022-400",
+    "score": null,
+    "date": "2022-05-08T00:00:40.782520Z"
    },
    {
-    "title": "CVE-2024-24790 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.15.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3718",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:08+00:00"
+    "title": "OSV-2022-388 — Segv on unknown address in dwg_ref_get_object",
+    "url": "https://github.com/advisories/OSV-2022-388",
+    "score": null,
+    "date": "2022-05-01T00:01:54.904711Z"
    },
    {
-    "title": "CVE-2025-30204 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17 security, enhancement & bug fix update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2155",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:07+00:00"
+    "title": "OSV-2022-379 — Segv on unknown address in bit_write_TV",
+    "url": "https://github.com/advisories/OSV-2022-379",
+    "score": null,
+    "date": "2022-04-27T00:00:44.539231Z"
    },
    {
-    "title": "CVE-2023-25153 — Red Hat Security Advisory: Red Hat Ceph Storage 9.0 Security and Enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1536",
-    "score": 7.5,
-    "date": "2026-08-17T12:56:05+00:00"
+    "title": "OSV-2022-372 — Heap-buffer-overflow in dwg_encode_VERTEX_2D",
+    "url": "https://github.com/advisories/OSV-2022-372",
+    "score": null,
+    "date": "2022-04-26T00:00:09.352798Z"
    },
    {
-    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security, bug fix, and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54178",
-    "score": 7.4,
-    "date": "2026-08-17T12:56:33+00:00"
+    "title": "OSV-2021-1343 — Heap-buffer-overflow in get_next_owned_entity",
+    "url": "https://github.com/advisories/OSV-2021-1343",
+    "score": null,
+    "date": "2021-09-21T00:01:33.177403Z"
+   },
+   {
+    "title": "OSV-2021-1086 — Heap-buffer-overflow in dwg_convert_SAB_to_SAT1",
+    "url": "https://github.com/advisories/OSV-2021-1086",
+    "score": null,
+    "date": "2021-08-02T00:00:31.888461Z"
    }
   ],
   "kev": [
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 272,
+    "stars": 273,
     "lang": "Python"
    },
    {
@@ -642,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
-    "date": "2026-08-17T12:17:40+00:00",
+    "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
+    "date": "2026-08-17T14:14:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
-    "date": "2026-08-17T14:14:44+00:00",
+    "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
+    "date": "2026-08-17T12:17:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1666,
   "adv": 12,
   "feed": 48
