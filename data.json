@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-08-17T19:01:09.929Z",
+ "generatedAt": "2026-08-17T19:45:02.548Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6404",
-    "score": 9.8,
-    "date": "2026-08-17T17:23:07+00:00"
-   },
-   {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6309",
-    "score": 9.8,
-    "date": "2026-08-17T17:23:06+00:00"
-   },
-   {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6308",
-    "score": 9.8,
-    "date": "2026-08-17T17:23:06+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-08-17T17:23:36+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
-    "score": 9.1,
-    "date": "2026-08-17T17:23:31+00:00"
-   },
-   {
     "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:8433",
     "score": 9.1,
-    "date": "2026-08-17T17:23:30+00:00"
+    "date": "2026-08-17T18:21:28+00:00"
    },
    {
     "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:8338",
     "score": 9.1,
-    "date": "2026-08-17T17:23:29+00:00"
+    "date": "2026-08-17T18:21:27+00:00"
    },
    {
     "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:8151",
     "score": 9.1,
-    "date": "2026-08-17T17:23:25+00:00"
+    "date": "2026-08-17T18:21:25+00:00"
    },
    {
     "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:6568",
     "score": 9.1,
-    "date": "2026-08-17T17:23:13+00:00"
+    "date": "2026-08-17T18:21:21+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6567",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Network Observability 1.11.1 for OpenShift (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6428",
     "score": 9.1,
-    "date": "2026-08-17T17:23:13+00:00"
+    "date": "2026-08-17T18:21:19+00:00"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 security advisory (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54757",
     "score": 9.1,
-    "date": "2026-08-17T17:23:12+00:00"
+    "date": "2026-08-17T18:21:11+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6497",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
     "score": 9.1,
-    "date": "2026-08-17T17:23:10+00:00"
+    "date": "2026-08-17T18:21:09+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
+    "score": 9.1,
+    "date": "2026-08-17T18:21:06+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
+    "score": 9.1,
+    "date": "2026-08-17T18:21:04+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-08-17T18:21:31+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
+    "score": 8.8,
+    "date": "2026-08-17T18:21:26+00:00"
+   },
+   {
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
+    "score": 8.8,
+    "date": "2026-08-17T18:21:22+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+    "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+    "date": "Tue, 18 Aug 2026 00:14:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+    "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+    "date": "Mon, 17 Aug 2026 23:52:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+    "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+    "date": "Mon, 17 Aug 2026 23:11:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
     "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
     "date": "Mon, 17 Aug 2026 18:53:51 +0530",
@@ -350,30 +371,23 @@
     "date": "Fri, 14 Aug 2026 22:49:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-    "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-    "date": "Fri, 14 Aug 2026 18:38:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
-    "url": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
-    "date": "Fri, 14 Aug 2026 16:37:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
-    "url": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
-    "date": "Fri, 14 Aug 2026 16:27:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+    "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+    "date": "Mon, 17 Aug 2026 15:35:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+    "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+    "date": "Mon, 17 Aug 2026 15:12:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft confirms GitHub is down worldwide",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
@@ -443,20 +457,6 @@
     "date": "Sun, 16 Aug 2026 11:07:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-    "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-    "date": "Sat, 15 Aug 2026 10:14:38 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "How Anthropic plans to watermark Claude's AI-generated text",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-    "date": "Fri, 14 Aug 2026 19:24:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 276,
+    "stars": 277,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 128,
+    "stars": 129,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 11,
   "kev": 1666,
   "adv": 12,
   "feed": 48
