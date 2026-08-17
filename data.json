@@ -1,49 +1,7 @@
 {
- "generatedAt": "2026-08-17T13:09:59.002Z",
+ "generatedAt": "2026-08-17T13:55:36.801Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Virtualization 4.13.3 Images security and bug fix update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4664",
-    "score": 9.8,
-    "date": "2026-08-17T10:18:01+00:00"
-   },
-   {
-    "title": "CVE-2021-46877 — Red Hat Security Advisory: Migration Toolkit for Applications security and bug fix update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4627",
-    "score": 9.8,
-    "date": "2026-08-17T10:18:00+00:00"
-   },
-   {
-    "title": "CVE-2022-2879 — Red Hat Security Advisory: Red Hat Service Interconnect 1.4 Release security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4003",
-    "score": 9.8,
-    "date": "2026-08-17T10:17:33+00:00"
-   },
-   {
-    "title": "CVE-2022-27191 — Red Hat Security Advisory: ACS 4.1 enhancement and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3943",
-    "score": 9.8,
-    "date": "2026-08-17T10:17:32+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift API for Data Protection (OADP) 1.1.5 security and bug fix update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3918",
-    "score": 9.8,
-    "date": "2026-08-17T10:17:31+00:00"
-   },
-   {
-    "title": "CVE-2021-42581 — Red Hat Security Advisory: Red Hat Ceph Storage 6.1 Container security and bug fix update (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3642",
-    "score": 9.8,
-    "date": "2026-08-17T10:16:54+00:00"
-   },
-   {
-    "title": "CVE-2022-41717 — Red Hat Security Advisory: OpenShift Container Platform 4.13.4 packages and security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3612",
-    "score": 9.8,
-    "date": "2026-08-17T10:16:48+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -55,36 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2020-16250 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.13.0 security and bug fix update (+32 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3742",
-    "score": 8.8,
-    "date": "2026-08-17T10:17:15+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Virtualization 4.12.5 security and bug fix update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4421",
-    "score": 8.1,
-    "date": "2026-08-17T10:17:57+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: RHACS 4.1 enhancement and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5851",
-    "score": 7.5,
-    "date": "2026-08-17T10:18:40+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: rhc-worker-script enhancement and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5835",
-    "score": 7.5,
-    "date": "2026-08-17T10:18:39+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.3 Product Security and Bug Fix Update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5810",
-    "score": 7.5,
-    "date": "2026-08-17T10:18:37+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,27 @@
   ],
   "adv": [
    {
+    "title": "Medplum: Improper Validation of Redirect URI in External Auth Callback allows Authorization Code Leakage",
+    "url": "https://github.com/advisories/GHSA-m44r-7c5h-m6mj",
+    "score": 7.1,
+    "ghsa": "GHSA-m44r-7c5h-m6mj",
+    "date": "2026-08-17T13:36:17Z"
+   },
+   {
+    "title": "conflibot vulnerable to command injection via crafted pull request branch names under pull_request_target",
+    "url": "https://github.com/advisories/GHSA-2qvg-qr73-mqxp",
+    "score": 9.1,
+    "ghsa": "GHSA-2qvg-qr73-mqxp",
+    "date": "2026-08-17T13:35:07Z"
+   },
+   {
+    "title": "DeepmergeTS has stack exhaustion when merging recursive object graphs",
+    "url": "https://github.com/advisories/GHSA-ggr8-5vv4-36mx",
+    "score": 7.5,
+    "ghsa": "GHSA-ggr8-5vv4-36mx",
+    "date": "2026-08-17T13:32:13Z"
+   },
+   {
     "title": "s2n-quic has excessive memory allocation",
     "url": "https://github.com/advisories/GHSA-9q54-f358-3fqf",
     "score": 5.3,
@@ -264,30 +213,16 @@
     "score": 8.2,
     "ghsa": "GHSA-2j9v-p4xj-cjw2",
     "date": "2026-08-14T19:24:33Z"
-   },
-   {
-    "title": "Grav: Unauthenticated denial of service via unbounded image derivative dimensions",
-    "url": "https://github.com/advisories/GHSA-4x9g-vw65-vvf9",
-    "score": 7.5,
-    "ghsa": "GHSA-4x9g-vw65-vvf9",
-    "date": "2026-08-14T19:23:38Z"
-   },
-   {
-    "title": "Budibase: SSRF in Automation Steps - Webhook, Zapier, N8N, Slack, Discord Bypass IP Blacklist",
-    "url": "https://github.com/advisories/GHSA-5fpj-28rv-84r7",
-    "score": 7.5,
-    "ghsa": "GHSA-5fpj-28rv-84r7",
-    "date": "2026-08-14T19:18:47Z"
-   },
-   {
-    "title": "Authorizer: Zero-click account takeover via OAuth identity linking to unverified email accounts",
-    "url": "https://github.com/advisories/GHSA-29rf-f4vv-pvq6",
-    "score": 7.5,
-    "ghsa": "GHSA-29rf-f4vv-pvq6",
-    "date": "2026-08-14T15:36:15Z"
    }
   ],
   "thn": [
+   {
+    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+    "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+    "date": "Mon, 17 Aug 2026 18:53:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "How MCP Servers Can Expose Enterprise Secrets",
     "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
@@ -362,13 +297,6 @@
     "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
     "url": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
     "date": "Fri, 14 Aug 2026 16:27:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
-    "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
-    "date": "Fri, 14 Aug 2026 16:14:34 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9914,
+    "stars": 9915,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +403,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 270,
+    "stars": 271,
     "lang": "Python"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
     "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-    "stars": 112,
+    "stars": 113,
     "lang": "Shell"
    }
   ],
@@ -717,8 +645,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
-  "kev": 1665,
+  "crit": 2,
+  "kev": 1666,
   "adv": 12,
   "feed": 48
  },
