@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-17T21:43:43.292Z",
+ "generatedAt": "2026-08-17T22:44:06.664Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.22.8 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48693",
+    "score": 9.4,
+    "date": "2026-08-17T20:40:24+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.20.32 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48676",
+    "score": 9.4,
+    "date": "2026-08-17T20:40:19+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-17T20:40:13+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-08-17T20:40:10+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-17T20:40:03+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-17T20:39:56+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-17T20:43:26+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-08-17T20:43:26+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-08-17T20:43:24+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-08-17T20:43:24+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-08-17T20:43:09+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-08-17T20:40:35+00:00"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Netty Vulnerable to Cache Poisoning and Information Disclosure via CORS Vary Header Overwrite",
-    "url": "https://github.com/advisories/GHSA-8c42-7qj2-3j46",
+    "title": "MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
+    "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
+    "score": 7.1,
+    "ghsa": "GHSA-gqch-g4w5-7qcw",
+    "date": "2026-08-17T21:59:09Z"
+   },
+   {
+    "title": "MLflow: LogInputs endpoint bypasses per-run UPDATE authorization in basic-auth",
+    "url": "https://github.com/advisories/GHSA-3p64-6gvh-82v5",
     "score": 6.5,
-    "ghsa": "GHSA-8c42-7qj2-3j46",
-    "date": "2026-08-17T18:24:26Z"
+    "ghsa": "GHSA-3p64-6gvh-82v5",
+    "date": "2026-08-17T21:59:01Z"
    },
    {
-    "title": "Netty: Memory Exhaustion in SctpMessageCompletionHandler",
-    "url": "https://github.com/advisories/GHSA-2qj4-mmr9-4v2f",
-    "score": 7.5,
-    "ghsa": "GHSA-2qj4-mmr9-4v2f",
-    "date": "2026-08-17T17:50:49Z"
+    "title": "MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+    "url": "https://github.com/advisories/GHSA-7gwp-5pfp-969j",
+    "score": 9.3,
+    "ghsa": "GHSA-7gwp-5pfp-969j",
+    "date": "2026-08-17T21:58:51Z"
    },
    {
-    "title": "uniget CLI: Metadata signature verification only runs when UNIGET_IGNORE_METADATA_SIGNATURE is set",
-    "url": "https://github.com/advisories/GHSA-fhgh-wq4q-r37x",
-    "score": 7.8,
-    "ghsa": "GHSA-fhgh-wq4q-r37x",
-    "date": "2026-08-17T17:50:34Z"
+    "title": "9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
+    "url": "https://github.com/advisories/GHSA-8g4w-4ffg-8vgx",
+    "score": 8.6,
+    "ghsa": "GHSA-8g4w-4ffg-8vgx",
+    "date": "2026-08-17T21:58:43Z"
    },
    {
-    "title": "sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
-    "url": "https://github.com/advisories/GHSA-prg7-hcfm-mfcr",
-    "score": 7.5,
-    "ghsa": "GHSA-prg7-hcfm-mfcr",
-    "date": "2026-08-17T17:49:55Z"
+    "title": "http4k: `DigestAuthProvider.verify` did not bind to request URI",
+    "url": "https://github.com/advisories/GHSA-p28p-j94q-pg32",
+    "score": 8.1,
+    "ghsa": "GHSA-p28p-j94q-pg32",
+    "date": "2026-08-17T21:57:41Z"
    },
    {
-    "title": "sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger",
-    "url": "https://github.com/advisories/GHSA-pwgv-4x5q-6m9f",
-    "score": 7.5,
-    "ghsa": "GHSA-pwgv-4x5q-6m9f",
-    "date": "2026-08-17T17:49:47Z"
+    "title": "http4k: `DigestAuthProvider.verify` ignored configured algorithm and did not bind to request URI",
+    "url": "https://github.com/advisories/GHSA-vxxm-wwqh-mh47",
+    "score": 6.5,
+    "ghsa": "GHSA-vxxm-wwqh-mh47",
+    "date": "2026-08-17T21:56:58Z"
    },
    {
-    "title": "Etherpad has stored XSS in HTML export via unescaped attribute-pool values",
-    "url": "https://github.com/advisories/GHSA-2jp7-wwpg-3p9w",
-    "score": 7.5,
-    "ghsa": "GHSA-2jp7-wwpg-3p9w",
-    "date": "2026-08-17T17:49:38Z"
+    "title": "chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots",
+    "url": "https://github.com/advisories/GHSA-8qf9-62x2-82pp",
+    "score": 6.1,
+    "ghsa": "GHSA-8qf9-62x2-82pp",
+    "date": "2026-08-17T21:56:12Z"
    },
    {
-    "title": "Etherpad addressed weak token RNG, login timing, plugin path handling, API request handling",
-    "url": "https://github.com/advisories/GHSA-92hr-gmr6-h8cp",
+    "title": "package pkcs12: Authentication bypass in Decode functions",
+    "url": "https://github.com/advisories/GHSA-mpwr-8vm7-h73f",
     "score": null,
-    "ghsa": "GHSA-92hr-gmr6-h8cp",
-    "date": "2026-08-17T17:49:21Z"
+    "ghsa": "GHSA-mpwr-8vm7-h73f",
+    "date": "2026-08-17T21:56:01Z"
    },
    {
-    "title": "uniget CLI has Path Traversal in Hook Files - Directory Escape Vulnerability",
-    "url": "https://github.com/advisories/GHSA-m6jg-wr9m-cg2f",
-    "score": null,
-    "ghsa": "GHSA-m6jg-wr9m-cg2f",
-    "date": "2026-08-17T17:46:33Z"
-   },
-   {
-    "title": "uniget CLI has an EDITOR Command Injection",
-    "url": "https://github.com/advisories/GHSA-qmcq-xw74-w667",
-    "score": null,
-    "ghsa": "GHSA-qmcq-xw74-w667",
-    "date": "2026-08-17T17:46:05Z"
-   },
-   {
-    "title": "vm2 has Memory Exhaustion DoS via bufferAllocLimit Bypass",
-    "url": "https://github.com/advisories/GHSA-v836-6xw4-9cx3",
+    "title": "docx4j: Stack Overflow via Cyclic `w:basedOn` Style Chain leads to Denial of Service",
+    "url": "https://github.com/advisories/GHSA-gc95-3vw8-vg43",
     "score": 7.5,
-    "ghsa": "GHSA-v836-6xw4-9cx3",
-    "date": "2026-08-17T17:32:57Z"
+    "ghsa": "GHSA-gc95-3vw8-vg43",
+    "date": "2026-08-17T21:55:49Z"
    },
    {
-    "title": "vm2: NodeVM `builtin: ['*']` exposes `os` and `dns` — process-wide observability reads AND writes that hijack the host (sibling class of GHSA-9g8x-92q",
-    "url": "https://github.com/advisories/GHSA-m5w8-4gq2-6f8x",
-    "score": 10,
-    "ghsa": "GHSA-m5w8-4gq2-6f8x",
-    "date": "2026-08-17T17:32:47Z"
+    "title": "http4k: Unbounded gzip decompression in `ServerFilters.GZip` / `RequestFilters.GunZip` allowed memory-exhaustion DoS",
+    "url": "https://github.com/advisories/GHSA-g4w2-6h2r-3m3w",
+    "score": 7.5,
+    "ghsa": "GHSA-g4w2-6h2r-3m3w",
+    "date": "2026-08-17T21:52:27Z"
    },
    {
-    "title": "vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
-    "url": "https://github.com/advisories/GHSA-cfcw-xp6x-25gj",
-    "score": 9.8,
-    "ghsa": "GHSA-cfcw-xp6x-25gj",
-    "date": "2026-08-17T17:32:41Z"
+    "title": "atomic-agents-stack: Parallel helper/delegate batch reserves $0 for models absent from the pricing table, bypassing the cost-cap fan-out guard",
+    "url": "https://github.com/advisories/GHSA-j659-8xh6-5pq5",
+    "score": 7.5,
+    "ghsa": "GHSA-j659-8xh6-5pq5",
+    "date": "2026-08-17T21:50:01Z"
+   },
+   {
+    "title": "atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)",
+    "url": "https://github.com/advisories/GHSA-xhcr-cqfr-m3hv",
+    "score": 7.5,
+    "ghsa": "GHSA-xhcr-cqfr-m3hv",
+    "date": "2026-08-17T21:49:55Z"
    }
   ],
   "thn": [
@@ -445,7 +517,7 @@
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
     "url": "https://github.com/jitpass/jit",
-    "stars": 126,
+    "stars": 127,
     "lang": "Go"
    },
    {
@@ -577,20 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
-    "date": "2026-08-17T12:17:40+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How Codex found replayable state transitions and a lost-update race in a Supabase browser game",
-    "url": "https://www.reddit.com/r/netsec/comments/1vqxi6k/how_codex_found_replayable_state_transitions_and/",
-    "date": "2026-08-17T16:45:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
     "url": "https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/",
     "date": "2026-08-16T13:33:02+00:00",
@@ -631,6 +689,20 @@
     "date": "2026-08-13T20:51:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "CSS:the bomb inside your inbox",
+    "url": "https://www.reddit.com/r/netsec/comments/1vnm0b2/cssthe_bomb_inside_your_inbox/",
+    "date": "2026-08-13T20:15:35+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained",
+    "url": "https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/",
+    "date": "2026-08-13T15:20:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1666,
   "adv": 12,
   "feed": 48
