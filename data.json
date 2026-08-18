@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-18T19:43:36.724Z",
+ "generatedAt": "2026-08-18T20:42:45.745Z",
  "sources": {
   "cve": [
    {
@@ -19,30 +19,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:50758",
     "score": 9.4,
     "date": "2026-08-18T18:41:34+00:00"
-   },
-   {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.18.51 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48699",
-    "score": 9.4,
-    "date": "2026-08-18T18:41:27+00:00"
-   },
-   {
-    "title": "CVE-2026-9697 — Red Hat Security Advisory: OpenShift Container Platform 4.17.56 bug fix and security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47728",
-    "score": 9.4,
-    "date": "2026-08-18T18:41:14+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
-    "score": 9.4,
-    "date": "2026-08-18T18:41:12+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
-    "score": 9.4,
-    "date": "2026-08-18T18:41:10+00:00"
    },
    {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc-worker-script security update (+6 CVE)",
@@ -81,10 +57,10 @@
     "date": "2026-08-18T18:41:35+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
-    "score": 9.1,
-    "date": "2026-08-18T18:41:29+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: container-tools:rhel8 security, bug fix, and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49944",
+    "score": 8.7,
+    "date": "2026-08-18T18:41:32+00:00"
    }
   ],
   "kev": [
@@ -203,88 +179,88 @@
   ],
   "adv": [
    {
-    "title": "MobSF Vulnerable to Arbitrary File Read via Path Traversal in ZIP Uploads",
-    "url": "https://github.com/advisories/GHSA-8j49-mmcx-4mp5",
-    "score": 5.5,
-    "ghsa": "GHSA-8j49-mmcx-4mp5",
-    "date": "2026-08-18T18:01:26Z"
-   },
-   {
-    "title": "MobSF's CSRF checks not enforced after Django migration",
-    "url": "https://github.com/advisories/GHSA-3p54-567p-2wpr",
+    "title": "devpi-server may leak database contents",
+    "url": "https://github.com/advisories/GHSA-m5pq-69xg-vcq3",
     "score": 6.5,
-    "ghsa": "GHSA-3p54-567p-2wpr",
-    "date": "2026-08-18T18:01:13Z"
+    "ghsa": "GHSA-m5pq-69xg-vcq3",
+    "date": "2026-08-18T20:41:21Z"
    },
    {
-    "title": "MobSF has SSRF port restriction bypass in assetlinks_check",
-    "url": "https://github.com/advisories/GHSA-95px-34x5-p37h",
-    "score": 3,
-    "ghsa": "GHSA-95px-34x5-p37h",
-    "date": "2026-08-18T18:01:03Z"
-   },
-   {
-    "title": "MobSF Vulnerable to Zip Bomb Denial of Service via Per-File Size Limit Bypass in ZIP/APK Extraction",
-    "url": "https://github.com/advisories/GHSA-x768-8642-mmq9",
-    "score": 4.9,
-    "ghsa": "GHSA-x768-8642-mmq9",
-    "date": "2026-08-18T18:00:47Z"
-   },
-   {
-    "title": "MagicMirror socket payload secret placeholder expansion can disclose SECRET_* environment variables",
-    "url": "https://github.com/advisories/GHSA-q4gh-4ffp-5cg8",
-    "score": 4.3,
-    "ghsa": "GHSA-q4gh-4ffp-5cg8",
-    "date": "2026-08-18T18:00:16Z"
-   },
-   {
-    "title": "GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
-    "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
+    "title": "MineAdmin Vulnerable to Path Traversal via Unsanitized identifier in Plugin Install/Uninstall",
+    "url": "https://github.com/advisories/GHSA-59xm-4m8c-g3xj",
     "score": 7.5,
-    "ghsa": "GHSA-p23g-mvhj-jh3j",
-    "date": "2026-08-18T18:00:07Z"
+    "ghsa": "GHSA-59xm-4m8c-g3xj",
+    "date": "2026-08-18T20:40:37Z"
    },
    {
-    "title": "LibreNMS Vulnerable to Remote Code Execution by Signal Alert Transportation module",
-    "url": "https://github.com/advisories/GHSA-c9fv-cgmm-2wg7",
+    "title": "MONAI: Unsafe deserialization in NumpyReader allows arbitrary code execution via malicious .npy files",
+    "url": "https://github.com/advisories/GHSA-wg9g-w2j2-8pgr",
+    "score": 7.8,
+    "ghsa": "GHSA-wg9g-w2j2-8pgr",
+    "date": "2026-08-18T20:22:42Z"
+   },
+   {
+    "title": "MONAI vulnerable to OS command injection",
+    "url": "https://github.com/advisories/GHSA-rghg-q7wp-9767",
     "score": 7.5,
-    "ghsa": "GHSA-c9fv-cgmm-2wg7",
-    "date": "2026-08-18T17:59:56Z"
+    "ghsa": "GHSA-rghg-q7wp-9767",
+    "date": "2026-08-18T20:22:38Z"
    },
    {
-    "title": "MagicMirror: ssrf calendar .js",
-    "url": "https://github.com/advisories/GHSA-w6x9-28jw-hq7j",
+    "title": "Incomplete Fix in MONAI: algo_from_pickle() pickle.loads() RCE still present in v1.5.2 despite GHSA-89gg-p5r5-q6r4 claiming patch",
+    "url": "https://github.com/advisories/GHSA-qxq5-qhx6-94qw",
+    "score": 7.8,
+    "ghsa": "GHSA-qxq5-qhx6-94qw",
+    "date": "2026-08-18T20:22:30Z"
+   },
+   {
+    "title": "Triton VM Soundness Vulnerability due to Missing Constraint",
+    "url": "https://github.com/advisories/GHSA-vjf8-9fx6-mv6x",
     "score": null,
-    "ghsa": "GHSA-w6x9-28jw-hq7j",
-    "date": "2026-08-18T17:26:51Z"
+    "ghsa": "GHSA-vjf8-9fx6-mv6x",
+    "date": "2026-08-18T20:22:21Z"
    },
    {
-    "title": "MagicMirror newsfeed Socket.IO notification allows blind server-side request forgery",
-    "url": "https://github.com/advisories/GHSA-998g-7v5w-cr7g",
+    "title": "jmespath.php has CompilerRuntime code injection via unescaped function names",
+    "url": "https://github.com/advisories/GHSA-pcw8-m77r-2528",
+    "score": 9.8,
+    "ghsa": "GHSA-pcw8-m77r-2528",
+    "date": "2026-08-18T20:16:38Z"
+   },
+   {
+    "title": "membrane_mp4_plugin has an unauthenticated denial-of-service via BEAM atom table exhaustion",
+    "url": "https://github.com/advisories/GHSA-43hj-fxwj-49qw",
     "score": null,
-    "ghsa": "GHSA-998g-7v5w-cr7g",
-    "date": "2026-08-18T17:26:46Z"
+    "ghsa": "GHSA-43hj-fxwj-49qw",
+    "date": "2026-08-18T20:16:29Z"
    },
    {
-    "title": "MagicMirror Socket.IO module namespaces bypass configured IP whitelist and allow unauthenticated server-side actions",
-    "url": "https://github.com/advisories/GHSA-w26r-fwg8-rcp3",
-    "score": 2,
-    "ghsa": "GHSA-w26r-fwg8-rcp3",
-    "date": "2026-08-18T17:26:41Z"
+    "title": "surfio has an out-of-bounds read",
+    "url": "https://github.com/advisories/GHSA-rcr2-hggw-43wm",
+    "score": 9.8,
+    "ghsa": "GHSA-rcr2-hggw-43wm",
+    "date": "2026-08-18T20:12:55Z"
    },
    {
-    "title": "RabbitMQ Java client accepts broker frames larger than the negotiated AMQP frame_max",
-    "url": "https://github.com/advisories/GHSA-5xwg-cfvj-gff5",
-    "score": 2,
-    "ghsa": "GHSA-5xwg-cfvj-gff5",
-    "date": "2026-08-18T16:36:29Z"
+    "title": "resdata has Classic Buffer Overflow, Improper Validation of Array Index, NULL Pointer Dereference and Out-of-bounds Read",
+    "url": "https://github.com/advisories/GHSA-pr85-w493-9w3x",
+    "score": 9.8,
+    "ghsa": "GHSA-pr85-w493-9w3x",
+    "date": "2026-08-18T20:11:04Z"
    },
    {
-    "title": "RabbitMQ Java client: TrustEverythingTrustManager used by default in useSslProtocol() enables MITM",
-    "url": "https://github.com/advisories/GHSA-5m9f-rphj-c435",
-    "score": null,
-    "ghsa": "GHSA-5m9f-rphj-c435",
-    "date": "2026-08-18T16:32:59Z"
+    "title": "kobako Sandbox Escape: guest eval reaches host RCE via method_missing → public_send (any bound Service)",
+    "url": "https://github.com/advisories/GHSA-7pwq-q9jf-539h",
+    "score": 10,
+    "ghsa": "GHSA-7pwq-q9jf-539h",
+    "date": "2026-08-18T20:09:59Z"
+   },
+   {
+    "title": "MeshCentral has unsanitized data fields",
+    "url": "https://github.com/advisories/GHSA-c7hr-448w-65px",
+    "score": 8.3,
+    "ghsa": "GHSA-c7hr-448w-65px",
+    "date": "2026-08-18T20:09:35Z"
    }
   ],
   "thn": [
@@ -375,6 +351,13 @@
   ],
   "bleep": [
    {
+    "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+    "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+    "date": "Tue, 18 Aug 2026 16:14:58 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Clop created custom web shell for Windchill data theft attacks",
     "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
     "date": "Tue, 18 Aug 2026 13:29:51 -0400",
@@ -448,13 +431,6 @@
     "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
     "date": "Mon, 17 Aug 2026 08:33:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Philips and GE investigating Clop ransomware data theft claims",
-    "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-    "date": "Mon, 17 Aug 2026 07:25:02 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
@@ -649,16 +625,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
-    "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
-    "date": "2026-08-18T00:06:58+00:00",
+    "title": "Dissecting House of Apple 2 on modern glibc",
+    "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
+    "date": "2026-08-18T16:05:30+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Dissecting House of Apple 2 on modern glibc",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
-    "date": "2026-08-18T16:05:30+00:00",
+    "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
+    "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
+    "date": "2026-08-18T00:06:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 9,
   "kev": 1670,
   "adv": 12,
   "feed": 48
