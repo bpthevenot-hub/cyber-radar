@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-18T04:01:16.571Z",
+ "generatedAt": "2026-08-18T04:54:56.811Z",
  "sources": {
   "cve": [
    {
@@ -33,16 +33,10 @@
     "date": "2026-08-18T02:58:20+00:00"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6170",
-    "score": 9.6,
-    "date": "2026-08-18T02:57:47+00:00"
-   },
-   {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6166",
-    "score": 9.6,
-    "date": "2026-08-18T02:57:45+00:00"
+    "title": "CVE-2026-75094 — A flaw has been found in COMFAST CF-N1-S 2.6.0.1. This impacts the function sub_44B438 of the file /cgi-bin/mbox-config?method=SET&section=p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75094",
+    "score": 9.1,
+    "date": "2026-08-18T03:31:10Z"
    },
    {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
@@ -85,6 +79,12 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:8490",
     "score": 9.1,
     "date": "2026-08-18T02:58:54+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
+    "score": 9.1,
+    "date": "2026-08-18T02:58:04+00:00"
    }
   ],
   "kev": [
@@ -517,7 +517,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 129,
+    "stars": 130,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "taovietducofficial/CI-CD-Beginner — Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, an",
     "url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-    "stars": 115,
+    "stars": 116,
     "lang": "Shell"
    }
   ],
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "They patched their SaaS and left the self-hosted OSS version vulnerable - AppFlowy Authenticated SQL Injection",
-    "url": "https://www.reddit.com/r/netsec/comments/1vqojw3/they_patched_their_saas_and_left_the_selfhosted/",
-    "date": "2026-08-17T10:30:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
     "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
     "date": "2026-08-18T00:06:58+00:00",
@@ -649,9 +642,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "They patched their SaaS and left the self-hosted OSS version vulnerable - AppFlowy Authenticated SQL Injection",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqojw3/they_patched_their_saas_and_left_the_selfhosted/",
+    "date": "2026-08-17T10:30:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
     "url": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
     "date": "2026-08-17T14:14:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Git repo forensics: a seven-phase process for investigating suspicious commits",
+    "url": "https://www.reddit.com/r/netsec/comments/1vrfby2/git_repo_forensics_a_sevenphase_process_for/",
+    "date": "2026-08-18T04:47:36+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -694,13 +701,6 @@
     "title": "When You Pay the Ransom - Taking Apart an Interlock ESXi Decryptor | Maldbg",
     "url": "https://www.reddit.com/r/netsec/comments/1vnmye4/when_you_pay_the_ransom_taking_apart_an_interlock/",
     "date": "2026-08-13T20:51:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CSS:the bomb inside your inbox",
-    "url": "https://www.reddit.com/r/netsec/comments/1vnm0b2/cssthe_bomb_inside_your_inbox/",
-    "date": "2026-08-13T20:15:35+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
