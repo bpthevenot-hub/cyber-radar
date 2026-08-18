@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-17T23:40:45.068Z",
+ "generatedAt": "2026-08-18T01:53:10.968Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
-    "score": 9.8,
-    "date": "2026-08-17T22:48:31+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.2 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24484",
-    "score": 9.6,
-    "date": "2026-08-17T22:46:40+00:00"
-   },
-   {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.20.32 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48676",
-    "score": 9.4,
-    "date": "2026-08-17T22:47:43+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.16.4 (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19375",
+    "title": "CVE-2026-29063 — Red Hat Security Advisory: OpenShift Container Platform 4.12.93 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34049",
     "score": 9.1,
-    "date": "2026-08-17T22:48:56+00:00"
+    "date": "2026-08-18T00:51:12+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.20.23 bug fix and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17468",
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:29854",
     "score": 9.1,
-    "date": "2026-08-17T22:48:54+00:00"
+    "date": "2026-08-18T00:51:06+00:00"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Submariner v0.21 security fixes and container updates (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25127",
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.15.66 bug fix and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:28964",
     "score": 9.1,
-    "date": "2026-08-17T22:48:33+00:00"
+    "date": "2026-08-18T00:50:55+00:00"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.15 security, enhancement & bug fix update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:12279",
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.16.65 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:29082",
     "score": 9.1,
-    "date": "2026-08-17T22:48:22+00:00"
+    "date": "2026-08-18T00:50:54+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.16.65 packages and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:29079",
     "score": 9.1,
-    "date": "2026-08-17T22:47:57+00:00"
+    "date": "2026-08-18T00:50:53+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.14.68 bug fix and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:28893",
     "score": 9.1,
-    "date": "2026-08-17T22:47:56+00:00"
+    "date": "2026-08-18T00:50:53+00:00"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 (etcd) security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:28047",
     "score": 9.1,
-    "date": "2026-08-17T22:47:55+00:00"
+    "date": "2026-08-18T00:50:51+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Virtualization v4.20 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27957",
     "score": 9.1,
-    "date": "2026-08-17T22:47:55+00:00"
+    "date": "2026-08-18T00:50:51+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Virtualization v4.19 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27901",
     "score": 9.1,
-    "date": "2026-08-17T22:47:52+00:00"
+    "date": "2026-08-18T00:50:50+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Virtualization v4.18 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27893",
+    "score": 9.1,
+    "date": "2026-08-18T00:50:49+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Virtualization v4.21 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27892",
+    "score": 9.1,
+    "date": "2026-08-18T00:50:49+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: osbuild-composer security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27856",
+    "score": 9.1,
+    "date": "2026-08-18T00:50:48+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9921,
+    "stars": 9923,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 279,
+    "stars": 280,
     "lang": "Python"
    },
    {
@@ -509,16 +509,16 @@
     "lang": "JavaScript"
    },
    {
+    "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
+    "url": "https://github.com/jitpass/jit",
+    "stars": 129,
+    "lang": "Go"
+   },
+   {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
     "stars": 128,
     "lang": "Python"
-   },
-   {
-    "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
-    "url": "https://github.com/jitpass/jit",
-    "stars": 127,
-    "lang": "Go"
    },
    {
     "title": "m-novotny/memguard-rs — Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time compa",
@@ -649,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
+    "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
+    "date": "2026-08-18T00:06:58+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
     "url": "https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/",
     "date": "2026-08-16T13:33:02+00:00",
@@ -694,13 +701,6 @@
     "title": "CSS:the bomb inside your inbox",
     "url": "https://www.reddit.com/r/netsec/comments/1vnm0b2/cssthe_bomb_inside_your_inbox/",
     "date": "2026-08-13T20:15:35+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained",
-    "url": "https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/",
-    "date": "2026-08-13T15:20:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
