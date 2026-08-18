@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-18T14:55:17.524Z",
+ "generatedAt": "2026-08-18T15:49:04.852Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "Copyparty vulnerable to file/dirkey confusion",
+    "url": "https://github.com/advisories/GHSA-x5pq-m9p8-f4vx",
+    "score": 4.3,
+    "ghsa": "GHSA-x5pq-m9p8-f4vx",
+    "date": "2026-08-18T15:02:01Z"
+   },
+   {
     "title": "MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
     "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
     "score": 7.1,
@@ -278,13 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-j659-8xh6-5pq5",
     "date": "2026-08-17T21:50:01Z"
-   },
-   {
-    "title": "atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)",
-    "url": "https://github.com/advisories/GHSA-xhcr-cqfr-m3hv",
-    "score": 7.5,
-    "ghsa": "GHSA-xhcr-cqfr-m3hv",
-    "date": "2026-08-17T21:49:55Z"
    }
   ],
   "thn": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9946,
+    "stars": 9947,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
     "url": "https://github.com/jitpass/jit",
-    "stars": 133,
+    "stars": 135,
     "lang": "Go"
    },
    {
