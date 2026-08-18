@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-18T19:00:08.342Z",
+ "generatedAt": "2026-08-18T19:43:36.724Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: OpenShift Container Platform 4.16.68 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50758",
+    "score": 9.4,
+    "date": "2026-08-18T18:41:34+00:00"
+   },
+   {
+    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.18.51 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48699",
+    "score": 9.4,
+    "date": "2026-08-18T18:41:27+00:00"
+   },
+   {
+    "title": "CVE-2026-9697 — Red Hat Security Advisory: OpenShift Container Platform 4.17.56 bug fix and security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47728",
+    "score": 9.4,
+    "date": "2026-08-18T18:41:14+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-18T18:41:12+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-18T18:41:10+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc-worker-script security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54191",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:43+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Virtualization v4.19 Images",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53773",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:41+00:00"
+   },
+   {
+    "title": "CVE-2026-13201 — Red Hat Security Advisory: OpenShift Virtualization v4.20 Images (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53763",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:40+00:00"
+   },
+   {
+    "title": "CVE-2026-13201 — Red Hat Security Advisory: OpenShift Virtualization v4.21 Images (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53728",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:39+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:37+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:35+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-08-18T18:41:29+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -564,13 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "prompt injection containment as a structural property instead of a detector (interactive, real code, no llm)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrwgg2/prompt_injection_containment_as_a_structural/",
-    "date": "2026-08-18T17:47:11+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
     "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
     "date": "2026-08-18T00:06:58+00:00",
@@ -581,6 +659,13 @@
     "title": "Dissecting House of Apple 2 on modern glibc",
     "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
     "date": "2026-08-18T16:05:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "prompt injection containment as a structural property instead of a detector (interactive, real code, no llm)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vrwgg2/prompt_injection_containment_as_a_structural/",
+    "date": "2026-08-18T17:47:11+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1670,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
