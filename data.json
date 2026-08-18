@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-18T10:49:34.491Z",
+ "generatedAt": "2026-08-18T11:44:17.497Z",
  "sources": {
   "cve": [
    {
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft tests faster Windows File Explorer, new context menu",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+    "date": "Tue, 18 Aug 2026 07:14:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
     "date": "Tue, 18 Aug 2026 06:32:16 -0400",
@@ -450,20 +457,13 @@
     "date": "Mon, 17 Aug 2026 05:05:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-    "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-    "date": "Sun, 16 Aug 2026 19:47:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9940,
+    "stars": 9941,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 283,
+    "stars": 284,
     "lang": "Python"
    },
    {
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Git repo forensics: a seven-phase process for investigating suspicious commits",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrfby2/git_repo_forensics_a_sevenphase_process_for/",
-    "date": "2026-08-18T04:47:36+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
     "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
     "date": "2026-08-18T00:06:58+00:00",
@@ -659,6 +652,13 @@
     "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
     "url": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
     "date": "2026-08-17T14:14:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
+    "date": "2026-08-17T12:17:40+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
