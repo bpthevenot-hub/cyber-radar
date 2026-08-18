@@ -1,30 +1,36 @@
 {
- "generatedAt": "2026-08-18T13:59:47.775Z",
+ "generatedAt": "2026-08-18T14:55:17.524Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-75851 — ArcadeDB server (com.arcadedb:arcadedb-server) in versions 26.7.3 and earlier fails to propagate the authenticated principal to asynchronous",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75851",
+    "title": "CVE-2026-42306 — Red Hat Security Advisory: Multicluster Global Hub 1.5.7 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54577",
     "score": 9.9,
-    "date": "2026-08-18T12:31:23Z"
+    "date": "2026-08-18T14:28:25+00:00"
    },
    {
-    "title": "CVE-2026-75843 — ArcadeDB before 26.8.1 fails to bind the authenticated principal on the gRPC transaction executor thread in beginTransaction, allowing authe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75843",
-    "score": 9.9,
-    "date": "2026-08-18T12:31:23Z"
-   },
-   {
-    "title": "CVE-2026-75852 — ArcadeDB versions before 26.8.1 fail to enforce SASL authentication on data commands in the MongoDB wire-protocol plugin. Unauthenticated at",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75852",
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
     "score": 9.8,
-    "date": "2026-08-18T12:31:23Z"
+    "date": "2026-08-18T14:28:58+00:00"
    },
    {
-    "title": "CVE-2026-75854 — ArcadeDB versions before 26.8.1 contain a missing authentication vulnerability in the Redis wire-protocol plugin that allows unauthenticated",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75854",
+    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6404",
     "score": 9.8,
-    "date": "2026-08-18T12:31:23Z"
+    "date": "2026-08-18T14:28:49+00:00"
+   },
+   {
+    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6309",
+    "score": 9.8,
+    "date": "2026-08-18T14:28:47+00:00"
+   },
+   {
+    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6308",
+    "score": 9.8,
+    "date": "2026-08-18T14:28:46+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-75837 — Grav before 2.0.14 fails to guard the access field in the core group blueprint with the required security@: admin.super restriction. A deleg",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75837",
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
+    "score": 9.6,
+    "date": "2026-08-18T14:29:05+00:00"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
+    "score": 9.6,
+    "date": "2026-08-18T14:29:02+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
     "score": 9.1,
-    "date": "2026-08-18T12:31:22Z"
+    "date": "2026-08-18T14:29:20+00:00"
    },
    {
-    "title": "CVE-2026-75853 — ArcadeDB's Gremlin wire-protocol plugin (com.arcadedb:arcadedb-gremlin) in versions <= 26.7.3 enforces authentication (SASL PLAIN) but perfo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75853",
-    "score": 8.8,
-    "date": "2026-08-18T12:31:23Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.21.10 bug fix and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7245",
+    "score": 9.1,
+    "date": "2026-08-18T14:29:08+00:00"
    },
    {
-    "title": "CVE-2026-75827 — Grav before 2.0.15 contains an arbitrary file write vulnerability in the Blueprint dynamic-data bare-function validation that uses an incomp",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75827",
-    "score": 8.8,
-    "date": "2026-08-18T12:31:22Z"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
+    "score": 9.1,
+    "date": "2026-08-18T14:28:59+00:00"
    },
    {
-    "title": "CVE-2026-75836 — The Grav API plugin (getgrav/grav-plugin-api, bundled with Grav's admin-next/API stack) before 1.0.14 fails to enforce the authorize require",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75836",
-    "score": 8.8,
-    "date": "2026-08-18T12:31:22Z"
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
+    "score": 9.1,
+    "date": "2026-08-18T14:28:56+00:00"
    },
    {
-    "title": "CVE-2026-75855 — ArcadeDB versions before 26.8.1 fail to sanitize database names in the POST /api/v1/server endpoint's create database and drop database comm",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75855",
-    "score": 8.7,
-    "date": "2026-08-18T12:31:23Z"
-   },
-   {
-    "title": "CVE-2026-75828 — Grav before 2.0.15 contains a stored cross-site scripting vulnerability in the detectXss() function where unpaired quotes in unquoted attrib",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75828",
-    "score": 8.7,
-    "date": "2026-08-18T12:31:22Z"
-   },
-   {
-    "title": "CVE-2026-75829 — grav-plugin-api versions before 1.0.15 fail to validate Twig content in the translate() endpoint, allowing attackers with api.pages.write pe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75829",
-    "score": 8.1,
-    "date": "2026-08-18T12:31:22Z"
-   },
-   {
-    "title": "CVE-2026-75842 — ArcadeDB versions before 26.8.1 contain an arbitrary file read vulnerability in the OpenCypher LOAD CSV FROM clause that allows authenticate",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75842",
-    "score": 7.7,
-    "date": "2026-08-18T12:31:23Z"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6567",
+    "score": 9.1,
+    "date": "2026-08-18T14:28:55+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Your Controls Block Known Attacks. What About the Behavior?",
+    "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+    "date": "Tue, 18 Aug 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft tests faster Windows File Explorer, new context menu",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
     "date": "Tue, 18 Aug 2026 07:14:28 -0400",
@@ -450,13 +457,6 @@
     "date": "Mon, 17 Aug 2026 06:09:48 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-    "date": "Mon, 17 Aug 2026 05:05:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -503,16 +503,16 @@
     "lang": "Python"
    },
    {
+    "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
+    "url": "https://github.com/jitpass/jit",
+    "stars": 133,
+    "lang": "Go"
+   },
+   {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
     "stars": 133,
     "lang": "Python"
-   },
-   {
-    "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
-    "url": "https://github.com/jitpass/jit",
-    "stars": 132,
-    "lang": "Go"
    },
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 14,
   "kev": 1666,
   "adv": 12,
   "feed": 48
