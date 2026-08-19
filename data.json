@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-19T13:13:03.566Z",
+ "generatedAt": "2026-08-19T14:00:28.496Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-60742 — Kwetsbaarheden verholpen in Oracle PeopleSoft Enterprise (+14 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60742",
-    "score": 9.8,
-    "date": "2026-08-19T11:13:31.828637Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
-    "score": 9.4,
-    "date": "2026-08-19T10:33:46+00:00"
+    "title": "CVE-2026-76036 — Buffer overflow in Dawn in Google Chrome on on Android prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code outside t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76036",
+    "score": 9.6,
+    "date": "2026-08-18T21:34:21Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
-    "score": 9.4,
-    "date": "2026-08-19T10:33:45+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
-    "score": 9.4,
-    "date": "2026-08-19T10:33:45+00:00"
-   },
-   {
-    "title": "CVE-2026-15416 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.6 security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:52857",
-    "score": 8.9,
-    "date": "2026-08-19T10:33:50+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.20.6 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:52910",
+    "title": "CVE-2026-76043 — Incorrect calculation in V8 in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code inside the sandbox ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76043",
     "score": 8.8,
-    "date": "2026-08-19T10:33:50+00:00"
+    "date": "2026-08-18T21:34:21Z"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: RHTAS 1.4.3 - CLI Stack Release (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50888",
-    "score": 8.8,
-    "date": "2026-08-19T10:33:48+00:00"
+    "title": "CVE-2026-58087 — The GETALL and SETALL commands in semctl(2) recorded the number of semaphores in the target set, dropped the lock protecting the set, alloca",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58087",
+    "score": 7.8,
+    "date": "2026-08-19T09:31:24Z"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: RHTAS 1.4.3 - CLI Stack Release (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:49767",
-    "score": 8.8,
-    "date": "2026-08-19T10:33:48+00:00"
+    "title": "CVE-2026-16440 — In Eclipse OpenJ9 versions up to 0.60, a crafted .class file with deeply nested annotations causes a segmentation fault.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16440",
+    "score": 5,
+    "date": "2026-08-19T12:32:23Z"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: RHTAS 1.4.3 - CLI Stack Release (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48771",
-    "score": 8.8,
-    "date": "2026-08-19T10:33:47+00:00"
+    "title": "CVE-2026-18371 — HTML injection vulnerability in M-Files Web before 26.8.16330.2 allows an authenticated attacker to affect web user interface contents displ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18371",
+    "score": 5,
+    "date": "2026-08-19T12:32:23Z"
    },
    {
-    "title": "CVE-2026-6734 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48151",
-    "score": 8.8,
-    "date": "2026-08-19T10:33:47+00:00"
+    "title": "CVE-2026-76166 — A flaw was found in mod_cluster's AdvertiseListenerImpl (org.jboss.modcluster core module). A single crafted UDP multicast datagram with a v",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76166",
+    "score": 4.3,
+    "date": "2026-08-19T12:32:22Z"
    },
    {
-    "title": "CVE-2026-12143 — Red Hat Security Advisory: Red Hat Quay 3.12.20 (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43052",
-    "score": 8.8,
-    "date": "2026-08-19T10:33:45+00:00"
-   },
-   {
-    "title": "CVE-2026-9277 — Red Hat Security Advisory: Red Hat Quay 3.15.6 (+27 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42796",
-    "score": 8.8,
-    "date": "2026-08-19T10:33:44+00:00"
+    "title": "CVE-2026-76041 — Information leak in Skia in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to potentially bypass web origin policy via a cr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76041",
+    "score": 4.3,
+    "date": "2026-08-18T21:34:21Z"
    }
   ],
   "kev": [
@@ -289,6 +259,27 @@
   ],
   "thn": [
    {
+    "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+    "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+    "date": "Wed, 19 Aug 2026 18:42:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+    "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+    "date": "Wed, 19 Aug 2026 17:04:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+    "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+    "date": "Wed, 19 Aug 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
     "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
     "date": "Wed, 19 Aug 2026 16:55:28 +0530",
@@ -350,30 +341,16 @@
     "date": "Tue, 18 Aug 2026 18:08:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-    "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-    "date": "Tue, 18 Aug 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-    "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-    "date": "Tue, 18 Aug 2026 16:50:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-    "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-    "date": "Tue, 18 Aug 2026 14:40:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+    "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+    "date": "Wed, 19 Aug 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft fixes known issue causing Windows Defender crashes",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
@@ -450,13 +427,6 @@
     "date": "Tue, 18 Aug 2026 04:12:08 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-    "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-    "date": "Mon, 17 Aug 2026 15:35:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +445,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 295,
+    "stars": 296,
     "lang": "Python"
    },
    {
@@ -649,6 +619,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "ValleyRAT campaign uses fake GSTR-3B overdue notice targeting Indian taxpayers",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsm77y/valleyrat_campaign_uses_fake_gstr3b_overdue/",
+    "date": "2026-08-19T13:18:26+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Hacking your life with AI can get you hacked: How AI orchestration platforms ship RCE by design",
     "url": "https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/",
     "date": "2026-08-18T13:45:26+00:00",
@@ -696,13 +673,6 @@
     "date": "2026-08-17T10:30:37+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
-    "url": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
-    "date": "2026-08-17T14:14:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +687,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 3,
   "kev": 1670,
   "adv": 12,
   "feed": 48
