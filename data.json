@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T18:56:15.107Z",
+ "generatedAt": "2026-08-19T19:43:06.862Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "langgraph-api: Incomplete assistant authorization in LangGraph Server run creation",
-    "url": "https://github.com/advisories/GHSA-jfj5-wrj9-63x4",
-    "score": 5.9,
-    "ghsa": "GHSA-jfj5-wrj9-63x4",
-    "date": "2026-08-19T18:56:03Z"
-   },
-   {
-    "title": "langgraph-api: Relative webhook targets in LangGraph Server can reach in-process routes without authentication",
-    "url": "https://github.com/advisories/GHSA-2c9q-c2q9-qgqv",
-    "score": 5.9,
-    "ghsa": "GHSA-2c9q-c2q9-qgqv",
-    "date": "2026-08-19T18:55:57Z"
-   },
-   {
-    "title": "linuxfabrik-lib: Arbitrary root file read via live --test argument (lib.lftest) across sudoers-whitelisted plugins (LPE)",
-    "url": "https://github.com/advisories/GHSA-rh9c-rqvg-f7pr",
+    "title": "SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
+    "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
     "score": 5.5,
-    "ghsa": "GHSA-rh9c-rqvg-f7pr",
-    "date": "2026-08-18T21:18:59Z"
+    "ghsa": "GHSA-hjwh-xvfw-qrwj",
+    "date": "2026-08-19T19:32:46Z"
    },
    {
-    "title": "moby/go-archive: Crafted tar archive can write outside the extraction directory",
-    "url": "https://github.com/advisories/GHSA-hfg8-hc9c-6c3h",
+    "title": "Grav: .htaccess file extension rules bypass via case variation on case-insensitive filesystems",
+    "url": "https://github.com/advisories/GHSA-vwg3-w8w3-pc79",
     "score": 7.5,
-    "ghsa": "GHSA-hfg8-hc9c-6c3h",
-    "date": "2026-08-18T21:17:29Z"
+    "ghsa": "GHSA-vwg3-w8w3-pc79",
+    "date": "2026-08-19T19:32:38Z"
    },
    {
-    "title": "LibreNMS: SSRF-driven stored XSS via Oxidized API response fields in device showconfig page",
-    "url": "https://github.com/advisories/GHSA-7gww-x7fh-jf9j",
-    "score": 8.1,
-    "ghsa": "GHSA-7gww-x7fh-jf9j",
-    "date": "2026-08-18T21:17:23Z"
-   },
-   {
-    "title": "LibreNMS: Stored XSS via graph_descr admin config settings echoed without escaping to all authenticated users",
-    "url": "https://github.com/advisories/GHSA-7cj5-v4pp-v632",
-    "score": 4.8,
-    "ghsa": "GHSA-7cj5-v4pp-v632",
-    "date": "2026-08-18T21:17:20Z"
-   },
-   {
-    "title": "LibreNMS Vulnerable to Remote Code Execution via AboutController",
-    "url": "https://github.com/advisories/GHSA-jf24-8g2h-2wg7",
+    "title": "Snipe-IT: Stored DOM XSS via table selected-count IDs",
+    "url": "https://github.com/advisories/GHSA-c8qc-wf67-342w",
     "score": null,
-    "ghsa": "GHSA-jf24-8g2h-2wg7",
-    "date": "2026-08-18T21:17:11Z"
+    "ghsa": "GHSA-c8qc-wf67-342w",
+    "date": "2026-08-19T19:32:32Z"
    },
    {
-    "title": "Lemur: Any user can revoke arbitrary certificates at the CA by uploading a duplicate record and revoking it",
-    "url": "https://github.com/advisories/GHSA-pxmc-2ffp-8j67",
-    "score": 7.3,
-    "ghsa": "GHSA-pxmc-2ffp-8j67",
-    "date": "2026-08-18T20:51:48Z"
-   },
-   {
-    "title": "Lemur: Missing authorization check on POST /certificates/<id>/export for plugins with requires_key = False",
-    "url": "https://github.com/advisories/GHSA-4h97-p9wq-chqj",
+    "title": "Snipe-IT: Maintenance Record Disclosure via Missing Authorization on GET",
+    "url": "https://github.com/advisories/GHSA-r9r3-g9fp-3q4q",
     "score": 4.3,
-    "ghsa": "GHSA-4h97-p9wq-chqj",
-    "date": "2026-08-18T20:51:42Z"
+    "ghsa": "GHSA-r9r3-g9fp-3q4q",
+    "date": "2026-08-19T19:32:25Z"
    },
    {
-    "title": "Lemur: Sub-CA creation never checks `AuthorityPermission` on the parent authority",
-    "url": "https://github.com/advisories/GHSA-g7p5-89mh-248h",
+    "title": "Snipe-IT: Chained Information Disclosure and IDOR Leads to Full EULA File Takeover",
+    "url": "https://github.com/advisories/GHSA-3hgv-jr5j-cg9x",
+    "score": 7.5,
+    "ghsa": "GHSA-3hgv-jr5j-cg9x",
+    "date": "2026-08-19T19:32:18Z"
+   },
+   {
+    "title": "GeoServer has a Server-Side Template Injection (SSTI) vulnerability in processing FreeMarker templates",
+    "url": "https://github.com/advisories/GHSA-wf6j-gr27-g7ch",
+    "score": 7.2,
+    "ghsa": "GHSA-wf6j-gr27-g7ch",
+    "date": "2026-08-19T19:31:54Z"
+   },
+   {
+    "title": "SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
+    "url": "https://github.com/advisories/GHSA-wppf-h75h-6pm6",
+    "score": 6.3,
+    "ghsa": "GHSA-wppf-h75h-6pm6",
+    "date": "2026-08-19T19:23:16Z"
+   },
+   {
+    "title": "SearXNG MCP Server is Vulnerable to SSRF in web_url_read: the internal-address guard is disabled by default (MCP_HTTP_HARDEN off)",
+    "url": "https://github.com/advisories/GHSA-q87f-qc2r-2gw4",
     "score": 6.5,
-    "ghsa": "GHSA-g7p5-89mh-248h",
-    "date": "2026-08-18T20:51:37Z"
+    "ghsa": "GHSA-q87f-qc2r-2gw4",
+    "date": "2026-08-19T19:23:08Z"
    },
    {
-    "title": "Lemur: Unchecked `replaces[]` lets any user silence notifications and hijack auto-rotation for arbitrary certificates",
-    "url": "https://github.com/advisories/GHSA-cfh6-pv5c-38jv",
-    "score": 8.1,
-    "ghsa": "GHSA-cfh6-pv5c-38jv",
-    "date": "2026-08-18T20:51:33Z"
+    "title": "GeoLens's authorization and cache-scope flaws disclose private dataset data and metadata to unauthorized users (fixed in 1.2.4)",
+    "url": "https://github.com/advisories/GHSA-p77j-g7h5-r2vw",
+    "score": 7.5,
+    "ghsa": "GHSA-p77j-g7h5-r2vw",
+    "date": "2026-08-19T19:22:59Z"
    },
    {
-    "title": "Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
-    "url": "https://github.com/advisories/GHSA-6c8m-q6g9-vrw3",
-    "score": 7.7,
-    "ghsa": "GHSA-6c8m-q6g9-vrw3",
-    "date": "2026-08-18T20:51:26Z"
+    "title": "XWiki Platform Live Data Live Table Connector has privilege escalation from edit to script right through Live Data editing",
+    "url": "https://github.com/advisories/GHSA-45ph-gxxr-gwgw",
+    "score": 7.5,
+    "ghsa": "GHSA-45ph-gxxr-gwgw",
+    "date": "2026-08-19T19:18:04Z"
+   },
+   {
+    "title": "MCP PHP SDK: client HttpTransport SSE buffer (sseBuffer .= chunk) grows unbounded when server withholds the event delimiter",
+    "url": "https://github.com/advisories/GHSA-7m52-jw36-44r3",
+    "score": 7.5,
+    "ghsa": "GHSA-7m52-jw36-44r3",
+    "date": "2026-08-19T19:17:49Z"
+   },
+   {
+    "title": "Document Merge Service vulnerable to RCE via SSTI (xlsx tempaltes)",
+    "url": "https://github.com/advisories/GHSA-w47q-945m-q9pc",
+    "score": 7.2,
+    "ghsa": "GHSA-w47q-945m-q9pc",
+    "date": "2026-08-19T19:17:19Z"
    }
   ],
   "thn": [
@@ -391,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9977,
+    "stars": 9978,
     "lang": "TypeScript"
    },
    {
@@ -591,16 +591,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "ValleyRAT campaign uses fake GSTR-3B overdue notice targeting Indian taxpayers",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsm77y/valleyrat_campaign_uses_fake_gstr3b_overdue/",
-    "date": "2026-08-19T13:18:26+00:00",
+    "title": "Hacking SAML with Claude Code",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsv5s7/hacking_saml_with_claude_code/",
+    "date": "2026-08-19T18:40:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Hacking SAML with Claude Code",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsv5s7/hacking_saml_with_claude_code/",
-    "date": "2026-08-19T18:40:47+00:00",
+    "title": "ValleyRAT campaign uses fake GSTR-3B overdue notice targeting Indian taxpayers",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsm77y/valleyrat_campaign_uses_fake_gstr3b_overdue/",
+    "date": "2026-08-19T13:18:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
