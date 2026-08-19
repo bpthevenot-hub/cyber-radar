@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T14:00:28.496Z",
+ "generatedAt": "2026-08-19T14:55:16.183Z",
  "sources": {
   "cve": [
    {
@@ -13,48 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-76036 — Buffer overflow in Dawn in Google Chrome on on Android prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code outside t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76036",
-    "score": 9.6,
-    "date": "2026-08-18T21:34:21Z"
-   },
-   {
-    "title": "CVE-2026-76043 — Incorrect calculation in V8 in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code inside the sandbox ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76043",
-    "score": 8.8,
-    "date": "2026-08-18T21:34:21Z"
-   },
-   {
-    "title": "CVE-2026-58087 — The GETALL and SETALL commands in semctl(2) recorded the number of semaphores in the target set, dropped the lock protecting the set, alloca",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58087",
-    "score": 7.8,
-    "date": "2026-08-19T09:31:24Z"
-   },
-   {
-    "title": "CVE-2026-16440 — In Eclipse OpenJ9 versions up to 0.60, a crafted .class file with deeply nested annotations causes a segmentation fault.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16440",
-    "score": 5,
-    "date": "2026-08-19T12:32:23Z"
-   },
-   {
-    "title": "CVE-2026-18371 — HTML injection vulnerability in M-Files Web before 26.8.16330.2 allows an authenticated attacker to affect web user interface contents displ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18371",
-    "score": 5,
-    "date": "2026-08-19T12:32:23Z"
-   },
-   {
-    "title": "CVE-2026-76166 — A flaw was found in mod_cluster's AdvertiseListenerImpl (org.jboss.modcluster core module). A single crafted UDP multicast datagram with a v",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76166",
-    "score": 4.3,
-    "date": "2026-08-19T12:32:22Z"
-   },
-   {
-    "title": "CVE-2026-76041 — Information leak in Skia in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to potentially bypass web origin policy via a cr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76041",
-    "score": 4.3,
-    "date": "2026-08-18T21:34:21Z"
    }
   ],
   "kev": [
@@ -433,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9973,
+    "stars": 9974,
     "lang": "TypeScript"
    },
    {
@@ -475,13 +433,13 @@
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
     "url": "https://github.com/jitpass/jit",
-    "stars": 138,
+    "stars": 139,
     "lang": "Go"
    },
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 135,
+    "stars": 137,
     "lang": "Python"
    },
    {
@@ -687,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1670,
   "adv": 12,
   "feed": 48
