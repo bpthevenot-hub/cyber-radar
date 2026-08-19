@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-08-19T19:43:06.862Z",
+ "generatedAt": "2026-08-19T20:48:06.996Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-33376 — Red Hat Security Advisory: Multicluster Global Hub 1.4.8 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55810",
+    "score": 9.9,
+    "date": "2026-08-19T19:00:59+00:00"
+   },
+   {
+    "title": "CVE-2026-42306 — Red Hat Security Advisory: Multicluster Global Hub 1.5.7 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54577",
+    "score": 9.9,
+    "date": "2026-08-19T19:00:54+00:00"
+   },
+   {
+    "title": "CVE-2026-42306 — Red Hat Security Advisory: Multicluster Global Hub 1.6.5 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54392",
+    "score": 9.9,
+    "date": "2026-08-19T19:00:51+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53530",
+    "score": 9.9,
+    "date": "2026-08-19T19:00:48+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +37,54 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-08-19T19:00:39+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-19T19:00:34+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-08-19T19:01:05+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
+    "score": 9.1,
+    "date": "2026-08-19T19:01:02+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
+    "score": 9.1,
+    "date": "2026-08-19T19:00:54+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
+    "score": 9.1,
+    "date": "2026-08-19T19:00:50+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
+    "score": 9.1,
+    "date": "2026-08-19T19:00:48+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-08-19T19:00:43+00:00"
    }
   ],
   "kev": [
@@ -131,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "logto-tunnel serves files outside --experience-path via path traversal",
+    "url": "https://github.com/advisories/GHSA-rxjr-6c9q-h67x",
+    "score": 7.5,
+    "ghsa": "GHSA-rxjr-6c9q-h67x",
+    "date": "2026-08-19T20:24:06Z"
+   },
+   {
+    "title": "BuildKit has a possible runtime DoS via unbounded group parsing",
+    "url": "https://github.com/advisories/GHSA-72x6-4j93-7w86",
+    "score": 2,
+    "ghsa": "GHSA-72x6-4j93-7w86",
+    "date": "2026-08-19T20:24:01Z"
+   },
+   {
+    "title": "BuildKit: Custom frontend could bypass Seccomp/AppArmor",
+    "url": "https://github.com/advisories/GHSA-7236-3392-c5c6",
+    "score": null,
+    "ghsa": "GHSA-7236-3392-c5c6",
+    "date": "2026-08-19T20:23:50Z"
+   },
+   {
     "title": "SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
     "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
     "score": 5.5,
@@ -192,30 +285,23 @@
     "score": 7.5,
     "ghsa": "GHSA-p77j-g7h5-r2vw",
     "date": "2026-08-19T19:22:59Z"
-   },
-   {
-    "title": "XWiki Platform Live Data Live Table Connector has privilege escalation from edit to script right through Live Data editing",
-    "url": "https://github.com/advisories/GHSA-45ph-gxxr-gwgw",
-    "score": 7.5,
-    "ghsa": "GHSA-45ph-gxxr-gwgw",
-    "date": "2026-08-19T19:18:04Z"
-   },
-   {
-    "title": "MCP PHP SDK: client HttpTransport SSE buffer (sseBuffer .= chunk) grows unbounded when server withholds the event delimiter",
-    "url": "https://github.com/advisories/GHSA-7m52-jw36-44r3",
-    "score": 7.5,
-    "ghsa": "GHSA-7m52-jw36-44r3",
-    "date": "2026-08-19T19:17:49Z"
-   },
-   {
-    "title": "Document Merge Service vulnerable to RCE via SSTI (xlsx tempaltes)",
-    "url": "https://github.com/advisories/GHSA-w47q-945m-q9pc",
-    "score": 7.2,
-    "ghsa": "GHSA-w47q-945m-q9pc",
-    "date": "2026-08-19T19:17:19Z"
    }
   ],
   "thn": [
+   {
+    "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+    "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+    "date": "Thu, 20 Aug 2026 00:32:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+    "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+    "date": "Wed, 19 Aug 2026 23:36:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
     "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
@@ -285,23 +371,16 @@
     "date": "Tue, 18 Aug 2026 22:28:16 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
-    "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-    "date": "Tue, 18 Aug 2026 18:08:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-    "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-    "date": "Tue, 18 Aug 2026 18:08:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
+    "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+    "date": "Wed, 19 Aug 2026 16:07:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
@@ -378,20 +457,13 @@
     "date": "Tue, 18 Aug 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft tests faster Windows File Explorer, new context menu",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
-    "date": "Tue, 18 Aug 2026 07:14:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9978,
+    "stars": 9977,
     "lang": "TypeScript"
    },
    {
@@ -577,13 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Iran's Mabna Institute ran a 3-phase spearphishing campaign against university professors for a decade. The 50-page superseding indictment has more methodologic",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsrji8/irans_mabna_institute_ran_a_3phase_spearphishing/",
-    "date": "2026-08-19T16:34:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
     "url": "https://www.reddit.com/r/netsec/comments/1vslpnb/crlfpowered_desync_attacks_beheading_http_streams/",
     "date": "2026-08-19T12:58:25+00:00",
@@ -591,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Hacking SAML with Claude Code",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsv5s7/hacking_saml_with_claude_code/",
-    "date": "2026-08-19T18:40:47+00:00",
+    "title": "Graphing AWS Attack Paths in Bloodhound",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsy33z/graphing_aws_attack_paths_in_bloodhound/",
+    "date": "2026-08-19T20:26:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -601,6 +666,13 @@
     "title": "ValleyRAT campaign uses fake GSTR-3B overdue notice targeting Indian taxpayers",
     "url": "https://www.reddit.com/r/netsec/comments/1vsm77y/valleyrat_campaign_uses_fake_gstr3b_overdue/",
     "date": "2026-08-19T13:18:26+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Hacking SAML with Claude Code",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsv5s7/hacking_saml_with_claude_code/",
+    "date": "2026-08-19T18:40:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1671,
   "adv": 12,
   "feed": 48
