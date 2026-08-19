@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T17:44:13.163Z",
+ "generatedAt": "2026-08-19T18:56:15.107Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,20 @@
   ],
   "adv": [
    {
+    "title": "langgraph-api: Incomplete assistant authorization in LangGraph Server run creation",
+    "url": "https://github.com/advisories/GHSA-jfj5-wrj9-63x4",
+    "score": 5.9,
+    "ghsa": "GHSA-jfj5-wrj9-63x4",
+    "date": "2026-08-19T18:56:03Z"
+   },
+   {
+    "title": "langgraph-api: Relative webhook targets in LangGraph Server can reach in-process routes without authentication",
+    "url": "https://github.com/advisories/GHSA-2c9q-c2q9-qgqv",
+    "score": 5.9,
+    "ghsa": "GHSA-2c9q-c2q9-qgqv",
+    "date": "2026-08-19T18:55:57Z"
+   },
+   {
     "title": "linuxfabrik-lib: Arbitrary root file read via live --test argument (lib.lftest) across sudoers-whitelisted plugins (LPE)",
     "url": "https://github.com/advisories/GHSA-rh9c-rqvg-f7pr",
     "score": 5.5,
@@ -199,20 +213,6 @@
     "score": 7.7,
     "ghsa": "GHSA-6c8m-q6g9-vrw3",
     "date": "2026-08-18T20:51:26Z"
-   },
-   {
-    "title": "Lemur: Incomplete fix for GHSA-v2wp-frmc-5q3v -- ACME authority update endpoint allows non-admin to replace `acme_url` with internal IP, bypassing all",
-    "url": "https://github.com/advisories/GHSA-v5rc-cpwc-cfpr",
-    "score": 7.7,
-    "ghsa": "GHSA-v5rc-cpwc-cfpr",
-    "date": "2026-08-18T20:51:21Z"
-   },
-   {
-    "title": "Lemur: SSRF protection in certificate revocation checking bypassable via HTTP redirects and DNS rebinding (incomplete fix for GHSA-54vg-pfh7-jq95)",
-    "url": "https://github.com/advisories/GHSA-f3qq-49m6-rw8f",
-    "score": 6.3,
-    "ghsa": "GHSA-f3qq-49m6-rw8f",
-    "date": "2026-08-18T20:51:12Z"
    }
   ],
   "thn": [
@@ -303,6 +303,20 @@
   ],
   "bleep": [
    {
+    "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
+    "date": "Wed, 19 Aug 2026 14:09:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+    "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+    "date": "Wed, 19 Aug 2026 13:50:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
     "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
     "date": "Wed, 19 Aug 2026 11:56:09 -0400",
@@ -371,27 +385,13 @@
     "date": "Tue, 18 Aug 2026 07:14:28 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-    "date": "Tue, 18 Aug 2026 06:32:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-    "date": "Tue, 18 Aug 2026 05:24:49 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9975,
+    "stars": 9977,
     "lang": "TypeScript"
    },
    {
@@ -433,7 +433,7 @@
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
     "url": "https://github.com/jitpass/jit",
-    "stars": 140,
+    "stars": 141,
     "lang": "Go"
    },
    {
@@ -598,6 +598,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Hacking SAML with Claude Code",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsv5s7/hacking_saml_with_claude_code/",
+    "date": "2026-08-19T18:40:47+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Hacking your life with AI can get you hacked: How AI orchestration platforms ship RCE by design",
     "url": "https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/",
     "date": "2026-08-18T13:45:26+00:00",
@@ -622,13 +629,6 @@
     "title": "Dissecting House of Apple 2 on modern glibc",
     "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
     "date": "2026-08-18T16:05:30+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.htm",
-    "url": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
-    "date": "2026-08-18T16:24:33+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
