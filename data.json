@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-20T19:48:36.753Z",
+ "generatedAt": "2026-08-20T20:50:03.512Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2026-55445 — Qinglong has an incomplete fix for CVE-2026-3965: Improper Authentication",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55445",
+    "score": 9.5,
+    "date": "2026-08-20T18:36:59Z"
+   },
+   {
     "title": "GHSA-8cfw-pcwh-v63w — Winter: Authenticated Twig sandbox escape in CMS SecurityPolicy (bypass of CVE-2024-54149)",
     "url": "https://github.com/advisories/GHSA-8cfw-pcwh-v63w",
     "score": 8.4,
     "date": "2026-08-20T18:44:23Z"
+   },
+   {
+    "title": "CVE-2026-54167 — Pipelines-as-Code GitHub App token request can be redirected via untrusted Enterprise Host header",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54167",
+    "score": 8.2,
+    "date": "2026-08-20T18:36:30Z"
    },
    {
     "title": "CVE-2026-61798 — netty-incubator-codec-ohttp: BoringSSL HPKE private key bytes exposed through toString() and exception messages",
@@ -73,18 +85,6 @@
     "url": "https://github.com/advisories/GHSA-ghvf-qf6h-g8x5",
     "score": 7.5,
     "date": "2026-08-20T18:42:21Z"
-   },
-   {
-    "title": "CVE-2026-54251 — netty-incubator-codec-ohttp: [OHttpServerCodec] Native Direct-Memory Leak on AEAD Decryption Failure Leads to Gateway Denial of Service",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54251",
-    "score": 7.5,
-    "date": "2026-08-20T18:39:50Z"
-   },
-   {
-    "title": "CVE-2026-54245 — Fleet: SQL injection in Okta conditional access endpoint allows host-controlled compromise of the Fleet database",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54245",
-    "score": 7.5,
-    "date": "2026-08-20T18:39:42Z"
    }
   ],
   "kev": [
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "gettext-converter: Prototype pollution in js2i18next() via crafted translation keys",
+    "url": "https://github.com/advisories/GHSA-f4jp-rw7w-ccwg",
+    "score": null,
+    "ghsa": "GHSA-f4jp-rw7w-ccwg",
+    "date": "2026-08-20T20:11:13Z"
+   },
+   {
     "title": "Wagtail: Improper restriction handling on Page translation API endpoint",
     "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
     "score": 6.5,
@@ -278,16 +285,16 @@
     "score": 3.1,
     "ghsa": "GHSA-rxhg-vcww-2mpw",
     "date": "2026-08-20T18:44:36Z"
-   },
-   {
-    "title": "Fleet: Unauthenticated download of in-house iOS app binaries via predictable URLs",
-    "url": "https://github.com/advisories/GHSA-q9c5-pp7m-fm2g",
-    "score": 5.3,
-    "ghsa": "GHSA-q9c5-pp7m-fm2g",
-    "date": "2026-08-20T18:44:31Z"
    }
   ],
   "thn": [
+   {
+    "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+    "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+    "date": "Fri, 21 Aug 2026 01:29:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
     "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
@@ -362,13 +369,6 @@
     "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
     "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
     "date": "Thu, 20 Aug 2026 16:35:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-    "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-    "date": "Thu, 20 Aug 2026 16:08:28 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1673,
   "adv": 12,
   "feed": 48
