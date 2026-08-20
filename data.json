@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-20T15:50:58.680Z",
+ "generatedAt": "2026-08-20T16:54:23.088Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-15706 — Missing authentication for critical function vulnerability in Baylan Measuring Instruments Industry and Trade Inc. Baylan Smart Meter Manage",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15706",
+    "score": 9.8,
+    "date": "2026-08-20T15:34:17Z"
+   },
+   {
+    "title": "CVE-2026-52608 — An incorrect access control vulnerability in reportico-web <= 8.1.0 allows an unauthenticated attacker to inject arbitrary php code into the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52608",
+    "score": 9.8,
+    "date": "2026-08-18T18:32:02Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-1933 — Red Hat Security Advisory: samba security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25979",
-    "score": 9,
-    "date": "2026-08-20T15:14:46+00:00"
+    "title": "CVE-2026-28164 — Cross-Site Request Forgery (CSRF) vulnerability in HashThemes Easy Elementor Addons allows Cross Site Request Forgery. This issue affects Ea",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28164",
+    "score": 9.6,
+    "date": "2026-08-20T15:34:16Z"
    },
    {
-    "title": "CVE-2026-1933 — Red Hat Security Advisory: samba security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:28053",
-    "score": 9,
-    "date": "2026-08-20T15:14:45+00:00"
+    "title": "CVE-2026-16926 — IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 could allow a remote attacker to overwrite arbitrary files due to improper neutralization of s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16926",
+    "score": 9.1,
+    "date": "2026-08-20T15:34:19Z"
    },
    {
-    "title": "CVE-2026-1933 — Red Hat Security Advisory: samba security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25049",
-    "score": 9,
-    "date": "2026-08-20T15:14:36+00:00"
-   },
-   {
-    "title": "CVE-2026-1933 — Red Hat Security Advisory: samba security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22963",
-    "score": 9,
-    "date": "2026-08-20T15:14:32+00:00"
-   },
-   {
-    "title": "CVE-2026-1933 — Red Hat Security Advisory: samba security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22644",
-    "score": 9,
-    "date": "2026-08-20T15:14:31+00:00"
-   },
-   {
-    "title": "CVE-2023-53781 — Red Hat Security Advisory: kernel-rt security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25120",
+    "title": "CVE-2026-16932 — IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 could allow a local attacker to execute arbitrary commands due to improper validation of the O",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16932",
     "score": 8.8,
-    "date": "2026-08-20T15:14:46+00:00"
+    "date": "2026-08-20T15:34:19Z"
    },
    {
-    "title": "CVE-2023-53781 — Red Hat Security Advisory: kernel security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25121",
-    "score": 8.8,
-    "date": "2026-08-20T15:14:44+00:00"
+    "title": "CVE-2026-76633 — WeGIA before 3.9.2 contains an authorization bypass vulnerability in the password change flow that allows any authenticated user to change t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76633",
+    "score": 8.1,
+    "date": "2026-08-20T15:34:18Z"
    },
    {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.5 release. (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26234",
-    "score": 8.8,
-    "date": "2026-08-20T15:14:41+00:00"
+    "title": "CVE-2026-76886 — C12.22 protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.18 allows denial of service",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76886",
+    "score": 8.1,
+    "date": "2026-08-20T00:35:09Z"
    },
    {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Network Observability 1.12.0 for OpenShift (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24473",
-    "score": 8.8,
-    "date": "2026-08-20T15:14:39+00:00"
+    "title": "CVE-2026-61898 — The Ubuntu-specific language helper scripts (save-to-pam-env, update-langlist) shipped with accountsservice before 23.13.9-8ubuntu7 treat th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61898",
+    "score": 7.8,
+    "date": "2026-08-20T15:34:20Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: yggdrasil security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57126",
-    "score": 8.8,
-    "date": "2026-08-20T15:14:31+00:00"
+    "title": "CVE-2026-61897 — An Ubuntu-specific patch to AccountsService before 23.13.9-8ubuntu7 only partially drops privileges before launching language helper scripts",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61897",
+    "score": 7.8,
+    "date": "2026-08-20T15:34:20Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53415",
-    "score": 8.6,
-    "date": "2026-08-20T15:14:27+00:00"
+    "title": "CVE-2026-76833 — @cgauge/yaml npm package contains an arbitrary code execution vulnerability that allows attackers to execute arbitrary JavaScript by embeddi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76833",
+    "score": 7.8,
+    "date": "2026-08-20T15:34:18Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53413",
-    "score": 8.6,
-    "date": "2026-08-20T15:14:25+00:00"
+    "title": "CVE-2026-74011 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in revmakx InfiniteWP Client allows Blind",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74011",
+    "score": 7.6,
+    "date": "2026-08-20T15:34:16Z"
+   },
+   {
+    "title": "CVE-2026-16928 — IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 could allow a remote attacker to cause a denial of service due to a heap-based buffer overflow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16928",
+    "score": 7.5,
+    "date": "2026-08-20T15:34:19Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+    "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+    "date": "Thu, 20 Aug 2026 20:06:27 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
     "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
     "date": "Thu, 20 Aug 2026 19:18:24 +0530",
@@ -362,13 +369,6 @@
     "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
     "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
     "date": "Thu, 20 Aug 2026 11:34:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-    "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-    "date": "Thu, 20 Aug 2026 00:32:40 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10004,
+    "stars": 10006,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 305,
+    "stars": 306,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Solar Winds Part 2 Avoided: N-Able Passportal Vault Leak",
+    "url": "https://www.reddit.com/r/netsec/comments/1vtor7n/solar_winds_part_2_avoided_nable_passportal_vault/",
+    "date": "2026-08-20T16:44:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I escaped the WebAssembly's sandbox and got arbitrary shell execution on the host.",
     "url": "https://www.reddit.com/r/netsec/comments/1vsqdl1/i_escaped_the_webassemblys_sandbox_and_got/",
     "date": "2026-08-19T15:54:04+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-18T17:34:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The Curious Incidents with DNS in the Sandbox at Escape-Time",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsbk66/the_curious_incidents_with_dns_in_the_sandbox_at/",
-    "date": "2026-08-19T03:58:53+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 6,
   "kev": 1671,
   "adv": 12,
   "feed": 48
