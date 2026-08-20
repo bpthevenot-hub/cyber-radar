@@ -1,18 +1,24 @@
 {
- "generatedAt": "2026-08-20T16:54:23.088Z",
+ "generatedAt": "2026-08-20T17:49:00.929Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-15706 — Missing authentication for critical function vulnerability in Baylan Measuring Instruments Industry and Trade Inc. Baylan Smart Meter Manage",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15706",
+    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.1 Release. (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10175",
     "score": 9.8,
-    "date": "2026-08-20T15:34:17Z"
+    "date": "2026-08-20T16:20:20+00:00"
    },
    {
-    "title": "CVE-2026-52608 — An incorrect access control vulnerability in reportico-web <= 8.1.0 allows an unauthenticated attacker to inject arbitrary php code into the",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52608",
+    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
     "score": 9.8,
-    "date": "2026-08-18T18:32:02Z"
+    "date": "2026-08-20T16:14:06+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-08-20T16:13:16+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-28164 — Cross-Site Request Forgery (CSRF) vulnerability in HashThemes Easy Elementor Addons allows Cross Site Request Forgery. This issue affects Ea",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28164",
-    "score": 9.6,
-    "date": "2026-08-20T15:34:16Z"
-   },
-   {
-    "title": "CVE-2026-16926 — IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 could allow a remote attacker to overwrite arbitrary files due to improper neutralization of s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16926",
+    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.10 security, enhancement & bug fix update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:12277",
     "score": 9.1,
-    "date": "2026-08-20T15:34:19Z"
+    "date": "2026-08-20T16:20:27+00:00"
    },
    {
-    "title": "CVE-2026-16932 — IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 could allow a local attacker to execute arbitrary commands due to improper validation of the O",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16932",
-    "score": 8.8,
-    "date": "2026-08-20T15:34:19Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.5 - Red Hat OpenShift AI (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37275",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:26+00:00"
    },
    {
-    "title": "CVE-2026-76633 — WeGIA before 3.9.2 contains an authorization bypass vulnerability in the password change flow that allows any authenticated user to change t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76633",
-    "score": 8.1,
-    "date": "2026-08-20T15:34:18Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Satellite 6.16.9 Async Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27076",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:19+00:00"
    },
    {
-    "title": "CVE-2026-76886 — C12.22 protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.18 allows denial of service",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76886",
-    "score": 8.1,
-    "date": "2026-08-20T00:35:09Z"
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: RHOAI 2.25.7 - Red Hat OpenShift AI (+36 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24977",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:18+00:00"
    },
    {
-    "title": "CVE-2026-61898 — The Ubuntu-specific language helper scripts (save-to-pam-env, update-langlist) shipped with accountsservice before 23.13.9-8ubuntu7 treat th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61898",
-    "score": 7.8,
-    "date": "2026-08-20T15:34:20Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.15.5 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24853",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:18+00:00"
    },
    {
-    "title": "CVE-2026-61897 — An Ubuntu-specific patch to AccountsService before 23.13.9-8ubuntu7 only partially drops privileges before launching language helper scripts",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61897",
-    "score": 7.8,
-    "date": "2026-08-20T15:34:20Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.17.2 (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22465",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:07+00:00"
    },
    {
-    "title": "CVE-2026-76833 — @cgauge/yaml npm package contains an arbitrary code execution vulnerability that allows attackers to execute arbitrary JavaScript by embeddi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76833",
-    "score": 7.8,
-    "date": "2026-08-20T15:34:18Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.14.8 (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21017",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:07+00:00"
    },
    {
-    "title": "CVE-2026-74011 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in revmakx InfiniteWP Client allows Blind",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74011",
-    "score": 7.6,
-    "date": "2026-08-20T15:34:16Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.16.4 (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19375",
+    "score": 9.1,
+    "date": "2026-08-20T16:14:05+00:00"
    },
    {
-    "title": "CVE-2026-16928 — IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 could allow a remote attacker to cause a denial of service due to a heap-based buffer overflow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16928",
-    "score": 7.5,
-    "date": "2026-08-20T15:34:19Z"
+    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36006",
+    "score": 9.1,
+    "date": "2026-08-20T16:13:38+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,55 @@
   ],
   "adv": [
    {
+    "title": "LangChain MongoDB has NoSQL Operator Injection in MongoDBSaver.list() leading to cross-tenant data exposure",
+    "url": "https://github.com/advisories/GHSA-533j-2v4q-mw5h",
+    "score": 7.7,
+    "ghsa": "GHSA-533j-2v4q-mw5h",
+    "date": "2026-08-20T17:29:14Z"
+   },
+   {
+    "title": "Dgraph Alpha group stores can be replaced via unauthenticated external snapshot import",
+    "url": "https://github.com/advisories/GHSA-rrwh-6jrq-wp5v",
+    "score": 9.1,
+    "ghsa": "GHSA-rrwh-6jrq-wp5v",
+    "date": "2026-08-20T17:29:00Z"
+   },
+   {
+    "title": "asteval has a Sandbox Escape via BaseException Subclasses",
+    "url": "https://github.com/advisories/GHSA-89v8-rhwq-hf77",
+    "score": 5,
+    "ghsa": "GHSA-89v8-rhwq-hf77",
+    "date": "2026-08-20T17:28:52Z"
+   },
+   {
+    "title": "asteval Sandbox Escape: arbitrary native memory read/write via numpy ctypes in default asteval Interpreter",
+    "url": "https://github.com/advisories/GHSA-9w56-46f6-3qhx",
+    "score": 5.5,
+    "ghsa": "GHSA-9w56-46f6-3qhx",
+    "date": "2026-08-20T17:26:52Z"
+   },
+   {
+    "title": "vouch-proxy has an Unbounded Multipart Cookie Allocation DoS",
+    "url": "https://github.com/advisories/GHSA-qqff-5854-px68",
+    "score": 7.5,
+    "ghsa": "GHSA-qqff-5854-px68",
+    "date": "2026-08-20T17:26:39Z"
+   },
+   {
+    "title": "OpenTelemetry-Go: Unsynchronized baggage map can panic under concurrent access",
+    "url": "https://github.com/advisories/GHSA-42cj-99w8-cp2p",
+    "score": null,
+    "ghsa": "GHSA-42cj-99w8-cp2p",
+    "date": "2026-08-20T17:26:14Z"
+   },
+   {
+    "title": "Velero vulnerable to file path traversal when extracting from backup's tarball",
+    "url": "https://github.com/advisories/GHSA-j2g6-362q-6qc6",
+    "score": null,
+    "ghsa": "GHSA-j2g6-362q-6qc6",
+    "date": "2026-08-20T17:26:07Z"
+   },
+   {
     "title": "Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
     "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
     "score": 6.5,
@@ -236,58 +285,16 @@
     "score": null,
     "ghsa": "GHSA-7236-3392-c5c6",
     "date": "2026-08-19T20:23:50Z"
-   },
-   {
-    "title": "SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
-    "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
-    "score": 5.5,
-    "ghsa": "GHSA-hjwh-xvfw-qrwj",
-    "date": "2026-08-19T19:32:46Z"
-   },
-   {
-    "title": "Grav: .htaccess file extension rules bypass via case variation on case-insensitive filesystems",
-    "url": "https://github.com/advisories/GHSA-vwg3-w8w3-pc79",
-    "score": 7.5,
-    "ghsa": "GHSA-vwg3-w8w3-pc79",
-    "date": "2026-08-19T19:32:38Z"
-   },
-   {
-    "title": "Snipe-IT: Stored DOM XSS via table selected-count IDs",
-    "url": "https://github.com/advisories/GHSA-c8qc-wf67-342w",
-    "score": null,
-    "ghsa": "GHSA-c8qc-wf67-342w",
-    "date": "2026-08-19T19:32:32Z"
-   },
-   {
-    "title": "Snipe-IT: Maintenance Record Disclosure via Missing Authorization on GET",
-    "url": "https://github.com/advisories/GHSA-r9r3-g9fp-3q4q",
-    "score": 4.3,
-    "ghsa": "GHSA-r9r3-g9fp-3q4q",
-    "date": "2026-08-19T19:32:25Z"
-   },
-   {
-    "title": "Snipe-IT: Chained Information Disclosure and IDOR Leads to Full EULA File Takeover",
-    "url": "https://github.com/advisories/GHSA-3hgv-jr5j-cg9x",
-    "score": 7.5,
-    "ghsa": "GHSA-3hgv-jr5j-cg9x",
-    "date": "2026-08-19T19:32:18Z"
-   },
-   {
-    "title": "GeoServer has a Server-Side Template Injection (SSTI) vulnerability in processing FreeMarker templates",
-    "url": "https://github.com/advisories/GHSA-wf6j-gr27-g7ch",
-    "score": 7.2,
-    "ghsa": "GHSA-wf6j-gr27-g7ch",
-    "date": "2026-08-19T19:31:54Z"
-   },
-   {
-    "title": "SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
-    "url": "https://github.com/advisories/GHSA-wppf-h75h-6pm6",
-    "score": 6.3,
-    "ghsa": "GHSA-wppf-h75h-6pm6",
-    "date": "2026-08-19T19:23:16Z"
    }
   ],
   "thn": [
+   {
+    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+    "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+    "date": "Thu, 20 Aug 2026 22:29:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
     "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
@@ -362,13 +369,6 @@
     "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
     "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
     "date": "Thu, 20 Aug 2026 14:12:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-    "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-    "date": "Thu, 20 Aug 2026 11:34:34 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10006,
+    "stars": 10008,
     "lang": "TypeScript"
    },
    {
@@ -635,37 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "GLM-5.3's emergent security capabilities: 1,097 critical/high severity bugs discovered across kernels, browsers, and infrastructure, oldest flaw from 1981",
-    "url": "https://www.reddit.com/r/netsec/comments/1vtikn8/glm53s_emergent_security_capabilities_1097/",
-    "date": "2026-08-20T12:48:26+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Solar Winds Part 2 Avoided: N-Able Passportal Vault Leak",
-    "url": "https://www.reddit.com/r/netsec/comments/1vtor7n/solar_winds_part_2_avoided_nable_passportal_vault/",
-    "date": "2026-08-20T16:44:17+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I escaped the WebAssembly's sandbox and got arbitrary shell execution on the host.",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsqdl1/i_escaped_the_webassemblys_sandbox_and_got/",
-    "date": "2026-08-19T15:54:04+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "How to break secure boot without touching any cryptography",
     "url": "https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/",
     "date": "2026-08-19T12:01:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Graphing AWS Attack Paths in Bloodhound",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsy33z/graphing_aws_attack_paths_in_bloodhound/",
-    "date": "2026-08-19T20:26:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -684,13 +656,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Hacking SAML with Claude Code",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsv5s7/hacking_saml_with_claude_code/",
-    "date": "2026-08-19T18:40:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Hacking your life with AI can get you hacked: How AI orchestration platforms ship RCE by design",
     "url": "https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/",
     "date": "2026-08-18T13:45:26+00:00",
@@ -701,6 +666,41 @@
     "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
     "url": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
     "date": "2026-08-18T17:34:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The Curious Incidents with DNS in the Sandbox at Escape-Time",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsbk66/the_curious_incidents_with_dns_in_the_sandbox_at/",
+    "date": "2026-08-19T03:58:53+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Dissecting House of Apple 2 on modern glibc",
+    "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
+    "date": "2026-08-18T16:05:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.htm",
+    "url": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
+    "date": "2026-08-18T16:24:33+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "DeadLock ransomware: Rust-based encryptor with decentralized recovery infrastructure",
+    "url": "https://www.reddit.com/r/netsec/comments/1vr9ccc/deadlock_ransomware_rustbased_encryptor_with/",
+    "date": "2026-08-18T00:06:58+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "They patched their SaaS and left the self-hosted OSS version vulnerable - AppFlowy Authenticated SQL Injection",
+    "url": "https://www.reddit.com/r/netsec/comments/1vqojw3/they_patched_their_saas_and_left_the_selfhosted/",
+    "date": "2026-08-17T10:30:37+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -717,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
-  "kev": 1671,
+  "crit": 14,
+  "kev": 1673,
   "adv": 12,
   "feed": 48
  },
