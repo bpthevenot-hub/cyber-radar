@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-20T13:14:34.043Z",
+ "generatedAt": "2026-08-20T14:04:18.959Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
-    "score": 9.8,
-    "date": "2026-08-20T12:11:45+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,72 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26568",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:42+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Submariner v0.21 security fixes and container updates (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25127",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:32+00:00"
-   },
-   {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: RHOAI 2.25.7 - Red Hat OpenShift AI (+36 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24977",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:31+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.15.5 (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24853",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:31+00:00"
-   },
-   {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Multicluster Global Hub 1.6.2 security update (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:23345",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:23+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:23228",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:22+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22714",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:20+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22937",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:18+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.17.2 (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22465",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:14+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22450",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:14+00:00"
-   },
-   {
-    "title": "CVE-2026-21728 — Red Hat Security Advisory: Multicluster Global Hub 1.3.4 security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22423",
-    "score": 9.1,
-    "date": "2026-08-20T12:12:13+00:00"
    }
   ],
   "kev": [
@@ -463,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10000,
+    "stars": 10002,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +403,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 304,
+    "stars": 305,
     "lang": "Python"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 140,
+    "stars": 139,
     "lang": "Python"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1671,
   "adv": 12,
   "feed": 48
