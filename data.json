@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-19T23:40:48.342Z",
+ "generatedAt": "2026-08-20T01:54:15.168Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-08-19T22:40:25+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-08-19T22:40:25+00:00"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-08-19T22:40:25+00:00"
-   },
-   {
-    "title": "CVE-2026-13676 — Red Hat Security Advisory: OpenShift Container Platform 4.16.68 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50758",
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
     "score": 9.4,
-    "date": "2026-08-19T22:40:09+00:00"
+    "date": "2026-08-20T01:07:53+00:00"
    },
    {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.18.51 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48699",
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
     "score": 9.4,
-    "date": "2026-08-19T22:40:08+00:00"
+    "date": "2026-08-20T01:07:53+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-08-19T22:40:34+00:00"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-20T01:07:52+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
     "score": 9.1,
-    "date": "2026-08-19T22:40:34+00:00"
+    "date": "2026-08-20T01:08:03+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
     "score": 9.1,
-    "date": "2026-08-19T22:40:34+00:00"
+    "date": "2026-08-20T01:07:57+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
     "score": 9.1,
-    "date": "2026-08-19T22:40:33+00:00"
+    "date": "2026-08-20T01:07:52+00:00"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
     "score": 9.1,
-    "date": "2026-08-19T22:40:33+00:00"
+    "date": "2026-08-20T01:07:49+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40945",
     "score": 9.1,
-    "date": "2026-08-19T22:40:32+00:00"
+    "date": "2026-08-20T01:07:46+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:40118",
     "score": 9.1,
-    "date": "2026-08-19T22:40:32+00:00"
+    "date": "2026-08-20T01:07:44+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.5 - Red Hat OpenShift AI (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37275",
+    "score": 9.1,
+    "date": "2026-08-20T01:07:41+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
+    "score": 9.1,
+    "date": "2026-08-20T01:07:36+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36651",
+    "score": 9.1,
+    "date": "2026-08-20T01:07:34+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+    "date": "Wed, 19 Aug 2026 20:20:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
     "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
     "date": "Wed, 19 Aug 2026 16:59:58 -0400",
@@ -450,20 +457,13 @@
     "date": "Wed, 19 Aug 2026 04:00:48 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-    "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-    "date": "Tue, 18 Aug 2026 16:14:58 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 9979,
+    "stars": 9984,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "Unclecheng-li/DeepSec — DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, m",
     "url": "https://github.com/Unclecheng-li/DeepSec",
-    "stars": 296,
+    "stars": 297,
     "lang": "Python"
    },
    {
