@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-08-21T21:42:23.695Z",
+ "generatedAt": "2026-08-21T22:44:40.270Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-61539 — Xinference vulnerable to remote code execution via unsafe `eval()` in Llama3 tool-call parsing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61539",
+    "score": 10,
+    "date": "2026-08-21T20:56:37Z"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53806",
+    "score": 9.8,
+    "date": "2026-08-21T20:46:42+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security pdate (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53644",
+    "score": 9.8,
+    "date": "2026-08-21T20:46:40+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "title": "CVE-2026-77414 — JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77414",
+    "score": 9.5,
+    "date": "2026-08-21T20:58:01Z"
+   },
+   {
+    "title": "CVE-2026-77413 — JSONata: Arbitrary Code Execution via crafted JSONata expressions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77413",
+    "score": 9.5,
+    "date": "2026-08-21T20:57:07Z"
+   },
+   {
+    "title": "CVE-2026-59989 — Phalcon Volt compiler `join` filter compile-time PHP code injection (SSTI leads to RCE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59989",
+    "score": 9.5,
+    "date": "2026-08-21T20:55:56Z"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
     "score": 9.1,
-    "date": "2026-08-21T19:57:39+00:00"
+    "date": "2026-08-21T20:46:44+00:00"
    },
    {
-    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
     "score": 9.1,
-    "date": "2026-08-21T19:57:36+00:00"
+    "date": "2026-08-21T20:46:42+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.5 - Red Hat OpenShift AI (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37275",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
     "score": 9.1,
-    "date": "2026-08-21T19:57:31+00:00"
+    "date": "2026-08-21T20:46:41+00:00"
    },
    {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
-    "score": 9,
-    "date": "2026-08-21T19:57:35+00:00"
+    "title": "CVE-2026-15416 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.6 security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:52857",
+    "score": 8.9,
+    "date": "2026-08-21T20:46:39+00:00"
    },
    {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42078",
-    "score": 9,
-    "date": "2026-08-21T19:57:34+00:00"
+    "title": "CVE-2024-42516 — Red Hat Security Advisory: Insights proxy Container Image (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53371",
+    "score": 8.8,
+    "date": "2026-08-21T20:59:23+00:00"
    },
    {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: Migration Toolkit for Applications (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56347",
-    "score": 8.5,
-    "date": "2026-08-21T19:57:40+00:00"
-   },
-   {
-    "title": "CVE-2026-43206 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57251",
-    "score": 7.8,
-    "date": "2026-08-21T19:26:21+00:00"
-   },
-   {
-    "title": "CVE-2022-50053 — Red Hat Security Advisory: kernel security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9870",
-    "score": 7.5,
-    "date": "2026-08-21T19:26:28+00:00"
-   },
-   {
-    "title": "CVE-2025-68131 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6762",
-    "score": 7.5,
-    "date": "2026-08-21T19:26:27+00:00"
-   },
-   {
-    "title": "CVE-2025-68131 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (CUDA) (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6761",
-    "score": 7.5,
-    "date": "2026-08-21T19:26:22+00:00"
-   },
-   {
-    "title": "CVE-2025-68131 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (cuda-ubi9) (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5809",
-    "score": 7.5,
-    "date": "2026-08-21T19:26:20+00:00"
-   },
-   {
-    "title": "CVE-2026-48507 — Snipe-IT: Bulk editing users allowed `ldap_import` and `activated_in` bulk editing users",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48507",
-    "score": 7.1,
-    "date": "2026-06-23T22:24:59Z"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.5 security update (+43 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57194",
+    "score": 8.8,
+    "date": "2026-08-21T20:46:44+00:00"
    }
   ],
   "kev": [
@@ -527,10 +527,10 @@
     "lang": "JavaScript"
    },
    {
-    "title": "m-novotny/memguard-rs — Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time compa",
-    "url": "https://github.com/m-novotny/memguard-rs",
-    "stars": 126,
-    "lang": "Rust"
+    "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
+    "url": "https://github.com/azrtydxb/procoder",
+    "stars": 127,
+    "lang": "Go"
    }
   ],
   "hn": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 11,
   "kev": 1674,
   "adv": 12,
   "feed": 48
