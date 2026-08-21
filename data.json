@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-21T19:00:10.783Z",
+ "generatedAt": "2026-08-21T19:41:02.572Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,34 @@
   ],
   "adv": [
    {
+    "title": "Grav: Page editors can inject arbitrary script into rendered pages via the Twig sandbox's assets.addJs/addCss allowlist, escalating to super-admin",
+    "url": "https://github.com/advisories/GHSA-8hgv-xc77-jmcr",
+    "score": null,
+    "ghsa": "GHSA-8hgv-xc77-jmcr",
+    "date": "2026-08-21T19:14:59Z"
+   },
+   {
+    "title": "Unleash: Global Mustache.escape override disables HTML escaping process-wide, enabling Slack/Teams link-injection via unrestricted username",
+    "url": "https://github.com/advisories/GHSA-w4mq-xh27-6xpx",
+    "score": 4.1,
+    "ghsa": "GHSA-w4mq-xh27-6xpx",
+    "date": "2026-08-21T19:14:52Z"
+   },
+   {
+    "title": "Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltrat",
+    "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
+    "score": 5.5,
+    "ghsa": "GHSA-5vf6-jrqr-78fj",
+    "date": "2026-08-21T19:14:45Z"
+   },
+   {
+    "title": "Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
+    "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
+    "score": 7.5,
+    "ghsa": "GHSA-r5pq-6chh-j3xp",
+    "date": "2026-08-21T19:14:37Z"
+   },
+   {
     "title": "Mailpit: WebSocket origin check bypass via percent-encoded path (regression of CVE-2026-22689)",
     "url": "https://github.com/advisories/GHSA-8r62-w5wh-fc5m",
     "score": 6.5,
@@ -257,34 +285,6 @@
     "score": 4.5,
     "ghsa": "GHSA-hq84-x37p-j6q5",
     "date": "2026-08-20T18:45:04Z"
-   },
-   {
-    "title": "Winter: CSRF through AJAX handler names reachable as backend page actions",
-    "url": "https://github.com/advisories/GHSA-p2ch-c2c3-4xm5",
-    "score": 6.1,
-    "ghsa": "GHSA-p2ch-c2c3-4xm5",
-    "date": "2026-08-20T18:44:59Z"
-   },
-   {
-    "title": "Winter: Stored XSS through cached Brand Settings and Editor Settings custom styles",
-    "url": "https://github.com/advisories/GHSA-5cwr-5jxg-pcf6",
-    "score": 4.5,
-    "ghsa": "GHSA-5cwr-5jxg-pcf6",
-    "date": "2026-08-20T18:44:54Z"
-   },
-   {
-    "title": "Winter: ImportExportController AJAX handlers bypass granular import/export permission gate",
-    "url": "https://github.com/advisories/GHSA-fm29-4mq3-phg6",
-    "score": 5.3,
-    "ghsa": "GHSA-fm29-4mq3-phg6",
-    "date": "2026-08-20T18:44:50Z"
-   },
-   {
-    "title": "Winter: My Account preview exposes another backend user's profile by record ID",
-    "url": "https://github.com/advisories/GHSA-mpmw-f6h6-3g26",
-    "score": 4.3,
-    "ghsa": "GHSA-mpmw-f6h6-3g26",
-    "date": "2026-08-20T18:44:45Z"
    }
   ],
   "thn": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10042,
+    "stars": 10044,
     "lang": "TypeScript"
    },
    {
@@ -670,16 +670,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Curious Incidents with DNS in the Sandbox at Escape-Time",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsbk66/the_curious_incidents_with_dns_in_the_sandbox_at/",
-    "date": "2026-08-19T03:58:53+00:00",
+    "title": "Dissecting House of Apple 2 on modern glibc",
+    "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
+    "date": "2026-08-18T16:05:30+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Dissecting House of Apple 2 on modern glibc",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrtfdo/dissecting_house_of_apple_2_on_modern_glibc/",
-    "date": "2026-08-18T16:05:30+00:00",
+    "title": "The Curious Incidents with DNS in the Sandbox at Escape-Time",
+    "url": "https://www.reddit.com/r/netsec/comments/1vsbk66/the_curious_incidents_with_dns_in_the_sandbox_at/",
+    "date": "2026-08-19T03:58:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
