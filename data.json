@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-08-21T19:41:02.572Z",
+ "generatedAt": "2026-08-21T20:43:17.419Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-08-21T17:49:21+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-08-21T17:49:21+00:00"
+    "title": "CVE-2026-75932 — Jet Admin allows an attacker to create a malicious app and connect it to a target user's custom domain, edit the authentication configuratio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75932",
+    "score": 8.6,
+    "date": "2026-08-21T18:34:57Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-08-21T17:49:21+00:00"
+    "title": "CVE-2026-39909 — llama.cpp before b8585 contains a use-after-free vulnerability in the RPC server's GRAPH_RECOMPUTE handler that allows unauthenticated remot",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39909",
+    "score": 8.1,
+    "date": "2026-08-21T18:34:57Z"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6170",
-    "score": 9.6,
-    "date": "2026-08-21T17:49:16+00:00"
+    "title": "CVE-2026-41451 — UAC (Unix-like Artifacts Collector) versions prior to 3.3.0 contain a command injection vulnerability in the user substitution logic within ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41451",
+    "score": 7.8,
+    "date": "2026-08-21T18:34:59Z"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6166",
-    "score": 9.6,
-    "date": "2026-08-21T17:49:15+00:00"
+    "title": "CVE-2026-41450 — UAC (Unix-like Artifacts Collector) versions prior to 3.3.0 contain a command injection vulnerability in the _command_collector function whe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41450",
+    "score": 7.8,
+    "date": "2026-08-21T18:34:59Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:34+00:00"
+    "title": "CVE-2026-41449 — UAC (Unix-like Artifacts Collector) versions prior to 3.3.0 contain a command injection vulnerability in the _run_command function that allo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41449",
+    "score": 7.8,
+    "date": "2026-08-21T18:34:58Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:34+00:00"
+    "title": "CVE-2026-17252 — A stack-based out-of-bounds write vulnerability exists in the login request handling functionality of the administrative web interface of TP",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17252",
+    "score": 7.5,
+    "date": "2026-08-21T18:34:58Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:34+00:00"
+    "title": "CVE-2026-17251 — A NULL pointer dereference vulnerability exists in the HTTP request parsing functionality of TL-MR6400 v7. An unauthenticated remote attacke",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17251",
+    "score": 7.5,
+    "date": "2026-08-21T18:34:58Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:34+00:00"
+    "title": "CVE-2026-17250 — A stack-based buffer overflow vulnerability exists in the firmware update functionality of TL-MR6400 v7 due to unsafe processing of attacker",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17250",
+    "score": 7.5,
+    "date": "2026-08-21T18:34:58Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:33+00:00"
+    "title": "CVE-2026-75933 — Jet Admin allows an authenticated attacker to inject JavaScript via the sign-in page's scripts and styles option. Injected script is execute",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75933",
+    "score": 7.3,
+    "date": "2026-08-21T18:34:57Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:33+00:00"
+    "title": "CVE-2026-75928 — The Brushfire platform's video content streaming application (https://online.brushfire.com) exposes database path in requests to users, allo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75928",
+    "score": 5.3,
+    "date": "2026-08-21T18:34:56Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-08-21T17:49:32+00:00"
+    "title": "CVE-2026-27875 — Cleartext Storage of Sensitive Information in Memory vulnerability in Johnson Controls Simplex Incident Manager / Autocall Fire Administrato",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27875",
+    "score": 5,
+    "date": "2026-08-21T18:34:59Z"
+   },
+   {
+    "title": "UBUNTU-CVE-2026-75803 — AEAD Forgeries with Empty Ciphertext When Using EVP_Cipher()",
+    "url": "https://github.com/advisories/UBUNTU-CVE-2026-75803",
+    "score": null,
+    "date": "2026-08-25T00:00:00Z"
    }
   ],
   "kev": [
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "GeoTools has unauthenticated SQL injection in the jsonArrayContains filter function against PostGIS layers",
+    "url": "https://github.com/advisories/GHSA-mqjf-5f49-2fjh",
+    "score": 9.8,
+    "ghsa": "GHSA-mqjf-5f49-2fjh",
+    "date": "2026-08-21T20:25:41Z"
+   },
+   {
     "title": "Grav: Page editors can inject arbitrary script into rendered pages via the Twig sandbox's assets.addJs/addCss allowlist, escalating to super-admin",
     "url": "https://github.com/advisories/GHSA-8hgv-xc77-jmcr",
     "score": null,
@@ -278,16 +285,16 @@
     "score": 3.7,
     "ghsa": "GHSA-92hv-j533-69wc",
     "date": "2026-08-20T18:45:09Z"
-   },
-   {
-    "title": "Winter: Reflected XSS through the search query parameter in the backend Table widget",
-    "url": "https://github.com/advisories/GHSA-hq84-x37p-j6q5",
-    "score": 4.5,
-    "ghsa": "GHSA-hq84-x37p-j6q5",
-    "date": "2026-08-20T18:45:04Z"
    }
   ],
   "thn": [
+   {
+    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+    "date": "Sat, 22 Aug 2026 00:23:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
     "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
@@ -362,13 +369,6 @@
     "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
     "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
     "date": "Thu, 20 Aug 2026 20:06:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-    "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-    "date": "Thu, 20 Aug 2026 19:18:24 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10044,
+    "stars": 10047,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 134,
+    "stars": 136,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1674,
   "adv": 12,
   "feed": 48
