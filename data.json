@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-08-23T10:44:05.833Z",
+ "generatedAt": "2026-08-23T11:39:20.415Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
+    "title": "CVE-2026-44168 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25143",
     "score": 9.9,
-    "date": "2026-08-23T09:02:09+00:00"
-   },
-   {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.1 security update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4943",
-    "score": 9.8,
-    "date": "2026-08-23T09:02:36+00:00"
+    "date": "2026-08-23T09:48:23+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
-    "score": 9.4,
-    "date": "2026-08-23T09:02:31+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
-    "score": 9.4,
-    "date": "2026-08-23T09:02:27+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.2 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5649",
+    "title": "CVE-2026-7598 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:16736",
     "score": 9.1,
-    "date": "2026-08-23T09:02:37+00:00"
+    "date": "2026-08-23T09:39:00+00:00"
    },
    {
-    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-23T09:37:44+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-08-23T09:37:37+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-08-23T09:37:36+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-08-23T09:37:36+00:00"
+   },
+   {
+    "title": "CVE-2026-15767 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42081",
     "score": 8.8,
-    "date": "2026-08-23T09:09:08+00:00"
+    "date": "2026-08-23T10:01:26+00:00"
    },
    {
-    "title": "CVE-2026-6472 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22878",
+    "title": "CVE-2026-23479 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:14316",
     "score": 8.8,
-    "date": "2026-08-23T09:02:53+00:00"
+    "date": "2026-08-23T09:52:59+00:00"
    },
    {
-    "title": "CVE-2026-32285 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:35111",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
     "score": 8.8,
-    "date": "2026-08-23T09:02:51+00:00"
+    "date": "2026-08-23T09:37:42+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47451",
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
     "score": 8.8,
-    "date": "2026-08-23T09:02:32+00:00"
+    "date": "2026-08-23T09:37:29+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46903",
-    "score": 8.8,
-    "date": "2026-08-23T09:02:27+00:00"
-   },
-   {
-    "title": "CVE-2025-8677 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6935",
+    "title": "CVE-2025-61728 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8448",
     "score": 8.6,
-    "date": "2026-08-23T09:11:43+00:00"
+    "date": "2026-08-23T09:37:36+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHACS 4.9.4 security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4467",
-    "score": 8.3,
-    "date": "2026-08-23T09:02:17+00:00"
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23262",
+    "score": 8.2,
+    "date": "2026-08-23T09:52:08+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10092,
+    "stars": 10094,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 8,
   "kev": 1674,
   "adv": 12,
   "feed": 48
