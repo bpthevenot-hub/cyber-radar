@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-08-24T10:56:10.393Z",
+ "generatedAt": "2026-08-24T11:46:37.758Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7261",
+    "title": "CVE-2021-44906 — Kwetsbaarheden verholpen in Atlassian producten (+82 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-44906",
     "score": 9.8,
-    "date": "2026-08-24T09:41:27+00:00"
+    "date": "2026-08-24T09:52:27.784044Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -19,54 +19,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-5278 — Red Hat Security Advisory: Cost Management Metrics Operator Update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:39981",
-    "score": 9.1,
-    "date": "2026-08-24T09:41:25+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: Insights proxy Container Image (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34102",
-    "score": 9.1,
-    "date": "2026-08-24T09:41:24+00:00"
-   },
-   {
-    "title": "CVE-2026-3832 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.2 security update (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26319",
-    "score": 9.1,
-    "date": "2026-08-24T09:41:21+00:00"
-   },
-   {
-    "title": "CVE-2025-40026 — Red Hat Security Advisory: OpenShift Container Platform 4.22.10 bug fix and security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54769",
-    "score": 8.8,
-    "date": "2026-08-24T09:42:48+00:00"
-   },
-   {
-    "title": "CVE-2024-4367 — Red Hat Security Advisory: webkitgtk4 security update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:58564",
-    "score": 8.8,
-    "date": "2026-08-24T09:42:39+00:00"
-   },
-   {
-    "title": "CVE-2024-4367 — Red Hat Security Advisory: webkit2gtk3 security update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:58550",
-    "score": 8.8,
-    "date": "2026-08-24T09:42:36+00:00"
-   },
-   {
-    "title": "CVE-2024-4367 — Red Hat Security Advisory: webkit2gtk3 security update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57348",
-    "score": 8.8,
-    "date": "2026-08-24T09:42:35+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24866",
-    "score": 8.8,
-    "date": "2026-08-24T09:41:21+00:00"
    },
    {
     "title": "CVE-2026-32281 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release (+4 CVE)",
@@ -84,6 +36,54 @@
     "title": "CVE-2026-33815 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release (+2 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:24475",
     "score": 8.3,
+    "date": "2026-08-24T09:44:00+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.9.22 (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23361",
+    "score": 8.2,
+    "date": "2026-08-24T09:43:56+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.10.22 (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22840",
+    "score": 8.2,
+    "date": "2026-08-24T09:43:54+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.12.18 (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22629",
+    "score": 8.2,
+    "date": "2026-08-24T09:43:39+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: skopeo security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25250",
+    "score": 7.5,
+    "date": "2026-08-24T09:45:19+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: podman security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25248",
+    "score": 7.5,
+    "date": "2026-08-24T09:45:15+00:00"
+   },
+   {
+    "title": "CVE-2026-34986 — Red Hat Security Advisory: OpenShift Container Platform 4.22.1 bug fix and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25206",
+    "score": 7.5,
+    "date": "2026-08-24T09:44:59+00:00"
+   },
+   {
+    "title": "CVE-2026-34986 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24477",
+    "score": 7.5,
+    "date": "2026-08-24T09:44:49+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24471",
+    "score": 7.5,
     "date": "2026-08-24T09:44:00+00:00"
    }
   ],
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10134,
+    "stars": 10133,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 163,
+    "stars": 164,
     "lang": "Go"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 3,
   "kev": 1674,
   "adv": 12,
   "feed": 48
