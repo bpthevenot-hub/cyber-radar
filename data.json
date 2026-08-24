@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T19:03:41.153Z",
+ "generatedAt": "2026-08-24T19:47:39.753Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "postgres-protocol: Unbounded SCRAM iteration count allows a malicious server to cause CPU-exhaustion denial of service",
+    "url": "https://github.com/advisories/GHSA-5x78-73v4-xg6w",
+    "score": 7.5,
+    "ghsa": "GHSA-5x78-73v4-xg6w",
+    "date": "2026-08-24T19:43:31Z"
+   },
+   {
+    "title": "Sakai Profile Image Deletion has an IDOR",
+    "url": "https://github.com/advisories/GHSA-9284-fjc3-fmmj",
+    "score": 6.5,
+    "ghsa": "GHSA-9284-fjc3-fmmj",
+    "date": "2026-08-24T19:40:37Z"
+   },
+   {
+    "title": "Sakai Conversations has a Stored XSS Issue",
+    "url": "https://github.com/advisories/GHSA-w2x5-gv52-9ccv",
+    "score": 8.7,
+    "ghsa": "GHSA-w2x5-gv52-9ccv",
+    "date": "2026-08-24T19:37:53Z"
+   },
+   {
     "title": "JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
     "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
     "score": 9.5,
@@ -264,27 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-mmfr-pmjx-hw9w",
     "date": "2026-08-21T20:55:46Z"
-   },
-   {
-    "title": "Atlantis Workspace Handling has Path Traversal that Allows Out-of-Bounds Directory Deletion/Creation",
-    "url": "https://github.com/advisories/GHSA-26w5-6g95-gj28",
-    "score": 8.1,
-    "ghsa": "GHSA-26w5-6g95-gj28",
-    "date": "2026-08-21T20:55:33Z"
-   },
-   {
-    "title": "Keystone vulnerable to `graphql.maxTake` bypass with negative `take`",
-    "url": "https://github.com/advisories/GHSA-cqmq-8755-7xvh",
-    "score": 7.5,
-    "ghsa": "GHSA-cqmq-8755-7xvh",
-    "date": "2026-08-21T20:55:11Z"
-   },
-   {
-    "title": "Defuddle vulnerable to XSS via unescaped attribute interpolation in site extractors",
-    "url": "https://github.com/advisories/GHSA-jg4p-g6xj-4qmf",
-    "score": 8.2,
-    "ghsa": "GHSA-jg4p-g6xj-4qmf",
-    "date": "2026-08-21T20:54:56Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+    "date": "Mon, 24 Aug 2026 15:26:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "TikTok reaches $400M settlement with US over COPPA violations",
     "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
     "date": "Mon, 24 Aug 2026 13:56:24 -0400",
@@ -450,13 +457,6 @@
     "date": "Fri, 21 Aug 2026 14:01:30 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-    "date": "Fri, 21 Aug 2026 11:55:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -487,7 +487,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 208,
+    "stars": 217,
     "lang": "Python"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 170,
+    "stars": 171,
     "lang": "Go"
    },
    {
