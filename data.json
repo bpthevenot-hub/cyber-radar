@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T19:47:39.753Z",
+ "generatedAt": "2026-08-24T20:51:31.154Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-76835 — OAuth2 Proxy honours a client-supplied X-Forwarded-Uri header when deciding whether a request may skip authentication, because the guard add",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76835",
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.20.32 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48676",
+    "score": 9.4,
+    "date": "2026-08-24T19:15:56+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-08-24T19:15:46+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-24T19:15:41+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-08-24T19:15:25+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-08-24T19:15:20+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
     "score": 9.1,
-    "date": "2026-08-24T18:31:57Z"
+    "date": "2026-08-24T19:16:05+00:00"
    },
    {
-    "title": "CVE-2026-71933 — Multiple DrayTek VigorSwitch models contain unauthorized operation vulnerabilities in multiple syslog functions. The vulnerability is caused",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71933",
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.18.0 (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48085",
     "score": 9.1,
-    "date": "2026-08-24T18:31:56Z"
+    "date": "2026-08-24T19:15:50+00:00"
    },
    {
-    "title": "CVE-2026-76836 — AzuraCast exposes the Liquidsoap custom configuration fields through an endpoint that does not require the permission guarding them. The bac",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76836",
-    "score": 8.8,
-    "date": "2026-08-24T18:31:57Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-08-24T19:15:47+00:00"
    },
    {
-    "title": "CVE-2026-76073 — Label Studio does not scope the annotation detail endpoint to the requesting user's organization. AnnotationAPI in label_studio/tasks/api.py",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76073",
-    "score": 8.8,
-    "date": "2026-08-24T18:31:57Z"
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-08-24T19:14:23+00:00"
    },
    {
-    "title": "CVE-2026-76838 — Hi.Events validates a webhook destination only when it is registered, never when it is used. NoInternalUrlRule in backend/app/Validators/Rul",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76838",
-    "score": 8.5,
-    "date": "2026-08-24T18:31:58Z"
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-08-24T19:14:18+00:00"
    },
    {
-    "title": "CVE-2026-9254 — An unauthenticated OS command injection vulnerability exists in the parental control functionality of Archer BE800 V1, BE3600 V1, and AX75 V",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9254",
-    "score": 7.5,
-    "date": "2026-08-24T18:31:58Z"
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-08-24T19:14:01+00:00"
    },
    {
-    "title": "CVE-2026-76072 — The Continue CLI applies an incomplete denylist as its only barrier to destructive shell commands when running unattended. In headless mode ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76072",
-    "score": 7.4,
-    "date": "2026-08-24T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-71943 — Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setDevNet function. The vulnerability is caused by insu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71943",
-    "score": 7.2,
-    "date": "2026-08-24T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-71942 — Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the mail_mailalert function. The vulnerability is caused by c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71942",
-    "score": 7.2,
-    "date": "2026-08-24T18:31:57Z"
-   },
-   {
-    "title": "CVE-2026-71938 — Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the switch_lan_gvrp function. The vulnerability is caused by ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71938",
-    "score": 7.2,
-    "date": "2026-08-24T18:31:56Z"
-   },
-   {
-    "title": "CVE-2026-71939 — Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the acl_general_setup Add ACE function. The vulnerability is ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71939",
-    "score": 7.2,
-    "date": "2026-08-24T18:31:56Z"
-   },
-   {
-    "title": "CVE-2026-71936 — Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the sysreboot function. The vulnerability is caused by unsafe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71936",
-    "score": 7.2,
-    "date": "2026-08-24T18:31:56Z"
+    "title": "CVE-2026-6322 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42142",
+    "score": 9.1,
+    "date": "2026-08-24T19:13:50+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "netfoil vulnerable to improper handling of untrusted DoH response data",
+    "url": "https://github.com/advisories/GHSA-4ph6-mjv7-3fq6",
+    "score": 2,
+    "ghsa": "GHSA-4ph6-mjv7-3fq6",
+    "date": "2026-08-24T20:43:08Z"
+   },
+   {
+    "title": "django CMS: Page cache ignores plugin-declared Vary headers (disclosure & poisoning)",
+    "url": "https://github.com/advisories/GHSA-fwjf-m4qw-9f2x",
+    "score": 4.8,
+    "ghsa": "GHSA-fwjf-m4qw-9f2x",
+    "date": "2026-08-24T20:09:51Z"
+   },
+   {
+    "title": "django CMS: Plugin move endpoint allows cyclic reparenting (DoS)",
+    "url": "https://github.com/advisories/GHSA-8jj7-4v57-frf5",
+    "score": 7.1,
+    "ghsa": "GHSA-8jj7-4v57-frf5",
+    "date": "2026-08-24T20:09:43Z"
+   },
+   {
+    "title": "tokio-postgres: Panic on a `DataRow` with fewer fields than columns allows denial of service",
+    "url": "https://github.com/advisories/GHSA-3gjw-f78c-vvpw",
+    "score": null,
+    "ghsa": "GHSA-3gjw-f78c-vvpw",
+    "date": "2026-08-24T19:49:17Z"
+   },
+   {
+    "title": "postgres-protocol: Panic decoding a malformed `hstore` value allows denial of service",
+    "url": "https://github.com/advisories/GHSA-rgqc-3x5p-6gwg",
+    "score": null,
+    "ghsa": "GHSA-rgqc-3x5p-6gwg",
+    "date": "2026-08-24T19:47:49Z"
+   },
+   {
     "title": "postgres-protocol: Unbounded SCRAM iteration count allows a malicious server to cause CPU-exhaustion denial of service",
     "url": "https://github.com/advisories/GHSA-5x78-73v4-xg6w",
     "score": 7.5,
@@ -250,41 +285,6 @@
     "score": 8.2,
     "ghsa": "GHSA-5h77-88j3-r659",
     "date": "2026-08-21T20:57:23Z"
-   },
-   {
-    "title": "JSONata: Arbitrary Code Execution via crafted JSONata expressions",
-    "url": "https://github.com/advisories/GHSA-8gq3-vp5j-2grp",
-    "score": 9.5,
-    "ghsa": "GHSA-8gq3-vp5j-2grp",
-    "date": "2026-08-21T20:57:07Z"
-   },
-   {
-    "title": "kin-openapi has uncontrolled resource consumption in openapi3filter deepObject query parameter decoding",
-    "url": "https://github.com/advisories/GHSA-xhj3-7xw9-vr34",
-    "score": 7.5,
-    "ghsa": "GHSA-xhj3-7xw9-vr34",
-    "date": "2026-08-21T20:56:56Z"
-   },
-   {
-    "title": "Xinference vulnerable to remote code execution via unsafe `eval()` in Llama3 tool-call parsing",
-    "url": "https://github.com/advisories/GHSA-x2rj-828p-hx9m",
-    "score": 10,
-    "ghsa": "GHSA-x2rj-828p-hx9m",
-    "date": "2026-08-21T20:56:37Z"
-   },
-   {
-    "title": "Phalcon Volt compiler `join` filter compile-time PHP code injection (SSTI leads to RCE)",
-    "url": "https://github.com/advisories/GHSA-hrwp-4hh9-c8r8",
-    "score": 9.5,
-    "ghsa": "GHSA-hrwp-4hh9-c8r8",
-    "date": "2026-08-21T20:55:56Z"
-   },
-   {
-    "title": "kin-openapi openai3filter: nil-pointer panic in ConvertErrors on malformed multipart/form-data body enables unauthenticated DoS",
-    "url": "https://github.com/advisories/GHSA-mmfr-pmjx-hw9w",
-    "score": 7.5,
-    "ghsa": "GHSA-mmfr-pmjx-hw9w",
-    "date": "2026-08-21T20:55:46Z"
    }
   ],
   "thn": [
@@ -463,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10141,
+    "stars": 10142,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1675,
   "adv": 12,
   "feed": 48
