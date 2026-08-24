@@ -1,50 +1,7 @@
 {
- "generatedAt": "2026-08-24T15:03:26.021Z",
+ "generatedAt": "2026-08-24T15:58:32.136Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "MAL-2026-14268 — Malicious code in no-for-of-loops (npm)",
-    "url": "https://github.com/advisories/MAL-2026-14268",
-    "score": null,
-    "date": "2026-08-19T06:22:58Z"
-   },
-   {
-    "title": "MAL-2026-13456 — Malicious code in santana-baileys (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13456",
-    "score": null,
-    "date": "2026-08-06T19:48:57Z"
-   },
-   {
-    "title": "MAL-2026-12070 — Malicious code in shopping-shared-atom-mobile-cart-counter (npm)",
-    "url": "https://github.com/advisories/MAL-2026-12070",
-    "score": null,
-    "date": "2026-08-05T01:41:43Z"
-   },
-   {
-    "title": "MAL-2026-10107 — Malicious code in security-node (npm)",
-    "url": "https://github.com/advisories/MAL-2026-10107",
-    "score": null,
-    "date": "2026-07-09T23:02:15Z"
-   },
-   {
-    "title": "MAL-2026-4818 — Malicious code in saturn-bail (npm)",
-    "url": "https://github.com/advisories/MAL-2026-4818",
-    "score": null,
-    "date": "2026-05-26T14:01:02Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -333,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+    "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+    "date": "Mon, 24 Aug 2026 11:17:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft Teams now lets admins block external bots from meetings",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
     "date": "Mon, 24 Aug 2026 10:00:19 -0400",
@@ -408,13 +372,6 @@
     "date": "Fri, 21 Aug 2026 10:54:49 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-    "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-    "date": "Fri, 21 Aug 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -455,16 +412,16 @@
     "lang": "Python"
    },
    {
+    "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
+    "url": "https://github.com/azrtydxb/procoder",
+    "stars": 168,
+    "lang": "Go"
+   },
+   {
     "title": "pazo01/awesome-cyber-ai-arsenal — A curated collection of offensive, defensive and AI/LLM security tools.",
     "url": "https://github.com/pazo01/awesome-cyber-ai-arsenal",
     "stars": 166,
     "lang": "—"
-   },
-   {
-    "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
-    "url": "https://github.com/azrtydxb/procoder",
-    "stars": 166,
-    "lang": "Go"
    },
    {
     "title": "jitpass/jit — Find the plaintext secrets on your Mac and move them behind Touch ID, injected just in time without breaking t",
@@ -665,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -675,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1674,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
