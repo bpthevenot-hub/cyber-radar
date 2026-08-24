@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-24T03:26:21.019Z",
+ "generatedAt": "2026-08-24T05:05:00.280Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-78167 — A weakness has been identified in EFM ipTIME T16000M 14.20.2. The impacted element is the function httpcon_check_session_url of the componen",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78167",
+    "score": 10,
+    "date": "2026-08-24T03:31:06Z"
+   },
+   {
+    "title": "CVE-2026-78169 — A vulnerability was detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. This impacts the function strcpy of the file /goform/aspRemoteAp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78169",
+    "score": 9.9,
+    "date": "2026-08-24T03:31:06Z"
+   },
+   {
+    "title": "CVE-2026-78168 — A security vulnerability has been detected in EFM ipTIME T24000M up to 14.20.0. This affects the function httpcon_check_session_url of the c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78168",
+    "score": 9.8,
+    "date": "2026-08-24T03:31:06Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-78207 — exceljs-hardened before 5.0.0 contains a prototype pollution vulnerability in the deepMerge helper that fails to reject __proto__, construct",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78207",
+    "score": 9.4,
+    "date": "2026-08-24T03:31:06Z"
+   },
+   {
+    "title": "CVE-2026-78170 — A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formConfigFastDirectionW. ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78170",
+    "score": 8.8,
+    "date": "2026-08-24T03:31:06Z"
+   },
+   {
+    "title": "CVE-2025-9905 — Red Hat Security Advisory: RHOAI 2.25.1 - Red Hat OpenShift AI (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23531",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:44+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23449",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:43+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (TPU) (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23209",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:36+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23205",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:35+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (CUDA) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23204",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:34+00:00"
+   },
+   {
+    "title": "CVE-2025-4953 — Red Hat Security Advisory: OpenShift Container Platform 4.15.60 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23113",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:33+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (CUDA) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23080",
+    "score": 8.8,
+    "date": "2026-08-24T02:35:30+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10116,
+    "stars": 10117,
     "lang": "TypeScript"
    },
    {
@@ -420,7 +505,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 160,
+    "stars": 161,
     "lang": "Go"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 6,
   "kev": 1674,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
