@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-08-24T15:58:32.136Z",
+ "generatedAt": "2026-08-24T16:58:25.695Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+    "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+    "date": "Mon, 24 Aug 2026 20:02:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
     "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
     "date": "Mon, 24 Aug 2026 18:05:36 +0530",
@@ -277,13 +297,6 @@
     "title": "Wazuh and AI For Enhanced SOC Workflows",
     "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
     "date": "Fri, 21 Aug 2026 16:51:39 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-    "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-    "date": "Fri, 21 Aug 2026 15:33:11 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -378,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10136,
+    "stars": 10138,
     "lang": "TypeScript"
    },
    {
@@ -414,7 +427,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 168,
+    "stars": 169,
     "lang": "Go"
    },
    {
@@ -432,7 +445,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 144,
+    "stars": 147,
     "lang": "Python"
    },
    {
@@ -557,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Code Execution via Text Template Files | Playbook &amp; Detection",
+    "url": "https://www.reddit.com/r/netsec/comments/1vx6xaj/code_execution_via_text_template_files_playbook/",
+    "date": "2026-08-24T16:01:49+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "How to break secure boot without touching any cryptography",
     "url": "https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/",
     "date": "2026-08-19T12:01:19+00:00",
@@ -611,18 +631,11 @@
     "date": "2026-08-18T00:06:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.htm",
-    "url": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
-    "date": "2026-08-18T16:24:33+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1674,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
