@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-08-25T05:50:34.589Z",
+ "generatedAt": "2026-08-25T07:11:35.598Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-74705 — In the Linux kernel, the following vulnerability has been resolved: udp: fix potential use-after-free in tunnel segmentation __skb_udp_tunne",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74705",
+    "score": 10,
+    "date": "2026-08-22T18:30:29Z"
+   },
+   {
+    "title": "CVE-2026-78477 — The Jawn theme for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.4.2. This makes it possible for u",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78477",
+    "score": 9.8,
+    "date": "2026-08-25T06:31:32Z"
+   },
+   {
+    "title": "CVE-2026-74730 — In the Linux kernel, the following vulnerability has been resolved: NFS: Pin the 'struct nfs_server' during a FREE_STATEID call Dan Aloni re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74730",
+    "score": 9.8,
+    "date": "2026-08-22T18:30:30Z"
+   },
+   {
+    "title": "CVE-2026-74727 — In the Linux kernel, the following vulnerability has been resolved: ovpn: skip rehash for peers already removed from by_id ovpn_nl_peer_set_",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74727",
+    "score": 9.8,
+    "date": "2026-08-22T18:30:30Z"
+   },
+   {
+    "title": "CVE-2026-74723 — In the Linux kernel, the following vulnerability has been resolved: btrfs: lzo: reject inline extents without valid headers [BUG] For a craf",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74723",
+    "score": 9.8,
+    "date": "2026-08-22T18:30:30Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +43,48 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-74712 — In the Linux kernel, the following vulnerability has been resolved: vdpa/mlx5: Fix buffer length in create_direct_keys() We have seen in our",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74712",
+    "score": 9.3,
+    "date": "2026-08-22T18:30:30Z"
+   },
+   {
+    "title": "CVE-2026-19892 — The InfusedWoo Pro plugin for WordPress is vulnerable to Privilege Escalation via Account Takeover in all versions up to, and including, 5.1",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19892",
+    "score": 8.8,
+    "date": "2026-08-25T06:31:32Z"
+   },
+   {
+    "title": "CVE-2026-74702 — In the Linux kernel, the following vulnerability has been resolved: vhost-scsi: reject feature changes after endpoint vhost_scsi_setup_vq_cm",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74702",
+    "score": 8.8,
+    "date": "2026-08-22T18:30:29Z"
+   },
+   {
+    "title": "CVE-2026-74691 — In the Linux kernel, the following vulnerability has been resolved: net: thunderbolt: Tear down DMA paths before stopping the rings tbnet_te",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74691",
+    "score": 8.8,
+    "date": "2026-08-22T18:30:29Z"
+   },
+   {
+    "title": "CVE-2026-74711 — In the Linux kernel, the following vulnerability has been resolved: hwmon: (pmbus) Fix type confusion in notification logic Sashiko reports:",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74711",
+    "score": 8.4,
+    "date": "2026-08-22T18:30:29Z"
+   },
+   {
+    "title": "CVE-2026-74690 — In the Linux kernel, the following vulnerability has been resolved: s390/ism: Fix UAF of sba and ieq during ism_dev_exit() A ism interrupt h",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74690",
+    "score": 8.4,
+    "date": "2026-08-22T18:30:29Z"
+   },
+   {
+    "title": "CVE-2026-74704 — In the Linux kernel, the following vulnerability has been resolved: net/sched: sch_cake: drop WARN_ON(1) for malformed packets in ACK filter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74704",
+    "score": 8.2,
+    "date": "2026-08-22T18:30:29Z"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+    "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+    "date": "Tue, 25 Aug 2026 11:42:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
     "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
     "date": "Mon, 24 Aug 2026 23:11:30 +0530",
@@ -290,13 +369,6 @@
     "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
     "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
     "date": "Fri, 21 Aug 2026 21:22:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-    "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-    "date": "Fri, 21 Aug 2026 21:11:44 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10147,
+    "stars": 10150,
     "lang": "TypeScript"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 234,
+    "stars": 240,
     "lang": "Python"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 177,
+    "stars": 178,
     "lang": "Go"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 8,
   "kev": 1675,
   "adv": 12,
   "feed": 48
