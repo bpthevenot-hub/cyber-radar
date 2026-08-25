@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-08-25T04:57:13.160Z",
+ "generatedAt": "2026-08-25T05:50:34.589Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-78676 — GitPython before 3.1.59 fails to safely re-serialize multi-line git-config values during write operations, corrupting dormant quoted values ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78676",
-    "score": 9.8,
-    "date": "2026-08-25T03:32:10Z"
-   },
-   {
-    "title": "CVE-2026-56710 — Grav Login plugin versions before 1.0.16 fail to validate the target account's privilege level in the onApiUserListRowAction unlock handler.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56710",
-    "score": 9.8,
-    "date": "2026-08-25T03:32:09Z"
-   },
-   {
-    "title": "CVE-2026-56705 — Adminer before 5.4.3 fails to sanitize the server field before constructing a PDO DSN string, allowing unauthenticated attackers to inject O",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56705",
-    "score": 9.8,
-    "date": "2026-08-25T03:32:08Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -31,60 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-78683 — NLTK before 3.10.0 (affected versions <=3.9.4) contains an unsafe pickle deserialization vulnerability in the TransitionParser.parse() metho",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78683",
-    "score": 9.6,
-    "date": "2026-08-25T03:32:11Z"
-   },
-   {
-    "title": "CVE-2026-78685 — Medical Practice Management System developed by Le-yan has a Remote Code Execution vulnerability. Unauthenticated remote attackers can execu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78685",
-    "score": 8.8,
-    "date": "2026-08-25T03:32:11Z"
-   },
-   {
-    "title": "CVE-2026-75574 — The Grav Email plugin (getgrav/grav-plugin-email) before 4.2.2 renders page-editor-controlled Email action parameters as unsandboxed Twig te",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75574",
-    "score": 8.8,
-    "date": "2026-08-25T03:32:10Z"
-   },
-   {
-    "title": "CVE-2026-56702 — Adminer versions before 5.4.3 contain an unrestricted file upload vulnerability in the AdminerFileUpload plugin that allows authenticated us",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56702",
-    "score": 8.8,
-    "date": "2026-08-25T03:32:08Z"
-   },
-   {
-    "title": "CVE-2026-78675 — GitPython before 3.1.59 fails to disable merge_includes when parsing .gitmodules, allowing attackers to disclose local file content by inclu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78675",
-    "score": 8.4,
-    "date": "2026-08-25T03:32:10Z"
-   },
-   {
-    "title": "CVE-2026-72696 — Grav CMS before 2.0.16 contains a symlink following vulnerability in Scheduler Job::createLockFile() that allows local attackers to overwrit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72696",
-    "score": 8.4,
-    "date": "2026-08-25T03:32:09Z"
-   },
-   {
-    "title": "CVE-2026-72695 — Grav before 2.0.16 contains a path traversal vulnerability in MediaUploadTrait::deleteFile() that allows authenticated users with media mana",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72695",
-    "score": 8.1,
-    "date": "2026-08-25T03:32:09Z"
-   },
-   {
-    "title": "CVE-2026-34968 — Adminer before 5.4.3 contains an arbitrary file deletion vulnerability in SQLite mode where the database-list drop action fails to validate ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-34968",
-    "score": 8.1,
-    "date": "2026-08-25T03:32:08Z"
-   },
-   {
-    "title": "CVE-2026-78680 — NLTK versions before 3.10.3 fail to use validated absolute paths when invoking the Graphviz dot binary in dependencygraph.dot2img and Aligne",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78680",
-    "score": 7.8,
-    "date": "2026-08-25T03:32:11Z"
    }
   ],
   "kev": [
@@ -463,7 +391,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10146,
+    "stars": 10147,
     "lang": "TypeScript"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 220,
+    "stars": 234,
     "lang": "Python"
    },
    {
@@ -517,7 +445,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 148,
+    "stars": 149,
     "lang": "Python"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1675,
   "adv": 12,
   "feed": 48
