@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-25T17:47:50.139Z",
+ "generatedAt": "2026-08-25T19:01:41.492Z",
  "sources": {
   "cve": [
    {
@@ -185,88 +185,88 @@
   ],
   "adv": [
    {
-    "title": "mcp-contextforge-gateway has Server-Side Template Injection (SSTI) leading to Remote Code Execution in `PromptService._render_template` via unsandboxe",
-    "url": "https://github.com/advisories/GHSA-vwf3-4xxj-qg6h",
-    "score": 7.5,
-    "ghsa": "GHSA-vwf3-4xxj-qg6h",
-    "date": "2026-08-25T17:42:11Z"
-   },
-   {
-    "title": "reachy_mini Allows Unrestricted Upload of File with Dangerous Type",
-    "url": "https://github.com/advisories/GHSA-m2pc-3q4q-w6jr",
+    "title": "@arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
+    "url": "https://github.com/advisories/GHSA-72f3-6w86-7rv3",
     "score": 5.3,
-    "ghsa": "GHSA-m2pc-3q4q-w6jr",
-    "date": "2026-08-25T17:38:43Z"
+    "ghsa": "GHSA-72f3-6w86-7rv3",
+    "date": "2026-08-25T18:38:30Z"
    },
    {
-    "title": "Trivy has a path traversal via a crafted vulnerability database or other downloaded artifacts",
-    "url": "https://github.com/advisories/GHSA-mcj4-mphf-j9ff",
+    "title": "@arikusi/deepseek-mcp-server has an Authorization Bypass Through User-Controlled Key",
+    "url": "https://github.com/advisories/GHSA-fh3r-g96v-f578",
+    "score": 8.6,
+    "ghsa": "GHSA-fh3r-g96v-f578",
+    "date": "2026-08-25T18:37:27Z"
+   },
+   {
+    "title": "consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
+    "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
+    "score": 7.1,
+    "ghsa": "GHSA-xc9g-j69q-37xw",
+    "date": "2026-08-25T18:35:32Z"
+   },
+   {
+    "title": "Whistle vulnerable to path traversal",
+    "url": "https://github.com/advisories/GHSA-3vfr-4gwf-qxfp",
     "score": 7.5,
-    "ghsa": "GHSA-mcj4-mphf-j9ff",
-    "date": "2026-08-25T17:33:02Z"
+    "ghsa": "GHSA-3vfr-4gwf-qxfp",
+    "date": "2026-08-25T18:32:06Z"
    },
    {
-    "title": "phpMyFAQ privilege escalation: GroupController::updatePermissions lets a GROUP_EDIT admin grant rights they do not hold",
-    "url": "https://github.com/advisories/GHSA-pg62-f8g4-4wqh",
-    "score": 8.8,
-    "ghsa": "GHSA-pg62-f8g4-4wqh",
-    "date": "2026-08-25T17:32:07Z"
+    "title": "eml_parser vulnerable to DoS via deeply nested parens in Received headers",
+    "url": "https://github.com/advisories/GHSA-g7gc-gmgp-wgqg",
+    "score": 7.5,
+    "ghsa": "GHSA-g7gc-gmgp-wgqg",
+    "date": "2026-08-25T18:27:18Z"
    },
    {
-    "title": "phpMyFAQ public FAQ APIs expose inactive FAQ content",
-    "url": "https://github.com/advisories/GHSA-mf8r-wm2w-f8c5",
+    "title": "eml_parser has parser DoS via deeply nested parentheses in e-mail headers",
+    "url": "https://github.com/advisories/GHSA-m66c-fw79-6359",
     "score": 5.3,
-    "ghsa": "GHSA-mf8r-wm2w-f8c5",
-    "date": "2026-08-25T17:30:23Z"
+    "ghsa": "GHSA-m66c-fw79-6359",
+    "date": "2026-08-25T18:25:47Z"
    },
    {
-    "title": "phpMyFAQ has Potential Authenticated Path Traversal in PDF Export",
-    "url": "https://github.com/advisories/GHSA-88g4-74f3-63x9",
-    "score": 4.9,
-    "ghsa": "GHSA-88g4-74f3-63x9",
-    "date": "2026-08-25T17:28:56Z"
+    "title": "eml_parser has a URL extraction bypass via HTML entities in URLs",
+    "url": "https://github.com/advisories/GHSA-fxgq-9m89-cxj9",
+    "score": 6.5,
+    "ghsa": "GHSA-fxgq-9m89-cxj9",
+    "date": "2026-08-25T18:23:16Z"
    },
    {
-    "title": "Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
-    "url": "https://github.com/advisories/GHSA-qj6x-xx2h-8hvv",
-    "score": 8.7,
-    "ghsa": "GHSA-qj6x-xx2h-8hvv",
-    "date": "2026-08-25T16:29:25Z"
+    "title": "AshAuthentication vulnerable to OAuth2/OIDC account takeover via email-based user matching",
+    "url": "https://github.com/advisories/GHSA-777c-2fxx-qr28",
+    "score": 9.5,
+    "ghsa": "GHSA-777c-2fxx-qr28",
+    "date": "2026-08-25T18:20:27Z"
    },
    {
-    "title": "browse-mcp has an arbitrary file write via unconfined download and state paths",
-    "url": "https://github.com/advisories/GHSA-m9mq-7m7q-xc6p",
+    "title": "mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
+    "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
+    "score": 5.6,
+    "ghsa": "GHSA-p7x2-g5cq-fhmq",
+    "date": "2026-08-25T18:17:21Z"
+   },
+   {
+    "title": "gRPC Erlang package has unbounded gzip decompression (decompression bomb)",
+    "url": "https://github.com/advisories/GHSA-6ccx-9c9f-327w",
     "score": 7.5,
-    "ghsa": "GHSA-m9mq-7m7q-xc6p",
-    "date": "2026-08-25T16:28:32Z"
+    "ghsa": "GHSA-6ccx-9c9f-327w",
+    "date": "2026-08-25T18:12:58Z"
    },
    {
-    "title": "qwed Vulnerable to Authenticated Remote Code Execution via Unsafe SymPy `parse_expr()`",
-    "url": "https://github.com/advisories/GHSA-q27q-98j4-9pfv",
-    "score": 8.8,
-    "ghsa": "GHSA-q27q-98j4-9pfv",
-    "date": "2026-08-25T16:25:19Z"
-   },
-   {
-    "title": "urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
-    "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
+    "title": "gRPC Erlang package has unbounded request body accumulation in `read_full_body/3`",
+    "url": "https://github.com/advisories/GHSA-q8gf-9rvj-gmgj",
     "score": 7.5,
-    "ghsa": "GHSA-hq3h-g68c-hp78",
-    "date": "2026-08-25T16:19:32Z"
+    "ghsa": "GHSA-q8gf-9rvj-gmgj",
+    "date": "2026-08-25T18:12:05Z"
    },
    {
-    "title": "Echo: Encoded slash (%2F) bypasses route-level protection and exposes static files",
-    "url": "https://github.com/advisories/GHSA-vfp3-v2gw-7wfq",
+    "title": "gRPC Erlang package's path bindings are overridable by query string and request body",
+    "url": "https://github.com/advisories/GHSA-mwr4-5g34-j5cq",
     "score": 7.5,
-    "ghsa": "GHSA-vfp3-v2gw-7wfq",
-    "date": "2026-08-25T16:13:29Z"
-   },
-   {
-    "title": "djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to d",
-    "url": "https://github.com/advisories/GHSA-xx4j-w367-7247",
-    "score": 8.2,
-    "ghsa": "GHSA-xx4j-w367-7247",
-    "date": "2026-08-25T16:06:31Z"
+    "ghsa": "GHSA-mwr4-5g34-j5cq",
+    "date": "2026-08-25T18:11:15Z"
    }
   ],
   "thn": [
@@ -505,7 +505,7 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 134,
+    "stars": 135,
     "lang": "JavaScript"
    },
    {
