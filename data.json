@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-25T16:03:18.522Z",
+ "generatedAt": "2026-08-25T16:58:36.777Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-53838 — OpenClaw: Node pairing reconnection could confuse approval scope state",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53838",
+    "score": 9.8,
+    "date": "2026-07-02T16:23:41Z"
+   },
+   {
+    "title": "GHSA-c85p-9pvr-f7f5 — Duplicate Advisory: OpenClaw: Node pairing reconnection could confuse approval scope state",
+    "url": "https://github.com/advisories/GHSA-c85p-9pvr-f7f5",
+    "score": 9.8,
+    "date": "2026-06-13T00:34:33Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,52 +27,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-55534 — PraisonAI serve agents --api-key is ignored, allowing unauthenticated remote agent execution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55534",
-    "score": 8.6,
-    "date": "2026-08-25T14:42:25Z"
+    "title": "CVE-2026-53836 — OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53836",
+    "score": 8.8,
+    "date": "2026-07-02T17:22:52Z"
    },
    {
-    "title": "CVE-2026-55526 — praisonaiagents has an SSRF protection bypass in `spider_tools._host_is_blocked()` via DNS-resolved hostnames (`127.0.0.1.nip.io`)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55526",
-    "score": 8.5,
-    "date": "2026-08-25T14:37:26Z"
+    "title": "GHSA-ffhm-8fwq-7q27 — Duplicate Advisory: OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
+    "url": "https://github.com/advisories/GHSA-ffhm-8fwq-7q27",
+    "score": 8.8,
+    "date": "2026-06-13T00:34:32Z"
    },
    {
-    "title": "CVE-2026-55528 — praisonaiagents: AgentServer declares auth_token but never enforces it on any route",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55528",
-    "score": 8.2,
-    "date": "2026-08-25T14:31:52Z"
+    "title": "GHSA-gwcq-453v-2frr — Duplicate Advisory: OpenClaw's POSIX node system.run safe-bin allowlist could be widened by shell expansion",
+    "url": "https://github.com/advisories/GHSA-gwcq-453v-2frr",
+    "score": 8.3,
+    "date": "2026-06-13T00:34:32Z"
    },
    {
-    "title": "CVE-2026-55524 — praisonaiagents vulnerable to SSRF in web_crawl tool via redirect-following and DNS rebinding (validate-then-fetch gap)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55524",
+    "title": "GHSA-892m-gcq8-2468 — Duplicate Advisory: Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
+    "url": "https://github.com/advisories/GHSA-892m-gcq8-2468",
     "score": 7.5,
-    "date": "2026-08-25T14:43:19Z"
+    "date": "2026-08-23T15:33:06Z"
    },
    {
-    "title": "CVE-2026-55529 — PraisonAI has an origin validation bypass in MCP HTTP Stream transport that allows browser-mediated unauthenticated tool execution on local ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55529",
-    "score": 6.9,
-    "date": "2026-08-25T14:26:26Z"
+    "title": "CVE-2026-9769 — Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9769",
+    "score": 7.5,
+    "date": "2026-03-17T14:07:38Z"
    },
    {
-    "title": "CVE-2026-55531 — PraisonAI MCP HTTP server has unauthenticated unbounded session accumulation (memory exhaustion; session TTL never enforced)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55531",
-    "score": 6.5,
-    "date": "2026-08-25T14:34:28Z"
+    "title": "CVE-2026-53831 — OpenClaw's POSIX node system.run safe-bin allowlist could be widened by shell expansion",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53831",
+    "score": 7.1,
+    "date": "2026-07-02T16:05:38Z"
    },
    {
-    "title": "CVE-2026-55530 — praisonaiagents: ast_grep_rewrite rewrites arbitrary files without the @require_approval gate enforced on every sibling mutation tool",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55530",
-    "score": 6.1,
-    "date": "2026-08-25T14:46:13Z"
-   },
-   {
-    "title": "OSV-2023-307 — Heap-buffer-overflow in bit_read_BB",
-    "url": "https://github.com/advisories/OSV-2023-307",
-    "score": null,
-    "date": "2023-04-13T14:02:09.774988Z"
+    "title": "CVE-2026-54421 — OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54421",
+    "score": 6.8,
+    "date": "2026-06-14T06:30:24Z"
    }
   ],
   "kev": [
@@ -179,6 +185,55 @@
   ],
   "adv": [
    {
+    "title": "Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
+    "url": "https://github.com/advisories/GHSA-qj6x-xx2h-8hvv",
+    "score": 8.7,
+    "ghsa": "GHSA-qj6x-xx2h-8hvv",
+    "date": "2026-08-25T16:29:25Z"
+   },
+   {
+    "title": "browse-mcp has an arbitrary file write via unconfined download and state paths",
+    "url": "https://github.com/advisories/GHSA-m9mq-7m7q-xc6p",
+    "score": 7.5,
+    "ghsa": "GHSA-m9mq-7m7q-xc6p",
+    "date": "2026-08-25T16:28:32Z"
+   },
+   {
+    "title": "qwed Vulnerable to Authenticated Remote Code Execution via Unsafe SymPy `parse_expr()`",
+    "url": "https://github.com/advisories/GHSA-q27q-98j4-9pfv",
+    "score": 8.8,
+    "ghsa": "GHSA-q27q-98j4-9pfv",
+    "date": "2026-08-25T16:25:19Z"
+   },
+   {
+    "title": "urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
+    "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
+    "score": 7.5,
+    "ghsa": "GHSA-hq3h-g68c-hp78",
+    "date": "2026-08-25T16:19:32Z"
+   },
+   {
+    "title": "Echo: Encoded slash (%2F) bypasses route-level protection and exposes static files",
+    "url": "https://github.com/advisories/GHSA-vfp3-v2gw-7wfq",
+    "score": 7.5,
+    "ghsa": "GHSA-vfp3-v2gw-7wfq",
+    "date": "2026-08-25T16:13:29Z"
+   },
+   {
+    "title": "djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to d",
+    "url": "https://github.com/advisories/GHSA-xx4j-w367-7247",
+    "score": 8.2,
+    "ghsa": "GHSA-xx4j-w367-7247",
+    "date": "2026-08-25T16:06:31Z"
+   },
+   {
+    "title": "nextcloud-mcp-server: Unauthenticated `POST /webhooks/nextcloud` allows arbitrary vector data deletion when `WEBHOOK_SECRET` is unset ( default )",
+    "url": "https://github.com/advisories/GHSA-8vh3-g2qg-2h2c",
+    "score": 9.1,
+    "ghsa": "GHSA-8vh3-g2qg-2h2c",
+    "date": "2026-08-25T16:04:15Z"
+   },
+   {
     "title": "pickem vulnerable to terminal escape-sequence injection via unsanitized item text",
     "url": "https://github.com/advisories/GHSA-8qx3-8gm5-9cj2",
     "score": 7.5,
@@ -212,55 +267,6 @@
     "score": 7.5,
     "ghsa": "GHSA-f5pj-2738-996m",
     "date": "2026-08-25T15:46:50Z"
-   },
-   {
-    "title": "mcp-shell has a Secure Mode Allowlist Bypass via Default `/bin/bash` Executable",
-    "url": "https://github.com/advisories/GHSA-3x77-wg38-92r3",
-    "score": 8.4,
-    "ghsa": "GHSA-3x77-wg38-92r3",
-    "date": "2026-08-25T15:41:30Z"
-   },
-   {
-    "title": "mcp-shell has a Secure Mode Allowlist Bypass via Git Shell Alias",
-    "url": "https://github.com/advisories/GHSA-74hp-mggr-hv58",
-    "score": 8.4,
-    "ghsa": "GHSA-74hp-mggr-hv58",
-    "date": "2026-08-25T15:39:05Z"
-   },
-   {
-    "title": "qwed-mcp has Unsafe SymPy `parse_expr()` Remote Code Execution via Unsanitized Math Expression Input",
-    "url": "https://github.com/advisories/GHSA-mw6r-2hvm-4rp2",
-    "score": 9.8,
-    "ghsa": "GHSA-mw6r-2hvm-4rp2",
-    "date": "2026-08-25T15:26:43Z"
-   },
-   {
-    "title": "PraisonAI has a Browser Server WebSocket origin validation bypass via unanchored regex (patch bypass of CVE-2026-40289 / GHSA-8x8f-54wf-vv92)",
-    "url": "https://github.com/advisories/GHSA-6g6r-q6gw-w8fg",
-    "score": 9.1,
-    "ghsa": "GHSA-6g6r-q6gw-w8fg",
-    "date": "2026-08-25T15:22:16Z"
-   },
-   {
-    "title": "PraisonAI: Origin-validation bypass (startswith prefix match) enables unauthenticated cross-site request forgery against the PraisonAI MCP HTTP server",
-    "url": "https://github.com/advisories/GHSA-pvph-5j39-v8qc",
-    "score": 7.6,
-    "ghsa": "GHSA-pvph-5j39-v8qc",
-    "date": "2026-08-25T15:18:20Z"
-   },
-   {
-    "title": "PraisonAI: Authentication fail-open in Recipe server allows unauthenticated access when API key or JWT auth is configured without a secret",
-    "url": "https://github.com/advisories/GHSA-gfq8-hmph-9gjv",
-    "score": 8.2,
-    "ghsa": "GHSA-gfq8-hmph-9gjv",
-    "date": "2026-08-25T15:15:54Z"
-   },
-   {
-    "title": "PraisonAI: [Auth Bypass] PraisonAI async Jobs API (`/api/v1/runs`) has no authentication — unauthenticated job execution, result theft, cancel and del",
-    "url": "https://github.com/advisories/GHSA-2jgc-f764-c5r2",
-    "score": 8.6,
-    "ghsa": "GHSA-2jgc-f764-c5r2",
-    "date": "2026-08-25T15:14:27Z"
    }
   ],
   "thn": [
@@ -439,7 +445,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10159,
+    "stars": 10160,
     "lang": "TypeScript"
    },
    {
@@ -451,7 +457,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 288,
+    "stars": 289,
     "lang": "Python"
    },
    {
@@ -475,7 +481,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 180,
+    "stars": 181,
     "lang": "Go"
    },
    {
@@ -693,7 +699,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1675,
   "adv": 12,
   "feed": 48
