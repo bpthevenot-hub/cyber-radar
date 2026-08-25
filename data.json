@@ -1,18 +1,30 @@
 {
- "generatedAt": "2026-08-25T19:01:41.492Z",
+ "generatedAt": "2026-08-25T19:48:25.611Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-53838 — OpenClaw: Node pairing reconnection could confuse approval scope state",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53838",
-    "score": 9.8,
-    "date": "2026-07-02T16:23:41Z"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59556",
+    "score": 9.9,
+    "date": "2026-08-25T18:45:58+00:00"
    },
    {
-    "title": "GHSA-c85p-9pvr-f7f5 — Duplicate Advisory: OpenClaw: Node pairing reconnection could confuse approval scope state",
-    "url": "https://github.com/advisories/GHSA-c85p-9pvr-f7f5",
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53530",
+    "score": 9.9,
+    "date": "2026-08-25T18:45:33+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.8.1 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:52946",
+    "score": 9.9,
+    "date": "2026-08-25T18:45:30+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59155",
     "score": 9.8,
-    "date": "2026-06-13T00:34:33Z"
+    "date": "2026-08-25T18:45:58+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,46 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-53836 — OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53836",
-    "score": 8.8,
-    "date": "2026-07-02T17:22:52Z"
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.22.8 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48693",
+    "score": 9.4,
+    "date": "2026-08-25T18:45:20+00:00"
    },
    {
-    "title": "GHSA-ffhm-8fwq-7q27 — Duplicate Advisory: OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
-    "url": "https://github.com/advisories/GHSA-ffhm-8fwq-7q27",
-    "score": 8.8,
-    "date": "2026-06-13T00:34:32Z"
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-08-25T18:45:17+00:00"
    },
    {
-    "title": "GHSA-gwcq-453v-2frr — Duplicate Advisory: OpenClaw's POSIX node system.run safe-bin allowlist could be widened by shell expansion",
-    "url": "https://github.com/advisories/GHSA-gwcq-453v-2frr",
-    "score": 8.3,
-    "date": "2026-06-13T00:34:32Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-08-25T18:45:44+00:00"
    },
    {
-    "title": "GHSA-892m-gcq8-2468 — Duplicate Advisory: Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
-    "url": "https://github.com/advisories/GHSA-892m-gcq8-2468",
-    "score": 7.5,
-    "date": "2026-08-23T15:33:06Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.27 security, enhancement & bug fix update (+41 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56431",
+    "score": 9.1,
+    "date": "2026-08-25T18:45:44+00:00"
    },
    {
-    "title": "CVE-2026-9769 — Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9769",
-    "score": 7.5,
-    "date": "2026-03-17T14:07:38Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
+    "score": 9.1,
+    "date": "2026-08-25T18:45:43+00:00"
    },
    {
-    "title": "CVE-2026-53831 — OpenClaw's POSIX node system.run safe-bin allowlist could be widened by shell expansion",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53831",
-    "score": 7.1,
-    "date": "2026-07-02T16:05:38Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 security advisory (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54757",
+    "score": 9.1,
+    "date": "2026-08-25T18:45:39+00:00"
    },
    {
-    "title": "CVE-2026-54421 — OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54421",
-    "score": 6.8,
-    "date": "2026-06-14T06:30:24Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
+    "score": 9.1,
+    "date": "2026-08-25T18:45:37+00:00"
+   },
+   {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.20.35 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57545",
+    "score": 9,
+    "date": "2026-08-25T18:45:48+00:00"
    }
   ],
   "kev": [
@@ -185,6 +203,34 @@
   ],
   "adv": [
    {
+    "title": "JupyterHub has Unauthenticated Denial of Service via Unbounded Username Logging on Failed Login",
+    "url": "https://github.com/advisories/GHSA-p43p-whwx-q52h",
+    "score": 5.3,
+    "ghsa": "GHSA-p43p-whwx-q52h",
+    "date": "2026-08-25T19:29:19Z"
+   },
+   {
+    "title": "icalendar has Algorithmic Complexity in Equality",
+    "url": "https://github.com/advisories/GHSA-cv84-9p8j-fj68",
+    "score": 7.5,
+    "ghsa": "GHSA-cv84-9p8j-fj68",
+    "date": "2026-08-25T19:27:31Z"
+   },
+   {
+    "title": "Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
+    "url": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j",
+    "score": 7.2,
+    "ghsa": "GHSA-hvfh-5mj3-5f3j",
+    "date": "2026-08-25T19:21:40Z"
+   },
+   {
+    "title": "Chainlit has command injection via MCP stdio transport that allows unauthenticated remote code execution",
+    "url": "https://github.com/advisories/GHSA-w3fx-mc44-mf6j",
+    "score": 9.8,
+    "ghsa": "GHSA-w3fx-mc44-mf6j",
+    "date": "2026-08-25T19:19:28Z"
+   },
+   {
     "title": "@arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
     "url": "https://github.com/advisories/GHSA-72f3-6w86-7rv3",
     "score": 5.3,
@@ -239,37 +285,16 @@
     "score": 9.5,
     "ghsa": "GHSA-777c-2fxx-qr28",
     "date": "2026-08-25T18:20:27Z"
-   },
-   {
-    "title": "mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
-    "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
-    "score": 5.6,
-    "ghsa": "GHSA-p7x2-g5cq-fhmq",
-    "date": "2026-08-25T18:17:21Z"
-   },
-   {
-    "title": "gRPC Erlang package has unbounded gzip decompression (decompression bomb)",
-    "url": "https://github.com/advisories/GHSA-6ccx-9c9f-327w",
-    "score": 7.5,
-    "ghsa": "GHSA-6ccx-9c9f-327w",
-    "date": "2026-08-25T18:12:58Z"
-   },
-   {
-    "title": "gRPC Erlang package has unbounded request body accumulation in `read_full_body/3`",
-    "url": "https://github.com/advisories/GHSA-q8gf-9rvj-gmgj",
-    "score": 7.5,
-    "ghsa": "GHSA-q8gf-9rvj-gmgj",
-    "date": "2026-08-25T18:12:05Z"
-   },
-   {
-    "title": "gRPC Erlang package's path bindings are overridable by query string and request body",
-    "url": "https://github.com/advisories/GHSA-mwr4-5g34-j5cq",
-    "score": 7.5,
-    "ghsa": "GHSA-mwr4-5g34-j5cq",
-    "date": "2026-08-25T18:11:15Z"
    }
   ],
   "thn": [
+   {
+    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+    "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+    "date": "Tue, 25 Aug 2026 23:47:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
     "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
@@ -344,13 +369,6 @@
     "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
     "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
     "date": "Mon, 24 Aug 2026 23:11:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-    "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-    "date": "Mon, 24 Aug 2026 20:02:10 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -457,7 +475,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 289,
+    "stars": 293,
     "lang": "Python"
    },
    {
@@ -631,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Unauthenticated remote uninstall in my own EDR agent, and the four other auth bugs that turned out to be the same bug",
+    "url": "https://www.reddit.com/r/netsec/comments/1vy9rkb/unauthenticated_remote_uninstall_in_my_own_edr/",
+    "date": "2026-08-25T19:26:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Local Privilege Escalation To System In Wibu-Systems CodeMeter Application",
     "url": "https://www.reddit.com/r/netsec/comments/1vxw6ym/local_privilege_escalation_to_system_in/",
     "date": "2026-08-25T10:41:27+00:00",
@@ -678,13 +703,6 @@
     "date": "2026-08-18T13:45:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
-    "date": "2026-08-18T17:34:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -699,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1676,
   "adv": 12,
   "feed": 48
