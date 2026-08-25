@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-25T16:58:36.777Z",
+ "generatedAt": "2026-08-25T17:47:50.139Z",
  "sources": {
   "cve": [
    {
@@ -185,6 +185,48 @@
   ],
   "adv": [
    {
+    "title": "mcp-contextforge-gateway has Server-Side Template Injection (SSTI) leading to Remote Code Execution in `PromptService._render_template` via unsandboxe",
+    "url": "https://github.com/advisories/GHSA-vwf3-4xxj-qg6h",
+    "score": 7.5,
+    "ghsa": "GHSA-vwf3-4xxj-qg6h",
+    "date": "2026-08-25T17:42:11Z"
+   },
+   {
+    "title": "reachy_mini Allows Unrestricted Upload of File with Dangerous Type",
+    "url": "https://github.com/advisories/GHSA-m2pc-3q4q-w6jr",
+    "score": 5.3,
+    "ghsa": "GHSA-m2pc-3q4q-w6jr",
+    "date": "2026-08-25T17:38:43Z"
+   },
+   {
+    "title": "Trivy has a path traversal via a crafted vulnerability database or other downloaded artifacts",
+    "url": "https://github.com/advisories/GHSA-mcj4-mphf-j9ff",
+    "score": 7.5,
+    "ghsa": "GHSA-mcj4-mphf-j9ff",
+    "date": "2026-08-25T17:33:02Z"
+   },
+   {
+    "title": "phpMyFAQ privilege escalation: GroupController::updatePermissions lets a GROUP_EDIT admin grant rights they do not hold",
+    "url": "https://github.com/advisories/GHSA-pg62-f8g4-4wqh",
+    "score": 8.8,
+    "ghsa": "GHSA-pg62-f8g4-4wqh",
+    "date": "2026-08-25T17:32:07Z"
+   },
+   {
+    "title": "phpMyFAQ public FAQ APIs expose inactive FAQ content",
+    "url": "https://github.com/advisories/GHSA-mf8r-wm2w-f8c5",
+    "score": 5.3,
+    "ghsa": "GHSA-mf8r-wm2w-f8c5",
+    "date": "2026-08-25T17:30:23Z"
+   },
+   {
+    "title": "phpMyFAQ has Potential Authenticated Path Traversal in PDF Export",
+    "url": "https://github.com/advisories/GHSA-88g4-74f3-63x9",
+    "score": 4.9,
+    "ghsa": "GHSA-88g4-74f3-63x9",
+    "date": "2026-08-25T17:28:56Z"
+   },
+   {
     "title": "Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
     "url": "https://github.com/advisories/GHSA-qj6x-xx2h-8hvv",
     "score": 8.7,
@@ -225,48 +267,6 @@
     "score": 8.2,
     "ghsa": "GHSA-xx4j-w367-7247",
     "date": "2026-08-25T16:06:31Z"
-   },
-   {
-    "title": "nextcloud-mcp-server: Unauthenticated `POST /webhooks/nextcloud` allows arbitrary vector data deletion when `WEBHOOK_SECRET` is unset ( default )",
-    "url": "https://github.com/advisories/GHSA-8vh3-g2qg-2h2c",
-    "score": 9.1,
-    "ghsa": "GHSA-8vh3-g2qg-2h2c",
-    "date": "2026-08-25T16:04:15Z"
-   },
-   {
-    "title": "pickem vulnerable to terminal escape-sequence injection via unsanitized item text",
-    "url": "https://github.com/advisories/GHSA-8qx3-8gm5-9cj2",
-    "score": 7.5,
-    "ghsa": "GHSA-8qx3-8gm5-9cj2",
-    "date": "2026-08-25T15:59:11Z"
-   },
-   {
-    "title": "utcp-http has an OAuth2 `tokenUrl` Trust Boundary Bypass in OpenAPI Conversion",
-    "url": "https://github.com/advisories/GHSA-8cp3-qxj6-px34",
-    "score": 7.1,
-    "ghsa": "GHSA-8cp3-qxj6-px34",
-    "date": "2026-08-25T15:57:03Z"
-   },
-   {
-    "title": "utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-    "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
-    "score": 4.7,
-    "ghsa": "GHSA-ppx3-28rw-8fpf",
-    "date": "2026-08-25T15:52:30Z"
-   },
-   {
-    "title": "utcp-http SSRF: HTTP tool invocation follows redirects without re-validating the target",
-    "url": "https://github.com/advisories/GHSA-9qhg-99ww-9mqc",
-    "score": 8.2,
-    "ghsa": "GHSA-9qhg-99ww-9mqc",
-    "date": "2026-08-25T15:48:51Z"
-   },
-   {
-    "title": "mcp-shell — Security Disabled by Default in Bare-Binary Deploy Path + Shell Interpreter in Secure-Mode Allowlist",
-    "url": "https://github.com/advisories/GHSA-f5pj-2738-996m",
-    "score": 7.5,
-    "ghsa": "GHSA-f5pj-2738-996m",
-    "date": "2026-08-25T15:46:50Z"
    }
   ],
   "thn": [
@@ -445,7 +445,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10160,
+    "stars": 10162,
     "lang": "TypeScript"
    },
    {
@@ -617,16 +617,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
-    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
-    "date": "2026-08-24T21:00:38+00:00",
+    "title": "Pwning Call of Duty 1: a 20-year-old RCE, found in an evening with AI",
+    "url": "https://www.reddit.com/r/netsec/comments/1vy5zqu/pwning_call_of_duty_1_a_20yearold_rce_found_in_an/",
+    "date": "2026-08-25T17:14:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-8508: Trust-Boundary Bypass in Zyxel social_login.cgi Facebook Identity Handling",
-    "url": "https://www.reddit.com/r/netsec/comments/1vy03c7/cve20268508_trustboundary_bypass_in_zyxel_social/",
-    "date": "2026-08-25T13:37:06+00:00",
+    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
+    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
+    "date": "2026-08-24T21:00:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -700,7 +700,7 @@
  },
  "kpis": {
   "crit": 4,
-  "kev": 1675,
+  "kev": 1676,
   "adv": 12,
   "feed": 48
  },
