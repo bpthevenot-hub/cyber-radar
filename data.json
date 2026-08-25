@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-25T15:08:20.034Z",
+ "generatedAt": "2026-08-25T16:03:18.522Z",
  "sources": {
   "cve": [
    {
@@ -179,88 +179,88 @@
   ],
   "adv": [
    {
-    "title": "PraisonAI: `--api-key` flag on `praisonai serve` is not properly enforced",
-    "url": "https://github.com/advisories/GHSA-pvxx-r596-f5qj",
+    "title": "pickem vulnerable to terminal escape-sequence injection via unsanitized item text",
+    "url": "https://github.com/advisories/GHSA-8qx3-8gm5-9cj2",
     "score": 7.5,
-    "ghsa": "GHSA-pvxx-r596-f5qj",
-    "date": "2026-08-25T15:06:09Z"
+    "ghsa": "GHSA-8qx3-8gm5-9cj2",
+    "date": "2026-08-25T15:59:11Z"
    },
    {
-    "title": "PraisonAI vulnerable to Server-Side Request Forgery via DNS rebinding bypass in webhook_url validation",
-    "url": "https://github.com/advisories/GHSA-hmfx-4v44-9qw9",
-    "score": 6.8,
-    "ghsa": "GHSA-hmfx-4v44-9qw9",
-    "date": "2026-08-25T15:02:04Z"
-   },
-   {
-    "title": "PraisonAI: Webhook SSRF via DNS fail-open in `JobSubmitRequest.validate_webhook_url()` — bypass of CVE-2026-40114",
-    "url": "https://github.com/advisories/GHSA-rg5q-pp8p-f7jm",
+    "title": "utcp-http has an OAuth2 `tokenUrl` Trust Boundary Bypass in OpenAPI Conversion",
+    "url": "https://github.com/advisories/GHSA-8cp3-qxj6-px34",
     "score": 7.1,
-    "ghsa": "GHSA-rg5q-pp8p-f7jm",
-    "date": "2026-08-25T14:59:44Z"
+    "ghsa": "GHSA-8cp3-qxj6-px34",
+    "date": "2026-08-25T15:57:03Z"
    },
    {
-    "title": "PraisonAI: [Auth Bypass] `praisonai serve agents --api-key` is silently ignored — agent-invocation routes (`POST /agents`, `POST /agents/{agent_name}`",
-    "url": "https://github.com/advisories/GHSA-r7v3-x45f-g7hp",
-    "score": 7.3,
-    "ghsa": "GHSA-r7v3-x45f-g7hp",
-    "date": "2026-08-25T14:56:59Z"
+    "title": "utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
+    "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
+    "score": 4.7,
+    "ghsa": "GHSA-ppx3-28rw-8fpf",
+    "date": "2026-08-25T15:52:30Z"
    },
    {
-    "title": "PraisonAI: [Path Traversal] agent tools escape the configured workspace via symlinks",
-    "url": "https://github.com/advisories/GHSA-ch89-h4r2-c8f8",
-    "score": 7.1,
-    "ghsa": "GHSA-ch89-h4r2-c8f8",
-    "date": "2026-08-25T14:54:56Z"
-   },
-   {
-    "title": "praisonaiagents: ast_grep_rewrite rewrites arbitrary files without the @require_approval gate enforced on every sibling mutation tool",
-    "url": "https://github.com/advisories/GHSA-cfxv-8fw8-rwpv",
-    "score": 6.1,
-    "ghsa": "GHSA-cfxv-8fw8-rwpv",
-    "date": "2026-08-25T14:46:13Z"
-   },
-   {
-    "title": "praisonaiagents vulnerable to SSRF in web_crawl tool via redirect-following and DNS rebinding (validate-then-fetch gap)",
-    "url": "https://github.com/advisories/GHSA-vg6p-v9vm-6fgj",
-    "score": 7.5,
-    "ghsa": "GHSA-vg6p-v9vm-6fgj",
-    "date": "2026-08-25T14:43:19Z"
-   },
-   {
-    "title": "PraisonAI serve agents --api-key is ignored, allowing unauthenticated remote agent execution",
-    "url": "https://github.com/advisories/GHSA-7ww9-85pg-cv4x",
-    "score": 8.6,
-    "ghsa": "GHSA-7ww9-85pg-cv4x",
-    "date": "2026-08-25T14:42:25Z"
-   },
-   {
-    "title": "praisonaiagents has an SSRF protection bypass in `spider_tools._host_is_blocked()` via DNS-resolved hostnames (`127.0.0.1.nip.io`)",
-    "url": "https://github.com/advisories/GHSA-x44h-65qv-cw74",
-    "score": 8.5,
-    "ghsa": "GHSA-x44h-65qv-cw74",
-    "date": "2026-08-25T14:37:26Z"
-   },
-   {
-    "title": "PraisonAI MCP HTTP server has unauthenticated unbounded session accumulation (memory exhaustion; session TTL never enforced)",
-    "url": "https://github.com/advisories/GHSA-wv94-5qcp-6m36",
-    "score": 6.5,
-    "ghsa": "GHSA-wv94-5qcp-6m36",
-    "date": "2026-08-25T14:34:28Z"
-   },
-   {
-    "title": "praisonaiagents: AgentServer declares auth_token but never enforces it on any route",
-    "url": "https://github.com/advisories/GHSA-7g3p-92qq-8wvh",
+    "title": "utcp-http SSRF: HTTP tool invocation follows redirects without re-validating the target",
+    "url": "https://github.com/advisories/GHSA-9qhg-99ww-9mqc",
     "score": 8.2,
-    "ghsa": "GHSA-7g3p-92qq-8wvh",
-    "date": "2026-08-25T14:31:52Z"
+    "ghsa": "GHSA-9qhg-99ww-9mqc",
+    "date": "2026-08-25T15:48:51Z"
    },
    {
-    "title": "PraisonAI has an origin validation bypass in MCP HTTP Stream transport that allows browser-mediated unauthenticated tool execution on local MCP server",
-    "url": "https://github.com/advisories/GHSA-wj6g-v78p-6fx3",
-    "score": 6.9,
-    "ghsa": "GHSA-wj6g-v78p-6fx3",
-    "date": "2026-08-25T14:26:26Z"
+    "title": "mcp-shell — Security Disabled by Default in Bare-Binary Deploy Path + Shell Interpreter in Secure-Mode Allowlist",
+    "url": "https://github.com/advisories/GHSA-f5pj-2738-996m",
+    "score": 7.5,
+    "ghsa": "GHSA-f5pj-2738-996m",
+    "date": "2026-08-25T15:46:50Z"
+   },
+   {
+    "title": "mcp-shell has a Secure Mode Allowlist Bypass via Default `/bin/bash` Executable",
+    "url": "https://github.com/advisories/GHSA-3x77-wg38-92r3",
+    "score": 8.4,
+    "ghsa": "GHSA-3x77-wg38-92r3",
+    "date": "2026-08-25T15:41:30Z"
+   },
+   {
+    "title": "mcp-shell has a Secure Mode Allowlist Bypass via Git Shell Alias",
+    "url": "https://github.com/advisories/GHSA-74hp-mggr-hv58",
+    "score": 8.4,
+    "ghsa": "GHSA-74hp-mggr-hv58",
+    "date": "2026-08-25T15:39:05Z"
+   },
+   {
+    "title": "qwed-mcp has Unsafe SymPy `parse_expr()` Remote Code Execution via Unsanitized Math Expression Input",
+    "url": "https://github.com/advisories/GHSA-mw6r-2hvm-4rp2",
+    "score": 9.8,
+    "ghsa": "GHSA-mw6r-2hvm-4rp2",
+    "date": "2026-08-25T15:26:43Z"
+   },
+   {
+    "title": "PraisonAI has a Browser Server WebSocket origin validation bypass via unanchored regex (patch bypass of CVE-2026-40289 / GHSA-8x8f-54wf-vv92)",
+    "url": "https://github.com/advisories/GHSA-6g6r-q6gw-w8fg",
+    "score": 9.1,
+    "ghsa": "GHSA-6g6r-q6gw-w8fg",
+    "date": "2026-08-25T15:22:16Z"
+   },
+   {
+    "title": "PraisonAI: Origin-validation bypass (startswith prefix match) enables unauthenticated cross-site request forgery against the PraisonAI MCP HTTP server",
+    "url": "https://github.com/advisories/GHSA-pvph-5j39-v8qc",
+    "score": 7.6,
+    "ghsa": "GHSA-pvph-5j39-v8qc",
+    "date": "2026-08-25T15:18:20Z"
+   },
+   {
+    "title": "PraisonAI: Authentication fail-open in Recipe server allows unauthenticated access when API key or JWT auth is configured without a secret",
+    "url": "https://github.com/advisories/GHSA-gfq8-hmph-9gjv",
+    "score": 8.2,
+    "ghsa": "GHSA-gfq8-hmph-9gjv",
+    "date": "2026-08-25T15:15:54Z"
+   },
+   {
+    "title": "PraisonAI: [Auth Bypass] PraisonAI async Jobs API (`/api/v1/runs`) has no authentication — unauthenticated job execution, result theft, cancel and del",
+    "url": "https://github.com/advisories/GHSA-2jgc-f764-c5r2",
+    "score": 8.6,
+    "ghsa": "GHSA-2jgc-f764-c5r2",
+    "date": "2026-08-25T15:14:27Z"
    }
   ],
   "thn": [
@@ -351,6 +351,13 @@
   ],
   "bleep": [
    {
+    "title": "Massive DDoS attack disrupts Norway’s government digital services",
+    "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+    "date": "Tue, 25 Aug 2026 11:52:36 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hospital operator Nutex Health says data stolen in cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
     "date": "Tue, 25 Aug 2026 10:44:16 -0400",
@@ -426,20 +433,13 @@
     "date": "Mon, 24 Aug 2026 10:00:19 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "South Korean startup platform breach exposes key management failures",
-    "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
-    "date": "Mon, 24 Aug 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10160,
+    "stars": 10159,
     "lang": "TypeScript"
    },
    {
@@ -451,7 +451,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 280,
+    "stars": 288,
     "lang": "Python"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 151,
+    "stars": 155,
     "lang": "Python"
    },
    {
