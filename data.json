@@ -1,18 +1,24 @@
 {
- "generatedAt": "2026-08-26T10:53:34.967Z",
+ "generatedAt": "2026-08-26T11:48:51.094Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-71915 — Kwetsbaarheden verholpen in DrayTek VigorSwitch (+28 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71915",
-    "score": 9.8,
-    "date": "2026-08-26T09:03:54.182995Z"
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
+    "score": 9.9,
+    "date": "2026-08-26T10:14:55+00:00"
    },
    {
-    "title": "CVE-2026-71904 — Kwetsbaarheden verholpen in DrayTek VigorAP (+10 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71904",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.7 security update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59559",
+    "score": 9.9,
+    "date": "2026-08-26T10:14:54+00:00"
+   },
+   {
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
     "score": 9.8,
-    "date": "2026-08-26T09:02:04.888780Z"
+    "date": "2026-08-26T10:15:00+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -25,6 +31,60 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
+    "score": 9.6,
+    "date": "2026-08-26T10:15:02+00:00"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
+    "score": 9.6,
+    "date": "2026-08-26T10:15:01+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.14.72 bug fix and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56789",
+    "score": 9.4,
+    "date": "2026-08-26T10:14:38+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-08-26T10:15:17+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-08-26T10:15:14+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-08-26T10:15:14+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-08-26T10:15:14+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-08-26T10:15:14+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-26T10:15:13+00:00"
    }
   ],
   "kev": [
@@ -315,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+    "date": "Wed, 26 Aug 2026 07:07:48 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "LACMA data breach last year exposed social security and medical data",
     "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
     "date": "Tue, 25 Aug 2026 17:58:14 -0400",
@@ -390,33 +457,26 @@
     "date": "Mon, 24 Aug 2026 17:14:30 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-    "date": "Mon, 24 Aug 2026 15:26:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10187,
+    "stars": 10189,
     "lang": "TypeScript"
+   },
+   {
+    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
+    "url": "https://github.com/kulkarnirohit123/cra-agent",
+    "stars": 358,
+    "lang": "Python"
    },
    {
     "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
     "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
     "stars": 332,
     "lang": "Java"
-   },
-   {
-    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
-    "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 293,
-    "lang": "Python"
    },
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1676,
   "adv": 12,
   "feed": 48
