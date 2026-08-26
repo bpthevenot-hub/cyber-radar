@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-08-26T03:27:45.153Z",
+ "generatedAt": "2026-08-26T04:58:15.623Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-79911 — A security vulnerability has been detected in TOTOLINK N600R 4.3.0cu.7647_B20210106. The affected element is the function setSystemConfig of",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79911",
-    "score": 10,
-    "date": "2026-08-26T00:31:04Z"
-   },
-   {
-    "title": "CVE-2026-80138 — ClipBucket V5's web installer fails to properly validate or escape the php_cli_filepath parameter before passing it to shell execution. Unau",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80138",
-    "score": 9.8,
-    "date": "2026-08-26T00:31:04Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-14257 — Red Hat Security Advisory: OpenShift Container Platform 4.22.11 bug fix and security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57365",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:18+00:00"
+    "title": "MAL-2026-14522 — Malicious code in syntaxerror-package-12345 (PyPI)",
+    "url": "https://github.com/advisories/MAL-2026-14522",
+    "score": null,
+    "date": "2026-08-26T04:16:50Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:18+00:00"
+    "title": "MAL-2026-2828 — Malicious code in express-security-policy (npm)",
+    "url": "https://github.com/advisories/MAL-2026-2828",
+    "score": null,
+    "date": "2026-04-17T06:20:31Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:14+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:12+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:12+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:12+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:07+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
-    "score": 9.1,
-    "date": "2026-08-26T00:46:04+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
-    "score": 9.1,
-    "date": "2026-08-26T00:45:58+00:00"
-   },
-   {
-    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
-    "score": 9.1,
-    "date": "2026-08-26T00:45:43+00:00"
+    "title": "MAL-2026-2830 — Malicious code in renovate-config-doctolib (npm)",
+    "url": "https://github.com/advisories/MAL-2026-2830",
+    "score": null,
+    "date": "2026-04-17T06:20:10Z"
    }
   ],
   "kev": [
@@ -463,7 +409,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10175,
+    "stars": 10180,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +445,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 183,
+    "stars": 184,
     "lang": "Go"
    },
    {
@@ -642,16 +588,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
-    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
-    "date": "2026-08-24T21:00:38+00:00",
+    "title": "Local Privilege Escalation To System In Wibu-Systems CodeMeter Application",
+    "url": "https://www.reddit.com/r/netsec/comments/1vxw6ym/local_privilege_escalation_to_system_in/",
+    "date": "2026-08-25T10:41:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Local Privilege Escalation To System In Wibu-Systems CodeMeter Application",
-    "url": "https://www.reddit.com/r/netsec/comments/1vxw6ym/local_privilege_escalation_to_system_in/",
-    "date": "2026-08-25T10:41:27+00:00",
+    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
+    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
+    "date": "2026-08-24T21:00:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +663,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1676,
   "adv": 12,
   "feed": 48
