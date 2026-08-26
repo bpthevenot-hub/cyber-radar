@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-08-26T13:25:49.503Z",
+ "generatedAt": "2026-08-26T15:54:40.398Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
-    "score": 9.9,
-    "date": "2026-08-26T11:14:27+00:00"
+    "title": "CVE-2026-50880 — YouTransfer has an issue in the sendmail transport integration that allows arbitrary code execution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50880",
+    "score": 9.8,
+    "date": "2026-06-15T21:30:41Z"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.7 security update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59559",
-    "score": 9.9,
-    "date": "2026-08-26T11:14:27+00:00"
+    "title": "CVE-2026-39006 — SNMP4J-Agent allows a remote attacker to execute arbitrary code via the snmp4jCfgStoragePath component",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39006",
+    "score": 9.8,
+    "date": "2026-06-15T21:30:39Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +27,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.14.72 bug fix and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56789",
-    "score": 9.4,
-    "date": "2026-08-26T11:14:14+00:00"
+    "title": "CVE-2026-47835 — Spring AI vector store metadata filtering to handle special characters in Elasticsearch, OpenSearch, and GemFire Vector Stores",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47835",
+    "score": 8.6,
+    "date": "2026-06-15T21:30:39Z"
    },
    {
-    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.22.8 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48693",
-    "score": 9.4,
-    "date": "2026-08-26T11:13:53+00:00"
+    "title": "CVE-2026-42527 — Apache Camel: Permissive default ObjectInputFilter pattern admits java.net.** and enables DNS-based information disclosure",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42527",
+    "score": 8.1,
+    "date": "2026-07-06T09:30:28Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
-    "score": 9.4,
-    "date": "2026-08-26T11:13:50+00:00"
+    "title": "CVE-2026-50879 — linx-server has an issue in the uploadPostHandler component that allows attackers to cause a Denial of Service (DoS) via a crafted POST requ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50879",
+    "score": 7.5,
+    "date": "2026-06-15T21:30:41Z"
    },
    {
-    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
-    "score": 9.4,
-    "date": "2026-08-26T11:13:48+00:00"
+    "title": "CVE-2026-41708 — Spring Cloud Sleuth instrumentation of Spring TX DoS vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41708",
+    "score": 7.5,
+    "date": "2026-06-15T21:30:39Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
-    "score": 9.1,
-    "date": "2026-08-26T11:14:07+00:00"
+    "title": "OSV-2022-581 — Heap-buffer-overflow in megasas_map_sgl",
+    "url": "https://github.com/advisories/OSV-2022-581",
+    "score": null,
+    "date": "2022-07-14T00:00:45.644503Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
-    "score": 9.1,
-    "date": "2026-08-26T11:14:05+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
-    "score": 9.1,
-    "date": "2026-08-26T11:14:03+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-08-26T11:13:59+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
-    "score": 9.1,
-    "date": "2026-08-26T11:13:58+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
-    "score": 9.1,
-    "date": "2026-08-26T11:13:50+00:00"
+    "title": "OSV-2021-820 — UNKNOWN READ in virtio_gpu_disable_scanout",
+    "url": "https://github.com/advisories/OSV-2021-820",
+    "score": null,
+    "date": "2021-06-02T00:00:31.619765Z"
    }
   ],
   "kev": [
@@ -203,91 +179,105 @@
   ],
   "adv": [
    {
-    "title": "JupyterHub has Unauthenticated Denial of Service via Unbounded Username Logging on Failed Login",
-    "url": "https://github.com/advisories/GHSA-p43p-whwx-q52h",
-    "score": 5.3,
-    "ghsa": "GHSA-p43p-whwx-q52h",
-    "date": "2026-08-25T19:29:19Z"
+    "title": "asyncssh has SCP Path Traversal to Arbitrary File Write",
+    "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
+    "score": 8.1,
+    "ghsa": "GHSA-2wxc-x7rj-hg8f",
+    "date": "2026-08-26T15:34:22Z"
    },
    {
-    "title": "icalendar has Algorithmic Complexity in Equality",
-    "url": "https://github.com/advisories/GHSA-cv84-9p8j-fj68",
-    "score": 7.5,
-    "ghsa": "GHSA-cv84-9p8j-fj68",
-    "date": "2026-08-25T19:27:31Z"
+    "title": "asyncssh has an incomplete fix for CVE-2026-45309 — AuthorizedKeysFile %u still escapes the intended directory via a leading ~ (and weakly via ${ENV})",
+    "url": "https://github.com/advisories/GHSA-qr67-gv47-xwwh",
+    "score": 5.9,
+    "ghsa": "GHSA-qr67-gv47-xwwh",
+    "date": "2026-08-26T15:32:00Z"
    },
    {
-    "title": "Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
-    "url": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j",
-    "score": 7.2,
-    "ghsa": "GHSA-hvfh-5mj3-5f3j",
-    "date": "2026-08-25T19:21:40Z"
+    "title": "cakephp/debug_kit: MailPreview contains unsafe reflection",
+    "url": "https://github.com/advisories/GHSA-p46m-g734-vpc4",
+    "score": 4.3,
+    "ghsa": "GHSA-p46m-g734-vpc4",
+    "date": "2026-08-26T15:31:01Z"
    },
    {
-    "title": "Chainlit has command injection via MCP stdio transport that allows unauthenticated remote code execution",
-    "url": "https://github.com/advisories/GHSA-w3fx-mc44-mf6j",
+    "title": "senaite.core Vulnerable to Eval Injection and Missing Authorization",
+    "url": "https://github.com/advisories/GHSA-jrw6-7x4q-w25j",
     "score": 9.8,
-    "ghsa": "GHSA-w3fx-mc44-mf6j",
-    "date": "2026-08-25T19:19:28Z"
+    "ghsa": "GHSA-jrw6-7x4q-w25j",
+    "date": "2026-08-26T15:28:47Z"
    },
    {
-    "title": "@arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
-    "url": "https://github.com/advisories/GHSA-72f3-6w86-7rv3",
-    "score": 5.3,
-    "ghsa": "GHSA-72f3-6w86-7rv3",
-    "date": "2026-08-25T18:38:30Z"
+    "title": "SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
+    "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
+    "score": 7.5,
+    "ghsa": "GHSA-w93q-cq9w-58p7",
+    "date": "2026-08-26T15:26:24Z"
    },
    {
-    "title": "@arikusi/deepseek-mcp-server has an Authorization Bypass Through User-Controlled Key",
-    "url": "https://github.com/advisories/GHSA-fh3r-g96v-f578",
-    "score": 8.6,
-    "ghsa": "GHSA-fh3r-g96v-f578",
-    "date": "2026-08-25T18:37:27Z"
-   },
-   {
-    "title": "consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
-    "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
+    "title": "Cloudreve WebDAV (`/dav`) has Path Traversal / Broken Access Control — scoped DAV credential escapes its configured account root",
+    "url": "https://github.com/advisories/GHSA-w5fv-7x5q-g8qp",
     "score": 7.1,
-    "ghsa": "GHSA-xc9g-j69q-37xw",
-    "date": "2026-08-25T18:35:32Z"
+    "ghsa": "GHSA-w5fv-7x5q-g8qp",
+    "date": "2026-08-26T15:22:12Z"
    },
    {
-    "title": "Whistle vulnerable to path traversal",
-    "url": "https://github.com/advisories/GHSA-3vfr-4gwf-qxfp",
-    "score": 7.5,
-    "ghsa": "GHSA-3vfr-4gwf-qxfp",
-    "date": "2026-08-25T18:32:06Z"
-   },
-   {
-    "title": "eml_parser vulnerable to DoS via deeply nested parens in Received headers",
-    "url": "https://github.com/advisories/GHSA-g7gc-gmgp-wgqg",
-    "score": 7.5,
-    "ghsa": "GHSA-g7gc-gmgp-wgqg",
-    "date": "2026-08-25T18:27:18Z"
-   },
-   {
-    "title": "eml_parser has parser DoS via deeply nested parentheses in e-mail headers",
-    "url": "https://github.com/advisories/GHSA-m66c-fw79-6359",
+    "title": "OpenWISP IPAM has broken object-level authorization: ExportSubnetView lets a member of one organization export another organization's subnet and all i",
+    "url": "https://github.com/advisories/GHSA-x287-5c68-36wp",
     "score": 5.3,
-    "ghsa": "GHSA-m66c-fw79-6359",
-    "date": "2026-08-25T18:25:47Z"
+    "ghsa": "GHSA-x287-5c68-36wp",
+    "date": "2026-08-26T14:38:10Z"
    },
    {
-    "title": "eml_parser has a URL extraction bypass via HTML entities in URLs",
-    "url": "https://github.com/advisories/GHSA-fxgq-9m89-cxj9",
-    "score": 6.5,
-    "ghsa": "GHSA-fxgq-9m89-cxj9",
-    "date": "2026-08-25T18:23:16Z"
-   },
-   {
-    "title": "AshAuthentication vulnerable to OAuth2/OIDC account takeover via email-based user matching",
-    "url": "https://github.com/advisories/GHSA-777c-2fxx-qr28",
+    "title": "Trojanized pantheon-agents 0.6.1 and 0.6.2 on PyPI ship a credential stealer (supply-chain account compromise)",
+    "url": "https://github.com/advisories/GHSA-93qj-5q5v-3c2h",
     "score": 9.5,
-    "ghsa": "GHSA-777c-2fxx-qr28",
-    "date": "2026-08-25T18:20:27Z"
+    "ghsa": "GHSA-93qj-5q5v-3c2h",
+    "date": "2026-08-26T14:36:45Z"
+   },
+   {
+    "title": "AsyncHttpClient stores cookie for an unrelated domain (cookie tossing) via ThreadSafeCookieStore",
+    "url": "https://github.com/advisories/GHSA-m452-q8c9-rg2f",
+    "score": 4,
+    "ghsa": "GHSA-m452-q8c9-rg2f",
+    "date": "2026-08-26T14:35:52Z"
+   },
+   {
+    "title": "Wasmtime has a leak in WASIp1 `fd_renumber` implementation",
+    "url": "https://github.com/advisories/GHSA-3p27-qvp9-27qf",
+    "score": 5,
+    "ghsa": "GHSA-3p27-qvp9-27qf",
+    "date": "2026-08-26T14:30:10Z"
+   },
+   {
+    "title": "@logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
+    "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
+    "score": 8.6,
+    "ghsa": "GHSA-8h6h-x5pq-56fq",
+    "date": "2026-08-26T14:28:04Z"
+   },
+   {
+    "title": "IzPack has Path Traversal in UnpackerBase that allows writing files outside the installation directory via malicious pack entries",
+    "url": "https://github.com/advisories/GHSA-f63g-88cj-hjf9",
+    "score": 7.4,
+    "ghsa": "GHSA-f63g-88cj-hjf9",
+    "date": "2026-08-26T14:24:40Z"
    }
   ],
   "thn": [
+   {
+    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+    "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+    "date": "Wed, 26 Aug 2026 19:14:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+    "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+    "date": "Wed, 26 Aug 2026 18:37:02 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
     "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
@@ -357,23 +347,37 @@
     "date": "Tue, 25 Aug 2026 19:37:37 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-    "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-    "date": "Tue, 25 Aug 2026 18:49:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-    "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-    "date": "Tue, 25 Aug 2026 18:13:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Boston Scientific says cyberattack disrupted operations globally",
+    "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+    "date": "Wed, 26 Aug 2026 11:19:21 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+    "date": "Wed, 26 Aug 2026 10:47:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+    "date": "Wed, 26 Aug 2026 10:17:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Snowflake ends service-account passwords. Now comes the hard part",
+    "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+    "date": "Wed, 26 Aug 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Ubiquiti patches three max severity security vulnerabilities",
     "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
@@ -429,47 +433,19 @@
     "date": "Tue, 25 Aug 2026 10:44:16 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-    "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-    "date": "Tue, 25 Aug 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-    "date": "Tue, 25 Aug 2026 09:51:58 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-    "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-    "date": "Tue, 25 Aug 2026 09:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-    "date": "Tue, 25 Aug 2026 08:04:02 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10191,
+    "stars": 10194,
     "lang": "TypeScript"
    },
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 364,
+    "stars": 383,
     "lang": "Python"
    },
    {
@@ -499,7 +475,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 185,
+    "stars": 186,
     "lang": "Go"
    },
    {
@@ -635,9 +611,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "☢️ Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator",
+    "url": "https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/",
+    "date": "2026-08-26T13:59:47+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Ruby Marshal Kick-off Gadgets - elttam",
     "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
     "date": "2026-08-26T06:06:26+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Chaining three public V8 bugs to escape the V8 sandbox and recover a real Google v8CTF flag",
+    "url": "https://www.reddit.com/r/netsec/comments/1vyzs1y/chaining_three_public_v8_bugs_to_escape_the_v8/",
+    "date": "2026-08-26T15:09:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -689,20 +679,6 @@
     "date": "2026-08-19T12:58:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "ValleyRAT campaign uses fake GSTR-3B overdue notice targeting Indian taxpayers",
-    "url": "https://www.reddit.com/r/netsec/comments/1vsm77y/valleyrat_campaign_uses_fake_gstr3b_overdue/",
-    "date": "2026-08-19T13:18:26+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Hacking your life with AI can get you hacked: How AI orchestration platforms ship RCE by design",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/",
-    "date": "2026-08-18T13:45:26+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 4,
   "kev": 1676,
   "adv": 12,
   "feed": 48
