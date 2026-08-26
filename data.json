@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-26T09:05:29.549Z",
+ "generatedAt": "2026-08-26T10:00:05.499Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.7 security update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59559",
+    "score": 9.9,
+    "date": "2026-08-26T07:00:25+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-08-26T07:00:25+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: OpenShift Container Platform 4.22.11 bug fix and security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57365",
+    "score": 9.1,
+    "date": "2026-08-26T07:00:22+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
+    "score": 9.1,
+    "date": "2026-08-26T07:00:21+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-08-26T07:00:18+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
+    "score": 9.1,
+    "date": "2026-08-26T07:00:15+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
+    "score": 9.1,
+    "date": "2026-08-26T07:00:13+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
+    "score": 9.1,
+    "date": "2026-08-26T07:00:12+00:00"
+   },
+   {
+    "title": "CVE-2026-15416 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.6 security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:52857",
+    "score": 8.9,
+    "date": "2026-08-26T07:00:05+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59467",
+    "score": 8.8,
+    "date": "2026-08-26T07:00:24+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.5 security update (+43 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57194",
+    "score": 8.8,
+    "date": "2026-08-26T07:00:19+00:00"
+   },
+   {
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.3 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57191",
+    "score": 8.8,
+    "date": "2026-08-26T07:00:19+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10186,
+    "stars": 10187,
     "lang": "TypeScript"
    },
    {
@@ -550,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Ruby Marshal Kick-off Gadgets - elttam",
+    "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
+    "date": "2026-08-26T06:06:26+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Pwning Call of Duty 1: a 20-year-old RCE, found in an evening with AI",
     "url": "https://www.reddit.com/r/netsec/comments/1vy5zqu/pwning_call_of_duty_1_a_20yearold_rce_found_in_an/",
     "date": "2026-08-25T17:14:25+00:00",
@@ -560,13 +652,6 @@
     "title": "How Arena.ai can potentially leak your PII",
     "url": "https://www.reddit.com/r/netsec/comments/1vypgqz/how_arenaai_can_potentially_leak_your_pii/",
     "date": "2026-08-26T06:51:50+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Ruby Marshal Kick-off Gadgets - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
-    "date": "2026-08-26T06:06:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 10,
   "kev": 1676,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
