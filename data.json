@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T15:54:40.398Z",
+ "generatedAt": "2026-08-26T18:05:09.458Z",
  "sources": {
   "cve": [
    {
@@ -265,6 +265,20 @@
   ],
   "thn": [
    {
+    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+    "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+    "date": "Wed, 26 Aug 2026 22:12:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+    "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+    "date": "Wed, 26 Aug 2026 21:05:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
     "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
     "date": "Wed, 26 Aug 2026 19:14:31 +0530",
@@ -333,23 +347,16 @@
     "date": "Wed, 26 Aug 2026 11:17:28 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-    "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-    "date": "Tue, 25 Aug 2026 23:47:17 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-    "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-    "date": "Tue, 25 Aug 2026 19:37:37 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Meta agrees to $18 billion settlement over teen social media harms",
+    "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
+    "date": "Wed, 26 Aug 2026 12:41:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Boston Scientific says cyberattack disrupted operations globally",
     "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
@@ -426,26 +433,19 @@
     "date": "Tue, 25 Aug 2026 11:52:36 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-    "date": "Tue, 25 Aug 2026 10:44:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10194,
+    "stars": 10197,
     "lang": "TypeScript"
    },
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 383,
+    "stars": 403,
     "lang": "Python"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 186,
+    "stars": 187,
     "lang": "Go"
    },
    {
@@ -618,6 +618,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Minimus is shutting down after raising $51M, Twistlock founders returning cash to investors",
+    "url": "https://www.reddit.com/r/netsec/comments/1vz4fym/minimus_is_shutting_down_after_raising_51m/",
+    "date": "2026-08-26T17:55:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Ruby Marshal Kick-off Gadgets - elttam",
     "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
     "date": "2026-08-26T06:06:26+00:00",
@@ -672,13 +679,6 @@
     "date": "2026-08-19T12:01:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
-    "url": "https://www.reddit.com/r/netsec/comments/1vslpnb/crlfpowered_desync_attacks_beheading_http_streams/",
-    "date": "2026-08-19T12:58:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -694,7 +694,7 @@
  },
  "kpis": {
   "crit": 4,
-  "kev": 1676,
+  "kev": 1682,
   "adv": 12,
   "feed": 48
  },
