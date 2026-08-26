@@ -1,68 +1,7 @@
 {
- "generatedAt": "2026-08-26T18:05:09.458Z",
+ "generatedAt": "2026-08-26T20:09:27.947Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-50880 — YouTransfer has an issue in the sendmail transport integration that allows arbitrary code execution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50880",
-    "score": 9.8,
-    "date": "2026-06-15T21:30:41Z"
-   },
-   {
-    "title": "CVE-2026-39006 — SNMP4J-Agent allows a remote attacker to execute arbitrary code via the snmp4jCfgStoragePath component",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39006",
-    "score": 9.8,
-    "date": "2026-06-15T21:30:39Z"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-47835 — Spring AI vector store metadata filtering to handle special characters in Elasticsearch, OpenSearch, and GemFire Vector Stores",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47835",
-    "score": 8.6,
-    "date": "2026-06-15T21:30:39Z"
-   },
-   {
-    "title": "CVE-2026-42527 — Apache Camel: Permissive default ObjectInputFilter pattern admits java.net.** and enables DNS-based information disclosure",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42527",
-    "score": 8.1,
-    "date": "2026-07-06T09:30:28Z"
-   },
-   {
-    "title": "CVE-2026-50879 — linx-server has an issue in the uploadPostHandler component that allows attackers to cause a Denial of Service (DoS) via a crafted POST requ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50879",
-    "score": 7.5,
-    "date": "2026-06-15T21:30:41Z"
-   },
-   {
-    "title": "CVE-2026-41708 — Spring Cloud Sleuth instrumentation of Spring TX DoS vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41708",
-    "score": 7.5,
-    "date": "2026-06-15T21:30:39Z"
-   },
-   {
-    "title": "OSV-2022-581 — Heap-buffer-overflow in megasas_map_sgl",
-    "url": "https://github.com/advisories/OSV-2022-581",
-    "score": null,
-    "date": "2022-07-14T00:00:45.644503Z"
-   },
-   {
-    "title": "OSV-2021-820 — UNKNOWN READ in virtio_gpu_disable_scanout",
-    "url": "https://github.com/advisories/OSV-2021-820",
-    "score": null,
-    "date": "2021-06-02T00:00:31.619765Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -179,6 +118,20 @@
   ],
   "adv": [
    {
+    "title": "OpenSTAManager has HTML Injection in modules/utenti/edit.php",
+    "url": "https://github.com/advisories/GHSA-crx4-7mmq-j74j",
+    "score": 3.5,
+    "ghsa": "GHSA-crx4-7mmq-j74j",
+    "date": "2026-08-26T18:12:25Z"
+   },
+   {
+    "title": "LibreNMS — Stored XSS via SNMP/Syslog Data in Legacy Templates",
+    "url": "https://github.com/advisories/GHSA-7w8c-qgxg-m7jx",
+    "score": 7.1,
+    "ghsa": "GHSA-7w8c-qgxg-m7jx",
+    "date": "2026-08-26T18:05:46Z"
+   },
+   {
     "title": "asyncssh has SCP Path Traversal to Arbitrary File Write",
     "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
     "score": 8.1,
@@ -247,20 +200,6 @@
     "score": 5,
     "ghsa": "GHSA-3p27-qvp9-27qf",
     "date": "2026-08-26T14:30:10Z"
-   },
-   {
-    "title": "@logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
-    "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
-    "score": 8.6,
-    "ghsa": "GHSA-8h6h-x5pq-56fq",
-    "date": "2026-08-26T14:28:04Z"
-   },
-   {
-    "title": "IzPack has Path Traversal in UnpackerBase that allows writing files outside the installation directory via malicious pack entries",
-    "url": "https://github.com/advisories/GHSA-f63g-88cj-hjf9",
-    "score": 7.4,
-    "ghsa": "GHSA-f63g-88cj-hjf9",
-    "date": "2026-08-26T14:24:40Z"
    }
   ],
   "thn": [
@@ -351,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+    "url": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+    "date": "Wed, 26 Aug 2026 14:48:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Meta agrees to $18 billion settlement over teen social media harms",
     "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
     "date": "Wed, 26 Aug 2026 12:41:05 -0400",
@@ -426,20 +372,13 @@
     "date": "Tue, 25 Aug 2026 16:25:26 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Massive DDoS attack disrupts Norway’s government digital services",
-    "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-    "date": "Tue, 25 Aug 2026 11:52:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10197,
+    "stars": 10200,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +414,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 187,
+    "stars": 188,
     "lang": "Go"
    },
    {
@@ -493,7 +432,7 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 154,
+    "stars": 155,
     "lang": "Python"
    },
    {
@@ -611,13 +550,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "☢️ Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator",
-    "url": "https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/",
-    "date": "2026-08-26T13:59:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Minimus is shutting down after raising $51M, Twistlock founders returning cash to investors",
     "url": "https://www.reddit.com/r/netsec/comments/1vz4fym/minimus_is_shutting_down_after_raising_51m/",
     "date": "2026-08-26T17:55:39+00:00",
@@ -625,9 +557,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Ruby Marshal Kick-off Gadgets - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
-    "date": "2026-08-26T06:06:26+00:00",
+    "title": "☢️ Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator",
+    "url": "https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/",
+    "date": "2026-08-26T13:59:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -635,6 +567,20 @@
     "title": "Chaining three public V8 bugs to escape the V8 sandbox and recover a real Google v8CTF flag",
     "url": "https://www.reddit.com/r/netsec/comments/1vyzs1y/chaining_three_public_v8_bugs_to_escape_the_v8/",
     "date": "2026-08-26T15:09:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure",
+    "url": "https://www.reddit.com/r/netsec/comments/1vz6179/patchcord_new_malware_cluster_targets_afghan/",
+    "date": "2026-08-26T18:50:56+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Ruby Marshal Kick-off Gadgets - elttam",
+    "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
+    "date": "2026-08-26T06:06:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -672,18 +618,11 @@
     "date": "2026-08-24T16:01:49+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "How to break secure boot without touching any cryptography",
-    "url": "https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/",
-    "date": "2026-08-19T12:01:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -693,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 0,
   "kev": 1682,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
