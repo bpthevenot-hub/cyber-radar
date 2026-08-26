@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-26T05:53:06.035Z",
+ "generatedAt": "2026-08-26T07:11:43.031Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 2.25.5 - Red Hat OpenShift AI (+49 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10184",
+    "score": 9.9,
+    "date": "2026-08-26T04:30:28+00:00"
+   },
+   {
+    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.1 Release. (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10175",
+    "score": 9.8,
+    "date": "2026-08-26T04:30:27+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,22 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-14522 — Malicious code in syntaxerror-package-12345 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-14522",
-    "score": null,
-    "date": "2026-08-26T04:16:50Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.7.2 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11331",
+    "score": 9.6,
+    "date": "2026-08-26T04:30:38+00:00"
    },
    {
-    "title": "MAL-2026-2828 — Malicious code in express-security-policy (npm)",
-    "url": "https://github.com/advisories/MAL-2026-2828",
-    "score": null,
-    "date": "2026-04-17T06:20:31Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.7.2 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10158",
+    "score": 9.6,
+    "date": "2026-08-26T04:30:24+00:00"
    },
    {
-    "title": "MAL-2026-2830 — Malicious code in renovate-config-doctolib (npm)",
-    "url": "https://github.com/advisories/MAL-2026-2830",
-    "score": null,
-    "date": "2026-04-17T06:20:10Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: RHTAS 1.3.4 - Red Hat Trusted Artifact Signer Release (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10125",
+    "score": 9.6,
+    "date": "2026-08-26T04:30:23+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-08-26T04:31:08+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-08-26T04:31:06+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-08-26T04:31:04+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-08-26T04:31:02+00:00"
+   },
+   {
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-08-26T04:31:00+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 security advisory (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54757",
+    "score": 9.1,
+    "date": "2026-08-26T04:30:57+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
+    "score": 9.1,
+    "date": "2026-08-26T04:30:56+00:00"
    }
   ],
   "kev": [
@@ -235,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+    "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+    "date": "Wed, 26 Aug 2026 11:57:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+    "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+    "date": "Wed, 26 Aug 2026 11:17:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
     "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
     "date": "Tue, 25 Aug 2026 23:47:17 +0530",
@@ -301,20 +369,6 @@
     "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
     "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
     "date": "Tue, 25 Aug 2026 11:42:35 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-    "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-    "date": "Mon, 24 Aug 2026 23:11:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-    "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-    "date": "Mon, 24 Aug 2026 23:11:11 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -409,7 +463,7 @@
    {
     "title": "openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. n",
     "url": "https://github.com/openai/codex-security",
-    "stars": 10180,
+    "stars": 10182,
     "lang": "TypeScript"
    },
    {
@@ -427,7 +481,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 247,
+    "stars": 260,
     "lang": "Python"
    },
    {
@@ -588,6 +642,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How Arena.ai can potentially leak your PII",
+    "url": "https://www.reddit.com/r/netsec/comments/1vypgqz/how_arenaai_can_potentially_leak_your_pii/",
+    "date": "2026-08-26T06:51:50+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Ruby Marshal Kick-off Gadgets - elttam",
+    "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
+    "date": "2026-08-26T06:06:26+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Local Privilege Escalation To System In Wibu-Systems CodeMeter Application",
     "url": "https://www.reddit.com/r/netsec/comments/1vxw6ym/local_privilege_escalation_to_system_in/",
     "date": "2026-08-25T10:41:27+00:00",
@@ -598,13 +666,6 @@
     "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
     "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
     "date": "2026-08-24T21:00:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Unauthenticated remote uninstall in my own EDR agent, and the four other auth bugs that turned out to be the same bug",
-    "url": "https://www.reddit.com/r/netsec/comments/1vy9rkb/unauthenticated_remote_uninstall_in_my_own_edr/",
-    "date": "2026-08-25T19:26:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -642,13 +703,6 @@
     "date": "2026-08-19T13:18:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Hacking your life with AI can get you hacked: How AI orchestration platforms ship RCE by design",
-    "url": "https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/",
-    "date": "2026-08-18T13:45:26+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -663,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1676,
   "adv": 12,
   "feed": 48
