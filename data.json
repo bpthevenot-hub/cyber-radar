@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-08-28T05:27:53.510Z",
+ "generatedAt": "2026-08-28T18:48:46.476Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-55565 — Yamcs vulnerable to authenticated remote code execution via unescaped StreamSQL `LIKE` pattern compiled by Janino (`LikeExpression`)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55565",
+    "score": 9.9,
+    "date": "2026-08-28T17:30:32Z"
+   },
+   {
+    "title": "CVE-2026-55559 — Yamcs vulnerable to Remote Code Execution via instance-template argument YAML injection (createInstance)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55559",
+    "score": 9.8,
+    "date": "2026-08-28T17:23:04Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.7.2 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11331",
-    "score": 9.6,
-    "date": "2026-08-28T04:26:32+00:00"
+    "title": "CVE-2026-55068 — free5GC NRF nnrf-nfm lacks NF Profile input validation — enables NF Registration Poisoning with arbitrary service endpoints",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55068",
+    "score": 9.5,
+    "date": "2026-08-28T16:58:13Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-08-28T04:27:03+00:00"
+    "title": "CVE-2026-68525 — Apache Tomcat: Redirect after FORM auth may bypass method specific constraints",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68525",
+    "score": 9.5,
+    "date": "2026-08-28T16:15:41.749Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 security advisory (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54757",
+    "title": "CVE-2026-55511 — Yamcs vulnerable to authenticated RCE via StreamSQL aggregate-compiler column-name injection in Yamcs `executeSql`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55511",
     "score": 9.1,
-    "date": "2026-08-28T04:27:00+00:00"
+    "date": "2026-08-28T17:06:56Z"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:59+00:00"
+    "title": "CVE-2026-55521 — Yamcs Core API has Multiple Missing Function Level Access Control vulnerabilities",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55521",
+    "score": 8.8,
+    "date": "2026-08-28T17:09:35Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:58+00:00"
+    "title": "CVE-2026-55065 — Vikunja vulnerable to Improper Authorization and Authorization Bypass Through User-Controlled Key",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55065",
+    "score": 8.1,
+    "date": "2026-08-28T16:50:34Z"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42051",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:58+00:00"
+    "title": "CVE-2026-55552 — Yamcs has Unauthenticated Directory Traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55552",
+    "score": 7.5,
+    "date": "2026-08-28T17:20:42Z"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.15.1 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42049",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:56+00:00"
+    "title": "CVE-2026-54788 — datadog-opentelemetry has unbounded W3C tracestate parsing that may lead to DoS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54788",
+    "score": 7.5,
+    "date": "2026-08-28T16:35:03Z"
    },
    {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:56+00:00"
+    "title": "CVE-2026-68763 — Apache Tomcat: DoS via allocation leak in HTTP/2 backlog tracking when a stream is reset",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68763",
+    "score": 7.5,
+    "date": "2026-08-28T16:15:44.305Z"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40945",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:55+00:00"
+    "title": "CVE-2026-68569 — Apache Tomcat: Principal lookup can fail open in some cases",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68569",
+    "score": 7.5,
+    "date": "2026-08-28T16:15:43.010Z"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40118",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:54+00:00"
-   },
-   {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:53+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36651",
-    "score": 9.1,
-    "date": "2026-08-28T04:26:53+00:00"
+    "title": "CVE-2026-66422 — Apache Tomcat: Servlet role references can bypass declarative role constraints",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66422",
+    "score": 7.5,
+    "date": "2026-08-28T16:15:40.453Z"
    }
   ],
   "kev": [
@@ -203,177 +203,226 @@
   ],
   "adv": [
    {
-    "title": "aiosmtplib: STARTTLS response injection",
-    "url": "https://github.com/advisories/GHSA-vxj7-4xrp-5vr4",
-    "score": 5.9,
-    "ghsa": "GHSA-vxj7-4xrp-5vr4",
-    "date": "2026-08-27T23:32:22Z"
+    "title": "Weblate has IDOR in GroupViewSet that allows authenticated project manager to gain unauthorized read access to any private project",
+    "url": "https://github.com/advisories/GHSA-2q2q-jr9g-v9rf",
+    "score": 8.1,
+    "ghsa": "GHSA-2q2q-jr9g-v9rf",
+    "date": "2026-08-28T18:47:29Z"
    },
    {
-    "title": "WebOb: Open redirect in Location header normalization via leading C0 control / space characters",
-    "url": "https://github.com/advisories/GHSA-6hx8-3wjj-gr8g",
-    "score": 6.1,
-    "ghsa": "GHSA-6hx8-3wjj-gr8g",
-    "date": "2026-08-27T22:10:07Z"
+    "title": "Private Weblate projects vulnerable to observable object existence disclosure via globally scoped object lookups",
+    "url": "https://github.com/advisories/GHSA-2p9g-x3cv-5hh4",
+    "score": 4.3,
+    "ghsa": "GHSA-2p9g-x3cv-5hh4",
+    "date": "2026-08-28T18:46:54Z"
    },
    {
-    "title": "Crossplane's TOCTOU between cosign verification and image fetch in xpkg.CachedClient allows tag-based package install to bypass signature check",
-    "url": "https://github.com/advisories/GHSA-mf7q-r4rv-jv94",
+    "title": "Protego has exponential backtracking ReDoS in robots.txt URL wildcard matching",
+    "url": "https://github.com/advisories/GHSA-wjmf-p669-5m5p",
     "score": 7.5,
-    "ghsa": "GHSA-mf7q-r4rv-jv94",
-    "date": "2026-08-27T17:25:25Z"
+    "ghsa": "GHSA-wjmf-p669-5m5p",
+    "date": "2026-08-28T18:43:02Z"
    },
    {
-    "title": "libreoffice-convert vulnerable to path traversal / arbitrary file write",
-    "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
-    "score": 6.5,
-    "ghsa": "GHSA-gmxc-r82q-347r",
-    "date": "2026-08-27T17:23:16Z"
+    "title": "plone.app.portlets vulnerable to denial of service via RSS feed portlet",
+    "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
+    "score": 9.1,
+    "ghsa": "GHSA-x5g3-w747-2h8q",
+    "date": "2026-08-28T18:41:35Z"
    },
    {
-    "title": "silverstripe-advancedworkflow vulnerable to remote code execution via advanced workflow email template",
-    "url": "https://github.com/advisories/GHSA-39mm-rwm3-29jp",
-    "score": 7.2,
-    "ghsa": "GHSA-39mm-rwm3-29jp",
-    "date": "2026-08-27T17:20:40Z"
+    "title": "PowSyBl Core has Command Injection in LocalCommandExecutor-s",
+    "url": "https://github.com/advisories/GHSA-jqvf-j3ww-r8c7",
+    "score": 7.5,
+    "ghsa": "GHSA-jqvf-j3ww-r8c7",
+    "date": "2026-08-28T18:37:28Z"
    },
    {
-    "title": "Kargo has Open Redirect in UI OIDC Login Flow via redirectTo Query Parameter",
-    "url": "https://github.com/advisories/GHSA-g7gw-m874-7rmf",
-    "score": 2,
-    "ghsa": "GHSA-g7gw-m874-7rmf",
-    "date": "2026-08-27T17:17:36Z"
+    "title": "Spinnaker: Improper yaml processing on kustomize bake operations",
+    "url": "https://github.com/advisories/GHSA-p68j-q7hf-3qcp",
+    "score": 7.5,
+    "ghsa": "GHSA-p68j-q7hf-3qcp",
+    "date": "2026-08-28T18:35:06Z"
    },
    {
-    "title": "n8n-nodes-sqlite3 vulnerable to path traversal via user-controlled database file path (db_path parameter)",
-    "url": "https://github.com/advisories/GHSA-q7m3-rhxg-7vxr",
+    "title": "Buffa Vulnerable to Memory Exhaustion Denial of Service in decode_unknown_field via Unbounded Allocation",
+    "url": "https://github.com/advisories/GHSA-f9qc-qg88-7pq5",
     "score": null,
-    "ghsa": "GHSA-q7m3-rhxg-7vxr",
-    "date": "2026-08-27T17:06:55Z"
+    "ghsa": "GHSA-f9qc-qg88-7pq5",
+    "date": "2026-08-28T18:34:22Z"
    },
    {
-    "title": "cakephp/queue's Incomplete Comparison in getUniqueId vulnerable to collisions",
-    "url": "https://github.com/advisories/GHSA-r5pm-vrc5-3m73",
-    "score": 3.7,
-    "ghsa": "GHSA-r5pm-vrc5-3m73",
-    "date": "2026-08-27T17:03:56Z"
+    "title": "Buffa has a Use-After-Free in OwnedView via Unsound 'static Lifetime Promotion in Deref",
+    "url": "https://github.com/advisories/GHSA-9pwq-gcrx-wghh",
+    "score": null,
+    "ghsa": "GHSA-9pwq-gcrx-wghh",
+    "date": "2026-08-28T18:33:58Z"
    },
    {
-    "title": "silverstripe/userforms vulnerable to remote code execution via userforms email subject",
-    "url": "https://github.com/advisories/GHSA-g8wr-r2v2-vqc6",
-    "score": 8.8,
-    "ghsa": "GHSA-g8wr-r2v2-vqc6",
-    "date": "2026-08-27T16:53:17Z"
+    "title": "9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
+    "url": "https://github.com/advisories/GHSA-86m2-fcxq-5q7c",
+    "score": 8.2,
+    "ghsa": "GHSA-86m2-fcxq-5q7c",
+    "date": "2026-08-28T18:33:20Z"
    },
    {
-    "title": "Silverstripe Framework: Possible XSS attack through media embed",
-    "url": "https://github.com/advisories/GHSA-gvrw-qqp5-jgc5",
-    "score": 5.4,
-    "ghsa": "GHSA-gvrw-qqp5-jgc5",
-    "date": "2026-08-27T16:49:47Z"
+    "title": "9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
+    "url": "https://github.com/advisories/GHSA-8gmq-j984-vp4r",
+    "score": 8.6,
+    "ghsa": "GHSA-8gmq-j984-vp4r",
+    "date": "2026-08-28T18:32:01Z"
    },
    {
-    "title": "OpenSTAManager has HTML Injection in modules/utenti/edit.php",
-    "url": "https://github.com/advisories/GHSA-crx4-7mmq-j74j",
-    "score": 3.5,
-    "ghsa": "GHSA-crx4-7mmq-j74j",
-    "date": "2026-08-26T18:12:25Z"
+    "title": "phpSysInfo has an IP allowlist (PSI_ALLOWED) bypass via spoofed X-Forwarded-For / Client-IP headers",
+    "url": "https://github.com/advisories/GHSA-786w-p5pm-cvgh",
+    "score": 7.5,
+    "ghsa": "GHSA-786w-p5pm-cvgh",
+    "date": "2026-08-28T18:30:55Z"
    },
    {
-    "title": "LibreNMS — Stored XSS via SNMP/Syslog Data in Legacy Templates",
-    "url": "https://github.com/advisories/GHSA-7w8c-qgxg-m7jx",
-    "score": 7.1,
-    "ghsa": "GHSA-7w8c-qgxg-m7jx",
-    "date": "2026-08-26T18:05:46Z"
+    "title": "Bifrost's SSRF deny-list is incomplete: isPublicIP permits CGNAT, IPv6 6to4/NAT64, and site-local in FetchAndEncodeURL",
+    "url": "https://github.com/advisories/GHSA-w98g-5w9p-p3rc",
+    "score": 7.5,
+    "ghsa": "GHSA-w98g-5w9p-p3rc",
+    "date": "2026-08-28T18:26:02Z"
    }
   ],
   "thn": [
+   {
+    "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+    "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+    "date": "Fri, 28 Aug 2026 22:42:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+    "url": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+    "date": "Fri, 28 Aug 2026 21:50:46 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+    "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+    "date": "Fri, 28 Aug 2026 21:26:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+    "url": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+    "date": "Fri, 28 Aug 2026 20:57:26 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+    "url": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+    "date": "Fri, 28 Aug 2026 17:37:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Key Reasons Why Identity Fabric Matters in 2026",
+    "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+    "date": "Fri, 28 Aug 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+    "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+    "date": "Fri, 28 Aug 2026 16:50:32 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+    "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+    "date": "Fri, 28 Aug 2026 16:28:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+    "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+    "date": "Fri, 28 Aug 2026 15:15:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+    "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+    "date": "Fri, 28 Aug 2026 13:55:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+    "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+    "date": "Fri, 28 Aug 2026 13:50:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
     "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
     "date": "Fri, 28 Aug 2026 00:06:19 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-    "date": "Thu, 27 Aug 2026 20:43:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-    "date": "Thu, 27 Aug 2026 20:42:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-    "date": "Thu, 27 Aug 2026 19:09:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "date": "Thu, 27 Aug 2026 17:26:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-    "date": "Thu, 27 Aug 2026 17:26:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "What the Data Says About AI in Security Operations in 2026",
-    "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-    "date": "Thu, 27 Aug 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-    "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-    "date": "Thu, 27 Aug 2026 16:30:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-    "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-    "date": "Thu, 27 Aug 2026 15:03:38 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-    "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-    "date": "Thu, 27 Aug 2026 13:43:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-    "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
-    "date": "Thu, 27 Aug 2026 12:35:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-    "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-    "date": "Wed, 26 Aug 2026 22:12:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+    "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+    "date": "Fri, 28 Aug 2026 14:18:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+    "url": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+    "date": "Fri, 28 Aug 2026 12:36:47 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+    "date": "Fri, 28 Aug 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+    "date": "Fri, 28 Aug 2026 08:58:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+    "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
+    "date": "Fri, 28 Aug 2026 07:46:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "ServiceNow warns of three max severity security vulnerabilities",
+    "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+    "date": "Fri, 28 Aug 2026 06:29:42 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
+    "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
+    "date": "Fri, 28 Aug 2026 05:10:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
     "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
@@ -408,55 +457,6 @@
     "date": "Thu, 27 Aug 2026 10:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-    "date": "Thu, 27 Aug 2026 09:31:13 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
-    "date": "Thu, 27 Aug 2026 08:16:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Webinar: How Google Workspace breaches happen and what to do next",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
-    "date": "Thu, 27 Aug 2026 08:16:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Carhartt data breach exposes information of 12.9 million accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-    "date": "Thu, 27 Aug 2026 07:10:04 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
-    "date": "Thu, 27 Aug 2026 05:16:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "ATF confirms “major incident” after recent Qilin breach claims",
-    "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
-    "date": "Thu, 27 Aug 2026 04:13:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
-    "date": "Wed, 26 Aug 2026 17:33:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +475,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 261,
+    "stars": 262,
     "lang": "Python"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
     "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 154,
+    "stars": 153,
     "lang": "Python"
    },
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 135,
+    "stars": 136,
     "lang": "JavaScript"
    },
    {
@@ -656,13 +656,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Minimus is shutting down after raising $51M, Twistlock founders returning cash to investors",
-    "url": "https://www.reddit.com/r/netsec/comments/1vz4fym/minimus_is_shutting_down_after_raising_51m/",
-    "date": "2026-08-26T17:55:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "☢️ Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator",
     "url": "https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/",
     "date": "2026-08-26T13:59:47+00:00",
@@ -673,13 +666,6 @@
     "title": "Chaining three public V8 bugs to escape the V8 sandbox and recover a real Google v8CTF flag",
     "url": "https://www.reddit.com/r/netsec/comments/1vyzs1y/chaining_three_public_v8_bugs_to_escape_the_v8/",
     "date": "2026-08-26T15:09:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure",
-    "url": "https://www.reddit.com/r/netsec/comments/1vz6179/patchcord_new_malware_cluster_targets_afghan/",
-    "date": "2026-08-26T18:50:56+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -703,6 +689,20 @@
     "date": "2026-08-25T10:41:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
+    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
+    "date": "2026-08-24T21:00:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Tata’s B2B platform returned OTPs in API responses",
+    "url": "https://www.reddit.com/r/netsec/comments/1vx4j41/tatas_b2b_platform_returned_otps_in_api_responses/",
+    "date": "2026-08-24T14:33:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 7,
   "kev": 1685,
   "adv": 12,
   "feed": 48
