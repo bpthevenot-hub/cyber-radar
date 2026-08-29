@@ -1,68 +1,7 @@
 {
- "generatedAt": "2026-08-29T02:16:21.138Z",
+ "generatedAt": "2026-08-29T09:10:52.038Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "MAL-2026-15544 — Malicious code in sentrykit (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15544",
-    "score": null,
-    "date": "2026-08-28T23:17:48Z"
-   },
-   {
-    "title": "MAL-2026-15526 — Malicious code in analytics-web-client (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15526",
-    "score": null,
-    "date": "2026-08-28T23:17:38Z"
-   },
-   {
-    "title": "MAL-2026-15530 — Malicious code in confluence-create-content (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15530",
-    "score": null,
-    "date": "2026-08-28T23:17:31Z"
-   },
-   {
-    "title": "MAL-2026-15531 — Malicious code in confluence-editor (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15531",
-    "score": null,
-    "date": "2026-08-28T23:17:15Z"
-   },
-   {
-    "title": "MAL-2026-15520 — Malicious code in ring-device-settings-library (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15520",
-    "score": null,
-    "date": "2026-08-28T23:14:03Z"
-   },
-   {
-    "title": "MAL-2026-15498 — Malicious code in aws-blog (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15498",
-    "score": null,
-    "date": "2026-08-28T23:12:05Z"
-   },
-   {
-    "title": "MAL-2026-15502 — Malicious code in grafeno-auth (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15502",
-    "score": null,
-    "date": "2026-08-28T23:01:43Z"
-   },
-   {
-    "title": "MAL-2026-15494 — Malicious code in @7nohe/openapi-react-query-codegen (npm)",
-    "url": "https://github.com/advisories/MAL-2026-15494",
-    "score": null,
-    "date": "2026-08-28T22:59:24Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -481,7 +420,7 @@
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
     "url": "https://github.com/antitree/nfc_canary",
-    "stars": 104,
+    "stars": 105,
     "lang": "C"
    },
    {
@@ -499,7 +438,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 90,
+    "stars": 91,
     "lang": "PowerShell"
    },
    {
@@ -683,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -693,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1685,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
