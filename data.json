@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-08-28T18:48:46.476Z",
+ "generatedAt": "2026-08-29T02:16:21.138Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-55565 — Yamcs vulnerable to authenticated remote code execution via unescaped StreamSQL `LIKE` pattern compiled by Janino (`LikeExpression`)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55565",
-    "score": 9.9,
-    "date": "2026-08-28T17:30:32Z"
-   },
-   {
-    "title": "CVE-2026-55559 — Yamcs vulnerable to Remote Code Execution via instance-template argument YAML injection (createInstance)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55559",
-    "score": 9.8,
-    "date": "2026-08-28T17:23:04Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-55068 — free5GC NRF nnrf-nfm lacks NF Profile input validation — enables NF Registration Poisoning with arbitrary service endpoints",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55068",
-    "score": 9.5,
-    "date": "2026-08-28T16:58:13Z"
+    "title": "MAL-2026-15544 — Malicious code in sentrykit (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15544",
+    "score": null,
+    "date": "2026-08-28T23:17:48Z"
    },
    {
-    "title": "CVE-2026-68525 — Apache Tomcat: Redirect after FORM auth may bypass method specific constraints",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68525",
-    "score": 9.5,
-    "date": "2026-08-28T16:15:41.749Z"
+    "title": "MAL-2026-15526 — Malicious code in analytics-web-client (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15526",
+    "score": null,
+    "date": "2026-08-28T23:17:38Z"
    },
    {
-    "title": "CVE-2026-55511 — Yamcs vulnerable to authenticated RCE via StreamSQL aggregate-compiler column-name injection in Yamcs `executeSql`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55511",
-    "score": 9.1,
-    "date": "2026-08-28T17:06:56Z"
+    "title": "MAL-2026-15530 — Malicious code in confluence-create-content (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15530",
+    "score": null,
+    "date": "2026-08-28T23:17:31Z"
    },
    {
-    "title": "CVE-2026-55521 — Yamcs Core API has Multiple Missing Function Level Access Control vulnerabilities",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55521",
-    "score": 8.8,
-    "date": "2026-08-28T17:09:35Z"
+    "title": "MAL-2026-15531 — Malicious code in confluence-editor (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15531",
+    "score": null,
+    "date": "2026-08-28T23:17:15Z"
    },
    {
-    "title": "CVE-2026-55065 — Vikunja vulnerable to Improper Authorization and Authorization Bypass Through User-Controlled Key",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55065",
-    "score": 8.1,
-    "date": "2026-08-28T16:50:34Z"
+    "title": "MAL-2026-15520 — Malicious code in ring-device-settings-library (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15520",
+    "score": null,
+    "date": "2026-08-28T23:14:03Z"
    },
    {
-    "title": "CVE-2026-55552 — Yamcs has Unauthenticated Directory Traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55552",
-    "score": 7.5,
-    "date": "2026-08-28T17:20:42Z"
+    "title": "MAL-2026-15498 — Malicious code in aws-blog (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15498",
+    "score": null,
+    "date": "2026-08-28T23:12:05Z"
    },
    {
-    "title": "CVE-2026-54788 — datadog-opentelemetry has unbounded W3C tracestate parsing that may lead to DoS",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54788",
-    "score": 7.5,
-    "date": "2026-08-28T16:35:03Z"
+    "title": "MAL-2026-15502 — Malicious code in grafeno-auth (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15502",
+    "score": null,
+    "date": "2026-08-28T23:01:43Z"
    },
    {
-    "title": "CVE-2026-68763 — Apache Tomcat: DoS via allocation leak in HTTP/2 backlog tracking when a stream is reset",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68763",
-    "score": 7.5,
-    "date": "2026-08-28T16:15:44.305Z"
-   },
-   {
-    "title": "CVE-2026-68569 — Apache Tomcat: Principal lookup can fail open in some cases",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68569",
-    "score": 7.5,
-    "date": "2026-08-28T16:15:43.010Z"
-   },
-   {
-    "title": "CVE-2026-66422 — Apache Tomcat: Servlet role references can bypass declarative role constraints",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66422",
-    "score": 7.5,
-    "date": "2026-08-28T16:15:40.453Z"
+    "title": "MAL-2026-15494 — Malicious code in @7nohe/openapi-react-query-codegen (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15494",
+    "score": null,
+    "date": "2026-08-28T22:59:24Z"
    }
   ],
   "kev": [
@@ -203,91 +179,105 @@
   ],
   "adv": [
    {
-    "title": "Weblate has IDOR in GroupViewSet that allows authenticated project manager to gain unauthorized read access to any private project",
-    "url": "https://github.com/advisories/GHSA-2q2q-jr9g-v9rf",
-    "score": 8.1,
-    "ghsa": "GHSA-2q2q-jr9g-v9rf",
-    "date": "2026-08-28T18:47:29Z"
+    "title": "MariaDB has possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
+    "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
+    "score": 6.5,
+    "ghsa": "GHSA-g5xc-5w98-jfvm",
+    "date": "2026-08-28T22:53:12Z"
    },
    {
-    "title": "Private Weblate projects vulnerable to observable object existence disclosure via globally scoped object lookups",
-    "url": "https://github.com/advisories/GHSA-2p9g-x3cv-5hh4",
-    "score": 4.3,
-    "ghsa": "GHSA-2p9g-x3cv-5hh4",
-    "date": "2026-08-28T18:46:54Z"
+    "title": "RestrictedPython guard hooks can be shadowed via positional-only arguments",
+    "url": "https://github.com/advisories/GHSA-ffg3-p8fm-mjx2",
+    "score": 8.3,
+    "ghsa": "GHSA-ffg3-p8fm-mjx2",
+    "date": "2026-08-28T22:51:35Z"
    },
    {
-    "title": "Protego has exponential backtracking ReDoS in robots.txt URL wildcard matching",
-    "url": "https://github.com/advisories/GHSA-wjmf-p669-5m5p",
-    "score": 7.5,
-    "ghsa": "GHSA-wjmf-p669-5m5p",
-    "date": "2026-08-28T18:43:02Z"
+    "title": "org.mariadb:r2dbc-mariadb vulnerable to cleartext password disclosure to a man-in-the-middle server (clear-text auth plugins not gated on a secure tra",
+    "url": "https://github.com/advisories/GHSA-c857-9x2m-cvh2",
+    "score": 5.9,
+    "ghsa": "GHSA-c857-9x2m-cvh2",
+    "date": "2026-08-28T22:50:56Z"
    },
    {
-    "title": "plone.app.portlets vulnerable to denial of service via RSS feed portlet",
-    "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
-    "score": 9.1,
-    "ghsa": "GHSA-x5g3-w747-2h8q",
-    "date": "2026-08-28T18:41:35Z"
+    "title": "org.mariadb:r2dbc-mariadb has Inappropriate Encoding for Output Context and Improper Encoding or Escaping of Output",
+    "url": "https://github.com/advisories/GHSA-5rqc-86vf-g8r2",
+    "score": 5.9,
+    "ghsa": "GHSA-5rqc-86vf-g8r2",
+    "date": "2026-08-28T22:49:03Z"
    },
    {
-    "title": "PowSyBl Core has Command Injection in LocalCommandExecutor-s",
-    "url": "https://github.com/advisories/GHSA-jqvf-j3ww-r8c7",
-    "score": 7.5,
-    "ghsa": "GHSA-jqvf-j3ww-r8c7",
-    "date": "2026-08-28T18:37:28Z"
+    "title": "org.mariadb.jdbc:mariadb-java-client has Inappropriate Encoding for Output Context",
+    "url": "https://github.com/advisories/GHSA-xvr9-35cr-46v9",
+    "score": 5.9,
+    "ghsa": "GHSA-xvr9-35cr-46v9",
+    "date": "2026-08-28T22:47:19Z"
    },
    {
-    "title": "Spinnaker: Improper yaml processing on kustomize bake operations",
-    "url": "https://github.com/advisories/GHSA-p68j-q7hf-3qcp",
-    "score": 7.5,
-    "ghsa": "GHSA-p68j-q7hf-3qcp",
-    "date": "2026-08-28T18:35:06Z"
+    "title": "org.mariadb.jdbc:mariadb-java-client has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
+    "url": "https://github.com/advisories/GHSA-qxvw-fvwx-5cp7",
+    "score": 5.9,
+    "ghsa": "GHSA-qxvw-fvwx-5cp7",
+    "date": "2026-08-28T22:45:01Z"
    },
    {
-    "title": "Buffa Vulnerable to Memory Exhaustion Denial of Service in decode_unknown_field via Unbounded Allocation",
-    "url": "https://github.com/advisories/GHSA-f9qc-qg88-7pq5",
-    "score": null,
-    "ghsa": "GHSA-f9qc-qg88-7pq5",
-    "date": "2026-08-28T18:34:22Z"
+    "title": "MariaDB has cleartext password disclosure to a MITM on the initial-handshake",
+    "url": "https://github.com/advisories/GHSA-g9jj-cgmh-9f38",
+    "score": 5.9,
+    "ghsa": "GHSA-g9jj-cgmh-9f38",
+    "date": "2026-08-28T22:41:56Z"
    },
    {
-    "title": "Buffa has a Use-After-Free in OwnedView via Unsound 'static Lifetime Promotion in Deref",
-    "url": "https://github.com/advisories/GHSA-9pwq-gcrx-wghh",
-    "score": null,
-    "ghsa": "GHSA-9pwq-gcrx-wghh",
-    "date": "2026-08-28T18:33:58Z"
+    "title": "Snipe-IT has an Improper Privilege Management issue",
+    "url": "https://github.com/advisories/GHSA-j5g3-42wp-gqm3",
+    "score": 6.5,
+    "ghsa": "GHSA-j5g3-42wp-gqm3",
+    "date": "2026-08-28T22:37:24Z"
    },
    {
-    "title": "9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
-    "url": "https://github.com/advisories/GHSA-86m2-fcxq-5q7c",
-    "score": 8.2,
-    "ghsa": "GHSA-86m2-fcxq-5q7c",
-    "date": "2026-08-28T18:33:20Z"
-   },
-   {
-    "title": "9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
-    "url": "https://github.com/advisories/GHSA-8gmq-j984-vp4r",
+    "title": "MapFish Print has XXE that allows reading arbitrary files of certain types",
+    "url": "https://github.com/advisories/GHSA-5v29-34h8-v68r",
     "score": 8.6,
-    "ghsa": "GHSA-8gmq-j984-vp4r",
-    "date": "2026-08-28T18:32:01Z"
+    "ghsa": "GHSA-5v29-34h8-v68r",
+    "date": "2026-08-28T22:33:35Z"
    },
    {
-    "title": "phpSysInfo has an IP allowlist (PSI_ALLOWED) bypass via spoofed X-Forwarded-For / Client-IP headers",
-    "url": "https://github.com/advisories/GHSA-786w-p5pm-cvgh",
-    "score": 7.5,
-    "ghsa": "GHSA-786w-p5pm-cvgh",
-    "date": "2026-08-28T18:30:55Z"
+    "title": "free5GC AUSF uses non-constant-time authentication comparisons and logs XRES* in 5G-AKA",
+    "url": "https://github.com/advisories/GHSA-fp46-6vfw-gc9c",
+    "score": 3.7,
+    "ghsa": "GHSA-fp46-6vfw-gc9c",
+    "date": "2026-08-28T22:26:16Z"
    },
    {
-    "title": "Bifrost's SSRF deny-list is incomplete: isPublicIP permits CGNAT, IPv6 6to4/NAT64, and site-local in FetchAndEncodeURL",
-    "url": "https://github.com/advisories/GHSA-w98g-5w9p-p3rc",
+    "title": "free5GC AUSF authentication contexts can be overwritten by concurrent requests for the same SUPI",
+    "url": "https://github.com/advisories/GHSA-334q-h5g3-fpxv",
     "score": 7.5,
-    "ghsa": "GHSA-w98g-5w9p-p3rc",
-    "date": "2026-08-28T18:26:02Z"
+    "ghsa": "GHSA-334q-h5g3-fpxv",
+    "date": "2026-08-28T22:24:11Z"
+   },
+   {
+    "title": "silverstripe/versioned has XSS in archive admin restore",
+    "url": "https://github.com/advisories/GHSA-m4g4-86qc-v8w7",
+    "score": 5.4,
+    "ghsa": "GHSA-m4g4-86qc-v8w7",
+    "date": "2026-08-28T22:19:32Z"
    }
   ],
   "thn": [
+   {
+    "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+    "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+    "date": "Sat, 29 Aug 2026 03:00:52 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+    "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+    "date": "Sat, 29 Aug 2026 02:08:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
     "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
@@ -357,23 +347,23 @@
     "date": "Fri, 28 Aug 2026 13:55:36 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
-    "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-    "date": "Fri, 28 Aug 2026 13:50:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-    "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-    "date": "Fri, 28 Aug 2026 00:06:19 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+    "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+    "date": "Fri, 28 Aug 2026 18:40:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "PaperCut releases second emergency patch for exploited flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+    "date": "Fri, 28 Aug 2026 15:08:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
     "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
@@ -443,20 +433,6 @@
     "date": "Thu, 27 Aug 2026 12:12:26 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-    "url": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-    "date": "Thu, 27 Aug 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Android 17 adds ECH support to make web browsing harder to track",
-    "url": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-    "date": "Thu, 27 Aug 2026 10:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -465,12 +441,6 @@
     "url": "https://github.com/kulkarnirohit123/cra-agent",
     "stars": 403,
     "lang": "Python"
-   },
-   {
-    "title": "oversecured/Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
-    "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
-    "stars": 334,
-    "lang": "Java"
    },
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
@@ -487,7 +457,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 191,
+    "stars": 193,
     "lang": "Go"
    },
    {
@@ -503,12 +473,6 @@
     "lang": "Go"
    },
    {
-    "title": "anirudhnshandilya/auditpilot — Open-source AI-powered compliance platform for ISO/IEC 27001 readiness, evidence intelligence, control mapping",
-    "url": "https://github.com/anirudhnshandilya/auditpilot",
-    "stars": 153,
-    "lang": "Python"
-   },
-   {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
     "stars": 136,
@@ -517,7 +481,7 @@
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
     "url": "https://github.com/antitree/nfc_canary",
-    "stars": 101,
+    "stars": 104,
     "lang": "C"
    },
    {
@@ -531,6 +495,18 @@
     "url": "https://github.com/duy90utc528/repo-publication-audit",
     "stars": 97,
     "lang": "Python"
+   },
+   {
+    "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
+    "url": "https://github.com/dhicoc/dsh-reverse-skill",
+    "stars": 90,
+    "lang": "PowerShell"
+   },
+   {
+    "title": "icedracon/adhammer — Active Directory security-assessment toolkit in Rust — PingCastle-class audit + authorized red-team validation",
+    "url": "https://github.com/icedracon/adhammer",
+    "stars": 89,
+    "lang": "Rust"
    }
   ],
   "hn": [
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 2,
   "kev": 1685,
   "adv": 12,
   "feed": 48
