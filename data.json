@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-08-29T09:10:52.038Z",
+ "generatedAt": "2026-08-29T14:32:40.048Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
+    "score": 9.9,
+    "date": "2026-08-29T14:17:09+00:00"
+   },
+   {
+    "title": "CVE-2023-3775 — Red Hat Security Advisory: OpenShift Container Platform 4.17.0 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3718",
+    "score": 9.9,
+    "date": "2026-08-29T14:16:59+00:00"
+   },
+   {
+    "title": "CVE-2023-39326 — Red Hat Security Advisory: Network Observability 1.6.0 for OpenShift (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3868",
+    "score": 9.8,
+    "date": "2026-08-29T14:16:59+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2023-3462 — Red Hat Security Advisory: OpenShift Container Platform 4.17.1 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7922",
+    "score": 8.8,
+    "date": "2026-08-29T14:17:19+00:00"
+   },
+   {
+    "title": "CVE-2022-3064 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.15.0 release (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4631",
+    "score": 8.8,
+    "date": "2026-08-29T14:17:07+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.15 OpenShift Jenkins security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4597",
+    "score": 8.8,
+    "date": "2026-08-29T14:17:07+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.13 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3636",
+    "score": 8.8,
+    "date": "2026-08-29T14:16:56+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3635",
+    "score": 8.8,
+    "date": "2026-08-29T14:16:55+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.14 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3634",
+    "score": 8.8,
+    "date": "2026-08-29T14:16:54+00:00"
+   },
+   {
+    "title": "CVE-2022-2880 — Red Hat Security Advisory: container-tools:rhel8 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3254",
+    "score": 8.6,
+    "date": "2026-08-29T14:16:51+00:00"
+   },
+   {
+    "title": "CVE-2022-21698 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes 2.12.6 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:22684",
+    "score": 8.5,
+    "date": "2026-08-29T14:17:29+00:00"
+   },
+   {
+    "title": "CVE-2024-3727 — Red Hat Security Advisory: OpenShift Container Platform 4.16.14 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6824",
+    "score": 8.3,
+    "date": "2026-08-29T14:17:12+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Brave browser adds email aliases to help users evade tracking",
+    "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "date": "Sat, 29 Aug 2026 10:19:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
     "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
     "date": "Fri, 28 Aug 2026 18:40:17 -0400",
@@ -365,13 +457,6 @@
     "date": "Thu, 27 Aug 2026 12:31:53 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Manchester Airports Group says hackers stole travelers' data",
-    "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-    "date": "Thu, 27 Aug 2026 12:12:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -396,7 +481,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 193,
+    "stars": 195,
     "lang": "Go"
    },
    {
@@ -420,7 +505,7 @@
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
     "url": "https://github.com/antitree/nfc_canary",
-    "stars": 105,
+    "stars": 108,
     "lang": "C"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 5,
   "kev": 1685,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
