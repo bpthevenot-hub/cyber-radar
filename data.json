@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-29T18:36:29.623Z",
+ "generatedAt": "2026-08-29T21:47:54.169Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-82460 — Cloud Commander before 19.20.2 contains a directory traversal vulnerability in REST file-operation and markdown endpoints that fails to prop",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82460",
+    "score": 9.8,
+    "date": "2026-08-29T18:31:31Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-82466 — Rodauth before 2.46.0 contains an authentication bypass vulnerability in the webauthn_login route that allows logged-in users to authenticat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82466",
+    "score": 8.7,
+    "date": "2026-08-29T18:31:31Z"
+   },
+   {
+    "title": "CVE-2026-82473 — KubeEdge CloudCore through 1.23.1 accepts node task status reports on its HTTPS server without authentication verification. Attackers can re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82473",
+    "score": 8.2,
+    "date": "2026-08-29T18:31:32Z"
+   },
+   {
+    "title": "CVE-2026-82475 — iFlytek astron-agent through 1.1.1 contains an authorization bypass vulnerability in the copyFlow endpoint that fails to validate workflow o",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82475",
+    "score": 8.1,
+    "date": "2026-08-29T18:31:32Z"
+   },
+   {
+    "title": "CVE-2026-82463 — pac4j-core before 6.5.6 contains an authentication bypass vulnerability in CheckProfileTypeAuthorizer that reverses the profile type validat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82463",
+    "score": 8.1,
+    "date": "2026-08-29T18:31:31Z"
+   },
+   {
+    "title": "CVE-2026-82461 — pac4j-oidc before 6.5.6 fails to verify access token signatures, issuers, audiences, or expiry when extracting Keycloak realm and client rol",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82461",
+    "score": 8.1,
+    "date": "2026-08-29T18:31:31Z"
+   },
+   {
+    "title": "CVE-2026-82474 — Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based intercept mode. Users permitted to ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82474",
+    "score": 7.8,
+    "date": "2026-08-29T18:31:32Z"
+   },
+   {
+    "title": "CVE-2026-75807 — The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 5.4.6. Thi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75807",
+    "score": 7.5,
+    "date": "2026-08-29T18:31:32Z"
+   },
+   {
+    "title": "CVE-2026-82472 — Documenso before 2.13.0 accepts PDF file uploads on the /api/files/upload-pdf endpoint without requiring authentication, session tokens, or ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82472",
+    "score": 7.5,
+    "date": "2026-08-29T18:31:31Z"
+   },
+   {
+    "title": "CVE-2026-82462 — pac4j-oidc before 6.5.6 accepts OIDC callbacks carrying only an access token without authorization code or ID token validation. Attackers ca",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82462",
+    "score": 6.5,
+    "date": "2026-08-29T18:31:31Z"
+   },
+   {
+    "title": "CVE-2026-82464 — pac4j-core before 6.5.6 contains an open redirect vulnerability in DefaultLogoutLogic.perform() that accepts backslash-prefixed logout redir",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82464",
+    "score": 6.1,
+    "date": "2026-08-29T18:31:31Z"
+   },
+   {
+    "title": "CVE-2026-82470 — Rodauth before 2.47.0 contains a time-based one-time password reuse vulnerability in the otp feature that fails to track the last accepted c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82470",
+    "score": 5.4,
+    "date": "2026-08-29T18:31:31Z"
    }
   ],
   "kev": [
@@ -457,7 +529,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 91,
+    "stars": 92,
     "lang": "JavaScript"
    }
   ],
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1685,
   "adv": 12,
   "feed": 48
