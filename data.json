@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-08-30T12:58:09.877Z",
+ "generatedAt": "2026-08-30T17:34:32.738Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-82542 — A weakness has been identified in Tenda HG10 300001138. Affected by this issue is the function formIPv6Routing of the file /boaform/admin/fo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82542",
+    "score": 10,
+    "date": "2026-08-30T15:30:26Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:59972 — Important: gstreamer1-plugins-good security update",
-    "url": "https://github.com/advisories/RLSA-2026:59972",
+    "title": "CVE-2026-82653 — SiYuan before v3.8.1 contains a stored cross-site scripting vulnerability in confirmDialog() where unescaped package names and notebook name",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82653",
+    "score": 8.9,
+    "date": "2026-08-30T15:30:28Z"
+   },
+   {
+    "title": "CVE-2026-82654 — SiYuan before v3.8.1 fails to properly escape block name, alias, and memo fields in hint, backlink, and breadcrumb rendering functions. Atta",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82654",
+    "score": 8.9,
+    "date": "2026-08-30T15:30:28Z"
+   },
+   {
+    "title": "CVE-2026-82642 — Readest is an open-source e-book reader built on Tauri. In versions prior to 0.11.16, EPUB chapter HTML is sanitized with DOMPurify using a ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82642",
     "score": 8.8,
-    "date": "2026-08-26T18:06:44.856853Z"
+    "date": "2026-08-30T15:30:27Z"
    },
    {
-    "title": "RLSA-2026:57126 — Important: yggdrasil security update",
-    "url": "https://github.com/advisories/RLSA-2026:57126",
+    "title": "CVE-2026-82635 — Pake before 3.13.1 joins the JavaScript-supplied filename for the download_file Tauri command onto the user's Downloads directory with no sa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82635",
     "score": 8.8,
-    "date": "2026-08-20T18:07:20.016374Z"
+    "date": "2026-08-30T15:30:26Z"
    },
    {
-    "title": "RLSA-2026:55855 — Important: libssh security update",
-    "url": "https://github.com/advisories/RLSA-2026:55855",
-    "score": 8.8,
-    "date": "2026-08-18T12:07:31.722662Z"
-   },
-   {
-    "title": "RLSA-2026:55617 — Important: pcp security update",
-    "url": "https://github.com/advisories/RLSA-2026:55617",
-    "score": 8.8,
-    "date": "2026-08-18T12:07:31.722662Z"
-   },
-   {
-    "title": "RLSA-2026:58819 — Important: nodejs24 security update",
-    "url": "https://github.com/advisories/RLSA-2026:58819",
+    "title": "CVE-2026-82645 — AVideo (current commit e01e41ecc and earlier) exposes stream credentials through the plugin/Live/view/Live_restreams/getLiveKey.json.php end",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82645",
     "score": 8.6,
-    "date": "2026-08-25T12:07:46.973584Z"
+    "date": "2026-08-30T15:30:28Z"
    },
    {
-    "title": "RLSA-2026:55892 — Important: unbound security update",
-    "url": "https://github.com/advisories/RLSA-2026:55892",
+    "title": "CVE-2026-82641 — keploy versions 3.1.0 through 3.6.25 bind the agent control-plane HTTP server to all interfaces without authentication, exposing endpoints t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82641",
     "score": 8.6,
-    "date": "2026-08-18T12:07:31.722662Z"
+    "date": "2026-08-30T15:30:27Z"
    },
    {
-    "title": "RLSA-2026:55541 — Important: nodejs22 security update",
-    "url": "https://github.com/advisories/RLSA-2026:55541",
-    "score": 8.6,
-    "date": "2026-08-18T12:07:31.722662Z"
+    "title": "CVE-2026-82636 — Qubes OS before qubes-core-dom0-linux 4.3.22 allows OS command injection during a qvm-copy-to-vm call from dom0 to an attacker-controlled qu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82636",
+    "score": 7.9,
+    "date": "2026-08-30T15:30:26Z"
    },
    {
-    "title": "RLSA-2026:55437 — Important: bind security update",
-    "url": "https://github.com/advisories/RLSA-2026:55437",
-    "score": 8.6,
-    "date": "2026-08-17T18:06:54.076078Z"
+    "title": "CVE-2026-82657 — Admidio before 5.0.12 fails to enforce login-only module restrictions in RSS feed endpoints for forum and announcements modules. Unauthentic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82657",
+    "score": 7.5,
+    "date": "2026-08-30T15:30:28Z"
    },
    {
-    "title": "RLSA-2026:56007 — Important: mysql8.4 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:56007",
-    "score": 8.4,
-    "date": "2026-08-20T18:07:20.016374Z"
+    "title": "CVE-2026-82649 — SiYuan Windows installer before version 3.8.1 (affected versions >= 2.0.14) contains an uncontrolled search path element vulnerability in it",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82649",
+    "score": 7.5,
+    "date": "2026-08-30T15:30:28Z"
    },
    {
-    "title": "RLSA-2026:59362 — Important: nginx security update",
-    "url": "https://github.com/advisories/RLSA-2026:59362",
-    "score": 8.2,
-    "date": "2026-08-26T12:04:51.199716Z"
+    "title": "CVE-2026-82655 — Admidio before 5.0.12 contains a blind SQL injection vulnerability in the relation_type_list parameter of lists_show.php that allows unauthe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82655",
+    "score": 7.5,
+    "date": "2026-08-30T15:30:28Z"
    },
    {
-    "title": "RLSA-2026:59496 — Important: nginx:1.26 security update",
-    "url": "https://github.com/advisories/RLSA-2026:59496",
-    "score": 8.2,
-    "date": "2026-08-26T00:04:43.459433Z"
-   },
-   {
-    "title": "RLSA-2026:59490 — Important: nginx:1.24 security update",
-    "url": "https://github.com/advisories/RLSA-2026:59490",
-    "score": 8.2,
-    "date": "2026-08-25T18:04:05.699051Z"
+    "title": "CVE-2026-82644 — WWBN AVideo (current e01e41ecc and earlier) contains a brute-force rate limiting bypass in enforceRateLimit(), which protects login.json.php",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82644",
+    "score": 7.5,
+    "date": "2026-08-30T15:30:28Z"
    }
   ],
   "kev": [
@@ -375,6 +375,27 @@
   ],
   "bleep": [
    {
+    "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+    "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+    "date": "Sun, 30 Aug 2026 11:00:21 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+    "date": "Sun, 30 Aug 2026 10:30:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Chrome Web Store extensions caught stealing crypto, browser data",
+    "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+    "date": "Sun, 30 Aug 2026 10:17:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
     "date": "Sat, 29 Aug 2026 19:11:51 -0400",
@@ -436,27 +457,6 @@
     "date": "Fri, 28 Aug 2026 07:46:57 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "ServiceNow warns of three max severity security vulnerabilities",
-    "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
-    "date": "Fri, 28 Aug 2026 06:29:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
-    "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
-    "date": "Fri, 28 Aug 2026 05:10:13 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-    "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-    "date": "Thu, 27 Aug 2026 17:38:53 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -505,13 +505,13 @@
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
     "url": "https://github.com/antitree/nfc_canary",
-    "stars": 108,
+    "stars": 109,
     "lang": "C"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 101,
+    "stars": 102,
     "lang": "JavaScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 93,
+    "stars": 95,
     "lang": "PowerShell"
    }
   ],
@@ -635,6 +635,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "AI Agent Authentication in 2026: Web Bot Auth, ARD &amp; OAuth",
+    "url": "https://www.reddit.com/r/netsec/comments/1w2k3w0/ai_agent_authentication_in_2026_web_bot_auth_ard/",
+    "date": "2026-08-30T15:10:36+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Anatomy of a ServiceNow Red Team",
+    "url": "https://www.reddit.com/r/netsec/comments/1w2mktz/anatomy_of_a_servicenow_red_team/",
+    "date": "2026-08-30T16:46:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range",
     "url": "https://www.reddit.com/r/netsec/comments/1w05xwz/unibleed_unauthenticated_root_rce_on_any_unitree/",
     "date": "2026-08-27T20:44:41+00:00",
@@ -689,20 +703,6 @@
     "date": "2026-08-25T10:41:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
-    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
-    "date": "2026-08-24T21:00:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Tata’s B2B platform returned OTPs in API responses",
-    "url": "https://www.reddit.com/r/netsec/comments/1vx4j41/tatas_b2b_platform_returned_otps_in_api_responses/",
-    "date": "2026-08-24T14:33:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1685,
   "adv": 12,
   "feed": 48
