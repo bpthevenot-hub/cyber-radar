@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-31T14:03:06.451Z",
+ "generatedAt": "2026-08-31T20:10:31.550Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:61627",
-    "score": 9.1,
-    "date": "2026-08-31T13:40:29+00:00"
+    "title": "CVE-2026-71211 — MLflow AI Gateway permits SSRF through an unvalidated api_base",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71211",
+    "score": 7.1,
+    "date": "2026-08-05T09:31:18Z"
+   },
+   {
+    "title": "CVE-2026-14794 — Craft CMS: Missing authorization check allows non-admin control panel users access to user registration metrics",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14794",
+    "score": 4.3,
+    "date": "2026-08-06T21:42:58Z"
+   },
+   {
+    "title": "GHSA-rmj4-m9cp-mp9v — Duplicate Advisory: Craft CMS: Missing authorization check allows non-admin control panel users access to user registration metrics",
+    "url": "https://github.com/advisories/GHSA-rmj4-m9cp-mp9v",
+    "score": 4.3,
+    "date": "2026-07-06T06:31:19Z"
    }
   ],
   "kev": [
@@ -137,6 +149,13 @@
   ],
   "adv": [
    {
+    "title": "TYPO3 CMS - Unrestricted File Upload in Form Framework",
+    "url": "https://github.com/advisories/GHSA-mfqj-cqv3-h7xw",
+    "score": null,
+    "ghsa": "GHSA-mfqj-cqv3-h7xw",
+    "date": "2026-08-31T19:53:59Z"
+   },
+   {
     "title": "MariaDB has possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
     "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
     "score": 6.5,
@@ -212,16 +231,23 @@
     "score": 7.5,
     "ghsa": "GHSA-334q-h5g3-fpxv",
     "date": "2026-08-28T22:24:11Z"
-   },
-   {
-    "title": "silverstripe/versioned has XSS in archive admin restore",
-    "url": "https://github.com/advisories/GHSA-m4g4-86qc-v8w7",
-    "score": 5.4,
-    "ghsa": "GHSA-m4g4-86qc-v8w7",
-    "date": "2026-08-28T22:19:32Z"
    }
   ],
   "thn": [
+   {
+    "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+    "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+    "date": "Mon, 31 Aug 2026 22:54:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+    "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+    "date": "Mon, 31 Aug 2026 19:20:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
     "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
@@ -291,23 +317,44 @@
     "date": "Fri, 28 Aug 2026 22:42:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-    "url": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
-    "date": "Fri, 28 Aug 2026 21:50:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-    "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-    "date": "Fri, 28 Aug 2026 21:26:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+    "date": "Mon, 31 Aug 2026 14:51:04 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+    "date": "Mon, 31 Aug 2026 12:56:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI confirms ChatGPT outage as users report errors",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
+    "date": "Mon, 31 Aug 2026 12:50:50 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+    "date": "Mon, 31 Aug 2026 10:52:03 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "File servers are here to stay. Here’s how to manage them securely",
+    "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
+    "date": "Mon, 31 Aug 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
     "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
@@ -356,41 +403,6 @@
     "date": "Sun, 30 Aug 2026 10:17:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-    "date": "Sat, 29 Aug 2026 19:11:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Brave browser adds email aliases to help users evade tracking",
-    "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
-    "date": "Sat, 29 Aug 2026 10:19:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-    "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-    "date": "Fri, 28 Aug 2026 18:40:17 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "PaperCut releases second emergency patch for exploited flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-    "date": "Fri, 28 Aug 2026 15:08:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
-    "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
-    "date": "Fri, 28 Aug 2026 14:18:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -433,13 +445,13 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 137,
+    "stars": 138,
     "lang": "JavaScript"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 115,
+    "stars": 116,
     "lang": "JavaScript"
    },
    {
@@ -451,7 +463,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 98,
+    "stars": 99,
     "lang": "PowerShell"
    },
    {
@@ -651,8 +663,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
-  "kev": 1685,
+  "crit": 2,
+  "kev": 1687,
   "adv": 12,
   "feed": 48
  },
