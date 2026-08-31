@@ -1,7 +1,55 @@
 {
- "generatedAt": "2026-08-31T20:10:31.550Z",
+ "generatedAt": "2026-08-31T23:54:12.663Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-42812 — Apache Polaris has an Improper Input Validation issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42812",
+    "score": 9.9,
+    "date": "2026-05-04T18:30:31Z"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-08-31T22:40:42+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-08-31T22:40:41+00:00"
+   },
+   {
+    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2563",
+    "score": 9.8,
+    "date": "2026-08-31T22:40:30+00:00"
+   },
+   {
+    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
+    "score": 9.8,
+    "date": "2026-08-31T22:40:24+00:00"
+   },
+   {
+    "title": "CVE-2025-9086 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1736",
+    "score": 9.8,
+    "date": "2026-08-31T22:40:22+00:00"
+   },
+   {
+    "title": "CVE-2026-38360 — dash-uploader has a directory traversal vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-38360",
+    "score": 9.8,
+    "date": "2026-05-08T18:31:35Z"
+   },
+   {
+    "title": "CVE-2024-56325 — Apache Pinot Vulnerable to Authentication Bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-56325",
+    "score": 9.8,
+    "date": "2025-04-01T09:30:20Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,22 +63,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-71211 — MLflow AI Gateway permits SSRF through an unvalidated api_base",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71211",
-    "score": 7.1,
-    "date": "2026-08-05T09:31:18Z"
+    "title": "CVE-2024-43202 — Apache Dolphinscheduler Code Injection vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-43202",
+    "score": 9.8,
+    "date": "2024-08-20T09:30:28Z"
    },
    {
-    "title": "CVE-2026-14794 — Craft CMS: Missing authorization check allows non-admin control panel users access to user registration metrics",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14794",
-    "score": 4.3,
-    "date": "2026-08-06T21:42:58Z"
+    "title": "CVE-2024-45479 — Apache Ranger UI vulnerable to Server Side Request Forgery",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-45479",
+    "score": 9.1,
+    "date": "2025-01-22T00:33:36Z"
    },
    {
-    "title": "GHSA-rmj4-m9cp-mp9v — Duplicate Advisory: Craft CMS: Missing authorization check allows non-admin control panel users access to user registration metrics",
-    "url": "https://github.com/advisories/GHSA-rmj4-m9cp-mp9v",
-    "score": 4.3,
-    "date": "2026-07-06T06:31:19Z"
+    "title": "CVE-2024-38821 — Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-38821",
+    "score": 9.1,
+    "date": "2024-10-28T09:30:53Z"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHTAS 1.2.2 - Red Hat Trusted Artifact Signer Release (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2926",
+    "score": 8.8,
+    "date": "2026-08-31T22:40:40+00:00"
    }
   ],
   "kev": [
@@ -149,6 +203,48 @@
   ],
   "adv": [
    {
+    "title": "Kirby: File upload permissions are not checked during processing of chunk data",
+    "url": "https://github.com/advisories/GHSA-67mx-6wf2-92xp",
+    "score": 7.5,
+    "ghsa": "GHSA-67mx-6wf2-92xp",
+    "date": "2026-08-31T22:14:05Z"
+   },
+   {
+    "title": "Kirby: Access to image files and limited access to JSON files outside of the site root via path traversal in the media handling",
+    "url": "https://github.com/advisories/GHSA-9vx2-j98c-p72w",
+    "score": 7.5,
+    "ghsa": "GHSA-9vx2-j98c-p72w",
+    "date": "2026-08-31T22:12:45Z"
+   },
+   {
+    "title": "decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
+    "url": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
+    "score": null,
+    "ghsa": "GHSA-vcc3-ghjq-m6fr",
+    "date": "2026-08-31T22:10:20Z"
+   },
+   {
+    "title": "Socket.IO: Engine.IO WebTransport SID DoS",
+    "url": "https://github.com/advisories/GHSA-gr94-w7qr-f4j3",
+    "score": 7.5,
+    "ghsa": "GHSA-gr94-w7qr-f4j3",
+    "date": "2026-08-31T21:28:12Z"
+   },
+   {
+    "title": "@hono/oauth-providers: OAuth state check fails open on omitted state, enabling login CSRF and forced account linking",
+    "url": "https://github.com/advisories/GHSA-fm3f-ch8h-qw8q",
+    "score": 5.4,
+    "ghsa": "GHSA-fm3f-ch8h-qw8q",
+    "date": "2026-08-31T20:30:50Z"
+   },
+   {
+    "title": "elFinder: SSRF protection bypass via DNS rebinding in the `fsock_get_contents()` fallback",
+    "url": "https://github.com/advisories/GHSA-8x3q-jpjh-qh5c",
+    "score": 8.6,
+    "ghsa": "GHSA-8x3q-jpjh-qh5c",
+    "date": "2026-08-31T20:28:06Z"
+   },
+   {
     "title": "TYPO3 CMS - Unrestricted File Upload in Form Framework",
     "url": "https://github.com/advisories/GHSA-mfqj-cqv3-h7xw",
     "score": null,
@@ -189,48 +285,6 @@
     "score": 5.9,
     "ghsa": "GHSA-xvr9-35cr-46v9",
     "date": "2026-08-28T22:47:19Z"
-   },
-   {
-    "title": "org.mariadb.jdbc:mariadb-java-client has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
-    "url": "https://github.com/advisories/GHSA-qxvw-fvwx-5cp7",
-    "score": 5.9,
-    "ghsa": "GHSA-qxvw-fvwx-5cp7",
-    "date": "2026-08-28T22:45:01Z"
-   },
-   {
-    "title": "MariaDB has cleartext password disclosure to a MITM on the initial-handshake",
-    "url": "https://github.com/advisories/GHSA-g9jj-cgmh-9f38",
-    "score": 5.9,
-    "ghsa": "GHSA-g9jj-cgmh-9f38",
-    "date": "2026-08-28T22:41:56Z"
-   },
-   {
-    "title": "Snipe-IT has an Improper Privilege Management issue",
-    "url": "https://github.com/advisories/GHSA-j5g3-42wp-gqm3",
-    "score": 6.5,
-    "ghsa": "GHSA-j5g3-42wp-gqm3",
-    "date": "2026-08-28T22:37:24Z"
-   },
-   {
-    "title": "MapFish Print has XXE that allows reading arbitrary files of certain types",
-    "url": "https://github.com/advisories/GHSA-5v29-34h8-v68r",
-    "score": 8.6,
-    "ghsa": "GHSA-5v29-34h8-v68r",
-    "date": "2026-08-28T22:33:35Z"
-   },
-   {
-    "title": "free5GC AUSF uses non-constant-time authentication comparisons and logs XRES* in 5G-AKA",
-    "url": "https://github.com/advisories/GHSA-fp46-6vfw-gc9c",
-    "score": 3.7,
-    "ghsa": "GHSA-fp46-6vfw-gc9c",
-    "date": "2026-08-28T22:26:16Z"
-   },
-   {
-    "title": "free5GC AUSF authentication contexts can be overwritten by concurrent requests for the same SUPI",
-    "url": "https://github.com/advisories/GHSA-334q-h5g3-fpxv",
-    "score": 7.5,
-    "ghsa": "GHSA-334q-h5g3-fpxv",
-    "date": "2026-08-28T22:24:11Z"
    }
   ],
   "thn": [
@@ -321,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
+    "url": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
+    "date": "Mon, 31 Aug 2026 16:47:54 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
     "date": "Mon, 31 Aug 2026 14:51:04 -0400",
@@ -396,13 +457,6 @@
     "date": "Sun, 30 Aug 2026 10:30:25 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Chrome Web Store extensions caught stealing crypto, browser data",
-    "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
-    "date": "Sun, 30 Aug 2026 10:17:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -445,19 +499,19 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 138,
+    "stars": 139,
     "lang": "JavaScript"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 116,
+    "stars": 117,
     "lang": "JavaScript"
    },
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
     "url": "https://github.com/antitree/nfc_canary",
-    "stars": 109,
+    "stars": 110,
     "lang": "C"
    },
    {
@@ -663,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 13,
   "kev": 1687,
   "adv": 12,
   "feed": 48
