@@ -1,55 +1,7 @@
 {
- "generatedAt": "2026-08-31T23:54:12.663Z",
+ "generatedAt": "2026-09-01T05:18:01.570Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-42812 — Apache Polaris has an Improper Input Validation issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42812",
-    "score": 9.9,
-    "date": "2026-05-04T18:30:31Z"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-08-31T22:40:42+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
-    "score": 9.8,
-    "date": "2026-08-31T22:40:41+00:00"
-   },
-   {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2563",
-    "score": 9.8,
-    "date": "2026-08-31T22:40:30+00:00"
-   },
-   {
-    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
-    "score": 9.8,
-    "date": "2026-08-31T22:40:24+00:00"
-   },
-   {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1736",
-    "score": 9.8,
-    "date": "2026-08-31T22:40:22+00:00"
-   },
-   {
-    "title": "CVE-2026-38360 — dash-uploader has a directory traversal vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-38360",
-    "score": 9.8,
-    "date": "2026-05-08T18:31:35Z"
-   },
-   {
-    "title": "CVE-2024-56325 — Apache Pinot Vulnerable to Authentication Bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-56325",
-    "score": 9.8,
-    "date": "2025-04-01T09:30:20Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -63,28 +15,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-43202 — Apache Dolphinscheduler Code Injection vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-43202",
-    "score": 9.8,
-    "date": "2024-08-20T09:30:28Z"
-   },
-   {
-    "title": "CVE-2024-45479 — Apache Ranger UI vulnerable to Server Side Request Forgery",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-45479",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.9.19 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5168",
     "score": 9.1,
-    "date": "2025-01-22T00:33:36Z"
+    "date": "2026-09-01T04:16:34+00:00"
    },
    {
-    "title": "CVE-2024-38821 — Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-38821",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.28 for Red Hat OpenShift Service Mesh 2.6 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5132",
     "score": 9.1,
-    "date": "2024-10-28T09:30:53Z"
+    "date": "2026-09-01T04:16:33+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHTAS 1.2.2 - Red Hat Trusted Artifact Signer Release (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2926",
-    "score": 8.8,
-    "date": "2026-08-31T22:40:40+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5544",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:38+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5461",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:37+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.3 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5444",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:36+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.3 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5439",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:35+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 director Operator container images (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5394",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:35+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: yggdrasil security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5146",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:34+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: yggdrasil-worker-package-manager security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5145",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:34+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 2.11.8 for Red Hat OpenShift Service Mesh 3.1 (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5131",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:32+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 2.4.14 for Red Hat OpenShift Service Mesh 3.0 (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5129",
+    "score": 7.5,
+    "date": "2026-09-01T04:16:31+00:00"
    }
   ],
   "kev": [
@@ -505,7 +499,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 117,
+    "stars": 122,
     "lang": "JavaScript"
    },
    {
@@ -517,7 +511,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 99,
+    "stars": 100,
     "lang": "PowerShell"
    },
    {
@@ -635,6 +629,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Don’t Let Abliteration Abliterate Your Bug Hunting: Discovering Verdict Bias in Uncensored Models",
+    "url": "https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/",
+    "date": "2026-09-01T05:08:07+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Privilege escalation from IIS AppPool to NT Authority/SYSTEM via AD CS RPC endpoint",
     "url": "https://www.reddit.com/r/netsec/comments/1w36tcq/privilege_escalation_from_iis_apppool_to_nt/",
     "date": "2026-08-31T07:40:42+00:00",
@@ -696,13 +697,6 @@
     "date": "2026-08-25T10:41:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors",
-    "url": "https://www.reddit.com/r/netsec/comments/1vxfd50/the_citizen_lab_bad_connection_uncovering_global/",
-    "date": "2026-08-24T21:00:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +711,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 13,
+  "crit": 4,
   "kev": 1687,
   "adv": 12,
   "feed": 48
