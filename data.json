@@ -1,42 +1,72 @@
 {
- "generatedAt": "2026-09-01T19:57:33.573Z",
+ "generatedAt": "2026-09-01T22:38:18.951Z",
  "sources": {
   "cve": [
    {
     "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:62260",
     "score": 10,
-    "date": "2026-09-01T19:39:30+00:00"
+    "date": "2026-09-01T21:46:52+00:00"
    },
    {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "title": "CVE-2025-66471 — Red Hat Security Advisory: RHOAI 3.4.4 - Red Hat OpenShift AI (+142 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60520",
     "score": 9.9,
-    "date": "2026-09-01T19:39:30+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
-    "score": 9.9,
-    "date": "2026-09-01T19:39:30+00:00"
+    "date": "2026-09-01T21:42:40+00:00"
    },
    {
     "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:60386",
     "score": 9.9,
-    "date": "2026-09-01T19:39:29+00:00"
+    "date": "2026-09-01T21:42:38+00:00"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53530",
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
     "score": 9.9,
-    "date": "2026-09-01T19:39:20+00:00"
+    "date": "2026-09-01T21:42:37+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59155",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-09-01T21:42:35+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.7 security update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59559",
+    "score": 9.9,
+    "date": "2026-09-01T21:42:35+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-09-01T21:42:35+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59557",
+    "score": 9.9,
+    "date": "2026-09-01T21:42:34+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59556",
+    "score": 9.9,
+    "date": "2026-09-01T21:42:33+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53806",
     "score": 9.8,
-    "date": "2026-09-01T19:39:26+00:00"
+    "date": "2026-09-01T21:46:46+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security pdate (+35 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53644",
+    "score": 9.8,
+    "date": "2026-09-01T21:46:45+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -51,40 +81,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
-    "score": 9.1,
-    "date": "2026-09-01T19:39:22+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
-    "score": 9.1,
-    "date": "2026-09-01T19:39:22+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-09-01T19:39:16+00:00"
-   },
-   {
-    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50479",
-    "score": 9.1,
-    "date": "2026-09-01T19:39:14+00:00"
-   },
-   {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
-    "score": 9.1,
-    "date": "2026-09-01T19:39:01+00:00"
-   },
-   {
-    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34794",
-    "score": 9.1,
-    "date": "2026-09-01T19:38:47+00:00"
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: OpenShift Container Platform 4.16.68 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50758",
+    "score": 9.4,
+    "date": "2026-09-01T21:42:12+00:00"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Django REST framework: Potential bypass of Django `DATA_UPLOAD_MAX_MEMORY_SIZE` when parsing oversized JSON and urlencoded request bodies via DRF `req",
-    "url": "https://github.com/advisories/GHSA-2m8g-3cmr-wg3w",
-    "score": 5.3,
-    "ghsa": "GHSA-2m8g-3cmr-wg3w",
-    "date": "2026-09-01T19:24:51Z"
+    "title": "gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation",
+    "url": "https://github.com/advisories/GHSA-vp52-pcj8-j9qc",
+    "score": 7.5,
+    "ghsa": "GHSA-vp52-pcj8-j9qc",
+    "date": "2026-09-01T21:32:41Z"
    },
    {
-    "title": "Django REST framework: AdminRenderer may disclose GET-protected data when rendering invalid write requests",
-    "url": "https://github.com/advisories/GHSA-g47c-3xmw-q6m2",
-    "score": 4.3,
-    "ghsa": "GHSA-g47c-3xmw-q6m2",
-    "date": "2026-09-01T19:24:29Z"
+    "title": "TYPO3 CMS - Broken Access Control in Backend and Install Tool",
+    "url": "https://github.com/advisories/GHSA-68jx-f42c-7599",
+    "score": 7.5,
+    "ghsa": "GHSA-68jx-f42c-7599",
+    "date": "2026-09-01T21:31:42Z"
    },
    {
-    "title": "nanoid: Integer Overflow or Wraparound",
-    "url": "https://github.com/advisories/GHSA-xwg4-73v4-xw9w",
-    "score": 7.4,
-    "ghsa": "GHSA-xwg4-73v4-xw9w",
-    "date": "2026-09-01T19:23:45Z"
-   },
-   {
-    "title": "pnpm: Environment secrets exfiltrated via env-placeholder expansion in proxy settings read from an untrusted pnpm-workspace.yaml",
-    "url": "https://github.com/advisories/GHSA-vx52-2968-3vc6",
-    "score": 7.4,
-    "ghsa": "GHSA-vx52-2968-3vc6",
-    "date": "2026-09-01T19:22:42Z"
-   },
-   {
-    "title": "pnpm: pacquet trust-lockfile install can create dependency symlinks outside the project",
-    "url": "https://github.com/advisories/GHSA-2rx9-3g3h-c2jv",
-    "score": 7.1,
-    "ghsa": "GHSA-2rx9-3g3h-c2jv",
-    "date": "2026-09-01T18:59:22Z"
-   },
-   {
-    "title": "Appium: Reflected XSS / arbitrary JS in @appium/base-driver /test/guinea-pig* routes",
-    "url": "https://github.com/advisories/GHSA-3wgp-x9p5-c7cc",
+    "title": "Filament: Multi-factor authentication (app) codes can still be used after a newer code has been used",
+    "url": "https://github.com/advisories/GHSA-r3j6-gpjw-qfjr",
     "score": 6.5,
-    "ghsa": "GHSA-3wgp-x9p5-c7cc",
-    "date": "2026-09-01T18:54:53Z"
+    "ghsa": "GHSA-r3j6-gpjw-qfjr",
+    "date": "2026-09-01T21:29:43Z"
    },
    {
-    "title": "MLFLOW_ALLOW_PICKLE_DESERIALIZATION=False safety control bypassed by mlflow.statsmodels flavor — RCE via crafted model artifact",
-    "url": "https://github.com/advisories/GHSA-gqvg-gmmx-x4hm",
-    "score": 8.8,
-    "ghsa": "GHSA-gqvg-gmmx-x4hm",
-    "date": "2026-09-01T17:04:30Z"
+    "title": "Filament: Password validity disclosure for accounts denied panel access on login page",
+    "url": "https://github.com/advisories/GHSA-xwpv-pqxp-5v36",
+    "score": 3.7,
+    "ghsa": "GHSA-xwpv-pqxp-5v36",
+    "date": "2026-09-01T21:29:00Z"
    },
    {
-    "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
-    "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
-    "score": 7.5,
-    "ghsa": "GHSA-c83g-rgw3-j3cx",
-    "date": "2026-09-01T16:42:13Z"
+    "title": "Filament: Multi-factor authentication (app) can be bypassed when recovery codes are enabled",
+    "url": "https://github.com/advisories/GHSA-52xp-w8hr-xv3c",
+    "score": 8.1,
+    "ghsa": "GHSA-52xp-w8hr-xv3c",
+    "date": "2026-09-01T21:28:47Z"
    },
    {
-    "title": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
-    "url": "https://github.com/advisories/GHSA-73wf-gq98-2v4g",
-    "score": 7.5,
-    "ghsa": "GHSA-73wf-gq98-2v4g",
-    "date": "2026-09-01T16:41:54Z"
-   },
-   {
-    "title": "MySQL2: Auth Plugin Downgrade to mysql_clear_password Leaks Plaintext Credentials",
-    "url": "https://github.com/advisories/GHSA-3f6p-5ww8-9rcr",
-    "score": 7.5,
-    "ghsa": "GHSA-3f6p-5ww8-9rcr",
-    "date": "2026-09-01T16:40:34Z"
-   },
-   {
-    "title": "Smarty: SSRF via redirect bypass of trusted_uri using {fetch}",
-    "url": "https://github.com/advisories/GHSA-cq55-c7wv-pxmq",
+    "title": "pypdf: Possible long runtimes/large memory usage when retrieving outlines",
+    "url": "https://github.com/advisories/GHSA-23w6-3w8w-8484",
     "score": null,
-    "ghsa": "GHSA-cq55-c7wv-pxmq",
-    "date": "2026-09-01T16:38:22Z"
+    "ghsa": "GHSA-23w6-3w8w-8484",
+    "date": "2026-09-01T21:28:37Z"
    },
    {
-    "title": "Kirby: System path exposure from error messages in the REST API",
-    "url": "https://github.com/advisories/GHSA-rf2p-vh74-7vvh",
+    "title": "pypdf: Possible long runtimes/large memory usage when extracting XForm objects",
+    "url": "https://github.com/advisories/GHSA-763m-79hh-57f2",
     "score": null,
-    "ghsa": "GHSA-rf2p-vh74-7vvh",
-    "date": "2026-09-01T16:37:47Z"
+    "ghsa": "GHSA-763m-79hh-57f2",
+    "date": "2026-09-01T21:27:22Z"
+   },
+   {
+    "title": "pypdf: Possible infinite loop for TreeObject.insert_child",
+    "url": "https://github.com/advisories/GHSA-jp53-mhqp-8xcg",
+    "score": null,
+    "ghsa": "GHSA-jp53-mhqp-8xcg",
+    "date": "2026-09-01T21:20:20Z"
+   },
+   {
+    "title": "sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
+    "url": "https://github.com/advisories/GHSA-cfqr-cjx5-5jcm",
+    "score": null,
+    "ghsa": "GHSA-cfqr-cjx5-5jcm",
+    "date": "2026-09-01T21:20:11Z"
+   },
+   {
+    "title": "ApostropheCMS: Stored XSS via SVG SMIL URI-list scheme-policy bypass",
+    "url": "https://github.com/advisories/GHSA-g8qq-57p8-ggw5",
+    "score": 5.4,
+    "ghsa": "GHSA-g8qq-57p8-ggw5",
+    "date": "2026-09-01T21:20:01Z"
+   },
+   {
+    "title": "NLTK: JVM argument injection bypass via per-call options in the NLTK Stanford wrappers (incomplete fix of CVE-2026-12841)",
+    "url": "https://github.com/advisories/GHSA-m4rf-3fr8-xwx3",
+    "score": 9.8,
+    "ghsa": "GHSA-m4rf-3fr8-xwx3",
+    "date": "2026-09-01T20:38:22Z"
+   },
+   {
+    "title": "league/commonmark: Denial of service via distinctly-named attributes in the Attributes extension",
+    "url": "https://github.com/advisories/GHSA-8rr7-cvq3-gmfh",
+    "score": 7.5,
+    "ghsa": "GHSA-8rr7-cvq3-gmfh",
+    "date": "2026-09-01T20:28:40Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+    "date": "Tue, 01 Sep 2026 16:53:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Aesto Health says data breach affects over 9.5 million patients",
     "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
     "date": "Tue, 01 Sep 2026 15:28:17 -0400",
@@ -450,13 +457,6 @@
     "date": "Mon, 31 Aug 2026 12:56:57 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI confirms ChatGPT outage as users report errors",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
-    "date": "Mon, 31 Aug 2026 12:50:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -505,7 +505,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 128,
+    "stars": 129,
     "lang": "JavaScript"
    },
    {
@@ -649,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
-    "url": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
-    "date": "2026-09-01T09:29:24+00:00",
+    "title": "From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG",
+    "url": "https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/",
+    "date": "2026-09-01T14:39:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG",
-    "url": "https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/",
-    "date": "2026-09-01T14:39:16+00:00",
+    "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
+    "url": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
+    "date": "2026-09-01T09:29:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
