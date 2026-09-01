@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-09-01T05:18:01.570Z",
+ "generatedAt": "2026-09-01T11:45:44.950Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-78319 — SAUTER: modulo 6 and EY-modulo 5 Vulnerability in Firmware update mechanism allowing remote code execution",
+    "url": "https://certvde.com/en/advisories/VDE-2026-093",
+    "score": 9.8,
+    "date": "2026-09-01T10:00:00.000Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,70 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.9.19 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5168",
+    "title": "CVE-2026-78319 — A service running on the affected products contains a potential Time-of-Check Time-of-Use (TOCTOU) race condition. An unauthenticated remote",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78319",
+    "score": 9.5,
+    "date": "2026-09-01T09:31:19Z"
+   },
+   {
+    "title": "CVE-2026-74882 — openssl_encrypt versions before 1.4.0 contain an insecure default configuration that trusts the entire RFC 1918 private address space in Int",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74882",
     "score": 9.1,
-    "date": "2026-09-01T04:16:34+00:00"
+    "date": "2026-08-17T11:16:42.863Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.28 for Red Hat OpenShift Service Mesh 2.6 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5132",
-    "score": 9.1,
-    "date": "2026-09-01T04:16:33+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5544",
+    "title": "CVE-2026-18252 — Inclusion of Functionality from Untrusted Control Sphere in GitLab",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18252",
     "score": 7.5,
-    "date": "2026-09-01T04:16:38+00:00"
+    "date": "2026-09-01T09:10:24.768Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5461",
+    "title": "CVE-2026-75020 — Apache APISIX: ldap-auth plugin cross-subtree identity impersonation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75020",
     "score": 7.5,
-    "date": "2026-09-01T04:16:37+00:00"
+    "date": "2026-09-01T08:38:53.960Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.3 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5444",
+    "title": "CVE-2026-74848 — Apache APISIX: Cross-user response poisoning in serverless plugins",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74848",
     "score": 7.5,
-    "date": "2026-09-01T04:16:36+00:00"
+    "date": "2026-09-01T08:38:51.634Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.3 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5439",
+    "title": "CVE-2026-19873 — HTML::FormFu versions through 2.08 for Perl allow resource exhaustion via an unbounded repeat count from the query string in Repeatable elem",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19873",
     "score": 7.5,
-    "date": "2026-09-01T04:16:35+00:00"
+    "date": "2026-08-31T12:30:23Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 director Operator container images (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5394",
+    "title": "CVE-2026-10053 — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in GitLab",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10053",
     "score": 7.5,
-    "date": "2026-09-01T04:16:35+00:00"
+    "date": "2026-08-28T15:07:12.780Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: yggdrasil security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5146",
+    "title": "CVE-2026-62385 — NLTK versions before 3.10.0 contain a path traversal vulnerability in FramenetCorpusReader and NKJPCorpusReader that allows attackers to par",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62385",
     "score": 7.5,
-    "date": "2026-09-01T04:16:34+00:00"
+    "date": "2026-08-22T15:16:18.833Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: yggdrasil-worker-package-manager security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5145",
+    "title": "CVE-2026-42499 — Quadratic string concatenation in consumePhrase in net/mail",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42499",
     "score": 7.5,
-    "date": "2026-09-01T04:16:34+00:00"
+    "date": "2026-05-11T05:44:41.457Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 2.11.8 for Red Hat OpenShift Service Mesh 3.1 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5131",
+    "title": "CVE-2026-39820 — Quadratic string concatentation in consumeComment in net/mail",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39820",
     "score": 7.5,
-    "date": "2026-09-01T04:16:32+00:00"
+    "date": "2026-05-11T05:44:31.985Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 2.4.14 for Red Hat OpenShift Service Mesh 3.0 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5129",
+    "title": "CVE-2026-33814 — Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33814",
     "score": 7.5,
-    "date": "2026-09-01T04:16:31+00:00"
+    "date": "2026-05-11T05:44:26.716Z"
    }
   ],
   "kev": [
@@ -283,6 +289,34 @@
   ],
   "thn": [
    {
+    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+    "date": "Tue, 01 Sep 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+    "date": "Tue, 01 Sep 2026 14:35:30 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+    "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+    "date": "Tue, 01 Sep 2026 13:56:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+    "date": "Tue, 01 Sep 2026 12:52:30 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
     "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
     "date": "Mon, 31 Aug 2026 22:54:28 +0530",
@@ -337,37 +371,23 @@
     "date": "Sun, 30 Aug 2026 13:06:33 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-    "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-    "date": "Sat, 29 Aug 2026 21:55:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-    "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-    "date": "Sat, 29 Aug 2026 03:00:52 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-    "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-    "date": "Sat, 29 Aug 2026 02:08:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-    "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-    "date": "Fri, 28 Aug 2026 22:42:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+    "url": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+    "date": "Tue, 01 Sep 2026 05:15:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Recently patched PaperCut zero-days used in data theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
+    "date": "Tue, 01 Sep 2026 03:48:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
     "url": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
@@ -383,7 +403,7 @@
     "badgeClass": "b-low"
    },
    {
-    "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+    "title": "Massive Microsoft 365 outage causes auth issues, service failures",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
     "date": "Mon, 31 Aug 2026 12:56:57 -0400",
     "badge": "CONSO",
@@ -437,20 +457,6 @@
     "date": "Mon, 31 Aug 2026 04:29:42 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-    "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-    "date": "Sun, 30 Aug 2026 11:00:21 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-    "date": "Sun, 30 Aug 2026 10:30:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -463,7 +469,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 324,
+    "stars": 325,
     "lang": "Python"
    },
    {
@@ -475,7 +481,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 197,
+    "stars": 198,
     "lang": "Go"
    },
    {
@@ -499,7 +505,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 122,
+    "stars": 126,
     "lang": "JavaScript"
    },
    {
@@ -511,7 +517,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 100,
+    "stars": 103,
     "lang": "PowerShell"
    },
    {
@@ -629,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
+    "url": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
+    "date": "2026-09-01T09:29:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Don’t Let Abliteration Abliterate Your Bug Hunting: Discovering Verdict Bias in Uncensored Models",
     "url": "https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/",
     "date": "2026-09-01T05:08:07+00:00",
@@ -690,13 +703,6 @@
     "date": "2026-08-25T17:14:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Local Privilege Escalation To System In Wibu-Systems CodeMeter Application",
-    "url": "https://www.reddit.com/r/netsec/comments/1vxw6ym/local_privilege_escalation_to_system_in/",
-    "date": "2026-08-25T10:41:27+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -711,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 5,
   "kev": 1687,
   "adv": 12,
   "feed": 48
