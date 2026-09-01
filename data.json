@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-09-01T11:45:44.950Z",
+ "generatedAt": "2026-09-01T16:44:11.423Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-78319 — SAUTER: modulo 6 and EY-modulo 5 Vulnerability in Firmware update mechanism allowing remote code execution",
-    "url": "https://certvde.com/en/advisories/VDE-2026-093",
+    "title": "CVE-2026-78012 — An issue in the NetStaX EtherNet/IP Stack prior to v5.6.1 could allow a large Class 3 explicit-message request to exceed the application-sid",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78012",
     "score": 9.8,
-    "date": "2026-09-01T10:00:00.000Z"
+    "date": "2026-09-01T15:31:14Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-78319 — A service running on the affected products contains a potential Time-of-Check Time-of-Use (TOCTOU) race condition. An unauthenticated remote",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78319",
+    "title": "CVE-2026-9621 — A denial-of-service security issue exists within RSLinx® Classic. The security issue stems from improper handling of a malformed packet. A c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9621",
     "score": 9.5,
-    "date": "2026-09-01T09:31:19Z"
+    "date": "2026-09-01T15:31:13Z"
    },
    {
-    "title": "CVE-2026-74882 — openssl_encrypt versions before 1.4.0 contain an insecure default configuration that trusts the entire RFC 1918 private address space in Int",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74882",
-    "score": 9.1,
-    "date": "2026-08-17T11:16:42.863Z"
+    "title": "CVE-2026-79686 — Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with limited privileges could potentially explo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79686",
+    "score": 8.8,
+    "date": "2026-09-01T15:31:14Z"
    },
    {
-    "title": "CVE-2026-18252 — Inclusion of Functionality from Untrusted Control Sphere in GitLab",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18252",
+    "title": "CVE-2026-79684 — Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with limited privileges could potentially explo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79684",
+    "score": 8.8,
+    "date": "2026-09-01T15:31:13Z"
+   },
+   {
+    "title": "CVE-2026-58571 — Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58571",
+    "score": 8.8,
+    "date": "2026-09-01T15:31:13Z"
+   },
+   {
+    "title": "CVE-2026-58569 — Dell PowerStore contains an Inclusion of Functionality from Untrusted Control Sphere vulnerability. An authenticated user with limited privi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58569",
+    "score": 8.8,
+    "date": "2026-09-01T15:31:13Z"
+   },
+   {
+    "title": "CVE-2026-58572 — Dell PowerStore contains a Code Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulner",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58572",
+    "score": 8.8,
+    "date": "2026-09-01T15:31:13Z"
+   },
+   {
+    "title": "CVE-2026-18630 — Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in TMT Machine Industry and Trade Ltd. Co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18630",
+    "score": 8.8,
+    "date": "2026-09-01T15:31:13Z"
+   },
+   {
+    "title": "CVE-2026-84115 — A vulnerability was found in Cleo Harmony up to 5.8.1.10. The affected element is an unknown function of the file /api/connections of the co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84115",
+    "score": 8.3,
+    "date": "2026-09-01T15:31:15Z"
+   },
+   {
+    "title": "CVE-2026-84218 — A flaw was found in Jolokia's JSR-160 proxy functionality where insufficient validation of client-controlled JMX service URLs allows a bypas",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84218",
+    "score": 8.1,
+    "date": "2026-09-01T15:31:13Z"
+   },
+   {
+    "title": "CVE-2026-9637 — A denial-of-service security issue exists in the affected Logix platforms listed in the table above. The security issue stems from improper ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9637",
     "score": 7.5,
-    "date": "2026-09-01T09:10:24.768Z"
+    "date": "2026-09-01T15:31:13Z"
    },
    {
-    "title": "CVE-2026-75020 — Apache APISIX: ldap-auth plugin cross-subtree identity impersonation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75020",
+    "title": "CVE-2026-9634 — A security issue exists within the Redundancy Module Configuration Tool. The RMConfigTool.exe binary searches directories in the system path",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9634",
     "score": 7.5,
-    "date": "2026-09-01T08:38:53.960Z"
-   },
-   {
-    "title": "CVE-2026-74848 — Apache APISIX: Cross-user response poisoning in serverless plugins",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74848",
-    "score": 7.5,
-    "date": "2026-09-01T08:38:51.634Z"
-   },
-   {
-    "title": "CVE-2026-19873 — HTML::FormFu versions through 2.08 for Perl allow resource exhaustion via an unbounded repeat count from the query string in Repeatable elem",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19873",
-    "score": 7.5,
-    "date": "2026-08-31T12:30:23Z"
-   },
-   {
-    "title": "CVE-2026-10053 — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in GitLab",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10053",
-    "score": 7.5,
-    "date": "2026-08-28T15:07:12.780Z"
-   },
-   {
-    "title": "CVE-2026-62385 — NLTK versions before 3.10.0 contain a path traversal vulnerability in FramenetCorpusReader and NKJPCorpusReader that allows attackers to par",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62385",
-    "score": 7.5,
-    "date": "2026-08-22T15:16:18.833Z"
-   },
-   {
-    "title": "CVE-2026-42499 — Quadratic string concatenation in consumePhrase in net/mail",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42499",
-    "score": 7.5,
-    "date": "2026-05-11T05:44:41.457Z"
-   },
-   {
-    "title": "CVE-2026-39820 — Quadratic string concatentation in consumeComment in net/mail",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39820",
-    "score": 7.5,
-    "date": "2026-05-11T05:44:31.985Z"
-   },
-   {
-    "title": "CVE-2026-33814 — Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33814",
-    "score": 7.5,
-    "date": "2026-05-11T05:44:26.716Z"
+    "date": "2026-09-01T15:31:13Z"
    }
   ],
   "kev": [
@@ -203,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
+    "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
+    "score": 7.5,
+    "ghsa": "GHSA-c83g-rgw3-j3cx",
+    "date": "2026-09-01T16:42:13Z"
+   },
+   {
+    "title": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
+    "url": "https://github.com/advisories/GHSA-73wf-gq98-2v4g",
+    "score": 7.5,
+    "ghsa": "GHSA-73wf-gq98-2v4g",
+    "date": "2026-09-01T16:41:54Z"
+   },
+   {
+    "title": "MySQL2: Auth Plugin Downgrade to mysql_clear_password Leaks Plaintext Credentials",
+    "url": "https://github.com/advisories/GHSA-3f6p-5ww8-9rcr",
+    "score": 7.5,
+    "ghsa": "GHSA-3f6p-5ww8-9rcr",
+    "date": "2026-09-01T16:40:34Z"
+   },
+   {
+    "title": "Smarty: SSRF via redirect bypass of trusted_uri using {fetch}",
+    "url": "https://github.com/advisories/GHSA-cq55-c7wv-pxmq",
+    "score": null,
+    "ghsa": "GHSA-cq55-c7wv-pxmq",
+    "date": "2026-09-01T16:38:22Z"
+   },
+   {
+    "title": "Kirby: System path exposure from error messages in the REST API",
+    "url": "https://github.com/advisories/GHSA-rf2p-vh74-7vvh",
+    "score": null,
+    "ghsa": "GHSA-rf2p-vh74-7vvh",
+    "date": "2026-09-01T16:37:47Z"
+   },
+   {
     "title": "Kirby: File upload permissions are not checked during processing of chunk data",
     "url": "https://github.com/advisories/GHSA-67mx-6wf2-92xp",
     "score": 7.5,
@@ -250,44 +285,23 @@
     "score": null,
     "ghsa": "GHSA-mfqj-cqv3-h7xw",
     "date": "2026-08-31T19:53:59Z"
-   },
-   {
-    "title": "MariaDB has possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
-    "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
-    "score": 6.5,
-    "ghsa": "GHSA-g5xc-5w98-jfvm",
-    "date": "2026-08-28T22:53:12Z"
-   },
-   {
-    "title": "RestrictedPython guard hooks can be shadowed via positional-only arguments",
-    "url": "https://github.com/advisories/GHSA-ffg3-p8fm-mjx2",
-    "score": 8.3,
-    "ghsa": "GHSA-ffg3-p8fm-mjx2",
-    "date": "2026-08-28T22:51:35Z"
-   },
-   {
-    "title": "org.mariadb:r2dbc-mariadb vulnerable to cleartext password disclosure to a man-in-the-middle server (clear-text auth plugins not gated on a secure tra",
-    "url": "https://github.com/advisories/GHSA-c857-9x2m-cvh2",
-    "score": 5.9,
-    "ghsa": "GHSA-c857-9x2m-cvh2",
-    "date": "2026-08-28T22:50:56Z"
-   },
-   {
-    "title": "org.mariadb:r2dbc-mariadb has Inappropriate Encoding for Output Context and Improper Encoding or Escaping of Output",
-    "url": "https://github.com/advisories/GHSA-5rqc-86vf-g8r2",
-    "score": 5.9,
-    "ghsa": "GHSA-5rqc-86vf-g8r2",
-    "date": "2026-08-28T22:49:03Z"
-   },
-   {
-    "title": "org.mariadb.jdbc:mariadb-java-client has Inappropriate Encoding for Output Context",
-    "url": "https://github.com/advisories/GHSA-xvr9-35cr-46v9",
-    "score": 5.9,
-    "ghsa": "GHSA-xvr9-35cr-46v9",
-    "date": "2026-08-28T22:47:19Z"
    }
   ],
   "thn": [
+   {
+    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+    "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+    "date": "Tue, 01 Sep 2026 19:37:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+    "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+    "date": "Tue, 01 Sep 2026 18:38:58 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
     "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
@@ -357,23 +371,37 @@
     "date": "Mon, 31 Aug 2026 14:34:55 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-    "url": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
-    "date": "Mon, 31 Aug 2026 13:26:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-    "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-    "date": "Sun, 30 Aug 2026 13:06:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+    "date": "Tue, 01 Sep 2026 10:45:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Novocure data breach affects more than 1,400 cancer patients",
+    "url": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+    "date": "Tue, 01 Sep 2026 10:28:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+    "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+    "date": "Tue, 01 Sep 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+    "date": "Tue, 01 Sep 2026 08:38:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
     "url": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
@@ -429,34 +457,6 @@
     "date": "Mon, 31 Aug 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
-    "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
-    "date": "Mon, 31 Aug 2026 09:30:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
-    "date": "Mon, 31 Aug 2026 06:23:46 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Nigerians extradited to US for sextortion, deaths of two teens",
-    "url": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
-    "date": "Mon, 31 Aug 2026 05:22:47 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-    "date": "Mon, 31 Aug 2026 04:29:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -481,7 +481,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 198,
+    "stars": 199,
     "lang": "Go"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 126,
+    "stars": 127,
     "lang": "JavaScript"
    },
    {
@@ -517,108 +517,23 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 103,
+    "stars": 104,
     "lang": "PowerShell"
+   },
+   {
+    "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
+    "url": "https://github.com/jiangkoumo/toolfence",
+    "stars": 99,
+    "lang": "TypeScript"
    },
    {
     "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
     "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
     "stars": 98,
     "lang": "—"
-   },
-   {
-    "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
-    "url": "https://github.com/duy90utc528/repo-publication-audit",
-    "stars": 97,
-    "lang": "Python"
    }
   ],
-  "hn": [
-   {
-    "title": "U.S. national-security leaders included me in a group chat",
-    "url": "https://www.theatlantic.com/politics/archive/2025/03/trump-administration-accidentally-texted-me-its-war-plans/682151/",
-    "points": 2283,
-    "comments": 1291,
-    "date": "2025-03-24T16:23:55Z"
-   },
-   {
-    "title": "Bypassing airport security via SQL injection",
-    "url": "https://ian.sh/tsa",
-    "points": 2004,
-    "comments": 440,
-    "date": "2024-08-29T15:53:08Z"
-   },
-   {
-    "title": "Apple pulls data protection tool after UK government security row",
-    "url": "https://www.bbc.com/news/articles/cgj54eq4vejo",
-    "points": 1770,
-    "comments": 1068,
-    "date": "2025-02-21T15:05:24Z"
-   },
-   {
-    "title": "OpenAI and Hugging Face address security incident during model evaluation",
-    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-    "points": 1632,
-    "comments": 1157,
-    "date": "2026-07-21T20:09:52Z"
-   },
-   {
-    "title": "Insecure vehicles should be banned, not security tools like the Flipper Zero",
-    "url": "https://saveflipper.ca/",
-    "points": 1496,
-    "comments": 878,
-    "date": "2024-02-21T11:20:49Z"
-   },
-   {
-    "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
-    "url": "https://plus.google.com/+MikeHearn/posts/LW1DXJ2BK8k",
-    "points": 1217,
-    "comments": 396,
-    "date": "2013-11-06T04:51:41Z"
-   },
-   {
-    "title": "Senators push to ditch social security numbers in light of Equifax hack",
-    "url": "https://techcrunch.com/2017/11/08/are-social-security-numbers-going-away/",
-    "points": 1126,
-    "comments": 464,
-    "date": "2017-11-08T22:49:56Z"
-   },
-   {
-    "title": "Internet Archive: Security breach alert",
-    "url": "https://www.theverge.com/2024/10/9/24266419/internet-archive-ddos-attack-pop-up-message",
-    "points": 1091,
-    "comments": 607,
-    "date": "2024-10-09T20:54:26Z"
-   },
-   {
-    "title": "Librarian's Letter to Google Security",
-    "url": "https://docs.google.com/document/d/1f6HPQbUjslcbjVHkJkAgYmQmBV3PRRHEcx4WL5rxuE8/preview",
-    "points": 1082,
-    "comments": 461,
-    "date": "2022-08-01T11:05:23Z"
-   },
-   {
-    "title": "Facebook Security Chief Said to Leave After Clashes Over Disinformation",
-    "url": "https://www.nytimes.com/2018/03/19/technology/facebook-alex-stamos.html",
-    "points": 1074,
-    "comments": 395,
-    "date": "2018-03-19T22:23:41Z"
-   },
-   {
-    "title": "Yahoo installed a backdoor for the NSA behind the back of the security team",
-    "url": "https://diracdeltas.github.io/blog/surveillance/",
-    "points": 1009,
-    "comments": 280,
-    "date": "2016-12-15T03:19:38Z"
-   },
-   {
-    "title": "Security by obscurity is underrated",
-    "url": "https://utkusen.com/blog/security-by-obscurity-is-underrated.html",
-    "points": 939,
-    "comments": 510,
-    "date": "2020-09-11T16:34:32Z"
-   }
-  ],
+  "hn": [],
   "reddit": [
    {
     "title": "/r/netsec's Q3 2026 Information Security Hiring Thread",
@@ -629,8 +544,15 @@
    },
    {
     "title": "r/netsec monthly discussion &amp; tool thread",
-    "url": "https://www.reddit.com/r/netsec/comments/1vcngz2/rnetsec_monthly_discussion_tool_thread/",
-    "date": "2026-08-01T13:29:06+00:00",
+    "url": "https://www.reddit.com/r/netsec/comments/1w4c1cg/rnetsec_monthly_discussion_tool_thread/",
+    "date": "2026-09-01T13:29:15+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Authentication bypass in EOL Proxmox VE 7 release",
+    "url": "https://www.reddit.com/r/netsec/comments/1w4agtv/authentication_bypass_in_eol_proxmox_ve_7_release/",
+    "date": "2026-09-01T12:25:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -638,6 +560,20 @@
     "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
     "url": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
     "date": "2026-09-01T09:29:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586",
+    "url": "https://www.reddit.com/r/netsec/comments/1w4aj8x/off_the_hook_discovering_and_observing_active/",
+    "date": "2026-09-01T12:28:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG",
+    "url": "https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/",
+    "date": "2026-09-01T14:39:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -682,27 +618,6 @@
     "date": "2026-08-27T15:43:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "☢️ Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator",
-    "url": "https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/",
-    "date": "2026-08-26T13:59:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Ruby Marshal Kick-off Gadgets - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1vyonto/ruby_marshal_kickoff_gadgets_elttam/",
-    "date": "2026-08-26T06:06:26+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Pwning Call of Duty 1: a 20-year-old RCE, found in an evening with AI",
-    "url": "https://www.reddit.com/r/netsec/comments/1vy5zqu/pwning_call_of_duty_1_a_20yearold_rce_found_in_an/",
-    "date": "2026-08-25T17:14:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -713,14 +628,14 @@
   "thn": true,
   "bleep": true,
   "tools": true,
-  "hn": true,
+  "hn": false,
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1687,
   "adv": 12,
-  "feed": 48
+  "feed": 36
  },
- "okCount": 8
+ "okCount": 7
 }
