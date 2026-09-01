@@ -1,12 +1,42 @@
 {
- "generatedAt": "2026-09-01T16:44:11.423Z",
+ "generatedAt": "2026-09-01T19:57:33.573Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-78012 — An issue in the NetStaX EtherNet/IP Stack prior to v5.6.1 could allow a large Class 3 explicit-message request to exceed the application-sid",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78012",
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-09-01T19:39:30+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-09-01T19:39:30+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
+    "score": 9.9,
+    "date": "2026-09-01T19:39:30+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
+    "score": 9.9,
+    "date": "2026-09-01T19:39:29+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53530",
+    "score": 9.9,
+    "date": "2026-09-01T19:39:20+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59155",
     "score": 9.8,
-    "date": "2026-09-01T15:31:14Z"
+    "date": "2026-09-01T19:39:26+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +51,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-9621 — A denial-of-service security issue exists within RSLinx® Classic. The security issue stems from improper handling of a malformed packet. A c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9621",
-    "score": 9.5,
-    "date": "2026-09-01T15:31:13Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-09-01T19:39:22+00:00"
    },
    {
-    "title": "CVE-2026-79686 — Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with limited privileges could potentially explo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79686",
-    "score": 8.8,
-    "date": "2026-09-01T15:31:14Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
+    "score": 9.1,
+    "date": "2026-09-01T19:39:22+00:00"
    },
    {
-    "title": "CVE-2026-79684 — Dell PowerStore contains a Protection Mechanism Failure vulnerability. An authenticated user with limited privileges could potentially explo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79684",
-    "score": 8.8,
-    "date": "2026-09-01T15:31:13Z"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-09-01T19:39:16+00:00"
    },
    {
-    "title": "CVE-2026-58571 — Dell PowerStore contains an OS Command Injection vulnerability. An authenticated user with limited privileges could potentially exploit this",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58571",
-    "score": 8.8,
-    "date": "2026-09-01T15:31:13Z"
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50479",
+    "score": 9.1,
+    "date": "2026-09-01T19:39:14+00:00"
    },
    {
-    "title": "CVE-2026-58569 — Dell PowerStore contains an Inclusion of Functionality from Untrusted Control Sphere vulnerability. An authenticated user with limited privi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58569",
-    "score": 8.8,
-    "date": "2026-09-01T15:31:13Z"
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-09-01T19:39:01+00:00"
    },
    {
-    "title": "CVE-2026-58572 — Dell PowerStore contains a Code Injection vulnerability. An authenticated user with limited privileges could potentially exploit this vulner",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58572",
-    "score": 8.8,
-    "date": "2026-09-01T15:31:13Z"
-   },
-   {
-    "title": "CVE-2026-18630 — Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in TMT Machine Industry and Trade Ltd. Co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18630",
-    "score": 8.8,
-    "date": "2026-09-01T15:31:13Z"
-   },
-   {
-    "title": "CVE-2026-84115 — A vulnerability was found in Cleo Harmony up to 5.8.1.10. The affected element is an unknown function of the file /api/connections of the co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84115",
-    "score": 8.3,
-    "date": "2026-09-01T15:31:15Z"
-   },
-   {
-    "title": "CVE-2026-84218 — A flaw was found in Jolokia's JSR-160 proxy functionality where insufficient validation of client-controlled JMX service URLs allows a bypas",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84218",
-    "score": 8.1,
-    "date": "2026-09-01T15:31:13Z"
-   },
-   {
-    "title": "CVE-2026-9637 — A denial-of-service security issue exists in the affected Logix platforms listed in the table above. The security issue stems from improper ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9637",
-    "score": 7.5,
-    "date": "2026-09-01T15:31:13Z"
-   },
-   {
-    "title": "CVE-2026-9634 — A security issue exists within the Redundancy Module Configuration Tool. The RMConfigTool.exe binary searches directories in the system path",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9634",
-    "score": 7.5,
-    "date": "2026-09-01T15:31:13Z"
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34794",
+    "score": 9.1,
+    "date": "2026-09-01T19:38:47+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,55 @@
   ],
   "adv": [
    {
+    "title": "Django REST framework: Potential bypass of Django `DATA_UPLOAD_MAX_MEMORY_SIZE` when parsing oversized JSON and urlencoded request bodies via DRF `req",
+    "url": "https://github.com/advisories/GHSA-2m8g-3cmr-wg3w",
+    "score": 5.3,
+    "ghsa": "GHSA-2m8g-3cmr-wg3w",
+    "date": "2026-09-01T19:24:51Z"
+   },
+   {
+    "title": "Django REST framework: AdminRenderer may disclose GET-protected data when rendering invalid write requests",
+    "url": "https://github.com/advisories/GHSA-g47c-3xmw-q6m2",
+    "score": 4.3,
+    "ghsa": "GHSA-g47c-3xmw-q6m2",
+    "date": "2026-09-01T19:24:29Z"
+   },
+   {
+    "title": "nanoid: Integer Overflow or Wraparound",
+    "url": "https://github.com/advisories/GHSA-xwg4-73v4-xw9w",
+    "score": 7.4,
+    "ghsa": "GHSA-xwg4-73v4-xw9w",
+    "date": "2026-09-01T19:23:45Z"
+   },
+   {
+    "title": "pnpm: Environment secrets exfiltrated via env-placeholder expansion in proxy settings read from an untrusted pnpm-workspace.yaml",
+    "url": "https://github.com/advisories/GHSA-vx52-2968-3vc6",
+    "score": 7.4,
+    "ghsa": "GHSA-vx52-2968-3vc6",
+    "date": "2026-09-01T19:22:42Z"
+   },
+   {
+    "title": "pnpm: pacquet trust-lockfile install can create dependency symlinks outside the project",
+    "url": "https://github.com/advisories/GHSA-2rx9-3g3h-c2jv",
+    "score": 7.1,
+    "ghsa": "GHSA-2rx9-3g3h-c2jv",
+    "date": "2026-09-01T18:59:22Z"
+   },
+   {
+    "title": "Appium: Reflected XSS / arbitrary JS in @appium/base-driver /test/guinea-pig* routes",
+    "url": "https://github.com/advisories/GHSA-3wgp-x9p5-c7cc",
+    "score": 6.5,
+    "ghsa": "GHSA-3wgp-x9p5-c7cc",
+    "date": "2026-09-01T18:54:53Z"
+   },
+   {
+    "title": "MLFLOW_ALLOW_PICKLE_DESERIALIZATION=False safety control bypassed by mlflow.statsmodels flavor — RCE via crafted model artifact",
+    "url": "https://github.com/advisories/GHSA-gqvg-gmmx-x4hm",
+    "score": 8.8,
+    "ghsa": "GHSA-gqvg-gmmx-x4hm",
+    "date": "2026-09-01T17:04:30Z"
+   },
+   {
     "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
     "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
     "score": 7.5,
@@ -236,58 +285,23 @@
     "score": null,
     "ghsa": "GHSA-rf2p-vh74-7vvh",
     "date": "2026-09-01T16:37:47Z"
-   },
-   {
-    "title": "Kirby: File upload permissions are not checked during processing of chunk data",
-    "url": "https://github.com/advisories/GHSA-67mx-6wf2-92xp",
-    "score": 7.5,
-    "ghsa": "GHSA-67mx-6wf2-92xp",
-    "date": "2026-08-31T22:14:05Z"
-   },
-   {
-    "title": "Kirby: Access to image files and limited access to JSON files outside of the site root via path traversal in the media handling",
-    "url": "https://github.com/advisories/GHSA-9vx2-j98c-p72w",
-    "score": 7.5,
-    "ghsa": "GHSA-9vx2-j98c-p72w",
-    "date": "2026-08-31T22:12:45Z"
-   },
-   {
-    "title": "decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
-    "url": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
-    "score": null,
-    "ghsa": "GHSA-vcc3-ghjq-m6fr",
-    "date": "2026-08-31T22:10:20Z"
-   },
-   {
-    "title": "Socket.IO: Engine.IO WebTransport SID DoS",
-    "url": "https://github.com/advisories/GHSA-gr94-w7qr-f4j3",
-    "score": 7.5,
-    "ghsa": "GHSA-gr94-w7qr-f4j3",
-    "date": "2026-08-31T21:28:12Z"
-   },
-   {
-    "title": "@hono/oauth-providers: OAuth state check fails open on omitted state, enabling login CSRF and forced account linking",
-    "url": "https://github.com/advisories/GHSA-fm3f-ch8h-qw8q",
-    "score": 5.4,
-    "ghsa": "GHSA-fm3f-ch8h-qw8q",
-    "date": "2026-08-31T20:30:50Z"
-   },
-   {
-    "title": "elFinder: SSRF protection bypass via DNS rebinding in the `fsock_get_contents()` fallback",
-    "url": "https://github.com/advisories/GHSA-8x3q-jpjh-qh5c",
-    "score": 8.6,
-    "ghsa": "GHSA-8x3q-jpjh-qh5c",
-    "date": "2026-08-31T20:28:06Z"
-   },
-   {
-    "title": "TYPO3 CMS - Unrestricted File Upload in Form Framework",
-    "url": "https://github.com/advisories/GHSA-mfqj-cqv3-h7xw",
-    "score": null,
-    "ghsa": "GHSA-mfqj-cqv3-h7xw",
-    "date": "2026-08-31T19:53:59Z"
    }
   ],
   "thn": [
+   {
+    "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+    "date": "Tue, 01 Sep 2026 23:23:11 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+    "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+    "date": "Tue, 01 Sep 2026 22:49:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
     "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
@@ -357,23 +371,23 @@
     "date": "Mon, 31 Aug 2026 17:17:24 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-    "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-    "date": "Mon, 31 Aug 2026 17:01:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-    "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-    "date": "Mon, 31 Aug 2026 14:34:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Aesto Health says data breach affects over 9.5 million patients",
+    "url": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+    "date": "Tue, 01 Sep 2026 15:28:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+    "date": "Tue, 01 Sep 2026 13:54:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
@@ -443,27 +457,13 @@
     "date": "Mon, 31 Aug 2026 12:50:50 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
-    "date": "Mon, 31 Aug 2026 10:52:03 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "File servers are here to stay. Here’s how to manage them securely",
-    "url": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
-    "date": "Mon, 31 Aug 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 403,
+    "stars": 390,
     "lang": "Python"
    },
    {
@@ -499,13 +499,13 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 139,
+    "stars": 140,
     "lang": "JavaScript"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 127,
+    "stars": 128,
     "lang": "JavaScript"
    },
    {
@@ -517,13 +517,13 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 104,
+    "stars": 105,
     "lang": "PowerShell"
    },
    {
     "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
     "url": "https://github.com/jiangkoumo/toolfence",
-    "stars": 99,
+    "stars": 101,
     "lang": "TypeScript"
    },
    {
@@ -533,7 +533,92 @@
     "lang": "—"
    }
   ],
-  "hn": [],
+  "hn": [
+   {
+    "title": "U.S. national-security leaders included me in a group chat",
+    "url": "https://www.theatlantic.com/politics/archive/2025/03/trump-administration-accidentally-texted-me-its-war-plans/682151/",
+    "points": 2283,
+    "comments": 1291,
+    "date": "2025-03-24T16:23:55Z"
+   },
+   {
+    "title": "Bypassing airport security via SQL injection",
+    "url": "https://ian.sh/tsa",
+    "points": 2004,
+    "comments": 440,
+    "date": "2024-08-29T15:53:08Z"
+   },
+   {
+    "title": "Apple pulls data protection tool after UK government security row",
+    "url": "https://www.bbc.com/news/articles/cgj54eq4vejo",
+    "points": 1770,
+    "comments": 1068,
+    "date": "2025-02-21T15:05:24Z"
+   },
+   {
+    "title": "OpenAI and Hugging Face address security incident during model evaluation",
+    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "points": 1632,
+    "comments": 1157,
+    "date": "2026-07-21T20:09:52Z"
+   },
+   {
+    "title": "Insecure vehicles should be banned, not security tools like the Flipper Zero",
+    "url": "https://saveflipper.ca/",
+    "points": 1496,
+    "comments": 878,
+    "date": "2024-02-21T11:20:49Z"
+   },
+   {
+    "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
+    "url": "https://plus.google.com/+MikeHearn/posts/LW1DXJ2BK8k",
+    "points": 1217,
+    "comments": 396,
+    "date": "2013-11-06T04:51:41Z"
+   },
+   {
+    "title": "Senators push to ditch social security numbers in light of Equifax hack",
+    "url": "https://techcrunch.com/2017/11/08/are-social-security-numbers-going-away/",
+    "points": 1126,
+    "comments": 464,
+    "date": "2017-11-08T22:49:56Z"
+   },
+   {
+    "title": "Internet Archive: Security breach alert",
+    "url": "https://www.theverge.com/2024/10/9/24266419/internet-archive-ddos-attack-pop-up-message",
+    "points": 1091,
+    "comments": 607,
+    "date": "2024-10-09T20:54:26Z"
+   },
+   {
+    "title": "Librarian's Letter to Google Security",
+    "url": "https://docs.google.com/document/d/1f6HPQbUjslcbjVHkJkAgYmQmBV3PRRHEcx4WL5rxuE8/preview",
+    "points": 1082,
+    "comments": 461,
+    "date": "2022-08-01T11:05:23Z"
+   },
+   {
+    "title": "Facebook Security Chief Said to Leave After Clashes Over Disinformation",
+    "url": "https://www.nytimes.com/2018/03/19/technology/facebook-alex-stamos.html",
+    "points": 1074,
+    "comments": 395,
+    "date": "2018-03-19T22:23:41Z"
+   },
+   {
+    "title": "Yahoo installed a backdoor for the NSA behind the back of the security team",
+    "url": "https://diracdeltas.github.io/blog/surveillance/",
+    "points": 1009,
+    "comments": 280,
+    "date": "2016-12-15T03:19:38Z"
+   },
+   {
+    "title": "Security by obscurity is underrated",
+    "url": "https://utkusen.com/blog/security-by-obscurity-is-underrated.html",
+    "points": 939,
+    "comments": 510,
+    "date": "2020-09-11T16:34:32Z"
+   }
+  ],
   "reddit": [
    {
     "title": "/r/netsec's Q3 2026 Information Security Hiring Thread",
@@ -557,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
-    "url": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
-    "date": "2026-09-01T09:29:24+00:00",
+    "title": "Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586",
+    "url": "https://www.reddit.com/r/netsec/comments/1w4aj8x/off_the_hook_discovering_and_observing_active/",
+    "date": "2026-09-01T12:28:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586",
-    "url": "https://www.reddit.com/r/netsec/comments/1w4aj8x/off_the_hook_discovering_and_observing_active/",
-    "date": "2026-09-01T12:28:03+00:00",
+    "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
+    "url": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
+    "date": "2026-09-01T09:29:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -628,14 +713,14 @@
   "thn": true,
   "bleep": true,
   "tools": true,
-  "hn": false,
+  "hn": true,
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1687,
   "adv": 12,
-  "feed": 36
+  "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
