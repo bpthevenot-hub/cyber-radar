@@ -1,20 +1,7 @@
 {
- "generatedAt": "2026-09-02T19:50:48.643Z",
+ "generatedAt": "2026-09-02T22:41:40.465Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -131,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
-    "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
-    "score": 7.5,
-    "ghsa": "GHSA-5jgf-p345-68v8",
-    "date": "2026-09-02T15:44:30Z"
+    "title": "Omnigent Guardrail policy bypass: shell-command parser fails open in policies/builtins/_shell.py",
+    "url": "https://github.com/advisories/GHSA-7mqg-cx4g-x2rf",
+    "score": 7.1,
+    "ghsa": "GHSA-7mqg-cx4g-x2rf",
+    "date": "2026-09-02T22:40:07Z"
    },
    {
-    "title": "fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
-    "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
-    "score": 7.5,
-    "ghsa": "GHSA-f65p-4m7j-42xc",
-    "date": "2026-09-02T15:43:30Z"
+    "title": "Plate: SSRF with response disclosure in DOCX image embedding",
+    "url": "https://github.com/advisories/GHSA-4q39-2jhr-7qx8",
+    "score": 8.2,
+    "ghsa": "GHSA-4q39-2jhr-7qx8",
+    "date": "2026-09-02T22:14:54Z"
    },
    {
-    "title": "fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
-    "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
+    "title": "Handlebars.java: Arbitrary file read in `SpringTemplateLoader` via URL-fragment suffix bypass",
+    "url": "https://github.com/advisories/GHSA-g29j-rwfv-h99w",
     "score": 7.5,
-    "ghsa": "GHSA-fph4-wmhf-6fwf",
-    "date": "2026-09-02T15:42:39Z"
+    "ghsa": "GHSA-g29j-rwfv-h99w",
+    "date": "2026-09-02T22:12:03Z"
    },
    {
-    "title": "fast-uri vulnerable to host confusion via percent-encoded scheme normalization",
-    "url": "https://github.com/advisories/GHSA-jqff-g426-hqxp",
-    "score": 7.5,
-    "ghsa": "GHSA-jqff-g426-hqxp",
-    "date": "2026-09-02T15:41:53Z"
-   },
-   {
-    "title": "NLTK: Default ENFORCE=False Disables All pathsec Security Controls",
-    "url": "https://github.com/advisories/GHSA-p3m8-78j2-g5p3",
-    "score": 7.5,
-    "ghsa": "GHSA-p3m8-78j2-g5p3",
-    "date": "2026-09-02T15:40:33Z"
-   },
-   {
-    "title": "NLTK: SSRF Fail-Open in validate_network_url() via DNS Resolution Failure",
-    "url": "https://github.com/advisories/GHSA-3gqm-fcw5-w839",
+    "title": "Hurl: Cookies in Cookies section leak when redirecting to a different host",
+    "url": "https://github.com/advisories/GHSA-7w2g-9mf9-324m",
     "score": null,
-    "ghsa": "GHSA-3gqm-fcw5-w839",
-    "date": "2026-09-02T15:39:39Z"
+    "ghsa": "GHSA-7w2g-9mf9-324m",
+    "date": "2026-09-02T22:11:11Z"
    },
    {
-    "title": "xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
-    "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
-    "score": null,
-    "ghsa": "GHSA-6gmq-8vp8-gcm6",
-    "date": "2026-09-02T15:18:20Z"
+    "title": "Mail: Email address spoofing via malformed RFC 2047 encoded-words",
+    "url": "https://github.com/advisories/GHSA-mvxr-6m87-mv2q",
+    "score": 5.3,
+    "ghsa": "GHSA-mvxr-6m87-mv2q",
+    "date": "2026-09-02T22:02:32Z"
    },
    {
-    "title": "Mistune: Denial of Service — RecursionError via Excessive Emphasis Markers in Markdown",
-    "url": "https://github.com/advisories/GHSA-6m44-fpc8-c3rq",
+    "title": "Grav: 2FA Bypass via 'login.regenerate2FASecret' - Secret Rotation During Pending Challenge",
+    "url": "https://github.com/advisories/GHSA-7mgc-c7pq-3rr3",
+    "score": 7.4,
+    "ghsa": "GHSA-7mgc-c7pq-3rr3",
+    "date": "2026-09-02T22:01:25Z"
+   },
+   {
+    "title": "Omnigent: Unvalidated os_env.cwd in agent bundle yields arbitrary host filesystem access on runners without OMNIGENT_RUNNER_WORKSPACE",
+    "url": "https://github.com/advisories/GHSA-p8rw-8qj3-hf33",
+    "score": 8.8,
+    "ghsa": "GHSA-p8rw-8qj3-hf33",
+    "date": "2026-09-02T22:00:54Z"
+   },
+   {
+    "title": "Omnigent: Shared Agent Bundle Overwrite Leads to Authenticated Runner RCE",
+    "url": "https://github.com/advisories/GHSA-jrrm-9hc7-2v3h",
+    "score": 9,
+    "ghsa": "GHSA-jrrm-9hc7-2v3h",
+    "date": "2026-09-02T21:55:11Z"
+   },
+   {
+    "title": "Omnigent: Uploaded Agent Bundle Allows Authenticated Runner RCE via Python Callable Tools",
+    "url": "https://github.com/advisories/GHSA-756x-9hf6-q4h4",
+    "score": 8.8,
+    "ghsa": "GHSA-756x-9hf6-q4h4",
+    "date": "2026-09-02T21:54:52Z"
+   },
+   {
+    "title": "Grav: Twig sandbox config exfiltration via grav.offsetGet + dump filter (CVE-2026-44738 bypass)",
+    "url": "https://github.com/advisories/GHSA-mc5q-6hpj-rp7j",
+    "score": 6.5,
+    "ghsa": "GHSA-mc5q-6hpj-rp7j",
+    "date": "2026-09-02T21:41:12Z"
+   },
+   {
+    "title": "Grav: Decompression Bomb via ZipArchiver - Missing Extraction Limits",
+    "url": "https://github.com/advisories/GHSA-928x-9mpw-8h56",
+    "score": 6.5,
+    "ghsa": "GHSA-928x-9mpw-8h56",
+    "date": "2026-09-02T21:35:43Z"
+   },
+   {
+    "title": "link-preview-js DNS Rebinding SSRF Bypass / Incomplete Fix for CVE-2026-43897",
+    "url": "https://github.com/advisories/GHSA-cpjf-6666-r8fx",
     "score": 7.5,
-    "ghsa": "GHSA-6m44-fpc8-c3rq",
-    "date": "2026-09-02T15:14:55Z"
-   },
-   {
-    "title": "fastify vulnerable to X-Forwarded-* spoofing under trustProxy hop-count",
-    "url": "https://github.com/advisories/GHSA-3m5p-2c4r-xxw2",
-    "score": 6.1,
-    "ghsa": "GHSA-3m5p-2c4r-xxw2",
-    "date": "2026-09-02T15:14:06Z"
-   },
-   {
-    "title": "fastify vulnerable to schema validation bypass via root primitive coercion mismatch",
-    "url": "https://github.com/advisories/GHSA-w2qp-rph6-63g4",
-    "score": 5.4,
-    "ghsa": "GHSA-w2qp-rph6-63g4",
-    "date": "2026-09-02T15:13:23Z"
-   },
-   {
-    "title": "ApostropheCMS: 2nd-order prototype pollution via PATCH leading to single-request persistent DoS",
-    "url": "https://github.com/advisories/GHSA-vmg4-6gfg-83qx",
-    "score": 7.5,
-    "ghsa": "GHSA-vmg4-6gfg-83qx",
-    "date": "2026-09-02T15:12:41Z"
-   },
-   {
-    "title": "Sulu: Stored XSS via media download inline-disposition override",
-    "url": "https://github.com/advisories/GHSA-pp4x-ccxq-6r33",
-    "score": 5.4,
-    "ghsa": "GHSA-pp4x-ccxq-6r33",
-    "date": "2026-09-02T15:10:19Z"
+    "ghsa": "GHSA-cpjf-6666-r8fx",
+    "date": "2026-09-02T21:29:57Z"
    }
   ],
   "thn": [
@@ -303,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+    "date": "Wed, 02 Sep 2026 17:00:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
     "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
     "date": "Wed, 02 Sep 2026 15:28:46 -0400",
@@ -376,13 +370,6 @@
     "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
     "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
     "date": "Tue, 01 Sep 2026 13:54:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-    "date": "Tue, 01 Sep 2026 10:45:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
@@ -570,6 +557,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Rooted in Trust: Three privilege-escalation vulnerabilities in HP Easy Start for macOS (CVE-2026-12554, CVE-2026-12555, CVE-2026-12556)",
+    "url": "https://www.reddit.com/r/netsec/comments/1w5l1j8/rooted_in_trust_three_privilegeescalation/",
+    "date": "2026-09-02T19:49:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "QR Phishing With No Image: Text-Only QR Codes for Inboxes w/ Images Disabled",
+    "url": "https://www.reddit.com/r/netsec/comments/1w5pgmk/qr_phishing_with_no_image_textonly_qr_codes_for/",
+    "date": "2026-09-02T22:32:23+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Authentication bypass in EOL Proxmox VE 7 release",
     "url": "https://www.reddit.com/r/netsec/comments/1w4agtv/authentication_bypass_in_eol_proxmox_ve_7_release/",
     "date": "2026-09-01T12:25:06+00:00",
@@ -617,25 +618,11 @@
     "date": "2026-08-30T16:46:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range",
-    "url": "https://www.reddit.com/r/netsec/comments/1w05xwz/unibleed_unauthenticated_root_rce_on_any_unitree/",
-    "date": "2026-08-27T20:44:41+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "LLM-Driven Reverse Engineering vs Iterative LLM Obfuscation",
-    "url": "https://www.reddit.com/r/netsec/comments/1vzx029/llmdriven_reverse_engineering_vs_iterative_llm/",
-    "date": "2026-08-27T15:21:53+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -645,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1694,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
