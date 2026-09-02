@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-09-02T11:27:04.044Z",
+ "generatedAt": "2026-09-02T16:40:05.318Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-83548 — Zero-Day kwetsbaarheden verholpen in SMA1000 Appliance van SonicWall (+1 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83548",
-    "score": 10,
-    "date": "2026-09-02T09:51:05.016367Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,72 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
-    "score": 9.1,
-    "date": "2026-09-02T08:44:13+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
-    "score": 9.1,
-    "date": "2026-09-02T08:44:05+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
-    "score": 9.1,
-    "date": "2026-09-02T08:44:02+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
-    "score": 9.1,
-    "date": "2026-09-02T08:44:00+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-09-02T08:43:43+00:00"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
-    "score": 9.1,
-    "date": "2026-09-02T08:43:42+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
-    "score": 9.1,
-    "date": "2026-09-02T08:43:33+00:00"
-   },
-   {
-    "title": "CVE-2026-15416 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.6 security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:52857",
-    "score": 8.9,
-    "date": "2026-09-02T08:43:55+00:00"
-   },
-   {
-    "title": "CVE-2026-14828 — Zohocorp ManageEngine Password Manager Pro versions before 13235, PAM360 versions before 8561, and Access Manager Plus versions before 4405 ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14828",
-    "score": 8.8,
-    "date": "2026-09-02T09:31:29Z"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.20.6 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:52910",
-    "score": 8.8,
-    "date": "2026-09-02T08:43:55+00:00"
-   },
-   {
-    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.22.9 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51038",
-    "score": 8.8,
-    "date": "2026-09-02T08:43:44+00:00"
    }
   ],
   "kev": [
@@ -203,91 +131,126 @@
   ],
   "adv": [
    {
-    "title": "gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation",
-    "url": "https://github.com/advisories/GHSA-vp52-pcj8-j9qc",
+    "title": "fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
+    "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
     "score": 7.5,
-    "ghsa": "GHSA-vp52-pcj8-j9qc",
-    "date": "2026-09-01T21:32:41Z"
+    "ghsa": "GHSA-5jgf-p345-68v8",
+    "date": "2026-09-02T15:44:30Z"
    },
    {
-    "title": "TYPO3 CMS - Broken Access Control in Backend and Install Tool",
-    "url": "https://github.com/advisories/GHSA-68jx-f42c-7599",
+    "title": "fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
+    "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
     "score": 7.5,
-    "ghsa": "GHSA-68jx-f42c-7599",
-    "date": "2026-09-01T21:31:42Z"
+    "ghsa": "GHSA-f65p-4m7j-42xc",
+    "date": "2026-09-02T15:43:30Z"
    },
    {
-    "title": "Filament: Multi-factor authentication (app) codes can still be used after a newer code has been used",
-    "url": "https://github.com/advisories/GHSA-r3j6-gpjw-qfjr",
-    "score": 6.5,
-    "ghsa": "GHSA-r3j6-gpjw-qfjr",
-    "date": "2026-09-01T21:29:43Z"
+    "title": "fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
+    "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
+    "score": 7.5,
+    "ghsa": "GHSA-fph4-wmhf-6fwf",
+    "date": "2026-09-02T15:42:39Z"
    },
    {
-    "title": "Filament: Password validity disclosure for accounts denied panel access on login page",
-    "url": "https://github.com/advisories/GHSA-xwpv-pqxp-5v36",
-    "score": 3.7,
-    "ghsa": "GHSA-xwpv-pqxp-5v36",
-    "date": "2026-09-01T21:29:00Z"
+    "title": "fast-uri vulnerable to host confusion via percent-encoded scheme normalization",
+    "url": "https://github.com/advisories/GHSA-jqff-g426-hqxp",
+    "score": 7.5,
+    "ghsa": "GHSA-jqff-g426-hqxp",
+    "date": "2026-09-02T15:41:53Z"
    },
    {
-    "title": "Filament: Multi-factor authentication (app) can be bypassed when recovery codes are enabled",
-    "url": "https://github.com/advisories/GHSA-52xp-w8hr-xv3c",
-    "score": 8.1,
-    "ghsa": "GHSA-52xp-w8hr-xv3c",
-    "date": "2026-09-01T21:28:47Z"
+    "title": "NLTK: Default ENFORCE=False Disables All pathsec Security Controls",
+    "url": "https://github.com/advisories/GHSA-p3m8-78j2-g5p3",
+    "score": 7.5,
+    "ghsa": "GHSA-p3m8-78j2-g5p3",
+    "date": "2026-09-02T15:40:33Z"
    },
    {
-    "title": "pypdf: Possible long runtimes/large memory usage when retrieving outlines",
-    "url": "https://github.com/advisories/GHSA-23w6-3w8w-8484",
+    "title": "NLTK: SSRF Fail-Open in validate_network_url() via DNS Resolution Failure",
+    "url": "https://github.com/advisories/GHSA-3gqm-fcw5-w839",
     "score": null,
-    "ghsa": "GHSA-23w6-3w8w-8484",
-    "date": "2026-09-01T21:28:37Z"
+    "ghsa": "GHSA-3gqm-fcw5-w839",
+    "date": "2026-09-02T15:39:39Z"
    },
    {
-    "title": "pypdf: Possible long runtimes/large memory usage when extracting XForm objects",
-    "url": "https://github.com/advisories/GHSA-763m-79hh-57f2",
+    "title": "xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
+    "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
     "score": null,
-    "ghsa": "GHSA-763m-79hh-57f2",
-    "date": "2026-09-01T21:27:22Z"
+    "ghsa": "GHSA-6gmq-8vp8-gcm6",
+    "date": "2026-09-02T15:18:20Z"
    },
    {
-    "title": "pypdf: Possible infinite loop for TreeObject.insert_child",
-    "url": "https://github.com/advisories/GHSA-jp53-mhqp-8xcg",
-    "score": null,
-    "ghsa": "GHSA-jp53-mhqp-8xcg",
-    "date": "2026-09-01T21:20:20Z"
+    "title": "Mistune: Denial of Service — RecursionError via Excessive Emphasis Markers in Markdown",
+    "url": "https://github.com/advisories/GHSA-6m44-fpc8-c3rq",
+    "score": 7.5,
+    "ghsa": "GHSA-6m44-fpc8-c3rq",
+    "date": "2026-09-02T15:14:55Z"
    },
    {
-    "title": "sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
-    "url": "https://github.com/advisories/GHSA-cfqr-cjx5-5jcm",
-    "score": null,
-    "ghsa": "GHSA-cfqr-cjx5-5jcm",
-    "date": "2026-09-01T21:20:11Z"
+    "title": "fastify vulnerable to X-Forwarded-* spoofing under trustProxy hop-count",
+    "url": "https://github.com/advisories/GHSA-3m5p-2c4r-xxw2",
+    "score": 6.1,
+    "ghsa": "GHSA-3m5p-2c4r-xxw2",
+    "date": "2026-09-02T15:14:06Z"
    },
    {
-    "title": "ApostropheCMS: Stored XSS via SVG SMIL URI-list scheme-policy bypass",
-    "url": "https://github.com/advisories/GHSA-g8qq-57p8-ggw5",
+    "title": "fastify vulnerable to schema validation bypass via root primitive coercion mismatch",
+    "url": "https://github.com/advisories/GHSA-w2qp-rph6-63g4",
     "score": 5.4,
-    "ghsa": "GHSA-g8qq-57p8-ggw5",
-    "date": "2026-09-01T21:20:01Z"
+    "ghsa": "GHSA-w2qp-rph6-63g4",
+    "date": "2026-09-02T15:13:23Z"
    },
    {
-    "title": "NLTK: JVM argument injection bypass via per-call options in the NLTK Stanford wrappers (incomplete fix of CVE-2026-12841)",
-    "url": "https://github.com/advisories/GHSA-m4rf-3fr8-xwx3",
-    "score": 9.8,
-    "ghsa": "GHSA-m4rf-3fr8-xwx3",
-    "date": "2026-09-01T20:38:22Z"
-   },
-   {
-    "title": "league/commonmark: Denial of service via distinctly-named attributes in the Attributes extension",
-    "url": "https://github.com/advisories/GHSA-8rr7-cvq3-gmfh",
+    "title": "ApostropheCMS: 2nd-order prototype pollution via PATCH leading to single-request persistent DoS",
+    "url": "https://github.com/advisories/GHSA-vmg4-6gfg-83qx",
     "score": 7.5,
-    "ghsa": "GHSA-8rr7-cvq3-gmfh",
-    "date": "2026-09-01T20:28:40Z"
+    "ghsa": "GHSA-vmg4-6gfg-83qx",
+    "date": "2026-09-02T15:12:41Z"
+   },
+   {
+    "title": "Sulu: Stored XSS via media download inline-disposition override",
+    "url": "https://github.com/advisories/GHSA-pp4x-ccxq-6r33",
+    "score": 5.4,
+    "ghsa": "GHSA-pp4x-ccxq-6r33",
+    "date": "2026-09-02T15:10:19Z"
    }
   ],
   "thn": [
+   {
+    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+    "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+    "date": "Wed, 02 Sep 2026 19:36:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+    "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+    "date": "Wed, 02 Sep 2026 19:14:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+    "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+    "date": "Wed, 02 Sep 2026 18:42:45 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+    "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+    "date": "Wed, 02 Sep 2026 17:52:02 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+    "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+    "date": "Wed, 02 Sep 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
     "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
@@ -336,44 +299,30 @@
     "date": "Tue, 01 Sep 2026 23:23:11 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-    "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-    "date": "Tue, 01 Sep 2026 22:49:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-    "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-    "date": "Tue, 01 Sep 2026 19:37:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-    "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-    "date": "Tue, 01 Sep 2026 18:38:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-    "date": "Tue, 01 Sep 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-    "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-    "date": "Tue, 01 Sep 2026 14:35:30 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+    "date": "Wed, 02 Sep 2026 11:47:08 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+    "date": "Wed, 02 Sep 2026 10:02:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Dropbox accounts breached through Lenovo email verification flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+    "date": "Wed, 02 Sep 2026 08:30:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft Defender flags legitimate Google search links as malicious",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
@@ -436,27 +385,6 @@
     "date": "Tue, 01 Sep 2026 10:28:40 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-    "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-    "date": "Tue, 01 Sep 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-    "date": "Tue, 01 Sep 2026 08:38:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
-    "url": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
-    "date": "Tue, 01 Sep 2026 05:15:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -481,7 +409,7 @@
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 200,
+    "stars": 201,
     "lang": "Go"
    },
    {
@@ -499,13 +427,13 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 138,
+    "stars": 139,
     "lang": "JavaScript"
    },
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 113,
+    "stars": 114,
     "lang": "PowerShell"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 10,
+  "crit": 2,
   "kev": 1687,
   "adv": 12,
   "feed": 48
