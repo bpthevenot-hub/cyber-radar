@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-02T22:41:40.465Z",
+ "generatedAt": "2026-09-03T01:10:10.613Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.15 security, enhancement & bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:12279",
+    "score": 9.1,
+    "date": "2026-09-02T22:57:35+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHTAS 1.3.2 - Red Hat Trusted Artifact Signer Release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2144",
+    "score": 8.8,
+    "date": "2026-09-02T22:57:56+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.2 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13542",
+    "score": 8.8,
+    "date": "2026-09-02T22:57:38+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.3 (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1942",
+    "score": 8.7,
+    "date": "2026-09-02T22:57:52+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: RHACS 4.8.8 security and bug fix update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1517",
+    "score": 8.7,
+    "date": "2026-09-02T22:57:42+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Kiali 2.17.3 for Red Hat OpenShift Service Mesh 3.2 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2149",
+    "score": 8.2,
+    "date": "2026-09-02T22:57:58+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Kiali 2.11.6 for Red Hat OpenShift Service Mesh 3.1 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2148",
+    "score": 8.2,
+    "date": "2026-09-02T22:57:57+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Kiali 2.4.12 for Red Hat OpenShift Service Mesh 3.0 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2147",
+    "score": 8.2,
+    "date": "2026-09-02T22:57:57+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1845",
+    "score": 8.2,
+    "date": "2026-09-02T22:57:50+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17.24 security, enhancement & bug fix update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17550",
+    "score": 8.1,
+    "date": "2026-09-02T22:57:47+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.20 security, enhancement & bug fix update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17547",
+    "score": 8.1,
+    "date": "2026-09-02T22:57:47+00:00"
+   },
+   {
+    "title": "CVE-2024-29371 — Red Hat Security Advisory: Streams for Apache Kafka 3.2.0 release and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13571",
+    "score": 8.1,
+    "date": "2026-09-02T22:57:42+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +203,69 @@
   ],
   "adv": [
    {
+    "title": "OpenChoreo: Authenticated OS command injection via OpenChoreo Workflow Plane templates enables code execution in privileged pods",
+    "url": "https://github.com/advisories/GHSA-2mw5-23gm-pccq",
+    "score": 8.8,
+    "ghsa": "GHSA-2mw5-23gm-pccq",
+    "date": "2026-09-02T23:45:26Z"
+   },
+   {
+    "title": "OpenChoreo: Unauthenticated build/workflow trigger via git-provider confusion (webhook signature bypass)",
+    "url": "https://github.com/advisories/GHSA-c5f6-2rm9-2w8g",
+    "score": 5.3,
+    "ghsa": "GHSA-c5f6-2rm9-2w8g",
+    "date": "2026-09-02T23:45:14Z"
+   },
+   {
+    "title": "OpenChoreo: Cross-project command execution and wirelog view access via OpenChoreo openchoreo-api exec and wirelogs endpoints",
+    "url": "https://github.com/advisories/GHSA-52gf-6rpq-fgmx",
+    "score": 8.8,
+    "ghsa": "GHSA-52gf-6rpq-fgmx",
+    "date": "2026-09-02T23:44:51Z"
+   },
+   {
+    "title": "OpenChoreo: Unauthenticated access to data-plane operations via OpenChoreo cluster-gateway management APIs",
+    "url": "https://github.com/advisories/GHSA-qh9r-j7rp-4x2m",
+    "score": 9.6,
+    "ghsa": "GHSA-qh9r-j7rp-4x2m",
+    "date": "2026-09-02T23:43:55Z"
+   },
+   {
+    "title": "Mailpit: SMTP command parser buffers unbounded command lines before syntax rejection",
+    "url": "https://github.com/advisories/GHSA-w878-pj84-3j5v",
+    "score": 7.5,
+    "ghsa": "GHSA-w878-pj84-3j5v",
+    "date": "2026-09-02T23:42:25Z"
+   },
+   {
+    "title": "SeaweedFS: Filer JWT allowed_prefixes literal prefix match allows cross-tenant access to sibling paths",
+    "url": "https://github.com/advisories/GHSA-gv5w-hfx8-8cwq",
+    "score": 8.1,
+    "ghsa": "GHSA-gv5w-hfx8-8cwq",
+    "date": "2026-09-02T23:42:05Z"
+   },
+   {
+    "title": "Mailpit: Thumbnail generation decodes unbounded image dimensions before scaling",
+    "url": "https://github.com/advisories/GHSA-75mr-qw9x-3r39",
+    "score": 7.5,
+    "ghsa": "GHSA-75mr-qw9x-3r39",
+    "date": "2026-09-02T23:39:08Z"
+   },
+   {
+    "title": "Scrapy: S3DownloadHandler sends signed S3 requests over plaintext HTTP by default",
+    "url": "https://github.com/advisories/GHSA-76g3-c3x4-crvx",
+    "score": 7.4,
+    "ghsa": "GHSA-76g3-c3x4-crvx",
+    "date": "2026-09-02T22:50:44Z"
+   },
+   {
+    "title": "DiceBear: SVG injection via the unescaped rotate option in @dicebear/core (and fontSize/fontWeight in @dicebear/initials)",
+    "url": "https://github.com/advisories/GHSA-gcr2-9v8m-gq45",
+    "score": 4.7,
+    "ghsa": "GHSA-gcr2-9v8m-gq45",
+    "date": "2026-09-02T22:44:25Z"
+   },
+   {
     "title": "Omnigent Guardrail policy bypass: shell-command parser fails open in policies/builtins/_shell.py",
     "url": "https://github.com/advisories/GHSA-7mqg-cx4g-x2rf",
     "score": 7.1,
@@ -137,69 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-g29j-rwfv-h99w",
     "date": "2026-09-02T22:12:03Z"
-   },
-   {
-    "title": "Hurl: Cookies in Cookies section leak when redirecting to a different host",
-    "url": "https://github.com/advisories/GHSA-7w2g-9mf9-324m",
-    "score": null,
-    "ghsa": "GHSA-7w2g-9mf9-324m",
-    "date": "2026-09-02T22:11:11Z"
-   },
-   {
-    "title": "Mail: Email address spoofing via malformed RFC 2047 encoded-words",
-    "url": "https://github.com/advisories/GHSA-mvxr-6m87-mv2q",
-    "score": 5.3,
-    "ghsa": "GHSA-mvxr-6m87-mv2q",
-    "date": "2026-09-02T22:02:32Z"
-   },
-   {
-    "title": "Grav: 2FA Bypass via 'login.regenerate2FASecret' - Secret Rotation During Pending Challenge",
-    "url": "https://github.com/advisories/GHSA-7mgc-c7pq-3rr3",
-    "score": 7.4,
-    "ghsa": "GHSA-7mgc-c7pq-3rr3",
-    "date": "2026-09-02T22:01:25Z"
-   },
-   {
-    "title": "Omnigent: Unvalidated os_env.cwd in agent bundle yields arbitrary host filesystem access on runners without OMNIGENT_RUNNER_WORKSPACE",
-    "url": "https://github.com/advisories/GHSA-p8rw-8qj3-hf33",
-    "score": 8.8,
-    "ghsa": "GHSA-p8rw-8qj3-hf33",
-    "date": "2026-09-02T22:00:54Z"
-   },
-   {
-    "title": "Omnigent: Shared Agent Bundle Overwrite Leads to Authenticated Runner RCE",
-    "url": "https://github.com/advisories/GHSA-jrrm-9hc7-2v3h",
-    "score": 9,
-    "ghsa": "GHSA-jrrm-9hc7-2v3h",
-    "date": "2026-09-02T21:55:11Z"
-   },
-   {
-    "title": "Omnigent: Uploaded Agent Bundle Allows Authenticated Runner RCE via Python Callable Tools",
-    "url": "https://github.com/advisories/GHSA-756x-9hf6-q4h4",
-    "score": 8.8,
-    "ghsa": "GHSA-756x-9hf6-q4h4",
-    "date": "2026-09-02T21:54:52Z"
-   },
-   {
-    "title": "Grav: Twig sandbox config exfiltration via grav.offsetGet + dump filter (CVE-2026-44738 bypass)",
-    "url": "https://github.com/advisories/GHSA-mc5q-6hpj-rp7j",
-    "score": 6.5,
-    "ghsa": "GHSA-mc5q-6hpj-rp7j",
-    "date": "2026-09-02T21:41:12Z"
-   },
-   {
-    "title": "Grav: Decompression Bomb via ZipArchiver - Missing Extraction Limits",
-    "url": "https://github.com/advisories/GHSA-928x-9mpw-8h56",
-    "score": 6.5,
-    "ghsa": "GHSA-928x-9mpw-8h56",
-    "date": "2026-09-02T21:35:43Z"
-   },
-   {
-    "title": "link-preview-js DNS Rebinding SSRF Bypass / Incomplete Fix for CVE-2026-43897",
-    "url": "https://github.com/advisories/GHSA-cpjf-6666-r8fx",
-    "score": 7.5,
-    "ghsa": "GHSA-cpjf-6666-r8fx",
-    "date": "2026-09-02T21:29:57Z"
    }
   ],
   "thn": [
@@ -388,12 +473,6 @@
     "lang": "Python"
    },
    {
-    "title": "dinosn/fastjson-jsontype-rce-lab — Docker labs + defensive scanner for fastjson remote-class-load RCE. fastjson 1.2.66-1.2.83: @JSONType resource",
-    "url": "https://github.com/dinosn/fastjson-jsontype-rce-lab",
-    "stars": 206,
-    "lang": "Python"
-   },
-   {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
     "stars": 201,
@@ -402,13 +481,13 @@
    {
     "title": "decionis/docker — Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision",
     "url": "https://github.com/decionis/docker",
-    "stars": 166,
+    "stars": 167,
     "lang": "Go"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 141,
+    "stars": 142,
     "lang": "JavaScript"
    },
    {
@@ -426,7 +505,7 @@
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
     "url": "https://github.com/antitree/nfc_canary",
-    "stars": 110,
+    "stars": 111,
     "lang": "C"
    },
    {
@@ -446,6 +525,12 @@
     "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
     "stars": 98,
     "lang": "—"
+   },
+   {
+    "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
+    "url": "https://github.com/duy90utc528/repo-publication-audit",
+    "stars": 97,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -550,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "QR Phishing With No Image: Text-Only QR Codes for Inboxes w/ Images Disabled",
+    "url": "https://www.reddit.com/r/netsec/comments/1w5pgmk/qr_phishing_with_no_image_textonly_qr_codes_for/",
+    "date": "2026-09-02T22:32:23+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "The Validator Can Lie: SSRF Beyond URL Validation (GitLab, Mealie, Apache ShenYu, Thumbor)",
     "url": "https://www.reddit.com/r/netsec/comments/1w5hjc8/the_validator_can_lie_ssrf_beyond_url_validation/",
     "date": "2026-09-02T17:47:32+00:00",
@@ -560,13 +652,6 @@
     "title": "Rooted in Trust: Three privilege-escalation vulnerabilities in HP Easy Start for macOS (CVE-2026-12554, CVE-2026-12555, CVE-2026-12556)",
     "url": "https://www.reddit.com/r/netsec/comments/1w5l1j8/rooted_in_trust_three_privilegeescalation/",
     "date": "2026-09-02T19:49:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "QR Phishing With No Image: Text-Only QR Codes for Inboxes w/ Images Disabled",
-    "url": "https://www.reddit.com/r/netsec/comments/1w5pgmk/qr_phishing_with_no_image_textonly_qr_codes_for/",
-    "date": "2026-09-02T22:32:23+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1694,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
