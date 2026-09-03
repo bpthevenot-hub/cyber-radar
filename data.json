@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T16:31:19.103Z",
+ "generatedAt": "2026-09-03T19:55:26.644Z",
  "sources": {
   "cve": [
    {
@@ -15,22 +15,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-85226 — MISP contains an authorization flaw in the OnDemand correlation engine where correlations were calculated solely from matching attribute val",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85226",
-    "score": 5,
-    "date": "2026-09-03T15:32:27Z"
+    "title": "CVE-2026-62681 — Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62681",
+    "score": 9.5,
+    "date": "2026-09-03T19:17:32Z"
    },
    {
-    "title": "CVE-2026-85227 — MISP contains a reflected Cross-Site Scripting (XSS) vulnerability in the event attribute filtering query builder. The taggedAttributes and ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85227",
-    "score": 5,
-    "date": "2026-09-03T15:32:27Z"
+    "title": "CVE-2026-73293 — Semaphore UI: Manager-to-owner privilege escalation via custom-role slug collision",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73293",
+    "score": 8.8,
+    "date": "2026-09-03T19:23:42Z"
    },
    {
-    "title": "CVE-2026-85230 — A persistent unsafe URL injection vulnerability exists in the MISP dashboard ButtonWidget configuration. Dashboard widget URLs were validate",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85230",
-    "score": 5,
-    "date": "2026-09-03T15:32:27Z"
+    "title": "CVE-2026-73292 — Semaphore UI: CSRF vulnerability on password change endpoint - No CSRF token or password confirmation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73292",
+    "score": 7.6,
+    "date": "2026-09-03T19:23:15Z"
+   },
+   {
+    "title": "CVE-2025-51481 — Local File Inclusion in dagster._grpc.impl.get_notebook_data in Dagster 1.10.14 allows attackers with access to the gRPC server to read arbi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-51481",
+    "score": 6.6,
+    "date": "2025-07-22T17:15:33.543Z"
+   },
+   {
+    "title": "CVE-2026-15529 — PyOD persistence.load deserializes untrusted artifacts before validation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15529",
+    "score": 6.3,
+    "date": "2026-07-13T06:31:31Z"
    }
   ],
   "kev": [
@@ -149,91 +161,119 @@
   ],
   "adv": [
    {
-    "title": "SiYuan: path traversal via /export/temp/ short-circuit branch (incomplete fix for the export-disclosure hardening, GHSA-6865-qjcf-286f)",
-    "url": "https://github.com/advisories/GHSA-gw25-m53r-qh88",
-    "score": 6.5,
-    "ghsa": "GHSA-gw25-m53r-qh88",
-    "date": "2026-09-03T14:56:31Z"
+    "title": "Material for MkDocs: DOM XSS in search suggestions via query parameter",
+    "url": "https://github.com/advisories/GHSA-xvg9-69gf-fjrf",
+    "score": 5.4,
+    "ghsa": "GHSA-xvg9-69gf-fjrf",
+    "date": "2026-09-03T19:52:32Z"
    },
    {
-    "title": "SiYuan: Stored and reflected XSS in SiYuan through an SVG sanitizer bypass",
-    "url": "https://github.com/advisories/GHSA-99rq-75j6-5j9f",
-    "score": 8.7,
-    "ghsa": "GHSA-99rq-75j6-5j9f",
-    "date": "2026-09-03T14:53:17Z"
+    "title": "TOON: Prototype pollution when decoding untrusted TOON input",
+    "url": "https://github.com/advisories/GHSA-p95v-992w-h6c3",
+    "score": 8.3,
+    "ghsa": "GHSA-p95v-992w-h6c3",
+    "date": "2026-09-03T19:52:08Z"
    },
    {
-    "title": "CKAN MCP Server: Cache-key canonicalization collision enables cache confusion / poisoning",
-    "url": "https://github.com/advisories/GHSA-78x9-fhhx-v2g6",
-    "score": 6.5,
-    "ghsa": "GHSA-78x9-fhhx-v2g6",
-    "date": "2026-09-03T14:49:22Z"
-   },
-   {
-    "title": "CKAN MCP Server: Information disclosure via verbose error reflection",
-    "url": "https://github.com/advisories/GHSA-6f9w-9hf2-5rg3",
-    "score": 3.7,
-    "ghsa": "GHSA-6f9w-9hf2-5rg3",
-    "date": "2026-09-03T14:49:10Z"
-   },
-   {
-    "title": "OpenChoreo: Authenticated OS command injection via OpenChoreo Workflow Plane templates enables code execution in privileged pods",
-    "url": "https://github.com/advisories/GHSA-2mw5-23gm-pccq",
+    "title": "Claude Code Templates: Unauthenticated OS command injection (RCE) in Claude Code Studio server (--studio)",
+    "url": "https://github.com/advisories/GHSA-79wm-x847-7cvg",
     "score": 8.8,
-    "ghsa": "GHSA-2mw5-23gm-pccq",
-    "date": "2026-09-02T23:45:26Z"
+    "ghsa": "GHSA-79wm-x847-7cvg",
+    "date": "2026-09-03T19:50:47Z"
    },
    {
-    "title": "OpenChoreo: Unauthenticated build/workflow trigger via git-provider confusion (webhook signature bypass)",
-    "url": "https://github.com/advisories/GHSA-c5f6-2rm9-2w8g",
-    "score": 5.3,
-    "ghsa": "GHSA-c5f6-2rm9-2w8g",
-    "date": "2026-09-02T23:45:14Z"
-   },
-   {
-    "title": "OpenChoreo: Cross-project command execution and wirelog view access via OpenChoreo openchoreo-api exec and wirelogs endpoints",
-    "url": "https://github.com/advisories/GHSA-52gf-6rpq-fgmx",
+    "title": "Semaphore UI: Manager-to-owner privilege escalation via custom-role slug collision",
+    "url": "https://github.com/advisories/GHSA-cxvf-gvfq-36w2",
     "score": 8.8,
-    "ghsa": "GHSA-52gf-6rpq-fgmx",
-    "date": "2026-09-02T23:44:51Z"
+    "ghsa": "GHSA-cxvf-gvfq-36w2",
+    "date": "2026-09-03T19:23:42Z"
    },
    {
-    "title": "OpenChoreo: Unauthenticated access to data-plane operations via OpenChoreo cluster-gateway management APIs",
-    "url": "https://github.com/advisories/GHSA-qh9r-j7rp-4x2m",
-    "score": 9.6,
-    "ghsa": "GHSA-qh9r-j7rp-4x2m",
-    "date": "2026-09-02T23:43:55Z"
+    "title": "Semaphore UI: CSRF vulnerability on password change endpoint - No CSRF token or password confirmation",
+    "url": "https://github.com/advisories/GHSA-8cj9-r88m-8945",
+    "score": 7.6,
+    "ghsa": "GHSA-8cj9-r88m-8945",
+    "date": "2026-09-03T19:23:15Z"
    },
    {
-    "title": "Mailpit: SMTP command parser buffers unbounded command lines before syntax rejection",
-    "url": "https://github.com/advisories/GHSA-w878-pj84-3j5v",
-    "score": 7.5,
-    "ghsa": "GHSA-w878-pj84-3j5v",
-    "date": "2026-09-02T23:42:25Z"
+    "title": "Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
+    "url": "https://github.com/advisories/GHSA-fg9p-mrxr-hvq7",
+    "score": 9.5,
+    "ghsa": "GHSA-fg9p-mrxr-hvq7",
+    "date": "2026-09-03T19:17:32Z"
    },
    {
-    "title": "SeaweedFS: Filer JWT allowed_prefixes literal prefix match allows cross-tenant access to sibling paths",
-    "url": "https://github.com/advisories/GHSA-gv5w-hfx8-8cwq",
-    "score": 8.1,
-    "ghsa": "GHSA-gv5w-hfx8-8cwq",
-    "date": "2026-09-02T23:42:05Z"
+    "title": "Orval: RCE via servers[].url -> unescaped request-URL template literal (with getBaseUrlFromSpecification)",
+    "url": "https://github.com/advisories/GHSA-88f2-fpv8-89q2",
+    "score": 9.5,
+    "ghsa": "GHSA-88f2-fpv8-89q2",
+    "date": "2026-09-03T19:06:52Z"
    },
    {
-    "title": "Mailpit: Thumbnail generation decodes unbounded image dimensions before scaling",
-    "url": "https://github.com/advisories/GHSA-75mr-qw9x-3r39",
-    "score": 7.5,
-    "ghsa": "GHSA-75mr-qw9x-3r39",
-    "date": "2026-09-02T23:39:08Z"
+    "title": "Orval: Import-time RCE via schema default -> zod module-level template literal",
+    "url": "https://github.com/advisories/GHSA-w727-8j6c-2rj4",
+    "score": 9.5,
+    "ghsa": "GHSA-w727-8j6c-2rj4",
+    "date": "2026-09-03T19:03:03Z"
    },
    {
-    "title": "Scrapy: S3DownloadHandler sends signed S3 requests over plaintext HTTP by default",
-    "url": "https://github.com/advisories/GHSA-76g3-c3x4-crvx",
-    "score": 7.4,
-    "ghsa": "GHSA-76g3-c3x4-crvx",
-    "date": "2026-09-02T22:50:44Z"
+    "title": "Orval: Import-time RCE via array-items default -> zod module-level template literal",
+    "url": "https://github.com/advisories/GHSA-2h9g-j24r-h63g",
+    "score": 9.5,
+    "ghsa": "GHSA-2h9g-j24r-h63g",
+    "date": "2026-09-03T18:38:20Z"
+   },
+   {
+    "title": "Orval: Import-time RCE via header-parameter default -> zod module-level template literal",
+    "url": "https://github.com/advisories/GHSA-8j6p-r8jg-mxqh",
+    "score": 9.5,
+    "ghsa": "GHSA-8j6p-r8jg-mxqh",
+    "date": "2026-09-03T18:32:03Z"
+   },
+   {
+    "title": "Orval: RCE via schema property name -> computed-property-key injection in the MSW mock generator",
+    "url": "https://github.com/advisories/GHSA-2w86-xfrc-g85r",
+    "score": 9.5,
+    "ghsa": "GHSA-2w86-xfrc-g85r",
+    "date": "2026-09-03T18:26:12Z"
+   },
+   {
+    "title": "Orval: Import-time RCE via enum-typed default -> zod module-level template literal",
+    "url": "https://github.com/advisories/GHSA-3575-w9fc-c2j6",
+    "score": 9.5,
+    "ghsa": "GHSA-3575-w9fc-c2j6",
+    "date": "2026-09-03T18:20:55Z"
    }
   ],
   "thn": [
+   {
+    "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+    "date": "Thu, 03 Sep 2026 23:32:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+    "date": "Thu, 03 Sep 2026 21:22:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+    "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+    "date": "Thu, 03 Sep 2026 20:56:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+    "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+    "date": "Thu, 03 Sep 2026 20:09:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
     "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
@@ -289,37 +329,16 @@
     "date": "Wed, 02 Sep 2026 22:11:06 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
-    "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
-    "date": "Wed, 02 Sep 2026 19:36:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
-    "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
-    "date": "Wed, 02 Sep 2026 19:14:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-    "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-    "date": "Wed, 02 Sep 2026 18:42:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-    "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
-    "date": "Wed, 02 Sep 2026 17:52:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+    "date": "Thu, 03 Sep 2026 14:28:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
@@ -396,13 +415,6 @@
     "date": "Wed, 02 Sep 2026 11:47:08 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-    "url": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
-    "date": "Wed, 02 Sep 2026 10:02:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -415,7 +427,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 325,
+    "stars": 324,
     "lang": "Python"
    },
    {
@@ -663,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1694,
   "adv": 12,
   "feed": 48
