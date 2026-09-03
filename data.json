@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-09-03T19:55:26.644Z",
+ "generatedAt": "2026-09-03T22:38:16.834Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-15630 — A non-global organization admin in one tenant can bypass tenant boundaries to delete, create, or modify resources in any other tenant by exp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15630",
+    "score": 9.9,
+    "date": "2026-07-23T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-85391 — Peppermint through 0.5.5 contains a hardcoded JWT signing secret in docker-compose.yml that allows unauthenticated attackers to forge sessio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85391",
+    "score": 9.8,
+    "date": "2026-09-03T21:31:15Z"
+   },
+   {
+    "title": "CVE-2026-82526 — R2R through 3.6.6 contains a stacked SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL statements b",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82526",
+    "score": 9.8,
+    "date": "2026-09-03T21:31:15Z"
+   },
+   {
+    "title": "CVE-2026-73487 — Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable Agent nodes that allows unauthenticated attacke",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73487",
+    "score": 9.8,
+    "date": "2026-08-13T12:31:09Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,34 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-62681 — Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62681",
-    "score": 9.5,
-    "date": "2026-09-03T19:17:32Z"
+    "title": "CVE-2026-85050 — Out of bounds write in WebGL in Google Chrome on on Android prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code outsi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85050",
+    "score": 9.6,
+    "date": "2026-09-03T21:31:17Z"
    },
    {
-    "title": "CVE-2026-73293 — Semaphore UI: Manager-to-owner privilege escalation via custom-role slug collision",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73293",
+    "title": "CVE-2026-85047 — Improper input validation in Transactions Platform in Google Chrome on on iOS prior to 152.0.7977.82 allowed a remote attacker to potentiall",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85047",
+    "score": 9.6,
+    "date": "2026-09-03T21:31:16Z"
+   },
+   {
+    "title": "CVE-2026-85042 — Use after free in DevTools in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code outside the sandbox v",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85042",
+    "score": 9.6,
+    "date": "2026-09-03T21:31:16Z"
+   },
+   {
+    "title": "CVE-2026-85222 — A vulnerability has been found in D-Link DNS-340L 1.01B04. Affected by this vulnerability is an unknown functionality of the file /cgi-bin/a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85222",
+    "score": 9.1,
+    "date": "2026-09-03T21:31:17Z"
+   },
+   {
+    "title": "CVE-2026-85394 — python-jose through 3.5.0 fails to properly validate asymmetric keys in HMAC initialization, accepting DER-encoded public keys that lack PEM",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85394",
+    "score": 9.1,
+    "date": "2026-09-03T21:31:15Z"
+   },
+   {
+    "title": "CVE-2026-85051 — Type confusion in Compositing in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85051",
     "score": 8.8,
-    "date": "2026-09-03T19:23:42Z"
+    "date": "2026-09-03T21:31:17Z"
    },
    {
-    "title": "CVE-2026-73292 — Semaphore UI: CSRF vulnerability on password change endpoint - No CSRF token or password confirmation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73292",
-    "score": 7.6,
-    "date": "2026-09-03T19:23:15Z"
+    "title": "CVE-2026-85053 — Improper resource exposure in CacheStorage in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code insid",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85053",
+    "score": 8.8,
+    "date": "2026-09-03T21:31:17Z"
    },
    {
-    "title": "CVE-2025-51481 — Local File Inclusion in dagster._grpc.impl.get_notebook_data in Dagster 1.10.14 allows attackers with access to the gRPC server to read arbi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-51481",
-    "score": 6.6,
-    "date": "2025-07-22T17:15:33.543Z"
-   },
-   {
-    "title": "CVE-2026-15529 — PyOD persistence.load deserializes untrusted artifacts before validation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15529",
-    "score": 6.3,
-    "date": "2026-07-13T06:31:31Z"
+    "title": "CVE-2026-85046 — Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a cr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85046",
+    "score": 8.8,
+    "date": "2026-09-03T21:31:16Z"
    }
   ],
   "kev": [
@@ -161,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Material for MkDocs: DOM XSS in search suggestions via query parameter",
-    "url": "https://github.com/advisories/GHSA-xvg9-69gf-fjrf",
-    "score": 5.4,
-    "ghsa": "GHSA-xvg9-69gf-fjrf",
-    "date": "2026-09-03T19:52:32Z"
+    "title": "SiYuan: Localhost-trust admin bypass on auth-code-gated endpoints, with potential remote reachability via the fixed-port proxy",
+    "url": "https://github.com/advisories/GHSA-3mp7-4rh5-jrv9",
+    "score": 8,
+    "ghsa": "GHSA-3mp7-4rh5-jrv9",
+    "date": "2026-09-03T22:34:06Z"
    },
    {
-    "title": "TOON: Prototype pollution when decoding untrusted TOON input",
-    "url": "https://github.com/advisories/GHSA-p95v-992w-h6c3",
-    "score": 8.3,
-    "ghsa": "GHSA-p95v-992w-h6c3",
-    "date": "2026-09-03T19:52:08Z"
+    "title": "SiYuan: Publish-boundary bypass via WebSocket broadcast: anonymous readers receive a live unfiltered feed of all edits including protected/forbidden d",
+    "url": "https://github.com/advisories/GHSA-mw8r-mw84-88v2",
+    "score": 8.6,
+    "ghsa": "GHSA-mw8r-mw84-88v2",
+    "date": "2026-09-03T22:30:52Z"
    },
    {
-    "title": "Claude Code Templates: Unauthenticated OS command injection (RCE) in Claude Code Studio server (--studio)",
-    "url": "https://github.com/advisories/GHSA-79wm-x847-7cvg",
-    "score": 8.8,
-    "ghsa": "GHSA-79wm-x847-7cvg",
-    "date": "2026-09-03T19:50:47Z"
+    "title": "SiYuan: SQL injection in backlink/mention search via unescaped stored and client input (publish mode): first-order (client keyword) and second-order (",
+    "url": "https://github.com/advisories/GHSA-q2vg-7qgx-x5fc",
+    "score": 10,
+    "ghsa": "GHSA-q2vg-7qgx-x5fc",
+    "date": "2026-09-03T22:27:50Z"
    },
    {
-    "title": "Semaphore UI: Manager-to-owner privilege escalation via custom-role slug collision",
-    "url": "https://github.com/advisories/GHSA-cxvf-gvfq-36w2",
-    "score": 8.8,
-    "ghsa": "GHSA-cxvf-gvfq-36w2",
-    "date": "2026-09-03T19:23:42Z"
+    "title": "SiYuan: Missing authorization on refreshBacklink allows anonymous readers to trigger persistent server-side writes and unauthenticated resource amplif",
+    "url": "https://github.com/advisories/GHSA-wgwx-479j-23vq",
+    "score": 6.5,
+    "ghsa": "GHSA-wgwx-479j-23vq",
+    "date": "2026-09-03T22:23:19Z"
    },
    {
-    "title": "Semaphore UI: CSRF vulnerability on password change endpoint - No CSRF token or password confirmation",
-    "url": "https://github.com/advisories/GHSA-8cj9-r88m-8945",
-    "score": 7.6,
-    "ghsa": "GHSA-8cj9-r88m-8945",
-    "date": "2026-09-03T19:23:15Z"
+    "title": "SiYuan: Anonymous publish-password authentication bypass via getHeadingChildrenDOM / getHeading*Transaction / getBacklinkDoc (publish mode)",
+    "url": "https://github.com/advisories/GHSA-7j72-f6wg-cxw6",
+    "score": 8.6,
+    "ghsa": "GHSA-7j72-f6wg-cxw6",
+    "date": "2026-09-03T21:22:42Z"
    },
    {
-    "title": "Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
-    "url": "https://github.com/advisories/GHSA-fg9p-mrxr-hvq7",
-    "score": 9.5,
-    "ghsa": "GHSA-fg9p-mrxr-hvq7",
-    "date": "2026-09-03T19:17:32Z"
+    "title": "SiYuan: Cross-boundary metadata disclosure via getBlockInfo (publish mode): reader-reachable document title/root info for publish-forbidden docs; sibl",
+    "url": "https://github.com/advisories/GHSA-pm3w-vxp9-ccwc",
+    "score": 5.8,
+    "ghsa": "GHSA-pm3w-vxp9-ccwc",
+    "date": "2026-09-03T21:22:08Z"
    },
    {
-    "title": "Orval: RCE via servers[].url -> unescaped request-URL template literal (with getBaseUrlFromSpecification)",
-    "url": "https://github.com/advisories/GHSA-88f2-fpv8-89q2",
-    "score": 9.5,
-    "ghsa": "GHSA-88f2-fpv8-89q2",
-    "date": "2026-09-03T19:06:52Z"
+    "title": "SiYuan: Cross-boundary content disclosure via getBacklinkDoc/getBackmentionDoc (publish mode): reader-reachable rendered DOM of publish-forbidden docs",
+    "url": "https://github.com/advisories/GHSA-36v8-mpjm-8j5r",
+    "score": 8.6,
+    "ghsa": "GHSA-36v8-mpjm-8j5r",
+    "date": "2026-09-03T21:21:19Z"
    },
    {
-    "title": "Orval: Import-time RCE via schema default -> zod module-level template literal",
-    "url": "https://github.com/advisories/GHSA-w727-8j6c-2rj4",
-    "score": 9.5,
-    "ghsa": "GHSA-w727-8j6c-2rj4",
-    "date": "2026-09-03T19:03:03Z"
+    "title": "SiYuan: Full-content disclosure of publish-disabled documents via getHeading*Transaction endpoints (publish mode): reader-reachable rendered DOM with ",
+    "url": "https://github.com/advisories/GHSA-69mh-gvh4-8gp7",
+    "score": 8.6,
+    "ghsa": "GHSA-69mh-gvh4-8gp7",
+    "date": "2026-09-03T21:19:41Z"
    },
    {
-    "title": "Orval: Import-time RCE via array-items default -> zod module-level template literal",
-    "url": "https://github.com/advisories/GHSA-2h9g-j24r-h63g",
-    "score": 9.5,
-    "ghsa": "GHSA-2h9g-j24r-h63g",
-    "date": "2026-09-03T18:38:20Z"
+    "title": "SiYuan: Unauthenticated SQL execution and REGEXP injection via fullTextSearchAssetContent (publish mode): reader-reachable raw SQL (method 2) and unes",
+    "url": "https://github.com/advisories/GHSA-fph3-ghq9-vw66",
+    "score": 10,
+    "ghsa": "GHSA-fph3-ghq9-vw66",
+    "date": "2026-09-03T21:01:05Z"
    },
    {
-    "title": "Orval: Import-time RCE via header-parameter default -> zod module-level template literal",
-    "url": "https://github.com/advisories/GHSA-8j6p-r8jg-mxqh",
-    "score": 9.5,
-    "ghsa": "GHSA-8j6p-r8jg-mxqh",
-    "date": "2026-09-03T18:32:03Z"
+    "title": "toml-node: Uncontrolled Recursion",
+    "url": "https://github.com/advisories/GHSA-82x6-q7mm-w9cf",
+    "score": 7.5,
+    "ghsa": "GHSA-82x6-q7mm-w9cf",
+    "date": "2026-09-03T20:56:13Z"
    },
    {
-    "title": "Orval: RCE via schema property name -> computed-property-key injection in the MSW mock generator",
-    "url": "https://github.com/advisories/GHSA-2w86-xfrc-g85r",
-    "score": 9.5,
-    "ghsa": "GHSA-2w86-xfrc-g85r",
-    "date": "2026-09-03T18:26:12Z"
+    "title": "toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
+    "url": "https://github.com/advisories/GHSA-v5mp-jgw5-2x6j",
+    "score": 8.2,
+    "ghsa": "GHSA-v5mp-jgw5-2x6j",
+    "date": "2026-09-03T20:55:32Z"
    },
    {
-    "title": "Orval: Import-time RCE via enum-typed default -> zod module-level template literal",
-    "url": "https://github.com/advisories/GHSA-3575-w9fc-c2j6",
-    "score": 9.5,
-    "ghsa": "GHSA-3575-w9fc-c2j6",
-    "date": "2026-09-03T18:20:55Z"
+    "title": "SiYuan: Path Traversal via unvalidated avID in RenderAttributeView/AV read endpoints : reader-reachable cross-scope attribute-view disclosure",
+    "url": "https://github.com/advisories/GHSA-7hm9-v7vf-7g4w",
+    "score": 7.7,
+    "ghsa": "GHSA-7hm9-v7vf-7g4w",
+    "date": "2026-09-03T20:34:12Z"
    }
   ],
   "thn": [
@@ -333,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "French hospital fined €500,000 after breach exposes data of 727,000",
+    "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+    "date": "Thu, 03 Sep 2026 18:01:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Coder's registry infrastructure compromised to push malicious modules",
+    "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+    "date": "Thu, 03 Sep 2026 16:04:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
     "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
     "date": "Thu, 03 Sep 2026 14:28:12 -0400",
@@ -401,20 +457,6 @@
     "date": "Wed, 02 Sep 2026 17:00:13 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
-    "date": "Wed, 02 Sep 2026 15:28:46 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-    "date": "Wed, 02 Sep 2026 11:47:08 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -427,7 +469,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 324,
+    "stars": 328,
     "lang": "Python"
    },
    {
@@ -473,16 +515,16 @@
     "lang": "TypeScript"
    },
    {
+    "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
+    "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
+    "stars": 100,
+    "lang": "—"
+   },
+   {
     "title": "rootdr-backup/Reconner — Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous monitoring. Your data stays on your ",
     "url": "https://github.com/rootdr-backup/Reconner",
     "stars": 99,
     "lang": "Go"
-   },
-   {
-    "title": "armourinfosec/Enterprise-Windows-Infrastructure-Security — An Obsidian-based knowledge base for Windows Server administration and defensive hardening.",
-    "url": "https://github.com/armourinfosec/Enterprise-Windows-Infrastructure-Security",
-    "stars": 99,
-    "lang": "—"
    },
    {
     "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
@@ -675,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 11,
   "kev": 1694,
   "adv": 12,
   "feed": 48
