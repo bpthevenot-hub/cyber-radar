@@ -1,7 +1,38 @@
 {
- "generatedAt": "2026-09-03T11:23:27.967Z",
+ "generatedAt": "2026-09-03T16:31:19.103Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-85226 — MISP contains an authorization flaw in the OnDemand correlation engine where correlations were calculated solely from matching attribute val",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85226",
+    "score": 5,
+    "date": "2026-09-03T15:32:27Z"
+   },
+   {
+    "title": "CVE-2026-85227 — MISP contains a reflected Cross-Site Scripting (XSS) vulnerability in the event attribute filtering query builder. The taggedAttributes and ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85227",
+    "score": 5,
+    "date": "2026-09-03T15:32:27Z"
+   },
+   {
+    "title": "CVE-2026-85230 — A persistent unsafe URL injection vulnerability exists in the MISP dashboard ButtonWidget configuration. Dashboard widget URLs were validate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85230",
+    "score": 5,
+    "date": "2026-09-03T15:32:27Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +149,34 @@
   ],
   "adv": [
    {
+    "title": "SiYuan: path traversal via /export/temp/ short-circuit branch (incomplete fix for the export-disclosure hardening, GHSA-6865-qjcf-286f)",
+    "url": "https://github.com/advisories/GHSA-gw25-m53r-qh88",
+    "score": 6.5,
+    "ghsa": "GHSA-gw25-m53r-qh88",
+    "date": "2026-09-03T14:56:31Z"
+   },
+   {
+    "title": "SiYuan: Stored and reflected XSS in SiYuan through an SVG sanitizer bypass",
+    "url": "https://github.com/advisories/GHSA-99rq-75j6-5j9f",
+    "score": 8.7,
+    "ghsa": "GHSA-99rq-75j6-5j9f",
+    "date": "2026-09-03T14:53:17Z"
+   },
+   {
+    "title": "CKAN MCP Server: Cache-key canonicalization collision enables cache confusion / poisoning",
+    "url": "https://github.com/advisories/GHSA-78x9-fhhx-v2g6",
+    "score": 6.5,
+    "ghsa": "GHSA-78x9-fhhx-v2g6",
+    "date": "2026-09-03T14:49:22Z"
+   },
+   {
+    "title": "CKAN MCP Server: Information disclosure via verbose error reflection",
+    "url": "https://github.com/advisories/GHSA-6f9w-9hf2-5rg3",
+    "score": 3.7,
+    "ghsa": "GHSA-6f9w-9hf2-5rg3",
+    "date": "2026-09-03T14:49:10Z"
+   },
+   {
     "title": "OpenChoreo: Authenticated OS command injection via OpenChoreo Workflow Plane templates enables code execution in privileged pods",
     "url": "https://github.com/advisories/GHSA-2mw5-23gm-pccq",
     "score": 8.8,
@@ -172,37 +231,30 @@
     "score": 7.4,
     "ghsa": "GHSA-76g3-c3x4-crvx",
     "date": "2026-09-02T22:50:44Z"
-   },
-   {
-    "title": "DiceBear: SVG injection via the unescaped rotate option in @dicebear/core (and fontSize/fontWeight in @dicebear/initials)",
-    "url": "https://github.com/advisories/GHSA-gcr2-9v8m-gq45",
-    "score": 4.7,
-    "ghsa": "GHSA-gcr2-9v8m-gq45",
-    "date": "2026-09-02T22:44:25Z"
-   },
-   {
-    "title": "Omnigent Guardrail policy bypass: shell-command parser fails open in policies/builtins/_shell.py",
-    "url": "https://github.com/advisories/GHSA-7mqg-cx4g-x2rf",
-    "score": 7.1,
-    "ghsa": "GHSA-7mqg-cx4g-x2rf",
-    "date": "2026-09-02T22:40:07Z"
-   },
-   {
-    "title": "Plate: SSRF with response disclosure in DOCX image embedding",
-    "url": "https://github.com/advisories/GHSA-4q39-2jhr-7qx8",
-    "score": 8.2,
-    "ghsa": "GHSA-4q39-2jhr-7qx8",
-    "date": "2026-09-02T22:14:54Z"
-   },
-   {
-    "title": "Handlebars.java: Arbitrary file read in `SpringTemplateLoader` via URL-fragment suffix bypass",
-    "url": "https://github.com/advisories/GHSA-g29j-rwfv-h99w",
-    "score": 7.5,
-    "ghsa": "GHSA-g29j-rwfv-h99w",
-    "date": "2026-09-02T22:12:03Z"
    }
   ],
   "thn": [
+   {
+    "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+    "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+    "date": "Thu, 03 Sep 2026 17:28:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+    "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+    "date": "Thu, 03 Sep 2026 16:13:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+    "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+    "date": "Thu, 03 Sep 2026 16:06:39 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
     "url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
@@ -265,30 +317,51 @@
     "date": "Wed, 02 Sep 2026 17:52:02 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
-    "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
-    "date": "Wed, 02 Sep 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
-    "date": "Wed, 02 Sep 2026 16:23:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-    "url": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-    "date": "Wed, 02 Sep 2026 14:48:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+    "date": "Thu, 03 Sep 2026 11:22:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+    "date": "Thu, 03 Sep 2026 11:13:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Anthropic confirms Claude is down, multiple models affected",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+    "date": "Thu, 03 Sep 2026 11:02:52 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+    "date": "Thu, 03 Sep 2026 10:52:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+    "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+    "date": "Thu, 03 Sep 2026 09:50:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft says KB5120998 Windows update resets desktop settings",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+    "date": "Thu, 03 Sep 2026 08:16:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Plex warns users to patch security vulnerabilities immediately",
     "url": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
@@ -330,48 +403,6 @@
     "date": "Wed, 02 Sep 2026 10:02:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Dropbox accounts breached through Lenovo email verification flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
-    "date": "Wed, 02 Sep 2026 08:30:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft Defender flags legitimate Google search links as malicious",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-    "date": "Wed, 02 Sep 2026 06:29:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "US charges Russian for infecting 80,000 freelancers with malware",
-    "url": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-    "date": "Wed, 02 Sep 2026 05:06:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Sality botnet infrastructure dismantled in joint global takedown",
-    "url": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-    "date": "Wed, 02 Sep 2026 04:00:43 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-    "date": "Wed, 02 Sep 2026 02:39:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-    "date": "Tue, 01 Sep 2026 16:53:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +415,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 326,
+    "stars": 325,
     "lang": "Python"
    },
    {
@@ -402,7 +433,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 144,
+    "stars": 145,
     "lang": "JavaScript"
    },
    {
@@ -426,7 +457,7 @@
    {
     "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
     "url": "https://github.com/jiangkoumo/toolfence",
-    "stars": 101,
+    "stars": 100,
     "lang": "TypeScript"
    },
    {
@@ -622,7 +653,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +663,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1694,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
