@@ -1,36 +1,42 @@
 {
- "generatedAt": "2026-09-04T01:02:53.912Z",
+ "generatedAt": "2026-09-04T05:59:10.255Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-72811 — SiYuan: SQL injection in backlink/mention search via unescaped stored and client input (publish mode): first-order (client keyword) and seco",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72811",
-    "score": 10,
-    "date": "2026-09-03T22:27:50Z"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
+    "score": 9.9,
+    "date": "2026-09-04T05:08:26+00:00"
    },
    {
-    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
-    "score": 10,
-    "date": "2026-09-03T21:45:24+00:00"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
+    "score": 9.9,
+    "date": "2026-09-04T05:08:26+00:00"
    },
    {
-    "title": "GHSA-p8cp-78hp-wmq8 — Duplicate Advisory: SQL injection in backlink/mention search via unescaped stored and client input (publish mode): first-order (client keywo",
-    "url": "https://github.com/advisories/GHSA-p8cp-78hp-wmq8",
-    "score": 10,
-    "date": "2026-08-14T12:31:24Z"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.6 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60389",
+    "score": 9.9,
+    "date": "2026-09-04T05:08:23+00:00"
    },
    {
-    "title": "CVE-2026-85391 — Peppermint through 0.5.5 contains a hardcoded JWT signing secret in docker-compose.yml that allows unauthenticated attackers to forge sessio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85391",
-    "score": 9.8,
-    "date": "2026-09-03T21:31:15Z"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-09-04T05:08:21+00:00"
    },
    {
-    "title": "CVE-2026-82526 — R2R through 3.6.6 contains a stacked SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL statements b",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82526",
-    "score": 9.8,
-    "date": "2026-09-03T21:31:15Z"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
+    "score": 9.9,
+    "date": "2026-09-04T05:08:20+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
+    "score": 9.9,
+    "date": "2026-09-04T05:08:19+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -45,46 +51,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-85050 — Out of bounds write in WebGL in Google Chrome on on Android prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code outsi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85050",
-    "score": 9.6,
-    "date": "2026-09-03T21:31:17Z"
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: Cluster Observability Operator 1.5.2 (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:61314",
+    "score": 8.7,
+    "date": "2026-09-04T05:08:29+00:00"
    },
    {
-    "title": "CVE-2026-85047 — Improper input validation in Transactions Platform in Google Chrome on on iOS prior to 152.0.7977.82 allowed a remote attacker to potentiall",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85047",
-    "score": 9.6,
-    "date": "2026-09-03T21:31:16Z"
+    "title": "CVE-2026-39822 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.10.2 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54773",
+    "score": 7.8,
+    "date": "2026-09-04T05:08:18+00:00"
    },
    {
-    "title": "CVE-2026-85042 — Use after free in DevTools in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code outside the sandbox v",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85042",
-    "score": 9.6,
-    "date": "2026-09-03T21:31:16Z"
-   },
-   {
-    "title": "CVE-2026-85222 — A vulnerability has been found in D-Link DNS-340L 1.01B04. Affected by this vulnerability is an unknown functionality of the file /cgi-bin/a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85222",
-    "score": 9.1,
-    "date": "2026-09-03T21:31:17Z"
-   },
-   {
-    "title": "CVE-2026-85394 — python-jose through 3.5.0 fails to properly validate asymmetric keys in HMAC initialization, accepting DER-encoded public keys that lack PEM",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85394",
-    "score": 9.1,
-    "date": "2026-09-03T21:31:15Z"
-   },
-   {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59467",
-    "score": 8.8,
-    "date": "2026-09-03T22:42:23+00:00"
-   },
-   {
-    "title": "CVE-2026-85051 — Type confusion in Compositing in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85051",
-    "score": 8.8,
-    "date": "2026-09-03T21:31:17Z"
+    "title": "MAL-2026-15878 — Malicious code in cbc97b7a (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15878",
+    "score": null,
+    "date": "2026-09-03T08:59:06Z"
    }
   ],
   "kev": [
@@ -499,7 +481,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 115,
+    "stars": 116,
     "lang": "PowerShell"
    },
    {
@@ -717,7 +699,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 8,
   "kev": 1694,
   "adv": 12,
   "feed": 48
