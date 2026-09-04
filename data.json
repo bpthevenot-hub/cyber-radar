@@ -1,12 +1,24 @@
 {
- "generatedAt": "2026-09-04T16:27:33.189Z",
+ "generatedAt": "2026-09-04T19:40:09.799Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-09-04T19:23:56+00:00"
+   },
+   {
+    "title": "CVE-2025-66471 — Red Hat Security Advisory: RHOAI 3.4.4 - Red Hat OpenShift AI (+142 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60520",
     "score": 9.9,
-    "date": "2026-09-04T16:09:01+00:00"
+    "date": "2026-09-04T19:23:30+00:00"
+   },
+   {
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "score": 9.8,
+    "date": "2026-09-04T19:24:11+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-21626 — Red Hat Security Advisory: OpenShift Container Platform 4.17.12 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0115",
-    "score": 8.6,
-    "date": "2026-09-04T16:09:36+00:00"
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
+    "score": 9.6,
+    "date": "2026-09-04T19:24:18+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: OpenShift Container Platform 4.15.44 security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0645",
-    "score": 8.2,
-    "date": "2026-09-04T16:11:43+00:00"
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
+    "score": 9.6,
+    "date": "2026-09-04T19:24:11+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat multicluster global hub 1.3.2 enhancements and container updates (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0577",
-    "score": 8.2,
-    "date": "2026-09-04T16:11:42+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:38+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat Advanced Cluster Management 2.9.6 bug fixes and container updates (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0576",
-    "score": 8.2,
-    "date": "2026-09-04T16:11:34+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:38+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat Multicluster GlobalHub 1.2.1 bug fixes and container updates (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0560",
-    "score": 8.2,
-    "date": "2026-09-04T16:11:09+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:36+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Multicluster Engine for Kubernetes 2.4.7 security updates and bug fixes (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0552",
-    "score": 8.2,
-    "date": "2026-09-04T16:11:03+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:36+00:00"
    },
    {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.15.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0536",
-    "score": 8.2,
-    "date": "2026-09-04T16:10:58+00:00"
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:36+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.15.0 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0535",
-    "score": 8.2,
-    "date": "2026-09-04T16:10:49+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:36+00:00"
    },
    {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Jaeger) 3.4 release (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0522",
-    "score": 8.2,
-    "date": "2026-09-04T16:10:38+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.15.0 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0485",
-    "score": 8.2,
-    "date": "2026-09-04T16:10:37+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: Red Hat Trusted Profile Analyzer 1.2.2 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:0445",
-    "score": 8.2,
-    "date": "2026-09-04T16:10:34+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-09-04T19:24:35+00:00"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
+    "title": "CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
+    "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
+    "score": 7.8,
+    "ghsa": "GHSA-gx45-xrj5-g6c4",
+    "date": "2026-09-04T18:14:09Z"
+   },
+   {
+    "title": "CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
+    "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
+    "score": 7.8,
+    "ghsa": "GHSA-wrj3-vj8c-784f",
+    "date": "2026-09-04T18:12:15Z"
+   },
+   {
+    "title": "CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
+    "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
+    "score": 7.4,
+    "ghsa": "GHSA-c6mw-8xh8-gpq6",
+    "date": "2026-09-04T18:11:45Z"
+   },
+   {
+    "title": "CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
+    "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
+    "score": 8.6,
+    "ghsa": "GHSA-6v2g-fpxh-pmmh",
+    "date": "2026-09-04T18:05:12Z"
+   },
+   {
+    "title": "CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
+    "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
+    "score": 7.5,
+    "ghsa": "GHSA-h539-c7r8-3xq4",
+    "date": "2026-09-04T18:03:08Z"
+   },
+   {
+    "title": "CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
+    "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
+    "score": 9.3,
+    "ghsa": "GHSA-7j5w-7r7x-9v27",
+    "date": "2026-09-04T18:02:37Z"
+   },
+   {
+    "title": "CodeWhale: exec_shell_interact sends LLM-controlled input to a running shell without an approval prompt (privilege escalation)",
+    "url": "https://github.com/advisories/GHSA-g29h-pfmp-qp9r",
+    "score": 7,
+    "ghsa": "GHSA-g29h-pfmp-qp9r",
+    "date": "2026-09-04T18:02:10Z"
+   },
+   {
+    "title": "CodeWhale: Project config `instructions` override enables arbitrary file read into AI system prompt via cloned repository",
+    "url": "https://github.com/advisories/GHSA-62f5-cp2p-vq95",
+    "score": 7.5,
+    "ghsa": "GHSA-62f5-cp2p-vq95",
+    "date": "2026-09-04T18:00:37Z"
+   },
+   {
+    "title": "CodeWhale: image_analyze follows workspace symlinks, leaking external file bytes",
+    "url": "https://github.com/advisories/GHSA-w7wx-5q49-r59w",
+    "score": 7.5,
+    "ghsa": "GHSA-w7wx-5q49-r59w",
+    "date": "2026-09-04T17:34:55Z"
+   },
+   {
+    "title": "SimpleWebAuthn: Registration verification does not sufficiently ensure that attestation certificates chain to a trust anchor",
+    "url": "https://github.com/advisories/GHSA-6hxq-p678-4hr2",
+    "score": 2,
+    "ghsa": "GHSA-6hxq-p678-4hr2",
+    "date": "2026-09-04T17:33:20Z"
+   },
+   {
+    "title": "SurrealDB allows bypass of deny-net flags via DNS resolution",
+    "url": "https://github.com/advisories/GHSA-m3c3-78fh-w3w7",
+    "score": null,
+    "ghsa": "GHSA-m3c3-78fh-w3w7",
+    "date": "2026-09-04T17:30:45Z"
+   },
+   {
     "title": "SiYuan: Missing publish-access filter on getAttributeViewKeysByID discloses database column schema, plus two unscoped block-ID enumeration oracles (pu",
     "url": "https://github.com/advisories/GHSA-5fhr-f75j-8wr9",
     "score": 5.8,
     "ghsa": "GHSA-5fhr-f75j-8wr9",
     "date": "2026-09-03T23:04:13Z"
-   },
-   {
-    "title": "SiYuan: Encrypted-notebook key-derivation material and wrapped notebook keys disclosed to anonymous readers, enabling offline master-password cracking",
-    "url": "https://github.com/advisories/GHSA-8x84-r2ff-h8pq",
-    "score": 7.5,
-    "ghsa": "GHSA-8x84-r2ff-h8pq",
-    "date": "2026-09-03T23:02:12Z"
-   },
-   {
-    "title": "SiYuan: Absolute filesystem path and OS username disclosure via resolveAssetPath",
-    "url": "https://github.com/advisories/GHSA-jv8v-xq2h-657v",
-    "score": 5.3,
-    "ghsa": "GHSA-jv8v-xq2h-657v",
-    "date": "2026-09-03T23:00:52Z"
-   },
-   {
-    "title": "SiYuan: Missing publish-access filter on getBlockAttrs and batchGetBlockAttrs discloses block attributes (name, alias, memo, custom fields) of protect",
-    "url": "https://github.com/advisories/GHSA-qvq9-hq6p-v378",
-    "score": 5.8,
-    "ghsa": "GHSA-qvq9-hq6p-v378",
-    "date": "2026-09-03T22:58:29Z"
-   },
-   {
-    "title": "SiYuan: Graph endpoints omit the publish-password tier: anonymous readers receive block-level content of password-protected documents",
-    "url": "https://github.com/advisories/GHSA-vpjw-wf5h-cgpq",
-    "score": 8.6,
-    "ghsa": "GHSA-vpjw-wf5h-cgpq",
-    "date": "2026-09-03T22:52:58Z"
-   },
-   {
-    "title": "SiYuan: Missing publish-access check on getBlockBreadcrumb, getRefText, and getBlockTreeInfos discloses content and metadata of protected/forbidden do",
-    "url": "https://github.com/advisories/GHSA-67x2-mq63-v9vm",
-    "score": 5.8,
-    "ghsa": "GHSA-67x2-mq63-v9vm",
-    "date": "2026-09-03T22:52:12Z"
-   },
-   {
-    "title": "SiYuan: Password (protected) tier omitted in the attribute-view/database publish filter: Reader receives rows of protected documents without the passw",
-    "url": "https://github.com/advisories/GHSA-6mcf-g667-w3qv",
-    "score": 5.8,
-    "ghsa": "GHSA-6mcf-g667-w3qv",
-    "date": "2026-09-03T22:50:49Z"
-   },
-   {
-    "title": "SiYuan: Second-order SSTI to arbitrary SQL via attribute-view template column (queryBlocks): malicious imported package executes SQL on victim kernel",
-    "url": "https://github.com/advisories/GHSA-x67c-8pwr-m8g3",
-    "score": 8,
-    "ghsa": "GHSA-x67c-8pwr-m8g3",
-    "date": "2026-09-03T22:49:30Z"
-   },
-   {
-    "title": "SiYuan: Missing publish-access filter on getFileAnnotation discloses private PDF annotations of forbidden/protected documents (publish mode)",
-    "url": "https://github.com/advisories/GHSA-v7ph-r5r6-4jcj",
-    "score": 5.8,
-    "ghsa": "GHSA-v7ph-r5r6-4jcj",
-    "date": "2026-09-03T22:48:22Z"
-   },
-   {
-    "title": "SiYuan: Localhost-trust admin bypass on auth-code-gated endpoints, with potential remote reachability via the fixed-port proxy",
-    "url": "https://github.com/advisories/GHSA-3mp7-4rh5-jrv9",
-    "score": 8,
-    "ghsa": "GHSA-3mp7-4rh5-jrv9",
-    "date": "2026-09-03T22:34:06Z"
-   },
-   {
-    "title": "SiYuan: Publish-boundary bypass via WebSocket broadcast: anonymous readers receive a live unfiltered feed of all edits including protected/forbidden d",
-    "url": "https://github.com/advisories/GHSA-mw8r-mw84-88v2",
-    "score": 8.6,
-    "ghsa": "GHSA-mw8r-mw84-88v2",
-    "date": "2026-09-03T22:30:52Z"
-   },
-   {
-    "title": "SiYuan: SQL injection in backlink/mention search via unescaped stored and client input (publish mode): first-order (client keyword) and second-order (",
-    "url": "https://github.com/advisories/GHSA-q2vg-7qgx-x5fc",
-    "score": 10,
-    "ghsa": "GHSA-q2vg-7qgx-x5fc",
-    "date": "2026-09-03T22:27:50Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+    "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+    "date": "Fri, 04 Sep 2026 12:56:45 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
     "date": "Fri, 04 Sep 2026 11:25:59 -0400",
@@ -450,13 +457,6 @@
     "date": "Thu, 03 Sep 2026 11:13:29 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic confirms Claude is down, multiple models affected",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
-    "date": "Thu, 03 Sep 2026 11:02:52 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -499,7 +499,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 117,
+    "stars": 116,
     "lang": "PowerShell"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Getting Agents to tell on themselves",
+    "url": "https://www.reddit.com/r/netsec/comments/1w7605w/getting_agents_to_tell_on_themselves/",
+    "date": "2026-09-04T14:29:57+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "From fake interview to signed ClickOnce: inside a three-payload Windows chain (Part 2)",
     "url": "https://www.reddit.com/r/netsec/comments/1w6ynzn/from_fake_interview_to_signed_clickonce_inside_a/",
     "date": "2026-09-04T08:40:27+00:00",
@@ -645,13 +652,6 @@
     "title": "Self-hosted Coder: check whether you pulled a registry module on Aug 31. no CVE, so nothing will flag it for you",
     "url": "https://www.reddit.com/r/netsec/comments/1w77oxx/selfhosted_coder_check_whether_you_pulled_a/",
     "date": "2026-09-04T15:32:57+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Getting Agents to tell on themselves",
-    "url": "https://www.reddit.com/r/netsec/comments/1w7605w/getting_agents_to_tell_on_themselves/",
-    "date": "2026-09-04T14:29:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
-  "kev": 1694,
+  "crit": 14,
+  "kev": 1695,
   "adv": 12,
   "feed": 48
  },
