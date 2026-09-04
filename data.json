@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-09-04T19:40:09.799Z",
+ "generatedAt": "2026-09-04T22:23:59.747Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
-    "score": 10,
-    "date": "2026-09-04T19:23:56+00:00"
-   },
-   {
-    "title": "CVE-2025-66471 — Red Hat Security Advisory: RHOAI 3.4.4 - Red Hat OpenShift AI (+142 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60520",
-    "score": 9.9,
-    "date": "2026-09-04T19:23:30+00:00"
-   },
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-09-04T19:24:11+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-09-04T19:24:18+00:00"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-09-04T19:24:11+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "title": "CVE-2026-44172 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:30135",
     "score": 9.1,
-    "date": "2026-09-04T19:24:38+00:00"
+    "date": "2026-09-04T21:33:17+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "title": "CVE-2026-81939 — A Zip Slip vulnerability in the SonicWall Network Security Manager (NSM) On-Prem file upload and archive processing functionality allows an ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81939",
     "score": 9.1,
-    "date": "2026-09-04T19:24:38+00:00"
+    "date": "2026-09-04T21:31:50Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "title": "CVE-2026-78327 — An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in the SonicWall Network Securit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78327",
     "score": 9.1,
-    "date": "2026-09-04T19:24:36+00:00"
+    "date": "2026-09-04T21:31:49Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "title": "CVE-2026-78328 — A missing authorization vulnerability in the SonicWall Network Security Manager (NSM) On-Prem Management interface allows a lower-privileged",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78328",
     "score": 9.1,
-    "date": "2026-09-04T19:24:36+00:00"
+    "date": "2026-09-04T21:31:49Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "title": "CVE-2026-75160 — An issue in X-Serie Gateway Firmware V6_00_05 allows a remote attacker to escalate privileges via the endpoints /cgi-bin/wwwugw.cgi and /cgi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75160",
     "score": 9.1,
-    "date": "2026-09-04T19:24:36+00:00"
+    "date": "2026-09-04T18:31:21Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "title": "CVE-2026-85043 — Incomplete cleanup in Network in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to bypass system access restrictions via cra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85043",
     "score": 9.1,
-    "date": "2026-09-04T19:24:36+00:00"
+    "date": "2026-09-03T21:31:16Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-09-04T19:24:35+00:00"
+    "title": "CVE-2026-73842 — OpenChoreo: cluster-gateway internal proxy performs no caller authentication and is not read-only — data-plane Secret disclosure and arbitra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73842",
+    "score": 9,
+    "date": "2026-09-04T21:41:38Z"
+   },
+   {
+    "title": "CVE-2026-82712 — Tycon Systems TPDIN-Monitor-WEB3 versions 2.2.9 and prior are vulnerable to a cross-site request forgery vulnerability. This could allow an ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82712",
+    "score": 8.8,
+    "date": "2026-09-04T21:31:52Z"
+   },
+   {
+    "title": "CVE-2026-80114 — PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics before 11.1 build 1016 contain a hard-co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80114",
+    "score": 7.8,
+    "date": "2026-09-04T21:31:50Z"
+   },
+   {
+    "title": "CVE-2026-80112 — PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics before 11.1 build 1016 contain an improp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80112",
+    "score": 7.8,
+    "date": "2026-09-04T21:31:50Z"
+   },
+   {
+    "title": "CVE-2026-80119 — PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics before 11.1 build 1016 contain an inform",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80119",
+    "score": 7.8,
+    "date": "2026-09-04T21:31:50Z"
+   },
+   {
+    "title": "CVE-2026-80116 — PassMark PerformanceTest before 11.1 build 1012, BurnInTest before 11.1 build 1000, and OSForensics before 11.1 build 1016 contain a privile",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80116",
+    "score": 7.8,
+    "date": "2026-09-04T21:31:50Z"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
-    "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
-    "score": 7.8,
-    "ghsa": "GHSA-gx45-xrj5-g6c4",
-    "date": "2026-09-04T18:14:09Z"
-   },
-   {
-    "title": "CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
-    "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
-    "score": 7.8,
-    "ghsa": "GHSA-wrj3-vj8c-784f",
-    "date": "2026-09-04T18:12:15Z"
-   },
-   {
-    "title": "CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
-    "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
-    "score": 7.4,
-    "ghsa": "GHSA-c6mw-8xh8-gpq6",
-    "date": "2026-09-04T18:11:45Z"
-   },
-   {
-    "title": "CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
-    "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
-    "score": 8.6,
-    "ghsa": "GHSA-6v2g-fpxh-pmmh",
-    "date": "2026-09-04T18:05:12Z"
-   },
-   {
-    "title": "CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
-    "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
+    "title": "TypeSpec: Unauthenticated Remote Shutdown of Spector Mock Server via POST /.admin/stop",
+    "url": "https://github.com/advisories/GHSA-7q9c-hpx7-9cwm",
     "score": 7.5,
-    "ghsa": "GHSA-h539-c7r8-3xq4",
-    "date": "2026-09-04T18:03:08Z"
+    "ghsa": "GHSA-7q9c-hpx7-9cwm",
+    "date": "2026-09-04T21:43:13Z"
    },
    {
-    "title": "CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
-    "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
-    "score": 9.3,
-    "ghsa": "GHSA-7j5w-7r7x-9v27",
-    "date": "2026-09-04T18:02:37Z"
+    "title": "OpenChoreo: cluster-gateway internal proxy performs no caller authentication and is not read-only — data-plane Secret disclosure and arbitrary Kuberne",
+    "url": "https://github.com/advisories/GHSA-rh53-xvx2-j327",
+    "score": 9,
+    "ghsa": "GHSA-rh53-xvx2-j327",
+    "date": "2026-09-04T21:41:38Z"
    },
    {
-    "title": "CodeWhale: exec_shell_interact sends LLM-controlled input to a running shell without an approval prompt (privilege escalation)",
-    "url": "https://github.com/advisories/GHSA-g29h-pfmp-qp9r",
-    "score": 7,
-    "ghsa": "GHSA-g29h-pfmp-qp9r",
-    "date": "2026-09-04T18:02:10Z"
-   },
-   {
-    "title": "CodeWhale: Project config `instructions` override enables arbitrary file read into AI system prompt via cloned repository",
-    "url": "https://github.com/advisories/GHSA-62f5-cp2p-vq95",
-    "score": 7.5,
-    "ghsa": "GHSA-62f5-cp2p-vq95",
-    "date": "2026-09-04T18:00:37Z"
-   },
-   {
-    "title": "CodeWhale: image_analyze follows workspace symlinks, leaking external file bytes",
-    "url": "https://github.com/advisories/GHSA-w7wx-5q49-r59w",
-    "score": 7.5,
-    "ghsa": "GHSA-w7wx-5q49-r59w",
-    "date": "2026-09-04T17:34:55Z"
-   },
-   {
-    "title": "SimpleWebAuthn: Registration verification does not sufficiently ensure that attestation certificates chain to a trust anchor",
-    "url": "https://github.com/advisories/GHSA-6hxq-p678-4hr2",
-    "score": 2,
-    "ghsa": "GHSA-6hxq-p678-4hr2",
-    "date": "2026-09-04T17:33:20Z"
-   },
-   {
-    "title": "SurrealDB allows bypass of deny-net flags via DNS resolution",
-    "url": "https://github.com/advisories/GHSA-m3c3-78fh-w3w7",
+    "title": "vLLM: Incomplete CVE-2025-62164 remediation can be bypassed by concurrent prompt parts",
+    "url": "https://github.com/advisories/GHSA-pr7f-p5mw-fc87",
     "score": null,
-    "ghsa": "GHSA-m3c3-78fh-w3w7",
-    "date": "2026-09-04T17:30:45Z"
+    "ghsa": "GHSA-pr7f-p5mw-fc87",
+    "date": "2026-09-04T21:39:02Z"
    },
    {
-    "title": "SiYuan: Missing publish-access filter on getAttributeViewKeysByID discloses database column schema, plus two unscoped block-ID enumeration oracles (pu",
-    "url": "https://github.com/advisories/GHSA-5fhr-f75j-8wr9",
+    "title": "vLLM: ReDoS via structured_outputs.regex in the lm-format-enforcer backend (no compile timeout) — missed sibling of GHSA-rwxx-mrjm-wc2m",
+    "url": "https://github.com/advisories/GHSA-48jh-3gj7-fg8v",
+    "score": 5.3,
+    "ghsa": "GHSA-48jh-3gj7-fg8v",
+    "date": "2026-09-04T21:37:00Z"
+   },
+   {
+    "title": "vLLM: Unauthenticated Internal Path and Username Disclosure via Validation Error Messages",
+    "url": "https://github.com/advisories/GHSA-hwrm-c4cx-rf4j",
+    "score": 5.3,
+    "ghsa": "GHSA-hwrm-c4cx-rf4j",
+    "date": "2026-09-04T21:36:33Z"
+   },
+   {
+    "title": "vLLM: Derender endpoints decode caller-supplied GenerateResponse token IDs without output bounds",
+    "url": "https://github.com/advisories/GHSA-8737-qx52-hjff",
+    "score": 4.3,
+    "ghsa": "GHSA-8737-qx52-hjff",
+    "date": "2026-09-04T21:32:07Z"
+   },
+   {
+    "title": "SiYuan: Tag labels from password-protected documents are returned to readers who have not entered the password",
+    "url": "https://github.com/advisories/GHSA-mp7r-57w4-5qm3",
     "score": 5.8,
-    "ghsa": "GHSA-5fhr-f75j-8wr9",
-    "date": "2026-09-03T23:04:13Z"
+    "ghsa": "GHSA-mp7r-57w4-5qm3",
+    "date": "2026-09-04T21:24:19Z"
+   },
+   {
+    "title": "SiYuan: Non-administrator responses from /api/system/getConf omit three secrets that the configuration-export path explicitly strips, disclosing the s",
+    "url": "https://github.com/advisories/GHSA-h4v5-crx2-3cv4",
+    "score": 8.6,
+    "ghsa": "GHSA-h4v5-crx2-3cv4",
+    "date": "2026-09-04T21:16:48Z"
+   },
+   {
+    "title": "SiYuan: Embedded (transclusion) block content is returned without publish-access filtering, leaking private and password-protected document content to",
+    "url": "https://github.com/advisories/GHSA-h6w7-xxcf-w2mq",
+    "score": 8.6,
+    "ghsa": "GHSA-h6w7-xxcf-w2mq",
+    "date": "2026-09-04T21:13:13Z"
+   },
+   {
+    "title": "SiYuan: The session-cookie signing key (Conf.CookieKey) is returned to anonymous readers by /api/system/getConf",
+    "url": "https://github.com/advisories/GHSA-34fj-mwm6-fjfg",
+    "score": 8.6,
+    "ghsa": "GHSA-34fj-mwm6-fjfg",
+    "date": "2026-09-04T21:12:26Z"
+   },
+   {
+    "title": "SiYuan: Static-file routes bypass the publish-access controls enforced on the REST API, exposing templates, snippets and export artifacts to anonymous",
+    "url": "https://github.com/advisories/GHSA-fgmr-7w36-9qfq",
+    "score": 5.8,
+    "ghsa": "GHSA-fgmr-7w36-9qfq",
+    "date": "2026-09-04T21:02:22Z"
+   },
+   {
+    "title": "SiYuan: getEncryptedNotebookStatus discloses names and current lock/unlock state of all encrypted notebooks to anonymous readers",
+    "url": "https://github.com/advisories/GHSA-f2rw-w22v-54vh",
+    "score": 5.8,
+    "ghsa": "GHSA-f2rw-w22v-54vh",
+    "date": "2026-09-04T21:01:46Z"
    }
   ],
   "thn": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 9,
   "kev": 1695,
   "adv": 12,
   "feed": 48
