@@ -1,12 +1,24 @@
 {
- "generatedAt": "2026-09-03T22:38:16.834Z",
+ "generatedAt": "2026-09-04T01:02:53.912Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-15630 — A non-global organization admin in one tenant can bypass tenant boundaries to delete, create, or modify resources in any other tenant by exp",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15630",
-    "score": 9.9,
-    "date": "2026-07-23T21:31:02Z"
+    "title": "CVE-2026-72811 — SiYuan: SQL injection in backlink/mention search via unescaped stored and client input (publish mode): first-order (client keyword) and seco",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-72811",
+    "score": 10,
+    "date": "2026-09-03T22:27:50Z"
+   },
+   {
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-09-03T21:45:24+00:00"
+   },
+   {
+    "title": "GHSA-p8cp-78hp-wmq8 — Duplicate Advisory: SQL injection in backlink/mention search via unescaped stored and client input (publish mode): first-order (client keywo",
+    "url": "https://github.com/advisories/GHSA-p8cp-78hp-wmq8",
+    "score": 10,
+    "date": "2026-08-14T12:31:24Z"
    },
    {
     "title": "CVE-2026-85391 — Peppermint through 0.5.5 contains a hardcoded JWT signing secret in docker-compose.yml that allows unauthenticated attackers to forge sessio",
@@ -19,12 +31,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-82526",
     "score": 9.8,
     "date": "2026-09-03T21:31:15Z"
-   },
-   {
-    "title": "CVE-2026-73487 — Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable Agent nodes that allows unauthenticated attacke",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73487",
-    "score": 9.8,
-    "date": "2026-08-13T12:31:09Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -69,22 +75,16 @@
     "date": "2026-09-03T21:31:15Z"
    },
    {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59467",
+    "score": 8.8,
+    "date": "2026-09-03T22:42:23+00:00"
+   },
+   {
     "title": "CVE-2026-85051 — Type confusion in Compositing in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-85051",
     "score": 8.8,
     "date": "2026-09-03T21:31:17Z"
-   },
-   {
-    "title": "CVE-2026-85053 — Improper resource exposure in CacheStorage in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code insid",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85053",
-    "score": 8.8,
-    "date": "2026-09-03T21:31:17Z"
-   },
-   {
-    "title": "CVE-2026-85046 — Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a cr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85046",
-    "score": 8.8,
-    "date": "2026-09-03T21:31:16Z"
    }
   ],
   "kev": [
@@ -203,6 +203,69 @@
   ],
   "adv": [
    {
+    "title": "SiYuan: Missing publish-access filter on getAttributeViewKeysByID discloses database column schema, plus two unscoped block-ID enumeration oracles (pu",
+    "url": "https://github.com/advisories/GHSA-5fhr-f75j-8wr9",
+    "score": 5.8,
+    "ghsa": "GHSA-5fhr-f75j-8wr9",
+    "date": "2026-09-03T23:04:13Z"
+   },
+   {
+    "title": "SiYuan: Encrypted-notebook key-derivation material and wrapped notebook keys disclosed to anonymous readers, enabling offline master-password cracking",
+    "url": "https://github.com/advisories/GHSA-8x84-r2ff-h8pq",
+    "score": 7.5,
+    "ghsa": "GHSA-8x84-r2ff-h8pq",
+    "date": "2026-09-03T23:02:12Z"
+   },
+   {
+    "title": "SiYuan: Absolute filesystem path and OS username disclosure via resolveAssetPath",
+    "url": "https://github.com/advisories/GHSA-jv8v-xq2h-657v",
+    "score": 5.3,
+    "ghsa": "GHSA-jv8v-xq2h-657v",
+    "date": "2026-09-03T23:00:52Z"
+   },
+   {
+    "title": "SiYuan: Missing publish-access filter on getBlockAttrs and batchGetBlockAttrs discloses block attributes (name, alias, memo, custom fields) of protect",
+    "url": "https://github.com/advisories/GHSA-qvq9-hq6p-v378",
+    "score": 5.8,
+    "ghsa": "GHSA-qvq9-hq6p-v378",
+    "date": "2026-09-03T22:58:29Z"
+   },
+   {
+    "title": "SiYuan: Graph endpoints omit the publish-password tier: anonymous readers receive block-level content of password-protected documents",
+    "url": "https://github.com/advisories/GHSA-vpjw-wf5h-cgpq",
+    "score": 8.6,
+    "ghsa": "GHSA-vpjw-wf5h-cgpq",
+    "date": "2026-09-03T22:52:58Z"
+   },
+   {
+    "title": "SiYuan: Missing publish-access check on getBlockBreadcrumb, getRefText, and getBlockTreeInfos discloses content and metadata of protected/forbidden do",
+    "url": "https://github.com/advisories/GHSA-67x2-mq63-v9vm",
+    "score": 5.8,
+    "ghsa": "GHSA-67x2-mq63-v9vm",
+    "date": "2026-09-03T22:52:12Z"
+   },
+   {
+    "title": "SiYuan: Password (protected) tier omitted in the attribute-view/database publish filter: Reader receives rows of protected documents without the passw",
+    "url": "https://github.com/advisories/GHSA-6mcf-g667-w3qv",
+    "score": 5.8,
+    "ghsa": "GHSA-6mcf-g667-w3qv",
+    "date": "2026-09-03T22:50:49Z"
+   },
+   {
+    "title": "SiYuan: Second-order SSTI to arbitrary SQL via attribute-view template column (queryBlocks): malicious imported package executes SQL on victim kernel",
+    "url": "https://github.com/advisories/GHSA-x67c-8pwr-m8g3",
+    "score": 8,
+    "ghsa": "GHSA-x67c-8pwr-m8g3",
+    "date": "2026-09-03T22:49:30Z"
+   },
+   {
+    "title": "SiYuan: Missing publish-access filter on getFileAnnotation discloses private PDF annotations of forbidden/protected documents (publish mode)",
+    "url": "https://github.com/advisories/GHSA-v7ph-r5r6-4jcj",
+    "score": 5.8,
+    "ghsa": "GHSA-v7ph-r5r6-4jcj",
+    "date": "2026-09-03T22:48:22Z"
+   },
+   {
     "title": "SiYuan: Localhost-trust admin bypass on auth-code-gated endpoints, with potential remote reachability via the fixed-port proxy",
     "url": "https://github.com/advisories/GHSA-3mp7-4rh5-jrv9",
     "score": 8,
@@ -222,69 +285,6 @@
     "score": 10,
     "ghsa": "GHSA-q2vg-7qgx-x5fc",
     "date": "2026-09-03T22:27:50Z"
-   },
-   {
-    "title": "SiYuan: Missing authorization on refreshBacklink allows anonymous readers to trigger persistent server-side writes and unauthenticated resource amplif",
-    "url": "https://github.com/advisories/GHSA-wgwx-479j-23vq",
-    "score": 6.5,
-    "ghsa": "GHSA-wgwx-479j-23vq",
-    "date": "2026-09-03T22:23:19Z"
-   },
-   {
-    "title": "SiYuan: Anonymous publish-password authentication bypass via getHeadingChildrenDOM / getHeading*Transaction / getBacklinkDoc (publish mode)",
-    "url": "https://github.com/advisories/GHSA-7j72-f6wg-cxw6",
-    "score": 8.6,
-    "ghsa": "GHSA-7j72-f6wg-cxw6",
-    "date": "2026-09-03T21:22:42Z"
-   },
-   {
-    "title": "SiYuan: Cross-boundary metadata disclosure via getBlockInfo (publish mode): reader-reachable document title/root info for publish-forbidden docs; sibl",
-    "url": "https://github.com/advisories/GHSA-pm3w-vxp9-ccwc",
-    "score": 5.8,
-    "ghsa": "GHSA-pm3w-vxp9-ccwc",
-    "date": "2026-09-03T21:22:08Z"
-   },
-   {
-    "title": "SiYuan: Cross-boundary content disclosure via getBacklinkDoc/getBackmentionDoc (publish mode): reader-reachable rendered DOM of publish-forbidden docs",
-    "url": "https://github.com/advisories/GHSA-36v8-mpjm-8j5r",
-    "score": 8.6,
-    "ghsa": "GHSA-36v8-mpjm-8j5r",
-    "date": "2026-09-03T21:21:19Z"
-   },
-   {
-    "title": "SiYuan: Full-content disclosure of publish-disabled documents via getHeading*Transaction endpoints (publish mode): reader-reachable rendered DOM with ",
-    "url": "https://github.com/advisories/GHSA-69mh-gvh4-8gp7",
-    "score": 8.6,
-    "ghsa": "GHSA-69mh-gvh4-8gp7",
-    "date": "2026-09-03T21:19:41Z"
-   },
-   {
-    "title": "SiYuan: Unauthenticated SQL execution and REGEXP injection via fullTextSearchAssetContent (publish mode): reader-reachable raw SQL (method 2) and unes",
-    "url": "https://github.com/advisories/GHSA-fph3-ghq9-vw66",
-    "score": 10,
-    "ghsa": "GHSA-fph3-ghq9-vw66",
-    "date": "2026-09-03T21:01:05Z"
-   },
-   {
-    "title": "toml-node: Uncontrolled Recursion",
-    "url": "https://github.com/advisories/GHSA-82x6-q7mm-w9cf",
-    "score": 7.5,
-    "ghsa": "GHSA-82x6-q7mm-w9cf",
-    "date": "2026-09-03T20:56:13Z"
-   },
-   {
-    "title": "toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
-    "url": "https://github.com/advisories/GHSA-v5mp-jgw5-2x6j",
-    "score": 8.2,
-    "ghsa": "GHSA-v5mp-jgw5-2x6j",
-    "date": "2026-09-03T20:55:32Z"
-   },
-   {
-    "title": "SiYuan: Path Traversal via unvalidated avID in RenderAttributeView/AV read endpoints : reader-reachable cross-scope attribute-view disclosure",
-    "url": "https://github.com/advisories/GHSA-7hm9-v7vf-7g4w",
-    "score": 7.7,
-    "ghsa": "GHSA-7hm9-v7vf-7g4w",
-    "date": "2026-09-03T20:34:12Z"
    }
   ],
   "thn": [
@@ -469,7 +469,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 328,
+    "stars": 344,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 11,
+  "crit": 12,
   "kev": 1694,
   "adv": 12,
   "feed": 48
