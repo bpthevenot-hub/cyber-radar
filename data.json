@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T05:50:10.312Z",
+ "generatedAt": "2026-09-05T10:42:54.443Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -204,6 +204,20 @@
   ],
   "thn": [
    {
+    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+    "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+    "date": "Sat, 05 Sep 2026 13:25:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+    "date": "Sat, 05 Sep 2026 13:01:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
     "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
     "date": "Fri, 04 Sep 2026 21:27:15 +0530",
@@ -270,20 +284,6 @@
     "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
     "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
     "date": "Thu, 03 Sep 2026 20:56:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-    "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-    "date": "Thu, 03 Sep 2026 20:09:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-    "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-    "date": "Thu, 03 Sep 2026 17:28:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -402,7 +402,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 146,
+    "stars": 147,
     "lang": "JavaScript"
    },
    {
@@ -426,7 +426,7 @@
    {
     "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
     "url": "https://github.com/rootdr-backup/Reconner",
-    "stars": 101,
+    "stars": 100,
     "lang": "Go"
    },
    {
@@ -550,6 +550,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Million-dollar phishing campaign uses invisible Unicode characters to bypass email filters",
+    "url": "https://www.reddit.com/r/netsec/comments/1w7u80q/milliondollar_phishing_campaign_uses_invisible/",
+    "date": "2026-09-05T07:44:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Getting Agents to tell on themselves",
     "url": "https://www.reddit.com/r/netsec/comments/1w7605w/getting_agents_to_tell_on_themselves/",
     "date": "2026-09-04T14:29:57+00:00",
@@ -557,16 +564,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "From fake interview to signed ClickOnce: inside a three-payload Windows chain (Part 2)",
-    "url": "https://www.reddit.com/r/netsec/comments/1w6ynzn/from_fake_interview_to_signed_clickonce_inside_a/",
-    "date": "2026-09-04T08:40:27+00:00",
+    "title": "Self-hosted Coder: check whether you pulled a registry module on Aug 31. no CVE, so nothing will flag it for you",
+    "url": "https://www.reddit.com/r/netsec/comments/1w77oxx/selfhosted_coder_check_whether_you_pulled_a/",
+    "date": "2026-09-04T15:32:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Self-hosted Coder: check whether you pulled a registry module on Aug 31. no CVE, so nothing will flag it for you",
-    "url": "https://www.reddit.com/r/netsec/comments/1w77oxx/selfhosted_coder_check_whether_you_pulled_a/",
-    "date": "2026-09-04T15:32:57+00:00",
+    "title": "From fake interview to signed ClickOnce: inside a three-payload Windows chain (Part 2)",
+    "url": "https://www.reddit.com/r/netsec/comments/1w6ynzn/from_fake_interview_to_signed_clickonce_inside_a/",
+    "date": "2026-09-04T08:40:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -609,13 +616,6 @@
     "title": "Don’t Let Abliteration Abliterate Your Bug Hunting: Discovering Verdict Bias in Uncensored Models",
     "url": "https://www.reddit.com/r/netsec/comments/1w429pe/dont_let_abliteration_abliterate_your_bug_hunting/",
     "date": "2026-09-01T05:08:07+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Privilege escalation from IIS AppPool to NT Authority/SYSTEM via AD CS RPC endpoint",
-    "url": "https://www.reddit.com/r/netsec/comments/1w36tcq/privilege_escalation_from_iis_apppool_to_nt/",
-    "date": "2026-08-31T07:40:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
