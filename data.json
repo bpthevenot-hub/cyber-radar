@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-09-05T19:05:29.007Z",
+ "generatedAt": "2026-09-05T21:19:39.549Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RLSA-2026:63332 — Important: buildah security update",
-    "url": "https://github.com/advisories/RLSA-2026:63332",
-    "score": 8.8,
-    "date": "2026-09-04T18:08:56.499300Z"
-   },
-   {
-    "title": "RLSA-2026:62578 — Important: go-fdo-server security update",
-    "url": "https://github.com/advisories/RLSA-2026:62578",
-    "score": 8.8,
-    "date": "2026-09-03T12:09:02.205231Z"
-   },
-   {
-    "title": "RLSA-2026:62577 — Important: go-fdo-client security update",
-    "url": "https://github.com/advisories/RLSA-2026:62577",
-    "score": 8.8,
-    "date": "2026-09-03T12:09:02.205231Z"
-   },
-   {
-    "title": "RLSA-2026:61887 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:61887",
-    "score": 8.8,
-    "date": "2026-09-02T18:08:30.302908Z"
-   },
-   {
-    "title": "RLSA-2026:61378 — Important: freerdp security update",
-    "url": "https://github.com/advisories/RLSA-2026:61378",
-    "score": 8.8,
-    "date": "2026-09-01T12:09:07.143640Z"
-   },
-   {
-    "title": "RLSA-2026:59972 — Important: gstreamer1-plugins-good security update",
-    "url": "https://github.com/advisories/RLSA-2026:59972",
-    "score": 8.8,
-    "date": "2026-08-26T18:06:44.856853Z"
-   },
-   {
-    "title": "RLSA-2026:58819 — Important: nodejs24 security update",
-    "url": "https://github.com/advisories/RLSA-2026:58819",
-    "score": 8.6,
-    "date": "2026-08-25T12:07:46.973584Z"
-   },
-   {
-    "title": "RLSA-2026:59220 — Important: nginx security update",
-    "url": "https://github.com/advisories/RLSA-2026:59220",
-    "score": 8.2,
-    "date": "2026-08-25T12:07:46.973584Z"
-   },
-   {
-    "title": "RLSA-2026:63119 — Important: grafana-pcp security update",
-    "url": "https://github.com/advisories/RLSA-2026:63119",
-    "score": 8.1,
-    "date": "2026-09-04T18:08:56.499300Z"
-   },
-   {
-    "title": "RLSA-2026:63022 — Important: grafana security update",
-    "url": "https://github.com/advisories/RLSA-2026:63022",
-    "score": 8.1,
-    "date": "2026-09-04T12:09:39.257000Z"
-   },
-   {
-    "title": "RLSA-2026:60306 — Important: golang security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:60306",
-    "score": 8.1,
-    "date": "2026-08-27T12:09:28.872692Z"
-   },
-   {
-    "title": "RLSA-2026:58561 — Important: python-urwid security update",
-    "url": "https://github.com/advisories/RLSA-2026:58561",
-    "score": 8.1,
-    "date": "2026-08-24T12:08:45.914036Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -289,6 +204,13 @@
   ],
   "thn": [
    {
+    "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+    "date": "Sun, 06 Sep 2026 01:44:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
     "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
     "date": "Sat, 05 Sep 2026 22:22:33 +0530",
@@ -362,13 +284,6 @@
     "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
     "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
     "date": "Fri, 04 Sep 2026 12:48:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-    "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-    "date": "Fri, 04 Sep 2026 12:17:52 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -481,7 +396,7 @@
    {
     "title": "decionis/docker — Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision",
     "url": "https://github.com/decionis/docker",
-    "stars": 167,
+    "stars": 166,
     "lang": "Go"
    },
    {
@@ -707,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1695,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
