@@ -1,12 +1,48 @@
 {
- "generatedAt": "2026-09-06T13:43:02.237Z",
+ "generatedAt": "2026-09-06T17:07:28.717Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-78362 — The SEO Flow by LupsOnline WordPress plugin before 3.0.3 does not correctly validate the credential supplied with its API requests, allowing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78362",
+    "title": "CVE-2026-44168 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25143",
+    "score": 9.9,
+    "date": "2026-09-06T15:58:10+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
+    "score": 9.9,
+    "date": "2026-09-06T15:31:42+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
+    "score": 9.9,
+    "date": "2026-09-06T15:31:36+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.6 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60389",
+    "score": 9.9,
+    "date": "2026-09-06T15:31:36+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-09-06T15:31:34+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
+    "score": 9.9,
+    "date": "2026-09-06T15:31:34+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
     "score": 9.8,
-    "date": "2026-09-05T09:30:21Z"
+    "date": "2026-09-06T15:31:16+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +57,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-69192 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50969",
-    "score": 8.6,
-    "date": "2026-09-06T12:34:00+00:00"
+    "title": "CVE-2026-7598 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:16736",
+    "score": 9.1,
+    "date": "2026-09-06T15:41:23+00:00"
    },
    {
-    "title": "CVE-2026-32316 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8579",
-    "score": 8.2,
-    "date": "2026-09-06T12:40:52+00:00"
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: Submariner v0.24 security fixes and container updates (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63016",
+    "score": 9.1,
+    "date": "2026-09-06T15:31:44+00:00"
    },
    {
-    "title": "CVE-2026-42533 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46012",
-    "score": 8.2,
-    "date": "2026-09-06T12:38:19+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-09-06T15:31:18+00:00"
    },
    {
-    "title": "CVE-2026-7260 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47200",
-    "score": 8.1,
-    "date": "2026-09-06T12:30:49+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-09-06T15:31:15+00:00"
    },
    {
-    "title": "CVE-2026-86242 — Bifrost HTTP transport before 2.0.0 accepts an enabled custom plugin whose path is an HTTP URL through unauthenticated POST /api/plugins whe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86242",
-    "score": 8.1,
-    "date": "2026-09-06T12:30:23Z"
-   },
-   {
-    "title": "CVE-2026-29167 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25042",
-    "score": 7.7,
-    "date": "2026-09-06T12:40:23+00:00"
-   },
-   {
-    "title": "CVE-2026-48615 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:30172",
-    "score": 7.7,
-    "date": "2026-09-06T12:33:33+00:00"
-   },
-   {
-    "title": "CVE-2026-14257 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:54389",
-    "score": 7.5,
-    "date": "2026-09-06T12:44:29+00:00"
-   },
-   {
-    "title": "CVE-2026-55686 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:29954",
-    "score": 7.5,
-    "date": "2026-09-06T12:39:13+00:00"
-   },
-   {
-    "title": "CVE-2026-39243 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:37577",
-    "score": 7.5,
-    "date": "2026-09-06T12:37:19+00:00"
-   },
-   {
-    "title": "CVE-2026-22007 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11902",
-    "score": 7.5,
-    "date": "2026-09-06T12:31:31+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-09-06T15:31:14+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Attackers conceal phishing lures using invisible Unicode characters",
+    "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+    "date": "Sun, 06 Sep 2026 10:23:46 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
     "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
     "date": "Sat, 05 Sep 2026 10:29:13 -0400",
@@ -450,13 +457,6 @@
     "date": "Thu, 03 Sep 2026 16:04:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-    "date": "Thu, 03 Sep 2026 14:28:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -523,7 +523,7 @@
    {
     "title": "lordx64/pentestkit — Autonomous multi-agent pentest framework — plans, exploits, verifies (proof-required), CVSS-scores and writes ",
     "url": "https://github.com/lordx64/pentestkit",
-    "stars": 97,
+    "stars": 99,
     "lang": "Python"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I gave my agent an API key and lost $100. Never again.",
+    "url": "https://www.reddit.com/r/netsec/comments/1w8zkce/i_gave_my_agent_an_api_key_and_lost_100_never/",
+    "date": "2026-09-06T15:43:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Getting Agents to tell on themselves",
     "url": "https://www.reddit.com/r/netsec/comments/1w7605w/getting_agents_to_tell_on_themselves/",
     "date": "2026-09-04T14:29:57+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-08-31T07:40:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Anatomy of a ServiceNow Red Team",
-    "url": "https://www.reddit.com/r/netsec/comments/1w2mktz/anatomy_of_a_servicenow_red_team/",
-    "date": "2026-08-30T16:46:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 14,
   "kev": 1695,
   "adv": 12,
   "feed": 48
