@@ -1,49 +1,7 @@
 {
- "generatedAt": "2026-09-06T17:07:28.717Z",
+ "generatedAt": "2026-09-06T19:15:53.094Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-44168 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25143",
-    "score": 9.9,
-    "date": "2026-09-06T15:58:10+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
-    "score": 9.9,
-    "date": "2026-09-06T15:31:42+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
-    "score": 9.9,
-    "date": "2026-09-06T15:31:36+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.6 security update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60389",
-    "score": 9.9,
-    "date": "2026-09-06T15:31:36+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
-    "score": 9.9,
-    "date": "2026-09-06T15:31:34+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
-    "score": 9.9,
-    "date": "2026-09-06T15:31:34+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
-    "score": 9.8,
-    "date": "2026-09-06T15:31:16+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -57,34 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-7598 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:16736",
-    "score": 9.1,
-    "date": "2026-09-06T15:41:23+00:00"
+    "title": "CVE-2026-19633 — PostgreSQL Anonymizer contains a vulnerability that allows unprivileged masked users to execute arbitrary code by abusing operators, domain ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19633",
+    "score": 8.8,
+    "date": "2026-09-06T18:34:38Z"
    },
    {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: Submariner v0.24 security fixes and container updates (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63016",
-    "score": 9.1,
-    "date": "2026-09-06T15:31:44+00:00"
+    "title": "RLSA-2026:63332 — Important: buildah security update",
+    "url": "https://github.com/advisories/RLSA-2026:63332",
+    "score": 8.8,
+    "date": "2026-09-04T18:08:56.499300Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-09-06T15:31:18+00:00"
+    "title": "RLSA-2026:62578 — Important: go-fdo-server security update",
+    "url": "https://github.com/advisories/RLSA-2026:62578",
+    "score": 8.8,
+    "date": "2026-09-03T12:09:02.205231Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-06T15:31:15+00:00"
+    "title": "RLSA-2026:62577 — Important: go-fdo-client security update",
+    "url": "https://github.com/advisories/RLSA-2026:62577",
+    "score": 8.8,
+    "date": "2026-09-03T12:09:02.205231Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-06T15:31:14+00:00"
+    "title": "RLSA-2026:61887 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:61887",
+    "score": 8.8,
+    "date": "2026-09-02T18:08:30.302908Z"
+   },
+   {
+    "title": "RLSA-2026:61378 — Important: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:61378",
+    "score": 8.8,
+    "date": "2026-09-01T12:09:07.143640Z"
+   },
+   {
+    "title": "RLSA-2026:59972 — Important: gstreamer1-plugins-good security update",
+    "url": "https://github.com/advisories/RLSA-2026:59972",
+    "score": 8.8,
+    "date": "2026-08-26T18:06:44.856853Z"
+   },
+   {
+    "title": "RLSA-2026:59220 — Important: nginx security update",
+    "url": "https://github.com/advisories/RLSA-2026:59220",
+    "score": 8.2,
+    "date": "2026-08-25T12:07:46.973584Z"
+   },
+   {
+    "title": "RLSA-2026:63119 — Important: grafana-pcp security update",
+    "url": "https://github.com/advisories/RLSA-2026:63119",
+    "score": 8.1,
+    "date": "2026-09-04T18:08:56.499300Z"
+   },
+   {
+    "title": "RLSA-2026:63022 — Important: grafana security update",
+    "url": "https://github.com/advisories/RLSA-2026:63022",
+    "score": 8.1,
+    "date": "2026-09-04T12:09:39.257000Z"
+   },
+   {
+    "title": "RLSA-2026:60306 — Important: golang security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:60306",
+    "score": 8.1,
+    "date": "2026-08-27T12:09:28.872692Z"
+   },
+   {
+    "title": "RLSA-2026:58561 — Important: python-urwid security update",
+    "url": "https://github.com/advisories/RLSA-2026:58561",
+    "score": 8.1,
+    "date": "2026-08-24T12:08:45.914036Z"
    }
   ],
   "kev": [
@@ -511,7 +511,7 @@
    {
     "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
     "url": "https://github.com/rootdr-backup/Reconner",
-    "stars": 101,
+    "stars": 102,
     "lang": "Go"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1695,
   "adv": 12,
   "feed": 48
