@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-09-08T18:46:14.518Z",
+ "generatedAt": "2026-09-08T21:54:43.837Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1736",
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53806",
     "score": 9.8,
-    "date": "2026-09-08T18:15:58+00:00"
+    "date": "2026-09-08T21:27:11+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security pdate (+36 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53644",
+    "score": 9.8,
+    "date": "2026-09-08T21:27:11+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat multicluster global hub 1.4.4 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2500",
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-09-08T21:25:49+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13545",
+    "score": 9.1,
+    "date": "2026-09-08T21:26:55+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: RHOAI 2.25.7 - Red Hat OpenShift AI (+36 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24977",
+    "score": 9.1,
+    "date": "2026-09-08T21:21:58+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Services on OpenShift 18.0 (golang-github-openstack-k8s-operators-os-diff) security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:39810",
+    "score": 8.8,
+    "date": "2026-09-08T21:27:00+00:00"
+   },
+   {
+    "title": "CVE-2026-33811 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.12 security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41055",
+    "score": 8.8,
+    "date": "2026-09-08T21:25:36+00:00"
+   },
+   {
+    "title": "CVE-2026-9165 — Red Hat Security Advisory: RHACS 4.10.5 security and bug fix update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36625",
+    "score": 8.8,
+    "date": "2026-09-08T21:25:36+00:00"
+   },
+   {
+    "title": "CVE-2026-9165 — Red Hat Security Advisory: RHACS 4.9.9 security and bug fix update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36319",
+    "score": 8.8,
+    "date": "2026-09-08T21:25:33+00:00"
+   },
+   {
+    "title": "CVE-2026-9165 — Red Hat Security Advisory: RHACS 4.11.1 security and bug fix update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36207",
+    "score": 8.8,
+    "date": "2026-09-08T21:25:32+00:00"
+   },
+   {
+    "title": "CVE-2026-32285 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:35111",
+    "score": 8.8,
+    "date": "2026-09-08T21:22:08+00:00"
+   },
+   {
+    "title": "CVE-2025-9288 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.10 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41064",
     "score": 8.7,
-    "date": "2026-09-08T18:16:24+00:00"
-   },
-   {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat multicluster global hub 1.5.3 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2256",
-    "score": 8.7,
-    "date": "2026-09-08T18:16:20+00:00"
-   },
-   {
-    "title": "CVE-2025-15284 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1596",
-    "score": 8.3,
-    "date": "2026-09-08T18:15:18+00:00"
-   },
-   {
-    "title": "CVE-2024-5642 — Red Hat Security Advisory: Red Hat Ceph Storage (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1652",
-    "score": 7.8,
-    "date": "2026-09-08T18:15:33+00:00"
-   },
-   {
-    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.7.1 (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6055",
-    "score": 7.5,
-    "date": "2026-09-08T18:17:00+00:00"
-   },
-   {
-    "title": "CVE-2021-23358 — Red Hat Security Advisory: New container image: rhceph-9.0 (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3406",
-    "score": 7.5,
-    "date": "2026-09-08T18:16:53+00:00"
-   },
-   {
-    "title": "CVE-2024-31884 — Red Hat Security Advisory: Red Hat Ceph Storage (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2800",
-    "score": 7.5,
-    "date": "2026-09-08T18:16:45+00:00"
-   },
-   {
-    "title": "CVE-2025-66471 — Red Hat Security Advisory: fence-agents security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1803",
-    "score": 7.5,
-    "date": "2026-09-08T18:16:10+00:00"
-   },
-   {
-    "title": "CVE-2025-66471 — Red Hat Security Advisory: resource-agents security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1805",
-    "score": 7.5,
-    "date": "2026-09-08T18:16:09+00:00"
-   },
-   {
-    "title": "CVE-2025-66471 — Red Hat Security Advisory: resource-agents security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1794",
-    "score": 7.5,
-    "date": "2026-09-08T18:16:05+00:00"
-   },
-   {
-    "title": "CVE-2025-66471 — Red Hat Security Advisory: resource-agents security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1793",
-    "score": 7.5,
-    "date": "2026-09-08T18:16:02+00:00"
+    "date": "2026-09-08T21:25:41+00:00"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "GitPython: clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enabling arbitrary git-directory creation outside the destinati",
-    "url": "https://github.com/advisories/GHSA-8mcc-hrx5-hvxc",
-    "score": 7.5,
-    "ghsa": "GHSA-8mcc-hrx5-hvxc",
-    "date": "2026-09-08T18:41:52Z"
+    "title": "n8n: Agent Workflow Tool Bypasses Sub-Workflow Caller Policy",
+    "url": "https://github.com/advisories/GHSA-7hgx-277f-7vmg",
+    "score": null,
+    "ghsa": "GHSA-7hgx-277f-7vmg",
+    "date": "2026-09-08T21:33:47Z"
    },
    {
-    "title": "GitPython: Incomplete unsafe_git_revision_options denylist omits --contents/-S, enabling arbitrary file read via Repo.blame()",
-    "url": "https://github.com/advisories/GHSA-5xxx-qhh7-9287",
+    "title": "Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain",
+    "url": "https://github.com/advisories/GHSA-wmmp-3585-3rmp",
     "score": 6.5,
-    "ghsa": "GHSA-5xxx-qhh7-9287",
-    "date": "2026-09-08T18:41:31Z"
+    "ghsa": "GHSA-wmmp-3585-3rmp",
+    "date": "2026-09-08T21:33:32Z"
    },
    {
-    "title": "GitPython: Dormant multi-line git-config values are corrupted into live injected directives (e.g. core.hooksPath) on any unrelated GitConfigParser wri",
-    "url": "https://github.com/advisories/GHSA-284h-m62q-gf8w",
-    "score": 9.8,
-    "ghsa": "GHSA-284h-m62q-gf8w",
-    "date": "2026-09-08T18:39:40Z"
-   },
-   {
-    "title": "GitPython: Arbitrary local file content disclosure via [include] directive in untrusted .gitmodules (SubmoduleConfigParser never disables merge_includ",
-    "url": "https://github.com/advisories/GHSA-7833-fr7j-v32q",
-    "score": 8.4,
-    "ghsa": "GHSA-7833-fr7j-v32q",
-    "date": "2026-09-08T18:38:51Z"
-   },
-   {
-    "title": "Netty: SNI Routing Bypass via Fragmented TLS ClientHello Causing Fallback to Default SslContext",
-    "url": "https://github.com/advisories/GHSA-c4c3-7fpv-j4q5",
-    "score": 9.5,
-    "ghsa": "GHSA-c4c3-7fpv-j4q5",
-    "date": "2026-09-08T18:16:14Z"
-   },
-   {
-    "title": "Netty: Fragmented ClientHello records trigger quadratic pre-handshake reassembly in default SNI parsing",
-    "url": "https://github.com/advisories/GHSA-fccg-mwvh-qqg4",
-    "score": null,
-    "ghsa": "GHSA-fccg-mwvh-qqg4",
-    "date": "2026-09-08T18:14:56Z"
-   },
-   {
-    "title": "Infracost: Terraform Cloud and registry token disclosure via unvalidated hostname",
-    "url": "https://github.com/advisories/GHSA-6x6c-w9w9-hv4h",
-    "score": null,
-    "ghsa": "GHSA-6x6c-w9w9-hv4h",
-    "date": "2026-09-08T18:14:12Z"
-   },
-   {
-    "title": "Infracost: Arbitrary file read via config-template readFile symlink traversal",
-    "url": "https://github.com/advisories/GHSA-mmg6-4qmv-6pc8",
-    "score": null,
-    "ghsa": "GHSA-mmg6-4qmv-6pc8",
-    "date": "2026-09-08T18:14:00Z"
-   },
-   {
-    "title": "Dozzle: SSRF guard bypass via IPv6 transition addresses (6to4/NAT64/Teredo) in webhook notification dispatcher",
-    "url": "https://github.com/advisories/GHSA-p2w3-6x73-2f6x",
-    "score": 2,
-    "ghsa": "GHSA-p2w3-6x73-2f6x",
-    "date": "2026-09-08T18:11:56Z"
-   },
-   {
-    "title": "LiquidJS: Uncontrolled Resource Consumption in `join` filter allows template authors to bypass `memoryLimit` and crash the process",
-    "url": "https://github.com/advisories/GHSA-4r6h-5v86-94p3",
+    "title": "Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list",
+    "url": "https://github.com/advisories/GHSA-2x7j-588g-ccc2",
     "score": 7.5,
-    "ghsa": "GHSA-4r6h-5v86-94p3",
-    "date": "2026-09-08T18:10:35Z"
+    "ghsa": "GHSA-2x7j-588g-ccc2",
+    "date": "2026-09-08T21:33:17Z"
    },
    {
-    "title": "Prowler: Stored XSS in HTML reports through unescaped cloud resource tags",
-    "url": "https://github.com/advisories/GHSA-c2jg-2778-ggm4",
-    "score": 5.4,
-    "ghsa": "GHSA-c2jg-2778-ggm4",
-    "date": "2026-09-08T18:09:25Z"
+    "title": "Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain",
+    "url": "https://github.com/advisories/GHSA-cc9r-2j5m-2m83",
+    "score": 6.5,
+    "ghsa": "GHSA-cc9r-2j5m-2m83",
+    "date": "2026-09-08T21:32:51Z"
    },
    {
-    "title": "node-csv: Prototype replacement still reachable via columns path",
-    "url": "https://github.com/advisories/GHSA-8cw4-87c7-c6xx",
-    "score": null,
-    "ghsa": "GHSA-8cw4-87c7-c6xx",
-    "date": "2026-09-08T18:01:39Z"
+    "title": "OpenAPI3 version value escapes `emitterOutputDir` and overwrites YAML/JSON outside the output tree",
+    "url": "https://github.com/advisories/GHSA-2q42-4q24-7rgv",
+    "score": 7.1,
+    "ghsa": "GHSA-2q42-4q24-7rgv",
+    "date": "2026-09-08T21:31:09Z"
+   },
+   {
+    "title": "multer vulnerable to Denial of Service via crafted multipart field names",
+    "url": "https://github.com/advisories/GHSA-wc9g-mqfw-jrwm",
+    "score": 7.5,
+    "ghsa": "GHSA-wc9g-mqfw-jrwm",
+    "date": "2026-09-08T21:30:20Z"
+   },
+   {
+    "title": "multer vulnerable to Denial of Service via file descriptor leak on aborted uploads",
+    "url": "https://github.com/advisories/GHSA-qfvm-cv95-jqjf",
+    "score": 7.5,
+    "ghsa": "GHSA-qfvm-cv95-jqjf",
+    "date": "2026-09-08T21:29:51Z"
+   },
+   {
+    "title": "multer vulnerable to file size limit bypass via async fileFilter race condition",
+    "url": "https://github.com/advisories/GHSA-qvfw-j98x-7q72",
+    "score": 3.7,
+    "ghsa": "GHSA-qvfw-j98x-7q72",
+    "date": "2026-09-08T21:29:42Z"
+   },
+   {
+    "title": "multer vulnerable to Denial of Service via oversized array index in field names",
+    "url": "https://github.com/advisories/GHSA-535w-7cp7-47q4",
+    "score": 7.5,
+    "ghsa": "GHSA-535w-7cp7-47q4",
+    "date": "2026-09-08T21:28:43Z"
+   },
+   {
+    "title": "morgan vulnerable to Log Forging via unescaped Unicode line separators",
+    "url": "https://github.com/advisories/GHSA-jxfw-x594-9x9m",
+    "score": 5.3,
+    "ghsa": "GHSA-jxfw-x594-9x9m",
+    "date": "2026-09-08T21:28:26Z"
+   },
+   {
+    "title": "Windows ML CLI: CORS misconfig enables localhost RCE",
+    "url": "https://github.com/advisories/GHSA-96p9-rh4f-92cf",
+    "score": 7.5,
+    "ghsa": "GHSA-96p9-rh4f-92cf",
+    "date": "2026-09-08T21:27:59Z"
+   },
+   {
+    "title": "mongodb: Reject \".\" and NUL bytes in database and collection names",
+    "url": "https://github.com/advisories/GHSA-65fr-j4p9-vc33",
+    "score": 8.1,
+    "ghsa": "GHSA-65fr-j4p9-vc33",
+    "date": "2026-09-08T21:27:42Z"
    }
   ],
   "thn": [
@@ -375,6 +375,34 @@
   ],
   "bleep": [
    {
+    "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
+    "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+    "date": "Tue, 08 Sep 2026 16:35:14 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+    "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
+    "date": "Tue, 08 Sep 2026 16:24:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+    "date": "Tue, 08 Sep 2026 16:08:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft releases Windows 10 KB5122878 extended security update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
+    "date": "Tue, 08 Sep 2026 14:49:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
     "date": "Tue, 08 Sep 2026 14:18:05 -0400",
@@ -429,34 +457,6 @@
     "date": "Tue, 08 Sep 2026 09:34:47 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
-    "date": "Tue, 08 Sep 2026 08:40:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers build AI frameworks for widescale credential theft",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
-    "date": "Tue, 08 Sep 2026 08:03:03 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft: Windows Server 2025 changes causing app crashes",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/",
-    "date": "Tue, 08 Sep 2026 07:57:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-    "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
-    "date": "Tue, 08 Sep 2026 03:35:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +469,7 @@
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 372,
+    "stars": 359,
     "lang": "Python"
    },
    {
@@ -479,16 +479,16 @@
     "lang": "Go"
    },
    {
+    "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
+    "url": "https://github.com/martian56/redcell",
+    "stars": 186,
+    "lang": "Python"
+   },
+   {
     "title": "decionis/docker — Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision",
     "url": "https://github.com/decionis/docker",
     "stars": 166,
     "lang": "Go"
-   },
-   {
-    "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
-    "url": "https://github.com/martian56/redcell",
-    "stars": 156,
-    "lang": "Python"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
@@ -635,9 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Hacking AI customer service agents (Bug Bounty Village DEF CON 34)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wae5zc/hacking_ai_customer_service_agents_bug_bounty/",
-    "date": "2026-09-08T04:22:12+00:00",
+    "title": "WeWorm - The first zero-click worm to spread through WeChat calls across iOS and Android.",
+    "url": "https://www.reddit.com/r/netsec/comments/1waz666/weworm_the_first_zeroclick_worm_to_spread_through/",
+    "date": "2026-09-08T19:54:54+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "🚨 Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
+    "url": "https://www.reddit.com/r/netsec/comments/1wavoo6/redis_cryptomining_botnet_compromised_3562/",
+    "date": "2026-09-08T17:53:35+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -649,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "🚨 Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
-    "url": "https://www.reddit.com/r/netsec/comments/1wavoo6/redis_cryptomining_botnet_compromised_3562/",
-    "date": "2026-09-08T17:53:35+00:00",
+    "title": "Hacking AI customer service agents (Bug Bounty Village DEF CON 34)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wae5zc/hacking_ai_customer_service_agents_bug_bounty/",
+    "date": "2026-09-08T04:22:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-09-01T12:25:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG",
-    "url": "https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/",
-    "date": "2026-09-01T14:39:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 7,
   "kev": 1699,
   "adv": 12,
   "feed": 48
