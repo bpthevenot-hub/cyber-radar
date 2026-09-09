@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-09T16:44:12.857Z",
+ "generatedAt": "2026-09-09T19:49:41.438Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:29854",
+    "score": 9.1,
+    "date": "2026-09-09T19:14:30+00:00"
+   },
+   {
+    "title": "CVE-2025-47914 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.8 security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:30650",
+    "score": 8.7,
+    "date": "2026-09-09T19:14:33+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHTAS 1.3.2 - Red Hat Trusted Artifact Signer Release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3087",
+    "score": 8.2,
+    "date": "2026-09-09T19:14:33+00:00"
+   },
+   {
+    "title": "CVE-2025-47907 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2951",
+    "score": 8.2,
+    "date": "2026-09-09T19:14:30+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: golang-github-openprinting-ipp-usb security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3092",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:34+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.4 release. (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3089",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:34+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: butane security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3053",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:33+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: grafana-pcp security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3040",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:32+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: grafana-pcp security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3035",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:32+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHTAS 1.2.2 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2921",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:30+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHTAS 1.2.2 - Red Hat Trusted Artifact Signer Release",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2927",
+    "score": 7.5,
+    "date": "2026-09-09T19:14:29+00:00"
+   },
+   {
+    "title": "MAL-2026-16092 — Malicious code in vinnleys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16092",
+    "score": null,
+    "date": "2026-09-09T14:44:23Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +203,69 @@
   ],
   "adv": [
    {
+    "title": "smol-toml: Denial of Service via malformed TOML documents",
+    "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
+    "score": 7.5,
+    "ghsa": "GHSA-7w5x-hrqm-74c2",
+    "date": "2026-09-09T18:07:11Z"
+   },
+   {
+    "title": "weasyprint Has Server-Side Request Forgery (SSRF)",
+    "url": "https://github.com/advisories/GHSA-jf6q-chmf-3h3v",
+    "score": 6.2,
+    "ghsa": "GHSA-jf6q-chmf-3h3v",
+    "date": "2026-09-09T18:06:38Z"
+   },
+   {
+    "title": "SQLAdmin: Unvalidated sortBy parameter in `ModelView` bypasses `column_sortable_list`",
+    "url": "https://github.com/advisories/GHSA-ccg5-9c8w-xh6v",
+    "score": 5.3,
+    "ghsa": "GHSA-ccg5-9c8w-xh6v",
+    "date": "2026-09-09T18:01:56Z"
+   },
+   {
+    "title": "containerd: CRI ExecSync Goroutine Leak Leads to Node-Level Denial of Service",
+    "url": "https://github.com/advisories/GHSA-7jxh-36q5-gcqv",
+    "score": null,
+    "ghsa": "GHSA-7jxh-36q5-gcqv",
+    "date": "2026-09-09T18:01:33Z"
+   },
+   {
+    "title": "GitHacker: Path traversal in ref/hash parsing enables existence oracle and hex-fragment exfiltration via malicious .git server",
+    "url": "https://github.com/advisories/GHSA-hr3m-4qwq-3mgc",
+    "score": 5.3,
+    "ghsa": "GHSA-hr3m-4qwq-3mgc",
+    "date": "2026-09-09T18:00:32Z"
+   },
+   {
+    "title": "decidim-elections: Election question titles allow stored script execution",
+    "url": "https://github.com/advisories/GHSA-9mvp-w4rr-5c6x",
+    "score": 4.8,
+    "ghsa": "GHSA-9mvp-w4rr-5c6x",
+    "date": "2026-09-09T17:59:52Z"
+   },
+   {
+    "title": "LF Edge eKuiper: Arbitrary File and Directory Deletion via Path Traversal in Plugin Installation Endpoint",
+    "url": "https://github.com/advisories/GHSA-c23q-fw86-9h5x",
+    "score": 5.5,
+    "ghsa": "GHSA-c23q-fw86-9h5x",
+    "date": "2026-09-09T17:59:27Z"
+   },
+   {
+    "title": "LF Edge eKuiper: SSRF in External Service",
+    "url": "https://github.com/advisories/GHSA-pqqc-8v73-9gg2",
+    "score": 5.5,
+    "ghsa": "GHSA-pqqc-8v73-9gg2",
+    "date": "2026-09-09T17:56:32Z"
+   },
+   {
+    "title": "LF Edge eKuiper: Self-XSS in External Service Creation",
+    "url": "https://github.com/advisories/GHSA-g8rh-fjm6-h2h9",
+    "score": 3.7,
+    "ghsa": "GHSA-g8rh-fjm6-h2h9",
+    "date": "2026-09-09T17:56:22Z"
+   },
+   {
     "title": "gix-sec safe.directory protections absent for elevated administrators",
     "url": "https://github.com/advisories/GHSA-7rhf-42qf-vrvc",
     "score": 6.8,
@@ -137,69 +285,6 @@
     "score": 8.8,
     "ghsa": "GHSA-2j8r-3c22-8565",
     "date": "2026-09-09T16:04:04Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-69439 – .NET and Visual Studio Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-527h-q9f6-p7qx",
-    "score": 8.8,
-    "ghsa": "GHSA-527h-q9f6-p7qx",
-    "date": "2026-09-09T16:03:46Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-71328 – .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-63gh-g2x5-x69v",
-    "score": 8.8,
-    "ghsa": "GHSA-63gh-g2x5-x69v",
-    "date": "2026-09-09T16:01:52Z"
-   },
-   {
-    "title": "n8n: Agent Workflow Tool Bypasses Sub-Workflow Caller Policy",
-    "url": "https://github.com/advisories/GHSA-7hgx-277f-7vmg",
-    "score": null,
-    "ghsa": "GHSA-7hgx-277f-7vmg",
-    "date": "2026-09-08T21:33:47Z"
-   },
-   {
-    "title": "Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain",
-    "url": "https://github.com/advisories/GHSA-wmmp-3585-3rmp",
-    "score": 6.5,
-    "ghsa": "GHSA-wmmp-3585-3rmp",
-    "date": "2026-09-08T21:33:32Z"
-   },
-   {
-    "title": "Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list",
-    "url": "https://github.com/advisories/GHSA-2x7j-588g-ccc2",
-    "score": 7.5,
-    "ghsa": "GHSA-2x7j-588g-ccc2",
-    "date": "2026-09-08T21:33:17Z"
-   },
-   {
-    "title": "Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain",
-    "url": "https://github.com/advisories/GHSA-cc9r-2j5m-2m83",
-    "score": 6.5,
-    "ghsa": "GHSA-cc9r-2j5m-2m83",
-    "date": "2026-09-08T21:32:51Z"
-   },
-   {
-    "title": "OpenAPI3 version value escapes `emitterOutputDir` and overwrites YAML/JSON outside the output tree",
-    "url": "https://github.com/advisories/GHSA-2q42-4q24-7rgv",
-    "score": 7.1,
-    "ghsa": "GHSA-2q42-4q24-7rgv",
-    "date": "2026-09-08T21:31:09Z"
-   },
-   {
-    "title": "multer vulnerable to Denial of Service via crafted multipart field names",
-    "url": "https://github.com/advisories/GHSA-wc9g-mqfw-jrwm",
-    "score": 7.5,
-    "ghsa": "GHSA-wc9g-mqfw-jrwm",
-    "date": "2026-09-08T21:30:20Z"
-   },
-   {
-    "title": "multer vulnerable to Denial of Service via file descriptor leak on aborted uploads",
-    "url": "https://github.com/advisories/GHSA-qfvm-cv95-jqjf",
-    "score": 7.5,
-    "ghsa": "GHSA-qfvm-cv95-jqjf",
-    "date": "2026-09-08T21:29:51Z"
    }
   ],
   "thn": [
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+    "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+    "date": "Wed, 09 Sep 2026 12:48:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
     "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
     "date": "Wed, 09 Sep 2026 11:31:23 -0400",
@@ -365,32 +457,25 @@
     "date": "Tue, 08 Sep 2026 14:49:19 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
-    "date": "Tue, 08 Sep 2026 14:18:05 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
-    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
-    "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 391,
+    "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
+    "url": "https://github.com/pis10/TraceSurface",
+    "stars": 346,
     "lang": "Python"
    },
    {
-    "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
-    "url": "https://github.com/pis10/TraceSurface",
-    "stars": 351,
+    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
+    "url": "https://github.com/kulkarnirohit123/cra-agent",
+    "stars": 346,
     "lang": "Python"
    },
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 268,
+    "stars": 277,
     "lang": "Python"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
-  "kev": 1699,
+  "crit": 3,
+  "kev": 1703,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
