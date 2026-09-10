@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-09-10T19:46:36.266Z",
+ "generatedAt": "2026-09-10T22:39:13.409Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-09-10T22:11:40+00:00"
+   },
+   {
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "score": 9.8,
+    "date": "2026-09-10T22:11:51+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-55416 — Pimcore: SQL Injection in Custom Reports via Malicious Report Configuration",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55416",
-    "score": 8.8,
-    "date": "2026-09-10T19:25:05Z"
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
+    "score": 9.6,
+    "date": "2026-09-10T22:11:53+00:00"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
+    "score": 9.6,
+    "date": "2026-09-10T22:11:52+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-09-10T22:11:46+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:07+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:07+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:07+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:06+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:06+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:06+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-09-10T22:12:05+00:00"
    }
   ],
   "kev": [
@@ -137,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Pimcore: SQL Injection in Custom Reports via Malicious Report Configuration",
-    "url": "https://github.com/advisories/GHSA-23rh-xw42-fq82",
-    "score": 8.8,
-    "ghsa": "GHSA-23rh-xw42-fq82",
-    "date": "2026-09-10T19:25:05Z"
-   },
-   {
-    "title": "n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
-    "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
+    "title": "@argos-ci/core: CI Branch Name OS Command Injection",
+    "url": "https://github.com/advisories/GHSA-4x45-gxvp-6283",
     "score": 7.5,
-    "ghsa": "GHSA-34ff-336r-5q23",
-    "date": "2026-09-10T15:12:14Z"
+    "ghsa": "GHSA-4x45-gxvp-6283",
+    "date": "2026-09-10T22:34:17Z"
    },
    {
-    "title": "n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
-    "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
+    "title": "mistral.rs: Unbounded Remote Media Fetch and Video Frame Expansion DoS",
+    "url": "https://github.com/advisories/GHSA-m3wp-48jr-vr4g",
     "score": 7.5,
-    "ghsa": "GHSA-j535-v25q-vx3q",
-    "date": "2026-09-10T15:12:00Z"
+    "ghsa": "GHSA-m3wp-48jr-vr4g",
+    "date": "2026-09-10T21:54:37Z"
    },
    {
-    "title": "n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
-    "url": "https://github.com/advisories/GHSA-hh89-3r9w-qj3j",
-    "score": 7.5,
-    "ghsa": "GHSA-hh89-3r9w-qj3j",
-    "date": "2026-09-10T15:11:31Z"
+    "title": "mistral.rs Media Loader: Unauthenticated SSRF and arbitrary local file read via image_url",
+    "url": "https://github.com/advisories/GHSA-wfgq-w7cq-qj7j",
+    "score": 7.2,
+    "ghsa": "GHSA-wfgq-w7cq-qj7j",
+    "date": "2026-09-10T21:54:14Z"
    },
    {
-    "title": "n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
-    "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
-    "score": 7.5,
-    "ghsa": "GHSA-hw8v-xxg5-vvvx",
-    "date": "2026-09-10T15:11:07Z"
+    "title": "Open WebUI: A user's session cookies are sent to tool servers configured for bearer authentication",
+    "url": "https://github.com/advisories/GHSA-p78m-89r6-pgf7",
+    "score": 6.8,
+    "ghsa": "GHSA-p78m-89r6-pgf7",
+    "date": "2026-09-10T21:23:44Z"
    },
    {
-    "title": "Open WebUI: Inaccessible knowledge bases are exposed through the built-in knowledge tool on most vector backends",
-    "url": "https://github.com/advisories/GHSA-pcvc-8vrv-8q6w",
-    "score": 4.3,
-    "ghsa": "GHSA-pcvc-8vrv-8q6w",
-    "date": "2026-09-10T15:10:41Z"
+    "title": "Open WebUI: Sign-in as another user via wildcard characters in the OAuth subject claim on SQLite",
+    "url": "https://github.com/advisories/GHSA-wpmr-8h3q-fwj7",
+    "score": 8.1,
+    "ghsa": "GHSA-wpmr-8h3q-fwj7",
+    "date": "2026-09-10T21:23:25Z"
    },
    {
-    "title": "Open WebUI: Channel members can overwrite another member's message via the chat completions endpoint",
-    "url": "https://github.com/advisories/GHSA-fmqh-xp37-5hr8",
-    "score": 4.3,
-    "ghsa": "GHSA-fmqh-xp37-5hr8",
-    "date": "2026-09-10T15:10:29Z"
+    "title": "OmniRoute ACP Custom-Agent Remote Code Execution (RCE)",
+    "url": "https://github.com/advisories/GHSA-hf57-cqmx-p4gr",
+    "score": 9.5,
+    "ghsa": "GHSA-hf57-cqmx-p4gr",
+    "date": "2026-09-10T21:22:12Z"
    },
    {
-    "title": "Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
-    "url": "https://github.com/advisories/GHSA-jmc6-2wr8-h3wj",
-    "score": 8.7,
-    "ghsa": "GHSA-jmc6-2wr8-h3wj",
-    "date": "2026-09-10T15:10:20Z"
+    "title": "n8n: Per-Resource OAuth Consent Bypass via Unbound Refresh Token Resource Substitution",
+    "url": "https://github.com/advisories/GHSA-cw9w-vv67-hf73",
+    "score": null,
+    "ghsa": "GHSA-cw9w-vv67-hf73",
+    "date": "2026-09-10T21:21:49Z"
    },
    {
-    "title": "Open WebUI: SSRF into internal services via DNS rebinding in the Playwright web loader",
-    "url": "https://github.com/advisories/GHSA-4v28-j6q3-5m4r",
-    "score": 7.7,
-    "ghsa": "GHSA-4v28-j6q3-5m4r",
-    "date": "2026-09-10T15:10:12Z"
+    "title": "n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
+    "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f",
+    "score": null,
+    "ghsa": "GHSA-q5wm-mgqx-fv2f",
+    "date": "2026-09-10T21:18:48Z"
    },
    {
-    "title": "Open WebUI: Any authenticated user can inject chats into another user's folder via chat completions",
-    "url": "https://github.com/advisories/GHSA-3pf7-q2g3-wj28",
-    "score": 4.3,
-    "ghsa": "GHSA-3pf7-q2g3-wj28",
-    "date": "2026-09-10T15:10:04Z"
+    "title": "n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
+    "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
+    "score": null,
+    "ghsa": "GHSA-qgpw-8g46-w95v",
+    "date": "2026-09-10T21:16:36Z"
    },
    {
-    "title": "Open WebUI: Non-admin users can delete admin-owned external knowledge connections via knowledge base deletion",
-    "url": "https://github.com/advisories/GHSA-2724-6cpj-gf3v",
-    "score": 7.1,
-    "ghsa": "GHSA-2724-6cpj-gf3v",
-    "date": "2026-09-10T15:09:52Z"
+    "title": "n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
+    "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
+    "score": null,
+    "ghsa": "GHSA-cqr2-h44g-v75v",
+    "date": "2026-09-10T21:13:24Z"
    },
    {
-    "title": "Open WebUI: Any authenticated user can reach the Azure platform channel via server-side web fetch",
-    "url": "https://github.com/advisories/GHSA-34r3-9m95-vq73",
-    "score": 7.1,
-    "ghsa": "GHSA-34r3-9m95-vq73",
-    "date": "2026-09-10T15:09:36Z"
+    "title": "n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
+    "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
+    "score": null,
+    "ghsa": "GHSA-pq6c-vh67-xpm3",
+    "date": "2026-09-10T21:07:45Z"
+   },
+   {
+    "title": "n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
+    "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
+    "score": null,
+    "ghsa": "GHSA-pf83-w3f9-8m37",
+    "date": "2026-09-10T21:07:24Z"
    }
   ],
   "thn": [
@@ -309,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "New Android malware encrypts files, steals data, and harasses victims",
+    "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+    "date": "Thu, 10 Sep 2026 17:40:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "September Windows Server updates break Remote Desktop Services",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
+    "date": "Thu, 10 Sep 2026 16:34:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
     "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
     "date": "Thu, 10 Sep 2026 15:15:07 -0400",
@@ -377,20 +457,6 @@
     "date": "Thu, 10 Sep 2026 04:08:16 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Trezor warns users of email provider breach, phishing attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
-    "date": "Thu, 10 Sep 2026 02:56:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-    "date": "Wed, 09 Sep 2026 17:40:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -409,7 +475,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 305,
+    "stars": 308,
     "lang": "Python"
    },
    {
@@ -433,13 +499,13 @@
    {
     "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
     "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 142,
+    "stars": 143,
     "lang": "JavaScript"
    },
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 129,
+    "stars": 130,
     "lang": "PowerShell"
    },
    {
@@ -569,9 +635,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Beltdown: Escaping the Claude Code Sandbox",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcx6w7/beltdown_escaping_the_claude_code_sandbox/",
+    "date": "2026-09-10T21:57:43+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Forgejo &lt;=16.0.3 Critical RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1wcp6ze/forgejo_1603_critical_rce/",
     "date": "2026-09-10T17:08:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "No Extensions? You Forgot One: Writing Shared Objects to RCE via SQLite's dbpage",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcwx07/no_extensions_you_forgot_one_writing_shared/",
+    "date": "2026-09-10T21:46:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -623,20 +703,6 @@
     "date": "2026-09-08T17:53:35+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Two critical remote bugs found in ArangoDB",
-    "url": "https://www.reddit.com/r/netsec/comments/1wanx0x/two_critical_remote_bugs_found_in_arangodb/",
-    "date": "2026-09-08T13:06:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Hacking AI customer service agents (Bug Bounty Village DEF CON 34)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wae5zc/hacking_ai_customer_service_agents_bug_bounty/",
-    "date": "2026-09-08T04:22:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -651,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1703,
+  "crit": 14,
+  "kev": 1705,
   "adv": 12,
   "feed": 48
  },
