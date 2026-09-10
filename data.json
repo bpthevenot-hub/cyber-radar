@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-09-10T11:28:52.108Z",
+ "generatedAt": "2026-09-10T16:30:14.790Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
-    "score": 9.8,
-    "date": "2026-09-10T10:38:04+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.18.0 (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48085",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:13+00:00"
+    "title": "CVE-2026-81800 — Unauthenticated SQL Injection in Verified Reviews (Avis Vérifiés) <= 2.4.6 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81800",
+    "score": 9.3,
+    "date": "2026-09-10T15:33:20Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.17.54 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17598",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:12+00:00"
+    "title": "CVE-2026-81789 — Unauthenticated Arbitrary File Deletion in Advanced Product Fields Extended for WooCommerce <= 3.1.6 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81789",
+    "score": 8.6,
+    "date": "2026-09-10T15:33:20Z"
    },
    {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.9.21 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11996",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:10+00:00"
+    "title": "CVE-2026-88887 — Renovate is a dependency update automation tool. When listing tags/digests for a container image, Renovate follows pagination links supplied",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88887",
+    "score": 8.6,
+    "date": "2026-09-10T15:33:18Z"
    },
    {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.10.21 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11916",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:09+00:00"
+    "title": "CVE-2026-88880 — Renovate before 44.11.3 fails to validate Link header destinations when following GitLab server pagination, allowing malicious servers to re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88880",
+    "score": 8.6,
+    "date": "2026-09-10T15:33:18Z"
    },
    {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.12.17 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11856",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:07+00:00"
+    "title": "CVE-2026-88881 — Renovate, a dependency update tool, follows pagination links supplied by the GitHub server in the HTTP `Link` header when interacting with G",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88881",
+    "score": 8.6,
+    "date": "2026-09-10T15:33:18Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:05+00:00"
+    "title": "CVE-2026-88890 — OpenPanel through commit cd24bb8 contains an SQL injection vulnerability in the analytics filter builder that fails to validate profile.* fi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88890",
+    "score": 8.5,
+    "date": "2026-09-10T15:33:19Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:04+00:00"
+    "title": "CVE-2026-88891 — OpenPanel fails to enforce read-only project access level on 26 of 29 mutating procedures, allowing read-level members to modify, delete, an",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88891",
+    "score": 8.3,
+    "date": "2026-09-10T15:33:19Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:02+00:00"
+    "title": "CVE-2026-81801 — Subscriber Settings Change in WP-Stateless <= 4.4.1 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81801",
+    "score": 8.1,
+    "date": "2026-09-10T15:33:21Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:01+00:00"
+    "title": "CVE-2026-81805 — Unauthenticated Privilege Escalation in SiteSkite <= 2.1.5 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81805",
+    "score": 8.1,
+    "date": "2026-09-10T15:33:21Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:00+00:00"
+    "title": "CVE-2026-81784 — Unauthenticated PHP Object Injection in Wise Chat <= 3.4 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81784",
+    "score": 8.1,
+    "date": "2026-09-10T15:33:20Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-09-10T10:38:00+00:00"
+    "title": "CVE-2026-88889 — Renovate before 44.14.7 contains a command injection vulnerability in the Maven Wrapper manager that allows attackers to execute arbitrary c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88889",
+    "score": 7.8,
+    "date": "2026-09-10T15:33:19Z"
+   },
+   {
+    "title": "CVE-2026-88886 — Renovate is a dependency update automation tool. In versions before 44.14.7 (and in Mend Renovate CE/EE distributions before 15.4.0, and the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88886",
+    "score": 7.8,
+    "date": "2026-09-10T15:33:19Z"
    }
   ],
   "kev": [
@@ -203,91 +203,119 @@
   ],
   "adv": [
    {
-    "title": "Open WebUI: Any authenticated user can hang the server via message deletion in a cyclic chat tree",
-    "url": "https://github.com/advisories/GHSA-3cgp-3cqx-j8w2",
-    "score": 6.5,
-    "ghsa": "GHSA-3cgp-3cqx-j8w2",
-    "date": "2026-09-09T23:54:22Z"
-   },
-   {
-    "title": "Open WebUI: Server-side fetches reach blocked and internal hosts via unvalidated HTTP redirect targets",
-    "url": "https://github.com/advisories/GHSA-5x7x-4c3c-qf5w",
-    "score": 5,
-    "ghsa": "GHSA-5x7x-4c3c-qf5w",
-    "date": "2026-09-09T23:54:08Z"
-   },
-   {
-    "title": "Open WebUI: Any authenticated user can hang the server via a cyclic chat message history",
-    "url": "https://github.com/advisories/GHSA-jqhh-cjmq-vmv6",
-    "score": 6.5,
-    "ghsa": "GHSA-jqhh-cjmq-vmv6",
-    "date": "2026-09-09T23:53:59Z"
-   },
-   {
-    "title": "Identrail Cross-tenant IDOR: Client-supplied GitHub App installation_id is bound to the caller's workspace without ownership verification",
-    "url": "https://github.com/advisories/GHSA-cp3j-m783-3ph5",
-    "score": 8.5,
-    "ghsa": "GHSA-cp3j-m783-3ph5",
-    "date": "2026-09-09T23:52:14Z"
-   },
-   {
-    "title": "@openhop/server: Path Traversal in Flow ID File Operations",
-    "url": "https://github.com/advisories/GHSA-g72f-jw3w-mgh7",
-    "score": 8.3,
-    "ghsa": "GHSA-g72f-jw3w-mgh7",
-    "date": "2026-09-09T23:51:59Z"
-   },
-   {
-    "title": "ESPHome Device Builder Dashboard: Unauthenticated dashboard access via the HA add-on ingress site bound to all interfaces",
-    "url": "https://github.com/advisories/GHSA-vv4j-m4vr-f3g6",
-    "score": 8.8,
-    "ghsa": "GHSA-vv4j-m4vr-f3g6",
-    "date": "2026-09-09T23:51:25Z"
-   },
-   {
-    "title": "functype-mcp-server: MCP `set_functype_version` Package Alias RCE via Unsanitized pnpm install + Dynamic Import",
-    "url": "https://github.com/advisories/GHSA-wcjj-9m6g-2fr2",
-    "score": 7.8,
-    "ghsa": "GHSA-wcjj-9m6g-2fr2",
-    "date": "2026-09-09T23:49:20Z"
-   },
-   {
-    "title": "Joker linter executed project-local .jokerd/linter.* files during linting",
-    "url": "https://github.com/advisories/GHSA-m835-3cm9-rggg",
-    "score": 7.8,
-    "ghsa": "GHSA-m835-3cm9-rggg",
-    "date": "2026-09-09T23:48:46Z"
-   },
-   {
-    "title": "Komari: Management Interface CSRF",
-    "url": "https://github.com/advisories/GHSA-hxjg-93wc-h8p8",
-    "score": 8.8,
-    "ghsa": "GHSA-hxjg-93wc-h8p8",
-    "date": "2026-09-09T23:48:31Z"
-   },
-   {
-    "title": "@yeger/turbo-graph: Unauthenticated Network-Exposed Task Execution via /api/run",
-    "url": "https://github.com/advisories/GHSA-2r5q-h53f-9rp3",
-    "score": 8.8,
-    "ghsa": "GHSA-2r5q-h53f-9rp3",
-    "date": "2026-09-09T23:47:55Z"
-   },
-   {
-    "title": "Nuxt Ollama: Public Runtime Config Exposes Ollama API Key to Browser Clients",
-    "url": "https://github.com/advisories/GHSA-fxg7-897c-57mp",
+    "title": "n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
+    "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
     "score": 7.5,
-    "ghsa": "GHSA-fxg7-897c-57mp",
-    "date": "2026-09-09T23:47:44Z"
+    "ghsa": "GHSA-34ff-336r-5q23",
+    "date": "2026-09-10T15:12:14Z"
    },
    {
-    "title": "webhookd: Unrestricted HTTP Header to Shell Variable Injection",
-    "url": "https://github.com/advisories/GHSA-v25g-mvwr-f5fp",
+    "title": "n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
+    "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
+    "score": 7.5,
+    "ghsa": "GHSA-j535-v25q-vx3q",
+    "date": "2026-09-10T15:12:00Z"
+   },
+   {
+    "title": "n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
+    "url": "https://github.com/advisories/GHSA-hh89-3r9w-qj3j",
+    "score": 7.5,
+    "ghsa": "GHSA-hh89-3r9w-qj3j",
+    "date": "2026-09-10T15:11:31Z"
+   },
+   {
+    "title": "n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
+    "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
+    "score": 7.5,
+    "ghsa": "GHSA-hw8v-xxg5-vvvx",
+    "date": "2026-09-10T15:11:07Z"
+   },
+   {
+    "title": "Open WebUI: Inaccessible knowledge bases are exposed through the built-in knowledge tool on most vector backends",
+    "url": "https://github.com/advisories/GHSA-pcvc-8vrv-8q6w",
+    "score": 4.3,
+    "ghsa": "GHSA-pcvc-8vrv-8q6w",
+    "date": "2026-09-10T15:10:41Z"
+   },
+   {
+    "title": "Open WebUI: Channel members can overwrite another member's message via the chat completions endpoint",
+    "url": "https://github.com/advisories/GHSA-fmqh-xp37-5hr8",
+    "score": 4.3,
+    "ghsa": "GHSA-fmqh-xp37-5hr8",
+    "date": "2026-09-10T15:10:29Z"
+   },
+   {
+    "title": "Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
+    "url": "https://github.com/advisories/GHSA-jmc6-2wr8-h3wj",
+    "score": 8.7,
+    "ghsa": "GHSA-jmc6-2wr8-h3wj",
+    "date": "2026-09-10T15:10:20Z"
+   },
+   {
+    "title": "Open WebUI: SSRF into internal services via DNS rebinding in the Playwright web loader",
+    "url": "https://github.com/advisories/GHSA-4v28-j6q3-5m4r",
+    "score": 7.7,
+    "ghsa": "GHSA-4v28-j6q3-5m4r",
+    "date": "2026-09-10T15:10:12Z"
+   },
+   {
+    "title": "Open WebUI: Any authenticated user can inject chats into another user's folder via chat completions",
+    "url": "https://github.com/advisories/GHSA-3pf7-q2g3-wj28",
+    "score": 4.3,
+    "ghsa": "GHSA-3pf7-q2g3-wj28",
+    "date": "2026-09-10T15:10:04Z"
+   },
+   {
+    "title": "Open WebUI: Non-admin users can delete admin-owned external knowledge connections via knowledge base deletion",
+    "url": "https://github.com/advisories/GHSA-2724-6cpj-gf3v",
+    "score": 7.1,
+    "ghsa": "GHSA-2724-6cpj-gf3v",
+    "date": "2026-09-10T15:09:52Z"
+   },
+   {
+    "title": "Open WebUI: Any authenticated user can reach the Azure platform channel via server-side web fetch",
+    "url": "https://github.com/advisories/GHSA-34r3-9m95-vq73",
+    "score": 7.1,
+    "ghsa": "GHSA-34r3-9m95-vq73",
+    "date": "2026-09-10T15:09:36Z"
+   },
+   {
+    "title": "Open WebUI: Users denied by the OAuth domain allowlist or role policy can still sign in via token exchange",
+    "url": "https://github.com/advisories/GHSA-4qg5-cxx4-g927",
     "score": 6.5,
-    "ghsa": "GHSA-v25g-mvwr-f5fp",
-    "date": "2026-09-09T23:47:03Z"
+    "ghsa": "GHSA-4qg5-cxx4-g927",
+    "date": "2026-09-10T15:09:20Z"
    }
   ],
   "thn": [
+   {
+    "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+    "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+    "date": "Thu, 10 Sep 2026 20:06:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+    "date": "Thu, 10 Sep 2026 17:15:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+    "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+    "date": "Thu, 10 Sep 2026 17:11:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+    "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+    "date": "Thu, 10 Sep 2026 17:03:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
     "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
@@ -343,37 +371,44 @@
     "date": "Wed, 09 Sep 2026 16:47:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-    "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-    "date": "Wed, 09 Sep 2026 16:13:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-    "url": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-    "date": "Wed, 09 Sep 2026 15:02:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-    "date": "Wed, 09 Sep 2026 14:41:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-    "date": "Wed, 09 Sep 2026 13:49:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+    "date": "Thu, 10 Sep 2026 11:55:56 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+    "date": "Thu, 10 Sep 2026 11:43:58 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+    "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+    "date": "Thu, 10 Sep 2026 10:55:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+    "date": "Thu, 10 Sep 2026 10:11:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+    "url": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+    "date": "Thu, 10 Sep 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft says September updates fix mouse settings reset issues",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
@@ -422,48 +457,13 @@
     "date": "Wed, 09 Sep 2026 17:02:14 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-    "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-    "date": "Wed, 09 Sep 2026 12:48:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-    "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-    "date": "Wed, 09 Sep 2026 11:31:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-    "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-    "date": "Wed, 09 Sep 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
-    "date": "Wed, 09 Sep 2026 06:11:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Man gets 15 years for extorting women with AI-generated porn videos",
-    "url": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
-    "date": "Wed, 09 Sep 2026 04:44:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 376,
+    "stars": 377,
     "lang": "Python"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 297,
+    "stars": 303,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 127,
+    "stars": 129,
     "lang": "PowerShell"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 3,
   "kev": 1703,
   "adv": 12,
   "feed": 48
