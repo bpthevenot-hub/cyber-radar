@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-09-09T22:36:30.583Z",
+ "generatedAt": "2026-09-10T01:09:07.817Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18.1 for Spring Boot release. (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17668",
+    "score": 9.9,
+    "date": "2026-09-09T22:58:15+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-09-09T22:58:10+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:59+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:59+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:58+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:58+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:58+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:57+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-09-09T22:57:56+00:00"
+   },
+   {
+    "title": "CVE-2026-2332 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18 for Quarkus 3.33 update is now available (RHBQ 3.33.1.GA) (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22453",
+    "score": 8.8,
+    "date": "2026-09-09T22:58:16+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat AMQ Broker 7.13.5 release and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:14272",
+    "score": 7.5,
+    "date": "2026-09-09T22:58:13+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: git-lfs security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9439",
+    "score": 7.5,
+    "date": "2026-09-09T22:58:09+00:00"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "smol-toml: Denial of Service via malformed TOML documents",
-    "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
-    "score": 7.5,
-    "ghsa": "GHSA-7w5x-hrqm-74c2",
-    "date": "2026-09-09T18:07:11Z"
+    "title": "Open WebUI: Any authenticated user can hang the server via message deletion in a cyclic chat tree",
+    "url": "https://github.com/advisories/GHSA-3cgp-3cqx-j8w2",
+    "score": 6.5,
+    "ghsa": "GHSA-3cgp-3cqx-j8w2",
+    "date": "2026-09-09T23:54:22Z"
    },
    {
-    "title": "weasyprint Has Server-Side Request Forgery (SSRF)",
-    "url": "https://github.com/advisories/GHSA-jf6q-chmf-3h3v",
-    "score": 6.2,
-    "ghsa": "GHSA-jf6q-chmf-3h3v",
-    "date": "2026-09-09T18:06:38Z"
+    "title": "Open WebUI: Server-side fetches reach blocked and internal hosts via unvalidated HTTP redirect targets",
+    "url": "https://github.com/advisories/GHSA-5x7x-4c3c-qf5w",
+    "score": 5,
+    "ghsa": "GHSA-5x7x-4c3c-qf5w",
+    "date": "2026-09-09T23:54:08Z"
    },
    {
-    "title": "SQLAdmin: Unvalidated sortBy parameter in `ModelView` bypasses `column_sortable_list`",
-    "url": "https://github.com/advisories/GHSA-ccg5-9c8w-xh6v",
-    "score": 5.3,
-    "ghsa": "GHSA-ccg5-9c8w-xh6v",
-    "date": "2026-09-09T18:01:56Z"
+    "title": "Open WebUI: Any authenticated user can hang the server via a cyclic chat message history",
+    "url": "https://github.com/advisories/GHSA-jqhh-cjmq-vmv6",
+    "score": 6.5,
+    "ghsa": "GHSA-jqhh-cjmq-vmv6",
+    "date": "2026-09-09T23:53:59Z"
    },
    {
-    "title": "containerd: CRI ExecSync Goroutine Leak Leads to Node-Level Denial of Service",
-    "url": "https://github.com/advisories/GHSA-7jxh-36q5-gcqv",
-    "score": null,
-    "ghsa": "GHSA-7jxh-36q5-gcqv",
-    "date": "2026-09-09T18:01:33Z"
+    "title": "Identrail Cross-tenant IDOR: Client-supplied GitHub App installation_id is bound to the caller's workspace without ownership verification",
+    "url": "https://github.com/advisories/GHSA-cp3j-m783-3ph5",
+    "score": 8.5,
+    "ghsa": "GHSA-cp3j-m783-3ph5",
+    "date": "2026-09-09T23:52:14Z"
    },
    {
-    "title": "GitHacker: Path traversal in ref/hash parsing enables existence oracle and hex-fragment exfiltration via malicious .git server",
-    "url": "https://github.com/advisories/GHSA-hr3m-4qwq-3mgc",
-    "score": 5.3,
-    "ghsa": "GHSA-hr3m-4qwq-3mgc",
-    "date": "2026-09-09T18:00:32Z"
+    "title": "@openhop/server: Path Traversal in Flow ID File Operations",
+    "url": "https://github.com/advisories/GHSA-g72f-jw3w-mgh7",
+    "score": 8.3,
+    "ghsa": "GHSA-g72f-jw3w-mgh7",
+    "date": "2026-09-09T23:51:59Z"
    },
    {
-    "title": "decidim-elections: Election question titles allow stored script execution",
-    "url": "https://github.com/advisories/GHSA-9mvp-w4rr-5c6x",
-    "score": 4.8,
-    "ghsa": "GHSA-9mvp-w4rr-5c6x",
-    "date": "2026-09-09T17:59:52Z"
-   },
-   {
-    "title": "LF Edge eKuiper: Arbitrary File and Directory Deletion via Path Traversal in Plugin Installation Endpoint",
-    "url": "https://github.com/advisories/GHSA-c23q-fw86-9h5x",
-    "score": 5.5,
-    "ghsa": "GHSA-c23q-fw86-9h5x",
-    "date": "2026-09-09T17:59:27Z"
-   },
-   {
-    "title": "LF Edge eKuiper: SSRF in External Service",
-    "url": "https://github.com/advisories/GHSA-pqqc-8v73-9gg2",
-    "score": 5.5,
-    "ghsa": "GHSA-pqqc-8v73-9gg2",
-    "date": "2026-09-09T17:56:32Z"
-   },
-   {
-    "title": "LF Edge eKuiper: Self-XSS in External Service Creation",
-    "url": "https://github.com/advisories/GHSA-g8rh-fjm6-h2h9",
-    "score": 3.7,
-    "ghsa": "GHSA-g8rh-fjm6-h2h9",
-    "date": "2026-09-09T17:56:22Z"
-   },
-   {
-    "title": "gix-sec safe.directory protections absent for elevated administrators",
-    "url": "https://github.com/advisories/GHSA-7rhf-42qf-vrvc",
-    "score": 6.8,
-    "ghsa": "GHSA-7rhf-42qf-vrvc",
-    "date": "2026-09-09T16:34:35Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-69304 – ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-8cp2-47hg-mfgh",
-    "score": 5.9,
-    "ghsa": "GHSA-8cp2-47hg-mfgh",
-    "date": "2026-09-09T16:04:11Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-69522 – .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-2j8r-3c22-8565",
+    "title": "ESPHome Device Builder Dashboard: Unauthenticated dashboard access via the HA add-on ingress site bound to all interfaces",
+    "url": "https://github.com/advisories/GHSA-vv4j-m4vr-f3g6",
     "score": 8.8,
-    "ghsa": "GHSA-2j8r-3c22-8565",
-    "date": "2026-09-09T16:04:04Z"
+    "ghsa": "GHSA-vv4j-m4vr-f3g6",
+    "date": "2026-09-09T23:51:25Z"
+   },
+   {
+    "title": "functype-mcp-server: MCP `set_functype_version` Package Alias RCE via Unsanitized pnpm install + Dynamic Import",
+    "url": "https://github.com/advisories/GHSA-wcjj-9m6g-2fr2",
+    "score": 7.8,
+    "ghsa": "GHSA-wcjj-9m6g-2fr2",
+    "date": "2026-09-09T23:49:20Z"
+   },
+   {
+    "title": "Joker linter executed project-local .jokerd/linter.* files during linting",
+    "url": "https://github.com/advisories/GHSA-m835-3cm9-rggg",
+    "score": 7.8,
+    "ghsa": "GHSA-m835-3cm9-rggg",
+    "date": "2026-09-09T23:48:46Z"
+   },
+   {
+    "title": "Komari: Management Interface CSRF",
+    "url": "https://github.com/advisories/GHSA-hxjg-93wc-h8p8",
+    "score": 8.8,
+    "ghsa": "GHSA-hxjg-93wc-h8p8",
+    "date": "2026-09-09T23:48:31Z"
+   },
+   {
+    "title": "@yeger/turbo-graph: Unauthenticated Network-Exposed Task Execution via /api/run",
+    "url": "https://github.com/advisories/GHSA-2r5q-h53f-9rp3",
+    "score": 8.8,
+    "ghsa": "GHSA-2r5q-h53f-9rp3",
+    "date": "2026-09-09T23:47:55Z"
+   },
+   {
+    "title": "Nuxt Ollama: Public Runtime Config Exposes Ollama API Key to Browser Clients",
+    "url": "https://github.com/advisories/GHSA-fxg7-897c-57mp",
+    "score": 7.5,
+    "ghsa": "GHSA-fxg7-897c-57mp",
+    "date": "2026-09-09T23:47:44Z"
+   },
+   {
+    "title": "webhookd: Unrestricted HTTP Header to Shell Variable Injection",
+    "url": "https://github.com/advisories/GHSA-v25g-mvwr-f5fp",
+    "score": 6.5,
+    "ghsa": "GHSA-v25g-mvwr-f5fp",
+    "date": "2026-09-09T23:47:03Z"
    }
   ],
   "thn": [
@@ -403,7 +475,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 281,
+    "stars": 283,
     "lang": "Python"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 11,
   "kev": 1703,
   "adv": 12,
   "feed": 48
