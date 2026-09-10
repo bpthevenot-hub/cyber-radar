@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-10T06:03:17.181Z",
+ "generatedAt": "2026-09-10T11:28:52.108Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-09-10T10:38:04+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.18.0 (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48085",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:13+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.17.54 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17598",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:12+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.9.21 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11996",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:10+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.10.21 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11916",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:09+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.12.17 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11856",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:07+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:05+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:04+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:02+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:01+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:00+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-09-10T10:38:00+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+    "date": "Thu, 10 Sep 2026 16:06:46 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "date": "Thu, 10 Sep 2026 12:42:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "date": "Thu, 10 Sep 2026 12:34:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
     "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
     "date": "Wed, 09 Sep 2026 23:56:05 +0530",
@@ -265,30 +371,37 @@
     "date": "Wed, 09 Sep 2026 13:49:32 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-    "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-    "date": "Wed, 09 Sep 2026 13:06:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-    "date": "Wed, 09 Sep 2026 12:17:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-    "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-    "date": "Wed, 09 Sep 2026 11:55:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft says September updates fix mouse settings reset issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
+    "date": "Thu, 10 Sep 2026 07:14:28 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "date": "Thu, 10 Sep 2026 05:10:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes bug that wiped Windows desktop settings",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+    "date": "Thu, 10 Sep 2026 04:08:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Trezor warns users of email provider breach, phishing attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+    "date": "Thu, 10 Sep 2026 02:56:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
@@ -344,41 +457,13 @@
     "date": "Wed, 09 Sep 2026 04:44:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
-    "date": "Wed, 09 Sep 2026 03:30:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
-    "date": "Wed, 09 Sep 2026 02:25:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-    "date": "Tue, 08 Sep 2026 21:16:27 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-    "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-    "date": "Tue, 08 Sep 2026 16:35:14 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 346,
+    "stars": 376,
     "lang": "Python"
    },
    {
@@ -390,7 +475,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 292,
+    "stars": 297,
     "lang": "Python"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 153,
+    "stars": 154,
     "lang": "JavaScript"
    },
    {
@@ -420,7 +505,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 126,
+    "stars": 127,
     "lang": "PowerShell"
    },
    {
@@ -430,16 +515,16 @@
     "lang": "C"
    },
    {
+    "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
+    "url": "https://github.com/rootdr-backup/Reconner",
+    "stars": 107,
+    "lang": "Go"
+   },
+   {
     "title": "lordx64/pentestkit — Autonomous multi-agent pentest framework — plans, exploits, verifies (proof-required), CVSS-scores and writes ",
     "url": "https://github.com/lordx64/pentestkit",
     "stars": 107,
     "lang": "Python"
-   },
-   {
-    "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
-    "url": "https://github.com/rootdr-backup/Reconner",
-    "stars": 106,
-    "lang": "Go"
    },
    {
     "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
@@ -550,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Apple mach_o Archive Parser Integer Underflow Vulnerability",
-    "url": "https://www.reddit.com/r/netsec/comments/1wc87td/apple_mach_o_archive_parser_integer_underflow/",
-    "date": "2026-09-10T04:02:53+00:00",
+    "title": "Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcdwoi/preinstalled_but_not_safe_oneplus_oem_app_session/",
+    "date": "2026-09-10T09:12:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How Piracy Sites Disguise Video as Fonts to Abuse Cloudflare Caching",
-    "url": "https://www.reddit.com/r/netsec/comments/1wbma3a/how_piracy_sites_disguise_video_as_fonts_to_abuse/",
-    "date": "2026-09-09T13:54:47+00:00",
+    "title": "Apple mach_o Archive Parser Integer Underflow Vulnerability",
+    "url": "https://www.reddit.com/r/netsec/comments/1wc87td/apple_mach_o_archive_parser_integer_underflow/",
+    "date": "2026-09-10T04:02:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1703,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
