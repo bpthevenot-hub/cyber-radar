@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T16:30:14.790Z",
+ "generatedAt": "2026-09-10T19:46:36.266Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-81800 — Unauthenticated SQL Injection in Verified Reviews (Avis Vérifiés) <= 2.4.6 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81800",
-    "score": 9.3,
-    "date": "2026-09-10T15:33:20Z"
-   },
-   {
-    "title": "CVE-2026-81789 — Unauthenticated Arbitrary File Deletion in Advanced Product Fields Extended for WooCommerce <= 3.1.6 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81789",
-    "score": 8.6,
-    "date": "2026-09-10T15:33:20Z"
-   },
-   {
-    "title": "CVE-2026-88887 — Renovate is a dependency update automation tool. When listing tags/digests for a container image, Renovate follows pagination links supplied",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88887",
-    "score": 8.6,
-    "date": "2026-09-10T15:33:18Z"
-   },
-   {
-    "title": "CVE-2026-88880 — Renovate before 44.11.3 fails to validate Link header destinations when following GitLab server pagination, allowing malicious servers to re",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88880",
-    "score": 8.6,
-    "date": "2026-09-10T15:33:18Z"
-   },
-   {
-    "title": "CVE-2026-88881 — Renovate, a dependency update tool, follows pagination links supplied by the GitHub server in the HTTP `Link` header when interacting with G",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88881",
-    "score": 8.6,
-    "date": "2026-09-10T15:33:18Z"
-   },
-   {
-    "title": "CVE-2026-88890 — OpenPanel through commit cd24bb8 contains an SQL injection vulnerability in the analytics filter builder that fails to validate profile.* fi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88890",
-    "score": 8.5,
-    "date": "2026-09-10T15:33:19Z"
-   },
-   {
-    "title": "CVE-2026-88891 — OpenPanel fails to enforce read-only project access level on 26 of 29 mutating procedures, allowing read-level members to modify, delete, an",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88891",
-    "score": 8.3,
-    "date": "2026-09-10T15:33:19Z"
-   },
-   {
-    "title": "CVE-2026-81801 — Subscriber Settings Change in WP-Stateless <= 4.4.1 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81801",
-    "score": 8.1,
-    "date": "2026-09-10T15:33:21Z"
-   },
-   {
-    "title": "CVE-2026-81805 — Unauthenticated Privilege Escalation in SiteSkite <= 2.1.5 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81805",
-    "score": 8.1,
-    "date": "2026-09-10T15:33:21Z"
-   },
-   {
-    "title": "CVE-2026-81784 — Unauthenticated PHP Object Injection in Wise Chat <= 3.4 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81784",
-    "score": 8.1,
-    "date": "2026-09-10T15:33:20Z"
-   },
-   {
-    "title": "CVE-2026-88889 — Renovate before 44.14.7 contains a command injection vulnerability in the Maven Wrapper manager that allows attackers to execute arbitrary c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88889",
-    "score": 7.8,
-    "date": "2026-09-10T15:33:19Z"
-   },
-   {
-    "title": "CVE-2026-88886 — Renovate is a dependency update automation tool. In versions before 44.14.7 (and in Mend Renovate CE/EE distributions before 15.4.0, and the",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88886",
-    "score": 7.8,
-    "date": "2026-09-10T15:33:19Z"
+    "title": "CVE-2026-55416 — Pimcore: SQL Injection in Custom Reports via Malicious Report Configuration",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55416",
+    "score": 8.8,
+    "date": "2026-09-10T19:25:05Z"
    }
   ],
   "kev": [
@@ -203,6 +137,13 @@
   ],
   "adv": [
    {
+    "title": "Pimcore: SQL Injection in Custom Reports via Malicious Report Configuration",
+    "url": "https://github.com/advisories/GHSA-23rh-xw42-fq82",
+    "score": 8.8,
+    "ghsa": "GHSA-23rh-xw42-fq82",
+    "date": "2026-09-10T19:25:05Z"
+   },
+   {
     "title": "n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
     "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
     "score": 7.5,
@@ -278,16 +219,16 @@
     "score": 7.1,
     "ghsa": "GHSA-34r3-9m95-vq73",
     "date": "2026-09-10T15:09:36Z"
-   },
-   {
-    "title": "Open WebUI: Users denied by the OAuth domain allowlist or role policy can still sign in via token exchange",
-    "url": "https://github.com/advisories/GHSA-4qg5-cxx4-g927",
-    "score": 6.5,
-    "ghsa": "GHSA-4qg5-cxx4-g927",
-    "date": "2026-09-10T15:09:20Z"
    }
   ],
   "thn": [
+   {
+    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+    "date": "Thu, 10 Sep 2026 23:17:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
     "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
@@ -364,16 +305,23 @@
     "date": "Wed, 09 Sep 2026 17:27:36 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-    "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-    "date": "Wed, 09 Sep 2026 16:47:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+    "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+    "date": "Thu, 10 Sep 2026 15:15:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+    "date": "Thu, 10 Sep 2026 15:07:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
     "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
@@ -443,20 +391,6 @@
     "date": "Wed, 09 Sep 2026 17:40:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-    "date": "Wed, 09 Sep 2026 17:30:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-    "url": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-    "date": "Wed, 09 Sep 2026 17:02:14 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +403,13 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 346,
+    "stars": 358,
     "lang": "Python"
    },
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 303,
+    "stars": 305,
     "lang": "Python"
    },
    {
@@ -635,6 +569,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Forgejo &lt;=16.0.3 Critical RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcp6ze/forgejo_1603_critical_rce/",
+    "date": "2026-09-10T17:08:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1wcdwoi/preinstalled_but_not_safe_oneplus_oem_app_session/",
     "date": "2026-09-10T09:12:48+00:00",
@@ -642,9 +583,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Apple mach_o Archive Parser Integer Underflow Vulnerability",
-    "url": "https://www.reddit.com/r/netsec/comments/1wc87td/apple_mach_o_archive_parser_integer_underflow/",
-    "date": "2026-09-10T04:02:53+00:00",
+    "title": "🕵️‍♂️ SonicWall SMA1000 (CVE-2026-15409): SSRF to Erlang RCE chained into automated DCSync from the appliance",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcqbvq/sonicwall_sma1000_cve202615409_ssrf_to_erlang_rce/",
+    "date": "2026-09-10T17:48:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +637,6 @@
     "date": "2026-09-08T04:22:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The £3 WiFi Extender With a Backdoor in Every Unit",
-    "url": "https://www.reddit.com/r/netsec/comments/1w9qvz3/the_3_wifi_extender_with_a_backdoor_in_every_unit/",
-    "date": "2026-09-07T12:31:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +651,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1703,
   "adv": 12,
   "feed": 48
