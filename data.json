@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-09-10T22:39:13.409Z",
+ "generatedAt": "2026-09-11T01:10:24.707Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
-    "score": 10,
-    "date": "2026-09-10T22:11:40+00:00"
-   },
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-09-10T22:11:51+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-09-10T22:11:53+00:00"
+    "title": "CVE-2026-59960 — @argos-ci/core: CI Branch Name OS Command Injection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59960",
+    "score": 7.5,
+    "date": "2026-09-10T22:34:17Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-09-10T22:11:52+00:00"
+    "title": "CVE-2026-12795 — LiteLLM: SSO Debug Flow Has Improper Authentication",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12795",
+    "score": 7.3,
+    "date": "2026-06-21T09:30:51Z"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
-    "score": 9.3,
-    "date": "2026-09-10T22:11:46+00:00"
+    "title": "CVE-2026-12773 — LiteLLM: MCP Proxy Has Improper Authentication",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12773",
+    "score": 7.3,
+    "date": "2026-06-21T06:32:07Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:07+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:07+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:07+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:06+00:00"
-   },
-   {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:06+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:06+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
-    "score": 9.1,
-    "date": "2026-09-10T22:12:05+00:00"
+    "title": "CVE-2026-12770 — LiteLLM: Admin Key Handler Has Improper Authorization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12770",
+    "score": 5.4,
+    "date": "2026-06-21T03:30:24Z"
    }
   ],
   "kev": [
@@ -203,88 +155,88 @@
   ],
   "adv": [
    {
-    "title": "@argos-ci/core: CI Branch Name OS Command Injection",
-    "url": "https://github.com/advisories/GHSA-4x45-gxvp-6283",
+    "title": "Open WebUI: Users denied by the OAuth role policy can still sign in via token exchange",
+    "url": "https://github.com/advisories/GHSA-wvm9-9g5j-623f",
+    "score": 6.5,
+    "ghsa": "GHSA-wvm9-9g5j-623f",
+    "date": "2026-09-10T23:04:57Z"
+   },
+   {
+    "title": "Traefik: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') and Incorrect Authorization",
+    "url": "https://github.com/advisories/GHSA-w4v4-9rw7-5326",
     "score": 7.5,
-    "ghsa": "GHSA-4x45-gxvp-6283",
-    "date": "2026-09-10T22:34:17Z"
+    "ghsa": "GHSA-w4v4-9rw7-5326",
+    "date": "2026-09-10T23:04:37Z"
    },
    {
-    "title": "mistral.rs: Unbounded Remote Media Fetch and Video Frame Expansion DoS",
-    "url": "https://github.com/advisories/GHSA-m3wp-48jr-vr4g",
+    "title": "Traefik entrypoint header-name sanitization bypassed via request trailers",
+    "url": "https://github.com/advisories/GHSA-v67p-phpq-fc8x",
     "score": 7.5,
-    "ghsa": "GHSA-m3wp-48jr-vr4g",
-    "date": "2026-09-10T21:54:37Z"
+    "ghsa": "GHSA-v67p-phpq-fc8x",
+    "date": "2026-09-10T23:04:21Z"
    },
    {
-    "title": "mistral.rs Media Loader: Unauthenticated SSRF and arbitrary local file read via image_url",
-    "url": "https://github.com/advisories/GHSA-wfgq-w7cq-qj7j",
-    "score": 7.2,
-    "ghsa": "GHSA-wfgq-w7cq-qj7j",
-    "date": "2026-09-10T21:54:14Z"
-   },
-   {
-    "title": "Open WebUI: A user's session cookies are sent to tool servers configured for bearer authentication",
-    "url": "https://github.com/advisories/GHSA-p78m-89r6-pgf7",
-    "score": 6.8,
-    "ghsa": "GHSA-p78m-89r6-pgf7",
-    "date": "2026-09-10T21:23:44Z"
-   },
-   {
-    "title": "Open WebUI: Sign-in as another user via wildcard characters in the OAuth subject claim on SQLite",
-    "url": "https://github.com/advisories/GHSA-wpmr-8h3q-fwj7",
-    "score": 8.1,
-    "ghsa": "GHSA-wpmr-8h3q-fwj7",
-    "date": "2026-09-10T21:23:25Z"
-   },
-   {
-    "title": "OmniRoute ACP Custom-Agent Remote Code Execution (RCE)",
-    "url": "https://github.com/advisories/GHSA-hf57-cqmx-p4gr",
+    "title": "Traefik HTTP/3 Backend NTLM Connection Reuse",
+    "url": "https://github.com/advisories/GHSA-qqjf-53cj-pwvv",
     "score": 9.5,
-    "ghsa": "GHSA-hf57-cqmx-p4gr",
-    "date": "2026-09-10T21:22:12Z"
+    "ghsa": "GHSA-qqjf-53cj-pwvv",
+    "date": "2026-09-10T23:04:06Z"
    },
    {
-    "title": "n8n: Per-Resource OAuth Consent Bypass via Unbound Refresh Token Resource Substitution",
-    "url": "https://github.com/advisories/GHSA-cw9w-vv67-hf73",
-    "score": null,
-    "ghsa": "GHSA-cw9w-vv67-hf73",
-    "date": "2026-09-10T21:21:49Z"
+    "title": "Traefik: Rootless HTTP/1 request-target routes as \"/\" but is forwarded verbatim, bypassing path-scoped routing, middleware guards and access logging",
+    "url": "https://github.com/advisories/GHSA-f52w-8j3h-j724",
+    "score": 7.5,
+    "ghsa": "GHSA-f52w-8j3h-j724",
+    "date": "2026-09-10T23:03:53Z"
    },
    {
-    "title": "n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
-    "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f",
-    "score": null,
-    "ghsa": "GHSA-q5wm-mgqx-fv2f",
-    "date": "2026-09-10T21:18:48Z"
+    "title": "rclone archive/zip: Zip Slip via unsanitized zip entry names lets a malicious archive escape its own namespace",
+    "url": "https://github.com/advisories/GHSA-66hp-wgxq-6f5q",
+    "score": 6.3,
+    "ghsa": "GHSA-66hp-wgxq-6f5q",
+    "date": "2026-09-10T23:03:16Z"
    },
    {
-    "title": "n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
-    "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
-    "score": null,
-    "ghsa": "GHSA-qgpw-8g46-w95v",
-    "date": "2026-09-10T21:16:36Z"
+    "title": "rclone: http backend forwards custom/auth headers to a different host on redirect",
+    "url": "https://github.com/advisories/GHSA-486v-q2wf-fp2r",
+    "score": 3.7,
+    "ghsa": "GHSA-486v-q2wf-fp2r",
+    "date": "2026-09-10T23:02:53Z"
    },
    {
-    "title": "n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
-    "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
-    "score": null,
-    "ghsa": "GHSA-cqr2-h44g-v75v",
-    "date": "2026-09-10T21:13:24Z"
+    "title": "rclone: Directory metadata (chmod/chown/chtimes) applied through a planted symlink in rclone local --links escapes the destination",
+    "url": "https://github.com/advisories/GHSA-f8g7-2xjc-7mfh",
+    "score": 6.5,
+    "ghsa": "GHSA-f8g7-2xjc-7mfh",
+    "date": "2026-09-10T22:51:34Z"
    },
    {
-    "title": "n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
-    "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
-    "score": null,
-    "ghsa": "GHSA-pq6c-vh67-xpm3",
-    "date": "2026-09-10T21:07:45Z"
+    "title": "rclone local: crafted Range request against a translated symlink panics (DoS)",
+    "url": "https://github.com/advisories/GHSA-p6m2-r3w9-mpxw",
+    "score": 5.3,
+    "ghsa": "GHSA-p6m2-r3w9-mpxw",
+    "date": "2026-09-10T22:49:27Z"
    },
    {
-    "title": "n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
-    "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
-    "score": null,
-    "ghsa": "GHSA-pf83-w3f9-8m37",
-    "date": "2026-09-10T21:07:24Z"
+    "title": "rclone serve s3: --auth-proxy without --auth-key authenticates nobody - full SigV4 signature bypass",
+    "url": "https://github.com/advisories/GHSA-xwwr-4h3p-r22c",
+    "score": 9.8,
+    "ghsa": "GHSA-xwwr-4h3p-r22c",
+    "date": "2026-09-10T22:49:07Z"
+   },
+   {
+    "title": "rclone: RC per-server auth-proxy bypass",
+    "url": "https://github.com/advisories/GHSA-p569-5gjg-9cmj",
+    "score": 9.1,
+    "ghsa": "GHSA-p569-5gjg-9cmj",
+    "date": "2026-09-10T22:47:10Z"
+   },
+   {
+    "title": "rclone: FTP cross-session auth-proxy backend confusion",
+    "url": "https://github.com/advisories/GHSA-c476-6w5q-jw77",
+    "score": 7.3,
+    "ghsa": "GHSA-c476-6w5q-jw77",
+    "date": "2026-09-10T22:46:33Z"
    }
   ],
   "thn": [
@@ -475,7 +427,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 308,
+    "stars": 310,
     "lang": "Python"
    },
    {
@@ -517,7 +469,7 @@
    {
     "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
     "url": "https://github.com/rootdr-backup/Reconner",
-    "stars": 107,
+    "stars": 108,
     "lang": "Go"
    },
    {
@@ -649,6 +601,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The ultimate guide to hacking APIs in 2026 has been updated",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcykxq/the_ultimate_guide_to_hacking_apis_in_2026_has/",
+    "date": "2026-09-10T22:53:46+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "No Extensions? You Forgot One: Writing Shared Objects to RCE via SQLite's dbpage",
     "url": "https://www.reddit.com/r/netsec/comments/1wcwx07/no_extensions_you_forgot_one_writing_shared/",
     "date": "2026-09-10T21:46:38+00:00",
@@ -666,6 +625,13 @@
     "title": "🕵️‍♂️ SonicWall SMA1000 (CVE-2026-15409): SSRF to Erlang RCE chained into automated DCSync from the appliance",
     "url": "https://www.reddit.com/r/netsec/comments/1wcqbvq/sonicwall_sma1000_cve202615409_ssrf_to_erlang_rce/",
     "date": "2026-09-10T17:48:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "A real Carnival Cruise Line email was serving customers malware",
+    "url": "https://www.reddit.com/r/netsec/comments/1wczamw/a_real_carnival_cruise_line_email_was_serving/",
+    "date": "2026-09-10T23:23:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -689,20 +655,6 @@
     "date": "2026-09-08T19:54:54+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Disable Windows Defender via Antivirus Fake Registration",
-    "url": "https://www.reddit.com/r/netsec/comments/1wbfk1r/disable_windows_defender_via_antivirus_fake/",
-    "date": "2026-09-09T08:21:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "🚨 Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
-    "url": "https://www.reddit.com/r/netsec/comments/1wavoo6/redis_cryptomining_botnet_compromised_3562/",
-    "date": "2026-09-08T17:53:35+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +669,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1705,
   "adv": 12,
   "feed": 48
