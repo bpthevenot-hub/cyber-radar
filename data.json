@@ -1,56 +1,7 @@
 {
- "generatedAt": "2026-09-11T16:34:49.845Z",
+ "generatedAt": "2026-09-11T19:48:16.349Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-59898 — Vulnerabilities Affecting SICK CorivaEngine (+2 CVE)",
-    "url": "https://www.sick.com/.well-known/csaf/white/2026/sca-2026-0013.json",
-    "score": 8.6,
-    "date": "2026-09-11T16:00:00.000Z"
-   },
-   {
-    "title": "CVE-2026-57164 — CVE-2026-57164",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57164",
-    "score": null,
-    "date": "2026-09-04T18:17:54.703"
-   },
-   {
-    "title": "CVE-2026-57163 — CVE-2026-57163",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57163",
-    "score": null,
-    "date": "2026-09-04T18:17:54.547"
-   },
-   {
-    "title": "CVE-2026-57162 — CVE-2026-57162",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57162",
-    "score": null,
-    "date": "2026-09-04T18:17:54.360"
-   },
-   {
-    "title": "CVE-2026-46728 — CVE-2026-46728",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46728",
-    "score": null,
-    "date": "2026-05-16T22:16:13.317"
-   },
-   {
-    "title": "CVE-2026-33243 — CVE-2026-33243",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33243",
-    "score": null,
-    "date": "2026-03-20T23:16:47.167"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -253,6 +204,20 @@
   ],
   "thn": [
    {
+    "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+    "date": "Fri, 11 Sep 2026 22:00:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+    "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+    "date": "Fri, 11 Sep 2026 21:45:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
     "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
     "date": "Fri, 11 Sep 2026 19:59:47 +0530",
@@ -321,23 +286,23 @@
     "date": "Thu, 10 Sep 2026 17:15:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-    "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-    "date": "Thu, 10 Sep 2026 17:11:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-    "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-    "date": "Thu, 10 Sep 2026 17:03:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Florida confirms DMV database breached via stolen police account",
+    "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+    "date": "Fri, 11 Sep 2026 15:00:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+    "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+    "date": "Fri, 11 Sep 2026 13:26:50 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Artifactory flaws chained in attacks deploying backdoor malware",
     "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
@@ -407,20 +372,6 @@
     "date": "Thu, 10 Sep 2026 15:07:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
-    "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
-    "date": "Thu, 10 Sep 2026 11:55:56 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
-    "date": "Thu, 10 Sep 2026 11:43:58 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -439,7 +390,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 315,
+    "stars": 316,
     "lang": "Python"
    },
    {
@@ -469,13 +420,13 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 138,
+    "stars": 143,
     "lang": "Python"
    },
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 131,
+    "stars": 132,
     "lang": "PowerShell"
    },
    {
@@ -599,16 +550,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CSA Zero Trust Microsegmentation Guidance - formalizes topology-defined vs. connection-defined segmentation models",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdaeny/csa_zero_trust_microsegmentation_guidance/",
-    "date": "2026-09-11T08:36:58+00:00",
+    "title": "Uncontrolled Access Control: Compromising Paxton10",
+    "url": "https://www.reddit.com/r/netsec/comments/1wdil38/uncontrolled_access_control_compromising_paxton10/",
+    "date": "2026-09-11T14:56:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Uncontrolled Access Control: Compromising Paxton10",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdil38/uncontrolled_access_control_compromising_paxton10/",
-    "date": "2026-09-11T14:56:06+00:00",
+    "title": "CSA Zero Trust Microsegmentation Guidance - formalizes topology-defined vs. connection-defined segmentation models",
+    "url": "https://www.reddit.com/r/netsec/comments/1wdaeny/csa_zero_trust_microsegmentation_guidance/",
+    "date": "2026-09-11T08:36:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -620,16 +571,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The ultimate guide to hacking APIs in 2026 has been updated",
-    "url": "https://www.reddit.com/r/netsec/comments/1wcykxq/the_ultimate_guide_to_hacking_apis_in_2026_has/",
-    "date": "2026-09-10T22:53:46+00:00",
+    "title": "Read the Bits, Not the Integer: msPKI-Certificate-Name-Flag and the ESC4⤍ESC1 Chain",
+    "url": "https://www.reddit.com/r/netsec/comments/1wdbsor/read_the_bits_not_the_integer/",
+    "date": "2026-09-11T09:56:57+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Read the Bits, Not the Integer: msPKI-Certificate-Name-Flag and the ESC4⤍ESC1 Chain",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdbsor/read_the_bits_not_the_integer/",
-    "date": "2026-09-11T09:56:57+00:00",
+    "title": "The ultimate guide to hacking APIs in 2026 has been updated",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcykxq/the_ultimate_guide_to_hacking_apis_in_2026_has/",
+    "date": "2026-09-10T22:53:46+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -671,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -681,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1705,
+  "crit": 0,
+  "kev": 1708,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
