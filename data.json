@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-11T19:48:16.349Z",
+ "generatedAt": "2026-09-11T22:39:03.819Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
+    "score": 9.8,
+    "date": "2026-09-11T21:47:04+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23228",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:17+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22937",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:17+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22714",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:17+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22450",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:15+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.13.67 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21691",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:12+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.14.8 (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21017",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:11+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.16.4 (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19375",
+    "score": 9.1,
+    "date": "2026-09-11T21:47:08+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.17.54 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17598",
+    "score": 9.1,
+    "date": "2026-09-11T21:46:59+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.20.23 bug fix and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17468",
+    "score": 9.1,
+    "date": "2026-09-11T21:46:58+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.2 security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13548",
+    "score": 9.1,
+    "date": "2026-09-11T21:46:49+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.15 security, enhancement & bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:12279",
+    "score": 9.1,
+    "date": "2026-09-11T21:46:45+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Open WebUI: Users denied by the OAuth role policy can still sign in via token exchange",
-    "url": "https://github.com/advisories/GHSA-wvm9-9g5j-623f",
-    "score": 6.5,
-    "ghsa": "GHSA-wvm9-9g5j-623f",
-    "date": "2026-09-10T23:04:57Z"
+    "title": "ZITADEL: Auto-linking by email: IdP-side email verification is not checked",
+    "url": "https://github.com/advisories/GHSA-992q-9gwp-7r79",
+    "score": 4.8,
+    "ghsa": "GHSA-992q-9gwp-7r79",
+    "date": "2026-09-11T22:13:21Z"
    },
    {
-    "title": "Traefik: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') and Incorrect Authorization",
-    "url": "https://github.com/advisories/GHSA-w4v4-9rw7-5326",
-    "score": 7.5,
-    "ghsa": "GHSA-w4v4-9rw7-5326",
-    "date": "2026-09-10T23:04:37Z"
-   },
-   {
-    "title": "Traefik entrypoint header-name sanitization bypassed via request trailers",
-    "url": "https://github.com/advisories/GHSA-v67p-phpq-fc8x",
-    "score": 7.5,
-    "ghsa": "GHSA-v67p-phpq-fc8x",
-    "date": "2026-09-10T23:04:21Z"
-   },
-   {
-    "title": "Traefik HTTP/3 Backend NTLM Connection Reuse",
-    "url": "https://github.com/advisories/GHSA-qqjf-53cj-pwvv",
-    "score": 9.5,
-    "ghsa": "GHSA-qqjf-53cj-pwvv",
-    "date": "2026-09-10T23:04:06Z"
-   },
-   {
-    "title": "Traefik: Rootless HTTP/1 request-target routes as \"/\" but is forwarded verbatim, bypassing path-scoped routing, middleware guards and access logging",
-    "url": "https://github.com/advisories/GHSA-f52w-8j3h-j724",
-    "score": 7.5,
-    "ghsa": "GHSA-f52w-8j3h-j724",
-    "date": "2026-09-10T23:03:53Z"
-   },
-   {
-    "title": "rclone archive/zip: Zip Slip via unsanitized zip entry names lets a malicious archive escape its own namespace",
-    "url": "https://github.com/advisories/GHSA-66hp-wgxq-6f5q",
-    "score": 6.3,
-    "ghsa": "GHSA-66hp-wgxq-6f5q",
-    "date": "2026-09-10T23:03:16Z"
-   },
-   {
-    "title": "rclone: http backend forwards custom/auth headers to a different host on redirect",
-    "url": "https://github.com/advisories/GHSA-486v-q2wf-fp2r",
-    "score": 3.7,
-    "ghsa": "GHSA-486v-q2wf-fp2r",
-    "date": "2026-09-10T23:02:53Z"
-   },
-   {
-    "title": "rclone: Directory metadata (chmod/chown/chtimes) applied through a planted symlink in rclone local --links escapes the destination",
-    "url": "https://github.com/advisories/GHSA-f8g7-2xjc-7mfh",
-    "score": 6.5,
-    "ghsa": "GHSA-f8g7-2xjc-7mfh",
-    "date": "2026-09-10T22:51:34Z"
-   },
-   {
-    "title": "rclone local: crafted Range request against a translated symlink panics (DoS)",
-    "url": "https://github.com/advisories/GHSA-p6m2-r3w9-mpxw",
-    "score": 5.3,
-    "ghsa": "GHSA-p6m2-r3w9-mpxw",
-    "date": "2026-09-10T22:49:27Z"
-   },
-   {
-    "title": "rclone serve s3: --auth-proxy without --auth-key authenticates nobody - full SigV4 signature bypass",
-    "url": "https://github.com/advisories/GHSA-xwwr-4h3p-r22c",
-    "score": 9.8,
-    "ghsa": "GHSA-xwwr-4h3p-r22c",
-    "date": "2026-09-10T22:49:07Z"
-   },
-   {
-    "title": "rclone: RC per-server auth-proxy bypass",
-    "url": "https://github.com/advisories/GHSA-p569-5gjg-9cmj",
+    "title": "yayson: Prototype pollution in Store/LegacyStore deserialization",
+    "url": "https://github.com/advisories/GHSA-325j-mg25-8q58",
     "score": 9.1,
-    "ghsa": "GHSA-p569-5gjg-9cmj",
-    "date": "2026-09-10T22:47:10Z"
+    "ghsa": "GHSA-325j-mg25-8q58",
+    "date": "2026-09-11T22:11:38Z"
    },
    {
-    "title": "rclone: FTP cross-session auth-proxy backend confusion",
-    "url": "https://github.com/advisories/GHSA-c476-6w5q-jw77",
-    "score": 7.3,
-    "ghsa": "GHSA-c476-6w5q-jw77",
-    "date": "2026-09-10T22:46:33Z"
+    "title": "@Mockoon/commons-server: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
+    "url": "https://github.com/advisories/GHSA-rqx4-3f6q-3x2v",
+    "score": 8.8,
+    "ghsa": "GHSA-rqx4-3f6q-3x2v",
+    "date": "2026-09-11T22:04:42Z"
+   },
+   {
+    "title": "@Mockoon/commons-server: Path traversal in templated `filePath` lets a request escape the served directory (prefix-only base check)",
+    "url": "https://github.com/advisories/GHSA-8wqc-v2q8-vff2",
+    "score": 6.5,
+    "ghsa": "GHSA-8wqc-v2q8-vff2",
+    "date": "2026-09-11T22:04:32Z"
+   },
+   {
+    "title": "FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
+    "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
+    "score": 8.5,
+    "ghsa": "GHSA-65h7-9wrw-629c",
+    "date": "2026-09-11T22:02:04Z"
+   },
+   {
+    "title": "Prowler: SAML Domain Claiming Enables Cross-Tenant Account Takeover",
+    "url": "https://github.com/advisories/GHSA-h8m9-jgf8-vwvp",
+    "score": 9.6,
+    "ghsa": "GHSA-h8m9-jgf8-vwvp",
+    "date": "2026-09-11T21:38:24Z"
+   },
+   {
+    "title": "ZITADEL: Missing Token Expiration (`exp`) Validation in JWT IdP Provider",
+    "url": "https://github.com/advisories/GHSA-v77h-2w3m-94hx",
+    "score": 4.2,
+    "ghsa": "GHSA-v77h-2w3m-94hx",
+    "date": "2026-09-11T21:32:14Z"
+   },
+   {
+    "title": "Shopper: Missing authorization on product removal actions in CollectionProducts component",
+    "url": "https://github.com/advisories/GHSA-2cg9-97gq-9mqp",
+    "score": 8.1,
+    "ghsa": "GHSA-2cg9-97gq-9mqp",
+    "date": "2026-09-11T21:31:26Z"
+   },
+   {
+    "title": "Shopper: Media sub-form store() still lacks authorization (Incomplete fix for GHSA-h4mp-g9c6-xwph)",
+    "url": "https://github.com/advisories/GHSA-99h5-jhh7-v3r3",
+    "score": 6.5,
+    "ghsa": "GHSA-99h5-jhh7-v3r3",
+    "date": "2026-09-11T21:30:14Z"
+   },
+   {
+    "title": "Shopper: Unauthorized inventory stock manipulation via unlocked variant property in VariantStock component",
+    "url": "https://github.com/advisories/GHSA-g3f9-g5vj-p62f",
+    "score": 8.1,
+    "ghsa": "GHSA-g3f9-g5vj-p62f",
+    "date": "2026-09-11T21:29:20Z"
+   },
+   {
+    "title": "Shopper: privilege escalation via improper Livewire admin component authorization",
+    "url": "https://github.com/advisories/GHSA-j328-xmgp-j4q3",
+    "score": 8.8,
+    "ghsa": "GHSA-j328-xmgp-j4q3",
+    "date": "2026-09-11T21:28:54Z"
+   },
+   {
+    "title": "Shopping privilege escalation through missing authorization in Settings components",
+    "url": "https://github.com/advisories/GHSA-f7h9-qv4x-9x57",
+    "score": 5.4,
+    "ghsa": "GHSA-f7h9-qv4x-9x57",
+    "date": "2026-09-11T21:28:20Z"
    }
   ],
   "thn": [
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "date": "Fri, 11 Sep 2026 16:19:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Florida confirms DMV database breached via stolen police account",
     "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
     "date": "Fri, 11 Sep 2026 15:00:29 -0400",
@@ -365,13 +457,6 @@
     "date": "Thu, 10 Sep 2026 15:15:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
-    "date": "Thu, 10 Sep 2026 15:07:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -390,7 +475,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 316,
+    "stars": 317,
     "lang": "Python"
    },
    {
@@ -420,13 +505,13 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 143,
+    "stars": 144,
     "lang": "Python"
    },
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 132,
+    "stars": 133,
     "lang": "PowerShell"
    },
    {
@@ -436,16 +521,16 @@
     "lang": "C"
    },
    {
-    "title": "lordx64/pentestkit — Autonomous multi-agent pentest framework — plans, exploits, verifies (proof-required), CVSS-scores and writes ",
-    "url": "https://github.com/lordx64/pentestkit",
-    "stars": 108,
-    "lang": "Python"
-   },
-   {
     "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
     "url": "https://github.com/rootdr-backup/Reconner",
     "stars": 108,
     "lang": "Go"
+   },
+   {
+    "title": "lordx64/pentestkit — Autonomous multi-agent pentest framework — plans, exploits, verifies (proof-required), CVSS-scores and writes ",
+    "url": "https://github.com/lordx64/pentestkit",
+    "stars": 108,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -557,13 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CSA Zero Trust Microsegmentation Guidance - formalizes topology-defined vs. connection-defined segmentation models",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdaeny/csa_zero_trust_microsegmentation_guidance/",
-    "date": "2026-09-11T08:36:58+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Beltdown: Escaping the Claude Code Sandbox",
     "url": "https://www.reddit.com/r/netsec/comments/1wcx6w7/beltdown_escaping_the_claude_code_sandbox/",
     "date": "2026-09-10T21:57:43+00:00",
@@ -571,30 +649,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Read the Bits, Not the Integer: msPKI-Certificate-Name-Flag and the ESC4⤍ESC1 Chain",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdbsor/read_the_bits_not_the_integer/",
-    "date": "2026-09-11T09:56:57+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "The ultimate guide to hacking APIs in 2026 has been updated",
     "url": "https://www.reddit.com/r/netsec/comments/1wcykxq/the_ultimate_guide_to_hacking_apis_in_2026_has/",
     "date": "2026-09-10T22:53:46+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Autonomous Systems Emissions Index",
-    "url": "https://www.reddit.com/r/netsec/comments/1wd7jz1/autonomous_systems_emissions_index/",
-    "date": "2026-09-11T05:51:32+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "No Extensions? You Forgot One: Writing Shared Objects to RCE via SQLite's dbpage",
-    "url": "https://www.reddit.com/r/netsec/comments/1wcwx07/no_extensions_you_forgot_one_writing_shared/",
-    "date": "2026-09-10T21:46:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -613,16 +670,44 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "🕵️‍♂️ SonicWall SMA1000 (CVE-2026-15409): SSRF to Erlang RCE chained into automated DCSync from the appliance",
-    "url": "https://www.reddit.com/r/netsec/comments/1wcqbvq/sonicwall_sma1000_cve202615409_ssrf_to_erlang_rce/",
-    "date": "2026-09-10T17:48:31+00:00",
+    "title": "Fortinet Privileged Access Agent: Any Site Could Control Your Proxy and Watch Your Tab",
+    "url": "https://www.reddit.com/r/netsec/comments/1wbi40d/fortinet_privileged_access_agent_any_site_could/",
+    "date": "2026-09-09T10:47:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Out of Bounds, Out of Sandbox: RCE in Go JavaScript Engine",
+    "url": "https://www.reddit.com/r/netsec/comments/1wbiss3/out_of_bounds_out_of_sandbox_rce_in_go_javascript/",
+    "date": "2026-09-09T11:22:19+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "WeWorm - The first zero-click worm to spread through WeChat calls across iOS and Android.",
+    "url": "https://www.reddit.com/r/netsec/comments/1waz666/weworm_the_first_zeroclick_worm_to_spread_through/",
+    "date": "2026-09-08T19:54:54+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Disable Windows Defender via Antivirus Fake Registration",
+    "url": "https://www.reddit.com/r/netsec/comments/1wbfk1r/disable_windows_defender_via_antivirus_fake/",
+    "date": "2026-09-09T08:21:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "🚨 Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
+    "url": "https://www.reddit.com/r/netsec/comments/1wavoo6/redis_cryptomining_botnet_compromised_3562/",
+    "date": "2026-09-08T17:53:35+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
-  "kev": 1708,
+  "crit": 14,
+  "kev": 1709,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
