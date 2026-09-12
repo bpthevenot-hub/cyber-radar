@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-12T10:55:28.935Z",
+ "generatedAt": "2026-09-12T14:12:27.653Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-66471 — Red Hat Security Advisory: RHOAI 3.4.4 - Red Hat OpenShift AI (+142 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60520",
+    "score": 9.9,
+    "date": "2026-09-12T13:33:01+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.15.68 bug fix and security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56912",
+    "score": 9.4,
+    "date": "2026-09-12T13:32:51+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.14.72 bug fix and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56789",
+    "score": 9.4,
+    "date": "2026-09-12T13:32:48+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-09-12T13:33:07+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.12.97 bug fix and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59833",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:59+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2 security advisory (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54757",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:47+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc-worker-script security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54191",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:45+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:44+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:42+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:41+00:00"
+   },
+   {
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:36+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42051",
+    "score": 9.1,
+    "date": "2026-09-12T13:32:35+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "date": "Sat, 12 Sep 2026 15:54:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
     "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
     "date": "Sat, 12 Sep 2026 14:37:56 +0530",
@@ -277,13 +369,6 @@
     "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
     "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
     "date": "Thu, 10 Sep 2026 23:17:38 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-    "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-    "date": "Thu, 10 Sep 2026 20:06:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -390,7 +475,7 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 356,
+    "stars": 359,
     "lang": "Python"
    },
    {
@@ -402,20 +487,20 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 171,
+    "stars": 180,
     "lang": "Python"
+   },
+   {
+    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
+    "url": "https://github.com/nhovongoc0-max/meme-radar",
+    "stars": 171,
+    "lang": "JavaScript"
    },
    {
     "title": "decionis/docker — Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision",
     "url": "https://github.com/decionis/docker",
     "stars": 166,
     "lang": "Go"
-   },
-   {
-    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
-    "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 156,
-    "lang": "JavaScript"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
@@ -438,7 +523,7 @@
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 114,
+    "stars": 117,
     "lang": "TypeScript"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1709,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
