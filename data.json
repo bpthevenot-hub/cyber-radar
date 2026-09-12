@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-12T17:15:08.234Z",
+ "generatedAt": "2026-09-12T19:27:47.987Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
+    "score": 9.9,
+    "date": "2026-09-12T17:47:50+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: OpenShift Container Platform 4.20.32 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48676",
+    "score": 9.4,
+    "date": "2026-09-12T17:47:19+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-09-12T17:47:15+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-09-12T17:47:15+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-09-12T17:47:15+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-09-12T17:47:13+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
+    "score": 9.1,
+    "date": "2026-09-12T17:47:31+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-09-12T17:47:20+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.18.0 (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48085",
+    "score": 9.1,
+    "date": "2026-09-12T17:47:18+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-09-12T17:47:18+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-09-12T17:47:13+00:00"
+   },
+   {
+    "title": "CVE-2026-15416 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.6 security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:52857",
+    "score": 8.9,
+    "date": "2026-09-12T17:47:26+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+    "date": "Sat, 12 Sep 2026 21:24:45 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
     "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
     "date": "Sat, 12 Sep 2026 15:54:44 +0530",
@@ -277,13 +369,6 @@
     "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
     "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
     "date": "Fri, 11 Sep 2026 11:49:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-    "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-    "date": "Thu, 10 Sep 2026 23:17:38 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -402,7 +487,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 190,
+    "stars": 199,
     "lang": "JavaScript"
    },
    {
@@ -438,7 +523,7 @@
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 125,
+    "stars": 128,
     "lang": "TypeScript"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 13,
   "kev": 1709,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
