@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-13T06:16:55.616Z",
+ "generatedAt": "2026-09-13T12:06:31.701Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -204,6 +204,13 @@
   ],
   "thn": [
    {
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "date": "Sun, 13 Sep 2026 15:41:48 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
     "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
     "date": "Sat, 12 Sep 2026 21:24:45 +0530",
@@ -277,13 +284,6 @@
     "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
     "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
     "date": "Fri, 11 Sep 2026 12:16:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-    "date": "Fri, 11 Sep 2026 11:49:59 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -390,13 +390,13 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 365,
+    "stars": 367,
     "lang": "Python"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 229,
+    "stars": 232,
     "lang": "JavaScript"
    },
    {
@@ -408,7 +408,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 195,
+    "stars": 196,
     "lang": "Python"
    },
    {
@@ -420,7 +420,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 158,
+    "stars": 159,
     "lang": "JavaScript"
    },
    {
@@ -430,16 +430,16 @@
     "lang": "JavaScript"
    },
    {
+    "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
+    "url": "https://github.com/adnxy/react-native-secure-webview",
+    "stars": 139,
+    "lang": "TypeScript"
+   },
+   {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
     "stars": 135,
     "lang": "PowerShell"
-   },
-   {
-    "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
-    "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 133,
-    "lang": "TypeScript"
    },
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
@@ -550,13 +550,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Locating Flutter's TLS certificate verifier in a stripped libflutter.so without byte signatures",
-    "url": "https://www.reddit.com/r/netsec/comments/1wext06/locating_flutters_tls_certificate_verifier_in_a/",
-    "date": "2026-09-13T04:30:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Beltdown2: Escaping the Cursor CLI sandbox",
     "url": "https://www.reddit.com/r/netsec/comments/1wefmrs/beltdown2_escaping_the_cursor_cli_sandbox/",
     "date": "2026-09-12T15:31:47+00:00",
@@ -567,6 +560,13 @@
     "title": "Magento StyleSmuggler RCE: Report Poisoning to Code Execution",
     "url": "https://www.reddit.com/r/netsec/comments/1wefzhl/magento_stylesmuggler_rce_report_poisoning_to/",
     "date": "2026-09-12T15:46:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "url": "https://www.reddit.com/r/netsec/comments/1we7dxf/a_revisit_of_remote_spectre_attacks_on_cloudflare/",
+    "date": "2026-09-12T08:52:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -599,6 +599,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "No Extensions? You Forgot One: Writing Shared Objects to RCE via SQLite's dbpage",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcwx07/no_extensions_you_forgot_one_writing_shared/",
+    "date": "2026-09-10T21:46:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1wcdwoi/preinstalled_but_not_safe_oneplus_oem_app_session/",
     "date": "2026-09-10T09:12:48+00:00",
@@ -609,13 +616,6 @@
     "title": "Fortinet Privileged Access Agent: Any Site Could Control Your Proxy and Watch Your Tab",
     "url": "https://www.reddit.com/r/netsec/comments/1wbi40d/fortinet_privileged_access_agent_any_site_could/",
     "date": "2026-09-09T10:47:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Out of Bounds, Out of Sandbox: RCE in Go JavaScript Engine",
-    "url": "https://www.reddit.com/r/netsec/comments/1wbiss3/out_of_bounds_out_of_sandbox_rce_in_go_javascript/",
-    "date": "2026-09-09T11:22:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
