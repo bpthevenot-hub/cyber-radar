@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-09-13T22:28:05.864Z",
+ "generatedAt": "2026-09-14T01:12:14.076Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-81648 — The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81648",
-    "score": 10,
-    "date": "2026-09-13T21:31:42Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-74933 — The GenieWords WordPress plugin from 1.5.27 to 1.5.34 does not have authorisation checks on some of its REST API and AJAX actions, and decod",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74933",
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-09-13T22:14:34+00:00"
+   },
+   {
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
     "score": 8.8,
-    "date": "2026-09-13T21:31:42Z"
+    "date": "2026-09-13T22:14:42+00:00"
    },
    {
-    "title": "CVE-2026-88793 — The YouTube Embed WordPress plugin from 10.0 to 10.3 does not perform any authorisation check on one of its AJAX actions, relying only on a ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88793",
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security, bug fix, and enhancement update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66327",
     "score": 8.8,
-    "date": "2026-09-13T21:31:42Z"
+    "date": "2026-09-13T22:14:42+00:00"
    },
    {
-    "title": "CVE-2026-85129 — The Hoo Companion WordPress plugin 1.0.2 does not have any authorisation or validation checks in one of its import features, and does not sa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85129",
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
     "score": 8.8,
-    "date": "2026-09-13T21:31:42Z"
+    "date": "2026-09-13T22:14:41+00:00"
    },
    {
-    "title": "CVE-2026-37008 — CrewAI before fb2323b offers a Python blocklist approach that operates at the wrong level of abstraction, a different vulnerability than CVE",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-37008",
-    "score": 8.1,
-    "date": "2026-09-13T21:31:42Z"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65895",
+    "score": 8.8,
+    "date": "2026-09-13T22:14:40+00:00"
    },
    {
-    "title": "CVE-2026-29811 — CyberPanel before 2.4.4 attempts to detect an \"alais\" domain (i.e., a second domain that serves the same content as a primary domain; normal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-29811",
-    "score": 7.7,
-    "date": "2026-09-13T21:31:41Z"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65880",
+    "score": 8.8,
+    "date": "2026-09-13T22:14:39+00:00"
    },
    {
-    "title": "CVE-2026-88802 — The MDJM Event Management WordPress plugin before 1.7.8.5 and the Mobile Events Manager WordPress plugin through 1.4.8.3 do not check a capa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88802",
-    "score": 7.5,
-    "date": "2026-09-13T21:31:42Z"
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: image-builder security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65534",
+    "score": 8.8,
+    "date": "2026-09-13T22:14:39+00:00"
    },
    {
-    "title": "CVE-2026-36453 — Rhymix before 2.1.31 allows insecure direct object reference, aka RVE-2026-1. Arbitrary files can be accessed via extra variables.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-36453",
-    "score": 7.4,
-    "date": "2026-09-13T21:31:42Z"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65359",
+    "score": 8.8,
+    "date": "2026-09-13T22:14:37+00:00"
    },
    {
-    "title": "CVE-2026-90593 — A vulnerability was determined in embedded-graphics up to 0.8.2. This affects the function ImageRaw::draw_sub_image of the file src/image/im",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90593",
-    "score": 7.3,
-    "date": "2026-09-13T21:31:43Z"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
+    "score": 8.6,
+    "date": "2026-09-13T22:14:28+00:00"
    },
    {
-    "title": "CVE-2026-90579 — A vulnerability has been found in cheshire-cat-ai Cheshire Cat AI up to 1.9.2. This affects the function _authorize_http_key of the file cor",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90579",
-    "score": 7.3,
-    "date": "2026-09-13T21:31:41Z"
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.27.3 for Red Hat OpenShift Service Mesh 3.4 (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59583",
+    "score": 8.6,
+    "date": "2026-09-13T22:14:23+00:00"
    },
    {
-    "title": "CVE-2026-90595 — A security flaw has been discovered in wxiaoqi Spring-Cloud-Platform 1.0/2.2/3.0. This issue affects the function OnlineController.getOnline",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90595",
-    "score": 6.3,
-    "date": "2026-09-13T21:31:43Z"
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.22.9 for Red Hat OpenShift Service Mesh 3.3 (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59566",
+    "score": 8.6,
+    "date": "2026-09-13T22:14:20+00:00"
    },
    {
-    "title": "CVE-2026-90594 — A vulnerability was identified in wxiaoqi Spring-Cloud-Platform 3.0.1/3.1.0. This vulnerability affects the function PermissionService.check",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90594",
-    "score": 6.3,
-    "date": "2026-09-13T21:31:43Z"
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.11.16 for Red Hat OpenShift Service Mesh 3.1 (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59561",
+    "score": 8.6,
+    "date": "2026-09-13T22:14:20+00:00"
    }
   ],
   "kev": [
@@ -493,7 +493,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 200,
+    "stars": 201,
     "lang": "Python"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "If you've seen EchelonGraphBot in your logs, here's exactly what it does and how to block it",
+    "url": "https://www.reddit.com/r/netsec/comments/1wfo4pc/if_youve_seen_echelongraphbot_in_your_logs_heres/",
+    "date": "2026-09-14T00:14:40+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Beltdown2: Escaping the Cursor CLI sandbox",
     "url": "https://www.reddit.com/r/netsec/comments/1wefmrs/beltdown2_escaping_the_cursor_cli_sandbox/",
     "date": "2026-09-12T15:31:47+00:00",
@@ -694,13 +701,6 @@
     "title": "Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability",
     "url": "https://www.reddit.com/r/netsec/comments/1wcdwoi/preinstalled_but_not_safe_oneplus_oem_app_session/",
     "date": "2026-09-10T09:12:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Fortinet Privileged Access Agent: Any Site Could Control Your Proxy and Watch Your Tab",
-    "url": "https://www.reddit.com/r/netsec/comments/1wbi40d/fortinet_privileged_access_agent_any_site_could/",
-    "date": "2026-09-09T10:47:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
