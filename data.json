@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T13:38:51.818Z",
+ "generatedAt": "2026-09-15T18:16:13.929Z",
  "sources": {
   "cve": [
    {
@@ -217,6 +217,20 @@
   ],
   "thn": [
    {
+    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+    "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+    "date": "Tue, 15 Sep 2026 21:59:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+    "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+    "date": "Tue, 15 Sep 2026 20:53:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
     "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
     "date": "Tue, 15 Sep 2026 17:22:28 +0530",
@@ -285,23 +299,37 @@
     "date": "Mon, 14 Sep 2026 22:26:30 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
-    "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
-    "date": "Mon, 14 Sep 2026 21:30:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-    "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
-    "date": "Mon, 14 Sep 2026 20:10:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+    "date": "Tue, 15 Sep 2026 12:40:14 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+    "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+    "date": "Tue, 15 Sep 2026 11:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+    "date": "Tue, 15 Sep 2026 10:45:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+    "url": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+    "date": "Tue, 15 Sep 2026 09:45:54 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
@@ -357,34 +385,6 @@
     "date": "Mon, 14 Sep 2026 15:03:51 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
-    "date": "Mon, 14 Sep 2026 14:34:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
-    "date": "Mon, 14 Sep 2026 12:15:58 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
-    "url": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
-    "date": "Mon, 14 Sep 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-    "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
-    "date": "Mon, 14 Sep 2026 08:15:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -403,19 +403,19 @@
    {
     "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
     "url": "https://github.com/martian56/redcell",
-    "stars": 375,
+    "stars": 376,
     "lang": "Python"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 342,
+    "stars": 343,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 221,
+    "stars": 222,
     "lang": "Python"
    },
    {
@@ -427,19 +427,19 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 168,
+    "stars": 169,
     "lang": "Python"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 166,
+    "stars": 165,
     "lang": "JavaScript"
    },
    {
     "title": "decionis/docker — Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision",
     "url": "https://github.com/decionis/docker",
-    "stars": 166,
+    "stars": 165,
     "lang": "Go"
    },
    {
@@ -563,6 +563,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Escaping the OpenAI Codex sandbox, twice",
+    "url": "https://www.reddit.com/r/netsec/comments/1wh0uc7/escaping_the_openai_codex_sandbox_twice/",
+    "date": "2026-09-15T13:45:23+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "UANIA OS: Authenticated Remote Code Execution",
     "url": "https://www.reddit.com/r/netsec/comments/1wgsu52/uania_os_authenticated_remote_code_execution/",
     "date": "2026-09-15T06:50:39+00:00",
@@ -570,9 +577,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Multiple Vulnerabilities in Frappe LMS Leading to Remote Code Execution",
+    "url": "https://www.reddit.com/r/netsec/comments/1wh4ffh/multiple_vulnerabilities_in_frappe_lms_leading_to/",
+    "date": "2026-09-15T16:00:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Getting into EMFI for 30€ thanks to globalization",
     "url": "https://www.reddit.com/r/netsec/comments/1wgyaau/getting_into_emfi_for_30_thanks_to_globalization/",
     "date": "2026-09-15T11:56:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Red Heron exploits Gitea n-day flaw in multinational campaign, exposing new Linux rootkit",
+    "url": "https://www.reddit.com/r/netsec/comments/1wh7wol/red_heron_exploits_gitea_nday_flaw_in/",
+    "date": "2026-09-15T18:05:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -608,27 +629,6 @@
     "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
     "url": "https://www.reddit.com/r/netsec/comments/1we7dxf/a_revisit_of_remote_spectre_attacks_on_cloudflare/",
     "date": "2026-09-12T08:52:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Uncontrolled Access Control: Compromising Paxton10",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdil38/uncontrolled_access_control_compromising_paxton10/",
-    "date": "2026-09-11T14:56:06+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Beltdown: Escaping the Claude Code Sandbox",
-    "url": "https://www.reddit.com/r/netsec/comments/1wcx6w7/beltdown_escaping_the_claude_code_sandbox/",
-    "date": "2026-09-10T21:57:43+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The ultimate guide to hacking APIs in 2026 has been updated",
-    "url": "https://www.reddit.com/r/netsec/comments/1wcykxq/the_ultimate_guide_to_hacking_apis_in_2026_has/",
-    "date": "2026-09-10T22:53:46+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
