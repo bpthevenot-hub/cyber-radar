@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-09-15T07:51:00.130Z",
+ "generatedAt": "2026-09-15T13:38:51.818Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-09-15T07:39:25+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
-    "score": 9.8,
-    "date": "2026-09-15T07:39:25+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.15.67 packages and security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:43225",
-    "score": 9.1,
-    "date": "2026-09-15T07:40:09+00:00"
-   },
-   {
-    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.19.2.1 Async Update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42240",
-    "score": 9.1,
-    "date": "2026-09-15T07:40:08+00:00"
-   },
-   {
-    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.18.7.1 Async Update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42151",
-    "score": 9.1,
-    "date": "2026-09-15T07:40:07+00:00"
-   },
-   {
-    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.17.9.1 Async Update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42150",
-    "score": 9.1,
-    "date": "2026-09-15T07:40:07+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42051",
-    "score": 9.1,
-    "date": "2026-09-15T07:40:06+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.15.1 release. (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42049",
-    "score": 9.1,
-    "date": "2026-09-15T07:40:04+00:00"
-   },
-   {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.20.30 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40795",
-    "score": 9.1,
-    "date": "2026-09-15T07:39:54+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.21.25 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40792",
-    "score": 9.1,
-    "date": "2026-09-15T07:39:54+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.12.94 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40030",
-    "score": 9.1,
-    "date": "2026-09-15T07:39:52+00:00"
-   },
-   {
-    "title": "CVE-2026-29063 — Red Hat Security Advisory: OpenShift Container Platform 4.13.69 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:40022",
-    "score": 9.1,
-    "date": "2026-09-15T07:39:49+00:00"
    }
   ],
   "kev": [
@@ -289,6 +217,34 @@
   ],
   "thn": [
    {
+    "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+    "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+    "date": "Tue, 15 Sep 2026 17:22:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+    "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+    "date": "Tue, 15 Sep 2026 16:56:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+    "date": "Tue, 15 Sep 2026 16:42:32 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "date": "Tue, 15 Sep 2026 12:22:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
     "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
     "date": "Tue, 15 Sep 2026 11:41:11 +0530",
@@ -343,37 +299,30 @@
     "date": "Mon, 14 Sep 2026 20:10:34 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-    "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-    "date": "Mon, 14 Sep 2026 17:28:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-    "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-    "date": "Mon, 14 Sep 2026 12:54:39 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-    "date": "Sun, 13 Sep 2026 15:41:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-    "date": "Sat, 12 Sep 2026 21:24:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "date": "Tue, 15 Sep 2026 08:16:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "url": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+    "date": "Tue, 15 Sep 2026 05:50:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "date": "Tue, 15 Sep 2026 04:40:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
@@ -436,27 +385,6 @@
     "date": "Mon, 14 Sep 2026 08:15:23 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft: September updates cause RDS failures on Windows Server",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-    "date": "Mon, 14 Sep 2026 05:50:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Revolut discloses data breach exposing financial info, passports",
-    "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-    "date": "Mon, 14 Sep 2026 04:48:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft: September updates break audio on some Windows PCs",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-    "date": "Mon, 14 Sep 2026 04:08:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -481,13 +409,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 340,
+    "stars": 342,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 219,
+    "stars": 221,
     "lang": "Python"
    },
    {
@@ -515,16 +443,16 @@
     "lang": "Go"
    },
    {
+    "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
+    "url": "https://github.com/adnxy/react-native-secure-webview",
+    "stars": 142,
+    "lang": "TypeScript"
+   },
+   {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
     "stars": 141,
     "lang": "PowerShell"
-   },
-   {
-    "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
-    "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 141,
-    "lang": "TypeScript"
    },
    {
     "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
@@ -642,9 +570,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "OpenHunterAI releases an AI red-team engine after killing the startup",
-    "url": "https://www.reddit.com/r/netsec/comments/1wgd5og/openhunterai_releases_an_ai_redteam_engine_after/",
-    "date": "2026-09-14T19:18:50+00:00",
+    "title": "Getting into EMFI for 30€ thanks to globalization",
+    "url": "https://www.reddit.com/r/netsec/comments/1wgyaau/getting_into_emfi_for_30_thanks_to_globalization/",
+    "date": "2026-09-15T11:56:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -652,13 +580,6 @@
     "title": "Ask the Agent Nicely: Two Authorization Bypasses in n8n AI Agents",
     "url": "https://www.reddit.com/r/netsec/comments/1wg4r8v/ask_the_agent_nicely_two_authorization_bypasses/",
     "date": "2026-09-14T14:19:22+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "EchelonGraph",
-    "url": "https://www.reddit.com/r/netsec/comments/1wgs5fv/echelongraph/",
-    "date": "2026-09-15T06:11:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -703,6 +624,13 @@
     "date": "2026-09-10T21:57:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "The ultimate guide to hacking APIs in 2026 has been updated",
+    "url": "https://www.reddit.com/r/netsec/comments/1wcykxq/the_ultimate_guide_to_hacking_apis_in_2026_has/",
+    "date": "2026-09-10T22:53:46+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1710,
   "adv": 12,
   "feed": 48
