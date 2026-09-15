@@ -1,12 +1,48 @@
 {
- "generatedAt": "2026-09-14T23:11:52.150Z",
+ "generatedAt": "2026-09-15T01:32:48.652Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
+    "score": 9.9,
+    "date": "2026-09-15T01:08:57+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-09-15T01:08:52+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
+    "score": 9.9,
+    "date": "2026-09-15T01:08:51+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHOAI 2.25.3 - Red Hat OpenShift AI (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3782",
     "score": 9.8,
-    "date": "2026-09-14T21:44:09+00:00"
+    "date": "2026-09-15T01:05:09+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: RHOAI 3.3 - Red Hat OpenShift AI (+45 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3713",
+    "score": 9.8,
+    "date": "2026-09-15T01:05:08+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-09-15T01:05:08+00:00"
+   },
+   {
+    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2563",
+    "score": 9.8,
+    "date": "2026-09-15T01:04:56+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +57,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50479",
-    "score": 9.1,
-    "date": "2026-09-14T22:08:56+00:00"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-09-15T01:09:04+00:00"
    },
    {
-    "title": "CVE-2026-11332 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:50340",
-    "score": 9.1,
-    "date": "2026-09-14T22:08:48+00:00"
-   },
-   {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42079",
-    "score": 9,
-    "date": "2026-09-14T22:08:43+00:00"
-   },
-   {
-    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42078",
-    "score": 9,
-    "date": "2026-09-14T22:08:43+00:00"
-   },
-   {
-    "title": "CVE-2026-10051 — Red Hat Security Advisory: Satellite 6.19.4 Async Update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63385",
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
     "score": 8.8,
-    "date": "2026-09-14T22:08:53+00:00"
+    "date": "2026-09-15T01:09:09+00:00"
    },
    {
-    "title": "CVE-2026-11332 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Product Security and Bug Fix Update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42080",
-    "score": 8.2,
-    "date": "2026-09-14T22:08:47+00:00"
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
+    "score": 8.8,
+    "date": "2026-09-15T01:09:05+00:00"
    },
    {
-    "title": "CVE-2026-10051 — Red Hat Security Advisory: Satellite 6.17.11 Async Update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63387",
-    "score": 8.1,
-    "date": "2026-09-14T22:08:54+00:00"
+    "title": "CVE-2025-4565 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3960",
+    "score": 8.8,
+    "date": "2026-09-15T01:05:11+00:00"
    },
    {
-    "title": "CVE-2026-10051 — Red Hat Security Advisory: Satellite 6.18.9 Async Update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63386",
-    "score": 8.1,
-    "date": "2026-09-14T22:08:53+00:00"
-   },
-   {
-    "title": "CVE-2025-5278 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46836",
-    "score": 8.1,
-    "date": "2026-09-14T22:08:47+00:00"
-   },
-   {
-    "title": "CVE-2026-11332 — Red Hat Security Advisory: ansible-core security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67466",
-    "score": 7.8,
-    "date": "2026-09-14T22:08:58+00:00"
-   },
-   {
-    "title": "CVE-2026-11332 — Red Hat Security Advisory: ansible-core security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67467",
-    "score": 7.8,
-    "date": "2026-09-14T22:08:56+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHTAS 1.2.2 - Red Hat Trusted Artifact Signer Release (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2926",
+    "score": 8.8,
+    "date": "2026-09-15T01:05:05+00:00"
    }
   ],
   "kev": [
@@ -481,7 +481,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 334,
+    "stars": 335,
     "lang": "JavaScript"
    },
    {
@@ -515,12 +515,6 @@
     "lang": "JavaScript"
    },
    {
-    "title": "Arcanum-Sec/wraith — WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educa",
-    "url": "https://github.com/Arcanum-Sec/wraith",
-    "stars": 146,
-    "lang": "JavaScript"
-   },
-   {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
     "stars": 140,
@@ -531,6 +525,12 @@
     "url": "https://github.com/adnxy/react-native-secure-webview",
     "stars": 140,
     "lang": "TypeScript"
+   },
+   {
+    "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
+    "url": "https://github.com/antitree/nfc_canary",
+    "stars": 115,
+    "lang": "C"
    }
   ],
   "hn": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 10,
   "kev": 1710,
   "adv": 12,
   "feed": 48
