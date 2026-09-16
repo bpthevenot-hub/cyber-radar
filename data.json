@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-09-15T21:31:06.982Z",
+ "generatedAt": "2026-09-16T00:27:17.844Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+    "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "date": "Tue, 15 Sep 2026 17:37:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
     "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
     "date": "Tue, 15 Sep 2026 16:34:15 -0400",
@@ -365,13 +385,6 @@
     "date": "Mon, 14 Sep 2026 16:36:02 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
-    "url": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
-    "date": "Mon, 14 Sep 2026 15:51:04 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -385,12 +398,6 @@
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
     "stars": 402,
-    "lang": "Python"
-   },
-   {
-    "title": "martian56/redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and writ",
-    "url": "https://github.com/martian56/redcell",
-    "stars": 377,
     "lang": "Python"
    },
    {
@@ -446,6 +453,12 @@
     "url": "https://github.com/antitree/nfc_canary",
     "stars": 115,
     "lang": "C"
+   },
+   {
+    "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
+    "url": "https://github.com/rootdr-backup/Reconner",
+    "stars": 113,
+    "lang": "Go"
    }
   ],
   "hn": [
@@ -622,7 +635,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1710,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
