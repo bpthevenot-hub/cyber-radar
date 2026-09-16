@@ -1,20 +1,7 @@
 {
- "generatedAt": "2026-09-16T20:12:59.780Z",
+ "generatedAt": "2026-09-16T23:01:10.867Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -131,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
-    "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
-    "score": 7,
-    "ghsa": "GHSA-r2pf-9cw4-5j65",
-    "date": "2026-09-16T16:19:21Z"
+    "title": "OpenFGA: ListUsers returns a deliberately-excluded user when a `but not` exclusion under a type-bound wildcard is intersected (`and`) with another rel",
+    "url": "https://github.com/advisories/GHSA-g3pg-frfm-pr2m",
+    "score": 5.3,
+    "ghsa": "GHSA-g3pg-frfm-pr2m",
+    "date": "2026-09-16T22:15:09Z"
    },
    {
-    "title": "djust has Cross-Site Request Forgery on the Server-Sent-Events transport: a cross-origin page can drive a victim-authenticated SSE session",
-    "url": "https://github.com/advisories/GHSA-pg97-jvmf-qfvc",
+    "title": "Grav: Stored CSS injection via Markdown image resize() bypasses prior media style sanitizers in Grav",
+    "url": "https://github.com/advisories/GHSA-ffmg-hfvg-jhg9",
+    "score": 4.8,
+    "ghsa": "GHSA-ffmg-hfvg-jhg9",
+    "date": "2026-09-16T22:14:53Z"
+   },
+   {
+    "title": "@nuxtjs/mdc's URL sanitizer misses SVG xlink:href and data:text/html, allowing XSS from untrusted markdown at the default configuration",
+    "url": "https://github.com/advisories/GHSA-mxm6-v9r6-r94c",
     "score": 8.1,
-    "ghsa": "GHSA-pg97-jvmf-qfvc",
-    "date": "2026-09-16T15:45:03Z"
+    "ghsa": "GHSA-mxm6-v9r6-r94c",
+    "date": "2026-09-16T22:14:01Z"
    },
    {
-    "title": "LMdeploy has Remote Code Execution by Pickle Deserialization via zmq_rpc.call_and_response() in InterLM/lmdeploy",
-    "url": "https://github.com/advisories/GHSA-5h8j-6crg-7rmw",
-    "score": 9.8,
-    "ghsa": "GHSA-5h8j-6crg-7rmw",
-    "date": "2026-09-16T15:34:27Z"
-   },
-   {
-    "title": "djust: Multi-tenant isolation fails open on the WebSocket/SSE path, disclosing other tenants' data",
-    "url": "https://github.com/advisories/GHSA-3492-cvg7-9mr2",
-    "score": 7.7,
-    "ghsa": "GHSA-3492-cvg7-9mr2",
-    "date": "2026-09-16T15:32:10Z"
-   },
-   {
-    "title": "djust: Client mass-assignment of arbitrary view attributes via the default dj-model update_model handler",
-    "url": "https://github.com/advisories/GHSA-cc7c-9jff-58wj",
+    "title": "RMCP: Unauthenticated permanent session-table leak in rmcp Streamable HTTP server transport leads to remote denial-of-service",
+    "url": "https://github.com/advisories/GHSA-9pj6-vhgr-3mwh",
     "score": 7.5,
-    "ghsa": "GHSA-cc7c-9jff-58wj",
-    "date": "2026-09-16T13:55:48Z"
+    "ghsa": "GHSA-9pj6-vhgr-3mwh",
+    "date": "2026-09-16T22:13:34Z"
    },
    {
-    "title": "OpenTelemetry.Resources.Host vulnerable to arbitrary code execution via local PATH hijacking on macOS",
-    "url": "https://github.com/advisories/GHSA-v8pv-4842-x354",
-    "score": 7,
-    "ghsa": "GHSA-v8pv-4842-x354",
-    "date": "2026-09-16T13:54:16Z"
+    "title": "RMCP: Missing Resource Field Validation in OAuth Protected Resource Metadata Discovery",
+    "url": "https://github.com/advisories/GHSA-33f5-2c5q-wgwj",
+    "score": 8.2,
+    "ghsa": "GHSA-33f5-2c5q-wgwj",
+    "date": "2026-09-16T22:13:26Z"
    },
    {
-    "title": "djust's observability endpoints are network-exposed: the localhost gate is an opt-in middleware the docs omit, and the views enforce only DEBUG",
-    "url": "https://github.com/advisories/GHSA-8g2f-g3gq-5rjv",
-    "score": 7.4,
-    "ghsa": "GHSA-8g2f-g3gq-5rjv",
-    "date": "2026-09-16T13:49:19Z"
+    "title": "Grav: XSS Blueprint Validation Bypass via Twig String Concatenation",
+    "url": "https://github.com/advisories/GHSA-2c4f-86xc-cr74",
+    "score": null,
+    "ghsa": "GHSA-2c4f-86xc-cr74",
+    "date": "2026-09-16T22:13:17Z"
    },
    {
-    "title": "@zereight/mcp-gitlab: Unauthenticated arbitrary file read via `upload_markdown` enables PAT exfiltration and full account takeover",
-    "url": "https://github.com/advisories/GHSA-cv3r-c5h8-f4g5",
-    "score": 9.8,
-    "ghsa": "GHSA-cv3r-c5h8-f4g5",
-    "date": "2026-09-16T13:48:28Z"
+    "title": "vLLM: Unauthenticated audio decompression-bomb DoS in /v1/chat/completions",
+    "url": "https://github.com/advisories/GHSA-hcwq-8wjf-3gcr",
+    "score": 6.5,
+    "ghsa": "GHSA-hcwq-8wjf-3gcr",
+    "date": "2026-09-16T22:12:17Z"
    },
    {
-    "title": "@zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
-    "url": "https://github.com/advisories/GHSA-2h44-8472-frjj",
-    "score": 9.6,
-    "ghsa": "GHSA-2h44-8472-frjj",
-    "date": "2026-09-15T20:57:28Z"
+    "title": "Grav CMS — Improper Handling of Highly Compressed Data in Installer::unZip()",
+    "url": "https://github.com/advisories/GHSA-2vcx-h8p2-9pg9",
+    "score": 4.9,
+    "ghsa": "GHSA-2vcx-h8p2-9pg9",
+    "date": "2026-09-16T22:12:10Z"
    },
    {
-    "title": "@zereight/mcp-gitlab: DNS rebinding reaches local Streamable HTTP MCP transport",
-    "url": "https://github.com/advisories/GHSA-vmp7-252j-cwp7",
-    "score": 9.6,
-    "ghsa": "GHSA-vmp7-252j-cwp7",
-    "date": "2026-09-15T20:54:55Z"
-   },
-   {
-    "title": "@zereight/mcp-gitlab has multiple safety-control bypasses: execute_graphql read-only + allow-list bypass, unauthenticated transports, session-exhausti",
-    "url": "https://github.com/advisories/GHSA-5648-rgj9-v224",
-    "score": 8.1,
-    "ghsa": "GHSA-5648-rgj9-v224",
-    "date": "2026-09-15T20:48:22Z"
-   },
-   {
-    "title": "emp3r0r has an unauthenticated HTTP Polling DoS",
-    "url": "https://github.com/advisories/GHSA-4595-rvpx-4q34",
+    "title": "djust has an unauthenticated arbitrary module import via the WebSocket/SSE view-mount path",
+    "url": "https://github.com/advisories/GHSA-7prp-2623-8g45",
     "score": 7.5,
-    "ghsa": "GHSA-4595-rvpx-4q34",
-    "date": "2026-09-15T20:47:17Z"
+    "ghsa": "GHSA-7prp-2623-8g45",
+    "date": "2026-09-16T22:09:38Z"
+   },
+   {
+    "title": "djust: WebSocket/runtime reconstructed request omits the client Host, causing host/subdomain TenantResolvers to misresolve the tenant on the live path",
+    "url": "https://github.com/advisories/GHSA-v9rj-xjfv-xj9r",
+    "score": 6.3,
+    "ghsa": "GHSA-v9rj-xjfv-xj9r",
+    "date": "2026-09-16T22:07:52Z"
+   },
+   {
+    "title": "djust has broken object-level access control (IDOR)",
+    "url": "https://github.com/advisories/GHSA-c7c5-5j6r-q957",
+    "score": 7.1,
+    "ghsa": "GHSA-c7c5-5j6r-q957",
+    "date": "2026-09-16T22:06:02Z"
+   },
+   {
+    "title": "djust's Django model serialization has no sensitive-field denylist: password hashes, privilege flags, and PII on a public view attribute are sent to t",
+    "url": "https://github.com/advisories/GHSA-pvg3-6q9j-mj3x",
+    "score": 6.5,
+    "ghsa": "GHSA-pvg3-6q9j-mj3x",
+    "date": "2026-09-16T22:02:49Z"
    }
   ],
   "thn": [
@@ -303,6 +290,20 @@
   ],
   "bleep": [
    {
+    "title": "Windows 11 KB5124008 update breaks domain trust for some users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+    "date": "Wed, 16 Sep 2026 16:39:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+    "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+    "date": "Wed, 16 Sep 2026 16:24:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
     "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
     "date": "Wed, 16 Sep 2026 14:50:53 -0400",
@@ -369,20 +370,6 @@
     "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
     "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
     "date": "Tue, 15 Sep 2026 16:34:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
-    "date": "Tue, 15 Sep 2026 12:40:14 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "BambooToken malware controls Windows and Linux systems via MQTT",
-    "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
-    "date": "Tue, 15 Sep 2026 11:00:00 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
@@ -570,16 +557,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "SilkParasite Infrastructure Exposed: pivoting from one page hash and a single TLS cert to a 13-server SpiceRAT cluster",
-    "url": "https://www.reddit.com/r/netsec/comments/1wi30km/silkparasite_infrastructure_exposed_pivoting_from/",
-    "date": "2026-09-16T17:00:30+00:00",
+    "title": "Evading Machine Learning Based Detections · MSec Operations Blog",
+    "url": "https://www.reddit.com/r/netsec/comments/1wi08xx/evading_machine_learning_based_detections_msec/",
+    "date": "2026-09-16T15:21:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Evading Machine Learning Based Detections · MSec Operations Blog",
-    "url": "https://www.reddit.com/r/netsec/comments/1wi08xx/evading_machine_learning_based_detections_msec/",
-    "date": "2026-09-16T15:21:18+00:00",
+    "title": "The Hacker's Guide to Attacking AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
+    "date": "2026-09-16T21:56:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -635,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -645,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1713,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
