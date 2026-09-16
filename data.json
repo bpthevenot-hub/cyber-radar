@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-09-16T11:46:31.168Z",
+ "generatedAt": "2026-09-16T17:06:13.259Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +131,62 @@
   ],
   "adv": [
    {
+    "title": "node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
+    "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
+    "score": 7,
+    "ghsa": "GHSA-r2pf-9cw4-5j65",
+    "date": "2026-09-16T16:19:21Z"
+   },
+   {
+    "title": "djust has Cross-Site Request Forgery on the Server-Sent-Events transport: a cross-origin page can drive a victim-authenticated SSE session",
+    "url": "https://github.com/advisories/GHSA-pg97-jvmf-qfvc",
+    "score": 8.1,
+    "ghsa": "GHSA-pg97-jvmf-qfvc",
+    "date": "2026-09-16T15:45:03Z"
+   },
+   {
+    "title": "LMdeploy has Remote Code Execution by Pickle Deserialization via zmq_rpc.call_and_response() in InterLM/lmdeploy",
+    "url": "https://github.com/advisories/GHSA-5h8j-6crg-7rmw",
+    "score": 9.8,
+    "ghsa": "GHSA-5h8j-6crg-7rmw",
+    "date": "2026-09-16T15:34:27Z"
+   },
+   {
+    "title": "djust: Multi-tenant isolation fails open on the WebSocket/SSE path, disclosing other tenants' data",
+    "url": "https://github.com/advisories/GHSA-3492-cvg7-9mr2",
+    "score": 7.7,
+    "ghsa": "GHSA-3492-cvg7-9mr2",
+    "date": "2026-09-16T15:32:10Z"
+   },
+   {
+    "title": "djust: Client mass-assignment of arbitrary view attributes via the default dj-model update_model handler",
+    "url": "https://github.com/advisories/GHSA-cc7c-9jff-58wj",
+    "score": 7.5,
+    "ghsa": "GHSA-cc7c-9jff-58wj",
+    "date": "2026-09-16T13:55:48Z"
+   },
+   {
+    "title": "OpenTelemetry.Resources.Host vulnerable to arbitrary code execution via local PATH hijacking on macOS",
+    "url": "https://github.com/advisories/GHSA-v8pv-4842-x354",
+    "score": 7,
+    "ghsa": "GHSA-v8pv-4842-x354",
+    "date": "2026-09-16T13:54:16Z"
+   },
+   {
+    "title": "djust's observability endpoints are network-exposed: the localhost gate is an opt-in middleware the docs omit, and the views enforce only DEBUG",
+    "url": "https://github.com/advisories/GHSA-8g2f-g3gq-5rjv",
+    "score": 7.4,
+    "ghsa": "GHSA-8g2f-g3gq-5rjv",
+    "date": "2026-09-16T13:49:19Z"
+   },
+   {
+    "title": "@zereight/mcp-gitlab: Unauthenticated arbitrary file read via `upload_markdown` enables PAT exfiltration and full account takeover",
+    "url": "https://github.com/advisories/GHSA-cv3r-c5h8-f4g5",
+    "score": 9.8,
+    "ghsa": "GHSA-cv3r-c5h8-f4g5",
+    "date": "2026-09-16T13:48:28Z"
+   },
+   {
     "title": "@zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
     "url": "https://github.com/advisories/GHSA-2h44-8472-frjj",
     "score": 9.6,
@@ -144,65 +213,51 @@
     "score": 7.5,
     "ghsa": "GHSA-4595-rvpx-4q34",
     "date": "2026-09-15T20:47:17Z"
-   },
-   {
-    "title": "Http4s: Ember HTTP/2 buffers a frame's declared payload before checking SETTINGS_MAX_FRAME_SIZE",
-    "url": "https://github.com/advisories/GHSA-gq9p-f254-h286",
-    "score": 7.5,
-    "ghsa": "GHSA-gq9p-f254-h286",
-    "date": "2026-09-15T20:01:22Z"
-   },
-   {
-    "title": "libp2p-quic: Remote panic via certificate expiry race during QUIC handshake",
-    "url": "https://github.com/advisories/GHSA-5hq8-qhww-jm7q",
-    "score": 7.5,
-    "ghsa": "GHSA-5hq8-qhww-jm7q",
-    "date": "2026-09-15T20:01:17Z"
-   },
-   {
-    "title": "Http4s: ResourceService and Webjar Service path escape via percent-encoded separators",
-    "url": "https://github.com/advisories/GHSA-crq5-92j2-j7wv",
-    "score": 5.9,
-    "ghsa": "GHSA-crq5-92j2-j7wv",
-    "date": "2026-09-15T20:01:12Z"
-   },
-   {
-    "title": "Http4s Ember HTTP/2: unbounded continuation frame accumulation",
-    "url": "https://github.com/advisories/GHSA-cp4q-fqw9-4hf6",
-    "score": 7.5,
-    "ghsa": "GHSA-cp4q-fqw9-4hf6",
-    "date": "2026-09-15T20:01:08Z"
-   },
-   {
-    "title": "Http4s: Ember chunk parser lenience (TE.TE request smuggling)",
-    "url": "https://github.com/advisories/GHSA-jrpm-956j-96jg",
-    "score": 5.4,
-    "ghsa": "GHSA-jrpm-956j-96jg",
-    "date": "2026-09-15T20:01:00Z"
-   },
-   {
-    "title": "Http4s: CookieJar middleware matches by substring, leaking cookies cross-origin",
-    "url": "https://github.com/advisories/GHSA-grh8-3p95-f9rr",
-    "score": 6.8,
-    "ghsa": "GHSA-grh8-3p95-f9rr",
-    "date": "2026-09-15T20:00:54Z"
-   },
-   {
-    "title": "Http4s: CookieJar middleware accepts arbitrary Set-Cookie domain",
-    "url": "https://github.com/advisories/GHSA-wv64-j4fq-5f9x",
-    "score": 6.8,
-    "ghsa": "GHSA-wv64-j4fq-5f9x",
-    "date": "2026-09-15T20:00:43Z"
-   },
-   {
-    "title": "Http4s Ember HTTP/2 has an unbounded outbound frame queue",
-    "url": "https://github.com/advisories/GHSA-8f3q-3jmv-7prw",
-    "score": 7.5,
-    "ghsa": "GHSA-8f3q-3jmv-7prw",
-    "date": "2026-09-15T20:00:36Z"
    }
   ],
   "thn": [
+   {
+    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+    "date": "Wed, 16 Sep 2026 21:20:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+    "date": "Wed, 16 Sep 2026 20:57:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+    "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+    "date": "Wed, 16 Sep 2026 20:06:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+    "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+    "date": "Wed, 16 Sep 2026 19:07:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+    "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+    "date": "Wed, 16 Sep 2026 18:44:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+    "date": "Wed, 16 Sep 2026 17:28:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
     "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
@@ -244,51 +299,30 @@
     "date": "Wed, 16 Sep 2026 00:24:14 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-    "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-    "date": "Tue, 15 Sep 2026 21:59:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-    "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-    "date": "Tue, 15 Sep 2026 20:53:19 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-    "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-    "date": "Tue, 15 Sep 2026 17:22:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-    "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-    "date": "Tue, 15 Sep 2026 16:56:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-    "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-    "date": "Tue, 15 Sep 2026 16:42:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-    "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-    "date": "Tue, 15 Sep 2026 12:22:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "The true cost of a ransomware attack, with and without BCDR",
+    "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+    "date": "Wed, 16 Sep 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft says Copilot buttons still missing in classic Outlook",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
+    "date": "Wed, 16 Sep 2026 08:16:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+    "date": "Wed, 16 Sep 2026 08:11:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Critical ScreenConnect flaw now actively exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
@@ -351,34 +385,13 @@
     "date": "Tue, 15 Sep 2026 09:45:54 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-    "date": "Tue, 15 Sep 2026 08:16:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
-    "url": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
-    "date": "Tue, 15 Sep 2026 05:50:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-    "date": "Tue, 15 Sep 2026 04:40:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 424,
+    "stars": 425,
     "lang": "Python"
    },
    {
@@ -390,13 +403,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 347,
+    "stars": 349,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 225,
+    "stars": 226,
     "lang": "Python"
    },
    {
@@ -408,7 +421,7 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 171,
+    "stars": 173,
     "lang": "Python"
    },
    {
@@ -426,7 +439,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 142,
+    "stars": 144,
     "lang": "PowerShell"
    },
    {
@@ -550,6 +563,34 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I Missed One TLB Shootdown and Somehow Ended Up Controlling a Page Table",
+    "url": "https://www.reddit.com/r/netsec/comments/1why5qt/i_missed_one_tlb_shootdown_and_somehow_ended_up/",
+    "date": "2026-09-16T14:03:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Evading Machine Learning Based Detections · MSec Operations Blog",
+    "url": "https://www.reddit.com/r/netsec/comments/1wi08xx/evading_machine_learning_based_detections_msec/",
+    "date": "2026-09-16T15:21:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
+    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
+    "date": "2026-09-16T13:52:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "SilkParasite Infrastructure Exposed: pivoting from one page hash and a single TLS cert to a 13-server SpiceRAT cluster",
+    "url": "https://www.reddit.com/r/netsec/comments/1wi30km/silkparasite_infrastructure_exposed_pivoting_from/",
+    "date": "2026-09-16T17:00:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Multiple Vulnerabilities in Frappe LMS Leading to Remote Code Execution",
     "url": "https://www.reddit.com/r/netsec/comments/1wh4ffh/multiple_vulnerabilities_in_frappe_lms_leading_to/",
     "date": "2026-09-15T16:00:29+00:00",
@@ -590,39 +631,11 @@
     "date": "2026-09-12T15:31:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Magento StyleSmuggler RCE: Report Poisoning to Code Execution",
-    "url": "https://www.reddit.com/r/netsec/comments/1wefzhl/magento_stylesmuggler_rce_report_poisoning_to/",
-    "date": "2026-09-12T15:46:30+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-    "url": "https://www.reddit.com/r/netsec/comments/1we7dxf/a_revisit_of_remote_spectre_attacks_on_cloudflare/",
-    "date": "2026-09-12T08:52:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Uncontrolled Access Control: Compromising Paxton10",
-    "url": "https://www.reddit.com/r/netsec/comments/1wdil38/uncontrolled_access_control_compromising_paxton10/",
-    "date": "2026-09-11T14:56:06+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Beltdown: Escaping the Claude Code Sandbox",
-    "url": "https://www.reddit.com/r/netsec/comments/1wcx6w7/beltdown_escaping_the_claude_code_sandbox/",
-    "date": "2026-09-10T21:57:43+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
-  "kev": 1710,
+  "crit": 2,
+  "kev": 1711,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
