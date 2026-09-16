@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-16T17:06:13.259Z",
+ "generatedAt": "2026-09-16T20:12:59.780Z",
  "sources": {
   "cve": [
    {
@@ -303,6 +303,20 @@
   ],
   "bleep": [
    {
+    "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
+    "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+    "date": "Wed, 16 Sep 2026 14:50:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Spain's data agency gets first report of AI-powered data breach",
+    "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+    "date": "Wed, 16 Sep 2026 13:26:41 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "The true cost of a ransomware attack, with and without BCDR",
     "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
     "date": "Wed, 16 Sep 2026 10:00:10 -0400",
@@ -369,20 +383,6 @@
     "title": "BambooToken malware controls Windows and Linux systems via MQTT",
     "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
     "date": "Tue, 15 Sep 2026 11:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
-    "date": "Tue, 15 Sep 2026 10:45:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
-    "url": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
-    "date": "Tue, 15 Sep 2026 09:45:54 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    }
@@ -570,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "SilkParasite Infrastructure Exposed: pivoting from one page hash and a single TLS cert to a 13-server SpiceRAT cluster",
+    "url": "https://www.reddit.com/r/netsec/comments/1wi30km/silkparasite_infrastructure_exposed_pivoting_from/",
+    "date": "2026-09-16T17:00:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Evading Machine Learning Based Detections · MSec Operations Blog",
     "url": "https://www.reddit.com/r/netsec/comments/1wi08xx/evading_machine_learning_based_detections_msec/",
     "date": "2026-09-16T15:21:18+00:00",
@@ -580,13 +587,6 @@
     "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
     "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
     "date": "2026-09-16T13:52:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "SilkParasite Infrastructure Exposed: pivoting from one page hash and a single TLS cert to a 13-server SpiceRAT cluster",
-    "url": "https://www.reddit.com/r/netsec/comments/1wi30km/silkparasite_infrastructure_exposed_pivoting_from/",
-    "date": "2026-09-16T17:00:30+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1711,
+  "kev": 1713,
   "adv": 12,
   "feed": 48
  },
