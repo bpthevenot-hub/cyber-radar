@@ -1,12 +1,24 @@
 {
- "generatedAt": "2026-09-17T01:30:08.585Z",
+ "generatedAt": "2026-09-17T07:46:51.390Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.1 security update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4943",
+    "title": "CVE-2023-44270 — Red Hat Security Advisory: OpenShift Container Platform 4.18.1 bug fix and security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6122",
+    "score": 9.9,
+    "date": "2026-09-17T07:23:32+00:00"
+   },
+   {
+    "title": "CVE-2023-3775 — Red Hat Security Advisory: OpenShift Container Platform 4.17.0 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3718",
+    "score": 9.9,
+    "date": "2026-09-17T07:23:30+00:00"
+   },
+   {
+    "title": "CVE-2023-39326 — Red Hat Security Advisory: Network Observability 1.6.0 for OpenShift (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3868",
     "score": 9.8,
-    "date": "2026-09-17T00:53:40+00:00"
+    "date": "2026-09-17T07:23:30+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-69534 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13512",
+    "title": "CVE-2025-13888 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.18.3 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1017",
     "score": 9.1,
-    "date": "2026-09-17T00:58:38+00:00"
+    "date": "2026-09-17T07:23:44+00:00"
    },
    {
-    "title": "CVE-2025-14550 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13508",
-    "score": 9.1,
-    "date": "2026-09-17T00:58:36+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.2 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:5649",
-    "score": 9.1,
-    "date": "2026-09-17T00:53:41+00:00"
-   },
-   {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
-    "score": 9.1,
-    "date": "2026-09-17T00:53:33+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36651",
-    "score": 9.1,
-    "date": "2026-09-17T00:53:31+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34795",
-    "score": 9.1,
-    "date": "2026-09-17T00:53:29+00:00"
-   },
-   {
-    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34794",
-    "score": 9.1,
-    "date": "2026-09-17T00:53:28+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.21.23 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34769",
-    "score": 9.1,
-    "date": "2026-09-17T00:53:28+00:00"
-   },
-   {
-    "title": "CVE-2026-4519 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.1 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10140",
+    "title": "CVE-2025-40064 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63129",
     "score": 8.8,
-    "date": "2026-09-17T00:56:57+00:00"
+    "date": "2026-09-17T07:24:37+00:00"
    },
    {
-    "title": "CVE-2026-4519 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.1 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10141",
+    "title": "CVE-2025-68211 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59723",
     "score": 8.8,
-    "date": "2026-09-17T00:56:54+00:00"
+    "date": "2026-09-17T07:24:33+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47451",
+    "title": "CVE-2025-47913 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.17.4 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1018",
     "score": 8.8,
-    "date": "2026-09-17T00:53:39+00:00"
+    "date": "2026-09-17T07:23:44+00:00"
+   },
+   {
+    "title": "CVE-2023-3462 — Red Hat Security Advisory: OpenShift Container Platform 4.17.1 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7922",
+    "score": 8.8,
+    "date": "2026-09-17T07:23:38+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.15 OpenShift Jenkins security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4597",
+    "score": 8.8,
+    "date": "2026-09-17T07:23:30+00:00"
+   },
+   {
+    "title": "CVE-2022-30187 — Red Hat Security Advisory: Red Hat Quay 3.14.6 (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4215",
+    "score": 8.7,
+    "date": "2026-09-17T07:23:48+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Network Observability 1.11.0 for OpenShift (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2900",
+    "score": 8.7,
+    "date": "2026-09-17T07:23:48+00:00"
+   },
+   {
+    "title": "CVE-2019-10790 — Red Hat Security Advisory: Red Hat Ceph Storage (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2737",
+    "score": 8.7,
+    "date": "2026-09-17T07:23:47+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+    "date": "Thu, 17 Sep 2026 03:20:54 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Anthropic wants Claude to analyze your bank account and financial data",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
     "date": "Wed, 16 Sep 2026 20:35:48 -0400",
@@ -450,16 +457,15 @@
     "date": "Wed, 16 Sep 2026 03:00:19 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-    "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-    "date": "Tue, 15 Sep 2026 17:37:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
+   {
+    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
+    "url": "https://github.com/kulkarnirohit123/cra-agent",
+    "stars": 435,
+    "lang": "Python"
+   },
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
@@ -467,27 +473,21 @@
     "lang": "Python"
    },
    {
-    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
-    "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 402,
-    "lang": "Python"
-   },
-   {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 349,
+    "stars": 353,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 227,
+    "stars": 226,
     "lang": "Python"
    },
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 207,
+    "stars": 208,
     "lang": "Go"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 144,
+    "stars": 145,
     "lang": "PowerShell"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 142,
+    "stars": 143,
     "lang": "TypeScript"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Fragnesia primitive via Open vSwitch. Deterministic local privilege escalation.",
+    "url": "https://www.reddit.com/r/netsec/comments/1wimrzt/fragnesia_primitive_via_open_vswitch/",
+    "date": "2026-09-17T07:06:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I Missed One TLB Shootdown and Somehow Ended Up Controlling a Page Table",
     "url": "https://www.reddit.com/r/netsec/comments/1why5qt/i_missed_one_tlb_shootdown_and_somehow_ended_up/",
     "date": "2026-09-16T14:03:18+00:00",
@@ -649,16 +656,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
-    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
-    "date": "2026-09-16T13:52:01+00:00",
+    "title": "The Hacker's Guide to Attacking AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
+    "date": "2026-09-16T21:56:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "The Hacker's Guide to Attacking AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
-    "date": "2026-09-16T21:56:51+00:00",
+    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
+    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
+    "date": "2026-09-16T13:52:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-09-14T13:20:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Beltdown2: Escaping the Cursor CLI sandbox",
-    "url": "https://www.reddit.com/r/netsec/comments/1wefmrs/beltdown2_escaping_the_cursor_cli_sandbox/",
-    "date": "2026-09-12T15:31:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 11,
+  "crit": 6,
   "kev": 1713,
   "adv": 12,
   "feed": 48
