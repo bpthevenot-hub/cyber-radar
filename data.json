@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-16T23:01:10.867Z",
+ "generatedAt": "2026-09-17T01:30:08.585Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.1 security update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4943",
+    "score": 9.8,
+    "date": "2026-09-17T00:53:40+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-69534 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13512",
+    "score": 9.1,
+    "date": "2026-09-17T00:58:38+00:00"
+   },
+   {
+    "title": "CVE-2025-14550 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13508",
+    "score": 9.1,
+    "date": "2026-09-17T00:58:36+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHTAS 1.3.2 - Red Hat Trusted Artifact Signer Release (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5649",
+    "score": 9.1,
+    "date": "2026-09-17T00:53:41+00:00"
+   },
+   {
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36796",
+    "score": 9.1,
+    "date": "2026-09-17T00:53:33+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.0.3 Security Update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36651",
+    "score": 9.1,
+    "date": "2026-09-17T00:53:31+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 security and extras update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34795",
+    "score": 9.1,
+    "date": "2026-09-17T00:53:29+00:00"
+   },
+   {
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.22.4 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34794",
+    "score": 9.1,
+    "date": "2026-09-17T00:53:28+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.21.23 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34769",
+    "score": 9.1,
+    "date": "2026-09-17T00:53:28+00:00"
+   },
+   {
+    "title": "CVE-2026-4519 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.1 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10140",
+    "score": 8.8,
+    "date": "2026-09-17T00:56:57+00:00"
+   },
+   {
+    "title": "CVE-2026-4519 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.1 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10141",
+    "score": 8.8,
+    "date": "2026-09-17T00:56:54+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.4 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47451",
+    "score": 8.8,
+    "date": "2026-09-17T00:53:39+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Anthropic wants Claude to analyze your bank account and financial data",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+    "date": "Wed, 16 Sep 2026 20:35:48 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Windows 11 KB5124008 update breaks domain trust for some users",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
     "date": "Wed, 16 Sep 2026 16:39:29 -0400",
@@ -365,13 +457,6 @@
     "date": "Tue, 15 Sep 2026 17:37:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-    "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-    "date": "Tue, 15 Sep 2026 16:34:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -396,7 +481,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 226,
+    "stars": 227,
     "lang": "Python"
    },
    {
@@ -436,16 +521,16 @@
     "lang": "TypeScript"
    },
    {
-    "title": "antitree/nfc_canary — Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibrati",
-    "url": "https://github.com/antitree/nfc_canary",
-    "stars": 116,
-    "lang": "C"
-   },
-   {
     "title": "rootdr-backup/Reconner — Self-hosted bug-bounty platform — verification-first recon & DAST, continuous monitoring. Your data stays on y",
     "url": "https://github.com/rootdr-backup/Reconner",
     "stars": 113,
     "lang": "Go"
+   },
+   {
+    "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
+    "url": "https://github.com/jiangkoumo/toolfence",
+    "stars": 100,
+    "lang": "TypeScript"
    }
   ],
   "hn": [
@@ -564,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Hacker's Guide to Attacking AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
-    "date": "2026-09-16T21:56:51+00:00",
+    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
+    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
+    "date": "2026-09-16T13:52:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
-    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
-    "date": "2026-09-16T13:52:01+00:00",
+    "title": "The Hacker's Guide to Attacking AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
+    "date": "2026-09-16T21:56:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 11,
   "kev": 1713,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
