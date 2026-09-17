@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-09-17T13:34:06.371Z",
+ "generatedAt": "2026-09-17T18:19:22.965Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2022-25857 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.14 Openshift Jenkins security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7288",
-    "score": 9.8,
-    "date": "2026-09-17T13:27:33+00:00"
-   },
-   {
-    "title": "CVE-2022-0759 — Red Hat Security Advisory: Satellite 6.14 security and bug fix update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6818",
-    "score": 9.8,
-    "date": "2026-09-17T13:27:23+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2023-5528 — Red Hat Security Advisory: Red Hat OpenShift for Windows Containers 6.0.3 security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7662",
-    "score": 8.8,
-    "date": "2026-09-17T13:27:56+00:00"
-   },
-   {
-    "title": "CVE-2023-3676 — Red Hat Security Advisory: Red Hat OpenShift for Windows Containers 9.0.0 security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7515",
-    "score": 8.8,
-    "date": "2026-09-17T13:27:46+00:00"
-   },
-   {
-    "title": "CVE-2023-1387 — Red Hat Security Advisory: Red Hat Ceph Storage 6.1 security, enhancements, and bug fix update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7741",
-    "score": 7.5,
-    "date": "2026-09-17T13:28:02+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Virtualization 4.14.1 security and bug fix update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7704",
-    "score": 7.5,
-    "date": "2026-09-17T13:28:01+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Container Platform 4.12.45 packages and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7610",
-    "score": 7.5,
-    "date": "2026-09-17T13:28:01+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat OpenShift Pipelines 1.10.6 release and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7703",
-    "score": 7.5,
-    "date": "2026-09-17T13:28:00+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Client tkn for 1.10.6 release and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7699",
-    "score": 7.5,
-    "date": "2026-09-17T13:27:59+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Container Platform 4.13.26 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7687",
-    "score": 7.5,
-    "date": "2026-09-17T13:27:59+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Container Platform 4.11.55 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7690",
-    "score": 7.5,
-    "date": "2026-09-17T13:27:58+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Container Platform 4.14.6 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7682",
-    "score": 7.5,
-    "date": "2026-09-17T13:27:56+00:00"
    }
   ],
   "kev": [
@@ -203,91 +131,154 @@
   ],
   "adv": [
    {
-    "title": "OpenFGA: ListUsers returns a deliberately-excluded user when a `but not` exclusion under a type-bound wildcard is intersected (`and`) with another rel",
-    "url": "https://github.com/advisories/GHSA-g3pg-frfm-pr2m",
-    "score": 5.3,
-    "ghsa": "GHSA-g3pg-frfm-pr2m",
-    "date": "2026-09-16T22:15:09Z"
-   },
-   {
-    "title": "Grav: Stored CSS injection via Markdown image resize() bypasses prior media style sanitizers in Grav",
-    "url": "https://github.com/advisories/GHSA-ffmg-hfvg-jhg9",
-    "score": 4.8,
-    "ghsa": "GHSA-ffmg-hfvg-jhg9",
-    "date": "2026-09-16T22:14:53Z"
-   },
-   {
-    "title": "@nuxtjs/mdc's URL sanitizer misses SVG xlink:href and data:text/html, allowing XSS from untrusted markdown at the default configuration",
-    "url": "https://github.com/advisories/GHSA-mxm6-v9r6-r94c",
-    "score": 8.1,
-    "ghsa": "GHSA-mxm6-v9r6-r94c",
-    "date": "2026-09-16T22:14:01Z"
-   },
-   {
-    "title": "RMCP: Unauthenticated permanent session-table leak in rmcp Streamable HTTP server transport leads to remote denial-of-service",
-    "url": "https://github.com/advisories/GHSA-9pj6-vhgr-3mwh",
-    "score": 7.5,
-    "ghsa": "GHSA-9pj6-vhgr-3mwh",
-    "date": "2026-09-16T22:13:34Z"
-   },
-   {
-    "title": "RMCP: Missing Resource Field Validation in OAuth Protected Resource Metadata Discovery",
-    "url": "https://github.com/advisories/GHSA-33f5-2c5q-wgwj",
+    "title": "libp2p: PeerStore accepts attacker-signed PeerRecords for a victim peer ID and stores certified attacker addresses",
+    "url": "https://github.com/advisories/GHSA-vrf4-mx87-p53w",
     "score": 8.2,
-    "ghsa": "GHSA-33f5-2c5q-wgwj",
-    "date": "2026-09-16T22:13:26Z"
+    "ghsa": "GHSA-vrf4-mx87-p53w",
+    "date": "2026-09-17T18:01:38Z"
    },
    {
-    "title": "Grav: XSS Blueprint Validation Bypass via Twig String Concatenation",
-    "url": "https://github.com/advisories/GHSA-2c4f-86xc-cr74",
-    "score": null,
-    "ghsa": "GHSA-2c4f-86xc-cr74",
-    "date": "2026-09-16T22:13:17Z"
+    "title": "Steeltoe.Management.Endpoint: HttpExchanges URI masking leaks query-string secrets",
+    "url": "https://github.com/advisories/GHSA-8phw-xrj9-cpqp",
+    "score": 5.9,
+    "ghsa": "GHSA-8phw-xrj9-cpqp",
+    "date": "2026-09-17T18:01:30Z"
    },
    {
-    "title": "vLLM: Unauthenticated audio decompression-bomb DoS in /v1/chat/completions",
-    "url": "https://github.com/advisories/GHSA-hcwq-8wjf-3gcr",
-    "score": 6.5,
-    "ghsa": "GHSA-hcwq-8wjf-3gcr",
-    "date": "2026-09-16T22:12:17Z"
+    "title": "Grav: Stored XSS via Markdown audio/video media <source> URL",
+    "url": "https://github.com/advisories/GHSA-6qw9-4vv5-jr97",
+    "score": 7.6,
+    "ghsa": "GHSA-6qw9-4vv5-jr97",
+    "date": "2026-09-17T17:31:41Z"
    },
    {
-    "title": "Grav CMS — Improper Handling of Highly Compressed Data in Installer::unZip()",
-    "url": "https://github.com/advisories/GHSA-2vcx-h8p2-9pg9",
-    "score": 4.9,
-    "ghsa": "GHSA-2vcx-h8p2-9pg9",
-    "date": "2026-09-16T22:12:10Z"
-   },
-   {
-    "title": "djust has an unauthenticated arbitrary module import via the WebSocket/SSE view-mount path",
-    "url": "https://github.com/advisories/GHSA-7prp-2623-8g45",
+    "title": "libp2p: Gossipsub StrictSign accepts attacker-signed messages as a victim RSA peer ID",
+    "url": "https://github.com/advisories/GHSA-c3gv-825q-fvmp",
     "score": 7.5,
-    "ghsa": "GHSA-7prp-2623-8g45",
-    "date": "2026-09-16T22:09:38Z"
+    "ghsa": "GHSA-c3gv-825q-fvmp",
+    "date": "2026-09-17T17:29:31Z"
    },
    {
-    "title": "djust: WebSocket/runtime reconstructed request omits the client Host, causing host/subdomain TenantResolvers to misresolve the tenant on the live path",
-    "url": "https://github.com/advisories/GHSA-v9rj-xjfv-xj9r",
-    "score": 6.3,
-    "ghsa": "GHSA-v9rj-xjfv-xj9r",
-    "date": "2026-09-16T22:07:52Z"
+    "title": "Grav: Stored XSS via quoted-attribute bypass in detectXss",
+    "url": "https://github.com/advisories/GHSA-269c-h76q-8cxw",
+    "score": 5.4,
+    "ghsa": "GHSA-269c-h76q-8cxw",
+    "date": "2026-09-17T17:28:34Z"
    },
    {
-    "title": "djust has broken object-level access control (IDOR)",
-    "url": "https://github.com/advisories/GHSA-c7c5-5j6r-q957",
-    "score": 7.1,
-    "ghsa": "GHSA-c7c5-5j6r-q957",
-    "date": "2026-09-16T22:06:02Z"
+    "title": "AsyncHttpClient re-sends client-wide realm credentials to a cross-origin redirect target",
+    "url": "https://github.com/advisories/GHSA-f8m2-889x-vw4x",
+    "score": 6.8,
+    "ghsa": "GHSA-f8m2-889x-vw4x",
+    "date": "2026-09-17T17:19:31Z"
    },
    {
-    "title": "djust's Django model serialization has no sensitive-field denylist: password hashes, privilege flags, and PII on a public view attribute are sent to t",
-    "url": "https://github.com/advisories/GHSA-pvg3-6q9j-mj3x",
+    "title": "AsyncHttpClient sends origin credentials to the proxy on the plaintext CONNECT request",
+    "url": "https://github.com/advisories/GHSA-xr57-gcx8-52hf",
+    "score": 5.9,
+    "ghsa": "GHSA-xr57-gcx8-52hf",
+    "date": "2026-09-17T17:19:12Z"
+   },
+   {
+    "title": "AsyncHttpClient's unbounded HTTP/1.1 response decompression enables a decompression-bomb denial of service",
+    "url": "https://github.com/advisories/GHSA-7grg-jcf7-rpmx",
+    "score": 7.5,
+    "ghsa": "GHSA-7grg-jcf7-rpmx",
+    "date": "2026-09-17T17:18:56Z"
+   },
+   {
+    "title": "AsyncHttpClient doesn't verify SCRAM and Digest mutual-authentication responses",
+    "url": "https://github.com/advisories/GHSA-fj9w-c36g-h5x8",
+    "score": 3.7,
+    "ghsa": "GHSA-fj9w-c36g-h5x8",
+    "date": "2026-09-17T17:18:39Z"
+   },
+   {
+    "title": "SSH.NET: ScpClient allows server-side RCE via default SCP path handling",
+    "url": "https://github.com/advisories/GHSA-mggc-4xg6-vcxf",
+    "score": 7.5,
+    "ghsa": "GHSA-mggc-4xg6-vcxf",
+    "date": "2026-09-17T17:18:01Z"
+   },
+   {
+    "title": "Kestra: Unauthenticated management/actuator endpoints exposed on port 8081 (/env, /loggers) bypass API basic-auth",
+    "url": "https://github.com/advisories/GHSA-hpj9-grjp-7vc7",
     "score": 6.5,
-    "ghsa": "GHSA-pvg3-6q9j-mj3x",
-    "date": "2026-09-16T22:02:49Z"
+    "ghsa": "GHSA-hpj9-grjp-7vc7",
+    "date": "2026-09-17T17:17:55Z"
+   },
+   {
+    "title": "vLLM: Request-selected PyNvVideoCodec GPU decode bypasses static VRAM reservation",
+    "url": "https://github.com/advisories/GHSA-8pw2-6jv3-mj5j",
+    "score": 6.5,
+    "ghsa": "GHSA-8pw2-6jv3-mj5j",
+    "date": "2026-09-17T17:17:39Z"
    }
   ],
   "thn": [
+   {
+    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+    "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+    "date": "Thu, 17 Sep 2026 18:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "date": "Thu, 17 Sep 2026 17:20:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+    "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+    "date": "Thu, 17 Sep 2026 16:20:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+    "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+    "date": "Thu, 17 Sep 2026 15:35:45 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+    "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+    "date": "Thu, 17 Sep 2026 15:23:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+    "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+    "date": "Thu, 17 Sep 2026 13:30:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+    "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+    "date": "Thu, 17 Sep 2026 13:00:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+    "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+    "date": "Thu, 17 Sep 2026 12:09:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+    "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+    "date": "Thu, 17 Sep 2026 10:43:46 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
     "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
@@ -308,72 +299,23 @@
     "date": "Wed, 16 Sep 2026 20:06:44 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
-    "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-    "date": "Wed, 16 Sep 2026 19:07:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
-    "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
-    "date": "Wed, 16 Sep 2026 18:44:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-    "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
-    "date": "Wed, 16 Sep 2026 17:28:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-    "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-    "date": "Wed, 16 Sep 2026 16:45:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-    "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-    "date": "Wed, 16 Sep 2026 16:45:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-    "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-    "date": "Wed, 16 Sep 2026 16:38:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-    "date": "Wed, 16 Sep 2026 11:18:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-    "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-    "date": "Wed, 16 Sep 2026 10:48:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-    "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-    "date": "Wed, 16 Sep 2026 00:24:14 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+    "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+    "date": "Thu, 17 Sep 2026 13:11:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+    "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+    "date": "Thu, 17 Sep 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Windows 11 24H2 Home and Pro reach end of support in October",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
@@ -443,20 +385,6 @@
     "date": "Wed, 16 Sep 2026 13:26:41 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "The true cost of a ransomware attack, with and without BCDR",
-    "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
-    "date": "Wed, 16 Sep 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft says Copilot buttons still missing in classic Outlook",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
-    "date": "Wed, 16 Sep 2026 08:16:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +397,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 474,
+    "stars": 494,
     "lang": "Python"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 235,
+    "stars": 239,
     "lang": "Python"
    },
    {
@@ -499,13 +427,13 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 173,
+    "stars": 174,
     "lang": "Python"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 165,
+    "stars": 166,
     "lang": "JavaScript"
    },
    {
@@ -635,9 +563,30 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CVE-2026-90999: A fabricated Sentry bug report can make Seer's coding agent run attacker code",
+    "url": "https://www.reddit.com/r/netsec/comments/1wiv4bm/cve202690999_a_fabricated_sentry_bug_report_can/",
+    "date": "2026-09-17T14:11:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Fragnesia primitive via Open vSwitch. Deterministic local privilege escalation.",
     "url": "https://www.reddit.com/r/netsec/comments/1wimrzt/fragnesia_primitive_via_open_vswitch/",
     "date": "2026-09-17T07:06:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Visual Studio Code Vulnerability that Bypasses Workspace Trust",
+    "url": "https://www.reddit.com/r/netsec/comments/1wiufye/visual_studio_code_vulnerability_that_bypasses/",
+    "date": "2026-09-17T13:45:38+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Working on a claude Skill",
+    "url": "https://www.reddit.com/r/netsec/comments/1wizte1/working_on_a_claude_skill/",
+    "date": "2026-09-17T17:05:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -663,13 +612,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I need Help!!",
-    "url": "https://www.reddit.com/r/netsec/comments/1winghj/i_need_help/",
-    "date": "2026-09-17T07:47:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
     "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
     "date": "2026-09-16T13:52:01+00:00",
@@ -689,20 +631,6 @@
     "date": "2026-09-15T11:56:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "UANIA OS: Authenticated Remote Code Execution",
-    "url": "https://www.reddit.com/r/netsec/comments/1wgsu52/uania_os_authenticated_remote_code_execution/",
-    "date": "2026-09-15T06:50:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Ask the Agent Nicely: Two Authorization Bypasses in n8n AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wg4r8v/ask_the_agent_nicely_two_authorization_bypasses/",
-    "date": "2026-09-14T14:19:22+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1713,
   "adv": 12,
   "feed": 48
