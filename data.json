@@ -1,20 +1,7 @@
 {
- "generatedAt": "2026-09-17T18:19:22.965Z",
+ "generatedAt": "2026-09-17T22:15:04.853Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -131,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "libp2p: PeerStore accepts attacker-signed PeerRecords for a victim peer ID and stores certified attacker addresses",
-    "url": "https://github.com/advisories/GHSA-vrf4-mx87-p53w",
-    "score": 8.2,
-    "ghsa": "GHSA-vrf4-mx87-p53w",
-    "date": "2026-09-17T18:01:38Z"
+    "title": "Grav CMS vulnerable to remote code execution via .zip file upload",
+    "url": "https://github.com/advisories/GHSA-r94f-hx44-8jqf",
+    "score": 8.8,
+    "ghsa": "GHSA-r94f-hx44-8jqf",
+    "date": "2026-09-17T20:45:57Z"
    },
    {
-    "title": "Steeltoe.Management.Endpoint: HttpExchanges URI masking leaks query-string secrets",
-    "url": "https://github.com/advisories/GHSA-8phw-xrj9-cpqp",
-    "score": 5.9,
-    "ghsa": "GHSA-8phw-xrj9-cpqp",
-    "date": "2026-09-17T18:01:30Z"
+    "title": "Grav: Missing admin.super guard on core group blueprint access field allows admin.users operator to escalate to super-admin",
+    "url": "https://github.com/advisories/GHSA-xhfv-7758-r9hx",
+    "score": 9.1,
+    "ghsa": "GHSA-xhfv-7758-r9hx",
+    "date": "2026-09-17T20:45:15Z"
    },
    {
-    "title": "Grav: Stored XSS via Markdown audio/video media <source> URL",
-    "url": "https://github.com/advisories/GHSA-6qw9-4vv5-jr97",
-    "score": 7.6,
-    "ghsa": "GHSA-6qw9-4vv5-jr97",
-    "date": "2026-09-17T17:31:41Z"
-   },
-   {
-    "title": "libp2p: Gossipsub StrictSign accepts attacker-signed messages as a victim RSA peer ID",
-    "url": "https://github.com/advisories/GHSA-c3gv-825q-fvmp",
-    "score": 7.5,
-    "ghsa": "GHSA-c3gv-825q-fvmp",
-    "date": "2026-09-17T17:29:31Z"
-   },
-   {
-    "title": "Grav: Stored XSS via quoted-attribute bypass in detectXss",
-    "url": "https://github.com/advisories/GHSA-269c-h76q-8cxw",
+    "title": "Grav: Single invalid UTF-8 byte disables every rule in Security::detectXss(), bypassing the page-content XSS safety gate",
+    "url": "https://github.com/advisories/GHSA-q2j8-x8hf-63ch",
     "score": 5.4,
-    "ghsa": "GHSA-269c-h76q-8cxw",
-    "date": "2026-09-17T17:28:34Z"
+    "ghsa": "GHSA-q2j8-x8hf-63ch",
+    "date": "2026-09-17T20:44:39Z"
    },
    {
-    "title": "AsyncHttpClient re-sends client-wide realm credentials to a cross-origin redirect target",
-    "url": "https://github.com/advisories/GHSA-f8m2-889x-vw4x",
-    "score": 6.8,
-    "ghsa": "GHSA-f8m2-889x-vw4x",
-    "date": "2026-09-17T17:19:31Z"
+    "title": "Grav: Blueprint dynamic-data bare-function branch is denylist-gated and omits error_log, giving arbitrary file write",
+    "url": "https://github.com/advisories/GHSA-f8wv-xp27-6gq7",
+    "score": 8.8,
+    "ghsa": "GHSA-f8wv-xp27-6gq7",
+    "date": "2026-09-17T20:44:16Z"
    },
    {
-    "title": "AsyncHttpClient sends origin credentials to the proxy on the plaintext CONNECT request",
-    "url": "https://github.com/advisories/GHSA-xr57-gcx8-52hf",
+    "title": "Grav: detectXss() misses an event-handler attribute after an unpaired quote in an unquoted attribute value, giving stored XSS",
+    "url": "https://github.com/advisories/GHSA-vfmf-q6x9-cw96",
+    "score": 8.7,
+    "ghsa": "GHSA-vfmf-q6x9-cw96",
+    "date": "2026-09-17T20:43:43Z"
+   },
+   {
+    "title": "Grav: Unauthenticated Path Traversal via Missing Directory-Boundary Check in `plugin-asset-map.php` Static Asset Server (`index.php`)",
+    "url": "https://github.com/advisories/GHSA-4v9q-p283-qc2m",
     "score": 5.9,
-    "ghsa": "GHSA-xr57-gcx8-52hf",
-    "date": "2026-09-17T17:19:12Z"
+    "ghsa": "GHSA-4v9q-p283-qc2m",
+    "date": "2026-09-17T20:43:16Z"
    },
    {
-    "title": "AsyncHttpClient's unbounded HTTP/1.1 response decompression enables a decompression-bomb denial of service",
-    "url": "https://github.com/advisories/GHSA-7grg-jcf7-rpmx",
+    "title": "Grav: Path Traversal in MediaUploadTrait::deleteFile() Allows Arbitrary File Deletion",
+    "url": "https://github.com/advisories/GHSA-jq29-c7v8-rg55",
+    "score": 8.1,
+    "ghsa": "GHSA-jq29-c7v8-rg55",
+    "date": "2026-09-17T20:34:05Z"
+   },
+   {
+    "title": "CoreDNS DoH/DoQ/gRPC bypass UPDATE rejection enforced on UDP/TCP",
+    "url": "https://github.com/advisories/GHSA-9gm5-9rfh-m6vx",
     "score": 7.5,
-    "ghsa": "GHSA-7grg-jcf7-rpmx",
-    "date": "2026-09-17T17:18:56Z"
+    "ghsa": "GHSA-9gm5-9rfh-m6vx",
+    "date": "2026-09-17T20:33:05Z"
    },
    {
-    "title": "AsyncHttpClient doesn't verify SCRAM and Digest mutual-authentication responses",
-    "url": "https://github.com/advisories/GHSA-fj9w-c36g-h5x8",
-    "score": 3.7,
-    "ghsa": "GHSA-fj9w-c36g-h5x8",
-    "date": "2026-09-17T17:18:39Z"
+    "title": "Soup Sieve: Polynomial-time ReDoS (O(n²)) in the `IDENTIFIER` / `VALUE` selector sub-patterns",
+    "url": "https://github.com/advisories/GHSA-gjv8-xp57-g29c",
+    "score": 5.3,
+    "ghsa": "GHSA-gjv8-xp57-g29c",
+    "date": "2026-09-17T20:32:58Z"
    },
    {
-    "title": "SSH.NET: ScpClient allows server-side RCE via default SCP path handling",
-    "url": "https://github.com/advisories/GHSA-mggc-4xg6-vcxf",
+    "title": "Soup Sieve: Polynomial-time ReDoS (O(n²)) in the whitespace/comment trimming regex `RE_WS_END` (triggers on VALID selectors)",
+    "url": "https://github.com/advisories/GHSA-j934-xhv5-fg8f",
+    "score": 5.3,
+    "ghsa": "GHSA-j934-xhv5-fg8f",
+    "date": "2026-09-17T20:32:53Z"
+   },
+   {
+    "title": "@platejs/core HTML deserialization can trigger browser behavior during parsing",
+    "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
+    "score": 6.1,
+    "ghsa": "GHSA-qrfj-mgw8-j9c6",
+    "date": "2026-09-17T20:32:47Z"
+   },
+   {
+    "title": "react/http: A malformed HTTP chunked body can lead to a denial-of-service and peg the CPU",
+    "url": "https://github.com/advisories/GHSA-x424-64qh-5j54",
     "score": 7.5,
-    "ghsa": "GHSA-mggc-4xg6-vcxf",
-    "date": "2026-09-17T17:18:01Z"
-   },
-   {
-    "title": "Kestra: Unauthenticated management/actuator endpoints exposed on port 8081 (/env, /loggers) bypass API basic-auth",
-    "url": "https://github.com/advisories/GHSA-hpj9-grjp-7vc7",
-    "score": 6.5,
-    "ghsa": "GHSA-hpj9-grjp-7vc7",
-    "date": "2026-09-17T17:17:55Z"
-   },
-   {
-    "title": "vLLM: Request-selected PyNvVideoCodec GPU decode bypasses static VRAM reservation",
-    "url": "https://github.com/advisories/GHSA-8pw2-6jv3-mj5j",
-    "score": 6.5,
-    "ghsa": "GHSA-8pw2-6jv3-mj5j",
-    "date": "2026-09-17T17:17:39Z"
+    "ghsa": "GHSA-x424-64qh-5j54",
+    "date": "2026-09-17T20:32:39Z"
    }
   ],
   "thn": [
@@ -303,6 +290,20 @@
   ],
   "bleep": [
    {
+    "title": "New RatHat Android malware uses AI to automate device control",
+    "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+    "date": "Thu, 17 Sep 2026 17:50:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+    "date": "Thu, 17 Sep 2026 14:55:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
     "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
     "date": "Thu, 17 Sep 2026 13:11:34 -0400",
@@ -371,20 +372,6 @@
     "date": "Wed, 16 Sep 2026 16:24:55 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
-    "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
-    "date": "Wed, 16 Sep 2026 14:50:53 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Spain's data agency gets first report of AI-powered data breach",
-    "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
-    "date": "Wed, 16 Sep 2026 13:26:41 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,7 +384,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 494,
+    "stars": 502,
     "lang": "Python"
    },
    {
@@ -427,7 +414,7 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 174,
+    "stars": 177,
     "lang": "Python"
    },
    {
@@ -577,6 +564,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The Information Wars: A Retrospective",
+    "url": "https://www.reddit.com/r/netsec/comments/1wj4ped/the_information_wars_a_retrospective/",
+    "date": "2026-09-17T20:04:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Visual Studio Code Vulnerability that Bypasses Workspace Trust",
     "url": "https://www.reddit.com/r/netsec/comments/1wiufye/visual_studio_code_vulnerability_that_bypasses/",
     "date": "2026-09-17T13:45:38+00:00",
@@ -591,16 +585,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I Missed One TLB Shootdown and Somehow Ended Up Controlling a Page Table",
-    "url": "https://www.reddit.com/r/netsec/comments/1why5qt/i_missed_one_tlb_shootdown_and_somehow_ended_up/",
-    "date": "2026-09-16T14:03:18+00:00",
+    "title": "The Hacker's Guide to Attacking AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
+    "date": "2026-09-16T21:56:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "The Hacker's Guide to Attacking AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
-    "date": "2026-09-16T21:56:51+00:00",
+    "title": "I Missed One TLB Shootdown and Somehow Ended Up Controlling a Page Table",
+    "url": "https://www.reddit.com/r/netsec/comments/1why5qt/i_missed_one_tlb_shootdown_and_somehow_ended_up/",
+    "date": "2026-09-16T14:03:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -624,18 +618,11 @@
     "date": "2026-09-15T16:00:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Getting into EMFI for 30€ thanks to globalization",
-    "url": "https://www.reddit.com/r/netsec/comments/1wgyaau/getting_into_emfi_for_30_thanks_to_globalization/",
-    "date": "2026-09-15T11:56:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -645,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1713,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
