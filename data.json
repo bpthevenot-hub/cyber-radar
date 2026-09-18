@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-18T06:00:24.899Z",
+ "generatedAt": "2026-09-18T11:25:37.029Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36006",
+    "score": 9.1,
+    "date": "2026-09-18T11:15:05+00:00"
+   },
+   {
+    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36005",
+    "score": 9.1,
+    "date": "2026-09-18T11:15:00+00:00"
+   },
+   {
+    "title": "CVE-2024-5642 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0414",
+    "score": 8.8,
+    "date": "2026-09-18T11:11:25+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67518",
+    "score": 8.8,
+    "date": "2026-09-18T10:49:24+00:00"
+   },
+   {
+    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67517",
+    "score": 8.8,
+    "date": "2026-09-18T10:49:24+00:00"
+   },
+   {
+    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (cuda) (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:36004",
+    "score": 8.2,
+    "date": "2026-09-18T11:14:58+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:33313",
+    "score": 8.1,
+    "date": "2026-09-18T11:11:51+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-25-openjdk security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9693",
+    "score": 7.6,
+    "date": "2026-09-18T11:16:02+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-21-openjdk security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9689",
+    "score": 7.6,
+    "date": "2026-09-18T11:15:59+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-17-openjdk security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9686",
+    "score": 7.6,
+    "date": "2026-09-18T11:15:55+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-1.8.0-openjdk security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9683",
+    "score": 7.6,
+    "date": "2026-09-18T11:15:51+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: Java 11 OpenJDK ELS Security Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9254",
+    "score": 7.6,
+    "date": "2026-09-18T11:15:42+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "date": "Fri, 18 Sep 2026 16:10:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "date": "Fri, 18 Sep 2026 14:48:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "date": "Fri, 18 Sep 2026 11:47:25 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
     "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
     "date": "Thu, 17 Sep 2026 23:38:28 +0530",
@@ -265,30 +371,23 @@
     "date": "Thu, 17 Sep 2026 15:23:38 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
-    "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
-    "date": "Thu, 17 Sep 2026 13:30:29 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
-    "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
-    "date": "Thu, 17 Sep 2026 13:00:01 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-    "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-    "date": "Thu, 17 Sep 2026 12:09:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "New Check Point flaw lets hackers execute code with root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+    "date": "Fri, 18 Sep 2026 05:34:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "date": "Fri, 18 Sep 2026 03:35:31 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New RatHat Android malware uses AI to automate device control",
     "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
@@ -358,20 +457,6 @@
     "date": "Wed, 16 Sep 2026 20:35:48 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 KB5124008 update breaks domain trust for some users",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
-    "date": "Wed, 16 Sep 2026 16:39:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
-    "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
-    "date": "Wed, 16 Sep 2026 16:24:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,7 +469,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 510,
+    "stars": 518,
     "lang": "Python"
    },
    {
@@ -396,13 +481,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 356,
+    "stars": 360,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 244,
+    "stars": 246,
     "lang": "Python"
    },
    {
@@ -564,13 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-90999: A fabricated Sentry bug report can make Seer's coding agent run attacker code",
-    "url": "https://www.reddit.com/r/netsec/comments/1wiv4bm/cve202690999_a_fabricated_sentry_bug_report_can/",
-    "date": "2026-09-17T14:11:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Fragnesia primitive via Open vSwitch. Deterministic local privilege escalation.",
     "url": "https://www.reddit.com/r/netsec/comments/1wimrzt/fragnesia_primitive_via_open_vswitch/",
     "date": "2026-09-17T07:06:38+00:00",
@@ -578,30 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Information Wars: A Retrospective",
-    "url": "https://www.reddit.com/r/netsec/comments/1wj4ped/the_information_wars_a_retrospective/",
-    "date": "2026-09-17T20:04:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Visual Studio Code Vulnerability that Bypasses Workspace Trust",
-    "url": "https://www.reddit.com/r/netsec/comments/1wiufye/visual_studio_code_vulnerability_that_bypasses/",
-    "date": "2026-09-17T13:45:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "The Hacker's Guide to Attacking AI Agents",
     "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
     "date": "2026-09-16T21:56:51+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Working on a claude Skill",
-    "url": "https://www.reddit.com/r/netsec/comments/1wizte1/working_on_a_claude_skill/",
-    "date": "2026-09-17T17:05:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -618,11 +675,39 @@
     "date": "2026-09-16T15:21:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
+    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
+    "date": "2026-09-16T13:52:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Multiple Vulnerabilities in Frappe LMS Leading to Remote Code Execution",
+    "url": "https://www.reddit.com/r/netsec/comments/1wh4ffh/multiple_vulnerabilities_in_frappe_lms_leading_to/",
+    "date": "2026-09-15T16:00:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Getting into EMFI for 30€ thanks to globalization",
+    "url": "https://www.reddit.com/r/netsec/comments/1wgyaau/getting_into_emfi_for_30_thanks_to_globalization/",
+    "date": "2026-09-15T11:56:01+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "UANIA OS: Authenticated Remote Code Execution",
+    "url": "https://www.reddit.com/r/netsec/comments/1wgsu52/uania_os_authenticated_remote_code_execution/",
+    "date": "2026-09-15T06:50:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 4,
   "kev": 1713,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
