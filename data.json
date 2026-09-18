@@ -1,7 +1,38 @@
 {
- "generatedAt": "2026-09-17T22:15:04.853Z",
+ "generatedAt": "2026-09-18T00:28:27.682Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "MAL-2026-16270 — Malicious code in @tink/tink-link-core (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16270",
+    "score": null,
+    "date": "2026-09-17T23:13:32Z"
+   },
+   {
+    "title": "MAL-2026-16271 — Malicious code in test89078-auth (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16271",
+    "score": null,
+    "date": "2026-09-17T23:12:41Z"
+   },
+   {
+    "title": "MAL-2026-16264 — Malicious code in aiosendletter (PyPI)",
+    "url": "https://github.com/advisories/MAL-2026-16264",
+    "score": null,
+    "date": "2026-09-17T19:40:07Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -414,7 +445,7 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 177,
+    "stars": 179,
     "lang": "Python"
    },
    {
@@ -622,7 +653,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +663,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1713,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
