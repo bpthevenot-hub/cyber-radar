@@ -1,38 +1,7 @@
 {
- "generatedAt": "2026-09-18T00:28:27.682Z",
+ "generatedAt": "2026-09-18T06:00:24.899Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "MAL-2026-16270 — Malicious code in @tink/tink-link-core (npm)",
-    "url": "https://github.com/advisories/MAL-2026-16270",
-    "score": null,
-    "date": "2026-09-17T23:13:32Z"
-   },
-   {
-    "title": "MAL-2026-16271 — Malicious code in test89078-auth (npm)",
-    "url": "https://github.com/advisories/MAL-2026-16271",
-    "score": null,
-    "date": "2026-09-17T23:12:41Z"
-   },
-   {
-    "title": "MAL-2026-16264 — Malicious code in aiosendletter (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-16264",
-    "score": null,
-    "date": "2026-09-17T19:40:07Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -235,6 +204,34 @@
   ],
   "thn": [
    {
+    "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+    "date": "Thu, 17 Sep 2026 23:38:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+    "date": "Thu, 17 Sep 2026 23:02:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+    "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+    "date": "Thu, 17 Sep 2026 21:07:56 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+    "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+    "date": "Thu, 17 Sep 2026 19:33:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
     "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
     "date": "Thu, 17 Sep 2026 18:00:00 +0530",
@@ -287,34 +284,6 @@
     "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
     "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
     "date": "Thu, 17 Sep 2026 12:09:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-    "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-    "date": "Thu, 17 Sep 2026 10:43:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-    "date": "Wed, 16 Sep 2026 21:20:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "date": "Wed, 16 Sep 2026 20:57:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-    "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-    "date": "Wed, 16 Sep 2026 20:06:44 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -415,25 +384,25 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 502,
+    "stars": 510,
     "lang": "Python"
    },
    {
     "title": "pis10/TraceSurface — 发现藏在前端代码里的 API，验证未授权访问风险 · 动态浏览器追踪 × JavaScript 静态分析",
     "url": "https://github.com/pis10/TraceSurface",
-    "stars": 425,
+    "stars": 501,
     "lang": "Python"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 355,
+    "stars": 356,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 239,
+    "stars": 244,
     "lang": "Python"
    },
    {
@@ -463,7 +432,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 146,
+    "stars": 147,
     "lang": "PowerShell"
    },
    {
@@ -581,6 +550,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Quantum Computers Are Not a Threat to 128-bit Symmetric Keys",
+    "url": "https://www.reddit.com/r/netsec/comments/1wjg8d8/quantum_computers_are_not_a_threat_to_128bit/",
+    "date": "2026-09-18T04:27:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Hacking OpenAI",
+    "url": "https://www.reddit.com/r/netsec/comments/1wjgti2/hacking_openai/",
+    "date": "2026-09-18T04:58:53+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-90999: A fabricated Sentry bug report can make Seer's coding agent run attacker code",
     "url": "https://www.reddit.com/r/netsec/comments/1wiv4bm/cve202690999_a_fabricated_sentry_bug_report_can/",
     "date": "2026-09-17T14:11:25+00:00",
@@ -609,16 +592,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Working on a claude Skill",
-    "url": "https://www.reddit.com/r/netsec/comments/1wizte1/working_on_a_claude_skill/",
-    "date": "2026-09-17T17:05:29+00:00",
+    "title": "The Hacker's Guide to Attacking AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
+    "date": "2026-09-16T21:56:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "The Hacker's Guide to Attacking AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
-    "date": "2026-09-16T21:56:51+00:00",
+    "title": "Working on a claude Skill",
+    "url": "https://www.reddit.com/r/netsec/comments/1wizte1/working_on_a_claude_skill/",
+    "date": "2026-09-17T17:05:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -635,25 +618,11 @@
     "date": "2026-09-16T15:21:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
-    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
-    "date": "2026-09-16T13:52:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Multiple Vulnerabilities in Frappe LMS Leading to Remote Code Execution",
-    "url": "https://www.reddit.com/r/netsec/comments/1wh4ffh/multiple_vulnerabilities_in_frappe_lms_leading_to/",
-    "date": "2026-09-15T16:00:29+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -663,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1713,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
