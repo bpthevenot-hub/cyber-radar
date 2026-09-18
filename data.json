@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18T11:25:37.029Z",
+ "generatedAt": "2026-09-18T16:31:16.507Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36006",
-    "score": 9.1,
-    "date": "2026-09-18T11:15:05+00:00"
-   },
-   {
-    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36005",
-    "score": 9.1,
-    "date": "2026-09-18T11:15:00+00:00"
-   },
-   {
-    "title": "CVE-2024-5642 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:0414",
-    "score": 8.8,
-    "date": "2026-09-18T11:11:25+00:00"
-   },
-   {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67518",
-    "score": 8.8,
-    "date": "2026-09-18T10:49:24+00:00"
-   },
-   {
-    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67517",
-    "score": 8.8,
-    "date": "2026-09-18T10:49:24+00:00"
-   },
-   {
-    "title": "CVE-2026-26740 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (cuda) (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:36004",
-    "score": 8.2,
-    "date": "2026-09-18T11:14:58+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: A Subscription Management tool for finding and reporting Red Hat product usage (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:33313",
-    "score": 8.1,
-    "date": "2026-09-18T11:11:51+00:00"
-   },
-   {
-    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-25-openjdk security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9693",
-    "score": 7.6,
-    "date": "2026-09-18T11:16:02+00:00"
-   },
-   {
-    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-21-openjdk security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9689",
-    "score": 7.6,
-    "date": "2026-09-18T11:15:59+00:00"
-   },
-   {
-    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-17-openjdk security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9686",
-    "score": 7.6,
-    "date": "2026-09-18T11:15:55+00:00"
-   },
-   {
-    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-1.8.0-openjdk security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9683",
-    "score": 7.6,
-    "date": "2026-09-18T11:15:51+00:00"
-   },
-   {
-    "title": "CVE-2026-22007 — Red Hat Security Advisory: Java 11 OpenJDK ELS Security Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9254",
-    "score": 7.6,
-    "date": "2026-09-18T11:15:42+00:00"
+    "title": "CVE-2025-61682 — Semantic MediaWiki vulnerable to stored XSS through wikitext via improper use of non-reserved data attributes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-61682",
+    "score": 8.6,
+    "date": "2026-09-18T16:07:29Z"
    }
   ],
   "kev": [
@@ -203,6 +137,34 @@
   ],
   "adv": [
    {
+    "title": "Semantic MediaWiki vulnerable to stored XSS through wikitext via improper use of non-reserved data attributes",
+    "url": "https://github.com/advisories/GHSA-hg8h-557g-q8pp",
+    "score": 8.6,
+    "ghsa": "GHSA-hg8h-557g-q8pp",
+    "date": "2026-09-18T16:07:29Z"
+   },
+   {
+    "title": "org.xwiki.rendering:xwiki-rendering-xml has an Eval Injection issue",
+    "url": "https://github.com/advisories/GHSA-26vp-8gxg-v4pg",
+    "score": 9.9,
+    "ghsa": "GHSA-26vp-8gxg-v4pg",
+    "date": "2026-09-18T15:05:13Z"
+   },
+   {
+    "title": "Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
+    "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
+    "score": 8.7,
+    "ghsa": "GHSA-m6c8-jcw2-5r25",
+    "date": "2026-09-18T13:11:59Z"
+   },
+   {
+    "title": "Caddy: rewrite placeholder re-expansion, unbounded body buffer DoS, and fileHidden case-sensitivity bypass",
+    "url": "https://github.com/advisories/GHSA-j8px-rmrx-76h9",
+    "score": 6.5,
+    "ghsa": "GHSA-j8px-rmrx-76h9",
+    "date": "2026-09-18T13:09:27Z"
+   },
+   {
     "title": "Grav CMS vulnerable to remote code execution via .zip file upload",
     "url": "https://github.com/advisories/GHSA-r94f-hx44-8jqf",
     "score": 8.8,
@@ -257,37 +219,37 @@
     "score": 7.5,
     "ghsa": "GHSA-9gm5-9rfh-m6vx",
     "date": "2026-09-17T20:33:05Z"
-   },
-   {
-    "title": "Soup Sieve: Polynomial-time ReDoS (O(n²)) in the `IDENTIFIER` / `VALUE` selector sub-patterns",
-    "url": "https://github.com/advisories/GHSA-gjv8-xp57-g29c",
-    "score": 5.3,
-    "ghsa": "GHSA-gjv8-xp57-g29c",
-    "date": "2026-09-17T20:32:58Z"
-   },
-   {
-    "title": "Soup Sieve: Polynomial-time ReDoS (O(n²)) in the whitespace/comment trimming regex `RE_WS_END` (triggers on VALID selectors)",
-    "url": "https://github.com/advisories/GHSA-j934-xhv5-fg8f",
-    "score": 5.3,
-    "ghsa": "GHSA-j934-xhv5-fg8f",
-    "date": "2026-09-17T20:32:53Z"
-   },
-   {
-    "title": "@platejs/core HTML deserialization can trigger browser behavior during parsing",
-    "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
-    "score": 6.1,
-    "ghsa": "GHSA-qrfj-mgw8-j9c6",
-    "date": "2026-09-17T20:32:47Z"
-   },
-   {
-    "title": "react/http: A malformed HTTP chunked body can lead to a denial-of-service and peg the CPU",
-    "url": "https://github.com/advisories/GHSA-x424-64qh-5j54",
-    "score": 7.5,
-    "ghsa": "GHSA-x424-64qh-5j54",
-    "date": "2026-09-17T20:32:39Z"
    }
   ],
   "thn": [
+   {
+    "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+    "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+    "date": "Fri, 18 Sep 2026 20:54:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+    "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+    "date": "Fri, 18 Sep 2026 18:17:04 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+    "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+    "date": "Fri, 18 Sep 2026 16:31:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+    "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+    "date": "Fri, 18 Sep 2026 16:31:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
     "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
@@ -343,37 +305,51 @@
     "date": "Thu, 17 Sep 2026 18:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-    "date": "Thu, 17 Sep 2026 17:20:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-    "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-    "date": "Thu, 17 Sep 2026 16:20:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-    "date": "Thu, 17 Sep 2026 15:35:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-    "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-    "date": "Thu, 17 Sep 2026 15:23:38 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+    "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+    "date": "Fri, 18 Sep 2026 12:00:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+    "date": "Fri, 18 Sep 2026 11:19:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+    "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+    "date": "Fri, 18 Sep 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft Teams will let admins block custom file extensions",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+    "date": "Fri, 18 Sep 2026 09:58:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Webinar: Which Google Workspace security controls actually matter?",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+    "date": "Fri, 18 Sep 2026 09:10:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+    "date": "Fri, 18 Sep 2026 08:16:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New Check Point flaw lets hackers execute code with root privileges",
     "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
@@ -415,61 +391,19 @@
     "date": "Thu, 17 Sep 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 24H2 Home and Pro reach end of support in October",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-    "date": "Thu, 17 Sep 2026 09:09:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "US takes down NightmareStresser DDoS-for-hire platform",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
-    "date": "Thu, 17 Sep 2026 07:33:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-    "date": "Thu, 17 Sep 2026 05:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft shares workaround for Windows domain login issues",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-    "date": "Thu, 17 Sep 2026 04:24:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
-    "date": "Thu, 17 Sep 2026 03:20:54 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic wants Claude to analyze your bank account and financial data",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
-    "date": "Wed, 16 Sep 2026 20:35:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 634,
+    "stars": 635,
     "lang": "TypeScript"
    },
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 518,
+    "stars": 560,
     "lang": "Python"
    },
    {
@@ -481,7 +415,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 360,
+    "stars": 362,
     "lang": "JavaScript"
    },
    {
@@ -523,7 +457,7 @@
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 144,
+    "stars": 145,
     "lang": "TypeScript"
    },
    {
@@ -717,8 +651,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
-  "kev": 1713,
+  "crit": 2,
+  "kev": 1715,
   "adv": 12,
   "feed": 48
  },
