@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18T16:31:16.507Z",
+ "generatedAt": "2026-09-18T19:41:58.121Z",
  "sources": {
   "cve": [
    {
@@ -13,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-61682 — Semantic MediaWiki vulnerable to stored XSS through wikitext via improper use of non-reserved data attributes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-61682",
-    "score": 8.6,
-    "date": "2026-09-18T16:07:29Z"
    }
   ],
   "kev": [
@@ -137,91 +131,98 @@
   ],
   "adv": [
    {
-    "title": "Semantic MediaWiki vulnerable to stored XSS through wikitext via improper use of non-reserved data attributes",
-    "url": "https://github.com/advisories/GHSA-hg8h-557g-q8pp",
-    "score": 8.6,
-    "ghsa": "GHSA-hg8h-557g-q8pp",
-    "date": "2026-09-18T16:07:29Z"
+    "title": "Obot: Server-Side Request Forgery via remote MCP server URL",
+    "url": "https://github.com/advisories/GHSA-jgh3-fggc-mcpm",
+    "score": 7.6,
+    "ghsa": "GHSA-jgh3-fggc-mcpm",
+    "date": "2026-09-18T17:59:46Z"
    },
    {
-    "title": "org.xwiki.rendering:xwiki-rendering-xml has an Eval Injection issue",
-    "url": "https://github.com/advisories/GHSA-26vp-8gxg-v4pg",
-    "score": 9.9,
-    "ghsa": "GHSA-26vp-8gxg-v4pg",
-    "date": "2026-09-18T15:05:13Z"
+    "title": "Obot: MCP Registry API readable without authentication",
+    "url": "https://github.com/advisories/GHSA-pr6h-vr44-xq8j",
+    "score": 5.3,
+    "ghsa": "GHSA-pr6h-vr44-xq8j",
+    "date": "2026-09-18T17:59:40Z"
    },
    {
-    "title": "Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
-    "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
-    "score": 8.7,
-    "ghsa": "GHSA-m6c8-jcw2-5r25",
-    "date": "2026-09-18T13:11:59Z"
+    "title": "Obot: OAuth Dynamic Client Registration Enables API Token Theft via Audience Confusion",
+    "url": "https://github.com/advisories/GHSA-xwmw-prc4-v3cr",
+    "score": 8.8,
+    "ghsa": "GHSA-xwmw-prc4-v3cr",
+    "date": "2026-09-18T17:59:35Z"
    },
    {
-    "title": "Caddy: rewrite placeholder re-expansion, unbounded body buffer DoS, and fileHidden case-sensitivity bypass",
-    "url": "https://github.com/advisories/GHSA-j8px-rmrx-76h9",
+    "title": "Paymenter has a credit-refund double-spend race condition in service downgrade (doUpgrade)",
+    "url": "https://github.com/advisories/GHSA-5gmm-hjfj-8ff7",
     "score": 6.5,
-    "ghsa": "GHSA-j8px-rmrx-76h9",
-    "date": "2026-09-18T13:09:27Z"
+    "ghsa": "GHSA-5gmm-hjfj-8ff7",
+    "date": "2026-09-18T17:58:55Z"
    },
    {
-    "title": "Grav CMS vulnerable to remote code execution via .zip file upload",
-    "url": "https://github.com/advisories/GHSA-r94f-hx44-8jqf",
-    "score": 8.8,
-    "ghsa": "GHSA-r94f-hx44-8jqf",
-    "date": "2026-09-17T20:45:57Z"
-   },
-   {
-    "title": "Grav: Missing admin.super guard on core group blueprint access field allows admin.users operator to escalate to super-admin",
-    "url": "https://github.com/advisories/GHSA-xhfv-7758-r9hx",
-    "score": 9.1,
-    "ghsa": "GHSA-xhfv-7758-r9hx",
-    "date": "2026-09-17T20:45:15Z"
-   },
-   {
-    "title": "Grav: Single invalid UTF-8 byte disables every rule in Security::detectXss(), bypassing the page-content XSS safety gate",
-    "url": "https://github.com/advisories/GHSA-q2j8-x8hf-63ch",
-    "score": 5.4,
-    "ghsa": "GHSA-q2j8-x8hf-63ch",
-    "date": "2026-09-17T20:44:39Z"
-   },
-   {
-    "title": "Grav: Blueprint dynamic-data bare-function branch is denylist-gated and omits error_log, giving arbitrary file write",
-    "url": "https://github.com/advisories/GHSA-f8wv-xp27-6gq7",
-    "score": 8.8,
-    "ghsa": "GHSA-f8wv-xp27-6gq7",
-    "date": "2026-09-17T20:44:16Z"
-   },
-   {
-    "title": "Grav: detectXss() misses an event-handler attribute after an unpaired quote in an unquoted attribute value, giving stored XSS",
-    "url": "https://github.com/advisories/GHSA-vfmf-q6x9-cw96",
-    "score": 8.7,
-    "ghsa": "GHSA-vfmf-q6x9-cw96",
-    "date": "2026-09-17T20:43:43Z"
-   },
-   {
-    "title": "Grav: Unauthenticated Path Traversal via Missing Directory-Boundary Check in `plugin-asset-map.php` Static Asset Server (`index.php`)",
-    "url": "https://github.com/advisories/GHSA-4v9q-p283-qc2m",
-    "score": 5.9,
-    "ghsa": "GHSA-4v9q-p283-qc2m",
-    "date": "2026-09-17T20:43:16Z"
-   },
-   {
-    "title": "Grav: Path Traversal in MediaUploadTrait::deleteFile() Allows Arbitrary File Deletion",
-    "url": "https://github.com/advisories/GHSA-jq29-c7v8-rg55",
-    "score": 8.1,
-    "ghsa": "GHSA-jq29-c7v8-rg55",
-    "date": "2026-09-17T20:34:05Z"
-   },
-   {
-    "title": "CoreDNS DoH/DoQ/gRPC bypass UPDATE rejection enforced on UDP/TCP",
-    "url": "https://github.com/advisories/GHSA-9gm5-9rfh-m6vx",
+    "title": "io.moquette:moquette-broker has a Missing Authorization issue",
+    "url": "https://github.com/advisories/GHSA-9jjc-fw8x-fmwx",
     "score": 7.5,
-    "ghsa": "GHSA-9gm5-9rfh-m6vx",
-    "date": "2026-09-17T20:33:05Z"
+    "ghsa": "GHSA-9jjc-fw8x-fmwx",
+    "date": "2026-09-18T17:58:39Z"
+   },
+   {
+    "title": "Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
+    "url": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
+    "score": 9.1,
+    "ghsa": "GHSA-xcw4-53cc-hv32",
+    "date": "2026-09-18T17:54:26Z"
+   },
+   {
+    "title": "Perses's unvalidated project parameter enables filesystem path traversal",
+    "url": "https://github.com/advisories/GHSA-vr5f-w35q-98jp",
+    "score": 7.5,
+    "ghsa": "GHSA-vr5f-w35q-98jp",
+    "date": "2026-09-18T17:40:03Z"
+   },
+   {
+    "title": "Perses's missing authorization in datasource proxy allows cross-scope secret disclosure",
+    "url": "https://github.com/advisories/GHSA-4227-9989-jrhx",
+    "score": 7.5,
+    "ghsa": "GHSA-4227-9989-jrhx",
+    "date": "2026-09-18T17:39:48Z"
+   },
+   {
+    "title": "Perses's project query parameter authorization bypass exposes cross-project resources",
+    "url": "https://github.com/advisories/GHSA-cjgj-2fwf-4c2w",
+    "score": 7.5,
+    "ghsa": "GHSA-cjgj-2fwf-4c2w",
+    "date": "2026-09-18T17:39:31Z"
+   },
+   {
+    "title": "File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
+    "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
+    "score": 8.2,
+    "ghsa": "GHSA-3753-m2x2-q623",
+    "date": "2026-09-18T17:19:42Z"
+   },
+   {
+    "title": "adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS)",
+    "url": "https://github.com/advisories/GHSA-7q85-xj36-vmfc",
+    "score": 7.5,
+    "ghsa": "GHSA-7q85-xj36-vmfc",
+    "date": "2026-09-18T17:18:01Z"
+   },
+   {
+    "title": "Process Compose: Browser DNS rebinding lets websites control local process-compose MCP tools",
+    "url": "https://github.com/advisories/GHSA-5gm3-9crp-6g3v",
+    "score": null,
+    "ghsa": "GHSA-5gm3-9crp-6g3v",
+    "date": "2026-09-18T17:17:51Z"
    }
   ],
   "thn": [
+   {
+    "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+    "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+    "date": "Fri, 18 Sep 2026 22:26:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
     "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
@@ -296,13 +297,6 @@
     "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
     "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
     "date": "Thu, 17 Sep 2026 19:33:13 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-    "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-    "date": "Thu, 17 Sep 2026 18:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,13 +391,13 @@
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 635,
+    "stars": 636,
     "lang": "TypeScript"
    },
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 560,
+    "stars": 583,
     "lang": "Python"
    },
    {
@@ -433,7 +427,7 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 179,
+    "stars": 180,
     "lang": "Python"
    },
    {
@@ -451,13 +445,13 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 147,
+    "stars": 148,
     "lang": "PowerShell"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 145,
+    "stars": 124,
     "lang": "TypeScript"
    },
    {
@@ -652,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1715,
+  "kev": 1716,
   "adv": 12,
   "feed": 48
  },
