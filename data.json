@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18T19:41:58.121Z",
+ "generatedAt": "2026-09-18T22:38:46.039Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.13 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47949",
+    "score": 9.4,
+    "date": "2026-09-18T21:56:45+00:00"
+   },
+   {
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-09-18T21:56:43+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-09-18T21:57:10+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
+    "score": 9.1,
+    "date": "2026-09-18T21:57:09+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
+    "score": 9.1,
+    "date": "2026-09-18T21:57:04+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:59+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:56+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:50+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:48+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:45+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:35+00:00"
+   },
+   {
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-09-18T21:56:31+00:00"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+    "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+    "date": "Fri, 18 Sep 2026 23:32:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
     "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
     "date": "Fri, 18 Sep 2026 22:26:19 +0530",
@@ -290,13 +369,6 @@
     "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
     "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
     "date": "Thu, 17 Sep 2026 21:07:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-    "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-    "date": "Thu, 17 Sep 2026 19:33:13 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -409,7 +481,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 362,
+    "stars": 363,
     "lang": "JavaScript"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1716,
   "adv": 12,
   "feed": 48
