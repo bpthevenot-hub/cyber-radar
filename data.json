@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-09-19T01:15:23.872Z",
+ "generatedAt": "2026-09-19T06:01:01.667Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-93740 — A vulnerability was identified in Totolink A3002MU Hh-B20211125.1046. Affected is the function formWlEncrypt of the file /boafrm/formWlEncry",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93740",
-    "score": 10,
-    "date": "2026-09-19T00:32:43Z"
-   },
-   {
-    "title": "CVE-2026-93739 — A vulnerability was determined in Totolink A3002MU Hh-B20211125.1046. This impacts the function formWlAc of the file /boafrm/formWlAc. Execu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93739",
-    "score": 9.9,
-    "date": "2026-09-19T00:32:43Z"
-   },
-   {
-    "title": "RLSA-2026:64785 — Critical: 389-ds-base security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:64785",
-    "score": 9.8,
-    "date": "2026-09-09T12:09:16.585859Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-75885 — A flaw was found in the OpenShift console. Unauthenticated access to the `/api/devfile/` and `/api/devfile/samples/` endpoints allows a remo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75885",
-    "score": 9.3,
-    "date": "2026-09-19T00:32:43Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-25-openjdk security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9693",
+    "score": 7.6,
+    "date": "2026-09-19T05:25:06+00:00"
    },
    {
-    "title": "CVE-2026-93923 — SiYuan through 3.8.4 fails to escape heading style attributes when rendering outline and bookmark dock HTML, allowing stored cross-site scri",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93923",
-    "score": 8.8,
-    "date": "2026-09-19T00:32:44Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-21-openjdk security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9689",
+    "score": 7.6,
+    "date": "2026-09-19T05:25:02+00:00"
    },
    {
-    "title": "CVE-2026-93922 — SiYuan through 3.8.4 renders notebook names as raw HTML in the Daily Note picker dialog without escaping, allowing stored cross-site scripti",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93922",
-    "score": 8.8,
-    "date": "2026-09-19T00:32:44Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-17-openjdk security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9686",
+    "score": 7.6,
+    "date": "2026-09-19T05:24:56+00:00"
    },
    {
-    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:67471",
-    "score": 8.8,
-    "date": "2026-09-16T12:09:37.746677Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: java-1.8.0-openjdk security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9683",
+    "score": 7.6,
+    "date": "2026-09-19T05:24:52+00:00"
    },
    {
-    "title": "RLSA-2026:67280 — Important: postgresql18 security update",
-    "url": "https://github.com/advisories/RLSA-2026:67280",
-    "score": 8.8,
-    "date": "2026-09-15T12:08:56.876794Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: Java 11 OpenJDK ELS Security Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9254",
+    "score": 7.6,
+    "date": "2026-09-19T05:24:49+00:00"
    },
    {
-    "title": "RLSA-2026:66349 — Important: freerdp security update",
-    "url": "https://github.com/advisories/RLSA-2026:66349",
-    "score": 8.8,
-    "date": "2026-09-11T12:09:43.142170Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 25.0.3 Security Update for Portable Linux Builds (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9694",
+    "score": 7.5,
+    "date": "2026-09-19T05:25:08+00:00"
    },
    {
-    "title": "RLSA-2026:66336 — Important: vim security update",
-    "url": "https://github.com/advisories/RLSA-2026:66336",
-    "score": 8.8,
-    "date": "2026-09-11T12:09:43.142170Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 21.0.11 Security Update for Windows Builds (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9691",
+    "score": 7.5,
+    "date": "2026-09-19T05:25:04+00:00"
    },
    {
-    "title": "RLSA-2026:65895 — Important: osbuild-composer security update",
-    "url": "https://github.com/advisories/RLSA-2026:65895",
-    "score": 8.8,
-    "date": "2026-09-10T00:09:11.134895Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 21.0.11 Security Update for Portable Linux Builds (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9690",
+    "score": 7.5,
+    "date": "2026-09-19T05:25:02+00:00"
    },
    {
-    "title": "RLSA-2026:65887 — Important: perl-DBI security update",
-    "url": "https://github.com/advisories/RLSA-2026:65887",
-    "score": 8.8,
-    "date": "2026-09-10T00:09:11.134895Z"
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 17.0.19 Security Update for Windows Builds (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9688",
+    "score": 7.5,
+    "date": "2026-09-19T05:25:00+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 17.0.19 Security Update for Portable Linux Builds (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9687",
+    "score": 7.5,
+    "date": "2026-09-19T05:24:58+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 8u492 Windows Security Update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9685",
+    "score": 7.5,
+    "date": "2026-09-19T05:24:54+00:00"
+   },
+   {
+    "title": "CVE-2026-22007 — Red Hat Security Advisory: OpenJDK 8u492 Security Update for Portable Linux Builds (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9684",
+    "score": 7.5,
+    "date": "2026-09-19T05:24:53+00:00"
    }
   ],
   "kev": [
@@ -469,7 +469,7 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 583,
+    "stars": 611,
     "lang": "Python"
    },
    {
@@ -481,13 +481,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 363,
+    "stars": 364,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 246,
+    "stars": 249,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 166,
+    "stars": 167,
     "lang": "JavaScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 148,
+    "stars": 151,
     "lang": "PowerShell"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1716,
   "adv": 12,
   "feed": 48
