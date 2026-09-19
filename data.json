@@ -1,48 +1,12 @@
 {
- "generatedAt": "2026-09-19T18:05:38.572Z",
+ "generatedAt": "2026-09-19T20:48:26.380Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-45288 — Security update for grafana (+26 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_20654-1.json",
-    "score": 9.9,
-    "date": "2026-09-19T15:43:57Z"
-   },
-   {
-    "title": "CVE-2024-45337 — Security update for rclone (+13 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_20620-1.json",
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
     "score": 9.8,
-    "date": "2026-09-19T15:43:57Z"
-   },
-   {
-    "title": "CVE-2024-10468 — firefox-esr-153.0-1.1 on GA media (+227 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_11373-1.json",
-    "score": 9.8,
-    "date": "2026-09-19T15:43:23Z"
-   },
-   {
-    "title": "CVE-2024-44981 — Security update for the Linux Kernel (+587 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23481-1.json",
-    "score": 9.8,
-    "date": "2026-09-19T15:42:20Z"
-   },
-   {
-    "title": "CVE-2024-44981 — Security update for the Linux Kernel (+587 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23477-1.json",
-    "score": 9.8,
-    "date": "2026-09-19T15:42:18Z"
-   },
-   {
-    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+646 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23244-1.json",
-    "score": 9.8,
-    "date": "2026-09-19T15:41:54Z"
-   },
-   {
-    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+647 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23241-1.json",
-    "score": 9.8,
-    "date": "2026-09-19T15:41:53Z"
+    "date": "2026-09-19T18:14:47+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -57,34 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-10881 — Security update for chromium (+563 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_21135-1.json",
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
     "score": 9.6,
-    "date": "2026-09-19T15:44:00Z"
+    "date": "2026-09-19T18:14:49+00:00"
    },
    {
-    "title": "CVE-2026-10881 — chromedriver-149.0.7827.53-2.1 on GA media (+428 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_10958-1.json",
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
     "score": 9.6,
-    "date": "2026-09-19T15:43:05Z"
+    "date": "2026-09-19T18:14:48+00:00"
    },
    {
-    "title": "CVE-2026-2141 — python311-pyasn1-0.6.2-1.1 on GA media (+1 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_10078-1.json",
-    "score": 8.8,
-    "date": "2026-09-19T15:42:50Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-09-19T18:14:36+00:00"
    },
    {
-    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+266 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_3810-1.json",
-    "score": 8.8,
-    "date": "2026-09-19T15:42:34Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:08+00:00"
    },
    {
-    "title": "CVE-2026-3886 — Security update for qemu",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23362-1.json",
-    "score": 8.8,
-    "date": "2026-09-19T15:42:03Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:05+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:04+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:03+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:03+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:02+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:01+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-09-19T18:15:01+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "date": "Sun, 20 Sep 2026 00:06:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
     "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
     "date": "Sat, 19 Sep 2026 18:58:48 +0530",
@@ -299,13 +306,6 @@
     "title": "Identity Visibility in 2026: The Foundation of Identity Security",
     "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
     "date": "Sat, 19 Sep 2026 18:58:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "date": "Sat, 19 Sep 2026 18:58:35 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -463,13 +463,13 @@
    {
     "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
     "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 656,
+    "stars": 703,
     "lang": "Python"
    },
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 637,
+    "stars": 638,
     "lang": "TypeScript"
    },
    {
@@ -517,13 +517,13 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 152,
+    "stars": 153,
     "lang": "PowerShell"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 124,
+    "stars": 125,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 11,
+  "crit": 14,
   "kev": 1716,
   "adv": 12,
   "feed": 48
