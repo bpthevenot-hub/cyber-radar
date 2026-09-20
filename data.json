@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-09-19T23:12:30.611Z",
+ "generatedAt": "2026-09-20T01:16:32.197Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-09-19T18:14:47+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-09-19T18:14:49+00:00"
+    "title": "CVE-2026-93993 — Mistral Vibe before 2.25.5 contains a remote code execution vulnerability in the worktree creation process that executes git hooks before tr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93993",
+    "score": 8.8,
+    "date": "2026-09-20T00:30:24Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-09-19T18:14:48+00:00"
+    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:67471",
+    "score": 8.8,
+    "date": "2026-09-16T12:09:37.746677Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:08+00:00"
+    "title": "RLSA-2026:67280 — Important: postgresql18 security update",
+    "url": "https://github.com/advisories/RLSA-2026:67280",
+    "score": 8.8,
+    "date": "2026-09-15T12:08:56.876794Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:05+00:00"
+    "title": "RLSA-2026:66349 — Important: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:66349",
+    "score": 8.8,
+    "date": "2026-09-11T12:09:43.142170Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:04+00:00"
+    "title": "RLSA-2026:66336 — Important: vim security update",
+    "url": "https://github.com/advisories/RLSA-2026:66336",
+    "score": 8.8,
+    "date": "2026-09-11T12:09:43.142170Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:03+00:00"
+    "title": "RLSA-2026:65895 — Important: osbuild-composer security update",
+    "url": "https://github.com/advisories/RLSA-2026:65895",
+    "score": 8.8,
+    "date": "2026-09-10T00:09:11.134895Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:03+00:00"
+    "title": "RLSA-2026:65887 — Important: perl-DBI security update",
+    "url": "https://github.com/advisories/RLSA-2026:65887",
+    "score": 8.8,
+    "date": "2026-09-10T00:09:11.134895Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:02+00:00"
+    "title": "RLSA-2026:65534 — Important: image-builder security update",
+    "url": "https://github.com/advisories/RLSA-2026:65534",
+    "score": 8.8,
+    "date": "2026-09-09T18:08:44.206459Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:01+00:00"
+    "title": "RLSA-2026:67909 — Important: libevent security update",
+    "url": "https://github.com/advisories/RLSA-2026:67909",
+    "score": 8.6,
+    "date": "2026-09-17T12:09:45.694481Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:01+00:00"
+    "title": "RLSA-2026:67463 — Important: rsync security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:67463",
+    "score": 8.2,
+    "date": "2026-09-15T12:08:56.876794Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
-    "score": 9.1,
-    "date": "2026-09-19T18:15:00+00:00"
+    "title": "RLSA-2026:66432 — Important: osbuild-composer security update",
+    "url": "https://github.com/advisories/RLSA-2026:66432",
+    "score": 8.2,
+    "date": "2026-09-11T12:09:43.142170Z"
+   },
+   {
+    "title": "CVE-2026-93992 — Gopeed through 2.0.0-beta.3 contains a path traversal vulnerability in archive extraction that allows attackers to write arbitrary files out",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93992",
+    "score": 8.1,
+    "date": "2026-09-20T00:30:23Z"
    }
   ],
   "kev": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1716,
   "adv": 12,
   "feed": 48
