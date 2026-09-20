@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-20T06:27:11.599Z",
+ "generatedAt": "2026-09-20T12:27:36.222Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-4800 — Red Hat Security Advisory: OpenShift Container Platform 4.19.40 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:44235",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:55+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.50 bug fix and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:44233",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:54+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.14.70 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43253",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:52+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:51+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.16.67 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43331",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:50+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.15.67 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43227",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:49+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.15.67 packages and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43225",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:49+00:00"
+   },
+   {
+    "title": "CVE-2026-5422 — Red Hat Security Advisory: Migration Toolkit for Applications (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43038",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:49+00:00"
+   },
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.9 - Red Hat OpenShift AI (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42644",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:46+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.19.2.1 Async Update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42240",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:46+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.18.7.1 Async Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42151",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:46+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.17.9.1 Async Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42150",
+    "score": 9.1,
+    "date": "2026-09-20T12:07:45+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+    "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+    "date": "Sun, 20 Sep 2026 08:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "BragJack attacks hijack AI browser agents through malicious extensions",
     "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
     "date": "Sat, 19 Sep 2026 10:56:31 -0400",
@@ -365,13 +457,6 @@
     "date": "Fri, 18 Sep 2026 05:34:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-    "date": "Fri, 18 Sep 2026 03:35:31 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -396,13 +481,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 370,
+    "stars": 376,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 254,
+    "stars": 256,
     "lang": "Python"
    },
    {
@@ -420,7 +505,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 168,
+    "stars": 169,
     "lang": "JavaScript"
    },
    {
@@ -432,7 +517,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 154,
+    "stars": 153,
     "lang": "PowerShell"
    },
    {
@@ -444,7 +529,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 116,
+    "stars": 120,
     "lang": "Python"
    }
   ],
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1716,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
