@@ -1,7 +1,56 @@
 {
- "generatedAt": "2026-09-21T14:17:37.804Z",
+ "generatedAt": "2026-09-21T20:00:41.623Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "MAL-2026-16357 — Malicious code in @asdfaskdjfksadhfkasf/nadaver2 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16357",
+    "score": null,
+    "date": "2026-09-21T19:06:07Z"
+   },
+   {
+    "title": "MAL-2026-16360 — Malicious code in @uh-platform/nadaver (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16360",
+    "score": null,
+    "date": "2026-09-21T18:56:37Z"
+   },
+   {
+    "title": "MAL-2026-16359 — Malicious code in @uh-platform/domain-widget (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16359",
+    "score": null,
+    "date": "2026-09-21T18:56:28Z"
+   },
+   {
+    "title": "MAL-2026-16362 — Malicious code in @uh-platform/webcard (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16362",
+    "score": null,
+    "date": "2026-09-21T18:56:16Z"
+   },
+   {
+    "title": "MAL-2026-16358 — Malicious code in @uh-platform/cloud (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16358",
+    "score": null,
+    "date": "2026-09-21T18:56:08Z"
+   },
+   {
+    "title": "MAL-2026-16361 — Malicious code in @uh-platform/nadaver2 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16361",
+    "score": null,
+    "date": "2026-09-21T18:56:00Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,6 +167,13 @@
   ],
   "adv": [
    {
+    "title": "Hatchet - Unauthenticated OAuth state CSRF / login-CSRF via empty-state collision in ValidateOAuthState",
+    "url": "https://github.com/advisories/GHSA-phg3-3g28-wq9v",
+    "score": 7.1,
+    "ghsa": "GHSA-phg3-3g28-wq9v",
+    "date": "2026-09-21T15:47:01Z"
+   },
+   {
     "title": "Obot: Server-Side Request Forgery via remote MCP server URL",
     "url": "https://github.com/advisories/GHSA-jgh3-fggc-mcpm",
     "score": 7.6,
@@ -193,16 +249,44 @@
     "score": 7.5,
     "ghsa": "GHSA-7q85-xj36-vmfc",
     "date": "2026-09-18T17:18:01Z"
-   },
-   {
-    "title": "Process Compose: Browser DNS rebinding lets websites control local process-compose MCP tools",
-    "url": "https://github.com/advisories/GHSA-5gm3-9crp-6g3v",
-    "score": null,
-    "ghsa": "GHSA-5gm3-9crp-6g3v",
-    "date": "2026-09-18T17:17:51Z"
    }
   ],
   "thn": [
+   {
+    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+    "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+    "date": "Mon, 21 Sep 2026 23:01:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+    "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+    "date": "Mon, 21 Sep 2026 22:49:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+    "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+    "date": "Mon, 21 Sep 2026 22:27:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+    "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+    "date": "Mon, 21 Sep 2026 19:54:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+    "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+    "date": "Mon, 21 Sep 2026 19:45:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
     "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
@@ -251,44 +335,37 @@
     "date": "Sat, 19 Sep 2026 13:48:54 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-    "date": "Sat, 19 Sep 2026 13:21:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-    "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-    "date": "Sat, 19 Sep 2026 12:44:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-    "date": "Sat, 19 Sep 2026 11:54:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-    "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-    "date": "Fri, 18 Sep 2026 23:32:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-    "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-    "date": "Fri, 18 Sep 2026 22:26:19 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+    "date": "Mon, 21 Sep 2026 14:23:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+    "date": "Mon, 21 Sep 2026 13:54:49 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Google fined €403 million over location data privacy violations",
+    "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+    "date": "Mon, 21 Sep 2026 11:41:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+    "date": "Mon, 21 Sep 2026 10:42:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
     "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
@@ -344,34 +421,6 @@
     "date": "Sat, 19 Sep 2026 09:48:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-    "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-    "date": "Sat, 19 Sep 2026 07:38:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-    "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-    "date": "Fri, 18 Sep 2026 12:00:38 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-    "date": "Fri, 18 Sep 2026 11:19:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-    "url": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-    "date": "Fri, 18 Sep 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,13 +433,13 @@
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 639,
+    "stars": 642,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 424,
+    "stars": 425,
     "lang": "JavaScript"
    },
    {
@@ -414,7 +463,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 170,
+    "stars": 171,
     "lang": "JavaScript"
    },
    {
@@ -432,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 143,
+    "stars": 149,
     "lang": "Python"
    },
    {
@@ -550,9 +599,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "ZTE SmartHome Account Takeover: Password Reset Without Verification Code. 4 CVEs, 100K+ Android Downloads - CVE-2026-86553",
+    "url": "https://www.reddit.com/r/netsec/comments/1wmhror/zte_smarthome_account_takeover_password_reset/",
+    "date": "2026-09-21T16:30:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Three memory-safety bugs in Godot's untrusted-file parsers",
     "url": "https://www.reddit.com/r/netsec/comments/1wm7krn/three_memorysafety_bugs_in_godots_untrustedfile/",
     "date": "2026-09-21T09:08:49+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Implant Encryption via the Dump Encoding Library",
+    "url": "https://www.reddit.com/r/netsec/comments/1wmkcg0/implant_encryption_via_the_dump_encoding_library/",
+    "date": "2026-09-21T18:02:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -604,25 +667,11 @@
     "date": "2026-09-18T04:58:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Fragnesia primitive via Open vSwitch. Deterministic local privilege escalation.",
-    "url": "https://www.reddit.com/r/netsec/comments/1wimrzt/fragnesia_primitive_via_open_vswitch/",
-    "date": "2026-09-17T07:06:38+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The Hacker's Guide to Attacking AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wib5on/the_hackers_guide_to_attacking_ai_agents/",
-    "date": "2026-09-16T21:56:51+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +681,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
-  "kev": 1716,
+  "crit": 2,
+  "kev": 1717,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
