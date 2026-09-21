@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-21T01:11:47.765Z",
+ "generatedAt": "2026-09-21T06:28:27.732Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2016-1705 — Red Hat Security Advisory: chromium-browser security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2016:1485",
+    "score": 8.8,
+    "date": "2026-09-21T05:38:16+00:00"
+   },
+   {
+    "title": "CVE-2018-0495 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.29 SP2 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2019:1543",
+    "score": 8.8,
+    "date": "2026-09-21T05:36:58+00:00"
+   },
+   {
+    "title": "CVE-2018-0495 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.29 SP2 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2019:1297",
+    "score": 8.8,
+    "date": "2026-09-21T05:36:56+00:00"
+   },
+   {
+    "title": "CVE-2018-0495 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.29 SP2 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2019:1296",
+    "score": 8.8,
+    "date": "2026-09-21T05:36:55+00:00"
+   },
+   {
+    "title": "CVE-2019-0211 — Red Hat Security Advisory: httpd:2.4 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2019:0980",
+    "score": 8.8,
+    "date": "2026-09-21T05:36:55+00:00"
+   },
+   {
+    "title": "CVE-2019-0211 — Red Hat Security Advisory: httpd24-httpd and httpd24-mod_auth_mellon security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2019:0746",
+    "score": 8.8,
+    "date": "2026-09-21T05:36:54+00:00"
+   },
+   {
+    "title": "CVE-2016-10739 — Red Hat Bug Fix Advisory: Container Image Rebuild for Ansible Tower 3.4 Dependency (+48 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2020:0547",
+    "score": 8.8,
+    "date": "2026-09-21T05:36:52+00:00"
+   },
+   {
+    "title": "CVE-2015-0209 — Red Hat Security Advisory: Red Hat JBoss Web Server 3.0.3 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2016:1089",
+    "score": 8.8,
+    "date": "2026-09-21T05:35:07+00:00"
+   },
+   {
+    "title": "CVE-2016-0705 — Red Hat Security Advisory: java-1.8.0-ibm security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2018:2713",
+    "score": 8.4,
+    "date": "2026-09-21T05:35:12+00:00"
+   },
+   {
+    "title": "CVE-2016-0705 — Red Hat Security Advisory: java-1.8.0-ibm security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2018:2575",
+    "score": 8.4,
+    "date": "2026-09-21T05:35:11+00:00"
+   },
+   {
+    "title": "CVE-2016-0705 — Red Hat Security Advisory: java-1.8.0-ibm security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2018:2568",
+    "score": 8.4,
+    "date": "2026-09-21T05:35:10+00:00"
+   },
+   {
+    "title": "CVE-2018-0495 — Red Hat Security Advisory: nss-softokn security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:1267",
+    "score": 8.1,
+    "date": "2026-09-21T05:37:06+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+    "date": "Mon, 21 Sep 2026 11:36:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
     "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
     "date": "Sun, 20 Sep 2026 00:06:53 +0530",
@@ -277,13 +369,6 @@
     "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
     "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
     "date": "Fri, 18 Sep 2026 20:54:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-    "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-    "date": "Fri, 18 Sep 2026 18:17:04 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -390,13 +475,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 401,
+    "stars": 415,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 256,
+    "stars": 259,
     "lang": "Python"
    },
    {
@@ -426,13 +511,13 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 160,
+    "stars": 161,
     "lang": "PowerShell"
    },
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 132,
+    "stars": 137,
     "lang": "Python"
    },
    {
@@ -557,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Silent packet loss in PcapSplitter: a file collision bug on TCP session reuse",
+    "url": "https://www.reddit.com/r/netsec/comments/1wlzrut/silent_packet_loss_in_pcapsplitter_a_file/",
+    "date": "2026-09-21T02:05:00+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "BragJack - $20K in bounty rewards from Anthropic, Perplexity, Google, Microsoft and Opera Using 1 Extension",
     "url": "https://www.reddit.com/r/netsec/comments/1wkrcgz/bragjack_20k_in_bounty_rewards_from_anthropic/",
     "date": "2026-09-19T16:57:24+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-09-16T15:21:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Bypassing Referer-Based CSRF with strict-origin-when-cross-origin",
-    "url": "https://www.reddit.com/r/netsec/comments/1whxuyv/bypassing_refererbased_csrf_with/",
-    "date": "2026-09-16T13:52:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1716,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
