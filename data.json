@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-09-23T06:03:54.523Z",
+ "generatedAt": "2026-09-23T11:47:55.105Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +217,34 @@
   ],
   "thn": [
    {
+    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+    "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "date": "Wed, 23 Sep 2026 13:59:48 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "date": "Wed, 23 Sep 2026 13:59:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "date": "Wed, 23 Sep 2026 12:34:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "date": "Wed, 23 Sep 2026 11:00:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
     "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
     "date": "Tue, 22 Sep 2026 23:59:39 +0530",
@@ -258,37 +299,30 @@
     "date": "Tue, 22 Sep 2026 17:59:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-    "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-    "date": "Tue, 22 Sep 2026 17:15:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-    "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-    "date": "Tue, 22 Sep 2026 17:08:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-    "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-    "date": "Tue, 22 Sep 2026 16:47:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-    "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-    "date": "Tue, 22 Sep 2026 15:08:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft: September Windows updates break Always On VPN connections",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "date": "Wed, 23 Sep 2026 07:18:13 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Ryuk ransomware member sentenced to 24 months in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "date": "Wed, 23 Sep 2026 04:20:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "date": "Wed, 23 Sep 2026 03:17:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Rogue external MFA providers can steal passwords during logins",
     "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
@@ -351,27 +385,6 @@
     "date": "Tue, 22 Sep 2026 08:57:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-    "date": "Tue, 22 Sep 2026 08:48:06 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-    "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-    "date": "Tue, 22 Sep 2026 05:55:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-    "date": "Tue, 22 Sep 2026 04:53:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,13 +397,13 @@
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 534,
+    "stars": 530,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 430,
+    "stars": 432,
     "lang": "JavaScript"
    },
    {
@@ -406,21 +419,21 @@
     "lang": "Go"
    },
    {
+    "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
+    "url": "https://github.com/XiantingWu/PQCensus",
+    "stars": 186,
+    "lang": "Python"
+   },
+   {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
     "stars": 183,
     "lang": "Python"
    },
    {
-    "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
-    "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 182,
-    "lang": "Python"
-   },
-   {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 174,
+    "stars": 173,
     "lang": "JavaScript"
    },
    {
@@ -550,9 +563,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Frame: Grounding LLM Vulnerability Detection with a Sound Separation-Logic Core",
-    "url": "https://www.reddit.com/r/netsec/comments/1wnr20b/frame_grounding_llm_vulnerability_detection_with/",
-    "date": "2026-09-23T00:35:20+00:00",
+    "title": "Leaked GitHub App private keys let researchers impersonate 440 apps including CDC and BuildBuddy",
+    "url": "https://www.reddit.com/r/netsec/comments/1wnwy4b/leaked_github_app_private_keys_let_researchers/",
+    "date": "2026-09-23T05:20:37+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -564,9 +577,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Leaked GitHub App private keys let researchers impersonate 440 apps including CDC and BuildBuddy",
-    "url": "https://www.reddit.com/r/netsec/comments/1wnwy4b/leaked_github_app_private_keys_let_researchers/",
-    "date": "2026-09-23T05:20:37+00:00",
+    "title": "Frame: Grounding LLM Vulnerability Detection with a Sound Separation-Logic Core",
+    "url": "https://www.reddit.com/r/netsec/comments/1wnr20b/frame_grounding_llm_vulnerability_detection_with/",
+    "date": "2026-09-23T00:35:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -599,6 +612,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Free, hands-on 14-week university security course (open to anyone online)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wn4zku/free_handson_14week_university_security_course/",
+    "date": "2026-09-22T09:46:15+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Implant Encryption via the Dump Encoding Library",
     "url": "https://www.reddit.com/r/netsec/comments/1wmkcg0/implant_encryption_via_the_dump_encoding_library/",
     "date": "2026-09-21T18:02:34+00:00",
@@ -611,18 +631,11 @@
     "date": "2026-09-21T09:08:49+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "AI Agents Keep Falling to 'Goal Hijack' (Copilot, Cursor, Grok)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wlnmg6/ai_agents_keep_falling_to_goal_hijack_copilot/",
-    "date": "2026-09-20T17:46:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1721,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
