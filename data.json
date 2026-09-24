@@ -1,92 +1,7 @@
 {
- "generatedAt": "2026-09-24T19:16:53.699Z",
+ "generatedAt": "2026-09-24T22:33:11.980Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-95985 — The file write tool in Amazon Kiro IDE versions before 1.0.242 might allow remote unauthenticated actors to inject crafted instructions into",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95985",
-    "score": 8.8,
-    "date": "2026-09-24T18:31:36Z"
-   },
-   {
-    "title": "CVE-2026-10609 — OpenShift Cluster Logging Operator missing authorization flaw",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10609",
-    "score": 6.8,
-    "date": "2026-06-23T15:32:37Z"
-   },
-   {
-    "title": "CVE-2026-97232 — A vulnerability was determined in volotat Anagnorisis up to 0.4.2. Affected by this vulnerability is the function get_file_content/save_file",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97232",
-    "score": 6.3,
-    "date": "2026-09-24T18:31:36Z"
-   },
-   {
-    "title": "CVE-2026-47132 — phpMyFAQ: SQL LIKE Wildcard Injection in Chat User Search Allows Authenticated User Enumeration",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47132",
-    "score": 5.4,
-    "date": "2026-08-12T15:17:54Z"
-   },
-   {
-    "title": "CVE-2026-97233 — A vulnerability was identified in volotat Anagnorisis up to 0.4.11. Affected by this issue is the function html of the file PlaylistManager.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97233",
-    "score": 3.5,
-    "date": "2026-09-24T18:31:37Z"
-   },
-   {
-    "title": "CVE-2026-97520 — In the Linux kernel, the following vulnerability has been resolved: gfs2: move quota_init qc iterator increment Move qc++ from the loop body",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97520",
-    "score": null,
-    "date": "2026-09-24T18:31:36Z"
-   },
-   {
-    "title": "CVE-2026-97521 — In the Linux kernel, the following vulnerability has been resolved: gfs2: fix quota init duplicate scan gfs2_quota_init() checks for duplica",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97521",
-    "score": null,
-    "date": "2026-09-24T18:31:36Z"
-   },
-   {
-    "title": "CVE-2026-97519 — In the Linux kernel, the following vulnerability has been resolved: drm/xe: Fix null pointer dereference in devcoredump cleanup In xe_devcor",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97519",
-    "score": null,
-    "date": "2026-09-24T18:31:36Z"
-   },
-   {
-    "title": "CVE-2026-97498 — In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu/userq: pin mqd and fw object bo to avoid eviction mqd and fw ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97498",
-    "score": null,
-    "date": "2026-09-24T18:31:35Z"
-   },
-   {
-    "title": "CVE-2026-97504 — In the Linux kernel, the following vulnerability has been resolved: watchdog: lenovo_se10_wdt: Fix use-after-free and resource leak risk Rev",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97504",
-    "score": null,
-    "date": "2026-09-24T18:31:35Z"
-   },
-   {
-    "title": "CVE-2026-97513 — In the Linux kernel, the following vulnerability has been resolved: media: chips-media: wave5: Release m2m_ctx after Instance Removed from L",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97513",
-    "score": null,
-    "date": "2026-09-24T18:31:35Z"
-   },
-   {
-    "title": "CVE-2026-97510 — In the Linux kernel, the following vulnerability has been resolved: thunderbolt: Release request if tb_cfg_request() fails in __tb_xdomain_r",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97510",
-    "score": null,
-    "date": "2026-09-24T18:31:35Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -203,88 +118,88 @@
   ],
   "adv": [
    {
-    "title": "Language Servers for AWS vulnerable to arbitrary file write",
-    "url": "https://github.com/advisories/GHSA-6v3r-4p5c-mrp5",
-    "score": 7.8,
-    "ghsa": "GHSA-6v3r-4p5c-mrp5",
-    "date": "2026-09-24T19:15:39Z"
+    "title": "Contao: Server-Side Request Forgery (SSRF) via Unvalidated RSS Feed URL in Feed Reader Module",
+    "url": "https://github.com/advisories/GHSA-87mg-5grr-rhwh",
+    "score": 3.1,
+    "ghsa": "GHSA-87mg-5grr-rhwh",
+    "date": "2026-09-24T19:59:16Z"
    },
    {
-    "title": "Language Servers for AWS Vulnerable to Arbitrary Code Execution",
-    "url": "https://github.com/advisories/GHSA-xhcr-j4j9-3gh7",
-    "score": 7.5,
-    "ghsa": "GHSA-xhcr-j4j9-3gh7",
-    "date": "2026-09-24T19:13:53Z"
-   },
-   {
-    "title": "yara-x: Unvalidated deserialization in safe `Rules::deserialize` allows memory corruption and UB",
-    "url": "https://github.com/advisories/GHSA-2jx3-ff3v-j7jj",
-    "score": null,
-    "ghsa": "GHSA-2jx3-ff3v-j7jj",
-    "date": "2026-09-24T19:09:28Z"
-   },
-   {
-    "title": "Snipe-IT: Stored XSS via Inline XML Rendering in the Uploaded Files API",
-    "url": "https://github.com/advisories/GHSA-396x-xmvh-p563",
-    "score": 8.7,
-    "ghsa": "GHSA-396x-xmvh-p563",
-    "date": "2026-09-24T18:19:38Z"
-   },
-   {
-    "title": "ZITADEL: MFA bypass via session reuse in Login V2",
-    "url": "https://github.com/advisories/GHSA-9993-rfwp-rhwf",
-    "score": 8.2,
-    "ghsa": "GHSA-9993-rfwp-rhwf",
-    "date": "2026-09-24T18:19:35Z"
-   },
-   {
-    "title": "ZITADEL: Actions V1 sandbox escape: host file read via require()",
-    "url": "https://github.com/advisories/GHSA-fgmf-7rf8-m6vf",
-    "score": 8.7,
-    "ghsa": "GHSA-fgmf-7rf8-m6vf",
-    "date": "2026-09-24T18:19:32Z"
-   },
-   {
-    "title": "Snipe-IT: Stored XSS via Custom Field name in asset-list column headers",
-    "url": "https://github.com/advisories/GHSA-p9h3-gvpq-5539",
-    "score": 8.1,
-    "ghsa": "GHSA-p9h3-gvpq-5539",
-    "date": "2026-09-24T18:19:30Z"
-   },
-   {
-    "title": "Dozzle label filters do not restrict container event and statistics streams",
-    "url": "https://github.com/advisories/GHSA-xcw9-qmmf-vqxj",
-    "score": 4.3,
-    "ghsa": "GHSA-xcw9-qmmf-vqxj",
-    "date": "2026-09-24T18:15:10Z"
-   },
-   {
-    "title": "Snipe-IT: 2FA bypass via the API token flow",
-    "url": "https://github.com/advisories/GHSA-hxcx-9h4f-42xx",
-    "score": 7.5,
-    "ghsa": "GHSA-hxcx-9h4f-42xx",
-    "date": "2026-09-24T16:38:27Z"
-   },
-   {
-    "title": "podman quadlet install --replace does not fully replace the old file",
-    "url": "https://github.com/advisories/GHSA-fx76-2j3w-2mx6",
+    "title": "social-auth-core has a Session Fixation issue",
+    "url": "https://github.com/advisories/GHSA-vqg6-3fw6-j9jg",
     "score": 4.2,
-    "ghsa": "GHSA-fx76-2j3w-2mx6",
-    "date": "2026-09-24T16:28:26Z"
+    "ghsa": "GHSA-vqg6-3fw6-j9jg",
+    "date": "2026-09-24T19:58:14Z"
    },
    {
-    "title": "Streamlink: HTTPSession follows HTTP redirects into file:// URLs, reading local files",
-    "url": "https://github.com/advisories/GHSA-vf2x-4v53-pm7v",
-    "score": 6.5,
-    "ghsa": "GHSA-vf2x-4v53-pm7v",
-    "date": "2026-09-24T14:58:04Z"
+    "title": "social-auth-core: VK App backend accepts unsigned callback data when auth_key is missing",
+    "url": "https://github.com/advisories/GHSA-3c93-f73f-qc9h",
+    "score": 7.4,
+    "ghsa": "GHSA-3c93-f73f-qc9h",
+    "date": "2026-09-24T19:57:22Z"
    },
    {
-    "title": "SunEditor: Critical XSS vulnerability - sanitizer bypass",
-    "url": "https://github.com/advisories/GHSA-6rf4-v2fh-m6p4",
-    "score": 10,
-    "ghsa": "GHSA-6rf4-v2fh-m6p4",
-    "date": "2026-09-24T14:57:55Z"
+    "title": "social-auth-core has Login CSRF via Missing State Parameter in LoginRadius Backend",
+    "url": "https://github.com/advisories/GHSA-x7qq-23vw-7pfg",
+    "score": 4.3,
+    "ghsa": "GHSA-x7qq-23vw-7pfg",
+    "date": "2026-09-24T19:56:39Z"
+   },
+   {
+    "title": "social-auth-core Vulnerable to Account Takeover via Identity Binding Flaw in Vend Backend",
+    "url": "https://github.com/advisories/GHSA-fp7w-m676-w7gc",
+    "score": 6.8,
+    "ghsa": "GHSA-fp7w-m676-w7gc",
+    "date": "2026-09-24T19:55:57Z"
+   },
+   {
+    "title": "social-auth-core has an Improper Authentication issue",
+    "url": "https://github.com/advisories/GHSA-vq6g-g6c7-5f2j",
+    "score": 6.4,
+    "ghsa": "GHSA-vq6g-g6c7-5f2j",
+    "date": "2026-09-24T19:54:48Z"
+   },
+   {
+    "title": "Ash: Private action arguments can be set by user input via string-keyed params and atomic changesets",
+    "url": "https://github.com/advisories/GHSA-f4hc-ppw9-4hhw",
+    "score": null,
+    "ghsa": "GHSA-f4hc-ppw9-4hhw",
+    "date": "2026-09-24T19:53:36Z"
+   },
+   {
+    "title": "Trestle is vulnerable to arbitrary file write via path traversal in author generate commands (Incomplete fix of CVE-2026-46345)",
+    "url": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
+    "score": 8.4,
+    "ghsa": "GHSA-r4vp-3vw6-r2x5",
+    "date": "2026-09-24T19:52:34Z"
+   },
+   {
+    "title": "Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
+    "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
+    "score": 7.8,
+    "ghsa": "GHSA-mr95-65j8-9mxp",
+    "date": "2026-09-24T19:50:27Z"
+   },
+   {
+    "title": "Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
+    "url": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
+    "score": 8.8,
+    "ghsa": "GHSA-3cj3-hqcr-g934",
+    "date": "2026-09-24T19:48:34Z"
+   },
+   {
+    "title": "zbateson/mail-mime-parser has CRLF header injection via attachment filename",
+    "url": "https://github.com/advisories/GHSA-36h5-qg4p-q2qf",
+    "score": 7.2,
+    "ghsa": "GHSA-36h5-qg4p-q2qf",
+    "date": "2026-09-24T19:46:32Z"
+   },
+   {
+    "title": "zbateson/mail-mime-parser has uncontrolled resource consumption (CPU/memory DoS) parsing untrusted MIME",
+    "url": "https://github.com/advisories/GHSA-f6v3-2qmr-vfjx",
+    "score": 7.5,
+    "ghsa": "GHSA-f6v3-2qmr-vfjx",
+    "date": "2026-09-24T19:45:05Z"
    }
   ],
   "thn": [
@@ -375,6 +290,20 @@
   ],
   "bleep": [
    {
+    "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+    "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+    "date": "Thu, 24 Sep 2026 16:53:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+    "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "date": "Thu, 24 Sep 2026 16:10:48 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Exposed GitLab project email addresses let attackers push code",
     "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
     "date": "Thu, 24 Sep 2026 13:47:44 -0400",
@@ -443,20 +372,6 @@
     "date": "Wed, 23 Sep 2026 15:53:54 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers start exploiting critical WordPress flaw for code execution",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-    "date": "Wed, 23 Sep 2026 14:31:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-    "date": "Wed, 23 Sep 2026 12:20:54 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +384,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 449,
+    "stars": 451,
     "lang": "JavaScript"
    },
    {
@@ -487,7 +402,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 206,
+    "stars": 207,
     "lang": "Python"
    },
    {
@@ -499,7 +414,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 175,
+    "stars": 176,
     "lang": "JavaScript"
    },
    {
@@ -523,7 +438,7 @@
    {
     "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
     "url": "https://github.com/4x3/nulltrace",
-    "stars": 115,
+    "stars": 120,
     "lang": "Go"
    },
    {
@@ -635,6 +550,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CVE-2026-91766: PHP had the redirect credential leak curl fixed in 2018",
+    "url": "https://www.reddit.com/r/netsec/comments/1wpcgf9/cve202691766_php_had_the_redirect_credential_leak/",
+    "date": "2026-09-24T20:19:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Uncensored Qwen 3.8 27b helped write a LSASS Dumper which bypassed EDR while I made myself coffee",
     "url": "https://www.reddit.com/r/netsec/comments/1wotpuj/uncensored_qwen_38_27b_helped_write_a_lsass/",
     "date": "2026-09-24T06:04:24+00:00",
@@ -649,9 +571,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "One Tap Too Far: Using Shortcuts to Bypass Chrome for iOS Call Prompts",
-    "url": "https://www.reddit.com/r/netsec/comments/1wp56y2/one_tap_too_far_using_shortcuts_to_bypass_chrome/",
-    "date": "2026-09-24T15:45:32+00:00",
+    "title": "The 2026 State of AI Security Report has three numbers that really stuck with me: 81%, 50.1%, 99.9%",
+    "url": "https://www.reddit.com/r/netsec/comments/1wpetk9/the_2026_state_of_ai_security_report_has_three/",
+    "date": "2026-09-24T21:54:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -659,6 +581,20 @@
     "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
     "url": "https://www.reddit.com/r/netsec/comments/1wp466a/how_cloudflare_addressed_a_crosstenant_data/",
     "date": "2026-09-24T15:07:04+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "One Tap Too Far: Using Shortcuts to Bypass Chrome for iOS Call Prompts",
+    "url": "https://www.reddit.com/r/netsec/comments/1wp56y2/one_tap_too_far_using_shortcuts_to_bypass_chrome/",
+    "date": "2026-09-24T15:45:32+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
+    "url": "https://www.reddit.com/r/netsec/comments/1wpddil/lunex_unmasked_a_new_information_stealer_deployed/",
+    "date": "2026-09-24T20:56:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -682,32 +618,11 @@
     "date": "2026-09-23T19:56:02+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Leaked GitHub App private keys let researchers impersonate 440 apps including CDC and BuildBuddy",
-    "url": "https://www.reddit.com/r/netsec/comments/1wnwy4b/leaked_github_app_private_keys_let_researchers/",
-    "date": "2026-09-23T05:20:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Inside Corp MDM, the Android spyware targeting logistics companies",
-    "url": "https://www.reddit.com/r/netsec/comments/1wo6oo5/inside_corp_mdm_the_android_spyware_targeting/",
-    "date": "2026-09-23T13:54:56+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "ATT&amp;CKing TACACS+ to Pwn Your Network via a Pre-Auth RCE - elttam",
-    "url": "https://www.reddit.com/r/netsec/comments/1wnvaik/attcking_tacacs_to_pwn_your_network_via_a_preauth/",
-    "date": "2026-09-23T03:53:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -717,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1721,
+  "crit": 0,
+  "kev": 1723,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
