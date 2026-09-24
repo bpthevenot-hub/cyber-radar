@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-09-23T23:46:02.724Z",
+ "generatedAt": "2026-09-24T05:00:53.260Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
-    "score": 10,
-    "date": "2026-09-23T22:55:33+00:00"
-   },
-   {
-    "title": "CVE-2025-66471 — Red Hat Security Advisory: RHOAI 3.4.4 - Red Hat OpenShift AI (+142 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60520",
-    "score": 9.9,
-    "date": "2026-09-23T22:55:31+00:00"
-   },
-   {
-    "title": "CVE-2026-39820 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68764",
-    "score": 9.8,
-    "date": "2026-09-23T22:55:41+00:00"
-   },
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-09-23T22:55:40+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -39,52 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-09-23T22:55:46+00:00"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security, bug fix, and enhancement update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66327",
+    "score": 8.8,
+    "date": "2026-09-24T03:21:05+00:00"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-09-23T22:55:45+00:00"
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
+    "score": 8.8,
+    "date": "2026-09-24T03:21:04+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-23T22:55:56+00:00"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65880",
+    "score": 8.8,
+    "date": "2026-09-24T03:21:03+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
-    "score": 9.1,
-    "date": "2026-09-23T22:55:55+00:00"
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: image-builder security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65534",
+    "score": 8.8,
+    "date": "2026-09-24T03:21:03+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-09-23T22:55:54+00:00"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65895",
+    "score": 8.8,
+    "date": "2026-09-24T03:21:02+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-09-23T22:55:54+00:00"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65359",
+    "score": 8.8,
+    "date": "2026-09-24T03:20:59+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-23T22:55:53+00:00"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: buildah security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63332",
+    "score": 8.8,
+    "date": "2026-09-24T03:20:53+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-09-23T22:55:52+00:00"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
+    "score": 8.8,
+    "date": "2026-09-24T03:20:47+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
+    "score": 8.8,
+    "date": "2026-09-24T03:20:44+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
+    "score": 8.6,
+    "date": "2026-09-24T03:20:49+00:00"
+   },
+   {
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay 3.10.26 (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66084",
+    "score": 8.2,
+    "date": "2026-09-24T03:21:05+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66016",
+    "score": 8.2,
+    "date": "2026-09-24T03:21:04+00:00"
    }
   ],
   "kev": [
@@ -461,15 +461,9 @@
   ],
   "tools": [
    {
-    "title": "kulkarnirohit123/cra-agent — Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings, opens Jira tic",
-    "url": "https://github.com/kulkarnirohit123/cra-agent",
-    "stars": 692,
-    "lang": "Python"
-   },
-   {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 531,
+    "stars": 533,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +475,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 276,
+    "stars": 277,
     "lang": "Python"
    },
    {
@@ -493,7 +487,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 192,
+    "stars": 196,
     "lang": "Python"
    },
    {
@@ -505,13 +499,13 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 173,
+    "stars": 174,
     "lang": "JavaScript"
    },
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 165,
+    "stars": 166,
     "lang": "PowerShell"
    },
    {
@@ -531,6 +525,12 @@
     "url": "https://github.com/jiangkoumo/toolfence",
     "stars": 100,
     "lang": "TypeScript"
+   },
+   {
+    "title": "duy90utc528/repo-publication-audit — Dependency-free preflight checks for repositories before making them public",
+    "url": "https://github.com/duy90utc528/repo-publication-audit",
+    "stars": 97,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -635,20 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Android 17 enables certificate transparency, and breaks custom CAs",
-    "url": "https://www.reddit.com/r/netsec/comments/1wo4kk4/android_17_enables_certificate_transparency_and/",
-    "date": "2026-09-23T12:26:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Leaked GitHub App private keys let researchers impersonate 440 apps including CDC and BuildBuddy",
-    "url": "https://www.reddit.com/r/netsec/comments/1wnwy4b/leaked_github_app_private_keys_let_researchers/",
-    "date": "2026-09-23T05:20:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1woli59/is_this_a_joke_in_the_auth_header_f5_bigip_unauth/",
     "date": "2026-09-23T23:20:45+00:00",
@@ -656,16 +642,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Loopjacking: Hijacking Human-in-the-Loop Approval",
-    "url": "https://www.reddit.com/r/netsec/comments/1wok8c2/loopjacking_hijacking_humanintheloop_approval/",
-    "date": "2026-09-23T22:25:43+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Breaking the Superuser Guardrails of managed-PostgreSQL Providers",
-    "url": "https://www.reddit.com/r/netsec/comments/1wogfid/breaking_the_superuser_guardrails_of/",
-    "date": "2026-09-23T19:56:02+00:00",
+    "title": "Android 17 enables certificate transparency, and breaks custom CAs",
+    "url": "https://www.reddit.com/r/netsec/comments/1wo4kk4/android_17_enables_certificate_transparency_and/",
+    "date": "2026-09-23T12:26:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -677,9 +656,30 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Leaked GitHub App private keys let researchers impersonate 440 apps including CDC and BuildBuddy",
+    "url": "https://www.reddit.com/r/netsec/comments/1wnwy4b/leaked_github_app_private_keys_let_researchers/",
+    "date": "2026-09-23T05:20:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Breaking the Superuser Guardrails of managed-PostgreSQL Providers",
+    "url": "https://www.reddit.com/r/netsec/comments/1wogfid/breaking_the_superuser_guardrails_of/",
+    "date": "2026-09-23T19:56:02+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Inside Corp MDM, the Android spyware targeting logistics companies",
     "url": "https://www.reddit.com/r/netsec/comments/1wo6oo5/inside_corp_mdm_the_android_spyware_targeting/",
     "date": "2026-09-23T13:54:56+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Loopjacking: Hijacking Human-in-the-Loop Approval",
+    "url": "https://www.reddit.com/r/netsec/comments/1wok8c2/loopjacking_hijacking_humanintheloop_approval/",
+    "date": "2026-09-23T22:25:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1721,
   "adv": 12,
   "feed": 48
