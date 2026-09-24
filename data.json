@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-09-24T15:13:26.411Z",
+ "generatedAt": "2026-09-24T19:16:53.699Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-59167 — SunEditor: Critical XSS vulnerability - sanitizer bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59167",
-    "score": 10,
-    "date": "2026-09-24T14:57:55Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,40 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2020-10571 — Potential buffer overflow in psd-tools",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-10571",
-    "score": 9.8,
-    "date": "2020-03-16T22:46:19Z"
+    "title": "CVE-2026-95985 — The file write tool in Amazon Kiro IDE versions before 1.0.242 might allow remote unauthenticated actors to inject crafted instructions into",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95985",
+    "score": 8.8,
+    "date": "2026-09-24T18:31:36Z"
    },
    {
-    "title": "CVE-2026-92164 — Streamlink: HTTPSession follows HTTP redirects into file:// URLs, reading local files",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92164",
-    "score": 6.5,
-    "date": "2026-09-24T14:58:04Z"
+    "title": "CVE-2026-10609 — OpenShift Cluster Logging Operator missing authorization flaw",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10609",
+    "score": 6.8,
+    "date": "2026-06-23T15:32:37Z"
    },
    {
-    "title": "CVE-2026-55423 — Langflow: Logout button does not clear session",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55423",
-    "score": 6.1,
-    "date": "2026-06-19T21:17:01Z"
+    "title": "CVE-2026-97232 — A vulnerability was determined in volotat Anagnorisis up to 0.4.2. Affected by this vulnerability is the function get_file_content/save_file",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97232",
+    "score": 6.3,
+    "date": "2026-09-24T18:31:36Z"
    },
    {
-    "title": "CVE-2026-69248 — python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-69248",
-    "score": 5,
-    "date": "2026-08-03T21:26:57Z"
+    "title": "CVE-2026-47132 — phpMyFAQ: SQL LIKE Wildcard Injection in Chat User Search Allows Authenticated User Enumeration",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47132",
+    "score": 5.4,
+    "date": "2026-08-12T15:17:54Z"
    },
    {
-    "title": "GHSA-jrpc-7vxp-69p6 — http4k: `reverseProxy()` defaulted to substring (`Contains`) matching on `Host`; tightened to `Exact`",
-    "url": "https://github.com/advisories/GHSA-jrpc-7vxp-69p6",
-    "score": 5,
-    "date": "2026-06-19T21:15:59Z"
+    "title": "CVE-2026-97233 — A vulnerability was identified in volotat Anagnorisis up to 0.4.11. Affected by this issue is the function html of the file PlaylistManager.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97233",
+    "score": 3.5,
+    "date": "2026-09-24T18:31:37Z"
    },
    {
-    "title": "CVE-2026-62998 — REDAXO: Unwhitelisted ORDER BY Column in rex_list Allows Authenticated Column Enumeration",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62998",
-    "score": 4.3,
-    "date": "2026-09-24T14:57:07Z"
+    "title": "CVE-2026-97520 — In the Linux kernel, the following vulnerability has been resolved: gfs2: move quota_init qc iterator increment Move qc++ from the loop body",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97520",
+    "score": null,
+    "date": "2026-09-24T18:31:36Z"
+   },
+   {
+    "title": "CVE-2026-97521 — In the Linux kernel, the following vulnerability has been resolved: gfs2: fix quota init duplicate scan gfs2_quota_init() checks for duplica",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97521",
+    "score": null,
+    "date": "2026-09-24T18:31:36Z"
+   },
+   {
+    "title": "CVE-2026-97519 — In the Linux kernel, the following vulnerability has been resolved: drm/xe: Fix null pointer dereference in devcoredump cleanup In xe_devcor",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97519",
+    "score": null,
+    "date": "2026-09-24T18:31:36Z"
+   },
+   {
+    "title": "CVE-2026-97498 — In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu/userq: pin mqd and fw object bo to avoid eviction mqd and fw ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97498",
+    "score": null,
+    "date": "2026-09-24T18:31:35Z"
+   },
+   {
+    "title": "CVE-2026-97504 — In the Linux kernel, the following vulnerability has been resolved: watchdog: lenovo_se10_wdt: Fix use-after-free and resource leak risk Rev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97504",
+    "score": null,
+    "date": "2026-09-24T18:31:35Z"
+   },
+   {
+    "title": "CVE-2026-97513 — In the Linux kernel, the following vulnerability has been resolved: media: chips-media: wave5: Release m2m_ctx after Instance Removed from L",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97513",
+    "score": null,
+    "date": "2026-09-24T18:31:35Z"
+   },
+   {
+    "title": "CVE-2026-97510 — In the Linux kernel, the following vulnerability has been resolved: thunderbolt: Release request if tb_cfg_request() fails in __tb_xdomain_r",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97510",
+    "score": null,
+    "date": "2026-09-24T18:31:35Z"
    }
   ],
   "kev": [
@@ -173,6 +203,76 @@
   ],
   "adv": [
    {
+    "title": "Language Servers for AWS vulnerable to arbitrary file write",
+    "url": "https://github.com/advisories/GHSA-6v3r-4p5c-mrp5",
+    "score": 7.8,
+    "ghsa": "GHSA-6v3r-4p5c-mrp5",
+    "date": "2026-09-24T19:15:39Z"
+   },
+   {
+    "title": "Language Servers for AWS Vulnerable to Arbitrary Code Execution",
+    "url": "https://github.com/advisories/GHSA-xhcr-j4j9-3gh7",
+    "score": 7.5,
+    "ghsa": "GHSA-xhcr-j4j9-3gh7",
+    "date": "2026-09-24T19:13:53Z"
+   },
+   {
+    "title": "yara-x: Unvalidated deserialization in safe `Rules::deserialize` allows memory corruption and UB",
+    "url": "https://github.com/advisories/GHSA-2jx3-ff3v-j7jj",
+    "score": null,
+    "ghsa": "GHSA-2jx3-ff3v-j7jj",
+    "date": "2026-09-24T19:09:28Z"
+   },
+   {
+    "title": "Snipe-IT: Stored XSS via Inline XML Rendering in the Uploaded Files API",
+    "url": "https://github.com/advisories/GHSA-396x-xmvh-p563",
+    "score": 8.7,
+    "ghsa": "GHSA-396x-xmvh-p563",
+    "date": "2026-09-24T18:19:38Z"
+   },
+   {
+    "title": "ZITADEL: MFA bypass via session reuse in Login V2",
+    "url": "https://github.com/advisories/GHSA-9993-rfwp-rhwf",
+    "score": 8.2,
+    "ghsa": "GHSA-9993-rfwp-rhwf",
+    "date": "2026-09-24T18:19:35Z"
+   },
+   {
+    "title": "ZITADEL: Actions V1 sandbox escape: host file read via require()",
+    "url": "https://github.com/advisories/GHSA-fgmf-7rf8-m6vf",
+    "score": 8.7,
+    "ghsa": "GHSA-fgmf-7rf8-m6vf",
+    "date": "2026-09-24T18:19:32Z"
+   },
+   {
+    "title": "Snipe-IT: Stored XSS via Custom Field name in asset-list column headers",
+    "url": "https://github.com/advisories/GHSA-p9h3-gvpq-5539",
+    "score": 8.1,
+    "ghsa": "GHSA-p9h3-gvpq-5539",
+    "date": "2026-09-24T18:19:30Z"
+   },
+   {
+    "title": "Dozzle label filters do not restrict container event and statistics streams",
+    "url": "https://github.com/advisories/GHSA-xcw9-qmmf-vqxj",
+    "score": 4.3,
+    "ghsa": "GHSA-xcw9-qmmf-vqxj",
+    "date": "2026-09-24T18:15:10Z"
+   },
+   {
+    "title": "Snipe-IT: 2FA bypass via the API token flow",
+    "url": "https://github.com/advisories/GHSA-hxcx-9h4f-42xx",
+    "score": 7.5,
+    "ghsa": "GHSA-hxcx-9h4f-42xx",
+    "date": "2026-09-24T16:38:27Z"
+   },
+   {
+    "title": "podman quadlet install --replace does not fully replace the old file",
+    "url": "https://github.com/advisories/GHSA-fx76-2j3w-2mx6",
+    "score": 4.2,
+    "ghsa": "GHSA-fx76-2j3w-2mx6",
+    "date": "2026-09-24T16:28:26Z"
+   },
+   {
     "title": "Streamlink: HTTPSession follows HTTP redirects into file:// URLs, reading local files",
     "url": "https://github.com/advisories/GHSA-vf2x-4v53-pm7v",
     "score": 6.5,
@@ -185,79 +285,30 @@
     "score": 10,
     "ghsa": "GHSA-6rf4-v2fh-m6p4",
     "date": "2026-09-24T14:57:55Z"
-   },
-   {
-    "title": "REDAXO: Unwhitelisted ORDER BY Column in rex_list Allows Authenticated Column Enumeration",
-    "url": "https://github.com/advisories/GHSA-4f5f-j737-pm58",
-    "score": 4.3,
-    "ghsa": "GHSA-4f5f-j737-pm58",
-    "date": "2026-09-24T14:57:07Z"
-   },
-   {
-    "title": "elysia has Inefficient Algorithmic Complexity and Interpretation Conflict",
-    "url": "https://github.com/advisories/GHSA-9643-4qgh-g8mx",
-    "score": 7.5,
-    "ghsa": "GHSA-9643-4qgh-g8mx",
-    "date": "2026-09-23T21:54:50Z"
-   },
-   {
-    "title": "ReactPress has SQL injection via dynamic column names in TypeORM query builders",
-    "url": "https://github.com/advisories/GHSA-wmw4-mw6x-6vfm",
-    "score": 7.5,
-    "ghsa": "GHSA-wmw4-mw6x-6vfm",
-    "date": "2026-09-23T21:51:59Z"
-   },
-   {
-    "title": "plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
-    "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
-    "score": 6.5,
-    "ghsa": "GHSA-8pcw-h6w9-h46g",
-    "date": "2026-09-23T21:49:51Z"
-   },
-   {
-    "title": "plone.app.dexterity has a Denial of Service due to excessive title or description length",
-    "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
-    "score": 6.5,
-    "ghsa": "GHSA-5426-92w4-wvhv",
-    "date": "2026-09-23T21:48:22Z"
-   },
-   {
-    "title": "OpenC3 COSMOS: Stored, cross-user XSS via Telemetry screen BUTTON widget",
-    "url": "https://github.com/advisories/GHSA-gvf2-2rh5-mpgf",
-    "score": 7.6,
-    "ghsa": "GHSA-gvf2-2rh5-mpgf",
-    "date": "2026-09-23T21:24:11Z"
-   },
-   {
-    "title": "Klever-Go: Validator registration accepts an unvalidated BLS public key → consensus liveness DoS",
-    "url": "https://github.com/advisories/GHSA-9wh6-9hq7-9688",
-    "score": 7.5,
-    "ghsa": "GHSA-9wh6-9hq7-9688",
-    "date": "2026-09-23T21:24:08Z"
-   },
-   {
-    "title": "Klever-Go: Elasticsearch bulk / painless injection via on-chain account name -> explorer/indexer data forgery",
-    "url": "https://github.com/advisories/GHSA-7c7c-373r-gfjj",
-    "score": 7.5,
-    "ghsa": "GHSA-7c7c-373r-gfjj",
-    "date": "2026-09-23T21:24:06Z"
-   },
-   {
-    "title": "Klever-Go: Zombie-order theft: `Buy` missing `IsClaimed` guard in native marketplace",
-    "url": "https://github.com/advisories/GHSA-26r5-4mm2-px5c",
-    "score": 7.5,
-    "ghsa": "GHSA-26r5-4mm2-px5c",
-    "date": "2026-09-23T21:24:03Z"
-   },
-   {
-    "title": "Formie: Missing authorization on sent notification resend modal exposes submission PII",
-    "url": "https://github.com/advisories/GHSA-9rg8-2wvr-fgjh",
-    "score": 7.7,
-    "ghsa": "GHSA-9rg8-2wvr-fgjh",
-    "date": "2026-09-23T21:24:01Z"
    }
   ],
   "thn": [
+   {
+    "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+    "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+    "date": "Thu, 24 Sep 2026 23:40:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+    "date": "Thu, 24 Sep 2026 23:22:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+    "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+    "date": "Thu, 24 Sep 2026 20:57:32 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
     "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
@@ -320,30 +371,16 @@
     "date": "Wed, 23 Sep 2026 22:23:10 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-    "date": "Wed, 23 Sep 2026 21:36:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-    "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-    "date": "Wed, 23 Sep 2026 19:47:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-    "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-    "date": "Wed, 23 Sep 2026 19:22:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Exposed GitLab project email addresses let attackers push code",
+    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+    "date": "Thu, 24 Sep 2026 13:47:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "FedRAMP VDR &amp; VER: Daily Scans Are Only the Beginning",
     "url": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
@@ -420,26 +457,19 @@
     "date": "Wed, 23 Sep 2026 12:20:54 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "InfraTrust report warns network management systems under attack",
-    "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-    "date": "Wed, 23 Sep 2026 10:35:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 533,
+    "stars": 529,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 438,
+    "stars": 449,
     "lang": "JavaScript"
    },
    {
@@ -457,7 +487,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 203,
+    "stars": 206,
     "lang": "Python"
    },
    {
@@ -493,7 +523,7 @@
    {
     "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
     "url": "https://github.com/4x3/nulltrace",
-    "stars": 109,
+    "stars": 115,
     "lang": "Go"
    },
    {
@@ -619,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "One Tap Too Far: Using Shortcuts to Bypass Chrome for iOS Call Prompts",
+    "url": "https://www.reddit.com/r/netsec/comments/1wp56y2/one_tap_too_far_using_shortcuts_to_bypass_chrome/",
+    "date": "2026-09-24T15:45:32+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
     "url": "https://www.reddit.com/r/netsec/comments/1wp466a/how_cloudflare_addressed_a_crosstenant_data/",
     "date": "2026-09-24T15:07:04+00:00",
@@ -666,13 +703,6 @@
     "date": "2026-09-23T03:53:01+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "vCenter pre-auth RCE: CVE-2026-59309/59310",
-    "url": "https://www.reddit.com/r/netsec/comments/1wn37be/vcenter_preauth_rce_cve20265930959310/",
-    "date": "2026-09-22T07:58:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -687,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1721,
   "adv": 12,
   "feed": 48
