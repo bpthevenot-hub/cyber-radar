@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-09-24T05:00:53.260Z",
+ "generatedAt": "2026-09-24T10:08:37.558Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-78308 — Improper Authentication vulnerability in DIAEnergie allows Authentication Bypass. This issue affects DIAEnergie: before 1.11.00.022.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78308",
+    "score": 9.8,
+    "date": "2026-09-24T09:31:51Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security, bug fix, and enhancement update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66327",
+    "title": "CVE-2026-78312 — Path Traversal in DIAEnergie. This issue affects DIAEnergie: before 1.11.00.022.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78312",
+    "score": 9.1,
+    "date": "2026-09-24T09:31:51Z"
+   },
+   {
+    "title": "CVE-2026-78309 — SQL Injection vulnerability in DIAEnergie. This issue affects DIAEnergie: before 1.11.00.022.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78309",
     "score": 8.8,
-    "date": "2026-09-24T03:21:05+00:00"
+    "date": "2026-09-24T09:31:51Z"
    },
    {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
+    "title": "CVE-2026-85682 — The YOP Poll plugin for WordPress is vulnerable to Origin Validation Error in all versions up to, and including, 7.0.10. This is due to the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85682",
     "score": 8.8,
-    "date": "2026-09-24T03:21:04+00:00"
+    "date": "2026-09-24T09:31:51Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65880",
+    "title": "CVE-2026-78311 — SQL Injection vulnerability in DIAEnergie. This issue affects DIAEnergie: before 1.11.00.022.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78311",
     "score": 8.8,
-    "date": "2026-09-24T03:21:03+00:00"
+    "date": "2026-09-24T09:31:51Z"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: image-builder security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65534",
-    "score": 8.8,
-    "date": "2026-09-24T03:21:03+00:00"
+    "title": "CVE-2026-97185 — A flaw was found in GIMP. When processing a specially crafted GIMPressionist preset file, the plug-in does not properly validate vector indi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97185",
+    "score": 7.8,
+    "date": "2026-09-24T09:31:51Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65895",
-    "score": 8.8,
-    "date": "2026-09-24T03:21:02+00:00"
+    "title": "CVE-2026-84499 — A flaw was found in Red Hat Ansible Automation Platform's automation- controller. Survey questions of type password are write-only and store",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84499",
+    "score": 7.7,
+    "date": "2026-09-23T21:30:41Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65359",
-    "score": 8.8,
-    "date": "2026-09-24T03:20:59+00:00"
+    "title": "CVE-2026-56208 — A heap buffer overflow vulnerability was found in libaom, the reference AV1 codec implementation. A flaw in the AV1 encoder's Look-Ahead Pro",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56208",
+    "score": 7.6,
+    "date": "2026-06-19T18:32:34Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: buildah security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63332",
-    "score": 8.8,
-    "date": "2026-09-24T03:20:53+00:00"
+    "title": "CVE-2026-77193 — The eesy_ID2WP – Publish InDesign HTML5 plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 1.0.3 via",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77193",
+    "score": 7.5,
+    "date": "2026-09-24T09:31:51Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
-    "score": 8.8,
-    "date": "2026-09-24T03:20:47+00:00"
+    "title": "CVE-2026-82077 — An improper limitation of a pathname to a restricted directory (path traversal) vulnerability in the Scan-to-Fax component of PaperCut NG an",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82077",
+    "score": 7.5,
+    "date": "2026-09-24T09:31:51Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
-    "score": 8.8,
-    "date": "2026-09-24T03:20:44+00:00"
+    "title": "CVE-2026-16118 — A flaw was found in xdgmime. A heap-based buffer overflow can be triggered in _xdg_mime_magic_parse_magic_line() in the xdgmimemagic.c file ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16118",
+    "score": 7.1,
+    "date": "2026-07-17T21:31:44Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
-    "score": 8.6,
-    "date": "2026-09-24T03:20:49+00:00"
-   },
-   {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay 3.10.26 (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66084",
-    "score": 8.2,
-    "date": "2026-09-24T03:21:05+00:00"
-   },
-   {
-    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66016",
-    "score": 8.2,
-    "date": "2026-09-24T03:21:04+00:00"
+    "title": "CVE-2026-56211 — A remote code execution vulnerability was found in libaom, the reference AV1 codec implementation. Insufficient bounds validation in the AV1",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56211",
+    "score": 7.1,
+    "date": "2026-06-19T18:32:34Z"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+    "date": "Thu, 24 Sep 2026 12:37:25 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+    "date": "Thu, 24 Sep 2026 12:02:03 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+    "date": "Thu, 24 Sep 2026 11:06:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
     "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
     "date": "Wed, 23 Sep 2026 23:36:30 +0530",
@@ -350,30 +371,23 @@
     "date": "Wed, 23 Sep 2026 16:42:18 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-    "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-    "date": "Wed, 23 Sep 2026 13:59:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-    "date": "Wed, 23 Sep 2026 13:59:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-    "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-    "date": "Wed, 23 Sep 2026 12:34:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+    "date": "Thu, 24 Sep 2026 05:38:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft fixes bug that broke Windows File History backup feature",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "date": "Thu, 24 Sep 2026 04:14:47 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
     "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
@@ -443,20 +457,6 @@
     "date": "Wed, 23 Sep 2026 04:20:05 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-    "date": "Wed, 23 Sep 2026 03:17:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Rogue external MFA providers can steal passwords during logins",
-    "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "date": "Tue, 22 Sep 2026 17:45:45 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +469,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 434,
+    "stars": 435,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 277,
+    "stars": 276,
     "lang": "Python"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 196,
+    "stars": 199,
     "lang": "Python"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 174,
+    "stars": 175,
     "lang": "JavaScript"
    },
    {
@@ -642,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Android 17 enables certificate transparency, and breaks custom CAs",
-    "url": "https://www.reddit.com/r/netsec/comments/1wo4kk4/android_17_enables_certificate_transparency_and/",
-    "date": "2026-09-23T12:26:00+00:00",
+    "title": "Uncensored Qwen 3.8 27b helped write a LSASS Dumper which bypassed EDR while I made myself coffee",
+    "url": "https://www.reddit.com/r/netsec/comments/1wotpuj/uncensored_qwen_38_27b_helped_write_a_lsass/",
+    "date": "2026-09-24T06:04:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "September 23 | 24h Recap: Ubuntu container escape, F5 OAuth RCE and Windows process injection",
-    "url": "https://www.reddit.com/r/netsec/comments/1woiusv/september_23_24h_recap_ubuntu_container_escape_f5/",
-    "date": "2026-09-23T21:29:42+00:00",
+    "title": "Android 17 enables certificate transparency, and breaks custom CAs",
+    "url": "https://www.reddit.com/r/netsec/comments/1wo4kk4/android_17_enables_certificate_transparency_and/",
+    "date": "2026-09-23T12:26:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -677,13 +677,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Loopjacking: Hijacking Human-in-the-Loop Approval",
-    "url": "https://www.reddit.com/r/netsec/comments/1wok8c2/loopjacking_hijacking_humanintheloop_approval/",
-    "date": "2026-09-23T22:25:43+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "ATT&amp;CKing TACACS+ to Pwn Your Network via a Pre-Auth RCE - elttam",
     "url": "https://www.reddit.com/r/netsec/comments/1wnvaik/attcking_tacacs_to_pwn_your_network_via_a_preauth/",
     "date": "2026-09-23T03:53:01+00:00",
@@ -691,16 +684,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Frame: Grounding LLM Vulnerability Detection with a Sound Separation-Logic Core",
-    "url": "https://www.reddit.com/r/netsec/comments/1wnr20b/frame_grounding_llm_vulnerability_detection_with/",
-    "date": "2026-09-23T00:35:20+00:00",
+    "title": "vCenter pre-auth RCE: CVE-2026-59309/59310",
+    "url": "https://www.reddit.com/r/netsec/comments/1wn37be/vcenter_preauth_rce_cve20265930959310/",
+    "date": "2026-09-22T07:58:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "I asked my AI agent to inspect a website. The website took over my machine (34-run measurement across 5 agent harnesses)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wogg6h/i_asked_my_ai_agent_to_inspect_a_website_the/",
-    "date": "2026-09-23T19:56:44+00:00",
+    "title": "CVE-2026-45756: attacker-controlled regex in Symfony JsonPath filters (ReDoS)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wn6m39/cve202645756_attackercontrolled_regex_in_symfony/",
+    "date": "2026-09-22T11:15:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+    "url": "https://www.reddit.com/r/netsec/comments/1wmy5go/windows_exploitation_techniques_dangling_com/",
+    "date": "2026-09-22T03:19:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1721,
   "adv": 12,
   "feed": 48
