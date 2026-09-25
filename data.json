@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-09-25T18:42:20.098Z",
+ "generatedAt": "2026-09-25T22:27:51.397Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-97230 — IO::Socket::SSL::SelfCertificate versions 1.00 for Perl contains malware which executes Python code from an obfuscated URL. The generate_cer",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97230",
+    "title": "CVE-2022-41724 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.2.5 (collectd-libpod-stats) security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5964",
     "score": 9.8,
-    "date": "2026-09-25T00:33:06Z"
+    "date": "2026-09-25T22:18:41+00:00"
    },
    {
-    "title": "CVE-2026-88351 — An integer overflow vulnerability exists in the MPack Node API in MPack 1.1.1 on 32-bit platforms. When parsing a specially crafted MessageP",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88351",
+    "title": "CVE-2022-1292 — Red Hat Security Advisory: Satellite 6.13.5 Async Security Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5931",
     "score": 9.8,
-    "date": "2026-09-24T15:31:36Z"
+    "date": "2026-09-25T22:18:39+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-92288 — Lemonldap::NG::Portal versions from 2.20.0 before 2.21.6, from 2.22.0 before 2.23.4 for Perl allow unauthenticated OAuth2 token introspectio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92288",
+    "title": "CVE-2022-1292 — Red Hat Security Advisory: Satellite 6.11.5.6 async security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5980",
     "score": 9.1,
-    "date": "2026-09-25T03:31:00Z"
+    "date": "2026-09-25T22:18:45+00:00"
    },
    {
-    "title": "CVE-2026-94445 — A malicious txtar could escape the intended execution context and force arbitrary writes to the playground host's trusted filesystem. Disjoi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94445",
-    "score": 8.8,
-    "date": "2026-09-25T18:31:27Z"
+    "title": "CVE-2022-1292 — Red Hat Security Advisory: Satellite 6.12.5.2 Async Security Update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5979",
+    "score": 9.1,
+    "date": "2026-09-25T22:18:45+00:00"
    },
    {
-    "title": "CVE-2025-51457 — D-Link DAP-2610 up to 2.06B08r099 contains an authenticated command injection vulnerability within the web interface at the /index.xgi endpo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-51457",
-    "score": 8.8,
-    "date": "2026-09-25T15:31:45Z"
-   },
-   {
-    "title": "CVE-2026-85491 — Catalyst::Seal versions before 0.03 for Perl allow one request to disable a path or route a later one past an authorization check via a disp",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85491",
-    "score": 8.8,
-    "date": "2026-09-25T00:33:04Z"
-   },
-   {
-    "title": "CVE-2026-51997 — An issue in geelen mcp-remote 0.1.16 through 0.1.38 allows a remote attacker to execute arbitrary code via the open() functions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51997",
-    "score": 8.8,
-    "date": "2026-09-24T15:31:34Z"
-   },
-   {
-    "title": "CVE-2026-51773 — An issue in the VMware datastore driver of OpenStack glance_store. When an authenticated attacker provides a maliciously crafted image locat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51773",
+    "title": "CVE-2023-24532 — Red Hat Security Advisory: Run Once Duration Override Operator for Red Hat OpenShift 1.0.1 security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5947",
     "score": 8.1,
-    "date": "2026-09-25T15:31:45Z"
+    "date": "2026-09-25T22:18:44+00:00"
    },
    {
-    "title": "CVE-2026-91841 — A flaw was found in NetworkManager-vpnc, a VPN plugin for NetworkManager. A local unprivileged user can exploit this vulnerability by inject",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91841",
-    "score": 7.8,
-    "date": "2026-09-25T18:31:29Z"
+    "title": "CVE-2023-29406 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.7.14 security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6161",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:54+00:00"
    },
    {
-    "title": "CVE-2026-91839 — A flaw was found in NetworkManager-fortisslvpn, the FortiSSLVPN plugin for NetworkManager. The nm-fortisslvpn-service improperly handles car",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91839",
-    "score": 7.8,
-    "date": "2026-09-25T18:31:29Z"
+    "title": "CVE-2023-2431 — Red Hat Security Advisory: Red Hat OpenShift support for Windows Containers 8.1.0 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6156",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:54+00:00"
    },
    {
-    "title": "CVE-2026-91840 — A flaw was found in NetworkManager-vpnc. This vulnerability allows a local unprivileged user to escalate privileges to root. By injecting a ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91840",
-    "score": 7.8,
-    "date": "2026-09-25T18:31:29Z"
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.8.1 security and bug fix update",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6121",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:54+00:00"
    },
    {
-    "title": "CVE-2026-91838 — A flaw was found in NetworkManager-sstp, the SSTP VPN plugin for NetworkManager. A local unprivileged user can exploit this vulnerability by",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91838",
-    "score": 7.8,
-    "date": "2026-09-25T18:31:29Z"
+    "title": "CVE-2023-39318 — Red Hat Security Advisory: Secondary Scheduler Operator for Red Hat OpenShift 1.2.0 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6154",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:52+00:00"
+   },
+   {
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: Custom Metric Autoscaler operator for Red Hat OpenShift security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6144",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:52+00:00"
+   },
+   {
+    "title": "CVE-2023-30841 — Red Hat Security Advisory: OpenShift Container Platform 4.14.0 CNF vRAN extras security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6143",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:52+00:00"
+   },
+   {
+    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Container Platform 4.13.19 security and extras update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:6129",
+    "score": 7.5,
+    "date": "2026-09-25T22:18:51+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,76 @@
   ],
   "adv": [
    {
+    "title": "SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
+    "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
+    "score": 7.5,
+    "ghsa": "GHSA-q986-4x7x-gx39",
+    "date": "2026-09-25T21:48:03Z"
+   },
+   {
+    "title": "mpp vulnerable to Gas Draining with low gas limit",
+    "url": "https://github.com/advisories/GHSA-vj8p-hp9x-gh47",
+    "score": 7.5,
+    "ghsa": "GHSA-vj8p-hp9x-gh47",
+    "date": "2026-09-25T21:47:36Z"
+   },
+   {
+    "title": "mpp vulnerable to Gas Draining with access list",
+    "url": "https://github.com/advisories/GHSA-qpxh-ff8m-c62v",
+    "score": null,
+    "ghsa": "GHSA-qpxh-ff8m-c62v",
+    "date": "2026-09-25T21:45:16Z"
+   },
+   {
+    "title": "mpp vulnerable to Gas Draining with no limit",
+    "url": "https://github.com/advisories/GHSA-vv77-66rf-pm86",
+    "score": 7.5,
+    "ghsa": "GHSA-vv77-66rf-pm86",
+    "date": "2026-09-25T21:44:12Z"
+   },
+   {
+    "title": "CliInvoke.Specializations has command injection in PowerShell and Cmd shell wrappers",
+    "url": "https://github.com/advisories/GHSA-wrvw-254r-wpmv",
+    "score": 8.4,
+    "ghsa": "GHSA-wrvw-254r-wpmv",
+    "date": "2026-09-25T21:41:48Z"
+   },
+   {
+    "title": "CliInvoke: Argument Injection in Extensibility Runner Factory",
+    "url": "https://github.com/advisories/GHSA-j73w-8hfr-4gc9",
+    "score": 8.4,
+    "ghsa": "GHSA-j73w-8hfr-4gc9",
+    "date": "2026-09-25T21:41:36Z"
+   },
+   {
+    "title": "khoj has an unauthenticated path traversal in /home/ endpoint that allows file read from server filesystem",
+    "url": "https://github.com/advisories/GHSA-62mm-xwmv-crhg",
+    "score": 7.5,
+    "ghsa": "GHSA-62mm-xwmv-crhg",
+    "date": "2026-09-25T21:38:15Z"
+   },
+   {
+    "title": "Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+    "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
+    "score": 8.8,
+    "ghsa": "GHSA-9gfj-28hw-jchp",
+    "date": "2026-09-25T19:32:05Z"
+   },
+   {
+    "title": "OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
+    "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+    "score": 7.5,
+    "ghsa": "GHSA-29h2-jr22-frmh",
+    "date": "2026-09-25T19:31:08Z"
+   },
+   {
+    "title": "Containerd has image-pull DoS via crafted OCI index graph amplification",
+    "url": "https://github.com/advisories/GHSA-pg57-6jwg-q645",
+    "score": null,
+    "ghsa": "GHSA-pg57-6jwg-q645",
+    "date": "2026-09-25T19:27:59Z"
+   },
+   {
     "title": "FriendsOfFlarum OAuth: Unauthenticated account takeover via unverified email trust in Discord OAuth provider",
     "url": "https://github.com/advisories/GHSA-g7vj-c29h-3h5m",
     "score": 9.8,
@@ -215,76 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-v65j-hff3-753c",
     "date": "2026-09-25T15:03:43Z"
-   },
-   {
-    "title": "code16 Sharp vulnerable to stored XSS via iframe srcdoc Attribute",
-    "url": "https://github.com/advisories/GHSA-qxg3-46rw-79j8",
-    "score": 7.3,
-    "ghsa": "GHSA-qxg3-46rw-79j8",
-    "date": "2026-09-25T15:02:11Z"
-   },
-   {
-    "title": "code16/sharp has a stored XSS via data-html-content Sanitizer Bypass",
-    "url": "https://github.com/advisories/GHSA-vj3q-vp3g-j9c8",
-    "score": 8.7,
-    "ghsa": "GHSA-vj3q-vp3g-j9c8",
-    "date": "2026-09-25T15:00:44Z"
-   },
-   {
-    "title": "Contao: Server-Side Request Forgery (SSRF) via Unvalidated RSS Feed URL in Feed Reader Module",
-    "url": "https://github.com/advisories/GHSA-87mg-5grr-rhwh",
-    "score": 3.1,
-    "ghsa": "GHSA-87mg-5grr-rhwh",
-    "date": "2026-09-24T19:59:16Z"
-   },
-   {
-    "title": "social-auth-core has a Session Fixation issue",
-    "url": "https://github.com/advisories/GHSA-vqg6-3fw6-j9jg",
-    "score": 4.2,
-    "ghsa": "GHSA-vqg6-3fw6-j9jg",
-    "date": "2026-09-24T19:58:14Z"
-   },
-   {
-    "title": "social-auth-core: VK App backend accepts unsigned callback data when auth_key is missing",
-    "url": "https://github.com/advisories/GHSA-3c93-f73f-qc9h",
-    "score": 7.4,
-    "ghsa": "GHSA-3c93-f73f-qc9h",
-    "date": "2026-09-24T19:57:22Z"
-   },
-   {
-    "title": "social-auth-core has Login CSRF via Missing State Parameter in LoginRadius Backend",
-    "url": "https://github.com/advisories/GHSA-x7qq-23vw-7pfg",
-    "score": 4.3,
-    "ghsa": "GHSA-x7qq-23vw-7pfg",
-    "date": "2026-09-24T19:56:39Z"
-   },
-   {
-    "title": "social-auth-core Vulnerable to Account Takeover via Identity Binding Flaw in Vend Backend",
-    "url": "https://github.com/advisories/GHSA-fp7w-m676-w7gc",
-    "score": 6.8,
-    "ghsa": "GHSA-fp7w-m676-w7gc",
-    "date": "2026-09-24T19:55:57Z"
-   },
-   {
-    "title": "social-auth-core has an Improper Authentication issue",
-    "url": "https://github.com/advisories/GHSA-vq6g-g6c7-5f2j",
-    "score": 6.4,
-    "ghsa": "GHSA-vq6g-g6c7-5f2j",
-    "date": "2026-09-24T19:54:48Z"
-   },
-   {
-    "title": "Ash: Private action arguments can be set by user input via string-keyed params and atomic changesets",
-    "url": "https://github.com/advisories/GHSA-f4hc-ppw9-4hhw",
-    "score": null,
-    "ghsa": "GHSA-f4hc-ppw9-4hhw",
-    "date": "2026-09-24T19:53:36Z"
-   },
-   {
-    "title": "Trestle is vulnerable to arbitrary file write via path traversal in author generate commands (Incomplete fix of CVE-2026-46345)",
-    "url": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
-    "score": 8.4,
-    "ghsa": "GHSA-r4vp-3vw6-r2x5",
-    "date": "2026-09-24T19:52:34Z"
    }
   ],
   "thn": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "date": "Fri, 25 Sep 2026 17:41:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+    "date": "Fri, 25 Sep 2026 16:57:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Elementor WordPress flaw lets attackers create admin accounts",
     "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
     "date": "Fri, 25 Sep 2026 14:13:33 -0400",
@@ -443,20 +457,6 @@
     "date": "Thu, 24 Sep 2026 16:53:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
-    "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
-    "date": "Thu, 24 Sep 2026 16:10:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Exposed GitLab project email addresses let attackers push code",
-    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
-    "date": "Thu, 24 Sep 2026 13:47:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -481,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 212,
+    "stars": 213,
     "lang": "Python"
    },
    {
@@ -527,10 +527,10 @@
     "lang": "TypeScript"
    },
    {
-    "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
-    "url": "https://github.com/jiangkoumo/toolfence",
-    "stars": 100,
-    "lang": "TypeScript"
+    "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
+    "url": "https://github.com/supercorp-ai/supercov",
+    "stars": 120,
+    "lang": "Rust"
    }
   ],
   "hn": [
@@ -717,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
-  "kev": 1725,
+  "crit": 6,
+  "kev": 1726,
   "adv": 12,
   "feed": 48
  },
