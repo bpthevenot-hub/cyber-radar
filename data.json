@@ -1,7 +1,26 @@
 {
- "generatedAt": "2026-09-25T07:56:32.283Z",
+ "generatedAt": "2026-09-25T13:54:50.974Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-56315 — PickleScan has multiple stdlib modules with direct RCE not in blocklist",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56315",
+    "score": 9.8,
+    "date": "2026-03-03T20:05:26Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +223,27 @@
   ],
   "thn": [
    {
+    "title": "The SOC Doesn't Need to Start Over with Every Alert",
+    "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+    "date": "Fri, 25 Sep 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+    "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+    "date": "Fri, 25 Sep 2026 16:05:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "date": "Fri, 25 Sep 2026 15:44:02 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
     "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
     "date": "Fri, 25 Sep 2026 10:19:22 +0530",
@@ -265,30 +305,37 @@
     "date": "Thu, 24 Sep 2026 14:44:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-    "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
-    "date": "Thu, 24 Sep 2026 12:37:25 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-    "date": "Thu, 24 Sep 2026 12:02:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
-    "date": "Thu, 24 Sep 2026 11:06:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft plans to deprecate Windows Deployment Services",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+    "date": "Fri, 25 Sep 2026 08:40:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+    "date": "Fri, 25 Sep 2026 07:35:14 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+    "date": "Fri, 25 Sep 2026 06:30:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+    "date": "Fri, 25 Sep 2026 04:33:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
     "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
@@ -344,47 +391,19 @@
     "date": "Thu, 24 Sep 2026 05:38:53 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft fixes bug that broke Windows File History backup feature",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-    "date": "Thu, 24 Sep 2026 04:14:47 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-    "date": "Wed, 23 Sep 2026 18:46:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "New RemControl Android banking malware targets users in Europe and Canada",
-    "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-    "date": "Wed, 23 Sep 2026 17:25:13 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-    "date": "Wed, 23 Sep 2026 15:53:54 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 529,
+    "stars": 526,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 474,
+    "stars": 481,
     "lang": "JavaScript"
    },
    {
@@ -394,16 +413,16 @@
     "lang": "Python"
    },
    {
+    "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
+    "url": "https://github.com/XiantingWu/PQCensus",
+    "stars": 211,
+    "lang": "Python"
+   },
+   {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
     "stars": 210,
     "lang": "Go"
-   },
-   {
-    "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
-    "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 209,
-    "lang": "Python"
    },
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
@@ -420,7 +439,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 166,
+    "stars": 171,
     "lang": "PowerShell"
    },
    {
@@ -432,13 +451,13 @@
    {
     "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
     "url": "https://github.com/4x3/nulltrace",
-    "stars": 136,
+    "stars": 143,
     "lang": "Go"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 124,
+    "stars": 125,
     "lang": "TypeScript"
    },
    {
@@ -564,9 +583,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "CDC-ACM Serial Interface Bypasses TCC on macOS",
-    "url": "https://www.reddit.com/r/netsec/comments/1wplpp1/cdcacm_serial_interface_bypasses_tcc_on_macos/",
-    "date": "2026-09-25T03:23:39+00:00",
+    "title": "Argus Monitor Local Denial-of-Service Vulnerability (CVE-2026-79417)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/",
+    "date": "2026-09-25T02:13:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -574,13 +593,6 @@
     "title": "Getting root on OnePlus 15 from an untrusted app, via an audio debug service and a vendor HAL",
     "url": "https://www.reddit.com/r/netsec/comments/1woylqf/getting_root_on_oneplus_15_from_an_untrusted_app/",
     "date": "2026-09-24T11:02:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Argus Monitor Local Denial-of-Service Vulnerability (CVE-2026-79417)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/",
-    "date": "2026-09-25T02:13:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -606,6 +618,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Fake Journalist phishing scam targeting tech founders",
+    "url": "https://www.reddit.com/r/netsec/comments/1wp5mdu/fake_journalist_phishing_scam_targeting_tech/",
+    "date": "2026-09-24T16:01:36+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1woli59/is_this_a_joke_in_the_auth_header_f5_bigip_unauth/",
     "date": "2026-09-23T23:20:45+00:00",
@@ -622,7 +641,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +651,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1723,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
