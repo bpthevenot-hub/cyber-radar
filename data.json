@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-09-25T13:54:50.974Z",
+ "generatedAt": "2026-09-25T18:42:20.098Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-56315 — PickleScan has multiple stdlib modules with direct RCE not in blocklist",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56315",
+    "title": "CVE-2026-97230 — IO::Socket::SSL::SelfCertificate versions 1.00 for Perl contains malware which executes Python code from an obfuscated URL. The generate_cer",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97230",
     "score": 9.8,
-    "date": "2026-03-03T20:05:26Z"
+    "date": "2026-09-25T00:33:06Z"
+   },
+   {
+    "title": "CVE-2026-88351 — An integer overflow vulnerability exists in the MPack Node API in MPack 1.1.1 on 32-bit platforms. When parsing a specially crafted MessageP",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88351",
+    "score": 9.8,
+    "date": "2026-09-24T15:31:36Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -19,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-92288 — Lemonldap::NG::Portal versions from 2.20.0 before 2.21.6, from 2.22.0 before 2.23.4 for Perl allow unauthenticated OAuth2 token introspectio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92288",
+    "score": 9.1,
+    "date": "2026-09-25T03:31:00Z"
+   },
+   {
+    "title": "CVE-2026-94445 — A malicious txtar could escape the intended execution context and force arbitrary writes to the playground host's trusted filesystem. Disjoi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94445",
+    "score": 8.8,
+    "date": "2026-09-25T18:31:27Z"
+   },
+   {
+    "title": "CVE-2025-51457 — D-Link DAP-2610 up to 2.06B08r099 contains an authenticated command injection vulnerability within the web interface at the /index.xgi endpo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-51457",
+    "score": 8.8,
+    "date": "2026-09-25T15:31:45Z"
+   },
+   {
+    "title": "CVE-2026-85491 — Catalyst::Seal versions before 0.03 for Perl allow one request to disable a path or route a later one past an authorization check via a disp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85491",
+    "score": 8.8,
+    "date": "2026-09-25T00:33:04Z"
+   },
+   {
+    "title": "CVE-2026-51997 — An issue in geelen mcp-remote 0.1.16 through 0.1.38 allows a remote attacker to execute arbitrary code via the open() functions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51997",
+    "score": 8.8,
+    "date": "2026-09-24T15:31:34Z"
+   },
+   {
+    "title": "CVE-2026-51773 — An issue in the VMware datastore driver of OpenStack glance_store. When an authenticated attacker provides a maliciously crafted image locat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51773",
+    "score": 8.1,
+    "date": "2026-09-25T15:31:45Z"
+   },
+   {
+    "title": "CVE-2026-91841 — A flaw was found in NetworkManager-vpnc, a VPN plugin for NetworkManager. A local unprivileged user can exploit this vulnerability by inject",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91841",
+    "score": 7.8,
+    "date": "2026-09-25T18:31:29Z"
+   },
+   {
+    "title": "CVE-2026-91839 — A flaw was found in NetworkManager-fortisslvpn, the FortiSSLVPN plugin for NetworkManager. The nm-fortisslvpn-service improperly handles car",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91839",
+    "score": 7.8,
+    "date": "2026-09-25T18:31:29Z"
+   },
+   {
+    "title": "CVE-2026-91840 — A flaw was found in NetworkManager-vpnc. This vulnerability allows a local unprivileged user to escalate privileges to root. By injecting a ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91840",
+    "score": 7.8,
+    "date": "2026-09-25T18:31:29Z"
+   },
+   {
+    "title": "CVE-2026-91838 — A flaw was found in NetworkManager-sstp, the SSTP VPN plugin for NetworkManager. A local unprivileged user can exploit this vulnerability by",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91838",
+    "score": 7.8,
+    "date": "2026-09-25T18:31:29Z"
    }
   ],
   "kev": [
@@ -137,6 +203,34 @@
   ],
   "adv": [
    {
+    "title": "FriendsOfFlarum OAuth: Unauthenticated account takeover via unverified email trust in Discord OAuth provider",
+    "url": "https://github.com/advisories/GHSA-g7vj-c29h-3h5m",
+    "score": 9.8,
+    "ghsa": "GHSA-g7vj-c29h-3h5m",
+    "date": "2026-09-25T15:55:07Z"
+   },
+   {
+    "title": "Mediawiki EmbedVideo Extension has stored XSS via malformed src url with $wgEmbedVideoRequireConsent disabled",
+    "url": "https://github.com/advisories/GHSA-v65j-hff3-753c",
+    "score": 7.5,
+    "ghsa": "GHSA-v65j-hff3-753c",
+    "date": "2026-09-25T15:03:43Z"
+   },
+   {
+    "title": "code16 Sharp vulnerable to stored XSS via iframe srcdoc Attribute",
+    "url": "https://github.com/advisories/GHSA-qxg3-46rw-79j8",
+    "score": 7.3,
+    "ghsa": "GHSA-qxg3-46rw-79j8",
+    "date": "2026-09-25T15:02:11Z"
+   },
+   {
+    "title": "code16/sharp has a stored XSS via data-html-content Sanitizer Bypass",
+    "url": "https://github.com/advisories/GHSA-vj3q-vp3g-j9c8",
+    "score": 8.7,
+    "ghsa": "GHSA-vj3q-vp3g-j9c8",
+    "date": "2026-09-25T15:00:44Z"
+   },
+   {
     "title": "Contao: Server-Side Request Forgery (SSRF) via Unvalidated RSS Feed URL in Feed Reader Module",
     "url": "https://github.com/advisories/GHSA-87mg-5grr-rhwh",
     "score": 3.1,
@@ -191,37 +285,23 @@
     "score": 8.4,
     "ghsa": "GHSA-r4vp-3vw6-r2x5",
     "date": "2026-09-24T19:52:34Z"
-   },
-   {
-    "title": "Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
-    "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
-    "score": 7.8,
-    "ghsa": "GHSA-mr95-65j8-9mxp",
-    "date": "2026-09-24T19:50:27Z"
-   },
-   {
-    "title": "Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
-    "url": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
-    "score": 8.8,
-    "ghsa": "GHSA-3cj3-hqcr-g934",
-    "date": "2026-09-24T19:48:34Z"
-   },
-   {
-    "title": "zbateson/mail-mime-parser has CRLF header injection via attachment filename",
-    "url": "https://github.com/advisories/GHSA-36h5-qg4p-q2qf",
-    "score": 7.2,
-    "ghsa": "GHSA-36h5-qg4p-q2qf",
-    "date": "2026-09-24T19:46:32Z"
-   },
-   {
-    "title": "zbateson/mail-mime-parser has uncontrolled resource consumption (CPU/memory DoS) parsing untrusted MIME",
-    "url": "https://github.com/advisories/GHSA-f6v3-2qmr-vfjx",
-    "score": 7.5,
-    "ghsa": "GHSA-f6v3-2qmr-vfjx",
-    "date": "2026-09-24T19:45:05Z"
    }
   ],
   "thn": [
+   {
+    "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+    "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+    "date": "Fri, 25 Sep 2026 20:14:41 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+    "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+    "date": "Fri, 25 Sep 2026 18:48:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "The SOC Doesn't Need to Start Over with Every Alert",
     "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
@@ -291,23 +371,44 @@
     "date": "Thu, 24 Sep 2026 17:35:27 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-    "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-    "date": "Thu, 24 Sep 2026 16:30:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-    "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-    "date": "Thu, 24 Sep 2026 14:44:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Elementor WordPress flaw lets attackers create admin accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "date": "Fri, 25 Sep 2026 14:13:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "date": "Fri, 25 Sep 2026 13:24:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+    "date": "Fri, 25 Sep 2026 12:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+    "date": "Fri, 25 Sep 2026 10:54:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
+    "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+    "date": "Fri, 25 Sep 2026 10:51:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft plans to deprecate Windows Deployment Services",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
@@ -356,54 +457,19 @@
     "date": "Thu, 24 Sep 2026 13:47:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FedRAMP VDR &amp; VER: Daily Scans Are Only the Beginning",
-    "url": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
-    "date": "Thu, 24 Sep 2026 10:02:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-    "date": "Thu, 24 Sep 2026 09:27:57 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
-    "date": "Thu, 24 Sep 2026 08:16:32 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-    "date": "Thu, 24 Sep 2026 06:42:37 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-    "date": "Thu, 24 Sep 2026 05:38:53 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 526,
+    "stars": 515,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 481,
+    "stars": 484,
     "lang": "JavaScript"
    },
    {
@@ -415,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 211,
+    "stars": 212,
     "lang": "Python"
    },
    {
@@ -445,7 +511,7 @@
    {
     "title": "decionis/docker — Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision",
     "url": "https://github.com/decionis/docker",
-    "stars": 164,
+    "stars": 165,
     "lang": "Go"
    },
    {
@@ -569,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
+    "url": "https://www.reddit.com/r/netsec/comments/1wpyg75/cve202513032_entering_and_breaking_the_avast/",
+    "date": "2026-09-25T14:54:02+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-91766: PHP had the redirect credential leak curl fixed in 2018",
     "url": "https://www.reddit.com/r/netsec/comments/1wpcgf9/cve202691766_php_had_the_redirect_credential_leak/",
     "date": "2026-09-24T20:19:24+00:00",
@@ -630,13 +703,6 @@
     "date": "2026-09-23T23:20:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "How I Found a $113,337 AF_ALG Linux Local Privilege Escalation Before Copy Fail",
-    "url": "https://www.reddit.com/r/netsec/comments/1wp3kdy/how_i_found_a_113337_af_alg_linux_local_privilege/",
-    "date": "2026-09-24T14:44:03+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -651,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
-  "kev": 1723,
+  "crit": 5,
+  "kev": 1725,
   "adv": 12,
   "feed": 48
  },
