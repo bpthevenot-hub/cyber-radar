@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-26T19:57:27.833Z",
+ "generatedAt": "2026-09-26T22:57:16.620Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-09-26T22:17:25+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
+    "score": 9.9,
+    "date": "2026-09-26T22:17:25+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
+    "score": 9.8,
+    "date": "2026-09-26T22:17:25+00:00"
+   },
+   {
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "score": 9.8,
+    "date": "2026-09-26T22:17:18+00:00"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
+    "score": 9.6,
+    "date": "2026-09-26T22:17:25+00:00"
+   },
+   {
+    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
+    "score": 9.6,
+    "date": "2026-09-26T22:17:24+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-09-26T22:17:39+00:00"
+   },
+   {
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-09-26T22:17:39+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-09-26T22:17:38+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-09-26T22:17:38+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-09-26T22:17:38+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-09-26T22:17:38+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -396,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 219,
+    "stars": 222,
     "lang": "Python"
    },
    {
@@ -438,7 +523,7 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 128,
+    "stars": 130,
     "lang": "Rust"
    },
    {
@@ -557,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A header-level look at 4,688 small-business websites: 0.17% passed a header-only script-CSP rule [methods, parser rules, data]",
+    "url": "https://www.reddit.com/r/netsec/comments/1wr23li/a_headerlevel_look_at_4688_smallbusiness_websites/",
+    "date": "2026-09-26T21:26:16+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
     "url": "https://www.reddit.com/r/netsec/comments/1wpyg75/cve202513032_entering_and_breaking_the_avast/",
     "date": "2026-09-25T14:54:02+00:00",
@@ -611,18 +703,11 @@
     "date": "2026-09-24T15:45:32+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1woli59/is_this_a_joke_in_the_auth_header_f5_bigip_unauth/",
-    "date": "2026-09-23T23:20:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 14,
   "kev": 1726,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
