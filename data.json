@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-09-26T07:49:28.420Z",
+ "generatedAt": "2026-09-26T13:12:11.478Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-09-26T12:37:13+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-09-26T12:37:12+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
+    "score": 9.9,
+    "date": "2026-09-26T12:37:12+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
+    "score": 9.9,
+    "date": "2026-09-26T12:37:12+00:00"
+   },
+   {
+    "title": "CVE-2026-27459 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68780",
+    "score": 9.8,
+    "date": "2026-09-26T12:37:03+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "BELL-CVE-2026-97509 — BELL-CVE-2026-97509",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97509",
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-09-26T12:37:16+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-09-26T12:37:16+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-09-26T12:37:15+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.14.9 (+74 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70267",
+    "score": 9.1,
+    "date": "2026-09-26T12:37:09+00:00"
+   },
+   {
+    "title": "CVE-2026-13149 — Red Hat Security Advisory: Red Hat Quay 3.16.6 (+41 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69255",
+    "score": 9.1,
+    "date": "2026-09-26T12:37:05+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68681",
+    "score": 9.1,
+    "date": "2026-09-26T12:37:04+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
     "score": 8.8,
-    "date": "2026-09-26T06:06:16.453452Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97513 — BELL-CVE-2026-97513",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97513",
-    "score": 7.8,
-    "date": "2026-09-26T06:06:16.691103Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97497 — BELL-CVE-2026-97497",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97497",
-    "score": 7.8,
-    "date": "2026-09-26T06:06:15.714571Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97508 — BELL-CVE-2026-97508",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97508",
-    "score": 7.5,
-    "date": "2026-09-26T06:06:16.390444Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97520 — BELL-CVE-2026-97520",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97520",
-    "score": 7.1,
-    "date": "2026-09-26T06:06:17.126923Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97496 — BELL-CVE-2026-97496",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97496",
-    "score": 7.1,
-    "date": "2026-09-26T06:06:15.651767Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97519 — BELL-CVE-2026-97519",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97519",
-    "score": null,
-    "date": "2026-09-26T06:06:17.65683Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97518 — BELL-CVE-2026-97518",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97518",
-    "score": null,
-    "date": "2026-09-26T06:06:17.3280Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97521 — BELL-CVE-2026-97521",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97521",
-    "score": null,
-    "date": "2026-09-26T06:06:17.188029Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97517 — BELL-CVE-2026-97517",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97517",
-    "score": null,
-    "date": "2026-09-26T06:06:16.939379Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97516 — BELL-CVE-2026-97516",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97516",
-    "score": null,
-    "date": "2026-09-26T06:06:16.878663Z"
-   },
-   {
-    "title": "BELL-CVE-2026-97503 — BELL-CVE-2026-97503",
-    "url": "https://github.com/advisories/BELL-CVE-2026-97503",
-    "score": null,
-    "date": "2026-09-26T06:06:16.85447Z"
+    "date": "2026-09-26T12:37:23+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+    "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+    "date": "Sat, 26 Sep 2026 15:25:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+    "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+    "date": "Sat, 26 Sep 2026 14:19:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+    "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+    "date": "Sat, 26 Sep 2026 13:18:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
     "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
     "date": "Fri, 25 Sep 2026 20:14:41 +0530",
@@ -350,30 +371,16 @@
     "date": "Thu, 24 Sep 2026 23:22:43 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-    "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-    "date": "Thu, 24 Sep 2026 20:57:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-    "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-    "date": "Thu, 24 Sep 2026 19:59:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-    "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-    "date": "Thu, 24 Sep 2026 17:35:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+    "date": "Sat, 26 Sep 2026 08:28:41 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
     "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
@@ -450,20 +457,13 @@
     "date": "Fri, 25 Sep 2026 04:33:44 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
-    "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
-    "date": "Thu, 24 Sep 2026 16:53:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 515,
+    "stars": 511,
     "lang": "TypeScript"
    },
    {
@@ -481,19 +481,19 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 215,
+    "stars": 218,
     "lang": "Python"
    },
    {
     "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
     "url": "https://github.com/azrtydxb/procoder",
-    "stars": 210,
+    "stars": 211,
     "lang": "Go"
    },
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 183,
+    "stars": 184,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "dhicoc/dsh-reverse-skill — Complete reverse-skill (87 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authoriz",
     "url": "https://github.com/dhicoc/dsh-reverse-skill",
-    "stars": 171,
+    "stars": 172,
     "lang": "PowerShell"
    },
    {
@@ -523,13 +523,13 @@
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 126,
+    "stars": 127,
     "lang": "TypeScript"
    },
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 122,
+    "stars": 123,
     "lang": "Rust"
    }
   ],
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "EX-ARRR: Sailing the Apple 0-click Seas",
+    "url": "https://www.reddit.com/r/netsec/comments/1wqmb3o/exarrr_sailing_the_apple_0click_seas/",
+    "date": "2026-09-26T09:35:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
     "url": "https://www.reddit.com/r/netsec/comments/1wpyg75/cve202513032_entering_and_breaking_the_avast/",
     "date": "2026-09-25T14:54:02+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-09-23T23:20:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Fake Journalist phishing scam targeting tech founders",
-    "url": "https://www.reddit.com/r/netsec/comments/1wp5mdu/fake_journalist_phishing_scam_targeting_tech/",
-    "date": "2026-09-24T16:01:36+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 13,
   "kev": 1726,
   "adv": 12,
   "feed": 48
