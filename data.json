@@ -1,30 +1,12 @@
 {
- "generatedAt": "2026-09-26T22:57:16.620Z",
+ "generatedAt": "2026-09-27T01:32:43.330Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-09-26T22:17:25+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
-    "score": 9.9,
-    "date": "2026-09-26T22:17:25+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
+    "title": "RLSA-2026:71419 — Critical: unbound security update",
+    "url": "https://github.com/advisories/RLSA-2026:71419",
     "score": 9.8,
-    "date": "2026-09-26T22:17:25+00:00"
-   },
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-09-26T22:17:18+00:00"
+    "date": "2026-09-25T12:09:37.504383Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-09-26T22:17:25+00:00"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-09-26T22:17:24+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "title": "CVE-2026-92289 — Lemonldap::NG::Portal versions from 2.23.0 before 2.23.4 for Perl allow a PKCE bypass for public Relying Parties in \"PKCE or secret\" mode be",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92289",
     "score": 9.1,
-    "date": "2026-09-26T22:17:39+00:00"
+    "date": "2026-09-25T03:31:00Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-09-26T22:17:39+00:00"
+    "title": "CVE-2026-96524 — The MCP Server for WordPress WordPress plugin before 1.8.2 does not correctly verify the WordPress REST API nonce for cookie-authenticated r",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96524",
+    "score": 8.8,
+    "date": "2026-09-26T09:30:19Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-26T22:17:38+00:00"
+    "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70498",
+    "score": 8.8,
+    "date": "2026-09-24T12:09:42.603821Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-26T22:17:38+00:00"
+    "title": "RLSA-2026:70201 — Important: podman security update",
+    "url": "https://github.com/advisories/RLSA-2026:70201",
+    "score": 8.8,
+    "date": "2026-09-23T18:07:43.655999Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-09-26T22:17:38+00:00"
+    "title": "RLSA-2026:70186 — Important: postgresql16 security update",
+    "url": "https://github.com/advisories/RLSA-2026:70186",
+    "score": 8.8,
+    "date": "2026-09-23T18:07:43.655999Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-09-26T22:17:38+00:00"
+    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:67471",
+    "score": 8.8,
+    "date": "2026-09-16T12:09:37.746677Z"
+   },
+   {
+    "title": "RLSA-2026:67909 — Important: libevent security update",
+    "url": "https://github.com/advisories/RLSA-2026:67909",
+    "score": 8.6,
+    "date": "2026-09-17T12:09:45.694481Z"
+   },
+   {
+    "title": "RLSA-2026:71586 — Important: libxml2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:71586",
+    "score": 8.5,
+    "date": "2026-09-25T12:09:37.504383Z"
+   },
+   {
+    "title": "RLSA-2026:69125 — Important: curl security update",
+    "url": "https://github.com/advisories/RLSA-2026:69125",
+    "score": 8.1,
+    "date": "2026-09-22T12:08:07.529031Z"
+   },
+   {
+    "title": "CVE-2026-84096 — The wp-review-slider-pro WordPress plugin before 12.7.12 does not perform a capability check on the AJAX handler that saves its review submi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84096",
+    "score": 8,
+    "date": "2026-09-26T09:30:19Z"
+   },
+   {
+    "title": "CVE-2026-84095 — The wp-review-slider-pro WordPress plugin before 12.7.12 does not perform a capability check on one of its AJAX handlers, and the nonce prot",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84095",
+    "score": 8,
+    "date": "2026-09-26T09:30:19Z"
    }
   ],
   "kev": [
@@ -481,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 222,
+    "stars": 224,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "AI on Kubernetes: Default Helm Chart Security Configurations and Lateral Movement Risks",
+    "url": "https://www.reddit.com/r/netsec/comments/1wr6wxx/ai_on_kubernetes_default_helm_chart_security/",
+    "date": "2026-09-27T01:11:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "A header-level look at 4,688 small-business websites: 0.17% passed a header-only script-CSP rule [methods, parser rules, data]",
     "url": "https://www.reddit.com/r/netsec/comments/1wr23li/a_headerlevel_look_at_4688_smallbusiness_websites/",
     "date": "2026-09-26T21:26:16+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-09-24T20:56:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "One Tap Too Far: Using Shortcuts to Bypass Chrome for iOS Call Prompts",
-    "url": "https://www.reddit.com/r/netsec/comments/1wp56y2/one_tap_too_far_using_shortcuts_to_bypass_chrome/",
-    "date": "2026-09-24T15:45:32+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 4,
   "kev": 1726,
   "adv": 12,
   "feed": 48
