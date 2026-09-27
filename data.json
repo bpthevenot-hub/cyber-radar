@@ -1,12 +1,24 @@
 {
- "generatedAt": "2026-09-27T14:43:59.485Z",
+ "generatedAt": "2026-09-27T19:01:40.753Z",
  "sources": {
   "cve": [
+   {
+    "title": "RLSA-2026:71487 — Critical: unbound security update",
+    "url": "https://github.com/advisories/RLSA-2026:71487",
+    "score": 9.8,
+    "date": "2026-09-25T18:04:58.698983Z"
+   },
    {
     "title": "RLSA-2026:71419 — Critical: unbound security update",
     "url": "https://github.com/advisories/RLSA-2026:71419",
     "score": 9.8,
     "date": "2026-09-25T12:09:37.504383Z"
+   },
+   {
+    "title": "RLSA-2026:70564 — Critical: ipa security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70564",
+    "score": 9.8,
+    "date": "2026-09-24T18:05:00.461776Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -19,6 +31,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:70459 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70459",
+    "score": 8.8,
+    "date": "2026-09-24T18:05:00.461776Z"
    },
    {
     "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
@@ -39,51 +57,33 @@
     "date": "2026-09-23T18:07:43.655999Z"
    },
    {
+    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:67471",
+    "score": 8.8,
+    "date": "2026-09-16T12:09:37.746677Z"
+   },
+   {
+    "title": "RLSA-2026:67280 — Important: postgresql18 security update",
+    "url": "https://github.com/advisories/RLSA-2026:67280",
+    "score": 8.8,
+    "date": "2026-09-15T12:08:56.876794Z"
+   },
+   {
+    "title": "RLSA-2026:67909 — Important: libevent security update",
+    "url": "https://github.com/advisories/RLSA-2026:67909",
+    "score": 8.6,
+    "date": "2026-09-17T12:09:45.694481Z"
+   },
+   {
+    "title": "RLSA-2026:71585 — Important: libxml2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:71585",
+    "score": 8.5,
+    "date": "2026-09-25T18:04:58.698983Z"
+   },
+   {
     "title": "RLSA-2026:71586 — Important: libxml2 security update",
     "url": "https://github.com/advisories/RLSA-2026:71586",
     "score": 8.5,
-    "date": "2026-09-25T12:09:37.504383Z"
-   },
-   {
-    "title": "RLSA-2026:71602 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:71602",
-    "score": 7.8,
-    "date": "2026-09-26T12:11:25.039690Z"
-   },
-   {
-    "title": "CVE-2026-97164 — Joomla Extension - svenbluege.de - Authenticated arbitrary path deletion in `clear cache` task in Event Gallery extension < 6.5.0 - Using th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97164",
-    "score": 7.5,
-    "date": "2026-09-27T12:30:21Z"
-   },
-   {
-    "title": "CVE-2026-89136 — When using RPK (Raw Public Key), the client side of a TLS 1.2, 1.3 and DTLS 1.2 connection could accept an unsolicited server_cert_type=RawP",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89136",
-    "score": 7.5,
-    "date": "2026-09-27T12:30:20Z"
-   },
-   {
-    "title": "CVE-2026-89102 — In wolfSSL versions 5.7.2 through 5.9.2 there is a client-side implementation flaw in RFC 6961, multiple OCSP response stapling, which can l",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89102",
-    "score": 7.5,
-    "date": "2026-09-27T12:30:20Z"
-   },
-   {
-    "title": "CVE-2026-93302 — MatchTrustedPeer ignores the public key used, leading to forged CA clones passing verification. Affected builds are any that enable the macr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93302",
-    "score": 7.5,
-    "date": "2026-09-27T12:30:20Z"
-   },
-   {
-    "title": "RLSA-2026:71658 — Important: python-cryptography security update",
-    "url": "https://github.com/advisories/RLSA-2026:71658",
-    "score": 7.5,
-    "date": "2026-09-26T12:12:16.981828Z"
-   },
-   {
-    "title": "RLSA-2026:71543 — Important: cockpit-image-builder security update",
-    "url": "https://github.com/advisories/RLSA-2026:71543",
-    "score": 7.5,
     "date": "2026-09-25T12:09:37.504383Z"
    }
   ],
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "date": "Sun, 27 Sep 2026 12:02:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
     "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
     "date": "Sun, 27 Sep 2026 10:13:31 -0400",
@@ -450,18 +457,11 @@
     "date": "Fri, 25 Sep 2026 13:24:20 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-    "date": "Fri, 25 Sep 2026 12:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
-    "title": "shinthink/blitzstrike — ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack",
+    "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
     "stars": 512,
     "lang": "TypeScript"
@@ -469,19 +469,19 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 485,
+    "stars": 488,
     "lang": "JavaScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 279,
+    "stars": 281,
     "lang": "Python"
    },
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 230,
+    "stars": 232,
     "lang": "Python"
    },
    {
@@ -517,13 +517,13 @@
    {
     "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
     "url": "https://github.com/4x3/nulltrace",
-    "stars": 143,
+    "stars": 144,
     "lang": "Go"
    },
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 131,
+    "stars": 132,
     "lang": "Rust"
    },
    {
@@ -642,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "AI on Kubernetes: Default Helm Chart Security Configurations and Lateral Movement Risks",
-    "url": "https://www.reddit.com/r/netsec/comments/1wr6wxx/ai_on_kubernetes_default_helm_chart_security/",
-    "date": "2026-09-27T01:11:18+00:00",
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "url": "https://www.reddit.com/r/netsec/comments/1wr709b/revealing_the_details_of_how_openai_agents_hacked/",
+    "date": "2026-09-27T01:15:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-    "url": "https://www.reddit.com/r/netsec/comments/1wr709b/revealing_the_details_of_how_openai_agents_hacked/",
-    "date": "2026-09-27T01:15:55+00:00",
+    "title": "AI on Kubernetes: Default Helm Chart Security Configurations and Lateral Movement Risks",
+    "url": "https://www.reddit.com/r/netsec/comments/1wr6wxx/ai_on_kubernetes_default_helm_chart_security/",
+    "date": "2026-09-27T01:11:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1726,
   "adv": 12,
   "feed": 48
