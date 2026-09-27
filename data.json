@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-09-27T01:32:43.330Z",
+ "generatedAt": "2026-09-27T08:18:59.978Z",
  "sources": {
   "cve": [
    {
-    "title": "RLSA-2026:71419 — Critical: unbound security update",
-    "url": "https://github.com/advisories/RLSA-2026:71419",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-09-27T07:53:26+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
     "score": 9.8,
-    "date": "2026-09-25T12:09:37.504383Z"
+    "date": "2026-09-27T07:53:03+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-92289 — Lemonldap::NG::Portal versions from 2.23.0 before 2.23.4 for Perl allow a PKCE bypass for public Relying Parties in \"PKCE or secret\" mode be",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92289",
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
+    "score": 9.4,
+    "date": "2026-09-27T07:53:14+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
     "score": 9.1,
-    "date": "2026-09-25T03:31:00Z"
+    "date": "2026-09-27T07:53:26+00:00"
    },
    {
-    "title": "CVE-2026-96524 — The MCP Server for WordPress WordPress plugin before 1.8.2 does not correctly verify the WordPress REST API nonce for cookie-authenticated r",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96524",
-    "score": 8.8,
-    "date": "2026-09-26T09:30:19Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:24+00:00"
    },
    {
-    "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:70498",
-    "score": 8.8,
-    "date": "2026-09-24T12:09:42.603821Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.19.1 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54531",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:22+00:00"
    },
    {
-    "title": "RLSA-2026:70201 — Important: podman security update",
-    "url": "https://github.com/advisories/RLSA-2026:70201",
-    "score": 8.8,
-    "date": "2026-09-23T18:07:43.655999Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.3.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54286",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:22+00:00"
    },
    {
-    "title": "RLSA-2026:70186 — Important: postgresql16 security update",
-    "url": "https://github.com/advisories/RLSA-2026:70186",
-    "score": 8.8,
-    "date": "2026-09-23T18:07:43.655999Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:20+00:00"
    },
    {
-    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:67471",
-    "score": 8.8,
-    "date": "2026-09-16T12:09:37.746677Z"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:18+00:00"
    },
    {
-    "title": "RLSA-2026:67909 — Important: libevent security update",
-    "url": "https://github.com/advisories/RLSA-2026:67909",
-    "score": 8.6,
-    "date": "2026-09-17T12:09:45.694481Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.16 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:50843",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:17+00:00"
    },
    {
-    "title": "RLSA-2026:71586 — Important: libxml2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:71586",
-    "score": 8.5,
-    "date": "2026-09-25T12:09:37.504383Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.2.12 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47952",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:15+00:00"
    },
    {
-    "title": "RLSA-2026:69125 — Important: curl security update",
-    "url": "https://github.com/advisories/RLSA-2026:69125",
-    "score": 8.1,
-    "date": "2026-09-22T12:08:07.529031Z"
-   },
-   {
-    "title": "CVE-2026-84096 — The wp-review-slider-pro WordPress plugin before 12.7.12 does not perform a capability check on the AJAX handler that saves its review submi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84096",
-    "score": 8,
-    "date": "2026-09-26T09:30:19Z"
-   },
-   {
-    "title": "CVE-2026-84095 — The wp-review-slider-pro WordPress plugin before 12.7.12 does not perform a capability check on one of its AJAX handlers, and the nonce prot",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84095",
-    "score": 8,
-    "date": "2026-09-26T09:30:19Z"
+    "title": "CVE-2026-8643 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42132",
+    "score": 9.1,
+    "date": "2026-09-27T07:53:14+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+    "date": "Sun, 27 Sep 2026 13:17:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
     "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
     "date": "Sat, 26 Sep 2026 23:52:52 +0530",
@@ -362,13 +369,6 @@
     "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
     "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
     "date": "Fri, 25 Sep 2026 15:44:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-    "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-    "date": "Fri, 25 Sep 2026 10:19:22 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -469,7 +469,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 483,
+    "stars": 484,
     "lang": "JavaScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 224,
+    "stars": 226,
     "lang": "Python"
    },
    {
@@ -635,9 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "EX-ARRR: Sailing the Apple 0-click Seas",
-    "url": "https://www.reddit.com/r/netsec/comments/1wqmb3o/exarrr_sailing_the_apple_0click_seas/",
-    "date": "2026-09-26T09:35:39+00:00",
+    "title": "EDR Evasion: Process Injection Without WriteProcessMemory",
+    "url": "https://www.reddit.com/r/netsec/comments/1wr9sr7/edr_evasion_process_injection_without/",
+    "date": "2026-09-27T03:39:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,6 +645,13 @@
     "title": "AI on Kubernetes: Default Helm Chart Security Configurations and Lateral Movement Risks",
     "url": "https://www.reddit.com/r/netsec/comments/1wr6wxx/ai_on_kubernetes_default_helm_chart_security/",
     "date": "2026-09-27T01:11:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "EX-ARRR: Sailing the Apple 0-click Seas",
+    "url": "https://www.reddit.com/r/netsec/comments/1wqmb3o/exarrr_sailing_the_apple_0click_seas/",
+    "date": "2026-09-26T09:35:39+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-09-24T15:07:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
-    "url": "https://www.reddit.com/r/netsec/comments/1wpddil/lunex_unmasked_a_new_information_stealer_deployed/",
-    "date": "2026-09-24T20:56:07+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1726,
   "adv": 12,
   "feed": 48
