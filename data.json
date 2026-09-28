@@ -1,12 +1,30 @@
 {
- "generatedAt": "2026-09-28T08:46:09.560Z",
+ "generatedAt": "2026-09-28T17:42:24.128Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-09-28T08:03:31+00:00"
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-09-28T16:48:11+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-09-28T16:48:08+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
+    "score": 9.9,
+    "date": "2026-09-28T16:48:06+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
+    "score": 9.9,
+    "date": "2026-09-28T16:48:06+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -24,67 +42,49 @@
     "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:7128",
     "score": 9.6,
-    "date": "2026-09-28T08:03:33+00:00"
+    "date": "2026-09-28T16:48:08+00:00"
    },
    {
     "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:7110",
     "score": 9.6,
-    "date": "2026-09-28T08:03:33+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.15.68 bug fix and security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56912",
-    "score": 9.4,
-    "date": "2026-09-28T08:03:22+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.14.72 bug fix and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56789",
-    "score": 9.4,
-    "date": "2026-09-28T08:03:20+00:00"
+    "date": "2026-09-28T16:48:06+00:00"
    },
    {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9872",
     "score": 9.1,
-    "date": "2026-09-28T08:03:41+00:00"
+    "date": "2026-09-28T16:48:16+00:00"
    },
    {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9453",
     "score": 9.1,
-    "date": "2026-09-28T08:03:40+00:00"
+    "date": "2026-09-28T16:48:16+00:00"
    },
    {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9448",
     "score": 9.1,
-    "date": "2026-09-28T08:03:40+00:00"
+    "date": "2026-09-28T16:48:15+00:00"
    },
    {
     "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9440",
     "score": 9.1,
-    "date": "2026-09-28T08:03:40+00:00"
+    "date": "2026-09-28T16:48:15+00:00"
    },
    {
     "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9388",
     "score": 9.1,
-    "date": "2026-09-28T08:03:39+00:00"
+    "date": "2026-09-28T16:48:15+00:00"
    },
    {
     "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:9385",
     "score": 9.1,
-    "date": "2026-09-28T08:03:39+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-09-28T08:03:38+00:00"
+    "date": "2026-09-28T16:48:15+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "scim-patch: Mutation of Inherited Built-in Method Objects",
+    "url": "https://github.com/advisories/GHSA-2mhw-wcx5-v3xj",
+    "score": 4.3,
+    "ghsa": "GHSA-2mhw-wcx5-v3xj",
+    "date": "2026-09-28T14:01:15Z"
+   },
+   {
+    "title": "code-ollama: `grep_search` Command Injection via Unescaped `$()` Shell Substitution (CWE-78)",
+    "url": "https://github.com/advisories/GHSA-456v-xq2p-r4cj",
+    "score": 7.8,
+    "ghsa": "GHSA-456v-xq2p-r4cj",
+    "date": "2026-09-28T13:59:43Z"
+   },
+   {
     "title": "SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
     "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
     "score": 7.5,
@@ -271,23 +285,44 @@
     "score": null,
     "ghsa": "GHSA-pg57-6jwg-q645",
     "date": "2026-09-25T19:27:59Z"
-   },
-   {
-    "title": "FriendsOfFlarum OAuth: Unauthenticated account takeover via unverified email trust in Discord OAuth provider",
-    "url": "https://github.com/advisories/GHSA-g7vj-c29h-3h5m",
-    "score": 9.8,
-    "ghsa": "GHSA-g7vj-c29h-3h5m",
-    "date": "2026-09-25T15:55:07Z"
-   },
-   {
-    "title": "Mediawiki EmbedVideo Extension has stored XSS via malformed src url with $wgEmbedVideoRequireConsent disabled",
-    "url": "https://github.com/advisories/GHSA-v65j-hff3-753c",
-    "score": 7.5,
-    "ghsa": "GHSA-v65j-hff3-753c",
-    "date": "2026-09-25T15:03:43Z"
    }
   ],
   "thn": [
+   {
+    "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+    "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+    "date": "Mon, 28 Sep 2026 19:30:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+    "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+    "date": "Mon, 28 Sep 2026 17:28:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+    "date": "Mon, 28 Sep 2026 17:16:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+    "date": "Mon, 28 Sep 2026 14:38:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+    "date": "Mon, 28 Sep 2026 12:51:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
@@ -336,44 +371,30 @@
     "date": "Sat, 26 Sep 2026 13:18:33 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-    "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-    "date": "Fri, 25 Sep 2026 20:14:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-    "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-    "date": "Fri, 25 Sep 2026 18:48:06 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "The SOC Doesn't Need to Start Over with Every Alert",
-    "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-    "date": "Fri, 25 Sep 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-    "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-    "date": "Fri, 25 Sep 2026 16:05:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-    "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-    "date": "Fri, 25 Sep 2026 15:44:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+    "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+    "date": "Mon, 28 Sep 2026 11:49:27 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+    "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+    "date": "Mon, 28 Sep 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+    "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+    "date": "Mon, 28 Sep 2026 05:25:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
     "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
@@ -436,40 +457,19 @@
     "date": "Sat, 26 Sep 2026 11:50:38 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-    "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-    "date": "Sat, 26 Sep 2026 10:19:46 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-    "date": "Sat, 26 Sep 2026 08:28:41 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-    "date": "Fri, 25 Sep 2026 17:41:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 513,
+    "stars": 491,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 489,
+    "stars": 490,
     "lang": "JavaScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 239,
+    "stars": 240,
     "lang": "Python"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 133,
+    "stars": 135,
     "lang": "Rust"
    },
    {
@@ -635,9 +635,30 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1wsbh8j/oh_look_the_foot_gun_went_off_again_citrix/",
+    "date": "2026-09-28T10:58:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Sender spoofing in Proton Mail via display-name homograph",
+    "url": "https://www.reddit.com/r/netsec/comments/1wsehoo/sender_spoofing_in_proton_mail_via_displayname/",
+    "date": "2026-09-28T13:22:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "RCE in OpenCode (GHSA-632h-h47v-g4x4)",
     "url": "https://www.reddit.com/r/netsec/comments/1ws80bi/rce_in_opencode_ghsa632hh47vg4x4/",
     "date": "2026-09-28T07:26:00+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-32740: RCE in a PIE Next.js sharp/libheif Stack",
+    "url": "https://www.reddit.com/r/netsec/comments/1wsajyx/cve202632740_rce_in_a_pie_nextjs_sharplibheif/",
+    "date": "2026-09-28T10:03:49+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -680,27 +701,6 @@
     "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
     "url": "https://www.reddit.com/r/netsec/comments/1wpyg75/cve202513032_entering_and_breaking_the_avast/",
     "date": "2026-09-25T14:54:02+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-91766: PHP had the redirect credential leak curl fixed in 2018",
-    "url": "https://www.reddit.com/r/netsec/comments/1wpcgf9/cve202691766_php_had_the_redirect_credential_leak/",
-    "date": "2026-09-24T20:19:24+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Uncensored Qwen 3.8 27b helped write a LSASS Dumper which bypassed EDR while I made myself coffee",
-    "url": "https://www.reddit.com/r/netsec/comments/1wotpuj/uncensored_qwen_38_27b_helped_write_a_lsass/",
-    "date": "2026-09-24T06:04:24+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Argus Monitor Local Denial-of-Service Vulnerability (CVE-2026-79417)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wpkc7q/argus_monitor_local_denialofservice_vulnerability/",
-    "date": "2026-09-25T02:13:27+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
