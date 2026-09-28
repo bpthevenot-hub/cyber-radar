@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-09-28T17:42:24.128Z",
+ "generatedAt": "2026-09-28T23:21:20.565Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-09-28T16:48:11+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-09-28T16:48:08+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
-    "score": 9.9,
-    "date": "2026-09-28T16:48:06+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
-    "score": 9.9,
-    "date": "2026-09-28T16:48:06+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -37,54 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-09-28T16:48:08+00:00"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-09-28T16:48:06+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-09-28T16:48:16+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-09-28T16:48:16+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-09-28T16:48:15+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-09-28T16:48:15+00:00"
-   },
-   {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-09-28T16:48:15+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-09-28T16:48:15+00:00"
    }
   ],
   "kev": [
@@ -203,91 +131,126 @@
   ],
   "adv": [
    {
-    "title": "scim-patch: Mutation of Inherited Built-in Method Objects",
-    "url": "https://github.com/advisories/GHSA-2mhw-wcx5-v3xj",
-    "score": 4.3,
-    "ghsa": "GHSA-2mhw-wcx5-v3xj",
-    "date": "2026-09-28T14:01:15Z"
+    "title": "Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
+    "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
+    "score": 5.9,
+    "ghsa": "GHSA-6vj9-mwq6-2f5v",
+    "date": "2026-09-28T21:56:05Z"
    },
    {
-    "title": "code-ollama: `grep_search` Command Injection via Unescaped `$()` Shell Substitution (CWE-78)",
-    "url": "https://github.com/advisories/GHSA-456v-xq2p-r4cj",
-    "score": 7.8,
-    "ghsa": "GHSA-456v-xq2p-r4cj",
-    "date": "2026-09-28T13:59:43Z"
+    "title": "undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
+    "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
+    "score": 5.9,
+    "ghsa": "GHSA-3wwx-pv8p-q78v",
+    "date": "2026-09-28T21:42:37Z"
    },
    {
-    "title": "SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
-    "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
+    "title": "multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
+    "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
+    "score": 5.3,
+    "ghsa": "GHSA-3pph-fpjx-jg34",
+    "date": "2026-09-28T21:34:58Z"
+   },
+   {
+    "title": "morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
+    "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
+    "score": 5.3,
+    "ghsa": "GHSA-9f6g-j8ch-79g4",
+    "date": "2026-09-28T21:33:08Z"
+   },
+   {
+    "title": "Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
+    "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
     "score": 7.5,
-    "ghsa": "GHSA-q986-4x7x-gx39",
-    "date": "2026-09-25T21:48:03Z"
+    "ghsa": "GHSA-f67j-2jqw-jpq7",
+    "date": "2026-09-28T21:31:21Z"
    },
    {
-    "title": "mpp vulnerable to Gas Draining with low gas limit",
-    "url": "https://github.com/advisories/GHSA-vj8p-hp9x-gh47",
+    "title": "fast-uri vulnerable to authority injection via an unvalidated port in serialize",
+    "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
     "score": 7.5,
-    "ghsa": "GHSA-vj8p-hp9x-gh47",
-    "date": "2026-09-25T21:47:36Z"
+    "ghsa": "GHSA-qw65-cvwx-89v3",
+    "date": "2026-09-28T21:24:39Z"
    },
    {
-    "title": "mpp vulnerable to Gas Draining with access list",
-    "url": "https://github.com/advisories/GHSA-qpxh-ff8m-c62v",
+    "title": "fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
+    "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
+    "score": 7.5,
+    "ghsa": "GHSA-58mr-gqgx-xq4g",
+    "date": "2026-09-28T21:23:35Z"
+   },
+   {
+    "title": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
+    "url": "https://github.com/advisories/GHSA-gx83-3vf8-gh7j",
+    "score": 5.6,
+    "ghsa": "GHSA-gx83-3vf8-gh7j",
+    "date": "2026-09-28T20:44:25Z"
+   },
+   {
+    "title": "ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
+    "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
     "score": null,
-    "ghsa": "GHSA-qpxh-ff8m-c62v",
-    "date": "2026-09-25T21:45:16Z"
+    "ghsa": "GHSA-rpw4-54j3-4h4q",
+    "date": "2026-09-28T20:43:55Z"
    },
    {
-    "title": "mpp vulnerable to Gas Draining with no limit",
-    "url": "https://github.com/advisories/GHSA-vv77-66rf-pm86",
-    "score": 7.5,
-    "ghsa": "GHSA-vv77-66rf-pm86",
-    "date": "2026-09-25T21:44:12Z"
-   },
-   {
-    "title": "CliInvoke.Specializations has command injection in PowerShell and Cmd shell wrappers",
-    "url": "https://github.com/advisories/GHSA-wrvw-254r-wpmv",
-    "score": 8.4,
-    "ghsa": "GHSA-wrvw-254r-wpmv",
-    "date": "2026-09-25T21:41:48Z"
-   },
-   {
-    "title": "CliInvoke: Argument Injection in Extensibility Runner Factory",
-    "url": "https://github.com/advisories/GHSA-j73w-8hfr-4gc9",
-    "score": 8.4,
-    "ghsa": "GHSA-j73w-8hfr-4gc9",
-    "date": "2026-09-25T21:41:36Z"
-   },
-   {
-    "title": "khoj has an unauthenticated path traversal in /home/ endpoint that allows file read from server filesystem",
-    "url": "https://github.com/advisories/GHSA-62mm-xwmv-crhg",
-    "score": 7.5,
-    "ghsa": "GHSA-62mm-xwmv-crhg",
-    "date": "2026-09-25T21:38:15Z"
-   },
-   {
-    "title": "Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
-    "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
-    "score": 8.8,
-    "ghsa": "GHSA-9gfj-28hw-jchp",
-    "date": "2026-09-25T19:32:05Z"
-   },
-   {
-    "title": "OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
-    "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
-    "score": 7.5,
-    "ghsa": "GHSA-29h2-jr22-frmh",
-    "date": "2026-09-25T19:31:08Z"
-   },
-   {
-    "title": "Containerd has image-pull DoS via crafted OCI index graph amplification",
-    "url": "https://github.com/advisories/GHSA-pg57-6jwg-q645",
+    "title": "ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
+    "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
     "score": null,
-    "ghsa": "GHSA-pg57-6jwg-q645",
-    "date": "2026-09-25T19:27:59Z"
+    "ghsa": "GHSA-2vr4-cq9g-pvrc",
+    "date": "2026-09-28T20:43:03Z"
+   },
+   {
+    "title": "Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
+    "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
+    "score": 7.5,
+    "ghsa": "GHSA-j3r3-mxqp-r2p4",
+    "date": "2026-09-28T20:39:26Z"
+   },
+   {
+    "title": "jackson-databind: Duration XMLGregorianCalendar Unbounded Number Parse DoS",
+    "url": "https://github.com/advisories/GHSA-q4xh-88c3-wmh7",
+    "score": 7.5,
+    "ghsa": "GHSA-q4xh-88c3-wmh7",
+    "date": "2026-09-28T20:19:46Z"
    }
   ],
   "thn": [
+   {
+    "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+    "date": "Tue, 29 Sep 2026 00:48:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+    "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+    "date": "Tue, 29 Sep 2026 00:05:42 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "IAM for AI agents: A Practical Enterprise Framework",
+    "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+    "date": "Mon, 28 Sep 2026 23:50:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+    "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+    "date": "Mon, 28 Sep 2026 23:12:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+    "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+    "date": "Mon, 28 Sep 2026 23:08:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
     "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
@@ -336,44 +299,37 @@
     "date": "Sat, 26 Sep 2026 23:52:52 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-    "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-    "date": "Sat, 26 Sep 2026 17:16:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-    "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-    "date": "Sat, 26 Sep 2026 16:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-    "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-    "date": "Sat, 26 Sep 2026 15:25:22 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-    "date": "Sat, 26 Sep 2026 14:19:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-    "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-    "date": "Sat, 26 Sep 2026 13:18:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+    "date": "Mon, 28 Sep 2026 16:56:47 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+    "date": "Mon, 28 Sep 2026 16:31:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+    "date": "Mon, 28 Sep 2026 15:49:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+    "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+    "date": "Mon, 28 Sep 2026 14:50:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
     "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
@@ -429,34 +385,6 @@
     "date": "Sun, 27 Sep 2026 10:13:31 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-    "date": "Sun, 27 Sep 2026 09:38:40 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-    "date": "Sat, 26 Sep 2026 15:03:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-    "date": "Sat, 26 Sep 2026 12:26:58 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-    "date": "Sat, 26 Sep 2026 11:50:38 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +397,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 490,
+    "stars": 491,
     "lang": "JavaScript"
    },
    {
@@ -481,7 +409,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 240,
+    "stars": 242,
     "lang": "Python"
    },
    {
@@ -517,13 +445,13 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 135,
+    "stars": 138,
     "lang": "Rust"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
     "url": "https://github.com/adnxy/react-native-secure-webview",
-    "stars": 128,
+    "stars": 130,
     "lang": "TypeScript"
    },
    {
@@ -656,9 +584,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Email is crazy",
+    "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
+    "date": "2026-09-28T22:00:15+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-32740: RCE in a PIE Next.js sharp/libheif Stack",
     "url": "https://www.reddit.com/r/netsec/comments/1wsajyx/cve202632740_rce_in_a_pie_nextjs_sharplibheif/",
     "date": "2026-09-28T10:03:49+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Your SBOM Is Fan Fiction",
+    "url": "https://www.reddit.com/r/netsec/comments/1wsqlcx/your_sbom_is_fan_fiction/",
+    "date": "2026-09-28T20:54:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -689,20 +631,6 @@
     "date": "2026-09-26T09:35:39+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "A header-level look at 4,688 small-business websites: 0.17% passed a header-only script-CSP rule [methods, parser rules, data]",
-    "url": "https://www.reddit.com/r/netsec/comments/1wr23li/a_headerlevel_look_at_4688_smallbusiness_websites/",
-    "date": "2026-09-26T21:26:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
-    "url": "https://www.reddit.com/r/netsec/comments/1wpyg75/cve202513032_entering_and_breaking_the_avast/",
-    "date": "2026-09-25T14:54:02+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1728,
   "adv": 12,
   "feed": 48
