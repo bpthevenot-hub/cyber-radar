@@ -1,20 +1,7 @@
 {
- "generatedAt": "2026-09-28T23:21:20.565Z",
+ "generatedAt": "2026-09-29T05:51:06.316Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -391,7 +378,7 @@
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 491,
+    "stars": 492,
     "lang": "TypeScript"
    },
    {
@@ -409,7 +396,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 242,
+    "stars": 243,
     "lang": "Python"
    },
    {
@@ -427,7 +414,7 @@
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 177,
+    "stars": 178,
     "lang": "JavaScript"
    },
    {
@@ -563,9 +550,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I flooded a legal contract with lookalike letters and gave it to seven GPT and Claude models. None were fooled, but it took up to 5.7x the tokens to read, and t",
+    "url": "https://www.reddit.com/r/netsec/comments/1wsvytq/i_flooded_a_legal_contract_with_lookalike_letters/",
+    "date": "2026-09-29T00:41:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1wsbh8j/oh_look_the_foot_gun_went_off_again_citrix/",
     "date": "2026-09-28T10:58:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Email is crazy",
+    "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
+    "date": "2026-09-28T22:00:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -580,13 +581,6 @@
     "title": "RCE in OpenCode (GHSA-632h-h47v-g4x4)",
     "url": "https://www.reddit.com/r/netsec/comments/1ws80bi/rce_in_opencode_ghsa632hh47vg4x4/",
     "date": "2026-09-28T07:26:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Email is crazy",
-    "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
-    "date": "2026-09-28T22:00:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -624,18 +618,11 @@
     "date": "2026-09-27T01:11:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "EX-ARRR: Sailing the Apple 0-click Seas",
-    "url": "https://www.reddit.com/r/netsec/comments/1wqmb3o/exarrr_sailing_the_apple_0click_seas/",
-    "date": "2026-09-26T09:35:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -645,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1728,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
