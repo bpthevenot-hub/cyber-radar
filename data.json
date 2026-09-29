@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-09-29T18:40:41.906Z",
+ "generatedAt": "2026-09-29T23:00:42.119Z",
  "sources": {
   "cve": [
-   {
-    "title": "RLSA-2026:72279 — Critical: ipa security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:72279",
-    "score": 9.8,
-    "date": "2026-09-29T12:10:25.697024Z"
-   },
-   {
-    "title": "RLSA-2026:71487 — Critical: unbound security update",
-    "url": "https://github.com/advisories/RLSA-2026:71487",
-    "score": 9.8,
-    "date": "2026-09-25T18:04:58.698983Z"
-   },
-   {
-    "title": "RLSA-2026:71419 — Critical: unbound security update",
-    "url": "https://github.com/advisories/RLSA-2026:71419",
-    "score": 9.8,
-    "date": "2026-09-25T12:09:37.504383Z"
-   },
-   {
-    "title": "RLSA-2026:70564 — Critical: ipa security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:70564",
-    "score": 9.8,
-    "date": "2026-09-24T18:05:00.461776Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -37,54 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RLSA-2026:70459 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:70459",
-    "score": 8.8,
-    "date": "2026-09-24T18:05:00.461776Z"
-   },
-   {
-    "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:70498",
-    "score": 8.8,
-    "date": "2026-09-24T12:09:42.603821Z"
-   },
-   {
-    "title": "RLSA-2026:70201 — Important: podman security update",
-    "url": "https://github.com/advisories/RLSA-2026:70201",
-    "score": 8.8,
-    "date": "2026-09-23T18:07:43.655999Z"
-   },
-   {
-    "title": "RLSA-2026:70186 — Important: postgresql16 security update",
-    "url": "https://github.com/advisories/RLSA-2026:70186",
-    "score": 8.8,
-    "date": "2026-09-23T18:07:43.655999Z"
-   },
-   {
-    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:67471",
-    "score": 8.8,
-    "date": "2026-09-16T12:09:37.746677Z"
-   },
-   {
-    "title": "RLSA-2026:67909 — Important: libevent security update",
-    "url": "https://github.com/advisories/RLSA-2026:67909",
-    "score": 8.6,
-    "date": "2026-09-17T12:09:45.694481Z"
-   },
-   {
-    "title": "RLSA-2026:71585 — Important: libxml2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:71585",
-    "score": 8.5,
-    "date": "2026-09-25T18:04:58.698983Z"
-   },
-   {
-    "title": "RLSA-2026:71586 — Important: libxml2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:71586",
-    "score": 8.5,
-    "date": "2026-09-25T12:09:37.504383Z"
    }
   ],
   "kev": [
@@ -375,6 +303,27 @@
   ],
   "bleep": [
    {
+    "title": "Signal adds encypted local backup support to iOS, desktop apps",
+    "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+    "date": "Tue, 29 Sep 2026 17:30:08 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "url": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "date": "Tue, 29 Sep 2026 16:59:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+    "date": "Tue, 29 Sep 2026 16:09:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
     "date": "Tue, 29 Sep 2026 14:37:12 -0400",
@@ -436,27 +385,6 @@
     "date": "Tue, 29 Sep 2026 03:33:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-    "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
-    "date": "Mon, 28 Sep 2026 16:56:47 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
-    "date": "Mon, 28 Sep 2026 16:31:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-    "url": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
-    "date": "Mon, 28 Sep 2026 15:49:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -479,9 +407,15 @@
     "lang": "Python"
    },
    {
+    "title": "0sec-labs/0 — 🥷🏻0 is an extensible cybersecurity harness for full-stack LLM-driven penetration testing and remediation. [R",
+    "url": "https://github.com/0sec-labs/0",
+    "stars": 252,
+    "lang": "TypeScript"
+   },
+   {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 246,
+    "stars": 247,
     "lang": "Python"
    },
    {
@@ -489,12 +423,6 @@
     "url": "https://github.com/azrtydxb/procoder",
     "stars": 211,
     "lang": "Go"
-   },
-   {
-    "title": "0sec-labs/0 — A cybersecurity harness for full-stack LLM-driven penetration testing. Find and fix vulnerabilities autonomous",
-    "url": "https://github.com/0sec-labs/0",
-    "stars": 204,
-    "lang": "TypeScript"
    },
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
@@ -529,7 +457,7 @@
    {
     "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
     "url": "https://github.com/4x3/nulltrace",
-    "stars": 125,
+    "stars": 126,
     "lang": "Go"
    }
   ],
@@ -635,9 +563,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Critical RCE Alert: Full takeover of HashiCorp Vault and OpenBao. OpenBao is patched. Vault remains exposed",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtn3cv/critical_rce_alert_full_takeover_of_hashicorp/",
+    "date": "2026-09-29T21:43:15+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/",
     "date": "2026-09-29T13:57:34+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Microsoft Copilot Cowork Exfiltrates Files",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtnidr/microsoft_copilot_cowork_exfiltrates_files/",
+    "date": "2026-09-29T22:00:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -663,6 +605,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Why &quot;Extension Blocked&quot; Doesn't Mean Safe: Rethinking File Upload Security Testing",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtjc2w/why_extension_blocked_doesnt_mean_safe_rethinking/",
+    "date": "2026-09-29T19:17:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1wsbh8j/oh_look_the_foot_gun_went_off_again_citrix/",
     "date": "2026-09-28T10:58:09+00:00",
@@ -682,27 +631,6 @@
     "date": "2026-09-28T07:26:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-32740: RCE in a PIE Next.js sharp/libheif Stack",
-    "url": "https://www.reddit.com/r/netsec/comments/1wsajyx/cve202632740_rce_in_a_pie_nextjs_sharplibheif/",
-    "date": "2026-09-28T10:03:49+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Your SBOM Is Fan Fiction",
-    "url": "https://www.reddit.com/r/netsec/comments/1wsqlcx/your_sbom_is_fan_fiction/",
-    "date": "2026-09-28T20:54:07+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "EDR Evasion: Process Injection Without WriteProcessMemory",
-    "url": "https://www.reddit.com/r/netsec/comments/1wr9sr7/edr_evasion_process_injection_without/",
-    "date": "2026-09-27T03:39:18+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1729,
   "adv": 12,
   "feed": 48
