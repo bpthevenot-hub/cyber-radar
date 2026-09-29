@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T13:03:03.920Z",
+ "generatedAt": "2026-09-29T18:40:41.906Z",
  "sources": {
   "cve": [
    {
@@ -9,10 +9,22 @@
     "date": "2026-09-29T12:10:25.697024Z"
    },
    {
+    "title": "RLSA-2026:71487 — Critical: unbound security update",
+    "url": "https://github.com/advisories/RLSA-2026:71487",
+    "score": 9.8,
+    "date": "2026-09-25T18:04:58.698983Z"
+   },
+   {
     "title": "RLSA-2026:71419 — Critical: unbound security update",
     "url": "https://github.com/advisories/RLSA-2026:71419",
     "score": 9.8,
     "date": "2026-09-25T12:09:37.504383Z"
+   },
+   {
+    "title": "RLSA-2026:70564 — Critical: ipa security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70564",
+    "score": 9.8,
+    "date": "2026-09-24T18:05:00.461776Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -25,6 +37,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:70459 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70459",
+    "score": 8.8,
+    "date": "2026-09-24T18:05:00.461776Z"
    },
    {
     "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
@@ -51,40 +69,22 @@
     "date": "2026-09-16T12:09:37.746677Z"
    },
    {
-    "title": "RLSA-2026:67280 — Important: postgresql18 security update",
-    "url": "https://github.com/advisories/RLSA-2026:67280",
-    "score": 8.8,
-    "date": "2026-09-15T12:08:56.876794Z"
-   },
-   {
     "title": "RLSA-2026:67909 — Important: libevent security update",
     "url": "https://github.com/advisories/RLSA-2026:67909",
     "score": 8.6,
     "date": "2026-09-17T12:09:45.694481Z"
    },
    {
+    "title": "RLSA-2026:71585 — Important: libxml2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:71585",
+    "score": 8.5,
+    "date": "2026-09-25T18:04:58.698983Z"
+   },
+   {
     "title": "RLSA-2026:71586 — Important: libxml2 security update",
     "url": "https://github.com/advisories/RLSA-2026:71586",
     "score": 8.5,
     "date": "2026-09-25T12:09:37.504383Z"
-   },
-   {
-    "title": "RLSA-2026:67463 — Important: rsync security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:67463",
-    "score": 8.2,
-    "date": "2026-09-15T12:08:56.876794Z"
-   },
-   {
-    "title": "RLSA-2026:69125 — Important: curl security update",
-    "url": "https://github.com/advisories/RLSA-2026:69125",
-    "score": 8.1,
-    "date": "2026-09-22T12:08:07.529031Z"
-   },
-   {
-    "title": "RLSA-2026:71602 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:71602",
-    "score": 7.8,
-    "date": "2026-09-26T12:11:25.039690Z"
    }
   ],
   "kev": [
@@ -203,91 +203,126 @@
   ],
   "adv": [
    {
-    "title": "Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
-    "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
+    "title": "adm-zip: Decompression-bomb protection (fix for CVE-2026-39244) can be bypassed by declaring uncompressed size as 0",
+    "url": "https://github.com/advisories/GHSA-rcw4-f5rp-g42v",
+    "score": 7.5,
+    "ghsa": "GHSA-rcw4-f5rp-g42v",
+    "date": "2026-09-29T18:25:20Z"
+   },
+   {
+    "title": "adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation",
+    "url": "https://github.com/advisories/GHSA-j5f4-cc29-5x44",
+    "score": 7.1,
+    "ghsa": "GHSA-j5f4-cc29-5x44",
+    "date": "2026-09-29T18:24:57Z"
+   },
+   {
+    "title": "Laravel: XSS in Debug Page Information",
+    "url": "https://github.com/advisories/GHSA-jh5r-qr3c-85q8",
+    "score": 3.1,
+    "ghsa": "GHSA-jh5r-qr3c-85q8",
+    "date": "2026-09-29T18:24:25Z"
+   },
+   {
+    "title": "Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS",
+    "url": "https://github.com/advisories/GHSA-8vvx-rff5-p5rq",
     "score": 5.9,
-    "ghsa": "GHSA-6vj9-mwq6-2f5v",
-    "date": "2026-09-28T21:56:05Z"
+    "ghsa": "GHSA-8vvx-rff5-p5rq",
+    "date": "2026-09-29T18:23:50Z"
    },
    {
-    "title": "undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
-    "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
+    "title": "PyJWT: Malformed RSA JWK aborts parsing of an entire JWK Set",
+    "url": "https://github.com/advisories/GHSA-w6j9-cwv2-h6wq",
     "score": 5.9,
-    "ghsa": "GHSA-3wwx-pv8p-q78v",
-    "date": "2026-09-28T21:42:37Z"
+    "ghsa": "GHSA-w6j9-cwv2-h6wq",
+    "date": "2026-09-29T18:23:01Z"
    },
    {
-    "title": "multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
-    "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
-    "score": 5.3,
-    "ghsa": "GHSA-3pph-fpjx-jg34",
-    "date": "2026-09-28T21:34:58Z"
+    "title": "undici vulnerable to Denial of Service via orphaned RetryHandler response body",
+    "url": "https://github.com/advisories/GHSA-pmjh-fq2x-6v4x",
+    "score": 5.9,
+    "ghsa": "GHSA-pmjh-fq2x-6v4x",
+    "date": "2026-09-29T18:22:34Z"
    },
    {
-    "title": "morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
-    "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
-    "score": 5.3,
-    "ghsa": "GHSA-9f6g-j8ch-79g4",
-    "date": "2026-09-28T21:33:08Z"
+    "title": "undici vulnerable to downstream response splitting via retry interceptor",
+    "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r",
+    "score": 3.7,
+    "ghsa": "GHSA-r53p-7pc4-xj5r",
+    "date": "2026-09-29T18:22:07Z"
    },
    {
-    "title": "Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
-    "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
+    "title": "undici vulnerable to Denial of Service via unrequested WebSocket subprotocol",
+    "url": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5",
     "score": 7.5,
-    "ghsa": "GHSA-f67j-2jqw-jpq7",
-    "date": "2026-09-28T21:31:21Z"
+    "ghsa": "GHSA-rfgv-xxqx-mfg5",
+    "date": "2026-09-29T18:21:33Z"
    },
    {
-    "title": "fast-uri vulnerable to authority injection via an unvalidated port in serialize",
-    "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
-    "score": 7.5,
-    "ghsa": "GHSA-qw65-cvwx-89v3",
-    "date": "2026-09-28T21:24:39Z"
+    "title": "undici vulnerable to Denial of Service via unbounded decompression of compressed responses",
+    "url": "https://github.com/advisories/GHSA-3xpg-4rpp-hhhm",
+    "score": 5.9,
+    "ghsa": "GHSA-3xpg-4rpp-hhhm",
+    "date": "2026-09-29T18:20:37Z"
    },
    {
-    "title": "fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
-    "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
-    "score": 7.5,
-    "ghsa": "GHSA-58mr-gqgx-xq4g",
-    "date": "2026-09-28T21:23:35Z"
+    "title": "undici vulnerable to cross-user cookie disclosure via Set-Cookie caching in shared caches",
+    "url": "https://github.com/advisories/GHSA-2jfj-6hjv-fm6j",
+    "score": 6.5,
+    "ghsa": "GHSA-2jfj-6hjv-fm6j",
+    "date": "2026-09-29T18:19:58Z"
    },
    {
-    "title": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
-    "url": "https://github.com/advisories/GHSA-gx83-3vf8-gh7j",
-    "score": 5.6,
-    "ghsa": "GHSA-gx83-3vf8-gh7j",
-    "date": "2026-09-28T20:44:25Z"
+    "title": "undici vulnerable to response truncation via oversized chunked responses in the dump interceptor",
+    "url": "https://github.com/advisories/GHSA-2gqq-gqf2-x968",
+    "score": 3.7,
+    "ghsa": "GHSA-2gqq-gqf2-x968",
+    "date": "2026-09-29T18:18:51Z"
    },
    {
-    "title": "ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
-    "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
-    "score": null,
-    "ghsa": "GHSA-rpw4-54j3-4h4q",
-    "date": "2026-09-28T20:43:55Z"
-   },
-   {
-    "title": "ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
-    "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
-    "score": null,
-    "ghsa": "GHSA-2vr4-cq9g-pvrc",
-    "date": "2026-09-28T20:43:03Z"
-   },
-   {
-    "title": "Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
-    "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
-    "score": 7.5,
-    "ghsa": "GHSA-j3r3-mxqp-r2p4",
-    "date": "2026-09-28T20:39:26Z"
-   },
-   {
-    "title": "jackson-databind: Duration XMLGregorianCalendar Unbounded Number Parse DoS",
-    "url": "https://github.com/advisories/GHSA-q4xh-88c3-wmh7",
-    "score": 7.5,
-    "ghsa": "GHSA-q4xh-88c3-wmh7",
-    "date": "2026-09-28T20:19:46Z"
+    "title": "undici vulnerable to TLS certificate validation bypass via dropped connect options in BalancedPool",
+    "url": "https://github.com/advisories/GHSA-w293-vg96-wgc3",
+    "score": 7.4,
+    "ghsa": "GHSA-w293-vg96-wgc3",
+    "date": "2026-09-29T18:17:15Z"
    }
   ],
   "thn": [
+   {
+    "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+    "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+    "date": "Tue, 29 Sep 2026 23:17:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+    "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+    "date": "Tue, 29 Sep 2026 22:50:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+    "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+    "date": "Tue, 29 Sep 2026 22:50:08 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+    "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+    "date": "Tue, 29 Sep 2026 19:43:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+    "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+    "date": "Tue, 29 Sep 2026 19:15:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
     "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
@@ -336,44 +371,51 @@
     "date": "Mon, 28 Sep 2026 23:50:38 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-    "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-    "date": "Mon, 28 Sep 2026 23:12:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-    "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-    "date": "Mon, 28 Sep 2026 23:08:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-    "date": "Mon, 28 Sep 2026 19:30:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-    "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-    "date": "Mon, 28 Sep 2026 17:28:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-    "date": "Mon, 28 Sep 2026 17:16:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "date": "Tue, 29 Sep 2026 14:37:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Former US Air Force members sent to prison over BEC attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+    "date": "Tue, 29 Sep 2026 14:09:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Windows 11 2026 Update released, here's everything you need to know",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+    "date": "Tue, 29 Sep 2026 13:37:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+    "url": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+    "date": "Tue, 29 Sep 2026 13:10:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+    "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+    "date": "Tue, 29 Sep 2026 11:39:19 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Catch threats before they escalate with real-time Identity Telemetry",
+    "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+    "date": "Tue, 29 Sep 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
     "url": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
@@ -415,55 +457,13 @@
     "date": "Mon, 28 Sep 2026 15:49:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-    "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-    "date": "Mon, 28 Sep 2026 14:50:59 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-    "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
-    "date": "Mon, 28 Sep 2026 11:49:27 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-    "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
-    "date": "Mon, 28 Sep 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
-    "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
-    "date": "Mon, 28 Sep 2026 05:25:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
-    "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
-    "date": "Mon, 28 Sep 2026 03:30:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-    "date": "Mon, 28 Sep 2026 02:24:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 491,
+    "stars": 492,
     "lang": "JavaScript"
    },
    {
@@ -491,15 +491,21 @@
     "lang": "Go"
    },
    {
+    "title": "0sec-labs/0 — A cybersecurity harness for full-stack LLM-driven penetration testing. Find and fix vulnerabilities autonomous",
+    "url": "https://github.com/0sec-labs/0",
+    "stars": 204,
+    "lang": "TypeScript"
+   },
+   {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 183,
+    "stars": 182,
     "lang": "Python"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 178,
+    "stars": 179,
     "lang": "JavaScript"
    },
    {
@@ -511,14 +517,8 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 139,
+    "stars": 140,
     "lang": "Rust"
-   },
-   {
-    "title": "0sec-labs/0 — A cybersecurity harness for full-stack LLM-driven penetration testing. Find and fix vulnerabilities autonomous",
-    "url": "https://github.com/0sec-labs/0",
-    "stars": 133,
-    "lang": "TypeScript"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
@@ -635,6 +635,27 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/",
+    "date": "2026-09-29T13:57:34+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Paint It Blue: Reversing Win32k's Callbacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtgpsy/paint_it_blue_reversing_win32ks_callbacks/",
+    "date": "2026-09-29T17:40:20+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "AI coding agents have been creating public GitHub repos on their own to post internal company screenshots",
+    "url": "https://www.reddit.com/r/netsec/comments/1wteh74/ai_coding_agents_have_been_creating_public_github/",
+    "date": "2026-09-29T16:17:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Email is crazy",
     "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
     "date": "2026-09-28T22:00:15+00:00",
@@ -682,27 +703,6 @@
     "date": "2026-09-27T03:39:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-    "url": "https://www.reddit.com/r/netsec/comments/1wr709b/revealing_the_details_of_how_openai_agents_hacked/",
-    "date": "2026-09-27T01:15:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "AI on Kubernetes: Default Helm Chart Security Configurations and Lateral Movement Risks",
-    "url": "https://www.reddit.com/r/netsec/comments/1wr6wxx/ai_on_kubernetes_default_helm_chart_security/",
-    "date": "2026-09-27T01:11:18+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "EX-ARRR: Sailing the Apple 0-click Seas",
-    "url": "https://www.reddit.com/r/netsec/comments/1wqmb3o/exarrr_sailing_the_apple_0click_seas/",
-    "date": "2026-09-26T09:35:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
-  "kev": 1728,
+  "crit": 6,
+  "kev": 1729,
   "adv": 12,
   "feed": 48
  },
