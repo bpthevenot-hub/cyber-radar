@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-09-29T05:51:06.316Z",
+ "generatedAt": "2026-09-29T13:03:03.920Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "RLSA-2026:72279 — Critical: ipa security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:72279",
+    "score": 9.8,
+    "date": "2026-09-29T12:10:25.697024Z"
+   },
+   {
+    "title": "RLSA-2026:71419 — Critical: unbound security update",
+    "url": "https://github.com/advisories/RLSA-2026:71419",
+    "score": 9.8,
+    "date": "2026-09-25T12:09:37.504383Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70498",
+    "score": 8.8,
+    "date": "2026-09-24T12:09:42.603821Z"
+   },
+   {
+    "title": "RLSA-2026:70201 — Important: podman security update",
+    "url": "https://github.com/advisories/RLSA-2026:70201",
+    "score": 8.8,
+    "date": "2026-09-23T18:07:43.655999Z"
+   },
+   {
+    "title": "RLSA-2026:70186 — Important: postgresql16 security update",
+    "url": "https://github.com/advisories/RLSA-2026:70186",
+    "score": 8.8,
+    "date": "2026-09-23T18:07:43.655999Z"
+   },
+   {
+    "title": "RLSA-2026:67471 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:67471",
+    "score": 8.8,
+    "date": "2026-09-16T12:09:37.746677Z"
+   },
+   {
+    "title": "RLSA-2026:67280 — Important: postgresql18 security update",
+    "url": "https://github.com/advisories/RLSA-2026:67280",
+    "score": 8.8,
+    "date": "2026-09-15T12:08:56.876794Z"
+   },
+   {
+    "title": "RLSA-2026:67909 — Important: libevent security update",
+    "url": "https://github.com/advisories/RLSA-2026:67909",
+    "score": 8.6,
+    "date": "2026-09-17T12:09:45.694481Z"
+   },
+   {
+    "title": "RLSA-2026:71586 — Important: libxml2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:71586",
+    "score": 8.5,
+    "date": "2026-09-25T12:09:37.504383Z"
+   },
+   {
+    "title": "RLSA-2026:67463 — Important: rsync security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:67463",
+    "score": 8.2,
+    "date": "2026-09-15T12:08:56.876794Z"
+   },
+   {
+    "title": "RLSA-2026:69125 — Important: curl security update",
+    "url": "https://github.com/advisories/RLSA-2026:69125",
+    "score": 8.1,
+    "date": "2026-09-22T12:08:07.529031Z"
+   },
+   {
+    "title": "RLSA-2026:71602 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:71602",
+    "score": 7.8,
+    "date": "2026-09-26T12:11:25.039690Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,34 @@
   ],
   "thn": [
    {
+    "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+    "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+    "date": "Tue, 29 Sep 2026 14:05:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+    "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+    "date": "Tue, 29 Sep 2026 11:38:25 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+    "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+    "date": "Tue, 29 Sep 2026 10:42:32 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+    "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+    "date": "Tue, 29 Sep 2026 10:15:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
     "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
     "date": "Tue, 29 Sep 2026 00:48:01 +0530",
@@ -258,37 +371,30 @@
     "date": "Mon, 28 Sep 2026 17:16:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-    "date": "Mon, 28 Sep 2026 14:38:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-    "date": "Mon, 28 Sep 2026 12:51:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-    "date": "Sun, 27 Sep 2026 13:17:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-    "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-    "date": "Sat, 26 Sep 2026 23:52:52 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+    "url": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+    "date": "Tue, 29 Sep 2026 07:41:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Kiteworks patches critical flaw, brings customer systems online",
+    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+    "date": "Tue, 29 Sep 2026 05:04:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+    "date": "Tue, 29 Sep 2026 03:33:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Japan's Keio confirms ransomware attack disrupted business systems",
     "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
@@ -351,41 +457,20 @@
     "date": "Mon, 28 Sep 2026 02:24:19 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-    "date": "Sun, 27 Sep 2026 19:40:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-    "date": "Sun, 27 Sep 2026 12:02:37 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-    "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-    "date": "Sun, 27 Sep 2026 10:13:31 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
-   {
-    "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
-    "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 492,
-    "lang": "TypeScript"
-   },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
     "stars": 491,
     "lang": "JavaScript"
+   },
+   {
+    "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
+    "url": "https://github.com/shinthink/blitzstrike",
+    "stars": 488,
+    "lang": "TypeScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
@@ -396,7 +481,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 243,
+    "stars": 246,
     "lang": "Python"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/Matthew0822/ToolReplay",
-    "stars": 184,
+    "stars": 183,
     "lang": "Python"
    },
    {
@@ -424,16 +509,16 @@
     "lang": "Go"
    },
    {
-    "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
-    "url": "https://github.com/4x3/nulltrace",
-    "stars": 144,
-    "lang": "Go"
-   },
-   {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 138,
+    "stars": 139,
     "lang": "Rust"
+   },
+   {
+    "title": "0sec-labs/0 — A cybersecurity harness for full-stack LLM-driven penetration testing. Find and fix vulnerabilities autonomous",
+    "url": "https://github.com/0sec-labs/0",
+    "stars": 133,
+    "lang": "TypeScript"
    },
    {
     "title": "adnxy/react-native-secure-webview — Secure WebView for React Native auth, checkout, OAuth, and other controlled web flows.",
@@ -442,10 +527,10 @@
     "lang": "TypeScript"
    },
    {
-    "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
-    "url": "https://github.com/jiangkoumo/toolfence",
-    "stars": 100,
-    "lang": "TypeScript"
+    "title": "4x3/nulltrace — Local-first privacy toolkit. Map yourself against 400+ data brokers, send CCPA/GDPR deletion mail, and check p",
+    "url": "https://github.com/4x3/nulltrace",
+    "stars": 125,
+    "lang": "Go"
    }
   ],
   "hn": [
@@ -550,9 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I flooded a legal contract with lookalike letters and gave it to seven GPT and Claude models. None were fooled, but it took up to 5.7x the tokens to read, and t",
-    "url": "https://www.reddit.com/r/netsec/comments/1wsvytq/i_flooded_a_legal_contract_with_lookalike_letters/",
-    "date": "2026-09-29T00:41:44+00:00",
+    "title": "Email is crazy",
+    "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
+    "date": "2026-09-28T22:00:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -560,13 +645,6 @@
     "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1wsbh8j/oh_look_the_foot_gun_went_off_again_citrix/",
     "date": "2026-09-28T10:58:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Email is crazy",
-    "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
-    "date": "2026-09-28T22:00:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -618,11 +696,18 @@
     "date": "2026-09-27T01:11:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "EX-ARRR: Sailing the Apple 0-click Seas",
+    "url": "https://www.reddit.com/r/netsec/comments/1wqmb3o/exarrr_sailing_the_apple_0click_seas/",
+    "date": "2026-09-26T09:35:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 4,
   "kev": 1728,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
