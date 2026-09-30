@@ -1,24 +1,42 @@
 {
- "generatedAt": "2026-09-30T15:57:49.017Z",
+ "generatedAt": "2026-09-30T20:51:21.762Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2020-28500 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.7.4 security and bug fix update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6429",
-    "score": 9.8,
-    "date": "2026-09-30T15:43:15+00:00"
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-09-30T17:44:15+00:00"
    },
    {
-    "title": "CVE-2021-39226 — Red Hat Security Advisory: OpenShift Container Platform 4.8.49 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6308",
-    "score": 9.8,
-    "date": "2026-09-30T15:43:00+00:00"
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-09-30T17:44:07+00:00"
    },
    {
-    "title": "CVE-2023-26159 — Red Hat Enhancement Advisory: Red Hat Developer Hub 1.1 release (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHEA-2024:1366",
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-09-30T17:44:02+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
+    "score": 9.9,
+    "date": "2026-09-30T17:44:02+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
+    "score": 9.9,
+    "date": "2026-09-30T17:44:01+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
     "score": 9.8,
-    "date": "2026-09-30T15:42:19+00:00"
+    "date": "2026-09-30T17:44:12+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -33,58 +51,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2022-1705 — Red Hat Security Advisory: Release of OpenShift Serverless Client kn 1.24.0 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6042",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-09-30T17:44:21+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.14.9 (+74 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70267",
     "score": 9.1,
-    "date": "2026-09-30T15:42:37+00:00"
+    "date": "2026-09-30T17:43:51+00:00"
    },
    {
-    "title": "CVE-2022-1705 — Red Hat Security Advisory: Release of OpenShift Serverless 1.24.0 (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6040",
-    "score": 9.1,
-    "date": "2026-09-30T15:42:36+00:00"
+    "title": "CVE-2023-52355 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.3 (tpu) (+38 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73959",
+    "score": 8.8,
+    "date": "2026-09-30T17:44:19+00:00"
    },
    {
-    "title": "CVE-2021-38561 — Red Hat Security Advisory: Logging Subsystem 5.5.0 - Red Hat OpenShift security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:6051",
-    "score": 8.3,
-    "date": "2026-09-30T15:42:36+00:00"
+    "title": "CVE-2023-52355 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.3 (cuda) (+38 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73962",
+    "score": 8.8,
+    "date": "2026-09-30T17:44:17+00:00"
    },
    {
-    "title": "CVE-2021-38561 — Red Hat Security Advisory: OpenShift Virtualization 4.12.0 Images security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:0408",
-    "score": 7.7,
-    "date": "2026-09-30T15:43:41+00:00"
+    "title": "CVE-2023-52355 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.3 (spyre) (+38 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73961",
+    "score": 8.8,
+    "date": "2026-09-30T17:44:17+00:00"
    },
    {
-    "title": "CVE-2022-2403 — Red Hat Security Advisory: OpenShift Container Platform 4.9.45 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:5879",
-    "score": 7.7,
-    "date": "2026-09-30T15:42:25+00:00"
-   },
-   {
-    "title": "CVE-2021-38561 — Red Hat Security Advisory: OpenShift Virtualization 4.12.0 RPMs security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:0407",
-    "score": 7.5,
-    "date": "2026-09-30T15:43:41+00:00"
-   },
-   {
-    "title": "CVE-2022-1705 — Red Hat Security Advisory: grafana-pcp security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8250",
-    "score": 7.5,
-    "date": "2026-09-30T15:43:39+00:00"
-   },
-   {
-    "title": "CVE-2022-1705 — Red Hat Security Advisory: toolbox security and bug fix update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8098",
-    "score": 7.5,
-    "date": "2026-09-30T15:43:37+00:00"
-   },
-   {
-    "title": "CVE-2021-23648 — Red Hat Security Advisory: grafana security, bug fix, and enhancement update (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8057",
-    "score": 7.5,
-    "date": "2026-09-30T15:43:35+00:00"
+    "title": "CVE-2023-52355 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.3 (cpu) (+38 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73960",
+    "score": 8.8,
+    "date": "2026-09-30T17:44:17+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+    "date": "Wed, 30 Sep 2026 22:16:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+    "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+    "date": "Wed, 30 Sep 2026 22:02:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
     "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
     "date": "Wed, 30 Sep 2026 20:54:54 +0530",
@@ -357,23 +371,30 @@
     "date": "Tue, 29 Sep 2026 22:50:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-    "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-    "date": "Tue, 29 Sep 2026 22:50:08 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-    "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-    "date": "Tue, 29 Sep 2026 19:43:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Russian state hackers use new RedFlick technique to push malware",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+    "date": "Wed, 30 Sep 2026 16:34:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+    "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+    "date": "Wed, 30 Sep 2026 15:49:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+    "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+    "date": "Wed, 30 Sep 2026 14:08:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
@@ -436,46 +457,31 @@
     "date": "Tue, 29 Sep 2026 16:59:39 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-    "date": "Tue, 29 Sep 2026 16:09:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-    "date": "Tue, 29 Sep 2026 14:37:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Former US Air Force members sent to prison over BEC attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-    "date": "Tue, 29 Sep 2026 14:09:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
+    "title": "archestra-ai/OpenAPPA — Deterministic guardrails that don't break agents",
+    "url": "https://github.com/archestra-ai/OpenAPPA",
+    "stars": 544,
+    "lang": "Rust"
+   },
+   {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 494,
+    "stars": 497,
     "lang": "JavaScript"
    },
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 492,
+    "stars": 491,
     "lang": "TypeScript"
    },
    {
     "title": "0sec-labs/0 — 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack.",
     "url": "https://github.com/0sec-labs/0",
-    "stars": 359,
+    "stars": 381,
     "lang": "TypeScript"
    },
    {
@@ -487,7 +493,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 253,
+    "stars": 254,
     "lang": "Python"
    },
    {
@@ -511,7 +517,7 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 140,
+    "stars": 141,
     "lang": "Rust"
    },
    {
@@ -525,12 +531,6 @@
     "url": "https://github.com/4x3/nulltrace",
     "stars": 126,
     "lang": "Go"
-   },
-   {
-    "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
-    "url": "https://github.com/jiangkoumo/toolfence",
-    "stars": 100,
-    "lang": "TypeScript"
    }
   ],
   "hn": [
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Tales from the Trenches: Anthropic’s Mythos and Rejetto HFS",
+    "url": "https://www.reddit.com/r/netsec/comments/1wu4hwd/tales_from_the_trenches_anthropics_mythos_and/",
+    "date": "2026-09-30T13:08:04+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
     "url": "https://www.reddit.com/r/netsec/comments/1wtri3s/pwnd_blaster_hacking_your_pc_using_your_speaker/",
     "date": "2026-09-30T01:00:58+00:00",
@@ -652,13 +659,6 @@
     "title": "Microsoft Copilot Cowork Exfiltrates Files",
     "url": "https://www.reddit.com/r/netsec/comments/1wtnidr/microsoft_copilot_cowork_exfiltrates_files/",
     "date": "2026-09-29T22:00:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Tales from the Trenches: Anthropic’s Mythos and Rejetto HFS",
-    "url": "https://www.reddit.com/r/netsec/comments/1wu4hwd/tales_from_the_trenches_anthropics_mythos_and/",
-    "date": "2026-09-30T13:08:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
-  "kev": 1729,
+  "crit": 10,
+  "kev": 1730,
   "adv": 12,
   "feed": 48
  },
