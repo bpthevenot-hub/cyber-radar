@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-09-29T23:00:42.119Z",
+ "generatedAt": "2026-09-30T02:10:19.670Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-09-30T01:17:20+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-09-30T01:17:10+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "score": 9.8,
+    "date": "2026-09-30T01:17:18+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68515",
+    "score": 9.8,
+    "date": "2026-09-30T01:16:57+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +37,54 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.22.16 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71454",
+    "score": 9.3,
+    "date": "2026-09-30T01:17:09+00:00"
+   },
+   {
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.21.35 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71453",
+    "score": 9.3,
+    "date": "2026-09-30T01:17:09+00:00"
+   },
+   {
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.40 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71450",
+    "score": 9.3,
+    "date": "2026-09-30T01:17:07+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.20.39 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68541",
+    "score": 8.8,
+    "date": "2026-09-30T01:16:57+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68334",
+    "score": 8.8,
+    "date": "2026-09-30T01:16:55+00:00"
+   },
+   {
+    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.16.71 bug fix and security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67936",
+    "score": 8.8,
+    "date": "2026-09-30T01:16:51+00:00"
+   },
+   {
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.5.3 (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70870",
+    "score": 8.7,
+    "date": "2026-09-30T01:17:07+00:00"
+   },
+   {
+    "title": "CVE-2026-15075 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68333",
+    "score": 8.6,
+    "date": "2026-09-30T01:16:54+00:00"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "adm-zip: Decompression-bomb protection (fix for CVE-2026-39244) can be bypassed by declaring uncompressed size as 0",
-    "url": "https://github.com/advisories/GHSA-rcw4-f5rp-g42v",
+    "title": "Nest: Remote process termination via a deeply nested microservice message pattern",
+    "url": "https://github.com/advisories/GHSA-m8vh-jmq9-5rjg",
     "score": 7.5,
-    "ghsa": "GHSA-rcw4-f5rp-g42v",
-    "date": "2026-09-29T18:25:20Z"
+    "ghsa": "GHSA-m8vh-jmq9-5rjg",
+    "date": "2026-09-29T23:54:44Z"
    },
    {
-    "title": "adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation",
-    "url": "https://github.com/advisories/GHSA-j5f4-cc29-5x44",
-    "score": 7.1,
-    "ghsa": "GHSA-j5f4-cc29-5x44",
-    "date": "2026-09-29T18:24:57Z"
+    "title": "fast-uri vulnerable to inconsistent host case normalization via percent-encoded octets",
+    "url": "https://github.com/advisories/GHSA-hrr3-gc8f-f4qj",
+    "score": 4.8,
+    "ghsa": "GHSA-hrr3-gc8f-f4qj",
+    "date": "2026-09-29T23:54:25Z"
    },
    {
-    "title": "Laravel: XSS in Debug Page Information",
-    "url": "https://github.com/advisories/GHSA-jh5r-qr3c-85q8",
-    "score": 3.1,
-    "ghsa": "GHSA-jh5r-qr3c-85q8",
-    "date": "2026-09-29T18:24:25Z"
+    "title": "fast-uri vulnerable to mailto header injection via percent-encoded field-name desynchronization",
+    "url": "https://github.com/advisories/GHSA-jvvf-x445-j334",
+    "score": 4.8,
+    "ghsa": "GHSA-jvvf-x445-j334",
+    "date": "2026-09-29T23:51:16Z"
    },
    {
-    "title": "Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS",
-    "url": "https://github.com/advisories/GHSA-8vvx-rff5-p5rq",
+    "title": "@xhmikosr/decompress: Path traversal via symlink chain",
+    "url": "https://github.com/advisories/GHSA-hrh2-vp3x-79xf",
+    "score": 9.1,
+    "ghsa": "GHSA-hrh2-vp3x-79xf",
+    "date": "2026-09-29T23:49:42Z"
+   },
+   {
+    "title": "ip-address: isInSubnet() and isHostInSubnet() compare addresses of different families as if they shared an address space, allowing an allowlist check ",
+    "url": "https://github.com/advisories/GHSA-j6r3-76f7-8jcv",
+    "score": null,
+    "ghsa": "GHSA-j6r3-76f7-8jcv",
+    "date": "2026-09-29T23:46:52Z"
+   },
+   {
+    "title": "ip-address: Address6 builds a parse diagnostic proportional to the input with no length bound, allowing a single long string to stall or crash the pro",
+    "url": "https://github.com/advisories/GHSA-h3mg-xc3c-68pw",
+    "score": null,
+    "ghsa": "GHSA-h3mg-xc3c-68pw",
+    "date": "2026-09-29T23:46:39Z"
+   },
+   {
+    "title": "moment vulnerable to Path Traversal via crafted non-string locale name",
+    "url": "https://github.com/advisories/GHSA-4p3w-j4w9-5jqw",
     "score": 5.9,
-    "ghsa": "GHSA-8vvx-rff5-p5rq",
-    "date": "2026-09-29T18:23:50Z"
+    "ghsa": "GHSA-4p3w-j4w9-5jqw",
+    "date": "2026-09-29T23:46:02Z"
    },
    {
-    "title": "PyJWT: Malformed RSA JWK aborts parsing of an entire JWK Set",
-    "url": "https://github.com/advisories/GHSA-w6j9-cwv2-h6wq",
-    "score": 5.9,
-    "ghsa": "GHSA-w6j9-cwv2-h6wq",
-    "date": "2026-09-29T18:23:01Z"
+    "title": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
+    "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
+    "score": 5.3,
+    "ghsa": "GHSA-q2hr-2g5m-vwhr",
+    "date": "2026-09-29T23:45:39Z"
    },
    {
-    "title": "undici vulnerable to Denial of Service via orphaned RetryHandler response body",
-    "url": "https://github.com/advisories/GHSA-pmjh-fq2x-6v4x",
-    "score": 5.9,
-    "ghsa": "GHSA-pmjh-fq2x-6v4x",
-    "date": "2026-09-29T18:22:34Z"
-   },
-   {
-    "title": "undici vulnerable to downstream response splitting via retry interceptor",
-    "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r",
-    "score": 3.7,
-    "ghsa": "GHSA-r53p-7pc4-xj5r",
-    "date": "2026-09-29T18:22:07Z"
-   },
-   {
-    "title": "undici vulnerable to Denial of Service via unrequested WebSocket subprotocol",
-    "url": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5",
+    "title": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+    "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
     "score": 7.5,
-    "ghsa": "GHSA-rfgv-xxqx-mfg5",
-    "date": "2026-09-29T18:21:33Z"
+    "ghsa": "GHSA-qhr7-859c-m2p7",
+    "date": "2026-09-29T23:45:17Z"
    },
    {
-    "title": "undici vulnerable to Denial of Service via unbounded decompression of compressed responses",
-    "url": "https://github.com/advisories/GHSA-3xpg-4rpp-hhhm",
-    "score": 5.9,
-    "ghsa": "GHSA-3xpg-4rpp-hhhm",
-    "date": "2026-09-29T18:20:37Z"
+    "title": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+    "url": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p",
+    "score": 7.5,
+    "ghsa": "GHSA-6j4f-fj2g-mc7p",
+    "date": "2026-09-29T23:44:58Z"
    },
    {
-    "title": "undici vulnerable to cross-user cookie disclosure via Set-Cookie caching in shared caches",
-    "url": "https://github.com/advisories/GHSA-2jfj-6hjv-fm6j",
-    "score": 6.5,
-    "ghsa": "GHSA-2jfj-6hjv-fm6j",
-    "date": "2026-09-29T18:19:58Z"
+    "title": "Socket.IO: Engine.IO Protocol Revision Mismatch DoS",
+    "url": "https://github.com/advisories/GHSA-2gc4-cqfq-p2gv",
+    "score": 7.5,
+    "ghsa": "GHSA-2gc4-cqfq-p2gv",
+    "date": "2026-09-29T23:44:33Z"
    },
    {
-    "title": "undici vulnerable to response truncation via oversized chunked responses in the dump interceptor",
-    "url": "https://github.com/advisories/GHSA-2gqq-gqf2-x968",
-    "score": 3.7,
-    "ghsa": "GHSA-2gqq-gqf2-x968",
-    "date": "2026-09-29T18:18:51Z"
-   },
-   {
-    "title": "undici vulnerable to TLS certificate validation bypass via dropped connect options in BalancedPool",
-    "url": "https://github.com/advisories/GHSA-w293-vg96-wgc3",
-    "score": 7.4,
-    "ghsa": "GHSA-w293-vg96-wgc3",
-    "date": "2026-09-29T18:17:15Z"
+    "title": "Nodemailer: Quoted local-part can produce malformed envelope recipient through RFC 5322 comment parsing",
+    "url": "https://github.com/advisories/GHSA-g57g-f23g-4646",
+    "score": 5.3,
+    "ghsa": "GHSA-g57g-f23g-4646",
+    "date": "2026-09-29T23:44:04Z"
    }
   ],
   "thn": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft is rolling out Linux container support to WSL",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+    "date": "Tue, 29 Sep 2026 20:40:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Signal adds encypted local backup support to iOS, desktop apps",
     "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
     "date": "Tue, 29 Sep 2026 17:30:08 -0400",
@@ -378,13 +457,6 @@
     "date": "Tue, 29 Sep 2026 05:04:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-    "date": "Tue, 29 Sep 2026 03:33:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -401,28 +473,22 @@
     "lang": "TypeScript"
    },
    {
+    "title": "0sec-labs/0 — 🥷🏻 0 is an open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack. ",
+    "url": "https://github.com/0sec-labs/0",
+    "stars": 288,
+    "lang": "TypeScript"
+   },
+   {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
     "stars": 283,
     "lang": "Python"
    },
    {
-    "title": "0sec-labs/0 — 🥷🏻0 is an extensible cybersecurity harness for full-stack LLM-driven penetration testing and remediation. [R",
-    "url": "https://github.com/0sec-labs/0",
-    "stars": 252,
-    "lang": "TypeScript"
-   },
-   {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 247,
+    "stars": 249,
     "lang": "Python"
-   },
-   {
-    "title": "azrtydxb/procoder — Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality cont",
-    "url": "https://github.com/azrtydxb/procoder",
-    "stars": 211,
-    "lang": "Go"
    },
    {
     "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
@@ -459,6 +525,12 @@
     "url": "https://github.com/4x3/nulltrace",
     "stars": 126,
     "lang": "Go"
+   },
+   {
+    "title": "jiangkoumo/toolfence — Local, fail-closed policy enforcement and human approval for MCP tool calls.",
+    "url": "https://github.com/jiangkoumo/toolfence",
+    "stars": 100,
+    "lang": "TypeScript"
    }
   ],
   "hn": [
@@ -570,16 +642,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/",
-    "date": "2026-09-29T13:57:34+00:00",
+    "title": "Microsoft Copilot Cowork Exfiltrates Files",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtnidr/microsoft_copilot_cowork_exfiltrates_files/",
+    "date": "2026-09-29T22:00:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Microsoft Copilot Cowork Exfiltrates Files",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtnidr/microsoft_copilot_cowork_exfiltrates_files/",
-    "date": "2026-09-29T22:00:16+00:00",
+    "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtri3s/pwnd_blaster_hacking_your_pc_using_your_speaker/",
+    "date": "2026-09-30T01:00:58+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtattu/here_we_go_again_citrix_netscaler_dtls_preauth/",
+    "date": "2026-09-29T13:57:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -624,13 +703,6 @@
     "date": "2026-09-28T13:22:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "RCE in OpenCode (GHSA-632h-h47v-g4x4)",
-    "url": "https://www.reddit.com/r/netsec/comments/1ws80bi/rce_in_opencode_ghsa632hh47vg4x4/",
-    "date": "2026-09-28T07:26:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 9,
   "kev": 1729,
   "adv": 12,
   "feed": 48
