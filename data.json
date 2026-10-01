@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T14:34:15.138Z",
+ "generatedAt": "2026-10-01T20:22:29.307Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,112 @@
   ],
   "adv": [
    {
-    "title": "virtualenv: Downloaded seed wheels (pip/setuptools) are not integrity-checked before use",
-    "url": "https://github.com/advisories/GHSA-94p9-xgh2-xp45",
-    "score": 7.5,
-    "ghsa": "GHSA-94p9-xgh2-xp45",
-    "date": "2026-09-30T23:54:13Z"
+    "title": "SiYuan: The reference filter for getRefIDs checks visibility but not the password tier, disclosing that password-protected documents reference a given",
+    "url": "https://github.com/advisories/GHSA-vg99-7gj7-2fr5",
+    "score": 5.8,
+    "ghsa": "GHSA-vg99-7gj7-2fr5",
+    "date": "2026-10-01T16:29:35Z"
    },
    {
-    "title": "virtualenv writes prompt values into pyvenv.cfg without sanitizing line boundaries, allowing configuration injection",
-    "url": "https://github.com/advisories/GHSA-9h9j-4vrj-gf7g",
-    "score": null,
-    "ghsa": "GHSA-9h9j-4vrj-gf7g",
-    "date": "2026-09-30T23:53:58Z"
+    "title": "SiYuan: getAttributeViewSearchTarget returns database row content to anonymous readers with no publish-access check, reopening the class closed one da",
+    "url": "https://github.com/advisories/GHSA-9cqf-hhrq-7v45",
+    "score": 8.6,
+    "ghsa": "GHSA-9cqf-hhrq-7v45",
+    "date": "2026-10-01T16:24:38Z"
    },
    {
-    "title": "fastify vulnerable to Denial of Service via unhandled exception on HTTP/2 trailer responses",
-    "url": "https://github.com/advisories/GHSA-4mh8-r7rc-xpvc",
-    "score": 5.9,
-    "ghsa": "GHSA-4mh8-r7rc-xpvc",
-    "date": "2026-09-30T23:53:44Z"
+    "title": "SiYuan: getBookmarkLabels returns every bookmark label in the workspace to anonymous readers, with no publish-access filtering",
+    "url": "https://github.com/advisories/GHSA-j4ph-9xwf-wcj4",
+    "score": 5.8,
+    "ghsa": "GHSA-j4ph-9xwf-wcj4",
+    "date": "2026-10-01T16:23:37Z"
    },
    {
-    "title": "PyJWT.decode() reintroduces options-dict mutation, enabling silent claim-verification bypass on dict reuse",
-    "url": "https://github.com/advisories/GHSA-gvp8-978c-rx2q",
-    "score": 6.5,
-    "ghsa": "GHSA-gvp8-978c-rx2q",
-    "date": "2026-09-30T23:53:17Z"
+    "title": "SiYuan: getUniqueFilename passes an unvalidated client-supplied path to the filesystem, giving anonymous readers an existence oracle over the entire h",
+    "url": "https://github.com/advisories/GHSA-hf8h-97gm-4x2p",
+    "score": 5.8,
+    "ghsa": "GHSA-hf8h-97gm-4x2p",
+    "date": "2026-10-01T15:46:01Z"
    },
    {
-    "title": "Tornado: Unbounded query-string argument count allows event-loop-stalling DoS",
-    "url": "https://github.com/advisories/GHSA-3hv7-mjh2-fv65",
-    "score": 5.3,
-    "ghsa": "GHSA-3hv7-mjh2-fv65",
-    "date": "2026-09-30T23:49:25Z"
+    "title": "SiYuan: Outline state for any document, including documents forbidden to readers, is returned by /api/storage/getOutlineStorage with no access check",
+    "url": "https://github.com/advisories/GHSA-53fp-9jmv-227g",
+    "score": 5.8,
+    "ghsa": "GHSA-53fp-9jmv-227g",
+    "date": "2026-10-01T15:44:46Z"
    },
    {
-    "title": "tornado: CurlAsyncHTTPClient enforces no response-size limit — decompression bomb drives unbounded memory accumulation to OOM",
-    "url": "https://github.com/advisories/GHSA-chx6-46f5-w4vp",
-    "score": 7.5,
-    "ghsa": "GHSA-chx6-46f5-w4vp",
-    "date": "2026-09-30T23:49:13Z"
+    "title": "vm2: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
+    "url": "https://github.com/advisories/GHSA-jf8q-945g-9q4c",
+    "score": 6.8,
+    "ghsa": "GHSA-jf8q-945g-9q4c",
+    "date": "2026-10-01T15:42:15Z"
    },
    {
-    "title": "Tornado: StaticFileHandler follows symlinks outside static root (path traversal)",
-    "url": "https://github.com/advisories/GHSA-c2m8-h5v5-343r",
-    "score": 7.5,
-    "ghsa": "GHSA-c2m8-h5v5-343r",
-    "date": "2026-09-30T23:48:55Z"
+    "title": "vm2: NodeVM builtin allowlist bypass via node:test.run() execArgv allows sandbox escape",
+    "url": "https://github.com/advisories/GHSA-qhwx-74w5-xhxq",
+    "score": 9.9,
+    "ghsa": "GHSA-qhwx-74w5-xhxq",
+    "date": "2026-10-01T15:41:31Z"
    },
    {
-    "title": "GitPython submodule update path traversal can write outside the repository",
-    "url": "https://github.com/advisories/GHSA-59cr-6r3x-644w",
-    "score": null,
-    "ghsa": "GHSA-59cr-6r3x-644w",
-    "date": "2026-09-30T23:47:12Z"
+    "title": "vm2 CLI provides no sandbox isolation - host-realm require() is reachable from sandboxed scripts",
+    "url": "https://github.com/advisories/GHSA-jxxv-8r27-vm4p",
+    "score": 8.6,
+    "ghsa": "GHSA-jxxv-8r27-vm4p",
+    "date": "2026-10-01T15:40:45Z"
    },
    {
-    "title": "hono/jsx renders plain strings unescaped in boundary components, leading to XSS",
-    "url": "https://github.com/advisories/GHSA-hxh3-vqpv-xpqv",
-    "score": 4.7,
-    "ghsa": "GHSA-hxh3-vqpv-xpqv",
-    "date": "2026-09-30T23:46:16Z"
+    "title": "vm2 exposes host HTTPS credentials and TLS traffic through globalAgent",
+    "url": "https://github.com/advisories/GHSA-h85j-hv3c-qfgq",
+    "score": 10,
+    "ghsa": "GHSA-h85j-hv3c-qfgq",
+    "date": "2026-10-01T15:38:26Z"
    },
    {
-    "title": "fastify vulnerable to request body replacement via an async validation result collision",
-    "url": "https://github.com/advisories/GHSA-667r-xxjv-c9mm",
-    "score": 8.1,
-    "ghsa": "GHSA-667r-xxjv-c9mm",
-    "date": "2026-09-30T23:45:45Z"
+    "title": "vm2 Custom Module Resolver Can Bypass the External Package Allowlist by Loading a Colliding Host Package",
+    "url": "https://github.com/advisories/GHSA-c48m-32m9-vx93",
+    "score": 9.9,
+    "ghsa": "GHSA-c48m-32m9-vx93",
+    "date": "2026-10-01T15:37:19Z"
    },
    {
-    "title": "fastify vulnerable to authentication bypass via malformed URLs reaching encapsulated not-found handlers",
-    "url": "https://github.com/advisories/GHSA-p68q-wchp-6fh7",
-    "score": 7.5,
-    "ghsa": "GHSA-p68q-wchp-6fh7",
-    "date": "2026-09-30T23:45:34Z"
+    "title": "vm2: NodeVM builtin denylist bypass via fs/promises despite -fs, allowing host filesystem writes",
+    "url": "https://github.com/advisories/GHSA-6rh5-qq4q-97xh",
+    "score": 8.5,
+    "ghsa": "GHSA-6rh5-qq4q-97xh",
+    "date": "2026-10-01T15:36:48Z"
    },
    {
-    "title": "fastify vulnerable to request validation bypass via skipped boolean false schemas",
-    "url": "https://github.com/advisories/GHSA-hwr6-493r-vm6h",
-    "score": 7.5,
-    "ghsa": "GHSA-hwr6-493r-vm6h",
-    "date": "2026-09-30T23:44:58Z"
+    "title": "vm2: NodeVM node:-prefixed negative builtin deny bypass exposes child_process",
+    "url": "https://github.com/advisories/GHSA-8686-vhfx-7r3j",
+    "score": 9.9,
+    "ghsa": "GHSA-8686-vhfx-7r3j",
+    "date": "2026-10-01T15:36:01Z"
    }
   ],
   "thn": [
+   {
+    "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+    "date": "Thu, 01 Oct 2026 22:25:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "date": "Thu, 01 Oct 2026 22:15:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "date": "Thu, 01 Oct 2026 20:07:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
     "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
@@ -278,30 +299,16 @@
     "date": "Wed, 30 Sep 2026 22:16:29 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-    "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
-    "date": "Wed, 30 Sep 2026 22:02:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-    "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-    "date": "Wed, 30 Sep 2026 20:54:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-    "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
-    "date": "Wed, 30 Sep 2026 20:30:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft says threat actors are ahead in the early AI race",
+    "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+    "date": "Thu, 01 Oct 2026 15:32:47 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
     "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
@@ -378,20 +385,13 @@
     "date": "Wed, 30 Sep 2026 10:46:40 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-    "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-    "date": "Wed, 30 Sep 2026 10:01:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "archestra-ai/OpenAPPA — Deterministic guardrails that don't break agents",
     "url": "https://github.com/archestra-ai/OpenAPPA",
-    "stars": 1114,
+    "stars": 1208,
     "lang": "Rust"
    },
    {
@@ -409,7 +409,7 @@
    {
     "title": "0sec-labs/0 — 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack.",
     "url": "https://github.com/0sec-labs/0",
-    "stars": 466,
+    "stars": 473,
     "lang": "TypeScript"
    },
    {
@@ -421,19 +421,19 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 260,
+    "stars": 263,
     "lang": "Python"
    },
    {
-    "title": "Matthew0822/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
-    "url": "https://github.com/Matthew0822/ToolReplay",
+    "title": "brandynfisher/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
+    "url": "https://github.com/brandynfisher/ToolReplay",
     "stars": 182,
     "lang": "Python"
    },
    {
     "title": "wenbin-wb/dsh-bridge — 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局域网扫码直连、Cloudflare / 自建公网隧道、微信 / QQ / 飞书 / Telegram 机器人全生命周期对话 | 内置全协议访问安",
     "url": "https://github.com/wenbin-wb/dsh-bridge",
-    "stars": 178,
+    "stars": 179,
     "lang": "JavaScript"
    },
    {
@@ -570,6 +570,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Server Mismatch: WordPress plugin vulnerabilities when relying on .htaccess files",
+    "url": "https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/",
+    "date": "2026-10-01T16:11:19+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "How to Spot a Compromised MikroTik Router",
+    "url": "https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/",
+    "date": "2026-10-01T14:46:54+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "New Local Privilege Escalation on Acer laptops",
     "url": "https://www.reddit.com/r/netsec/comments/1wut76l/new_local_privilege_escalation_on_acer_laptops/",
     "date": "2026-10-01T07:34:59+00:00",
@@ -617,20 +631,6 @@
     "date": "2026-09-29T13:57:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Paint It Blue: Reversing Win32k's Callbacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtgpsy/paint_it_blue_reversing_win32ks_callbacks/",
-    "date": "2026-09-29T17:40:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Email is crazy",
-    "url": "https://www.reddit.com/r/netsec/comments/1wssatb/email_is_crazy/",
-    "date": "2026-09-28T22:00:15+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1730,
+  "kev": 1731,
   "adv": 12,
   "feed": 48
  },
