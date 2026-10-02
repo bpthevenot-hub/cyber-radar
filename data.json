@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-02T19:23:09.807Z",
+ "generatedAt": "2026-10-02T23:50:40.380Z",
  "sources": {
   "cve": [
+   {
+    "title": "GHSA-v2f8-6655-7grj — Vibe-Trading FastAPI endpoints permit unauthenticated access, file upload, and an RCE chain",
+    "url": "https://github.com/advisories/GHSA-v2f8-6655-7grj",
+    "score": 10,
+    "date": "2026-10-02T22:44:26Z"
+   },
+   {
+    "title": "GHSA-jqmf-mx4f-hfr6 — Vibe-Trading LLM-callable tools permit command execution, code injection, and SSRF",
+    "url": "https://github.com/advisories/GHSA-jqmf-mx4f-hfr6",
+    "score": 10,
+    "date": "2026-10-02T22:44:03Z"
+   },
+   {
+    "title": "CVE-2025-65720 — GPT Researcher MCP STDIO configuration allows remote command execution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-65720",
+    "score": 9.8,
+    "date": "2026-07-16T00:31:33Z"
+   },
+   {
+    "title": "CVE-2025-1750 — LlamaIndex DuckDBVectorStore vulnerable to SQL injection through ref_doc_id",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1750",
+    "score": 9.8,
+    "date": "2025-06-02T12:30:33Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-102795 — Improper Access Control vulnerability in Apache Traffic Server. This issue affects Apache Traffic Server: from 9.0.0 through 9.2.14, from 10",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102795",
+    "title": "GHSA-gg6r-gp4c-89hp — Trigger.dev: V1 coordinator default-secret unauth Socket.IO",
+    "url": "https://github.com/advisories/GHSA-gg6r-gp4c-89hp",
+    "score": 9.5,
+    "date": "2026-10-02T22:39:00Z"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
     "score": 9.3,
-    "date": "2026-10-02T18:31:29Z"
+    "date": "2026-10-02T22:18:10+00:00"
    },
    {
-    "title": "CVE-2026-103648 — Path traversal in image-downloader 4.3.0 allows an attacker who can control the download URL to cause downloaded response data to be written",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103648",
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
     "score": 9.1,
-    "date": "2026-10-02T18:31:26Z"
+    "date": "2026-10-02T22:18:15+00:00"
    },
    {
-    "title": "CVE-2026-5795 — Red Hat Security Advisory: Red Hat Offline Knowledge Portal security and content update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:28573",
-    "score": 8.1,
-    "date": "2026-10-02T18:46:25+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-10-02T22:18:14+00:00"
    },
    {
-    "title": "CVE-2026-101104 — The Meari IoT Cloud Platform OpenAPI Service is vulnerable to an authorization flaw that allows authenticated users to manipulate the config",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-101104",
-    "score": 7.7,
-    "date": "2026-10-02T18:31:24Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-10-02T22:18:12+00:00"
    },
    {
-    "title": "CVE-2026-102626 — An authenticated LimeSurvey Community Edition 7.4.0 user with the global Surveys: create permission can store a JavaScript-breaking value in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102626",
-    "score": 7.5,
-    "date": "2026-10-02T18:31:29Z"
+    "title": "CVE-2026-40682 — Apache OpenNLP DictionaryEntryPersistor Vulnerable to XML External Entity (XXE) via Unsanitized Dictionary Parsing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40682",
+    "score": 9.1,
+    "date": "2026-05-04T18:30:30Z"
    },
    {
-    "title": "CVE-2026-104912 — MISP contains an authorization flaw in its correlation handling during attribute searches. When a user performs an attribute search that tri",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104912",
-    "score": 7.5,
-    "date": "2026-10-02T18:31:27Z"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-10-02T22:18:18+00:00"
    },
    {
-    "title": "CVE-2026-104908 — MISP contains an improper input validation vulnerability in the decaying model import functionality. The import endpoint was intended to cre",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104908",
-    "score": 7.5,
-    "date": "2026-10-02T18:31:27Z"
-   },
-   {
-    "title": "CVE-2026-96613 — The Meari IoT Cloud Platform OpenAPI Service is vulnerable to an authorization flaw that allows authenticated users to access the complete d",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96613",
-    "score": 6.5,
-    "date": "2026-10-02T18:31:29Z"
-   },
-   {
-    "title": "CVE-2026-56097 — A flaw was found in rubygem-katello. An SQL injection vulnerability exists in the Red Hat Satellite Katello Registry Proxy. The application ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56097",
-    "score": 6.5,
-    "date": "2026-10-01T18:32:47Z"
-   },
-   {
-    "title": "CVE-2026-104906 — MISP contains a cross-site scripting (XSS) vulnerability in the TAXII object viewer. When displaying a remote TAXII object, the JSON content",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104906",
-    "score": 5,
-    "date": "2026-10-02T18:31:27Z"
-   },
-   {
-    "title": "CVE-2026-104910 — MISP contains an authorization bypass in the related events listing functionality. When a user requests the list of events correlated to a g",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104910",
-    "score": 5,
-    "date": "2026-10-02T18:31:27Z"
-   },
-   {
-    "title": "CVE-2026-104914 — MISP contains an improper access control vulnerability in its attribute search and paginated attribute view endpoints. When a user queries f",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104914",
-    "score": 5,
-    "date": "2026-10-02T18:31:27Z"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
+    "score": 8.8,
+    "date": "2026-10-02T22:18:13+00:00"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Composer: GHSA-gjfg-22fp-rrxx fix bypass via symlinked package bin path",
-    "url": "https://github.com/advisories/GHSA-96h3-5x6v-m776",
-    "score": 6.1,
-    "ghsa": "GHSA-96h3-5x6v-m776",
-    "date": "2026-10-02T19:14:34Z"
+    "title": "gitea-runner: workflow container.options passes host namespaces and capability flags to job container when privileged mode is disabled",
+    "url": "https://github.com/advisories/GHSA-x4q3-gcj3-m6cf",
+    "score": 9.9,
+    "ghsa": "GHSA-x4q3-gcj3-m6cf",
+    "date": "2026-10-02T23:18:12Z"
    },
    {
-    "title": "Dulwich: Arbitrary File Write (RCE) on Windows via Unvalidated Drive Letters in Tree Paths",
-    "url": "https://github.com/advisories/GHSA-8mcx-5rqc-vhmf",
-    "score": 8.8,
-    "ghsa": "GHSA-8mcx-5rqc-vhmf",
-    "date": "2026-10-02T19:14:21Z"
-   },
-   {
-    "title": "Dulwich: Infinite Loop Denial of Service (DoS) in Packfile Object Resolution",
-    "url": "https://github.com/advisories/GHSA-35mr-4567-66vg",
-    "score": 6.5,
-    "ghsa": "GHSA-35mr-4567-66vg",
-    "date": "2026-10-02T18:54:39Z"
-   },
-   {
-    "title": "Dulwich: Symlink write-through in checkout(paths=[]) via raw os.open bypasses all symlink protections",
-    "url": "https://github.com/advisories/GHSA-8w8g-wq8h-fq33",
-    "score": 8.6,
-    "ghsa": "GHSA-8w8g-wq8h-fq33",
-    "date": "2026-10-02T18:53:35Z"
-   },
-   {
-    "title": "Dulwich: Symlink directory traversal in filter-branch index_filter via cross-commit state persistence",
-    "url": "https://github.com/advisories/GHSA-5fqc-mrg8-w798",
-    "score": 8.6,
-    "ghsa": "GHSA-5fqc-mrg8-w798",
-    "date": "2026-10-02T18:53:05Z"
-   },
-   {
-    "title": "Dulwich: Symlink directory traversal in stash pop allows arbitrary file write via intermediate directory symlinks",
-    "url": "https://github.com/advisories/GHSA-cm62-gvxx-vmxx",
-    "score": 8.6,
-    "ghsa": "GHSA-cm62-gvxx-vmxx",
-    "date": "2026-10-02T18:52:53Z"
-   },
-   {
-    "title": "xxhash-rust: Safe xxh3 custom-secret API accepts too-short secret in release",
-    "url": "https://github.com/advisories/GHSA-6g2r-675j-hx59",
-    "score": 2.3,
-    "ghsa": "GHSA-6g2r-675j-hx59",
-    "date": "2026-10-02T18:29:13Z"
-   },
-   {
-    "title": "Copernik XML Factory (stock JDK provider) has Improper restriction of XInclude resource resolution",
-    "url": "https://github.com/advisories/GHSA-xm28-xvqc-gxxg",
+    "title": "probe-image-size: Quadratic-time Denial of Service in the SVG Parser",
+    "url": "https://github.com/advisories/GHSA-gjj5-9665-rwrc",
     "score": 7.5,
-    "ghsa": "GHSA-xm28-xvqc-gxxg",
-    "date": "2026-10-02T18:27:17Z"
+    "ghsa": "GHSA-gjj5-9665-rwrc",
+    "date": "2026-10-02T23:18:02Z"
    },
    {
-    "title": "Anubis: Policy bypass via client controlled X-Original-URI header",
-    "url": "https://github.com/advisories/GHSA-6wcg-mqvh-fcvg",
-    "score": 5.8,
-    "ghsa": "GHSA-6wcg-mqvh-fcvg",
-    "date": "2026-10-02T18:22:08Z"
+    "title": "SiYuan Agent Tools SSRF via DNS-Rebinding TOCTOU (Bypass of CheckHostSSRF)",
+    "url": "https://github.com/advisories/GHSA-x8gv-g2g3-65fj",
+    "score": 8.2,
+    "ghsa": "GHSA-x8gv-g2g3-65fj",
+    "date": "2026-10-02T23:17:16Z"
    },
    {
-    "title": "rmcp OAuth client fetches server-controlled resource_metadata URLs",
-    "url": "https://github.com/advisories/GHSA-c9xm-49cp-xcr9",
+    "title": "SiYuan MCP asset.upload Reads Arbitrary Absolute File Paths (Workspace Boundary Bypass)",
+    "url": "https://github.com/advisories/GHSA-p23f-cm6q-2qp8",
+    "score": 5.7,
+    "ghsa": "GHSA-p23f-cm6q-2qp8",
+    "date": "2026-10-02T23:16:56Z"
+   },
+   {
+    "title": "@fastify/busboy vulnerable to Denial of Service via prototype-named multipart part header",
+    "url": "https://github.com/advisories/GHSA-x8mw-p69m-v3mx",
+    "score": 7.5,
+    "ghsa": "GHSA-x8mw-p69m-v3mx",
+    "date": "2026-10-02T23:16:36Z"
+   },
+   {
+    "title": "@fastify/busboy vulnerable to Denial of Service via oversized multipart boundary",
+    "url": "https://github.com/advisories/GHSA-xjh9-v7x6-24jw",
+    "score": 7.5,
+    "ghsa": "GHSA-xjh9-v7x6-24jw",
+    "date": "2026-10-02T23:16:17Z"
+   },
+   {
+    "title": "sqlite3-ruby: Use-After-Free in SQLite Aggregate Arguments in Heap-Allocated Argument Array",
+    "url": "https://github.com/advisories/GHSA-mwm8-39rw-8826",
     "score": null,
-    "ghsa": "GHSA-c9xm-49cp-xcr9",
-    "date": "2026-10-02T16:12:31Z"
+    "ghsa": "GHSA-mwm8-39rw-8826",
+    "date": "2026-10-02T23:11:51Z"
    },
    {
-    "title": "SiYuan: The reference filter for getRefIDs checks visibility but not the password tier, disclosing that password-protected documents reference a given",
-    "url": "https://github.com/advisories/GHSA-vg99-7gj7-2fr5",
-    "score": 5.8,
-    "ghsa": "GHSA-vg99-7gj7-2fr5",
-    "date": "2026-10-01T16:29:35Z"
+    "title": "Praxis affected by HTTP/2 Bomb",
+    "url": "https://github.com/advisories/GHSA-cjcg-cxmh-9wcr",
+    "score": 7.5,
+    "ghsa": "GHSA-cjcg-cxmh-9wcr",
+    "date": "2026-10-02T23:09:37Z"
    },
    {
-    "title": "SiYuan: getAttributeViewSearchTarget returns database row content to anonymous readers with no publish-access check, reopening the class closed one da",
-    "url": "https://github.com/advisories/GHSA-9cqf-hhrq-7v45",
-    "score": 8.6,
-    "ghsa": "GHSA-9cqf-hhrq-7v45",
-    "date": "2026-10-01T16:24:38Z"
+    "title": "Headroom vulnerable to Cross-Site WebSocket Hijacking (CSWSH)",
+    "url": "https://github.com/advisories/GHSA-h46j-26q3-rggf",
+    "score": 8.8,
+    "ghsa": "GHSA-h46j-26q3-rggf",
+    "date": "2026-10-02T23:09:15Z"
+   },
+   {
+    "title": "SiYuan: 17 block metadata/content endpoints in kernel/api/block.go have zero publish-access filtering, reachable by anonymous publish-mode readers",
+    "url": "https://github.com/advisories/GHSA-4vpg-gwqq-w44c",
+    "score": 7.5,
+    "ghsa": "GHSA-4vpg-gwqq-w44c",
+    "date": "2026-10-02T23:05:33Z"
+   },
+   {
+    "title": "@a2ui/web_core: `openUrl` permits `javascript:` URI execution via agent-supplied button actions",
+    "url": "https://github.com/advisories/GHSA-72qq-p3r5-f7wq",
+    "score": 9.3,
+    "ghsa": "GHSA-72qq-p3r5-f7wq",
+    "date": "2026-10-02T22:55:49Z"
+   },
+   {
+    "title": "SiYuan: Cross-Site WebSocket Hijacking on the admin-only network proxy endpoint (`/ws/network/proxy`) via explicit `CheckOrigin: true` bypass",
+    "url": "https://github.com/advisories/GHSA-3cc2-h3v6-rqpq",
+    "score": 2,
+    "ghsa": "GHSA-3cc2-h3v6-rqpq",
+    "date": "2026-10-02T22:46:18Z"
    }
   ],
   "thn": [
@@ -473,7 +473,7 @@
     "lang": "JavaScript"
    },
    {
-    "title": "0sec-labs/0 — 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack.",
+    "title": "0sec-labs/0 — Full-stack AI security OS for your browser, terminal, and agents. Find, verify, and fix vulnerabilities. Prior",
     "url": "https://github.com/0sec-labs/0",
     "stars": 483,
     "lang": "TypeScript"
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 12,
   "kev": 1733,
   "adv": 12,
   "feed": 48
