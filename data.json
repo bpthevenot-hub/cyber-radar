@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T07:03:53.338Z",
+ "generatedAt": "2026-10-02T13:55:55.962Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-104480 — Discord libdave before 1.2.0 did not reject an MLS Welcome message when the resulting group roster contained an unrecognized participant. An",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104480",
-    "score": 9.5,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-103098 — Transmission of a sensitive key in the URL over an unencrypted HTTP connection. The request is sent over HTTP rather than HTTPS, meaning the",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103098",
-    "score": 7.5,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-103097 — An API key is hardcoded and retrievable from the application package. Since Android applications can be reverse engineered, embedding sensit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103097",
-    "score": 7.5,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-103096 — API key is hardcoded and retrievable from the application package. Since Android applications can be reverse engineered, embedding sensitive",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103096",
-    "score": 7.5,
-    "date": "2026-10-02T03:31:09Z"
-   },
-   {
-    "title": "CVE-2026-104120 — A security vulnerability has been detected in modelcontextprotocol mcp-server-fetch and mcp-server-everything up to 2026.6.4. Affected is th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104120",
-    "score": 7.3,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-104123 — A vulnerability was detected in SourceCodester Online Reviewer Management System 1.0. Affected by this vulnerability is an unknown functiona",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104123",
-    "score": 7.3,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-58014 — A flaw was found in GLib. An off-by-one error can occur in the g_key_file_get_locale_string_list function in the gkeyfile.c file when loadin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58014",
-    "score": 7.3,
-    "date": "2026-06-30T15:30:45Z"
-   },
-   {
-    "title": "CVE-2026-102010 — A flaw was found in GCC. When an application calls the erase_if function on a binary heap priority queue in libstdc++, the library reallocat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102010",
-    "score": 7,
-    "date": "2026-09-28T21:31:16Z"
-   },
-   {
-    "title": "CVE-2026-58012 — A flaw was found in GLib. A buffer over-read can occur in the g_regex_replace function when used with the `G_REGEX_RAW` compile flag and cas",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58012",
-    "score": 6.5,
-    "date": "2026-06-30T15:30:45Z"
-   },
-   {
-    "title": "CVE-2026-104052 — A vulnerability was determined in itsourcecode Pet Shop Management System 1.0. The affected element is an unknown function of the file admin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104052",
-    "score": 6.3,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-104053 — A vulnerability was identified in itsourcecode Pet Shop Management System 1.0. The impacted element is an unknown function of the file admin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104053",
-    "score": 6.3,
-    "date": "2026-10-02T03:31:10Z"
-   },
-   {
-    "title": "CVE-2026-104054 — A security flaw has been discovered in calcom cal.diy up to 6.2.0. This affects the function doesUserIdHaveAccessToBooking of the file Booki",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104054",
-    "score": 6.3,
-    "date": "2026-10-02T03:31:10Z"
    }
   ],
   "kev": [
@@ -289,6 +217,27 @@
   ],
   "thn": [
    {
+    "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+    "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+    "date": "Fri, 02 Oct 2026 17:53:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+    "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+    "date": "Fri, 02 Oct 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+    "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "date": "Fri, 02 Oct 2026 13:31:30 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
     "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
     "date": "Fri, 02 Oct 2026 11:19:50 +0530",
@@ -350,30 +299,23 @@
     "date": "Thu, 01 Oct 2026 11:24:41 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-    "date": "Thu, 01 Oct 2026 10:51:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-    "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-    "date": "Thu, 01 Oct 2026 10:40:09 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-    "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-    "date": "Thu, 01 Oct 2026 10:05:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+    "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+    "date": "Fri, 02 Oct 2026 08:37:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+    "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+    "date": "Fri, 02 Oct 2026 05:29:56 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
     "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
@@ -443,27 +385,13 @@
     "date": "Wed, 30 Sep 2026 16:34:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-    "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-    "date": "Wed, 30 Sep 2026 15:49:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
-    "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-    "date": "Wed, 30 Sep 2026 14:08:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 499,
+    "stars": 501,
     "lang": "JavaScript"
    },
    {
@@ -475,19 +403,19 @@
    {
     "title": "0sec-labs/0 — 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack.",
     "url": "https://github.com/0sec-labs/0",
-    "stars": 478,
+    "stars": 482,
     "lang": "TypeScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 286,
+    "stars": 290,
     "lang": "Python"
    },
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 270,
+    "stars": 277,
     "lang": "Python"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "CassiopeiaCode/CosyRedactGateway — Lightweight, stateless privacy gateway for LLM APIs — redact secrets before OpenAI/Anthropic upstreams and res",
     "url": "https://github.com/CassiopeiaCode/CosyRedactGateway",
-    "stars": 98,
+    "stars": 99,
     "lang": "JavaScript"
    },
    {
@@ -635,6 +563,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
+    "date": "2026-10-02T12:15:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
+    "date": "2026-10-02T13:50:28+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
     "url": "https://www.reddit.com/r/netsec/comments/1wuvcwf/from_anyoneicloudcom_spoofing_arbitrary_apple/",
     "date": "2026-10-01T09:57:02+00:00",
@@ -642,16 +584,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Server Mismatch: WordPress plugin vulnerabilities when relying on .htaccess files",
-    "url": "https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/",
-    "date": "2026-10-01T16:11:19+00:00",
+    "title": "How to Spot a Compromised MikroTik Router",
+    "url": "https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/",
+    "date": "2026-10-01T14:46:54+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How to Spot a Compromised MikroTik Router",
-    "url": "https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/",
-    "date": "2026-10-01T14:46:54+00:00",
+    "title": "Server Mismatch: WordPress plugin vulnerabilities when relying on .htaccess files",
+    "url": "https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/",
+    "date": "2026-10-01T16:11:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -689,20 +631,6 @@
     "date": "2026-09-30T01:00:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Microsoft Copilot Cowork Exfiltrates Files",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtnidr/microsoft_copilot_cowork_exfiltrates_files/",
-    "date": "2026-09-29T22:00:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis ofWeb and Mobile Conversational AI Agents",
-    "url": "https://www.reddit.com/r/netsec/comments/1wu7lwi/prompt_like_a_butterfly_sting_like_a_tracker_a/",
-    "date": "2026-09-30T15:15:08+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1731,
   "adv": 12,
   "feed": 48
