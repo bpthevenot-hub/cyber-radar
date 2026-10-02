@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T13:55:55.962Z",
+ "generatedAt": "2026-10-02T19:23:09.807Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-102795 — Improper Access Control vulnerability in Apache Traffic Server. This issue affects Apache Traffic Server: from 9.0.0 through 9.2.14, from 10",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102795",
+    "score": 9.3,
+    "date": "2026-10-02T18:31:29Z"
+   },
+   {
+    "title": "CVE-2026-103648 — Path traversal in image-downloader 4.3.0 allows an attacker who can control the download URL to cause downloaded response data to be written",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103648",
+    "score": 9.1,
+    "date": "2026-10-02T18:31:26Z"
+   },
+   {
+    "title": "CVE-2026-5795 — Red Hat Security Advisory: Red Hat Offline Knowledge Portal security and content update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:28573",
+    "score": 8.1,
+    "date": "2026-10-02T18:46:25+00:00"
+   },
+   {
+    "title": "CVE-2026-101104 — The Meari IoT Cloud Platform OpenAPI Service is vulnerable to an authorization flaw that allows authenticated users to manipulate the config",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-101104",
+    "score": 7.7,
+    "date": "2026-10-02T18:31:24Z"
+   },
+   {
+    "title": "CVE-2026-102626 — An authenticated LimeSurvey Community Edition 7.4.0 user with the global Surveys: create permission can store a JavaScript-breaking value in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102626",
+    "score": 7.5,
+    "date": "2026-10-02T18:31:29Z"
+   },
+   {
+    "title": "CVE-2026-104912 — MISP contains an authorization flaw in its correlation handling during attribute searches. When a user performs an attribute search that tri",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104912",
+    "score": 7.5,
+    "date": "2026-10-02T18:31:27Z"
+   },
+   {
+    "title": "CVE-2026-104908 — MISP contains an improper input validation vulnerability in the decaying model import functionality. The import endpoint was intended to cre",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104908",
+    "score": 7.5,
+    "date": "2026-10-02T18:31:27Z"
+   },
+   {
+    "title": "CVE-2026-96613 — The Meari IoT Cloud Platform OpenAPI Service is vulnerable to an authorization flaw that allows authenticated users to access the complete d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96613",
+    "score": 6.5,
+    "date": "2026-10-02T18:31:29Z"
+   },
+   {
+    "title": "CVE-2026-56097 — A flaw was found in rubygem-katello. An SQL injection vulnerability exists in the Red Hat Satellite Katello Registry Proxy. The application ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56097",
+    "score": 6.5,
+    "date": "2026-10-01T18:32:47Z"
+   },
+   {
+    "title": "CVE-2026-104906 — MISP contains a cross-site scripting (XSS) vulnerability in the TAXII object viewer. When displaying a remote TAXII object, the JSON content",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104906",
+    "score": 5,
+    "date": "2026-10-02T18:31:27Z"
+   },
+   {
+    "title": "CVE-2026-104910 — MISP contains an authorization bypass in the related events listing functionality. When a user requests the list of events correlated to a g",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104910",
+    "score": 5,
+    "date": "2026-10-02T18:31:27Z"
+   },
+   {
+    "title": "CVE-2026-104914 — MISP contains an improper access control vulnerability in its attribute search and paginated attribute view endpoints. When a user queries f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104914",
+    "score": 5,
+    "date": "2026-10-02T18:31:27Z"
    }
   ],
   "kev": [
@@ -131,6 +203,76 @@
   ],
   "adv": [
    {
+    "title": "Composer: GHSA-gjfg-22fp-rrxx fix bypass via symlinked package bin path",
+    "url": "https://github.com/advisories/GHSA-96h3-5x6v-m776",
+    "score": 6.1,
+    "ghsa": "GHSA-96h3-5x6v-m776",
+    "date": "2026-10-02T19:14:34Z"
+   },
+   {
+    "title": "Dulwich: Arbitrary File Write (RCE) on Windows via Unvalidated Drive Letters in Tree Paths",
+    "url": "https://github.com/advisories/GHSA-8mcx-5rqc-vhmf",
+    "score": 8.8,
+    "ghsa": "GHSA-8mcx-5rqc-vhmf",
+    "date": "2026-10-02T19:14:21Z"
+   },
+   {
+    "title": "Dulwich: Infinite Loop Denial of Service (DoS) in Packfile Object Resolution",
+    "url": "https://github.com/advisories/GHSA-35mr-4567-66vg",
+    "score": 6.5,
+    "ghsa": "GHSA-35mr-4567-66vg",
+    "date": "2026-10-02T18:54:39Z"
+   },
+   {
+    "title": "Dulwich: Symlink write-through in checkout(paths=[]) via raw os.open bypasses all symlink protections",
+    "url": "https://github.com/advisories/GHSA-8w8g-wq8h-fq33",
+    "score": 8.6,
+    "ghsa": "GHSA-8w8g-wq8h-fq33",
+    "date": "2026-10-02T18:53:35Z"
+   },
+   {
+    "title": "Dulwich: Symlink directory traversal in filter-branch index_filter via cross-commit state persistence",
+    "url": "https://github.com/advisories/GHSA-5fqc-mrg8-w798",
+    "score": 8.6,
+    "ghsa": "GHSA-5fqc-mrg8-w798",
+    "date": "2026-10-02T18:53:05Z"
+   },
+   {
+    "title": "Dulwich: Symlink directory traversal in stash pop allows arbitrary file write via intermediate directory symlinks",
+    "url": "https://github.com/advisories/GHSA-cm62-gvxx-vmxx",
+    "score": 8.6,
+    "ghsa": "GHSA-cm62-gvxx-vmxx",
+    "date": "2026-10-02T18:52:53Z"
+   },
+   {
+    "title": "xxhash-rust: Safe xxh3 custom-secret API accepts too-short secret in release",
+    "url": "https://github.com/advisories/GHSA-6g2r-675j-hx59",
+    "score": 2.3,
+    "ghsa": "GHSA-6g2r-675j-hx59",
+    "date": "2026-10-02T18:29:13Z"
+   },
+   {
+    "title": "Copernik XML Factory (stock JDK provider) has Improper restriction of XInclude resource resolution",
+    "url": "https://github.com/advisories/GHSA-xm28-xvqc-gxxg",
+    "score": 7.5,
+    "ghsa": "GHSA-xm28-xvqc-gxxg",
+    "date": "2026-10-02T18:27:17Z"
+   },
+   {
+    "title": "Anubis: Policy bypass via client controlled X-Original-URI header",
+    "url": "https://github.com/advisories/GHSA-6wcg-mqvh-fcvg",
+    "score": 5.8,
+    "ghsa": "GHSA-6wcg-mqvh-fcvg",
+    "date": "2026-10-02T18:22:08Z"
+   },
+   {
+    "title": "rmcp OAuth client fetches server-controlled resource_metadata URLs",
+    "url": "https://github.com/advisories/GHSA-c9xm-49cp-xcr9",
+    "score": null,
+    "ghsa": "GHSA-c9xm-49cp-xcr9",
+    "date": "2026-10-02T16:12:31Z"
+   },
+   {
     "title": "SiYuan: The reference filter for getRefIDs checks visibility but not the password tier, disclosing that password-protected documents reference a given",
     "url": "https://github.com/advisories/GHSA-vg99-7gj7-2fr5",
     "score": 5.8,
@@ -143,79 +285,30 @@
     "score": 8.6,
     "ghsa": "GHSA-9cqf-hhrq-7v45",
     "date": "2026-10-01T16:24:38Z"
-   },
-   {
-    "title": "SiYuan: getBookmarkLabels returns every bookmark label in the workspace to anonymous readers, with no publish-access filtering",
-    "url": "https://github.com/advisories/GHSA-j4ph-9xwf-wcj4",
-    "score": 5.8,
-    "ghsa": "GHSA-j4ph-9xwf-wcj4",
-    "date": "2026-10-01T16:23:37Z"
-   },
-   {
-    "title": "SiYuan: getUniqueFilename passes an unvalidated client-supplied path to the filesystem, giving anonymous readers an existence oracle over the entire h",
-    "url": "https://github.com/advisories/GHSA-hf8h-97gm-4x2p",
-    "score": 5.8,
-    "ghsa": "GHSA-hf8h-97gm-4x2p",
-    "date": "2026-10-01T15:46:01Z"
-   },
-   {
-    "title": "SiYuan: Outline state for any document, including documents forbidden to readers, is returned by /api/storage/getOutlineStorage with no access check",
-    "url": "https://github.com/advisories/GHSA-53fp-9jmv-227g",
-    "score": 5.8,
-    "ghsa": "GHSA-53fp-9jmv-227g",
-    "date": "2026-10-01T15:44:46Z"
-   },
-   {
-    "title": "vm2: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
-    "url": "https://github.com/advisories/GHSA-jf8q-945g-9q4c",
-    "score": 6.8,
-    "ghsa": "GHSA-jf8q-945g-9q4c",
-    "date": "2026-10-01T15:42:15Z"
-   },
-   {
-    "title": "vm2: NodeVM builtin allowlist bypass via node:test.run() execArgv allows sandbox escape",
-    "url": "https://github.com/advisories/GHSA-qhwx-74w5-xhxq",
-    "score": 9.9,
-    "ghsa": "GHSA-qhwx-74w5-xhxq",
-    "date": "2026-10-01T15:41:31Z"
-   },
-   {
-    "title": "vm2 CLI provides no sandbox isolation - host-realm require() is reachable from sandboxed scripts",
-    "url": "https://github.com/advisories/GHSA-jxxv-8r27-vm4p",
-    "score": 8.6,
-    "ghsa": "GHSA-jxxv-8r27-vm4p",
-    "date": "2026-10-01T15:40:45Z"
-   },
-   {
-    "title": "vm2 exposes host HTTPS credentials and TLS traffic through globalAgent",
-    "url": "https://github.com/advisories/GHSA-h85j-hv3c-qfgq",
-    "score": 10,
-    "ghsa": "GHSA-h85j-hv3c-qfgq",
-    "date": "2026-10-01T15:38:26Z"
-   },
-   {
-    "title": "vm2 Custom Module Resolver Can Bypass the External Package Allowlist by Loading a Colliding Host Package",
-    "url": "https://github.com/advisories/GHSA-c48m-32m9-vx93",
-    "score": 9.9,
-    "ghsa": "GHSA-c48m-32m9-vx93",
-    "date": "2026-10-01T15:37:19Z"
-   },
-   {
-    "title": "vm2: NodeVM builtin denylist bypass via fs/promises despite -fs, allowing host filesystem writes",
-    "url": "https://github.com/advisories/GHSA-6rh5-qq4q-97xh",
-    "score": 8.5,
-    "ghsa": "GHSA-6rh5-qq4q-97xh",
-    "date": "2026-10-01T15:36:48Z"
-   },
-   {
-    "title": "vm2: NodeVM node:-prefixed negative builtin deny bypass exposes child_process",
-    "url": "https://github.com/advisories/GHSA-8686-vhfx-7r3j",
-    "score": 9.9,
-    "ghsa": "GHSA-8686-vhfx-7r3j",
-    "date": "2026-10-01T15:36:01Z"
    }
   ],
   "thn": [
+   {
+    "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+    "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+    "date": "Fri, 02 Oct 2026 23:03:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+    "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+    "date": "Fri, 02 Oct 2026 23:03:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+    "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+    "date": "Fri, 02 Oct 2026 22:32:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
     "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
@@ -278,30 +371,44 @@
     "date": "Thu, 01 Oct 2026 16:12:36 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-    "date": "Thu, 01 Oct 2026 16:03:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-    "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-    "date": "Thu, 01 Oct 2026 13:19:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "date": "Thu, 01 Oct 2026 11:24:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Frontline Education breach exposes school district employee data",
+    "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+    "date": "Fri, 02 Oct 2026 15:01:40 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+    "date": "Fri, 02 Oct 2026 14:33:01 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+    "date": "Fri, 02 Oct 2026 12:20:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+    "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+    "date": "Fri, 02 Oct 2026 11:20:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+    "url": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+    "date": "Fri, 02 Oct 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
     "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
@@ -350,61 +457,38 @@
     "date": "Thu, 01 Oct 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Kiteworks patches max severity code injection vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-    "date": "Thu, 01 Oct 2026 09:51:08 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft enables Windows settings backup by default for orgs",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-    "date": "Thu, 01 Oct 2026 07:14:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers stole Pentagon personnel records of over 3 million people",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-    "date": "Thu, 01 Oct 2026 05:44:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Metamask discloses security incident affecting its infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
-    "date": "Thu, 01 Oct 2026 03:33:57 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Russian state hackers use new RedFlick technique to push malware",
-    "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-    "date": "Wed, 30 Sep 2026 16:34:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
-    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
-    "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 501,
-    "lang": "JavaScript"
-   },
-   {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 493,
+    "stars": 494,
     "lang": "TypeScript"
+   },
+   {
+    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
+    "url": "https://github.com/nhovongoc0-max/meme-radar",
+    "stars": 485,
+    "lang": "JavaScript"
    },
    {
     "title": "0sec-labs/0 — 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack.",
     "url": "https://github.com/0sec-labs/0",
-    "stars": 482,
+    "stars": 483,
     "lang": "TypeScript"
+   },
+   {
+    "title": "nmatt0/moria — IoT firmware identification and extraction",
+    "url": "https://github.com/nmatt0/moria",
+    "stars": 371,
+    "lang": "C++"
+   },
+   {
+    "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
+    "url": "https://github.com/nmatt0/mithril",
+    "stars": 325,
+    "lang": "C++"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
@@ -415,7 +499,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 277,
+    "stars": 281,
     "lang": "Python"
    },
    {
@@ -447,18 +531,6 @@
     "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
     "stars": 87,
     "lang": "Objective-C"
-   },
-   {
-    "title": "PensiveFei/dsh-secure-audit — Read-only security & compliance plugin for DeepSeek Harness: prompt-injection detection, Chinese-PII redaction",
-    "url": "https://github.com/PensiveFei/dsh-secure-audit",
-    "stars": 85,
-    "lang": "JavaScript"
-   },
-   {
-    "title": "sashyo/minidauth — Mini decentralised auth. Gives an existing auth system a key nobody holds, with governance over who can decryp",
-    "url": "https://github.com/sashyo/minidauth",
-    "stars": 83,
-    "lang": "Java"
    }
   ],
   "hn": [
@@ -563,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
+    "date": "2026-10-02T16:50:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
     "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
     "date": "2026-10-02T12:15:55+00:00",
@@ -573,6 +652,20 @@
     "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
     "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
     "date": "2026-10-02T13:50:28+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "8 out of 10 Banks HATE This One Weird 3SKey RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvxp1p/8_out_of_10_banks_hate_this_one_weird_3skey_rce/",
+    "date": "2026-10-02T16:05:04+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "security.txt on the Czech web: Scanning 1k popular .cz domains",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvyvmu/securitytxt_on_the_czech_web_scanning_1k_popular/",
+    "date": "2026-10-02T16:52:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -610,27 +703,6 @@
     "date": "2026-10-01T01:01:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Critical RCE Alert: Full takeover of HashiCorp Vault and OpenBao. OpenBao is patched. Vault remains exposed",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtn3cv/critical_rce_alert_full_takeover_of_hashicorp/",
-    "date": "2026-09-29T21:43:15+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Tales from the Trenches: Anthropic’s Mythos and Rejetto HFS",
-    "url": "https://www.reddit.com/r/netsec/comments/1wu4hwd/tales_from_the_trenches_anthropics_mythos_and/",
-    "date": "2026-09-30T13:08:04+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtri3s/pwnd_blaster_hacking_your_pc_using_your_speaker/",
-    "date": "2026-09-30T01:00:58+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1731,
+  "crit": 4,
+  "kev": 1733,
   "adv": 12,
   "feed": 48
  },
