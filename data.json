@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-10-02T00:52:17.810Z",
+ "generatedAt": "2026-10-02T07:03:53.338Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-96658 — A flaw was found in Foreman. An authenticated attacker with low-level permissions can achieve remote code execution (RCE) by bypassing the s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96658",
-    "score": 9.9,
-    "date": "2026-10-01T18:32:46Z"
-   },
-   {
-    "title": "CVE-2026-103764 — Mooncake transfer engine before 0.3.13 contains an untrusted pointer dereference in ServerSession::readHeader that allows unauthenticated at",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103764",
-    "score": 9.8,
-    "date": "2026-10-02T00:31:32Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-71449 — : Use of Hard-coded Cryptographic Key vulnerability in Johnson Controls EasyIO FS32 allows : Retrieve Embedded Sensitive Data. This issue af",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71449",
+    "title": "CVE-2026-104480 — Discord libdave before 1.2.0 did not reject an MLS Welcome message when the resulting group roster contained an unrecognized participant. An",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104480",
     "score": 9.5,
-    "date": "2026-10-02T00:31:31Z"
+    "date": "2026-10-02T03:31:10Z"
    },
    {
-    "title": "CVE-2026-18397 — This vulnerability enables unauthenticated remote code execution (RCE) on a victim's machine by exploiting a combination of cryptographic we",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18397",
-    "score": 9.5,
-    "date": "2026-10-02T00:31:29Z"
-   },
-   {
-    "title": "CVE-2026-103765 — Mooncake through 0.3.13.post1 contains a missing authentication vulnerability in the HTTP metadata server /metadata handler that allows unau",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103765",
-    "score": 9.4,
-    "date": "2026-10-02T00:31:32Z"
-   },
-   {
-    "title": "CVE-2026-86345 — A flaw was found in 389-ds-base. The server does not discard plaintext bytes already buffered from a client connection when negotiating Star",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86345",
-    "score": 9,
-    "date": "2026-10-02T00:31:32Z"
-   },
-   {
-    "title": "CVE-2026-104051 — PictShare before 3.7.1 contains an information disclosure vulnerability that allows unauthenticated attackers to obtain the secret delete_co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104051",
-    "score": 8.2,
-    "date": "2026-10-02T00:31:30Z"
-   },
-   {
-    "title": "CVE-2026-12541 — A flaw was found in Foreman. OS command injection vulnerabilities exist in the foreman-rake db:dump and db:import_dump tasks. The applicatio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12541",
-    "score": 8.2,
-    "date": "2026-10-01T18:32:44Z"
-   },
-   {
-    "title": "CVE-2026-12544 — A flaw was found in Foreman. The foreman-rake initialization logic in /usr/share/foreman/config/settings.rb contains a vulnerable code patte",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12544",
-    "score": 7.7,
-    "date": "2026-10-01T18:32:44Z"
-   },
-   {
-    "title": "CVE-2026-103761 — Mooncake transfer engine through 0.3.13.post1 contains a memory exhaustion vulnerability in TransferMetadata::receivePeerNotify that allows ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103761",
+    "title": "CVE-2026-103098 — Transmission of a sensitive key in the URL over an unencrypted HTTP connection. The request is sent over HTTP rather than HTTPS, meaning the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103098",
     "score": 7.5,
-    "date": "2026-10-02T00:31:32Z"
+    "date": "2026-10-02T03:31:10Z"
    },
    {
-    "title": "CVE-2026-71452 — - OS Command Injection vulnerability in Johnson Controls EasyIO FS32 allows OS Command Injection. This issue affects EasyIO FS32: before 3.0",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-71452",
+    "title": "CVE-2026-103097 — An API key is hardcoded and retrievable from the application package. Since Android applications can be reverse engineered, embedding sensit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103097",
     "score": 7.5,
-    "date": "2026-10-02T00:31:31Z"
+    "date": "2026-10-02T03:31:10Z"
    },
    {
-    "title": "CVE-2026-64893 — - Cleartext Transmission of Sensitive Information vulnerability in Johnson Controls EasyIO NEO allows - Man In the Middle Attack. This issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64893",
+    "title": "CVE-2026-103096 — API key is hardcoded and retrievable from the application package. Since Android applications can be reverse engineered, embedding sensitive",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103096",
     "score": 7.5,
-    "date": "2026-10-02T00:31:31Z"
+    "date": "2026-10-02T03:31:09Z"
+   },
+   {
+    "title": "CVE-2026-104120 — A security vulnerability has been detected in modelcontextprotocol mcp-server-fetch and mcp-server-everything up to 2026.6.4. Affected is th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104120",
+    "score": 7.3,
+    "date": "2026-10-02T03:31:10Z"
+   },
+   {
+    "title": "CVE-2026-104123 — A vulnerability was detected in SourceCodester Online Reviewer Management System 1.0. Affected by this vulnerability is an unknown functiona",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104123",
+    "score": 7.3,
+    "date": "2026-10-02T03:31:10Z"
+   },
+   {
+    "title": "CVE-2026-58014 — A flaw was found in GLib. An off-by-one error can occur in the g_key_file_get_locale_string_list function in the gkeyfile.c file when loadin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58014",
+    "score": 7.3,
+    "date": "2026-06-30T15:30:45Z"
+   },
+   {
+    "title": "CVE-2026-102010 — A flaw was found in GCC. When an application calls the erase_if function on a binary heap priority queue in libstdc++, the library reallocat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102010",
+    "score": 7,
+    "date": "2026-09-28T21:31:16Z"
+   },
+   {
+    "title": "CVE-2026-58012 — A flaw was found in GLib. A buffer over-read can occur in the g_regex_replace function when used with the `G_REGEX_RAW` compile flag and cas",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58012",
+    "score": 6.5,
+    "date": "2026-06-30T15:30:45Z"
+   },
+   {
+    "title": "CVE-2026-104052 — A vulnerability was determined in itsourcecode Pet Shop Management System 1.0. The affected element is an unknown function of the file admin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104052",
+    "score": 6.3,
+    "date": "2026-10-02T03:31:10Z"
+   },
+   {
+    "title": "CVE-2026-104053 — A vulnerability was identified in itsourcecode Pet Shop Management System 1.0. The impacted element is an unknown function of the file admin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104053",
+    "score": 6.3,
+    "date": "2026-10-02T03:31:10Z"
+   },
+   {
+    "title": "CVE-2026-104054 — A security flaw has been discovered in calcom cal.diy up to 6.2.0. This affects the function doesUserIdHaveAccessToBooking of the file Booki",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104054",
+    "score": 6.3,
+    "date": "2026-10-02T03:31:10Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+    "date": "Fri, 02 Oct 2026 11:19:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
     "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
     "date": "Thu, 01 Oct 2026 22:25:57 +0530",
@@ -362,13 +369,6 @@
     "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
     "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
     "date": "Thu, 01 Oct 2026 10:05:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-    "date": "Wed, 30 Sep 2026 22:16:29 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -475,19 +475,19 @@
    {
     "title": "0sec-labs/0 — 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack.",
     "url": "https://github.com/0sec-labs/0",
-    "stars": 475,
+    "stars": 478,
     "lang": "TypeScript"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 284,
+    "stars": 286,
     "lang": "Python"
    },
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 267,
+    "stars": 270,
     "lang": "Python"
    },
    {
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "a CVE dispute",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvcl33/a_cve_dispute/",
-    "date": "2026-10-01T22:00:17+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
     "url": "https://www.reddit.com/r/netsec/comments/1wuvcwf/from_anyoneicloudcom_spoofing_arbitrary_apple/",
     "date": "2026-10-01T09:57:02+00:00",
@@ -677,16 +670,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Tales from the Trenches: Anthropic’s Mythos and Rejetto HFS",
-    "url": "https://www.reddit.com/r/netsec/comments/1wu4hwd/tales_from_the_trenches_anthropics_mythos_and/",
-    "date": "2026-09-30T13:08:04+00:00",
+    "title": "Critical RCE Alert: Full takeover of HashiCorp Vault and OpenBao. OpenBao is patched. Vault remains exposed",
+    "url": "https://www.reddit.com/r/netsec/comments/1wtn3cv/critical_rce_alert_full_takeover_of_hashicorp/",
+    "date": "2026-09-29T21:43:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Critical RCE Alert: Full takeover of HashiCorp Vault and OpenBao. OpenBao is patched. Vault remains exposed",
-    "url": "https://www.reddit.com/r/netsec/comments/1wtn3cv/critical_rce_alert_full_takeover_of_hashicorp/",
-    "date": "2026-09-29T21:43:15+00:00",
+    "title": "Tales from the Trenches: Anthropic’s Mythos and Rejetto HFS",
+    "url": "https://www.reddit.com/r/netsec/comments/1wu4hwd/tales_from_the_trenches_anthropics_mythos_and/",
+    "date": "2026-09-30T13:08:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -703,6 +696,13 @@
     "date": "2026-09-29T22:00:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Prompt like a Butterfly, Sting like a Tracker: A Privacy Analysis ofWeb and Mobile Conversational AI Agents",
+    "url": "https://www.reddit.com/r/netsec/comments/1wu7lwi/prompt_like_a_butterfly_sting_like_a_tracker_a/",
+    "date": "2026-09-30T15:15:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 3,
   "kev": 1731,
   "adv": 12,
   "feed": 48
