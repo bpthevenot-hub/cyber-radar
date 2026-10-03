@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-03T16:28:59.694Z",
+ "generatedAt": "2026-10-03T19:58:35.462Z",
  "sources": {
   "cve": [
+   {
+    "title": "RLSA-2026:72279 — Critical: ipa security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:72279",
+    "score": 9.8,
+    "date": "2026-09-29T12:10:25.697024Z"
+   },
+   {
+    "title": "RLSA-2026:71419 — Critical: unbound security update",
+    "url": "https://github.com/advisories/RLSA-2026:71419",
+    "score": 9.8,
+    "date": "2026-09-25T12:09:37.504383Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67160",
-    "score": 8.8,
-    "date": "2026-10-03T15:29:16+00:00"
+    "title": "CVE-2026-103626 — Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103626",
+    "score": 9.6,
+    "date": "2026-10-02T18:31:26Z"
    },
    {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67159",
-    "score": 8.8,
-    "date": "2026-10-03T15:29:16+00:00"
+    "title": "RLSA-2026:73979 — Critical: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:73979",
+    "score": 9.3,
+    "date": "2026-10-02T18:08:21.502699Z"
    },
    {
-    "title": "CVE-2026-32281 — Red Hat Security Advisory: git-lfs security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67149",
+    "title": "CVE-2026-96451 — Authorization Bypass Through User-Controlled Key vulnerability in Ultimate Member Ultimate Member ultimate-member allows Privilege Escalatio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96451",
     "score": 8.8,
-    "date": "2026-10-03T15:29:13+00:00"
+    "date": "2026-10-03T18:31:04Z"
    },
    {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
+    "title": "CVE-2026-88783 — The Kubio AI Page Builder WordPress plugin before 2.9.3 does not limit its widening of the allowed HTML elements to the editor context, so t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88783",
     "score": 8.8,
-    "date": "2026-10-03T15:29:07+00:00"
+    "date": "2026-10-03T06:31:13Z"
    },
    {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.38 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66377",
+    "title": "RLSA-2026:73998 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:73998",
     "score": 8.8,
-    "date": "2026-10-03T15:29:05+00:00"
+    "date": "2026-10-01T12:08:49.381512Z"
    },
    {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.22.14 bug fix and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66358",
+    "title": "RLSA-2026:72624 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:72624",
     "score": 8.8,
-    "date": "2026-10-03T15:29:03+00:00"
+    "date": "2026-09-30T12:10:38.243683Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.21.33 bug fix and security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66352",
+    "title": "RLSA-2026:70498 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:70498",
     "score": 8.8,
-    "date": "2026-10-03T15:29:02+00:00"
+    "date": "2026-09-24T12:09:42.603821Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security, bug fix, and enhancement update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66327",
+    "title": "RLSA-2026:70201 — Important: podman security update",
+    "url": "https://github.com/advisories/RLSA-2026:70201",
     "score": 8.8,
-    "date": "2026-10-03T15:29:00+00:00"
+    "date": "2026-09-23T18:07:43.655999Z"
    },
    {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
+    "title": "RLSA-2026:70186 — Important: postgresql16 security update",
+    "url": "https://github.com/advisories/RLSA-2026:70186",
     "score": 8.8,
-    "date": "2026-10-03T15:28:59+00:00"
+    "date": "2026-09-23T18:07:43.655999Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65895",
-    "score": 8.8,
-    "date": "2026-10-03T15:28:58+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65880",
-    "score": 8.8,
-    "date": "2026-10-03T15:28:56+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: image-builder security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65534",
-    "score": 8.8,
-    "date": "2026-10-03T15:28:56+00:00"
+    "title": "RLSA-2026:74442 — Important: libpcap security update",
+    "url": "https://github.com/advisories/RLSA-2026:74442",
+    "score": 8.7,
+    "date": "2026-10-02T12:09:30.803849Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+    "date": "Sat, 03 Oct 2026 15:09:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Danish university DTU breach exposes data of up to 200,000 people",
     "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
     "date": "Sat, 03 Oct 2026 10:35:20 -0400",
@@ -450,13 +457,6 @@
     "date": "Thu, 01 Oct 2026 15:32:47 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-    "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
-    "date": "Thu, 01 Oct 2026 10:25:14 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +469,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 486,
+    "stars": 487,
     "lang": "JavaScript"
    },
    {
@@ -485,15 +485,15 @@
     "lang": "C++"
    },
    {
-    "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-    "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 291,
+    "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
+    "url": "https://github.com/XiantingWu/PQCensus",
+    "stars": 293,
     "lang": "Python"
    },
    {
-    "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
-    "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 290,
+    "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+    "url": "https://github.com/xiaYuTian11/maskit",
+    "stars": 291,
     "lang": "Python"
    },
    {
@@ -642,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
-    "date": "2026-10-02T13:50:28+00:00",
+    "title": "A peek into Reddit's anti-spam internals",
+    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
+    "date": "2026-10-03T04:00:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "A peek into Reddit's anti-spam internals",
-    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
-    "date": "2026-10-03T04:00:52+00:00",
+    "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
+    "date": "2026-10-02T13:50:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1733,
   "adv": 12,
   "feed": 48
