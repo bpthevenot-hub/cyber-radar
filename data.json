@@ -1,30 +1,24 @@
 {
- "generatedAt": "2026-10-02T23:50:40.380Z",
+ "generatedAt": "2026-10-03T05:26:12.796Z",
  "sources": {
   "cve": [
    {
-    "title": "GHSA-v2f8-6655-7grj — Vibe-Trading FastAPI endpoints permit unauthenticated access, file upload, and an RCE chain",
-    "url": "https://github.com/advisories/GHSA-v2f8-6655-7grj",
-    "score": 10,
-    "date": "2026-10-02T22:44:26Z"
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-10-03T04:15:31+00:00"
    },
    {
-    "title": "GHSA-jqmf-mx4f-hfr6 — Vibe-Trading LLM-callable tools permit command execution, code injection, and SSRF",
-    "url": "https://github.com/advisories/GHSA-jqmf-mx4f-hfr6",
-    "score": 10,
-    "date": "2026-10-02T22:44:03Z"
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
+    "score": 9.9,
+    "date": "2026-10-03T04:15:30+00:00"
    },
    {
-    "title": "CVE-2025-65720 — GPT Researcher MCP STDIO configuration allows remote command execution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-65720",
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
     "score": 9.8,
-    "date": "2026-07-16T00:31:33Z"
-   },
-   {
-    "title": "CVE-2025-1750 — LlamaIndex DuckDBVectorStore vulnerable to SQL injection through ref_doc_id",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1750",
-    "score": 9.8,
-    "date": "2025-06-02T12:30:33Z"
+    "date": "2026-10-03T04:15:31+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "GHSA-gg6r-gp4c-89hp — Trigger.dev: V1 coordinator default-secret unauth Socket.IO",
-    "url": "https://github.com/advisories/GHSA-gg6r-gp4c-89hp",
-    "score": 9.5,
-    "date": "2026-10-02T22:39:00Z"
+    "title": "CVE-2023-4860 — Red Hat Security Advisory: webkit2gtk3 security update (+322 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74084",
+    "score": 9.6,
+    "date": "2026-10-03T04:40:55+00:00"
+   },
+   {
+    "title": "CVE-2024-7532 — Red Hat Security Advisory: webkit2gtk3 security update (+226 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69098",
+    "score": 9.6,
+    "date": "2026-10-03T04:40:55+00:00"
    },
    {
     "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:73987",
     "score": 9.3,
-    "date": "2026-10-02T22:18:10+00:00"
+    "date": "2026-10-03T04:15:44+00:00"
    },
    {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
-    "score": 9.1,
-    "date": "2026-10-02T22:18:15+00:00"
+    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.22.16 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71454",
+    "score": 9.3,
+    "date": "2026-10-03T04:15:33+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.21.35 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71453",
+    "score": 9.3,
+    "date": "2026-10-03T04:15:32+00:00"
+   },
+   {
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.40 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71450",
+    "score": 9.3,
+    "date": "2026-10-03T04:15:32+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
     "score": 9.1,
-    "date": "2026-10-02T22:18:14+00:00"
+    "date": "2026-10-03T04:15:50+00:00"
    },
    {
     "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:8151",
     "score": 9.1,
-    "date": "2026-10-02T22:18:12+00:00"
+    "date": "2026-10-03T04:15:50+00:00"
    },
    {
-    "title": "CVE-2026-40682 — Apache OpenNLP DictionaryEntryPersistor Vulnerable to XML External Entity (XXE) via Unsanitized Dictionary Parsing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40682",
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
     "score": 9.1,
-    "date": "2026-05-04T18:30:30Z"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
-    "score": 8.8,
-    "date": "2026-10-02T22:18:18+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
-    "score": 8.8,
-    "date": "2026-10-02T22:18:13+00:00"
+    "date": "2026-10-03T04:15:48+00:00"
    }
   ],
   "kev": [
@@ -469,25 +469,19 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 485,
+    "stars": 486,
     "lang": "JavaScript"
-   },
-   {
-    "title": "0sec-labs/0 — Full-stack AI security OS for your browser, terminal, and agents. Find, verify, and fix vulnerabilities. Prior",
-    "url": "https://github.com/0sec-labs/0",
-    "stars": 483,
-    "lang": "TypeScript"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 371,
+    "stars": 372,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 325,
+    "stars": 326,
     "lang": "C++"
    },
    {
@@ -499,7 +493,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 281,
+    "stars": 284,
     "lang": "Python"
    },
    {
@@ -531,6 +525,12 @@
     "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
     "stars": 87,
     "lang": "Objective-C"
+   },
+   {
+    "title": "sashyo/minidauth — Mini decentralised auth. Gives an existing auth system a key nobody holds, with governance over who can decryp",
+    "url": "https://github.com/sashyo/minidauth",
+    "stars": 83,
+    "lang": "Java"
    }
   ],
   "hn": [
@@ -642,16 +642,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
-    "date": "2026-10-02T12:15:55+00:00",
+    "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
+    "date": "2026-10-02T13:50:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
-    "date": "2026-10-02T13:50:28+00:00",
+    "title": "A peek into Reddit's anti-spam internals",
+    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
+    "date": "2026-10-03T04:00:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
+    "date": "2026-10-02T12:15:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-10-01T07:34:59+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The Real Price Tag on Breaches",
-    "url": "https://www.reddit.com/r/netsec/comments/1wum2gj/the_real_price_tag_on_breaches/",
-    "date": "2026-10-01T01:01:03+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 14,
   "kev": 1733,
   "adv": 12,
   "feed": 48
