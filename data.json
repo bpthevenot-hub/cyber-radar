@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T22:28:48.188Z",
+ "generatedAt": "2026-10-05T23:27:21.217Z",
  "sources": {
   "cve": [
    {
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "SiYuan: TLS Private Keys Readable via getFile (Incomplete Blocklist)",
-    "url": "https://github.com/advisories/GHSA-4wwp-f6gw-6qm5",
+    "title": "pymongo: PYTHON-5994 Use exact match for file ID in GridFS delete methods",
+    "url": "https://github.com/advisories/GHSA-8fvv-fgr5-f8ch",
     "score": null,
-    "ghsa": "GHSA-4wwp-f6gw-6qm5",
-    "date": "2026-10-05T17:32:48Z"
+    "ghsa": "GHSA-8fvv-fgr5-f8ch",
+    "date": "2026-10-05T23:27:13Z"
    },
    {
-    "title": "SiYuan: /history/*path and /repo/diff/*path potentially exposing historical snapshots of data/.siyuan/publishAccess.json and data/templates/*",
-    "url": "https://github.com/advisories/GHSA-3cm4-ccvw-6xr6",
-    "score": 4.9,
-    "ghsa": "GHSA-3cm4-ccvw-6xr6",
-    "date": "2026-10-05T17:32:44Z"
+    "title": "MongoDB: GridFS data disclosure and deletion via query-operator injection in file IDs",
+    "url": "https://github.com/advisories/GHSA-8fxw-fmj8-xp7j",
+    "score": null,
+    "ghsa": "GHSA-8fxw-fmj8-xp7j",
+    "date": "2026-10-05T23:26:58Z"
    },
    {
-    "title": "@orpc/zod: Prototype injection in smart coercion",
-    "url": "https://github.com/advisories/GHSA-gcgf-fh7c-8gf2",
+    "title": "vm2: NodeVM custom resolution bypasses external path boundaries",
+    "url": "https://github.com/advisories/GHSA-5h3f-q97h-ccvc",
+    "score": 10,
+    "ghsa": "GHSA-5h3f-q97h-ccvc",
+    "date": "2026-10-05T23:24:29Z"
+   },
+   {
+    "title": "vm2: Host Promise rejection from an exposed constructor can terminate the vm2 host process",
+    "url": "https://github.com/advisories/GHSA-2v2p-6j97-cjg9",
+    "score": 8.6,
+    "ghsa": "GHSA-2v2p-6j97-cjg9",
+    "date": "2026-10-05T23:19:55Z"
+   },
+   {
+    "title": "vm2: NodeVM zlib Buffers expose pooled host memory across the VM boundary",
+    "url": "https://github.com/advisories/GHSA-489w-w794-jq94",
+    "score": 10,
+    "ghsa": "GHSA-489w-w794-jq94",
+    "date": "2026-10-05T23:00:46Z"
+   },
+   {
+    "title": "GraphQL Tools: TLS Certificate Validation Disabled in Legacy GraphQL WebSocket Executor",
+    "url": "https://github.com/advisories/GHSA-6fw5-9hq8-w87g",
+    "score": 7.4,
+    "ghsa": "GHSA-6fw5-9hq8-w87g",
+    "date": "2026-10-05T22:56:56Z"
+   },
+   {
+    "title": "GraphQL Tools has prototype pollution in well-established utility function `mergeDeep`",
+    "url": "https://github.com/advisories/GHSA-7mx3-vvmw-hjmv",
+    "score": 7.5,
+    "ghsa": "GHSA-7mx3-vvmw-hjmv",
+    "date": "2026-10-05T22:56:46Z"
+   },
+   {
+    "title": "Snowflake drivers writes sensitive information to logs",
+    "url": "https://github.com/advisories/GHSA-qqj6-54q6-cxv6",
     "score": 6.5,
-    "ghsa": "GHSA-gcgf-fh7c-8gf2",
-    "date": "2026-10-05T17:32:32Z"
+    "ghsa": "GHSA-qqj6-54q6-cxv6",
+    "date": "2026-10-05T22:55:47Z"
    },
    {
-    "title": "gitea-runner: workflow container.options passes host namespaces and capability flags to job container when privileged mode is disabled",
-    "url": "https://github.com/advisories/GHSA-x4q3-gcj3-m6cf",
-    "score": 9.9,
-    "ghsa": "GHSA-x4q3-gcj3-m6cf",
-    "date": "2026-10-02T23:18:12Z"
-   },
-   {
-    "title": "probe-image-size: Quadratic-time Denial of Service in the SVG Parser",
-    "url": "https://github.com/advisories/GHSA-gjj5-9665-rwrc",
-    "score": 7.5,
-    "ghsa": "GHSA-gjj5-9665-rwrc",
-    "date": "2026-10-02T23:18:02Z"
-   },
-   {
-    "title": "SiYuan Agent Tools SSRF via DNS-Rebinding TOCTOU (Bypass of CheckHostSSRF)",
-    "url": "https://github.com/advisories/GHSA-x8gv-g2g3-65fj",
-    "score": 8.2,
-    "ghsa": "GHSA-x8gv-g2g3-65fj",
-    "date": "2026-10-02T23:17:16Z"
-   },
-   {
-    "title": "SiYuan MCP asset.upload Reads Arbitrary Absolute File Paths (Workspace Boundary Bypass)",
-    "url": "https://github.com/advisories/GHSA-p23f-cm6q-2qp8",
-    "score": 5.7,
-    "ghsa": "GHSA-p23f-cm6q-2qp8",
-    "date": "2026-10-02T23:16:56Z"
-   },
-   {
-    "title": "@fastify/busboy vulnerable to Denial of Service via prototype-named multipart part header",
-    "url": "https://github.com/advisories/GHSA-x8mw-p69m-v3mx",
-    "score": 7.5,
-    "ghsa": "GHSA-x8mw-p69m-v3mx",
-    "date": "2026-10-02T23:16:36Z"
-   },
-   {
-    "title": "@fastify/busboy vulnerable to Denial of Service via oversized multipart boundary",
-    "url": "https://github.com/advisories/GHSA-xjh9-v7x6-24jw",
-    "score": 7.5,
-    "ghsa": "GHSA-xjh9-v7x6-24jw",
-    "date": "2026-10-02T23:16:17Z"
-   },
-   {
-    "title": "sqlite3-ruby: Use-After-Free in SQLite Aggregate Arguments in Heap-Allocated Argument Array",
-    "url": "https://github.com/advisories/GHSA-mwm8-39rw-8826",
+    "title": "hickory-resolver follows irrelevant CNAME records",
+    "url": "https://github.com/advisories/GHSA-6f2x-v7q7-m7m5",
     "score": null,
-    "ghsa": "GHSA-mwm8-39rw-8826",
-    "date": "2026-10-02T23:11:51Z"
+    "ghsa": "GHSA-6f2x-v7q7-m7m5",
+    "date": "2026-10-05T22:55:18Z"
    },
    {
-    "title": "Praxis affected by HTTP/2 Bomb",
-    "url": "https://github.com/advisories/GHSA-cjcg-cxmh-9wcr",
+    "title": "hickory-resolver: Unbounded TC-retry loop in `NameServerPool::try_send` (resource-exhaustion DoS)",
+    "url": "https://github.com/advisories/GHSA-6w6g-hm98-mhgm",
     "score": 7.5,
-    "ghsa": "GHSA-cjcg-cxmh-9wcr",
-    "date": "2026-10-02T23:09:37Z"
+    "ghsa": "GHSA-6w6g-hm98-mhgm",
+    "date": "2026-10-05T22:55:10Z"
    },
    {
-    "title": "Headroom vulnerable to Cross-Site WebSocket Hijacking (CSWSH)",
-    "url": "https://github.com/advisories/GHSA-h46j-26q3-rggf",
-    "score": 8.8,
-    "ghsa": "GHSA-h46j-26q3-rggf",
-    "date": "2026-10-02T23:09:15Z"
+    "title": "hickory-resolver: Resolver::lookup() and Resolver::lookup_ip() APIs obscure DNSSEC validation failures",
+    "url": "https://github.com/advisories/GHSA-5j98-2g5x-46v6",
+    "score": 7.5,
+    "ghsa": "GHSA-5j98-2g5x-46v6",
+    "date": "2026-10-05T22:54:35Z"
+   },
+   {
+    "title": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+    "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+    "score": 5.9,
+    "ghsa": "GHSA-rj75-hqrm-r3gf",
+    "date": "2026-10-05T22:53:54Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+    "date": "Mon, 05 Oct 2026 18:46:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
     "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
     "date": "Mon, 05 Oct 2026 16:20:05 -0400",
@@ -450,13 +457,6 @@
     "date": "Sun, 04 Oct 2026 17:58:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic asks Claude users to share voice data for AI model training",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-    "date": "Sun, 04 Oct 2026 06:53:21 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -521,16 +521,16 @@
     "lang": "PowerShell"
    },
    {
+    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
+    "url": "https://github.com/nealbridges/VulnHunter",
+    "stars": 92,
+    "lang": "Python"
+   },
+   {
     "title": "ByteV0rtex/CVE-2026-65343 — CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
     "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
     "stars": 86,
     "lang": "Objective-C"
-   },
-   {
-    "title": "sashyo/minidauth — Mini decentralised auth. Gives an existing auth system a key nobody holds, with governance over who can decryp",
-    "url": "https://github.com/sashyo/minidauth",
-    "stars": 83,
-    "lang": "Java"
    }
   ],
   "hn": [
