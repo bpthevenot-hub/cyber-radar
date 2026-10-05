@@ -1,43 +1,7 @@
 {
- "generatedAt": "2026-10-05T14:36:58.492Z",
+ "generatedAt": "2026-10-05T15:33:06.472Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
-    "score": 9.9,
-    "date": "2026-10-05T13:00:43+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
-    "score": 9.9,
-    "date": "2026-10-05T13:00:38+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
-    "score": 9.9,
-    "date": "2026-10-05T13:00:38+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
-    "score": 9.9,
-    "date": "2026-10-05T13:00:37+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-05T13:00:34+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
-    "score": 9.8,
-    "date": "2026-10-05T13:00:30+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -49,42 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-10050 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18.4 for Spring Boot release. (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71675",
-    "score": 9.1,
-    "date": "2026-10-05T12:59:59+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (rocm) (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73930",
-    "score": 8.8,
-    "date": "2026-10-05T13:00:35+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (cuda) (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73929",
-    "score": 8.8,
-    "date": "2026-10-05T13:00:35+00:00"
-   },
-   {
-    "title": "CVE-2026-33816 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.6 security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72881",
-    "score": 8.3,
-    "date": "2026-10-05T13:00:25+00:00"
-   },
-   {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay 3.17.5 (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74511",
-    "score": 8.2,
-    "date": "2026-10-05T13:00:39+00:00"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.8 security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72851",
-    "score": 8.2,
-    "date": "2026-10-05T13:00:18+00:00"
    }
   ],
   "kev": [
@@ -289,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+    "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+    "date": "Mon, 05 Oct 2026 19:50:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
     "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
     "date": "Mon, 05 Oct 2026 17:25:00 +0530",
@@ -364,16 +299,23 @@
     "date": "Fri, 02 Oct 2026 23:03:31 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-    "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-    "date": "Fri, 02 Oct 2026 23:03:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Denmark population registry data breach affects 8.8 million people",
+    "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+    "date": "Mon, 05 Oct 2026 11:21:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "New Dell System Update flaw lets hackers gain root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+    "date": "Mon, 05 Oct 2026 10:53:06 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
     "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
@@ -443,27 +385,13 @@
     "date": "Sat, 03 Oct 2026 15:09:38 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Danish university DTU breach exposes data of up to 200,000 people",
-    "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-    "date": "Sat, 03 Oct 2026 10:35:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Frontline Education breach exposes school district employee data",
-    "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-    "date": "Fri, 02 Oct 2026 15:01:40 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 499,
+    "stars": 500,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
+  "crit": 2,
   "kev": 1734,
   "adv": 12,
   "feed": 48
