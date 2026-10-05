@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-10-05T02:07:20.187Z",
+ "generatedAt": "2026-10-05T09:12:35.913Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-10-05T06:58:36+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
+    "score": 8.8,
+    "date": "2026-10-05T06:58:39+00:00"
+   },
+   {
+    "title": "CVE-2026-39821 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.8 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72884",
+    "score": 8.2,
+    "date": "2026-10-05T06:58:33+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Lightspeed (formerly Insights) for Runtimes security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73538",
+    "score": 8.1,
+    "date": "2026-10-05T06:58:35+00:00"
+   },
+   {
+    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security, bug fix, and enhancement update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75583",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:52+00:00"
+   },
+   {
+    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security, bug fix, and enhancement update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74424",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:51+00:00"
+   },
+   {
+    "title": "CVE-2025-11234 — Red Hat Security Advisory: virt:rhel security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69131",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:50+00:00"
+   },
+   {
+    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69114",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:49+00:00"
+   },
+   {
+    "title": "CVE-2026-18917 — Red Hat Security Advisory: virt:rhel security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68594",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:49+00:00"
+   },
+   {
+    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68514",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:48+00:00"
+   },
+   {
+    "title": "CVE-2025-11234 — Red Hat Security Advisory: virt:rhel security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68513",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:47+00:00"
+   },
+   {
+    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68511",
+    "score": 7.8,
+    "date": "2026-10-05T08:29:47+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+    "date": "Mon, 05 Oct 2026 12:10:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
     "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
     "date": "Sun, 04 Oct 2026 12:52:05 +0530",
@@ -279,16 +371,16 @@
     "date": "Fri, 02 Oct 2026 13:31:30 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-    "date": "Fri, 02 Oct 2026 11:19:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Google halts open-source bug bounty program amid AI spam surge",
+    "url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+    "date": "Mon, 05 Oct 2026 04:27:46 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
@@ -365,13 +457,6 @@
     "date": "Fri, 02 Oct 2026 08:37:40 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
-    "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-    "date": "Fri, 02 Oct 2026 05:29:56 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -384,13 +469,13 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 487,
+    "stars": 488,
     "lang": "JavaScript"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 387,
+    "stars": 388,
     "lang": "C++"
    },
    {
@@ -408,7 +493,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 292,
+    "stars": 293,
     "lang": "Python"
    },
    {
@@ -420,19 +505,13 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 147,
+    "stars": 146,
     "lang": "Rust"
-   },
-   {
-    "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
-    "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
-    "stars": 104,
-    "lang": "PowerShell"
    },
    {
     "title": "CassiopeiaCode/CosyRedactGateway — Lightweight, stateless privacy gateway for LLM APIs — redact secrets before OpenAI/Anthropic upstreams and res",
     "url": "https://github.com/CassiopeiaCode/CosyRedactGateway",
-    "stars": 98,
+    "stars": 99,
     "lang": "JavaScript"
    },
    {
@@ -440,6 +519,12 @@
     "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
     "stars": 87,
     "lang": "Objective-C"
+   },
+   {
+    "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
+    "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
+    "stars": 85,
+    "lang": "PowerShell"
    },
    {
     "title": "sashyo/minidauth — Mini decentralised auth. Gives an existing auth system a key nobody holds, with governance over who can decryp",
@@ -550,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Open Build Service, one year later: command execution through Mercurial argument injection",
+    "url": "https://www.reddit.com/r/netsec/comments/1wy33ar/open_build_service_one_year_later_command/",
+    "date": "2026-10-05T08:18:43+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "How to Hack Time, With C2PA",
     "url": "https://www.reddit.com/r/netsec/comments/1wxc5pb/how_to_hack_time_with_c2pa/",
     "date": "2026-10-04T10:12:01+00:00",
@@ -567,6 +659,13 @@
     "title": "A peek into Reddit's anti-spam internals",
     "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
     "date": "2026-10-03T04:00:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
+    "date": "2026-10-02T16:50:08+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -599,30 +698,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How to Spot a Compromised MikroTik Router",
-    "url": "https://www.reddit.com/r/netsec/comments/1wv1dei/how_to_spot_a_compromised_mikrotik_router/",
-    "date": "2026-10-01T14:46:54+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities",
     "url": "https://www.reddit.com/r/netsec/comments/1wuvcwf/from_anyoneicloudcom_spoofing_arbitrary_apple/",
     "date": "2026-10-01T09:57:02+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Server Mismatch: WordPress plugin vulnerabilities when relying on .htaccess files",
-    "url": "https://www.reddit.com/r/netsec/comments/1wv3l51/server_mismatch_wordpress_plugin_vulnerabilities/",
-    "date": "2026-10-01T16:11:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1734,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
