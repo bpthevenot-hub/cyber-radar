@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-05T11:30:36.202Z",
+ "generatedAt": "2026-10-05T12:45:53.523Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-105284 — A weakness has been identified in Totolink A3002MU 1.0.0-B20230403.1455. The impacted element is the function sub_40FCFC of the file /bin/bo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105284",
-    "score": 10,
-    "date": "2026-10-05T09:31:54Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-103510 — P4 Search prior to 2026.4.2 does not fail securely when its service authentication token is blank. In affected configurations, an unauthenti",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103510",
-    "score": 9.5,
-    "date": "2026-10-05T09:31:52Z"
+    "title": "CVE-2025-6021 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7519",
+    "score": 9.1,
+    "date": "2026-10-05T10:51:00+00:00"
    },
    {
-    "title": "CVE-2026-100103 — Perforce P4 Search container images prior to 2026.4.2 reset the service authentication token to a publicly documented default value. An unau",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100103",
-    "score": 9.5,
-    "date": "2026-10-05T09:31:51Z"
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+74 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72502",
+    "score": 9.1,
+    "date": "2026-10-05T10:50:48+00:00"
    },
    {
-    "title": "CVE-2026-104389 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sirv Sirv sirv allows Blind SQL Inject",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104389",
-    "score": 8.5,
-    "date": "2026-10-05T09:31:52Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (TPU) (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75658",
+    "score": 8.8,
+    "date": "2026-10-05T10:51:05+00:00"
    },
    {
-    "title": "CVE-2026-63622 — A flaw was found in libvirt. A local attacker, specifically a process running as the confined `swtpm` user, could exploit a symlink-followin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63622",
-    "score": 7.8,
-    "date": "2026-08-10T21:32:08Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Neuron) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75654",
+    "score": 8.8,
+    "date": "2026-10-05T10:51:02+00:00"
    },
    {
-    "title": "CVE-2026-104408 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Groundhogg Groundhogg groundhogg allow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104408",
-    "score": 7.6,
-    "date": "2026-10-05T09:31:53Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (CPU) (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75652",
+    "score": 8.8,
+    "date": "2026-10-05T10:51:02+00:00"
    },
    {
-    "title": "CVE-2026-104810 — This vulnerability allows remote attackers to delete sensitive files on vulnerable installations of Mitel MiVoice Office 400. Authentication",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104810",
-    "score": 7.5,
-    "date": "2026-10-05T09:31:53Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Gaudi) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74771",
+    "score": 8.8,
+    "date": "2026-10-05T10:51:00+00:00"
    },
    {
-    "title": "CVE-2026-104809 — DigitalCanion has discovered a vulnerability that allows an attacker to cause the system to load an attacker-controlled .so file instead of ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104809",
-    "score": 7.5,
-    "date": "2026-10-05T09:31:53Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (ROCm 6.4) (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74688",
+    "score": 8.8,
+    "date": "2026-10-05T10:51:00+00:00"
    },
    {
-    "title": "CVE-2026-104805 — DigitalCanion has discovered a vulnerability in the backup restoration functionality that allows an attacker with access to the configured b",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104805",
-    "score": 7.5,
-    "date": "2026-10-05T09:31:53Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (ROCm 7.1) (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74687",
+    "score": 8.8,
+    "date": "2026-10-05T10:51:00+00:00"
    },
    {
-    "title": "CVE-2026-104706 — DigitalCanion has discovered a path traversal vulnerability that allows to view or download sensitive system files over the portal https://<",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104706",
-    "score": 7.5,
-    "date": "2026-10-05T09:31:53Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (CUDA 12.9) (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74685",
+    "score": 8.8,
+    "date": "2026-10-05T10:50:59+00:00"
    },
    {
-    "title": "CVE-2026-104811 — DigitalCanion SA has discovered a vulnerability that allows remote attackers to execute arbitrary code on affected installations of the prod",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104811",
-    "score": 7.5,
-    "date": "2026-10-05T09:31:53Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (CUDA 13.0) (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74683",
+    "score": 8.8,
+    "date": "2026-10-05T10:50:59+00:00"
    },
    {
-    "title": "CVE-2026-103507 — Perforce P4 Search prior to 2026.4.2 does not restrict file paths written through its logging configuration interface. An attacker holding t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103507",
-    "score": 7.5,
-    "date": "2026-10-05T09:31:52Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (Spyre) (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74681",
+    "score": 8.8,
+    "date": "2026-10-05T10:50:59+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (CPU) (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74679",
+    "score": 8.8,
+    "date": "2026-10-05T10:50:59+00:00"
    }
   ],
   "kev": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1734,
   "adv": 12,
   "feed": 48
