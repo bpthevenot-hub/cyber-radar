@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-05T10:35:13.851Z",
+ "generatedAt": "2026-10-05T11:30:36.202Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-105284 — A weakness has been identified in Totolink A3002MU 1.0.0-B20230403.1455. The impacted element is the function sub_40FCFC of the file /bin/bo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105284",
+    "score": 10,
+    "date": "2026-10-05T09:31:54Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
-    "score": 9.3,
-    "date": "2026-10-05T06:58:36+00:00"
+    "title": "CVE-2026-103510 — P4 Search prior to 2026.4.2 does not fail securely when its service authentication token is blank. In affected configurations, an unauthenti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103510",
+    "score": 9.5,
+    "date": "2026-10-05T09:31:52Z"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
-    "score": 8.8,
-    "date": "2026-10-05T06:58:39+00:00"
+    "title": "CVE-2026-100103 — Perforce P4 Search container images prior to 2026.4.2 reset the service authentication token to a publicly documented default value. An unau",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100103",
+    "score": 9.5,
+    "date": "2026-10-05T09:31:51Z"
    },
    {
-    "title": "CVE-2026-39821 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.8 security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72884",
-    "score": 8.2,
-    "date": "2026-10-05T06:58:33+00:00"
+    "title": "CVE-2026-104389 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sirv Sirv sirv allows Blind SQL Inject",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104389",
+    "score": 8.5,
+    "date": "2026-10-05T09:31:52Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Lightspeed (formerly Insights) for Runtimes security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73538",
-    "score": 8.1,
-    "date": "2026-10-05T06:58:35+00:00"
-   },
-   {
-    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security, bug fix, and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:75583",
+    "title": "CVE-2026-63622 — A flaw was found in libvirt. A local attacker, specifically a process running as the confined `swtpm` user, could exploit a symlink-followin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63622",
     "score": 7.8,
-    "date": "2026-10-05T08:29:52+00:00"
+    "date": "2026-08-10T21:32:08Z"
    },
    {
-    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security, bug fix, and enhancement update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74424",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:51+00:00"
+    "title": "CVE-2026-104408 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Groundhogg Groundhogg groundhogg allow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104408",
+    "score": 7.6,
+    "date": "2026-10-05T09:31:53Z"
    },
    {
-    "title": "CVE-2025-11234 — Red Hat Security Advisory: virt:rhel security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69131",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:50+00:00"
+    "title": "CVE-2026-104810 — This vulnerability allows remote attackers to delete sensitive files on vulnerable installations of Mitel MiVoice Office 400. Authentication",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104810",
+    "score": 7.5,
+    "date": "2026-10-05T09:31:53Z"
    },
    {
-    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69114",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:49+00:00"
+    "title": "CVE-2026-104809 — DigitalCanion has discovered a vulnerability that allows an attacker to cause the system to load an attacker-controlled .so file instead of ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104809",
+    "score": 7.5,
+    "date": "2026-10-05T09:31:53Z"
    },
    {
-    "title": "CVE-2026-18917 — Red Hat Security Advisory: virt:rhel security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68594",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:49+00:00"
+    "title": "CVE-2026-104805 — DigitalCanion has discovered a vulnerability in the backup restoration functionality that allows an attacker with access to the configured b",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104805",
+    "score": 7.5,
+    "date": "2026-10-05T09:31:53Z"
    },
    {
-    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68514",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:48+00:00"
+    "title": "CVE-2026-104706 — DigitalCanion has discovered a path traversal vulnerability that allows to view or download sensitive system files over the portal https://<",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104706",
+    "score": 7.5,
+    "date": "2026-10-05T09:31:53Z"
    },
    {
-    "title": "CVE-2025-11234 — Red Hat Security Advisory: virt:rhel security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68513",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:47+00:00"
+    "title": "CVE-2026-104811 — DigitalCanion SA has discovered a vulnerability that allows remote attackers to execute arbitrary code on affected installations of the prod",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104811",
+    "score": 7.5,
+    "date": "2026-10-05T09:31:53Z"
    },
    {
-    "title": "CVE-2026-18917 — Red Hat Security Advisory: libvirt security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68511",
-    "score": 7.8,
-    "date": "2026-10-05T08:29:47+00:00"
+    "title": "CVE-2026-103507 — Perforce P4 Search prior to 2026.4.2 does not restrict file paths written through its logging configuration interface. An attacker holding t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103507",
+    "score": 7.5,
+    "date": "2026-10-05T09:31:52Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+    "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+    "date": "Mon, 05 Oct 2026 16:08:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
     "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
     "date": "Mon, 05 Oct 2026 13:39:23 +0530",
@@ -362,13 +369,6 @@
     "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
     "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
     "date": "Fri, 02 Oct 2026 17:53:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-    "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-    "date": "Fri, 02 Oct 2026 17:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -505,7 +505,7 @@
    {
     "title": "supercorp-ai/supercov — Coverage, security and code quality for coding agents",
     "url": "https://github.com/supercorp-ai/supercov",
-    "stars": 146,
+    "stars": 145,
     "lang": "Rust"
    },
    {
@@ -515,16 +515,16 @@
     "lang": "JavaScript"
    },
    {
-    "title": "ByteV0rtex/CVE-2026-65343 — CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-    "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
-    "stars": 87,
-    "lang": "Objective-C"
-   },
-   {
     "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
     "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
-    "stars": 85,
+    "stars": 87,
     "lang": "PowerShell"
+   },
+   {
+    "title": "ByteV0rtex/CVE-2026-65343 — CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
+    "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
+    "stars": 86,
+    "lang": "Objective-C"
    },
    {
     "title": "sashyo/minidauth — Mini decentralised auth. Gives an existing auth system a key nobody holds, with governance over who can decryp",
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1734,
   "adv": 12,
   "feed": 48
