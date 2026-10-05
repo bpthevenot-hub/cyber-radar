@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-10-05T18:38:59.572Z",
+ "generatedAt": "2026-10-05T20:38:11.209Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
-    "score": 9.9,
-    "date": "2026-10-05T16:44:43+00:00"
-   },
-   {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.1 security update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4943",
-    "score": 9.8,
-    "date": "2026-10-05T16:45:16+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:61629",
-    "score": 9.1,
-    "date": "2026-10-05T16:46:03+00:00"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:61627",
-    "score": 9.1,
-    "date": "2026-10-05T16:46:02+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.12.15 (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4942",
-    "score": 9.1,
-    "date": "2026-10-05T16:45:16+00:00"
-   },
-   {
-    "title": "CVE-2026-10051 — Red Hat Security Advisory: Satellite 6.19.4 Async Update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63385",
-    "score": 8.8,
-    "date": "2026-10-05T16:46:44+00:00"
-   },
-   {
-    "title": "CVE-2025-4565 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3960",
-    "score": 8.8,
-    "date": "2026-10-05T16:44:20+00:00"
-   },
-   {
-    "title": "CVE-2022-30187 — Red Hat Security Advisory: Red Hat Quay 3.14.6 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4215",
-    "score": 8.7,
-    "date": "2026-10-05T16:44:33+00:00"
-   },
-   {
-    "title": "CVE-2025-14550 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3959",
-    "score": 8.5,
-    "date": "2026-10-05T16:44:20+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3958",
-    "score": 8.5,
-    "date": "2026-10-05T16:44:19+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: container-tools:rhel8 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4693",
-    "score": 8.2,
-    "date": "2026-10-05T16:45:04+00:00"
-   },
-   {
-    "title": "CVE-2025-47913 — Red Hat Security Advisory: buildah security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4532",
-    "score": 8.2,
-    "date": "2026-10-05T16:44:59+00:00"
    }
   ],
   "kev": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+    "date": "Mon, 05 Oct 2026 16:20:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
     "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
     "date": "Mon, 05 Oct 2026 13:19:53 -0400",
@@ -450,13 +385,6 @@
     "date": "Sun, 04 Oct 2026 06:53:21 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-    "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-    "date": "Sat, 03 Oct 2026 19:12:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,13 +403,13 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 388,
+    "stars": 389,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 334,
+    "stars": 335,
     "lang": "C++"
    },
    {
@@ -517,7 +445,7 @@
    {
     "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
     "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
-    "stars": 91,
+    "stars": 92,
     "lang": "PowerShell"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 2,
   "kev": 1734,
   "adv": 12,
   "feed": 48
