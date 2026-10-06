@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T16:34:55.675Z",
+ "generatedAt": "2026-10-06T17:27:27.852Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-105855 — Payload didn't enforce field-level password update restrictions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105855",
+    "score": 7.5,
+    "date": "2026-10-06T16:21:52Z"
+   },
+   {
+    "title": "CVE-2026-105854 — Payload: ReDoS in Multipart Content-Type Validation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105854",
+    "score": 7.5,
+    "date": "2026-10-06T16:18:27Z"
+   },
+   {
+    "title": "CVE-2026-105849 — Payload vulnerable to API key disclosure through ordinary document reads",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105849",
+    "score": 7.5,
+    "date": "2026-10-06T16:18:16Z"
+   },
+   {
+    "title": "CVE-2026-105850 — Payload Ecommerce has an order confirmation validation issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105850",
+    "score": 7.5,
+    "date": "2026-10-06T16:17:54Z"
+   },
+   {
+    "title": "CVE-2026-105853 — Payload: Token refresh and password reset responses may expose restricted user fields",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105853",
+    "score": 7.5,
+    "date": "2026-10-06T16:17:28Z"
+   },
+   {
+    "title": "CVE-2026-105852 — Payload relationship-query authorization bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105852",
+    "score": 5,
+    "date": "2026-10-06T16:17:32Z"
    }
   ],
   "kev": [
@@ -403,7 +439,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 482,
+    "stars": 489,
     "lang": "Python"
    },
    {
@@ -563,6 +599,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1wz82op/you_wont_hear_about_these_even_in_myths_atlassian/",
+    "date": "2026-10-06T17:06:35+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Teaching network intrusion in the funnest way possible",
     "url": "https://www.reddit.com/r/netsec/comments/1wz39uk/teaching_network_intrusion_in_the_funnest_way/",
     "date": "2026-10-06T13:57:00+00:00",
@@ -622,13 +665,6 @@
     "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
     "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
     "date": "2026-10-02T13:50:28+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
-    "date": "2026-10-02T12:15:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
