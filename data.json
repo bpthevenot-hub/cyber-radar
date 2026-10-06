@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-06T10:31:55.961Z",
+ "generatedAt": "2026-10-06T11:29:17.609Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2022-27664 — Red Hat Bug Fix Advisory: Red Hat Quay v3.8.11 bug fix release (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2023:4275",
+    "score": 9.8,
+    "date": "2026-10-06T10:24:42+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59155",
+    "score": 9.8,
+    "date": "2026-10-06T10:24:02+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-5497 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.4.5 security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76150",
+    "score": 9.1,
+    "date": "2026-10-06T10:24:13+00:00"
+   },
+   {
+    "title": "CVE-2026-5497 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.4.5 security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76149",
+    "score": 9.1,
+    "date": "2026-10-06T10:24:12+00:00"
+   },
+   {
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.7 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76043",
+    "score": 9.1,
+    "date": "2026-10-06T10:24:11+00:00"
+   },
+   {
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.7 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76041",
+    "score": 9.1,
+    "date": "2026-10-06T10:24:11+00:00"
+   },
+   {
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.7 (CUDA) (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68699",
+    "score": 9.1,
+    "date": "2026-10-06T10:24:09+00:00"
+   },
+   {
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.7 (ROCm) (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68698",
+    "score": 9.1,
+    "date": "2026-10-06T10:24:08+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat AMQ Broker 7.14.1 release and security update (+66 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66488",
+    "score": 9.1,
+    "date": "2026-10-06T10:23:56+00:00"
+   },
+   {
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: Red Hat AMQ Broker 7.13.6 release and security update (+58 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66545",
+    "score": 9.1,
+    "date": "2026-10-06T10:23:55+00:00"
+   },
+   {
+    "title": "CVE-2026-12701 — Red Hat Security Advisory: Satellite 6.16.11 Async Update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42082",
+    "score": 9,
+    "date": "2026-10-06T10:24:19+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47149",
+    "score": 8.8,
+    "date": "2026-10-06T10:24:20+00:00"
    }
   ],
   "kev": [
@@ -403,7 +475,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 395,
+    "stars": 410,
     "lang": "Python"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 13,
   "kev": 1734,
   "adv": 12,
   "feed": 48
