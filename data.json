@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T17:27:27.852Z",
+ "generatedAt": "2026-10-06T18:37:10.193Z",
  "sources": {
   "cve": [
    {
@@ -15,40 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-105855 — Payload didn't enforce field-level password update restrictions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105855",
-    "score": 7.5,
-    "date": "2026-10-06T16:21:52Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-10-06T16:53:18+00:00"
    },
    {
-    "title": "CVE-2026-105854 — Payload: ReDoS in Multipart Content-Type Validation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105854",
-    "score": 7.5,
-    "date": "2026-10-06T16:18:27Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-10-06T16:53:25+00:00"
    },
    {
-    "title": "CVE-2026-105849 — Payload vulnerable to API key disclosure through ordinary document reads",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105849",
-    "score": 7.5,
-    "date": "2026-10-06T16:18:16Z"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-10-06T16:53:15+00:00"
    },
    {
-    "title": "CVE-2026-105850 — Payload Ecommerce has an order confirmation validation issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105850",
-    "score": 7.5,
-    "date": "2026-10-06T16:17:54Z"
+    "title": "CVE-2024-3596 — Red Hat Security Advisory: RHOAI 2.16.0 - Red Hat OpenShift AI (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:10852",
+    "score": 9,
+    "date": "2026-10-06T16:53:58+00:00"
    },
    {
-    "title": "CVE-2026-105853 — Payload: Token refresh and password reset responses may expose restricted user fields",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105853",
-    "score": 7.5,
-    "date": "2026-10-06T16:17:28Z"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:28+00:00"
    },
    {
-    "title": "CVE-2026-105852 — Payload relationship-query authorization bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105852",
-    "score": 5,
-    "date": "2026-10-06T16:17:32Z"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7291",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:25+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: podman security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70201",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:24+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69235",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:23+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68504",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:23+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67518",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:23+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68334",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:22+00:00"
+   },
+   {
+    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67517",
+    "score": 8.8,
+    "date": "2026-10-06T16:53:22+00:00"
    }
   ],
   "kev": [
@@ -339,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+    "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+    "date": "Tue, 06 Oct 2026 13:34:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "ASOS confirms data breach after “HACKED” in-app notifications",
     "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
     "date": "Tue, 06 Oct 2026 12:33:54 -0400",
@@ -414,16 +457,15 @@
     "date": "Mon, 05 Oct 2026 10:53:06 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
-    "date": "Mon, 05 Oct 2026 10:22:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
+   {
+    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
+    "url": "https://github.com/nealbridges/VulnHunter",
+    "stars": 506,
+    "lang": "Python"
+   },
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
@@ -435,12 +477,6 @@
     "url": "https://github.com/nhovongoc0-max/meme-radar",
     "stars": 489,
     "lang": "JavaScript"
-   },
-   {
-    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
-    "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 489,
-    "lang": "Python"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
@@ -681,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1734,
   "adv": 12,
   "feed": 48
