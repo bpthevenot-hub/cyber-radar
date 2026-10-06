@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-06T02:43:13.049Z",
+ "generatedAt": "2026-10-06T03:36:55.315Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2022-32190 — Red Hat Bug Fix Advisory: MTV 2.4.3 Images (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2023:6109",
+    "score": 9.8,
+    "date": "2026-10-06T01:24:54+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-91107 — openSIS Classic 9.3 allows an authenticated user with the built-in teacher role can select an arbitrary staff record through staff_id and ca",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91107",
-    "score": 9.5,
-    "date": "2026-10-06T00:32:50Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11330",
+    "score": 9.6,
+    "date": "2026-10-06T01:41:04+00:00"
    },
    {
-    "title": "CVE-2026-21589 — h3. Summary This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Dat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21589",
-    "score": 9.5,
-    "date": "2026-10-06T00:32:50Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10155",
+    "score": 9.6,
+    "date": "2026-10-06T01:40:57+00:00"
    },
    {
-    "title": "CVE-2026-15563 — A flaw was found in EAP's IIOP. The listener's NameService would accept bind operations without authentication, allowing an attacker to hija",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15563",
-    "score": 7.4,
-    "date": "2026-08-11T09:32:35Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:13545",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:19+00:00"
    },
    {
-    "title": "CVE-2026-105471 — A security flaw has been discovered in girishsaraf Online-Appointment-Booking-System up to f427b4757128ca253d33d0cc4e87bbb9c999a4d5. Impacte",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105471",
-    "score": 7.3,
-    "date": "2026-10-06T00:32:52Z"
+    "title": "CVE-2026-4800 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.10 security, enhancement & bug fix update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:12277",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:13+00:00"
    },
    {
-    "title": "CVE-2026-105469 — A vulnerability was determined in girishsaraf Online-Appointment-Booking-System up to f427b4757128ca253d33d0cc4e87bbb9c999a4d5. This vulnera",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105469",
-    "score": 7.3,
-    "date": "2026-10-06T00:32:50Z"
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.39 security and extras update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:12119",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:13+00:00"
    },
    {
-    "title": "CVE-2026-105470 — A vulnerability was identified in girishsaraf Online-Appointment-Booking-System up to f427b4757128ca253d33d0cc4e87bbb9c999a4d5. This issue a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105470",
-    "score": 7.3,
-    "date": "2026-10-06T00:32:50Z"
+    "title": "CVE-2026-7163 — Red Hat Security Advisory: Assisted Installer RHEL 9 components for Multicluster Engine for Kubernetes 2.10.2 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:12116",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:11+00:00"
    },
    {
-    "title": "CVE-2026-105468 — A vulnerability was found in girishsaraf Online-Appointment-Booking-System up to f427b4757128ca253d33d0cc4e87bbb9c999a4d5. This affects the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105468",
-    "score": 7.3,
-    "date": "2026-10-06T00:32:49Z"
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.9.21 (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11996",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:11+00:00"
    },
    {
-    "title": "CVE-2026-0482 — In AMD Versal™ Adaptive SoC devices, insufficient boundary checks in USB boot mode—when enabled through board modifications—could allow craf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-0482",
-    "score": 5,
-    "date": "2026-10-06T00:32:48Z"
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.10.21 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11916",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:10+00:00"
    },
    {
-    "title": "CVE-2026-103546 — In MongoDB Controllers for Kubernetes, insufficient validation of Ops Manager backup configuration may allow a user who can modify an OpsMan",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103546",
-    "score": 4.3,
-    "date": "2026-10-06T00:32:49Z"
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.12.17 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11856",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:09+00:00"
    },
    {
-    "title": "CVE-2026-105747 — Docling simplifies document processing by parsing diverse formats and providing integrations with the generative AI ecosystem. From 2.45.0 u",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105747",
-    "score": 4.3,
-    "date": "2026-10-06T00:32:49Z"
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: VolSync v0.15 security fixes and container updates (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11803",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:09+00:00"
    },
    {
-    "title": "CVE-2026-82989 — There is an input injection in vCast exposed network services in ViewSonic ViewBoard that allows a remote, unauthenticated attacker to injec",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82989",
-    "score": null,
-    "date": "2026-10-06T00:32:53Z"
-   },
-   {
-    "title": "CVE-2026-82988 — There exists an arbitrary file download in vCast APK delivery mechanism in ViewSonic ViewBoard unknown allows a remote, unauthenticated atta",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82988",
-    "score": null,
-    "date": "2026-10-06T00:32:53Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: RHACS 4.8.11 security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11217",
+    "score": 9.1,
+    "date": "2026-10-06T01:41:04+00:00"
    }
   ],
   "kev": [
@@ -499,7 +499,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 188,
+    "stars": 204,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1734,
   "adv": 12,
   "feed": 48
