@@ -1,43 +1,7 @@
 {
- "generatedAt": "2026-10-06T09:34:55.102Z",
+ "generatedAt": "2026-10-06T10:31:55.961Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-06T08:11:20+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-06T08:11:01+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-10-06T08:10:45+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
-    "score": 9.9,
-    "date": "2026-10-06T08:10:45+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
-    "score": 9.8,
-    "date": "2026-10-06T08:11:15+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
-    "score": 9.8,
-    "date": "2026-10-06T08:10:49+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -49,42 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
-    "score": 9.3,
-    "date": "2026-10-06T08:11:22+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.21.35 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71453",
-    "score": 9.3,
-    "date": "2026-10-06T08:10:55+00:00"
-   },
-   {
-    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.22.16 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71454",
-    "score": 9.3,
-    "date": "2026-10-06T08:10:54+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.40 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71450",
-    "score": 9.3,
-    "date": "2026-10-06T08:10:52+00:00"
-   },
-   {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.19.49 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71447",
-    "score": 9.3,
-    "date": "2026-10-06T08:10:50+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
-    "score": 9.1,
-    "date": "2026-10-06T08:11:03+00:00"
    }
   ],
   "kev": [
@@ -289,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+    "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+    "date": "Tue, 06 Oct 2026 14:51:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
     "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
     "date": "Tue, 06 Oct 2026 12:28:56 +0530",
@@ -362,13 +297,6 @@
     "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
     "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
     "date": "Mon, 05 Oct 2026 12:10:19 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-    "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-    "date": "Sun, 04 Oct 2026 12:52:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -469,20 +397,20 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 488,
+    "stars": 489,
     "lang": "JavaScript"
+   },
+   {
+    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
+    "url": "https://github.com/nealbridges/VulnHunter",
+    "stars": 395,
+    "lang": "Python"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
     "stars": 391,
     "lang": "C++"
-   },
-   {
-    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
-    "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 376,
-    "lang": "Python"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1734,
   "adv": 12,
   "feed": 48
