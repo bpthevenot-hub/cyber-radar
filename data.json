@@ -1,30 +1,12 @@
 {
- "generatedAt": "2026-10-06T14:32:15.220Z",
+ "generatedAt": "2026-10-06T15:29:40.994Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-27459 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68780",
-    "score": 9.8,
-    "date": "2026-10-06T12:33:52+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68515",
-    "score": 9.8,
-    "date": "2026-10-06T12:33:39+00:00"
-   },
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
-    "score": 9.8,
-    "date": "2026-10-06T12:33:33+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.7.3 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67842",
-    "score": 9.8,
-    "date": "2026-10-06T12:33:26+00:00"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
+    "score": 9.9,
+    "date": "2026-10-06T13:24:22+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +21,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.9.5 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7128",
-    "score": 9.6,
-    "date": "2026-10-06T12:34:19+00:00"
-   },
-   {
-    "title": "CVE-2026-25128 — Red Hat Security Advisory: RHACS 4.8.10 security and bug fix update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7110",
-    "score": 9.6,
-    "date": "2026-10-06T12:34:16+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
     "score": 9.1,
-    "date": "2026-10-06T12:35:06+00:00"
+    "date": "2026-10-06T12:35:12+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
     "score": 9.1,
-    "date": "2026-10-06T12:35:05+00:00"
+    "date": "2026-10-06T12:35:11+00:00"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
-    "score": 9.1,
-    "date": "2026-10-06T12:35:05+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-10-06T12:35:10+00:00"
    },
    {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
-    "score": 9.1,
-    "date": "2026-10-06T12:35:03+00:00"
+    "title": "CVE-2026-34982 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57614",
+    "score": 8.2,
+    "date": "2026-10-06T12:35:17+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
-    "score": 9.1,
-    "date": "2026-10-06T12:35:03+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: gvisor-tap-vsock security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9108",
+    "score": 7.5,
+    "date": "2026-10-06T12:35:11+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
-    "score": 9.1,
-    "date": "2026-10-06T12:35:00+00:00"
+    "title": "CVE-2026-42784 — Red Hat Security Advisory: rust-rpm-sequoia security, bug fix, and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76734",
+    "score": 7.4,
+    "date": "2026-10-06T13:34:37+00:00"
+   },
+   {
+    "title": "CVE-2026-42784 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42902",
+    "score": 7.4,
+    "date": "2026-10-06T13:34:27+00:00"
+   },
+   {
+    "title": "CVE-2026-73073 — Red Hat Security Advisory: vim security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75769",
+    "score": 7.3,
+    "date": "2026-10-06T12:35:17+00:00"
+   },
+   {
+    "title": "CVE-2026-73073 — Red Hat Security Advisory: vim security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75768",
+    "score": 7.3,
+    "date": "2026-10-06T12:35:17+00:00"
    }
   ],
   "kev": [
@@ -203,6 +191,34 @@
   ],
   "adv": [
    {
+    "title": "External Secrets Operator: label enforcement bypass in webhook generator enables secret exfiltration",
+    "url": "https://github.com/advisories/GHSA-q7hv-xx6h-q2x8",
+    "score": 7.1,
+    "ghsa": "GHSA-q7hv-xx6h-q2x8",
+    "date": "2026-10-06T15:29:25Z"
+   },
+   {
+    "title": "Vyper: Memory corruption using function calls within tuples / nested calls",
+    "url": "https://github.com/advisories/GHSA-2r3x-4mrv-mcxf",
+    "score": null,
+    "ghsa": "GHSA-2r3x-4mrv-mcxf",
+    "date": "2026-10-06T15:22:29Z"
+   },
+   {
+    "title": "Vyper: Call stack corruption when passing complex type containing non-base type members as argument",
+    "url": "https://github.com/advisories/GHSA-4v7v-gqf9-ww2g",
+    "score": null,
+    "ghsa": "GHSA-4v7v-gqf9-ww2g",
+    "date": "2026-10-06T15:22:23Z"
+   },
+   {
+    "title": "Vyper: Return inside for loop more than 1 level deep",
+    "url": "https://github.com/advisories/GHSA-vg88-3v92-rjx2",
+    "score": null,
+    "ghsa": "GHSA-vg88-3v92-rjx2",
+    "date": "2026-10-06T15:20:10Z"
+   },
+   {
     "title": "sharp : Vulnerability in librsvg dependency CVE-2026-96889",
     "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
     "score": 7.5,
@@ -257,34 +273,6 @@
     "score": 5.9,
     "ghsa": "GHSA-q43m-vhcp-mhvm",
     "date": "2026-10-06T00:02:27Z"
-   },
-   {
-    "title": "vLLM: Mirrored multimodal IPC caches desync after a rejected request — a later request reusing the same media hash trips a receiver assertion in the e",
-    "url": "https://github.com/advisories/GHSA-ph3r-5jfg-f84f",
-    "score": 6.5,
-    "ghsa": "GHSA-ph3r-5jfg-f84f",
-    "date": "2026-10-06T00:02:05Z"
-   },
-   {
-    "title": "vLLM: Harmony tool continuations drop `cache_salt` — restoring a cross-tenant prefix-cache membership oracle",
-    "url": "https://github.com/advisories/GHSA-935w-9g4m-p28p",
-    "score": 3.1,
-    "ghsa": "GHSA-935w-9g4m-p28p",
-    "date": "2026-10-06T00:02:02Z"
-   },
-   {
-    "title": "Werkzeug safe_join() allows Windows special device names",
-    "url": "https://github.com/advisories/GHSA-g6x2-hccm-hh4m",
-    "score": null,
-    "ghsa": "GHSA-g6x2-hccm-hh4m",
-    "date": "2026-10-05T23:48:39Z"
-   },
-   {
-    "title": "simple-git: `VISUAL` editor environment variable is omitted from unsafe editor detection",
-    "url": "https://github.com/advisories/GHSA-v5rq-49vh-5v5c",
-    "score": 9.5,
-    "ghsa": "GHSA-v5rq-49vh-5v5c",
-    "date": "2026-10-05T23:48:21Z"
    }
   ],
   "thn": [
@@ -375,6 +363,13 @@
   ],
   "bleep": [
    {
+    "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+    "date": "Tue, 06 Oct 2026 11:16:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "How to secure RMM software: 8 controls MSPs should test",
     "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
     "date": "Tue, 06 Oct 2026 10:00:10 -0400",
@@ -450,13 +445,6 @@
     "date": "Mon, 05 Oct 2026 09:33:42 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
-    "url": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
-    "date": "Mon, 05 Oct 2026 09:01:45 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,19 +463,19 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 453,
+    "stars": 467,
     "lang": "Python"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 391,
+    "stars": 392,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 338,
+    "stars": 339,
     "lang": "C++"
    },
    {
@@ -717,7 +705,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 5,
   "kev": 1734,
   "adv": 12,
   "feed": 48
