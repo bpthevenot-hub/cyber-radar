@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T13:32:58.247Z",
+ "generatedAt": "2026-10-06T14:32:15.220Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,55 @@
   ],
   "adv": [
    {
+    "title": "sharp : Vulnerability in librsvg dependency CVE-2026-96889",
+    "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
+    "score": 7.5,
+    "ghsa": "GHSA-wq5f-xc86-pv6w",
+    "date": "2026-10-06T13:43:57Z"
+   },
+   {
+    "title": "Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
+    "url": "https://github.com/advisories/GHSA-3cr3-8m4c-fpxw",
+    "score": 4.3,
+    "ghsa": "GHSA-3cr3-8m4c-fpxw",
+    "date": "2026-10-06T13:41:16Z"
+   },
+   {
+    "title": "shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token",
+    "url": "https://github.com/advisories/GHSA-pqg4-j6r4-53mv",
+    "score": 8.1,
+    "ghsa": "GHSA-pqg4-j6r4-53mv",
+    "date": "2026-10-06T13:40:36Z"
+   },
+   {
+    "title": "pbkdf2 rehashes long passwords on every iteration, enabling denial of service",
+    "url": "https://github.com/advisories/GHSA-477h-4r7f-fvrx",
+    "score": 3.7,
+    "ghsa": "GHSA-477h-4r7f-fvrx",
+    "date": "2026-10-06T13:40:10Z"
+   },
+   {
+    "title": "Langflow: SSRF in URL-taking components (protection disabled by default / warn-only, not applied to RSS, SearXNG, Web Search, Home Assistant, Glean, D",
+    "url": "https://github.com/advisories/GHSA-j8f7-x8jm-wmm4",
+    "score": null,
+    "ghsa": "GHSA-j8f7-x8jm-wmm4",
+    "date": "2026-10-06T13:39:57Z"
+   },
+   {
+    "title": "Langflow: PythonREPLComponent executes unsandboxed Python code, enabling authenticated RCE and privilege escalation",
+    "url": "https://github.com/advisories/GHSA-8qpj-27x8-pwpq",
+    "score": 9.9,
+    "ghsa": "GHSA-8qpj-27x8-pwpq",
+    "date": "2026-10-06T13:38:28Z"
+   },
+   {
+    "title": "Duplicate Advisory: Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
+    "url": "https://github.com/advisories/GHSA-f4ch-vxwc-3p2m",
+    "score": 4.3,
+    "ghsa": "GHSA-f4ch-vxwc-3p2m",
+    "date": "2026-10-06T00:32:49Z"
+   },
+   {
     "title": "Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
     "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
     "score": 5.9,
@@ -236,55 +285,6 @@
     "score": 9.5,
     "ghsa": "GHSA-v5rq-49vh-5v5c",
     "date": "2026-10-05T23:48:21Z"
-   },
-   {
-    "title": "simple-git unsafe-operation guard does not block trailer command configuration",
-    "url": "https://github.com/advisories/GHSA-x6jw-m9v5-85vh",
-    "score": 9.5,
-    "ghsa": "GHSA-x6jw-m9v5-85vh",
-    "date": "2026-10-05T23:48:14Z"
-   },
-   {
-    "title": "simple-git allows command execution through unblocked Git configuration includes",
-    "url": "https://github.com/advisories/GHSA-g4wm-2vf7-vfgr",
-    "score": 8.1,
-    "ghsa": "GHSA-g4wm-2vf7-vfgr",
-    "date": "2026-10-05T23:48:05Z"
-   },
-   {
-    "title": "simple-git: unsafe-operations plugin bypass via git long-option abbreviation (--receive-p/--exe) -> command execution (residual of CVE-2026-28291)",
-    "url": "https://github.com/advisories/GHSA-858h-whjf-mvg5",
-    "score": 8.1,
-    "ghsa": "GHSA-858h-whjf-mvg5",
-    "date": "2026-10-05T23:47:58Z"
-   },
-   {
-    "title": "PyMongo: PYTHON-5996 Heap out-of-bounds write via signed size overflow in BSON document encoding",
-    "url": "https://github.com/advisories/GHSA-v4x9-3549-crwv",
-    "score": 8.4,
-    "ghsa": "GHSA-v4x9-3549-crwv",
-    "date": "2026-10-05T23:47:10Z"
-   },
-   {
-    "title": "PyMongo: PYTHON-5986 Host injection in PyMongo connection string parsing via percent-encoded delimiters",
-    "url": "https://github.com/advisories/GHSA-vp6j-j7w5-5xjj",
-    "score": 6.5,
-    "ghsa": "GHSA-vp6j-j7w5-5xjj",
-    "date": "2026-10-05T23:47:07Z"
-   },
-   {
-    "title": "PyMongo: PYTHON-5990 Forced Unix domain socket connection via a .sock KMS endpoint in client-side field level encryption",
-    "url": "https://github.com/advisories/GHSA-qx36-8mw2-4r3x",
-    "score": 5,
-    "ghsa": "GHSA-qx36-8mw2-4r3x",
-    "date": "2026-10-05T23:46:53Z"
-   },
-   {
-    "title": "Socket.IO: Prototype Pollution via Unsafe Client Session Lookup",
-    "url": "https://github.com/advisories/GHSA-wfpm-5gcm-94cg",
-    "score": 7.5,
-    "ghsa": "GHSA-wfpm-5gcm-94cg",
-    "date": "2026-10-05T23:44:21Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "How to secure RMM software: 8 controls MSPs should test",
+    "url": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+    "date": "Tue, 06 Oct 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
     "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
     "date": "Tue, 06 Oct 2026 07:31:48 -0400",
@@ -450,13 +457,6 @@
     "date": "Mon, 05 Oct 2026 09:01:45 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI will show visual ads in ChatGPT while you generate images",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
-    "date": "Mon, 05 Oct 2026 06:28:45 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,7 +475,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 437,
+    "stars": 453,
     "lang": "Python"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Teaching network intrusion in the funnest way possible",
+    "url": "https://www.reddit.com/r/netsec/comments/1wz39uk/teaching_network_intrusion_in_the_funnest_way/",
+    "date": "2026-10-06T13:57:00+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "SelectorsHub chrome extension(400k users) opens server-picked ad tabs without a click",
     "url": "https://www.reddit.com/r/netsec/comments/1wyk09r/selectorshub_chrome_extension400k_users_opens/",
     "date": "2026-10-05T20:54:17+00:00",
@@ -694,13 +701,6 @@
     "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
     "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
     "date": "2026-10-02T12:15:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "security.txt on the Czech web: Scanning 1k popular .cz domains",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvyvmu/securitytxt_on_the_czech_web_scanning_1k_popular/",
-    "date": "2026-10-02T16:52:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
