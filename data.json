@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-10-06T21:28:52.709Z",
+ "generatedAt": "2026-10-06T22:30:52.764Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-06T20:05:17+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-06T20:05:11+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
-    "score": 9.8,
-    "date": "2026-10-06T20:05:17+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.13 for OpenShift image security update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76134",
-    "score": 9.6,
-    "date": "2026-10-06T20:05:25+00:00"
-   },
-   {
-    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.13 security update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76132",
-    "score": 9.6,
-    "date": "2026-10-06T20:05:24+00:00"
-   },
-   {
-    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.13 security update on RHEL 9 (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76130",
-    "score": 9.6,
-    "date": "2026-10-06T20:05:24+00:00"
-   },
-   {
-    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.13 security update on RHEL 8 (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76129",
-    "score": 9.6,
-    "date": "2026-10-06T20:05:23+00:00"
-   },
-   {
-    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.13 security update on RHEL 7 (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76128",
-    "score": 9.6,
-    "date": "2026-10-06T20:05:22+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
-    "score": 9.3,
-    "date": "2026-10-06T20:05:19+00:00"
-   },
-   {
-    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.22.16 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71454",
-    "score": 9.3,
-    "date": "2026-10-06T20:05:11+00:00"
-   },
-   {
-    "title": "CVE-2026-5497 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.4.5 security update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76150",
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
     "score": 9.1,
-    "date": "2026-10-06T20:05:25+00:00"
+    "date": "2026-10-06T20:43:23+00:00"
    },
    {
-    "title": "CVE-2026-5497 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.4.5 security update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76149",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
     "score": 9.1,
-    "date": "2026-10-06T20:05:24+00:00"
+    "date": "2026-10-06T20:43:23+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-10-06T20:43:23+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:25+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:23+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76809",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:21+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76795",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:21+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (CUDA) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76042",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:20+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Spyre) (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75660",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:20+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (ROCm 7.14) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75659",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:19+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (TPU) (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75658",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:18+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (CUDA 13.0) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75657",
+    "score": 8.8,
+    "date": "2026-10-06T20:43:18+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 525,
+    "stars": 528,
     "lang": "Python"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Rockstar Games has now been compromised several different ways since 2018, and none of them were a zero-day",
+    "url": "https://www.reddit.com/r/netsec/comments/1wzchsp/rockstar_games_has_now_been_compromised_several/",
+    "date": "2026-10-06T19:55:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Teaching network intrusion in the funnest way possible",
     "url": "https://www.reddit.com/r/netsec/comments/1wz39uk/teaching_network_intrusion_in_the_funnest_way/",
     "date": "2026-10-06T13:57:00+00:00",
@@ -649,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Rockstar Games has now been compromised several different ways since 2018, and none of them were a zero-day",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzchsp/rockstar_games_has_now_been_compromised_several/",
-    "date": "2026-10-06T19:55:08+00:00",
+    "title": "Bitvulnex: a vulnerable crypto exchange",
+    "url": "https://www.reddit.com/r/netsec/comments/1wzew3o/bitvulnex_a_vulnerable_crypto_exchange/",
+    "date": "2026-10-06T21:29:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-10-03T04:00:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
-    "date": "2026-10-02T16:50:08+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 5,
   "kev": 1734,
   "adv": 12,
   "feed": 48
