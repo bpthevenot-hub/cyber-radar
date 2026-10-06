@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-06T15:29:40.994Z",
+ "generatedAt": "2026-10-06T16:34:55.675Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
-    "score": 9.9,
-    "date": "2026-10-06T13:24:22+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,60 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-10-06T12:35:12+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-10-06T12:35:11+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
-    "score": 8.8,
-    "date": "2026-10-06T12:35:10+00:00"
-   },
-   {
-    "title": "CVE-2026-34982 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57614",
-    "score": 8.2,
-    "date": "2026-10-06T12:35:17+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: gvisor-tap-vsock security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9108",
-    "score": 7.5,
-    "date": "2026-10-06T12:35:11+00:00"
-   },
-   {
-    "title": "CVE-2026-42784 — Red Hat Security Advisory: rust-rpm-sequoia security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76734",
-    "score": 7.4,
-    "date": "2026-10-06T13:34:37+00:00"
-   },
-   {
-    "title": "CVE-2026-42784 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:42902",
-    "score": 7.4,
-    "date": "2026-10-06T13:34:27+00:00"
-   },
-   {
-    "title": "CVE-2026-73073 — Red Hat Security Advisory: vim security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:75769",
-    "score": 7.3,
-    "date": "2026-10-06T12:35:17+00:00"
-   },
-   {
-    "title": "CVE-2026-73073 — Red Hat Security Advisory: vim security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:75768",
-    "score": 7.3,
-    "date": "2026-10-06T12:35:17+00:00"
    }
   ],
   "kev": [
@@ -191,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "External Secrets Operator: label enforcement bypass in webhook generator enables secret exfiltration",
-    "url": "https://github.com/advisories/GHSA-q7hv-xx6h-q2x8",
-    "score": 7.1,
-    "ghsa": "GHSA-q7hv-xx6h-q2x8",
-    "date": "2026-10-06T15:29:25Z"
-   },
-   {
-    "title": "Vyper: Memory corruption using function calls within tuples / nested calls",
-    "url": "https://github.com/advisories/GHSA-2r3x-4mrv-mcxf",
-    "score": null,
-    "ghsa": "GHSA-2r3x-4mrv-mcxf",
-    "date": "2026-10-06T15:22:29Z"
-   },
-   {
-    "title": "Vyper: Call stack corruption when passing complex type containing non-base type members as argument",
-    "url": "https://github.com/advisories/GHSA-4v7v-gqf9-ww2g",
-    "score": null,
-    "ghsa": "GHSA-4v7v-gqf9-ww2g",
-    "date": "2026-10-06T15:22:23Z"
-   },
-   {
-    "title": "Vyper: Return inside for loop more than 1 level deep",
-    "url": "https://github.com/advisories/GHSA-vg88-3v92-rjx2",
-    "score": null,
-    "ghsa": "GHSA-vg88-3v92-rjx2",
-    "date": "2026-10-06T15:20:10Z"
-   },
-   {
-    "title": "sharp : Vulnerability in librsvg dependency CVE-2026-96889",
-    "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
+    "title": "Payload didn't enforce field-level password update restrictions",
+    "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
     "score": 7.5,
-    "ghsa": "GHSA-wq5f-xc86-pv6w",
-    "date": "2026-10-06T13:43:57Z"
+    "ghsa": "GHSA-fx49-4h83-wjv9",
+    "date": "2026-10-06T16:21:52Z"
    },
    {
-    "title": "Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
-    "url": "https://github.com/advisories/GHSA-3cr3-8m4c-fpxw",
-    "score": 4.3,
-    "ghsa": "GHSA-3cr3-8m4c-fpxw",
-    "date": "2026-10-06T13:41:16Z"
+    "title": "Payload: ReDoS in Multipart Content-Type Validation",
+    "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
+    "score": 7.5,
+    "ghsa": "GHSA-2g7p-5934-q4w7",
+    "date": "2026-10-06T16:18:27Z"
    },
    {
-    "title": "shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token",
-    "url": "https://github.com/advisories/GHSA-pqg4-j6r4-53mv",
-    "score": 8.1,
-    "ghsa": "GHSA-pqg4-j6r4-53mv",
-    "date": "2026-10-06T13:40:36Z"
+    "title": "Payload vulnerable to API key disclosure through ordinary document reads",
+    "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
+    "score": 7.5,
+    "ghsa": "GHSA-238x-w2j9-gwwr",
+    "date": "2026-10-06T16:18:16Z"
    },
    {
-    "title": "pbkdf2 rehashes long passwords on every iteration, enabling denial of service",
-    "url": "https://github.com/advisories/GHSA-477h-4r7f-fvrx",
-    "score": 3.7,
-    "ghsa": "GHSA-477h-4r7f-fvrx",
-    "date": "2026-10-06T13:40:10Z"
+    "title": "Payload Ecommerce has an order confirmation validation issue",
+    "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
+    "score": 7.5,
+    "ghsa": "GHSA-8r29-2mp2-pmrw",
+    "date": "2026-10-06T16:17:54Z"
    },
    {
-    "title": "Langflow: SSRF in URL-taking components (protection disabled by default / warn-only, not applied to RSS, SearXNG, Web Search, Home Assistant, Glean, D",
-    "url": "https://github.com/advisories/GHSA-j8f7-x8jm-wmm4",
+    "title": "Payload relationship-query authorization bypass",
+    "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
     "score": null,
-    "ghsa": "GHSA-j8f7-x8jm-wmm4",
-    "date": "2026-10-06T13:39:57Z"
+    "ghsa": "GHSA-7c34-32v3-j575",
+    "date": "2026-10-06T16:17:32Z"
    },
    {
-    "title": "Langflow: PythonREPLComponent executes unsandboxed Python code, enabling authenticated RCE and privilege escalation",
-    "url": "https://github.com/advisories/GHSA-8qpj-27x8-pwpq",
-    "score": 9.9,
-    "ghsa": "GHSA-8qpj-27x8-pwpq",
-    "date": "2026-10-06T13:38:28Z"
+    "title": "Payload: Token refresh and password reset responses may expose restricted user fields",
+    "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
+    "score": 7.5,
+    "ghsa": "GHSA-xgv3-crq2-6f69",
+    "date": "2026-10-06T16:17:28Z"
    },
    {
-    "title": "Duplicate Advisory: Docling: METS-GBS archive member limit enforced after full member enumeration (memory exhaustion during format detection)",
-    "url": "https://github.com/advisories/GHSA-f4ch-vxwc-3p2m",
-    "score": 4.3,
-    "ghsa": "GHSA-f4ch-vxwc-3p2m",
-    "date": "2026-10-06T00:32:49Z"
+    "title": "Payload: Field access control bypass on auth collections",
+    "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
+    "score": 9.5,
+    "ghsa": "GHSA-vc4h-q48j-5hcx",
+    "date": "2026-10-06T16:17:23Z"
    },
    {
-    "title": "Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
-    "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
-    "score": 5.9,
-    "ghsa": "GHSA-q43m-vhcp-mhvm",
-    "date": "2026-10-06T00:02:27Z"
+    "title": "Payload: Insufficient Access Control in Stripe REST Proxy",
+    "url": "https://github.com/advisories/GHSA-r9v2-gg2j-22q5",
+    "score": null,
+    "ghsa": "GHSA-r9v2-gg2j-22q5",
+    "date": "2026-10-06T16:09:46Z"
+   },
+   {
+    "title": "Payload: Improper access control for MCP API keys",
+    "url": "https://github.com/advisories/GHSA-2q76-m6w6-qgc6",
+    "score": 7.5,
+    "ghsa": "GHSA-2q76-m6w6-qgc6",
+    "date": "2026-10-06T16:09:31Z"
+   },
+   {
+    "title": "Payload: Prototype pollution in Payload Import Export plugin",
+    "url": "https://github.com/advisories/GHSA-qf28-8hc6-vwrp",
+    "score": 9.5,
+    "ghsa": "GHSA-qf28-8hc6-vwrp",
+    "date": "2026-10-06T16:09:23Z"
+   },
+   {
+    "title": "Payload: SQL Injection in SQLite and Postgres",
+    "url": "https://github.com/advisories/GHSA-v49j-62m6-pgrr",
+    "score": 9.8,
+    "ghsa": "GHSA-v49j-62m6-pgrr",
+    "date": "2026-10-06T16:09:17Z"
+   },
+   {
+    "title": "Payload: Untrusted redirect URL parameter exploit",
+    "url": "https://github.com/advisories/GHSA-w84c-53h3-mc2g",
+    "score": 6.1,
+    "ghsa": "GHSA-w84c-53h3-mc2g",
+    "date": "2026-10-06T16:09:13Z"
    }
   ],
   "thn": [
@@ -363,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+    "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+    "date": "Tue, 06 Oct 2026 12:33:54 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
     "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
     "date": "Tue, 06 Oct 2026 11:16:44 -0400",
@@ -438,20 +385,13 @@
     "date": "Mon, 05 Oct 2026 10:22:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
-    "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
-    "date": "Mon, 05 Oct 2026 09:33:42 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 500,
+    "stars": 501,
     "lang": "TypeScript"
    },
    {
@@ -463,19 +403,19 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 467,
+    "stars": 482,
     "lang": "Python"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 392,
+    "stars": 394,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 339,
+    "stars": 340,
     "lang": "C++"
    },
    {
@@ -487,7 +427,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 293,
+    "stars": 294,
     "lang": "Python"
    },
    {
@@ -511,7 +451,7 @@
    {
     "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
     "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
-    "stars": 92,
+    "stars": 93,
     "lang": "PowerShell"
    },
    {
@@ -705,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1734,
   "adv": 12,
   "feed": 48
