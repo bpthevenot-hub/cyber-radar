@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-07T16:35:06.387Z",
+ "generatedAt": "2026-10-07T17:33:24.383Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-106102 — Quasar Framework: Stored/Reflected XSS via unescaped SSR meta tag rendering in getHead()",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106102",
+    "score": 10,
+    "date": "2026-10-07T16:14:22Z"
+   },
+   {
+    "title": "CVE-2026-62252 — Homer: Hardcoded Default Admin Password 'sipcapture' With No Forced Change on First Login",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62252",
+    "score": 9.8,
+    "date": "2026-10-07T16:12:02Z"
+   },
+   {
+    "title": "CVE-2026-62253 — Homer: Complete Authentication Bypass When coordinator.jwt.secret Is Empty (Default)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62253",
+    "score": 9.8,
+    "date": "2026-10-07T16:11:58Z"
+   },
+   {
+    "title": "GHSA-x3jw-7gj7-qv6m — Duplicate Advisory: Flowise Prompt Injection to RCE and SSRF via CSV/Airtable Agent Python Validator Bypass",
+    "url": "https://github.com/advisories/GHSA-x3jw-7gj7-qv6m",
+    "score": 9.8,
+    "date": "2026-08-13T12:31:09Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-26507 — An issue in FinalWire AIRDA Extreme, AIDA64 Engineer, AIDA64 Business, AIDA64 Network Audit v.7.00.6700 and before allows a local attacker t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-26507",
-    "score": 7.8,
-    "date": "2024-06-10T18:31:06Z"
+    "title": "CVE-2026-73487 — Flowise Prompt Injection to RCE and SSRF via CSV/Airtable Agent Python Validator Bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73487",
+    "score": 9.5,
+    "date": "2026-10-07T16:17:21Z"
+   },
+   {
+    "title": "CVE-2026-73483 — Flowise NodeVM sandbox escape via puppeteer allowlist - authenticated RCE and arbitrary file read via Chromium",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-73483",
+    "score": 9.5,
+    "date": "2026-10-07T16:17:02Z"
+   },
+   {
+    "title": "CVE-2026-62176 — PraisonAI: Code Injection via f-string Interpolation in Deploy API Server Generation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62176",
+    "score": 9.1,
+    "date": "2026-10-07T16:05:53Z"
+   },
+   {
+    "title": "GHSA-6j9g-8fxc-25hq — Duplicate Advisory: Flowise contains an unauthenticated sandbox escape",
+    "url": "https://github.com/advisories/GHSA-6j9g-8fxc-25hq",
+    "score": 8.8,
+    "date": "2026-08-13T12:31:09Z"
+   },
+   {
+    "title": "CVE-2026-62251 — Homer: Authenticated SQL Injection via Unvalidated rawquery Field in /api/v4/statistics/query",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62251",
+    "score": 8.1,
+    "date": "2026-10-07T16:13:08Z"
+   },
+   {
+    "title": "CVE-2026-106505 — Backstage: Bypass of MkDocs configuration sanitizer in TechDocs backend",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106505",
+    "score": 7.7,
+    "date": "2026-10-07T16:23:52Z"
+   },
+   {
+    "title": "CVE-2026-106509 — Backstage: Improper validation of MkDocs theme configuration in TechDocs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106509",
+    "score": 7.7,
+    "date": "2026-10-07T16:23:30Z"
+   },
+   {
+    "title": "CVE-2026-106557 — Backstage has improper input validation in TechDocs Markdown extension configuration",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106557",
+    "score": 7.7,
+    "date": "2026-10-07T16:22:58Z"
    }
   ],
   "kev": [
@@ -397,7 +463,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 618,
+    "stars": 622,
     "lang": "Python"
    },
    {
@@ -415,7 +481,7 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 401,
+    "stars": 402,
     "lang": "C++"
    },
    {
@@ -439,7 +505,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 228,
+    "stars": 230,
     "lang": "Go"
    },
    {
@@ -447,6 +513,12 @@
     "url": "https://github.com/brandynfisher/ToolReplay",
     "stars": 182,
     "lang": "Python"
+   },
+   {
+    "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
+    "url": "https://github.com/openqodex/openqodex",
+    "stars": 113,
+    "lang": "TypeScript"
    },
    {
     "title": "CassiopeiaCode/CosyRedactGateway — Lightweight, stateless privacy gateway for LLM APIs — redact secrets before OpenAI/Anthropic upstreams and res",
@@ -459,12 +531,6 @@
     "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
     "stars": 86,
     "lang": "Objective-C"
-   },
-   {
-    "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
-    "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
-    "stars": 86,
-    "lang": "PowerShell"
    }
   ],
   "hn": [
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 9,
   "kev": 1734,
   "adv": 12,
   "feed": 48
