@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-07T13:35:00.491Z",
+ "generatedAt": "2026-10-07T14:32:57.211Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-105192 — LMCache multiprocess mode, also called distributed mode, opens an unauthenticated ZeroMQ ROUTER so worker processes can register and share K",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105192",
+    "score": 9.8,
+    "date": "2026-10-07T12:31:58Z"
+   },
+   {
+    "title": "CVE-2026-47892 — Spring Framework Header Predicate Bypass in WebFlux Functional Endpoints",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47892",
+    "score": 9.8,
+    "date": "2026-08-27T06:31:34Z"
+   },
+   {
+    "title": "CVE-2026-47890 — Spring Framework Server Sent Event stream corruption while rendering fragments",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47890",
+    "score": 9.8,
+    "date": "2026-08-27T06:31:34Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:17+00:00"
+    "title": "CVE-2026-96408 — A code injection vulnerability exists in the upgrade script of Movable Type, which may allow an unauthenticated attacker to execute an arbit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96408",
+    "score": 9.4,
+    "date": "2026-10-07T12:31:59Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:17+00:00"
+    "title": "CVE-2026-106059 — GitAhead through 2.7.1 on macOS contains a command injection vulnerability that allows attackers to execute shell commands by crafting repos",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106059",
+    "score": 8.8,
+    "date": "2026-10-07T12:32:00Z"
    },
    {
-    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:17+00:00"
+    "title": "CVE-2026-97188 — The String locator WordPress plugin before 2.6.8 does not restrict the classes allowed when deserializing the content of a database row save",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97188",
+    "score": 8.8,
+    "date": "2026-10-07T09:32:20Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:17+00:00"
+    "title": "CVE-2026-87782 — The Koinonia Link WordPress plugin before 1.1.5 does not check that a user is allowed to change roles before saving a role selection submitt",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87782",
+    "score": 8.8,
+    "date": "2026-10-07T09:32:20Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:16+00:00"
+    "title": "CVE-2026-103668 — An SQL Injection vulnerability exists in the Site Search function of Movable Type, which may allow an unauthenticated attacker to execute an",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103668",
+    "score": 8.6,
+    "date": "2026-10-07T12:31:58Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:16+00:00"
+    "title": "CVE-2025-31133 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.20.4 bug fix update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2025:21224",
+    "score": 8.2,
+    "date": "2026-10-07T12:36:35+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:15+00:00"
+    "title": "CVE-2026-106057 — patool before 4.0.6 contains an OS command injection vulnerability on Windows because shell_quote_nt fails to escape cmd.exe metacharacters ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106057",
+    "score": 7.8,
+    "date": "2026-10-07T12:32:00Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:15+00:00"
+    "title": "CVE-2026-42710 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in 10Web Slider by 10Web slider-wd allows",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42710",
+    "score": 7.6,
+    "date": "2026-10-07T12:32:00Z"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:15+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:15+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:14+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.18.38 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8449",
-    "score": 9.1,
-    "date": "2026-10-07T12:10:13+00:00"
+    "title": "CVE-2026-42708 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AF themes WP Post Author wp-post-autho",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42708",
+    "score": 7.6,
+    "date": "2026-10-07T12:32:00Z"
    }
   ],
   "kev": [
@@ -203,6 +203,62 @@
   ],
   "adv": [
    {
+    "title": "PraisonAI: Platform members can delete owner issue dependencies through member-owned related issues",
+    "url": "https://github.com/advisories/GHSA-mxmx-rh57-jx58",
+    "score": 6.5,
+    "ghsa": "GHSA-mxmx-rh57-jx58",
+    "date": "2026-10-07T14:28:56Z"
+   },
+   {
+    "title": "PraisonAI: AgentMail webhook mode accepts forged unsigned message.received events and invokes agents",
+    "url": "https://github.com/advisories/GHSA-7c92-x8vg-4258",
+    "score": 8.6,
+    "ghsa": "GHSA-7c92-x8vg-4258",
+    "date": "2026-10-07T14:07:10Z"
+   },
+   {
+    "title": "PraisonAI: AgentMail webhook lacks signature verification, allowing unauthenticated message injection and sender spoofing",
+    "url": "https://github.com/advisories/GHSA-qj9c-59p6-8cgx",
+    "score": 7.3,
+    "ghsa": "GHSA-qj9c-59p6-8cgx",
+    "date": "2026-10-07T14:06:56Z"
+   },
+   {
+    "title": "Actual Sync Server: CORS Proxy GitHub API Allowlist Prefix Bypass Leaks Private Repositories Through the Server GitHub Token",
+    "url": "https://github.com/advisories/GHSA-m62c-5q34-f3cf",
+    "score": 7.5,
+    "ghsa": "GHSA-m62c-5q34-f3cf",
+    "date": "2026-10-07T14:00:45Z"
+   },
+   {
+    "title": "wger: Cross-User Data Corruption via Missing Ownership Check on WorkoutLog.slot_entry",
+    "url": "https://github.com/advisories/GHSA-rjpf-7pf5-q54x",
+    "score": 6.5,
+    "ghsa": "GHSA-rjpf-7pf5-q54x",
+    "date": "2026-10-07T13:59:17Z"
+   },
+   {
+    "title": "wger: Trainer Privilege Escalation - Improper Privilege Management",
+    "url": "https://github.com/advisories/GHSA-x249-cx55-2h87",
+    "score": 7.1,
+    "ghsa": "GHSA-x249-cx55-2h87",
+    "date": "2026-10-07T13:59:14Z"
+   },
+   {
+    "title": "wger: API credentials remain valid after logout/password change",
+    "url": "https://github.com/advisories/GHSA-v3x9-6gg8-c2c9",
+    "score": 4.8,
+    "ghsa": "GHSA-v3x9-6gg8-c2c9",
+    "date": "2026-10-07T13:59:10Z"
+   },
+   {
+    "title": "wger: trainer_login accepts GET - CSRF bypass enables forced session rebinding",
+    "url": "https://github.com/advisories/GHSA-xf64-4pmc-h8qf",
+    "score": 5.4,
+    "ghsa": "GHSA-xf64-4pmc-h8qf",
+    "date": "2026-10-07T13:45:33Z"
+   },
+   {
     "title": "wger: cross-tenant admin notes/contracts leak via gym=None bypass (5 views)",
     "url": "https://github.com/advisories/GHSA-c72h-82w6-rqfp",
     "score": 7.1,
@@ -229,62 +285,6 @@
     "score": 5.8,
     "ghsa": "GHSA-prpw-wwv7-xjjr",
     "date": "2026-10-06T20:37:27Z"
-   },
-   {
-    "title": "knowns OS Command Injection via Insecure LSP Binary Path Config in .knowns/config.json",
-    "url": "https://github.com/advisories/GHSA-mc52-mwq4-vfx3",
-    "score": 7.8,
-    "ghsa": "GHSA-mc52-mwq4-vfx3",
-    "date": "2026-10-06T18:58:38Z"
-   },
-   {
-    "title": "Payload didn't enforce field-level password update restrictions",
-    "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
-    "score": 7.5,
-    "ghsa": "GHSA-fx49-4h83-wjv9",
-    "date": "2026-10-06T16:21:52Z"
-   },
-   {
-    "title": "Payload: ReDoS in Multipart Content-Type Validation",
-    "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
-    "score": 7.5,
-    "ghsa": "GHSA-2g7p-5934-q4w7",
-    "date": "2026-10-06T16:18:27Z"
-   },
-   {
-    "title": "Payload vulnerable to API key disclosure through ordinary document reads",
-    "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
-    "score": 7.5,
-    "ghsa": "GHSA-238x-w2j9-gwwr",
-    "date": "2026-10-06T16:18:16Z"
-   },
-   {
-    "title": "Payload Ecommerce has an order confirmation validation issue",
-    "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
-    "score": 7.5,
-    "ghsa": "GHSA-8r29-2mp2-pmrw",
-    "date": "2026-10-06T16:17:54Z"
-   },
-   {
-    "title": "Payload relationship-query authorization bypass",
-    "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
-    "score": null,
-    "ghsa": "GHSA-7c34-32v3-j575",
-    "date": "2026-10-06T16:17:32Z"
-   },
-   {
-    "title": "Payload: Token refresh and password reset responses may expose restricted user fields",
-    "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
-    "score": 7.5,
-    "ghsa": "GHSA-xgv3-crq2-6f69",
-    "date": "2026-10-06T16:17:28Z"
-   },
-   {
-    "title": "Payload: Field access control bypass on auth collections",
-    "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
-    "score": 9.5,
-    "ghsa": "GHSA-vc4h-q48j-5hcx",
-    "date": "2026-10-06T16:17:23Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Ransomware has a new target. Is your backup ready?",
+    "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+    "date": "Wed, 07 Oct 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers exploit critical Atlassian flaw after public PoC release",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
     "date": "Wed, 07 Oct 2026 08:49:01 -0400",
@@ -450,20 +457,13 @@
     "date": "Tue, 06 Oct 2026 07:31:48 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
-    "date": "Tue, 06 Oct 2026 05:25:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 605,
+    "stars": 610,
     "lang": "Python"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 399,
+    "stars": 400,
     "lang": "C++"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 212,
+    "stars": 217,
     "lang": "Go"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 6,
   "kev": 1734,
   "adv": 12,
   "feed": 48
