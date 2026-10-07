@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-10-07T04:37:10.658Z",
+ "generatedAt": "2026-10-07T05:33:23.869Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,7 +391,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 559,
+    "stars": 566,
     "lang": "Python"
    },
    {
@@ -390,25 +403,25 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 490,
+    "stars": 491,
     "lang": "JavaScript"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 397,
+    "stars": 398,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 343,
+    "stars": 344,
     "lang": "C++"
    },
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 297,
+    "stars": 298,
     "lang": "Python"
    },
    {
@@ -430,16 +443,16 @@
     "lang": "JavaScript"
    },
    {
+    "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "url": "https://github.com/jiwoochris/artex-ko",
+    "stars": 97,
+    "lang": "Go"
+   },
+   {
     "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
     "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
     "stars": 95,
     "lang": "PowerShell"
-   },
-   {
-    "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-    "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 94,
-    "lang": "Go"
    },
    {
     "title": "ByteV0rtex/CVE-2026-65343 — CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
@@ -622,7 +635,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1734,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
