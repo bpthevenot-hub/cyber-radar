@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-10-07T19:29:00.506Z",
+ "generatedAt": "2026-10-07T20:32:28.301Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-93605 — vm2 contains a sandbox escape vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93605",
-    "score": 10,
-    "date": "2026-10-07T18:05:00Z"
-   },
-   {
-    "title": "GHSA-9hxx-m5g2-2q3h — Duplicate Advisory: vm2 contains a sandbox escape vulnerability",
-    "url": "https://github.com/advisories/GHSA-9hxx-m5g2-2q3h",
-    "score": 10,
-    "date": "2026-09-18T15:32:19Z"
+    "title": "CVE-2026-39820 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68764",
+    "score": 9.8,
+    "date": "2026-10-07T18:29:08+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,22 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-106443 — WeasyPrint: EPS images reach the Ghostscript interpreter resulting in RCE",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106443",
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+74 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72502",
+    "score": 9.1,
+    "date": "2026-10-07T18:29:14+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
+    "score": 9.1,
+    "date": "2026-10-07T18:29:12+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
+    "score": 9.1,
+    "date": "2026-10-07T18:29:10+00:00"
+   },
+   {
+    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.14.9 (+74 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70267",
+    "score": 9.1,
+    "date": "2026-10-07T18:29:09+00:00"
+   },
+   {
+    "title": "CVE-2026-13149 — Red Hat Security Advisory: Red Hat Quay 3.16.6 (+41 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69255",
+    "score": 9.1,
+    "date": "2026-10-07T18:29:08+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
+    "score": 9.1,
+    "date": "2026-10-07T18:29:02+00:00"
+   },
+   {
+    "title": "CVE-2026-33210 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57565",
+    "score": 9.1,
+    "date": "2026-10-07T18:28:51+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.21.33 bug fix and security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66352",
     "score": 8.8,
-    "date": "2026-10-07T18:05:49Z"
+    "date": "2026-10-07T18:29:29+00:00"
    },
    {
-    "title": "CVE-2026-104890 — Kunstmaan CMS: MediaBundle extension blacklist bypass allows authenticated administrators to upload executable PHP files leading to remote c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104890",
-    "score": 7.2,
-    "date": "2026-10-07T18:05:38Z"
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67160",
+    "score": 8.8,
+    "date": "2026-10-07T18:29:28+00:00"
    },
    {
-    "title": "CVE-2026-105680 — Ghost: Authorization Issue Allowed Author Role to Delete any Post",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105680",
-    "score": 6.5,
-    "date": "2026-10-07T18:05:32Z"
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
+    "score": 8.8,
+    "date": "2026-10-07T18:29:27+00:00"
+   },
+   {
+    "title": "CVE-2026-14362 — Red Hat Security Advisory: OpenShift Container Platform 4.18.55 bug fix and security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65852",
+    "score": 8.8,
+    "date": "2026-10-07T18:29:27+00:00"
    }
   ],
   "kev": [
@@ -161,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "WeasyPrint: EPS images reach the Ghostscript interpreter resulting in RCE",
-    "url": "https://github.com/advisories/GHSA-r543-q48m-4c9j",
-    "score": 8.8,
-    "ghsa": "GHSA-r543-q48m-4c9j",
-    "date": "2026-10-07T18:05:49Z"
+    "title": "Next.js: Pending `use cache` fill can leak Draft Mode content into regular responses and persisted pages",
+    "url": "https://github.com/advisories/GHSA-3w37-wq28-93x7",
+    "score": 4.2,
+    "ghsa": "GHSA-3w37-wq28-93x7",
+    "date": "2026-10-07T20:32:13Z"
    },
    {
-    "title": "Kunstmaan CMS: MediaBundle extension blacklist bypass allows authenticated administrators to upload executable PHP files leading to remote code execut",
-    "url": "https://github.com/advisories/GHSA-p279-5wcv-45vq",
-    "score": 7.2,
-    "ghsa": "GHSA-p279-5wcv-45vq",
-    "date": "2026-10-07T18:05:38Z"
+    "title": "Next.js has cache poisoning of SSG and ISR pages in self-hosted applications",
+    "url": "https://github.com/advisories/GHSA-4jqv-mc3x-m676",
+    "score": 5.3,
+    "ghsa": "GHSA-4jqv-mc3x-m676",
+    "date": "2026-10-07T20:32:06Z"
    },
    {
-    "title": "Ghost: Authorization Issue Allowed Author Role to Delete any Post",
-    "url": "https://github.com/advisories/GHSA-x3mg-q38v-m562",
+    "title": "Next.js has information disclosure in development server's Model Context Protocol endpoint",
+    "url": "https://github.com/advisories/GHSA-39w2-rjm5-chcv",
+    "score": 5.4,
+    "ghsa": "GHSA-39w2-rjm5-chcv",
+    "date": "2026-10-07T20:31:51Z"
+   },
+   {
+    "title": "Next.js has information disclosure in App Router metadata image routes via dynamicParams bypass",
+    "url": "https://github.com/advisories/GHSA-f87g-xv8r-7p7x",
+    "score": 5.3,
+    "ghsa": "GHSA-f87g-xv8r-7p7x",
+    "date": "2026-10-07T20:31:33Z"
+   },
+   {
+    "title": "Next.js has cache poisoning in SSG/ISR rendering that leads to cross-user content substitution and persistent denial of service",
+    "url": "https://github.com/advisories/GHSA-mcj8-r9mp-w47p",
+    "score": 4.8,
+    "ghsa": "GHSA-mcj8-r9mp-w47p",
+    "date": "2026-10-07T20:31:13Z"
+   },
+   {
+    "title": "Next.js has Server-Side Request Forgery in Image Optimization",
+    "url": "https://github.com/advisories/GHSA-cjq9-62q9-8jv4",
     "score": 6.5,
-    "ghsa": "GHSA-x3mg-q38v-m562",
-    "date": "2026-10-07T18:05:32Z"
+    "ghsa": "GHSA-cjq9-62q9-8jv4",
+    "date": "2026-10-07T20:30:55Z"
    },
    {
-    "title": "vm2 contains a sandbox escape vulnerability",
-    "url": "https://github.com/advisories/GHSA-pq68-rvw4-xp4r",
-    "score": 10,
-    "ghsa": "GHSA-pq68-rvw4-xp4r",
-    "date": "2026-10-07T18:05:00Z"
-   },
-   {
-    "title": "Hydra logging configuration permits unsafe callable resolution",
-    "url": "https://github.com/advisories/GHSA-c3wx-c55w-pxjq",
-    "score": 7.8,
-    "ghsa": "GHSA-c3wx-c55w-pxjq",
-    "date": "2026-10-07T18:03:55Z"
-   },
-   {
-    "title": "Hydra instantiate target blacklist bypasses permit code execution",
-    "url": "https://github.com/advisories/GHSA-rqx7-p7vv-w7hr",
-    "score": 7.8,
-    "ghsa": "GHSA-rqx7-p7vv-w7hr",
-    "date": "2026-10-07T18:03:49Z"
-   },
-   {
-    "title": "mppx-condition-gate: Free-access path grants on a self-declared wallet without proving control",
-    "url": "https://github.com/advisories/GHSA-jg6q-3qfh-r9f8",
+    "title": "Payload: SQL injection in SQLite/Postgres",
+    "url": "https://github.com/advisories/GHSA-pj7x-6wpf-pgvp",
     "score": 7.5,
-    "ghsa": "GHSA-jg6q-3qfh-r9f8",
-    "date": "2026-10-07T18:03:42Z"
+    "ghsa": "GHSA-pj7x-6wpf-pgvp",
+    "date": "2026-10-07T20:30:04Z"
    },
    {
-    "title": "Backstage: Remote code execution via crafted markdown_extensions in TechDocs mkdocs.yml",
-    "url": "https://github.com/advisories/GHSA-4488-j8vj-vqqv",
-    "score": 7.7,
-    "ghsa": "GHSA-4488-j8vj-vqqv",
-    "date": "2026-10-07T18:03:22Z"
+    "title": "Payload: Remote Code Execution through first-register",
+    "url": "https://github.com/advisories/GHSA-97rh-rhh2-7vjv",
+    "score": 8.1,
+    "ghsa": "GHSA-97rh-rhh2-7vjv",
+    "date": "2026-10-07T20:29:58Z"
    },
    {
-    "title": "Backstage: Improper validation of TechDocs MkDocs configuration",
-    "url": "https://github.com/advisories/GHSA-qmw3-745m-w99g",
-    "score": 8.8,
-    "ghsa": "GHSA-qmw3-745m-w99g",
-    "date": "2026-10-07T18:03:12Z"
+    "title": "Payload has a tenant authorization bypass in Multi-Tenant Plugin",
+    "url": "https://github.com/advisories/GHSA-p96c-xwx8-3cqj",
+    "score": 7.5,
+    "ghsa": "GHSA-p96c-xwx8-3cqj",
+    "date": "2026-10-07T20:29:53Z"
    },
    {
-    "title": "Backstage: Improper input validation in Confluence to Markdown scaffolder module",
-    "url": "https://github.com/advisories/GHSA-75qf-886x-5xf2",
-    "score": 6.3,
-    "ghsa": "GHSA-75qf-886x-5xf2",
-    "date": "2026-10-07T18:03:06Z"
+    "title": "Payload external upload trust validation issue",
+    "url": "https://github.com/advisories/GHSA-pj5h-5q6c-3pfx",
+    "score": 7.5,
+    "ghsa": "GHSA-pj5h-5q6c-3pfx",
+    "date": "2026-10-07T20:29:41Z"
    },
    {
-    "title": "Backstage: Improper repository path validation in a Scaffolder backend module",
-    "url": "https://github.com/advisories/GHSA-2cmg-v53w-8xfp",
-    "score": 7.1,
-    "ghsa": "GHSA-2cmg-v53w-8xfp",
-    "date": "2026-10-07T18:02:59Z"
+    "title": "Payload: Bypassed sanitization of user uploaded SVGs",
+    "url": "https://github.com/advisories/GHSA-2pwp-2369-8fg3",
+    "score": 8.7,
+    "ghsa": "GHSA-2pwp-2369-8fg3",
+    "date": "2026-10-07T20:29:36Z"
    },
    {
-    "title": "Backstage has incorrect authorization in search engine permission filtering",
-    "url": "https://github.com/advisories/GHSA-9325-vq29-gp3v",
-    "score": 4.3,
-    "ghsa": "GHSA-9325-vq29-gp3v",
-    "date": "2026-10-07T18:02:52Z"
+    "title": "@payloadcms/plugin-multi-tenant has a cross-tenant create issue",
+    "url": "https://github.com/advisories/GHSA-xhm9-gwgw-3q2q",
+    "score": null,
+    "ghsa": "GHSA-xhm9-gwgw-3q2q",
+    "date": "2026-10-07T20:29:27Z"
    }
   ],
   "thn": [
@@ -421,7 +463,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 632,
+    "stars": 636,
     "lang": "Python"
    },
    {
@@ -445,7 +487,7 @@
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 346,
+    "stars": 347,
     "lang": "C++"
    },
    {
@@ -463,8 +505,14 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 232,
+    "stars": 233,
     "lang": "Go"
+   },
+   {
+    "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
+    "url": "https://github.com/openqodex/openqodex",
+    "stars": 186,
+    "lang": "TypeScript"
    },
    {
     "title": "brandynfisher/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
@@ -473,22 +521,16 @@
     "lang": "Python"
    },
    {
-    "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
-    "url": "https://github.com/openqodex/openqodex",
-    "stars": 159,
-    "lang": "TypeScript"
-   },
-   {
     "title": "CassiopeiaCode/CosyRedactGateway — Lightweight, stateless privacy gateway for LLM APIs — redact secrets before OpenAI/Anthropic upstreams and res",
     "url": "https://github.com/CassiopeiaCode/CosyRedactGateway",
     "stars": 99,
     "lang": "JavaScript"
    },
    {
-    "title": "ByteV0rtex/CVE-2026-65343 — CVE-2026-65343 PoC — AppleKeyStore OOB read → KASLR defeat (iOS 26.6 / 23G71)",
-    "url": "https://github.com/ByteV0rtex/CVE-2026-65343",
-    "stars": 86,
-    "lang": "Objective-C"
+    "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
+    "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
+    "stars": 87,
+    "lang": "PowerShell"
    }
   ],
   "hn": [
@@ -675,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 10,
   "kev": 1734,
   "adv": 12,
   "feed": 48
