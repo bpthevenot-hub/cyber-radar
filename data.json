@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-10-07T14:32:57.211Z",
+ "generatedAt": "2026-10-07T15:40:21.832Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-105192 — LMCache multiprocess mode, also called distributed mode, opens an unauthenticated ZeroMQ ROUTER so worker processes can register and share K",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105192",
-    "score": 9.8,
-    "date": "2026-10-07T12:31:58Z"
-   },
-   {
-    "title": "CVE-2026-47892 — Spring Framework Header Predicate Bypass in WebFlux Functional Endpoints",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47892",
-    "score": 9.8,
-    "date": "2026-08-27T06:31:34Z"
-   },
-   {
-    "title": "CVE-2026-47890 — Spring Framework Server Sent Event stream corruption while rendering fragments",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47890",
-    "score": 9.8,
-    "date": "2026-08-27T06:31:34Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-96408 — A code injection vulnerability exists in the upgrade script of Movable Type, which may allow an unauthenticated attacker to execute an arbit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96408",
+    "title": "CVE-2026-16242 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.9 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47735",
     "score": 9.4,
-    "date": "2026-10-07T12:31:59Z"
+    "date": "2026-10-07T13:32:30+00:00"
    },
    {
-    "title": "CVE-2026-106059 — GitAhead through 2.7.1 on macOS contains a command injection vulnerability that allows attackers to execute shell commands by crafting repos",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106059",
-    "score": 8.8,
-    "date": "2026-10-07T12:32:00Z"
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+74 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72502",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:39+00:00"
    },
    {
-    "title": "CVE-2026-97188 — The String locator WordPress plugin before 2.6.8 does not restrict the classes allowed when deserializing the content of a database row save",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97188",
-    "score": 8.8,
-    "date": "2026-10-07T09:32:20Z"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: openssl security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71542",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:39+00:00"
    },
    {
-    "title": "CVE-2026-87782 — The Koinonia Link WordPress plugin before 1.1.5 does not check that a user is allowed to change roles before saving a role selection submitt",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87782",
-    "score": 8.8,
-    "date": "2026-10-07T09:32:20Z"
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67551",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:38+00:00"
    },
    {
-    "title": "CVE-2026-103668 — An SQL Injection vulnerability exists in the Site Search function of Movable Type, which may allow an unauthenticated attacker to execute an",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103668",
-    "score": 8.6,
-    "date": "2026-10-07T12:31:58Z"
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62790",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:37+00:00"
    },
    {
-    "title": "CVE-2025-31133 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.20.4 bug fix update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHBA-2025:21224",
-    "score": 8.2,
-    "date": "2026-10-07T12:36:35+00:00"
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62563",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:36+00:00"
    },
    {
-    "title": "CVE-2026-106057 — patool before 4.0.6 contains an OS command injection vulnerability on Windows because shell_quote_nt fails to escape cmd.exe metacharacters ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106057",
-    "score": 7.8,
-    "date": "2026-10-07T12:32:00Z"
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62562",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:36+00:00"
    },
    {
-    "title": "CVE-2026-42710 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in 10Web Slider by 10Web slider-wd allows",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42710",
-    "score": 7.6,
-    "date": "2026-10-07T12:32:00Z"
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+27 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59641",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:34+00:00"
    },
    {
-    "title": "CVE-2026-42708 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AF themes WP Post Author wp-post-autho",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42708",
-    "score": 7.6,
-    "date": "2026-10-07T12:32:00Z"
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59635",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:33+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.3 Technology Preview security update (+117 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:58981",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:32+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55543",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:31+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42825",
+    "score": 9.1,
+    "date": "2026-10-07T13:32:30+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+    "date": "Wed, 07 Oct 2026 11:04:08 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ransomware has a new target. Is your backup ready?",
     "url": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
     "date": "Wed, 07 Oct 2026 10:01:11 -0400",
@@ -450,20 +457,13 @@
     "date": "Tue, 06 Oct 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-    "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-    "date": "Tue, 06 Oct 2026 07:31:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 610,
+    "stars": 615,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 217,
+    "stars": 222,
     "lang": "Go"
    },
    {
@@ -635,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Presenting DiagNG: After QCSuper, a new open-source initiative for freeing up mobile baseband Diag protocols",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzsbsq/presenting_diagng_after_qcsuper_a_new_opensource/",
-    "date": "2026-10-07T09:44:26+00:00",
+    "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
+    "date": "2026-10-07T13:11:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
-    "date": "2026-10-07T13:11:06+00:00",
+    "title": "Presenting DiagNG: After QCSuper, a new open-source initiative for freeing up mobile baseband Diag protocols",
+    "url": "https://www.reddit.com/r/netsec/comments/1wzsbsq/presenting_diagng_after_qcsuper_a_new_opensource/",
+    "date": "2026-10-07T09:44:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 14,
   "kev": 1734,
   "adv": 12,
   "feed": 48
