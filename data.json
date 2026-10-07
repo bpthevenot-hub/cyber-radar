@@ -1,30 +1,18 @@
 {
- "generatedAt": "2026-10-07T18:38:30.001Z",
+ "generatedAt": "2026-10-07T19:29:00.506Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-4775 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.5 (CUDA) (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:30089",
-    "score": 9.8,
-    "date": "2026-10-07T17:00:57+00:00"
+    "title": "CVE-2026-93605 — vm2 contains a sandbox escape vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93605",
+    "score": 10,
+    "date": "2026-10-07T18:05:00Z"
    },
    {
-    "title": "CVE-2026-4775 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.5 (ROCm) (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:30088",
-    "score": 9.8,
-    "date": "2026-10-07T17:00:57+00:00"
-   },
-   {
-    "title": "CVE-2025-6176 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.26.1 Release. (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2844",
-    "score": 9.8,
-    "date": "2026-10-07T17:00:51+00:00"
-   },
-   {
-    "title": "CVE-2025-61728 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.27.1 Release. (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10175",
-    "score": 9.8,
-    "date": "2026-10-07T16:58:39+00:00"
+    "title": "GHSA-9hxx-m5g2-2q3h — Duplicate Advisory: vm2 contains a sandbox escape vulnerability",
+    "url": "https://github.com/advisories/GHSA-9hxx-m5g2-2q3h",
+    "score": 10,
+    "date": "2026-09-18T15:32:19Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +27,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11330",
-    "score": 9.6,
-    "date": "2026-10-07T16:58:50+00:00"
+    "title": "CVE-2026-106443 — WeasyPrint: EPS images reach the Ghostscript interpreter resulting in RCE",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106443",
+    "score": 8.8,
+    "date": "2026-10-07T18:05:49Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.7.2 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11331",
-    "score": 9.6,
-    "date": "2026-10-07T16:58:49+00:00"
+    "title": "CVE-2026-104890 — Kunstmaan CMS: MediaBundle extension blacklist bypass allows authenticated administrators to upload executable PHP files leading to remote c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104890",
+    "score": 7.2,
+    "date": "2026-10-07T18:05:38Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19721",
-    "score": 9.1,
-    "date": "2026-10-07T16:59:50+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19720",
-    "score": 9.1,
-    "date": "2026-10-07T16:59:47+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19719",
-    "score": 9.1,
-    "date": "2026-10-07T16:59:46+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19353",
-    "score": 9.1,
-    "date": "2026-10-07T16:59:46+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: opentelemetry-collector security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19135",
-    "score": 9.1,
-    "date": "2026-10-07T16:59:42+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: RHACS 4.10.2 security and bug fix update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13829",
-    "score": 9.1,
-    "date": "2026-10-07T16:59:19+00:00"
+    "title": "CVE-2026-105680 — Ghost: Authorization Issue Allowed Author Role to Delete any Post",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105680",
+    "score": 6.5,
+    "date": "2026-10-07T18:05:32Z"
    }
   ],
   "kev": [
@@ -289,6 +247,13 @@
   ],
   "thn": [
    {
+    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+    "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+    "date": "Thu, 08 Oct 2026 00:18:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
     "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
     "date": "Wed, 07 Oct 2026 23:13:20 +0530",
@@ -362,13 +327,6 @@
     "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
     "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
     "date": "Wed, 07 Oct 2026 00:08:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-    "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-    "date": "Tue, 06 Oct 2026 23:54:25 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -505,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 231,
+    "stars": 232,
     "lang": "Go"
    },
    {
@@ -517,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 137,
+    "stars": 159,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 4,
   "kev": 1734,
   "adv": 12,
   "feed": 48
