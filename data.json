@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-07T08:41:09.793Z",
+ "generatedAt": "2026-10-07T09:35:42.729Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-13046 — Kwetsbaarheden verholpen in WatchGuard Fireware OS (+20 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13046",
-    "score": 9.8,
-    "date": "2026-10-07T07:27:17.612003Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,6 +13,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62790",
+    "score": 9.1,
+    "date": "2026-10-07T08:13:29+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62562",
+    "score": 9.1,
+    "date": "2026-10-07T08:13:27+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55543",
+    "score": 9.1,
+    "date": "2026-10-07T08:12:46+00:00"
+   },
+   {
+    "title": "RUSTSEC-2026-0330 — Hybrid Encapsulation from Seed Panics on Short Seed",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0330",
+    "score": null,
+    "date": "2026-09-28T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0331 — Panic on Decoding Short Hybrid Keys",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0331",
+    "score": null,
+    "date": "2026-08-24T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0329 — Auto-Reseeding HMAC-DRBG could panic for some output lengths",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0329",
+    "score": null,
+    "date": "2026-08-03T12:00:00Z"
    }
   ],
   "kev": [
@@ -223,6 +253,13 @@
   ],
   "thn": [
    {
+    "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+    "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+    "date": "Wed, 07 Oct 2026 13:37:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
     "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
     "date": "Wed, 07 Oct 2026 12:27:54 +0530",
@@ -296,13 +333,6 @@
     "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
     "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
     "date": "Tue, 06 Oct 2026 10:52:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-    "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-    "date": "Mon, 05 Oct 2026 21:51:52 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,7 +427,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 578,
+    "stars": 580,
     "lang": "Python"
    },
    {
@@ -415,13 +445,13 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 398,
+    "stars": 399,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 344,
+    "stars": 345,
     "lang": "C++"
    },
    {
@@ -445,7 +475,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 150,
+    "stars": 158,
     "lang": "Go"
    },
    {
@@ -569,13 +599,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Rockstar Games has now been compromised several different ways since 2018, and none of them were a zero-day",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzchsp/rockstar_games_has_now_been_compromised_several/",
-    "date": "2026-10-06T19:55:08+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1wz82op/you_wont_hear_about_these_even_in_myths_atlassian/",
     "date": "2026-10-06T17:06:35+00:00",
@@ -583,30 +606,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "One Copilot model refused. Another leaked secrets about half the time.",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzpmfz/one_copilot_model_refused_another_leaked_secrets/",
-    "date": "2026-10-07T06:45:54+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Teaching network intrusion in the funnest way possible",
     "url": "https://www.reddit.com/r/netsec/comments/1wz39uk/teaching_network_intrusion_in_the_funnest_way/",
     "date": "2026-10-06T13:57:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Bitvulnex: a vulnerable crypto exchange",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzew3o/bitvulnex_a_vulnerable_crypto_exchange/",
-    "date": "2026-10-06T21:29:58+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "SelectorsHub chrome extension(400k users) opens server-picked ad tabs without a click",
-    "url": "https://www.reddit.com/r/netsec/comments/1wyk09r/selectorshub_chrome_extension400k_users_opens/",
-    "date": "2026-10-05T20:54:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -637,6 +639,34 @@
     "date": "2026-10-03T06:43:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "A peek into Reddit's anti-spam internals",
+    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
+    "date": "2026-10-03T04:00:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
+    "date": "2026-10-02T16:50:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "45% of credential-phishing pages weren't on Google Safe Browsing when first seen; 29% still weren't after a week",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvucap/45_of_credentialphishing_pages_werent_on_google/",
+    "date": "2026-10-02T13:50:28+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Azure's Weakest Link - Five Full Cross-Tenant Compromises",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvs9ea/azures_weakest_link_five_full_crosstenant/",
+    "date": "2026-10-02T12:15:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -651,7 +681,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1734,
   "adv": 12,
   "feed": 48
