@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-10-07T01:10:12.086Z",
+ "generatedAt": "2026-10-07T01:48:43.404Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.9,
+    "date": "2026-10-07T00:29:12+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.9,
+    "date": "2026-10-07T00:29:12+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.9,
+    "date": "2026-10-07T00:29:12+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
+    "score": 9.9,
+    "date": "2026-10-07T00:29:11+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-07T00:29:09+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-07T00:28:53+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-10-07T00:28:49+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
+    "score": 9.9,
+    "date": "2026-10-07T00:28:48+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
+    "score": 9.9,
+    "date": "2026-10-07T00:28:47+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "score": 9.8,
+    "date": "2026-10-07T00:29:06+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +73,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-10-07T00:29:10+00:00"
+   },
+   {
+    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.22.16 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71454",
+    "score": 9.3,
+    "date": "2026-10-07T00:28:53+00:00"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 539,
+    "stars": 543,
     "lang": "Python"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "rediga/Salesforce-Code-Review-Agent — Salesforce DX code review: Apex, LWC, Flows, security (CRUD/FLS), governors, and Bugbot.",
     "url": "https://github.com/rediga/Salesforce-Code-Review-Agent",
-    "stars": 94,
+    "stars": 95,
     "lang": "PowerShell"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1734,
   "adv": 12,
   "feed": 48
