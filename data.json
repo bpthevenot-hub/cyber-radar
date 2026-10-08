@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:45:19.853Z",
+ "generatedAt": "2026-10-08T13:36:10.628Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:73979 — Critical: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:73979",
+    "score": 9.3,
+    "date": "2026-10-02T18:08:21.502699Z"
+   },
+   {
+    "title": "RLSA-2026:75570 — Important: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:75570",
+    "score": 8.8,
+    "date": "2026-10-06T12:10:42.614631Z"
+   },
+   {
+    "title": "RLSA-2026:73998 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:73998",
+    "score": 8.8,
+    "date": "2026-10-01T12:08:49.381512Z"
+   },
+   {
+    "title": "RLSA-2026:74442 — Important: libpcap security update",
+    "url": "https://github.com/advisories/RLSA-2026:74442",
+    "score": 8.7,
+    "date": "2026-10-02T12:09:30.803849Z"
+   },
+   {
+    "title": "RLSA-2026:73765 — Important: dogtag-pki security update",
+    "url": "https://github.com/advisories/RLSA-2026:73765",
+    "score": 8.1,
+    "date": "2026-10-01T12:08:49.381512Z"
+   },
+   {
+    "title": "RLSA-2026:75576 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:75576",
+    "score": 7.8,
+    "date": "2026-10-06T12:10:42.614631Z"
+   },
+   {
+    "title": "RLSA-2026:75583 — Important: libvirt security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:75583",
+    "score": 7.8,
+    "date": "2026-10-06T12:10:42.614631Z"
+   },
+   {
+    "title": "RLSA-2026:75579 — Important: sudo security update",
+    "url": "https://github.com/advisories/RLSA-2026:75579",
+    "score": 7.8,
+    "date": "2026-10-06T12:10:42.614631Z"
+   },
+   {
+    "title": "RLSA-2026:74464 — Moderate: ghostscript security update",
+    "url": "https://github.com/advisories/RLSA-2026:74464",
+    "score": 7.8,
+    "date": "2026-10-02T12:08:50.579322Z"
+   },
+   {
+    "title": "RLSA-2026:76762 — Important: perl-DBI security update",
+    "url": "https://github.com/advisories/RLSA-2026:76762",
+    "score": 7.5,
+    "date": "2026-10-07T12:10:19.768697Z"
+   },
+   {
+    "title": "RLSA-2026:76743 — Important: opentelemetry-collector security update",
+    "url": "https://github.com/advisories/RLSA-2026:76743",
+    "score": 7.5,
+    "date": "2026-10-07T12:10:19.768697Z"
+   },
+   {
+    "title": "RLSA-2026:75864 — Important: nodejs22 security update",
+    "url": "https://github.com/advisories/RLSA-2026:75864",
+    "score": 7.5,
+    "date": "2026-10-06T12:10:42.614631Z"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
+    "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+    "date": "Thu, 08 Oct 2026 09:18:36 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft Teams to get support for third-party deepfake detection tools",
     "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
     "date": "Thu, 08 Oct 2026 08:08:16 -0400",
@@ -378,39 +457,32 @@
     "date": "Wed, 07 Oct 2026 08:49:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-    "date": "Wed, 07 Oct 2026 07:37:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 658,
+    "stars": 659,
     "lang": "Python"
    },
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 516,
+    "stars": 539,
     "lang": "Go"
+   },
+   {
+    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
+    "url": "https://github.com/nhovongoc0-max/meme-radar",
+    "stars": 502,
+    "lang": "JavaScript"
    },
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
     "stars": 501,
     "lang": "TypeScript"
-   },
-   {
-    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
-    "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 499,
-    "lang": "JavaScript"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
@@ -421,7 +493,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 368,
+    "stars": 372,
     "lang": "TypeScript"
    },
    {
@@ -451,7 +523,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 170,
+    "stars": 174,
     "lang": "Rust"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1734,
   "adv": 12,
   "feed": 48
