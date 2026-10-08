@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-10-08T22:30:47.439Z",
+ "generatedAt": "2026-10-08T23:29:09.649Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.9,
+    "date": "2026-10-08T22:07:00+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.9,
+    "date": "2026-10-08T22:06:59+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.9,
+    "date": "2026-10-08T22:06:56+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
+    "score": 9.9,
+    "date": "2026-10-08T22:06:55+00:00"
+   },
+   {
+    "title": "CVE-2021-3918 — Red Hat Security Advisory: rh-nodejs12-nodejs security, bug fix, and enhancement update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:4914",
+    "score": 9.8,
+    "date": "2026-10-08T22:14:53+00:00"
+   },
+   {
+    "title": "CVE-2021-23555 — Red Hat Security Advisory: Red Hat Advanced Cluster Management 2.4.4 security updates and bug fixes (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:1681",
+    "score": 9.8,
+    "date": "2026-10-08T22:14:47+00:00"
+   },
+   {
+    "title": "CVE-2021-3918 — Red Hat Enhancement Advisory: nodejs:12 bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2022:5615",
+    "score": 9.8,
+    "date": "2026-10-08T22:14:41+00:00"
+   },
+   {
+    "title": "CVE-2021-3918 — Red Hat Enhancement Advisory: nodejs:12 bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2022:5221",
+    "score": 9.8,
+    "date": "2026-10-08T22:14:41+00:00"
+   },
+   {
+    "title": "CVE-2021-3918 — Red Hat Enhancement Advisory: nodejs:12 bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2022:5139",
+    "score": 9.8,
+    "date": "2026-10-08T22:14:41+00:00"
+   },
+   {
+    "title": "CVE-2021-3918 — Red Hat Enhancement Advisory: nodejs:12 bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2022:4925",
+    "score": 9.8,
+    "date": "2026-10-08T22:14:39+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +73,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
+    "score": 9.3,
+    "date": "2026-10-08T22:06:49+00:00"
+   },
+   {
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.16.72 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73853",
+    "score": 9.3,
+    "date": "2026-10-08T22:06:49+00:00"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 669,
+    "stars": 674,
     "lang": "Go"
    },
    {
@@ -403,7 +475,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 508,
+    "stars": 509,
     "lang": "JavaScript"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 227,
+    "stars": 228,
     "lang": "Rust"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1739,
   "adv": 12,
   "feed": 48
