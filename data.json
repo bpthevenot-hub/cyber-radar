@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T20:33:16.072Z",
+ "generatedAt": "2026-10-08T21:30:11.104Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-97147 — In OpenStack Mistral through 23.0.0, several of the v2 API write paths resolve the target object with a query that can return another projec",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97147",
+    "title": "CVE-2026-61435 — PraisonAI: Call API localhost-only authentication bypass via spoofed Host header",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61435",
+    "score": 8.2,
+    "date": "2026-10-08T19:36:26Z"
+   },
+   {
+    "title": "GHSA-gp65-m7q3-4vjw — Duplicate Advisory: PraisonAI: Call API localhost-only authentication bypass via spoofed Host header",
+    "url": "https://github.com/advisories/GHSA-gp65-m7q3-4vjw",
+    "score": 8.2,
+    "date": "2026-07-15T12:32:03Z"
+   },
+   {
+    "title": "CVE-2026-107384 — MariaDB Connector/Node.js: SQL injection through object keys in SET expansion (permitSetMultiParamEntries)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107384",
+    "score": 8.1,
+    "date": "2026-10-08T19:42:23Z"
+   },
+   {
+    "title": "CVE-2026-61433 — PraisonAI: API deploy code generator embeds unescaped YAML fields into Python source",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61433",
+    "score": 7.8,
+    "date": "2026-10-08T19:36:29Z"
+   },
+   {
+    "title": "GHSA-qpq9-hwx9-cwgc — Duplicate Advisory: PraisonAI: API deploy code generator embeds unescaped YAML fields into Python source",
+    "url": "https://github.com/advisories/GHSA-qpq9-hwx9-cwgc",
+    "score": 7.8,
+    "date": "2026-07-15T12:32:03Z"
+   },
+   {
+    "title": "CVE-2026-107286 — Pydantic AI: Concurrency-limited models can keep their slot when a streamed request ends early",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107286",
     "score": 7.5,
-    "date": "2026-10-08T18:32:30Z"
+    "date": "2026-10-08T19:42:55Z"
    },
    {
-    "title": "CVE-2026-93858 — In OpenStack Mistral through 23.0.0, the std.ssh_proxied action passes a caller-supplied proxy_command value directly to paramiko.ProxyComma",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93858",
+    "title": "CVE-2026-107383 — MariaDB Connector/Node.js exposes uninitialized process memory through malformed GeoJSON parameters",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107383",
     "score": 7.5,
-    "date": "2026-10-08T18:32:30Z"
+    "date": "2026-10-08T19:42:11Z"
    },
    {
-    "title": "CVE-2026-93860 — In OpenStack Mistral through 23.0.0, the /v2/maintenance API controller clears the request context and calls the maintenance service directl",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93860",
+    "title": "CVE-2026-107378 — CairoSVG: Quadratic-time DoS parsing a crafted SVG <path>",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107378",
     "score": 7.5,
-    "date": "2026-10-08T18:32:30Z"
+    "date": "2026-10-08T19:41:22Z"
    },
    {
-    "title": "CVE-2026-107337 — The Malcolm kiosk Flask application exposes a POST /script_call/<script> endpoint with zero authentication and wildcard CORS (CORS(app)). An",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107337",
-    "score": 7.1,
-    "date": "2026-10-08T18:32:30Z"
+    "title": "CVE-2026-107385 — MariaDB Connector/Node.js: SQL injection in the text protocol when the session uses NO_BACKSLASH_ESCAPES",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107385",
+    "score": 7.4,
+    "date": "2026-10-08T19:42:28Z"
    },
    {
-    "title": "CVE-2026-107362 — Malcolm file-upload component ships the upstream FilePond PHP server (pqina/filepond-server-php) largely unmodified: Dockerfile copies all u",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107362",
-    "score": 7.1,
-    "date": "2026-10-08T18:32:30Z"
-   },
-   {
-    "title": "CVE-2026-107695 — FFmpeg before 8.1.3 contains an infinite loop vulnerability in the HLS demuxer that allows remote attackers to cause denial of service becau",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107695",
+    "title": "CVE-2026-107381 — svg-sanitizer: Mixed-case xlink:HrEf skips the `<use>` nesting-DoS check in Resolver::processReferences",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107381",
     "score": 6.5,
-    "date": "2026-10-08T18:32:30Z"
+    "date": "2026-10-08T19:41:10Z"
    },
    {
-    "title": "CVE-2026-107696 — FFmpeg through 9.0.2 contains an infinite loop vulnerability in ff_rtsp_connect() in libavformat/rtsp.c that follows RTSP 3xx redirects with",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107696",
+    "title": "CVE-2026-107379 — enshrined/svg-sanitize: Denial of Service via DTD Attribute Declaration Crash",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107379",
     "score": 6.5,
-    "date": "2026-10-08T18:32:30Z"
+    "date": "2026-10-08T19:41:05Z"
    },
    {
-    "title": "CVE-2026-107698 — FFmpeg before 7.1.4 and 8.0.x before 8.0.2 contains a server-side request forgery vulnerability in ff_rtsp_connect() in libavformat/rtsp.c t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107698",
-    "score": 5.4,
-    "date": "2026-10-08T18:32:30Z"
-   },
-   {
-    "title": "CVE-2026-93861 — In OpenStack Mistral through 23.0.0, the workflow membership API lets a project that has accepted a share of another project's private workf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93861",
-    "score": 5,
-    "date": "2026-10-08T18:32:30Z"
-   },
-   {
-    "title": "CVE-2026-107697 — FFmpeg before 8.1.3 contains a protection mechanism failure in the HLS demuxer that allows attackers to bypass protocol and allowed_extensio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107697",
-    "score": 4.3,
-    "date": "2026-10-08T18:32:30Z"
-   },
-   {
-    "title": "CVE-2026-107702 — QloApps through 1.7.0 contains an authorization bypass vulnerability in AdminHotelRoomsBookingController::postProcess() that allows restrict",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107702",
-    "score": 4.3,
-    "date": "2026-10-08T18:32:30Z"
-   },
-   {
-    "title": "CVE-2026-107361 — The Arkime live capture service (arkime-live) in Malcolm runs with network_mode: host, exposing port 8005 on all network interfaces (viewHos",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107361",
-    "score": 4.2,
-    "date": "2026-10-08T18:32:30Z"
+    "title": "CVE-2026-107391 — music-metadata: MP4 stsd sample-entry size==0 causes a synchronous infinite loop (DoS) — unreleased regression on master",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107391",
+    "score": 6.2,
+    "date": "2026-10-08T19:43:25Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 666,
+    "stars": 667,
     "lang": "Go"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 419,
+    "stars": 420,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 220,
+    "stars": 221,
     "lang": "Rust"
    },
    {
@@ -527,10 +527,10 @@
     "lang": "Python"
    },
    {
-    "title": "Stellar-Sentinel/sentinel-contracts — Soroban contract for authorized Stellar Sentinel flags, configurable thresholds, and latest-flag records.",
-    "url": "https://github.com/Stellar-Sentinel/sentinel-contracts",
-    "stars": 131,
-    "lang": "Rust"
+    "title": "Sightarbreed/1password-download — 1Password — Security SaaS listing. Visit link via SOFTGIT. Third-party; rights belong to original authors.",
+    "url": "https://github.com/Sightarbreed/1password-download",
+    "stars": 135,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -649,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Loupe: An Android Console in the Browser",
+    "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
+    "date": "2026-10-08T21:27:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
     "date": "2026-10-07T13:11:06+00:00",
@@ -694,13 +701,6 @@
     "title": "RCE and bad crypto in Internxt's 'post-quantum' cloud storage",
     "url": "https://www.reddit.com/r/netsec/comments/1wwgdom/rce_and_bad_crypto_in_internxts_postquantum_cloud/",
     "date": "2026-10-03T06:43:58+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A peek into Reddit's anti-spam internals",
-    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
-    "date": "2026-10-03T04:00:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
