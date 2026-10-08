@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T16:36:31.974Z",
+ "generatedAt": "2026-10-08T17:29:14.536Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,98 @@
   ],
   "adv": [
    {
-    "title": "Excelize Decrypt: unrecoverable panics on malformed OLE/CFB encrypted workbooks",
-    "url": "https://github.com/advisories/GHSA-2j4c-ffch-9f23",
-    "score": 7.5,
-    "ghsa": "GHSA-2j4c-ffch-9f23",
-    "date": "2026-10-08T16:31:32Z"
-   },
-   {
-    "title": "Excelize: extractPart allocates attacker-controlled, unbounded and negative-sized buffers from CFB directory entries: remote panic / OOM DoS",
-    "url": "https://github.com/advisories/GHSA-x2q3-8cjh-766f",
-    "score": 7.5,
-    "ghsa": "GHSA-x2q3-8cjh-766f",
-    "date": "2026-10-08T16:31:26Z"
-   },
-   {
-    "title": "Excelize ANCHORARRAY: mutually-referencing array formulas recurse unboundedly via re-entrant CalcCellValue, causing a fatal stack overflow",
-    "url": "https://github.com/advisories/GHSA-wp2g-vpjj-g53r",
-    "score": 7.5,
-    "ghsa": "GHSA-wp2g-vpjj-g53r",
-    "date": "2026-10-08T16:31:21Z"
-   },
-   {
-    "title": "AsyncHttpClient: Digest authentication cnonce generated with a non-cryptographic random source",
-    "url": "https://github.com/advisories/GHSA-mfj3-87qq-382v",
-    "score": 3.7,
-    "ghsa": "GHSA-mfj3-87qq-382v",
-    "date": "2026-10-08T16:31:04Z"
-   },
-   {
-    "title": "AsyncHttpClient: WebSocket proxy credentials sent to the origin server over a CONNECT tunnel",
-    "url": "https://github.com/advisories/GHSA-3wp9-xfwm-rjjf",
-    "score": 5.9,
-    "ghsa": "GHSA-3wp9-xfwm-rjjf",
-    "date": "2026-10-08T16:30:58Z"
-   },
-   {
-    "title": "AsyncHttpClient: Cookie Domain attribute is not checked against the public suffix list, so a cookie can be set for co.uk",
-    "url": "https://github.com/advisories/GHSA-f9m8-cv68-674w",
+    "title": "PraisonAI: PGVector and Cassandra knowledge stores interpolate vector dimensions into DDL",
+    "url": "https://github.com/advisories/GHSA-wf65-4jjx-q444",
     "score": null,
-    "ghsa": "GHSA-f9m8-cv68-674w",
-    "date": "2026-10-08T16:30:53Z"
+    "ghsa": "GHSA-wf65-4jjx-q444",
+    "date": "2026-10-08T17:17:01Z"
    },
    {
-    "title": "AsyncHttpClient: Replay to a different host sends the original host request and credentials to the new host",
-    "url": "https://github.com/advisories/GHSA-jmqq-x5g9-9p2w",
-    "score": 9.5,
-    "ghsa": "GHSA-jmqq-x5g9-9p2w",
-    "date": "2026-10-08T16:30:46Z"
+    "title": "Pydantic AI Web chat UI (`Agent.to_web()`, `clai web`): the local chat endpoint does not validate the `Host` header",
+    "url": "https://github.com/advisories/GHSA-q2xc-rrxj-58x9",
+    "score": 6.4,
+    "ghsa": "GHSA-q2xc-rrxj-58x9",
+    "date": "2026-10-08T17:16:39Z"
    },
    {
-    "title": "AsyncHttpClient: Digest challenge without a usable nonce downgrades to Basic and sends the password in cleartext",
-    "url": "https://github.com/advisories/GHSA-rqf5-2wxv-rjf4",
+    "title": "Pydantic AI Web chat UI (`Agent.to_web()`, `clai web`): a website visited by the developer can trigger agent runs and server-side tool execution on th",
+    "url": "https://github.com/advisories/GHSA-h4xc-3qfq-jf93",
+    "score": 7.6,
+    "ghsa": "GHSA-h4xc-3qfq-jf93",
+    "date": "2026-10-08T17:16:36Z"
+   },
+   {
+    "title": "Pydantic AI OpenTelemetry instrumentation: retry prompt content is not redacted when `include_content=False`",
+    "url": "https://github.com/advisories/GHSA-3gh4-cghq-f8v4",
+    "score": 2,
+    "ghsa": "GHSA-3gh4-cghq-f8v4",
+    "date": "2026-10-08T17:16:32Z"
+   },
+   {
+    "title": "Pydantic AI: Unbounded memory use when downloading remote content via web_fetch or FileUrl",
+    "url": "https://github.com/advisories/GHSA-v2xh-2vp8-57h8",
+    "score": 6.5,
+    "ghsa": "GHSA-v2xh-2vp8-57h8",
+    "date": "2026-10-08T17:16:28Z"
+   },
+   {
+    "title": "Excelize: Unbounded row number in Rows.Columns makes GetRows and the Rows iterator loop for days",
+    "url": "https://github.com/advisories/GHSA-jw42-f3rr-4cc3",
     "score": 7.5,
-    "ghsa": "GHSA-rqf5-2wxv-rjf4",
-    "date": "2026-10-08T16:23:36Z"
+    "ghsa": "GHSA-jw42-f3rr-4cc3",
+    "date": "2026-10-08T16:50:13Z"
    },
    {
-    "title": "github.com/moby/sys/user has a possible DoS via unbounded parsing of user and group database files",
-    "url": "https://github.com/advisories/GHSA-mjcv-p78q-w5fw",
-    "score": 5.5,
-    "ghsa": "GHSA-mjcv-p78q-w5fw",
-    "date": "2026-10-08T16:08:33Z"
-   },
-   {
-    "title": "PraisonAI: Prompt Injection Defense Bypassed for HIGH-Level Threats",
-    "url": "https://github.com/advisories/GHSA-fj8f-m44g-c479",
+    "title": "Excelize: Nil-pointer dereference in GetSlicers when a worksheet has extLst present but no drawing element",
+    "url": "https://github.com/advisories/GHSA-r7x5-4969-99p7",
     "score": 7.5,
-    "ghsa": "GHSA-fj8f-m44g-c479",
-    "date": "2026-10-07T20:43:58Z"
+    "ghsa": "GHSA-r7x5-4969-99p7",
+    "date": "2026-10-08T16:50:08Z"
    },
    {
-    "title": "Ghost: Remote Code Execution via Bookmark Card Images",
-    "url": "https://github.com/advisories/GHSA-788w-68h3-cvxp",
-    "score": 8.8,
-    "ghsa": "GHSA-788w-68h3-cvxp",
-    "date": "2026-10-07T20:43:08Z"
+    "title": "AsyncHttpClient CookieStore Silently Overrides Caller's Explicit Cookie Header via setHeader (Bypass of CVE-2024-53990 Fix)",
+    "url": "https://github.com/advisories/GHSA-2jwh-9rmr-j4xf",
+    "score": 6.8,
+    "ghsa": "GHSA-2jwh-9rmr-j4xf",
+    "date": "2026-10-08T16:50:03Z"
    },
    {
-    "title": "Ghost: Stored XSS via Embed Card Previews",
-    "url": "https://github.com/advisories/GHSA-69qc-f5m6-889c",
-    "score": 7.3,
-    "ghsa": "GHSA-69qc-f5m6-889c",
-    "date": "2026-10-07T20:43:05Z"
+    "title": "AsyncHttpClient: Cookies received over plaintext HTTP can plant, overwrite or delete Secure cookies set over HTTPS",
+    "url": "https://github.com/advisories/GHSA-p2jm-6hj6-9rjg",
+    "score": 6.8,
+    "ghsa": "GHSA-p2jm-6hj6-9rjg",
+    "date": "2026-10-08T16:49:59Z"
+   },
+   {
+    "title": "AsyncHttpClient: Unbounded WebSocket permessage-deflate decompression enables a decompression-bomb denial of service when compression is enabled",
+    "url": "https://github.com/advisories/GHSA-x8v2-478q-2hvg",
+    "score": 7.5,
+    "ghsa": "GHSA-x8v2-478q-2hvg",
+    "date": "2026-10-08T16:49:53Z"
+   },
+   {
+    "title": "AsyncHttpClient: Pooled connections can still be shared across NTLM, Negotiate and proxy logins",
+    "url": "https://github.com/advisories/GHSA-v2j5-22fr-j62r",
+    "score": 7.4,
+    "ghsa": "GHSA-v2j5-22fr-j62r",
+    "date": "2026-10-08T16:49:46Z"
+   },
+   {
+    "title": "PraisonAI: SkillTools Executes Scripts Without Path Containment Validation",
+    "url": "https://github.com/advisories/GHSA-c44f-37qr-gw3f",
+    "score": 8.1,
+    "ghsa": "GHSA-c44f-37qr-gw3f",
+    "date": "2026-10-08T16:49:23Z"
    }
   ],
   "thn": [
+   {
+    "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+    "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+    "date": "Thu, 08 Oct 2026 21:15:56 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
     "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
@@ -292,16 +299,16 @@
     "date": "Wed, 07 Oct 2026 21:04:53 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-    "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-    "date": "Wed, 07 Oct 2026 21:03:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+    "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+    "date": "Thu, 08 Oct 2026 13:10:55 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
@@ -378,13 +385,6 @@
     "date": "Wed, 07 Oct 2026 11:44:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-    "date": "Wed, 07 Oct 2026 11:04:08 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +397,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 615,
+    "stars": 631,
     "lang": "Go"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 502,
+    "stars": 503,
     "lang": "JavaScript"
    },
    {
@@ -421,7 +421,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 395,
+    "stars": 398,
     "lang": "TypeScript"
    },
    {
@@ -445,7 +445,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 202,
+    "stars": 206,
     "lang": "Rust"
    },
    {
@@ -455,10 +455,10 @@
     "lang": "Python"
    },
    {
-    "title": "Stellar-Sentinel/sentinel-backend — Prototype FastAPI service for explainable Stellar account risk scoring and future Soroban event and flag integ",
-    "url": "https://github.com/Stellar-Sentinel/sentinel-backend",
+    "title": "Stellar-Sentinel/sentinel-contracts — Soroban contract for authorized Stellar Sentinel flags, configurable thresholds, and latest-flag records.",
+    "url": "https://github.com/Stellar-Sentinel/sentinel-contracts",
     "stars": 131,
-    "lang": "Python"
+    "lang": "Rust"
    }
   ],
   "hn": [
@@ -563,16 +563,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I found yet another way to invoke JavaScript functions without parentheses",
-    "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
-    "date": "2026-10-08T05:38:09+00:00",
+    "title": "A Single POST Freezes Any Next.js Server",
+    "url": "https://www.reddit.com/r/netsec/comments/1x0v7sw/a_single_post_freezes_any_nextjs_server/",
+    "date": "2026-10-08T16:17:23+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "A Single POST Freezes Any Next.js Server",
-    "url": "https://www.reddit.com/r/netsec/comments/1x0v7sw/a_single_post_freezes_any_nextjs_server/",
-    "date": "2026-10-08T16:17:23+00:00",
+    "title": "I found yet another way to invoke JavaScript functions without parentheses",
+    "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
+    "date": "2026-10-08T05:38:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
