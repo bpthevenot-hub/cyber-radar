@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-10-08T18:38:14.483Z",
+ "generatedAt": "2026-10-08T19:29:36.337Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-61447 — PraisonAI: CodeAgent Executes LLM-Generated Code Without Sandboxing and Leaks All Environment Secrets",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61447",
-    "score": 10,
-    "date": "2026-10-08T16:44:01Z"
-   },
-   {
-    "title": "GHSA-mhgx-w3w5-2rvc — Duplicate Advisory: PraisonAI: CodeAgent Executes LLM-Generated Code Without Sandboxing and Leaks All Environment Secrets",
-    "url": "https://github.com/advisories/GHSA-mhgx-w3w5-2rvc",
-    "score": 10,
-    "date": "2026-07-11T15:30:23Z"
+    "title": "CVE-2026-106446 — Handlebars: JavaScript Injection via AST Type Confusion in compile (bypass of CVE-2026-33937)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106446",
+    "score": 9.8,
+    "date": "2026-10-08T17:52:32Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-107282 — AsyncHttpClient: Replay to a different host sends the original host request and credentials to the new host",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107282",
+    "title": "CVE-2026-106445 — Handlebars: JavaScript Injection via Own Property Check Bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106445",
     "score": 9.5,
-    "date": "2026-10-08T16:30:46Z"
+    "date": "2026-10-08T17:52:26Z"
    },
    {
-    "title": "CVE-2026-61430 — PraisonAI: DNS rebinding bypass in `web_crawl` SSRF protection allows internal response disclosure",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61430",
-    "score": 8.5,
-    "date": "2026-10-08T16:36:50Z"
-   },
-   {
-    "title": "GHSA-92x2-g374-gcvx — Duplicate Advisory: PraisonAI: DNS rebinding bypass in `web_crawl` SSRF protection allows internal response disclosure",
-    "url": "https://github.com/advisories/GHSA-92x2-g374-gcvx",
-    "score": 8.5,
-    "date": "2026-07-15T12:32:03Z"
-   },
-   {
-    "title": "CVE-2026-61446 — PraisonAI: Plugin Auto-Discovery Executes Arbitrary Python Files Without Verification",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61446",
-    "score": 8.4,
-    "date": "2026-10-08T16:44:04Z"
-   },
-   {
-    "title": "GHSA-q359-rmv4-56fg — Duplicate Advisory: PraisonAI: Plugin Auto-Discovery Executes Arbitrary Python Files Without Verification",
-    "url": "https://github.com/advisories/GHSA-q359-rmv4-56fg",
-    "score": 8.4,
-    "date": "2026-07-15T12:32:04Z"
-   },
-   {
-    "title": "CVE-2026-61443 — PraisonAI: SkillTools Executes Scripts Without Path Containment Validation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61443",
-    "score": 8.1,
-    "date": "2026-10-08T16:49:23Z"
-   },
-   {
-    "title": "GHSA-f352-4x87-wmjh — Duplicate Advisory: PraisonAI: SkillTools Executes Scripts Without Path Containment Validation",
-    "url": "https://github.com/advisories/GHSA-f352-4x87-wmjh",
-    "score": 8.1,
-    "date": "2026-07-15T12:32:04Z"
-   },
-   {
-    "title": "CVE-2026-61437 — PraisonAI: Unsafe Dynamic Module Loading Leads to Arbitrary Code Execution via tools.py in AgentFlow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61437",
-    "score": 7.8,
-    "date": "2026-10-08T16:48:57Z"
-   },
-   {
-    "title": "GHSA-c6pq-cprj-62fw — Duplicate Advisory: PraisonAI: Unsafe Dynamic Module Loading Leads to Arbitrary Code Execution via tools.py in AgentFlow",
-    "url": "https://github.com/advisories/GHSA-c6pq-cprj-62fw",
-    "score": 7.8,
-    "date": "2026-07-10T15:31:42Z"
-   },
-   {
-    "title": "CVE-2026-107212 — Excelize: Unbounded row number in Rows.Columns makes GetRows and the Rows iterator loop for days",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107212",
+    "title": "CVE-2026-107377 — datamodel-code-generator: Protobuf weak-import path traversal allows files to be written outside the temporary directory",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107377",
     "score": 7.5,
-    "date": "2026-10-08T16:50:13Z"
+    "date": "2026-10-08T17:58:01Z"
+   },
+   {
+    "title": "CVE-2026-107211 — Excelize: Unchecked pivot-cache field index in extractPivotTableFields causes unrecoverable panic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107211",
+    "score": 7.5,
+    "date": "2026-10-08T17:52:17Z"
+   },
+   {
+    "title": "GHSA-3c6w-j9xm-8h2h — Coraza: Unbounded recursion in JSON response body processor causes CPU exhaustion",
+    "url": "https://github.com/advisories/GHSA-3c6w-j9xm-8h2h",
+    "score": 5.9,
+    "date": "2026-10-08T17:51:42Z"
+   },
+   {
+    "title": "GHSA-w253-m66g-rx24 — Coraza: URL-encoded form Content-Type parameters bypass Coraza body inspection",
+    "url": "https://github.com/advisories/GHSA-w253-m66g-rx24",
+    "score": 5.8,
+    "date": "2026-10-08T17:51:53Z"
+   },
+   {
+    "title": "CVE-2026-61431 — PraisonAI: ContextGatherer include resolution permits absolute and traversal reads outside the workspace",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61431",
+    "score": 5.5,
+    "date": "2026-10-08T17:58:30Z"
+   },
+   {
+    "title": "CVE-2026-60088 — PraisonAI: Project custom command templates can read outside-workspace files into model prompts",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60088",
+    "score": 5.5,
+    "date": "2026-10-08T17:57:49Z"
+   },
+   {
+    "title": "GHSA-wgvq-3jxh-4qg7 — Duplicate Advisory: PraisonAI: Project custom command templates can read outside-workspace files into model prompts",
+    "url": "https://github.com/advisories/GHSA-wgvq-3jxh-4qg7",
+    "score": 5.5,
+    "date": "2026-07-11T15:30:23Z"
+   },
+   {
+    "title": "GHSA-w37c-cq55-frjp — Duplicate Advisory: PraisonAI: ContextGatherer include resolution permits absolute and traversal reads outside the workspace",
+    "url": "https://github.com/advisories/GHSA-w37c-cq55-frjp",
+    "score": 5.5,
+    "date": "2026-07-10T15:31:41Z"
+   },
+   {
+    "title": "GHSA-rp9v-7xv3-r6g3 — Coraza: Resource exhaustion via deferred file handle accumulation in multipart body processor",
+    "url": "https://github.com/advisories/GHSA-rp9v-7xv3-r6g3",
+    "score": 5.3,
+    "date": "2026-10-08T17:52:00Z"
+   },
+   {
+    "title": "CVE-2026-106119 — LangChain: MongoDBChatMessageHistory query injection can allow cross-session access",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106119",
+    "score": 5,
+    "date": "2026-10-08T17:52:22Z"
    }
   ],
   "kev": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+    "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+    "date": "Fri, 09 Oct 2026 00:02:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+    "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+    "date": "Thu, 08 Oct 2026 23:28:02 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
     "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
     "date": "Thu, 08 Oct 2026 21:15:56 +0530",
@@ -357,23 +371,16 @@
     "date": "Wed, 07 Oct 2026 23:13:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-    "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-    "date": "Wed, 07 Oct 2026 21:47:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-    "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-    "date": "Wed, 07 Oct 2026 21:04:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Low-cost Android phones ship with residential proxy malware",
+    "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+    "date": "Thu, 08 Oct 2026 15:20:33 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
     "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
@@ -450,13 +457,6 @@
     "date": "Wed, 07 Oct 2026 16:50:13 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft Outlook to block MSIX attachments starting November",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-    "date": "Wed, 07 Oct 2026 11:44:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +469,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 646,
+    "stars": 656,
     "lang": "Go"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 505,
+    "stars": 507,
     "lang": "JavaScript"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 409,
+    "stars": 416,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "XiantingWu/PQCensus — Evidence-grounded cryptographic inventory and post-quantum migration planning for software repositories. Local",
     "url": "https://github.com/XiantingWu/PQCensus",
-    "stars": 298,
+    "stars": 299,
     "lang": "Python"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 214,
+    "stars": 216,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1739,
   "adv": 12,
   "feed": 48
