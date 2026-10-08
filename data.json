@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-08T17:29:14.536Z",
+ "generatedAt": "2026-10-08T18:38:14.483Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-61447 — PraisonAI: CodeAgent Executes LLM-Generated Code Without Sandboxing and Leaks All Environment Secrets",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61447",
+    "score": 10,
+    "date": "2026-10-08T16:44:01Z"
+   },
+   {
+    "title": "GHSA-mhgx-w3w5-2rvc — Duplicate Advisory: PraisonAI: CodeAgent Executes LLM-Generated Code Without Sandboxing and Leaks All Environment Secrets",
+    "url": "https://github.com/advisories/GHSA-mhgx-w3w5-2rvc",
+    "score": 10,
+    "date": "2026-07-11T15:30:23Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-107282 — AsyncHttpClient: Replay to a different host sends the original host request and credentials to the new host",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107282",
+    "score": 9.5,
+    "date": "2026-10-08T16:30:46Z"
+   },
+   {
+    "title": "CVE-2026-61430 — PraisonAI: DNS rebinding bypass in `web_crawl` SSRF protection allows internal response disclosure",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61430",
+    "score": 8.5,
+    "date": "2026-10-08T16:36:50Z"
+   },
+   {
+    "title": "GHSA-92x2-g374-gcvx — Duplicate Advisory: PraisonAI: DNS rebinding bypass in `web_crawl` SSRF protection allows internal response disclosure",
+    "url": "https://github.com/advisories/GHSA-92x2-g374-gcvx",
+    "score": 8.5,
+    "date": "2026-07-15T12:32:03Z"
+   },
+   {
+    "title": "CVE-2026-61446 — PraisonAI: Plugin Auto-Discovery Executes Arbitrary Python Files Without Verification",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61446",
+    "score": 8.4,
+    "date": "2026-10-08T16:44:04Z"
+   },
+   {
+    "title": "GHSA-q359-rmv4-56fg — Duplicate Advisory: PraisonAI: Plugin Auto-Discovery Executes Arbitrary Python Files Without Verification",
+    "url": "https://github.com/advisories/GHSA-q359-rmv4-56fg",
+    "score": 8.4,
+    "date": "2026-07-15T12:32:04Z"
+   },
+   {
+    "title": "CVE-2026-61443 — PraisonAI: SkillTools Executes Scripts Without Path Containment Validation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61443",
+    "score": 8.1,
+    "date": "2026-10-08T16:49:23Z"
+   },
+   {
+    "title": "GHSA-f352-4x87-wmjh — Duplicate Advisory: PraisonAI: SkillTools Executes Scripts Without Path Containment Validation",
+    "url": "https://github.com/advisories/GHSA-f352-4x87-wmjh",
+    "score": 8.1,
+    "date": "2026-07-15T12:32:04Z"
+   },
+   {
+    "title": "CVE-2026-61437 — PraisonAI: Unsafe Dynamic Module Loading Leads to Arbitrary Code Execution via tools.py in AgentFlow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61437",
+    "score": 7.8,
+    "date": "2026-10-08T16:48:57Z"
+   },
+   {
+    "title": "GHSA-c6pq-cprj-62fw — Duplicate Advisory: PraisonAI: Unsafe Dynamic Module Loading Leads to Arbitrary Code Execution via tools.py in AgentFlow",
+    "url": "https://github.com/advisories/GHSA-c6pq-cprj-62fw",
+    "score": 7.8,
+    "date": "2026-07-10T15:31:42Z"
+   },
+   {
+    "title": "CVE-2026-107212 — Excelize: Unbounded row number in Rows.Columns makes GetRows and the Rows iterator loop for days",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107212",
+    "score": 7.5,
+    "date": "2026-10-08T16:50:13Z"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "PraisonAI: PGVector and Cassandra knowledge stores interpolate vector dimensions into DDL",
-    "url": "https://github.com/advisories/GHSA-wf65-4jjx-q444",
+    "title": "PraisonAI: ContextGatherer include resolution permits absolute and traversal reads outside the workspace",
+    "url": "https://github.com/advisories/GHSA-q7m5-3jmv-vm48",
+    "score": 5.5,
+    "ghsa": "GHSA-q7m5-3jmv-vm48",
+    "date": "2026-10-08T17:58:30Z"
+   },
+   {
+    "title": "datamodel-code-generator: Protobuf weak-import path traversal allows files to be written outside the temporary directory",
+    "url": "https://github.com/advisories/GHSA-77xj-x4rm-935c",
+    "score": 7.5,
+    "ghsa": "GHSA-77xj-x4rm-935c",
+    "date": "2026-10-08T17:58:01Z"
+   },
+   {
+    "title": "PraisonAI: Project custom command templates can read outside-workspace files into model prompts",
+    "url": "https://github.com/advisories/GHSA-xpx6-x8c2-mw5w",
+    "score": 5.5,
+    "ghsa": "GHSA-xpx6-x8c2-mw5w",
+    "date": "2026-10-08T17:57:49Z"
+   },
+   {
+    "title": "Handlebars: JavaScript Injection via Unsafe Inline Embedding of Precompiled Templates",
+    "url": "https://github.com/advisories/GHSA-xw65-4hp5-5hc7",
+    "score": 4.7,
+    "ghsa": "GHSA-xw65-4hp5-5hc7",
+    "date": "2026-10-08T17:52:37Z"
+   },
+   {
+    "title": "Handlebars: JavaScript Injection via AST Type Confusion in compile (bypass of CVE-2026-33937)",
+    "url": "https://github.com/advisories/GHSA-8r5x-fm3f-whwj",
+    "score": 9.8,
+    "ghsa": "GHSA-8r5x-fm3f-whwj",
+    "date": "2026-10-08T17:52:32Z"
+   },
+   {
+    "title": "Handlebars: JavaScript Injection via Own Property Check Bypass",
+    "url": "https://github.com/advisories/GHSA-p8wg-vrv2-v86f",
+    "score": 9.5,
+    "ghsa": "GHSA-p8wg-vrv2-v86f",
+    "date": "2026-10-08T17:52:26Z"
+   },
+   {
+    "title": "LangChain: MongoDBChatMessageHistory query injection can allow cross-session access",
+    "url": "https://github.com/advisories/GHSA-m6rx-h84q-8r95",
     "score": null,
-    "ghsa": "GHSA-wf65-4jjx-q444",
-    "date": "2026-10-08T17:17:01Z"
+    "ghsa": "GHSA-m6rx-h84q-8r95",
+    "date": "2026-10-08T17:52:22Z"
    },
    {
-    "title": "Pydantic AI Web chat UI (`Agent.to_web()`, `clai web`): the local chat endpoint does not validate the `Host` header",
-    "url": "https://github.com/advisories/GHSA-q2xc-rrxj-58x9",
-    "score": 6.4,
-    "ghsa": "GHSA-q2xc-rrxj-58x9",
-    "date": "2026-10-08T17:16:39Z"
-   },
-   {
-    "title": "Pydantic AI Web chat UI (`Agent.to_web()`, `clai web`): a website visited by the developer can trigger agent runs and server-side tool execution on th",
-    "url": "https://github.com/advisories/GHSA-h4xc-3qfq-jf93",
-    "score": 7.6,
-    "ghsa": "GHSA-h4xc-3qfq-jf93",
-    "date": "2026-10-08T17:16:36Z"
-   },
-   {
-    "title": "Pydantic AI OpenTelemetry instrumentation: retry prompt content is not redacted when `include_content=False`",
-    "url": "https://github.com/advisories/GHSA-3gh4-cghq-f8v4",
-    "score": 2,
-    "ghsa": "GHSA-3gh4-cghq-f8v4",
-    "date": "2026-10-08T17:16:32Z"
-   },
-   {
-    "title": "Pydantic AI: Unbounded memory use when downloading remote content via web_fetch or FileUrl",
-    "url": "https://github.com/advisories/GHSA-v2xh-2vp8-57h8",
-    "score": 6.5,
-    "ghsa": "GHSA-v2xh-2vp8-57h8",
-    "date": "2026-10-08T17:16:28Z"
-   },
-   {
-    "title": "Excelize: Unbounded row number in Rows.Columns makes GetRows and the Rows iterator loop for days",
-    "url": "https://github.com/advisories/GHSA-jw42-f3rr-4cc3",
+    "title": "Excelize: Unchecked pivot-cache field index in extractPivotTableFields causes unrecoverable panic",
+    "url": "https://github.com/advisories/GHSA-mx22-3794-2vpv",
     "score": 7.5,
-    "ghsa": "GHSA-jw42-f3rr-4cc3",
-    "date": "2026-10-08T16:50:13Z"
+    "ghsa": "GHSA-mx22-3794-2vpv",
+    "date": "2026-10-08T17:52:17Z"
    },
    {
-    "title": "Excelize: Nil-pointer dereference in GetSlicers when a worksheet has extLst present but no drawing element",
-    "url": "https://github.com/advisories/GHSA-r7x5-4969-99p7",
-    "score": 7.5,
-    "ghsa": "GHSA-r7x5-4969-99p7",
-    "date": "2026-10-08T16:50:08Z"
+    "title": "Coraza: Resource exhaustion via deferred file handle accumulation in multipart body processor",
+    "url": "https://github.com/advisories/GHSA-rp9v-7xv3-r6g3",
+    "score": 5.3,
+    "ghsa": "GHSA-rp9v-7xv3-r6g3",
+    "date": "2026-10-08T17:52:00Z"
    },
    {
-    "title": "AsyncHttpClient CookieStore Silently Overrides Caller's Explicit Cookie Header via setHeader (Bypass of CVE-2024-53990 Fix)",
-    "url": "https://github.com/advisories/GHSA-2jwh-9rmr-j4xf",
-    "score": 6.8,
-    "ghsa": "GHSA-2jwh-9rmr-j4xf",
-    "date": "2026-10-08T16:50:03Z"
+    "title": "Coraza: URL-encoded form Content-Type parameters bypass Coraza body inspection",
+    "url": "https://github.com/advisories/GHSA-w253-m66g-rx24",
+    "score": 5.8,
+    "ghsa": "GHSA-w253-m66g-rx24",
+    "date": "2026-10-08T17:51:53Z"
    },
    {
-    "title": "AsyncHttpClient: Cookies received over plaintext HTTP can plant, overwrite or delete Secure cookies set over HTTPS",
-    "url": "https://github.com/advisories/GHSA-p2jm-6hj6-9rjg",
-    "score": 6.8,
-    "ghsa": "GHSA-p2jm-6hj6-9rjg",
-    "date": "2026-10-08T16:49:59Z"
+    "title": "Coraza: Unbounded recursion in JSON response body processor causes CPU exhaustion",
+    "url": "https://github.com/advisories/GHSA-3c6w-j9xm-8h2h",
+    "score": 5.9,
+    "ghsa": "GHSA-3c6w-j9xm-8h2h",
+    "date": "2026-10-08T17:51:42Z"
    },
    {
-    "title": "AsyncHttpClient: Unbounded WebSocket permessage-deflate decompression enables a decompression-bomb denial of service when compression is enabled",
-    "url": "https://github.com/advisories/GHSA-x8v2-478q-2hvg",
-    "score": 7.5,
-    "ghsa": "GHSA-x8v2-478q-2hvg",
-    "date": "2026-10-08T16:49:53Z"
-   },
-   {
-    "title": "AsyncHttpClient: Pooled connections can still be shared across NTLM, Negotiate and proxy logins",
-    "url": "https://github.com/advisories/GHSA-v2j5-22fr-j62r",
-    "score": 7.4,
-    "ghsa": "GHSA-v2j5-22fr-j62r",
-    "date": "2026-10-08T16:49:46Z"
-   },
-   {
-    "title": "PraisonAI: SkillTools Executes Scripts Without Path Containment Validation",
-    "url": "https://github.com/advisories/GHSA-c44f-37qr-gw3f",
-    "score": 8.1,
-    "ghsa": "GHSA-c44f-37qr-gw3f",
-    "date": "2026-10-08T16:49:23Z"
+    "title": "Coraza: Multipart filename* (RFC 5987) charset restriction lets a decoy filename bypass FILES-based rules",
+    "url": "https://github.com/advisories/GHSA-3wr7-993q-jrff",
+    "score": 4,
+    "ghsa": "GHSA-3wr7-993q-jrff",
+    "date": "2026-10-08T17:51:36Z"
    }
   ],
   "thn": [
@@ -391,19 +463,19 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 661,
+    "stars": 662,
     "lang": "Python"
    },
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 631,
+    "stars": 646,
     "lang": "Go"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 503,
+    "stars": 505,
     "lang": "JavaScript"
    },
    {
@@ -413,16 +485,16 @@
     "lang": "TypeScript"
    },
    {
+    "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
+    "url": "https://github.com/openqodex/openqodex",
+    "stars": 409,
+    "lang": "TypeScript"
+   },
+   {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
     "stars": 405,
     "lang": "C++"
-   },
-   {
-    "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
-    "url": "https://github.com/openqodex/openqodex",
-    "stars": 398,
-    "lang": "TypeScript"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
@@ -445,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 206,
+    "stars": 214,
     "lang": "Rust"
    },
    {
@@ -645,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1734,
+  "crit": 5,
+  "kev": 1739,
   "adv": 12,
   "feed": 48
  },
