@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T15:32:40.583Z",
+ "generatedAt": "2026-10-08T16:36:31.974Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,69 @@
   ],
   "adv": [
    {
+    "title": "Excelize Decrypt: unrecoverable panics on malformed OLE/CFB encrypted workbooks",
+    "url": "https://github.com/advisories/GHSA-2j4c-ffch-9f23",
+    "score": 7.5,
+    "ghsa": "GHSA-2j4c-ffch-9f23",
+    "date": "2026-10-08T16:31:32Z"
+   },
+   {
+    "title": "Excelize: extractPart allocates attacker-controlled, unbounded and negative-sized buffers from CFB directory entries: remote panic / OOM DoS",
+    "url": "https://github.com/advisories/GHSA-x2q3-8cjh-766f",
+    "score": 7.5,
+    "ghsa": "GHSA-x2q3-8cjh-766f",
+    "date": "2026-10-08T16:31:26Z"
+   },
+   {
+    "title": "Excelize ANCHORARRAY: mutually-referencing array formulas recurse unboundedly via re-entrant CalcCellValue, causing a fatal stack overflow",
+    "url": "https://github.com/advisories/GHSA-wp2g-vpjj-g53r",
+    "score": 7.5,
+    "ghsa": "GHSA-wp2g-vpjj-g53r",
+    "date": "2026-10-08T16:31:21Z"
+   },
+   {
+    "title": "AsyncHttpClient: Digest authentication cnonce generated with a non-cryptographic random source",
+    "url": "https://github.com/advisories/GHSA-mfj3-87qq-382v",
+    "score": 3.7,
+    "ghsa": "GHSA-mfj3-87qq-382v",
+    "date": "2026-10-08T16:31:04Z"
+   },
+   {
+    "title": "AsyncHttpClient: WebSocket proxy credentials sent to the origin server over a CONNECT tunnel",
+    "url": "https://github.com/advisories/GHSA-3wp9-xfwm-rjjf",
+    "score": 5.9,
+    "ghsa": "GHSA-3wp9-xfwm-rjjf",
+    "date": "2026-10-08T16:30:58Z"
+   },
+   {
+    "title": "AsyncHttpClient: Cookie Domain attribute is not checked against the public suffix list, so a cookie can be set for co.uk",
+    "url": "https://github.com/advisories/GHSA-f9m8-cv68-674w",
+    "score": null,
+    "ghsa": "GHSA-f9m8-cv68-674w",
+    "date": "2026-10-08T16:30:53Z"
+   },
+   {
+    "title": "AsyncHttpClient: Replay to a different host sends the original host request and credentials to the new host",
+    "url": "https://github.com/advisories/GHSA-jmqq-x5g9-9p2w",
+    "score": 9.5,
+    "ghsa": "GHSA-jmqq-x5g9-9p2w",
+    "date": "2026-10-08T16:30:46Z"
+   },
+   {
+    "title": "AsyncHttpClient: Digest challenge without a usable nonce downgrades to Basic and sends the password in cleartext",
+    "url": "https://github.com/advisories/GHSA-rqf5-2wxv-rjf4",
+    "score": 7.5,
+    "ghsa": "GHSA-rqf5-2wxv-rjf4",
+    "date": "2026-10-08T16:23:36Z"
+   },
+   {
+    "title": "github.com/moby/sys/user has a possible DoS via unbounded parsing of user and group database files",
+    "url": "https://github.com/advisories/GHSA-mjcv-p78q-w5fw",
+    "score": 5.5,
+    "ghsa": "GHSA-mjcv-p78q-w5fw",
+    "date": "2026-10-08T16:08:33Z"
+   },
+   {
     "title": "PraisonAI: Prompt Injection Defense Bypassed for HIGH-Level Threats",
     "url": "https://github.com/advisories/GHSA-fj8f-m44g-c479",
     "score": 7.5,
@@ -150,69 +213,6 @@
     "score": 7.3,
     "ghsa": "GHSA-69qc-f5m6-889c",
     "date": "2026-10-07T20:43:05Z"
-   },
-   {
-    "title": "Ghost : Stored XSS via SVG Files in Content Imports",
-    "url": "https://github.com/advisories/GHSA-hqq2-xqr2-fmx2",
-    "score": 6.8,
-    "ghsa": "GHSA-hqq2-xqr2-fmx2",
-    "date": "2026-10-07T20:43:03Z"
-   },
-   {
-    "title": "Ghost: Regular Expression Denial of Service in External Media Inliner",
-    "url": "https://github.com/advisories/GHSA-9m4w-fmjw-fvjq",
-    "score": 4.9,
-    "ghsa": "GHSA-9m4w-fmjw-fvjq",
-    "date": "2026-10-07T20:43:00Z"
-   },
-   {
-    "title": "Ghost: Regular Expression Denial of Service in Content Import",
-    "url": "https://github.com/advisories/GHSA-fwh9-qg68-vxp4",
-    "score": 4.9,
-    "ghsa": "GHSA-fwh9-qg68-vxp4",
-    "date": "2026-10-07T20:42:53Z"
-   },
-   {
-    "title": "RabbitMQ: JSONReader in the default JSON-RPC mapper never terminates on truncated input, causing DoS",
-    "url": "https://github.com/advisories/GHSA-cqgh-8p3p-mx4m",
-    "score": 4.9,
-    "ghsa": "GHSA-cqgh-8p3p-mx4m",
-    "date": "2026-10-07T20:42:33Z"
-   },
-   {
-    "title": "Docling: Configured HTTP headers sent to every remote image host named by a document",
-    "url": "https://github.com/advisories/GHSA-p3fw-7699-7926",
-    "score": 3.7,
-    "ghsa": "GHSA-p3fw-7699-7926",
-    "date": "2026-10-07T20:42:24Z"
-   },
-   {
-    "title": "Docling has SSRF guard bypass in remote resource fetching (DNS rebinding / multi-record resolution; no IP validation in HTML render mode)",
-    "url": "https://github.com/advisories/GHSA-pc36-qwjq-x68c",
-    "score": 4,
-    "ghsa": "GHSA-pc36-qwjq-x68c",
-    "date": "2026-10-07T20:42:19Z"
-   },
-   {
-    "title": "Docling has arbitrary file read/write (and command execution when shell-escape is enabled) when rendering untrusted TikZ with the opt-in Tectonic engi",
-    "url": "https://github.com/advisories/GHSA-x3q2-h9hx-4r4j",
-    "score": 7.5,
-    "ghsa": "GHSA-x3q2-h9hx-4r4j",
-    "date": "2026-10-07T20:42:05Z"
-   },
-   {
-    "title": "Docling: Crafted DoclingDocument JSON embeds local image files into converted output",
-    "url": "https://github.com/advisories/GHSA-p944-4xh2-x776",
-    "score": 4.3,
-    "ghsa": "GHSA-p944-4xh2-x776",
-    "date": "2026-10-07T20:41:08Z"
-   },
-   {
-    "title": "Docling: Unbounded table rowspan/colspan in HTML, JATS, ODS and BoxNote backends causes CPU/memory exhaustion",
-    "url": "https://github.com/advisories/GHSA-cgc7-9qp3-86m3",
-    "score": 6.5,
-    "ghsa": "GHSA-cgc7-9qp3-86m3",
-    "date": "2026-10-07T20:41:02Z"
    }
   ],
   "thn": [
@@ -397,7 +397,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 601,
+    "stars": 615,
     "lang": "Go"
    },
    {
@@ -421,7 +421,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 381,
+    "stars": 395,
     "lang": "TypeScript"
    },
    {
@@ -445,7 +445,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 190,
+    "stars": 202,
     "lang": "Rust"
    },
    {
@@ -455,10 +455,10 @@
     "lang": "Python"
    },
    {
-    "title": "Stellar-Sentinel/sentinel-contracts — Soroban contract for Stellar Sentinel: authorized monitoring agents, configurable risk threshold, and anomaly ",
-    "url": "https://github.com/Stellar-Sentinel/sentinel-contracts",
+    "title": "Stellar-Sentinel/sentinel-backend — Prototype FastAPI service for explainable Stellar account risk scoring and future Soroban event and flag integ",
+    "url": "https://github.com/Stellar-Sentinel/sentinel-backend",
     "stars": 131,
-    "lang": "Rust"
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -570,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A Single POST Freezes Any Next.js Server",
+    "url": "https://www.reddit.com/r/netsec/comments/1x0v7sw/a_single_post_freezes_any_nextjs_server/",
+    "date": "2026-10-08T16:17:23+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
     "date": "2026-10-07T13:11:06+00:00",
@@ -622,13 +629,6 @@
     "title": "A peek into Reddit's anti-spam internals",
     "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
     "date": "2026-10-03T04:00:52+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
-    "date": "2026-10-02T16:50:08+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
