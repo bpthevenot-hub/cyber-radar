@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T21:30:11.104Z",
+ "generatedAt": "2026-10-08T22:30:47.439Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-61435 — PraisonAI: Call API localhost-only authentication bypass via spoofed Host header",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61435",
-    "score": 8.2,
-    "date": "2026-10-08T19:36:26Z"
-   },
-   {
-    "title": "GHSA-gp65-m7q3-4vjw — Duplicate Advisory: PraisonAI: Call API localhost-only authentication bypass via spoofed Host header",
-    "url": "https://github.com/advisories/GHSA-gp65-m7q3-4vjw",
-    "score": 8.2,
-    "date": "2026-07-15T12:32:03Z"
-   },
-   {
-    "title": "CVE-2026-107384 — MariaDB Connector/Node.js: SQL injection through object keys in SET expansion (permitSetMultiParamEntries)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107384",
-    "score": 8.1,
-    "date": "2026-10-08T19:42:23Z"
-   },
-   {
-    "title": "CVE-2026-61433 — PraisonAI: API deploy code generator embeds unescaped YAML fields into Python source",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-61433",
-    "score": 7.8,
-    "date": "2026-10-08T19:36:29Z"
-   },
-   {
-    "title": "GHSA-qpq9-hwx9-cwgc — Duplicate Advisory: PraisonAI: API deploy code generator embeds unescaped YAML fields into Python source",
-    "url": "https://github.com/advisories/GHSA-qpq9-hwx9-cwgc",
-    "score": 7.8,
-    "date": "2026-07-15T12:32:03Z"
-   },
-   {
-    "title": "CVE-2026-107286 — Pydantic AI: Concurrency-limited models can keep their slot when a streamed request ends early",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107286",
-    "score": 7.5,
-    "date": "2026-10-08T19:42:55Z"
-   },
-   {
-    "title": "CVE-2026-107383 — MariaDB Connector/Node.js exposes uninitialized process memory through malformed GeoJSON parameters",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107383",
-    "score": 7.5,
-    "date": "2026-10-08T19:42:11Z"
-   },
-   {
-    "title": "CVE-2026-107378 — CairoSVG: Quadratic-time DoS parsing a crafted SVG <path>",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107378",
-    "score": 7.5,
-    "date": "2026-10-08T19:41:22Z"
-   },
-   {
-    "title": "CVE-2026-107385 — MariaDB Connector/Node.js: SQL injection in the text protocol when the session uses NO_BACKSLASH_ESCAPES",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107385",
-    "score": 7.4,
-    "date": "2026-10-08T19:42:28Z"
-   },
-   {
-    "title": "CVE-2026-107381 — svg-sanitizer: Mixed-case xlink:HrEf skips the `<use>` nesting-DoS check in Resolver::processReferences",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107381",
-    "score": 6.5,
-    "date": "2026-10-08T19:41:10Z"
-   },
-   {
-    "title": "CVE-2026-107379 — enshrined/svg-sanitize: Denial of Service via DTD Attribute Declaration Crash",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107379",
-    "score": 6.5,
-    "date": "2026-10-08T19:41:05Z"
-   },
-   {
-    "title": "CVE-2026-107391 — music-metadata: MP4 stsd sample-entry size==0 causes a synchronous infinite loop (DoS) — unreleased regression on master",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107391",
-    "score": 6.2,
-    "date": "2026-10-08T19:43:25Z"
    }
   ],
   "kev": [
@@ -203,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "music-metadata: MP4 stsd sample-entry size==0 causes a synchronous infinite loop (DoS) — unreleased regression on master",
-    "url": "https://github.com/advisories/GHSA-f94x-6692-553q",
-    "score": 6.2,
-    "ghsa": "GHSA-f94x-6692-553q",
-    "date": "2026-10-08T19:43:25Z"
+    "title": "fast-jwt: Verifier cache accepts expired JWTs without iat.",
+    "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
+    "score": 4.2,
+    "ghsa": "GHSA-x937-hj6v-793p",
+    "date": "2026-10-08T22:10:35Z"
    },
    {
-    "title": "music-metadata: Uncontrolled memory allocation in APEv2 parser",
-    "url": "https://github.com/advisories/GHSA-53v6-4h7p-p4gj",
-    "score": 6.2,
-    "ghsa": "GHSA-53v6-4h7p-p4gj",
-    "date": "2026-10-08T19:43:22Z"
+    "title": "Hazelcast allows arbitrary member memory access by low-privileged client",
+    "url": "https://github.com/advisories/GHSA-6v25-8wq6-xq4j",
+    "score": 9.5,
+    "ghsa": "GHSA-6v25-8wq6-xq4j",
+    "date": "2026-10-08T22:10:29Z"
    },
    {
-    "title": "music-metadata: ID3v2 tag size not validated before allocation, causing memory exhaustion DoS",
-    "url": "https://github.com/advisories/GHSA-jjpr-9cvf-cq55",
-    "score": 6.2,
-    "ghsa": "GHSA-jjpr-9cvf-cq55",
-    "date": "2026-10-08T19:43:17Z"
+    "title": "Banks: Symlink traversal and arbitrary file disclosure/overwrite in DirectoryPromptRegistry",
+    "url": "https://github.com/advisories/GHSA-556j-vv39-8rqv",
+    "score": null,
+    "ghsa": "GHSA-556j-vv39-8rqv",
+    "date": "2026-10-08T22:10:07Z"
    },
    {
-    "title": "music-metadata: EBML parser trusts element lengths, allowing memory exhaustion or process abort",
-    "url": "https://github.com/advisories/GHSA-5gfj-9q3v-qfp3",
-    "score": 6.2,
-    "ghsa": "GHSA-5gfj-9q3v-qfp3",
-    "date": "2026-10-08T19:43:09Z"
-   },
-   {
-    "title": "Pydantic AI: Concurrency-limited models can keep their slot when a streamed request ends early",
-    "url": "https://github.com/advisories/GHSA-6fqq-452j-qhrp",
-    "score": 7.5,
-    "ghsa": "GHSA-6fqq-452j-qhrp",
-    "date": "2026-10-08T19:42:55Z"
-   },
-   {
-    "title": "MariaDB Connector/Node.js: SQL injection in the text protocol when the session uses NO_BACKSLASH_ESCAPES",
-    "url": "https://github.com/advisories/GHSA-r3rv-jm3r-62q2",
-    "score": 7.4,
-    "ghsa": "GHSA-r3rv-jm3r-62q2",
-    "date": "2026-10-08T19:42:28Z"
-   },
-   {
-    "title": "MariaDB Connector/Node.js: SQL injection through object keys in SET expansion (permitSetMultiParamEntries)",
-    "url": "https://github.com/advisories/GHSA-v6pj-gxxw-phfw",
-    "score": 8.1,
-    "ghsa": "GHSA-v6pj-gxxw-phfw",
-    "date": "2026-10-08T19:42:23Z"
-   },
-   {
-    "title": "MariaDB Connector/Node.js exposes uninitialized process memory through malformed GeoJSON parameters",
-    "url": "https://github.com/advisories/GHSA-48qf-xh34-q73r",
-    "score": 7.5,
-    "ghsa": "GHSA-48qf-xh34-q73r",
-    "date": "2026-10-08T19:42:11Z"
-   },
-   {
-    "title": "MariaDB Connector/Node.js: Uncaught exception crashes the client during ed25519 authentication with zero-configuration TLS",
-    "url": "https://github.com/advisories/GHSA-cx2f-j9fh-8g68",
-    "score": 5.9,
-    "ghsa": "GHSA-cx2f-j9fh-8g68",
-    "date": "2026-10-08T19:42:04Z"
-   },
-   {
-    "title": "CairoSVG: Quadratic-time DoS parsing a crafted SVG <path>",
-    "url": "https://github.com/advisories/GHSA-c3jg-qh8m-j3h2",
-    "score": 7.5,
-    "ghsa": "GHSA-c3jg-qh8m-j3h2",
-    "date": "2026-10-08T19:41:22Z"
-   },
-   {
-    "title": "enshrined/svg-sanitize: Stored XSS via DTD Entity / HTML5 Named Character Reference Collision",
-    "url": "https://github.com/advisories/GHSA-9rjx-3jch-6vjf",
-    "score": 5.4,
-    "ghsa": "GHSA-9rjx-3jch-6vjf",
-    "date": "2026-10-08T19:41:15Z"
-   },
-   {
-    "title": "svg-sanitizer: Mixed-case xlink:HrEf skips the `<use>` nesting-DoS check in Resolver::processReferences",
-    "url": "https://github.com/advisories/GHSA-m9xh-6747-9r6f",
+    "title": "Banks: User-controlled prompt input can be parsed as privileged chat messages",
+    "url": "https://github.com/advisories/GHSA-hmq2-7hp6-7crh",
     "score": 6.5,
-    "ghsa": "GHSA-m9xh-6747-9r6f",
-    "date": "2026-10-08T19:41:10Z"
+    "ghsa": "GHSA-hmq2-7hp6-7crh",
+    "date": "2026-10-08T22:10:01Z"
+   },
+   {
+    "title": "Indico: Incomplete Server-Side Request Forgery (SSRF) check",
+    "url": "https://github.com/advisories/GHSA-2v95-h47v-g4x9",
+    "score": 6.8,
+    "ghsa": "GHSA-2v95-h47v-g4x9",
+    "date": "2026-10-08T22:09:55Z"
+   },
+   {
+    "title": "Indico: Missing access check in legacy session export API",
+    "url": "https://github.com/advisories/GHSA-6p4f-j8j6-463q",
+    "score": 4.3,
+    "ghsa": "GHSA-6p4f-j8j6-463q",
+    "date": "2026-10-08T22:09:49Z"
+   },
+   {
+    "title": "Indico: Cross-Site-Scripting in minutes editor",
+    "url": "https://github.com/advisories/GHSA-cw24-x4mj-fw3q",
+    "score": 4.4,
+    "ghsa": "GHSA-cw24-x4mj-fw3q",
+    "date": "2026-10-08T22:09:45Z"
+   },
+   {
+    "title": "Indico: Cross-Site-Scripting in link fields",
+    "url": "https://github.com/advisories/GHSA-c4wc-ggrj-jg9v",
+    "score": 5.4,
+    "ghsa": "GHSA-c4wc-ggrj-jg9v",
+    "date": "2026-10-08T22:09:41Z"
+   },
+   {
+    "title": "Hazelcast has an authorization bypass in IMap Predicates API",
+    "url": "https://github.com/advisories/GHSA-w294-6q5q-53p8",
+    "score": 7.5,
+    "ghsa": "GHSA-w294-6q5q-53p8",
+    "date": "2026-10-08T22:09:34Z"
+   },
+   {
+    "title": "AdonisJS: Unencoded route parameters can produce open redirects",
+    "url": "https://github.com/advisories/GHSA-2m6q-8v3h-jqww",
+    "score": 6.1,
+    "ghsa": "GHSA-2m6q-8v3h-jqww",
+    "date": "2026-10-08T22:09:06Z"
+   },
+   {
+    "title": "Mechanize sends credential headers to another origin after a meta refresh",
+    "url": "https://github.com/advisories/GHSA-c6rp-p8xm-4q9f",
+    "score": 6.8,
+    "ghsa": "GHSA-c6rp-p8xm-4q9f",
+    "date": "2026-10-08T22:09:03Z"
+   },
+   {
+    "title": "Mechanize sends credential headers to another host after an HTTP redirect",
+    "url": "https://github.com/advisories/GHSA-2mwr-xjcg-37j7",
+    "score": 6.8,
+    "ghsa": "GHSA-2mwr-xjcg-37j7",
+    "date": "2026-10-08T22:09:00Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+    "date": "Thu, 08 Oct 2026 17:42:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
     "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
     "date": "Thu, 08 Oct 2026 16:09:45 -0400",
@@ -450,20 +385,13 @@
     "date": "Wed, 07 Oct 2026 19:04:37 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-    "date": "Wed, 07 Oct 2026 17:28:54 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 667,
+    "stars": 669,
     "lang": "Go"
    },
    {
@@ -475,7 +403,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 507,
+    "stars": 508,
     "lang": "JavaScript"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 420,
+    "stars": 421,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +445,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 221,
+    "stars": 227,
     "lang": "Rust"
    },
    {
@@ -642,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How We Found Thousands of Exposed NVIDIA GPUs and a Way to Disrupt Them (CVE-2026-47483)",
+    "url": "https://www.reddit.com/r/netsec/comments/1x13vqz/how_we_found_thousands_of_exposed_nvidia_gpus_and/",
+    "date": "2026-10-08T21:49:51+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I found yet another way to invoke JavaScript functions without parentheses",
     "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
     "date": "2026-10-08T05:38:09+00:00",
@@ -694,13 +629,6 @@
     "title": "How to Hack Time, With C2PA",
     "url": "https://www.reddit.com/r/netsec/comments/1wxc5pb/how_to_hack_time_with_c2pa/",
     "date": "2026-10-04T10:12:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "RCE and bad crypto in Internxt's 'post-quantum' cloud storage",
-    "url": "https://www.reddit.com/r/netsec/comments/1wwgdom/rce_and_bad_crypto_in_internxts_postquantum_cloud/",
-    "date": "2026-10-03T06:43:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
