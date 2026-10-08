@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T13:36:10.628Z",
+ "generatedAt": "2026-10-08T14:34:57.593Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RLSA-2026:73979 — Critical: freerdp security update",
-    "url": "https://github.com/advisories/RLSA-2026:73979",
-    "score": 9.3,
-    "date": "2026-10-02T18:08:21.502699Z"
-   },
-   {
-    "title": "RLSA-2026:75570 — Important: freerdp security update",
-    "url": "https://github.com/advisories/RLSA-2026:75570",
-    "score": 8.8,
-    "date": "2026-10-06T12:10:42.614631Z"
-   },
-   {
-    "title": "RLSA-2026:73998 — Important: gvfs security update",
-    "url": "https://github.com/advisories/RLSA-2026:73998",
-    "score": 8.8,
-    "date": "2026-10-01T12:08:49.381512Z"
-   },
-   {
-    "title": "RLSA-2026:74442 — Important: libpcap security update",
-    "url": "https://github.com/advisories/RLSA-2026:74442",
-    "score": 8.7,
-    "date": "2026-10-02T12:09:30.803849Z"
-   },
-   {
-    "title": "RLSA-2026:73765 — Important: dogtag-pki security update",
-    "url": "https://github.com/advisories/RLSA-2026:73765",
-    "score": 8.1,
-    "date": "2026-10-01T12:08:49.381512Z"
-   },
-   {
-    "title": "RLSA-2026:75576 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:75576",
-    "score": 7.8,
-    "date": "2026-10-06T12:10:42.614631Z"
-   },
-   {
-    "title": "RLSA-2026:75583 — Important: libvirt security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:75583",
-    "score": 7.8,
-    "date": "2026-10-06T12:10:42.614631Z"
-   },
-   {
-    "title": "RLSA-2026:75579 — Important: sudo security update",
-    "url": "https://github.com/advisories/RLSA-2026:75579",
-    "score": 7.8,
-    "date": "2026-10-06T12:10:42.614631Z"
-   },
-   {
-    "title": "RLSA-2026:74464 — Moderate: ghostscript security update",
-    "url": "https://github.com/advisories/RLSA-2026:74464",
-    "score": 7.8,
-    "date": "2026-10-02T12:08:50.579322Z"
-   },
-   {
-    "title": "RLSA-2026:76762 — Important: perl-DBI security update",
-    "url": "https://github.com/advisories/RLSA-2026:76762",
-    "score": 7.5,
-    "date": "2026-10-07T12:10:19.768697Z"
-   },
-   {
-    "title": "RLSA-2026:76743 — Important: opentelemetry-collector security update",
-    "url": "https://github.com/advisories/RLSA-2026:76743",
-    "score": 7.5,
-    "date": "2026-10-07T12:10:19.768697Z"
-   },
-   {
-    "title": "RLSA-2026:75864 — Important: nodejs22 security update",
-    "url": "https://github.com/advisories/RLSA-2026:75864",
-    "score": 7.5,
-    "date": "2026-10-06T12:10:42.614631Z"
    }
   ],
   "kev": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+    "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+    "date": "Thu, 08 Oct 2026 10:00:10 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
     "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
     "date": "Thu, 08 Oct 2026 09:18:36 -0400",
@@ -450,26 +385,19 @@
     "date": "Wed, 07 Oct 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-    "date": "Wed, 07 Oct 2026 08:49:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 659,
+    "stars": 660,
     "lang": "Python"
    },
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 539,
+    "stars": 569,
     "lang": "Go"
    },
    {
@@ -493,13 +421,13 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 372,
+    "stars": 378,
     "lang": "TypeScript"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 350,
+    "stars": 351,
     "lang": "C++"
    },
    {
@@ -523,7 +451,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 174,
+    "stars": 180,
     "lang": "Rust"
    },
    {
@@ -642,23 +570,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Pwn2Own Ireland 2026 Day 1: 32 Zero-Days, $388,500, Samsung Galaxy S26 Hacked 3 Times",
-    "url": "https://www.reddit.com/r/netsec/comments/1x0jgp0/pwn2own_ireland_2026_day_1_32_zerodays_388500/",
-    "date": "2026-10-08T06:15:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
     "date": "2026-10-07T13:11:06+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Presenting DiagNG: After QCSuper, a new open-source initiative for freeing up mobile baseband Diag protocols",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzsbsq/presenting_diagng_after_qcsuper_a_new_opensource/",
-    "date": "2026-10-07T09:44:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -703,6 +617,20 @@
     "date": "2026-10-03T06:43:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "A peek into Reddit's anti-spam internals",
+    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
+    "date": "2026-10-03T04:00:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
+    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
+    "date": "2026-10-02T16:50:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1734,
   "adv": 12,
   "feed": 48
