@@ -1,7 +1,61 @@
 {
- "generatedAt": "2026-10-08T05:33:25.134Z",
+ "generatedAt": "2026-10-08T06:50:43.693Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-10-08T05:08:20+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:11+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:10+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:09+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.6 security update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60389",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:09+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:09+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:09+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.7 security update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59559",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:05+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-08T05:08:04+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +69,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-4660 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24478",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:43+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.13.71 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65840",
+    "score": 9.1,
+    "date": "2026-10-08T05:08:34+00:00"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.4.5 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22862",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:35+00:00"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
+    "score": 9.1,
+    "date": "2026-10-08T05:08:32+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22962",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:33+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.11.1 release. (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22960",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:33+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.12.1 release. (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22958",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:33+00:00"
-   },
-   {
-    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.28.0 Release. (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21772",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:21+00:00"
-   },
-   {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.7 release. (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21338",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:14+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: rhc-worker-playbook security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19714",
-    "score": 8.8,
-    "date": "2026-10-08T04:02:04+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: RHACS 4.10.3 security and bug fix update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20889",
-    "score": 8.7,
-    "date": "2026-10-08T04:02:13+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.7.3 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24359",
-    "score": 8.5,
-    "date": "2026-10-08T04:02:41+00:00"
-   },
-   {
-    "title": "CVE-2026-32281 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24482",
-    "score": 8.3,
-    "date": "2026-10-08T04:02:44+00:00"
-   },
-   {
-    "title": "CVE-2026-33815 — Red Hat Security Advisory: RHTAS 1.3.5 - Red Hat Trusted Artifact Signer Release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24479",
-    "score": 8.3,
-    "date": "2026-10-08T04:02:43+00:00"
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: Submariner v0.24 security fixes and container updates (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63016",
+    "score": 9.1,
+    "date": "2026-10-08T05:08:24+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+    "date": "Thu, 08 Oct 2026 11:16:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
     "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
     "date": "Thu, 08 Oct 2026 00:18:17 +0530",
@@ -364,16 +371,16 @@
     "date": "Wed, 07 Oct 2026 12:27:54 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-    "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-    "date": "Wed, 07 Oct 2026 00:08:55 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+    "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+    "date": "Thu, 08 Oct 2026 02:32:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Ransomware recovery CEO charged over secret ransom payments",
     "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
@@ -450,20 +457,13 @@
     "date": "Tue, 06 Oct 2026 17:00:27 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-    "date": "Tue, 06 Oct 2026 15:21:53 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 649,
+    "stars": 651,
     "lang": "Python"
    },
    {
@@ -493,13 +493,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 327,
+    "stars": 341,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 306,
+    "stars": 317,
     "lang": "TypeScript"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 119,
+    "stars": 137,
     "lang": "Rust"
    },
    {
@@ -635,6 +635,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I found yet another way to invoke JavaScript functions without parentheses",
+    "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
+    "date": "2026-10-08T05:38:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Pwn2Own Ireland 2026 Day 1: 32 Zero-Days, $388,500, Samsung Galaxy S26 Hacked 3 Times",
+    "url": "https://www.reddit.com/r/netsec/comments/1x0jgp0/pwn2own_ireland_2026_day_1_32_zerodays_388500/",
+    "date": "2026-10-08T06:15:00+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
     "date": "2026-10-07T13:11:06+00:00",
@@ -689,20 +703,6 @@
     "date": "2026-10-03T06:43:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "A peek into Reddit's anti-spam internals",
-    "url": "https://www.reddit.com/r/netsec/comments/1wwdm2f/a_peek_into_reddits_antispam_internals/",
-    "date": "2026-10-03T04:00:52+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Bypassing Secure Boot via Unbounded RLE8 Splash Images in U-Boot (CVE-2026-71972)",
-    "url": "https://www.reddit.com/r/netsec/comments/1wvyt5b/bypassing_secure_boot_via_unbounded_rle8_splash/",
-    "date": "2026-10-02T16:50:08+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1734,
   "adv": 12,
   "feed": 48
