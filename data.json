@@ -1,66 +1,42 @@
 {
- "generatedAt": "2026-10-09T09:37:09.524Z",
+ "generatedAt": "2026-10-09T10:33:06.956Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:24+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:24+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:24+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:23+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:21+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:12+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:10+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:10+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
-    "score": 9.9,
-    "date": "2026-10-09T06:49:09+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7261",
     "score": 9.8,
-    "date": "2026-10-09T06:49:20+00:00"
+    "date": "2026-10-09T08:22:24+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-09T08:22:00+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-09T08:21:57+00:00"
+   },
+   {
+    "title": "CVE-2025-5987 — Red Hat Security Advisory: OpenShift Container Platform 4.13.64 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3415",
+    "score": 9.8,
+    "date": "2026-10-09T08:21:55+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.62 SP3 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2995",
+    "score": 9.8,
+    "date": "2026-10-09T08:21:51+00:00"
+   },
+   {
+    "title": "CVE-2025-6176 — Red Hat Security Advisory: OpenShift Container Platform 4.14.62 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2974",
+    "score": 9.8,
+    "date": "2026-10-09T08:21:47+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -75,16 +51,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
-    "score": 9.3,
-    "date": "2026-10-09T06:49:24+00:00"
+    "title": "CVE-2024-56171 — Red Hat Security Advisory: OpenShift Container Platform 4.15.69 bug fix and security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67857",
+    "score": 9.1,
+    "date": "2026-10-09T08:22:21+00:00"
    },
    {
-    "title": "CVE-2026-1784 — Red Hat Security Advisory: OpenShift Container Platform 4.12.99 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70647",
-    "score": 9.3,
-    "date": "2026-10-09T06:49:09+00:00"
+    "title": "CVE-2025-5994 — Red Hat Security Advisory: OpenShift Container Platform 4.16.70 bug fix and security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62549",
+    "score": 9.1,
+    "date": "2026-10-09T08:22:17+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23449",
+    "score": 8.8,
+    "date": "2026-10-09T08:21:17+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (TPU) (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23209",
+    "score": 8.8,
+    "date": "2026-10-09T08:21:16+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23205",
+    "score": 8.8,
+    "date": "2026-10-09T08:21:14+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (CUDA) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23204",
+    "score": 8.8,
+    "date": "2026-10-09T08:21:12+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+    "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+    "date": "Fri, 09 Oct 2026 14:33:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+    "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+    "date": "Fri, 09 Oct 2026 13:56:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+    "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+    "date": "Fri, 09 Oct 2026 13:41:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
     "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
     "date": "Fri, 09 Oct 2026 12:09:29 +0530",
@@ -350,30 +371,16 @@
     "date": "Thu, 08 Oct 2026 13:12:04 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-    "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-    "date": "Thu, 08 Oct 2026 13:11:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-    "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-    "date": "Thu, 08 Oct 2026 11:16:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-    "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-    "date": "Thu, 08 Oct 2026 00:18:17 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+    "date": "Fri, 09 Oct 2026 06:12:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
     "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
@@ -450,20 +457,13 @@
     "date": "Thu, 08 Oct 2026 07:42:46 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Owner of Empire cybercrime market gets 40 years in prison",
-    "url": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
-    "date": "Thu, 08 Oct 2026 06:29:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 796,
+    "stars": 810,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 520,
+    "stars": 522,
     "lang": "JavaScript"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 478,
+    "stars": 481,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 252,
+    "stars": 257,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 10,
   "kev": 1739,
   "adv": 12,
   "feed": 48
