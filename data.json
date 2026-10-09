@@ -1,42 +1,24 @@
 {
- "generatedAt": "2026-10-09T17:28:10.675Z",
+ "generatedAt": "2026-10-09T18:36:30.349Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-15340 — lwIP SMTP client does not check the size of inputs, potentially allowing a buffer overflow.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15340",
-    "score": 9.8,
-    "date": "2026-10-09T15:31:34Z"
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
+    "score": 9.9,
+    "date": "2026-10-09T16:42:24+00:00"
    },
    {
-    "title": "CVE-2026-108107 — PHPNuxBill through 2025.3.20 contains an unauthenticated SQL injection vulnerability in the radius.php FreeRADIUS REST endpoint that interpo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108107",
-    "score": 9.8,
-    "date": "2026-10-09T15:31:33Z"
+    "title": "CVE-2026-33376 — Red Hat Security Advisory: Multicluster Global Hub 1.4.8 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55810",
+    "score": 9.9,
+    "date": "2026-10-09T16:42:23+00:00"
    },
    {
-    "title": "CVE-2026-105278 — The published Docker image for openPDC includes a fixed administrative credential with no forced change on first use. An attacker with netwo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105278",
-    "score": 9.8,
-    "date": "2026-10-09T15:31:32Z"
-   },
-   {
-    "title": "CVE-2026-100730 — A service console interface on openPDC and openHistorian deserializes a client-supplied data structure. On systems using Windows Authenticat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100730",
-    "score": 9.8,
-    "date": "2026-10-09T15:31:30Z"
-   },
-   {
-    "title": "CVE-2026-85531 — Improper verification of cryptographic signature vulnerability in Sipay Electronic Money and Payment Services Inc. OpenCart Virtual POS Modu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85531",
-    "score": 9.8,
-    "date": "2026-10-09T15:31:30Z"
-   },
-   {
-    "title": "CVE-2026-86405 — Improper verification of cryptographic signature vulnerability in Sipay Electronic Money and Payment Services Inc. PrestaShop Virtual POS Mo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86405",
-    "score": 9.8,
-    "date": "2026-10-09T15:31:30Z"
+    "title": "CVE-2026-42306 — Red Hat Security Advisory: Multicluster Global Hub 1.5.7 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54577",
+    "score": 9.9,
+    "date": "2026-10-09T16:42:23+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -51,40 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-108109 — PHPNuxBill through 2025.3.20 contains an account takeover vulnerability in the customer password reset flow in system/controllers/forgot.php",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108109",
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42825",
     "score": 9.1,
-    "date": "2026-10-09T15:31:33Z"
+    "date": "2026-10-09T16:43:05+00:00"
    },
    {
-    "title": "CVE-2026-94065 — Deserialization of Untrusted Data vulnerability in BuddhaThemes ColorFolio colorit allows Object Injection.This issue affects ColorFolio: fr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94065",
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:61629",
+    "score": 9.1,
+    "date": "2026-10-09T16:42:24+00:00"
+   },
+   {
+    "title": "CVE-2026-23103 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77690",
     "score": 8.8,
-    "date": "2026-10-09T15:31:31Z"
+    "date": "2026-10-09T16:42:41+00:00"
    },
    {
-    "title": "CVE-2026-94064 — Deserialization of Untrusted Data vulnerability in BuddhaThemes Neo | Barber Shop WordPress Theme neocut allows Object Injection.This issue ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94064",
+    "title": "CVE-2026-74705 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79784",
     "score": 8.8,
-    "date": "2026-10-09T15:31:31Z"
+    "date": "2026-10-09T16:42:38+00:00"
    },
    {
-    "title": "CVE-2026-39453 — Navigating to a certain URL on the switch’s web server causes the switch to reboot. This can be automated using a tool like curl to create D",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39453",
-    "score": 8.3,
-    "date": "2026-10-09T15:31:35Z"
+    "title": "CVE-2026-23103 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77689",
+    "score": 8.8,
+    "date": "2026-10-09T16:42:38+00:00"
    },
    {
-    "title": "CVE-2026-39460 — Usernames and passwords, including the default factory credentials, are stored in plaintext within the configuration file. With administrato",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39460",
-    "score": 8.1,
-    "date": "2026-10-09T15:31:35Z"
+    "title": "CVE-2026-46149 — Red Hat Security Advisory: kernel security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79783",
+    "score": 8.8,
+    "date": "2026-10-09T16:42:37+00:00"
    },
    {
-    "title": "CVE-2026-33367 — SNMP can be used to perform administrative actions such as retrieving configuration files, modifying user accounts or device settings, and i",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33367",
-    "score": 8.1,
-    "date": "2026-10-09T15:31:35Z"
+    "title": "CVE-2026-64320 — Red Hat Security Advisory: kernel security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79782",
+    "score": 8.8,
+    "date": "2026-10-09T16:42:37+00:00"
+   },
+   {
+    "title": "CVE-2025-40237 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77634",
+    "score": 8.8,
+    "date": "2026-10-09T16:42:37+00:00"
+   },
+   {
+    "title": "CVE-2026-72129 — Red Hat Security Advisory: kernel security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79778",
+    "score": 8.8,
+    "date": "2026-10-09T16:42:36+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 846,
+    "stars": 848,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 673,
+    "stars": 674,
     "lang": "Python"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 499,
+    "stars": 502,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 277,
+    "stars": 278,
     "lang": "Rust"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1x1squu/death_by_a_thousand_papercuts_papercut_preauth/",
+    "date": "2026-10-09T18:17:56+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "How We Found Thousands of Exposed NVIDIA GPUs and a Way to Disrupt Them (CVE-2026-47483)",
     "url": "https://www.reddit.com/r/netsec/comments/1x13vqz/how_we_found_thousands_of_exposed_nvidia_gpus_and/",
     "date": "2026-10-08T21:49:51+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-10-05T08:18:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Wordpress libheif RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1wy4edi/wordpress_libheif_rce/",
-    "date": "2026-10-05T09:46:02+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
+  "crit": 7,
   "kev": 1739,
   "adv": 12,
   "feed": 48
