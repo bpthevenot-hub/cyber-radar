@@ -1,42 +1,24 @@
 {
- "generatedAt": "2026-10-09T06:50:46.105Z",
+ "generatedAt": "2026-10-09T07:42:24.098Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
-    "score": 10,
-    "date": "2026-10-09T04:52:44+00:00"
+    "title": "CVE-2026-107908 — A heap-based out-of-bounds write in the BoltReadHandler function (src/bolt/bolt_api.c) in FalkorDB before 4.20.0 allows a remote unauthentic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107908",
+    "score": 9.8,
+    "date": "2026-10-09T06:31:18Z"
    },
    {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 Plugin Catalog GA plugins release. (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76788",
-    "score": 10,
-    "date": "2026-10-09T04:52:43+00:00"
+    "title": "CVE-2026-5759 — A double free and use-after-free vulnerability in the RdbLoadDeletedNodes function of the RDB graph decoders (src/serializers/decoders/*/dec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5759",
+    "score": 9.8,
+    "date": "2026-10-09T06:31:16Z"
    },
    {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
-    "score": 9.9,
-    "date": "2026-10-09T04:52:40+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-10-09T04:52:37+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
-    "score": 9.9,
-    "date": "2026-10-09T04:22:54+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
-    "score": 9.9,
-    "date": "2026-10-09T04:22:54+00:00"
+    "title": "CVE-2026-45820 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79378",
+    "score": 9.8,
+    "date": "2026-10-09T05:49:31+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -54,37 +36,55 @@
     "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+30 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:67279",
     "score": 9.6,
-    "date": "2026-10-09T04:52:23+00:00"
+    "date": "2026-10-09T05:49:20+00:00"
    },
    {
-    "title": "CVE-2026-14257 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.8.17 update (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68681",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-10-09T05:49:28+00:00"
+   },
+   {
+    "title": "CVE-2026-107909 — A heap-based out-of-bounds write in the ws_read_frame function (src/bolt/ws.c) and the buffer_apply_mask function (src/bolt/buffer.c) in Fal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107909",
     "score": 9.1,
-    "date": "2026-10-09T04:52:32+00:00"
+    "date": "2026-10-09T06:31:18Z"
    },
    {
-    "title": "CVE-2026-73501 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60866",
+    "title": "CVE-2026-7826 — A heap-based out-of-bounds read in the BufferSerializerIOv2_ReadBuffer function (src/serializers/serializer_io.c) in FalkorDB before 4.18.4 ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-7826",
     "score": 9.1,
-    "date": "2026-10-09T04:52:20+00:00"
+    "date": "2026-10-09T06:31:18Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
+    "title": "CVE-2026-5497 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.4.5 security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76150",
     "score": 9.1,
-    "date": "2026-10-09T04:22:56+00:00"
+    "date": "2026-10-09T05:49:30+00:00"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
-    "score": 8.8,
-    "date": "2026-10-09T04:52:42+00:00"
+    "title": "CVE-2026-5497 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.4.5 security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76149",
+    "score": 9.1,
+    "date": "2026-10-09T05:49:29+00:00"
    },
    {
-    "title": "CVE-2026-12894 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18 for Quarkus 3.33 update is now available (RHBQ 3.33.3.SP1) (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63302",
-    "score": 8.8,
-    "date": "2026-10-09T04:28:54+00:00"
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.7 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76043",
+    "score": 9.1,
+    "date": "2026-10-09T05:49:29+00:00"
+   },
+   {
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.3.7 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76041",
+    "score": 9.1,
+    "date": "2026-10-09T05:49:29+00:00"
+   },
+   {
+    "title": "CVE-2026-5241 — Red Hat Security Advisory: Red Hat AI Inference 3.4.5 (rocm) (+27 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70995",
+    "score": 9.1,
+    "date": "2026-10-09T05:49:26+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 762,
+    "stars": 772,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 665,
+    "stars": 666,
     "lang": "Python"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 466,
+    "stars": 472,
     "lang": "TypeScript"
    },
    {
@@ -517,13 +517,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 246,
+    "stars": 250,
     "lang": "Rust"
    },
    {
     "title": "brandynfisher/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/brandynfisher/ToolReplay",
-    "stars": 182,
+    "stars": 183,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 14,
   "kev": 1739,
   "adv": 12,
   "feed": 48
