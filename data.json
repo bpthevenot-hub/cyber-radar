@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T13:34:47.844Z",
+ "generatedAt": "2026-10-09T14:36:11.010Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "Strawberry legacy graphql-ws retains naturally completed subscription slots",
+    "url": "https://github.com/advisories/GHSA-m952-2w3f-6r8h",
+    "score": 3.7,
+    "ghsa": "GHSA-m952-2w3f-6r8h",
+    "date": "2026-10-09T14:07:20Z"
+   },
+   {
+    "title": "Strawberry GraphQL: Synchronous permission checks can treat an awaitable authorization result as truthy",
+    "url": "https://github.com/advisories/GHSA-pfvf-fwfp-25mp",
+    "score": 7.5,
+    "ghsa": "GHSA-pfvf-fwfp-25mp",
+    "date": "2026-10-09T14:07:16Z"
+   },
+   {
     "title": "fast-jwt: Verifier cache accepts expired JWTs without iat.",
     "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
     "score": 4.2,
@@ -271,23 +285,37 @@
     "score": 6.1,
     "ghsa": "GHSA-2m6q-8v3h-jqww",
     "date": "2026-10-08T22:09:06Z"
-   },
-   {
-    "title": "Mechanize sends credential headers to another origin after a meta refresh",
-    "url": "https://github.com/advisories/GHSA-c6rp-p8xm-4q9f",
-    "score": 6.8,
-    "ghsa": "GHSA-c6rp-p8xm-4q9f",
-    "date": "2026-10-08T22:09:03Z"
-   },
-   {
-    "title": "Mechanize sends credential headers to another host after an HTTP redirect",
-    "url": "https://github.com/advisories/GHSA-2mwr-xjcg-37j7",
-    "score": 6.8,
-    "ghsa": "GHSA-2mwr-xjcg-37j7",
-    "date": "2026-10-08T22:09:00Z"
    }
   ],
   "thn": [
+   {
+    "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+    "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+    "date": "Fri, 09 Oct 2026 18:52:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+    "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+    "date": "Fri, 09 Oct 2026 18:29:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+    "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+    "date": "Fri, 09 Oct 2026 18:17:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+    "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+    "date": "Fri, 09 Oct 2026 18:17:26 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
     "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
@@ -343,37 +371,16 @@
     "date": "Thu, 08 Oct 2026 23:28:02 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-    "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
-    "date": "Thu, 08 Oct 2026 21:15:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
-    "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-    "date": "Thu, 08 Oct 2026 20:56:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-    "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
-    "date": "Thu, 08 Oct 2026 19:42:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-    "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-    "date": "Thu, 08 Oct 2026 16:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "How to keep AI agents within their permissions",
+    "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+    "date": "Fri, 09 Oct 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
@@ -450,20 +457,13 @@
     "date": "Thu, 08 Oct 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
-    "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
-    "date": "Thu, 08 Oct 2026 09:18:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 830,
+    "stars": 835,
     "lang": "Go"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 485,
+    "stars": 486,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 268,
+    "stars": 269,
     "lang": "Rust"
    },
    {
@@ -649,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I found yet another way to invoke JavaScript functions without parentheses",
-    "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
-    "date": "2026-10-08T05:38:09+00:00",
+    "title": "Loupe: An Android Console in the Browser",
+    "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
+    "date": "2026-10-08T21:27:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Loupe: An Android Console in the Browser",
-    "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
-    "date": "2026-10-08T21:27:29+00:00",
+    "title": "I found yet another way to invoke JavaScript functions without parentheses",
+    "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
+    "date": "2026-10-08T05:38:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
