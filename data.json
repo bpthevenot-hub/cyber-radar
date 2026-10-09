@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T15:30:25.587Z",
+ "generatedAt": "2026-10-09T16:33:02.255Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-96331 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in wpdreams Ajax Search Pro ajax-search-p",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96331",
-    "score": 9.3,
-    "date": "2026-10-09T12:31:43Z"
-   },
-   {
-    "title": "CVE-2026-96809 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in MultiNet Interactive AB EduAdmin Booki",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96809",
-    "score": 9.3,
-    "date": "2026-10-09T12:31:43Z"
-   },
-   {
-    "title": "CVE-2026-96328 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in jegtheme JNews - Pay Writer jnews-pay-",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96328",
-    "score": 9.3,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-96330 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in tagDiv tagDiv Opt-In Builder td-subscr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96330",
-    "score": 9.3,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-96327 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in VibeThemes WPLMS wplms_plugin allows B",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96327",
-    "score": 9.3,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-96671 — Cross-Site Request Forgery (CSRF) vulnerability in fifu.app Featured Image from URL featured-image-from-url allows Cross Site Request Forger",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96671",
-    "score": 8.8,
-    "date": "2026-10-09T12:31:43Z"
-   },
-   {
-    "title": "CVE-2026-96329 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in tagDiv tagDiv Opt-In Builder td-subscr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96329",
-    "score": 8.5,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-95607 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in VibeThemes WPLMS wplms allows Blind SQ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95607",
-    "score": 8.5,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-95599 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Taskbuilder Taskbuilder taskbuilder al",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95599",
-    "score": 8.5,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-95610 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in UpSolution UpSolution Core us-core all",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95610",
-    "score": 8.5,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-94663 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid profilegrid-user",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94663",
-    "score": 8.5,
-    "date": "2026-10-09T12:31:42Z"
-   },
-   {
-    "title": "CVE-2026-96336 — Authentication Bypass by Spoofing vulnerability in WPMU DEV Forminator forminator allows Identity Spoofing.This issue affects Forminator: fr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96336",
-    "score": 7.5,
-    "date": "2026-10-09T12:31:43Z"
    }
   ],
   "kev": [
@@ -203,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "pyLoad: Lack of Input Size Validation Leads to Denial of Service (DoS) and Process Termination",
+    "url": "https://github.com/advisories/GHSA-vq8p-m3wm-gv5f",
+    "score": 6.5,
+    "ghsa": "GHSA-vq8p-m3wm-gv5f",
+    "date": "2026-10-09T16:26:53Z"
+   },
+   {
     "title": "Strawberry legacy graphql-ws retains naturally completed subscription slots",
     "url": "https://github.com/advisories/GHSA-m952-2w3f-6r8h",
     "score": 3.7,
@@ -278,13 +213,6 @@
     "score": 7.5,
     "ghsa": "GHSA-w294-6q5q-53p8",
     "date": "2026-10-08T22:09:34Z"
-   },
-   {
-    "title": "AdonisJS: Unencoded route parameters can produce open redirects",
-    "url": "https://github.com/advisories/GHSA-2m6q-8v3h-jqww",
-    "score": 6.1,
-    "ghsa": "GHSA-2m6q-8v3h-jqww",
-    "date": "2026-10-08T22:09:06Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+    "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+    "date": "Fri, 09 Oct 2026 11:38:56 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "How to keep AI agents within their permissions",
     "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
     "date": "Fri, 09 Oct 2026 10:01:11 -0400",
@@ -450,26 +385,19 @@
     "date": "Thu, 08 Oct 2026 11:26:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
-    "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
-    "date": "Thu, 08 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 840,
+    "stars": 844,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 671,
+    "stars": 673,
     "lang": "Python"
    },
    {
@@ -481,25 +409,25 @@
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 502,
+    "stars": 503,
     "lang": "TypeScript"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 489,
+    "stars": 494,
     "lang": "TypeScript"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 405,
+    "stars": 407,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 351,
+    "stars": 352,
     "lang": "C++"
    },
    {
@@ -663,6 +591,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A JPEG, a Race, and a Ghost: Breaking Discourse's Image Pipeline",
+    "url": "https://www.reddit.com/r/netsec/comments/1x165mn/a_jpeg_a_race_and_a_ghost_breaking_discourses/",
+    "date": "2026-10-08T23:32:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
     "date": "2026-10-07T13:11:06+00:00",
@@ -696,13 +631,6 @@
     "date": "2026-10-05T09:46:02+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "How to Hack Time, With C2PA",
-    "url": "https://www.reddit.com/r/netsec/comments/1wxc5pb/how_to_hack_time_with_c2pa/",
-    "date": "2026-10-04T10:12:01+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 2,
   "kev": 1739,
   "adv": 12,
   "feed": 48
