@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-09T20:31:22.764Z",
+ "generatedAt": "2026-10-09T21:29:22.557Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-09T19:54:25+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-09T19:54:23+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.4.9 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67516",
+    "score": 9.9,
+    "date": "2026-10-09T19:54:22+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.7.3 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67842",
+    "score": 9.8,
+    "date": "2026-10-09T19:54:22+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.20.35 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57545",
-    "score": 9,
-    "date": "2026-10-09T19:03:47+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc-worker-script security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54191",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:26+00:00"
    },
    {
-    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.19.44 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57408",
-    "score": 9,
-    "date": "2026-10-09T19:03:43+00:00"
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:20+00:00"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Network Observability 1.11.0 for OpenShift (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2900",
-    "score": 8.7,
-    "date": "2026-10-09T19:02:31+00:00"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:17+00:00"
    },
    {
-    "title": "CVE-2025-12805 — Red Hat Security Advisory: RHOAI 2.25.2 - Red Hat OpenShift AI (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2695",
-    "score": 8.7,
-    "date": "2026-10-09T19:02:23+00:00"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: Satellite 6.16.9 Async Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:27076",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:15+00:00"
    },
    {
-    "title": "CVE-2025-12805 — Red Hat Security Advisory: RHOAI 2.25.2 - Red Hat OpenShift AI (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2106",
-    "score": 8.7,
-    "date": "2026-10-09T19:02:09+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.15.5 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24853",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:13+00:00"
    },
    {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.19.45 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60454",
-    "score": 8.5,
-    "date": "2026-10-09T19:04:00+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23228",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:11+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: container-tools:rhel8 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4693",
-    "score": 8.2,
-    "date": "2026-10-09T19:03:18+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22937",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:11+00:00"
    },
    {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: podman security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4533",
-    "score": 8.2,
-    "date": "2026-10-09T19:03:16+00:00"
-   },
-   {
-    "title": "CVE-2025-47913 — Red Hat Security Advisory: buildah security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4532",
-    "score": 8.2,
-    "date": "2026-10-09T19:03:16+00:00"
-   },
-   {
-    "title": "CVE-2025-31133 — Red Hat Security Advisory: runc security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4531",
-    "score": 8.2,
-    "date": "2026-10-09T19:03:15+00:00"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Container Platform 4.18.34 packages and security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2975",
-    "score": 8.2,
-    "date": "2026-10-09T19:02:31+00:00"
-   },
-   {
-    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.16.70 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62550",
-    "score": 8.1,
-    "date": "2026-10-09T19:04:15+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22714",
+    "score": 9.1,
+    "date": "2026-10-09T19:54:11+00:00"
    }
   ],
   "kev": [
@@ -203,91 +203,98 @@
   ],
   "adv": [
    {
-    "title": "pyload-ng: getUserData/get_userdata exposed at Perms.ANY allow any authenticated account to brute-force the administrator password",
-    "url": "https://github.com/advisories/GHSA-68w4-83fh-f2w8",
-    "score": 8.1,
-    "ghsa": "GHSA-68w4-83fh-f2w8",
-    "date": "2026-10-09T17:09:15Z"
+    "title": "Vikunja: Permissive Cross-domain Security Policy trusts every localhost origin which should not be trusted",
+    "url": "https://github.com/advisories/GHSA-m687-p538-r5hp",
+    "score": 7.5,
+    "ghsa": "GHSA-m687-p538-r5hp",
+    "date": "2026-10-09T20:57:50Z"
    },
    {
-    "title": "pyLoad: Rate-Limit Bypass and Audit-Log Spoofing via Trusted Client-Controlled `X-Forwarded-For` Header",
-    "url": "https://github.com/advisories/GHSA-9q47-3cm2-2rp8",
+    "title": "Vikunja: Write-level project members can delete admin-tier link shares through an unloaded permission check",
+    "url": "https://github.com/advisories/GHSA-fmmf-xq98-g327",
     "score": null,
-    "ghsa": "GHSA-9q47-3cm2-2rp8",
-    "date": "2026-10-09T17:09:12Z"
+    "ghsa": "GHSA-fmmf-xq98-g327",
+    "date": "2026-10-09T20:57:47Z"
    },
    {
-    "title": "pyLoad: Privilege revocation and password change through the REST API do not invalidate the user's session",
-    "url": "https://github.com/advisories/GHSA-jq7h-wrvp-3rgx",
+    "title": "Vikunja: Explicit lower-permission share on a sub-project is silently overridden by an inherited parent permission (broken access control / privilege-",
+    "url": "https://github.com/advisories/GHSA-pjr3-86v4-5p7w",
+    "score": 5.4,
+    "ghsa": "GHSA-pjr3-86v4-5p7w",
+    "date": "2026-10-09T20:57:44Z"
+   },
+   {
+    "title": "Vikunja: Webhooks and link shares survive every revocation path, so a removed collaborator keeps a live feed",
+    "url": "https://github.com/advisories/GHSA-hjx8-qv73-f7cm",
+    "score": 6.5,
+    "ghsa": "GHSA-hjx8-qv73-f7cm",
+    "date": "2026-10-09T20:57:41Z"
+   },
+   {
+    "title": "Vikunja: Saved filter creation with an empty filter string recalculates task positions across all tenants",
+    "url": "https://github.com/advisories/GHSA-fprf-r6rv-xg99",
+    "score": 5.4,
+    "ghsa": "GHSA-fprf-r6rv-xg99",
+    "date": "2026-10-09T20:57:38Z"
+   },
+   {
+    "title": "Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
+    "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
+    "score": 6.5,
+    "ghsa": "GHSA-4hv6-xc92-j86g",
+    "date": "2026-10-09T20:57:34Z"
+   },
+   {
+    "title": "Nginx UI: Unauthenticated signed-request body staging can exhaust temporary storage",
+    "url": "https://github.com/advisories/GHSA-j3hg-9rp3-5hw9",
     "score": 7.5,
-    "ghsa": "GHSA-jq7h-wrvp-3rgx",
-    "date": "2026-10-09T17:09:09Z"
+    "ghsa": "GHSA-j3hg-9rp3-5hw9",
+    "date": "2026-10-09T20:57:08Z"
    },
    {
-    "title": "pyLoad: Api.set_user_permission never invalidates the target's session",
-    "url": "https://github.com/advisories/GHSA-889w-m37p-88m5",
-    "score": 7.5,
-    "ghsa": "GHSA-889w-m37p-88m5",
-    "date": "2026-10-09T17:09:07Z"
+    "title": "Nginx UI: Bundled reverse proxy can bypass IP allowlists and enable shared login lockout",
+    "url": "https://github.com/advisories/GHSA-9h23-53f4-q947",
+    "score": 5.3,
+    "ghsa": "GHSA-9h23-53f4-q947",
+    "date": "2026-10-09T20:57:05Z"
    },
    {
-    "title": "pyLoad WindowsPhoneNotify addon: non-admin SETTINGS user triggers SSRF via unguarded http.client notification host",
-    "url": "https://github.com/advisories/GHSA-p3pr-8f3m-4qp8",
-    "score": 6.4,
-    "ghsa": "GHSA-p3pr-8f3m-4qp8",
-    "date": "2026-10-09T17:09:03Z"
+    "title": "Tina: Code injection via unescaped Git branch name in generated client source",
+    "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
+    "score": 8.2,
+    "ghsa": "GHSA-pwhx-cvv3-qj5c",
+    "date": "2026-10-09T20:56:52Z"
    },
    {
-    "title": "pyLoad: Tar extraction creates device nodes and FIFOs (member types not filtered; tarfile extractall without filter=)",
-    "url": "https://github.com/advisories/GHSA-fr26-jjhm-638c",
-    "score": 7.5,
-    "ghsa": "GHSA-fr26-jjhm-638c",
-    "date": "2026-10-09T17:08:58Z"
+    "title": "TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
+    "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
+    "score": 9.3,
+    "ghsa": "GHSA-x34j-47hf-4xg7",
+    "date": "2026-10-09T20:56:48Z"
    },
    {
-    "title": "Nginx UI: Self-upgrade runs an unsigned binary verified only by a same-origin digest → RCE via a compromised mirror or MITM",
-    "url": "https://github.com/advisories/GHSA-662p-52hx-cmh2",
-    "score": 7.5,
-    "ghsa": "GHSA-662p-52hx-cmh2",
-    "date": "2026-10-09T17:08:21Z"
+    "title": "@tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
+    "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
+    "score": 7.6,
+    "ghsa": "GHSA-c42q-qvc3-j6vg",
+    "date": "2026-10-09T20:56:45Z"
    },
    {
-    "title": "Nginx UI: Authentication bypass: password login does not enforce a passkey-only second factor (2FA bypass)",
-    "url": "https://github.com/advisories/GHSA-45gv-9wjv-xh7p",
-    "score": 8.1,
-    "ghsa": "GHSA-45gv-9wjv-xh7p",
-    "date": "2026-10-09T17:08:15Z"
-   },
-   {
-    "title": "Nginx-UI AuthRequired token cookie fallback enables CSRF against management APIs",
-    "url": "https://github.com/advisories/GHSA-33rr-wq23-g6gg",
-    "score": 8.8,
-    "ghsa": "GHSA-33rr-wq23-g6gg",
-    "date": "2026-10-09T17:08:10Z"
-   },
-   {
-    "title": "Nginx UI: Incomplete fix of CVE-2026-84315 - the api/cluster router was not - wrapped in RequireSecureSession, so those sensitive mutations run withou",
-    "url": "https://github.com/advisories/GHSA-h246-wpgf-vmq5",
-    "score": 8.8,
-    "ghsa": "GHSA-h246-wpgf-vmq5",
-    "date": "2026-10-09T17:08:06Z"
-   },
-   {
-    "title": "0xJacky/nginx-ui /api/nodes Leaks Cluster Node Tokens and Allows Cross-Node Impersonation as initUser",
-    "url": "https://github.com/advisories/GHSA-32gc-wf3m-78w9",
-    "score": 8.8,
-    "ghsa": "GHSA-32gc-wf3m-78w9",
-    "date": "2026-10-09T17:07:23Z"
-   },
-   {
-    "title": "Nginx UI: Node Secret Credential Exposure via URL Query Parameter",
-    "url": "https://github.com/advisories/GHSA-pvgv-gcp7-v38g",
-    "score": 8.8,
-    "ghsa": "GHSA-pvgv-gcp7-v38g",
-    "date": "2026-10-09T17:07:09Z"
+    "title": "Shiny for Python has path traversal in bookmark restore",
+    "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
+    "score": null,
+    "ghsa": "GHSA-47c3-hpmg-7j6p",
+    "date": "2026-10-09T20:56:37Z"
    }
   ],
   "thn": [
+   {
+    "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+    "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+    "date": "Sat, 10 Oct 2026 00:44:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
     "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
@@ -364,16 +371,16 @@
     "date": "Fri, 09 Oct 2026 13:41:33 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-    "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-    "date": "Fri, 09 Oct 2026 12:09:29 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+    "date": "Fri, 09 Oct 2026 16:31:37 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
     "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
@@ -450,13 +457,6 @@
     "date": "Thu, 08 Oct 2026 16:09:45 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Low-cost Android phones ship with residential proxy malware",
-    "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
-    "date": "Thu, 08 Oct 2026 15:20:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +469,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 674,
+    "stars": 676,
     "lang": "Python"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 506,
+    "stars": 507,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1739,
   "adv": 12,
   "feed": 48
