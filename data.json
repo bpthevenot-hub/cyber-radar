@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-10-09T16:33:02.255Z",
+ "generatedAt": "2026-10-09T17:28:10.675Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-15340 — lwIP SMTP client does not check the size of inputs, potentially allowing a buffer overflow.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15340",
+    "score": 9.8,
+    "date": "2026-10-09T15:31:34Z"
+   },
+   {
+    "title": "CVE-2026-108107 — PHPNuxBill through 2025.3.20 contains an unauthenticated SQL injection vulnerability in the radius.php FreeRADIUS REST endpoint that interpo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108107",
+    "score": 9.8,
+    "date": "2026-10-09T15:31:33Z"
+   },
+   {
+    "title": "CVE-2026-105278 — The published Docker image for openPDC includes a fixed administrative credential with no forced change on first use. An attacker with netwo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105278",
+    "score": 9.8,
+    "date": "2026-10-09T15:31:32Z"
+   },
+   {
+    "title": "CVE-2026-100730 — A service console interface on openPDC and openHistorian deserializes a client-supplied data structure. On systems using Windows Authenticat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100730",
+    "score": 9.8,
+    "date": "2026-10-09T15:31:30Z"
+   },
+   {
+    "title": "CVE-2026-85531 — Improper verification of cryptographic signature vulnerability in Sipay Electronic Money and Payment Services Inc. OpenCart Virtual POS Modu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85531",
+    "score": 9.8,
+    "date": "2026-10-09T15:31:30Z"
+   },
+   {
+    "title": "CVE-2026-86405 — Improper verification of cryptographic signature vulnerability in Sipay Electronic Money and Payment Services Inc. PrestaShop Virtual POS Mo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86405",
+    "score": 9.8,
+    "date": "2026-10-09T15:31:30Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +49,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-108109 — PHPNuxBill through 2025.3.20 contains an account takeover vulnerability in the customer password reset flow in system/controllers/forgot.php",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108109",
+    "score": 9.1,
+    "date": "2026-10-09T15:31:33Z"
+   },
+   {
+    "title": "CVE-2026-94065 — Deserialization of Untrusted Data vulnerability in BuddhaThemes ColorFolio colorit allows Object Injection.This issue affects ColorFolio: fr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94065",
+    "score": 8.8,
+    "date": "2026-10-09T15:31:31Z"
+   },
+   {
+    "title": "CVE-2026-94064 — Deserialization of Untrusted Data vulnerability in BuddhaThemes Neo | Barber Shop WordPress Theme neocut allows Object Injection.This issue ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94064",
+    "score": 8.8,
+    "date": "2026-10-09T15:31:31Z"
+   },
+   {
+    "title": "CVE-2026-39453 — Navigating to a certain URL on the switch’s web server causes the switch to reboot. This can be automated using a tool like curl to create D",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39453",
+    "score": 8.3,
+    "date": "2026-10-09T15:31:35Z"
+   },
+   {
+    "title": "CVE-2026-39460 — Usernames and passwords, including the default factory credentials, are stored in plaintext within the configuration file. With administrato",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39460",
+    "score": 8.1,
+    "date": "2026-10-09T15:31:35Z"
+   },
+   {
+    "title": "CVE-2026-33367 — SNMP can be used to perform administrative actions such as retrieving configuration files, modifying user accounts or device settings, and i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33367",
+    "score": 8.1,
+    "date": "2026-10-09T15:31:35Z"
    }
   ],
   "kev": [
@@ -131,91 +203,98 @@
   ],
   "adv": [
    {
-    "title": "pyLoad: Lack of Input Size Validation Leads to Denial of Service (DoS) and Process Termination",
-    "url": "https://github.com/advisories/GHSA-vq8p-m3wm-gv5f",
-    "score": 6.5,
-    "ghsa": "GHSA-vq8p-m3wm-gv5f",
-    "date": "2026-10-09T16:26:53Z"
+    "title": "pyload-ng: getUserData/get_userdata exposed at Perms.ANY allow any authenticated account to brute-force the administrator password",
+    "url": "https://github.com/advisories/GHSA-68w4-83fh-f2w8",
+    "score": 8.1,
+    "ghsa": "GHSA-68w4-83fh-f2w8",
+    "date": "2026-10-09T17:09:15Z"
    },
    {
-    "title": "Strawberry legacy graphql-ws retains naturally completed subscription slots",
-    "url": "https://github.com/advisories/GHSA-m952-2w3f-6r8h",
-    "score": 3.7,
-    "ghsa": "GHSA-m952-2w3f-6r8h",
-    "date": "2026-10-09T14:07:20Z"
-   },
-   {
-    "title": "Strawberry GraphQL: Synchronous permission checks can treat an awaitable authorization result as truthy",
-    "url": "https://github.com/advisories/GHSA-pfvf-fwfp-25mp",
-    "score": 7.5,
-    "ghsa": "GHSA-pfvf-fwfp-25mp",
-    "date": "2026-10-09T14:07:16Z"
-   },
-   {
-    "title": "fast-jwt: Verifier cache accepts expired JWTs without iat.",
-    "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
-    "score": 4.2,
-    "ghsa": "GHSA-x937-hj6v-793p",
-    "date": "2026-10-08T22:10:35Z"
-   },
-   {
-    "title": "Hazelcast allows arbitrary member memory access by low-privileged client",
-    "url": "https://github.com/advisories/GHSA-6v25-8wq6-xq4j",
-    "score": 9.5,
-    "ghsa": "GHSA-6v25-8wq6-xq4j",
-    "date": "2026-10-08T22:10:29Z"
-   },
-   {
-    "title": "Banks: Symlink traversal and arbitrary file disclosure/overwrite in DirectoryPromptRegistry",
-    "url": "https://github.com/advisories/GHSA-556j-vv39-8rqv",
+    "title": "pyLoad: Rate-Limit Bypass and Audit-Log Spoofing via Trusted Client-Controlled `X-Forwarded-For` Header",
+    "url": "https://github.com/advisories/GHSA-9q47-3cm2-2rp8",
     "score": null,
-    "ghsa": "GHSA-556j-vv39-8rqv",
-    "date": "2026-10-08T22:10:07Z"
+    "ghsa": "GHSA-9q47-3cm2-2rp8",
+    "date": "2026-10-09T17:09:12Z"
    },
    {
-    "title": "Banks: User-controlled prompt input can be parsed as privileged chat messages",
-    "url": "https://github.com/advisories/GHSA-hmq2-7hp6-7crh",
-    "score": 6.5,
-    "ghsa": "GHSA-hmq2-7hp6-7crh",
-    "date": "2026-10-08T22:10:01Z"
-   },
-   {
-    "title": "Indico: Incomplete Server-Side Request Forgery (SSRF) check",
-    "url": "https://github.com/advisories/GHSA-2v95-h47v-g4x9",
-    "score": 6.8,
-    "ghsa": "GHSA-2v95-h47v-g4x9",
-    "date": "2026-10-08T22:09:55Z"
-   },
-   {
-    "title": "Indico: Missing access check in legacy session export API",
-    "url": "https://github.com/advisories/GHSA-6p4f-j8j6-463q",
-    "score": 4.3,
-    "ghsa": "GHSA-6p4f-j8j6-463q",
-    "date": "2026-10-08T22:09:49Z"
-   },
-   {
-    "title": "Indico: Cross-Site-Scripting in minutes editor",
-    "url": "https://github.com/advisories/GHSA-cw24-x4mj-fw3q",
-    "score": 4.4,
-    "ghsa": "GHSA-cw24-x4mj-fw3q",
-    "date": "2026-10-08T22:09:45Z"
-   },
-   {
-    "title": "Indico: Cross-Site-Scripting in link fields",
-    "url": "https://github.com/advisories/GHSA-c4wc-ggrj-jg9v",
-    "score": 5.4,
-    "ghsa": "GHSA-c4wc-ggrj-jg9v",
-    "date": "2026-10-08T22:09:41Z"
-   },
-   {
-    "title": "Hazelcast has an authorization bypass in IMap Predicates API",
-    "url": "https://github.com/advisories/GHSA-w294-6q5q-53p8",
+    "title": "pyLoad: Privilege revocation and password change through the REST API do not invalidate the user's session",
+    "url": "https://github.com/advisories/GHSA-jq7h-wrvp-3rgx",
     "score": 7.5,
-    "ghsa": "GHSA-w294-6q5q-53p8",
-    "date": "2026-10-08T22:09:34Z"
+    "ghsa": "GHSA-jq7h-wrvp-3rgx",
+    "date": "2026-10-09T17:09:09Z"
+   },
+   {
+    "title": "pyLoad: Api.set_user_permission never invalidates the target's session",
+    "url": "https://github.com/advisories/GHSA-889w-m37p-88m5",
+    "score": 7.5,
+    "ghsa": "GHSA-889w-m37p-88m5",
+    "date": "2026-10-09T17:09:07Z"
+   },
+   {
+    "title": "pyLoad WindowsPhoneNotify addon: non-admin SETTINGS user triggers SSRF via unguarded http.client notification host",
+    "url": "https://github.com/advisories/GHSA-p3pr-8f3m-4qp8",
+    "score": 6.4,
+    "ghsa": "GHSA-p3pr-8f3m-4qp8",
+    "date": "2026-10-09T17:09:03Z"
+   },
+   {
+    "title": "pyLoad: Tar extraction creates device nodes and FIFOs (member types not filtered; tarfile extractall without filter=)",
+    "url": "https://github.com/advisories/GHSA-fr26-jjhm-638c",
+    "score": 7.5,
+    "ghsa": "GHSA-fr26-jjhm-638c",
+    "date": "2026-10-09T17:08:58Z"
+   },
+   {
+    "title": "Nginx UI: Self-upgrade runs an unsigned binary verified only by a same-origin digest → RCE via a compromised mirror or MITM",
+    "url": "https://github.com/advisories/GHSA-662p-52hx-cmh2",
+    "score": 7.5,
+    "ghsa": "GHSA-662p-52hx-cmh2",
+    "date": "2026-10-09T17:08:21Z"
+   },
+   {
+    "title": "Nginx UI: Authentication bypass: password login does not enforce a passkey-only second factor (2FA bypass)",
+    "url": "https://github.com/advisories/GHSA-45gv-9wjv-xh7p",
+    "score": 8.1,
+    "ghsa": "GHSA-45gv-9wjv-xh7p",
+    "date": "2026-10-09T17:08:15Z"
+   },
+   {
+    "title": "Nginx-UI AuthRequired token cookie fallback enables CSRF against management APIs",
+    "url": "https://github.com/advisories/GHSA-33rr-wq23-g6gg",
+    "score": 8.8,
+    "ghsa": "GHSA-33rr-wq23-g6gg",
+    "date": "2026-10-09T17:08:10Z"
+   },
+   {
+    "title": "Nginx UI: Incomplete fix of CVE-2026-84315 - the api/cluster router was not - wrapped in RequireSecureSession, so those sensitive mutations run withou",
+    "url": "https://github.com/advisories/GHSA-h246-wpgf-vmq5",
+    "score": 8.8,
+    "ghsa": "GHSA-h246-wpgf-vmq5",
+    "date": "2026-10-09T17:08:06Z"
+   },
+   {
+    "title": "0xJacky/nginx-ui /api/nodes Leaks Cluster Node Tokens and Allows Cross-Node Impersonation as initUser",
+    "url": "https://github.com/advisories/GHSA-32gc-wf3m-78w9",
+    "score": 8.8,
+    "ghsa": "GHSA-32gc-wf3m-78w9",
+    "date": "2026-10-09T17:07:23Z"
+   },
+   {
+    "title": "Nginx UI: Node Secret Credential Exposure via URL Query Parameter",
+    "url": "https://github.com/advisories/GHSA-pvgv-gcp7-v38g",
+    "score": 8.8,
+    "ghsa": "GHSA-pvgv-gcp7-v38g",
+    "date": "2026-10-09T17:07:09Z"
    }
   ],
   "thn": [
+   {
+    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+    "date": "Fri, 09 Oct 2026 21:59:55 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
     "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
@@ -292,16 +371,23 @@
     "date": "Fri, 09 Oct 2026 00:02:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-    "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
-    "date": "Thu, 08 Oct 2026 23:28:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+    "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+    "date": "Fri, 09 Oct 2026 13:17:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+    "date": "Fri, 09 Oct 2026 13:02:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Germany arrests alleged core Qilin ransomware member after extradition",
     "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
@@ -371,27 +457,13 @@
     "date": "Thu, 08 Oct 2026 15:20:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
-    "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
-    "date": "Thu, 08 Oct 2026 13:10:55 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
-    "date": "Thu, 08 Oct 2026 11:26:33 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 844,
+    "stars": 846,
     "lang": "Go"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 494,
+    "stars": 499,
     "lang": "TypeScript"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 272,
+    "stars": 277,
     "lang": "Rust"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 9,
   "kev": 1739,
   "adv": 12,
   "feed": 48
