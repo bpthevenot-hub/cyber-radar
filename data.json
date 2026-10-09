@@ -1,30 +1,12 @@
 {
- "generatedAt": "2026-10-09T21:29:22.557Z",
+ "generatedAt": "2026-10-09T22:31:02.729Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "title": "CVE-2026-105697 — Langflow: OS command injection (RCE) via arbitrary command in MCP stdio server configuration",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105697",
     "score": 9.9,
-    "date": "2026-10-09T19:54:25+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-09T19:54:23+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.4.9 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67516",
-    "score": 9.9,
-    "date": "2026-10-09T19:54:22+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.7.3 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67842",
-    "score": 9.8,
-    "date": "2026-10-09T19:54:22+00:00"
+    "date": "2026-10-07T20:36:35Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -45,46 +27,22 @@
     "date": "2026-10-09T19:54:26+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: osbuild-composer security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48790",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:20+00:00"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
+    "score": 8.8,
+    "date": "2026-10-09T19:54:25+00:00"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.3 Security Update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41019",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:17+00:00"
+    "title": "MAL-2026-17387 — Malicious code in arsya-baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17387",
+    "score": null,
+    "date": "2026-10-09T19:42:05Z"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: Satellite 6.16.9 Async Update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:27076",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:15+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Quay 3.15.5 (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24853",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:13+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:23228",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:11+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: image-builder security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22937",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:11+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: osbuild-composer security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22714",
-    "score": 9.1,
-    "date": "2026-10-09T19:54:11+00:00"
+    "title": "MAL-2026-17749 — Malicious code in @myorder-frontend-commons/analytics (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17749",
+    "score": null,
+    "date": "2026-10-09T19:31:38Z"
    }
   ],
   "kev": [
@@ -469,7 +427,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 676,
+    "stars": 677,
     "lang": "Python"
    },
    {
@@ -517,7 +475,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 281,
+    "stars": 284,
     "lang": "Rust"
    },
    {
@@ -717,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 4,
   "kev": 1739,
   "adv": 12,
   "feed": 48
