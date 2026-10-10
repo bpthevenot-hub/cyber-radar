@@ -1,12 +1,72 @@
 {
- "generatedAt": "2026-10-10T17:26:30.545Z",
+ "generatedAt": "2026-10-10T18:35:16.101Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-108551 — openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that allows attackers controlling an OpenAPI document to i",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108551",
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-10-10T16:53:39+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Security update for grafana (+26 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_20654-1.json",
+    "score": 9.9,
+    "date": "2026-10-10T16:06:12Z"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security update (+41 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53806",
     "score": 9.8,
-    "date": "2026-10-10T15:30:23Z"
+    "date": "2026-10-10T16:53:39+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 Security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53646",
+    "score": 9.8,
+    "date": "2026-10-10T16:53:39+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 Security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53645",
+    "score": 9.8,
+    "date": "2026-10-10T16:53:39+00:00"
+   },
+   {
+    "title": "CVE-2025-14813 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.25 security pdate (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53644",
+    "score": 9.8,
+    "date": "2026-10-10T16:53:39+00:00"
+   },
+   {
+    "title": "CVE-2024-45337 — Security update for rclone (+13 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_20620-1.json",
+    "score": 9.8,
+    "date": "2026-10-10T16:06:11Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+646 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23244-1.json",
+    "score": 9.8,
+    "date": "2026-10-10T16:04:21Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+647 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23241-1.json",
+    "score": 9.8,
+    "date": "2026-10-10T16:04:20Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+646 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23194-1.json",
+    "score": 9.8,
+    "date": "2026-10-10T16:04:18Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+647 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23193-1.json",
+    "score": 9.8,
+    "date": "2026-10-10T16:04:17Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +81,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-108550 — SkillHub before 0.2.22 contains an incorrect authorization vulnerability in AccountMergeService and AccountMergeController that allows authe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108550",
-    "score": 8.8,
-    "date": "2026-10-10T15:30:23Z"
-   },
-   {
-    "title": "CVE-2026-105885 — Deserialization of Untrusted Data vulnerability in 10Web Slider by 10Web slider-wd allows Object Injection.This issue affects Slider by 10We",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105885",
-    "score": 8.8,
-    "date": "2026-10-10T15:30:22Z"
-   },
-   {
-    "title": "CVE-2026-108549 — cc-connect through 1.5.0 contains a missing authentication vulnerability in the MAX platform adapter webhook mode in platform/max/max.go tha",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108549",
-    "score": 8.1,
-    "date": "2026-10-10T15:30:23Z"
-   },
-   {
-    "title": "CVE-2026-108553 — OpenRefine through 3.10.1 contains a cross-site request forgery vulnerability in the get-rows command that allows remote attackers to execut",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108553",
-    "score": 7.5,
-    "date": "2026-10-10T15:30:23Z"
-   },
-   {
-    "title": "CVE-2026-108546 — Spotweb through 1.5.8 contains an OS command injection vulnerability in the runcommand NZB handler that allows remote attackers to execute c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108546",
-    "score": 7.5,
-    "date": "2026-10-10T15:30:23Z"
-   },
-   {
-    "title": "CVE-2026-108161 — FusionPBX through 5.6.5 contains an OS command injection vulnerability in call_recordings::download() that allows unauthenticated attackers ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108161",
-    "score": 7.5,
-    "date": "2026-10-10T15:30:22Z"
-   },
-   {
-    "title": "CVE-2026-108548 — AstronRPA through 1.1.6 contains an authentication bypass vulnerability in the OpenResty gateway's auth_handler.lua that accepts any Bearer ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108548",
-    "score": 7.3,
-    "date": "2026-10-10T15:30:23Z"
-   },
-   {
-    "title": "CVE-2026-94676 — Deserialization of Untrusted Data vulnerability in Tainacan Community Tainacan tainacan allows Object Injection.This issue affects Tainacan:",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94676",
-    "score": 7.2,
-    "date": "2026-10-10T15:30:22Z"
-   },
-   {
-    "title": "CVE-2026-97263 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Greg Winiarski WPAdverts wpadverts all",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97263",
-    "score": 7.1,
-    "date": "2026-10-10T15:30:22Z"
-   },
-   {
-    "title": "CVE-2026-97264 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Greg Winiarski WPAdverts wpadverts all",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97264",
-    "score": 7.1,
-    "date": "2026-10-10T15:30:22Z"
-   },
-   {
-    "title": "CVE-2026-102388 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPMU DEV Forminator forminator allows ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102388",
-    "score": 7.1,
-    "date": "2026-10-10T15:30:22Z"
+    "title": "CVE-2025-9784 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.13 security update on RHEL 7 (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76128",
+    "score": 9.6,
+    "date": "2026-10-10T16:53:47+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 939,
+    "stars": 944,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 555,
+    "stars": 559,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 307,
+    "stars": 308,
     "lang": "Rust"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip",
+    "url": "https://www.reddit.com/r/netsec/comments/1x2l1ii/a_story_of_wifi_secrets_uart_lockdowns_and_a/",
+    "date": "2026-10-10T17:32:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "GitHub Actions leaking secrets when Miri output is cached",
     "url": "https://www.reddit.com/r/netsec/comments/1x2dgsg/github_actions_leaking_secrets_when_miri_output/",
     "date": "2026-10-10T11:54:58+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-10-08T05:38:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
-    "date": "2026-10-07T13:11:06+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 14,
   "kev": 1739,
   "adv": 12,
   "feed": 48
