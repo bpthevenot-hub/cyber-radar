@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-10T16:31:25.187Z",
+ "generatedAt": "2026-10-10T17:26:30.545Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-108551 — openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that allows attackers controlling an OpenAPI document to i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108551",
+    "score": 9.8,
+    "date": "2026-10-10T15:30:23Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-87781 — The LTL Freight Quotes WordPress plugin before 4.2.19 does not sanitise and escape a parameter before using it in a SQL statement, leading t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87781",
-    "score": 8.6,
-    "date": "2026-10-10T06:30:59Z"
+    "title": "CVE-2026-108550 — SkillHub before 0.2.22 contains an incorrect authorization vulnerability in AccountMergeService and AccountMergeController that allows authe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108550",
+    "score": 8.8,
+    "date": "2026-10-10T15:30:23Z"
    },
    {
-    "title": "CVE-2026-107794 — CVE-2026-107794",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107794",
-    "score": null,
-    "date": "2026-10-10T13:17:31.357"
+    "title": "CVE-2026-105885 — Deserialization of Untrusted Data vulnerability in 10Web Slider by 10Web slider-wd allows Object Injection.This issue affects Slider by 10We",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105885",
+    "score": 8.8,
+    "date": "2026-10-10T15:30:22Z"
    },
    {
-    "title": "CVE-2026-107373 — CVE-2026-107373",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107373",
-    "score": null,
-    "date": "2026-10-10T13:17:31.253"
+    "title": "CVE-2026-108549 — cc-connect through 1.5.0 contains a missing authentication vulnerability in the MAX platform adapter webhook mode in platform/max/max.go tha",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108549",
+    "score": 8.1,
+    "date": "2026-10-10T15:30:23Z"
    },
    {
-    "title": "CVE-2013-10076 — CVE-2013-10076",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2013-10076",
-    "score": null,
-    "date": "2026-10-10T13:17:30.610"
+    "title": "CVE-2026-108553 — OpenRefine through 3.10.1 contains a cross-site request forgery vulnerability in the get-rows command that allows remote attackers to execut",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108553",
+    "score": 7.5,
+    "date": "2026-10-10T15:30:23Z"
    },
    {
-    "title": "CVE-2026-103636 — CVE-2026-103636",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103636",
-    "score": null,
-    "date": "2026-10-10T11:17:36.077"
+    "title": "CVE-2026-108546 — Spotweb through 1.5.8 contains an OS command injection vulnerability in the runcommand NZB handler that allows remote attackers to execute c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108546",
+    "score": 7.5,
+    "date": "2026-10-10T15:30:23Z"
    },
    {
-    "title": "CVE-2026-103635 — CVE-2026-103635",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103635",
-    "score": null,
-    "date": "2026-10-10T11:17:35.963"
+    "title": "CVE-2026-108161 — FusionPBX through 5.6.5 contains an OS command injection vulnerability in call_recordings::download() that allows unauthenticated attackers ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108161",
+    "score": 7.5,
+    "date": "2026-10-10T15:30:22Z"
    },
    {
-    "title": "CVE-2026-103513 — CVE-2026-103513",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103513",
-    "score": null,
-    "date": "2026-10-10T11:17:35.853"
+    "title": "CVE-2026-108548 — AstronRPA through 1.1.6 contains an authentication bypass vulnerability in the OpenResty gateway's auth_handler.lua that accepts any Bearer ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108548",
+    "score": 7.3,
+    "date": "2026-10-10T15:30:23Z"
    },
    {
-    "title": "CVE-2026-103501 — CVE-2026-103501",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103501",
-    "score": null,
-    "date": "2026-10-10T11:17:34.853"
+    "title": "CVE-2026-94676 — Deserialization of Untrusted Data vulnerability in Tainacan Community Tainacan tainacan allows Object Injection.This issue affects Tainacan:",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94676",
+    "score": 7.2,
+    "date": "2026-10-10T15:30:22Z"
    },
    {
-    "title": "CVE-2026-78341 — CVE-2026-78341",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78341",
-    "score": null,
-    "date": "2026-10-09T10:16:39.387"
+    "title": "CVE-2026-97263 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Greg Winiarski WPAdverts wpadverts all",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97263",
+    "score": 7.1,
+    "date": "2026-10-10T15:30:22Z"
    },
    {
-    "title": "CVE-2026-78026 — CVE-2026-78026",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78026",
-    "score": null,
-    "date": "2026-10-09T10:16:38.833"
+    "title": "CVE-2026-97264 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Greg Winiarski WPAdverts wpadverts all",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97264",
+    "score": 7.1,
+    "date": "2026-10-10T15:30:22Z"
    },
    {
-    "title": "CVE-2026-78023 — CVE-2026-78023",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78023",
-    "score": null,
-    "date": "2026-10-09T10:16:38.430"
-   },
-   {
-    "title": "CVE-2026-78020 — CVE-2026-78020",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78020",
-    "score": null,
-    "date": "2026-10-09T09:17:09.300"
+    "title": "CVE-2026-102388 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPMU DEV Forminator forminator allows ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102388",
+    "score": 7.1,
+    "date": "2026-10-10T15:30:22Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 936,
+    "stars": 939,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 551,
+    "stars": 555,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1739,
   "adv": 12,
   "feed": 48
