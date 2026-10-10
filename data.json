@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T13:28:43.571Z",
+ "generatedAt": "2026-10-10T14:29:19.519Z",
  "sources": {
   "cve": [
    {
@@ -15,16 +15,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "RLSA-2026:79371 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:79371",
+    "score": 9.1,
+    "date": "2026-10-10T12:08:29.652489Z"
+   },
+   {
     "title": "CVE-2026-87780 — The LTL Freight Quotes WordPress plugin before 4.2.19 does not sanitise and escape values submitted through an unauthenticated endpoint befo",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-87780",
     "score": 8.8,
     "date": "2026-10-10T06:30:59Z"
    },
    {
+    "title": "RLSA-2026:77690 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:77690",
+    "score": 8.8,
+    "date": "2026-10-09T12:10:46.463075Z"
+   },
+   {
+    "title": "RLSA-2026:74442 — Important: libpcap security update",
+    "url": "https://github.com/advisories/RLSA-2026:74442",
+    "score": 8.7,
+    "date": "2026-10-02T12:09:30.803849Z"
+   },
+   {
     "title": "CVE-2026-87781 — The LTL Freight Quotes WordPress plugin before 4.2.19 does not sanitise and escape a parameter before using it in a SQL statement, leading t",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-87781",
     "score": 8.6,
     "date": "2026-10-10T06:30:59Z"
+   },
+   {
+    "title": "RLSA-2026:79122 — Important: cjose security update",
+    "url": "https://github.com/advisories/RLSA-2026:79122",
+    "score": 8.2,
+    "date": "2026-10-10T12:08:29.652489Z"
    },
    {
     "title": "CVE-2026-94257 — The SMS Alert WordPress plugin before 4.0.1 does not bind the account whose password is being changed to the phone number that was actually ",
@@ -39,52 +63,28 @@
     "date": "2026-10-10T06:30:59Z"
    },
    {
-    "title": "CVE-2026-104752 — The Rank Math SEO WordPress plugin before 1.0.280 does not correctly validate the type of a file uploaded through its settings import featur",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104752",
-    "score": 7.2,
-    "date": "2026-10-10T06:30:58Z"
+    "title": "RLSA-2026:77020 — Important: python3.12 security update",
+    "url": "https://github.com/advisories/RLSA-2026:77020",
+    "score": 8.1,
+    "date": "2026-10-09T12:10:46.463075Z"
    },
    {
-    "title": "CVE-2026-107323 — The Gallery PhotoBlocks WordPress plugin before 1.3.6 does not sanitize and escape one of its gallery settings before outputting it into an ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107323",
-    "score": 6.8,
-    "date": "2026-10-10T06:30:59Z"
+    "title": "RLSA-2026:77018 — Important: python3.14 security update",
+    "url": "https://github.com/advisories/RLSA-2026:77018",
+    "score": 8.1,
+    "date": "2026-10-09T12:10:46.463075Z"
    },
    {
-    "title": "CVE-2026-85571 — The Tutor LMS WordPress plugin before 4.1.1 does not verify that the posts named in its course content ordering requests belong to a course ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85571",
-    "score": 6.5,
-    "date": "2026-10-10T06:30:59Z"
+    "title": "CVE-2026-97687 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69612",
+    "score": 7.5,
+    "date": "2026-10-10T12:22:37+00:00"
    },
    {
-    "title": "CVE-2026-108506 — ZTE Z80 Ultra's system interfaces do not have robust invocation authentication, with inadequate access control. Third-party apps may call th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108506",
-    "score": 5.5,
-    "date": "2026-10-10T12:30:25Z"
-   },
-   {
-    "title": "CVE-2026-106138 — In Progress® KendoReact (@progress/kendo-react-charts) starting with version 1.1.0 and prior to 16.2.0, the default Chart tooltip renders th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106138",
-    "score": 5.4,
-    "date": "2026-10-10T12:30:25Z"
-   },
-   {
-    "title": "CVE-2026-106139 — In Progress® Kendo UI for Vue (@progress/kendo-vue-charts) starting with version 2.5.0 and prior to 16.2.0, the default Chart tooltip render",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106139",
-    "score": 5.4,
-    "date": "2026-10-10T12:30:25Z"
-   },
-   {
-    "title": "CVE-2026-107321 — The W3 Total Cache WordPress plugin before 2.10.6 does not confine a media-import file copy to the document root, nor enforce an effective f",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107321",
-    "score": 5.4,
-    "date": "2026-10-10T06:30:59Z"
-   },
-   {
-    "title": "CVE-2026-105995 — The Booking Package WordPress plugin before 1.7.30 does not perform authorization checks before returning stored reservation data, allowing ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105995",
-    "score": 5.3,
-    "date": "2026-10-10T06:30:59Z"
+    "title": "RLSA-2026:77534 — Moderate: sssd security update",
+    "url": "https://github.com/advisories/RLSA-2026:77534",
+    "score": 7.5,
+    "date": "2026-10-09T12:10:46.463075Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+    "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+    "date": "Sat, 10 Oct 2026 10:16:17 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
     "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
     "date": "Sat, 10 Oct 2026 08:30:39 -0400",
@@ -450,20 +457,13 @@
     "date": "Fri, 09 Oct 2026 01:41:04 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
-    "date": "Thu, 08 Oct 2026 17:42:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
-    "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 920,
+    "stars": 926,
     "lang": "Go"
    },
    {
@@ -475,13 +475,13 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 540,
+    "stars": 544,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 528,
+    "stars": 529,
     "lang": "JavaScript"
    },
    {
@@ -493,13 +493,13 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 408,
+    "stars": 409,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 353,
+    "stars": 354,
     "lang": "C++"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "AI Agent Security: Six Controls From Nine Real Incidents",
+    "url": "https://www.reddit.com/r/netsec/comments/1x2g7j7/ai_agent_security_six_controls_from_nine_real/",
+    "date": "2026-10-10T14:08:12+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578) - watchTowr Labs",
     "url": "https://www.reddit.com/r/netsec/comments/1x1squu/death_by_a_thousand_papercuts_papercut_preauth/",
     "date": "2026-10-09T18:17:56+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-10-07T13:11:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1wz82op/you_wont_hear_about_these_even_in_myths_atlassian/",
-    "date": "2026-10-06T17:06:35+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1739,
   "adv": 12,
   "feed": 48
