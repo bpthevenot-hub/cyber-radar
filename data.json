@@ -1,66 +1,12 @@
 {
- "generatedAt": "2026-10-10T03:39:46.219Z",
+ "generatedAt": "2026-10-10T04:35:48.663Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:49+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:48+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:48+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:48+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:46+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:36+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:35+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+56 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:34+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+60 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
-    "score": 9.9,
-    "date": "2026-10-10T01:03:34+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "title": "CVE-2026-76284 — Improper Neutralization. Splunk addressed multiple internally identified vulnerabilities in Splunk Enterprise versions 10.4.3, 10.2.7, 10.0.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76284",
     "score": 9.8,
-    "date": "2026-10-10T01:03:44+00:00"
+    "date": "2026-10-07T21:33:31Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -75,16 +21,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
-    "score": 9.3,
-    "date": "2026-10-10T01:03:47+00:00"
+    "title": "CVE-2026-88647 — A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88647",
+    "score": 9.1,
+    "date": "2026-10-08T18:32:29Z"
    },
    {
-    "title": "CVE-2026-1784 — Red Hat Security Advisory: OpenShift Container Platform 4.12.99 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70647",
-    "score": 9.3,
-    "date": "2026-10-10T01:03:31+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.21.5 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77269",
+    "score": 7.5,
+    "date": "2026-10-10T01:03:57+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.11.2 release. (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77899",
+    "score": 7.5,
+    "date": "2026-10-10T01:03:55+00:00"
+   },
+   {
+    "title": "CVE-2026-95116 — An issue in libming through 0.4.8 allows a remote attacker to cause a denial of service via the readtag_file() in src/blocks/fromswf.c.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95116",
+    "score": 7.5,
+    "date": "2026-10-08T21:33:35Z"
+   },
+   {
+    "title": "CVE-2026-104915 — The Academy LMS – AI Course Builder, Quizzes, Certificates & eLearning plugin for WordPress is vulnerable to authorization bypass in all ver",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104915",
+    "score": 6.5,
+    "date": "2026-10-10T03:30:20Z"
+   },
+   {
+    "title": "CVE-2026-93883 — The Advanced Classifieds & Directory Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'phone' parameter in all ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93883",
+    "score": 6.4,
+    "date": "2026-10-10T03:30:20Z"
+   },
+   {
+    "title": "CVE-2026-104022 — The Academy LMS – AI Course Builder, Quizzes, Certificates & eLearning plugin for WordPress is vulnerable to Privilege Escalation in all ver",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104022",
+    "score": 5.4,
+    "date": "2026-10-10T03:30:20Z"
+   },
+   {
+    "title": "CVE-2026-12345 — CVE-2026-12345",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12345",
+    "score": null,
+    "date": "2026-09-29T18:17:14.707"
    }
   ],
   "kev": [
@@ -463,7 +445,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 866,
+    "stars": 869,
     "lang": "Go"
    },
    {
@@ -481,7 +463,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 516,
+    "stars": 519,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +493,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 296,
+    "stars": 297,
     "lang": "Python"
    },
    {
@@ -717,7 +699,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 4,
   "kev": 1739,
   "adv": 12,
   "feed": 48
