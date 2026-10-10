@@ -1,90 +1,18 @@
 {
- "generatedAt": "2026-10-10T22:29:15.659Z",
+ "generatedAt": "2026-10-10T23:28:06.988Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-62129 — Contributor Arbitrary File Upload in Creator LMS <= 1.2.21 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62129",
-    "score": 9.9,
-    "date": "2026-10-10T21:31:19Z"
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
    },
    {
-    "title": "CVE-2026-66567 — Unauthenticated PHP Object Injection in Anesta <= 1.5.3 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66567",
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66563 — Unauthenticated PHP Object Injection in Windsor <= 2.10 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66563",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-78535 — Unauthenticated PHP Object Injection in Photolia <= 1.0.3 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78535",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-78533 — Unauthenticated PHP Object Injection in Qwery <= 3.6.1 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78533",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-81797 — Unauthenticated PHP Object Injection in Buzz Stone | Magazine & Viral Blog WordPress Theme <= 1.0.2 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81797",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-78529 — Unauthenticated PHP Object Injection in Alliance <= 3.11 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78529",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66565 — Unauthenticated PHP Object Injection in FC United <= 1.1.1 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66565",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66564 — Unauthenticated PHP Object Injection in ShiftCV <= 3.0.14 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66564",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66568 — Unauthenticated PHP Object Injection in Original <= 1.9.0 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66568",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66569 — Unauthenticated PHP Object Injection in Kicker <= 2.2.1 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66569",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-78531 — Unauthenticated PHP Object Injection in Jacqueline <= 2.22 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78531",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66483 — Unauthenticated PHP Object Injection in Education Center <= 3.6.12 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66483",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-66482 — Unauthenticated PHP Object Injection in Drone Media <= 2.2.0 versions.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66482",
-    "score": 9.8,
-    "date": "2026-10-10T21:31:19Z"
+    "date": "2024-11-05T16:04:14Z"
    }
   ],
   "kev": [
@@ -463,13 +391,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 963,
+    "stars": 965,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 681,
+    "stars": 682,
     "lang": "Python"
    },
    {
@@ -505,7 +433,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 311,
+    "stars": 312,
     "lang": "Rust"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1739,
   "adv": 12,
   "feed": 48
