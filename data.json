@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-10-10T05:31:20.801Z",
+ "generatedAt": "2026-10-10T06:46:04.524Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-76284 — Improper Neutralization. Splunk addressed multiple internally identified vulnerabilities in Splunk Enterprise versions 10.4.3, 10.2.7, 10.0.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76284",
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.4.9 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67516",
+    "score": 9.9,
+    "date": "2026-10-10T04:29:47+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.7.3 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67842",
     "score": 9.8,
-    "date": "2026-10-07T21:33:31Z"
+    "date": "2026-10-10T04:29:52+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,52 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-88647 — A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88647",
-    "score": 9.1,
-    "date": "2026-10-08T18:32:29Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-10-10T04:29:37+00:00"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.21.5 security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:77269",
-    "score": 7.5,
-    "date": "2026-10-10T01:03:57+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: RHACS 4.11.4 security and bug fix update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67714",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:52+00:00"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.11.2 release. (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:77899",
-    "score": 7.5,
-    "date": "2026-10-10T01:03:55+00:00"
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67518",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:50+00:00"
    },
    {
-    "title": "CVE-2026-95116 — An issue in libming through 0.4.8 allows a remote attacker to cause a denial of service via the readtag_file() in src/blocks/fromswf.c.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95116",
-    "score": 7.5,
-    "date": "2026-10-08T21:33:35Z"
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.38 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66377",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:49+00:00"
    },
    {
-    "title": "CVE-2026-104915 — The Academy LMS – AI Course Builder, Quizzes, Certificates & eLearning plugin for WordPress is vulnerable to authorization bypass in all ver",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104915",
-    "score": 6.5,
-    "date": "2026-10-10T03:30:20Z"
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.22.14 bug fix and security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66358",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:48+00:00"
    },
    {
-    "title": "CVE-2026-93883 — The Advanced Classifieds & Directory Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'phone' parameter in all ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93883",
-    "score": 6.4,
-    "date": "2026-10-10T03:30:20Z"
+    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67517",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:47+00:00"
    },
    {
-    "title": "CVE-2026-104022 — The Academy LMS – AI Course Builder, Quizzes, Certificates & eLearning plugin for WordPress is vulnerable to Privilege Escalation in all ver",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104022",
-    "score": 5.4,
-    "date": "2026-10-10T03:30:20Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.21.33 bug fix and security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66352",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:47+00:00"
    },
    {
-    "title": "CVE-2026-12345 — CVE-2026-12345",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12345",
-    "score": null,
-    "date": "2026-09-29T18:17:14.707"
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:44+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security, bug fix, and enhancement update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66327",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:42+00:00"
+   },
+   {
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
+    "score": 8.8,
+    "date": "2026-10-10T04:29:41+00:00"
    }
   ],
   "kev": [
@@ -445,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 873,
+    "stars": 884,
     "lang": "Go"
    },
    {
@@ -463,7 +481,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 523,
+    "stars": 524,
     "lang": "TypeScript"
    },
    {
@@ -638,16 +656,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Loupe: An Android Console in the Browser",
-    "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
-    "date": "2026-10-08T21:27:29+00:00",
+    "title": "A JPEG, a Race, and a Ghost: Breaking Discourse's Image Pipeline",
+    "url": "https://www.reddit.com/r/netsec/comments/1x165mn/a_jpeg_a_race_and_a_ghost_breaking_discourses/",
+    "date": "2026-10-08T23:32:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "A JPEG, a Race, and a Ghost: Breaking Discourse's Image Pipeline",
-    "url": "https://www.reddit.com/r/netsec/comments/1x165mn/a_jpeg_a_race_and_a_ghost_breaking_discourses/",
-    "date": "2026-10-08T23:32:09+00:00",
+    "title": "Loupe: An Android Console in the Browser",
+    "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
+    "date": "2026-10-08T21:27:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -699,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 5,
   "kev": 1739,
   "adv": 12,
   "feed": 48
