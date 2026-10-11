@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T01:15:22.339Z",
+ "generatedAt": "2026-10-11T01:51:19.258Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-108657 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the SysTenantController passApply handler that allows any authenti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108657",
+    "score": 8.1,
+    "date": "2026-10-11T00:30:58Z"
+   },
+   {
+    "title": "CVE-2026-108628 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the saveDeptRolePermission endpoint of SysDepartPermissionControll",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108628",
+    "score": 8.1,
+    "date": "2026-10-11T00:30:54Z"
+   },
+   {
+    "title": "CVE-2026-108671 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows any authenticated user to read MCP server configurations ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108671",
+    "score": 6.5,
+    "date": "2026-10-11T00:31:00Z"
+   },
+   {
+    "title": "CVE-2026-108677 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in GET /sys/api/getUserByName that allows low-privileged authenticate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108677",
+    "score": 6.5,
+    "date": "2026-10-11T00:31:00Z"
+   },
+   {
+    "title": "CVE-2026-108648 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the GET /sys/api/getDynamicDbSourceByCode endpoint of SystemApiCon",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108648",
+    "score": 6.5,
+    "date": "2026-10-11T00:30:58Z"
+   },
+   {
+    "title": "CVE-2026-108661 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows any authenticated user to transfer tenant ownership via P",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108661",
+    "score": 6.5,
+    "date": "2026-10-11T00:30:58Z"
+   },
+   {
+    "title": "CVE-2026-108666 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the deleteBatch handler of AiragPromptsController that allows any ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108666",
+    "score": 5.4,
+    "date": "2026-10-11T00:30:59Z"
+   },
+   {
+    "title": "CVE-2026-108668 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the AiragPromptsController deleteRecycleBin handler that allows an",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108668",
+    "score": 5.4,
+    "date": "2026-10-11T00:30:59Z"
+   },
+   {
+    "title": "CVE-2026-108662 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows low-privileged authenticated users to remove users from t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108662",
+    "score": 5.4,
+    "date": "2026-10-11T00:30:58Z"
+   },
+   {
+    "title": "CVE-2026-108644 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the SysCategoryController delete handler that allows any authentic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108644",
+    "score": 5.4,
+    "date": "2026-10-11T00:30:56Z"
+   },
+   {
+    "title": "CVE-2026-108639 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows any authenticated user to permanently delete data diction",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108639",
+    "score": 5.4,
+    "date": "2026-10-11T00:30:55Z"
+   },
+   {
+    "title": "CVE-2026-108643 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows low-privileged authenticated users to delete category dic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108643",
+    "score": 5.4,
+    "date": "2026-10-11T00:30:55Z"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 984,
+    "stars": 990,
     "lang": "Go"
    },
    {
@@ -421,7 +493,7 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 409,
+    "stars": 410,
     "lang": "C++"
    },
    {
