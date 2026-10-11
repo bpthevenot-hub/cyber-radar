@@ -1,67 +1,7 @@
 {
- "generatedAt": "2026-10-11T15:29:10.860Z",
+ "generatedAt": "2026-10-11T16:32:24.646Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:48+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:47+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:47+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:47+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:45+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:37+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:36+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+56 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:35+00:00"
-   },
-   {
-    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+60 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
-    "score": 9.9,
-    "date": "2026-10-11T13:48:35+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
-    "score": 9.8,
-    "date": "2026-10-11T13:48:45+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -75,16 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
-    "score": 9.3,
-    "date": "2026-10-11T13:48:46+00:00"
+    "title": "MAL-2026-17771 — Malicious code in ksp-client-registry (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17771",
+    "score": null,
+    "date": "2026-10-11T13:56:54Z"
    },
    {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
-    "score": 9.3,
-    "date": "2026-10-11T13:48:46+00:00"
+    "title": "MAL-2026-17767 — Malicious code in another-very-long-name (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17767",
+    "score": null,
+    "date": "2026-10-11T13:54:57Z"
+   },
+   {
+    "title": "MAL-2026-17778 — Malicious code in some-very-long-package-name (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17778",
+    "score": null,
+    "date": "2026-10-11T13:54:49Z"
+   },
+   {
+    "title": "MAL-2026-17773 — Malicious code in nested-lib (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17773",
+    "score": null,
+    "date": "2026-10-11T13:53:33Z"
+   },
+   {
+    "title": "MAL-2026-17776 — Malicious code in pay-methods-kmf (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17776",
+    "score": null,
+    "date": "2026-10-11T13:53:06Z"
+   },
+   {
+    "title": "MAL-2026-17768 — Malicious code in cloudflare_module (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17768",
+    "score": null,
+    "date": "2026-10-11T13:51:50Z"
+   },
+   {
+    "title": "MAL-2026-17769 — Malicious code in deposit-limit-fe (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17769",
+    "score": null,
+    "date": "2026-10-11T13:51:21Z"
+   },
+   {
+    "title": "MAL-2026-17775 — Malicious code in nitro-cjs-requirer (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17775",
+    "score": null,
+    "date": "2026-10-11T13:51:12Z"
+   },
+   {
+    "title": "MAL-2026-17774 — Malicious code in nitro-bundled-dep (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17774",
+    "score": null,
+    "date": "2026-10-11T13:50:38Z"
+   },
+   {
+    "title": "MAL-2026-17758 — Malicious code in react-dropzone-v4 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17758",
+    "score": null,
+    "date": "2026-10-11T07:35:19Z"
+   },
+   {
+    "title": "MAL-2026-17755 — Malicious code in agent-vx (PyPI)",
+    "url": "https://github.com/advisories/MAL-2026-17755",
+    "score": null,
+    "date": "2026-10-10T11:19:48Z"
+   },
+   {
+    "title": "MAL-2026-17753 — Malicious code in media-manager5 (PyPI)",
+    "url": "https://github.com/advisories/MAL-2026-17753",
+    "score": null,
+    "date": "2026-10-10T08:02:44Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1145,
+    "stars": 1161,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 687,
+    "stars": 688,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 591,
+    "stars": 594,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 530,
+    "stars": 531,
     "lang": "JavaScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1739,
   "adv": 12,
   "feed": 48
