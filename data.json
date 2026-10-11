@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T02:49:32.436Z",
+ "generatedAt": "2026-10-11T03:42:54.683Z",
  "sources": {
   "cve": [
    {
@@ -19,12 +19,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-108657",
     "score": 8.1,
     "date": "2026-10-11T00:30:58Z"
-   },
-   {
-    "title": "CVE-2026-108628 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the saveDeptRolePermission endpoint of SysDepartPermissionControll",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108628",
-    "score": 8.1,
-    "date": "2026-10-11T00:30:54Z"
    },
    {
     "title": "CVE-2026-108671 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows any authenticated user to read MCP server configurations ",
@@ -69,22 +63,28 @@
     "date": "2026-10-11T00:30:58Z"
    },
    {
-    "title": "CVE-2026-108644 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the SysCategoryController delete handler that allows any authentic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108644",
-    "score": 5.4,
-    "date": "2026-10-11T00:30:56Z"
+    "title": "CVE-2026-108673 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the AiragPromptsController exportXls handler that allows any authe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108673",
+    "score": 4.3,
+    "date": "2026-10-11T00:31:00Z"
    },
    {
-    "title": "CVE-2026-108639 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows any authenticated user to permanently delete data diction",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108639",
-    "score": 5.4,
-    "date": "2026-10-11T00:30:55Z"
+    "title": "CVE-2026-108676 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the SysAnnouncementController downLoadFiles handler that allows lo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108676",
+    "score": 4.3,
+    "date": "2026-10-11T00:31:00Z"
    },
    {
-    "title": "CVE-2026-108643 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability that allows low-privileged authenticated users to delete category dic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108643",
-    "score": 5.4,
-    "date": "2026-10-11T00:30:55Z"
+    "title": "CVE-2026-108675 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the SysAnnouncementController editIzTop handler that allows low-pr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108675",
+    "score": 4.3,
+    "date": "2026-10-11T00:31:00Z"
+   },
+   {
+    "title": "CVE-2026-108674 — JeecgBoot through 3.9.5 contains a missing authorization vulnerability in the OpenApiController queryById handler that allows low-privileged",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108674",
+    "score": 4.3,
+    "date": "2026-10-11T00:31:00Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1000,
+    "stars": 1007,
     "lang": "Go"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 312,
+    "stars": 313,
     "lang": "Rust"
    },
    {
