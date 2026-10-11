@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-10-11T12:41:41.034Z",
+ "generatedAt": "2026-10-11T13:29:31.105Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2026-85118 — The AI Content Generator Marketing WordPress plugin through 1.0.0 does not enforce a nonce or capability check on some of its AJAX actions, ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85118",
+    "score": 9.8,
+    "date": "2026-10-11T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-84737 — The Freeton WP WordPress plugin through 1.0.0 does not correctly validate the activation code when authenticating a user, allowing unauthent",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84737",
+    "score": 9.8,
+    "date": "2026-10-11T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-84734 — The Mindstien Quick Login WordPress plugin through 1.0 does not correctly validate a value supplied in the request against the visitor's own",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84734",
+    "score": 9.8,
+    "date": "2026-10-11T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-84254 — The click5 CRM add-on to Contact Form 7 WordPress plugin through 1.0.4 does not have authorisation and CSRF checks when updating options via",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84254",
+    "score": 9.8,
+    "date": "2026-10-11T09:30:24Z"
+   },
+   {
+    "title": "CVE-2026-84251 — The click5 CRM add-on to Ninja Forms WordPress plugin through 1.0.1 does not have authorisation and CSRF checks when updating options via a ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84251",
+    "score": 9.8,
+    "date": "2026-10-11T09:30:24Z"
+   },
+   {
+    "title": "CVE-2026-84252 — The click5 CRM add-on to WPForms WordPress plugin through 1.0.3 does not have authorisation and CSRF checks when updating options via a REST",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84252",
+    "score": 9.8,
+    "date": "2026-10-11T09:30:24Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-85121 — The Insurify WordPress plugin through 1.0 does not have authorisation and nonce checks on one of its AJAX actions, allowing unauthenticated ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85121",
+    "score": 9.1,
+    "date": "2026-10-11T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-86706 — The Quick quotes WordPress plugin through 1.0.0 does not perform any capability or nonce check on one of its AJAX actions and lets the calle",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86706",
+    "score": 9.1,
+    "date": "2026-10-11T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-86717 — The Insurify WordPress plugin through 1.0 does not have authorisation and nonce checks on one of its AJAX actions, allowing unauthenticated ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86717",
+    "score": 9.1,
+    "date": "2026-10-11T09:30:25Z"
+   },
+   {
+    "title": "CVE-2026-81649 — The Fundiin cho WooCommerce WordPress plugin through 3.4.0 does not have proper authorisation on several of its REST API routes, relying ins",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81649",
+    "score": 9.1,
+    "date": "2026-10-11T09:30:24Z"
+   },
+   {
+    "title": "CVE-2026-96227 — The Piotnet Forms WordPress plugin through 1.0.30 does not authenticate or validate a form-submission file-upload request and permits browse",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96227",
+    "score": 8.8,
+    "date": "2026-10-11T09:30:26Z"
+   },
+   {
+    "title": "CVE-2026-88903 — The Topcontent WordPress plugin through 1.2.1 does not properly authorise one of its request handlers and disables HTML sanitisation before ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88903",
+    "score": 8.8,
+    "date": "2026-10-11T09:30:25Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,19 +463,19 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1097,
+    "stars": 1110,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 685,
+    "stars": 687,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 583,
+    "stars": 585,
     "lang": "TypeScript"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 12,
   "kev": 1739,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
