@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-11T20:31:30.794Z",
+ "generatedAt": "2026-10-11T21:28:44.205Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-10-11T18:57:45+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-11395 — Red Hat Security Advisory: buildah security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70640",
-    "score": 8.1,
-    "date": "2026-10-11T17:34:19+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:46+00:00"
    },
    {
-    "title": "CVE-2026-108913 — omarchy-theme-set in Omarchy 4 before 4.0.1 allows code execution via a third-party theme because the files placed into ~/.local/state/omarc",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108913",
-    "score": 7.1,
-    "date": "2026-10-11T18:30:24Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:45+00:00"
    },
    {
-    "title": "CVE-2026-59508 — Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Interuse i-Bos. This issue affects i-B",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59508",
-    "score": 5.9,
-    "date": "2026-10-11T18:30:24Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:45+00:00"
    },
    {
-    "title": "CVE-2026-106396 — Improper input validation in Omnibox in Google Chrome on on Android prior to 155.0.8059.39 allowed a remote attacker leveraging social engin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106396",
-    "score": 5.4,
-    "date": "2026-10-06T21:31:49Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:45+00:00"
    },
    {
-    "title": "CVE-2026-107761 — Several Postiz endpoints return the complete database row of the record they operate on instead of only the fields the client needs. Two of ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107761",
-    "score": 5,
-    "date": "2026-10-11T18:30:23Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:43+00:00"
    },
    {
-    "title": "CVE-2026-106425 — Missing authorization in BrowserTag in Google Chrome prior to 155.0.8059.39 allowed a remote attacker who had compromised the renderer proce",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106425",
-    "score": 4.2,
-    "date": "2026-10-06T21:31:50Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:38+00:00"
    },
    {
-    "title": "CVE-2026-106369 — Missing authorization in Translate in Google Chrome prior to 155.0.8059.39 allowed a remote attacker who had compromised the renderer proces",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106369",
-    "score": 4.2,
-    "date": "2026-10-06T21:31:48Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:37+00:00"
    },
    {
-    "title": "MAL-2026-17446 — Malicious code in luoxy-baileys (npm)",
-    "url": "https://github.com/advisories/MAL-2026-17446",
-    "score": null,
-    "date": "2026-10-11T16:54:06Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:36+00:00"
    },
    {
-    "title": "MAL-2026-17778 — Malicious code in some-very-long-package-name (npm)",
-    "url": "https://github.com/advisories/MAL-2026-17778",
-    "score": null,
-    "date": "2026-10-11T13:54:49Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:36+00:00"
    },
    {
-    "title": "MAL-2026-17768 — Malicious code in cloudflare_module (npm)",
-    "url": "https://github.com/advisories/MAL-2026-17768",
-    "score": null,
-    "date": "2026-10-11T13:51:50Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:35+00:00"
    },
    {
-    "title": "MAL-2026-17754 — Malicious code in @library-wide/library-shell (npm)",
-    "url": "https://github.com/advisories/MAL-2026-17754",
-    "score": null,
-    "date": "2026-10-10T09:30:50Z"
-   },
-   {
-    "title": "CVE-2026-91136 — CVE-2026-91136",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91136",
-    "score": null,
-    "date": "2026-10-10T09:16:39.360"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-10-11T18:57:35+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1194,
+    "stars": 1197,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 694,
+    "stars": 695,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 327,
+    "stars": 330,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1739,
   "adv": 12,
   "feed": 48
