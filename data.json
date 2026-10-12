@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T05:40:55.942Z",
+ "generatedAt": "2026-10-12T07:08:46.758Z",
  "sources": {
   "cve": [
    {
@@ -33,6 +33,36 @@
     "date": "2026-08-10T15:33:35Z"
    },
    {
+    "title": "CVE-2026-34181 — Red Hat Security Advisory: Red Hat JBoss Web Server 7.0.2 release and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76956",
+    "score": 8.2,
+    "date": "2026-10-12T04:43:26+00:00"
+   },
+   {
+    "title": "CVE-2026-65182 — Red Hat Security Advisory: Red Hat JBoss Web Server 7.0.2 release and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76952",
+    "score": 8.2,
+    "date": "2026-10-12T04:43:26+00:00"
+   },
+   {
+    "title": "CVE-2026-65182 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63137",
+    "score": 8.2,
+    "date": "2026-10-12T04:43:26+00:00"
+   },
+   {
+    "title": "CVE-2026-65182 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56039",
+    "score": 8.2,
+    "date": "2026-10-12T04:43:26+00:00"
+   },
+   {
+    "title": "CVE-2026-77219 — Red Hat Security Advisory: emacs security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80507",
+    "score": 7.8,
+    "date": "2026-10-12T04:11:41+00:00"
+   },
+   {
     "title": "CVE-2026-86320 — A flaw was found in flatpak-builder where Git hooks are not disabled when applying patch sources with use-git-am: true. An attacker who can ",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-86320",
     "score": 7.8,
@@ -55,36 +85,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-17615",
     "score": 7.5,
     "date": "2026-08-31T18:31:30Z"
-   },
-   {
-    "title": "CVE-2026-108783 — A security vulnerability has been detected in PRVTPRO Amnezia-Web-Panel up to 1.6.2/1.7.2. This affects an unknown part of the file app.py o",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108783",
-    "score": 7.3,
-    "date": "2026-10-12T03:32:55Z"
-   },
-   {
-    "title": "CVE-2026-42169 — A heap-buffer-overflow vulnerability exists in the APNG (Animated PNG) file loader of GIMP. This flaw occurs when the `fcTL` width exceeds t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42169",
-    "score": 7.3,
-    "date": "2026-08-04T06:31:36Z"
-   },
-   {
-    "title": "CVE-2026-58384 — A flaw was found in GIMP's PSD parser. An integer overflow in read_RLE_channel() can cause an undersized heap allocation for the RLE row-len",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58384",
-    "score": 7.3,
-    "date": "2026-07-07T09:37:54Z"
-   },
-   {
-    "title": "CVE-2026-58380 — A flaw was found in GIMP's PNM file format parser. When parsing a specially crafted PNM file, the pnmscanner_gettoken() function writes a nu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58380",
-    "score": 7.3,
-    "date": "2026-07-06T15:30:48Z"
-   },
-   {
-    "title": "CVE-2026-58379 — A flaw was found in GIMP's Paint Shop Pro (PSP) file format parser. This heap buffer overflow vulnerability allows a remote attacker to caus",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58379",
-    "score": 7.3,
-    "date": "2026-07-03T21:31:35Z"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1303,
+    "stars": 1323,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 705,
+    "stars": 706,
     "lang": "Python"
    },
    {
-    "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
+    "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 612,
+    "stars": 614,
     "lang": "TypeScript"
    },
    {
@@ -487,25 +487,25 @@
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 505,
+    "stars": 506,
     "lang": "TypeScript"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 413,
+    "stars": 412,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 356,
+    "stars": 355,
     "lang": "C++"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 335,
+    "stars": 337,
     "lang": "Rust"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 155,
+    "stars": 165,
     "lang": "—"
    }
   ],
