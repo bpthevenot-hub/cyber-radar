@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-12T17:31:38.964Z",
+ "generatedAt": "2026-10-12T18:38:49.181Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-46703 — OCI layer symlink escape → arbitrary host write",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46703",
+    "score": 10,
+    "date": "2026-05-16T12:00:00Z"
+   },
+   {
+    "title": "CVE-2026-46695 — Read-only volume remount bypass via guest CAP_SYS_ADMIN",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46695",
+    "score": 10,
+    "date": "2026-05-16T12:00:00Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-42559 — DNS rebinding and cross-origin CSRF in dynoxide's MCP HTTP transport",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42559",
+    "score": 8.8,
+    "date": "2026-05-12T12:00:00Z"
+   },
+   {
+    "title": "CVE-2026-42559 — DNS rebinding vulnerability in rmcp Streamable HTTP server transport",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42559",
+    "score": 8.8,
+    "date": "2026-04-29T12:00:00Z"
+   },
+   {
+    "title": "CVE-2026-45137 — `Program<System>` accepts arbitrary executable programs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45137",
+    "score": 8.2,
+    "date": "2026-05-07T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0337 — Poly1305 panics or computes a wrong tag on attacker-chosen messages of 64 bytes or more",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0337",
+    "score": 7.5,
+    "date": "2026-10-09T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0343 — Outgoing datagram buffer accounting can panic the sender in quinn-proto",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0343",
+    "score": 7.5,
+    "date": "2026-09-14T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0340 — Peer minimum ACK delay can panic quinn-proto when ACK_FREQUENCY transmission is enabled",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0340",
+    "score": 7.5,
+    "date": "2026-09-14T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0341 — Stream reassembly memory-exhaustion guard in quinn-proto can be bypassed",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0341",
+    "score": 7.5,
+    "date": "2026-08-17T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0236 — A `BigInt` division panics, and two neighbouring operations answer wrongly in silence",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0236",
+    "score": 7.5,
+    "date": "2026-08-06T12:00:00Z"
+   },
+   {
+    "title": "CVE-2026-68537 — Non-painting replaced elements amplify to thousands of blank PDF pages (denial of service)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68537",
+    "score": 7.5,
+    "date": "2026-07-05T12:00:00Z"
+   },
+   {
+    "title": "CVE-2026-68523 — Unbounded page slicing from attacker-controlled CSS height causes denial of service",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68523",
+    "score": 7.5,
+    "date": "2026-07-05T12:00:00Z"
    }
   ],
   "kev": [
@@ -403,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 627,
+    "stars": 631,
     "lang": "TypeScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 363,
+    "stars": 365,
     "lang": "Rust"
    },
    {
@@ -451,7 +523,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 261,
+    "stars": 270,
     "lang": "—"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1739,
   "adv": 12,
   "feed": 48
