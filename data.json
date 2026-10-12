@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-10-12T02:55:06.564Z",
+ "generatedAt": "2026-10-12T03:49:58.996Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
     "score": 9.8,
-    "date": "2026-10-12T00:16:56+00:00"
+    "date": "2026-10-12T01:51:46+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-12T01:51:46+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-10-12T00:16:56+00:00"
-   },
-   {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19725",
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23449",
     "score": 8.8,
-    "date": "2026-10-12T00:16:59+00:00"
+    "date": "2026-10-12T01:51:30+00:00"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19724",
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23205",
     "score": 8.8,
-    "date": "2026-10-12T00:16:59+00:00"
+    "date": "2026-10-12T01:51:30+00:00"
    },
    {
-    "title": "CVE-2025-53020 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.62 SP4 security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:27201",
-    "score": 8.2,
-    "date": "2026-10-12T00:17:01+00:00"
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (TPU) (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23209",
+    "score": 8.8,
+    "date": "2026-10-12T01:51:29+00:00"
    },
    {
-    "title": "CVE-2025-53020 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.62 SP4 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:27200",
-    "score": 8.2,
-    "date": "2026-10-12T00:17:01+00:00"
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (CUDA) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23204",
+    "score": 8.8,
+    "date": "2026-10-12T01:51:28+00:00"
    },
    {
-    "title": "CVE-2025-9714 — Red Hat Security Advisory: OpenShift Container Platform 4.12.91 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21695",
-    "score": 8.2,
-    "date": "2026-10-12T00:17:01+00:00"
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (CUDA) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23080",
+    "score": 8.8,
+    "date": "2026-10-12T01:51:25+00:00"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: OpenShift Container Platform 4.13.67 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21690",
-    "score": 8.2,
-    "date": "2026-10-12T00:17:00+00:00"
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23079",
+    "score": 8.8,
+    "date": "2026-10-12T01:51:23+00:00"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: OpenShift Container Platform 4.16.63 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20087",
-    "score": 8.2,
-    "date": "2026-10-12T00:16:59+00:00"
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23078",
+    "score": 8.8,
+    "date": "2026-10-12T01:51:22+00:00"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20040",
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.5 (CUDA) (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23202",
     "score": 8.2,
-    "date": "2026-10-12T00:16:59+00:00"
+    "date": "2026-10-12T01:51:25+00:00"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.3 (CUDA) (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:16030",
-    "score": 8.2,
-    "date": "2026-10-12T00:16:58+00:00"
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 2.2.7 security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3645",
+    "score": 7.8,
+    "date": "2026-10-12T01:52:15+00:00"
    },
    {
-    "title": "CVE-2023-40403 — Red Hat Security Advisory: Red Hat AI Inference Server 3.3.3 (ROCm) (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:16009",
-    "score": 8.2,
-    "date": "2026-10-12T00:16:58+00:00"
+    "title": "CVE-2021-4235 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1326",
+    "score": 7.8,
+    "date": "2026-10-12T01:51:58+00:00"
    }
   ],
   "kev": [
@@ -463,31 +463,31 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1267,
+    "stars": 1280,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 701,
+    "stars": 702,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 607,
+    "stars": 608,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 531,
+    "stars": 532,
     "lang": "JavaScript"
    },
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 504,
+    "stars": 505,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 148,
+    "stars": 150,
     "lang": "Go"
    }
   ],
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Telegram Desktop vulnerability allowed any user file to be stolen",
+    "url": "https://www.reddit.com/r/netsec/comments/1x3r3u8/telegram_desktop_vulnerability_allowed_any_user/",
+    "date": "2026-10-12T03:13:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip",
     "url": "https://www.reddit.com/r/netsec/comments/1x2l1ii/a_story_of_wifi_secrets_uart_lockdowns_and_a/",
     "date": "2026-10-10T17:32:25+00:00",
@@ -694,13 +701,6 @@
     "title": "I found yet another way to invoke JavaScript functions without parentheses",
     "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
     "date": "2026-10-08T05:38:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-102489 Deep-Dive: Zammad Session Leak to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1wzw573/cve2026102489_deepdive_zammad_session_leak_to_rce/",
-    "date": "2026-10-07T13:11:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
