@@ -1,18 +1,48 @@
 {
- "generatedAt": "2026-10-12T19:28:16.841Z",
+ "generatedAt": "2026-10-12T20:33:35.109Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-46703 — OCI layer symlink escape → arbitrary host write",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46703",
-    "score": 10,
-    "date": "2026-05-16T12:00:00Z"
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-12T18:50:44+00:00"
    },
    {
-    "title": "CVE-2026-46695 — Read-only volume remount bypass via guest CAP_SYS_ADMIN",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46695",
-    "score": 10,
-    "date": "2026-05-16T12:00:00Z"
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-12T18:50:42+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.4.9 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67516",
+    "score": 9.9,
+    "date": "2026-10-12T18:50:39+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "score": 9.8,
+    "date": "2026-10-12T18:50:49+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68515",
+    "score": 9.8,
+    "date": "2026-10-12T18:50:42+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.7.3 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67842",
+    "score": 9.8,
+    "date": "2026-10-12T18:50:40+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-10-12T18:50:16+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +57,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-42559 — DNS rebinding and cross-origin CSRF in dynoxide's MCP HTTP transport",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42559",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-10-12T18:50:17+00:00"
+   },
+   {
+    "title": "CVE-2026-46150 — Red Hat Security Advisory: kernel security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68100",
     "score": 8.8,
-    "date": "2026-05-12T12:00:00Z"
+    "date": "2026-10-12T19:08:12+00:00"
    },
    {
-    "title": "CVE-2026-42559 — DNS rebinding vulnerability in rmcp Streamable HTTP server transport",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42559",
+    "title": "CVE-2025-40064 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63129",
     "score": 8.8,
-    "date": "2026-04-29T12:00:00Z"
+    "date": "2026-10-12T19:08:10+00:00"
    },
    {
-    "title": "CVE-2026-45137 — `Program<System>` accepts arbitrary executable programs",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45137",
-    "score": 8.2,
-    "date": "2026-05-07T12:00:00Z"
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59136",
+    "score": 8.8,
+    "date": "2026-10-12T18:50:37+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0337 — Poly1305 panics or computes a wrong tag on attacker-chosen messages of 64 bytes or more",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0337",
-    "score": 7.5,
-    "date": "2026-10-09T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0343 — Outgoing datagram buffer accounting can panic the sender in quinn-proto",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0343",
-    "score": 7.5,
-    "date": "2026-09-14T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0340 — Peer minimum ACK delay can panic quinn-proto when ACK_FREQUENCY transmission is enabled",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0340",
-    "score": 7.5,
-    "date": "2026-09-14T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0341 — Stream reassembly memory-exhaustion guard in quinn-proto can be bypassed",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0341",
-    "score": 7.5,
-    "date": "2026-08-17T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0236 — A `BigInt` division panics, and two neighbouring operations answer wrongly in silence",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0236",
-    "score": 7.5,
-    "date": "2026-08-06T12:00:00Z"
-   },
-   {
-    "title": "CVE-2026-68537 — Non-painting replaced elements amplify to thousands of blank PDF pages (denial of service)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68537",
-    "score": 7.5,
-    "date": "2026-07-05T12:00:00Z"
-   },
-   {
-    "title": "CVE-2026-68523 — Unbounded page slicing from attacker-controlled CSS height causes denial of service",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68523",
-    "score": 7.5,
-    "date": "2026-07-05T12:00:00Z"
+    "title": "CVE-2026-15307 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59135",
+    "score": 8.8,
+    "date": "2026-10-12T18:50:35+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+    "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+    "date": "Mon, 12 Oct 2026 16:13:52 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Yandex confirms service outage as users lose access to cloud files",
     "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
     "date": "Mon, 12 Oct 2026 15:23:01 -0400",
@@ -450,13 +457,6 @@
     "date": "Sat, 10 Oct 2026 10:16:17 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-    "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-    "date": "Sat, 10 Oct 2026 08:30:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,13 +475,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 632,
+    "stars": 634,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 535,
+    "stars": 534,
     "lang": "JavaScript"
    },
    {
@@ -493,19 +493,19 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 413,
+    "stars": 414,
     "lang": "C++"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 365,
+    "stars": 366,
     "lang": "Rust"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 356,
+    "stars": 357,
     "lang": "C++"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 271,
+    "stars": 274,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 10,
   "kev": 1739,
   "adv": 12,
   "feed": 48
