@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-12T08:56:29.957Z",
+ "generatedAt": "2026-10-12T09:50:40.706Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-108804 — A vulnerability was detected in TRENDnet TEW-751DR, TEW-752DRU and TEW733GR 1.03B01/1.03B03. Affected is the function fwrite of the file pig",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108804",
-    "score": 10,
-    "date": "2026-10-12T06:31:17Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-87690 — The Metasploit Framework post module post/apple_ios/gather/ios_image_gather is affected by a relative path traversal vulnerability (CWE-22).",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87690",
+    "title": "CVE-2026-53939 — Red Hat Security Advisory: cjose security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80605",
+    "score": 9.1,
+    "date": "2026-10-12T07:59:09+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
     "score": 8.8,
-    "date": "2026-10-12T06:31:16Z"
+    "date": "2026-10-12T08:08:49+00:00"
    },
    {
-    "title": "CVE-2026-21139 — Improper access control in Samsung Continuity Service for windows prior to version 4.6.1217.0 allows adjacent attackers to manipulate the co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21139",
-    "score": 7.5,
-    "date": "2026-10-12T06:31:16Z"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
+    "score": 8.8,
+    "date": "2026-10-12T08:08:49+00:00"
    },
    {
-    "title": "CVE-2026-21124 — Improper input validation in getting cover image in libsimba.heifdec.media.samsung.so prior to SMR Oct-2026 Release 1 allows local attackers",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21124",
-    "score": 7.5,
-    "date": "2026-10-12T06:31:15Z"
+    "title": "CVE-2026-90616 — Red Hat Security Advisory: flatpak security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80498",
+    "score": 8.8,
+    "date": "2026-10-12T07:59:17+00:00"
    },
    {
-    "title": "CVE-2026-21120 — Use after free in WSM service prior to SMR Oct-2026 Release 1 allows local attackers to potentially execute arbitrary code with system privi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21120",
-    "score": 7.5,
-    "date": "2026-10-12T06:31:15Z"
+    "title": "CVE-2026-90616 — Red Hat Security Advisory: flatpak security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80497",
+    "score": 8.8,
+    "date": "2026-10-12T07:59:16+00:00"
    },
    {
-    "title": "CVE-2026-108806 — A vulnerability has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this issu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108806",
-    "score": 7.3,
-    "date": "2026-10-12T06:31:17Z"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
+    "score": 8.6,
+    "date": "2026-10-12T08:08:53+00:00"
    },
    {
-    "title": "CVE-2026-108805 — A flaw has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108805",
-    "score": 7.3,
-    "date": "2026-10-12T06:31:16Z"
+    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind9.16 security, bug fix, and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80501",
+    "score": 8.6,
+    "date": "2026-10-12T07:59:14+00:00"
    },
    {
-    "title": "CVE-2026-109080 — SQL injection in the bulk license plate search of the Flock Night Shift hosted service allowed an authenticated user to read other customer ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109080",
-    "score": 6.5,
-    "date": "2026-10-12T06:31:17Z"
+    "title": "CVE-2026-10723 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54071",
+    "score": 8.6,
+    "date": "2026-10-12T07:59:13+00:00"
    },
    {
-    "title": "CVE-2026-107193 — A flaw has been found in **permission filters** in the **foreman** package. The API loads a filter by its identifier and does not apply the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107193",
-    "score": 6.5,
-    "date": "2026-10-12T06:31:16Z"
+    "title": "CVE-2026-18301 — Red Hat Security Advisory: gimp security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80509",
+    "score": 8.4,
+    "date": "2026-10-12T07:59:13+00:00"
    },
    {
-    "title": "CVE-2026-108803 — A security vulnerability has been detected in y_project RuoYi up to 4.8.3. This impacts the function changeStatus of the file /system/config",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108803",
-    "score": 6.3,
-    "date": "2026-10-12T06:31:16Z"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: rhc security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63130",
+    "score": 8.1,
+    "date": "2026-10-12T08:08:56+00:00"
    },
    {
-    "title": "CVE-2026-107203 — An **incorrect authorization** flaw has been found in **network interface handling** in the **Foreman** package. The domain and subnet inter",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107203",
-    "score": 5.4,
-    "date": "2026-10-12T06:31:16Z"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana-pcp security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63124",
+    "score": 8.1,
+    "date": "2026-10-12T08:08:56+00:00"
    },
    {
-    "title": "CVE-2026-21129 — Improper input validation in GuestCreditCardRegisterActivity of Samsung Checkout prior to version 5.1.03.1 allows local attackers to launch ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21129",
-    "score": 5,
-    "date": "2026-10-12T06:31:16Z"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana-pcp security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63119",
+    "score": 8.1,
+    "date": "2026-10-12T08:08:56+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+    "date": "Mon, 12 Oct 2026 14:32:14 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
     "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
     "date": "Mon, 12 Oct 2026 12:56:12 +0530",
@@ -362,13 +369,6 @@
     "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
     "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
     "date": "Fri, 09 Oct 2026 17:51:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-    "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-    "date": "Fri, 09 Oct 2026 17:00:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1337,
+    "stars": 1341,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 708,
+    "stars": 709,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 615,
+    "stars": 616,
     "lang": "TypeScript"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 341,
+    "stars": 343,
     "lang": "Rust"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 302,
+    "stars": 303,
     "lang": "Python"
    },
    {
@@ -521,16 +521,16 @@
     "lang": "Python"
    },
    {
+    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+    "url": "https://github.com/morluto/awesome-reverse-engineering",
+    "stars": 191,
+    "lang": "—"
+   },
+   {
     "title": "brandynfisher/ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. De",
     "url": "https://github.com/brandynfisher/ToolReplay",
     "stars": 184,
     "lang": "Python"
-   },
-   {
-    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-    "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 181,
-    "lang": "—"
    }
   ],
   "hn": [
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Google paid me $90,000 for this RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1x3v6od/google_paid_me_90000_for_this_rce/",
+    "date": "2026-10-12T07:09:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Telegram Desktop vulnerability allowed any user file to be stolen",
     "url": "https://www.reddit.com/r/netsec/comments/1x3r3u8/telegram_desktop_vulnerability_allowed_any_user/",
     "date": "2026-10-12T03:13:45+00:00",
@@ -642,9 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Google paid me $90,000 for this RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1x3v6od/google_paid_me_90000_for_this_rce/",
-    "date": "2026-10-12T07:09:37+00:00",
+    "title": "CVE-2026-91768: FastCGI allowed_clients compared only 96 of an IPv6 address's 128 bits",
+    "url": "https://www.reddit.com/r/netsec/comments/1x3xa8g/cve202691768_fastcgi_allowed_clients_compared/",
+    "date": "2026-10-12T09:24:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "LG webOS sync-demo Preauth RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1x3wv86/lg_webos_syncdemo_preauth_rce/",
+    "date": "2026-10-12T08:58:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -687,20 +701,6 @@
     "title": "A Single POST Freezes Any Next.js Server",
     "url": "https://www.reddit.com/r/netsec/comments/1x0v7sw/a_single_post_freezes_any_nextjs_server/",
     "date": "2026-10-08T16:17:23+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A JPEG, a Race, and a Ghost: Breaking Discourse's Image Pipeline",
-    "url": "https://www.reddit.com/r/netsec/comments/1x165mn/a_jpeg_a_race_and_a_ghost_breaking_discourses/",
-    "date": "2026-10-08T23:32:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Loupe: An Android Console in the Browser",
-    "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
-    "date": "2026-10-08T21:27:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
