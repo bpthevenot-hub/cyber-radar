@@ -1,18 +1,36 @@
 {
- "generatedAt": "2026-10-12T03:49:58.996Z",
+ "generatedAt": "2026-10-12T04:46:44.816Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-10-12T01:51:46+00:00"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.9,
+    "date": "2026-10-12T02:38:22+00:00"
    },
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.9,
+    "date": "2026-10-12T02:38:16+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.9,
+    "date": "2026-10-12T02:38:16+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
+    "score": 9.9,
+    "date": "2026-10-12T02:38:16+00:00"
+   },
+   {
+    "title": "CVE-2026-66086 — In the modem OTA stack, there is a possible stack-based buffer overflow due to improper validation of scheduling information in SIB1 message",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66086",
     "score": 9.8,
-    "date": "2026-10-12T01:51:46+00:00"
+    "date": "2026-10-12T03:32:55Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23449",
-    "score": 8.8,
-    "date": "2026-10-12T01:51:30+00:00"
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
+    "score": 9.3,
+    "date": "2026-10-12T02:38:16+00:00"
    },
    {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23205",
-    "score": 8.8,
-    "date": "2026-10-12T01:51:30+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
+    "score": 9.1,
+    "date": "2026-10-12T02:38:19+00:00"
    },
    {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (TPU) (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23209",
+    "title": "CVE-2026-108980 — Blinko through 1.8.8 allows directory traversal, overwriting startup files as root, via installPlugin. It builds the plugin install path fro",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108980",
     "score": 8.8,
-    "date": "2026-10-12T01:51:29+00:00"
+    "date": "2026-10-12T03:32:55Z"
    },
    {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (CUDA) (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23204",
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76809",
     "score": 8.8,
-    "date": "2026-10-12T01:51:28+00:00"
+    "date": "2026-10-12T02:38:20+00:00"
    },
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (CUDA) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23080",
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76795",
     "score": 8.8,
-    "date": "2026-10-12T01:51:25+00:00"
+    "date": "2026-10-12T02:38:19+00:00"
    },
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23079",
-    "score": 8.8,
-    "date": "2026-10-12T01:51:23+00:00"
+    "title": "CVE-2026-59090 — A flaw was found in GIMP's PSD file format plugin. This vulnerability, an unsigned integer underflow in the `block_rem` variable, occurs whe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59090",
+    "score": 8.4,
+    "date": "2026-08-10T15:33:35Z"
    },
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23078",
-    "score": 8.8,
-    "date": "2026-10-12T01:51:22+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.5 (CUDA) (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23202",
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay 3.17.5 (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74511",
     "score": 8.2,
-    "date": "2026-10-12T01:51:25+00:00"
-   },
-   {
-    "title": "CVE-2021-20329 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 2.2.7 security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3645",
-    "score": 7.8,
-    "date": "2026-10-12T01:52:15+00:00"
-   },
-   {
-    "title": "CVE-2021-4235 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+23 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:1326",
-    "score": 7.8,
-    "date": "2026-10-12T01:51:58+00:00"
+    "date": "2026-10-12T02:38:17+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1280,
+    "stars": 1293,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 702,
+    "stars": 705,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 608,
+    "stars": 610,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 332,
+    "stars": 333,
     "lang": "Rust"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 150,
+    "stars": 152,
     "lang": "Go"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 9,
   "kev": 1739,
   "adv": 12,
   "feed": 48
