@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T07:58:20.774Z",
+ "generatedAt": "2026-10-12T08:56:29.957Z",
  "sources": {
   "cve": [
    {
@@ -27,12 +27,6 @@
     "date": "2026-10-12T06:31:16Z"
    },
    {
-    "title": "CVE-2026-79992 — A flaw was found in Emacs TRAMP. A local attacker could exploit this vulnerability by processing maliciously crafted filenames. This occurs ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79992",
-    "score": 7.8,
-    "date": "2026-08-25T18:32:01Z"
-   },
-   {
     "title": "CVE-2026-21139 — Improper access control in Samsung Continuity Service for windows prior to version 4.6.1217.0 allows adjacent attackers to manipulate the co",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-21139",
     "score": 7.5,
@@ -51,24 +45,6 @@
     "date": "2026-10-12T06:31:15Z"
    },
    {
-    "title": "CVE-2026-21125 — Improper input validation in parsing sheifd in libsimba.heifdec.media.samsung.so prior to SMR Oct-2026 Release 1 allows local attackers to p",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21125",
-    "score": 7.5,
-    "date": "2026-10-12T06:31:15Z"
-   },
-   {
-    "title": "CVE-2026-21122 — Out-of-bounds write in libsamsungtts.so prior to SMR Oct-2026 Release 1 allows local attackers to execute arbitrary code.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21122",
-    "score": 7.5,
-    "date": "2026-10-12T06:31:15Z"
-   },
-   {
-    "title": "CVE-2026-21114 — Out-of-bounds write in libsmkvextractor.so prior to SMR Oct-2026 Release 1 allows local attackers to execute arbitrary code.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21114",
-    "score": 7.5,
-    "date": "2026-10-12T06:31:14Z"
-   },
-   {
     "title": "CVE-2026-108806 — A vulnerability has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this issu",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-108806",
     "score": 7.3,
@@ -81,10 +57,34 @@
     "date": "2026-10-12T06:31:16Z"
    },
    {
-    "title": "CVE-2026-108799 — A vulnerability was determined in jackq XCMS up to 3fab5342cc509945a7ce1b8ec39d19f701b89261. Impacted is the function PublicController::send",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108799",
-    "score": 7.3,
-    "date": "2026-10-12T06:31:14Z"
+    "title": "CVE-2026-109080 — SQL injection in the bulk license plate search of the Flock Night Shift hosted service allowed an authenticated user to read other customer ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109080",
+    "score": 6.5,
+    "date": "2026-10-12T06:31:17Z"
+   },
+   {
+    "title": "CVE-2026-107193 — A flaw has been found in **permission filters** in the **foreman** package. The API loads a filter by its identifier and does not apply the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107193",
+    "score": 6.5,
+    "date": "2026-10-12T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-108803 — A security vulnerability has been detected in y_project RuoYi up to 4.8.3. This impacts the function changeStatus of the file /system/config",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108803",
+    "score": 6.3,
+    "date": "2026-10-12T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-107203 — An **incorrect authorization** flaw has been found in **network interface handling** in the **Foreman** package. The domain and subnet inter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107203",
+    "score": 5.4,
+    "date": "2026-10-12T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-21129 — Improper input validation in GuestCreditCardRegisterActivity of Samsung Checkout prior to version 5.1.03.1 allows local attackers to launch ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21129",
+    "score": 5,
+    "date": "2026-10-12T06:31:16Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1329,
+    "stars": 1337,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 614,
+    "stars": 615,
     "lang": "TypeScript"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 338,
+    "stars": 341,
     "lang": "Rust"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 301,
+    "stars": 302,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 172,
+    "stars": 181,
     "lang": "—"
    }
   ],
