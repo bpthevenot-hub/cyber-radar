@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-10-12T13:02:29.769Z",
+ "generatedAt": "2026-10-12T13:51:24.333Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "RLSA-2026:72279 — Critical: ipa security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:72279",
+    "score": 9.8,
+    "date": "2026-09-29T12:10:25.697024Z"
+   },
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:73979 — Critical: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:73979",
+    "score": 9.3,
+    "date": "2026-10-02T18:08:21.502699Z"
+   },
+   {
+    "title": "RLSA-2026:79371 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:79371",
+    "score": 9.1,
+    "date": "2026-10-10T12:08:29.652489Z"
+   },
+   {
+    "title": "RLSA-2026:77690 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:77690",
+    "score": 8.8,
+    "date": "2026-10-09T12:10:46.463075Z"
+   },
+   {
+    "title": "RLSA-2026:77689 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:77689",
+    "score": 8.8,
+    "date": "2026-10-09T12:05:31.687519Z"
+   },
+   {
+    "title": "RLSA-2026:76755 — Important: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:76755",
+    "score": 8.8,
+    "date": "2026-10-08T18:05:10.940133Z"
+   },
+   {
+    "title": "RLSA-2026:75570 — Important: freerdp security update",
+    "url": "https://github.com/advisories/RLSA-2026:75570",
+    "score": 8.8,
+    "date": "2026-10-06T12:10:42.614631Z"
+   },
+   {
+    "title": "RLSA-2026:73998 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:73998",
+    "score": 8.8,
+    "date": "2026-10-01T12:08:49.381512Z"
+   },
+   {
+    "title": "RLSA-2026:72624 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:72624",
+    "score": 8.8,
+    "date": "2026-09-30T12:10:38.243683Z"
+   },
+   {
+    "title": "RLSA-2026:74442 — Important: libpcap security update",
+    "url": "https://github.com/advisories/RLSA-2026:74442",
+    "score": 8.7,
+    "date": "2026-10-02T12:09:30.803849Z"
+   },
+   {
+    "title": "RLSA-2026:74441 — Important: libpcap security update",
+    "url": "https://github.com/advisories/RLSA-2026:74441",
+    "score": 8.7,
+    "date": "2026-10-02T06:06:44.284287Z"
+   },
+   {
+    "title": "RLSA-2026:79122 — Important: cjose security update",
+    "url": "https://github.com/advisories/RLSA-2026:79122",
+    "score": 8.2,
+    "date": "2026-10-10T12:08:29.652489Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "date": "Mon, 12 Oct 2026 09:51:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "GitLab warns of max severity code execution vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "date": "Mon, 12 Oct 2026 09:09:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
     "date": "Mon, 12 Oct 2026 07:58:33 -0400",
@@ -358,27 +457,13 @@
     "date": "Fri, 09 Oct 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
-    "date": "Fri, 09 Oct 2026 08:32:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Man admits to running network of 15,000 money mules for cybercriminals",
-    "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
-    "date": "Fri, 09 Oct 2026 07:14:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1352,
+    "stars": 1356,
     "lang": "Go"
    },
    {
@@ -390,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 619,
+    "stars": 620,
     "lang": "TypeScript"
    },
    {
@@ -412,16 +497,16 @@
     "lang": "C++"
    },
    {
+    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
+    "url": "https://github.com/strands-agents/box",
+    "stars": 357,
+    "lang": "Rust"
+   },
+   {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
     "stars": 356,
     "lang": "C++"
-   },
-   {
-    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
-    "url": "https://github.com/strands-agents/box",
-    "stars": 353,
-    "lang": "Rust"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
@@ -438,7 +523,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 216,
+    "stars": 227,
     "lang": "—"
    },
    {
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 5,
   "kev": 1739,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
