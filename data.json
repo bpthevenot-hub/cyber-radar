@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-12T07:08:46.758Z",
+ "generatedAt": "2026-10-12T07:58:20.774Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-66086 — In the modem OTA stack, there is a possible stack-based buffer overflow due to improper validation of scheduling information in SIB1 message",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66086",
-    "score": 9.8,
-    "date": "2026-10-12T03:32:55Z"
+    "title": "CVE-2026-108804 — A vulnerability was detected in TRENDnet TEW-751DR, TEW-752DRU and TEW733GR 1.03B01/1.03B03. Affected is the function fwrite of the file pig",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108804",
+    "score": 10,
+    "date": "2026-10-12T06:31:17Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-108980 — Blinko through 1.8.8 allows directory traversal, overwriting startup files as root, via installPlugin. It builds the plugin install path fro",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108980",
+    "title": "CVE-2026-87690 — The Metasploit Framework post module post/apple_ios/gather/ios_image_gather is affected by a relative path traversal vulnerability (CWE-22).",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87690",
     "score": 8.8,
-    "date": "2026-10-12T03:32:55Z"
+    "date": "2026-10-12T06:31:16Z"
    },
    {
-    "title": "CVE-2026-59090 — A flaw was found in GIMP's PSD file format plugin. This vulnerability, an unsigned integer underflow in the `block_rem` variable, occurs whe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59090",
-    "score": 8.4,
-    "date": "2026-08-10T15:33:35Z"
-   },
-   {
-    "title": "CVE-2026-34181 — Red Hat Security Advisory: Red Hat JBoss Web Server 7.0.2 release and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76956",
-    "score": 8.2,
-    "date": "2026-10-12T04:43:26+00:00"
-   },
-   {
-    "title": "CVE-2026-65182 — Red Hat Security Advisory: Red Hat JBoss Web Server 7.0.2 release and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76952",
-    "score": 8.2,
-    "date": "2026-10-12T04:43:26+00:00"
-   },
-   {
-    "title": "CVE-2026-65182 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63137",
-    "score": 8.2,
-    "date": "2026-10-12T04:43:26+00:00"
-   },
-   {
-    "title": "CVE-2026-65182 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56039",
-    "score": 8.2,
-    "date": "2026-10-12T04:43:26+00:00"
-   },
-   {
-    "title": "CVE-2026-77219 — Red Hat Security Advisory: emacs security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:80507",
+    "title": "CVE-2026-79992 — A flaw was found in Emacs TRAMP. A local attacker could exploit this vulnerability by processing maliciously crafted filenames. This occurs ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79992",
     "score": 7.8,
-    "date": "2026-10-12T04:11:41+00:00"
+    "date": "2026-08-25T18:32:01Z"
    },
    {
-    "title": "CVE-2026-86320 — A flaw was found in flatpak-builder where Git hooks are not disabled when applying patch sources with use-git-am: true. An attacker who can ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86320",
-    "score": 7.8,
-    "date": "2026-09-17T09:33:01Z"
-   },
-   {
-    "title": "CVE-2026-66758 — A flaw was found in the file-fits plugin in GIMP. When processing a FITS image file, the plugin calculates memory allocation sizes using sig",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66758",
-    "score": 7.8,
-    "date": "2026-07-27T21:31:21Z"
-   },
-   {
-    "title": "CVE-2026-108982 — VeraCrypt 1.26.29 (FUSE-T build) on macOS sometimes allows unintended access to decrypted data. It does not terminate the FUSE-T auxiliary s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108982",
+    "title": "CVE-2026-21139 — Improper access control in Samsung Continuity Service for windows prior to version 4.6.1217.0 allows adjacent attackers to manipulate the co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21139",
     "score": 7.5,
-    "date": "2026-10-12T03:32:56Z"
+    "date": "2026-10-12T06:31:16Z"
    },
    {
-    "title": "CVE-2026-17615 — A flaw was found in RESTEasy's SourceProvider. This vulnerability allows an unauthenticated attacker to perform an unauthenticated remote fi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17615",
+    "title": "CVE-2026-21124 — Improper input validation in getting cover image in libsimba.heifdec.media.samsung.so prior to SMR Oct-2026 Release 1 allows local attackers",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21124",
     "score": 7.5,
-    "date": "2026-08-31T18:31:30Z"
+    "date": "2026-10-12T06:31:15Z"
+   },
+   {
+    "title": "CVE-2026-21120 — Use after free in WSM service prior to SMR Oct-2026 Release 1 allows local attackers to potentially execute arbitrary code with system privi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21120",
+    "score": 7.5,
+    "date": "2026-10-12T06:31:15Z"
+   },
+   {
+    "title": "CVE-2026-21125 — Improper input validation in parsing sheifd in libsimba.heifdec.media.samsung.so prior to SMR Oct-2026 Release 1 allows local attackers to p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21125",
+    "score": 7.5,
+    "date": "2026-10-12T06:31:15Z"
+   },
+   {
+    "title": "CVE-2026-21122 — Out-of-bounds write in libsamsungtts.so prior to SMR Oct-2026 Release 1 allows local attackers to execute arbitrary code.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21122",
+    "score": 7.5,
+    "date": "2026-10-12T06:31:15Z"
+   },
+   {
+    "title": "CVE-2026-21114 — Out-of-bounds write in libsmkvextractor.so prior to SMR Oct-2026 Release 1 allows local attackers to execute arbitrary code.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21114",
+    "score": 7.5,
+    "date": "2026-10-12T06:31:14Z"
+   },
+   {
+    "title": "CVE-2026-108806 — A vulnerability has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this issu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108806",
+    "score": 7.3,
+    "date": "2026-10-12T06:31:17Z"
+   },
+   {
+    "title": "CVE-2026-108805 — A flaw has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108805",
+    "score": 7.3,
+    "date": "2026-10-12T06:31:16Z"
+   },
+   {
+    "title": "CVE-2026-108799 — A vulnerability was determined in jackq XCMS up to 3fab5342cc509945a7ce1b8ec39d19f701b89261. Impacted is the function PublicController::send",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108799",
+    "score": 7.3,
+    "date": "2026-10-12T06:31:14Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+    "date": "Mon, 12 Oct 2026 12:56:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
     "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
     "date": "Sun, 11 Oct 2026 09:54:34 +0530",
@@ -362,13 +369,6 @@
     "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
     "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
     "date": "Fri, 09 Oct 2026 17:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-    "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-    "date": "Fri, 09 Oct 2026 14:33:24 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1323,
+    "stars": 1329,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 706,
+    "stars": 708,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 337,
+    "stars": 338,
     "lang": "Rust"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 165,
+    "stars": 172,
     "lang": "—"
    }
   ],
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Google paid me $90,000 for this RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1x3v6od/google_paid_me_90000_for_this_rce/",
+    "date": "2026-10-12T07:09:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip",
     "url": "https://www.reddit.com/r/netsec/comments/1x2l1ii/a_story_of_wifi_secrets_uart_lockdowns_and_a/",
     "date": "2026-10-10T17:32:25+00:00",
@@ -694,13 +701,6 @@
     "title": "Loupe: An Android Console in the Browser",
     "url": "https://www.reddit.com/r/netsec/comments/1x13cde/loupe_an_android_console_in_the_browser/",
     "date": "2026-10-08T21:27:29+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I found yet another way to invoke JavaScript functions without parentheses",
-    "url": "https://www.reddit.com/r/netsec/comments/1x0iuul/i_found_yet_another_way_to_invoke_javascript/",
-    "date": "2026-10-08T05:38:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
