@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-10-13T20:31:50.527Z",
+ "generatedAt": "2026-10-13T21:25:10.677Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
-    "score": 10,
-    "date": "2026-10-13T19:19:53+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
-    "score": 9.9,
-    "date": "2026-10-13T18:53:25+00:00"
+    "title": "CVE-2026-105016 — Microsoft Security Advisory CVE-2026-105016 - Microsoft QUIC Remote Code Execution Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105016",
+    "score": 9.8,
+    "date": "2026-10-13T19:56:35Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -25,66 +19,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
-    "score": 9.3,
-    "date": "2026-10-13T19:19:48+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
-    "score": 9.1,
-    "date": "2026-10-13T19:19:51+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
-    "score": 9.1,
-    "date": "2026-10-13T19:19:38+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
-    "score": 9.1,
-    "date": "2026-10-13T19:19:36+00:00"
-   },
-   {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
-    "score": 8.8,
-    "date": "2026-10-13T19:19:49+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Red Hat Quay 3.12.23 (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79546",
-    "score": 8.8,
-    "date": "2026-10-13T19:08:47+00:00"
-   },
-   {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76809",
-    "score": 8.8,
-    "date": "2026-10-13T18:53:30+00:00"
-   },
-   {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76795",
-    "score": 8.8,
-    "date": "2026-10-13T18:53:30+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72476",
-    "score": 8.6,
-    "date": "2026-10-13T19:19:38+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72470",
-    "score": 8.6,
-    "date": "2026-10-13T19:19:38+00:00"
    }
   ],
   "kev": [
@@ -203,88 +137,88 @@
   ],
   "adv": [
    {
-    "title": "Microsoft Security Advisory CVE-2026-102870 - ASP.NET Core Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-g27p-qf6j-c96c",
+    "title": "Microsoft Security Advisory CVE-2026-70035 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-4j9v-h7pp-725h",
     "score": 8.8,
-    "ghsa": "GHSA-g27p-qf6j-c96c",
-    "date": "2026-10-13T20:27:36Z"
+    "ghsa": "GHSA-4j9v-h7pp-725h",
+    "date": "2026-10-13T20:53:46Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-96960 - .NET and Visual Studio Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-7hqp-7c5m-4vq6",
+    "title": "Microsoft Security Advisory CVE-2026-70186 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-mf4x-w4gh-4656",
     "score": 7.5,
-    "ghsa": "GHSA-7hqp-7c5m-4vq6",
-    "date": "2026-10-13T20:26:27Z"
+    "ghsa": "GHSA-mf4x-w4gh-4656",
+    "date": "2026-10-13T20:53:19Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-96233 - .NET and Visual Studio Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-87vj-4hqv-22p9",
+    "title": "Microsoft Security Advisory CVE-2026-70007 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-pfwj-2f93-rf42",
+    "score": 8.8,
+    "ghsa": "GHSA-pfwj-2f93-rf42",
+    "date": "2026-10-13T20:52:52Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-87697 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-c27m-942f-rcfh",
+    "score": 8.8,
+    "ghsa": "GHSA-c27m-942f-rcfh",
+    "date": "2026-10-13T20:52:24Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-96225 - .NET and Visual Studio Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-w6wh-p4g7-mpj2",
+    "score": 7.8,
+    "ghsa": "GHSA-w6wh-p4g7-mpj2",
+    "date": "2026-10-13T20:51:51Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-96230 - ASP.NET Core Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-qjpx-jqm5-h2c4",
+    "score": 8.8,
+    "ghsa": "GHSA-qjpx-jqm5-h2c4",
+    "date": "2026-10-13T20:51:12Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-70179 - ASP.NET Core Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-vrrp-6v32-2p8g",
     "score": 7.5,
-    "ghsa": "GHSA-87vj-4hqv-22p9",
-    "date": "2026-10-13T20:25:37Z"
+    "ghsa": "GHSA-vrrp-6v32-2p8g",
+    "date": "2026-10-13T20:50:45Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-92707 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-86xp-94pg-8r6r",
-    "score": 5.3,
-    "ghsa": "GHSA-86xp-94pg-8r6r",
-    "date": "2026-10-13T20:11:58Z"
+    "title": "Microsoft Security Advisory CVE-2026-96224 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-xq57-crx4-g373",
+    "score": 8.8,
+    "ghsa": "GHSA-xq57-crx4-g373",
+    "date": "2026-10-13T20:50:11Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-70162 - .NET Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
-    "score": 5.9,
-    "ghsa": "GHSA-2fmv-rv2c-59x7",
-    "date": "2026-10-13T20:07:20Z"
+    "title": "Microsoft Security Advisory CVE-2026-85363 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-f63g-mx39-3r38",
+    "score": 8.8,
+    "ghsa": "GHSA-f63g-mx39-3r38",
+    "date": "2026-10-13T20:49:39Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-96958 - .NET and Visual Studio Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-r955-8q5j-3h83",
+    "title": "Microsoft Security Advisory CVE-2026-96959 - .NET and Visual Studio Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-c399-9853-6jmj",
     "score": 7.5,
-    "ghsa": "GHSA-r955-8q5j-3h83",
-    "date": "2026-10-13T20:05:52Z"
+    "ghsa": "GHSA-c399-9853-6jmj",
+    "date": "2026-10-13T20:49:06Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-84008 - .NET Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-846f-f764-76mx",
-    "score": 7.5,
-    "ghsa": "GHSA-846f-f764-76mx",
-    "date": "2026-10-13T20:03:30Z"
+    "title": "Microsoft Security Advisory CVE-2026-83520 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-4w5f-7jp2-w48g",
+    "score": 8.8,
+    "ghsa": "GHSA-4w5f-7jp2-w48g",
+    "date": "2026-10-13T20:48:38Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-58280 - .NET and Visual Studio Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-mc4q-93x5-f6hj",
-    "score": 7.5,
-    "ghsa": "GHSA-mc4q-93x5-f6hj",
-    "date": "2026-10-13T20:01:59Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70194 - .NET and Visual Studio Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-fqpq-cx42-9jmm",
-    "score": 6.5,
-    "ghsa": "GHSA-fqpq-cx42-9jmm",
-    "date": "2026-10-13T20:00:42Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70183 - ASP.NET Core Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-494h-xx7x-5frh",
-    "score": 7.5,
-    "ghsa": "GHSA-494h-xx7x-5frh",
-    "date": "2026-10-13T19:59:23Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70196 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-57xr-hfxx-jw5x",
-    "score": 5.9,
-    "ghsa": "GHSA-57xr-hfxx-jw5x",
-    "date": "2026-10-13T19:58:12Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-105016 - Microsoft QUIC Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-5gjq-3f94-rcf7",
-    "score": 9.8,
-    "ghsa": "GHSA-5gjq-3f94-rcf7",
-    "date": "2026-10-13T19:56:35Z"
+    "title": "Microsoft Security Advisory CVE-2026-70174 - .NET and Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-f749-vhgx-39h6",
+    "score": 8.8,
+    "ghsa": "GHSA-f749-vhgx-39h6",
+    "date": "2026-10-13T20:48:07Z"
    }
   ],
   "thn": [
@@ -375,6 +309,13 @@
   ],
   "bleep": [
    {
+    "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+    "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+    "date": "Tue, 13 Oct 2026 17:16:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
     "date": "Tue, 13 Oct 2026 15:56:09 -0400",
@@ -450,13 +391,6 @@
     "date": "Mon, 12 Oct 2026 16:13:52 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Yandex confirms service outage as users lose access to cloud files",
-    "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-    "date": "Mon, 12 Oct 2026 15:23:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,13 +409,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 648,
+    "stars": 650,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 537,
+    "stars": 538,
     "lang": "JavaScript"
    },
    {
@@ -499,13 +433,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 409,
+    "stars": 413,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 392,
+    "stars": 393,
     "lang": "Rust"
    },
    {
@@ -717,7 +651,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 3,
   "kev": 1741,
   "adv": 12,
   "feed": 48
