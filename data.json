@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-10-13T08:46:17.050Z",
+ "generatedAt": "2026-10-13T09:38:52.533Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.9,
+    "date": "2026-10-13T08:14:00+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:59+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:57+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:56+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:53+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:41+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:33+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+56 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:33+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
+    "score": 9.9,
+    "date": "2026-10-13T08:13:32+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "score": 9.8,
+    "date": "2026-10-13T08:13:50+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +75,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-108971 — A flaw has been found in D-Link DCS-930L B1.08B4. This impacts the function mpfd_decode of the file bootloader_region.bin of the component E",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-108971",
-    "score": 9.6,
-    "date": "2026-10-13T06:30:27Z"
-   },
-   {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.19.49 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71447",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
     "score": 9.3,
-    "date": "2026-10-13T06:32:58+00:00"
+    "date": "2026-10-13T08:13:59+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.20.39 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68541",
-    "score": 8.8,
-    "date": "2026-10-13T06:33:02+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.22.14 bug fix and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66358",
-    "score": 8.8,
-    "date": "2026-10-13T06:32:57+00:00"
-   },
-   {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.19.50 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74434",
-    "score": 8.7,
-    "date": "2026-10-13T06:33:09+00:00"
-   },
-   {
-    "title": "CVE-2026-12860 — Red Hat Security Advisory: Red Hat build of Quarkus 3.27.5.SP2 release and security update (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69470",
-    "score": 8.6,
-    "date": "2026-10-13T06:56:17+00:00"
-   },
-   {
-    "title": "CVE-2026-12860 — Red Hat Security Advisory: Red Hat build of Quarkus 3.33.3.SP2 release and security update (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69440",
-    "score": 8.6,
-    "date": "2026-10-13T06:56:17+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.21.36 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74383",
-    "score": 8.2,
-    "date": "2026-10-13T06:32:59+00:00"
-   },
-   {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.20.41 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74380",
-    "score": 8.2,
-    "date": "2026-10-13T06:32:59+00:00"
-   },
-   {
-    "title": "CVE-2026-1965 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.3 security update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66018",
-    "score": 8.2,
-    "date": "2026-10-13T06:32:57+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.22.17 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74429",
-    "score": 8.1,
-    "date": "2026-10-13T06:33:00+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.21.34 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68546",
-    "score": 8.1,
-    "date": "2026-10-13T06:32:58+00:00"
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.18.56 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70617",
+    "score": 9.3,
+    "date": "2026-10-13T08:13:32+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+    "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "date": "Tue, 13 Oct 2026 14:18:41 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+    "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+    "date": "Tue, 13 Oct 2026 14:14:01 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+    "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+    "date": "Tue, 13 Oct 2026 14:13:37 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
     "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
     "date": "Tue, 13 Oct 2026 11:30:11 +0530",
@@ -348,27 +369,6 @@
     "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
     "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
     "date": "Sat, 10 Oct 2026 16:30:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-    "date": "Sat, 10 Oct 2026 14:48:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-    "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-    "date": "Sat, 10 Oct 2026 00:44:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-    "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-    "date": "Fri, 09 Oct 2026 23:15:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1405,
+    "stars": 1407,
     "lang": "Go"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 382,
+    "stars": 383,
     "lang": "Rust"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 338,
+    "stars": 346,
     "lang": "—"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 303,
+    "stars": 304,
     "lang": "Python"
    },
    {
@@ -649,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Playing It SFAPE: Code Execution in Isolated User Mode",
+    "url": "https://www.reddit.com/r/netsec/comments/1x4s0yk/playing_it_sfape_code_execution_in_isolated_user/",
+    "date": "2026-10-13T09:25:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-91768: FastCGI allowed_clients compared only 96 of an IPv6 address's 128 bits",
     "url": "https://www.reddit.com/r/netsec/comments/1x3xa8g/cve202691768_fastcgi_allowed_clients_compared/",
     "date": "2026-10-12T09:24:39+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-10-10T10:00:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1x1squu/death_by_a_thousand_papercuts_papercut_preauth/",
-    "date": "2026-10-09T18:17:56+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1739,
   "adv": 12,
   "feed": 48
