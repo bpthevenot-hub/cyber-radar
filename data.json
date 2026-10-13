@@ -1,18 +1,30 @@
 {
- "generatedAt": "2026-10-13T05:35:46.923Z",
+ "generatedAt": "2026-10-13T06:53:58.865Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
     "score": 9.8,
-    "date": "2026-10-13T03:36:06+00:00"
+    "date": "2026-10-13T04:02:19+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68515",
+    "score": 9.8,
+    "date": "2026-10-13T04:02:17+00:00"
    },
    {
     "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:3461",
     "score": 9.8,
-    "date": "2026-10-13T03:36:05+00:00"
+    "date": "2026-10-13T03:40:57+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-13T03:40:55+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Red Hat Quay 3.12.23 (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79546",
+    "score": 8.8,
+    "date": "2026-10-13T04:02:20+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Red Hat Quay 3.9.27 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77656",
+    "score": 8.8,
+    "date": "2026-10-13T04:02:19+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: podman security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70201",
+    "score": 8.8,
+    "date": "2026-10-13T04:02:17+00:00"
+   },
+   {
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
+    "score": 8.8,
+    "date": "2026-10-13T04:02:17+00:00"
+   },
+   {
     "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2025:8244",
     "score": 8.6,
-    "date": "2026-10-13T03:36:03+00:00"
+    "date": "2026-10-13T03:40:53+00:00"
    },
    {
     "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2025:9562",
     "score": 8.5,
-    "date": "2026-10-13T03:36:05+00:00"
+    "date": "2026-10-13T03:40:55+00:00"
    },
    {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68254",
     "score": 8.2,
-    "date": "2026-10-13T03:36:03+00:00"
+    "date": "2026-10-13T04:02:17+00:00"
    },
    {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.15.2 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:7753",
+    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68006",
     "score": 8.2,
-    "date": "2026-10-13T03:36:03+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: RHTAS 1.1.2 - Red Hat Trusted Artifact Signer Release (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:3820",
-    "score": 8.2,
-    "date": "2026-10-13T03:35:56+00:00"
-   },
-   {
-    "title": "CVE-2022-49043 — Red Hat Security Advisory: OpenShift Container Platform 4.14.52 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:7702",
-    "score": 7.8,
-    "date": "2026-10-13T03:36:02+00:00"
-   },
-   {
-    "title": "CVE-2022-49043 — Red Hat Security Advisory: OpenShift Container Platform 4.16.40 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:4731",
-    "score": 7.8,
-    "date": "2026-10-13T03:35:59+00:00"
-   },
-   {
-    "title": "CVE-2025-22869 — Red Hat Security Advisory: OpenShift Container Platform 4.15.51 bug fix and security update",
-    "url": "https://access.redhat.com/errata/RHSA-2025:7698",
-    "score": 7.5,
-    "date": "2026-10-13T03:36:07+00:00"
-   },
-   {
-    "title": "CVE-2024-24790 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.15.4 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3718",
-    "score": 7.5,
-    "date": "2026-10-13T03:36:06+00:00"
-   },
-   {
-    "title": "CVE-2024-9042 — Red Hat Security Advisory: Red Hat OpenShift for Windows Containers 10.16.2 product release (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:9136",
-    "score": 7.5,
-    "date": "2026-10-13T03:36:05+00:00"
+    "date": "2026-10-13T04:02:17+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+    "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+    "date": "Tue, 13 Oct 2026 11:30:11 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
     "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
     "date": "Mon, 12 Oct 2026 20:46:26 +0530",
@@ -362,13 +369,6 @@
     "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
     "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
     "date": "Fri, 09 Oct 2026 23:15:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-    "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-    "date": "Fri, 09 Oct 2026 18:52:53 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1394,
+    "stars": 1397,
     "lang": "Go"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 374,
+    "stars": 379,
     "lang": "Rust"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 328,
+    "stars": 333,
     "lang": "—"
    },
    {
@@ -663,6 +663,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Security Issues in Cloud Computing: 6 Common Threats and Risks",
+    "url": "https://www.reddit.com/r/netsec/comments/1x4pak3/security_issues_in_cloud_computing_6_common/",
+    "date": "2026-10-13T06:26:32+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "LG webOS sync-demo Preauth RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x3wv86/lg_webos_syncdemo_preauth_rce/",
     "date": "2026-10-12T08:58:28+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-10-09T18:17:56+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "How We Found Thousands of Exposed NVIDIA GPUs and a Way to Disrupt Them (CVE-2026-47483)",
-    "url": "https://www.reddit.com/r/netsec/comments/1x13vqz/how_we_found_thousands_of_exposed_nvidia_gpus_and/",
-    "date": "2026-10-08T21:49:51+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 6,
   "kev": 1739,
   "adv": 12,
   "feed": 48
