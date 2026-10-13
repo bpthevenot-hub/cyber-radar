@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-13T18:39:32.080Z",
+ "generatedAt": "2026-10-13T19:27:18.140Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
-    "score": 10,
-    "date": "2026-10-13T16:57:47+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,72 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
-    "score": 9.1,
-    "date": "2026-10-13T16:57:45+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
-    "score": 9.1,
-    "date": "2026-10-13T16:57:31+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
-    "score": 9.1,
-    "date": "2026-10-13T16:57:29+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
-    "score": 9.1,
-    "date": "2026-10-13T16:55:58+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
-    "score": 9.1,
-    "date": "2026-10-13T16:55:58+00:00"
-   },
-   {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
-    "score": 8.8,
-    "date": "2026-10-13T16:57:41+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72476",
-    "score": 8.6,
-    "date": "2026-10-13T16:57:31+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72470",
-    "score": 8.6,
-    "date": "2026-10-13T16:57:30+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+52 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72399",
-    "score": 8.6,
-    "date": "2026-10-13T16:57:30+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+52 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72394",
-    "score": 8.6,
-    "date": "2026-10-13T16:57:30+00:00"
-   },
-   {
-    "title": "CVE-2025-53547 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.12 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67540",
-    "score": 8.5,
-    "date": "2026-10-13T16:57:23+00:00"
    }
   ],
   "kev": [
@@ -289,6 +217,34 @@
   ],
   "thn": [
    {
+    "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+    "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+    "date": "Tue, 13 Oct 2026 23:50:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+    "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+    "date": "Tue, 13 Oct 2026 23:33:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+    "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+    "date": "Tue, 13 Oct 2026 23:03:11 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+    "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+    "date": "Tue, 13 Oct 2026 22:58:50 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
     "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
     "date": "Tue, 13 Oct 2026 21:48:18 +0530",
@@ -343,37 +299,16 @@
     "date": "Tue, 13 Oct 2026 14:13:37 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-    "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-    "date": "Tue, 13 Oct 2026 11:30:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-    "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-    "date": "Mon, 12 Oct 2026 20:46:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-    "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-    "date": "Mon, 12 Oct 2026 17:25:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-    "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-    "date": "Mon, 12 Oct 2026 16:51:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+    "date": "Tue, 13 Oct 2026 15:04:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "UK Housing Ombudsman Service investigates 'security incident'",
     "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
@@ -450,13 +385,6 @@
     "date": "Mon, 12 Oct 2026 12:27:23 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Cyberattack shuts down refrigerators at French supermarkets",
-    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-    "date": "Mon, 12 Oct 2026 11:23:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -475,13 +403,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 644,
+    "stars": 647,
     "lang": "TypeScript"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 536,
+    "stars": 537,
     "lang": "JavaScript"
    },
    {
@@ -499,13 +427,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 393,
+    "stars": 400,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 390,
+    "stars": 391,
     "lang": "Rust"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 2,
   "kev": 1740,
   "adv": 12,
   "feed": 48
