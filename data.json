@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T04:41:51.808Z",
+ "generatedAt": "2026-10-13T05:35:46.923Z",
  "sources": {
   "cve": [
    {
@@ -27,48 +27,6 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23449",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:47+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (TPU) (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23209",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:47+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23205",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:47+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (CUDA) (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23204",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:47+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23079",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:47+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server Model Optimization Tools 3.2.2 (CUDA) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23080",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:45+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23078",
-    "score": 8.8,
-    "date": "2026-10-13T03:35:44+00:00"
-   },
-   {
     "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2025:8244",
     "score": 8.6,
@@ -85,6 +43,48 @@
     "url": "https://access.redhat.com/errata/RHSA-2025:8274",
     "score": 8.2,
     "date": "2026-10-13T03:36:03+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.15.2 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7753",
+    "score": 8.2,
+    "date": "2026-10-13T03:36:03+00:00"
+   },
+   {
+    "title": "CVE-2024-45337 — Red Hat Security Advisory: RHTAS 1.1.2 - Red Hat Trusted Artifact Signer Release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3820",
+    "score": 8.2,
+    "date": "2026-10-13T03:35:56+00:00"
+   },
+   {
+    "title": "CVE-2022-49043 — Red Hat Security Advisory: OpenShift Container Platform 4.14.52 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7702",
+    "score": 7.8,
+    "date": "2026-10-13T03:36:02+00:00"
+   },
+   {
+    "title": "CVE-2022-49043 — Red Hat Security Advisory: OpenShift Container Platform 4.16.40 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:4731",
+    "score": 7.8,
+    "date": "2026-10-13T03:35:59+00:00"
+   },
+   {
+    "title": "CVE-2025-22869 — Red Hat Security Advisory: OpenShift Container Platform 4.15.51 bug fix and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7698",
+    "score": 7.5,
+    "date": "2026-10-13T03:36:07+00:00"
+   },
+   {
+    "title": "CVE-2024-24790 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.15.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3718",
+    "score": 7.5,
+    "date": "2026-10-13T03:36:06+00:00"
+   },
+   {
+    "title": "CVE-2024-9042 — Red Hat Security Advisory: Red Hat OpenShift for Windows Containers 10.16.2 product release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9136",
+    "score": 7.5,
+    "date": "2026-10-13T03:36:05+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1392,
+    "stars": 1394,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 716,
+    "stars": 717,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 634,
+    "stars": 635,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 373,
+    "stars": 374,
     "lang": "Rust"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 323,
+    "stars": 328,
     "lang": "—"
    },
    {
