@@ -1,12 +1,78 @@
 {
- "generatedAt": "2026-10-13T22:26:34.107Z",
+ "generatedAt": "2026-10-13T23:25:06.491Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-105016 — Microsoft Security Advisory CVE-2026-105016 - Microsoft QUIC Remote Code Execution Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105016",
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:33+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:33+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:33+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:31+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:25+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+56 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71114",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:25+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:23+00:00"
+   },
+   {
+    "title": "CVE-2026-12564 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71113",
+    "score": 9.9,
+    "date": "2026-10-13T21:51:23+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
     "score": 9.8,
-    "date": "2026-10-13T19:56:35Z"
+    "date": "2026-10-13T21:51:30+00:00"
+   },
+   {
+    "title": "CVE-2026-27459 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68780",
+    "score": 9.8,
+    "date": "2026-10-13T21:51:11+00:00"
+   },
+   {
+    "title": "CVE-2026-39820 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68764",
+    "score": 9.8,
+    "date": "2026-10-13T21:51:10+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68515",
+    "score": 9.8,
+    "date": "2026-10-13T21:51:09+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -309,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+    "date": "Tue, 13 Oct 2026 18:33:02 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
     "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
     "date": "Tue, 13 Oct 2026 17:33:26 -0400",
@@ -384,20 +457,13 @@
     "date": "Tue, 13 Oct 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-    "date": "Tue, 13 Oct 2026 09:51:02 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1433,
+    "stars": 1434,
     "lang": "Go"
    },
    {
@@ -409,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 652,
+    "stars": 653,
     "lang": "TypeScript"
    },
    {
@@ -425,16 +491,16 @@
     "lang": "TypeScript"
    },
    {
+    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+    "url": "https://github.com/morluto/awesome-reverse-engineering",
+    "stars": 418,
+    "lang": "—"
+   },
+   {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
     "stars": 416,
     "lang": "C++"
-   },
-   {
-    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-    "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 416,
-    "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 14,
   "kev": 1741,
   "adv": 12,
   "feed": 48
