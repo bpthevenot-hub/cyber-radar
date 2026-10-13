@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-13T17:30:17.907Z",
+ "generatedAt": "2026-10-13T18:39:32.080Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
+    "score": 10,
+    "date": "2026-10-13T16:57:47+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-77099 — CVFS contained an input validation issue affecting command execution. Software customers upgrade to resolved maintenance release. Update CVF",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77099",
-    "score": 9.5,
-    "date": "2026-10-13T15:32:27Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
+    "score": 9.1,
+    "date": "2026-10-13T16:57:45+00:00"
    },
    {
-    "title": "CVE-2026-65198 — Huawei's openUBMC ships a default SNMPv3 USM key that uses one value for both authentication and privacy. An attacker who holds the key (rec",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65198",
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
+    "score": 9.1,
+    "date": "2026-10-13T16:57:31+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
+    "score": 9.1,
+    "date": "2026-10-13T16:57:29+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
+    "score": 9.1,
+    "date": "2026-10-13T16:55:58+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
+    "score": 9.1,
+    "date": "2026-10-13T16:55:58+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
+    "score": 8.8,
+    "date": "2026-10-13T16:57:41+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72476",
     "score": 8.6,
-    "date": "2026-10-13T15:32:27Z"
+    "date": "2026-10-13T16:57:31+00:00"
    },
    {
-    "title": "CVE-2026-53418 — Improper Authorization in Handler for Custom URL Scheme in Zoom Workplace for Android before version 7.2.1 may allow an unauthenticated user",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53418",
-    "score": 8.1,
-    "date": "2026-10-13T15:32:26Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72470",
+    "score": 8.6,
+    "date": "2026-10-13T16:57:30+00:00"
    },
    {
-    "title": "CVE-2026-93907 — IBM WebSphere Application Server 8.5, and 9.0 could allow a remote attacker to bypass authentication by exploiting a flaw in the CSIv2 inbou",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93907",
-    "score": 8.1,
-    "date": "2026-10-13T15:32:25Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+52 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72399",
+    "score": 8.6,
+    "date": "2026-10-13T16:57:30+00:00"
    },
    {
-    "title": "CVE-2026-53420 — Buffer overflow in a Zoom Phone feature of Zoom Workplace Clients may allow an unauthenticated user to conduct a escalation of privilege via",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53420",
-    "score": 8,
-    "date": "2026-10-13T15:32:26Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+52 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72394",
+    "score": 8.6,
+    "date": "2026-10-13T16:57:30+00:00"
    },
    {
-    "title": "CVE-2026-95680 — IBM WebSphere Application Server 8.5, and 9.0 could allow an authenticated attacker to bypass authorization leading to administrative impers",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95680",
-    "score": 8,
-    "date": "2026-10-13T15:32:25Z"
-   },
-   {
-    "title": "CVE-2026-97333 — QAPI contained a stack-based buffer overflow affecting service availability. Software customers upgrade to resolved maintenance release. Upd",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97333",
-    "score": 7.5,
-    "date": "2026-10-13T15:32:28Z"
-   },
-   {
-    "title": "CVE-2026-97334 — The network messaging layer contained improper handling of highly compressed data affecting service availability. Software customers upgrade",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97334",
-    "score": 7.5,
-    "date": "2026-10-13T15:32:28Z"
-   },
-   {
-    "title": "CVE-2026-77090 — CVFS contained an XML external entity (XXE) reference handling issue affecting information dislcosure. Software customers upgrade to resolve",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77090",
-    "score": 7.5,
-    "date": "2026-10-13T15:32:27Z"
-   },
-   {
-    "title": "CVE-2026-77093 — CvFWD contained an integer overflow affecting service availability. Software customers upgrade to resolved maintenance release. Update all C",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77093",
-    "score": 7.5,
-    "date": "2026-10-13T15:32:27Z"
-   },
-   {
-    "title": "CVE-2026-77100 — MediaAgent contained a heap-based buffer overflow issue affecting service availability. Software customers upgrade to resolved maintenance r",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77100",
-    "score": 7.5,
-    "date": "2026-10-13T15:32:27Z"
-   },
-   {
-    "title": "CVE-2026-77095 — CvFWD contained a null pointer dereference affecting service availability. Software customers upgrade to resolved maintenance release. Updat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77095",
-    "score": 7.5,
-    "date": "2026-10-13T15:32:27Z"
+    "title": "CVE-2025-53547 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.12 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67540",
+    "score": 8.5,
+    "date": "2026-10-13T16:57:23+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "UK Housing Ombudsman Service investigates 'security incident'",
+    "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+    "date": "Tue, 13 Oct 2026 14:19:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Windows 11 KB5127648 &amp; KB5126653 cumulative updates released",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+    "date": "Tue, 13 Oct 2026 13:49:38 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
     "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
     "date": "Tue, 13 Oct 2026 12:44:18 -0400",
@@ -443,27 +457,13 @@
     "date": "Mon, 12 Oct 2026 11:23:34 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-    "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-    "date": "Mon, 12 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-    "date": "Mon, 12 Oct 2026 09:51:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1431,
+    "stars": 1432,
     "lang": "Go"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 390,
+    "stars": 393,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 8,
   "kev": 1740,
   "adv": 12,
   "feed": 48
