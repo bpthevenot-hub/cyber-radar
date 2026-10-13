@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-13T14:36:43.863Z",
+ "generatedAt": "2026-10-13T15:33:21.607Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-13T14:46:24+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-13T14:46:24+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-10-13T14:46:29+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +31,60 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
+    "score": 9.1,
+    "date": "2026-10-13T14:46:47+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
+    "score": 9.1,
+    "date": "2026-10-13T14:46:42+00:00"
+   },
+   {
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
+    "score": 8.8,
+    "date": "2026-10-13T14:46:06+00:00"
+   },
+   {
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
+    "score": 8.8,
+    "date": "2026-10-13T14:46:03+00:00"
+   },
+   {
+    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "score": 8.6,
+    "date": "2026-10-13T14:46:01+00:00"
+   },
+   {
+    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
+    "score": 8.5,
+    "date": "2026-10-13T14:46:17+00:00"
+   },
+   {
+    "title": "CVE-2026-80844 — Red Hat Security Advisory: OpenShift Container Platform 4.21.37 bug fix and security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79153",
+    "score": 8.3,
+    "date": "2026-10-13T14:47:23+00:00"
+   },
+   {
+    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
+    "score": 8.2,
+    "date": "2026-10-13T14:46:09+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "score": 8.2,
+    "date": "2026-10-13T14:46:02+00:00"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+    "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+    "date": "Tue, 13 Oct 2026 11:20:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "The MFA Gaps Attackers are Still Exploiting",
     "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
     "date": "Tue, 13 Oct 2026 10:01:11 -0400",
@@ -378,20 +457,13 @@
     "date": "Mon, 12 Oct 2026 07:58:33 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-    "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-    "date": "Sun, 11 Oct 2026 10:23:46 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
-    "title": "jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
-    "url": "https://github.com/jiwoochris/artex-ko",
-    "stars": 1428,
+    "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "url": "https://github.com/jiwoochris/artex-global",
+    "stars": 1429,
     "lang": "Go"
    },
    {
@@ -409,7 +481,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 535,
+    "stars": 536,
     "lang": "JavaScript"
    },
    {
@@ -427,13 +499,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 387,
+    "stars": 389,
     "lang": "Rust"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 373,
+    "stars": 382,
     "lang": "—"
    },
    {
@@ -598,6 +670,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Passkeys are a trap",
+    "url": "https://www.reddit.com/r/netsec/comments/1x4ygua/passkeys_are_a_trap/",
+    "date": "2026-10-13T14:40:51+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "LG webOS sync-demo Preauth RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x3wv86/lg_webos_syncdemo_preauth_rce/",
     "date": "2026-10-12T08:58:28+00:00",
@@ -624,13 +703,6 @@
     "date": "2026-10-10T10:00:26+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578) - watchTowr Labs",
-    "url": "https://www.reddit.com/r/netsec/comments/1x1squu/death_by_a_thousand_papercuts_papercut_preauth/",
-    "date": "2026-10-09T18:17:56+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1739,
+  "crit": 7,
+  "kev": 1740,
   "adv": 12,
   "feed": 48
  },
