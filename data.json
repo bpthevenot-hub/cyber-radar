@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-13T19:27:18.140Z",
+ "generatedAt": "2026-10-13T20:31:50.527Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
+    "score": 10,
+    "date": "2026-10-13T19:19:53+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.9,
+    "date": "2026-10-13T18:53:25+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-10-13T19:19:48+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
+    "score": 9.1,
+    "date": "2026-10-13T19:19:51+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
+    "score": 9.1,
+    "date": "2026-10-13T19:19:38+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
+    "score": 9.1,
+    "date": "2026-10-13T19:19:36+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
+    "score": 8.8,
+    "date": "2026-10-13T19:19:49+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Red Hat Quay 3.12.23 (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79546",
+    "score": 8.8,
+    "date": "2026-10-13T19:08:47+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76809",
+    "score": 8.8,
+    "date": "2026-10-13T18:53:30+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76795",
+    "score": 8.8,
+    "date": "2026-10-13T18:53:30+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72476",
+    "score": 8.6,
+    "date": "2026-10-13T19:19:38+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+58 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72470",
+    "score": 8.6,
+    "date": "2026-10-13T19:19:38+00:00"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Vikunja: Permissive Cross-domain Security Policy trusts every localhost origin which should not be trusted",
-    "url": "https://github.com/advisories/GHSA-m687-p538-r5hp",
+    "title": "Microsoft Security Advisory CVE-2026-102870 - ASP.NET Core Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-g27p-qf6j-c96c",
+    "score": 8.8,
+    "ghsa": "GHSA-g27p-qf6j-c96c",
+    "date": "2026-10-13T20:27:36Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-96960 - .NET and Visual Studio Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-7hqp-7c5m-4vq6",
     "score": 7.5,
-    "ghsa": "GHSA-m687-p538-r5hp",
-    "date": "2026-10-09T20:57:50Z"
+    "ghsa": "GHSA-7hqp-7c5m-4vq6",
+    "date": "2026-10-13T20:26:27Z"
    },
    {
-    "title": "Vikunja: Write-level project members can delete admin-tier link shares through an unloaded permission check",
-    "url": "https://github.com/advisories/GHSA-fmmf-xq98-g327",
-    "score": null,
-    "ghsa": "GHSA-fmmf-xq98-g327",
-    "date": "2026-10-09T20:57:47Z"
-   },
-   {
-    "title": "Vikunja: Explicit lower-permission share on a sub-project is silently overridden by an inherited parent permission (broken access control / privilege-",
-    "url": "https://github.com/advisories/GHSA-pjr3-86v4-5p7w",
-    "score": 5.4,
-    "ghsa": "GHSA-pjr3-86v4-5p7w",
-    "date": "2026-10-09T20:57:44Z"
-   },
-   {
-    "title": "Vikunja: Webhooks and link shares survive every revocation path, so a removed collaborator keeps a live feed",
-    "url": "https://github.com/advisories/GHSA-hjx8-qv73-f7cm",
-    "score": 6.5,
-    "ghsa": "GHSA-hjx8-qv73-f7cm",
-    "date": "2026-10-09T20:57:41Z"
-   },
-   {
-    "title": "Vikunja: Saved filter creation with an empty filter string recalculates task positions across all tenants",
-    "url": "https://github.com/advisories/GHSA-fprf-r6rv-xg99",
-    "score": 5.4,
-    "ghsa": "GHSA-fprf-r6rv-xg99",
-    "date": "2026-10-09T20:57:38Z"
-   },
-   {
-    "title": "Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
-    "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
-    "score": 6.5,
-    "ghsa": "GHSA-4hv6-xc92-j86g",
-    "date": "2026-10-09T20:57:34Z"
-   },
-   {
-    "title": "Nginx UI: Unauthenticated signed-request body staging can exhaust temporary storage",
-    "url": "https://github.com/advisories/GHSA-j3hg-9rp3-5hw9",
+    "title": "Microsoft Security Advisory CVE-2026-96233 - .NET and Visual Studio Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-87vj-4hqv-22p9",
     "score": 7.5,
-    "ghsa": "GHSA-j3hg-9rp3-5hw9",
-    "date": "2026-10-09T20:57:08Z"
+    "ghsa": "GHSA-87vj-4hqv-22p9",
+    "date": "2026-10-13T20:25:37Z"
    },
    {
-    "title": "Nginx UI: Bundled reverse proxy can bypass IP allowlists and enable shared login lockout",
-    "url": "https://github.com/advisories/GHSA-9h23-53f4-q947",
+    "title": "Microsoft Security Advisory CVE-2026-92707 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-86xp-94pg-8r6r",
     "score": 5.3,
-    "ghsa": "GHSA-9h23-53f4-q947",
-    "date": "2026-10-09T20:57:05Z"
+    "ghsa": "GHSA-86xp-94pg-8r6r",
+    "date": "2026-10-13T20:11:58Z"
    },
    {
-    "title": "Tina: Code injection via unescaped Git branch name in generated client source",
-    "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
-    "score": 8.2,
-    "ghsa": "GHSA-pwhx-cvv3-qj5c",
-    "date": "2026-10-09T20:56:52Z"
+    "title": "Microsoft Security Advisory CVE-2026-70162 - .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+    "score": 5.9,
+    "ghsa": "GHSA-2fmv-rv2c-59x7",
+    "date": "2026-10-13T20:07:20Z"
    },
    {
-    "title": "TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-    "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-    "score": 9.3,
-    "ghsa": "GHSA-x34j-47hf-4xg7",
-    "date": "2026-10-09T20:56:48Z"
+    "title": "Microsoft Security Advisory CVE-2026-96958 - .NET and Visual Studio Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-r955-8q5j-3h83",
+    "score": 7.5,
+    "ghsa": "GHSA-r955-8q5j-3h83",
+    "date": "2026-10-13T20:05:52Z"
    },
    {
-    "title": "@tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-    "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-    "score": 7.6,
-    "ghsa": "GHSA-c42q-qvc3-j6vg",
-    "date": "2026-10-09T20:56:45Z"
+    "title": "Microsoft Security Advisory CVE-2026-84008 - .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-846f-f764-76mx",
+    "score": 7.5,
+    "ghsa": "GHSA-846f-f764-76mx",
+    "date": "2026-10-13T20:03:30Z"
    },
    {
-    "title": "Shiny for Python has path traversal in bookmark restore",
-    "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
-    "score": null,
-    "ghsa": "GHSA-47c3-hpmg-7j6p",
-    "date": "2026-10-09T20:56:37Z"
+    "title": "Microsoft Security Advisory CVE-2026-58280 - .NET and Visual Studio Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-mc4q-93x5-f6hj",
+    "score": 7.5,
+    "ghsa": "GHSA-mc4q-93x5-f6hj",
+    "date": "2026-10-13T20:01:59Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-70194 - .NET and Visual Studio Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-fqpq-cx42-9jmm",
+    "score": 6.5,
+    "ghsa": "GHSA-fqpq-cx42-9jmm",
+    "date": "2026-10-13T20:00:42Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-70183 - ASP.NET Core Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-494h-xx7x-5frh",
+    "score": 7.5,
+    "ghsa": "GHSA-494h-xx7x-5frh",
+    "date": "2026-10-13T19:59:23Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-70196 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-57xr-hfxx-jw5x",
+    "score": 5.9,
+    "ghsa": "GHSA-57xr-hfxx-jw5x",
+    "date": "2026-10-13T19:58:12Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-105016 - Microsoft QUIC Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-5gjq-3f94-rcf7",
+    "score": 9.8,
+    "ghsa": "GHSA-5gjq-3f94-rcf7",
+    "date": "2026-10-13T19:56:35Z"
    }
   ],
   "thn": [
@@ -303,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+    "date": "Tue, 13 Oct 2026 15:56:09 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+    "date": "Tue, 13 Oct 2026 15:47:30 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
     "date": "Tue, 13 Oct 2026 15:04:38 -0400",
@@ -371,20 +457,6 @@
     "date": "Mon, 12 Oct 2026 15:23:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-    "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-    "date": "Mon, 12 Oct 2026 14:51:59 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-    "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-    "date": "Mon, 12 Oct 2026 12:27:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +469,13 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 720,
+    "stars": 721,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 647,
+    "stars": 648,
     "lang": "TypeScript"
    },
    {
@@ -427,13 +499,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 400,
+    "stars": 409,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 391,
+    "stars": 392,
     "lang": "Rust"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 305,
+    "stars": 306,
     "lang": "Python"
    },
    {
@@ -645,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
-  "kev": 1740,
+  "crit": 8,
+  "kev": 1741,
   "adv": 12,
   "feed": 48
  },
