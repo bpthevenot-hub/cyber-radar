@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-10-13T16:35:44.121Z",
+ "generatedAt": "2026-10-13T17:30:17.907Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
-    "score": 9.9,
-    "date": "2026-10-13T14:46:24+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
-    "score": 9.9,
-    "date": "2026-10-13T14:46:24+00:00"
-   },
-   {
-    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
-    "score": 9.8,
-    "date": "2026-10-13T14:46:29+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
-    "score": 9.1,
-    "date": "2026-10-13T14:46:47+00:00"
+    "title": "CVE-2026-77099 — CVFS contained an input validation issue affecting command execution. Software customers upgrade to resolved maintenance release. Update CVF",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77099",
+    "score": 9.5,
+    "date": "2026-10-13T15:32:27Z"
    },
    {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
-    "score": 9.1,
-    "date": "2026-10-13T14:46:42+00:00"
-   },
-   {
-    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
-    "score": 8.8,
-    "date": "2026-10-13T14:46:06+00:00"
-   },
-   {
-    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
-    "score": 8.8,
-    "date": "2026-10-13T14:46:03+00:00"
-   },
-   {
-    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "title": "CVE-2026-65198 — Huawei's openUBMC ships a default SNMPv3 USM key that uses one value for both authentication and privacy. An attacker who holds the key (rec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65198",
     "score": 8.6,
-    "date": "2026-10-13T14:46:01+00:00"
+    "date": "2026-10-13T15:32:27Z"
    },
    {
-    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
-    "score": 8.5,
-    "date": "2026-10-13T14:46:17+00:00"
+    "title": "CVE-2026-53418 — Improper Authorization in Handler for Custom URL Scheme in Zoom Workplace for Android before version 7.2.1 may allow an unauthenticated user",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53418",
+    "score": 8.1,
+    "date": "2026-10-13T15:32:26Z"
    },
    {
-    "title": "CVE-2026-80844 — Red Hat Security Advisory: OpenShift Container Platform 4.21.37 bug fix and security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79153",
-    "score": 8.3,
-    "date": "2026-10-13T14:47:23+00:00"
+    "title": "CVE-2026-93907 — IBM WebSphere Application Server 8.5, and 9.0 could allow a remote attacker to bypass authentication by exploiting a flaw in the CSIv2 inbou",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93907",
+    "score": 8.1,
+    "date": "2026-10-13T15:32:25Z"
    },
    {
-    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
-    "score": 8.2,
-    "date": "2026-10-13T14:46:09+00:00"
+    "title": "CVE-2026-53420 — Buffer overflow in a Zoom Phone feature of Zoom Workplace Clients may allow an unauthenticated user to conduct a escalation of privilege via",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-53420",
+    "score": 8,
+    "date": "2026-10-13T15:32:26Z"
    },
    {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
-    "score": 8.2,
-    "date": "2026-10-13T14:46:02+00:00"
+    "title": "CVE-2026-95680 — IBM WebSphere Application Server 8.5, and 9.0 could allow an authenticated attacker to bypass authorization leading to administrative impers",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95680",
+    "score": 8,
+    "date": "2026-10-13T15:32:25Z"
+   },
+   {
+    "title": "CVE-2026-97333 — QAPI contained a stack-based buffer overflow affecting service availability. Software customers upgrade to resolved maintenance release. Upd",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97333",
+    "score": 7.5,
+    "date": "2026-10-13T15:32:28Z"
+   },
+   {
+    "title": "CVE-2026-97334 — The network messaging layer contained improper handling of highly compressed data affecting service availability. Software customers upgrade",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97334",
+    "score": 7.5,
+    "date": "2026-10-13T15:32:28Z"
+   },
+   {
+    "title": "CVE-2026-77090 — CVFS contained an XML external entity (XXE) reference handling issue affecting information dislcosure. Software customers upgrade to resolve",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77090",
+    "score": 7.5,
+    "date": "2026-10-13T15:32:27Z"
+   },
+   {
+    "title": "CVE-2026-77093 — CvFWD contained an integer overflow affecting service availability. Software customers upgrade to resolved maintenance release. Update all C",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77093",
+    "score": 7.5,
+    "date": "2026-10-13T15:32:27Z"
+   },
+   {
+    "title": "CVE-2026-77100 — MediaAgent contained a heap-based buffer overflow issue affecting service availability. Software customers upgrade to resolved maintenance r",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77100",
+    "score": 7.5,
+    "date": "2026-10-13T15:32:27Z"
+   },
+   {
+    "title": "CVE-2026-77095 — CvFWD contained a null pointer dereference affecting service availability. Software customers upgrade to resolved maintenance release. Updat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77095",
+    "score": 7.5,
+    "date": "2026-10-13T15:32:27Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+    "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+    "date": "Tue, 13 Oct 2026 21:48:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
     "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
     "date": "Tue, 13 Oct 2026 18:42:32 +0530",
@@ -364,16 +371,16 @@
     "date": "Mon, 12 Oct 2026 16:51:48 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-    "date": "Mon, 12 Oct 2026 16:06:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+    "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+    "date": "Tue, 13 Oct 2026 12:44:18 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
@@ -450,26 +457,19 @@
     "date": "Mon, 12 Oct 2026 09:51:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "GitLab warns of max severity code execution vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-    "date": "Mon, 12 Oct 2026 09:09:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1430,
+    "stars": 1431,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 719,
+    "stars": 720,
     "lang": "Python"
    },
    {
@@ -493,25 +493,25 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 415,
+    "stars": 416,
     "lang": "C++"
-   },
-   {
-    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
-    "url": "https://github.com/strands-agents/box",
-    "stars": 389,
-    "lang": "Rust"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 386,
+    "stars": 390,
     "lang": "—"
+   },
+   {
+    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
+    "url": "https://github.com/strands-agents/box",
+    "stars": 390,
+    "lang": "Rust"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 357,
+    "stars": 358,
     "lang": "C++"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 3,
   "kev": 1740,
   "adv": 12,
   "feed": 48
