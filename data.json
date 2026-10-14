@@ -1,7 +1,32 @@
 {
- "generatedAt": "2026-10-14T22:26:36.434Z",
+ "generatedAt": "2026-10-14T23:26:06.153Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "MAL-2026-14426 — Malicious code in babel-polyfill-plugin-corejs2 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14426",
+    "score": null,
+    "date": "2026-08-24T16:45:38Z"
+   },
+   {
+    "title": "MAL-2026-14300 — Malicious code in eth-react-provider (npm)",
+    "url": "https://github.com/advisories/MAL-2026-14300",
+    "score": null,
+    "date": "2026-08-19T10:14:36Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -290,6 +315,13 @@
   ],
   "bleep": [
    {
+    "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "date": "Wed, 14 Oct 2026 18:56:47 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
     "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
     "date": "Wed, 14 Oct 2026 15:41:43 -0400",
@@ -365,13 +397,6 @@
     "date": "Tue, 13 Oct 2026 17:33:26 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Anthropic warns self-replicating AI could spread to your smart devices",
-    "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
-    "date": "Tue, 13 Oct 2026 17:16:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -390,7 +415,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 697,
+    "stars": 698,
     "lang": "TypeScript"
    },
    {
@@ -408,7 +433,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 502,
+    "stars": 504,
     "lang": "—"
    },
    {
@@ -557,6 +582,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Anthropic's Sept 2026 threat report: attackers prompt-injected an eval sandbox, stole customer API keys, then burned the victims' own compute to attack ~30 AI l",
+    "url": "https://www.reddit.com/r/netsec/comments/1x65xx1/anthropics_sept_2026_threat_report_attackers/",
+    "date": "2026-10-14T23:07:57+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
     "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
     "date": "2026-10-14T03:08:53+00:00",
@@ -611,18 +643,11 @@
     "date": "2026-10-13T14:40:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "LG webOS sync-demo Preauth RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1x3wv86/lg_webos_syncdemo_preauth_rce/",
-    "date": "2026-10-12T08:58:28+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +657,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1745,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
