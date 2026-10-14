@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-14T03:34:40.337Z",
+ "generatedAt": "2026-10-14T04:34:59.695Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-10-14T02:42:43+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: OpenShift Container Platform 4.22.11 bug fix and security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57365",
+    "score": 9.1,
+    "date": "2026-10-14T02:47:56+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.16.69 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56854",
+    "score": 9.1,
+    "date": "2026-10-14T02:47:36+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat OpenShift Workload Availability Operator v0.8.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:54274",
+    "score": 9.1,
+    "date": "2026-10-14T02:47:22+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-10-14T02:47:08+00:00"
+   },
+   {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.20.35 bug fix and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57545",
+    "score": 9,
+    "date": "2026-10-14T02:48:05+00:00"
+   },
+   {
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: OpenShift Container Platform 4.19.44 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57408",
+    "score": 9,
+    "date": "2026-10-14T02:48:00+00:00"
+   },
+   {
+    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.20.36 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60446",
     "score": 8.8,
-    "date": "2026-10-14T01:38:40+00:00"
+    "date": "2026-10-14T02:48:35+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68334",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.5 security update (+43 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57194",
     "score": 8.8,
-    "date": "2026-10-14T01:38:33+00:00"
+    "date": "2026-10-14T02:47:52+00:00"
    },
    {
-    "title": "CVE-2025-53547 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.7 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67541",
-    "score": 8.5,
-    "date": "2026-10-14T01:38:24+00:00"
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: golang security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49712",
+    "score": 8.8,
+    "date": "2026-10-14T02:47:16+00:00"
    },
    {
-    "title": "CVE-2025-53547 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.12 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67540",
-    "score": 8.5,
-    "date": "2026-10-14T01:38:24+00:00"
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: golang security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:49702",
+    "score": 8.8,
+    "date": "2026-10-14T02:47:13+00:00"
    },
    {
-    "title": "CVE-2026-19913 — Red Hat Security Advisory: RHOAI 3.5.1 - Red Hat OpenShift AI (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69539",
-    "score": 8.2,
-    "date": "2026-10-14T01:38:37+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68335",
-    "score": 8.2,
-    "date": "2026-10-14T01:38:33+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68254",
-    "score": 8.2,
-    "date": "2026-10-14T01:38:32+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68253",
-    "score": 8.2,
-    "date": "2026-10-14T01:38:31+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68044",
-    "score": 8.2,
-    "date": "2026-10-14T01:38:29+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68006",
-    "score": 8.2,
-    "date": "2026-10-14T01:38:29+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.8.2 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69945",
-    "score": 8.1,
-    "date": "2026-10-14T01:38:36+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.8.2 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69928",
-    "score": 8.1,
-    "date": "2026-10-14T01:38:35+00:00"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.22.0 security, enhancement & bug fix update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37387",
+    "score": 8.8,
+    "date": "2026-10-14T02:46:47+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+    "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+    "date": "Wed, 14 Oct 2026 07:29:25 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
     "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
     "date": "Tue, 13 Oct 2026 23:50:57 +0530",
@@ -362,13 +369,6 @@
     "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
     "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
     "date": "Tue, 13 Oct 2026 14:14:01 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-    "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-    "date": "Tue, 13 Oct 2026 14:13:37 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1448,
+    "stars": 1450,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 659,
+    "stars": 661,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 431,
+    "stars": 435,
     "lang": "—"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 393,
+    "stars": 394,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 9,
   "kev": 1741,
   "adv": 12,
   "feed": 48
