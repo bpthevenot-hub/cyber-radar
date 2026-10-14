@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-14T19:27:02.316Z",
+ "generatedAt": "2026-10-14T20:28:20.993Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-76519 — Kwetsbaarheid verholpen in Cisco Secure Email Gateway",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76519",
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
     "score": 9.8,
-    "date": "2026-10-14T18:46:36.525518Z"
+    "date": "2026-10-14T19:41:18+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,40 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-86848 — A flaw was found in DPDK lib/vhost vhost-crypto. The indirect-descriptor snapshot double-fetches a guest descriptor next index, allowing a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86848",
-    "score": 8.8,
-    "date": "2026-10-14T18:32:29Z"
+    "title": "CVE-2020-36516 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+195 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:8267",
+    "score": 8.2,
+    "date": "2026-10-14T19:41:29+00:00"
    },
    {
-    "title": "CVE-2026-107350 — Improper authentication in PgBouncer 1.17.0 through 1.26.0 allows a remote attacker who knows the password of a user listed in auth_file to ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107350",
-    "score": 8.8,
-    "date": "2026-10-14T18:32:29Z"
+    "title": "CVE-2020-36516 — Red Hat Security Advisory: kernel-rt security and bug fix update (+49 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:7933",
+    "score": 8.2,
+    "date": "2026-10-14T19:41:27+00:00"
    },
    {
-    "title": "CVE-2026-86849 — A flaw was found in DPDK lib/vhost vhost-crypto. Integer overflow in chain length checks, and missing length checks on the RSA path, can ove",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86849",
-    "score": 6.5,
-    "date": "2026-10-14T18:32:29Z"
+    "title": "CVE-2022-4304 — Red Hat Security Advisory: openssl security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1405",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:32+00:00"
    },
    {
-    "title": "CVE-2026-86566 — A flaw was found in DPDK lib/vhost. A guest with runt RX descriptors can underflow the copy length in vhost enqueue, causing a denial of ser",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86566",
-    "score": 6.5,
-    "date": "2026-10-14T18:32:29Z"
+    "title": "CVE-2022-4203 — Red Hat Security Advisory: openssl security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1199",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:32+00:00"
    },
    {
-    "title": "CVE-2026-110777 — A flaw was found in evolution-data-server. Calendar events containing a file:// URI in their ATTACH property automatically read the targeted",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110777",
-    "score": 5.7,
-    "date": "2026-10-14T18:32:29Z"
+    "title": "CVE-2022-4203 — Red Hat Security Advisory: openssl security and bug fix update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:0946",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:29+00:00"
    },
    {
-    "title": "CVE-2026-59180 — Apprise forwards configured auth headers across cross-origin HTTP redirects",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59180",
-    "score": 3.1,
-    "date": "2026-10-14T18:38:05Z"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9695",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:18+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.3.2",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9461",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:17+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: git-lfs security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9439",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:16+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: git-lfs security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9436",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:16+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: git-lfs security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9435",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:16+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: git-lfs security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9434",
+    "score": 7.5,
+    "date": "2026-10-14T19:41:16+00:00"
    }
   ],
   "kev": [
@@ -173,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "Microsoft.OpenApi.YamlReader vulnerable to denial of service via YAML alias expansion",
+    "url": "https://github.com/advisories/GHSA-7pxr-59rr-hqj2",
+    "score": 7.5,
+    "ghsa": "GHSA-7pxr-59rr-hqj2",
+    "date": "2026-10-14T20:11:29Z"
+   },
+   {
+    "title": "BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
+    "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
+    "score": 3.1,
+    "ghsa": "GHSA-xpf3-p7gm-7756",
+    "date": "2026-10-14T19:34:31Z"
+   },
+   {
     "title": "Metalama allows local code execution through DLL planting in shared temporary directories",
     "url": "https://github.com/advisories/GHSA-m6wq-39m7-9xpp",
     "score": 8.2,
@@ -241,20 +285,6 @@
     "score": 8.8,
     "ghsa": "GHSA-xq57-crx4-g373",
     "date": "2026-10-13T20:50:11Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-85363 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-f63g-mx39-3r38",
-    "score": 8.8,
-    "ghsa": "GHSA-f63g-mx39-3r38",
-    "date": "2026-10-13T20:49:39Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-96959 - .NET and Visual Studio Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-c399-9853-6jmj",
-    "score": 7.5,
-    "ghsa": "GHSA-c399-9853-6jmj",
-    "date": "2026-10-13T20:49:06Z"
    }
   ],
   "thn": [
@@ -345,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+    "date": "Wed, 14 Oct 2026 15:41:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
     "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
     "date": "Wed, 14 Oct 2026 13:46:50 -0400",
@@ -420,20 +457,13 @@
     "date": "Tue, 13 Oct 2026 17:16:34 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-    "date": "Tue, 13 Oct 2026 15:56:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1484,
+    "stars": 1485,
     "lang": "Go"
    },
    {
@@ -445,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 693,
+    "stars": 695,
     "lang": "TypeScript"
    },
    {
@@ -463,7 +493,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 494,
+    "stars": 498,
     "lang": "—"
    },
    {
@@ -605,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
-    "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
-    "date": "2026-10-14T03:08:53+00:00",
+    "title": "AhsayCBS Deep-Dive: Auth Bypass to RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1x5wiyi/ahsaycbs_deepdive_auth_bypass_to_rce/",
+    "date": "2026-10-14T16:54:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "AhsayCBS Deep-Dive: Auth Bypass to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1x5wiyi/ahsaycbs_deepdive_auth_bypass_to_rce/",
-    "date": "2026-10-14T16:54:16+00:00",
+    "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
+    "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
+    "date": "2026-10-14T03:08:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -688,7 +718,7 @@
  },
  "kpis": {
   "crit": 3,
-  "kev": 1741,
+  "kev": 1745,
   "adv": 12,
   "feed": 48
  },
