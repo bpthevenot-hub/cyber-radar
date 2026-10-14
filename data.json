@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-14T18:36:47.585Z",
+ "generatedAt": "2026-10-14T19:27:02.316Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-76519 — Kwetsbaarheid verholpen in Cisco Secure Email Gateway",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76519",
+    "score": 9.8,
+    "date": "2026-10-14T18:46:36.525518Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-86848 — A flaw was found in DPDK lib/vhost vhost-crypto. The indirect-descriptor snapshot double-fetches a guest descriptor next index, allowing a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86848",
+    "score": 8.8,
+    "date": "2026-10-14T18:32:29Z"
+   },
+   {
+    "title": "CVE-2026-107350 — Improper authentication in PgBouncer 1.17.0 through 1.26.0 allows a remote attacker who knows the password of a user listed in auth_file to ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107350",
+    "score": 8.8,
+    "date": "2026-10-14T18:32:29Z"
+   },
+   {
+    "title": "CVE-2026-86849 — A flaw was found in DPDK lib/vhost vhost-crypto. Integer overflow in chain length checks, and missing length checks on the RSA path, can ove",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86849",
+    "score": 6.5,
+    "date": "2026-10-14T18:32:29Z"
+   },
+   {
+    "title": "CVE-2026-86566 — A flaw was found in DPDK lib/vhost. A guest with runt RX descriptors can underflow the copy length in vhost enqueue, causing a denial of ser",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86566",
+    "score": 6.5,
+    "date": "2026-10-14T18:32:29Z"
+   },
+   {
+    "title": "CVE-2026-110777 — A flaw was found in evolution-data-server. Calendar events containing a file:// URI in their ATTACH property automatically read the targeted",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110777",
+    "score": 5.7,
+    "date": "2026-10-14T18:32:29Z"
+   },
+   {
+    "title": "CVE-2026-59180 — Apprise forwards configured auth headers across cross-origin HTTP redirects",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59180",
+    "score": 3.1,
+    "date": "2026-10-14T18:38:05Z"
    }
   ],
   "kev": [
@@ -131,6 +173,20 @@
   ],
   "adv": [
    {
+    "title": "Metalama allows local code execution through DLL planting in shared temporary directories",
+    "url": "https://github.com/advisories/GHSA-m6wq-39m7-9xpp",
+    "score": 8.2,
+    "ghsa": "GHSA-m6wq-39m7-9xpp",
+    "date": "2026-10-14T19:24:53Z"
+   },
+   {
+    "title": "Apprise forwards configured auth headers across cross-origin HTTP redirects",
+    "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
+    "score": 3.1,
+    "ghsa": "GHSA-856c-92hv-3vxx",
+    "date": "2026-10-14T18:38:05Z"
+   },
+   {
     "title": "Microsoft Security Advisory CVE-2026-70035 - .NET and Visual Studio Remote Code Execution Vulnerability",
     "url": "https://github.com/advisories/GHSA-4j9v-h7pp-725h",
     "score": 8.8,
@@ -199,23 +255,30 @@
     "score": 7.5,
     "ghsa": "GHSA-c399-9853-6jmj",
     "date": "2026-10-13T20:49:06Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-83520 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-4w5f-7jp2-w48g",
-    "score": 8.8,
-    "ghsa": "GHSA-4w5f-7jp2-w48g",
-    "date": "2026-10-13T20:48:38Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70174 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-f749-vhgx-39h6",
-    "score": 8.8,
-    "ghsa": "GHSA-f749-vhgx-39h6",
-    "date": "2026-10-13T20:48:07Z"
    }
   ],
   "thn": [
+   {
+    "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+    "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+    "date": "Thu, 15 Oct 2026 00:08:56 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+    "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+    "date": "Wed, 14 Oct 2026 23:08:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+    "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+    "date": "Wed, 14 Oct 2026 22:39:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
     "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
@@ -276,27 +339,6 @@
     "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
     "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
     "date": "Wed, 14 Oct 2026 11:22:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
-    "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
-    "date": "Wed, 14 Oct 2026 10:04:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-    "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-    "date": "Wed, 14 Oct 2026 07:29:25 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-    "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-    "date": "Tue, 13 Oct 2026 23:50:57 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,7 +433,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1483,
+    "stars": 1484,
     "lang": "Go"
    },
    {
@@ -403,7 +445,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 690,
+    "stars": 693,
     "lang": "TypeScript"
    },
    {
@@ -421,7 +463,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 489,
+    "stars": 494,
     "lang": "—"
    },
    {
@@ -645,7 +687,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1741,
   "adv": 12,
   "feed": 48
