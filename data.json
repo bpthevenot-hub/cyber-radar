@@ -1,66 +1,12 @@
 {
- "generatedAt": "2026-10-14T15:32:00.751Z",
+ "generatedAt": "2026-10-14T16:32:53.921Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
-    "score": 9.9,
-    "date": "2026-10-14T13:40:02+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
-    "score": 9.9,
-    "date": "2026-10-14T13:40:00+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
-    "score": 9.9,
-    "date": "2026-10-14T13:40:00+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
-    "score": 9.9,
-    "date": "2026-10-14T13:39:59+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
-    "score": 9.9,
-    "date": "2026-10-14T13:39:57+00:00"
-   },
-   {
-    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
-    "score": 9.9,
-    "date": "2026-10-14T13:39:56+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
-    "score": 9.9,
-    "date": "2026-10-14T13:39:55+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.7 security update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59559",
-    "score": 9.9,
-    "date": "2026-10-14T13:39:52+00:00"
-   },
-   {
-    "title": "CVE-2013-0340 — Red Hat Security Advisory: expat security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:22871",
+    "title": "CVE-2026-11861 — Red Hat Security Advisory: ipa security, bug fix, and enhancement update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70564",
     "score": 9.8,
-    "date": "2026-10-14T13:39:46+00:00"
-   },
-   {
-    "title": "CVE-2013-0340 — Red Hat Security Advisory: expat security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:22785",
-    "score": 9.8,
-    "date": "2026-10-14T13:39:45+00:00"
+    "date": "2026-10-14T15:05:49+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -75,16 +21,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-42516 — Red Hat Security Advisory: Insights proxy Container Image (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53371",
-    "score": 8.8,
-    "date": "2026-10-14T13:59:06+00:00"
+    "title": "CVE-2026-9545 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41240",
+    "score": 7.5,
+    "date": "2026-10-14T15:09:45+00:00"
    },
    {
-    "title": "CVE-2026-5079 — Red Hat Security Advisory: Ansible automation portal Red Hat Enterprise Linux Images (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66003",
-    "score": 8.8,
-    "date": "2026-10-14T13:40:10+00:00"
+    "title": "OSV-2024-171 — Security exception in org.threeten.bp.format.DateTimeFormatterBuilder$CompositePrinterParser.parse",
+    "url": "https://github.com/advisories/OSV-2024-171",
+    "score": null,
+    "date": "2024-03-15T00:08:01.855772Z"
+   },
+   {
+    "title": "OSV-2023-1129 — UNKNOWN READ in HeifPixelImage::overlay",
+    "url": "https://github.com/advisories/OSV-2023-1129",
+    "score": null,
+    "date": "2023-11-09T13:00:44.441721Z"
+   },
+   {
+    "title": "OSV-2022-916 — Container-overflow in wabt::interp::BinaryReaderInterp::BeginFunctionBody",
+    "url": "https://github.com/advisories/OSV-2022-916",
+    "score": null,
+    "date": "2022-09-20T00:00:42.122902Z"
+   },
+   {
+    "title": "OSV-2022-882 — Use-of-uninitialized-value in SfxEntry::test_condition",
+    "url": "https://github.com/advisories/OSV-2022-882",
+    "score": null,
+    "date": "2022-09-11T00:01:48.463118Z"
+   },
+   {
+    "title": "OSV-2022-834 — Heap-use-after-free in mk_event_timeout_destroy",
+    "url": "https://github.com/advisories/OSV-2022-834",
+    "score": null,
+    "date": "2022-09-04T00:00:31.605787Z"
+   },
+   {
+    "title": "OSV-2022-763 — Heap-buffer-overflow in sqlite3VdbeExec",
+    "url": "https://github.com/advisories/OSV-2022-763",
+    "score": null,
+    "date": "2022-08-21T00:00:23.656015Z"
+   },
+   {
+    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
+    "url": "https://github.com/advisories/OSV-2022-714",
+    "score": null,
+    "date": "2022-08-15T00:00:47.794062Z"
+   },
+   {
+    "title": "OSV-2022-675 — Heap-buffer-overflow in void RDKit::ParseV3000AtomProps<std::__1::vector<std::__1::basic_string_view<cha",
+    "url": "https://github.com/advisories/OSV-2022-675",
+    "score": null,
+    "date": "2022-08-06T00:00:51.363676Z"
+   },
+   {
+    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
+    "url": "https://github.com/advisories/OSV-2022-653",
+    "score": null,
+    "date": "2022-07-30T00:01:52.491112Z"
    }
   ],
   "kev": [
@@ -463,7 +457,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1480,
+    "stars": 1481,
     "lang": "Go"
    },
    {
@@ -475,7 +469,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 677,
+    "stars": 683,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +487,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 482,
+    "stars": 484,
     "lang": "—"
    },
    {
@@ -717,7 +711,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 3,
   "kev": 1741,
   "adv": 12,
   "feed": 48
