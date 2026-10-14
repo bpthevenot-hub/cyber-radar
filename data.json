@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-10-14T05:29:36.454Z",
+ "generatedAt": "2026-10-14T06:45:27.119Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
+    "score": 9.9,
+    "date": "2026-10-14T05:04:00+00:00"
+   },
+   {
+    "title": "CVE-2025-66471 — Red Hat Security Advisory: RHOAI 3.4.4 - Red Hat OpenShift AI (+142 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60520",
+    "score": 9.9,
+    "date": "2026-10-14T05:03:34+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-14T05:03:34+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-14T05:03:34+00:00"
+   },
+   {
+    "title": "CVE-2026-39820 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68764",
+    "score": 9.8,
+    "date": "2026-10-14T05:05:18+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
+    "score": 9.8,
+    "date": "2026-10-14T05:04:04+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +49,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55543",
+    "score": 9.1,
+    "date": "2026-10-14T05:04:24+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:42825",
+    "score": 9.1,
+    "date": "2026-10-14T05:04:24+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-10-14T05:04:16+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-10-14T05:04:15+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-10-14T05:04:12+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
+    "score": 9.1,
+    "date": "2026-10-14T05:03:48+00:00"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+    "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+    "date": "Wed, 14 Oct 2026 11:22:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
     "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
     "date": "Wed, 14 Oct 2026 10:04:43 +0530",
@@ -290,13 +369,6 @@
     "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
     "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
     "date": "Tue, 13 Oct 2026 16:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-    "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-    "date": "Tue, 13 Oct 2026 14:18:41 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1454,
+    "stars": 1457,
     "lang": "Go"
    },
    {
@@ -403,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 661,
+    "stars": 666,
     "lang": "TypeScript"
    },
    {
@@ -421,7 +493,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 438,
+    "stars": 446,
     "lang": "—"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 394,
+    "stars": 395,
     "lang": "Rust"
    },
    {
@@ -563,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "We Let AI Fuzz Adobe Reader for a Week. It Found a Critical Zero-Day CVE-2026-81983",
-    "url": "https://www.reddit.com/r/netsec/comments/1x4xuvc/we_let_ai_fuzz_adobe_reader_for_a_week_it_found_a/",
-    "date": "2026-10-13T14:17:03+00:00",
+    "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
+    "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
+    "date": "2026-10-14T03:08:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
-    "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
-    "date": "2026-10-14T03:08:53+00:00",
+    "title": "We Let AI Fuzz Adobe Reader for a Week. It Found a Critical Zero-Day CVE-2026-81983",
+    "url": "https://www.reddit.com/r/netsec/comments/1x4xuvc/we_let_ai_fuzz_adobe_reader_for_a_week_it_found_a/",
+    "date": "2026-10-13T14:17:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1741,
   "adv": 12,
   "feed": 48
