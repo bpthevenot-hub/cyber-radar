@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T12:40:22.259Z",
+ "generatedAt": "2026-10-14T13:28:30.338Z",
  "sources": {
   "cve": [
    {
@@ -13,36 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-86145 — Red Hat Security Advisory: pcre2 security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:81613",
-    "score": 8.2,
-    "date": "2026-10-14T10:18:42+00:00"
-   },
-   {
-    "title": "CVE-2026-86145 — Red Hat Security Advisory: pcre2 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:81532",
-    "score": 8.2,
-    "date": "2026-10-14T10:18:33+00:00"
-   },
-   {
-    "title": "CVE-2026-86145 — Red Hat Security Advisory: pcre2 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:81522",
-    "score": 8.2,
-    "date": "2026-10-14T10:18:33+00:00"
-   },
-   {
-    "title": "CVE-2026-86145 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67534",
-    "score": 8.2,
-    "date": "2026-10-14T10:18:29+00:00"
-   },
-   {
-    "title": "CVE-2026-103111 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74972",
-    "score": 7.6,
-    "date": "2026-10-14T10:18:29+00:00"
    }
   ],
   "kev": [
@@ -247,6 +217,27 @@
   ],
   "thn": [
    {
+    "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+    "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+    "date": "Wed, 14 Oct 2026 18:00:42 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+    "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+    "date": "Wed, 14 Oct 2026 17:43:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+    "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+    "date": "Wed, 14 Oct 2026 17:20:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
     "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
     "date": "Wed, 14 Oct 2026 16:49:02 +0530",
@@ -308,30 +299,23 @@
     "date": "Tue, 13 Oct 2026 23:33:18 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-    "date": "Tue, 13 Oct 2026 23:03:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-    "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-    "date": "Tue, 13 Oct 2026 22:58:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-    "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-    "date": "Tue, 13 Oct 2026 21:48:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Global takedown hits network behind 1 billion phishing messages",
+    "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+    "date": "Wed, 14 Oct 2026 09:12:52 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+    "date": "Wed, 14 Oct 2026 08:58:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hirudo Android malware replaces banking apps to evade security checks",
     "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
@@ -401,27 +385,13 @@
     "date": "Tue, 13 Oct 2026 13:49:38 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
-    "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-    "date": "Tue, 13 Oct 2026 12:44:18 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-    "date": "Tue, 13 Oct 2026 11:45:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1477,
+    "stars": 1478,
     "lang": "Go"
    },
    {
@@ -433,7 +403,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 674,
+    "stars": 676,
     "lang": "TypeScript"
    },
    {
@@ -451,7 +421,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 469,
+    "stars": 473,
     "lang": "—"
    },
    {
@@ -463,13 +433,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 399,
+    "stars": 400,
     "lang": "Rust"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 359,
+    "stars": 360,
     "lang": "C++"
    },
    {
