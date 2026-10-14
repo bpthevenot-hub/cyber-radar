@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-14T16:32:53.921Z",
+ "generatedAt": "2026-10-14T17:28:43.130Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-11861 — Red Hat Security Advisory: ipa security, bug fix, and enhancement update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70564",
-    "score": 9.8,
-    "date": "2026-10-14T15:05:49+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-9545 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41240",
-    "score": 7.5,
-    "date": "2026-10-14T15:09:45+00:00"
-   },
-   {
-    "title": "OSV-2024-171 — Security exception in org.threeten.bp.format.DateTimeFormatterBuilder$CompositePrinterParser.parse",
-    "url": "https://github.com/advisories/OSV-2024-171",
-    "score": null,
-    "date": "2024-03-15T00:08:01.855772Z"
-   },
-   {
-    "title": "OSV-2023-1129 — UNKNOWN READ in HeifPixelImage::overlay",
-    "url": "https://github.com/advisories/OSV-2023-1129",
-    "score": null,
-    "date": "2023-11-09T13:00:44.441721Z"
-   },
-   {
-    "title": "OSV-2022-916 — Container-overflow in wabt::interp::BinaryReaderInterp::BeginFunctionBody",
-    "url": "https://github.com/advisories/OSV-2022-916",
-    "score": null,
-    "date": "2022-09-20T00:00:42.122902Z"
-   },
-   {
-    "title": "OSV-2022-882 — Use-of-uninitialized-value in SfxEntry::test_condition",
-    "url": "https://github.com/advisories/OSV-2022-882",
-    "score": null,
-    "date": "2022-09-11T00:01:48.463118Z"
-   },
-   {
-    "title": "OSV-2022-834 — Heap-use-after-free in mk_event_timeout_destroy",
-    "url": "https://github.com/advisories/OSV-2022-834",
-    "score": null,
-    "date": "2022-09-04T00:00:31.605787Z"
-   },
-   {
-    "title": "OSV-2022-763 — Heap-buffer-overflow in sqlite3VdbeExec",
-    "url": "https://github.com/advisories/OSV-2022-763",
-    "score": null,
-    "date": "2022-08-21T00:00:23.656015Z"
-   },
-   {
-    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
-    "url": "https://github.com/advisories/OSV-2022-714",
-    "score": null,
-    "date": "2022-08-15T00:00:47.794062Z"
-   },
-   {
-    "title": "OSV-2022-675 — Heap-buffer-overflow in void RDKit::ParseV3000AtomProps<std::__1::vector<std::__1::basic_string_view<cha",
-    "url": "https://github.com/advisories/OSV-2022-675",
-    "score": null,
-    "date": "2022-08-06T00:00:51.363676Z"
-   },
-   {
-    "title": "OSV-2022-653 — Heap-double-free in dwg_free_common_entity_data",
-    "url": "https://github.com/advisories/OSV-2022-653",
-    "score": null,
-    "date": "2022-07-30T00:01:52.491112Z"
    }
   ],
   "kev": [
@@ -283,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+    "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+    "date": "Wed, 14 Oct 2026 22:04:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
     "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
     "date": "Wed, 14 Oct 2026 18:00:42 +0530",
@@ -356,13 +297,6 @@
     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
     "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
     "date": "Tue, 13 Oct 2026 23:50:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-    "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-    "date": "Tue, 13 Oct 2026 23:33:18 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -457,19 +391,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1481,
+    "stars": 1482,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 724,
+    "stars": 725,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 683,
+    "stars": 687,
     "lang": "TypeScript"
    },
    {
@@ -487,7 +421,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 484,
+    "stars": 485,
     "lang": "—"
    },
    {
@@ -636,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "AhsayCBS Deep-Dive: Auth Bypass to RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1x5wiyi/ahsaycbs_deepdive_auth_bypass_to_rce/",
+    "date": "2026-10-14T16:54:16+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "We Let AI Fuzz Adobe Reader for a Week. It Found a Critical Zero-Day CVE-2026-81983",
     "url": "https://www.reddit.com/r/netsec/comments/1x4xuvc/we_let_ai_fuzz_adobe_reader_for_a_week_it_found_a/",
     "date": "2026-10-13T14:17:03+00:00",
@@ -690,13 +631,6 @@
     "date": "2026-10-12T08:58:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip",
-    "url": "https://www.reddit.com/r/netsec/comments/1x2l1ii/a_story_of_wifi_secrets_uart_lockdowns_and_a/",
-    "date": "2026-10-10T17:32:25+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -711,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1741,
   "adv": 12,
   "feed": 48
