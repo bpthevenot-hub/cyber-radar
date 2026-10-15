@@ -1,26 +1,7 @@
 {
- "generatedAt": "2026-10-15T18:35:05.802Z",
+ "generatedAt": "2026-10-15T19:25:16.442Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-64672 — Terragrunt catalog predictable temp symlink clobber",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64672",
-    "score": 5,
-    "date": "2026-10-15T18:21:35Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -137,6 +118,13 @@
   ],
   "adv": [
    {
+    "title": "MessagePack: Nested arrays can blow past buffer length limits",
+    "url": "https://github.com/advisories/GHSA-qhrr-8q5h-9q3h",
+    "score": 5.3,
+    "ghsa": "GHSA-qhrr-8q5h-9q3h",
+    "date": "2026-10-15T18:35:46Z"
+   },
+   {
     "title": "Terragrunt catalog predictable temp symlink clobber",
     "url": "https://github.com/advisories/GHSA-wv6g-x823-wx9m",
     "score": null,
@@ -212,16 +200,16 @@
     "score": 8.8,
     "ghsa": "GHSA-pfwj-2f93-rf42",
     "date": "2026-10-13T20:52:52Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-87697 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-c27m-942f-rcfh",
-    "score": 8.8,
-    "ghsa": "GHSA-c27m-942f-rcfh",
-    "date": "2026-10-13T20:52:24Z"
    }
   ],
   "thn": [
+   {
+    "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+    "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+    "date": "Fri, 16 Oct 2026 00:19:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
     "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
@@ -296,13 +284,6 @@
     "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
     "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
     "date": "Thu, 15 Oct 2026 14:15:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-    "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-    "date": "Thu, 15 Oct 2026 12:37:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,19 +384,19 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 728,
+    "stars": 729,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 712,
+    "stars": 714,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 551,
+    "stars": 552,
     "lang": "—"
    },
    {
@@ -641,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -651,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1746,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
