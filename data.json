@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-10-15T19:25:16.442Z",
+ "generatedAt": "2026-10-15T20:27:40.002Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67551",
+    "score": 9.1,
+    "date": "2026-10-15T19:54:50+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62790",
+    "score": 9.1,
+    "date": "2026-10-15T19:54:50+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62562",
+    "score": 9.1,
+    "date": "2026-10-15T19:54:50+00:00"
+   },
+   {
+    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55543",
+    "score": 9.1,
+    "date": "2026-10-15T19:54:50+00:00"
+   },
+   {
+    "title": "CVE-2025-5994 — Red Hat Security Advisory: OpenShift Container Platform 4.16.70 bug fix and security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62549",
+    "score": 9.1,
+    "date": "2026-10-15T19:32:49+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76795",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:57+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76809",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:55+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69235",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:53+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68504",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:52+00:00"
+   },
+   {
+    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67517",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:52+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67160",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:51+00:00"
+   },
+   {
+    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67159",
+    "score": 8.8,
+    "date": "2026-10-15T19:32:51+00:00"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -118,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "MessagePack: Nested arrays can blow past buffer length limits",
-    "url": "https://github.com/advisories/GHSA-qhrr-8q5h-9q3h",
-    "score": 5.3,
-    "ghsa": "GHSA-qhrr-8q5h-9q3h",
-    "date": "2026-10-15T18:35:46Z"
+    "title": "TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
+    "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
+    "score": 9.3,
+    "ghsa": "GHSA-qx66-fv34-fjm8",
+    "date": "2026-10-15T20:22:20Z"
    },
    {
-    "title": "Terragrunt catalog predictable temp symlink clobber",
-    "url": "https://github.com/advisories/GHSA-wv6g-x823-wx9m",
+    "title": "Pipecat: Public exposure of Pipecat’s development runner can allow unauthenticated bot session creation",
+    "url": "https://github.com/advisories/GHSA-hqm2-cfx2-2vgh",
+    "score": 5.6,
+    "ghsa": "GHSA-hqm2-cfx2-2vgh",
+    "date": "2026-10-15T20:22:18Z"
+   },
+   {
+    "title": "Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation",
+    "url": "https://github.com/advisories/GHSA-2cvf-wqm6-wr9g",
+    "score": 10,
+    "ghsa": "GHSA-2cvf-wqm6-wr9g",
+    "date": "2026-10-15T20:22:16Z"
+   },
+   {
+    "title": "JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
+    "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
+    "score": 4.2,
+    "ghsa": "GHSA-jwrc-gm9j-263p",
+    "date": "2026-10-15T20:22:13Z"
+   },
+   {
+    "title": "SFTPGo source-side file-pattern filter bypass during copy operations",
+    "url": "https://github.com/advisories/GHSA-wwv9-g5x4-966q",
+    "score": 4.3,
+    "ghsa": "GHSA-wwv9-g5x4-966q",
+    "date": "2026-10-15T20:22:10Z"
+   },
+   {
+    "title": "Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
+    "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
+    "score": 7.5,
+    "ghsa": "GHSA-pq7j-f95f-qfcv",
+    "date": "2026-10-15T20:22:07Z"
+   },
+   {
+    "title": "containerd: Unpack DoS via repeated opaque whiteouts",
+    "url": "https://github.com/advisories/GHSA-rp3h-jf77-q9p4",
     "score": null,
-    "ghsa": "GHSA-wv6g-x823-wx9m",
-    "date": "2026-10-15T18:21:35Z"
+    "ghsa": "GHSA-rp3h-jf77-q9p4",
+    "date": "2026-10-15T20:22:05Z"
    },
    {
-    "title": "GitHub CLI allows attestation verification bypass through unescaped regex metacharacters",
-    "url": "https://github.com/advisories/GHSA-mm27-mwq9-fr5g",
-    "score": 2,
-    "ghsa": "GHSA-mm27-mwq9-fr5g",
-    "date": "2026-10-15T18:08:20Z"
+    "title": "Distribution: Client `manifests.Get()` does not verify returned content against requested digest",
+    "url": "https://github.com/advisories/GHSA-685w-q87j-wqw3",
+    "score": 6.8,
+    "ghsa": "GHSA-685w-q87j-wqw3",
+    "date": "2026-10-15T20:22:02Z"
    },
    {
-    "title": "GitHub CLI allows path traversal through unescaped request URL components",
-    "url": "https://github.com/advisories/GHSA-4fjg-2h4q-fwg3",
-    "score": 2,
-    "ghsa": "GHSA-4fjg-2h4q-fwg3",
-    "date": "2026-10-15T18:07:14Z"
-   },
-   {
-    "title": "GitHub CLI partially discloses authentication tokens in `gh auth status` output",
-    "url": "https://github.com/advisories/GHSA-cg6r-mpgc-h9mm",
-    "score": 3.3,
-    "ghsa": "GHSA-cg6r-mpgc-h9mm",
-    "date": "2026-10-15T18:05:19Z"
-   },
-   {
-    "title": "Microsoft.OpenApi.YamlReader vulnerable to denial of service via YAML alias expansion",
-    "url": "https://github.com/advisories/GHSA-7pxr-59rr-hqj2",
+    "title": "Qwik: Crashing any Qwik Server via Resource thenable",
+    "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
     "score": 7.5,
-    "ghsa": "GHSA-7pxr-59rr-hqj2",
-    "date": "2026-10-14T20:11:29Z"
+    "ghsa": "GHSA-x586-xvc8-g7q6",
+    "date": "2026-10-15T20:22:00Z"
    },
    {
-    "title": "BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
-    "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
-    "score": 3.1,
-    "ghsa": "GHSA-xpf3-p7gm-7756",
-    "date": "2026-10-14T19:34:31Z"
+    "title": "containerd CRI plugin: Checkpoint restore bypasses destination security context",
+    "url": "https://github.com/advisories/GHSA-p7v4-vr35-mj6f",
+    "score": 7.8,
+    "ghsa": "GHSA-p7v4-vr35-mj6f",
+    "date": "2026-10-15T20:21:57Z"
    },
    {
-    "title": "Metalama allows local code execution through DLL planting in shared temporary directories",
-    "url": "https://github.com/advisories/GHSA-m6wq-39m7-9xpp",
-    "score": 8.2,
-    "ghsa": "GHSA-m6wq-39m7-9xpp",
-    "date": "2026-10-14T19:24:53Z"
+    "title": "Backstage: Improper access control in backend action invocation",
+    "url": "https://github.com/advisories/GHSA-3xr5-8w6c-p5gw",
+    "score": 4.3,
+    "ghsa": "GHSA-3xr5-8w6c-p5gw",
+    "date": "2026-10-15T20:21:54Z"
    },
    {
-    "title": "Apprise forwards configured auth headers across cross-origin HTTP redirects",
-    "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
-    "score": 3.1,
-    "ghsa": "GHSA-856c-92hv-3vxx",
-    "date": "2026-10-14T18:38:05Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70035 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-4j9v-h7pp-725h",
-    "score": 8.8,
-    "ghsa": "GHSA-4j9v-h7pp-725h",
-    "date": "2026-10-13T20:53:46Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70186 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-mf4x-w4gh-4656",
+    "title": "kin-openapi: Incomplete Fix for GHSA-p6wj-qrr4-pgh5: Three Unpatched nil-Items Panic Paths in openapi3filter",
+    "url": "https://github.com/advisories/GHSA-vrcc-3ch7-hppw",
     "score": 7.5,
-    "ghsa": "GHSA-mf4x-w4gh-4656",
-    "date": "2026-10-13T20:53:19Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70007 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-pfwj-2f93-rf42",
-    "score": 8.8,
-    "ghsa": "GHSA-pfwj-2f93-rf42",
-    "date": "2026-10-13T20:52:52Z"
+    "ghsa": "GHSA-vrcc-3ch7-hppw",
+    "date": "2026-10-15T20:20:47Z"
    }
   ],
   "thn": [
@@ -290,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "date": "Thu, 15 Oct 2026 16:25:04 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Android gets AI defenses against messaging scams, fake calls",
+    "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+    "date": "Thu, 15 Oct 2026 15:48:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
     "date": "Thu, 15 Oct 2026 14:20:59 -0400",
@@ -358,45 +457,31 @@
     "date": "Wed, 14 Oct 2026 13:46:50 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-    "date": "Wed, 14 Oct 2026 13:29:14 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft fixes VPN issues caused by September Windows updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-    "date": "Wed, 14 Oct 2026 10:27:01 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1540,
+    "stars": 1542,
     "lang": "Go"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 729,
+    "stars": 730,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 714,
+    "stars": 715,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 552,
+    "stars": 553,
     "lang": "—"
    },
    {
@@ -420,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 406,
+    "stars": 407,
     "lang": "Rust"
    },
    {
@@ -550,9 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Trivy and govulncheck found the same vulnerability, but the code wasn't in the binary",
-    "url": "https://www.reddit.com/r/netsec/comments/1x6n1ac/trivy_and_govulncheck_found_the_same/",
-    "date": "2026-10-15T14:24:29+00:00",
+    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
+    "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
+    "date": "2026-10-15T19:26:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 7,
   "kev": 1746,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
