@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T17:26:52.974Z",
+ "generatedAt": "2026-10-15T18:35:05.802Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-110839 — CVE-2026-110839",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110839",
-    "score": null,
-    "date": "2026-10-14T23:17:24.173"
-   },
-   {
-    "title": "CVE-2026-110838 — CVE-2026-110838",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110838",
-    "score": null,
-    "date": "2026-10-14T23:17:24.023"
-   },
-   {
-    "title": "CVE-2026-110837 — CVE-2026-110837",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110837",
-    "score": null,
-    "date": "2026-10-14T23:17:23.853"
-   },
-   {
-    "title": "CVE-2026-110836 — CVE-2026-110836",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110836",
-    "score": null,
-    "date": "2026-10-14T23:17:23.593"
-   },
-   {
-    "title": "CVE-2026-110835 — CVE-2026-110835",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110835",
-    "score": null,
-    "date": "2026-10-14T23:17:23.433"
-   },
-   {
-    "title": "CVE-2026-110834 — CVE-2026-110834",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110834",
-    "score": null,
-    "date": "2026-10-14T23:17:23.300"
-   },
-   {
-    "title": "CVE-2026-110833 — CVE-2026-110833",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110833",
-    "score": null,
-    "date": "2026-10-14T23:17:23.160"
-   },
-   {
-    "title": "CVE-2026-110832 — CVE-2026-110832",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110832",
-    "score": null,
-    "date": "2026-10-14T23:17:23.023"
-   },
-   {
-    "title": "CVE-2026-110831 — CVE-2026-110831",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110831",
-    "score": null,
-    "date": "2026-10-14T23:17:22.880"
-   },
-   {
-    "title": "CVE-2026-110830 — CVE-2026-110830",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110830",
-    "score": null,
-    "date": "2026-10-14T23:17:22.737"
-   },
-   {
-    "title": "CVE-2026-110829 — CVE-2026-110829",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110829",
-    "score": null,
-    "date": "2026-10-14T23:17:22.597"
-   },
-   {
-    "title": "CVE-2026-107795 — CVE-2026-107795",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107795",
-    "score": null,
-    "date": "2026-10-14T23:17:22.250"
+    "title": "CVE-2026-64672 — Terragrunt catalog predictable temp symlink clobber",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-64672",
+    "score": 5,
+    "date": "2026-10-15T18:21:35Z"
    }
   ],
   "kev": [
@@ -203,6 +137,34 @@
   ],
   "adv": [
    {
+    "title": "Terragrunt catalog predictable temp symlink clobber",
+    "url": "https://github.com/advisories/GHSA-wv6g-x823-wx9m",
+    "score": null,
+    "ghsa": "GHSA-wv6g-x823-wx9m",
+    "date": "2026-10-15T18:21:35Z"
+   },
+   {
+    "title": "GitHub CLI allows attestation verification bypass through unescaped regex metacharacters",
+    "url": "https://github.com/advisories/GHSA-mm27-mwq9-fr5g",
+    "score": 2,
+    "ghsa": "GHSA-mm27-mwq9-fr5g",
+    "date": "2026-10-15T18:08:20Z"
+   },
+   {
+    "title": "GitHub CLI allows path traversal through unescaped request URL components",
+    "url": "https://github.com/advisories/GHSA-4fjg-2h4q-fwg3",
+    "score": 2,
+    "ghsa": "GHSA-4fjg-2h4q-fwg3",
+    "date": "2026-10-15T18:07:14Z"
+   },
+   {
+    "title": "GitHub CLI partially discloses authentication tokens in `gh auth status` output",
+    "url": "https://github.com/advisories/GHSA-cg6r-mpgc-h9mm",
+    "score": 3.3,
+    "ghsa": "GHSA-cg6r-mpgc-h9mm",
+    "date": "2026-10-15T18:05:19Z"
+   },
+   {
     "title": "Microsoft.OpenApi.YamlReader vulnerable to denial of service via YAML alias expansion",
     "url": "https://github.com/advisories/GHSA-7pxr-59rr-hqj2",
     "score": 7.5,
@@ -257,34 +219,6 @@
     "score": 8.8,
     "ghsa": "GHSA-c27m-942f-rcfh",
     "date": "2026-10-13T20:52:24Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-96225 - .NET and Visual Studio Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-w6wh-p4g7-mpj2",
-    "score": 7.8,
-    "ghsa": "GHSA-w6wh-p4g7-mpj2",
-    "date": "2026-10-13T20:51:51Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-96230 - ASP.NET Core Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-qjpx-jqm5-h2c4",
-    "score": 8.8,
-    "ghsa": "GHSA-qjpx-jqm5-h2c4",
-    "date": "2026-10-13T20:51:12Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-70179 - ASP.NET Core Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-vrrp-6v32-2p8g",
-    "score": 7.5,
-    "ghsa": "GHSA-vrrp-6v32-2p8g",
-    "date": "2026-10-13T20:50:45Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-96224 - .NET and Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-xq57-crx4-g373",
-    "score": 8.8,
-    "ghsa": "GHSA-xq57-crx4-g373",
-    "date": "2026-10-13T20:50:11Z"
    }
   ],
   "thn": [
@@ -375,6 +309,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+    "date": "Thu, 15 Oct 2026 14:20:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Fake Arch Linux packages push malware with root privileges",
     "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
     "date": "Thu, 15 Oct 2026 13:12:31 -0400",
@@ -450,20 +391,13 @@
     "date": "Wed, 14 Oct 2026 10:27:01 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
-    "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-    "date": "Wed, 14 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1539,
+    "stars": 1540,
     "lang": "Go"
    },
    {
@@ -481,7 +415,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 548,
+    "stars": 551,
     "lang": "—"
    },
    {
@@ -505,7 +439,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 405,
+    "stars": 406,
     "lang": "Rust"
    },
    {
@@ -529,7 +463,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 185,
+    "stars": 186,
     "lang": "Go"
    }
   ],
