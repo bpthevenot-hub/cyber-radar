@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-10-15T03:34:18.187Z",
+ "generatedAt": "2026-10-15T04:32:56.091Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7261",
+    "score": 9.8,
+    "date": "2026-10-15T02:44:49+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-15T02:44:46+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-15T02:44:46+00:00"
+   },
+   {
+    "title": "CVE-2025-5987 — Red Hat Security Advisory: OpenShift Container Platform 4.13.64 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3415",
+    "score": 9.8,
+    "date": "2026-10-15T02:44:46+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.62 SP3 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2995",
+    "score": 9.8,
+    "date": "2026-10-15T02:44:45+00:00"
+   },
+   {
+    "title": "CVE-2025-6176 — Red Hat Security Advisory: OpenShift Container Platform 4.14.62 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2974",
+    "score": 9.8,
+    "date": "2026-10-15T02:44:45+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +49,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2024-56171 — Red Hat Security Advisory: OpenShift Container Platform 4.15.69 bug fix and security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67857",
+    "score": 9.1,
+    "date": "2026-10-15T02:44:49+00:00"
+   },
+   {
+    "title": "CVE-2025-5994 — Red Hat Security Advisory: OpenShift Container Platform 4.16.70 bug fix and security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62549",
+    "score": 9.1,
+    "date": "2026-10-15T02:44:48+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23079",
+    "score": 8.8,
+    "date": "2026-10-15T02:44:43+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (TPU) (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23209",
+    "score": 8.8,
+    "date": "2026-10-15T02:44:41+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23449",
+    "score": 8.8,
+    "date": "2026-10-15T02:44:40+00:00"
+   },
+   {
+    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.5 (ROCm) (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:23205",
+    "score": 8.8,
+    "date": "2026-10-15T02:44:40+00:00"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1499,
+    "stars": 1500,
     "lang": "Go"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 403,
+    "stars": 404,
     "lang": "Rust"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 10,
   "kev": 1745,
   "adv": 12,
   "feed": 48
