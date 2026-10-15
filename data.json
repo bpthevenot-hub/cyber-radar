@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-10-15T12:41:15.928Z",
+ "generatedAt": "2026-10-15T13:31:49.275Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2022-41717 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.3 Product Security and Bug Fix Update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:4470",
+    "score": 9.8,
+    "date": "2026-10-15T12:02:06+00:00"
+   },
+   {
+    "title": "CVE-2023-24534 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.7.10 security and bug fix update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3624",
+    "score": 9.8,
+    "date": "2026-10-15T12:01:54+00:00"
+   },
+   {
+    "title": "CVE-2023-24532 — Red Hat Security Advisory: go-toolset:rhel8 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3319",
+    "score": 9.8,
+    "date": "2026-10-15T12:01:46+00:00"
+   },
+   {
+    "title": "CVE-2023-24532 — Red Hat Security Advisory: go-toolset and golang security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3318",
+    "score": 9.8,
+    "date": "2026-10-15T12:01:45+00:00"
+   },
+   {
+    "title": "CVE-2023-26159 — Red Hat Enhancement Advisory: Red Hat Developer Hub 1.1 release (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2024:1366",
+    "score": 9.8,
+    "date": "2026-10-15T12:01:15+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +43,48 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2024-10005 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.23.0 Release. (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:15847",
+    "score": 8.3,
+    "date": "2026-10-15T11:59:29+00:00"
+   },
+   {
+    "title": "CVE-2024-24789 — Red Hat Security Advisory: ACS 4.4 enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:9583",
+    "score": 8.2,
+    "date": "2026-10-15T11:59:28+00:00"
+   },
+   {
+    "title": "CVE-2024-21538 — Red Hat Security Advisory: ACS 4.5 enhancement update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:10186",
+    "score": 8.2,
+    "date": "2026-10-15T11:59:25+00:00"
+   },
+   {
+    "title": "CVE-2023-37788 — Red Hat Security Advisory: Red Hat Advanced Cluster Management 2.12.0 security and bug fixes (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:8974",
+    "score": 8.2,
+    "date": "2026-10-15T11:59:18+00:00"
+   },
+   {
+    "title": "CVE-2022-23772 — Red Hat Security Advisory: Red Hat OpenShift Enterprise security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:3914",
+    "score": 8.1,
+    "date": "2026-10-15T12:01:57+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: OpenShift Container Platform 4.13.45 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4484",
+    "score": 8.1,
+    "date": "2026-10-15T11:59:14+00:00"
+   },
+   {
+    "title": "CVE-2023-37788 — Red Hat Security Advisory: openshift-gitops-kam security update",
+    "url": "https://access.redhat.com/errata/RHSA-2023:5407",
+    "score": 7.5,
+    "date": "2026-10-15T12:02:05+00:00"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+    "date": "Thu, 15 Oct 2026 09:18:36 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Police arrests 95 suspects in international CSAM crackdown action",
     "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
     "date": "Thu, 15 Oct 2026 07:55:38 -0400",
@@ -378,20 +457,13 @@
     "date": "Wed, 14 Oct 2026 08:58:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hirudo Android malware replaces banking apps to evade security checks",
-    "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-    "date": "Wed, 14 Oct 2026 07:41:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1524,
+    "stars": 1527,
     "lang": "Go"
    },
    {
@@ -403,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 708,
+    "stars": 709,
     "lang": "TypeScript"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 532,
+    "stars": 537,
     "lang": "—"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1745,
   "adv": 12,
   "feed": 48
