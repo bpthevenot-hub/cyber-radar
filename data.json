@@ -1,32 +1,7 @@
 {
- "generatedAt": "2026-10-16T11:28:15.166Z",
+ "generatedAt": "2026-10-16T12:40:49.834Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2026-65637 — Vulnerabilities Affecting SICK CorivaHub (+1 CVE)",
-    "url": "https://www.sick.com/.well-known/csaf/white/2026/sca-2026-0016.json",
-    "score": 10,
-    "date": "2026-10-16T11:01:00.000Z"
-   },
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-56074 — PraisonAI: Coarse-Grained Tool Approval Cache Bypasses Per-Invocation Consent for Shell Commands",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56074",
-    "score": 5.5,
-    "date": "2026-07-13T14:36:52.273166Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -229,6 +204,13 @@
   ],
   "thn": [
    {
+    "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+    "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+    "date": "Fri, 16 Oct 2026 17:00:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
     "date": "Fri, 16 Oct 2026 12:25:55 +0530",
@@ -304,16 +286,16 @@
     "date": "Thu, 15 Oct 2026 17:37:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-    "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-    "date": "Thu, 15 Oct 2026 17:16:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Burger King Japan data breach exposes 11 million customer records",
+    "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+    "date": "Fri, 16 Oct 2026 08:01:29 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft: October Windows update may break Smart App Control",
     "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
@@ -390,20 +372,13 @@
     "date": "Thu, 15 Oct 2026 05:10:20 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
-    "date": "Thu, 15 Oct 2026 04:06:47 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1568,
+    "stars": 1570,
     "lang": "Go"
    },
    {
@@ -421,13 +396,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 719,
+    "stars": 720,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 591,
+    "stars": 594,
     "lang": "—"
    },
    {
@@ -647,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -657,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 0,
   "kev": 1746,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
