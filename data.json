@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T18:33:50.216Z",
+ "generatedAt": "2026-10-16T19:25:47.992Z",
  "sources": {
   "cve": [
    {
@@ -13,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "OSV-2026-392 — UNKNOWN READ in pcpp::BgpLayer::getHeaderLen",
-    "url": "https://github.com/advisories/OSV-2026-392",
-    "score": null,
-    "date": "2026-03-13T00:09:19.229716Z"
    }
   ],
   "kev": [
@@ -137,6 +131,27 @@
   ],
   "adv": [
    {
+    "title": "ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
+    "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
+    "score": 3.1,
+    "ghsa": "GHSA-vqff-r82h-9crc",
+    "date": "2026-10-16T19:23:48Z"
+   },
+   {
+    "title": "swoosh has email-derived URL path injection in Microsoft Graph endpoint",
+    "url": "https://github.com/advisories/GHSA-754j-98wh-57rf",
+    "score": 2,
+    "ghsa": "GHSA-754j-98wh-57rf",
+    "date": "2026-10-16T19:22:31Z"
+   },
+   {
+    "title": "ClickMigrate has Path Traversal in \"revision -m\" argument",
+    "url": "https://github.com/advisories/GHSA-vgf9-9mxx-hq54",
+    "score": 3.3,
+    "ghsa": "GHSA-vgf9-9mxx-hq54",
+    "date": "2026-10-16T19:17:28Z"
+   },
+   {
     "title": "gomarkdown/markdown IsSafeURL panics on short URLs",
     "url": "https://github.com/advisories/GHSA-cv23-7vc5-jfh7",
     "score": 7.5,
@@ -198,30 +213,16 @@
     "score": 6.8,
     "ghsa": "GHSA-685w-q87j-wqw3",
     "date": "2026-10-15T20:22:02Z"
-   },
-   {
-    "title": "Qwik: Crashing any Qwik Server via Resource thenable",
-    "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
-    "score": 7.5,
-    "ghsa": "GHSA-x586-xvc8-g7q6",
-    "date": "2026-10-15T20:22:00Z"
-   },
-   {
-    "title": "containerd CRI plugin: Checkpoint restore bypasses destination security context",
-    "url": "https://github.com/advisories/GHSA-p7v4-vr35-mj6f",
-    "score": 7.8,
-    "ghsa": "GHSA-p7v4-vr35-mj6f",
-    "date": "2026-10-15T20:21:57Z"
-   },
-   {
-    "title": "Backstage: Improper access control in backend action invocation",
-    "url": "https://github.com/advisories/GHSA-3xr5-8w6c-p5gw",
-    "score": 4.3,
-    "ghsa": "GHSA-3xr5-8w6c-p5gw",
-    "date": "2026-10-15T20:21:54Z"
    }
   ],
   "thn": [
+   {
+    "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+    "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+    "date": "Fri, 16 Oct 2026 23:18:45 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
     "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
@@ -298,18 +299,11 @@
     "date": "Thu, 15 Oct 2026 21:30:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-    "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-    "date": "Thu, 15 Oct 2026 19:41:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
    {
-    "title": "Zero-click attacks used targeted ads to deliver Candiru spyware",
+    "title": "Targeted ads installed Candiru spyware in zero-click attacks",
     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
     "date": "Fri, 16 Oct 2026 13:20:03 -0400",
     "badge": "CONSO",
@@ -397,7 +391,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1575,
+    "stars": 1576,
     "lang": "Go"
    },
    {
@@ -421,7 +415,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 611,
+    "stars": 612,
     "lang": "—"
    },
    {
@@ -445,7 +439,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 415,
+    "stars": 416,
     "lang": "Rust"
    },
    {
@@ -583,20 +577,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
-    "date": "2026-10-16T16:13:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
-    "date": "2026-10-16T14:32:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Deep-Dive into Android Binder UaF (CVE-2023-20938) using Time-Travel Debugging",
     "url": "https://www.reddit.com/r/netsec/comments/1x7n3e7/deepdive_into_android_binder_uaf_cve202320938/",
     "date": "2026-10-16T17:53:54+00:00",
@@ -604,9 +584,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
+    "date": "2026-10-16T16:13:47+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
     "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
     "date": "2026-10-15T19:26:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
+    "date": "2026-10-16T14:32:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
