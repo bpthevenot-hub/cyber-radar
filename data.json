@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-10-16T19:25:47.992Z",
+ "generatedAt": "2026-10-16T20:29:10.688Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
+    "score": 10,
+    "date": "2026-10-16T18:58:41+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+94 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82857",
+    "score": 9.8,
+    "date": "2026-10-16T18:58:31+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
+    "score": 9.8,
+    "date": "2026-10-16T18:58:25+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
+    "score": 9.8,
+    "date": "2026-10-16T18:58:24+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
+    "score": 9.8,
+    "date": "2026-10-16T18:58:23+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +43,48 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:32+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:31+00:00"
+   },
+   {
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: openssl security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83617",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:29+00:00"
+   },
+   {
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.17 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83013",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:29+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+76 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82888",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:27+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+107 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82322",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:23+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Migration Toolkit for Applications (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82315",
+    "score": 9.1,
+    "date": "2026-10-16T18:58:23+00:00"
    }
   ],
   "kev": [
@@ -131,6 +203,55 @@
   ],
   "adv": [
    {
+    "title": "LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
+    "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
+    "score": 9.8,
+    "ghsa": "GHSA-w5f2-9q9c-ff4h",
+    "date": "2026-10-16T20:08:44Z"
+   },
+   {
+    "title": "kin-openapi openapi3filter: nil-pointer panic in ValidateResponse on a response header declared with content",
+    "url": "https://github.com/advisories/GHSA-74vm-87hj-r66f",
+    "score": 7.5,
+    "ghsa": "GHSA-74vm-87hj-r66f",
+    "date": "2026-10-16T19:58:46Z"
+   },
+   {
+    "title": "Wasmtime: WASI hard links bypass wasmtime-wasi's FilePerms for destination",
+    "url": "https://github.com/advisories/GHSA-4ch3-9j33-3pmj",
+    "score": 6.5,
+    "ghsa": "GHSA-4ch3-9j33-3pmj",
+    "date": "2026-10-16T19:57:26Z"
+   },
+   {
+    "title": "lopdf has a stack overflow via deeply nested PDF objects",
+    "url": "https://github.com/advisories/GHSA-6fj4-rcr3-r7rr",
+    "score": 7.5,
+    "ghsa": "GHSA-6fj4-rcr3-r7rr",
+    "date": "2026-10-16T19:55:39Z"
+   },
+   {
+    "title": "JavaCV: Integer Overflow in IPCameraFrameGrabber Causes Infinite-Loop DoS",
+    "url": "https://github.com/advisories/GHSA-rxjv-24xq-76wc",
+    "score": 7.5,
+    "ghsa": "GHSA-rxjv-24xq-76wc",
+    "date": "2026-10-16T19:53:06Z"
+   },
+   {
+    "title": "Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
+    "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+    "score": 9.5,
+    "ghsa": "GHSA-h4mw-j7qp-8mwm",
+    "date": "2026-10-16T19:44:37Z"
+   },
+   {
+    "title": "CoreDNS `k8s_external` headless AXFR can emit an empty transfer batch that panics the `transfer` plugin",
+    "url": "https://github.com/advisories/GHSA-74w3-63xv-x9mv",
+    "score": 3.7,
+    "ghsa": "GHSA-74w3-63xv-x9mv",
+    "date": "2026-10-16T19:26:42Z"
+   },
+   {
     "title": "ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
     "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
     "score": 3.1,
@@ -164,55 +285,6 @@
     "score": 9.3,
     "ghsa": "GHSA-qx66-fv34-fjm8",
     "date": "2026-10-15T20:22:20Z"
-   },
-   {
-    "title": "Pipecat: Public exposure of Pipecat’s development runner can allow unauthenticated bot session creation",
-    "url": "https://github.com/advisories/GHSA-hqm2-cfx2-2vgh",
-    "score": 5.6,
-    "ghsa": "GHSA-hqm2-cfx2-2vgh",
-    "date": "2026-10-15T20:22:18Z"
-   },
-   {
-    "title": "Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation",
-    "url": "https://github.com/advisories/GHSA-2cvf-wqm6-wr9g",
-    "score": 10,
-    "ghsa": "GHSA-2cvf-wqm6-wr9g",
-    "date": "2026-10-15T20:22:16Z"
-   },
-   {
-    "title": "JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-    "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-    "score": 4.2,
-    "ghsa": "GHSA-jwrc-gm9j-263p",
-    "date": "2026-10-15T20:22:13Z"
-   },
-   {
-    "title": "SFTPGo source-side file-pattern filter bypass during copy operations",
-    "url": "https://github.com/advisories/GHSA-wwv9-g5x4-966q",
-    "score": 4.3,
-    "ghsa": "GHSA-wwv9-g5x4-966q",
-    "date": "2026-10-15T20:22:10Z"
-   },
-   {
-    "title": "Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
-    "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
-    "score": 7.5,
-    "ghsa": "GHSA-pq7j-f95f-qfcv",
-    "date": "2026-10-15T20:22:07Z"
-   },
-   {
-    "title": "containerd: Unpack DoS via repeated opaque whiteouts",
-    "url": "https://github.com/advisories/GHSA-rp3h-jf77-q9p4",
-    "score": null,
-    "ghsa": "GHSA-rp3h-jf77-q9p4",
-    "date": "2026-10-15T20:22:05Z"
-   },
-   {
-    "title": "Distribution: Client `manifests.Get()` does not verify returned content against requested digest",
-    "url": "https://github.com/advisories/GHSA-685w-q87j-wqw3",
-    "score": 6.8,
-    "ghsa": "GHSA-685w-q87j-wqw3",
-    "date": "2026-10-15T20:22:02Z"
    }
   ],
   "thn": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+    "date": "Fri, 16 Oct 2026 16:00:59 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Targeted ads installed Candiru spyware in zero-click attacks",
     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
     "date": "Fri, 16 Oct 2026 13:20:03 -0400",
@@ -378,20 +457,13 @@
     "date": "Thu, 15 Oct 2026 10:01:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-    "date": "Thu, 15 Oct 2026 09:18:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1576,
+    "stars": 1578,
     "lang": "Go"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 612,
+    "stars": 615,
     "lang": "—"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 418,
+    "stars": 419,
     "lang": "C++"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 363,
+    "stars": 364,
     "lang": "C++"
    },
    {
@@ -591,16 +663,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
-    "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
-    "date": "2026-10-15T19:26:09+00:00",
+    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
+    "date": "2026-10-16T14:32:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
-    "date": "2026-10-16T14:32:31+00:00",
+    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
+    "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
+    "date": "2026-10-15T19:26:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1748,
   "adv": 12,
   "feed": 48
