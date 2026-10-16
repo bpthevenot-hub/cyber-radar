@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T17:25:14.754Z",
+ "generatedAt": "2026-10-16T18:33:50.216Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "OSV-2026-392 — UNKNOWN READ in pcpp::BgpLayer::getHeaderLen",
+    "url": "https://github.com/advisories/OSV-2026-392",
+    "score": null,
+    "date": "2026-03-13T00:09:19.229716Z"
    }
   ],
   "kev": [
@@ -217,6 +223,13 @@
   ],
   "thn": [
    {
+    "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+    "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+    "date": "Fri, 16 Oct 2026 22:13:39 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
     "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
     "date": "Fri, 16 Oct 2026 21:46:44 +0530",
@@ -290,13 +303,6 @@
     "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
     "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
     "date": "Thu, 15 Oct 2026 19:41:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-    "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-    "date": "Thu, 15 Oct 2026 18:28:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,7 +397,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1574,
+    "stars": 1575,
     "lang": "Go"
    },
    {
@@ -409,13 +415,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 725,
+    "stars": 726,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 606,
+    "stars": 611,
     "lang": "—"
    },
    {
@@ -577,6 +583,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
+    "date": "2026-10-16T16:13:47+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
     "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
     "date": "2026-10-16T14:32:31+00:00",
@@ -584,9 +597,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
-    "date": "2026-10-16T16:13:47+00:00",
+    "title": "Deep-Dive into Android Binder UaF (CVE-2023-20938) using Time-Travel Debugging",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7n3e7/deepdive_into_android_binder_uaf_cve202320938/",
+    "date": "2026-10-16T17:53:54+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -605,6 +618,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Web Environment Integrity vs. Private Access Tokens - They're the same thing!",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7eg0y/web_environment_integrity_vs_private_access/",
+    "date": "2026-10-16T12:07:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "AhsayCBS Deep-Dive: Auth Bypass to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x5wiyi/ahsaycbs_deepdive_auth_bypass_to_rce/",
     "date": "2026-10-14T16:54:16+00:00",
@@ -615,20 +635,6 @@
     "title": "Vghost (CVE-2026-74580): Linux kernel vhost stale IOTLB cache leading to universal LPE and Guest-to-Host escape vector",
     "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
     "date": "2026-10-14T03:08:53+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "We Let AI Fuzz Adobe Reader for a Week. It Found a Critical Zero-Day CVE-2026-81983",
-    "url": "https://www.reddit.com/r/netsec/comments/1x4xuvc/we_let_ai_fuzz_adobe_reader_for_a_week_it_found_a/",
-    "date": "2026-10-13T14:17:03+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Playing It SFAPE: Code Execution in Isolated User Mode",
-    "url": "https://www.reddit.com/r/netsec/comments/1x4s0yk/playing_it_sfape_code_execution_in_isolated_user/",
-    "date": "2026-10-13T09:25:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -646,7 +652,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1746,
+  "kev": 1748,
   "adv": 12,
   "feed": 48
  },
