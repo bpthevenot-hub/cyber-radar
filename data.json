@@ -1,37 +1,7 @@
 {
- "generatedAt": "2026-10-16T20:29:10.688Z",
+ "generatedAt": "2026-10-16T21:25:28.437Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
-    "score": 10,
-    "date": "2026-10-16T18:58:41+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+94 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82857",
-    "score": 9.8,
-    "date": "2026-10-16T18:58:31+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
-    "score": 9.8,
-    "date": "2026-10-16T18:58:25+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
-    "score": 9.8,
-    "date": "2026-10-16T18:58:24+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
-    "score": 9.8,
-    "date": "2026-10-16T18:58:23+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -43,48 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72475",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:32+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.20.1 (+56 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72395",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:31+00:00"
-   },
-   {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: openssl security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83617",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:29+00:00"
-   },
-   {
-    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.17 (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83013",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:29+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+76 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82888",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:27+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+107 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82322",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:23+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Migration Toolkit for Applications (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82315",
-    "score": 9.1,
-    "date": "2026-10-16T18:58:23+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,20 @@
   ],
   "adv": [
    {
+    "title": "Arcane: Delegated users:update permission allows admin account takeover via password reset (no privilege-hierarchy check)",
+    "url": "https://github.com/advisories/GHSA-pw5q-rjx4-7f7p",
+    "score": 8.8,
+    "ghsa": "GHSA-pw5q-rjx4-7f7p",
+    "date": "2026-10-16T21:15:03Z"
+   },
+   {
+    "title": "Arcane: Environment access token bypasses the admin-required authorization gate on `/api/debug/pprof`",
+    "url": "https://github.com/advisories/GHSA-mp22-58ff-6fhr",
+    "score": 4.3,
+    "ghsa": "GHSA-mp22-58ff-6fhr",
+    "date": "2026-10-16T21:12:03Z"
+   },
+   {
     "title": "LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
     "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
     "score": 9.8,
@@ -271,20 +213,6 @@
     "score": 3.3,
     "ghsa": "GHSA-vgf9-9mxx-hq54",
     "date": "2026-10-16T19:17:28Z"
-   },
-   {
-    "title": "gomarkdown/markdown IsSafeURL panics on short URLs",
-    "url": "https://github.com/advisories/GHSA-cv23-7vc5-jfh7",
-    "score": 7.5,
-    "ghsa": "GHSA-cv23-7vc5-jfh7",
-    "date": "2026-10-16T15:41:39Z"
-   },
-   {
-    "title": "TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
-    "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
-    "score": 9.3,
-    "ghsa": "GHSA-qx66-fv34-fjm8",
-    "date": "2026-10-15T20:22:20Z"
    }
   ],
   "thn": [
@@ -487,7 +415,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 615,
+    "stars": 619,
     "lang": "—"
    },
    {
@@ -642,9 +570,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "16% of RPKI-covered IPv4 routes still allow a forged-origin hijack that passes validation, the setup behind the Virtualizor update attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7i0l6/16_of_rpkicovered_ipv4_routes_still_allow_a/",
-    "date": "2026-10-16T14:40:18+00:00",
+    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
+    "date": "2026-10-16T16:13:47+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -656,16 +584,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
-    "date": "2026-10-16T16:13:47+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
-    "date": "2026-10-16T14:32:31+00:00",
+    "title": "16% of RPKI-covered IPv4 routes still allow a forged-origin hijack that passes validation, the setup behind the Virtualizor update attack",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7i0l6/16_of_rpkicovered_ipv4_routes_still_allow_a/",
+    "date": "2026-10-16T14:40:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -677,16 +598,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Cloudflare Appstore (Appflare) Malware Audit",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7fpdw/the_cloudflare_appstore_appflare_malware_audit/",
-    "date": "2026-10-16T13:05:05+00:00",
+    "title": "Web Environment Integrity vs. Private Access Tokens - They're the same thing!",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7eg0y/web_environment_integrity_vs_private_access/",
+    "date": "2026-10-16T12:07:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Web Environment Integrity vs. Private Access Tokens - They're the same thing!",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7eg0y/web_environment_integrity_vs_private_access/",
-    "date": "2026-10-16T12:07:14+00:00",
+    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
+    "date": "2026-10-16T14:32:31+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The Cloudflare Appstore (Appflare) Malware Audit",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7fpdw/the_cloudflare_appstore_appflare_malware_audit/",
+    "date": "2026-10-16T13:05:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1748,
   "adv": 12,
   "feed": 48
