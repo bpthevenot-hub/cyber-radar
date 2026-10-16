@@ -1,7 +1,73 @@
 {
- "generatedAt": "2026-10-16T05:29:53.563Z",
+ "generatedAt": "2026-10-16T06:45:36.743Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-100133 — Kwetsbaarheden verholpen in Adobe Commerce (+11 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100133",
+    "score": 10,
+    "date": "2026-10-16T06:32:06.312063Z"
+   },
+   {
+    "title": "CVE-2026-105897 — Kwetsbaarheden verholpen in Adobe ColdFusion (+31 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105897",
+    "score": 10,
+    "date": "2026-10-16T06:30:43.718374Z"
+   },
+   {
+    "title": "CVE-2026-106173 — Kwetsbaarheden verholpen in Fortinet FortiSIEM (+1 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106173",
+    "score": 9.8,
+    "date": "2026-10-16T06:28:22.638301Z"
+   },
+   {
+    "title": "CVE-2026-75875 — Kwetsbaarheden verholpen in IBM Guardium Data Protection (+9 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75875",
+    "score": 9.8,
+    "date": "2026-10-16T06:24:12.289071Z"
+   },
+   {
+    "title": "CVE-2026-87659 — Kwetsbaarheden verholpen in HPE Brocade Fabric OS (+33 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87659",
+    "score": 9.8,
+    "date": "2026-10-16T06:23:02.321535Z"
+   },
+   {
+    "title": "CVE-2023-53781 — Kwetsbaarheden verholpen in IBM DataPower Gateway en onderliggende componenten (+201 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2023-53781",
+    "score": 9.8,
+    "date": "2026-10-16T06:16:13.644286Z"
+   },
+   {
+    "title": "CVE-2026-103994 — Kwetsbaarheden verholpen in Juniper Networks Junos OS (+14 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103994",
+    "score": 9.8,
+    "date": "2026-10-16T06:11:46.255422Z"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+94 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82857",
+    "score": 9.8,
+    "date": "2026-10-16T06:02:13+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
+    "score": 9.8,
+    "date": "2026-10-16T06:02:11+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
+    "score": 9.8,
+    "date": "2026-10-16T06:02:06+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
+    "score": 9.8,
+    "date": "2026-10-16T06:02:05+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +81,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-111380 — FreeRDP from 3.29.0 before 3.32.0 contains an integer overflow in the Apple audin backends (audin_mac.m, audin_ios.m), which compute the aud",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111380",
-    "score": 8.8,
-    "date": "2026-10-16T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-111382 — FreeRDP before 3.32.0 contains a client-side heap out-of-bounds write vulnerability in general_LumaToYUV444 and general_ChromaV2ToYUV444 tha",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111382",
-    "score": 8.8,
-    "date": "2026-10-16T03:30:27Z"
-   },
-   {
-    "title": "CVE-2026-110922 — Use after free in Prerender in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox v",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110922",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:54Z"
-   },
-   {
-    "title": "CVE-2026-110921 — Use after free in V8 in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox via a cr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110921",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:54Z"
-   },
-   {
-    "title": "CVE-2026-110919 — Use after free in V8 in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox via a cr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110919",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:54Z"
-   },
-   {
-    "title": "CVE-2026-110920 — Memory corruption in V8 in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox via a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110920",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:54Z"
-   },
-   {
-    "title": "CVE-2026-110915 — Use after free in Compositing in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110915",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:53Z"
-   },
-   {
-    "title": "CVE-2026-110914 — Memory corruption in Workers in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to potentially execute arbitrary code inside ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110914",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:52Z"
-   },
-   {
-    "title": "CVE-2026-110913 — Memory corruption in DOM in Google Chrome prior to 155.0.8059.84 allowed a remote attacker to execute arbitrary code inside the sandbox via ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110913",
-    "score": 8.8,
-    "date": "2026-10-16T00:31:52Z"
-   },
-   {
-    "title": "CVE-2026-111389 — Frappe HRMS 14.x before 14.38.2, 15.x before 15.64.0, and 16.x before 16.18.0 contains a SQL injection vulnerability in some endpoints cause",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111389",
-    "score": 7.7,
-    "date": "2026-10-16T03:30:29Z"
-   },
-   {
-    "title": "CVE-2026-111378 — FreeRDP from 3.0.0 before 3.32.0 contains an uncontrolled resource consumption vulnerability in parse_nla_mode_pdu that allows unauthenticat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111378",
-    "score": 7.5,
-    "date": "2026-10-16T03:30:26Z"
-   },
-   {
-    "title": "CVE-2026-105227 — This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta ISPSoft.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105227",
-    "score": 7.5,
-    "date": "2026-10-16T03:30:24Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-10-16T06:01:41+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+    "date": "Fri, 16 Oct 2026 10:29:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
     "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
     "date": "Fri, 16 Oct 2026 01:54:36 +0530",
@@ -364,16 +371,16 @@
     "date": "Thu, 15 Oct 2026 16:34:35 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
-    "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
-    "date": "Thu, 15 Oct 2026 16:12:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "BeyondTrust patches zero-day exploited in attacks since August",
+    "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "date": "Fri, 16 Oct 2026 02:18:08 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
@@ -450,20 +457,13 @@
     "date": "Wed, 14 Oct 2026 15:41:43 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
-    "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
-    "date": "Wed, 14 Oct 2026 13:46:50 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1557,
+    "stars": 1560,
     "lang": "Go"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 576,
+    "stars": 580,
     "lang": "—"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 409,
+    "stars": 410,
     "lang": "Rust"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 310,
+    "stars": 311,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1746,
   "adv": 12,
   "feed": 48
