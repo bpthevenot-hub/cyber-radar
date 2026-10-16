@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T14:31:33.335Z",
+ "generatedAt": "2026-10-16T15:27:46.128Z",
  "sources": {
   "cve": [
    {
@@ -223,6 +223,13 @@
   ],
   "thn": [
    {
+    "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+    "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+    "date": "Fri, 16 Oct 2026 19:33:04 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "AI Decision Models and Their Impact on AI SOC Platforms",
     "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
     "date": "Fri, 16 Oct 2026 17:00:00 +0530",
@@ -296,13 +303,6 @@
     "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
     "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
     "date": "Thu, 15 Oct 2026 17:58:13 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-    "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-    "date": "Thu, 15 Oct 2026 17:37:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,7 +397,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1572,
+    "stars": 1573,
     "lang": "Go"
    },
    {
@@ -409,7 +409,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 734,
+    "stars": 735,
     "lang": "Python"
    },
    {
@@ -421,7 +421,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 595,
+    "stars": 598,
     "lang": "—"
    },
    {
@@ -433,7 +433,7 @@
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 508,
+    "stars": 509,
     "lang": "TypeScript"
    },
    {
@@ -445,7 +445,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 413,
+    "stars": 414,
     "lang": "Rust"
    },
    {
@@ -576,9 +576,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "16% of RPKI-covered IPv4 routes still allow a forged-origin hijack that passes validation, the setup behind the Virtualizor update attack",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7i0l6/16_of_rpkicovered_ipv4_routes_still_allow_a/",
+    "date": "2026-10-16T14:40:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
     "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
     "date": "2026-10-15T19:26:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
+    "date": "2026-10-16T14:32:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -621,20 +635,6 @@
     "title": "Google paid me $90,000 for this RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x3v6od/google_paid_me_90000_for_this_rce/",
     "date": "2026-10-12T07:09:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-91768: FastCGI allowed_clients compared only 96 of an IPv6 address's 128 bits",
-    "url": "https://www.reddit.com/r/netsec/comments/1x3xa8g/cve202691768_fastcgi_allowed_clients_compared/",
-    "date": "2026-10-12T09:24:39+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Telegram Desktop vulnerability allowed any user file to be stolen",
-    "url": "https://www.reddit.com/r/netsec/comments/1x3r3u8/telegram_desktop_vulnerability_allowed_any_user/",
-    "date": "2026-10-12T03:13:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
