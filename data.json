@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T15:27:46.128Z",
+ "generatedAt": "2026-10-16T16:30:02.993Z",
  "sources": {
   "cve": [
    {
@@ -13,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "OSV-2021-1082 — UNKNOWN READ in std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::c",
-    "url": "https://github.com/advisories/OSV-2021-1082",
-    "score": null,
-    "date": "2021-08-01T00:00:48.182181Z"
    }
   ],
   "kev": [
@@ -137,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "gomarkdown/markdown IsSafeURL panics on short URLs",
+    "url": "https://github.com/advisories/GHSA-cv23-7vc5-jfh7",
+    "score": 7.5,
+    "ghsa": "GHSA-cv23-7vc5-jfh7",
+    "date": "2026-10-16T15:41:39Z"
+   },
+   {
     "title": "TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
     "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
     "score": 9.3,
@@ -212,16 +213,16 @@
     "score": 4.3,
     "ghsa": "GHSA-3xr5-8w6c-p5gw",
     "date": "2026-10-15T20:21:54Z"
-   },
-   {
-    "title": "kin-openapi: Incomplete Fix for GHSA-p6wj-qrr4-pgh5: Three Unpatched nil-Items Panic Paths in openapi3filter",
-    "url": "https://github.com/advisories/GHSA-vrcc-3ch7-hppw",
-    "score": 7.5,
-    "ghsa": "GHSA-vrcc-3ch7-hppw",
-    "date": "2026-10-15T20:20:47Z"
    }
   ],
   "thn": [
+   {
+    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+    "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+    "date": "Fri, 16 Oct 2026 21:46:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
     "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
@@ -296,13 +297,6 @@
     "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
     "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
     "date": "Thu, 15 Oct 2026 18:28:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-    "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-    "date": "Thu, 15 Oct 2026 17:58:13 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,13 +391,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1573,
+    "stars": 1574,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX，AI 自主渗透测试系统。百度 agent+ 攻防挑战赛冠军项目。",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1204,
+    "stars": 1205,
     "lang": "Go"
    },
    {
@@ -415,13 +409,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 723,
+    "stars": 725,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 598,
+    "stars": 601,
     "lang": "—"
    },
    {
@@ -583,16 +577,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
-    "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
-    "date": "2026-10-15T19:26:09+00:00",
+    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
+    "date": "2026-10-16T14:32:31+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
-    "date": "2026-10-16T14:32:31+00:00",
+    "title": "Nadella Calls Your AI an Insider Risk. Lawmakers Already Put Your Name on the Liability Certification.",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7kgpw/nadella_calls_your_ai_an_insider_risk_lawmakers/",
+    "date": "2026-10-16T16:13:47+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
+    "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
+    "date": "2026-10-15T19:26:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -628,13 +629,6 @@
     "title": "Playing It SFAPE: Code Execution in Isolated User Mode",
     "url": "https://www.reddit.com/r/netsec/comments/1x4s0yk/playing_it_sfape_code_execution_in_isolated_user/",
     "date": "2026-10-13T09:25:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Google paid me $90,000 for this RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1x3v6od/google_paid_me_90000_for_this_rce/",
-    "date": "2026-10-12T07:09:37+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
