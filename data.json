@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-16T03:34:34.997Z",
+ "generatedAt": "2026-10-16T04:32:58.563Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
-    "score": 9.9,
-    "date": "2026-10-16T01:01:44+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,18 +15,6 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
-    "score": 9.4,
-    "date": "2026-10-16T01:01:50+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
-    "score": 9.4,
-    "date": "2026-10-16T01:01:47+00:00"
-   },
-   {
     "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17.28 security, enhancement & bug fix update (+16 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:83622",
     "score": 9.1,
@@ -43,12 +25,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:6564",
     "score": 9.1,
     "date": "2026-10-16T01:02:00+00:00"
-   },
-   {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
-    "score": 9.1,
-    "date": "2026-10-16T01:01:47+00:00"
    },
    {
     "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
@@ -85,6 +61,30 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:8229",
     "score": 8.2,
     "date": "2026-10-16T01:02:03+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.7.9 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5636",
+    "score": 8.2,
+    "date": "2026-10-16T01:01:58+00:00"
+   },
+   {
+    "title": "CVE-2025-7195 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.12.8 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:5633",
+    "score": 8.2,
+    "date": "2026-10-16T01:01:55+00:00"
+   },
+   {
+    "title": "CVE-2026-15176 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83427",
+    "score": 8.1,
+    "date": "2026-10-16T02:06:48+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: container-tools:rhel8 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6191",
+    "score": 7.5,
+    "date": "2026-10-16T01:02:02+00:00"
    }
   ],
   "kev": [
@@ -469,19 +469,19 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 731,
+    "stars": 732,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 716,
+    "stars": 717,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 572,
+    "stars": 573,
     "lang": "—"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 408,
+    "stars": 409,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 4,
   "kev": 1746,
   "adv": 12,
   "feed": 48
