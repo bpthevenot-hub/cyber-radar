@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-17T22:25:03.440Z",
+ "generatedAt": "2026-10-17T23:24:03.058Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-111911 — phpMyFAQ 4.0.0 before 4.1.9 contains an authentication bypass vulnerability where WebAuthn registration endpoints attach credentials to any ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111911",
+    "score": 9.8,
+    "date": "2026-10-17T21:31:19Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:80825 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:80825",
-    "score": 9.1,
-    "date": "2026-10-14T06:30:05.473043Z"
-   },
-   {
-    "title": "RLSA-2026:80605 — Critical: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:80605",
-    "score": 9.1,
-    "date": "2026-10-13T12:08:58.021554Z"
-   },
-   {
-    "title": "RLSA-2026:79371 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:79371",
-    "score": 9.1,
-    "date": "2026-10-10T12:08:29.652489Z"
-   },
-   {
-    "title": "RLSA-2026:83156 — Important: kernel security update",
-    "url": "https://github.com/advisories/RLSA-2026:83156",
+    "title": "CVE-2026-68377 — Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83159",
     "score": 8.8,
-    "date": "2026-10-16T12:05:26.574296Z"
+    "date": "2026-10-17T21:39:33+00:00"
    },
    {
-    "title": "RLSA-2026:82882 — Important: hplip security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:82882",
+    "title": "CVE-2026-68377 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83157",
     "score": 8.8,
-    "date": "2026-10-16T12:05:26.574296Z"
+    "date": "2026-10-17T21:39:33+00:00"
    },
    {
-    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:82883",
+    "title": "CVE-2026-46319 — Red Hat Security Advisory: kernel security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83156",
     "score": 8.8,
-    "date": "2026-10-15T12:20:13.898768Z"
+    "date": "2026-10-17T21:39:33+00:00"
    },
    {
-    "title": "RLSA-2026:80498 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:80498",
-    "score": 8.8,
-    "date": "2026-10-13T12:08:58.021554Z"
+    "title": "CVE-2026-111908 — phpMyFAQ 4.0.0 before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains a broken object-level authorization vulnerability in the PUT /api/v3.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111908",
+    "score": 8.3,
+    "date": "2026-10-17T21:31:18Z"
    },
    {
-    "title": "RLSA-2026:77690 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:77690",
-    "score": 8.8,
-    "date": "2026-10-09T12:10:46.463075Z"
+    "title": "CVE-2026-111884 — phpMyFAQ before 4.1.9 and 4.2.0-alpha before 4.2.0-beta does not require the current password when changing an account e-mail in the user co",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111884",
+    "score": 8.3,
+    "date": "2026-10-17T21:31:17Z"
    },
    {
-    "title": "RLSA-2026:83384 — Important: libsoup security update",
-    "url": "https://github.com/advisories/RLSA-2026:83384",
-    "score": 8.6,
-    "date": "2026-10-16T12:05:26.574296Z"
+    "title": "CVE-2026-45859 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83207",
+    "score": 8.1,
+    "date": "2026-10-17T21:39:35+00:00"
    },
    {
-    "title": "RLSA-2026:81522 — Important: pcre2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:81522",
-    "score": 8.2,
-    "date": "2026-10-14T12:08:56.685590Z"
+    "title": "CVE-2026-111909 — phpMyFAQ before 4.1.9 contains a missing authorization vulnerability in the deleteUser() API that allows authenticated non-superadmin users ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111909",
+    "score": 8.1,
+    "date": "2026-10-17T21:31:18Z"
    },
    {
-    "title": "RLSA-2026:81532 — Important: pcre2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:81532",
-    "score": 8.2,
-    "date": "2026-10-14T06:30:05.473043Z"
+    "title": "CVE-2026-111882 — phpMyFAQ 3.2.0-alpha before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains an authentication bypass vulnerability that allows IdP-authenti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111882",
+    "score": 8.1,
+    "date": "2026-10-17T21:31:17Z"
    },
    {
-    "title": "RLSA-2026:79122 — Important: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:79122",
-    "score": 8.2,
-    "date": "2026-10-10T12:08:29.652489Z"
+    "title": "CVE-2026-111927 — Coder before 2.29.20, 2.33.0 before 2.33.12, 2.34.0 before 2.34.8, and 2.35.0 before 2.35.4 contains an improper hostname validation flaw in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111927",
+    "score": 7.7,
+    "date": "2026-10-17T21:31:20Z"
+   },
+   {
+    "title": "CVE-2026-111923 — Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111923",
+    "score": 7.5,
+    "date": "2026-10-17T21:31:20Z"
+   },
+   {
+    "title": "CVE-2026-111924 — Fleet before 4.83.0 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server memory by sending gzi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111924",
+    "score": 7.5,
+    "date": "2026-10-17T21:31:20Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1623,
+    "stars": 1625,
     "lang": "Go"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 688,
+    "stars": 691,
     "lang": "—"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 429,
+    "stars": 431,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 3,
   "kev": 1748,
   "adv": 12,
   "feed": 48
