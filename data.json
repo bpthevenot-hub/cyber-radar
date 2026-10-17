@@ -1,67 +1,7 @@
 {
- "generatedAt": "2026-10-17T19:23:01.573Z",
+ "generatedAt": "2026-10-17T20:27:26.999Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
-    "score": 9.9,
-    "date": "2026-10-17T17:14:36+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
-    "score": 9.9,
-    "date": "2026-10-17T17:14:35+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
-    "score": 9.9,
-    "date": "2026-10-17T17:14:35+00:00"
-   },
-   {
-    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
-    "score": 9.9,
-    "date": "2026-10-17T17:14:34+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
-    "score": 9.9,
-    "date": "2026-10-17T17:14:33+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
-    "score": 9.9,
-    "date": "2026-10-17T17:14:25+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
-    "score": 9.8,
-    "date": "2026-10-17T17:14:43+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
-    "score": 9.8,
-    "date": "2026-10-17T17:14:41+00:00"
-   },
-   {
-    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
-    "score": 9.8,
-    "date": "2026-10-17T17:14:41+00:00"
-   },
-   {
-    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
-    "score": 9.8,
-    "date": "2026-10-17T17:14:32+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -81,10 +21,22 @@
     "date": "2026-10-17T17:36:52+00:00"
    },
    {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
-    "score": 9.3,
-    "date": "2026-10-17T17:14:34+00:00"
+    "title": "CVE-2026-109701 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PAYCOMET PAYCOMET for WooCommerce payt",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109701",
+    "score": 7.1,
+    "date": "2026-10-17T18:31:08Z"
+   },
+   {
+    "title": "CVE-2026-17591 — A flaw was found in libarchive. An attacker can cause a Denial of Service (DoS) or potential information disclosure due to a use-after-free ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17591",
+    "score": 3.6,
+    "date": "2026-10-17T00:31:19Z"
+   },
+   {
+    "title": "CVE-2025-55640 — A heap buffer overflow in the stbl_AddSize function (isomedia/stbl_write.c) of GPAC MP4Box v2.4 allows attackers to cause a Denial of Servic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-55640",
+    "score": null,
+    "date": "2026-10-16T21:32:57Z"
    }
   ],
   "kev": [
@@ -463,7 +415,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1619,
+    "stars": 1621,
     "lang": "Go"
    },
    {
@@ -481,13 +433,13 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 738,
+    "stars": 739,
     "lang": "Python"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 672,
+    "stars": 676,
     "lang": "—"
    },
    {
@@ -663,6 +615,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The Cloudflare Appstore (Appflare) Malware Audit",
+    "url": "https://www.reddit.com/r/netsec/comments/1x7fpdw/the_cloudflare_appstore_appflare_malware_audit/",
+    "date": "2026-10-16T13:05:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
     "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
     "date": "2026-10-15T19:26:09+00:00",
@@ -673,13 +632,6 @@
     "title": "Web Environment Integrity vs. Private Access Tokens - They're the same thing!",
     "url": "https://www.reddit.com/r/netsec/comments/1x7eg0y/web_environment_integrity_vs_private_access/",
     "date": "2026-10-16T12:07:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The Cloudflare Appstore (Appflare) Malware Audit",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7fpdw/the_cloudflare_appstore_appflare_malware_audit/",
-    "date": "2026-10-16T13:05:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +669,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 3,
   "kev": 1748,
   "adv": 12,
   "feed": 48
