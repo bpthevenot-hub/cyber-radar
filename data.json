@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-10-17T10:26:08.056Z",
+ "generatedAt": "2026-10-17T11:25:16.767Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-17T10:52:22+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-17T10:52:22+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-17T10:52:20+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-17T10:52:17+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-10-17T10:52:17+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
+    "title": "CVE-2026-107348 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83843",
     "score": 8.8,
-    "date": "2026-10-17T08:36:39+00:00"
+    "date": "2026-10-17T10:58:20+00:00"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68334",
+    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.16.71 bug fix and security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67936",
     "score": 8.8,
-    "date": "2026-10-17T08:36:33+00:00"
+    "date": "2026-10-17T10:52:28+00:00"
    },
    {
-    "title": "CVE-2025-53547 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.7 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67541",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
+    "score": 8.8,
+    "date": "2026-10-17T10:51:28+00:00"
+   },
+   {
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
+    "score": 8.8,
+    "date": "2026-10-17T10:51:27+00:00"
+   },
+   {
+    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "score": 8.6,
+    "date": "2026-10-17T10:51:25+00:00"
+   },
+   {
+    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
     "score": 8.5,
-    "date": "2026-10-17T08:36:28+00:00"
+    "date": "2026-10-17T10:51:58+00:00"
    },
    {
-    "title": "CVE-2025-53547 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.12 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67540",
-    "score": 8.5,
-    "date": "2026-10-17T08:36:27+00:00"
-   },
-   {
-    "title": "CVE-2026-19913 — Red Hat Security Advisory: RHOAI 3.5.1 - Red Hat OpenShift AI (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69539",
+    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
     "score": 8.2,
-    "date": "2026-10-17T08:36:35+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68335",
-    "score": 8.2,
-    "date": "2026-10-17T08:36:34+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68254",
-    "score": 8.2,
-    "date": "2026-10-17T08:36:33+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68253",
-    "score": 8.2,
-    "date": "2026-10-17T08:36:32+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+35 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68044",
-    "score": 8.2,
-    "date": "2026-10-17T08:36:32+00:00"
-   },
-   {
-    "title": "CVE-2026-6377 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.2.1 Security Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68006",
-    "score": 8.2,
-    "date": "2026-10-17T08:36:31+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.8.2 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69945",
-    "score": 8.1,
-    "date": "2026-10-17T08:36:36+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.8.2 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69928",
-    "score": 8.1,
-    "date": "2026-10-17T08:36:35+00:00"
+    "date": "2026-10-17T10:51:42+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1604,
+    "stars": 1605,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 744,
+    "stars": 745,
     "lang": "TypeScript"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 653,
+    "stars": 656,
     "lang": "—"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 423,
+    "stars": 424,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1748,
   "adv": 12,
   "feed": 48
