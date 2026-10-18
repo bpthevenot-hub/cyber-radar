@@ -1,37 +1,7 @@
 {
- "generatedAt": "2026-10-18T01:04:30.570Z",
+ "generatedAt": "2026-10-18T01:37:22.358Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
-    "score": 9.9,
-    "date": "2026-10-17T22:49:00+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
-    "score": 9.9,
-    "date": "2026-10-17T22:48:58+00:00"
-   },
-   {
-    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
-    "score": 9.8,
-    "date": "2026-10-17T22:49:01+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-10-17T22:48:58+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
-    "score": 9.8,
-    "date": "2026-10-17T22:48:58+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -45,46 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.16.71 bug fix and security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67936",
+    "title": "RLSA-2026:80605 — Critical: cjose security update",
+    "url": "https://github.com/advisories/RLSA-2026:80605",
+    "score": 9.1,
+    "date": "2026-10-13T12:08:58.021554Z"
+   },
+   {
+    "title": "RLSA-2026:79371 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:79371",
+    "score": 9.1,
+    "date": "2026-10-10T12:08:29.652489Z"
+   },
+   {
+    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:82883",
     "score": 8.8,
-    "date": "2026-10-17T22:49:01+00:00"
+    "date": "2026-10-15T12:20:13.898768Z"
    },
    {
-    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
+    "title": "RLSA-2026:80498 — Important: flatpak security update",
+    "url": "https://github.com/advisories/RLSA-2026:80498",
     "score": 8.8,
-    "date": "2026-10-17T22:48:43+00:00"
+    "date": "2026-10-13T12:08:58.021554Z"
    },
    {
-    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
+    "title": "RLSA-2026:77690 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:77690",
     "score": 8.8,
-    "date": "2026-10-17T22:48:43+00:00"
+    "date": "2026-10-09T12:10:46.463075Z"
    },
    {
-    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
-    "score": 8.6,
-    "date": "2026-10-17T22:48:42+00:00"
-   },
-   {
-    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
-    "score": 8.5,
-    "date": "2026-10-17T22:48:53+00:00"
-   },
-   {
-    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
+    "title": "RLSA-2026:81522 — Important: pcre2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:81522",
     "score": 8.2,
-    "date": "2026-10-17T22:48:48+00:00"
+    "date": "2026-10-14T12:08:56.685590Z"
    },
    {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "title": "RLSA-2026:79122 — Important: cjose security update",
+    "url": "https://github.com/advisories/RLSA-2026:79122",
     "score": 8.2,
-    "date": "2026-10-17T22:48:43+00:00"
+    "date": "2026-10-10T12:08:29.652489Z"
+   },
+   {
+    "title": "RLSA-2026:83207 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:83207",
+    "score": 8.1,
+    "date": "2026-10-16T12:10:48.882476Z"
+   },
+   {
+    "title": "RLSA-2026:81406 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:81406",
+    "score": 8.1,
+    "date": "2026-10-14T12:08:56.685590Z"
+   },
+   {
+    "title": "RLSA-2026:77020 — Important: python3.12 security update",
+    "url": "https://github.com/advisories/RLSA-2026:77020",
+    "score": 8.1,
+    "date": "2026-10-09T12:10:46.463075Z"
+   },
+   {
+    "title": "RLSA-2026:77018 — Important: python3.14 security update",
+    "url": "https://github.com/advisories/RLSA-2026:77018",
+    "score": 8.1,
+    "date": "2026-10-09T12:10:46.463075Z"
+   },
+   {
+    "title": "RLSA-2026:83551 — Important: ghostscript security update",
+    "url": "https://github.com/advisories/RLSA-2026:83551",
+    "score": 7.8,
+    "date": "2026-10-16T12:10:48.882476Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1628,
+    "stars": 1629,
     "lang": "Go"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 4,
   "kev": 1748,
   "adv": 12,
   "feed": 48
