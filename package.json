@@ -1,0 +1,19 @@
+{
+  "name": "cyber-radar",
+  "version": "1.0.0",
+  "description": "Agrégateur de veille cybersécurité temps réel",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpthevenot-hub/cyber-radar"
+  },
+  "author": "",
+  "license": "MIT"
+}
