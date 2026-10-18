@@ -1,20 +1,7 @@
 {
- "generatedAt": "2026-10-18T12:35:49.022Z",
+ "generatedAt": "2026-10-18T13:25:53.120Z",
  "sources": {
-  "cve": [
-   {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
-    "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
-   },
-   {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
-    "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
-   }
-  ],
+  "cve": [],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -391,25 +378,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1650,
+    "stars": 1651,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX，AI 自主渗透测试系统。百度 agent+ 攻防挑战赛冠军项目。",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1235,
+    "stars": 1236,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 757,
+    "stars": 758,
     "lang": "TypeScript"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 751,
+    "stars": 755,
     "lang": "—"
    },
    {
@@ -635,7 +622,7 @@
   ]
  },
  "status": {
-  "cve": true,
+  "cve": false,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -645,10 +632,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 0,
   "kev": 1748,
   "adv": 12,
   "feed": 48
  },
- "okCount": 8
+ "okCount": 7
 }
