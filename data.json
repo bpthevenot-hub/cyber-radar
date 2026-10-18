@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-10-18T11:25:04.361Z",
+ "generatedAt": "2026-10-18T12:35:49.022Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,13 +391,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1646,
+    "stars": 1650,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX，AI 自主渗透测试系统。百度 agent+ 攻防挑战赛冠军项目。",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1233,
+    "stars": 1235,
     "lang": "Go"
    },
    {
@@ -394,16 +407,16 @@
     "lang": "TypeScript"
    },
    {
+    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+    "url": "https://github.com/morluto/awesome-reverse-engineering",
+    "stars": 751,
+    "lang": "—"
+   },
+   {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
     "stars": 741,
     "lang": "Python"
-   },
-   {
-    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-    "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 738,
-    "lang": "—"
    },
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
@@ -432,7 +445,7 @@
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 364,
+    "stars": 365,
     "lang": "C++"
    },
    {
@@ -622,7 +635,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +645,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 2,
   "kev": 1748,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
