@@ -1,12 +1,36 @@
 {
- "generatedAt": "2026-10-17T23:24:03.058Z",
+ "generatedAt": "2026-10-18T01:04:30.570Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-111911 — phpMyFAQ 4.0.0 before 4.1.9 contains an authentication bypass vulnerability where WebAuthn registration endpoints attach credentials to any ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111911",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-17T22:49:00+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-17T22:48:58+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
     "score": 9.8,
-    "date": "2026-10-17T21:31:19Z"
+    "date": "2026-10-17T22:49:01+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-17T22:48:58+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-17T22:48:58+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-68377 — Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83159",
+    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.16.71 bug fix and security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67936",
     "score": 8.8,
-    "date": "2026-10-17T21:39:33+00:00"
+    "date": "2026-10-17T22:49:01+00:00"
    },
    {
-    "title": "CVE-2026-68377 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83157",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
     "score": 8.8,
-    "date": "2026-10-17T21:39:33+00:00"
+    "date": "2026-10-17T22:48:43+00:00"
    },
    {
-    "title": "CVE-2026-46319 — Red Hat Security Advisory: kernel security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83156",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
     "score": 8.8,
-    "date": "2026-10-17T21:39:33+00:00"
+    "date": "2026-10-17T22:48:43+00:00"
    },
    {
-    "title": "CVE-2026-111908 — phpMyFAQ 4.0.0 before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains a broken object-level authorization vulnerability in the PUT /api/v3.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111908",
-    "score": 8.3,
-    "date": "2026-10-17T21:31:18Z"
+    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "score": 8.6,
+    "date": "2026-10-17T22:48:42+00:00"
    },
    {
-    "title": "CVE-2026-111884 — phpMyFAQ before 4.1.9 and 4.2.0-alpha before 4.2.0-beta does not require the current password when changing an account e-mail in the user co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111884",
-    "score": 8.3,
-    "date": "2026-10-17T21:31:17Z"
+    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
+    "score": 8.5,
+    "date": "2026-10-17T22:48:53+00:00"
    },
    {
-    "title": "CVE-2026-45859 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83207",
-    "score": 8.1,
-    "date": "2026-10-17T21:39:35+00:00"
+    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
+    "score": 8.2,
+    "date": "2026-10-17T22:48:48+00:00"
    },
    {
-    "title": "CVE-2026-111909 — phpMyFAQ before 4.1.9 contains a missing authorization vulnerability in the deleteUser() API that allows authenticated non-superadmin users ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111909",
-    "score": 8.1,
-    "date": "2026-10-17T21:31:18Z"
-   },
-   {
-    "title": "CVE-2026-111882 — phpMyFAQ 3.2.0-alpha before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains an authentication bypass vulnerability that allows IdP-authenti",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111882",
-    "score": 8.1,
-    "date": "2026-10-17T21:31:17Z"
-   },
-   {
-    "title": "CVE-2026-111927 — Coder before 2.29.20, 2.33.0 before 2.33.12, 2.34.0 before 2.34.8, and 2.35.0 before 2.35.4 contains an improper hostname validation flaw in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111927",
-    "score": 7.7,
-    "date": "2026-10-17T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-111923 — Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111923",
-    "score": 7.5,
-    "date": "2026-10-17T21:31:20Z"
-   },
-   {
-    "title": "CVE-2026-111924 — Fleet before 4.83.0 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server memory by sending gzi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111924",
-    "score": 7.5,
-    "date": "2026-10-17T21:31:20Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "score": 8.2,
+    "date": "2026-10-17T22:48:43+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1625,
+    "stars": 1628,
     "lang": "Go"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 431,
+    "stars": 432,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 7,
   "kev": 1748,
   "adv": 12,
   "feed": 48
