@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-18T04:31:58.914Z",
+ "generatedAt": "2026-10-18T05:27:30.012Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-18T04:06:05+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-18T04:05:59+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "score": 9.8,
+    "date": "2026-10-18T04:06:05+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68515",
+    "score": 9.8,
+    "date": "2026-10-18T04:05:50+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2020-10696 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.4 RPM release advisory",
-    "url": "https://access.redhat.com/errata/RHBA-2020:0582",
+    "title": "CVE-2026-18446 — Red Hat Security Advisory: OpenShift Container Platform 4.22.16 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71454",
+    "score": 9.3,
+    "date": "2026-10-18T04:05:55+00:00"
+   },
+   {
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.17 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83013",
+    "score": 9.1,
+    "date": "2026-10-18T04:06:08+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Migration Toolkit for Applications (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82315",
+    "score": 9.1,
+    "date": "2026-10-18T04:06:08+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
+    "score": 9.1,
+    "date": "2026-10-18T04:06:07+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator 1.5.3 (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74609",
     "score": 8.8,
-    "date": "2026-10-18T03:01:30+00:00"
+    "date": "2026-10-18T04:06:07+00:00"
    },
    {
-    "title": "CVE-2025-21521 — Red Hat Bug Fix Advisory: mysql8.4 bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHBA-2025:5321",
-    "score": 7.5,
-    "date": "2026-10-18T03:01:30+00:00"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68334",
+    "score": 8.8,
+    "date": "2026-10-18T04:05:49+00:00"
    },
    {
-    "title": "CVE-2026-11940 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.3 (Rubin) (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:80858",
-    "score": 7.5,
-    "date": "2026-10-18T03:00:01+00:00"
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.5.3 (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70870",
+    "score": 8.7,
+    "date": "2026-10-18T04:05:59+00:00"
    },
    {
-    "title": "CVE-2023-4813 — Red Hat Bug Fix Advisory: glibc bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHBA-2024:2413",
-    "score": 5.9,
-    "date": "2026-10-18T03:01:30+00:00"
-   },
-   {
-    "title": "MAL-2026-17921 — Malicious code in leakdeep (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-17921",
-    "score": null,
-    "date": "2026-10-18T01:45:23Z"
-   },
-   {
-    "title": "CVE-2026-111997 — CVE-2026-111997",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111997",
-    "score": null,
-    "date": "2026-10-18T01:16:35.463"
-   },
-   {
-    "title": "CVE-2026-111868 — CVE-2026-111868",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111868",
-    "score": null,
-    "date": "2026-10-18T01:16:34.483"
-   },
-   {
-    "title": "MAL-2026-17919 — Malicious code in ukraine69 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-17919",
-    "score": null,
-    "date": "2026-10-17T16:53:55Z"
-   },
-   {
-    "title": "MAL-2026-17907 — Malicious code in @beloved-lenora/opencode-shell-guard (npm)",
-    "url": "https://github.com/advisories/MAL-2026-17907",
-    "score": null,
-    "date": "2026-10-16T18:49:06Z"
-   },
-   {
-    "title": "CVE-2026-27534 — CVE-2026-27534",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27534",
-    "score": null,
-    "date": "2026-02-21T05:17:30.147"
-   },
-   {
-    "title": "CVE-2026-27533 — CVE-2026-27533",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27533",
-    "score": null,
-    "date": "2026-02-21T05:17:30.087"
-   },
-   {
-    "title": "CVE-2026-27532 — CVE-2026-27532",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27532",
-    "score": null,
-    "date": "2026-02-21T05:17:30.023"
+    "title": "CVE-2026-15075 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68333",
+    "score": 8.6,
+    "date": "2026-10-18T04:05:49+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1632,
+    "stars": 1636,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX，AI 自主渗透测试系统。百度 agent+ 攻防挑战赛冠军项目。",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1229,
+    "stars": 1231,
     "lang": "Go"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 705,
+    "stars": 710,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 10,
   "kev": 1748,
   "adv": 12,
   "feed": 48
