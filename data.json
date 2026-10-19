@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T09:40:08.809Z",
+ "generatedAt": "2026-10-19T10:30:59.385Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33555 — An issue was discovered in HAProxy before 3.3.6. The HTTP/3 parser does not check that the received body length matches a previously announc",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33555",
-    "score": 5,
-    "date": "2026-06-30T23:39:33.320Z"
+    "title": "CVE-2026-13695 — SQL injection (SQLi) vulnerability—specifically a UNION-based vulnerability—in the Integratec application that affects the sInfo parameter s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13695",
+    "score": 7.5,
+    "date": "2026-10-19T09:32:31Z"
+   },
+   {
+    "title": "CVE-2026-112178 — MISP contains an access control flaw in the proposal (shadow attribute) visibility logic. The authorization check accepted any attribute or ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112178",
+    "score": 7.5,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-112161 — MobaXterm Personal Edition (Portable) 26.4 GA extracts the CygUtils64.plugin file without first verifying its integrity. A local attacker wi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112161",
+    "score": 7.5,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-57727 — Missing Authorization vulnerability in Themeum Kirki kirki allows Exploiting Incorrectly Configured Access Control Security Levels.This issu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57727",
+    "score": 7.5,
+    "date": "2026-07-13T12:35:04Z"
+   },
+   {
+    "title": "CVE-2026-16460 — A flaw was found in bootc and ostree. Already-staged deployments are finalized without revalidating the deployment's container image against",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16460",
+    "score": 7.4,
+    "date": "2026-10-19T09:32:29Z"
+   },
+   {
+    "title": "CVE-2026-76740 — A security vulnerability in HPE Compute Scale-up Server 3200 and 3250 platforms, Superdome Flex and Superdome Flex 280 servers could be expl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76740",
+    "score": 7.2,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-104679 — VOCALOID6 Editor provided by Yamaha Corporation improperly restricts XML external entity references. Loading a specially crafted project fil",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104679",
+    "score": 7.1,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-74921 — The Document Gallery WordPress plugin through 5.1.1 does not sanitise or escape several gallery shortcode attributes before embedding them i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74921",
+    "score": 6.8,
+    "date": "2026-10-19T09:32:29Z"
+   },
+   {
+    "title": "CVE-2026-111438 — 在 openGauss-server 的 src/common/backend/libpq/hba.cpp 中，复制连接认证存在访问控制绕过。hba_getauthmethod() 在处理 HADR/SW 复制发送方时，不要求 is_node_internal_connectio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111438",
+    "score": 6.5,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-112098 — A security flaw has been discovered in DeepPavlov up to 1.7.0. Impacted is the function resolve of the file deeppavlov/core/common/params.py",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112098",
+    "score": 6.3,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-112090 — A vulnerability was detected in Dav-ee dairy-management-system 31ace9692d1e1e6d64339a42c463b361319c615c/f31a584c3330c013b61f8b0306d9e0849c6d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112090",
+    "score": 6.3,
+    "date": "2026-10-19T09:32:30Z"
+   },
+   {
+    "title": "CVE-2026-112088 — A weakness has been identified in Dav-ee dairy-management-system 31ace9692d1e1e6d64339a42c463b361319c615c/f31a584c3330c013b61f8b0306d9e0849c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112088",
+    "score": 6.3,
+    "date": "2026-10-19T09:32:28Z"
    }
   ],
   "kev": [
@@ -409,7 +475,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 878,
+    "stars": 881,
     "lang": "—"
    },
    {
@@ -445,7 +511,7 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 421,
+    "stars": 422,
     "lang": "C++"
    },
    {
