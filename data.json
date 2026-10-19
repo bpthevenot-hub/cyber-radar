@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T14:31:06.040Z",
+ "generatedAt": "2026-10-19T15:29:40.116Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-6359 — Malicious code in html-to-gutenberg (npm)",
-    "url": "https://github.com/advisories/MAL-2026-6359",
+    "title": "CVE-2026-88812 — Red Hat Security Advisory: xorg-x11-server-Xwayland security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85193",
+    "score": 7.8,
+    "date": "2026-10-19T14:50:08+00:00"
+   },
+   {
+    "title": "CVE-2026-88812 — Red Hat Security Advisory: xorg-x11-server-Xwayland security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85191",
+    "score": 7.8,
+    "date": "2026-10-19T14:50:08+00:00"
+   },
+   {
+    "title": "CVE-2026-93516 — Red Hat Security Advisory: xorg-x11-server security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84574",
+    "score": 7.8,
+    "date": "2026-10-19T14:50:08+00:00"
+   },
+   {
+    "title": "CVE-2026-88812 — Red Hat Security Advisory: xorg-x11-server security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82015",
+    "score": 7.8,
+    "date": "2026-10-19T14:50:08+00:00"
+   },
+   {
+    "title": "CVE-2026-109301 — Parse Server before 8.6.95 and 9.0.0 before 9.10.2 Denial of Service via File Pointer Without URL",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109301",
+    "score": 7.5,
+    "date": "2026-10-19T14:26:32.640Z"
+   },
+   {
+    "title": "CVE-2026-96960 — .NET Denial of Service Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96960",
+    "score": 7.5,
+    "date": "2026-10-19T14:21:53.036Z"
+   },
+   {
+    "title": "CVE-2026-96959 — .NET Denial of Service Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96959",
+    "score": 7.5,
+    "date": "2026-10-19T14:21:52.008Z"
+   },
+   {
+    "title": "CVE-2026-96958 — .NET Denial of Service Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96958",
+    "score": 7.5,
+    "date": "2026-10-19T14:21:50.929Z"
+   },
+   {
+    "title": "CVE-2026-96957 — .NET Security Feature Bypass Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96957",
+    "score": 7.5,
+    "date": "2026-10-19T14:21:49.857Z"
+   },
+   {
+    "title": "CVE-2026-109303 — Parse Server before 8.6.93 and 9.0.0 before 9.10.1 protectedFields Bypass via Relation Count Query",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109303",
+    "score": 5,
+    "date": "2026-10-19T14:26:34.738Z"
+   },
+   {
+    "title": "CVE-2026-109302 — Parse Server 8.2.2 before 8.6.94 and 9.0.0 before 9.10.1 GraphQL Schema Disclosure via Persisted Queries",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109302",
+    "score": 5,
+    "date": "2026-10-19T14:26:33.694Z"
+   },
+   {
+    "title": "OSV-2024-245 — Security exception in com.github.javaparser.ast.validator.TreeVisitorValidator.accept",
+    "url": "https://github.com/advisories/OSV-2024-245",
     "score": null,
-    "date": "2026-06-24T01:51:00Z"
+    "date": "2024-04-08T00:11:03.595756Z"
    }
   ],
   "kev": [
@@ -223,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+    "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+    "date": "Mon, 19 Oct 2026 19:44:07 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
     "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
     "date": "Mon, 19 Oct 2026 18:35:45 +0530",
@@ -298,16 +371,16 @@
     "date": "Fri, 16 Oct 2026 21:46:44 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-    "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-    "date": "Fri, 16 Oct 2026 19:33:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+    "date": "Mon, 19 Oct 2026 10:55:23 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Inside the Underground Market for Know Your Client Services",
     "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
@@ -384,38 +457,31 @@
     "date": "Fri, 16 Oct 2026 08:01:29 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft: October Windows update may break Smart App Control",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-    "date": "Fri, 16 Oct 2026 04:44:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1699,
+    "stars": 1702,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1304,
+    "stars": 1307,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 899,
+    "stars": 905,
     "lang": "—"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 768,
+    "stars": 770,
     "lang": "TypeScript"
    },
    {
