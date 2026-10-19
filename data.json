@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T15:29:40.116Z",
+ "generatedAt": "2026-10-19T16:33:44.779Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "LoopX serve-status permissive CORS policy exposes control-plane state and private Markdown files",
+    "url": "https://github.com/advisories/GHSA-vx2m-gpq4-8j5q",
+    "score": 7.5,
+    "ghsa": "GHSA-vx2m-gpq4-8j5q",
+    "date": "2026-10-19T16:11:57Z"
+   },
+   {
     "title": "Arcane: Delegated users:update permission allows admin account takeover via password reset (no privilege-hierarchy check)",
     "url": "https://github.com/advisories/GHSA-pw5q-rjx4-7f7p",
     "score": 8.8,
@@ -278,13 +285,6 @@
     "score": 2,
     "ghsa": "GHSA-754j-98wh-57rf",
     "date": "2026-10-16T19:22:31Z"
-   },
-   {
-    "title": "ClickMigrate has Path Traversal in \"revision -m\" argument",
-    "url": "https://github.com/advisories/GHSA-vgf9-9mxx-hq54",
-    "score": 3.3,
-    "ghsa": "GHSA-vgf9-9mxx-hq54",
-    "date": "2026-10-16T19:17:28Z"
    }
   ],
   "thn": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1702,
+    "stars": 1705,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1307,
+    "stars": 1309,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 905,
+    "stars": 908,
     "lang": "—"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 422,
+    "stars": 423,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 366,
+    "stars": 367,
     "lang": "C++"
    },
    {
