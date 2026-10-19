@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-19T02:40:33.544Z",
+ "generatedAt": "2026-10-19T03:37:45.944Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-10-19T02:34:20+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
+    "score": 9.9,
+    "date": "2026-10-19T02:34:19+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
+    "score": 9.8,
+    "date": "2026-10-19T02:34:21+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:80605 — Critical: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:80605",
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67279",
+    "score": 9.6,
+    "date": "2026-10-19T02:34:17+00:00"
+   },
+   {
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:81110",
     "score": 9.1,
-    "date": "2026-10-13T12:08:58.021554Z"
+    "date": "2026-10-19T02:34:28+00:00"
    },
    {
-    "title": "RLSA-2026:79371 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:79371",
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
     "score": 9.1,
-    "date": "2026-10-10T12:08:29.652489Z"
+    "date": "2026-10-19T02:34:24+00:00"
    },
    {
-    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:82883",
-    "score": 8.8,
-    "date": "2026-10-15T12:20:13.898768Z"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.1,
+    "date": "2026-10-19T02:34:23+00:00"
    },
    {
-    "title": "RLSA-2026:80498 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:80498",
-    "score": 8.8,
-    "date": "2026-10-13T12:08:58.021554Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (cpu) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82415",
+    "score": 9.1,
+    "date": "2026-10-19T02:01:10+00:00"
    },
    {
-    "title": "RLSA-2026:77690 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:77690",
-    "score": 8.8,
-    "date": "2026-10-09T12:10:46.463075Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (spyre) (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82371",
+    "score": 9.1,
+    "date": "2026-10-19T02:01:07+00:00"
    },
    {
-    "title": "RLSA-2026:81522 — Important: pcre2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:81522",
-    "score": 8.2,
-    "date": "2026-10-14T12:08:56.685590Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (cuda) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82368",
+    "score": 9.1,
+    "date": "2026-10-19T02:01:06+00:00"
    },
    {
-    "title": "RLSA-2026:79122 — Important: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:79122",
-    "score": 8.2,
-    "date": "2026-10-10T12:08:29.652489Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
+    "score": 9.1,
+    "date": "2026-10-19T02:01:05+00:00"
    },
    {
-    "title": "RLSA-2026:83207 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:83207",
-    "score": 8.1,
-    "date": "2026-10-16T12:10:48.882476Z"
-   },
-   {
-    "title": "RLSA-2026:81406 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:81406",
-    "score": 8.1,
-    "date": "2026-10-14T12:08:56.685590Z"
-   },
-   {
-    "title": "CVE-2026-92392 — During an upload, curl mishandles HTTP/2 `RST_STREAM` received from the server (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`) leading",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92392",
-    "score": 8.1,
-    "date": "2026-10-14T09:31:35Z"
-   },
-   {
-    "title": "RLSA-2026:77020 — Important: python3.12 security update",
-    "url": "https://github.com/advisories/RLSA-2026:77020",
-    "score": 8.1,
-    "date": "2026-10-09T12:10:46.463075Z"
-   },
-   {
-    "title": "RLSA-2026:83551 — Important: ghostscript security update",
-    "url": "https://github.com/advisories/RLSA-2026:83551",
-    "score": 7.8,
-    "date": "2026-10-16T12:10:48.882476Z"
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
+    "score": 9.1,
+    "date": "2026-10-19T02:01:05+00:00"
    }
   ],
   "kev": [
@@ -463,31 +463,31 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1666,
+    "stars": 1669,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1256,
+    "stars": 1262,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 844,
+    "stars": 848,
     "lang": "—"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 762,
+    "stars": 763,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 741,
+    "stars": 742,
     "lang": "Python"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 313,
+    "stars": 314,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1748,
   "adv": 12,
   "feed": 48
