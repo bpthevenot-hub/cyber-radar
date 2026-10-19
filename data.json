@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-19T12:43:13.530Z",
+ "generatedAt": "2026-10-19T13:34:39.705Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-6242 — Red Hat Security Advisory: RHOAI 3.3.3 - Red Hat OpenShift AI (+45 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19712",
-    "score": 9.8,
-    "date": "2026-10-19T12:03:24+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Submariner v0.21 security fixes and container updates (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25127",
-    "score": 9.1,
-    "date": "2026-10-19T12:03:59+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.24 security and extras update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21704",
-    "score": 9.1,
-    "date": "2026-10-19T12:03:33+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.18.43 security and extras update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21658",
-    "score": 9.1,
-    "date": "2026-10-19T12:03:32+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.16.63 security and extras update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20089",
-    "score": 9.1,
-    "date": "2026-10-19T12:03:24+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 security and extras update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20042",
-    "score": 9.1,
-    "date": "2026-10-19T12:03:24+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.21.17 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20034",
-    "score": 9.1,
-    "date": "2026-10-19T12:03:24+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.15 security, enhancement & bug fix update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:12279",
-    "score": 9.1,
-    "date": "2026-10-19T12:02:51+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.2 security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13548",
-    "score": 9.1,
-    "date": "2026-10-19T12:02:50+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: VolSync v0.14 security fixes and container updates (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11408",
-    "score": 9.1,
-    "date": "2026-10-19T12:02:36+00:00"
-   },
-   {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: HawtIO 4.4.0 for Red Hat build of Apache Camel 4 Release and security update. (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25089",
+    "title": "CVE-2026-88900 — Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component. This issue affects Apache Camel: from 4.0.0 before ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88900",
     "score": 8.8,
-    "date": "2026-10-19T12:03:58+00:00"
+    "date": "2026-10-19T12:32:53Z"
    },
    {
-    "title": "CVE-2025-55190 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.1 security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1488",
+    "title": "CVE-2026-83531 — Improper Control of Generation of Code ('Code Injection'), Improper Neutralization of Special Elements used in an Expression Language Statem",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83531",
     "score": 8.8,
-    "date": "2026-10-19T12:03:08+00:00"
+    "date": "2026-10-19T12:32:50Z"
+   },
+   {
+    "title": "CVE-2026-88901 — Improper Restriction of XML External Entity Reference vulnerability in Apache Camel. This issue affects Apache Camel: from 4.7.0 before 4.18",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88901",
+    "score": 8.2,
+    "date": "2026-10-19T12:32:52Z"
+   },
+   {
+    "title": "CVE-2026-80344 — Server-Side Request Forgery (SSRF) vulnerability in Apache Camel AS2 component. This issue affects Apache Camel: from 4.0.0 before 4.18.5, f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80344",
+    "score": 8.2,
+    "date": "2026-10-19T12:32:50Z"
+   },
+   {
+    "title": "CVE-2026-80343 — Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component. This issue affects Apache Camel: from 4.0.0 before",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80343",
+    "score": 8.2,
+    "date": "2026-10-19T12:32:50Z"
+   },
+   {
+    "title": "CVE-2026-80312 — Improper Authentication vulnerability in Apache Camel OAuth component. This issue affects Apache Camel: from 4.11.0 before 4.18.5, from 4.19",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80312",
+    "score": 8.2,
+    "date": "2026-10-19T12:32:50Z"
+   },
+   {
+    "title": "CVE-2026-85250 — Improper Restriction of XML External Entity Reference vulnerability in Apache Camel XPath component. This issue affects Apache Camel: from 4",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85250",
+    "score": 7.5,
+    "date": "2026-10-19T12:32:51Z"
+   },
+   {
+    "title": "CVE-2026-85251 — Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component. This issue affects Apache Camel: fr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85251",
+    "score": 7.5,
+    "date": "2026-10-19T12:32:51Z"
+   },
+   {
+    "title": "CVE-2026-79986 — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel Azure Files component. This iss",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79986",
+    "score": 7.4,
+    "date": "2026-10-19T12:32:50Z"
+   },
+   {
+    "title": "CVE-2026-79985 — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel SMB component. This issue affec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79985",
+    "score": 7.4,
+    "date": "2026-10-19T12:32:50Z"
+   },
+   {
+    "title": "CVE-2026-79983 — Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel FTP component. This issue affec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79983",
+    "score": 7.4,
+    "date": "2026-10-19T12:32:49Z"
+   },
+   {
+    "title": "CVE-2026-112139 — A vulnerability has been found in subhajitkhan online-clinic-management-system up to e9ee77a8827a1446220fa07ee693dc4d9a29a578. This affects ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112139",
+    "score": 7.3,
+    "date": "2026-10-19T12:32:53Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+    "date": "Mon, 19 Oct 2026 08:44:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
     "date": "Mon, 19 Oct 2026 04:58:41 -0400",
@@ -450,32 +457,25 @@
     "date": "Fri, 16 Oct 2026 02:18:08 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-    "date": "Thu, 15 Oct 2026 16:25:04 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1695,
+    "stars": 1696,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1296,
+    "stars": 1299,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 893,
+    "stars": 896,
     "lang": "—"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 742,
+    "stars": 743,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 440,
+    "stars": 441,
     "lang": "Rust"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 2,
   "kev": 1748,
   "adv": 12,
   "feed": 48
