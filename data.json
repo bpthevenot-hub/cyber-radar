@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-19T10:30:59.385Z",
+ "generatedAt": "2026-10-19T11:29:22.982Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2021-39226 — Red Hat Security Advisory: OpenShift Container Platform 4.8.49 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6308",
+    "score": 9.8,
+    "date": "2026-10-19T10:52:45+00:00"
+   },
+   {
+    "title": "CVE-2022-27664 — Red Hat Bug Fix Advisory: Red Hat Quay v3.8.11 bug fix release (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2023:4275",
+    "score": 9.8,
+    "date": "2026-10-19T10:47:10+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-13695 — SQL injection (SQLi) vulnerability—specifically a UNION-based vulnerability—in the Integratec application that affects the sInfo parameter s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13695",
-    "score": 7.5,
-    "date": "2026-10-19T09:32:31Z"
+    "title": "CVE-2022-1705 — Red Hat Security Advisory: Release of OpenShift Serverless Client kn 1.24.0 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6042",
+    "score": 9.1,
+    "date": "2026-10-19T10:47:32+00:00"
    },
    {
-    "title": "CVE-2026-112178 — MISP contains an access control flaw in the proposal (shadow attribute) visibility logic. The authorization check accepted any attribute or ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112178",
-    "score": 7.5,
-    "date": "2026-10-19T09:32:30Z"
+    "title": "CVE-2022-1705 — Red Hat Security Advisory: Release of OpenShift Serverless 1.24.0 (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6040",
+    "score": 9.1,
+    "date": "2026-10-19T10:47:32+00:00"
    },
    {
-    "title": "CVE-2026-112161 — MobaXterm Personal Edition (Portable) 26.4 GA extracts the CygUtils64.plugin file without first verifying its integrity. A local attacker wi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112161",
-    "score": 7.5,
-    "date": "2026-10-19T09:32:30Z"
+    "title": "CVE-2026-10050 — Red Hat Security Advisory: Red Hat build of Debezium 3.6.3 release (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83612",
+    "score": 9.1,
+    "date": "2026-10-19T10:46:31+00:00"
    },
    {
-    "title": "CVE-2026-57727 — Missing Authorization vulnerability in Themeum Kirki kirki allows Exploiting Incorrectly Configured Access Control Security Levels.This issu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57727",
-    "score": 7.5,
-    "date": "2026-07-13T12:35:04Z"
+    "title": "CVE-2022-3064 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.15.0 release (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4631",
+    "score": 8.8,
+    "date": "2026-10-19T10:46:14+00:00"
    },
    {
-    "title": "CVE-2026-16460 — A flaw was found in bootc and ostree. Already-staged deployments are finalized without revalidating the deployment's container image against",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16460",
-    "score": 7.4,
-    "date": "2026-10-19T09:32:29Z"
+    "title": "CVE-2026-12860 — Red Hat Security Advisory: Red Hat Build of Apache Camel 4.18 for Quarkus 3.33 update is now available (RHBQ 3.33.3.SP2) (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70257",
+    "score": 8.6,
+    "date": "2026-10-19T10:46:35+00:00"
    },
    {
-    "title": "CVE-2026-76740 — A security vulnerability in HPE Compute Scale-up Server 3200 and 3250 platforms, Superdome Flex and Superdome Flex 280 servers could be expl",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76740",
-    "score": 7.2,
-    "date": "2026-10-19T09:32:30Z"
+    "title": "CVE-2026-12860 — Red Hat Security Advisory: Red Hat build of Quarkus 3.27.5.SP2 release and security update (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69470",
+    "score": 8.6,
+    "date": "2026-10-19T10:46:28+00:00"
    },
    {
-    "title": "CVE-2026-104679 — VOCALOID6 Editor provided by Yamaha Corporation improperly restricts XML external entity references. Loading a specially crafted project fil",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104679",
-    "score": 7.1,
-    "date": "2026-10-19T09:32:30Z"
+    "title": "CVE-2026-12860 — Red Hat Security Advisory: Red Hat build of Quarkus 3.33.3.SP2 release and security update (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69440",
+    "score": 8.6,
+    "date": "2026-10-19T10:46:27+00:00"
    },
    {
-    "title": "CVE-2026-74921 — The Document Gallery WordPress plugin through 5.1.1 does not sanitise or escape several gallery shortcode attributes before embedding them i",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74921",
-    "score": 6.8,
-    "date": "2026-10-19T09:32:29Z"
+    "title": "CVE-2021-38561 — Red Hat Security Advisory: Logging Subsystem 5.5.0 - Red Hat OpenShift security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6051",
+    "score": 8.3,
+    "date": "2026-10-19T10:47:34+00:00"
    },
    {
-    "title": "CVE-2026-111438 — 在 openGauss-server 的 src/common/backend/libpq/hba.cpp 中，复制连接认证存在访问控制绕过。hba_getauthmethod() 在处理 HADR/SW 复制发送方时，不要求 is_node_internal_connectio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111438",
-    "score": 6.5,
-    "date": "2026-10-19T09:32:30Z"
+    "title": "CVE-2022-2990 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1325",
+    "score": 8.2,
+    "date": "2026-10-19T10:54:50+00:00"
    },
    {
-    "title": "CVE-2026-112098 — A security flaw has been discovered in DeepPavlov up to 1.7.0. Impacted is the function resolve of the file deeppavlov/core/common/params.py",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112098",
-    "score": 6.3,
-    "date": "2026-10-19T09:32:30Z"
-   },
-   {
-    "title": "CVE-2026-112090 — A vulnerability was detected in Dav-ee dairy-management-system 31ace9692d1e1e6d64339a42c463b361319c615c/f31a584c3330c013b61f8b0306d9e0849c6d",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112090",
-    "score": 6.3,
-    "date": "2026-10-19T09:32:30Z"
-   },
-   {
-    "title": "CVE-2026-112088 — A weakness has been identified in Dav-ee dairy-management-system 31ace9692d1e1e6d64339a42c463b361319c615c/f31a584c3330c013b61f8b0306d9e0849c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112088",
-    "score": 6.3,
-    "date": "2026-10-19T09:32:28Z"
+    "title": "CVE-2024-42516 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.62 SP5 security update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56869",
+    "score": 8.1,
+    "date": "2026-10-19T10:46:27+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1692,
+    "stars": 1695,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1288,
+    "stars": 1293,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 881,
+    "stars": 885,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1748,
   "adv": 12,
   "feed": 48
