@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-19T16:33:44.779Z",
+ "generatedAt": "2026-10-19T17:27:27.341Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-111057 — Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111057",
+    "score": 10,
+    "date": "2026-10-19T17:00:54Z"
+   },
+   {
+    "title": "CVE-2026-111058 — Mercury: Unauthenticated Remote Code Execution via /api/kernels",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111058",
+    "score": 9.8,
+    "date": "2026-10-19T16:49:08Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-88812 — Red Hat Security Advisory: xorg-x11-server-Xwayland security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85193",
-    "score": 7.8,
-    "date": "2026-10-19T14:50:08+00:00"
-   },
-   {
-    "title": "CVE-2026-88812 — Red Hat Security Advisory: xorg-x11-server-Xwayland security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85191",
-    "score": 7.8,
-    "date": "2026-10-19T14:50:08+00:00"
-   },
-   {
-    "title": "CVE-2026-93516 — Red Hat Security Advisory: xorg-x11-server security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:84574",
-    "score": 7.8,
-    "date": "2026-10-19T14:50:08+00:00"
-   },
-   {
-    "title": "CVE-2026-88812 — Red Hat Security Advisory: xorg-x11-server security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82015",
-    "score": 7.8,
-    "date": "2026-10-19T14:50:08+00:00"
-   },
-   {
-    "title": "CVE-2026-109301 — Parse Server before 8.6.95 and 9.0.0 before 9.10.2 Denial of Service via File Pointer Without URL",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109301",
-    "score": 7.5,
-    "date": "2026-10-19T14:26:32.640Z"
-   },
-   {
-    "title": "CVE-2026-96960 — .NET Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96960",
-    "score": 7.5,
-    "date": "2026-10-19T14:21:53.036Z"
-   },
-   {
-    "title": "CVE-2026-96959 — .NET Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96959",
-    "score": 7.5,
-    "date": "2026-10-19T14:21:52.008Z"
-   },
-   {
-    "title": "CVE-2026-96958 — .NET Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96958",
-    "score": 7.5,
-    "date": "2026-10-19T14:21:50.929Z"
-   },
-   {
-    "title": "CVE-2026-96957 — .NET Security Feature Bypass Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96957",
-    "score": 7.5,
-    "date": "2026-10-19T14:21:49.857Z"
-   },
-   {
-    "title": "CVE-2026-109303 — Parse Server before 8.6.93 and 9.0.0 before 9.10.1 protectedFields Bypass via Relation Count Query",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109303",
+    "title": "GHSA-953h-535j-jg2v — agent-router: MCP session resume does not verify the embedded anti-hijacking subject; default Helm seed makes session IDs forgeable",
+    "url": "https://github.com/advisories/GHSA-953h-535j-jg2v",
     "score": 5,
-    "date": "2026-10-19T14:26:34.738Z"
+    "date": "2026-10-19T16:53:26Z"
    },
    {
-    "title": "CVE-2026-109302 — Parse Server 8.2.2 before 8.6.94 and 9.0.0 before 9.10.1 GraphQL Schema Disclosure via Persisted Queries",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109302",
+    "title": "GHSA-pcc4-rvhr-2pr8 — Graphify Fortran extractor: incomplete cpp #include hardening allows arbitrary host-file read/exfiltration when indexing an untrusted repo",
+    "url": "https://github.com/advisories/GHSA-pcc4-rvhr-2pr8",
     "score": 5,
-    "date": "2026-10-19T14:26:33.694Z"
-   },
-   {
-    "title": "OSV-2024-245 — Security exception in com.github.javaparser.ast.validator.TreeVisitorValidator.accept",
-    "url": "https://github.com/advisories/OSV-2024-245",
-    "score": null,
-    "date": "2024-04-08T00:11:03.595756Z"
+    "date": "2026-10-19T16:51:36Z"
    }
   ],
   "kev": [
@@ -203,6 +155,76 @@
   ],
   "adv": [
    {
+    "title": "aiohttp server lacks an initial request/header timeout",
+    "url": "https://github.com/advisories/GHSA-5wr8-gcqf-gqf3",
+    "score": 7.5,
+    "ghsa": "GHSA-5wr8-gcqf-gqf3",
+    "date": "2026-10-19T17:08:04Z"
+   },
+   {
+    "title": "AIOHTTP: Secure attribute not enforced for shared cookie",
+    "url": "https://github.com/advisories/GHSA-494j-54xm-rwp3",
+    "score": 2,
+    "ghsa": "GHSA-494j-54xm-rwp3",
+    "date": "2026-10-19T17:07:47Z"
+   },
+   {
+    "title": "aiohttp: Multiple instances of excessive or unbounded memory/CPU use",
+    "url": "https://github.com/advisories/GHSA-2g87-pp6c-29x5",
+    "score": 7.5,
+    "ghsa": "GHSA-2g87-pp6c-29x5",
+    "date": "2026-10-19T17:07:23Z"
+   },
+   {
+    "title": "russh: Unbounded memory allocation in agent protocol server via crafted constraint records",
+    "url": "https://github.com/advisories/GHSA-4wc5-f2rc-q74m",
+    "score": 4.3,
+    "ghsa": "GHSA-4wc5-f2rc-q74m",
+    "date": "2026-10-19T17:06:46Z"
+   },
+   {
+    "title": "A russh SSH server accepts a publickey authentication whose signature uses a different algorithm than the one named in the request",
+    "url": "https://github.com/advisories/GHSA-j7h2-66j4-ghjf",
+    "score": 2,
+    "ghsa": "GHSA-j7h2-66j4-ghjf",
+    "date": "2026-10-19T17:06:29Z"
+   },
+   {
+    "title": "Mercury: Stored / DOM Cross-Site Scripting (XSS): mr.Markdown renders untrusted content as raw, unsanitized HTML",
+    "url": "https://github.com/advisories/GHSA-2658-85cv-9wwq",
+    "score": 6.1,
+    "ghsa": "GHSA-2658-85cv-9wwq",
+    "date": "2026-10-19T17:01:20Z"
+   },
+   {
+    "title": "Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass",
+    "url": "https://github.com/advisories/GHSA-f8c7-rwf9-fmgm",
+    "score": 10,
+    "ghsa": "GHSA-f8c7-rwf9-fmgm",
+    "date": "2026-10-19T17:00:54Z"
+   },
+   {
+    "title": "agent-router: MCP session resume does not verify the embedded anti-hijacking subject; default Helm seed makes session IDs forgeable",
+    "url": "https://github.com/advisories/GHSA-953h-535j-jg2v",
+    "score": null,
+    "ghsa": "GHSA-953h-535j-jg2v",
+    "date": "2026-10-19T16:53:26Z"
+   },
+   {
+    "title": "Graphify Fortran extractor: incomplete cpp #include hardening allows arbitrary host-file read/exfiltration when indexing an untrusted repo",
+    "url": "https://github.com/advisories/GHSA-pcc4-rvhr-2pr8",
+    "score": null,
+    "ghsa": "GHSA-pcc4-rvhr-2pr8",
+    "date": "2026-10-19T16:51:36Z"
+   },
+   {
+    "title": "Mercury: Unauthenticated Remote Code Execution via /api/kernels",
+    "url": "https://github.com/advisories/GHSA-rv4m-xm3f-3ccq",
+    "score": 9.8,
+    "ghsa": "GHSA-rv4m-xm3f-3ccq",
+    "date": "2026-10-19T16:49:08Z"
+   },
+   {
     "title": "LoopX serve-status permissive CORS policy exposes control-plane state and private Markdown files",
     "url": "https://github.com/advisories/GHSA-vx2m-gpq4-8j5q",
     "score": 7.5,
@@ -215,79 +237,16 @@
     "score": 8.8,
     "ghsa": "GHSA-pw5q-rjx4-7f7p",
     "date": "2026-10-16T21:15:03Z"
-   },
-   {
-    "title": "Arcane: Environment access token bypasses the admin-required authorization gate on `/api/debug/pprof`",
-    "url": "https://github.com/advisories/GHSA-mp22-58ff-6fhr",
-    "score": 4.3,
-    "ghsa": "GHSA-mp22-58ff-6fhr",
-    "date": "2026-10-16T21:12:03Z"
-   },
-   {
-    "title": "LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
-    "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
-    "score": 9.8,
-    "ghsa": "GHSA-w5f2-9q9c-ff4h",
-    "date": "2026-10-16T20:08:44Z"
-   },
-   {
-    "title": "kin-openapi openapi3filter: nil-pointer panic in ValidateResponse on a response header declared with content",
-    "url": "https://github.com/advisories/GHSA-74vm-87hj-r66f",
-    "score": 7.5,
-    "ghsa": "GHSA-74vm-87hj-r66f",
-    "date": "2026-10-16T19:58:46Z"
-   },
-   {
-    "title": "Wasmtime: WASI hard links bypass wasmtime-wasi's FilePerms for destination",
-    "url": "https://github.com/advisories/GHSA-4ch3-9j33-3pmj",
-    "score": 6.5,
-    "ghsa": "GHSA-4ch3-9j33-3pmj",
-    "date": "2026-10-16T19:57:26Z"
-   },
-   {
-    "title": "lopdf has a stack overflow via deeply nested PDF objects",
-    "url": "https://github.com/advisories/GHSA-6fj4-rcr3-r7rr",
-    "score": 7.5,
-    "ghsa": "GHSA-6fj4-rcr3-r7rr",
-    "date": "2026-10-16T19:55:39Z"
-   },
-   {
-    "title": "JavaCV: Integer Overflow in IPCameraFrameGrabber Causes Infinite-Loop DoS",
-    "url": "https://github.com/advisories/GHSA-rxjv-24xq-76wc",
-    "score": 7.5,
-    "ghsa": "GHSA-rxjv-24xq-76wc",
-    "date": "2026-10-16T19:53:06Z"
-   },
-   {
-    "title": "Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
-    "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
-    "score": 9.5,
-    "ghsa": "GHSA-h4mw-j7qp-8mwm",
-    "date": "2026-10-16T19:44:37Z"
-   },
-   {
-    "title": "CoreDNS `k8s_external` headless AXFR can emit an empty transfer batch that panics the `transfer` plugin",
-    "url": "https://github.com/advisories/GHSA-74w3-63xv-x9mv",
-    "score": 3.7,
-    "ghsa": "GHSA-74w3-63xv-x9mv",
-    "date": "2026-10-16T19:26:42Z"
-   },
-   {
-    "title": "ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
-    "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
-    "score": 3.1,
-    "ghsa": "GHSA-vqff-r82h-9crc",
-    "date": "2026-10-16T19:23:48Z"
-   },
-   {
-    "title": "swoosh has email-derived URL path injection in Microsoft Graph endpoint",
-    "url": "https://github.com/advisories/GHSA-754j-98wh-57rf",
-    "score": 2,
-    "ghsa": "GHSA-754j-98wh-57rf",
-    "date": "2026-10-16T19:22:31Z"
    }
   ],
   "thn": [
+   {
+    "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+    "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+    "date": "Mon, 19 Oct 2026 21:58:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
     "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
@@ -364,16 +323,16 @@
     "date": "Fri, 16 Oct 2026 22:13:39 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-    "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-    "date": "Fri, 16 Oct 2026 21:46:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "date": "Mon, 19 Oct 2026 13:27:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft fixes game, app crashes caused by recent Windows update",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
@@ -450,32 +409,25 @@
     "date": "Fri, 16 Oct 2026 09:50:59 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Burger King Japan data breach exposes 11 million customer records",
-    "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-    "date": "Fri, 16 Oct 2026 08:01:29 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1705,
+    "stars": 1707,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1309,
+    "stars": 1310,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 908,
+    "stars": 909,
     "lang": "—"
    },
    {
@@ -505,7 +457,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 441,
+    "stars": 442,
     "lang": "Rust"
    },
    {
@@ -717,7 +669,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1748,
   "adv": 12,
   "feed": 48
