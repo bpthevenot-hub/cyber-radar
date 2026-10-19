@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T03:37:45.944Z",
+ "generatedAt": "2026-10-19T04:35:48.303Z",
  "sources": {
   "cve": [
    {
@@ -33,10 +33,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2026-87500 — Red Hat Security Advisory: webkit2gtk3 security, bug fix, and enhancement update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84584",
+    "score": 9.6,
+    "date": "2026-10-19T02:46:33+00:00"
+   },
+   {
     "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+30 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:67279",
     "score": 9.6,
     "date": "2026-10-19T02:34:17+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+107 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82322",
+    "score": 9.1,
+    "date": "2026-10-19T03:08:26+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+107 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82304",
+    "score": 9.1,
+    "date": "2026-10-19T03:08:26+00:00"
+   },
+   {
+    "title": "CVE-2025-47911 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:43692",
+    "score": 9.1,
+    "date": "2026-10-19T03:08:26+00:00"
    },
    {
     "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay (+20 CVE)",
@@ -57,34 +81,10 @@
     "date": "2026-10-19T02:34:23+00:00"
    },
    {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (cpu) (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82415",
-    "score": 9.1,
-    "date": "2026-10-19T02:01:10+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (spyre) (+69 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82371",
-    "score": 9.1,
-    "date": "2026-10-19T02:01:07+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (cuda) (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82368",
-    "score": 9.1,
-    "date": "2026-10-19T02:01:06+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
-    "score": 9.1,
-    "date": "2026-10-19T02:01:05+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
-    "score": 9.1,
-    "date": "2026-10-19T02:01:05+00:00"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.5 security update (+43 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57194",
+    "score": 8.8,
+    "date": "2026-10-19T03:08:26+00:00"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1669,
+    "stars": 1673,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1262,
+    "stars": 1265,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 848,
+    "stars": 850,
     "lang": "—"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 763,
+    "stars": 764,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 13,
   "kev": 1748,
   "adv": 12,
   "feed": 48
