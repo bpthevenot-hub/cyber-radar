@@ -1,18 +1,18 @@
 {
- "generatedAt": "2026-10-19T17:27:27.341Z",
+ "generatedAt": "2026-10-19T18:37:03.622Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-111057 — Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111057",
-    "score": 10,
-    "date": "2026-10-19T17:00:54Z"
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-19T17:25:35+00:00"
    },
    {
-    "title": "CVE-2026-111058 — Mercury: Unauthenticated Remote Code Execution via /api/kernels",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111058",
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
     "score": 9.8,
-    "date": "2026-10-19T16:49:08Z"
+    "date": "2026-10-19T17:25:35+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,16 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "GHSA-953h-535j-jg2v — agent-router: MCP session resume does not verify the embedded anti-hijacking subject; default Helm seed makes session IDs forgeable",
-    "url": "https://github.com/advisories/GHSA-953h-535j-jg2v",
-    "score": 5,
-    "date": "2026-10-19T16:53:26Z"
+    "title": "CVE-2026-85745 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84701",
+    "score": 8.8,
+    "date": "2026-10-19T17:26:20+00:00"
    },
    {
-    "title": "GHSA-pcc4-rvhr-2pr8 — Graphify Fortran extractor: incomplete cpp #include hardening allows arbitrary host-file read/exfiltration when indexing an untrusted repo",
-    "url": "https://github.com/advisories/GHSA-pcc4-rvhr-2pr8",
-    "score": 5,
-    "date": "2026-10-19T16:51:36Z"
+    "title": "CVE-2026-58280 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84693",
+    "score": 8.8,
+    "date": "2026-10-19T17:25:59+00:00"
+   },
+   {
+    "title": "CVE-2026-110136 — Security update for chromium (+36 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_22118-1.json",
+    "score": 8.6,
+    "date": "2026-10-19T17:25:36Z"
+   },
+   {
+    "title": "CVE-2026-107814 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83108",
+    "score": 8.4,
+    "date": "2026-10-19T17:26:20+00:00"
+   },
+   {
+    "title": "CVE-2026-15176 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83427",
+    "score": 8.1,
+    "date": "2026-10-19T17:25:56+00:00"
+   },
+   {
+    "title": "CVE-2026-106061 — Security update for gimp (+5 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_22123-1.json",
+    "score": 7.8,
+    "date": "2026-10-19T17:25:40Z"
+   },
+   {
+    "title": "CVE-2026-95511 — Security update for cups-filters",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_22120-1.json",
+    "score": 7.8,
+    "date": "2026-10-19T17:25:37Z"
+   },
+   {
+    "title": "CVE-2026-58280 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84424",
+    "score": 7.5,
+    "date": "2026-10-19T17:26:02+00:00"
+   },
+   {
+    "title": "CVE-2026-97687 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69612",
+    "score": 7.5,
+    "date": "2026-10-19T17:25:56+00:00"
+   },
+   {
+    "title": "CVE-2026-63209 — Security update for cadvisor",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/opensuse-su-2026_22117-1.json",
+    "score": 7.5,
+    "date": "2026-10-19T17:25:35Z"
    }
   ],
   "kev": [
@@ -415,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1707,
+    "stars": 1710,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1310,
+    "stars": 1315,
     "lang": "Go"
    },
    {
@@ -433,13 +481,13 @@
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 770,
+    "stars": 771,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 743,
+    "stars": 745,
     "lang": "Python"
    },
    {
@@ -457,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 442,
+    "stars": 443,
     "lang": "Rust"
    },
    {
