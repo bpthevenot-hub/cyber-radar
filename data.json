@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-10-20T12:41:17.833Z",
+ "generatedAt": "2026-10-20T13:31:57.627Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-15467 — Multiple OpenSSL vulnerabilities affect Festo AX OS in CEPE (+1 CVE)",
-    "url": "https://festo.csaf-tp.certvde.com/.well-known/csaf/white/2026/fsa-202602.json",
-    "score": 9.8,
-    "date": "2026-10-20T12:00:00.000Z"
+    "title": "CVE-2026-113389 — A vulnerability was detected in DrayTek Vigor2960 1.5.1.6 Revision 8218. Affected by this vulnerability is the function set_table of the fil",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113389",
+    "score": 9.9,
+    "date": "2026-10-20T12:31:37Z"
+   },
+   {
+    "title": "CVE-2026-105312 — A Kubernetes tenant with create permission on Console custom resources can set spec.containers.api.spec.image to an arbitrary container imag",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105312",
+    "score": 9.9,
+    "date": "2026-10-20T12:31:36Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-10050 — Red Hat Security Advisory: Red Hat build of Debezium 3.6.3 release (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83612",
-    "score": 9.1,
-    "date": "2026-10-20T11:22:02+00:00"
+    "title": "CVE-2026-9589 — Missing authorization in the configuration cascade operations of the Collaboration Server in Unblu inc. Unblu Spark 7.0 through 8.36.1-hotfi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9589",
+    "score": 9.5,
+    "date": "2026-10-20T12:31:36Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
+    "title": "CVE-2026-105949 — Cruise Control's Jetty ConstraintSecurityHandler registers security constraints on exact path specs without a catch-all wildcard constraint ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105949",
     "score": 8.8,
-    "date": "2026-10-20T11:22:08+00:00"
+    "date": "2026-10-20T12:31:37Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:08+00:00"
+    "title": "CVE-2026-105311 — The StreamsHub Console operator acts as a confused deputy: a Kubernetes tenant with permission to create a Console custom resource can set s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105311",
+    "score": 7.7,
+    "date": "2026-10-20T12:31:36Z"
    },
    {
-    "title": "CVE-2026-52935 — Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85774",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:04+00:00"
+    "title": "CVE-2026-14933 — Cross-site scripting in the embedded co-browsing feature in Unblu inc. Unblu Spark 7.0 through 7.57.7 and 8.0 through 8.39.2, on on-premises",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14933",
+    "score": 7.5,
+    "date": "2026-10-20T12:31:38Z"
    },
    {
-    "title": "CVE-2026-52935 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85773",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:03+00:00"
+    "title": "CVE-2026-113358 — LavaLite CMS through 10.1.2 contains a missing authentication vulnerability in the Filer module that allows unauthenticated attackers to dow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113358",
+    "score": 7.5,
+    "date": "2026-10-20T12:31:35Z"
    },
    {
-    "title": "CVE-2026-103484 — Red Hat Security Advisory: postgresql:18 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85814",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:02+00:00"
+    "title": "CVE-2026-113352 — uTox through 0.18.1 contains a path traversal vulnerability that allows Tox friends to write arbitrary files by sending absolute or ../ file",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113352",
+    "score": 7.5,
+    "date": "2026-10-20T12:31:35Z"
    },
    {
-    "title": "CVE-2026-103484 — Red Hat Security Advisory: postgresql:16 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85791",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:02+00:00"
+    "title": "CVE-2026-20327 — Cisco Unified Intelligence Center SQL Injection Vulnerability",
+    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5",
+    "score": 6.5,
+    "date": "2026-10-20T12:53:16+00:00"
    },
    {
-    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85321",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:02+00:00"
+    "title": "CVE-2026-113382 — A security vulnerability has been detected in arizu-id fast-tunnel 1.0.0. Affected by this issue is the function ZipArchive::extractTo of th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113382",
+    "score": 6.3,
+    "date": "2026-10-20T12:31:36Z"
    },
    {
-    "title": "CVE-2025-40149 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+37 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76739",
-    "score": 8.8,
-    "date": "2026-10-20T11:22:00+00:00"
+    "title": "CVE-2026-18205 — Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Ticimax Informatics Technologies Inc. ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18205",
+    "score": 6.1,
+    "date": "2026-10-20T12:31:38Z"
    },
    {
-    "title": "CVE-2026-23172 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68570",
-    "score": 8.8,
-    "date": "2026-10-20T11:21:53+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: yggdrasil security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67134",
-    "score": 8.8,
-    "date": "2026-10-20T11:21:53+00:00"
+    "title": "CVE-2026-113583 — Cypht webmail 2.0.0 through 2.12.2 contains a DOM-based cross-site scripting vulnerability that allows remote attackers to execute arbitrary",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113583",
+    "score": 6.1,
+    "date": "2026-10-20T12:31:37Z"
    }
   ],
   "kev": [
@@ -375,16 +375,23 @@
   ],
   "bleep": [
    {
-    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-    "date": "Tue, 20 Oct 2026 07:31:22 -0400",
+    "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+    "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+    "date": "Tue, 20 Oct 2026 09:18:36 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
    {
     "title": "Windows Server 2025 gets support for quick machine recovery",
     "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-    "date": "Tue, 20 Oct 2026 07:21:42 -0400",
+    "date": "Tue, 20 Oct 2026 08:16:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "date": "Tue, 20 Oct 2026 07:31:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
    },
@@ -450,44 +457,37 @@
     "date": "Mon, 19 Oct 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-    "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-    "date": "Mon, 19 Oct 2026 09:49:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1797,
+    "stars": 1801,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1412,
+    "stars": 1416,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 964,
+    "stars": 969,
     "lang": "—"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 774,
+    "stars": 775,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 766,
+    "stars": 767,
     "lang": "Python"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
     "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 450,
+    "stars": 453,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 445,
+    "stars": 448,
     "lang": "Rust"
    },
    {
@@ -635,13 +635,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How practical is 100k requests per second? Introducing h3fuzz",
-    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
-    "date": "2026-10-20T11:09:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
     "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
     "date": "2026-10-20T12:21:14+00:00",
@@ -649,9 +642,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How practical is 100k requests per second? Introducing h3fuzz",
+    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
+    "date": "2026-10-20T11:09:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Unauthenticated SQL injection in GLPI (≤ 11.0.8)",
     "url": "https://www.reddit.com/r/netsec/comments/1xaljvx/unauthenticated_sql_injection_in_glpi_1108/",
     "date": "2026-10-20T07:19:55+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/",
+    "date": "2026-10-20T12:55:10+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +703,6 @@
     "date": "2026-10-15T19:26:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Web Environment Integrity vs. Private Access Tokens - They're the same thing!",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7eg0y/web_environment_integrity_vs_private_access/",
-    "date": "2026-10-16T12:07:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 5,
   "kev": 1748,
   "adv": 12,
   "feed": 48
