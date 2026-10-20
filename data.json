@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T20:31:29.249Z",
+ "generatedAt": "2026-10-20T21:28:43.937Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "markdown-it: Quadratic-time rendering of a single multi-line link reference definition with default options (regression since 14.0)",
-    "url": "https://github.com/advisories/GHSA-gfr2-rv44-r23c",
-    "score": 7.5,
-    "ghsa": "GHSA-gfr2-rv44-r23c",
-    "date": "2026-10-20T20:28:44Z"
-   },
-   {
-    "title": "markdown-it: Quadratic-time denial of service in inline HTML parsing with html enabled",
-    "url": "https://github.com/advisories/GHSA-vfgh-jcmw-g37q",
-    "score": 3.7,
-    "ghsa": "GHSA-vfgh-jcmw-g37q",
-    "date": "2026-10-20T20:08:19Z"
-   },
-   {
-    "title": "MCP TypeScript server SDK: Shared transport or server instances delivered one HTTP client's messages to another",
-    "url": "https://github.com/advisories/GHSA-jm63-cq47-j5jp",
-    "score": 7.7,
-    "ghsa": "GHSA-jm63-cq47-j5jp",
-    "date": "2026-10-20T20:07:29Z"
-   },
-   {
-    "title": "MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation",
-    "url": "https://github.com/advisories/GHSA-46jr-4wx8-v453",
-    "score": 7.5,
-    "ghsa": "GHSA-46jr-4wx8-v453",
-    "date": "2026-10-20T20:06:35Z"
-   },
-   {
-    "title": "AIOHTTP: Absolute-form request targets can spoof Request.scheme",
-    "url": "https://github.com/advisories/GHSA-f9xw-jh8m-3mwq",
+    "title": "Cachet has Stored XSS in Incident Component",
+    "url": "https://github.com/advisories/GHSA-x397-5hrv-j9m9",
     "score": null,
-    "ghsa": "GHSA-f9xw-jh8m-3mwq",
-    "date": "2026-10-20T20:01:40Z"
+    "ghsa": "GHSA-x397-5hrv-j9m9",
+    "date": "2026-10-20T21:09:40Z"
    },
    {
-    "title": "AIOHTTP: Cookie from subdomain can remove Host-Only Scope from existing cookies",
-    "url": "https://github.com/advisories/GHSA-gx76-c99x-2c96",
-    "score": 2,
-    "ghsa": "GHSA-gx76-c99x-2c96",
-    "date": "2026-10-20T19:58:14Z"
-   },
-   {
-    "title": "AIOHTTP: Connector pool exhaustion via Max-Age overflow",
-    "url": "https://github.com/advisories/GHSA-6cjc-53gc-5rqm",
+    "title": "A2A Java SDK: Push notification credentials logged in cleartext on protobuf parse failure",
+    "url": "https://github.com/advisories/GHSA-x32g-jvvm-4725",
     "score": null,
-    "ghsa": "GHSA-6cjc-53gc-5rqm",
-    "date": "2026-10-20T19:57:24Z"
+    "ghsa": "GHSA-x32g-jvvm-4725",
+    "date": "2026-10-20T21:08:33Z"
    },
    {
-    "title": "AIOHTTP: Pure-Python parser request smuggling",
-    "url": "https://github.com/advisories/GHSA-pqxq-w44r-73xw",
-    "score": null,
-    "ghsa": "GHSA-pqxq-w44r-73xw",
-    "date": "2026-10-20T19:52:21Z"
-   },
-   {
-    "title": "AIOHTTP: File descriptor exhaustion in multipart requests",
-    "url": "https://github.com/advisories/GHSA-9xw5-w5jj-pvcg",
+    "title": "A2A Java SDK: Android synchronous POST forwards credentials across authorities after incomplete redirect fix",
+    "url": "https://github.com/advisories/GHSA-4fpj-g9jf-9rgg",
     "score": 7.5,
-    "ghsa": "GHSA-9xw5-w5jj-pvcg",
-    "date": "2026-10-20T19:52:09Z"
+    "ghsa": "GHSA-4fpj-g9jf-9rgg",
+    "date": "2026-10-20T21:08:06Z"
    },
    {
-    "title": "launch-editor: Editor CLI flag misinterpretation causing arbitrary command execution for some editors",
-    "url": "https://github.com/advisories/GHSA-r825-w8mm-5pxw",
-    "score": null,
-    "ghsa": "GHSA-r825-w8mm-5pxw",
-    "date": "2026-10-20T19:51:52Z"
+    "title": "A2A Java SDK has Server-Side Request Forgery (SSRF) in push-notification delivery",
+    "url": "https://github.com/advisories/GHSA-q78c-5jjq-57g8",
+    "score": 5.8,
+    "ghsa": "GHSA-q78c-5jjq-57g8",
+    "date": "2026-10-20T21:06:22Z"
    },
    {
-    "title": "launch-editor: `fs.existsSync()` existence check can be bypassed on Windows",
-    "url": "https://github.com/advisories/GHSA-587h-7wmj-h5pm",
+    "title": "A2A Java SDK has a fail-open default task authorization",
+    "url": "https://github.com/advisories/GHSA-qw47-mcm5-934w",
     "score": 7.5,
-    "ghsa": "GHSA-587h-7wmj-h5pm",
-    "date": "2026-10-20T19:48:25Z"
+    "ghsa": "GHSA-qw47-mcm5-934w",
+    "date": "2026-10-20T21:05:09Z"
    },
    {
-    "title": "MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service",
-    "url": "https://github.com/advisories/GHSA-rvq5-wwqv-78pq",
-    "score": 6.8,
-    "ghsa": "GHSA-rvq5-wwqv-78pq",
-    "date": "2026-10-20T19:43:36Z"
+    "title": "A2A Java SDK send client credentials under server-controlled HTTP header name, enabling leakage via redirect",
+    "url": "https://github.com/advisories/GHSA-9rhm-2h4x-jwmx",
+    "score": null,
+    "ghsa": "GHSA-9rhm-2h4x-jwmx",
+    "date": "2026-10-20T21:04:16Z"
+   },
+   {
+    "title": "Pillow: Out-of-bounds access in _imagingmorph on a zero-width image",
+    "url": "https://github.com/advisories/GHSA-58r4-6rv3-gfh8",
+    "score": 7.5,
+    "ghsa": "GHSA-58r4-6rv3-gfh8",
+    "date": "2026-10-20T20:56:22Z"
+   },
+   {
+    "title": "Pillow: GIF seek keeps rejected size after DecompressionBombError, allowing DoS",
+    "url": "https://github.com/advisories/GHSA-65qm-jvmh-6pqg",
+    "score": 7.5,
+    "ghsa": "GHSA-65qm-jvmh-6pqg",
+    "date": "2026-10-20T20:53:36Z"
+   },
+   {
+    "title": "Pillow: EPS load(scale) lets Ghostscript render past the decompression bomb limit",
+    "url": "https://github.com/advisories/GHSA-vx6w-vv9f-6gvg",
+    "score": null,
+    "ghsa": "GHSA-vx6w-vv9f-6gvg",
+    "date": "2026-10-20T20:53:21Z"
+   },
+   {
+    "title": "Pillow: TiffDecode returns uninitialized memory as pixels for short JPEG strips",
+    "url": "https://github.com/advisories/GHSA-q45j-58j2-45rg",
+    "score": 7.5,
+    "ghsa": "GHSA-q45j-58j2-45rg",
+    "date": "2026-10-20T20:52:43Z"
+   },
+   {
+    "title": "Pillow: TIFF encoder ColorMap plane-size mismatch causes a heap out-of-bounds read",
+    "url": "https://github.com/advisories/GHSA-pchr-8j38-3x4p",
+    "score": 7.5,
+    "ghsa": "GHSA-pchr-8j38-3x4p",
+    "date": "2026-10-20T20:51:40Z"
+   },
+   {
+    "title": "Pillow: Unbounded recursion parsing a PDF page tree or trailer chain (incomplete fix for CVE-2026-42310)",
+    "url": "https://github.com/advisories/GHSA-p4wg-p73j-c528",
+    "score": 7.5,
+    "ghsa": "GHSA-p4wg-p73j-c528",
+    "date": "2026-10-20T20:50:49Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+    "date": "Tue, 20 Oct 2026 16:56:43 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Zeabur shutting down after second security breach in two months",
     "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
     "date": "Tue, 20 Oct 2026 15:33:02 -0400",
@@ -378,32 +385,25 @@
     "date": "Mon, 19 Oct 2026 17:24:51 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-    "date": "Mon, 19 Oct 2026 15:40:58 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1820,
+    "stars": 1824,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1455,
+    "stars": 1458,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1000,
+    "stars": 1002,
     "lang": "Python"
    },
    {
@@ -577,6 +577,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "France had more Internet-exposed Danfoss refrigeration dashboards than the rest of the world combined before the supermarket attacks (weekly IPv4 scan data)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xb45ee/france_had_more_internetexposed_danfoss/",
+    "date": "2026-10-20T21:04:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
     "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
     "date": "2026-10-20T12:21:14+00:00",
@@ -622,13 +629,6 @@
     "title": "CVE-2026-108097 Deep Dive: Turning a Drupal Field UI Callback Into RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x9q96y/cve2026108097_deep_dive_turning_a_drupal_field_ui/",
     "date": "2026-10-19T07:21:07+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "PhantomBuffer: Effective EDR Evasion Through Stealth Injection",
-    "url": "https://www.reddit.com/r/netsec/comments/1x8rwjz/phantombuffer_effective_edr_evasion_through/",
-    "date": "2026-10-18T02:30:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
