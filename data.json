@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T19:27:08.429Z",
+ "generatedAt": "2026-10-20T20:31:29.249Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "launch-editor: escapeCmdArgs() omits % escaping on Windows",
-    "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
-    "score": null,
-    "ghsa": "GHSA-698v-4r3x-3vcv",
-    "date": "2026-10-20T18:30:24Z"
+    "title": "markdown-it: Quadratic-time rendering of a single multi-line link reference definition with default options (regression since 14.0)",
+    "url": "https://github.com/advisories/GHSA-gfr2-rv44-r23c",
+    "score": 7.5,
+    "ghsa": "GHSA-gfr2-rv44-r23c",
+    "date": "2026-10-20T20:28:44Z"
    },
    {
-    "title": "MCP TypeScript SDK: Experimental tasks were not tied to the session that created them",
-    "url": "https://github.com/advisories/GHSA-22jm-h49p-29qw",
-    "score": 8.6,
-    "ghsa": "GHSA-22jm-h49p-29qw",
-    "date": "2026-10-20T18:26:54Z"
-   },
-   {
-    "title": "MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies",
-    "url": "https://github.com/advisories/GHSA-6prh-2h8m-c8cw",
-    "score": 6.5,
-    "ghsa": "GHSA-6prh-2h8m-c8cw",
-    "date": "2026-10-20T18:26:30Z"
-   },
-   {
-    "title": "ApostropheCMS: The general public can access @apostrophecms/user objects via a relationship (viewRole is not applied to the general public)",
-    "url": "https://github.com/advisories/GHSA-xf6w-q65w-4f2w",
-    "score": null,
-    "ghsa": "GHSA-xf6w-q65w-4f2w",
-    "date": "2026-10-20T18:26:02Z"
-   },
-   {
-    "title": "ApostropheCMS: Missing Authorization on Notification PATCH/DELETE Endpoints",
-    "url": "https://github.com/advisories/GHSA-vwwx-px9w-crrc",
+    "title": "markdown-it: Quadratic-time denial of service in inline HTML parsing with html enabled",
+    "url": "https://github.com/advisories/GHSA-vfgh-jcmw-g37q",
     "score": 3.7,
-    "ghsa": "GHSA-vwwx-px9w-crrc",
-    "date": "2026-10-20T18:25:38Z"
+    "ghsa": "GHSA-vfgh-jcmw-g37q",
+    "date": "2026-10-20T20:08:19Z"
    },
    {
-    "title": "ApostropheCMS import-export tar guard misses './..' because it is a literal '../' substring test",
-    "url": "https://github.com/advisories/GHSA-97wv-p4xx-c7mg",
+    "title": "MCP TypeScript server SDK: Shared transport or server instances delivered one HTTP client's messages to another",
+    "url": "https://github.com/advisories/GHSA-jm63-cq47-j5jp",
+    "score": 7.7,
+    "ghsa": "GHSA-jm63-cq47-j5jp",
+    "date": "2026-10-20T20:07:29Z"
+   },
+   {
+    "title": "MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation",
+    "url": "https://github.com/advisories/GHSA-46jr-4wx8-v453",
+    "score": 7.5,
+    "ghsa": "GHSA-46jr-4wx8-v453",
+    "date": "2026-10-20T20:06:35Z"
+   },
+   {
+    "title": "AIOHTTP: Absolute-form request targets can spoof Request.scheme",
+    "url": "https://github.com/advisories/GHSA-f9xw-jh8m-3mwq",
     "score": null,
-    "ghsa": "GHSA-97wv-p4xx-c7mg",
-    "date": "2026-10-20T18:23:42Z"
+    "ghsa": "GHSA-f9xw-jh8m-3mwq",
+    "date": "2026-10-20T20:01:40Z"
    },
    {
-    "title": "ApostropheCMS: Path traversal in uploadfs",
-    "url": "https://github.com/advisories/GHSA-gmfx-5g6x-rr72",
-    "score": 3.3,
-    "ghsa": "GHSA-gmfx-5g6x-rr72",
-    "date": "2026-10-20T18:21:59Z"
+    "title": "AIOHTTP: Cookie from subdomain can remove Host-Only Scope from existing cookies",
+    "url": "https://github.com/advisories/GHSA-gx76-c99x-2c96",
+    "score": 2,
+    "ghsa": "GHSA-gx76-c99x-2c96",
+    "date": "2026-10-20T19:58:14Z"
    },
    {
-    "title": "ApostropheCMS sanitize-html: SMIL animation namespace-prefix bypass allows javascript: URI injection (XSS)",
-    "url": "https://github.com/advisories/GHSA-374f-7chj-9948",
-    "score": 3.7,
-    "ghsa": "GHSA-374f-7chj-9948",
-    "date": "2026-10-20T18:21:19Z"
+    "title": "AIOHTTP: Connector pool exhaustion via Max-Age overflow",
+    "url": "https://github.com/advisories/GHSA-6cjc-53gc-5rqm",
+    "score": null,
+    "ghsa": "GHSA-6cjc-53gc-5rqm",
+    "date": "2026-10-20T19:57:24Z"
    },
    {
-    "title": "ApostropheCMS uploadfs Azure backend leaks account-level SAS token into every public attachment URL (sas: true)",
-    "url": "https://github.com/advisories/GHSA-hhph-8536-gfq5",
-    "score": 5.6,
-    "ghsa": "GHSA-hhph-8536-gfq5",
-    "date": "2026-10-20T18:20:35Z"
+    "title": "AIOHTTP: Pure-Python parser request smuggling",
+    "url": "https://github.com/advisories/GHSA-pqxq-w44r-73xw",
+    "score": null,
+    "ghsa": "GHSA-pqxq-w44r-73xw",
+    "date": "2026-10-20T19:52:21Z"
    },
    {
-    "title": "ApostropheCMS: Authenticated Object-Level Authorization Bypass in exist-in-locale Reveals Restricted Localized Draft Identifiers",
-    "url": "https://github.com/advisories/GHSA-vmxh-77cw-65j7",
-    "score": 4.3,
-    "ghsa": "GHSA-vmxh-77cw-65j7",
-    "date": "2026-10-20T18:19:34Z"
+    "title": "AIOHTTP: File descriptor exhaustion in multipart requests",
+    "url": "https://github.com/advisories/GHSA-9xw5-w5jj-pvcg",
+    "score": 7.5,
+    "ghsa": "GHSA-9xw5-w5jj-pvcg",
+    "date": "2026-10-20T19:52:09Z"
    },
    {
-    "title": "ApostropheCMS import-export: NoSQL injection via update-key value lets a crafted import match and overwrite an unidentified document",
-    "url": "https://github.com/advisories/GHSA-jqw5-w6h3-44g6",
-    "score": 5.4,
-    "ghsa": "GHSA-jqw5-w6h3-44g6",
-    "date": "2026-10-20T18:19:19Z"
+    "title": "launch-editor: Editor CLI flag misinterpretation causing arbitrary command execution for some editors",
+    "url": "https://github.com/advisories/GHSA-r825-w8mm-5pxw",
+    "score": null,
+    "ghsa": "GHSA-r825-w8mm-5pxw",
+    "date": "2026-10-20T19:51:52Z"
    },
    {
-    "title": "ApostropheCMS: Client-side Prototype Pollution in apos.http.parseQuery leading to DOM-based XSS against authenticated users",
-    "url": "https://github.com/advisories/GHSA-m2m5-rw3w-cwmj",
-    "score": 6.1,
-    "ghsa": "GHSA-m2m5-rw3w-cwmj",
-    "date": "2026-10-20T18:18:49Z"
+    "title": "launch-editor: `fs.existsSync()` existence check can be bypassed on Windows",
+    "url": "https://github.com/advisories/GHSA-587h-7wmj-h5pm",
+    "score": 7.5,
+    "ghsa": "GHSA-587h-7wmj-h5pm",
+    "date": "2026-10-20T19:48:25Z"
+   },
+   {
+    "title": "MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service",
+    "url": "https://github.com/advisories/GHSA-rvq5-wwqv-78pq",
+    "score": 6.8,
+    "ghsa": "GHSA-rvq5-wwqv-78pq",
+    "date": "2026-10-20T19:43:36Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Zeabur shutting down after second security breach in two months",
+    "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+    "date": "Tue, 20 Oct 2026 15:33:02 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
     "date": "Tue, 20 Oct 2026 14:11:03 -0400",
@@ -378,32 +385,25 @@
     "date": "Mon, 19 Oct 2026 15:40:58 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-    "date": "Mon, 19 Oct 2026 14:51:13 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1819,
+    "stars": 1820,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1451,
+    "stars": 1455,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 996,
+    "stars": 1000,
     "lang": "Python"
    },
    {
@@ -577,13 +577,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Free real-time Certificate Transparency stream, no API key",
-    "url": "https://www.reddit.com/r/netsec/comments/1xataea/free_realtime_certificate_transparency_stream_no/",
-    "date": "2026-10-20T14:14:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
     "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
     "date": "2026-10-20T12:21:14+00:00",
@@ -598,13 +591,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How practical is 100k requests per second? Introducing h3fuzz",
-    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
-    "date": "2026-10-20T11:09:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/",
     "date": "2026-10-20T12:55:10+00:00",
@@ -612,9 +598,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Warning claims two 10.0 RCEs affect PHP 5 and later",
-    "url": "https://www.reddit.com/r/netsec/comments/1xb1etm/warning_claims_two_100_rces_affect_php_5_and_later/",
-    "date": "2026-10-20T19:18:46+00:00",
+    "title": "How practical is 100k requests per second? Introducing h3fuzz",
+    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
+    "date": "2026-10-20T11:09:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-46633: Proving exploitability of Twig sandbox bypass",
+    "url": "https://www.reddit.com/r/netsec/comments/1xb2qvz/cve202646633_proving_exploitability_of_twig/",
+    "date": "2026-10-20T20:08:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -629,6 +622,13 @@
     "title": "CVE-2026-108097 Deep Dive: Turning a Drupal Field UI Callback Into RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x9q96y/cve2026108097_deep_dive_turning_a_drupal_field_ui/",
     "date": "2026-10-19T07:21:07+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "PhantomBuffer: Effective EDR Evasion Through Stealth Injection",
+    "url": "https://www.reddit.com/r/netsec/comments/1x8rwjz/phantombuffer_effective_edr_evasion_through/",
+    "date": "2026-10-18T02:30:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1748,
+  "kev": 1754,
   "adv": 12,
   "feed": 48
  },
