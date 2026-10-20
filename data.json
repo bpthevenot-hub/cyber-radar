@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T17:28:40.752Z",
+ "generatedAt": "2026-10-20T18:35:12.290Z",
  "sources": {
   "cve": [
    {
@@ -131,91 +131,98 @@
   ],
   "adv": [
    {
-    "title": "@angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
-    "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
-    "score": 7.5,
-    "ghsa": "GHSA-62vg-58rm-qff7",
-    "date": "2026-10-20T14:36:39Z"
-   },
-   {
-    "title": "Hono: `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths",
-    "url": "https://github.com/advisories/GHSA-5r4p-p66f-jhc7",
-    "score": 5.3,
-    "ghsa": "GHSA-5r4p-p66f-jhc7",
-    "date": "2026-10-20T14:36:11Z"
-   },
-   {
-    "title": "@angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
-    "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
+    "title": "launch-editor: escapeCmdArgs() omits % escaping on Windows",
+    "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
     "score": null,
-    "ghsa": "GHSA-w739-gvwx-grc3",
-    "date": "2026-10-20T14:35:49Z"
+    "ghsa": "GHSA-698v-4r3x-3vcv",
+    "date": "2026-10-20T18:30:24Z"
    },
    {
-    "title": "markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
-    "url": "https://github.com/advisories/GHSA-r7fv-28h4-cvq7",
-    "score": 7.5,
-    "ghsa": "GHSA-r7fv-28h4-cvq7",
-    "date": "2026-10-20T14:34:50Z"
+    "title": "MCP TypeScript SDK: Experimental tasks were not tied to the session that created them",
+    "url": "https://github.com/advisories/GHSA-22jm-h49p-29qw",
+    "score": 8.6,
+    "ghsa": "GHSA-22jm-h49p-29qw",
+    "date": "2026-10-20T18:26:54Z"
    },
    {
-    "title": "Compress/s2: Integer Overflow or Wraparound and Out-of-bounds Write in compress",
-    "url": "https://github.com/advisories/GHSA-259r-337f-4rfw",
-    "score": 7.5,
-    "ghsa": "GHSA-259r-337f-4rfw",
-    "date": "2026-10-20T14:33:33Z"
+    "title": "MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies",
+    "url": "https://github.com/advisories/GHSA-6prh-2h8m-c8cw",
+    "score": 6.5,
+    "ghsa": "GHSA-6prh-2h8m-c8cw",
+    "date": "2026-10-20T18:26:30Z"
    },
    {
-    "title": "Crass : Large numeric exponents cause CPU and memory denial of service",
-    "url": "https://github.com/advisories/GHSA-6wmf-3r64-vcwv",
-    "score": 7.5,
-    "ghsa": "GHSA-6wmf-3r64-vcwv",
-    "date": "2026-10-20T14:32:39Z"
+    "title": "ApostropheCMS: The general public can access @apostrophecms/user objects via a relationship (viewRole is not applied to the general public)",
+    "url": "https://github.com/advisories/GHSA-xf6w-q65w-4f2w",
+    "score": null,
+    "ghsa": "GHSA-xf6w-q65w-4f2w",
+    "date": "2026-10-20T18:26:02Z"
    },
    {
-    "title": "aiohttp server lacks an initial request/header timeout",
-    "url": "https://github.com/advisories/GHSA-5wr8-gcqf-gqf3",
-    "score": 7.5,
-    "ghsa": "GHSA-5wr8-gcqf-gqf3",
-    "date": "2026-10-19T17:08:04Z"
+    "title": "ApostropheCMS: Missing Authorization on Notification PATCH/DELETE Endpoints",
+    "url": "https://github.com/advisories/GHSA-vwwx-px9w-crrc",
+    "score": 3.7,
+    "ghsa": "GHSA-vwwx-px9w-crrc",
+    "date": "2026-10-20T18:25:38Z"
    },
    {
-    "title": "AIOHTTP: Secure attribute not enforced for shared cookie",
-    "url": "https://github.com/advisories/GHSA-494j-54xm-rwp3",
-    "score": 2,
-    "ghsa": "GHSA-494j-54xm-rwp3",
-    "date": "2026-10-19T17:07:47Z"
+    "title": "ApostropheCMS import-export tar guard misses './..' because it is a literal '../' substring test",
+    "url": "https://github.com/advisories/GHSA-97wv-p4xx-c7mg",
+    "score": null,
+    "ghsa": "GHSA-97wv-p4xx-c7mg",
+    "date": "2026-10-20T18:23:42Z"
    },
    {
-    "title": "aiohttp: Multiple instances of excessive or unbounded memory/CPU use",
-    "url": "https://github.com/advisories/GHSA-2g87-pp6c-29x5",
-    "score": 7.5,
-    "ghsa": "GHSA-2g87-pp6c-29x5",
-    "date": "2026-10-19T17:07:23Z"
+    "title": "ApostropheCMS: Path traversal in uploadfs",
+    "url": "https://github.com/advisories/GHSA-gmfx-5g6x-rr72",
+    "score": 3.3,
+    "ghsa": "GHSA-gmfx-5g6x-rr72",
+    "date": "2026-10-20T18:21:59Z"
    },
    {
-    "title": "russh: Unbounded memory allocation in agent protocol server via crafted constraint records",
-    "url": "https://github.com/advisories/GHSA-4wc5-f2rc-q74m",
+    "title": "ApostropheCMS sanitize-html: SMIL animation namespace-prefix bypass allows javascript: URI injection (XSS)",
+    "url": "https://github.com/advisories/GHSA-374f-7chj-9948",
+    "score": 3.7,
+    "ghsa": "GHSA-374f-7chj-9948",
+    "date": "2026-10-20T18:21:19Z"
+   },
+   {
+    "title": "ApostropheCMS uploadfs Azure backend leaks account-level SAS token into every public attachment URL (sas: true)",
+    "url": "https://github.com/advisories/GHSA-hhph-8536-gfq5",
+    "score": 5.6,
+    "ghsa": "GHSA-hhph-8536-gfq5",
+    "date": "2026-10-20T18:20:35Z"
+   },
+   {
+    "title": "ApostropheCMS: Authenticated Object-Level Authorization Bypass in exist-in-locale Reveals Restricted Localized Draft Identifiers",
+    "url": "https://github.com/advisories/GHSA-vmxh-77cw-65j7",
     "score": 4.3,
-    "ghsa": "GHSA-4wc5-f2rc-q74m",
-    "date": "2026-10-19T17:06:46Z"
+    "ghsa": "GHSA-vmxh-77cw-65j7",
+    "date": "2026-10-20T18:19:34Z"
    },
    {
-    "title": "A russh SSH server accepts a publickey authentication whose signature uses a different algorithm than the one named in the request",
-    "url": "https://github.com/advisories/GHSA-j7h2-66j4-ghjf",
-    "score": 2,
-    "ghsa": "GHSA-j7h2-66j4-ghjf",
-    "date": "2026-10-19T17:06:29Z"
+    "title": "ApostropheCMS import-export: NoSQL injection via update-key value lets a crafted import match and overwrite an unidentified document",
+    "url": "https://github.com/advisories/GHSA-jqw5-w6h3-44g6",
+    "score": 5.4,
+    "ghsa": "GHSA-jqw5-w6h3-44g6",
+    "date": "2026-10-20T18:19:19Z"
    },
    {
-    "title": "Mercury: Stored / DOM Cross-Site Scripting (XSS): mr.Markdown renders untrusted content as raw, unsanitized HTML",
-    "url": "https://github.com/advisories/GHSA-2658-85cv-9wwq",
+    "title": "ApostropheCMS: Client-side Prototype Pollution in apos.http.parseQuery leading to DOM-based XSS against authenticated users",
+    "url": "https://github.com/advisories/GHSA-m2m5-rw3w-cwmj",
     "score": 6.1,
-    "ghsa": "GHSA-2658-85cv-9wwq",
-    "date": "2026-10-19T17:01:20Z"
+    "ghsa": "GHSA-m2m5-rw3w-cwmj",
+    "date": "2026-10-20T18:18:49Z"
    }
   ],
   "thn": [
+   {
+    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+    "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+    "date": "Tue, 20 Oct 2026 22:39:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
     "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
@@ -292,16 +299,16 @@
     "date": "Tue, 20 Oct 2026 12:41:45 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-    "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-    "date": "Tue, 20 Oct 2026 11:23:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+    "date": "Tue, 20 Oct 2026 14:11:03 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "DHS bans DeepSeek products across US federal civilian agencies",
     "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
@@ -378,38 +385,31 @@
     "date": "Mon, 19 Oct 2026 14:51:13 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-    "date": "Mon, 19 Oct 2026 13:27:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1813,
+    "stars": 1814,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1443,
+    "stars": 1450,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 988,
+    "stars": 992,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 775,
+    "stars": 776,
     "lang": "TypeScript"
    },
    {
