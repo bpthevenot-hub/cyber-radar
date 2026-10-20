@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-20T09:32:29.719Z",
+ "generatedAt": "2026-10-20T10:28:43.047Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-43830 — Successful exploitation of the command injection vulnerability could allow an attacker to execute arbitrary commands during the firmware upg",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43830",
+    "score": 9.8,
+    "date": "2026-07-31T06:30:28Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-63209 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68290",
+    "title": "CVE-2026-43845 — A vulnerability in the password reset mechanism could allow an attacker to bypass the authentication mechanism.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43845",
+    "score": 9.5,
+    "date": "2026-10-20T09:31:08Z"
+   },
+   {
+    "title": "CVE-2026-43844 — A vulnerability in the proprietary protocol could allow an attacker to bypass the authentication mechanism.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43844",
+    "score": 9.5,
+    "date": "2026-10-20T09:31:08Z"
+   },
+   {
+    "title": "CVE-2026-43838 — A stack-based buffer overflow vulnerability in the login functionality could allow an attacker to achieve code execution.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43838",
+    "score": 9.5,
+    "date": "2026-10-20T09:31:06Z"
+   },
+   {
+    "title": "CVE-2026-43836 — A vulnerability could allow an attacker to forge a packet to execute arbitrary commands with maximum privileges.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43836",
+    "score": 9.5,
+    "date": "2026-10-20T09:31:05Z"
+   },
+   {
+    "title": "CVE-2026-113406 — BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113406",
     "score": 8.8,
-    "date": "2026-10-20T06:58:44+00:00"
+    "date": "2026-10-20T09:31:05Z"
    },
    {
-    "title": "CVE-2026-103484 — Red Hat Security Advisory: postgresql:18 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85814",
+    "title": "CVE-2026-113407 — BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113407",
     "score": 8.8,
-    "date": "2026-10-20T06:45:27+00:00"
+    "date": "2026-10-20T09:31:05Z"
    },
    {
-    "title": "CVE-2026-103484 — Red Hat Security Advisory: postgresql:16 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:85791",
+    "title": "CVE-2026-113405 — BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113405",
     "score": 8.8,
-    "date": "2026-10-20T06:45:17+00:00"
+    "date": "2026-10-20T09:31:05Z"
    },
    {
-    "title": "CVE-2026-93450 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74871",
-    "score": 8.2,
-    "date": "2026-10-20T06:59:04+00:00"
+    "title": "CVE-2026-113404 — WebITR developed by Uniong has a Insecure Deserialization vulnerability. Authenticated remote attackers can use the hard-coded cryptographic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113404",
+    "score": 8.8,
+    "date": "2026-10-20T09:31:04Z"
    },
    {
-    "title": "CVE-2026-63209 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72507",
-    "score": 8.1,
-    "date": "2026-10-20T06:59:02+00:00"
+    "title": "CVE-2026-111090 — A logic error exists in the signature verification routine resulting in acceptance of unauthenticated update and license files.It is necessa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111090",
+    "score": 7.8,
+    "date": "2026-10-20T09:31:04Z"
    },
    {
-    "title": "CVE-2026-56851 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72750",
-    "score": 8.1,
-    "date": "2026-10-20T06:59:00+00:00"
-   },
-   {
-    "title": "CVE-2026-61709 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72498",
-    "score": 8.1,
-    "date": "2026-10-20T06:58:58+00:00"
-   },
-   {
-    "title": "CVE-2026-97394 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82637",
+    "title": "CVE-2026-43846 — A stack-based buffer overflow vulnerability in a non-functional feature could allow an authenticated attacker to achieve code execution.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43846",
     "score": 7.5,
-    "date": "2026-10-20T06:59:05+00:00"
+    "date": "2026-10-20T09:31:09Z"
    },
    {
-    "title": "CVE-2024-24786 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76677",
+    "title": "CVE-2026-43847 — A vulnerability in the proprietary protocol could allow an attacker to brute force the administrator password without restrictions, even whe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43847",
     "score": 7.5,
-    "date": "2026-10-20T06:59:04+00:00"
-   },
-   {
-    "title": "CVE-2026-9496 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72497",
-    "score": 7.5,
-    "date": "2026-10-20T06:59:02+00:00"
-   },
-   {
-    "title": "CVE-2024-24786 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72570",
-    "score": 7.5,
-    "date": "2026-10-20T06:59:00+00:00"
-   },
-   {
-    "title": "CVE-2024-24786 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:72496",
-    "score": 7.5,
-    "date": "2026-10-20T06:58:57+00:00"
+    "date": "2026-10-20T09:31:09Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+    "date": "Tue, 20 Oct 2026 13:51:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
     "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
     "date": "Tue, 20 Oct 2026 12:41:45 +0530",
@@ -364,16 +371,16 @@
     "date": "Mon, 19 Oct 2026 11:37:08 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-    "date": "Sun, 18 Oct 2026 13:53:02 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Revolut outage disrupts online banking operations worldwide",
+    "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+    "date": "Tue, 20 Oct 2026 05:46:44 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
     "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
@@ -450,32 +457,25 @@
     "date": "Sun, 18 Oct 2026 10:23:16 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-    "date": "Sat, 17 Oct 2026 11:18:51 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1769,
+    "stars": 1774,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1389,
+    "stars": 1398,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 950,
+    "stars": 952,
     "lang": "—"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 762,
+    "stars": 764,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
     "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 432,
+    "stars": 434,
     "lang": "—"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
     "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 314,
+    "stars": 313,
     "lang": "Python"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1748,
   "adv": 12,
   "feed": 48
