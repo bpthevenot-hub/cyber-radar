@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T15:29:32.254Z",
+ "generatedAt": "2026-10-20T16:32:15.282Z",
  "sources": {
   "cve": [
    {
@@ -217,6 +217,20 @@
   ],
   "thn": [
    {
+    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+    "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+    "date": "Tue, 20 Oct 2026 21:08:52 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+    "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+    "date": "Tue, 20 Oct 2026 21:02:27 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
     "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
     "date": "Tue, 20 Oct 2026 19:37:17 +0530",
@@ -283,20 +297,6 @@
     "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
     "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
     "date": "Tue, 20 Oct 2026 11:23:16 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-    "date": "Tue, 20 Oct 2026 09:35:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-    "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-    "date": "Mon, 19 Oct 2026 23:02:13 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,19 +391,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1813,
+    "stars": 1816,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1425,
+    "stars": 1432,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 981,
+    "stars": 984,
     "lang": "Python"
    },
    {
@@ -431,16 +431,16 @@
     "lang": "TypeScript"
    },
    {
-    "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
-    "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 467,
-    "lang": "—"
-   },
-   {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
     "stars": 448,
     "lang": "Rust"
+   },
+   {
+    "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
+    "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
+    "stars": 426,
+    "lang": "—"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
@@ -577,13 +577,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
-    "date": "2026-10-20T12:21:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "All vulnerabilities are now race conditions",
     "url": "https://www.reddit.com/r/netsec/comments/1xasi1c/all_vulnerabilities_are_now_race_conditions/",
     "date": "2026-10-20T13:42:36+00:00",
@@ -591,9 +584,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
+    "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
+    "date": "2026-10-20T12:21:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "How practical is 100k requests per second? Introducing h3fuzz",
     "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
     "date": "2026-10-20T11:09:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The OffiDocs Browser Extension Campaign",
+    "url": "https://www.reddit.com/r/netsec/comments/1xaw75e/the_offidocs_browser_extension_campaign/",
+    "date": "2026-10-20T16:06:02+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,13 +629,6 @@
     "title": "PhantomBuffer: Effective EDR Evasion Through Stealth Injection",
     "url": "https://www.reddit.com/r/netsec/comments/1x8rwjz/phantombuffer_effective_edr_evasion_through/",
     "date": "2026-10-18T02:30:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7cvh3/pwnescape_guesttohost_kvm_escape_cve202699999/",
-    "date": "2026-10-16T10:42:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
