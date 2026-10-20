@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-10-20T14:30:11.912Z",
+ "generatedAt": "2026-10-20T15:29:32.254Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-113389 — A vulnerability was detected in DrayTek Vigor2960 1.5.1.6 Revision 8218. Affected by this vulnerability is the function set_table of the fil",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113389",
-    "score": 9.9,
-    "date": "2026-10-20T12:31:37Z"
-   },
-   {
-    "title": "CVE-2026-105312 — A Kubernetes tenant with create permission on Console custom resources can set spec.containers.api.spec.image to an arbitrary container imag",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105312",
-    "score": 9.9,
-    "date": "2026-10-20T12:31:36Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-9589 — Missing authorization in the configuration cascade operations of the Collaboration Server in Unblu inc. Unblu Spark 7.0 through 8.36.1-hotfi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9589",
-    "score": 9.5,
-    "date": "2026-10-20T12:31:36Z"
-   },
-   {
-    "title": "CVE-2026-105949 — Cruise Control's Jetty ConstraintSecurityHandler registers security constraints on exact path specs without a catch-all wildcard constraint ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105949",
-    "score": 8.8,
-    "date": "2026-10-20T12:31:37Z"
-   },
-   {
-    "title": "CVE-2026-105311 — The StreamsHub Console operator acts as a confused deputy: a Kubernetes tenant with permission to create a Console custom resource can set s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105311",
-    "score": 7.7,
-    "date": "2026-10-20T12:31:36Z"
-   },
-   {
-    "title": "CVE-2026-14933 — Cross-site scripting in the embedded co-browsing feature in Unblu inc. Unblu Spark 7.0 through 7.57.7 and 8.0 through 8.39.2, on on-premises",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14933",
-    "score": 7.5,
-    "date": "2026-10-20T12:31:38Z"
-   },
-   {
-    "title": "CVE-2026-113358 — LavaLite CMS through 10.1.2 contains a missing authentication vulnerability in the Filer module that allows unauthenticated attackers to dow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113358",
-    "score": 7.5,
-    "date": "2026-10-20T12:31:35Z"
-   },
-   {
-    "title": "CVE-2026-113352 — uTox through 0.18.1 contains a path traversal vulnerability that allows Tox friends to write arbitrary files by sending absolute or ../ file",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113352",
-    "score": 7.5,
-    "date": "2026-10-20T12:31:35Z"
-   },
-   {
-    "title": "CVE-2026-20327 — Cisco Unified Intelligence Center SQL Injection Vulnerability",
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5",
-    "score": 6.5,
-    "date": "2026-10-20T12:53:16+00:00"
-   },
-   {
-    "title": "CVE-2026-113382 — A security vulnerability has been detected in arizu-id fast-tunnel 1.0.0. Affected by this issue is the function ZipArchive::extractTo of th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113382",
-    "score": 6.3,
-    "date": "2026-10-20T12:31:36Z"
-   },
-   {
-    "title": "CVE-2026-18205 — Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Ticimax Informatics Technologies Inc. ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18205",
-    "score": 6.1,
-    "date": "2026-10-20T12:31:38Z"
-   },
-   {
-    "title": "CVE-2026-113583 — Cypht webmail 2.0.0 through 2.12.2 contains a DOM-based cross-site scripting vulnerability that allows remote attackers to execute arbitrary",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113583",
-    "score": 6.1,
-    "date": "2026-10-20T12:31:37Z"
    }
   ],
   "kev": [
@@ -203,6 +131,48 @@
   ],
   "adv": [
    {
+    "title": "@angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
+    "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
+    "score": 7.5,
+    "ghsa": "GHSA-62vg-58rm-qff7",
+    "date": "2026-10-20T14:36:39Z"
+   },
+   {
+    "title": "Hono: `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths",
+    "url": "https://github.com/advisories/GHSA-5r4p-p66f-jhc7",
+    "score": 5.3,
+    "ghsa": "GHSA-5r4p-p66f-jhc7",
+    "date": "2026-10-20T14:36:11Z"
+   },
+   {
+    "title": "@angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
+    "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
+    "score": null,
+    "ghsa": "GHSA-w739-gvwx-grc3",
+    "date": "2026-10-20T14:35:49Z"
+   },
+   {
+    "title": "markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
+    "url": "https://github.com/advisories/GHSA-r7fv-28h4-cvq7",
+    "score": 7.5,
+    "ghsa": "GHSA-r7fv-28h4-cvq7",
+    "date": "2026-10-20T14:34:50Z"
+   },
+   {
+    "title": "Compress/s2: Integer Overflow or Wraparound and Out-of-bounds Write in compress",
+    "url": "https://github.com/advisories/GHSA-259r-337f-4rfw",
+    "score": 7.5,
+    "ghsa": "GHSA-259r-337f-4rfw",
+    "date": "2026-10-20T14:33:33Z"
+   },
+   {
+    "title": "Crass : Large numeric exponents cause CPU and memory denial of service",
+    "url": "https://github.com/advisories/GHSA-6wmf-3r64-vcwv",
+    "score": 7.5,
+    "ghsa": "GHSA-6wmf-3r64-vcwv",
+    "date": "2026-10-20T14:32:39Z"
+   },
+   {
     "title": "aiohttp server lacks an initial request/header timeout",
     "url": "https://github.com/advisories/GHSA-5wr8-gcqf-gqf3",
     "score": 7.5,
@@ -243,51 +213,16 @@
     "score": 6.1,
     "ghsa": "GHSA-2658-85cv-9wwq",
     "date": "2026-10-19T17:01:20Z"
-   },
-   {
-    "title": "Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass",
-    "url": "https://github.com/advisories/GHSA-f8c7-rwf9-fmgm",
-    "score": 10,
-    "ghsa": "GHSA-f8c7-rwf9-fmgm",
-    "date": "2026-10-19T17:00:54Z"
-   },
-   {
-    "title": "agent-router: MCP session resume does not verify the embedded anti-hijacking subject; default Helm seed makes session IDs forgeable",
-    "url": "https://github.com/advisories/GHSA-953h-535j-jg2v",
-    "score": null,
-    "ghsa": "GHSA-953h-535j-jg2v",
-    "date": "2026-10-19T16:53:26Z"
-   },
-   {
-    "title": "Graphify Fortran extractor: incomplete cpp #include hardening allows arbitrary host-file read/exfiltration when indexing an untrusted repo",
-    "url": "https://github.com/advisories/GHSA-pcc4-rvhr-2pr8",
-    "score": null,
-    "ghsa": "GHSA-pcc4-rvhr-2pr8",
-    "date": "2026-10-19T16:51:36Z"
-   },
-   {
-    "title": "Mercury: Unauthenticated Remote Code Execution via /api/kernels",
-    "url": "https://github.com/advisories/GHSA-rv4m-xm3f-3ccq",
-    "score": 9.8,
-    "ghsa": "GHSA-rv4m-xm3f-3ccq",
-    "date": "2026-10-19T16:49:08Z"
-   },
-   {
-    "title": "LoopX serve-status permissive CORS policy exposes control-plane state and private Markdown files",
-    "url": "https://github.com/advisories/GHSA-vx2m-gpq4-8j5q",
-    "score": 7.5,
-    "ghsa": "GHSA-vx2m-gpq4-8j5q",
-    "date": "2026-10-19T16:11:57Z"
-   },
-   {
-    "title": "Arcane: Delegated users:update permission allows admin account takeover via password reset (no privilege-hierarchy check)",
-    "url": "https://github.com/advisories/GHSA-pw5q-rjx4-7f7p",
-    "score": 8.8,
-    "ghsa": "GHSA-pw5q-rjx4-7f7p",
-    "date": "2026-10-16T21:15:03Z"
    }
   ],
   "thn": [
+   {
+    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+    "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+    "date": "Tue, 20 Oct 2026 19:37:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
     "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
@@ -362,13 +297,6 @@
     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
     "date": "Mon, 19 Oct 2026 23:02:13 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-    "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-    "date": "Mon, 19 Oct 2026 21:58:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +391,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1806,
+    "stars": 1813,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1420,
+    "stars": 1425,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 973,
+    "stars": 981,
     "lang": "Python"
    },
    {
@@ -505,7 +433,7 @@
    {
     "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
     "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 458,
+    "stars": 467,
     "lang": "—"
    },
    {
@@ -642,20 +570,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
-    "date": "2026-10-20T12:21:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How practical is 100k requests per second? Introducing h3fuzz",
-    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
-    "date": "2026-10-20T11:09:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Free real-time Certificate Transparency stream, no API key",
     "url": "https://www.reddit.com/r/netsec/comments/1xataea/free_realtime_certificate_transparency_stream_no/",
     "date": "2026-10-20T14:14:48+00:00",
@@ -663,9 +577,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
+    "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
+    "date": "2026-10-20T12:21:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "All vulnerabilities are now race conditions",
     "url": "https://www.reddit.com/r/netsec/comments/1xasi1c/all_vulnerabilities_are_now_race_conditions/",
     "date": "2026-10-20T13:42:36+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "How practical is 100k requests per second? Introducing h3fuzz",
+    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
+    "date": "2026-10-20T11:09:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1748,
   "adv": 12,
   "feed": 48
