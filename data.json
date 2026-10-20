@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T13:31:57.627Z",
+ "generatedAt": "2026-10-20T14:30:11.912Z",
  "sources": {
   "cve": [
    {
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+    "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+    "date": "Tue, 20 Oct 2026 18:29:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
     "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
     "date": "Tue, 20 Oct 2026 17:11:06 +0530",
@@ -364,16 +371,23 @@
     "date": "Mon, 19 Oct 2026 21:58:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-    "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-    "date": "Mon, 19 Oct 2026 19:44:07 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "DHS bans DeepSeek products across US federal civilian agencies",
+    "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+    "date": "Tue, 20 Oct 2026 10:19:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+    "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+    "date": "Tue, 20 Oct 2026 09:51:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
     "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
@@ -443,45 +457,31 @@
     "date": "Mon, 19 Oct 2026 13:27:15 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft fixes game, app crashes caused by recent Windows update",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
-    "date": "Mon, 19 Oct 2026 10:55:23 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Inside the Underground Market for Know Your Client Services",
-    "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-    "date": "Mon, 19 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1801,
+    "stars": 1806,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1416,
+    "stars": 1420,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 969,
-    "lang": "—"
+    "stars": 973,
+    "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 775,
+    "stars": 776,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
     "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 453,
+    "stars": 458,
     "lang": "—"
    },
    {
@@ -635,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How I got over 300 Tor exit nodes removed",
+    "url": "https://www.reddit.com/r/netsec/comments/1xasa1k/how_i_got_over_300_tor_exit_nodes_removed/",
+    "date": "2026-10-20T13:33:05+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
     "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
     "date": "2026-10-20T12:21:14+00:00",
@@ -649,9 +656,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Unauthenticated SQL injection in GLPI (≤ 11.0.8)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaljvx/unauthenticated_sql_injection_in_glpi_1108/",
-    "date": "2026-10-20T07:19:55+00:00",
+    "title": "Free real-time Certificate Transparency stream, no API key",
+    "url": "https://www.reddit.com/r/netsec/comments/1xataea/free_realtime_certificate_transparency_stream_no/",
+    "date": "2026-10-20T14:14:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "All vulnerabilities are now race conditions",
+    "url": "https://www.reddit.com/r/netsec/comments/1xasi1c/all_vulnerabilities_are_now_race_conditions/",
+    "date": "2026-10-20T13:42:36+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -659,6 +673,13 @@
     "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/",
     "date": "2026-10-20T12:55:10+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Unauthenticated SQL injection in GLPI (≤ 11.0.8)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xaljvx/unauthenticated_sql_injection_in_glpi_1108/",
+    "date": "2026-10-20T07:19:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -680,27 +701,6 @@
     "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
     "url": "https://www.reddit.com/r/netsec/comments/1x7cvh3/pwnescape_guesttohost_kvm_escape_cve202699999/",
     "date": "2026-10-16T10:42:41+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "16% of RPKI-covered IPv4 routes still allow a forged-origin hijack that passes validation, the setup behind the Virtualizor update attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7i0l6/16_of_rpkicovered_ipv4_routes_still_allow_a/",
-    "date": "2026-10-16T14:40:18+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-108082: Symfony ReDoS. One request. Seconds of CPU",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7httc/cve2026108082_symfony_redos_one_request_seconds/",
-    "date": "2026-10-16T14:32:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware",
-    "url": "https://www.reddit.com/r/netsec/comments/1x6v1te/exposing_adfection_how_discovertech_turned/",
-    "date": "2026-10-15T19:26:09+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
