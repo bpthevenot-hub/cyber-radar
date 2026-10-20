@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-10-20T11:28:40.537Z",
+ "generatedAt": "2026-10-20T12:41:17.833Z",
  "sources": {
   "cve": [
    {
-    "title": "RUSTSEC-2026-0380 — Bit-packing in Cranelift compiler causes silent overflow and miscompilation",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0380",
-    "score": 9.9,
-    "date": "2026-10-19T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0379 — Cranelift backend on aarch64 can jump to incorrect target on large Wasm `br_table` instruction",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0379",
-    "score": 9.9,
-    "date": "2026-10-19T12:00:00Z"
+    "title": "CVE-2025-15467 — Multiple OpenSSL vulnerabilities affect Festo AX OS in CEPE (+1 CVE)",
+    "url": "https://festo.csaf-tp.certvde.com/.well-known/csaf/white/2026/fsa-202602.json",
+    "score": 9.8,
+    "date": "2026-10-20T12:00:00.000Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,52 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-13196 — Pilz: Vulnerabilities in 'piControl' kernel module for Industrial PC IndustrialPI (+2 CVE)",
-    "url": "https://certvde.com/en/advisories/VDE-2026-100/",
-    "score": 7.8,
-    "date": "2026-10-20T11:00:00.000Z"
+    "title": "CVE-2026-10050 — Red Hat Security Advisory: Red Hat build of Debezium 3.6.3 release (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83612",
+    "score": 9.1,
+    "date": "2026-10-20T11:22:02+00:00"
    },
    {
-    "title": "CVE-2026-57469 — Pilz: Vulnerabilities in 'PiCtory' and 'RevPiPyLoad' for Industrial PC IndustrialPI (+2 CVE)",
-    "url": "https://certvde.com/en/advisories/VDE-2026-101/",
-    "score": 7.1,
-    "date": "2026-10-20T11:00:00.000Z"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:08+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0375 — `wasi-http` p3: Guests can set incorrect content-length for spliced response bodies",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0375",
-    "score": 5.3,
-    "date": "2026-10-19T12:00:00Z"
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:08+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0377 — `wasi-http` p3: forwarded trailers aren't checked against `is_forbidden_header` hook",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0377",
-    "score": 3.7,
-    "date": "2026-10-19T12:00:00Z"
+    "title": "CVE-2026-52935 — Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85774",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:04+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0376 — `wasi-http`: Guests can add conflicting content lengths to messages",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0376",
-    "score": 3.7,
-    "date": "2026-10-19T12:00:00Z"
+    "title": "CVE-2026-52935 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85773",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:03+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0378 — Panic lowering a host-created component model stream into a guest that expects a different payload type",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0378",
-    "score": null,
-    "date": "2026-10-19T12:00:00Z"
+    "title": "CVE-2026-103484 — Red Hat Security Advisory: postgresql:18 security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85814",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:02+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0374 — `basic-toml` is unmaintained",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0374",
-    "score": null,
-    "date": "2026-09-26T12:00:00Z"
+    "title": "CVE-2026-103484 — Red Hat Security Advisory: postgresql:16 security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85791",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:02+00:00"
    },
    {
-    "title": "RUSTSEC-2026-0262 — `append-only-vec` 0.1.9 was removed from crates.io due to a malicious dependency",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0262",
-    "score": null,
-    "date": "2026-08-20T12:00:00Z"
+    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85321",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:02+00:00"
+   },
+   {
+    "title": "CVE-2025-40149 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+37 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76739",
+    "score": 8.8,
+    "date": "2026-10-20T11:22:00+00:00"
+   },
+   {
+    "title": "CVE-2026-23172 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68570",
+    "score": 8.8,
+    "date": "2026-10-20T11:21:53+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: yggdrasil security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67134",
+    "score": 8.8,
+    "date": "2026-10-20T11:21:53+00:00"
    }
   ],
   "kev": [
@@ -277,6 +289,41 @@
   ],
   "thn": [
    {
+    "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+    "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+    "date": "Tue, 20 Oct 2026 17:11:06 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "What Security Teams Can Do To Tame Wild Code",
+    "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+    "date": "Tue, 20 Oct 2026 17:03:04 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+    "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+    "date": "Tue, 20 Oct 2026 17:02:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+    "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+    "date": "Tue, 20 Oct 2026 16:36:25 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+    "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+    "date": "Tue, 20 Oct 2026 16:26:08 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
     "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
     "date": "Tue, 20 Oct 2026 13:51:29 +0530",
@@ -324,44 +371,23 @@
     "date": "Mon, 19 Oct 2026 19:44:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-    "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-    "date": "Mon, 19 Oct 2026 18:35:45 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-    "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-    "date": "Mon, 19 Oct 2026 17:20:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-    "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-    "date": "Mon, 19 Oct 2026 15:36:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-    "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-    "date": "Mon, 19 Oct 2026 11:59:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-    "date": "Mon, 19 Oct 2026 11:37:08 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "date": "Tue, 20 Oct 2026 07:31:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Windows Server 2025 gets support for quick machine recovery",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+    "date": "Tue, 20 Oct 2026 07:21:42 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
     "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
@@ -431,39 +457,25 @@
     "date": "Mon, 19 Oct 2026 09:49:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-    "date": "Mon, 19 Oct 2026 08:44:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-    "date": "Mon, 19 Oct 2026 04:58:41 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1785,
+    "stars": 1797,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1403,
+    "stars": 1412,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 955,
+    "stars": 964,
     "lang": "—"
    },
    {
@@ -475,7 +487,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 764,
+    "stars": 766,
     "lang": "Python"
    },
    {
@@ -491,16 +503,16 @@
     "lang": "TypeScript"
    },
    {
+    "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
+    "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
+    "stars": 450,
+    "lang": "—"
+   },
+   {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
     "stars": 445,
     "lang": "Rust"
-   },
-   {
-    "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
-    "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 442,
-    "lang": "—"
    },
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
@@ -623,16 +635,23 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Unauthenticated SQL injection in GLPI (≤ 11.0.8)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaljvx/unauthenticated_sql_injection_in_glpi_1108/",
-    "date": "2026-10-20T07:19:55+00:00",
+    "title": "How practical is 100k requests per second? Introducing h3fuzz",
+    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
+    "date": "2026-10-20T11:09:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How practical is 100k requests per second? Introducing h3fuzz",
-    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
-    "date": "2026-10-20T11:09:48+00:00",
+    "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
+    "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
+    "date": "2026-10-20T12:21:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Unauthenticated SQL injection in GLPI (≤ 11.0.8)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xaljvx/unauthenticated_sql_injection_in_glpi_1108/",
+    "date": "2026-10-20T07:19:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -682,13 +701,6 @@
     "title": "Web Environment Integrity vs. Private Access Tokens - They're the same thing!",
     "url": "https://www.reddit.com/r/netsec/comments/1x7eg0y/web_environment_integrity_vs_private_access/",
     "date": "2026-10-16T12:07:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The Cloudflare Appstore (Appflare) Malware Audit",
-    "url": "https://www.reddit.com/r/netsec/comments/1x7fpdw/the_cloudflare_appstore_appflare_malware_audit/",
-    "date": "2026-10-16T13:05:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
