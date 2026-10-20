@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-10-20T10:28:43.047Z",
+ "generatedAt": "2026-10-20T11:28:40.537Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-43830 — Successful exploitation of the command injection vulnerability could allow an attacker to execute arbitrary commands during the firmware upg",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43830",
-    "score": 9.8,
-    "date": "2026-07-31T06:30:28Z"
+    "title": "RUSTSEC-2026-0380 — Bit-packing in Cranelift compiler causes silent overflow and miscompilation",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0380",
+    "score": 9.9,
+    "date": "2026-10-19T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0379 — Cranelift backend on aarch64 can jump to incorrect target on large Wasm `br_table` instruction",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0379",
+    "score": 9.9,
+    "date": "2026-10-19T12:00:00Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-43845 — A vulnerability in the password reset mechanism could allow an attacker to bypass the authentication mechanism.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43845",
-    "score": 9.5,
-    "date": "2026-10-20T09:31:08Z"
-   },
-   {
-    "title": "CVE-2026-43844 — A vulnerability in the proprietary protocol could allow an attacker to bypass the authentication mechanism.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43844",
-    "score": 9.5,
-    "date": "2026-10-20T09:31:08Z"
-   },
-   {
-    "title": "CVE-2026-43838 — A stack-based buffer overflow vulnerability in the login functionality could allow an attacker to achieve code execution.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43838",
-    "score": 9.5,
-    "date": "2026-10-20T09:31:06Z"
-   },
-   {
-    "title": "CVE-2026-43836 — A vulnerability could allow an attacker to forge a packet to execute arbitrary commands with maximum privileges.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43836",
-    "score": 9.5,
-    "date": "2026-10-20T09:31:05Z"
-   },
-   {
-    "title": "CVE-2026-113406 — BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113406",
-    "score": 8.8,
-    "date": "2026-10-20T09:31:05Z"
-   },
-   {
-    "title": "CVE-2026-113407 — BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113407",
-    "score": 8.8,
-    "date": "2026-10-20T09:31:05Z"
-   },
-   {
-    "title": "CVE-2026-113405 — BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113405",
-    "score": 8.8,
-    "date": "2026-10-20T09:31:05Z"
-   },
-   {
-    "title": "CVE-2026-113404 — WebITR developed by Uniong has a Insecure Deserialization vulnerability. Authenticated remote attackers can use the hard-coded cryptographic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113404",
-    "score": 8.8,
-    "date": "2026-10-20T09:31:04Z"
-   },
-   {
-    "title": "CVE-2026-111090 — A logic error exists in the signature verification routine resulting in acceptance of unauthenticated update and license files.It is necessa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111090",
+    "title": "CVE-2026-13196 — Pilz: Vulnerabilities in 'piControl' kernel module for Industrial PC IndustrialPI (+2 CVE)",
+    "url": "https://certvde.com/en/advisories/VDE-2026-100/",
     "score": 7.8,
-    "date": "2026-10-20T09:31:04Z"
+    "date": "2026-10-20T11:00:00.000Z"
    },
    {
-    "title": "CVE-2026-43846 — A stack-based buffer overflow vulnerability in a non-functional feature could allow an authenticated attacker to achieve code execution.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43846",
-    "score": 7.5,
-    "date": "2026-10-20T09:31:09Z"
+    "title": "CVE-2026-57469 — Pilz: Vulnerabilities in 'PiCtory' and 'RevPiPyLoad' for Industrial PC IndustrialPI (+2 CVE)",
+    "url": "https://certvde.com/en/advisories/VDE-2026-101/",
+    "score": 7.1,
+    "date": "2026-10-20T11:00:00.000Z"
    },
    {
-    "title": "CVE-2026-43847 — A vulnerability in the proprietary protocol could allow an attacker to brute force the administrator password without restrictions, even whe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43847",
-    "score": 7.5,
-    "date": "2026-10-20T09:31:09Z"
+    "title": "RUSTSEC-2026-0375 — `wasi-http` p3: Guests can set incorrect content-length for spliced response bodies",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0375",
+    "score": 5.3,
+    "date": "2026-10-19T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0377 — `wasi-http` p3: forwarded trailers aren't checked against `is_forbidden_header` hook",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0377",
+    "score": 3.7,
+    "date": "2026-10-19T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0376 — `wasi-http`: Guests can add conflicting content lengths to messages",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0376",
+    "score": 3.7,
+    "date": "2026-10-19T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0378 — Panic lowering a host-created component model stream into a guest that expects a different payload type",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0378",
+    "score": null,
+    "date": "2026-10-19T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0374 — `basic-toml` is unmaintained",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0374",
+    "score": null,
+    "date": "2026-09-26T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0262 — `append-only-vec` 0.1.9 was removed from crates.io due to a malicious dependency",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0262",
+    "score": null,
+    "date": "2026-08-20T12:00:00Z"
    }
   ],
   "kev": [
@@ -375,6 +363,13 @@
   ],
   "bleep": [
    {
+    "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+    "date": "Tue, 20 Oct 2026 07:18:35 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Revolut outage disrupts online banking operations worldwide",
     "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
     "date": "Tue, 20 Oct 2026 05:46:44 -0400",
@@ -450,32 +445,25 @@
     "date": "Mon, 19 Oct 2026 04:58:41 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-    "date": "Sun, 18 Oct 2026 10:23:16 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1774,
+    "stars": 1785,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1398,
+    "stars": 1403,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 952,
+    "stars": 955,
     "lang": "—"
    },
    {
@@ -511,7 +499,7 @@
    {
     "title": "AndreSzymanski15/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, per",
     "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
-    "stars": 434,
+    "stars": 442,
     "lang": "—"
    },
    {
@@ -642,6 +630,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How practical is 100k requests per second? Introducing h3fuzz",
+    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
+    "date": "2026-10-20T11:09:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "CVE-2026-108097 Deep Dive: Turning a Drupal Field UI Callback Into RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1x9q96y/cve2026108097_deep_dive_turning_a_drupal_field_ui/",
     "date": "2026-10-19T07:21:07+00:00",
@@ -696,13 +691,6 @@
     "date": "2026-10-16T13:05:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "AhsayCBS Deep-Dive: Auth Bypass to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1x5wiyi/ahsaycbs_deepdive_auth_bypass_to_rce/",
-    "date": "2026-10-14T16:54:16+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +705,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 4,
   "kev": 1748,
   "adv": 12,
   "feed": 48
