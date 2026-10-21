@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T11:29:32.731Z",
+ "generatedAt": "2026-10-21T12:41:32.080Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1328",
+    "score": 7.5,
+    "date": "2026-10-21T11:22:02+00:00"
+   },
+   {
+    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.10.55 security update",
+    "url": "https://access.redhat.com/errata/RHSA-2023:1392",
+    "score": 6.5,
+    "date": "2026-10-21T11:22:04+00:00"
    }
   ],
   "kev": [
@@ -303,6 +315,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+    "date": "Wed, 21 Oct 2026 08:20:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft says October updates didn’t actually fix VPN issues",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
     "date": "Wed, 21 Oct 2026 06:14:53 -0400",
@@ -378,44 +397,37 @@
     "date": "Tue, 20 Oct 2026 08:16:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-    "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-    "date": "Tue, 20 Oct 2026 07:31:22 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1877,
+    "stars": 1879,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1522,
+    "stars": 1528,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1037,
+    "stars": 1038,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 779,
+    "stars": 781,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 765,
+    "stars": 766,
     "lang": "Python"
    },
    {
@@ -439,13 +451,13 @@
    {
     "title": "nmatt0/moria — IoT firmware identification and extraction",
     "url": "https://github.com/nmatt0/moria",
-    "stars": 426,
+    "stars": 427,
     "lang": "C++"
    },
    {
     "title": "nmatt0/mithril — IoT static scanner for secrets, SBOM, CVEs and more.",
     "url": "https://github.com/nmatt0/mithril",
-    "stars": 368,
+    "stars": 369,
     "lang": "C++"
    },
    {
@@ -457,7 +469,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 261,
+    "stars": 262,
     "lang": "Java"
    }
   ],
@@ -505,6 +517,13 @@
     "date": "2013-11-06T04:51:41Z"
    },
    {
+    "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+    "url": "https://news-web.php.net/php.announce/509",
+    "points": 1178,
+    "comments": 475,
+    "date": "2026-10-20T20:15:50Z"
+   },
+   {
     "title": "Senators push to ditch social security numbers in light of Equifax hack",
     "url": "https://techcrunch.com/2017/11/08/are-social-security-numbers-going-away/",
     "points": 1126,
@@ -538,13 +557,6 @@
     "points": 1009,
     "comments": 280,
     "date": "2016-12-15T03:19:38Z"
-   },
-   {
-    "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-    "url": "https://news-web.php.net/php.announce/509",
-    "points": 1007,
-    "comments": 411,
-    "date": "2026-10-20T20:15:50Z"
    }
   ],
   "reddit": [
