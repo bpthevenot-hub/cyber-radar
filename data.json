@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T19:25:49.090Z",
+ "generatedAt": "2026-10-21T20:30:00.530Z",
  "sources": {
   "cve": [
    {
@@ -155,6 +155,76 @@
   ],
   "adv": [
    {
+    "title": "Pillow: Invalid free in FreeType glyph rendering when a stroker is active",
+    "url": "https://github.com/advisories/GHSA-j4m9-6w36-pw47",
+    "score": 7.5,
+    "ghsa": "GHSA-j4m9-6w36-pw47",
+    "date": "2026-10-21T20:06:34Z"
+   },
+   {
+    "title": "Pillow: Double free in ImagingScaleAffine on calloc failure via Image.transform",
+    "url": "https://github.com/advisories/GHSA-7mwm-ghpf-9vrm",
+    "score": 7.5,
+    "ghsa": "GHSA-7mwm-ghpf-9vrm",
+    "date": "2026-10-21T20:03:56Z"
+   },
+   {
+    "title": "Pillow: P;2L and P;4L decoders may read 1 to 3 bytes past the passed buffer size",
+    "url": "https://github.com/advisories/GHSA-4558-3h8r-v8xp",
+    "score": null,
+    "ghsa": "GHSA-4558-3h8r-v8xp",
+    "date": "2026-10-21T20:00:32Z"
+   },
+   {
+    "title": "Pillow: Argument Injection in Ghostscript call, potentially leading into RCE",
+    "url": "https://github.com/advisories/GHSA-w889-685w-c8fh",
+    "score": 9.5,
+    "ghsa": "GHSA-w889-685w-c8fh",
+    "date": "2026-10-21T19:58:44Z"
+   },
+   {
+    "title": "pypdf: Unvalidated JPEG image data loading",
+    "url": "https://github.com/advisories/GHSA-5hx5-vpf9-5wcv",
+    "score": 2,
+    "ghsa": "GHSA-5hx5-vpf9-5wcv",
+    "date": "2026-10-21T19:58:10Z"
+   },
+   {
+    "title": "Vitest: Servers misapply `server.fs.deny`, serving `.env`, private keys, `.git`, and the API token file",
+    "url": "https://github.com/advisories/GHSA-p458-7748-mcp3",
+    "score": 6.5,
+    "ghsa": "GHSA-p458-7748-mcp3",
+    "date": "2026-10-21T19:57:00Z"
+   },
+   {
+    "title": "Vitest: Code injection via unauthenticated manual mock registration",
+    "url": "https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
+    "score": 4.7,
+    "ghsa": "GHSA-qxg6-89mg-rqv8",
+    "date": "2026-10-21T19:54:26Z"
+   },
+   {
+    "title": "Vitest: Windows backslash traversal bypasses the @vitest/mocker redirect allowlist fix",
+    "url": "https://github.com/advisories/GHSA-xp26-3454-mjgp",
+    "score": 5.9,
+    "ghsa": "GHSA-xp26-3454-mjgp",
+    "date": "2026-10-21T19:48:38Z"
+   },
+   {
+    "title": "ApostropheCMS: Exposure of Sensitive Information via predictable export filenames",
+    "url": "https://github.com/advisories/GHSA-5gc8-frw3-3vqm",
+    "score": null,
+    "ghsa": "GHSA-5gc8-frw3-3vqm",
+    "date": "2026-10-21T19:45:03Z"
+   },
+   {
+    "title": "OpenClaw: Browser CDP discovery could accept blocked WebSocket URLs",
+    "url": "https://github.com/advisories/GHSA-3x84-qq85-fj65",
+    "score": 8.5,
+    "ghsa": "GHSA-3x84-qq85-fj65",
+    "date": "2026-10-21T19:37:42Z"
+   },
+   {
     "title": "Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
     "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
     "score": 9.5,
@@ -167,79 +237,16 @@
     "score": 5.4,
     "ghsa": "GHSA-fw47-9c62-h3vw",
     "date": "2026-10-21T17:21:51Z"
-   },
-   {
-    "title": "djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
-    "url": "https://github.com/advisories/GHSA-r57g-mc79-8hj2",
-    "score": 3.3,
-    "ghsa": "GHSA-r57g-mc79-8hj2",
-    "date": "2026-10-21T17:21:15Z"
-   },
-   {
-    "title": "ApostropheCMS: POST /api/v1/@apostrophecms/doc/slugTaken discloses existence of private/admin-only content to any authenticated user",
-    "url": "https://github.com/advisories/GHSA-f66c-mpj2-3r8h",
-    "score": 4.3,
-    "ghsa": "GHSA-f66c-mpj2-3r8h",
-    "date": "2026-10-21T17:17:00Z"
-   },
-   {
-    "title": "ApostropheCMS: GET /api/v1/@apostrophecms/page/:id bypasses viewRole restriction and exposes viewPermission-gated fields to lower-privileged users",
-    "url": "https://github.com/advisories/GHSA-vh56-5m88-39rq",
-    "score": 4.3,
-    "ghsa": "GHSA-vh56-5m88-39rq",
-    "date": "2026-10-21T17:15:21Z"
-   },
-   {
-    "title": "ApostropheCMS: Stored XSS via Unescaped Widget Style Attribute Serialization",
-    "url": "https://github.com/advisories/GHSA-7jg5-frgc-c67w",
-    "score": 5.4,
-    "ghsa": "GHSA-7jg5-frgc-c67w",
-    "date": "2026-10-21T17:15:07Z"
-   },
-   {
-    "title": "ApostropheCMS: Missing Authentication in `cleanExport` Route",
-    "url": "https://github.com/advisories/GHSA-rw26-wwfc-9wvm",
-    "score": 3.1,
-    "ghsa": "GHSA-rw26-wwfc-9wvm",
-    "date": "2026-10-21T17:13:28Z"
-   },
-   {
-    "title": "ApostropheCMS: Unauthenticated publicApiProjection bypass via search and sort query builders in the public REST API",
-    "url": "https://github.com/advisories/GHSA-rqgm-cfrp-4hx8",
-    "score": 5.3,
-    "ghsa": "GHSA-rqgm-cfrp-4hx8",
-    "date": "2026-10-21T17:12:15Z"
-   },
-   {
-    "title": "ApostropheCMS: Color field validation bypass allows stored XSS via HTML appended after rgb()/hsl() prefix",
-    "url": "https://github.com/advisories/GHSA-vmgj-9cwm-cf3h",
-    "score": 5.4,
-    "ghsa": "GHSA-vmgj-9cwm-cf3h",
-    "date": "2026-10-21T17:05:44Z"
-   },
-   {
-    "title": "ApostropheCMS sanitize-html: unbounded recursion when re-sanitizing the fallback of a discarded iframe (stack overflow, nestingLimit not enforced)",
-    "url": "https://github.com/advisories/GHSA-c9rx-x947-fp3h",
-    "score": 5.3,
-    "ghsa": "GHSA-c9rx-x947-fp3h",
-    "date": "2026-10-21T17:05:01Z"
-   },
-   {
-    "title": "ApostropheCMS: Import API bypasses publication roles for protected content",
-    "url": "https://github.com/advisories/GHSA-5m22-7pfq-vp65",
-    "score": 6.5,
-    "ghsa": "GHSA-5m22-7pfq-vp65",
-    "date": "2026-10-21T17:03:03Z"
-   },
-   {
-    "title": "ApostropheCMS: Archive duplicate continuation lets contributors overwrite published content",
-    "url": "https://github.com/advisories/GHSA-jf5h-36mg-rp6x",
-    "score": 6.5,
-    "ghsa": "GHSA-jf5h-36mg-rp6x",
-    "date": "2026-10-21T16:59:19Z"
    }
   ],
   "thn": [
+   {
+    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+    "date": "Thu, 22 Oct 2026 00:27:34 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
     "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
@@ -314,13 +321,6 @@
     "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
     "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
     "date": "Wed, 21 Oct 2026 14:31:12 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-    "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-    "date": "Wed, 21 Oct 2026 13:34:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -415,19 +415,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1897,
+    "stars": 1898,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1552,
+    "stars": 1553,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1056,
+    "stars": 1060,
     "lang": "Python"
    },
    {
@@ -439,7 +439,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 767,
+    "stars": 768,
     "lang": "Python"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 296,
+    "stars": 297,
     "lang": "Java"
    }
   ],
@@ -524,8 +524,8 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1481,
-    "comments": 642,
+    "points": 1488,
+    "comments": 648,
     "date": "2026-10-20T20:15:50Z"
    },
    {
