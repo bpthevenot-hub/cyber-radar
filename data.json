@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T16:31:31.801Z",
+ "generatedAt": "2026-10-21T17:27:25.389Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "OSV-2022-834 — Heap-use-after-free in mk_event_timeout_destroy",
+    "url": "https://github.com/advisories/OSV-2022-834",
+    "score": null,
+    "date": "2022-09-04T00:00:31.605787Z"
    }
   ],
   "kev": [
@@ -131,91 +137,98 @@
   ],
   "adv": [
    {
-    "title": "OGNL stricter-invocation block list bypass via java.lang.reflect reflection proxies",
-    "url": "https://github.com/advisories/GHSA-crwc-vw2r-qr6m",
-    "score": 5.6,
-    "ghsa": "GHSA-crwc-vw2r-qr6m",
-    "date": "2026-10-21T16:31:04Z"
+    "title": "Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+    "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+    "score": 9.5,
+    "ghsa": "GHSA-f2ph-cmg5-wxc8",
+    "date": "2026-10-21T17:23:29Z"
    },
    {
-    "title": "OpenChoreo: Authorization bypass on WorkflowRun update allows cross-project takeover of workflow runs",
-    "url": "https://github.com/advisories/GHSA-46r4-q7wv-32fc",
-    "score": 7.4,
-    "ghsa": "GHSA-46r4-q7wv-32fc",
-    "date": "2026-10-21T16:29:53Z"
+    "title": "Electron: HID and USB permission checks can be attributed to the wrong origin",
+    "url": "https://github.com/advisories/GHSA-fw47-9c62-h3vw",
+    "score": 5.4,
+    "ghsa": "GHSA-fw47-9c62-h3vw",
+    "date": "2026-10-21T17:21:51Z"
    },
    {
-    "title": "Moov signedxml: Unauthenticated denial of service in exclusive XML canonicalization",
-    "url": "https://github.com/advisories/GHSA-5588-rp99-5fjh",
-    "score": 7.5,
-    "ghsa": "GHSA-5588-rp99-5fjh",
-    "date": "2026-10-21T16:27:55Z"
+    "title": "djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
+    "url": "https://github.com/advisories/GHSA-r57g-mc79-8hj2",
+    "score": 3.3,
+    "ghsa": "GHSA-r57g-mc79-8hj2",
+    "date": "2026-10-21T17:21:15Z"
    },
    {
-    "title": "ApostropheCMS: Unauthenticated resource exhaustion via pre-auth aposBigUpload processing in @apostrophecms/import-export",
-    "url": "https://github.com/advisories/GHSA-86wm-68pq-5jwq",
-    "score": 7.5,
-    "ghsa": "GHSA-86wm-68pq-5jwq",
-    "date": "2026-10-21T13:51:21Z"
+    "title": "ApostropheCMS: POST /api/v1/@apostrophecms/doc/slugTaken discloses existence of private/admin-only content to any authenticated user",
+    "url": "https://github.com/advisories/GHSA-f66c-mpj2-3r8h",
+    "score": 4.3,
+    "ghsa": "GHSA-f66c-mpj2-3r8h",
+    "date": "2026-10-21T17:17:00Z"
    },
    {
-    "title": "Cachet has Stored XSS in Incident Component",
-    "url": "https://github.com/advisories/GHSA-x397-5hrv-j9m9",
-    "score": null,
-    "ghsa": "GHSA-x397-5hrv-j9m9",
-    "date": "2026-10-20T21:09:40Z"
+    "title": "ApostropheCMS: GET /api/v1/@apostrophecms/page/:id bypasses viewRole restriction and exposes viewPermission-gated fields to lower-privileged users",
+    "url": "https://github.com/advisories/GHSA-vh56-5m88-39rq",
+    "score": 4.3,
+    "ghsa": "GHSA-vh56-5m88-39rq",
+    "date": "2026-10-21T17:15:21Z"
    },
    {
-    "title": "A2A Java SDK: Push notification credentials logged in cleartext on protobuf parse failure",
-    "url": "https://github.com/advisories/GHSA-x32g-jvvm-4725",
-    "score": null,
-    "ghsa": "GHSA-x32g-jvvm-4725",
-    "date": "2026-10-20T21:08:33Z"
+    "title": "ApostropheCMS: Stored XSS via Unescaped Widget Style Attribute Serialization",
+    "url": "https://github.com/advisories/GHSA-7jg5-frgc-c67w",
+    "score": 5.4,
+    "ghsa": "GHSA-7jg5-frgc-c67w",
+    "date": "2026-10-21T17:15:07Z"
    },
    {
-    "title": "A2A Java SDK: Android synchronous POST forwards credentials across authorities after incomplete redirect fix",
-    "url": "https://github.com/advisories/GHSA-4fpj-g9jf-9rgg",
-    "score": 7.5,
-    "ghsa": "GHSA-4fpj-g9jf-9rgg",
-    "date": "2026-10-20T21:08:06Z"
+    "title": "ApostropheCMS: Missing Authentication in `cleanExport` Route",
+    "url": "https://github.com/advisories/GHSA-rw26-wwfc-9wvm",
+    "score": 3.1,
+    "ghsa": "GHSA-rw26-wwfc-9wvm",
+    "date": "2026-10-21T17:13:28Z"
    },
    {
-    "title": "A2A Java SDK has Server-Side Request Forgery (SSRF) in push-notification delivery",
-    "url": "https://github.com/advisories/GHSA-q78c-5jjq-57g8",
-    "score": 5.8,
-    "ghsa": "GHSA-q78c-5jjq-57g8",
-    "date": "2026-10-20T21:06:22Z"
+    "title": "ApostropheCMS: Unauthenticated publicApiProjection bypass via search and sort query builders in the public REST API",
+    "url": "https://github.com/advisories/GHSA-rqgm-cfrp-4hx8",
+    "score": 5.3,
+    "ghsa": "GHSA-rqgm-cfrp-4hx8",
+    "date": "2026-10-21T17:12:15Z"
    },
    {
-    "title": "A2A Java SDK has a fail-open default task authorization",
-    "url": "https://github.com/advisories/GHSA-qw47-mcm5-934w",
-    "score": 7.5,
-    "ghsa": "GHSA-qw47-mcm5-934w",
-    "date": "2026-10-20T21:05:09Z"
+    "title": "ApostropheCMS: Color field validation bypass allows stored XSS via HTML appended after rgb()/hsl() prefix",
+    "url": "https://github.com/advisories/GHSA-vmgj-9cwm-cf3h",
+    "score": 5.4,
+    "ghsa": "GHSA-vmgj-9cwm-cf3h",
+    "date": "2026-10-21T17:05:44Z"
    },
    {
-    "title": "A2A Java SDK send client credentials under server-controlled HTTP header name, enabling leakage via redirect",
-    "url": "https://github.com/advisories/GHSA-9rhm-2h4x-jwmx",
-    "score": null,
-    "ghsa": "GHSA-9rhm-2h4x-jwmx",
-    "date": "2026-10-20T21:04:16Z"
+    "title": "ApostropheCMS sanitize-html: unbounded recursion when re-sanitizing the fallback of a discarded iframe (stack overflow, nestingLimit not enforced)",
+    "url": "https://github.com/advisories/GHSA-c9rx-x947-fp3h",
+    "score": 5.3,
+    "ghsa": "GHSA-c9rx-x947-fp3h",
+    "date": "2026-10-21T17:05:01Z"
    },
    {
-    "title": "Pillow: Out-of-bounds access in _imagingmorph on a zero-width image",
-    "url": "https://github.com/advisories/GHSA-58r4-6rv3-gfh8",
-    "score": 7.5,
-    "ghsa": "GHSA-58r4-6rv3-gfh8",
-    "date": "2026-10-20T20:56:22Z"
+    "title": "ApostropheCMS: Import API bypasses publication roles for protected content",
+    "url": "https://github.com/advisories/GHSA-5m22-7pfq-vp65",
+    "score": 6.5,
+    "ghsa": "GHSA-5m22-7pfq-vp65",
+    "date": "2026-10-21T17:03:03Z"
    },
    {
-    "title": "Pillow: GIF seek keeps rejected size after DecompressionBombError, allowing DoS",
-    "url": "https://github.com/advisories/GHSA-65qm-jvmh-6pqg",
-    "score": 7.5,
-    "ghsa": "GHSA-65qm-jvmh-6pqg",
-    "date": "2026-10-20T20:53:36Z"
+    "title": "ApostropheCMS: Archive duplicate continuation lets contributors overwrite published content",
+    "url": "https://github.com/advisories/GHSA-jf5h-36mg-rp6x",
+    "score": 6.5,
+    "ghsa": "GHSA-jf5h-36mg-rp6x",
+    "date": "2026-10-21T16:59:19Z"
    }
   ],
   "thn": [
+   {
+    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+    "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+    "date": "Wed, 21 Oct 2026 22:03:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
     "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
@@ -290,13 +303,6 @@
     "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
     "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
     "date": "Wed, 21 Oct 2026 13:14:22 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-    "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-    "date": "Wed, 21 Oct 2026 12:56:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,19 +397,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1892,
+    "stars": 1893,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1544,
+    "stars": 1549,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1051,
+    "stars": 1052,
     "lang": "Python"
    },
    {
@@ -457,7 +463,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 263,
+    "stars": 266,
     "lang": "Java"
    }
   ],
@@ -500,8 +506,8 @@
    {
     "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
     "url": "https://news-web.php.net/php.announce/509",
-    "points": 1452,
-    "comments": 613,
+    "points": 1465,
+    "comments": 629,
     "date": "2026-10-20T20:15:50Z"
    },
    {
