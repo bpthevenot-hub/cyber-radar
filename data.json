@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T07:37:17.942Z",
+ "generatedAt": "2026-10-21T08:37:30.398Z",
  "sources": {
   "cve": [
    {
@@ -271,6 +271,27 @@
   ],
   "thn": [
    {
+    "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+    "date": "Wed, 21 Oct 2026 13:14:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+    "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+    "date": "Wed, 21 Oct 2026 12:56:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+    "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+    "date": "Wed, 21 Oct 2026 11:35:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
     "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
     "date": "Wed, 21 Oct 2026 10:27:50 +0530",
@@ -332,30 +353,16 @@
     "date": "Tue, 20 Oct 2026 17:02:59 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-    "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-    "date": "Tue, 20 Oct 2026 16:36:25 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-    "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-    "date": "Tue, 20 Oct 2026 16:26:08 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-    "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-    "date": "Tue, 20 Oct 2026 13:51:29 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+    "date": "Wed, 21 Oct 2026 04:36:24 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
     "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
@@ -432,32 +439,25 @@
     "date": "Tue, 20 Oct 2026 07:18:35 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Revolut outage disrupts online banking operations worldwide",
-    "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-    "date": "Tue, 20 Oct 2026 05:46:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1868,
+    "stars": 1871,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1502,
+    "stars": 1508,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1026,
+    "stars": 1027,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 225,
+    "stars": 232,
     "lang": "Java"
    }
   ],
