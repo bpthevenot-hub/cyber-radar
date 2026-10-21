@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T20:30:00.530Z",
+ "generatedAt": "2026-10-21T21:28:37.263Z",
  "sources": {
   "cve": [
    {
@@ -15,28 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-72694 — Red Hat Security Advisory: mrtg security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87255",
-    "score": 7.1,
-    "date": "2026-10-21T18:45:14+00:00"
+    "title": "CVE-2026-6464 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.3 security update (+51 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71603",
+    "score": 8.8,
+    "date": "2026-10-21T20:59:35+00:00"
    },
    {
-    "title": "CVE-2026-72694 — Red Hat Security Advisory: mrtg security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65832",
-    "score": 7.1,
-    "date": "2026-10-21T18:45:04+00:00"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87246",
+    "score": 8.8,
+    "date": "2026-10-21T20:59:33+00:00"
    },
    {
-    "title": "CVE-2026-72694 — Red Hat Security Advisory: mrtg security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57600",
-    "score": 7.1,
-    "date": "2026-10-21T18:45:04+00:00"
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:86124",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:42+00:00"
    },
    {
-    "title": "CVE-2026-72694 — Red Hat Security Advisory: mrtg security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57596",
-    "score": 7.1,
-    "date": "2026-10-21T18:45:04+00:00"
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84576",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:36+00:00"
+   },
+   {
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84571",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:36+00:00"
+   },
+   {
+    "title": "CVE-2026-78002 — Red Hat Security Advisory: rsyslog security, bug fix, and enhancement update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:81321",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:36+00:00"
+   },
+   {
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80817",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:36+00:00"
+   },
+   {
+    "title": "CVE-2026-78002 — Red Hat Security Advisory: rsyslog security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69541",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:35+00:00"
+   },
+   {
+    "title": "CVE-2026-78002 — Red Hat Security Advisory: rsyslog security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69540",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:35+00:00"
+   },
+   {
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67584",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:35+00:00"
+   },
+   {
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67583",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:34+00:00"
+   },
+   {
+    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66405",
+    "score": 7.5,
+    "date": "2026-10-21T20:59:34+00:00"
    }
   ],
   "kev": [
@@ -155,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Pillow: Invalid free in FreeType glyph rendering when a stroker is active",
-    "url": "https://github.com/advisories/GHSA-j4m9-6w36-pw47",
-    "score": 7.5,
-    "ghsa": "GHSA-j4m9-6w36-pw47",
-    "date": "2026-10-21T20:06:34Z"
-   },
-   {
-    "title": "Pillow: Double free in ImagingScaleAffine on calloc failure via Image.transform",
-    "url": "https://github.com/advisories/GHSA-7mwm-ghpf-9vrm",
-    "score": 7.5,
-    "ghsa": "GHSA-7mwm-ghpf-9vrm",
-    "date": "2026-10-21T20:03:56Z"
-   },
-   {
-    "title": "Pillow: P;2L and P;4L decoders may read 1 to 3 bytes past the passed buffer size",
-    "url": "https://github.com/advisories/GHSA-4558-3h8r-v8xp",
-    "score": null,
-    "ghsa": "GHSA-4558-3h8r-v8xp",
-    "date": "2026-10-21T20:00:32Z"
-   },
-   {
-    "title": "Pillow: Argument Injection in Ghostscript call, potentially leading into RCE",
-    "url": "https://github.com/advisories/GHSA-w889-685w-c8fh",
+    "title": "Pillow: Heap buffer overflow in _tiffWriteProc when saving TIFF to BytesIO",
+    "url": "https://github.com/advisories/GHSA-332p-7hrc-92wf",
     "score": 9.5,
-    "ghsa": "GHSA-w889-685w-c8fh",
-    "date": "2026-10-21T19:58:44Z"
+    "ghsa": "GHSA-332p-7hrc-92wf",
+    "date": "2026-10-21T21:28:09Z"
    },
    {
-    "title": "pypdf: Unvalidated JPEG image data loading",
-    "url": "https://github.com/advisories/GHSA-5hx5-vpf9-5wcv",
-    "score": 2,
-    "ghsa": "GHSA-5hx5-vpf9-5wcv",
-    "date": "2026-10-21T19:58:10Z"
-   },
-   {
-    "title": "Vitest: Servers misapply `server.fs.deny`, serving `.env`, private keys, `.git`, and the API token file",
-    "url": "https://github.com/advisories/GHSA-p458-7748-mcp3",
-    "score": 6.5,
-    "ghsa": "GHSA-p458-7748-mcp3",
-    "date": "2026-10-21T19:57:00Z"
-   },
-   {
-    "title": "Vitest: Code injection via unauthenticated manual mock registration",
-    "url": "https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
-    "score": 4.7,
-    "ghsa": "GHSA-qxg6-89mg-rqv8",
-    "date": "2026-10-21T19:54:26Z"
-   },
-   {
-    "title": "Vitest: Windows backslash traversal bypasses the @vitest/mocker redirect allowlist fix",
-    "url": "https://github.com/advisories/GHSA-xp26-3454-mjgp",
+    "title": "Pillow: Heap use-after-free when encoding TIFF to an in-memory buffer",
+    "url": "https://github.com/advisories/GHSA-4rr5-89j8-mwwm",
     "score": 5.9,
-    "ghsa": "GHSA-xp26-3454-mjgp",
-    "date": "2026-10-21T19:48:38Z"
+    "ghsa": "GHSA-4rr5-89j8-mwwm",
+    "date": "2026-10-21T21:24:19Z"
    },
    {
-    "title": "ApostropheCMS: Exposure of Sensitive Information via predictable export filenames",
-    "url": "https://github.com/advisories/GHSA-5gc8-frw3-3vqm",
+    "title": "Pillow: Infinite loop in PdfParser.rewrite_pages on page tree Parent cycle",
+    "url": "https://github.com/advisories/GHSA-f2g6-542v-9j58",
+    "score": 7.5,
+    "ghsa": "GHSA-f2g6-542v-9j58",
+    "date": "2026-10-21T21:21:07Z"
+   },
+   {
+    "title": "Pillow: APNG background disposal allocates full canvas before decompression bomb check",
+    "url": "https://github.com/advisories/GHSA-5xm2-6676-qcp9",
+    "score": 7.5,
+    "ghsa": "GHSA-5xm2-6676-qcp9",
+    "date": "2026-10-21T21:17:56Z"
+   },
+   {
+    "title": "Pillow: MSP RLE decoder expands a tiny file into unbounded memory",
+    "url": "https://github.com/advisories/GHSA-gg2r-wvfm-q9rx",
+    "score": 7.5,
+    "ghsa": "GHSA-gg2r-wvfm-q9rx",
+    "date": "2026-10-21T21:12:56Z"
+   },
+   {
+    "title": "Pillow: Quadratic-time DoS in PDF save_all (PdfParser.next_object_id)",
+    "url": "https://github.com/advisories/GHSA-jg86-v3jv-hrpm",
+    "score": 7.5,
+    "ghsa": "GHSA-jg86-v3jv-hrpm",
+    "date": "2026-10-21T21:11:44Z"
+   },
+   {
+    "title": "Pillow: PdfParser can recurse without limit in get_value() and linearize_page_tree()",
+    "url": "https://github.com/advisories/GHSA-254f-3936-288h",
     "score": null,
-    "ghsa": "GHSA-5gc8-frw3-3vqm",
-    "date": "2026-10-21T19:45:03Z"
+    "ghsa": "GHSA-254f-3936-288h",
+    "date": "2026-10-21T21:11:07Z"
    },
    {
-    "title": "OpenClaw: Browser CDP discovery could accept blocked WebSocket URLs",
-    "url": "https://github.com/advisories/GHSA-3x84-qq85-fj65",
-    "score": 8.5,
-    "ghsa": "GHSA-3x84-qq85-fj65",
-    "date": "2026-10-21T19:37:42Z"
+    "title": "Pillow: ReDoS in XbmImagePlugin: 512-byte file stalls Image.open() for minutes",
+    "url": "https://github.com/advisories/GHSA-xgh8-jp6q-p5x8",
+    "score": null,
+    "ghsa": "GHSA-xgh8-jp6q-p5x8",
+    "date": "2026-10-21T20:45:06Z"
    },
    {
-    "title": "Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-    "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
-    "score": 9.5,
-    "ghsa": "GHSA-f2ph-cmg5-wxc8",
-    "date": "2026-10-21T17:23:29Z"
+    "title": "Pillow: Image.quantize() with empty palette leaks uninitialized stack memory",
+    "url": "https://github.com/advisories/GHSA-rfgq-q3w2-pmv2",
+    "score": null,
+    "ghsa": "GHSA-rfgq-q3w2-pmv2",
+    "date": "2026-10-21T20:44:07Z"
    },
    {
-    "title": "Electron: HID and USB permission checks can be attributed to the wrong origin",
-    "url": "https://github.com/advisories/GHSA-fw47-9c62-h3vw",
-    "score": 5.4,
-    "ghsa": "GHSA-fw47-9c62-h3vw",
-    "date": "2026-10-21T17:21:51Z"
+    "title": "Pillow: Quadratic GIF comment concatenation allows DoS in Image.open()",
+    "url": "https://github.com/advisories/GHSA-74r2-7ff9-mjj2",
+    "score": null,
+    "ghsa": "GHSA-74r2-7ff9-mjj2",
+    "date": "2026-10-21T20:42:11Z"
+   },
+   {
+    "title": "Pillow: Infinite loop in MIC n_frames when the embedded TIFF",
+    "url": "https://github.com/advisories/GHSA-22hg-r758-rrw9",
+    "score": 7.5,
+    "ghsa": "GHSA-22hg-r758-rrw9",
+    "date": "2026-10-21T20:39:49Z"
+   },
+   {
+    "title": "Pillow: Quadratic GIF comment copying during save",
+    "url": "https://github.com/advisories/GHSA-fc9g-5qg7-mf45",
+    "score": null,
+    "ghsa": "GHSA-fc9g-5qg7-mf45",
+    "date": "2026-10-21T20:38:43Z"
    }
   ],
   "thn": [
@@ -327,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+    "date": "Wed, 21 Oct 2026 16:31:48 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
     "date": "Wed, 21 Oct 2026 14:34:42 -0400",
@@ -402,26 +457,19 @@
     "date": "Tue, 20 Oct 2026 15:33:02 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-    "date": "Tue, 20 Oct 2026 14:11:03 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1898,
+    "stars": 1899,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1553,
+    "stars": 1556,
     "lang": "Go"
    },
    {
@@ -481,7 +529,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 297,
+    "stars": 304,
     "lang": "Java"
    }
   ],
@@ -524,8 +572,8 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1488,
-    "comments": 648,
+    "points": 1493,
+    "comments": 646,
     "date": "2026-10-20T20:15:50Z"
    },
    {
@@ -601,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
+    "date": "2026-10-21T21:24:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "uCreator: virtualization-based Android spyware platform targeting WeChat, Telegram and other messaging apps",
     "url": "https://www.reddit.com/r/netsec/comments/1xbpobv/ucreator_virtualizationbased_android_spyware/",
     "date": "2026-10-21T15:06:25+00:00",
@@ -646,13 +701,6 @@
     "title": "How practical is 100k requests per second? Introducing h3fuzz",
     "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
     "date": "2026-10-20T11:09:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/",
-    "date": "2026-10-20T12:55:10+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
