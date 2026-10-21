@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T12:41:32.080Z",
+ "generatedAt": "2026-10-21T13:30:37.700Z",
  "sources": {
   "cve": [
    {
@@ -15,16 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.13.0 security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:1328",
-    "score": 7.5,
-    "date": "2026-10-21T11:22:02+00:00"
+    "title": "RLSA-2026:80605 — Critical: cjose security update",
+    "url": "https://github.com/advisories/RLSA-2026:80605",
+    "score": 9.1,
+    "date": "2026-10-13T12:08:58.021554Z"
    },
    {
-    "title": "CVE-2021-20329 — Red Hat Security Advisory: OpenShift Container Platform 4.10.55 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:1392",
-    "score": 6.5,
-    "date": "2026-10-21T11:22:04+00:00"
+    "title": "RLSA-2026:79371 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:79371",
+    "score": 9.1,
+    "date": "2026-10-10T12:08:29.652489Z"
+   },
+   {
+    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:45.400552Z"
+   },
+   {
+    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:85321",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:03.045090Z"
+   },
+   {
+    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:82883",
+    "score": 8.8,
+    "date": "2026-10-15T12:20:13.898768Z"
+   },
+   {
+    "title": "RLSA-2026:80498 — Important: flatpak security update",
+    "url": "https://github.com/advisories/RLSA-2026:80498",
+    "score": 8.8,
+    "date": "2026-10-13T12:08:58.021554Z"
+   },
+   {
+    "title": "RLSA-2026:84799 — Important: mariadb11.8 security update",
+    "url": "https://github.com/advisories/RLSA-2026:84799",
+    "score": 8.2,
+    "date": "2026-10-20T12:10:14.939262Z"
+   },
+   {
+    "title": "RLSA-2026:81522 — Important: pcre2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:81522",
+    "score": 8.2,
+    "date": "2026-10-14T12:08:56.685590Z"
+   },
+   {
+    "title": "RLSA-2026:84721 — Important: wireshark security update",
+    "url": "https://github.com/advisories/RLSA-2026:84721",
+    "score": 8.1,
+    "date": "2026-10-20T12:10:14.939262Z"
+   },
+   {
+    "title": "RLSA-2026:83207 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:83207",
+    "score": 8.1,
+    "date": "2026-10-16T12:10:48.882476Z"
+   },
+   {
+    "title": "RLSA-2026:81406 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:81406",
+    "score": 8.1,
+    "date": "2026-10-14T12:08:56.685590Z"
+   },
+   {
+    "title": "RLSA-2026:85191 — Important: xorg-x11-server-Xwayland security update",
+    "url": "https://github.com/advisories/RLSA-2026:85191",
+    "score": 7.8,
+    "date": "2026-10-20T12:10:14.939262Z"
    }
   ],
   "kev": [
@@ -229,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+    "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+    "date": "Wed, 21 Oct 2026 18:45:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+    "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+    "date": "Wed, 21 Oct 2026 17:35:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+    "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+    "date": "Wed, 21 Oct 2026 17:23:34 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
     "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
     "date": "Wed, 21 Oct 2026 16:06:53 +0530",
@@ -288,27 +369,6 @@
     "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
     "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
     "date": "Wed, 21 Oct 2026 11:35:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-    "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-    "date": "Tue, 20 Oct 2026 22:39:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-    "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-    "date": "Tue, 20 Oct 2026 21:08:52 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-    "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-    "date": "Tue, 20 Oct 2026 21:02:27 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1879,
+    "stars": 1884,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1528,
+    "stars": 1530,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1038,
+    "stars": 1042,
     "lang": "Python"
    },
    {
@@ -510,18 +570,18 @@
     "date": "2024-02-21T11:20:49Z"
    },
    {
+    "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+    "url": "https://news-web.php.net/php.announce/509",
+    "points": 1280,
+    "comments": 529,
+    "date": "2026-10-20T20:15:50Z"
+   },
+   {
     "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
     "url": "https://plus.google.com/+MikeHearn/posts/LW1DXJ2BK8k",
     "points": 1217,
     "comments": 396,
     "date": "2013-11-06T04:51:41Z"
-   },
-   {
-    "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-    "url": "https://news-web.php.net/php.announce/509",
-    "points": 1178,
-    "comments": 475,
-    "date": "2026-10-20T20:15:50Z"
    },
    {
     "title": "Senators push to ditch social security numbers in light of Equifax hack",
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1754,
   "adv": 12,
   "feed": 48
