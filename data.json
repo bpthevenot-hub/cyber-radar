@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-21T14:31:20.229Z",
+ "generatedAt": "2026-10-21T15:31:01.065Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-28387 — Kwetsbaarheden verholpen in Oracle Analytics (+15 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28387",
+    "score": 9.8,
+    "date": "2026-10-21T14:44:10.119061Z"
+   },
+   {
+    "title": "CVE-2025-48734 — Kwetsbaarheden verholpen in Oracle Communications (+30 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-48734",
+    "score": 9.8,
+    "date": "2026-10-21T14:43:10.177995Z"
+   },
+   {
+    "title": "CVE-2025-6176 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.26.1 Release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2844",
+    "score": 9.8,
+    "date": "2026-10-21T14:34:57+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-113711 — ApostropheCMS: Unauthenticated resource exhaustion via pre-auth aposBigUpload processing in @apostrophecms/import-export",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113711",
-    "score": 7.5,
-    "date": "2026-10-21T13:51:21Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 (etcd) security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:28047",
+    "score": 9.1,
+    "date": "2026-10-21T14:34:56+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.24 security, enhancement & bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:26420",
+    "score": 9.1,
+    "date": "2026-10-21T14:34:53+00:00"
+   },
+   {
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Submariner v0.21 security fixes and container updates (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25127",
+    "score": 9.1,
+    "date": "2026-10-21T14:34:47+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.9.18 (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2754",
+    "score": 8.7,
+    "date": "2026-10-21T14:34:56+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Custom Metrics Autoscaler Operator for Red Hat OpenShift 2.19.0-1 Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:26636",
+    "score": 8.3,
+    "date": "2026-10-21T14:34:54+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Container Platform 4.19.25 packages and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3391",
+    "score": 8.2,
+    "date": "2026-10-21T14:35:08+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Container Platform 4.17.50 packages and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3416",
+    "score": 8.2,
+    "date": "2026-10-21T14:35:04+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.16.2 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:2681",
+    "score": 8.2,
+    "date": "2026-10-21T14:34:54+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.9.22 (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:23361",
+    "score": 8.2,
+    "date": "2026-10-21T14:34:51+00:00"
    }
   ],
   "kev": [
@@ -223,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+    "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+    "date": "Wed, 21 Oct 2026 19:30:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
     "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
     "date": "Wed, 21 Oct 2026 18:45:09 +0530",
@@ -296,13 +369,6 @@
     "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
     "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
     "date": "Wed, 21 Oct 2026 12:56:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-    "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
-    "date": "Wed, 21 Oct 2026 11:35:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -397,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1889,
+    "stars": 1892,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1540,
+    "stars": 1543,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1045,
+    "stars": 1050,
     "lang": "Python"
    },
    {
@@ -506,8 +572,8 @@
    {
     "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
     "url": "https://news-web.php.net/php.announce/509",
-    "points": 1374,
-    "comments": 583,
+    "points": 1422,
+    "comments": 600,
     "date": "2026-10-20T20:15:50Z"
    },
    {
@@ -569,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "PHP patches for critical PHP2Shell vulnerabilities",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbp0px/php_patches_for_critical_php2shell_vulnerabilities/",
+    "date": "2026-10-21T14:41:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "PHP rce CVE-2026-109618",
     "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
     "date": "2026-10-20T21:56:59+00:00",
@@ -586,6 +659,13 @@
     "title": "France had more Internet-exposed Danfoss refrigeration dashboards than the rest of the world combined before the supermarket attacks (weekly IPv4 scan data)",
     "url": "https://www.reddit.com/r/netsec/comments/1xb45ee/france_had_more_internetexposed_danfoss/",
     "date": "2026-10-20T21:04:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "uCreator: virtualization-based Android spyware platform targeting WeChat, Telegram and other messaging apps",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbpobv/ucreator_virtualizationbased_android_spyware/",
+    "date": "2026-10-21T15:06:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -623,20 +703,6 @@
     "date": "2026-10-20T12:55:10+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The OffiDocs Browser Extension Campaign",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaw75e/the_offidocs_browser_extension_campaign/",
-    "date": "2026-10-20T16:06:02+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Unauthenticated SQL injection in GLPI (≤ 11.0.8)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaljvx/unauthenticated_sql_injection_in_glpi_1108/",
-    "date": "2026-10-20T07:19:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 8,
   "kev": 1754,
   "adv": 12,
   "feed": 48
