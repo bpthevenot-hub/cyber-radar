@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T17:27:25.389Z",
+ "generatedAt": "2026-10-21T18:35:02.647Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "OSV-2022-834 — Heap-use-after-free in mk_event_timeout_destroy",
-    "url": "https://github.com/advisories/OSV-2022-834",
+    "title": "CVE-2026-113093 — CVE-2026-113093",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113093",
     "score": null,
-    "date": "2022-09-04T00:00:31.605787Z"
+    "date": "2026-10-20T22:19:01.047"
+   },
+   {
+    "title": "CVE-2026-113090 — CVE-2026-113090",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113090",
+    "score": null,
+    "date": "2026-10-20T22:19:00.713"
+   },
+   {
+    "title": "CVE-2026-113029 — CVE-2026-113029",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113029",
+    "score": null,
+    "date": "2026-10-20T22:18:53.840"
+   },
+   {
+    "title": "CVE-2026-113028 — CVE-2026-113028",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113028",
+    "score": null,
+    "date": "2026-10-20T22:18:53.730"
+   },
+   {
+    "title": "CVE-2026-113027 — CVE-2026-113027",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113027",
+    "score": null,
+    "date": "2026-10-20T22:18:53.613"
+   },
+   {
+    "title": "CVE-2026-113025 — CVE-2026-113025",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113025",
+    "score": null,
+    "date": "2026-10-20T22:18:53.383"
+   },
+   {
+    "title": "CVE-2026-113024 — CVE-2026-113024",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113024",
+    "score": null,
+    "date": "2026-10-20T22:18:53.277"
+   },
+   {
+    "title": "CVE-2026-113023 — CVE-2026-113023",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113023",
+    "score": null,
+    "date": "2026-10-20T22:18:53.160"
+   },
+   {
+    "title": "CVE-2026-113022 — CVE-2026-113022",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113022",
+    "score": null,
+    "date": "2026-10-20T22:18:53.043"
+   },
+   {
+    "title": "CVE-2026-113021 — CVE-2026-113021",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113021",
+    "score": null,
+    "date": "2026-10-20T22:18:52.930"
+   },
+   {
+    "title": "CVE-2026-113019 — CVE-2026-113019",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113019",
+    "score": null,
+    "date": "2026-10-20T22:18:52.700"
+   },
+   {
+    "title": "CVE-2026-113018 — CVE-2026-113018",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113018",
+    "score": null,
+    "date": "2026-10-20T22:18:52.583"
    }
   ],
   "kev": [
@@ -223,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+    "date": "Wed, 21 Oct 2026 23:31:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
     "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
     "date": "Wed, 21 Oct 2026 22:03:47 +0530",
@@ -298,16 +371,16 @@
     "date": "Wed, 21 Oct 2026 13:34:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-    "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-    "date": "Wed, 21 Oct 2026 13:14:22 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+    "date": "Wed, 21 Oct 2026 14:34:42 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "OpenAI agents disabled safety monitoring, one lied about it",
     "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
@@ -384,32 +457,25 @@
     "date": "Tue, 20 Oct 2026 14:11:03 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "DHS bans DeepSeek products across US federal civilian agencies",
-    "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-    "date": "Tue, 20 Oct 2026 10:19:05 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1893,
+    "stars": 1895,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1549,
+    "stars": 1551,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1052,
+    "stars": 1055,
     "lang": "Python"
    },
    {
@@ -421,7 +487,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 766,
+    "stars": 767,
     "lang": "Python"
    },
    {
@@ -463,7 +529,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 266,
+    "stars": 284,
     "lang": "Java"
    }
   ],
@@ -504,10 +570,10 @@
     "date": "2024-02-21T11:20:49Z"
    },
    {
-    "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-    "url": "https://news-web.php.net/php.announce/509",
-    "points": 1465,
-    "comments": 629,
+    "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+    "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "points": 1471,
+    "comments": 637,
     "date": "2026-10-20T20:15:50Z"
    },
    {
@@ -590,16 +656,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How I got over 300 Tor exit nodes removed",
-    "url": "https://www.reddit.com/r/netsec/comments/1xasa1k/how_i_got_over_300_tor_exit_nodes_removed/",
-    "date": "2026-10-20T13:33:05+00:00",
+    "title": "uCreator: virtualization-based Android spyware platform targeting WeChat, Telegram and other messaging apps",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbpobv/ucreator_virtualizationbased_android_spyware/",
+    "date": "2026-10-21T15:06:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "uCreator: virtualization-based Android spyware platform targeting WeChat, Telegram and other messaging apps",
-    "url": "https://www.reddit.com/r/netsec/comments/1xbpobv/ucreator_virtualizationbased_android_spyware/",
-    "date": "2026-10-21T15:06:25+00:00",
+    "title": "How I got over 300 Tor exit nodes removed",
+    "url": "https://www.reddit.com/r/netsec/comments/1xasa1k/how_i_got_over_300_tor_exit_nodes_removed/",
+    "date": "2026-10-20T13:33:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
