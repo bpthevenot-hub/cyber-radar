@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-10-21T15:31:01.065Z",
+ "generatedAt": "2026-10-21T16:31:31.801Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-28387 — Kwetsbaarheden verholpen in Oracle Analytics (+15 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-28387",
-    "score": 9.8,
-    "date": "2026-10-21T14:44:10.119061Z"
-   },
-   {
-    "title": "CVE-2025-48734 — Kwetsbaarheden verholpen in Oracle Communications (+30 CVE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-48734",
-    "score": 9.8,
-    "date": "2026-10-21T14:43:10.177995Z"
-   },
-   {
-    "title": "CVE-2025-6176 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.26.1 Release. (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2844",
-    "score": 9.8,
-    "date": "2026-10-21T14:34:57+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -31,60 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 (etcd) security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:28047",
-    "score": 9.1,
-    "date": "2026-10-21T14:34:56+00:00"
-   },
-   {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.24 security, enhancement & bug fix update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26420",
-    "score": 9.1,
-    "date": "2026-10-21T14:34:53+00:00"
-   },
-   {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Submariner v0.21 security fixes and container updates (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25127",
-    "score": 9.1,
-    "date": "2026-10-21T14:34:47+00:00"
-   },
-   {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.9.18 (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2754",
-    "score": 8.7,
-    "date": "2026-10-21T14:34:56+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Custom Metrics Autoscaler Operator for Red Hat OpenShift 2.19.0-1 Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:26636",
-    "score": 8.3,
-    "date": "2026-10-21T14:34:54+00:00"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Container Platform 4.19.25 packages and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3391",
-    "score": 8.2,
-    "date": "2026-10-21T14:35:08+00:00"
-   },
-   {
-    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Container Platform 4.17.50 packages and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3416",
-    "score": 8.2,
-    "date": "2026-10-21T14:35:04+00:00"
-   },
-   {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.16.2 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2681",
-    "score": 8.2,
-    "date": "2026-10-21T14:34:54+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.9.22 (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:23361",
-    "score": 8.2,
-    "date": "2026-10-21T14:34:51+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,27 @@
   ],
   "adv": [
    {
+    "title": "OGNL stricter-invocation block list bypass via java.lang.reflect reflection proxies",
+    "url": "https://github.com/advisories/GHSA-crwc-vw2r-qr6m",
+    "score": 5.6,
+    "ghsa": "GHSA-crwc-vw2r-qr6m",
+    "date": "2026-10-21T16:31:04Z"
+   },
+   {
+    "title": "OpenChoreo: Authorization bypass on WorkflowRun update allows cross-project takeover of workflow runs",
+    "url": "https://github.com/advisories/GHSA-46r4-q7wv-32fc",
+    "score": 7.4,
+    "ghsa": "GHSA-46r4-q7wv-32fc",
+    "date": "2026-10-21T16:29:53Z"
+   },
+   {
+    "title": "Moov signedxml: Unauthenticated denial of service in exclusive XML canonicalization",
+    "url": "https://github.com/advisories/GHSA-5588-rp99-5fjh",
+    "score": 7.5,
+    "ghsa": "GHSA-5588-rp99-5fjh",
+    "date": "2026-10-21T16:27:55Z"
+   },
+   {
     "title": "ApostropheCMS: Unauthenticated resource exhaustion via pre-auth aposBigUpload processing in @apostrophecms/import-export",
     "url": "https://github.com/advisories/GHSA-86wm-68pq-5jwq",
     "score": 7.5,
@@ -264,27 +213,6 @@
     "score": 7.5,
     "ghsa": "GHSA-65qm-jvmh-6pqg",
     "date": "2026-10-20T20:53:36Z"
-   },
-   {
-    "title": "Pillow: EPS load(scale) lets Ghostscript render past the decompression bomb limit",
-    "url": "https://github.com/advisories/GHSA-vx6w-vv9f-6gvg",
-    "score": null,
-    "ghsa": "GHSA-vx6w-vv9f-6gvg",
-    "date": "2026-10-20T20:53:21Z"
-   },
-   {
-    "title": "Pillow: TiffDecode returns uninitialized memory as pixels for short JPEG strips",
-    "url": "https://github.com/advisories/GHSA-q45j-58j2-45rg",
-    "score": 7.5,
-    "ghsa": "GHSA-q45j-58j2-45rg",
-    "date": "2026-10-20T20:52:43Z"
-   },
-   {
-    "title": "Pillow: TIFF encoder ColorMap plane-size mismatch causes a heap out-of-bounds read",
-    "url": "https://github.com/advisories/GHSA-pchr-8j38-3x4p",
-    "score": 7.5,
-    "ghsa": "GHSA-pchr-8j38-3x4p",
-    "date": "2026-10-20T20:51:40Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI agents disabled safety monitoring, one lied about it",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+    "date": "Wed, 21 Oct 2026 12:26:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "PHP ships emergency patches for critical PHP2Shell flaws",
     "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
     "date": "Wed, 21 Oct 2026 10:07:05 -0400",
@@ -450,13 +385,6 @@
     "date": "Tue, 20 Oct 2026 10:19:05 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
-    "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-    "date": "Tue, 20 Oct 2026 09:51:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +397,13 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1543,
+    "stars": 1544,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1050,
+    "stars": 1051,
     "lang": "Python"
    },
    {
@@ -499,7 +427,7 @@
    {
     "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
     "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 511,
+    "stars": 512,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 262,
+    "stars": 263,
     "lang": "Java"
    }
   ],
@@ -572,8 +500,8 @@
    {
     "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
     "url": "https://news-web.php.net/php.announce/509",
-    "points": 1422,
-    "comments": 600,
+    "points": 1452,
+    "comments": 613,
     "date": "2026-10-20T20:15:50Z"
    },
    {
@@ -642,6 +570,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "What the PHP2Shell rumors got wrong, from inside the PHP security team",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbrk9g/what_the_php2shell_rumors_got_wrong_from_inside/",
+    "date": "2026-10-21T16:16:07+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "PHP rce CVE-2026-109618",
     "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
     "date": "2026-10-20T21:56:59+00:00",
@@ -656,16 +591,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "France had more Internet-exposed Danfoss refrigeration dashboards than the rest of the world combined before the supermarket attacks (weekly IPv4 scan data)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xb45ee/france_had_more_internetexposed_danfoss/",
-    "date": "2026-10-20T21:04:03+00:00",
+    "title": "uCreator: virtualization-based Android spyware platform targeting WeChat, Telegram and other messaging apps",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbpobv/ucreator_virtualizationbased_android_spyware/",
+    "date": "2026-10-21T15:06:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "uCreator: virtualization-based Android spyware platform targeting WeChat, Telegram and other messaging apps",
-    "url": "https://www.reddit.com/r/netsec/comments/1xbpobv/ucreator_virtualizationbased_android_spyware/",
-    "date": "2026-10-21T15:06:25+00:00",
+    "title": "France had more Internet-exposed Danfoss refrigeration dashboards than the rest of the world combined before the supermarket attacks (weekly IPv4 scan data)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xb45ee/france_had_more_internetexposed_danfoss/",
+    "date": "2026-10-20T21:04:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +631,6 @@
     "date": "2026-10-20T11:09:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/",
-    "date": "2026-10-20T12:55:10+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 2,
   "kev": 1754,
   "adv": 12,
   "feed": 48
