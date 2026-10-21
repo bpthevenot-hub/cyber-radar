@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T09:32:52.610Z",
+ "generatedAt": "2026-10-21T10:31:08.513Z",
  "sources": {
   "cve": [
    {
@@ -27,30 +27,6 @@
     "date": "2026-10-21T09:02:24+00:00"
    },
    {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6404",
-    "score": 9.8,
-    "date": "2026-10-21T09:02:20+00:00"
-   },
-   {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6309",
-    "score": 9.8,
-    "date": "2026-10-21T09:02:20+00:00"
-   },
-   {
-    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6308",
-    "score": 9.8,
-    "date": "2026-10-21T09:02:19+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59155",
-    "score": 9.8,
-    "date": "2026-10-21T09:02:13+00:00"
-   },
-   {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
     "score": 9.8,
@@ -63,18 +39,6 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-66506 — Red Hat Security Advisory: Red Hat OpenShift Pipelines Release 1.21.1 (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6170",
-    "score": 9.6,
-    "date": "2026-10-21T09:02:15+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.15.68 bug fix and security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56912",
-    "score": 9.4,
-    "date": "2026-10-21T09:02:15+00:00"
-   },
-   {
     "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:8490",
     "score": 9.1,
@@ -85,6 +49,42 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:8483",
     "score": 9.1,
     "date": "2026-10-21T09:02:37+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-10-21T09:02:35+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-10-21T09:02:34+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-10-21T09:02:33+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17.28 security, enhancement & bug fix update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83622",
+    "score": 9.1,
+    "date": "2026-10-21T09:02:32+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Submariner v0.22 security fixes and container updates (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8151",
+    "score": 9.1,
+    "date": "2026-10-21T09:02:31+00:00"
+   },
+   {
+    "title": "CVE-2021-43565 — Red Hat Security Advisory: Red Hat Ceph Storage (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79243",
+    "score": 9.1,
+    "date": "2026-10-21T09:02:30+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+    "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+    "date": "Wed, 21 Oct 2026 14:35:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+    "date": "Wed, 21 Oct 2026 14:31:12 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+    "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+    "date": "Wed, 21 Oct 2026 13:34:17 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
     "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
     "date": "Wed, 21 Oct 2026 13:14:22 +0530",
@@ -306,13 +327,6 @@
     "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
     "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
     "date": "Wed, 21 Oct 2026 11:35:15 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-    "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-    "date": "Wed, 21 Oct 2026 10:27:50 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -357,23 +371,16 @@
     "date": "Tue, 20 Oct 2026 17:11:06 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "What Security Teams Can Do To Tame Wild Code",
-    "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-    "date": "Tue, 20 Oct 2026 17:03:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-    "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-    "date": "Tue, 20 Oct 2026 17:02:59 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft says October updates didn’t actually fix VPN issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+    "date": "Wed, 21 Oct 2026 06:14:53 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
@@ -450,32 +457,25 @@
     "date": "Tue, 20 Oct 2026 07:31:22 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
-    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-    "date": "Tue, 20 Oct 2026 07:18:35 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1873,
+    "stars": 1875,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1512,
+    "stars": 1518,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1029,
+    "stars": 1033,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 239,
+    "stars": 255,
     "lang": "Java"
    }
   ],
@@ -677,6 +677,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "CVE-2026-46633: Proving exploitability of Twig sandbox bypass",
+    "url": "https://www.reddit.com/r/netsec/comments/1xb2qvz/cve202646633_proving_exploitability_of_twig/",
+    "date": "2026-10-20T20:08:42+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "The OffiDocs Browser Extension Campaign",
     "url": "https://www.reddit.com/r/netsec/comments/1xaw75e/the_offidocs_browser_extension_campaign/",
     "date": "2026-10-20T16:06:02+00:00",
@@ -687,13 +694,6 @@
     "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
     "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/",
     "date": "2026-10-20T12:55:10+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-46633: Proving exploitability of Twig sandbox bypass",
-    "url": "https://www.reddit.com/r/netsec/comments/1xb2qvz/cve202646633_proving_exploitability_of_twig/",
-    "date": "2026-10-20T20:08:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
