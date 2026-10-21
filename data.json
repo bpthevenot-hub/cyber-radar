@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-10-21T21:28:37.263Z",
+ "generatedAt": "2026-10-21T22:28:41.862Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-21T21:33:56+00:00"
+   },
+   {
+    "title": "CVE-2025-61162 — Red Hat Security Advisory: RHOAI 3.4.5 - Red Hat OpenShift AI (+297 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84734",
+    "score": 9.8,
+    "date": "2026-10-21T21:34:08+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
+    "score": 9.8,
+    "date": "2026-10-21T21:34:05+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
+    "score": 9.8,
+    "date": "2026-10-21T21:34:05+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
+    "score": 9.8,
+    "date": "2026-10-21T21:34:05+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-6464 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.3 security update (+51 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71603",
-    "score": 8.8,
-    "date": "2026-10-21T20:59:35+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Migration Toolkit for Applications (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82315",
+    "score": 9.1,
+    "date": "2026-10-21T21:34:10+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87246",
-    "score": 8.8,
-    "date": "2026-10-21T20:59:33+00:00"
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.17 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83013",
+    "score": 9.1,
+    "date": "2026-10-21T21:34:07+00:00"
    },
    {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:86124",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:42+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
+    "score": 9.1,
+    "date": "2026-10-21T21:34:02+00:00"
    },
    {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:84576",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:36+00:00"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.1,
+    "date": "2026-10-21T21:33:57+00:00"
    },
    {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:84571",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:36+00:00"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.1,
+    "date": "2026-10-21T21:33:56+00:00"
    },
    {
-    "title": "CVE-2026-78002 — Red Hat Security Advisory: rsyslog security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:81321",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:36+00:00"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.1,
+    "date": "2026-10-21T21:33:56+00:00"
    },
    {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:80817",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:36+00:00"
-   },
-   {
-    "title": "CVE-2026-78002 — Red Hat Security Advisory: rsyslog security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69541",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:35+00:00"
-   },
-   {
-    "title": "CVE-2026-78002 — Red Hat Security Advisory: rsyslog security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:69540",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:35+00:00"
-   },
-   {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67584",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:35+00:00"
-   },
-   {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67583",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:34+00:00"
-   },
-   {
-    "title": "CVE-2026-19654 — Red Hat Security Advisory: rsyslog security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66405",
-    "score": 7.5,
-    "date": "2026-10-21T20:59:34+00:00"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
+    "score": 9.1,
+    "date": "2026-10-21T21:33:55+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,34 @@
   ],
   "adv": [
    {
+    "title": "virtualenv: Builtin creation follows linked environment directories",
+    "url": "https://github.com/advisories/GHSA-cw65-gx24-rc82",
+    "score": 4.5,
+    "ghsa": "GHSA-cw65-gx24-rc82",
+    "date": "2026-10-21T21:35:56Z"
+   },
+   {
+    "title": "virtualenv: Deletion recovery can change a symlink target's mode",
+    "url": "https://github.com/advisories/GHSA-43mp-35q3-x3fq",
+    "score": 4.5,
+    "ghsa": "GHSA-43mp-35q3-x3fq",
+    "date": "2026-10-21T21:31:34Z"
+   },
+   {
+    "title": "virtualenv: Generated POSIX console launchers interpret destination paths as shell syntax",
+    "url": "https://github.com/advisories/GHSA-c978-59m8-c77v",
+    "score": 7.8,
+    "ghsa": "GHSA-c978-59m8-c77v",
+    "date": "2026-10-21T21:30:12Z"
+   },
+   {
+    "title": "Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
+    "url": "https://github.com/advisories/GHSA-xvh5-g6gv-559v",
+    "score": 7.5,
+    "ghsa": "GHSA-xvh5-g6gv-559v",
+    "date": "2026-10-21T21:29:16Z"
+   },
+   {
     "title": "Pillow: Heap buffer overflow in _tiffWriteProc when saving TIFF to BytesIO",
     "url": "https://github.com/advisories/GHSA-332p-7hrc-92wf",
     "score": 9.5,
@@ -257,34 +285,6 @@
     "score": null,
     "ghsa": "GHSA-xgh8-jp6q-p5x8",
     "date": "2026-10-21T20:45:06Z"
-   },
-   {
-    "title": "Pillow: Image.quantize() with empty palette leaks uninitialized stack memory",
-    "url": "https://github.com/advisories/GHSA-rfgq-q3w2-pmv2",
-    "score": null,
-    "ghsa": "GHSA-rfgq-q3w2-pmv2",
-    "date": "2026-10-21T20:44:07Z"
-   },
-   {
-    "title": "Pillow: Quadratic GIF comment concatenation allows DoS in Image.open()",
-    "url": "https://github.com/advisories/GHSA-74r2-7ff9-mjj2",
-    "score": null,
-    "ghsa": "GHSA-74r2-7ff9-mjj2",
-    "date": "2026-10-21T20:42:11Z"
-   },
-   {
-    "title": "Pillow: Infinite loop in MIC n_frames when the embedded TIFF",
-    "url": "https://github.com/advisories/GHSA-22hg-r758-rrw9",
-    "score": 7.5,
-    "ghsa": "GHSA-22hg-r758-rrw9",
-    "date": "2026-10-21T20:39:49Z"
-   },
-   {
-    "title": "Pillow: Quadratic GIF comment copying during save",
-    "url": "https://github.com/advisories/GHSA-fc9g-5qg7-mf45",
-    "score": null,
-    "ghsa": "GHSA-fc9g-5qg7-mf45",
-    "date": "2026-10-21T20:38:43Z"
    }
   ],
   "thn": [
@@ -375,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+    "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+    "date": "Wed, 21 Oct 2026 18:16:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "date": "Wed, 21 Oct 2026 17:43:27 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
     "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
     "date": "Wed, 21 Oct 2026 16:31:48 -0400",
@@ -443,39 +457,25 @@
     "date": "Tue, 20 Oct 2026 20:46:42 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-    "date": "Tue, 20 Oct 2026 16:56:43 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Zeabur shutting down after second security breach in two months",
-    "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-    "date": "Tue, 20 Oct 2026 15:33:02 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1899,
+    "stars": 1901,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1556,
+    "stars": 1552,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1060,
+    "stars": 1061,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 304,
+    "stars": 306,
     "lang": "Java"
    }
   ],
@@ -563,18 +563,18 @@
     "date": "2026-07-21T20:09:52Z"
    },
    {
+    "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+    "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "points": 1502,
+    "comments": 649,
+    "date": "2026-10-20T20:15:50Z"
+   },
+   {
     "title": "Insecure vehicles should be banned, not security tools like the Flipper Zero",
     "url": "https://saveflipper.ca/",
     "points": 1496,
     "comments": 878,
     "date": "2024-02-21T11:20:49Z"
-   },
-   {
-    "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
-    "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1493,
-    "comments": 646,
-    "date": "2026-10-20T20:15:50Z"
    },
    {
     "title": "Google Security Team Member on NSA: \"Fuck These Guys\"",
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
+    "date": "2026-10-21T21:24:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "PHP rce CVE-2026-109618",
     "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
     "date": "2026-10-20T21:56:59+00:00",
@@ -649,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
-    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
-    "date": "2026-10-21T21:24:08+00:00",
+    "title": "PHP2Shell - quick mitigation pre-patch",
+    "url": "https://www.reddit.com/r/netsec/comments/1xc0vav/php2shell_quick_mitigation_prepatch/",
+    "date": "2026-10-21T22:02:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -691,13 +698,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Prompt injection, XSS and SIEM-exfil payloads living in reverse DNS, plus 28 fake Googlebots that passed FCrDNS",
-    "url": "https://www.reddit.com/r/netsec/comments/1xaqo61/prompt_injection_xss_and_siemexfil_payloads/",
-    "date": "2026-10-20T12:21:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "How practical is 100k requests per second? Introducing h3fuzz",
     "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
     "date": "2026-10-20T11:09:48+00:00",
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1754,
   "adv": 12,
   "feed": 48
