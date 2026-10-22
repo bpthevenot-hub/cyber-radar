@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-22T15:31:39.027Z",
+ "generatedAt": "2026-10-22T16:33:49.245Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-96639 — Pillow multi-frame loaders can reuse stale native image storage after mode transitions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96639",
+    "score": 9.8,
+    "date": "2026-10-22T16:00:15Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "OESA-2026-4483 — xorg-x11-server-xwayland security update",
-    "url": "https://github.com/advisories/OESA-2026-4483",
-    "score": 9.1,
-    "date": "2026-10-22T14:35:40Z"
+    "title": "CVE-2026-114139 — Sentry-Javascript: Middleware Bypass when using Tunnel route",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114139",
+    "score": 9.5,
+    "date": "2026-10-22T15:55:07Z"
    },
    {
-    "title": "OESA-2026-4482 — xorg-x11-server-xwayland security update",
-    "url": "https://github.com/advisories/OESA-2026-4482",
-    "score": 9.1,
-    "date": "2026-10-22T14:35:40Z"
+    "title": "GHSA-2464-fhr4-w9xw — Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used",
+    "url": "https://github.com/advisories/GHSA-2464-fhr4-w9xw",
+    "score": 9.5,
+    "date": "2026-10-22T15:52:53Z"
    },
    {
-    "title": "OESA-2026-4481 — xorg-x11-server-xwayland security update",
-    "url": "https://github.com/advisories/OESA-2026-4481",
-    "score": 9.1,
-    "date": "2026-10-22T14:35:39Z"
+    "title": "CVE-2026-114135 — Jupyter Server: Gateway WebSocket handler bypasses kernel execute authorization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114135",
+    "score": 8.8,
+    "date": "2026-10-22T15:46:31Z"
    },
    {
-    "title": "OESA-2026-4480 — xorg-x11-server-xwayland security update",
-    "url": "https://github.com/advisories/OESA-2026-4480",
-    "score": 9.1,
-    "date": "2026-10-22T14:35:38Z"
-   },
-   {
-    "title": "OESA-2026-4479 — libXrender security update",
-    "url": "https://github.com/advisories/OESA-2026-4479",
-    "score": 8.3,
-    "date": "2026-10-22T14:35:37Z"
-   },
-   {
-    "title": "OESA-2026-4478 — libXrender security update",
-    "url": "https://github.com/advisories/OESA-2026-4478",
-    "score": 8.3,
-    "date": "2026-10-22T14:35:37Z"
-   },
-   {
-    "title": "OESA-2026-4477 — libXrender security update",
-    "url": "https://github.com/advisories/OESA-2026-4477",
-    "score": 8.3,
-    "date": "2026-10-22T14:35:36Z"
-   },
-   {
-    "title": "OESA-2026-4476 — libXrender security update",
-    "url": "https://github.com/advisories/OESA-2026-4476",
-    "score": 8.3,
-    "date": "2026-10-22T14:35:36Z"
-   },
-   {
-    "title": "OESA-2026-4512 — rpm security update",
-    "url": "https://github.com/advisories/OESA-2026-4512",
+    "title": "CVE-2026-96889 — Librsvg: Use-after-free when XML includes have duplicated entities",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96889",
     "score": 7.8,
-    "date": "2026-10-22T14:36:02Z"
+    "date": "2026-10-22T15:52:48Z"
    },
    {
-    "title": "OESA-2026-4511 — rpm security update",
-    "url": "https://github.com/advisories/OESA-2026-4511",
-    "score": 7.8,
-    "date": "2026-10-22T14:36:01Z"
-   },
-   {
-    "title": "OESA-2026-4510 — rpm security update",
-    "url": "https://github.com/advisories/OESA-2026-4510",
-    "score": 7.8,
-    "date": "2026-10-22T14:36:01Z"
-   },
-   {
-    "title": "OESA-2026-4525 — python3 security update",
-    "url": "https://github.com/advisories/OESA-2026-4525",
+    "title": "CVE-2026-96644 — Pillow: Heap over-read in WMF/EMF rendering via 16-bit dimension truncation (Windows builds)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96644",
     "score": 7.5,
-    "date": "2026-10-22T14:36:11Z"
+    "date": "2026-10-22T16:03:14Z"
+   },
+   {
+    "title": "CVE-2026-96643 — Pillow: PNG eXIf chunk makes EXIF parsing run in quadratic time",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96643",
+    "score": 7.5,
+    "date": "2026-10-22T16:02:39Z"
+   },
+   {
+    "title": "CVE-2026-96642 — Pillow: TarIO negative size field causes infinite CPU-spin loop",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96642",
+    "score": 7.5,
+    "date": "2026-10-22T16:01:46Z"
+   },
+   {
+    "title": "CVE-2026-96640 — Pillow PDF append accepts malformed shared page-tree DAG causing resource exhaustion",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96640",
+    "score": 7.5,
+    "date": "2026-10-22T16:00:47Z"
+   },
+   {
+    "title": "CVE-2026-96637 — Pillow: Decompression bomb check bypass in SpiderImagePlugin.seek() leads to unbounded allocation DoS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96637",
+    "score": 7.5,
+    "date": "2026-10-22T15:57:17Z"
+   },
+   {
+    "title": "CVE-2026-94482 — Next.js: Denial of Service in App Router using Server Actions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94482",
+    "score": 7.5,
+    "date": "2026-10-22T15:50:34Z"
+   },
+   {
+    "title": "GHSA-pxh4-856f-4h89 — PyJWT: HS256/384/512 verify accepts empty HMAC key via oct JWK (PyJWK/PyJWKClient) enabling token forgery",
+    "url": "https://github.com/advisories/GHSA-pxh4-856f-4h89",
+    "score": 7.4,
+    "date": "2026-10-22T15:48:04Z"
    }
   ],
   "kev": [
@@ -203,91 +203,98 @@
   ],
   "adv": [
    {
-    "title": "ammonia: mXSS via MathML `annotation-xml` encoding strip",
-    "url": "https://github.com/advisories/GHSA-9jh8-v38h-cvhr",
-    "score": null,
-    "ghsa": "GHSA-9jh8-v38h-cvhr",
-    "date": "2026-10-22T14:06:10Z"
-   },
-   {
-    "title": "virtualenv: Builtin creation follows linked environment directories",
-    "url": "https://github.com/advisories/GHSA-cw65-gx24-rc82",
-    "score": 4.5,
-    "ghsa": "GHSA-cw65-gx24-rc82",
-    "date": "2026-10-21T21:35:56Z"
-   },
-   {
-    "title": "virtualenv: Deletion recovery can change a symlink target's mode",
-    "url": "https://github.com/advisories/GHSA-43mp-35q3-x3fq",
-    "score": 4.5,
-    "ghsa": "GHSA-43mp-35q3-x3fq",
-    "date": "2026-10-21T21:31:34Z"
-   },
-   {
-    "title": "virtualenv: Generated POSIX console launchers interpret destination paths as shell syntax",
-    "url": "https://github.com/advisories/GHSA-c978-59m8-c77v",
-    "score": 7.8,
-    "ghsa": "GHSA-c978-59m8-c77v",
-    "date": "2026-10-21T21:30:12Z"
-   },
-   {
-    "title": "Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
-    "url": "https://github.com/advisories/GHSA-xvh5-g6gv-559v",
+    "title": "Storybook dev server vulnerable to code injection from the local network",
+    "url": "https://github.com/advisories/GHSA-px85-f4q5-jh77",
     "score": 7.5,
-    "ghsa": "GHSA-xvh5-g6gv-559v",
-    "date": "2026-10-21T21:29:16Z"
+    "ghsa": "GHSA-px85-f4q5-jh77",
+    "date": "2026-10-22T16:31:40Z"
    },
    {
-    "title": "Pillow: Heap buffer overflow in _tiffWriteProc when saving TIFF to BytesIO",
-    "url": "https://github.com/advisories/GHSA-332p-7hrc-92wf",
+    "title": "Astro: Reflected/Stored XSS via unescaped <script>/<style> tag content in JSX/MDX rendering",
+    "url": "https://github.com/advisories/GHSA-98hj-9722-w3j8",
+    "score": 6.5,
+    "ghsa": "GHSA-98hj-9722-w3j8",
+    "date": "2026-10-22T16:30:26Z"
+   },
+   {
+    "title": "Astro: Arbitrary CSS injection in Astro View Transitions",
+    "url": "https://github.com/advisories/GHSA-mpr7-6m5w-76rw",
+    "score": 2,
+    "ghsa": "GHSA-mpr7-6m5w-76rw",
+    "date": "2026-10-22T16:29:28Z"
+   },
+   {
+    "title": "GraphQL Tools: Prototype pollution in mergeIncrementalResult via non-primitive path segments",
+    "url": "https://github.com/advisories/GHSA-c4qx-w738-7hr3",
+    "score": 7.5,
+    "ghsa": "GHSA-c4qx-w738-7hr3",
+    "date": "2026-10-22T16:28:31Z"
+   },
+   {
+    "title": "GraphQL-core: Denial of service via comment tokens bypassing the parser's max_tokens limit",
+    "url": "https://github.com/advisories/GHSA-r77w-qph3-7vf8",
+    "score": 7.5,
+    "ghsa": "GHSA-r77w-qph3-7vf8",
+    "date": "2026-10-22T16:27:14Z"
+   },
+   {
+    "title": "GraphQL-core: Denial of service via quadratic complexity in the OverlappingFieldsCanBeMerged validation rule",
+    "url": "https://github.com/advisories/GHSA-vj8h-fx38-h3vc",
+    "score": 7.5,
+    "ghsa": "GHSA-vj8h-fx38-h3vc",
+    "date": "2026-10-22T16:26:40Z"
+   },
+   {
+    "title": "DOMPurify SAFE_FOR_TEMPLATES bypass: split template expressions survive in attached shadow root content on DOM output modes",
+    "url": "https://github.com/advisories/GHSA-cg2g-xh64-v4q7",
     "score": 9.5,
-    "ghsa": "GHSA-332p-7hrc-92wf",
-    "date": "2026-10-21T21:28:09Z"
+    "ghsa": "GHSA-cg2g-xh64-v4q7",
+    "date": "2026-10-22T16:25:31Z"
    },
    {
-    "title": "Pillow: Heap use-after-free when encoding TIFF to an in-memory buffer",
-    "url": "https://github.com/advisories/GHSA-4rr5-89j8-mwwm",
-    "score": 5.9,
-    "ghsa": "GHSA-4rr5-89j8-mwwm",
-    "date": "2026-10-21T21:24:19Z"
-   },
-   {
-    "title": "Pillow: Infinite loop in PdfParser.rewrite_pages on page tree Parent cycle",
-    "url": "https://github.com/advisories/GHSA-f2g6-542v-9j58",
+    "title": "DOMPurify IN_PLACE: hook that removes a parent or sibling leaves the detached subtree's event handlers armed (incomplete fix for GHSA-p98j-92pf-mc4p)",
+    "url": "https://github.com/advisories/GHSA-mrv2-3pqr-j5jr",
     "score": 7.5,
-    "ghsa": "GHSA-f2g6-542v-9j58",
-    "date": "2026-10-21T21:21:07Z"
+    "ghsa": "GHSA-mrv2-3pqr-j5jr",
+    "date": "2026-10-22T16:24:52Z"
    },
    {
-    "title": "Pillow: APNG background disposal allocates full canvas before decompression bomb check",
-    "url": "https://github.com/advisories/GHSA-5xm2-6676-qcp9",
+    "title": "DOMPurify: SMIL attributeName=href guard is skipped when PARSER_MEDIA_TYPE is application/xhtml+xml",
+    "url": "https://github.com/advisories/GHSA-c6gr-qvv4-5v3f",
+    "score": 2,
+    "ghsa": "GHSA-c6gr-qvv4-5v3f",
+    "date": "2026-10-22T16:24:23Z"
+   },
+   {
+    "title": "nbconvert: Arbitrary file write through path traversal in cell output filenames when exporting to md, latex, rst and asciidoc",
+    "url": "https://github.com/advisories/GHSA-pjvx-prjx-h659",
     "score": 7.5,
-    "ghsa": "GHSA-5xm2-6676-qcp9",
-    "date": "2026-10-21T21:17:56Z"
+    "ghsa": "GHSA-pjvx-prjx-h659",
+    "date": "2026-10-22T16:23:28Z"
    },
    {
-    "title": "Pillow: MSP RLE decoder expands a tiny file into unbounded memory",
-    "url": "https://github.com/advisories/GHSA-gg2r-wvfm-q9rx",
-    "score": 7.5,
-    "ghsa": "GHSA-gg2r-wvfm-q9rx",
-    "date": "2026-10-21T21:12:56Z"
+    "title": "OpenTelemetry Python: Unbounded tracestate parsing in opentelemetry-api",
+    "url": "https://github.com/advisories/GHSA-xcq7-p3pf-p88h",
+    "score": 5.3,
+    "ghsa": "GHSA-xcq7-p3pf-p88h",
+    "date": "2026-10-22T16:22:07Z"
    },
    {
-    "title": "Pillow: Quadratic-time DoS in PDF save_all (PdfParser.next_object_id)",
-    "url": "https://github.com/advisories/GHSA-jg86-v3jv-hrpm",
-    "score": 7.5,
-    "ghsa": "GHSA-jg86-v3jv-hrpm",
-    "date": "2026-10-21T21:11:44Z"
-   },
-   {
-    "title": "Pillow: PdfParser can recurse without limit in get_value() and linearize_page_tree()",
-    "url": "https://github.com/advisories/GHSA-254f-3936-288h",
+    "title": "ip-address: Address6 matches a zone identifier in quadratic time ahead of its length limit, allowing a single long string to stall the process",
+    "url": "https://github.com/advisories/GHSA-rxp7-6hxx-x8q5",
     "score": null,
-    "ghsa": "GHSA-254f-3936-288h",
-    "date": "2026-10-21T21:11:07Z"
+    "ghsa": "GHSA-rxp7-6hxx-x8q5",
+    "date": "2026-10-22T16:19:39Z"
    }
   ],
   "thn": [
+   {
+    "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+    "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+    "date": "Thu, 22 Oct 2026 21:42:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
     "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
@@ -364,16 +371,16 @@
     "date": "Wed, 21 Oct 2026 23:31:57 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-    "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-    "date": "Wed, 21 Oct 2026 22:03:47 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+    "date": "Thu, 22 Oct 2026 11:49:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Machine speed attacks require machine speed detection and response",
     "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
@@ -450,16 +457,82 @@
     "date": "Wed, 21 Oct 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-    "date": "Wed, 21 Oct 2026 08:20:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
-  "tools": [],
+  "tools": [
+   {
+    "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "url": "https://github.com/jiwoochris/artex-global",
+    "stars": 1985,
+    "lang": "Go"
+   },
+   {
+    "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
+    "url": "https://github.com/trhhubsd/ARTEX",
+    "stars": 1689,
+    "lang": "Go"
+   },
+   {
+    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+    "url": "https://github.com/morluto/awesome-reverse-engineering",
+    "stars": 1106,
+    "lang": "Python"
+   },
+   {
+    "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
+    "url": "https://github.com/openqodex/openqodex",
+    "stars": 789,
+    "lang": "TypeScript"
+   },
+   {
+    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
+    "url": "https://github.com/nealbridges/VulnHunter",
+    "stars": 771,
+    "lang": "Python"
+   },
+   {
+    "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
+    "url": "https://github.com/nhovongoc0-max/meme-radar",
+    "stars": 542,
+    "lang": "JavaScript"
+   },
+   {
+    "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
+    "url": "https://github.com/shinthink/blitzstrike",
+    "stars": 512,
+    "lang": "TypeScript"
+   },
+   {
+    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
+    "url": "https://github.com/strands-agents/box",
+    "stars": 456,
+    "lang": "Rust"
+   },
+   {
+    "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
+    "url": "https://github.com/opentrap/opentrap",
+    "stars": 349,
+    "lang": "Java"
+   },
+   {
+    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "stars": 330,
+    "lang": "—"
+   },
+   {
+    "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
+    "url": "https://github.com/xiaYuTian11/maskit",
+    "stars": 313,
+    "lang": "Python"
+   },
+   {
+    "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "url": "https://github.com/bdg9412/artex-ko-plus",
+    "stars": 215,
+    "lang": "Go"
+   }
+  ],
   "hn": [
    {
     "title": "U.S. national-security leaders included me in a group chat",
@@ -492,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1537,
+    "points": 1538,
     "comments": 655,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -590,6 +663,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/",
+    "date": "2026-10-22T16:27:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Custom Extensions for SmartScreen Evasion",
     "url": "https://www.reddit.com/r/netsec/comments/1xcf5yh/custom_extensions_for_smartscreen_evasion/",
     "date": "2026-10-22T10:44:10+00:00",
@@ -623,13 +703,6 @@
     "date": "2026-10-20T21:04:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "All vulnerabilities are now race conditions",
-    "url": "https://www.reddit.com/r/netsec/comments/1xasi1c/all_vulnerabilities_are_now_race_conditions/",
-    "date": "2026-10-20T13:42:36+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -639,15 +712,15 @@
   "adv": true,
   "thn": true,
   "bleep": true,
-  "tools": false,
+  "tools": true,
   "hn": true,
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 5,
   "kev": 1754,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
