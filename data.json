@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-22T00:58:48.655Z",
+ "generatedAt": "2026-10-22T01:38:42.446Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-114383 — A weakness has been identified in TOTOLINK EX200 5.2.3c.7200. This impacts the function setWiFiAclAddConfig of the file /cgi-bin/cstecgi.cgi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114383",
+    "score": 10,
+    "date": "2026-10-22T00:31:59Z"
+   },
+   {
+    "title": "CVE-2026-114382 — A security flaw has been discovered in TOTOLINK EX200 5.2.3c.7200. This affects the function setStaticDhcpConfig of the file /cgi-bin/cstecg",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114382",
+    "score": 10,
+    "date": "2026-10-22T00:31:58Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-89052 — CVE-2026-89052",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89052",
-    "score": null,
-    "date": "2026-10-21T23:17:30.240"
+    "title": "CVE-2026-105944 — Apache Pulsar Manager is a web console for administering Apache Pulsar clusters. It has its own user accounts and login, and it can be confi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105944",
+    "score": 9.5,
+    "date": "2026-10-21T21:32:33Z"
    },
    {
-    "title": "CVE-2026-76531 — CVE-2026-76531",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76531",
-    "score": null,
-    "date": "2026-10-21T23:17:30.117"
+    "title": "CVE-2026-91403 — Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE). ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91403",
+    "score": 9.1,
+    "date": "2026-10-22T00:31:59Z"
    },
    {
-    "title": "CVE-2026-76530 — CVE-2026-76530",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76530",
-    "score": null,
-    "date": "2026-10-21T23:17:30.000"
+    "title": "CVE-2026-76298 — In Splunk Enterprise versions below 10.4.4 and 10.2.8, a user who does not hold the \"admin\" or \"power\" Splunk roles could derive the Postgre",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76298",
+    "score": 8.8,
+    "date": "2026-10-22T00:32:00Z"
    },
    {
-    "title": "CVE-2026-76529 — CVE-2026-76529",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76529",
-    "score": null,
-    "date": "2026-10-21T23:17:29.883"
+    "title": "CVE-2026-76291 — In Splunk Enterprise versions below 10.4.4, 10.2.8, 10.0.11, and 9.4.16, a user that holds a role with the schedule_search capability could ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76291",
+    "score": 8.8,
+    "date": "2026-10-22T00:31:59Z"
    },
    {
-    "title": "CVE-2026-76528 — CVE-2026-76528",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76528",
-    "score": null,
-    "date": "2026-10-21T23:17:29.773"
+    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:45.400552Z"
    },
    {
-    "title": "CVE-2026-76527 — CVE-2026-76527",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76527",
-    "score": null,
-    "date": "2026-10-21T23:17:29.660"
+    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
+    "url": "https://github.com/advisories/RLSA-2026:86331",
+    "score": 7.8,
+    "date": "2026-10-22T00:09:40.784195Z"
    },
    {
-    "title": "CVE-2026-76526 — CVE-2026-76526",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76526",
-    "score": null,
-    "date": "2026-10-21T23:17:29.543"
+    "title": "CVE-2026-76306 — In Splunk SOAR versions below 8.7.0, a user that has the \"Observer\" role could use query filters in the Representational State Transfer (RES",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76306",
+    "score": 7.5,
+    "date": "2026-10-22T00:32:01Z"
    },
    {
-    "title": "CVE-2026-76408 — CVE-2026-76408",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76408",
-    "score": null,
-    "date": "2026-10-21T23:17:29.430"
+    "title": "CVE-2026-76290 — In Splunk Enterprise versions below 10.4.4, 10.2.8, and 10.0.11, an unauthenticated user could send repeated requests to the Edge Processor ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76290",
+    "score": 7.5,
+    "date": "2026-10-22T00:31:59Z"
    },
    {
-    "title": "CVE-2026-76407 — CVE-2026-76407",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76407",
-    "score": null,
-    "date": "2026-10-21T23:17:29.310"
+    "title": "CVE-2026-103090 — Missing Authentication for Critical Function (CWE-306) and Insufficiently Protected Credentials (CWE-522) in the control plane enrollment st",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103090",
+    "score": 7.5,
+    "date": "2026-10-22T00:31:59Z"
    },
    {
-    "title": "CVE-2026-76406 — CVE-2026-76406",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76406",
-    "score": null,
-    "date": "2026-10-21T23:17:29.180"
-   },
-   {
-    "title": "CVE-2026-76308 — CVE-2026-76308",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76308",
-    "score": null,
-    "date": "2026-10-21T23:17:29.017"
-   },
-   {
-    "title": "CVE-2026-76307 — CVE-2026-76307",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76307",
-    "score": null,
-    "date": "2026-10-21T23:17:28.893"
+    "title": "CVE-2026-76288 — In Splunk Enterprise versions below 10.4.4, 10.2.8, 10.0.11, and 9.4.16, an unauthenticated user could send a single crafted request to the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76288",
+    "score": 7.5,
+    "date": "2026-10-22T00:31:59Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1909,
+    "stars": 1914,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1561,
+    "stars": 1562,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1066,
+    "stars": 1070,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 782,
+    "stars": 783,
     "lang": "TypeScript"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 450,
+    "stars": 451,
     "lang": "Rust"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 316,
+    "stars": 319,
     "lang": "Java"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 211,
+    "stars": 212,
     "lang": "Go"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1505,
+    "points": 1506,
     "comments": 650,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -635,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
-    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
-    "date": "2026-10-21T21:24:08+00:00",
+    "title": "Gallery of PHP maintenance pages from today",
+    "url": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
+    "date": "2026-10-22T00:07:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Gallery of PHP maintenance pages from today",
-    "url": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
-    "date": "2026-10-22T00:07:45+00:00",
+    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
+    "date": "2026-10-21T21:24:08+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1754,
   "adv": 12,
   "feed": 48
