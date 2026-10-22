@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-22T08:38:41.991Z",
+ "generatedAt": "2026-10-22T09:33:14.942Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-12664 — Kwetsbaarheden verholpen in GitLab door GitLab Inc. (+11 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-12664",
+    "score": 10,
+    "date": "2026-10-22T09:12:12.147880Z"
+   },
+   {
+    "title": "CVE-2022-45378 — Kwetsbaarheden verholpen in Oracle JD Edwards EnterpriseOne (+23 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-45378",
+    "score": 9.8,
+    "date": "2026-10-22T09:02:46.599682Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87246",
-    "score": 8.8,
-    "date": "2026-10-22T07:13:03+00:00"
+    "title": "CVE-2026-109619 — RCE via stale global state",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109619",
+    "score": 9.5,
+    "date": "2026-10-22T08:08:20.097Z"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87245",
-    "score": 8.8,
-    "date": "2026-10-22T07:13:03+00:00"
+    "title": "CVE-2026-109618 — RCE via OOM corruption",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109618",
+    "score": 9.5,
+    "date": "2026-10-22T08:08:19.155Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: golang security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87041",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:06+00:00"
+    "title": "CVE-2026-109619 — RCE via stale global state",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109619",
+    "score": 9.5,
+    "date": "2026-10-22T08:04:27.070Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: grafana-pcp security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87911",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:03+00:00"
+    "title": "CVE-2026-109618 — RCE via OOM corruption",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109618",
+    "score": 9.5,
+    "date": "2026-10-22T08:04:26.105Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87153",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:03+00:00"
+    "title": "CVE-2026-92262 — MariaDB: Numerous issues caused by historical #mysql50# tablename encoding bypass.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92262",
+    "score": 9.5,
+    "date": "2026-10-21T08:53:00.717Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87092",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:02+00:00"
+    "title": "CVE-2026-85748 — MariaDB: Use-after-free with a large number of SYS_REFCURSOR's",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85748",
+    "score": 9.5,
+    "date": "2026-10-21T08:52:56.896Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87076",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:02+00:00"
+    "title": "CVE-2026-85746 — MariaDB: Out-of-bound buffer write on in `ST_AsText` of nested GeometryCollections",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85746",
+    "score": 9.5,
+    "date": "2026-10-21T08:52:55.588Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87075",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:02+00:00"
+    "title": "CVE-2026-9703 — Viewer role can create, modify and delete Loki alerting rules",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9703",
+    "score": 7.5,
+    "date": "2026-10-22T08:02:43.419Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87065",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:02+00:00"
+    "title": "CVE-2026-97380 — MariaDB: GRANT PROXY with empty password incorrectly checks grantor's privileges",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97380",
+    "score": 7.5,
+    "date": "2026-10-21T08:53:01.837Z"
    },
    {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87053",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:02+00:00"
-   },
-   {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: golang security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87043",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:02+00:00"
-   },
-   {
-    "title": "CVE-2026-111943 — Red Hat Security Advisory: golang security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87042",
-    "score": 6.8,
-    "date": "2026-10-22T07:13:01+00:00"
+    "title": "CVE-2026-86047 — MariaDB: Insufficient quoting in mariadb-dump and SHOW commands",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86047",
+    "score": 7.5,
+    "date": "2026-10-21T08:52:59.486Z"
    }
   ],
   "kev": [
@@ -289,6 +289,34 @@
   ],
   "thn": [
    {
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "date": "Thu, 22 Oct 2026 13:58:48 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "date": "Thu, 22 Oct 2026 13:17:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+    "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "date": "Thu, 22 Oct 2026 12:08:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "date": "Thu, 22 Oct 2026 12:04:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
     "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
     "date": "Thu, 22 Oct 2026 09:51:26 +0530",
@@ -341,34 +369,6 @@
     "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
     "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
     "date": "Wed, 21 Oct 2026 17:23:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-    "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-    "date": "Wed, 21 Oct 2026 16:06:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "The Harness Is the Hard Part of Agentic Pentesting",
-    "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-    "date": "Wed, 21 Oct 2026 16:02:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-    "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-    "date": "Wed, 21 Oct 2026 16:00:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-    "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-    "date": "Wed, 21 Oct 2026 14:35:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1943,
+    "stars": 1950,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1627,
+    "stars": 1635,
     "lang": "Go"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 770,
+    "stars": 771,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 209,
+    "stars": 214,
     "lang": "—"
    }
   ],
@@ -565,8 +565,8 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1524,
-    "comments": 654,
+    "points": 1526,
+    "comments": 655,
     "date": "2026-10-20T20:15:50Z"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 11,
   "kev": 1754,
   "adv": 12,
   "feed": 48
