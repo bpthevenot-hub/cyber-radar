@@ -1,49 +1,7 @@
 {
- "generatedAt": "2026-10-22T03:35:36.206Z",
+ "generatedAt": "2026-10-22T04:33:10.495Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
-    "score": 10,
-    "date": "2026-10-22T02:21:56+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
-    "score": 9.9,
-    "date": "2026-10-22T02:22:02+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
-    "score": 9.9,
-    "date": "2026-10-22T02:22:02+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
-    "score": 9.9,
-    "date": "2026-10-22T02:21:54+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
-    "score": 9.9,
-    "date": "2026-10-22T02:21:54+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
-    "score": 9.9,
-    "date": "2026-10-22T02:21:54+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:53530",
-    "score": 9.9,
-    "date": "2026-10-22T02:21:54+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -57,34 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
-    "score": 9.1,
-    "date": "2026-10-22T02:21:51+00:00"
+    "title": "CVE-2026-110354 — HAProxy 3 before 3.4.6 allows a remote unauthenticated attacker to cause a denial of service (persistent worker-thread CPU exhaustion) via a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110354",
+    "score": 7.5,
+    "date": "2026-10-22T03:33:49Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
-    "score": 9.1,
-    "date": "2026-10-22T02:21:50+00:00"
+    "title": "CVE-2026-110353 — HAProxy 3.2 before 3.4.6 allows a remote unauthenticated attacker to cause a denial of service (worker-thread CPU exhaustion) via a truncate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110353",
+    "score": 7.5,
+    "date": "2026-10-22T03:33:49Z"
    },
    {
-    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
-    "score": 9.1,
-    "date": "2026-10-22T02:21:48+00:00"
+    "title": "CVE-2026-114730 — Roundcube Webmail 1.6.14 before 1.6.20 and 1.7.0 before 1.7.5 is affected by a server-side request forgery filter bypass. The network blockl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114730",
+    "score": 7.2,
+    "date": "2026-10-22T03:33:49Z"
    },
    {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.38 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66377",
-    "score": 8.8,
-    "date": "2026-10-22T02:21:58+00:00"
+    "title": "CVE-2026-114732 — Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 is affected by an improper authentication vulnerability in multi-host installations. ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114732",
+    "score": 6.8,
+    "date": "2026-10-22T03:33:50Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.21.33 bug fix and security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66352",
-    "score": 8.8,
-    "date": "2026-10-22T02:21:57+00:00"
+    "title": "CVE-2026-114731 — Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 is affected by an uncontrolled resource consumption vulnerability in the CSS proxy (t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114731",
+    "score": 5.3,
+    "date": "2026-10-22T03:33:49Z"
+   },
+   {
+    "title": "CVE-2026-114729 — Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 is affected by a remote content blocking bypass. rcube_washtml inspected the SVG SMIL",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114729",
+    "score": 5.3,
+    "date": "2026-10-22T03:33:49Z"
+   },
+   {
+    "title": "CVE-2026-96392 — Improper Neutralization of Special Elements Used in a Template Engine vulnerability in Drupal AI CKEditor allows Code Injection. This issue ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96392",
+    "score": null,
+    "date": "2026-10-22T03:33:49Z"
+   },
+   {
+    "title": "CVE-2026-96398 — Incorrect Authorization vulnerability in Drupal Webform allows Forceful Browsing. This issue affects Webform versions: from 0.0.0 to 6.2.12,",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96398",
+    "score": null,
+    "date": "2026-10-22T03:33:49Z"
+   },
+   {
+    "title": "CVE-2026-96391 — Missing Authorization vulnerability in Drupal Webform REST allows Forceful Browsing. This issue affects Webform REST versions: from 0.0.0 to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96391",
+    "score": null,
+    "date": "2026-10-22T03:33:48Z"
+   },
+   {
+    "title": "CVE-2026-96390 — Privilege Defined With Unsafe Actions vulnerability in Drupal Editoria11y Accessibility Checker allows Privilege Escalation. This issue affe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96390",
+    "score": null,
+    "date": "2026-10-22T03:33:48Z"
+   },
+   {
+    "title": "CVE-2026-96380 — Missing Authorization vulnerability in Drupal CSS Usage Analyzer allows Forceful Browsing. This issue affects CSS Usage Analyzer versions: f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96380",
+    "score": null,
+    "date": "2026-10-22T03:33:47Z"
+   },
+   {
+    "title": "CVE-2026-96387 — Authentication Bypass Using an Alternate Path or Channel vulnerability in Drupal Stop administrator login allows Authentication Bypass. This",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96387",
+    "score": null,
+    "date": "2026-10-22T03:33:47Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1926,
+    "stars": 1927,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1591,
+    "stars": 1594,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1072,
+    "stars": 1074,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 784,
+    "stars": 785,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 333,
+    "stars": 339,
     "lang": "Java"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1513,
+    "points": 1516,
     "comments": 650,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 2,
   "kev": 1754,
   "adv": 12,
   "feed": 48
