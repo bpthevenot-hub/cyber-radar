@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T10:30:08.609Z",
+ "generatedAt": "2026-10-22T11:29:15.349Z",
  "sources": {
   "cve": [
    {
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+    "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+    "date": "Thu, 22 Oct 2026 16:45:42 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+    "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+    "date": "Thu, 22 Oct 2026 16:14:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
     "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
     "date": "Thu, 22 Oct 2026 13:58:48 +0530",
@@ -355,20 +369,6 @@
     "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
     "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
     "date": "Wed, 21 Oct 2026 18:45:09 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-    "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-    "date": "Wed, 21 Oct 2026 17:35:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-    "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-    "date": "Wed, 21 Oct 2026 17:23:34 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1955,
+    "stars": 1956,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1646,
+    "stars": 1651,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1092,
+    "stars": 1093,
     "lang": "Python"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 452,
+    "stars": 453,
     "lang": "Rust"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 344,
+    "stars": 345,
     "lang": "Java"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 220,
+    "stars": 225,
     "lang": "—"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1526,
+    "points": 1527,
     "comments": 655,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -649,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The PHP Foundation: Today's PHP Security Release, and How We're Strengthening PHP Security",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcegee/the_php_foundation_todays_php_security_release/",
+    "date": "2026-10-22T10:03:39+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "PHP patches for critical PHP2Shell vulnerabilities",
     "url": "https://www.reddit.com/r/netsec/comments/1xbp0px/php_patches_for_critical_php2shell_vulnerabilities/",
     "date": "2026-10-21T14:41:22+00:00",
@@ -656,9 +663,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The PHP Foundation: Today's PHP Security Release, and How We're Strengthening PHP Security",
-    "url": "https://www.reddit.com/r/netsec/comments/1xcegee/the_php_foundation_todays_php_security_release/",
-    "date": "2026-10-22T10:03:39+00:00",
+    "title": "Custom Extensions for SmartScreen Evasion",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcf5yh/custom_extensions_for_smartscreen_evasion/",
+    "date": "2026-10-22T10:44:10+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -694,13 +701,6 @@
     "title": "CVE-2026-46633: Proving exploitability of Twig sandbox bypass",
     "url": "https://www.reddit.com/r/netsec/comments/1xb2qvz/cve202646633_proving_exploitability_of_twig/",
     "date": "2026-10-20T20:08:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How practical is 100k requests per second? Introducing h3fuzz",
-    "url": "https://www.reddit.com/r/netsec/comments/1xap9nb/how_practical_is_100k_requests_per_second/",
-    "date": "2026-10-20T11:09:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
