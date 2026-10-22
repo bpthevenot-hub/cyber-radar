@@ -1,7 +1,49 @@
 {
- "generatedAt": "2026-10-22T02:39:11.873Z",
+ "generatedAt": "2026-10-22T03:35:36.206Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-55163 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.30.0 Release. (+69 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62260",
+    "score": 10,
+    "date": "2026-10-22T02:21:56+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+88 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71179",
+    "score": 9.9,
+    "date": "2026-10-22T02:22:02+00:00"
+   },
+   {
+    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.7 Container Release Update (+60 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71177",
+    "score": 9.9,
+    "date": "2026-10-22T02:22:02+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-10-22T02:21:54+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.11.11 security update (+54 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60387",
+    "score": 9.9,
+    "date": "2026-10-22T02:21:54+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
+    "score": 9.9,
+    "date": "2026-10-22T02:21:54+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.7.2 security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:53530",
+    "score": 9.9,
+    "date": "2026-10-22T02:21:54+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +57,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-18154 — Malicious code in pipegrip (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18154",
-    "score": null,
-    "date": "2026-10-22T00:22:15Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-10-22T02:21:51+00:00"
    },
    {
-    "title": "MAL-2026-18153 — Malicious code in hookgantry (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18153",
-    "score": null,
-    "date": "2026-10-22T00:21:46Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.19.22 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56366",
+    "score": 9.1,
+    "date": "2026-10-22T02:21:50+00:00"
    },
    {
-    "title": "MAL-2026-18152 — Malicious code in acousticpack (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18152",
-    "score": null,
-    "date": "2026-10-22T00:20:52Z"
+    "title": "CVE-2024-25621 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:51033",
+    "score": 9.1,
+    "date": "2026-10-22T02:21:48+00:00"
    },
    {
-    "title": "MAL-2026-18139 — Malicious code in dictanovaasr (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18139",
-    "score": null,
-    "date": "2026-10-21T23:09:26Z"
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.38 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66377",
+    "score": 8.8,
+    "date": "2026-10-22T02:21:58+00:00"
    },
    {
-    "title": "MAL-2026-18142 — Malicious code in orchestril (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18142",
-    "score": null,
-    "date": "2026-10-21T23:09:08Z"
-   },
-   {
-    "title": "MAL-2026-18144 — Malicious code in prosodinetts (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18144",
-    "score": null,
-    "date": "2026-10-21T23:08:55Z"
-   },
-   {
-    "title": "MAL-2026-18137 — Malicious code in codecraze (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18137",
-    "score": null,
-    "date": "2026-10-21T23:08:42Z"
-   },
-   {
-    "title": "MAL-2026-18147 — Malicious code in solivoxtts (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18147",
-    "score": null,
-    "date": "2026-10-21T23:05:54Z"
-   },
-   {
-    "title": "MAL-2026-18148 — Malicious code in tessivatts (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18148",
-    "score": null,
-    "date": "2026-10-21T23:05:49Z"
-   },
-   {
-    "title": "MAL-2026-18149 — Malicious code in vellutts (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18149",
-    "score": null,
-    "date": "2026-10-21T23:05:45Z"
-   },
-   {
-    "title": "MAL-2026-18140 — Malicious code in grommatts (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18140",
-    "score": null,
-    "date": "2026-10-21T23:05:14Z"
-   },
-   {
-    "title": "MAL-2026-18151 — Malicious code in zennittts (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18151",
-    "score": null,
-    "date": "2026-10-21T23:05:10Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.21.33 bug fix and security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:66352",
+    "score": 8.8,
+    "date": "2026-10-22T02:21:57+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1922,
+    "stars": 1926,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1576,
+    "stars": 1591,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1070,
+    "stars": 1072,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 327,
+    "stars": 333,
     "lang": "Java"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1509,
+    "points": 1513,
     "comments": 650,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 12,
   "kev": 1754,
   "adv": 12,
   "feed": 48
