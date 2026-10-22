@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T17:27:38.495Z",
+ "generatedAt": "2026-10-22T18:34:24.092Z",
  "sources": {
   "cve": [
    {
@@ -217,6 +217,27 @@
   ],
   "thn": [
    {
+    "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+    "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+    "date": "Thu, 22 Oct 2026 23:42:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+    "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+    "date": "Thu, 22 Oct 2026 23:15:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+    "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+    "date": "Thu, 22 Oct 2026 22:31:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
     "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
     "date": "Thu, 22 Oct 2026 21:42:31 +0530",
@@ -276,27 +297,6 @@
     "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
     "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
     "date": "Thu, 22 Oct 2026 12:04:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-    "date": "Thu, 22 Oct 2026 09:51:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-    "date": "Thu, 22 Oct 2026 00:27:34 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-    "date": "Wed, 21 Oct 2026 23:31:57 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,25 +391,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1988,
+    "stars": 1989,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1689,
+    "stars": 1694,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1107,
+    "stars": 1109,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 789,
+    "stars": 790,
     "lang": "TypeScript"
    },
    {
@@ -439,7 +439,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 358,
+    "stars": 361,
     "lang": "Java"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1541,
+    "points": 1542,
     "comments": 656,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -598,6 +598,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Exclusive: FoxIO researcher says Bun never answered its May report of a server-crashing HTTP/3 flaw",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcpmfm/exclusive_foxio_researcher_says_bun_never/",
+    "date": "2026-10-22T17:52:00+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Operation IXIM: Preventing a botnet of millions of Popcorn Time users",
     "url": "https://www.reddit.com/r/netsec/comments/1xci8xw/operation_ixim_preventing_a_botnet_of_millions_of/",
     "date": "2026-10-22T13:14:29+00:00",
@@ -622,13 +629,6 @@
     "title": "PHP rce CVE-2026-109618",
     "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
     "date": "2026-10-20T21:56:59+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How I got over 300 Tor exit nodes removed",
-    "url": "https://www.reddit.com/r/netsec/comments/1xasa1k/how_i_got_over_300_tor_exit_nodes_removed/",
-    "date": "2026-10-20T13:33:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
