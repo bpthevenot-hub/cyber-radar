@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-10-22T12:42:06.554Z",
+ "generatedAt": "2026-10-22T13:32:59.331Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-112832 — Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in CozyThemes Rootblox",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112832",
+    "score": 9.8,
+    "date": "2026-10-22T12:31:16Z"
+   },
+   {
+    "title": "CVE-2021-48016 — DedeCMS through 5.8.1-beta contains a PHP code injection vulnerability in ShowMsg() where the HTTP Referer header is written into a DedeTemp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2021-48016",
+    "score": 9.8,
+    "date": "2026-10-22T12:31:14Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-13411 — CVE-2026-13411",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13411",
-    "score": null,
-    "date": "2026-10-22T11:17:52.843"
+    "title": "CVE-2026-101307 — Kwetsbaarheden verholpen in FreeBSD bhyve hypervisor (+4 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-101307",
+    "score": 9.1,
+    "date": "2026-10-22T12:59:18.643662Z"
    },
    {
-    "title": "CVE-2026-115334 — CVE-2026-115334",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115334",
-    "score": null,
-    "date": "2026-10-22T11:17:52.703"
+    "title": "CVE-2022-51022 — YiShaAdmin 2.2 through 3.1, fixed in commit 025b062, contains an unauthenticated path traversal vulnerability in the /admin/File/DownloadFil",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-51022",
+    "score": 9.1,
+    "date": "2026-10-22T12:31:15Z"
    },
    {
-    "title": "CVE-2026-115333 — CVE-2026-115333",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115333",
-    "score": null,
-    "date": "2026-10-22T11:17:52.563"
-   },
-   {
-    "title": "CVE-2026-115332 — CVE-2026-115332",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115332",
-    "score": null,
-    "date": "2026-10-22T11:17:52.427"
-   },
-   {
-    "title": "CVE-2026-115331 — CVE-2026-115331",
+    "title": "CVE-2026-115331 — Lotus through 0.10.2 contains an sql injection vulnerability that allows authenticated organization users to inject SQL by supplying crafted",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-115331",
-    "score": null,
-    "date": "2026-10-22T11:17:52.290"
+    "score": 8.8,
+    "date": "2026-10-22T12:31:18Z"
    },
    {
-    "title": "CVE-2026-115330 — CVE-2026-115330",
+    "title": "CVE-2026-115332 — Lotus through 0.10.2 contains an sql injection vulnerability that allows authenticated organization users to inject SQL by registering craft",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115332",
+    "score": 8.8,
+    "date": "2026-10-22T12:31:18Z"
+   },
+   {
+    "title": "CVE-2026-115330 — Lotus through 0.10.2 contains an sql injection vulnerability that allows authenticated organization users to execute arbitrary SQL by append",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-115330",
-    "score": null,
-    "date": "2026-10-22T11:17:52.153"
+    "score": 8.8,
+    "date": "2026-10-22T12:31:17Z"
    },
    {
-    "title": "CVE-2026-115329 — CVE-2026-115329",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115329",
-    "score": null,
-    "date": "2026-10-22T11:17:52.010"
-   },
-   {
-    "title": "CVE-2026-115328 — CVE-2026-115328",
+    "title": "CVE-2026-115328 — JSON-SCADA before 0.65-alpha contains an sql injection vulnerability in opcApi() in src/server_realtime_auth/index.js that allows authentica",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-115328",
-    "score": null,
-    "date": "2026-10-22T11:17:51.873"
+    "score": 8.8,
+    "date": "2026-10-22T12:31:17Z"
    },
    {
-    "title": "CVE-2026-115327 — CVE-2026-115327",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115327",
-    "score": null,
-    "date": "2026-10-22T11:17:51.730"
+    "title": "CVE-2026-112822 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AmentoTech Workreap Core workreap_core",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112822",
+    "score": 8.5,
+    "date": "2026-10-22T12:31:16Z"
    },
    {
-    "title": "CVE-2026-115326 — CVE-2026-115326",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115326",
-    "score": null,
-    "date": "2026-10-22T11:17:51.563"
-   },
-   {
-    "title": "CVE-2026-115325 — CVE-2026-115325",
+    "title": "CVE-2026-115325 — Netmaker through 1.7.0 contains an authorization bypass vulnerability in the updateExtClient handler that allows network-scoped users to mod",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-115325",
-    "score": null,
-    "date": "2026-10-22T11:17:51.400"
+    "score": 8.3,
+    "date": "2026-10-22T12:31:17Z"
    },
    {
-    "title": "CVE-2026-115324 — CVE-2026-115324",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115324",
-    "score": null,
-    "date": "2026-10-22T11:17:51.263"
+    "title": "CVE-2025-71434 — Weaver E-cology 8.0, 9.0, and 10.0 prior to 10.76 contains an unauthenticated SQL injection vulnerability in the /api/doc/out/more/list endp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71434",
+    "score": 8.2,
+    "date": "2026-10-22T12:31:15Z"
+   },
+   {
+    "title": "CVE-2022-51023 — PHPOK 4.5.000 before 5.4.081 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate ORDER BY clauses vi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2022-51023",
+    "score": 8.2,
+    "date": "2026-10-22T12:31:15Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+    "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+    "date": "Thu, 22 Oct 2026 17:15:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
     "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
     "date": "Thu, 22 Oct 2026 16:45:42 +0530",
@@ -364,16 +371,16 @@
     "date": "Wed, 21 Oct 2026 19:30:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-    "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-    "date": "Wed, 21 Oct 2026 18:45:09 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+    "date": "Thu, 22 Oct 2026 09:09:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "GitLab warns of new max severity code execution vulnerability",
     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
@@ -450,32 +457,25 @@
     "date": "Wed, 21 Oct 2026 06:14:53 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-    "date": "Wed, 21 Oct 2026 04:36:24 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1959,
+    "stars": 1964,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1664,
+    "stars": 1669,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1099,
+    "stars": 1100,
     "lang": "Python"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 254,
+    "stars": 277,
     "lang": "—"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1530,
+    "points": 1531,
     "comments": 655,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -670,6 +670,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Operation IXIM: Preventing a botnet of millions of Popcorn Time users",
+    "url": "https://www.reddit.com/r/netsec/comments/1xci8xw/operation_ixim_preventing_a_botnet_of_millions_of/",
+    "date": "2026-10-22T13:14:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "PHP rce CVE-2026-109618",
     "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
     "date": "2026-10-20T21:56:59+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-10-20T13:42:36+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-46633: Proving exploitability of Twig sandbox bypass",
-    "url": "https://www.reddit.com/r/netsec/comments/1xb2qvz/cve202646633_proving_exploitability_of_twig/",
-    "date": "2026-10-20T20:08:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1754,
   "adv": 12,
   "feed": 48
