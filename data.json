@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T18:34:24.092Z",
+ "generatedAt": "2026-10-22T19:25:32.192Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-115513 — OpenCATS before 0.12.0 contains a stored cross-site scripting vulnerability that allows a low-privileged authenticated user to inject HTML/J",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115513",
+    "score": 8.7,
+    "date": "2026-10-22T18:39:33Z"
+   },
+   {
+    "title": "CVE-2026-113874 — SmileCDR HAPI FHIR allows an untrusted bundle body to replace a partition identity previously established by a trusted source, and does not ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113874",
+    "score": 8.1,
+    "date": "2026-10-22T18:39:34Z"
+   },
+   {
+    "title": "CVE-2026-97635 — The Agent Zero Web UI before 1.15 does not correctly sanitize user-provided input in chat messages or file uploads. When Agent Zero reproduc",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97635",
+    "score": 8.1,
+    "date": "2026-10-22T18:39:34Z"
+   },
+   {
+    "title": "CVE-2026-13599 — Missing authentication for critical function vulnerability in ABB Ability Edgenius. This issue affects Ability Edgenius: through 3.2.3.0.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13599",
+    "score": 7.8,
+    "date": "2026-10-22T18:39:34Z"
+   },
+   {
+    "title": "CVE-2026-115416 — Incorrect authorization checks in Amazon Athena engine version 3 query processing could have allowed an authenticated user to read AWS accou",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115416",
+    "score": 7.7,
+    "date": "2026-10-22T18:39:33Z"
+   },
+   {
+    "title": "CVE-2026-93336 — Missing authorization in the unit resources download route in Canonical Juju 4.0 through 4.0.15 allows a controller-authenticated principal ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93336",
+    "score": 7.5,
+    "date": "2026-10-22T18:39:34Z"
+   },
+   {
+    "title": "CVE-2026-115482 — In lsquic before 4.9.0, the HTTP/3 implementation can use an excessive amount of memory because the number of buffered header sets is not li",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115482",
+    "score": 7.5,
+    "date": "2026-10-22T18:39:33Z"
+   },
+   {
+    "title": "CVE-2026-113873 — SmileCDR HAPI FHIR does not properly handle highly compressed data, allowing an unauthenticated attacker to send compressed payloads that ex",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113873",
+    "score": 7.5,
+    "date": "2026-10-22T18:39:33Z"
+   },
+   {
+    "title": "CVE-2026-115453 — Authorization Bypass Through User-Controlled Key (CWE-639) in the cart and wishlist repositories of MarcosCamara01 Ecommerce Template allows",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115453",
+    "score": 7.5,
+    "date": "2026-10-22T18:39:32Z"
+   },
+   {
+    "title": "CVE-2026-115450 — External Control of Assumed-Immutable Web Parameter (CWE-472) in the cart and checkout flow of MarcosCamara01 Ecommerce Template allows an a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115450",
+    "score": 7.5,
+    "date": "2026-10-22T18:39:32Z"
+   },
+   {
+    "title": "CVE-2026-104068 — JetBackup plugin for WordPress before 3.1.24.10 contains a symlink-based arbitrary file write vulnerability that allows an authenticated Wor",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104068",
+    "score": 7.2,
+    "date": "2026-10-22T18:39:32Z"
+   },
+   {
+    "title": "CVE-2026-87943 — Missing Authorization vulnerability in Drupal SAML SSO - Service Provider allows Forceful Browsing. This issue affects SAML SSO - Service Pr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-87943",
+    "score": 6.5,
+    "date": "2026-10-22T03:33:40Z"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+    "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "date": "Thu, 22 Oct 2026 15:12:51 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
     "date": "Thu, 22 Oct 2026 13:18:22 -0400",
@@ -378,32 +457,25 @@
     "date": "Wed, 21 Oct 2026 12:26:53 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-    "date": "Wed, 21 Oct 2026 10:07:05 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1989,
+    "stars": 1994,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1694,
+    "stars": 1695,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1109,
+    "stars": 1111,
     "lang": "Python"
    },
    {
@@ -439,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 361,
+    "stars": 365,
     "lang": "Java"
    },
    {
@@ -455,10 +527,10 @@
     "lang": "Python"
    },
    {
-    "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-    "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 215,
-    "lang": "Go"
+    "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
+    "url": "https://github.com/zero-lab-ai/skills",
+    "stars": 218,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -493,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1542,
+    "points": 1543,
     "comments": 656,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -577,13 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Gallery of PHP maintenance pages from today",
-    "url": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
-    "date": "2026-10-22T00:07:45+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "The PHP Foundation: Today's PHP Security Release, and How We're Strengthening PHP Security",
     "url": "https://www.reddit.com/r/netsec/comments/1xcegee/the_php_foundation_todays_php_security_release/",
     "date": "2026-10-22T10:03:39+00:00",
@@ -591,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
-    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
-    "date": "2026-10-21T21:24:08+00:00",
+    "title": "Gallery of PHP maintenance pages from today",
+    "url": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
+    "date": "2026-10-22T00:07:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -605,9 +670,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the &quot;scanners&quot; carry Mirai-style loaders",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
+    "date": "2026-10-21T21:24:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Operation IXIM: Preventing a botnet of millions of Popcorn Time users",
     "url": "https://www.reddit.com/r/netsec/comments/1xci8xw/operation_ixim_preventing_a_botnet_of_millions_of/",
     "date": "2026-10-22T13:14:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Unvetted AI agents are accessing U.S. bank accounts",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcrdup/unvetted_ai_agents_are_accessing_us_bank_accounts/",
+    "date": "2026-10-22T18:56:41+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,13 +701,6 @@
     "title": "PHP patches for critical PHP2Shell vulnerabilities",
     "url": "https://www.reddit.com/r/netsec/comments/1xbp0px/php_patches_for_critical_php2shell_vulnerabilities/",
     "date": "2026-10-21T14:41:22+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "PHP rce CVE-2026-109618",
-    "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
-    "date": "2026-10-20T21:56:59+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
