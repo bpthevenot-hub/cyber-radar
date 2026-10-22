@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T13:32:59.331Z",
+ "generatedAt": "2026-10-22T14:31:48.038Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,13 @@
   ],
   "adv": [
    {
+    "title": "ammonia: mXSS via MathML `annotation-xml` encoding strip",
+    "url": "https://github.com/advisories/GHSA-9jh8-v38h-cvhr",
+    "score": null,
+    "ghsa": "GHSA-9jh8-v38h-cvhr",
+    "date": "2026-10-22T14:06:10Z"
+   },
+   {
     "title": "virtualenv: Builtin creation follows linked environment directories",
     "url": "https://github.com/advisories/GHSA-cw65-gx24-rc82",
     "score": 4.5,
@@ -278,16 +285,16 @@
     "score": null,
     "ghsa": "GHSA-254f-3936-288h",
     "date": "2026-10-21T21:11:07Z"
-   },
-   {
-    "title": "Pillow: ReDoS in XbmImagePlugin: 512-byte file stalls Image.open() for minutes",
-    "url": "https://github.com/advisories/GHSA-xgh8-jp6q-p5x8",
-    "score": null,
-    "ghsa": "GHSA-xgh8-jp6q-p5x8",
-    "date": "2026-10-21T20:45:06Z"
    }
   ],
   "thn": [
+   {
+    "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+    "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+    "date": "Thu, 22 Oct 2026 19:08:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
     "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
@@ -364,16 +371,16 @@
     "date": "Wed, 21 Oct 2026 22:03:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-    "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-    "date": "Wed, 21 Oct 2026 19:30:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Machine speed attacks require machine speed detection and response",
+    "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+    "date": "Thu, 22 Oct 2026 10:02:12 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
     "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
@@ -450,32 +457,25 @@
     "date": "Wed, 21 Oct 2026 08:20:34 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft says October updates didn’t actually fix VPN issues",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-    "date": "Wed, 21 Oct 2026 06:14:53 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1964,
+    "stars": 1971,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1669,
+    "stars": 1677,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1100,
+    "stars": 1101,
     "lang": "Python"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 453,
+    "stars": 455,
     "lang": "Rust"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 346,
+    "stars": 347,
     "lang": "Java"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 277,
+    "stars": 305,
     "lang": "—"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1531,
+    "points": 1536,
     "comments": 655,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -656,6 +656,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Operation IXIM: Preventing a botnet of millions of Popcorn Time users",
+    "url": "https://www.reddit.com/r/netsec/comments/1xci8xw/operation_ixim_preventing_a_botnet_of_millions_of/",
+    "date": "2026-10-22T13:14:29+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "PHP patches for critical PHP2Shell vulnerabilities",
     "url": "https://www.reddit.com/r/netsec/comments/1xbp0px/php_patches_for_critical_php2shell_vulnerabilities/",
     "date": "2026-10-21T14:41:22+00:00",
@@ -666,13 +673,6 @@
     "title": "Custom Extensions for SmartScreen Evasion",
     "url": "https://www.reddit.com/r/netsec/comments/1xcf5yh/custom_extensions_for_smartscreen_evasion/",
     "date": "2026-10-22T10:44:10+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Operation IXIM: Preventing a botnet of millions of Popcorn Time users",
-    "url": "https://www.reddit.com/r/netsec/comments/1xci8xw/operation_ixim_preventing_a_botnet_of_millions_of/",
-    "date": "2026-10-22T13:14:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
