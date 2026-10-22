@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-22T16:33:49.245Z",
+ "generatedAt": "2026-10-22T17:27:38.495Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-96639 — Pillow multi-frame loaders can reuse stale native image storage after mode transitions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96639",
-    "score": 9.8,
-    "date": "2026-10-22T16:00:15Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,72 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-114139 — Sentry-Javascript: Middleware Bypass when using Tunnel route",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114139",
-    "score": 9.5,
-    "date": "2026-10-22T15:55:07Z"
-   },
-   {
-    "title": "GHSA-2464-fhr4-w9xw — Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used",
-    "url": "https://github.com/advisories/GHSA-2464-fhr4-w9xw",
-    "score": 9.5,
-    "date": "2026-10-22T15:52:53Z"
-   },
-   {
-    "title": "CVE-2026-114135 — Jupyter Server: Gateway WebSocket handler bypasses kernel execute authorization",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114135",
-    "score": 8.8,
-    "date": "2026-10-22T15:46:31Z"
-   },
-   {
-    "title": "CVE-2026-96889 — Librsvg: Use-after-free when XML includes have duplicated entities",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96889",
-    "score": 7.8,
-    "date": "2026-10-22T15:52:48Z"
-   },
-   {
-    "title": "CVE-2026-96644 — Pillow: Heap over-read in WMF/EMF rendering via 16-bit dimension truncation (Windows builds)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96644",
-    "score": 7.5,
-    "date": "2026-10-22T16:03:14Z"
-   },
-   {
-    "title": "CVE-2026-96643 — Pillow: PNG eXIf chunk makes EXIF parsing run in quadratic time",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96643",
-    "score": 7.5,
-    "date": "2026-10-22T16:02:39Z"
-   },
-   {
-    "title": "CVE-2026-96642 — Pillow: TarIO negative size field causes infinite CPU-spin loop",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96642",
-    "score": 7.5,
-    "date": "2026-10-22T16:01:46Z"
-   },
-   {
-    "title": "CVE-2026-96640 — Pillow PDF append accepts malformed shared page-tree DAG causing resource exhaustion",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96640",
-    "score": 7.5,
-    "date": "2026-10-22T16:00:47Z"
-   },
-   {
-    "title": "CVE-2026-96637 — Pillow: Decompression bomb check bypass in SpiderImagePlugin.seek() leads to unbounded allocation DoS",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96637",
-    "score": 7.5,
-    "date": "2026-10-22T15:57:17Z"
-   },
-   {
-    "title": "CVE-2026-94482 — Next.js: Denial of Service in App Router using Server Actions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94482",
-    "score": 7.5,
-    "date": "2026-10-22T15:50:34Z"
-   },
-   {
-    "title": "GHSA-pxh4-856f-4h89 — PyJWT: HS256/384/512 verify accepts empty HMAC key via oct JWK (PyJWK/PyJWKClient) enabling token forgery",
-    "url": "https://github.com/advisories/GHSA-pxh4-856f-4h89",
-    "score": 7.4,
-    "date": "2026-10-22T15:48:04Z"
    }
   ],
   "kev": [
@@ -203,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "Storybook dev server vulnerable to code injection from the local network",
-    "url": "https://github.com/advisories/GHSA-px85-f4q5-jh77",
-    "score": 7.5,
-    "ghsa": "GHSA-px85-f4q5-jh77",
-    "date": "2026-10-22T16:31:40Z"
+    "title": "virtualenv: Generated files can follow existing destination links",
+    "url": "https://github.com/advisories/GHSA-558c-9hv2-4prj",
+    "score": 4.5,
+    "ghsa": "GHSA-558c-9hv2-4prj",
+    "date": "2026-10-22T17:03:12Z"
    },
    {
-    "title": "Astro: Reflected/Stored XSS via unescaped <script>/<style> tag content in JSX/MDX rendering",
-    "url": "https://github.com/advisories/GHSA-98hj-9722-w3j8",
-    "score": 6.5,
-    "ghsa": "GHSA-98hj-9722-w3j8",
-    "date": "2026-10-22T16:30:26Z"
+    "title": "Pillow: Bundled libopenjp2 2.5.4 in all wheels since 11.1.0 carries OSV-2025-219 heap-buffer-overflow write reachable from Image.open().load()",
+    "url": "https://github.com/advisories/GHSA-78g4-xqwv-q3g8",
+    "score": 8.1,
+    "ghsa": "GHSA-78g4-xqwv-q3g8",
+    "date": "2026-10-22T17:01:08Z"
    },
    {
-    "title": "Astro: Arbitrary CSS injection in Astro View Transitions",
-    "url": "https://github.com/advisories/GHSA-mpr7-6m5w-76rw",
-    "score": 2,
-    "ghsa": "GHSA-mpr7-6m5w-76rw",
-    "date": "2026-10-22T16:29:28Z"
-   },
-   {
-    "title": "GraphQL Tools: Prototype pollution in mergeIncrementalResult via non-primitive path segments",
-    "url": "https://github.com/advisories/GHSA-c4qx-w738-7hr3",
-    "score": 7.5,
-    "ghsa": "GHSA-c4qx-w738-7hr3",
-    "date": "2026-10-22T16:28:31Z"
-   },
-   {
-    "title": "GraphQL-core: Denial of service via comment tokens bypassing the parser's max_tokens limit",
-    "url": "https://github.com/advisories/GHSA-r77w-qph3-7vf8",
-    "score": 7.5,
-    "ghsa": "GHSA-r77w-qph3-7vf8",
-    "date": "2026-10-22T16:27:14Z"
-   },
-   {
-    "title": "GraphQL-core: Denial of service via quadratic complexity in the OverlappingFieldsCanBeMerged validation rule",
-    "url": "https://github.com/advisories/GHSA-vj8h-fx38-h3vc",
-    "score": 7.5,
-    "ghsa": "GHSA-vj8h-fx38-h3vc",
-    "date": "2026-10-22T16:26:40Z"
-   },
-   {
-    "title": "DOMPurify SAFE_FOR_TEMPLATES bypass: split template expressions survive in attached shadow root content on DOM output modes",
-    "url": "https://github.com/advisories/GHSA-cg2g-xh64-v4q7",
-    "score": 9.5,
-    "ghsa": "GHSA-cg2g-xh64-v4q7",
-    "date": "2026-10-22T16:25:31Z"
-   },
-   {
-    "title": "DOMPurify IN_PLACE: hook that removes a parent or sibling leaves the detached subtree's event handlers armed (incomplete fix for GHSA-p98j-92pf-mc4p)",
-    "url": "https://github.com/advisories/GHSA-mrv2-3pqr-j5jr",
-    "score": 7.5,
-    "ghsa": "GHSA-mrv2-3pqr-j5jr",
-    "date": "2026-10-22T16:24:52Z"
-   },
-   {
-    "title": "DOMPurify: SMIL attributeName=href guard is skipped when PARSER_MEDIA_TYPE is application/xhtml+xml",
-    "url": "https://github.com/advisories/GHSA-c6gr-qvv4-5v3f",
-    "score": 2,
-    "ghsa": "GHSA-c6gr-qvv4-5v3f",
-    "date": "2026-10-22T16:24:23Z"
-   },
-   {
-    "title": "nbconvert: Arbitrary file write through path traversal in cell output filenames when exporting to md, latex, rst and asciidoc",
-    "url": "https://github.com/advisories/GHSA-pjvx-prjx-h659",
-    "score": 7.5,
-    "ghsa": "GHSA-pjvx-prjx-h659",
-    "date": "2026-10-22T16:23:28Z"
-   },
-   {
-    "title": "OpenTelemetry Python: Unbounded tracestate parsing in opentelemetry-api",
-    "url": "https://github.com/advisories/GHSA-xcq7-p3pf-p88h",
-    "score": 5.3,
-    "ghsa": "GHSA-xcq7-p3pf-p88h",
-    "date": "2026-10-22T16:22:07Z"
-   },
-   {
-    "title": "ip-address: Address6 matches a zone identifier in quadratic time ahead of its length limit, allowing a single long string to stall the process",
-    "url": "https://github.com/advisories/GHSA-rxp7-6hxx-x8q5",
+    "title": "Nuxt: Server-side route rules (`redirect`, `headers`, `proxy`, `ssr`) are skipped for case-variant paths when routing is case-insensitive",
+    "url": "https://github.com/advisories/GHSA-vjh5-4x84-xrqp",
     "score": null,
-    "ghsa": "GHSA-rxp7-6hxx-x8q5",
-    "date": "2026-10-22T16:19:39Z"
+    "ghsa": "GHSA-vjh5-4x84-xrqp",
+    "date": "2026-10-22T16:59:55Z"
+   },
+   {
+    "title": "Nuxt server islands render `useHeadSafe` input without sanitisation",
+    "url": "https://github.com/advisories/GHSA-xfq5-w38q-pc2x",
+    "score": 5.4,
+    "ghsa": "GHSA-xfq5-w38q-pc2x",
+    "date": "2026-10-22T16:58:00Z"
+   },
+   {
+    "title": "Nuxt: Incomplete fix for GHSA-934w-87qh-qr26: a `javascript:` URL prefixed with an ASCII control character executes from `<NuxtLink>` when `pages` is ",
+    "url": "https://github.com/advisories/GHSA-jjm6-p2m9-9w4x",
+    "score": 2,
+    "ghsa": "GHSA-jjm6-p2m9-9w4x",
+    "date": "2026-10-22T16:51:37Z"
+   },
+   {
+    "title": "Nuxt: Route rules are matched against the raw request path, so a percent-encoded segment can bypass `appMiddleware` on dynamic and catch-all routes",
+    "url": "https://github.com/advisories/GHSA-6gq8-jgmh-3ffp",
+    "score": 6.5,
+    "ghsa": "GHSA-6gq8-jgmh-3ffp",
+    "date": "2026-10-22T16:50:53Z"
+   },
+   {
+    "title": "pypdf: Possible long runtimes/large memory usage when retrieving form fields",
+    "url": "https://github.com/advisories/GHSA-6vvc-x485-93v7",
+    "score": null,
+    "ghsa": "GHSA-6vvc-x485-93v7",
+    "date": "2026-10-22T16:49:56Z"
+   },
+   {
+    "title": "pypdf: Possible large memory usage when parsing arrays and dictionaries",
+    "url": "https://github.com/advisories/GHSA-f54x-cmq8-qg57",
+    "score": null,
+    "ghsa": "GHSA-f54x-cmq8-qg57",
+    "date": "2026-10-22T16:49:40Z"
+   },
+   {
+    "title": "pypdf: Possible large memory usage when parsing content streams",
+    "url": "https://github.com/advisories/GHSA-cgf9-327m-v77c",
+    "score": null,
+    "ghsa": "GHSA-cgf9-327m-v77c",
+    "date": "2026-10-22T16:49:22Z"
+   },
+   {
+    "title": "Electron: SameSite cookie restrictions are not applied to windows opened from links",
+    "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
+    "score": 4.2,
+    "ghsa": "GHSA-2p8c-gr87-2676",
+    "date": "2026-10-22T16:47:54Z"
+   },
+   {
+    "title": "Electron: Pointer lock permission requests can be attributed to the wrong frame",
+    "url": "https://github.com/advisories/GHSA-x562-297c-g43g",
+    "score": 5.4,
+    "ghsa": "GHSA-x562-297c-g43g",
+    "date": "2026-10-22T16:47:15Z"
+   },
+   {
+    "title": "Electron: Extension tabs.query returns tab URLs and titles without the tabs permission",
+    "url": "https://github.com/advisories/GHSA-98mx-cjp9-gchm",
+    "score": 3.1,
+    "ghsa": "GHSA-98mx-cjp9-gchm",
+    "date": "2026-10-22T16:46:33Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "date": "Thu, 22 Oct 2026 13:18:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
     "date": "Thu, 22 Oct 2026 11:49:32 -0400",
@@ -450,20 +385,13 @@
     "date": "Wed, 21 Oct 2026 10:07:05 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-    "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-    "date": "Wed, 21 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1985,
+    "stars": 1988,
     "lang": "Go"
    },
    {
@@ -475,7 +403,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1106,
+    "stars": 1107,
     "lang": "Python"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 349,
+    "stars": 358,
     "lang": "Java"
    },
    {
@@ -565,8 +493,8 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1538,
-    "comments": 655,
+    "points": 1541,
+    "comments": 656,
     "date": "2026-10-20T20:15:50Z"
    },
    {
@@ -635,6 +563,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/",
+    "date": "2026-10-22T16:27:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "CVE-2026-94300: Concurrent GSS-TSIG messages corrupt memory",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcnwyi/cve202694300_concurrent_gsstsig_messages_corrupt/",
+    "date": "2026-10-22T16:49:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Gallery of PHP maintenance pages from today",
     "url": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
     "date": "2026-10-22T00:07:45+00:00",
@@ -659,13 +601,6 @@
     "title": "Operation IXIM: Preventing a botnet of millions of Popcorn Time users",
     "url": "https://www.reddit.com/r/netsec/comments/1xci8xw/operation_ixim_preventing_a_botnet_of_millions_of/",
     "date": "2026-10-22T13:14:29+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web",
-    "url": "https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/",
-    "date": "2026-10-22T16:27:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -696,13 +631,6 @@
     "date": "2026-10-20T13:33:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "France had more Internet-exposed Danfoss refrigeration dashboards than the rest of the world combined before the supermarket attacks (weekly IPv4 scan data)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xb45ee/france_had_more_internetexposed_danfoss/",
-    "date": "2026-10-20T21:04:03+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1754,
   "adv": 12,
   "feed": 48
