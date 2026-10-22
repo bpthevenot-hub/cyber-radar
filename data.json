@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-10-22T06:46:34.124Z",
+ "generatedAt": "2026-10-22T07:36:54.301Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2021-28235 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.1 (etcd) security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3447",
-    "score": 9.8,
-    "date": "2026-10-22T05:44:47+00:00"
-   },
-   {
-    "title": "CVE-2023-26159 — Red Hat Enhancement Advisory: Red Hat Developer Hub 1.1 release (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHEA-2024:1366",
-    "score": 9.8,
-    "date": "2026-10-22T05:43:19+00:00"
-   },
-   {
-    "title": "CVE-2022-32190 — Red Hat Bug Fix Advisory: MTV 2.4.3 Images (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHBA-2023:6109",
-    "score": 9.8,
-    "date": "2026-10-22T05:43:11+00:00"
-   },
-   {
-    "title": "CVE-2022-27664 — Red Hat Bug Fix Advisory: Red Hat Quay v3.8.11 bug fix release (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHBA-2023:4275",
-    "score": 9.8,
-    "date": "2026-10-22T05:43:06+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -39,52 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Virtualization 4.12.5 security and bug fix update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4421",
-    "score": 8.1,
-    "date": "2026-10-22T05:45:01+00:00"
+    "title": "CVE-2026-15143 — A flaw was found in the file_type content detector of guardrails-detectors. This vulnerability allows a remote attacker to supply an arbitra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15143",
+    "score": 9.3,
+    "date": "2026-07-10T18:32:19Z"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: yggdrasil security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:7592",
+    "title": "CVE-2026-114220 — NT OneAPP developed by NewType Infortech has an Improper Certificate Validation vulnerability. Unauthenticated network-adjacent attackers ca",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114220",
+    "score": 9.1,
+    "date": "2026-10-22T06:31:18Z"
+   },
+   {
+    "title": "CVE-2026-99999 — Red Hat Security Advisory: kernel-rt security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87822",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:19+00:00"
+   },
+   {
+    "title": "CVE-2026-99999 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87098",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:18+00:00"
+   },
+   {
+    "title": "CVE-2026-99999 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87091",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:18+00:00"
+   },
+   {
+    "title": "CVE-2026-99999 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87086",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:17+00:00"
+   },
+   {
+    "title": "CVE-2026-99999 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:86089",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:16+00:00"
+   },
+   {
+    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:86033",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:16+00:00"
+   },
+   {
+    "title": "CVE-2026-99999 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85979",
+    "score": 8.8,
+    "date": "2026-10-22T06:26:15+00:00"
+   },
+   {
+    "title": "CVE-2026-18949 — A flaw was found in odh-dashboard. This vulnerability allows an attacker, who has compromised the dashboard's Service Account (SA) token, to",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18949",
+    "score": 8.8,
+    "date": "2026-08-10T21:32:07Z"
+   },
+   {
+    "title": "CVE-2026-96512 — A flaw was found in sudo. When sudoers rules use NOTBEFORE or NOTAFTER time-based access restrictions with timestamps that omit the trailing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96512",
     "score": 7.8,
-    "date": "2026-10-22T05:42:07+00:00"
+    "date": "2026-09-23T15:30:49Z"
    },
    {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Virtualization 4.13.4 security and bug fix update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5233",
+    "title": "CVE-2026-15574 — A flaw was found in the vllm-orchestrator-gateway component. The system's production binary logs all incoming authorization headers and full",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15574",
     "score": 7.5,
-    "date": "2026-10-22T05:45:10+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Container Platform 4.13.10 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4731",
-    "score": 7.5,
-    "date": "2026-10-22T05:45:06+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Container Platform 4.13.9 bug fix and security update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4603",
-    "score": 7.5,
-    "date": "2026-10-22T05:45:03+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Container Platform 4.13.8 bug fix and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4456",
-    "score": 7.5,
-    "date": "2026-10-22T05:45:01+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.7.11 security and bug fix update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4293",
-    "score": 7.5,
-    "date": "2026-10-22T05:45:01+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: OpenShift Container Platform 4.13.6 security and extras update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:4225",
-    "score": 7.5,
-    "date": "2026-10-22T05:44:59+00:00"
+    "date": "2026-07-13T09:31:43Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 1937,
+    "stars": 1939,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1610,
+    "stars": 1621,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1079,
+    "stars": 1083,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 788,
+    "stars": 789,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 451,
+    "stars": 452,
     "lang": "Rust"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 206,
+    "stars": 207,
     "lang": "—"
    }
   ],
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1516,
+    "points": 1521,
     "comments": 652,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 4,
   "kev": 1754,
   "adv": 12,
   "feed": 48
