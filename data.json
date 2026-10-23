@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-23T09:33:16.402Z",
+ "generatedAt": "2026-10-23T10:29:45.117Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-25784 — Initialization of a Resource with an Insecure Default vulnerability in Hallo Welt! GmbH BlueSpice (container image bluespice/wiki) allows pr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-25784",
+    "score": 9.8,
+    "date": "2026-10-23T09:31:23Z"
+   },
+   {
+    "title": "CVE-2026-112862 — Deserialization of Untrusted Data vulnerability in xnau webdesign Participants Database participants-database allows Object Injection.This i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112862",
+    "score": 9.8,
+    "date": "2026-10-23T09:31:23Z"
+   },
+   {
+    "title": "CVE-2026-63244 — An authentication bypass vulnerability in WizLearn Technologies' Learning Management System (LMS) could allow an unauthenticated remote atta",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63244",
+    "score": 9.8,
+    "date": "2026-10-23T09:31:19Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2026-55981 — A firmware verification vulnerability in Creative Sound Blaster Katana could allow an attacker to modify a legitimate firmware image and upl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55981",
+    "score": 9.6,
+    "date": "2026-10-23T09:31:18Z"
    },
    {
-    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86168",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2025-30054 — CGM CLININET is vulnerable to local privilege escalation. The service that processes incoming HL7 messages runs with root privileges, but du",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-30054",
+    "score": 9.5,
+    "date": "2026-10-23T09:31:21Z"
    },
    {
-    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86195",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2025-30046 — In the CGM CLININET application server, multiple processes responsible for HL7 communication with external systems run with root privileges ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-30046",
+    "score": 9.5,
+    "date": "2026-10-23T09:31:20Z"
    },
    {
-    "title": "RLSA-2026:80605 — Critical: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:80605",
-    "score": 9.1,
-    "date": "2026-10-13T12:08:58.021554Z"
+    "title": "CVE-2025-30047 — CGM CLININET is vulnerable to Remote Code Execution caused by deserialization of untrusted data. The server exposes an HTTP-based API, used ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-30047",
+    "score": 9.5,
+    "date": "2026-10-23T09:31:20Z"
    },
    {
-    "title": "RLSA-2026:79371 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:79371",
-    "score": 9.1,
-    "date": "2026-10-10T12:08:29.652489Z"
+    "title": "CVE-2025-30050 — CGM CLININET is vulnerable to Code Injection in the RunCGI.pm component, which dynamically imports the module specified as a query parameter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-30050",
+    "score": 9.5,
+    "date": "2026-10-23T09:31:20Z"
    },
    {
-    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "title": "CVE-2026-112860 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in xnau webdesign Participants Database p",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112860",
+    "score": 9.3,
+    "date": "2026-10-23T09:31:23Z"
+   },
+   {
+    "title": "CVE-2026-74534 — In the Linux kernel, the following vulnerability has been resolved: Bluetooth: ISO: fix refcounting of iso_conn iso_conn_del() and iso_chan_",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74534",
     "score": 8.8,
-    "date": "2026-10-21T12:08:45.400552Z"
+    "date": "2026-08-15T15:30:35Z"
    },
    {
-    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:85321",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:03.045090Z"
+    "title": "CVE-2026-112837 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Ruben Garcia GamiPress gamipress allow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112837",
+    "score": 8.5,
+    "date": "2026-10-23T09:31:23Z"
    },
    {
-    "title": "RLSA-2026:85309 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85309",
-    "score": 8.8,
-    "date": "2026-10-21T06:40:55.719656Z"
-   },
-   {
-    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:82883",
-    "score": 8.8,
-    "date": "2026-10-15T12:20:13.898768Z"
-   },
-   {
-    "title": "RLSA-2026:80498 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:80498",
-    "score": 8.8,
-    "date": "2026-10-13T12:08:58.021554Z"
-   },
-   {
-    "title": "RLSA-2026:77690 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:77690",
-    "score": 8.8,
-    "date": "2026-10-09T12:10:46.463075Z"
-   },
-   {
-    "title": "RLSA-2026:88247 — Important: expat security update",
-    "url": "https://github.com/advisories/RLSA-2026:88247",
-    "score": 8.2,
-    "date": "2026-10-23T06:45:29.064378Z"
+    "title": "CVE-2026-16762 — An attacker able to supply a crafted XML document to an application using QXmlStreamReader can cause disproportionate CPU consumption during",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16762",
+    "score": 7.5,
+    "date": "2026-10-23T09:31:23Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+    "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+    "date": "Fri, 23 Oct 2026 15:06:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
     "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
     "date": "Fri, 23 Oct 2026 14:10:43 +0530",
@@ -362,13 +369,6 @@
     "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
     "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
     "date": "Thu, 22 Oct 2026 16:45:42 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-    "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-    "date": "Thu, 22 Oct 2026 16:14:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2047,
+    "stars": 2049,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1771,
+    "stars": 1778,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1140,
+    "stars": 1143,
     "lang": "Python"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 429,
+    "stars": 436,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 359,
+    "stars": 365,
     "lang": "—"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 240,
+    "stars": 243,
     "lang": "Python"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 11,
   "kev": 1754,
   "adv": 12,
   "feed": 48
