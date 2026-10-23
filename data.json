@@ -1,36 +1,12 @@
 {
- "generatedAt": "2026-10-23T02:39:26.570Z",
+ "generatedAt": "2026-10-23T03:35:57.349Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-97785 — Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97785",
-    "score": 10,
-    "date": "2026-10-23T00:33:12Z"
-   },
-   {
-    "title": "CVE-2026-110063 — Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110063",
-    "score": 10,
-    "date": "2026-10-23T00:33:11Z"
-   },
-   {
-    "title": "CVE-2026-83938 — Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83938",
-    "score": 10,
-    "date": "2026-10-23T00:33:11Z"
-   },
-   {
-    "title": "CVE-2026-110243 — The network management service on affected Kiloview E3 NDI encoder firmware fails to validate the network interface name accepted by its lin",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110243",
-    "score": 9.9,
-    "date": "2026-10-23T00:33:12Z"
-   },
-   {
-    "title": "CVE-2026-107861 — The system control service on affected Kiloview E3 NDI encoder firmware fails to sanitize the hostname parameter accepted by its device nami",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107861",
-    "score": 9.9,
-    "date": "2026-10-23T00:33:12Z"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "score": 9.8,
+    "date": "2026-10-23T02:24:21+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -45,46 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-105014 — Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to ex",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105014",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
     "score": 9.1,
-    "date": "2026-10-23T00:33:11Z"
+    "date": "2026-10-23T02:24:21+00:00"
    },
    {
-    "title": "CVE-2026-109122 — The network management service on affected Kiloview E3 NDI encoder firmware fails to sanitize one field used when configuring static routes ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109122",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
     "score": 9.1,
-    "date": "2026-10-23T00:33:11Z"
+    "date": "2026-10-23T02:24:21+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.18.43 security and extras update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21658",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
     "score": 9.1,
-    "date": "2026-10-23T00:29:35+00:00"
+    "date": "2026-10-23T02:24:20+00:00"
    },
    {
-    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.16.63 security and extras update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20089",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
     "score": 9.1,
-    "date": "2026-10-23T00:29:33+00:00"
+    "date": "2026-10-23T02:24:20+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 security and extras update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20042",
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
     "score": 9.1,
-    "date": "2026-10-23T00:29:33+00:00"
+    "date": "2026-10-23T02:24:18+00:00"
    },
    {
-    "title": "CVE-2025-55190 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.1 security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:1488",
-    "score": 8.8,
-    "date": "2026-10-23T00:29:30+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-10-23T02:24:12+00:00"
    },
    {
-    "title": "CVE-2025-31133 — Red Hat Security Advisory: container-tools:rhel8 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10703",
-    "score": 8.2,
-    "date": "2026-10-23T00:29:26+00:00"
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-10-23T02:24:09+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-10-23T02:24:09+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-10-23T02:24:09+00:00"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9695",
+    "score": 7.5,
+    "date": "2026-10-23T02:24:21+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: runc security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9097",
+    "score": 7.5,
+    "date": "2026-10-23T02:24:21+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2019,
+    "stars": 2022,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1708,
+    "stars": 1716,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1125,
+    "stars": 1127,
     "lang": "Python"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 388,
+    "stars": 391,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 333,
+    "stars": 334,
     "lang": "—"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 226,
+    "stars": 229,
     "lang": "Python"
    }
   ],
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1548,
+    "points": 1549,
     "comments": 658,
     "date": "2026-10-20T20:15:50Z"
    },
