@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T16:34:19.149Z",
+ "generatedAt": "2026-10-23T17:27:46.445Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-114357 — Missing authentication for a critical function in the Android Debug Bridge daemon (adbd) in DJI CrystalSky ZS600C firmware v0.3.9.7 through ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114357",
-    "score": 9.5,
-    "date": "2026-10-23T15:31:37Z"
-   },
-   {
-    "title": "CVE-2026-93639 — A missing authorization vulnerability in Zimbra Collaboration Suite (ZCS) allows a delegated administrator with no explicit administrative g",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93639",
-    "score": 8.7,
-    "date": "2026-10-23T15:31:39Z"
-   },
-   {
-    "title": "CVE-2026-50053 — A request attribute override vulnerability in Zimbra Collaboration Suite (ZCS) allows unauthenticated requests to /h/* to populate servlet a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50053",
-    "score": 8.7,
-    "date": "2026-10-23T15:31:38Z"
-   },
-   {
-    "title": "CVE-2026-10632 — A reflected cross-site scripting vulnerability in the Classic Web Client of Zimbra Collaboration Suite (ZCS) allows an attacker to inject Ja",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-10632",
-    "score": 8.7,
-    "date": "2026-10-23T15:31:37Z"
-   },
-   {
-    "title": "CVE-2026-93640 — A local privilege escalation vulnerability in the optional dnscache package of Zimbra Collaboration Suite (ZCS) allows the Unix zimbra accou",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93640",
-    "score": 7.8,
-    "date": "2026-10-23T15:31:39Z"
-   },
-   {
-    "title": "CVE-2026-50056 — A local privilege escalation vulnerability in the zmmailboxdmgr launcher of Zimbra Collaboration Suite (ZCS) allows the Unix zimbra account ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50056",
-    "score": 7.8,
-    "date": "2026-10-23T15:31:38Z"
-   },
-   {
-    "title": "CVE-2026-50057 — A local privilege escalation vulnerability in the Zimbra Collaboration Suite (ZCS) MTA package allows the Unix zimbra account to execute arb",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50057",
-    "score": 7.8,
-    "date": "2026-10-23T15:31:38Z"
-   },
-   {
-    "title": "CVE-2026-106765 — An issue in @rog0x/mcp-docker-tools 1.0.1 allows a remote attacker to execute arbitrary code via the handleImageList function.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106765",
-    "score": 7.5,
-    "date": "2026-10-23T15:31:40Z"
-   },
-   {
-    "title": "CVE-2026-106764 — An issue in @rog0x/mcp-git-tools 1.0.1 allows a remote attacker to execute arbitrary code via the resolveBaseBranch function.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106764",
-    "score": 7.5,
-    "date": "2026-10-23T15:31:39Z"
-   },
-   {
-    "title": "CVE-2026-102786 — Joomla Extension - phoca.cz - Authenticated stored cross-site scripting through HTML attribute injection in Phoca Gallery 4.5.0 - 6.1.5",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102786",
-    "score": 7.5,
-    "date": "2026-10-23T15:31:39Z"
-   },
-   {
-    "title": "CVE-2026-106763 — An issue in @justice8096/sagemath-mcp-server 1.0.1 allows a remote attacker to execute arbitrary code via the escapeShellString and sanitize",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106763",
-    "score": 7.5,
-    "date": "2026-10-23T15:31:39Z"
-   },
-   {
-    "title": "CVE-2026-114353 — Hidden functionality (undocumented backdoor) in the root-privileged 'assistant' daemon in DJI CrystalSky ZS600C firmware v0.3.9.7 through v0",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114353",
-    "score": 7.5,
-    "date": "2026-10-23T15:31:37Z"
    }
   ],
   "kev": [
@@ -375,6 +303,20 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+    "date": "Fri, 23 Oct 2026 13:05:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Quest Diagnostics confirms data breach exposed patient records",
+    "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+    "date": "Fri, 23 Oct 2026 12:40:07 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "PHP shares mitigation for new RCE vulnerability with no patch",
     "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
     "date": "Fri, 23 Oct 2026 11:38:05 -0400",
@@ -443,27 +385,13 @@
     "date": "Thu, 22 Oct 2026 09:09:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "GitLab warns of new max severity code execution vulnerability",
-    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-    "date": "Thu, 22 Oct 2026 07:41:48 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-    "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-    "date": "Thu, 22 Oct 2026 04:27:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2075,
+    "stars": 2077,
     "lang": "Go"
    },
    {
@@ -475,7 +403,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1148,
+    "stars": 1152,
     "lang": "Python"
    },
    {
@@ -517,7 +445,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 424,
+    "stars": 436,
     "lang": "—"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 258,
+    "stars": 260,
     "lang": "Python"
    }
   ],
@@ -635,13 +563,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web",
-    "url": "https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/",
-    "date": "2026-10-22T16:27:22+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)",
     "url": "https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/",
     "date": "2026-10-23T14:37:35+00:00",
@@ -649,9 +570,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Introducing pathrunner: An AWS privilege escalation framework",
-    "url": "https://www.reddit.com/r/netsec/comments/1xdegk4/introducing_pathrunner_an_aws_privilege/",
-    "date": "2026-10-23T13:44:52+00:00",
+    "title": "Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/",
+    "date": "2026-10-22T16:27:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -659,13 +580,6 @@
     "title": "EMFI adventures part 2: target characterization on STM32H5",
     "url": "https://www.reddit.com/r/netsec/comments/1xddn1d/emfi_adventures_part_2_target_characterization_on/",
     "date": "2026-10-23T13:11:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Incident Response and Threat Landscape Report: Critical Infrastructure Vulnerabilities and Extortion Tactics",
-    "url": "https://www.reddit.com/r/netsec/comments/1xddkk1/incident_response_and_threat_landscape_report/",
-    "date": "2026-10-23T13:08:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -703,6 +617,20 @@
     "date": "2026-10-22T10:44:10+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "PHP patches for critical PHP2Shell vulnerabilities",
+    "url": "https://www.reddit.com/r/netsec/comments/1xbp0px/php_patches_for_critical_php2shell_vulnerabilities/",
+    "date": "2026-10-21T14:41:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "PHP rce CVE-2026-109618",
+    "url": "https://www.reddit.com/r/netsec/comments/1xb5g1c/php_rce_cve2026109618/",
+    "date": "2026-10-20T21:56:59+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1754,
   "adv": 12,
   "feed": 48
