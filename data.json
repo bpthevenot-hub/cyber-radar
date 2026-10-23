@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T20:30:37.525Z",
+ "generatedAt": "2026-10-23T21:27:17.393Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-115569 — CVE-2026-115569",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115569",
-    "score": null,
-    "date": "2026-10-23T19:17:44.320"
-   },
-   {
-    "title": "CVE-2026-112342 — CVE-2026-112342",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112342",
-    "score": null,
-    "date": "2026-10-23T19:17:43.203"
-   },
-   {
-    "title": "CVE-2026-115810 — CVE-2026-115810",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115810",
-    "score": null,
-    "date": "2026-10-23T17:17:21.380"
-   },
-   {
-    "title": "CVE-2026-52356 — CVE-2026-52356",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-52356",
-    "score": null,
-    "date": "2026-10-23T16:16:51.870"
-   },
-   {
-    "title": "CVE-2026-50787 — CVE-2026-50787",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50787",
-    "score": null,
-    "date": "2026-10-23T16:16:51.733"
-   },
-   {
-    "title": "CVE-2026-58497 — CVE-2026-58497",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58497",
-    "score": null,
-    "date": "2026-10-23T15:17:34.257"
-   },
-   {
-    "title": "CVE-2026-55222 — CVE-2026-55222",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55222",
-    "score": null,
-    "date": "2026-10-23T15:17:32.563"
-   },
-   {
-    "title": "CVE-2026-54668 — CVE-2026-54668",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54668",
-    "score": null,
-    "date": "2026-10-23T15:17:32.427"
-   },
-   {
-    "title": "CVE-2026-106765 — CVE-2026-106765",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106765",
-    "score": null,
-    "date": "2026-10-23T15:17:23.333"
-   },
-   {
-    "title": "CVE-2026-106764 — CVE-2026-106764",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106764",
-    "score": null,
-    "date": "2026-10-23T15:17:23.203"
-   },
-   {
-    "title": "CVE-2026-106763 — CVE-2026-106763",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106763",
-    "score": null,
-    "date": "2026-10-23T15:17:23.063"
-   },
-   {
-    "title": "CVE-2026-102786 — CVE-2026-102786",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102786",
-    "score": null,
-    "date": "2026-10-23T15:17:22.807"
    }
   ],
   "kev": [
@@ -203,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "obsidian-tc: Memory-lifecycle tools overwrite unowned notes or partially commit lifecycle changes",
-    "url": "https://github.com/advisories/GHSA-r3g7-r4hr-m258",
+    "title": "vLLM : DoS via unvalidated mm_processor_kwargs in multimodal image processors (Isaac, InternVL, H2OVL, etc.)",
+    "url": "https://github.com/advisories/GHSA-gx7p-2j49-hfq4",
     "score": 7.5,
-    "ghsa": "GHSA-r3g7-r4hr-m258",
-    "date": "2026-10-23T18:47:25Z"
+    "ghsa": "GHSA-gx7p-2j49-hfq4",
+    "date": "2026-10-23T20:58:36Z"
    },
    {
-    "title": "SiYuan: Missing consistency check between packageName and repoURL/repoHash in bazaar package install allows overwriting an existing, trusted plugin",
-    "url": "https://github.com/advisories/GHSA-rpx2-p6hp-x5gj",
-    "score": 6.6,
-    "ghsa": "GHSA-rpx2-p6hp-x5gj",
-    "date": "2026-10-23T18:38:25Z"
-   },
-   {
-    "title": "SiYuan: A parser differential between the WebSocket keepalive exemption and the session quarantine allows unauthenticated access to the broadcast even",
-    "url": "https://github.com/advisories/GHSA-c8w8-3pqp-wr83",
-    "score": 7.5,
-    "ghsa": "GHSA-c8w8-3pqp-wr83",
-    "date": "2026-10-23T18:34:09Z"
-   },
-   {
-    "title": "SiYuan: authFilePublishAccess distinguishes hidden and forbidden documents from public and nonexistent ones, and issues a publish-auth cookie for docu",
-    "url": "https://github.com/advisories/GHSA-4pjg-x8qj-33j5",
-    "score": 5.8,
-    "ghsa": "GHSA-4pjg-x8qj-33j5",
-    "date": "2026-10-23T18:31:42Z"
-   },
-   {
-    "title": "SiYuan: The publish filter for database backlinks consults the forbidden list instead of the visibility list, disclosing hidden-tier documents to anon",
-    "url": "https://github.com/advisories/GHSA-p4qw-vx5p-g984",
-    "score": 5.8,
-    "ghsa": "GHSA-p4qw-vx5p-g984",
-    "date": "2026-10-23T18:30:42Z"
-   },
-   {
-    "title": "SiYuan: The publish filter for local storage returns the administrator's entire storage map with only three keys sanitized",
-    "url": "https://github.com/advisories/GHSA-xp3q-r38w-vgqm",
-    "score": 5.8,
-    "ghsa": "GHSA-xp3q-r38w-vgqm",
-    "date": "2026-10-23T18:29:45Z"
-   },
-   {
-    "title": "obsidian-tc HTTP transport lacks Origin/DNS-rebinding protection, enabling drive-by vault access on loopback",
-    "url": "https://github.com/advisories/GHSA-pqh8-4pj7-32xx",
-    "score": 9.6,
-    "ghsa": "GHSA-pqh8-4pj7-32xx",
-    "date": "2026-10-23T18:29:02Z"
-   },
-   {
-    "title": "obsidian-tc Bridge tools leak denied-note data via unfiltered sibling fields",
-    "url": "https://github.com/advisories/GHSA-43r2-c7g8-prc8",
-    "score": 4.3,
-    "ghsa": "GHSA-43r2-c7g8-prc8",
-    "date": "2026-10-23T18:28:14Z"
-   },
-   {
-    "title": "obsidian-tc: Declined human-in-the-loop confirmations can permit destructive calls over HTTP",
-    "url": "https://github.com/advisories/GHSA-737x-cwfr-5vvc",
-    "score": 7.5,
-    "ghsa": "GHSA-737x-cwfr-5vvc",
-    "date": "2026-10-23T17:30:10Z"
-   },
-   {
-    "title": "obsidian-tc tokens can access arbitrary configured vaults",
-    "url": "https://github.com/advisories/GHSA-84c9-qqpq-2pq5",
-    "score": 9.9,
-    "ghsa": "GHSA-84c9-qqpq-2pq5",
-    "date": "2026-10-23T17:29:17Z"
-   },
-   {
-    "title": "obsidian-tc: Default folder ACL is fail-open; .obsidian plugin secrets are readable by default",
-    "url": "https://github.com/advisories/GHSA-cvp8-vvgf-69q4",
-    "score": 6.5,
-    "ghsa": "GHSA-cvp8-vvgf-69q4",
-    "date": "2026-10-23T17:28:40Z"
-   },
-   {
-    "title": "obsidian-tc : Symlink read-ACL scope bypass via lexical path checks",
-    "url": "https://github.com/advisories/GHSA-c5xx-h28h-f682",
+    "title": "SvelteKit: URL redirection to untrusted site via enhanced form submission",
+    "url": "https://github.com/advisories/GHSA-pfhg-q3qv-9q6r",
     "score": 4.7,
-    "ghsa": "GHSA-c5xx-h28h-f682",
-    "date": "2026-10-23T17:28:19Z"
+    "ghsa": "GHSA-pfhg-q3qv-9q6r",
+    "date": "2026-10-23T20:58:24Z"
+   },
+   {
+    "title": "chi: Client IP spoofing in ClientIPFromXFF via X-Forwarded-For",
+    "url": "https://github.com/advisories/GHSA-j6qf-3m9c-vwj3",
+    "score": 4.8,
+    "ghsa": "GHSA-j6qf-3m9c-vwj3",
+    "date": "2026-10-23T20:56:46Z"
+   },
+   {
+    "title": "odf-kit has HTML injection leading to XSS in odsToHtml() via unescaped style attribute values",
+    "url": "https://github.com/advisories/GHSA-2rqm-h6hv-g79v",
+    "score": 6.1,
+    "ghsa": "GHSA-2rqm-h6hv-g79v",
+    "date": "2026-10-23T20:55:31Z"
+   },
+   {
+    "title": "pypdf: Possible long runtimes for repeated references to the same missing object",
+    "url": "https://github.com/advisories/GHSA-6c7f-9265-g8fw",
+    "score": 7.5,
+    "ghsa": "GHSA-6c7f-9265-g8fw",
+    "date": "2026-10-23T20:55:15Z"
+   },
+   {
+    "title": "pypdf: Possible long runtimes for repeated malformed cross-reference entries (Follow-up)",
+    "url": "https://github.com/advisories/GHSA-jr96-gvgh-j3r4",
+    "score": 7.5,
+    "ghsa": "GHSA-jr96-gvgh-j3r4",
+    "date": "2026-10-23T20:54:27Z"
+   },
+   {
+    "title": "pypdf: Possible long runtimes for large xref table header limits",
+    "url": "https://github.com/advisories/GHSA-gmh7-3g9r-mjh5",
+    "score": 7.5,
+    "ghsa": "GHSA-gmh7-3g9r-mjh5",
+    "date": "2026-10-23T20:54:12Z"
+   },
+   {
+    "title": "Tokio: Race condition in `tokio::time::Interval`",
+    "url": "https://github.com/advisories/GHSA-5wjr-9356-4wc8",
+    "score": null,
+    "ghsa": "GHSA-5wjr-9356-4wc8",
+    "date": "2026-10-23T20:54:00Z"
+   },
+   {
+    "title": "Electron: Mitigation for compromised eMudhra intermediate certificates",
+    "url": "https://github.com/advisories/GHSA-jr5w-w6x2-84p9",
+    "score": 7.4,
+    "ghsa": "GHSA-jr5w-w6x2-84p9",
+    "date": "2026-10-23T20:53:41Z"
+   },
+   {
+    "title": "body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body",
+    "url": "https://github.com/advisories/GHSA-27r3-jxmh-p828",
+    "score": 7.5,
+    "ghsa": "GHSA-27r3-jxmh-p828",
+    "date": "2026-10-23T20:53:11Z"
+   },
+   {
+    "title": "gitoxide gix: untrusted .git/config disables filesystem .git-protection path checks via unfiltered protect_options()",
+    "url": "https://github.com/advisories/GHSA-q54r-jf2p-rfr2",
+    "score": 7.3,
+    "ghsa": "GHSA-q54r-jf2p-rfr2",
+    "date": "2026-10-23T20:52:28Z"
+   },
+   {
+    "title": "Livewire: Authorization bypass in #[Authorize] via reordered parameter keys and #[Json] execution order",
+    "url": "https://github.com/advisories/GHSA-mhf7-xp6r-6qrc",
+    "score": 6.5,
+    "ghsa": "GHSA-mhf7-xp6r-6qrc",
+    "date": "2026-10-23T20:51:30Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "date": "Fri, 23 Oct 2026 16:55:05 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
     "date": "Fri, 23 Oct 2026 14:54:41 -0400",
@@ -450,13 +385,6 @@
     "date": "Thu, 22 Oct 2026 11:49:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Machine speed attacks require machine speed detection and response",
-    "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-    "date": "Thu, 22 Oct 2026 10:02:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +397,13 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1808,
+    "stars": 1809,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1159,
+    "stars": 1160,
     "lang": "Python"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 773,
+    "stars": 774,
     "lang": "Python"
    },
    {
@@ -505,19 +433,19 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 462,
+    "stars": 463,
     "lang": "Rust"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 455,
+    "stars": 458,
     "lang": "—"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 441,
+    "stars": 442,
     "lang": "Java"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 268,
+    "stars": 270,
     "lang": "Python"
    }
   ],
