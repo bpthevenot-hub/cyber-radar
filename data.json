@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T17:27:46.445Z",
+ "generatedAt": "2026-10-23T18:36:33.546Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,76 @@
   ],
   "adv": [
    {
+    "title": "SiYuan: A parser differential between the WebSocket keepalive exemption and the session quarantine allows unauthenticated access to the broadcast even",
+    "url": "https://github.com/advisories/GHSA-c8w8-3pqp-wr83",
+    "score": 7.5,
+    "ghsa": "GHSA-c8w8-3pqp-wr83",
+    "date": "2026-10-23T18:34:09Z"
+   },
+   {
+    "title": "SiYuan: authFilePublishAccess distinguishes hidden and forbidden documents from public and nonexistent ones, and issues a publish-auth cookie for docu",
+    "url": "https://github.com/advisories/GHSA-4pjg-x8qj-33j5",
+    "score": 5.8,
+    "ghsa": "GHSA-4pjg-x8qj-33j5",
+    "date": "2026-10-23T18:31:42Z"
+   },
+   {
+    "title": "SiYuan: The publish filter for database backlinks consults the forbidden list instead of the visibility list, disclosing hidden-tier documents to anon",
+    "url": "https://github.com/advisories/GHSA-p4qw-vx5p-g984",
+    "score": 5.8,
+    "ghsa": "GHSA-p4qw-vx5p-g984",
+    "date": "2026-10-23T18:30:42Z"
+   },
+   {
+    "title": "SiYuan: The publish filter for local storage returns the administrator's entire storage map with only three keys sanitized",
+    "url": "https://github.com/advisories/GHSA-xp3q-r38w-vgqm",
+    "score": 5.8,
+    "ghsa": "GHSA-xp3q-r38w-vgqm",
+    "date": "2026-10-23T18:29:45Z"
+   },
+   {
+    "title": "obsidian-tc HTTP transport lacks Origin/DNS-rebinding protection, enabling drive-by vault access on loopback",
+    "url": "https://github.com/advisories/GHSA-pqh8-4pj7-32xx",
+    "score": 9.6,
+    "ghsa": "GHSA-pqh8-4pj7-32xx",
+    "date": "2026-10-23T18:29:02Z"
+   },
+   {
+    "title": "obsidian-tc Bridge tools leak denied-note data via unfiltered sibling fields",
+    "url": "https://github.com/advisories/GHSA-43r2-c7g8-prc8",
+    "score": 4.3,
+    "ghsa": "GHSA-43r2-c7g8-prc8",
+    "date": "2026-10-23T18:28:14Z"
+   },
+   {
+    "title": "obsidian-tc: Declined human-in-the-loop confirmations can permit destructive calls over HTTP",
+    "url": "https://github.com/advisories/GHSA-737x-cwfr-5vvc",
+    "score": 7.5,
+    "ghsa": "GHSA-737x-cwfr-5vvc",
+    "date": "2026-10-23T17:30:10Z"
+   },
+   {
+    "title": "obsidian-tc tokens can access arbitrary configured vaults",
+    "url": "https://github.com/advisories/GHSA-84c9-qqpq-2pq5",
+    "score": 9.9,
+    "ghsa": "GHSA-84c9-qqpq-2pq5",
+    "date": "2026-10-23T17:29:17Z"
+   },
+   {
+    "title": "obsidian-tc: Default folder ACL is fail-open; .obsidian plugin secrets are readable by default",
+    "url": "https://github.com/advisories/GHSA-cvp8-vvgf-69q4",
+    "score": 6.5,
+    "ghsa": "GHSA-cvp8-vvgf-69q4",
+    "date": "2026-10-23T17:28:40Z"
+   },
+   {
+    "title": "obsidian-tc : Symlink read-ACL scope bypass via lexical path checks",
+    "url": "https://github.com/advisories/GHSA-c5xx-h28h-f682",
+    "score": 4.7,
+    "ghsa": "GHSA-c5xx-h28h-f682",
+    "date": "2026-10-23T17:28:19Z"
+   },
+   {
     "title": "virtualenv: Generated files can follow existing destination links",
     "url": "https://github.com/advisories/GHSA-558c-9hv2-4prj",
     "score": 4.5,
@@ -143,79 +213,23 @@
     "score": 8.1,
     "ghsa": "GHSA-78g4-xqwv-q3g8",
     "date": "2026-10-22T17:01:08Z"
-   },
-   {
-    "title": "Nuxt: Server-side route rules (`redirect`, `headers`, `proxy`, `ssr`) are skipped for case-variant paths when routing is case-insensitive",
-    "url": "https://github.com/advisories/GHSA-vjh5-4x84-xrqp",
-    "score": null,
-    "ghsa": "GHSA-vjh5-4x84-xrqp",
-    "date": "2026-10-22T16:59:55Z"
-   },
-   {
-    "title": "Nuxt server islands render `useHeadSafe` input without sanitisation",
-    "url": "https://github.com/advisories/GHSA-xfq5-w38q-pc2x",
-    "score": 5.4,
-    "ghsa": "GHSA-xfq5-w38q-pc2x",
-    "date": "2026-10-22T16:58:00Z"
-   },
-   {
-    "title": "Nuxt: Incomplete fix for GHSA-934w-87qh-qr26: a `javascript:` URL prefixed with an ASCII control character executes from `<NuxtLink>` when `pages` is ",
-    "url": "https://github.com/advisories/GHSA-jjm6-p2m9-9w4x",
-    "score": 2,
-    "ghsa": "GHSA-jjm6-p2m9-9w4x",
-    "date": "2026-10-22T16:51:37Z"
-   },
-   {
-    "title": "Nuxt: Route rules are matched against the raw request path, so a percent-encoded segment can bypass `appMiddleware` on dynamic and catch-all routes",
-    "url": "https://github.com/advisories/GHSA-6gq8-jgmh-3ffp",
-    "score": 6.5,
-    "ghsa": "GHSA-6gq8-jgmh-3ffp",
-    "date": "2026-10-22T16:50:53Z"
-   },
-   {
-    "title": "pypdf: Possible long runtimes/large memory usage when retrieving form fields",
-    "url": "https://github.com/advisories/GHSA-6vvc-x485-93v7",
-    "score": null,
-    "ghsa": "GHSA-6vvc-x485-93v7",
-    "date": "2026-10-22T16:49:56Z"
-   },
-   {
-    "title": "pypdf: Possible large memory usage when parsing arrays and dictionaries",
-    "url": "https://github.com/advisories/GHSA-f54x-cmq8-qg57",
-    "score": null,
-    "ghsa": "GHSA-f54x-cmq8-qg57",
-    "date": "2026-10-22T16:49:40Z"
-   },
-   {
-    "title": "pypdf: Possible large memory usage when parsing content streams",
-    "url": "https://github.com/advisories/GHSA-cgf9-327m-v77c",
-    "score": null,
-    "ghsa": "GHSA-cgf9-327m-v77c",
-    "date": "2026-10-22T16:49:22Z"
-   },
-   {
-    "title": "Electron: SameSite cookie restrictions are not applied to windows opened from links",
-    "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
-    "score": 4.2,
-    "ghsa": "GHSA-2p8c-gr87-2676",
-    "date": "2026-10-22T16:47:54Z"
-   },
-   {
-    "title": "Electron: Pointer lock permission requests can be attributed to the wrong frame",
-    "url": "https://github.com/advisories/GHSA-x562-297c-g43g",
-    "score": 5.4,
-    "ghsa": "GHSA-x562-297c-g43g",
-    "date": "2026-10-22T16:47:15Z"
-   },
-   {
-    "title": "Electron: Extension tabs.query returns tab URLs and titles without the tabs permission",
-    "url": "https://github.com/advisories/GHSA-98mx-cjp9-gchm",
-    "score": 3.1,
-    "ghsa": "GHSA-98mx-cjp9-gchm",
-    "date": "2026-10-22T16:46:33Z"
    }
   ],
   "thn": [
+   {
+    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+    "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+    "date": "Fri, 23 Oct 2026 23:24:08 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "date": "Fri, 23 Oct 2026 23:20:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
     "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
@@ -231,7 +245,7 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
     "date": "Fri, 23 Oct 2026 16:41:23 +0530",
     "badge": "THREAT",
@@ -283,20 +297,6 @@
     "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
     "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
     "date": "Thu, 22 Oct 2026 23:42:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-    "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-    "date": "Thu, 22 Oct 2026 23:15:44 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-    "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-    "date": "Thu, 22 Oct 2026 22:31:53 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,25 +391,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2077,
+    "stars": 2079,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1801,
+    "stars": 1803,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1152,
+    "stars": 1156,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 797,
+    "stars": 798,
     "lang": "TypeScript"
    },
    {
@@ -437,16 +437,16 @@
     "lang": "Rust"
    },
    {
+    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "stars": 445,
+    "lang": "—"
+   },
+   {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
     "stars": 439,
     "lang": "Java"
-   },
-   {
-    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
-    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 436,
-    "lang": "—"
    },
    {
     "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
@@ -457,7 +457,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 260,
+    "stars": 262,
     "lang": "Python"
    }
   ],
@@ -646,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1754,
+  "kev": 1755,
   "adv": 12,
   "feed": 48
  },
