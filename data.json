@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T18:36:33.546Z",
+ "generatedAt": "2026-10-23T19:27:17.401Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-105759 — vLLM is an inference and serving engine for large language models. Prior to 0.30.0, the Rust frontend's track_http_metrics middleware record",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105759",
+    "score": 7.5,
+    "date": "2026-10-05T23:17:02.760Z"
+   },
+   {
+    "title": "CVE-2026-100653 — vLLM is an inference and serving engine for large language models. In versions from 0.22.1 through 0.28.0, the operator-supplied model revis",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100653",
+    "score": null,
+    "date": "2026-09-26T14:16:47.953Z"
    }
   ],
   "kev": [
@@ -131,6 +143,20 @@
   ],
   "adv": [
    {
+    "title": "obsidian-tc: Memory-lifecycle tools overwrite unowned notes or partially commit lifecycle changes",
+    "url": "https://github.com/advisories/GHSA-r3g7-r4hr-m258",
+    "score": 7.5,
+    "ghsa": "GHSA-r3g7-r4hr-m258",
+    "date": "2026-10-23T18:47:25Z"
+   },
+   {
+    "title": "SiYuan: Missing consistency check between packageName and repoURL/repoHash in bazaar package install allows overwriting an existing, trusted plugin",
+    "url": "https://github.com/advisories/GHSA-rpx2-p6hp-x5gj",
+    "score": 6.6,
+    "ghsa": "GHSA-rpx2-p6hp-x5gj",
+    "date": "2026-10-23T18:38:25Z"
+   },
+   {
     "title": "SiYuan: A parser differential between the WebSocket keepalive exemption and the session quarantine allows unauthenticated access to the broadcast even",
     "url": "https://github.com/advisories/GHSA-c8w8-3pqp-wr83",
     "score": 7.5,
@@ -199,23 +225,16 @@
     "score": 4.7,
     "ghsa": "GHSA-c5xx-h28h-f682",
     "date": "2026-10-23T17:28:19Z"
-   },
-   {
-    "title": "virtualenv: Generated files can follow existing destination links",
-    "url": "https://github.com/advisories/GHSA-558c-9hv2-4prj",
-    "score": 4.5,
-    "ghsa": "GHSA-558c-9hv2-4prj",
-    "date": "2026-10-22T17:03:12Z"
-   },
-   {
-    "title": "Pillow: Bundled libopenjp2 2.5.4 in all wheels since 11.1.0 carries OSV-2025-219 heap-buffer-overflow write reachable from Image.open().load()",
-    "url": "https://github.com/advisories/GHSA-78g4-xqwv-q3g8",
-    "score": 8.1,
-    "ghsa": "GHSA-78g4-xqwv-q3g8",
-    "date": "2026-10-22T17:01:08Z"
    }
   ],
   "thn": [
+   {
+    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "date": "Sat, 24 Oct 2026 00:20:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
     "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
@@ -292,16 +311,16 @@
     "date": "Fri, 23 Oct 2026 00:35:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-    "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-    "date": "Thu, 22 Oct 2026 23:42:43 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "date": "Fri, 23 Oct 2026 14:54:41 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft: Windows Server 2016 reaches end of support in January",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
@@ -378,13 +397,6 @@
     "date": "Thu, 22 Oct 2026 10:02:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-    "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-    "date": "Thu, 22 Oct 2026 09:09:12 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,7 +409,7 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1803,
+    "stars": 1807,
     "lang": "Go"
    },
    {
@@ -439,13 +451,13 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 445,
+    "stars": 451,
     "lang": "—"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 439,
+    "stars": 440,
     "lang": "Java"
    },
    {
@@ -457,7 +469,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 262,
+    "stars": 265,
     "lang": "Python"
    }
   ],
