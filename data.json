@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T21:27:17.393Z",
+ "generatedAt": "2026-10-23T22:27:38.136Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "vLLM : DoS via unvalidated mm_processor_kwargs in multimodal image processors (Isaac, InternVL, H2OVL, etc.)",
-    "url": "https://github.com/advisories/GHSA-gx7p-2j49-hfq4",
-    "score": 7.5,
-    "ghsa": "GHSA-gx7p-2j49-hfq4",
-    "date": "2026-10-23T20:58:36Z"
+    "title": "filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
+    "url": "https://github.com/advisories/GHSA-567q-5qvw-pf92",
+    "score": 2.5,
+    "ghsa": "GHSA-567q-5qvw-pf92",
+    "date": "2026-10-23T22:27:32Z"
    },
    {
-    "title": "SvelteKit: URL redirection to untrusted site via enhanced form submission",
-    "url": "https://github.com/advisories/GHSA-pfhg-q3qv-9q6r",
-    "score": 4.7,
-    "ghsa": "GHSA-pfhg-q3qv-9q6r",
-    "date": "2026-10-23T20:58:24Z"
-   },
-   {
-    "title": "chi: Client IP spoofing in ClientIPFromXFF via X-Forwarded-For",
-    "url": "https://github.com/advisories/GHSA-j6qf-3m9c-vwj3",
-    "score": 4.8,
-    "ghsa": "GHSA-j6qf-3m9c-vwj3",
-    "date": "2026-10-23T20:56:46Z"
-   },
-   {
-    "title": "odf-kit has HTML injection leading to XSS in odsToHtml() via unescaped style attribute values",
-    "url": "https://github.com/advisories/GHSA-2rqm-h6hv-g79v",
-    "score": 6.1,
-    "ghsa": "GHSA-2rqm-h6hv-g79v",
-    "date": "2026-10-23T20:55:31Z"
-   },
-   {
-    "title": "pypdf: Possible long runtimes for repeated references to the same missing object",
-    "url": "https://github.com/advisories/GHSA-6c7f-9265-g8fw",
-    "score": 7.5,
-    "ghsa": "GHSA-6c7f-9265-g8fw",
-    "date": "2026-10-23T20:55:15Z"
-   },
-   {
-    "title": "pypdf: Possible long runtimes for repeated malformed cross-reference entries (Follow-up)",
-    "url": "https://github.com/advisories/GHSA-jr96-gvgh-j3r4",
-    "score": 7.5,
-    "ghsa": "GHSA-jr96-gvgh-j3r4",
-    "date": "2026-10-23T20:54:27Z"
-   },
-   {
-    "title": "pypdf: Possible long runtimes for large xref table header limits",
-    "url": "https://github.com/advisories/GHSA-gmh7-3g9r-mjh5",
-    "score": 7.5,
-    "ghsa": "GHSA-gmh7-3g9r-mjh5",
-    "date": "2026-10-23T20:54:12Z"
-   },
-   {
-    "title": "Tokio: Race condition in `tokio::time::Interval`",
-    "url": "https://github.com/advisories/GHSA-5wjr-9356-4wc8",
+    "title": "virtualenv: Temporary app-data can leave dangling seed package links",
+    "url": "https://github.com/advisories/GHSA-4f8h-vr72-p32c",
     "score": null,
-    "ghsa": "GHSA-5wjr-9356-4wc8",
-    "date": "2026-10-23T20:54:00Z"
+    "ghsa": "GHSA-4f8h-vr72-p32c",
+    "date": "2026-10-23T22:26:57Z"
    },
    {
-    "title": "Electron: Mitigation for compromised eMudhra intermediate certificates",
-    "url": "https://github.com/advisories/GHSA-jr5w-w6x2-84p9",
-    "score": 7.4,
-    "ghsa": "GHSA-jr5w-w6x2-84p9",
-    "date": "2026-10-23T20:53:41Z"
+    "title": "virtualenv: Pip seeding with download omits wheel digest verification",
+    "url": "https://github.com/advisories/GHSA-cx28-75q4-x26q",
+    "score": 2,
+    "ghsa": "GHSA-cx28-75q4-x26q",
+    "date": "2026-10-23T22:26:04Z"
    },
    {
-    "title": "body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body",
-    "url": "https://github.com/advisories/GHSA-27r3-jxmh-p828",
+    "title": "virtualenv: Downloaded wheel selection and caching precede verification",
+    "url": "https://github.com/advisories/GHSA-494p-63j8-28p3",
+    "score": 2,
+    "ghsa": "GHSA-494p-63j8-28p3",
+    "date": "2026-10-23T22:25:22Z"
+   },
+   {
+    "title": "virtualenv: Xonsh activation literals depend on the script decoding codec",
+    "url": "https://github.com/advisories/GHSA-394h-qwmc-48pf",
     "score": 7.5,
-    "ghsa": "GHSA-27r3-jxmh-p828",
-    "date": "2026-10-23T20:53:11Z"
+    "ghsa": "GHSA-394h-qwmc-48pf",
+    "date": "2026-10-23T22:24:43Z"
    },
    {
-    "title": "gitoxide gix: untrusted .git/config disables filesystem .git-protection path checks via unfiltered protect_options()",
-    "url": "https://github.com/advisories/GHSA-q54r-jf2p-rfr2",
-    "score": 7.3,
-    "ghsa": "GHSA-q54r-jf2p-rfr2",
-    "date": "2026-10-23T20:52:28Z"
+    "title": "virtualenv: Seeded files retain permissions from an older cache",
+    "url": "https://github.com/advisories/GHSA-fc2g-4w5p-6whm",
+    "score": null,
+    "ghsa": "GHSA-fc2g-4w5p-6whm",
+    "date": "2026-10-23T22:23:11Z"
    },
    {
-    "title": "Livewire: Authorization bypass in #[Authorize] via reordered parameter keys and #[Json] execution order",
-    "url": "https://github.com/advisories/GHSA-mhf7-xp6r-6qrc",
-    "score": 6.5,
-    "ghsa": "GHSA-mhf7-xp6r-6qrc",
-    "date": "2026-10-23T20:51:30Z"
+    "title": "virtualenv: Bash prompt values can change meaning under older compatibility modes",
+    "url": "https://github.com/advisories/GHSA-6w3r-xr62-4xcp",
+    "score": 7.5,
+    "ghsa": "GHSA-6w3r-xr62-4xcp",
+    "date": "2026-10-23T22:21:57Z"
+   },
+   {
+    "title": "virtualenv: Venv configuration readback can reinterpret path boundaries",
+    "url": "https://github.com/advisories/GHSA-qmx5-4p3x-wvqf",
+    "score": 2,
+    "ghsa": "GHSA-qmx5-4p3x-wvqf",
+    "date": "2026-10-23T22:20:43Z"
+   },
+   {
+    "title": "virtualenv: Seed replacement does not contain metadata deletion paths",
+    "url": "https://github.com/advisories/GHSA-hhxq-47xx-j5xx",
+    "score": 4.5,
+    "ghsa": "GHSA-hhxq-47xx-j5xx",
+    "date": "2026-10-23T22:19:15Z"
+   },
+   {
+    "title": "MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint",
+    "url": "https://github.com/advisories/GHSA-xcx6-jx8p-x3h5",
+    "score": 7.5,
+    "ghsa": "GHSA-xcx6-jx8p-x3h5",
+    "date": "2026-10-23T22:16:44Z"
+   },
+   {
+    "title": "undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
+    "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
+    "score": 7.5,
+    "ghsa": "GHSA-xjj6-f33q-929c",
+    "date": "2026-10-23T22:14:31Z"
+   },
+   {
+    "title": "undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
+    "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
+    "score": 5.9,
+    "ghsa": "GHSA-4qv8-2p9j-2685",
+    "date": "2026-10-23T22:13:29Z"
    }
   ],
   "thn": [
@@ -303,7 +303,7 @@
   ],
   "bleep": [
    {
-    "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+    "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
     "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
     "date": "Fri, 23 Oct 2026 16:55:05 -0400",
     "badge": "CONSO",
@@ -397,13 +397,13 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1809,
+    "stars": 1812,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1160,
+    "stars": 1161,
     "lang": "Python"
    },
    {
@@ -415,7 +415,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 774,
+    "stars": 775,
     "lang": "Python"
    },
    {
@@ -431,21 +431,21 @@
     "lang": "TypeScript"
    },
    {
+    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "stars": 467,
+    "lang": "—"
+   },
+   {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
     "stars": 463,
     "lang": "Rust"
    },
    {
-    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
-    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 458,
-    "lang": "—"
-   },
-   {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 442,
+    "stars": 443,
     "lang": "Java"
    },
    {
@@ -457,7 +457,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 270,
+    "stars": 271,
     "lang": "Python"
    }
   ],
