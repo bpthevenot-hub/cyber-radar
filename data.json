@@ -1,7 +1,61 @@
 {
- "generatedAt": "2026-10-24T16:28:59.316Z",
+ "generatedAt": "2026-10-24T17:25:30.200Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-115933 — Postiz signs its session, invitation and password reset tokens with one shared secret and without any marker of what a token is for. A route",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115933",
+    "score": 9.9,
+    "date": "2026-10-24T15:32:53Z"
+   },
+   {
+    "title": "CVE-2026-115931 — Postiz lets a signed-in user ask the backend to run a function on one of their connected channels. The backend did not restrict which functi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115931",
+    "score": 9.9,
+    "date": "2026-10-24T00:32:35Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+646 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23244-1.json",
+    "score": 9.8,
+    "date": "2026-10-24T16:00:54Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+647 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23241-1.json",
+    "score": 9.8,
+    "date": "2026-10-24T16:00:53Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+646 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23194-1.json",
+    "score": 9.8,
+    "date": "2026-10-24T16:00:51Z"
+   },
+   {
+    "title": "CVE-2023-20585 — Security update for the Linux Kernel (+647 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_23193-1.json",
+    "score": 9.8,
+    "date": "2026-10-24T16:00:50Z"
+   },
+   {
+    "title": "CVE-2026-110956 — The asVereinbase WordPress plugin before 1.1.8 does not require a valid password or a genuine second factor before authenticating a user, tr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110956",
+    "score": 9.8,
+    "date": "2026-10-24T06:30:29Z"
+   },
+   {
+    "title": "CVE-2026-99079 — In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: Prevent stale XSK buffer release on refill retry When an XDP ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99079",
+    "score": 9.8,
+    "date": "2026-10-23T15:31:37Z"
+   },
+   {
+    "title": "CVE-2026-99078 — In the Linux kernel, the following vulnerability has been resolved: net/mlx5e: Prevent stale XSK buffer release on MPWQE refill retry With A",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99078",
+    "score": 9.8,
+    "date": "2026-10-23T15:31:37Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +67,24 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-115932 — When a post is published, Postiz treats a media path that is not a web address as a file on the server's disk, but it does not check that th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115932",
+    "score": 9.6,
+    "date": "2026-10-24T15:32:53Z"
+   },
+   {
+    "title": "CVE-2026-115557 — Python has added a denylist for known compromised certificates to the \"ssl\" module to ensure user safety even without certificate revocation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115557",
+    "score": 9.5,
+    "date": "2026-10-24T15:32:53Z"
+   },
+   {
+    "title": "CVE-2024-26730 — Security update for the Linux Kernel (+507 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/suse-su-2026_4640-1.json",
+    "score": 8.8,
+    "date": "2026-10-24T16:01:29Z"
    }
   ],
   "kev": [
@@ -391,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2123,
+    "stars": 2125,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1863,
+    "stars": 1864,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1188,
+    "stars": 1190,
     "lang": "Python"
    },
    {
@@ -421,7 +493,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 544,
+    "stars": 545,
     "lang": "JavaScript"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 413,
+    "stars": 414,
     "lang": "Java"
    },
    {
@@ -577,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How LLM-Based Penetration Testing Harnesses Work",
+    "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
+    "date": "2026-10-24T17:17:43+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)",
     "url": "https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/",
     "date": "2026-10-23T14:37:35+00:00",
@@ -624,13 +703,6 @@
     "date": "2026-10-21T21:24:08+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Custom Extensions for SmartScreen Evasion",
-    "url": "https://www.reddit.com/r/netsec/comments/1xcf5yh/custom_extensions_for_smartscreen_evasion/",
-    "date": "2026-10-22T10:44:10+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 13,
   "kev": 1756,
   "adv": 12,
   "feed": 48
