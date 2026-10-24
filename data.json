@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-10-24T00:58:22.672Z",
+ "generatedAt": "2026-10-24T01:37:05.675Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-24T00:47:20+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-24T00:47:20+00:00"
+   },
+   {
+    "title": "CVE-2025-47907 — Red Hat Security Advisory: OpenShift Container Platform 4.19.26 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:4434",
+    "score": 9.9,
+    "date": "2026-10-24T00:47:07+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-24T00:47:04+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-24T00:47:02+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-10-24T00:47:02+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +51,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-115931 — CVE-2026-115931",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115931",
-    "score": null,
-    "date": "2026-10-23T23:17:43.263"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:47388",
+    "score": 9.4,
+    "date": "2026-10-24T00:47:10+00:00"
    },
    {
-    "title": "CVE-2026-110814 — CVE-2026-110814",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110814",
-    "score": null,
-    "date": "2026-10-23T23:17:42.437"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.4 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:46885",
+    "score": 9.4,
+    "date": "2026-10-24T00:47:09+00:00"
    },
    {
-    "title": "MAL-2026-18245 — Malicious code in @k18k/entrypoint-sdk-linux-x64 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18245",
-    "score": null,
-    "date": "2026-10-23T21:47:09Z"
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17.28 security, enhancement & bug fix update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83622",
+    "score": 9.1,
+    "date": "2026-10-24T00:47:32+00:00"
    },
    {
-    "title": "MAL-2026-18244 — Malicious code in @k18k/entrypoint-sdk-darwin-x64 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18244",
-    "score": null,
-    "date": "2026-10-23T21:44:03Z"
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.18 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6564",
+    "score": 9.1,
+    "date": "2026-10-24T00:47:21+00:00"
    },
    {
-    "title": "CVE-2026-113877 — CVE-2026-113877",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113877",
-    "score": null,
-    "date": "2026-10-23T21:17:21.597"
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
+    "score": 9.1,
+    "date": "2026-10-24T00:47:04+00:00"
    },
    {
-    "title": "CVE-2026-111497 — CVE-2026-111497",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111497",
-    "score": null,
-    "date": "2026-10-22T14:17:37.190"
-   },
-   {
-    "title": "CVE-2026-114263 — CVE-2026-114263",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114263",
-    "score": null,
-    "date": "2026-10-21T18:17:26.937"
-   },
-   {
-    "title": "CVE-2026-114260 — CVE-2026-114260",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114260",
-    "score": null,
-    "date": "2026-10-21T17:18:26.223"
-   },
-   {
-    "title": "CVE-2026-114257 — CVE-2026-114257",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114257",
-    "score": null,
-    "date": "2026-10-21T16:17:33.000"
-   },
-   {
-    "title": "CVE-2026-114254 — CVE-2026-114254",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114254",
-    "score": null,
-    "date": "2026-10-21T16:17:32.493"
-   },
-   {
-    "title": "CVE-2026-9869 — CVE-2026-9869",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9869",
-    "score": null,
-    "date": "2026-10-20T21:17:23.143"
-   },
-   {
-    "title": "CVE-2026-9827 — CVE-2026-9827",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9827",
-    "score": null,
-    "date": "2026-10-20T21:17:23.020"
+    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
+    "score": 9.1,
+    "date": "2026-10-24T00:47:04+00:00"
    }
   ],
   "kev": [
@@ -475,13 +475,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1163,
+    "stars": 1164,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 799,
+    "stars": 800,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 479,
+    "stars": 481,
     "lang": "—"
    },
    {
@@ -517,13 +517,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 446,
+    "stars": 447,
     "lang": "Java"
    },
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 275,
+    "stars": 277,
     "lang": "Python"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1756,
   "adv": 12,
   "feed": 48
