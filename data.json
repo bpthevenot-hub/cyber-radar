@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T23:26:56.684Z",
+ "generatedAt": "2026-10-24T00:58:22.672Z",
  "sources": {
   "cve": [
    {
@@ -15,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-113718 — virtualenv: Xonsh activation literals depend on the script decoding codec",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113718",
-    "score": 7.5,
-    "date": "2026-10-23T22:24:43Z"
+    "title": "CVE-2026-115931 — CVE-2026-115931",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115931",
+    "score": null,
+    "date": "2026-10-23T23:17:43.263"
    },
    {
-    "title": "CVE-2026-113723 — virtualenv: Bash prompt values can change meaning under older compatibility modes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113723",
-    "score": 7.5,
-    "date": "2026-10-23T22:21:57Z"
+    "title": "CVE-2026-110814 — CVE-2026-110814",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110814",
+    "score": null,
+    "date": "2026-10-23T23:17:42.437"
    },
    {
-    "title": "CVE-2026-112937 — filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112937",
-    "score": 6.1,
-    "date": "2026-10-23T22:28:41Z"
+    "title": "MAL-2026-18245 — Malicious code in @k18k/entrypoint-sdk-linux-x64 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18245",
+    "score": null,
+    "date": "2026-10-23T21:47:09Z"
    },
    {
-    "title": "CVE-2026-113713 — virtualenv: Temporary app-data can leave dangling seed package links",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113713",
-    "score": 5,
-    "date": "2026-10-23T22:26:57Z"
+    "title": "MAL-2026-18244 — Malicious code in @k18k/entrypoint-sdk-darwin-x64 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18244",
+    "score": null,
+    "date": "2026-10-23T21:44:03Z"
    },
    {
-    "title": "CVE-2026-113720 — virtualenv: Seeded files retain permissions from an older cache",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113720",
-    "score": 5,
-    "date": "2026-10-23T22:23:11Z"
+    "title": "CVE-2026-113877 — CVE-2026-113877",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113877",
+    "score": null,
+    "date": "2026-10-23T21:17:21.597"
    },
    {
-    "title": "CVE-2026-113719 — virtualenv: Seed replacement does not contain metadata deletion paths",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113719",
-    "score": 4.5,
-    "date": "2026-10-23T22:19:15Z"
+    "title": "CVE-2026-111497 — CVE-2026-111497",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111497",
+    "score": null,
+    "date": "2026-10-22T14:17:37.190"
    },
    {
-    "title": "CVE-2026-112913 — filelock: ReadWriteLock on Windows acts on SQLite side files another local user places beside its database",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112913",
-    "score": 3.3,
-    "date": "2026-10-23T22:28:19Z"
+    "title": "CVE-2026-114263 — CVE-2026-114263",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114263",
+    "score": null,
+    "date": "2026-10-21T18:17:26.937"
    },
    {
-    "title": "CVE-2026-112907 — filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112907",
-    "score": 2.5,
-    "date": "2026-10-23T22:27:32Z"
+    "title": "CVE-2026-114260 — CVE-2026-114260",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114260",
+    "score": null,
+    "date": "2026-10-21T17:18:26.223"
    },
    {
-    "title": "CVE-2026-113717 — virtualenv: Pip seeding with download omits wheel digest verification",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113717",
-    "score": 2,
-    "date": "2026-10-23T22:26:04Z"
+    "title": "CVE-2026-114257 — CVE-2026-114257",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114257",
+    "score": null,
+    "date": "2026-10-21T16:17:33.000"
    },
    {
-    "title": "CVE-2026-113714 — virtualenv: Downloaded wheel selection and caching precede verification",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113714",
-    "score": 2,
-    "date": "2026-10-23T22:25:22Z"
+    "title": "CVE-2026-114254 — CVE-2026-114254",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114254",
+    "score": null,
+    "date": "2026-10-21T16:17:32.493"
    },
    {
-    "title": "CVE-2026-113715 — virtualenv: Venv configuration readback can reinterpret path boundaries",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113715",
-    "score": 2,
-    "date": "2026-10-23T22:20:43Z"
+    "title": "CVE-2026-9869 — CVE-2026-9869",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9869",
+    "score": null,
+    "date": "2026-10-20T21:17:23.143"
+   },
+   {
+    "title": "CVE-2026-9827 — CVE-2026-9827",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9827",
+    "score": null,
+    "date": "2026-10-20T21:17:23.020"
    }
   ],
   "kev": [
@@ -457,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2081,
+    "stars": 2082,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1814,
+    "stars": 1815,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1162,
+    "stars": 1163,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 798,
+    "stars": 799,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 474,
+    "stars": 479,
     "lang": "—"
    },
    {
@@ -511,20 +517,20 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 443,
+    "stars": 446,
     "lang": "Java"
-   },
-   {
-    "title": "xiaYuTian11/maskit — 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）",
-    "url": "https://github.com/xiaYuTian11/maskit",
-    "stars": 315,
-    "lang": "Python"
    },
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 273,
+    "stars": 275,
     "lang": "Python"
+   },
+   {
+    "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "url": "https://github.com/bdg9412/artex-ko-plus",
+    "stars": 216,
+    "lang": "Go"
    }
   ],
   "hn": [
