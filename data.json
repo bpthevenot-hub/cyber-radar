@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-10-24T19:24:06.516Z",
+ "generatedAt": "2026-10-24T20:27:35.814Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86172",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86195",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86168",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:80605 — Critical: cjose security update",
+    "url": "https://github.com/advisories/RLSA-2026:80605",
+    "score": 9.1,
+    "date": "2026-10-13T12:08:58.021554Z"
+   },
+   {
+    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:45.400552Z"
+   },
+   {
+    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:85321",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:03.045090Z"
+   },
+   {
+    "title": "RLSA-2026:85309 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85309",
+    "score": 8.8,
+    "date": "2026-10-21T06:40:55.719656Z"
+   },
+   {
+    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:82883",
+    "score": 8.8,
+    "date": "2026-10-15T12:20:13.898768Z"
+   },
+   {
+    "title": "RLSA-2026:80498 — Important: flatpak security update",
+    "url": "https://github.com/advisories/RLSA-2026:80498",
+    "score": 8.8,
+    "date": "2026-10-13T12:08:58.021554Z"
+   },
+   {
+    "title": "RLSA-2026:88248 — Important: expat security update",
+    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "score": 8.2,
+    "date": "2026-10-23T12:11:02.998013Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -378,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2127,
+    "stars": 2129,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1867,
+    "stars": 1868,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1194,
+    "stars": 1197,
     "lang": "Python"
    },
    {
@@ -414,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 522,
+    "stars": 528,
     "lang": "—"
    },
    {
@@ -480,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1555,
+    "points": 1556,
     "comments": 658,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -557,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Full source release: autonomous root chain for TCL 50C721 Android TV via CVE-2022-22706 (Mali GPU page-cache write)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xe5oy7/full_source_release_autonomous_root_chain_for_tcl/",
-    "date": "2026-10-24T10:57:59+00:00",
+    "title": "How LLM-Based Penetration Testing Harnesses Work",
+    "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
+    "date": "2026-10-24T17:17:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How LLM-Based Penetration Testing Harnesses Work",
-    "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
-    "date": "2026-10-24T17:17:43+00:00",
+    "title": "Full source release: autonomous root chain for TCL 50C721 Android TV via CVE-2022-22706 (Mali GPU page-cache write)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xe5oy7/full_source_release_autonomous_root_chain_for_tcl/",
+    "date": "2026-10-24T10:57:59+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 6,
   "kev": 1756,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
