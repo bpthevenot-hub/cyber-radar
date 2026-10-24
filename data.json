@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T02:36:17.163Z",
+ "generatedAt": "2026-10-24T03:33:47.939Z",
  "sources": {
   "cve": [
    {
@@ -19,24 +19,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:4434",
     "score": 9.9,
     "date": "2026-10-24T00:47:07+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-10-24T00:47:04+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
-    "score": 9.8,
-    "date": "2026-10-24T00:47:02+00:00"
-   },
-   {
-    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
-    "score": 9.8,
-    "date": "2026-10-24T00:47:02+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -75,16 +57,34 @@
     "date": "2026-10-24T00:47:21+00:00"
    },
    {
-    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.25 security, enhancement & bug fix update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41941",
-    "score": 9.1,
-    "date": "2026-10-24T00:47:04+00:00"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
+    "score": 8.8,
+    "date": "2026-10-24T00:47:28+00:00"
    },
    {
-    "title": "CVE-2025-7783 — Red Hat Security Advisory: Red Hat Migration Toolkit for Containers (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:41928",
-    "score": 9.1,
-    "date": "2026-10-24T00:47:04+00:00"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7291",
+    "score": 8.8,
+    "date": "2026-10-24T00:47:28+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
+    "score": 8.8,
+    "date": "2026-10-24T00:47:25+00:00"
+   },
+   {
+    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.16.71 bug fix and security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67936",
+    "score": 8.8,
+    "date": "2026-10-24T00:47:23+00:00"
+   },
+   {
+    "title": "CVE-2025-47907 — Red Hat Security Advisory: Migration Toolkit for Applications (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56347",
+    "score": 8.5,
+    "date": "2026-10-24T00:47:16+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2085,
+    "stars": 2089,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1818,
+    "stars": 1819,
     "lang": "Go"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 487,
+    "stars": 488,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 464,
+    "stars": 465,
     "lang": "Rust"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 278,
+    "stars": 279,
     "lang": "Python"
    },
    {
@@ -565,7 +565,7 @@
    {
     "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
     "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
-    "points": 1554,
+    "points": 1555,
     "comments": 658,
     "date": "2026-10-20T20:15:50Z"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 9,
   "kev": 1756,
   "adv": 12,
   "feed": 48
