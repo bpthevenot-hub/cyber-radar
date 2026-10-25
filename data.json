@@ -1,7 +1,92 @@
 {
- "generatedAt": "2026-10-25T07:30:36.082Z",
+ "generatedAt": "2026-10-25T08:34:03.076Z",
  "sources": {
-  "cve": [],
+  "cve": [
+   {
+    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "score": 9.8,
+    "date": "2025-03-03T19:15:34+00:00"
+   },
+   {
+    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "score": 9.8,
+    "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-115557 — Python has added a denylist for known compromised certificates to the \"ssl\" module to ensure user safety even without certificate revocation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115557",
+    "score": 9.5,
+    "date": "2026-10-24T15:32:53Z"
+   },
+   {
+    "title": "CVE-2026-116006 — A vulnerability was detected in YunaiV/zhijiantianya ruoyi-vue-pro up to 2026.09. The affected element is an unknown function of the file Au",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116006",
+    "score": 7.3,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-115999 — A vulnerability has been found in mansi-k Restaurant_IMS d7ad49f61ab7cc1ec6eb359ac2b5378bdbde0694. Affected is the function mysqli_connect o",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115999",
+    "score": 7.3,
+    "date": "2026-10-25T03:30:19Z"
+   },
+   {
+    "title": "CVE-2026-116000 — A security flaw has been discovered in Zylon PrivateGPT 1.0.0/1.0.1. This vulnerability affects the function load_file_from_uri of the file ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116000",
+    "score": 7.3,
+    "date": "2026-10-25T03:30:19Z"
+   },
+   {
+    "title": "CVE-2026-116044 — A security vulnerability has been detected in prasathmani TinyFileManager up to 2.6. Affected by this issue is some unknown functionality of",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116044",
+    "score": 6.3,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-116007 — A flaw has been found in YunaiV/zhijiantianya ruoyi-vue-pro up to 2026.09. The impacted element is the function SmsCodeServiceImpl.validateS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116007",
+    "score": 3.7,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-116004 — A security vulnerability has been detected in onyx-dot-app Onyx up to 5.0.0. Impacted is an unknown function of the file web/src/app/craft/c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116004",
+    "score": 3.5,
+    "date": "2026-10-25T03:30:20Z"
+   },
+   {
+    "title": "CVE-2026-111979 — The GiveWP WordPress plugin before 4.19.0.1 does not properly sanitise and escape one of its donation form template settings before outputti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111979",
+    "score": null,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-94295 — The Chikkili- Google Pay India for Woocommerce WordPress plugin through 1.0.6 does not verify that a payment notification actually originate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94295",
+    "score": null,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-114740 — The WPVR WordPress plugin before 9.1.3 does not correctly check user capabilities when creating a tour through its setup wizard, allowing us",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114740",
+    "score": null,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-114741 — The WPVR WordPress plugin before 9.0.3 does not perform object-level authorization checks when reading and updating virtual tours, allowing ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114741",
+    "score": null,
+    "date": "2026-10-25T06:30:23Z"
+   },
+   {
+    "title": "CVE-2026-110285 — The WP Stripe Checkout WordPress plugin before 1.2.2.62 does not verify the Stripe webhook signature when no signing secret is configured, w",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110285",
+    "score": null,
+    "date": "2026-10-25T06:30:23Z"
+   }
+  ],
   "kev": [
    {
     "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
@@ -204,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "date": "Sun, 25 Oct 2026 12:24:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
     "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
     "date": "Sat, 24 Oct 2026 16:39:29 +0530",
@@ -277,13 +369,6 @@
     "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
     "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
     "date": "Fri, 23 Oct 2026 16:41:23 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-    "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-    "date": "Fri, 23 Oct 2026 15:06:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -384,7 +469,7 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1885,
+    "stars": 1887,
     "lang": "Go"
    },
    {
@@ -414,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 537,
+    "stars": 539,
     "lang": "—"
    },
    {
@@ -432,7 +517,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 416,
+    "stars": 415,
     "lang": "Java"
    },
    {
@@ -444,7 +529,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 235,
+    "stars": 236,
     "lang": "Go"
    }
   ],
@@ -622,7 +707,7 @@
   ]
  },
  "status": {
-  "cve": false,
+  "cve": true,
   "kev": true,
   "adv": true,
   "thn": true,
@@ -632,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 0,
+  "crit": 3,
   "kev": 1756,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
