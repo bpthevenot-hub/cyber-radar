@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-10-25T22:25:19.873Z",
+ "generatedAt": "2026-10-25T23:25:00.515Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-25T22:39:38+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
+    "score": 9.8,
+    "date": "2026-10-25T22:39:49+00:00"
+   },
+   {
+    "title": "CVE-2025-61162 — Red Hat Security Advisory: RHOAI 3.4.5 - Red Hat OpenShift AI (+297 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:84734",
+    "score": 9.8,
+    "date": "2026-10-25T22:39:47+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
+    "score": 9.8,
+    "date": "2026-10-25T22:39:46+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
+    "score": 9.8,
+    "date": "2026-10-25T22:39:46+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Multicluster Global Hub 1.8.2 security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73038",
+    "score": 9.8,
+    "date": "2026-10-25T22:39:36+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +49,42 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
+    "score": 9.3,
+    "date": "2026-10-25T22:39:43+00:00"
+   },
+   {
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.17 (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83013",
+    "score": 9.1,
+    "date": "2026-10-25T22:39:47+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Migration Toolkit for Applications (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82315",
+    "score": 9.1,
+    "date": "2026-10-25T22:39:45+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Security Profiles Operator bug fix and enhancement update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:76752",
+    "score": 9.1,
+    "date": "2026-10-25T22:39:42+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.16.14 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74506",
+    "score": 9.1,
+    "date": "2026-10-25T22:39:39+00:00"
+   },
+   {
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.17.12 Async Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74505",
+    "score": 9.1,
+    "date": "2026-10-25T22:39:39+00:00"
    }
   ],
   "kev": [
@@ -403,7 +475,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1228,
+    "stars": 1231,
     "lang": "Python"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 498,
+    "stars": 500,
     "lang": "Java"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1756,
   "adv": 12,
   "feed": 48
