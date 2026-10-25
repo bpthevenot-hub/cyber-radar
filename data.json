@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-10-25T01:04:40.130Z",
+ "generatedAt": "2026-10-25T01:38:22.705Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-25T00:42:06+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-25T00:42:04+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
+    "score": 9.8,
+    "date": "2026-10-25T00:42:03+00:00"
+   },
+   {
+    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
+    "score": 9.8,
+    "date": "2026-10-25T00:42:02+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-10-25T00:42:01+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +45,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-115995 — A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4. The impacted element is the function set_volume o",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115995",
-    "score": 9.6,
-    "date": "2026-10-25T00:30:59Z"
-   },
-   {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86195",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86168",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:80605 — Critical: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:80605",
-    "score": 9.1,
-    "date": "2026-10-13T12:08:58.021554Z"
-   },
-   {
-    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
     "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-25T00:41:44+00:00"
    },
    {
-    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
     "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-25T00:41:44+00:00"
    },
    {
-    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85308",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:45.400552Z"
+    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "score": 8.6,
+    "date": "2026-10-25T00:41:43+00:00"
    },
    {
-    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:85321",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:03.045090Z"
+    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
+    "score": 8.5,
+    "date": "2026-10-25T00:41:54+00:00"
    },
    {
-    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:82883",
-    "score": 8.8,
-    "date": "2026-10-15T12:20:13.898768Z"
-   },
-   {
-    "title": "RLSA-2026:80498 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:80498",
-    "score": 8.8,
-    "date": "2026-10-13T12:08:58.021554Z"
-   },
-   {
-    "title": "RLSA-2026:88248 — Important: expat security update",
-    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
     "score": 8.2,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-25T00:41:49+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "score": 8.2,
+    "date": "2026-10-25T00:41:44+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.15.2 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7753",
+    "score": 8.2,
+    "date": "2026-10-25T00:41:40+00:00"
    }
   ],
   "kev": [
@@ -493,7 +493,7 @@
    {
     "title": "nhovongoc0-max/meme-radar — Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
     "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "stars": 545,
+    "stars": 546,
     "lang": "JavaScript"
    },
    {
@@ -635,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "We used RCE on 3 million PCs to prevent a botnet",
-    "url": "https://www.reddit.com/r/netsec/comments/1xe25f5/we_used_rce_on_3_million_pcs_to_prevent_a_botnet/",
-    "date": "2026-10-24T07:18:36+00:00",
+    "title": "How LLM-Based Penetration Testing Harnesses Work",
+    "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
+    "date": "2026-10-24T17:17:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How LLM-Based Penetration Testing Harnesses Work",
-    "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
-    "date": "2026-10-24T17:17:43+00:00",
+    "title": "We used RCE on 3 million PCs to prevent a botnet",
+    "url": "https://www.reddit.com/r/netsec/comments/1xe25f5/we_used_rce_on_3_million_pcs_to_prevent_a_botnet/",
+    "date": "2026-10-24T07:18:36+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
