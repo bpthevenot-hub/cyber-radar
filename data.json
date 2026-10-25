@@ -1,61 +1,7 @@
 {
- "generatedAt": "2026-10-25T19:24:00.224Z",
+ "generatedAt": "2026-10-25T20:27:47.326Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2022-0759 — Red Hat Security Advisory: Satellite 6.14 security and bug fix update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6818",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:48+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: podman security, bug fix, and enhancement update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6474",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:39+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: buildah security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6473",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:38+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: containernetworking-plugins security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6402",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:36+00:00"
-   },
-   {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: skopeo security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6363",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:34+00:00"
-   },
-   {
-    "title": "CVE-2022-3064 — Red Hat Security Advisory: toolbox security and bug fix update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6346",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:34+00:00"
-   },
-   {
-    "title": "CVE-2020-7692 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6172",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:14+00:00"
-   },
-   {
-    "title": "CVE-2022-25857 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.13 OpenShift Jenkins security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6179",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:10+00:00"
-   },
-   {
-    "title": "CVE-2022-1471 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.11 Openshift Jenkins security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6171",
-    "score": 9.8,
-    "date": "2026-10-25T18:36:09+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -69,22 +15,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2021-43784 — Red Hat Security Advisory: runc security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6380",
+    "title": "CVE-2026-45859 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83207",
+    "score": 8.8,
+    "date": "2026-10-25T19:09:28+00:00"
+   },
+   {
+    "title": "CVE-2026-68377 — Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83159",
+    "score": 8.8,
+    "date": "2026-10-25T19:09:28+00:00"
+   },
+   {
+    "title": "CVE-2026-68377 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83157",
+    "score": 8.8,
+    "date": "2026-10-25T19:09:28+00:00"
+   },
+   {
+    "title": "CVE-2026-46319 — Red Hat Security Advisory: kernel security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83156",
+    "score": 8.8,
+    "date": "2026-10-25T19:09:28+00:00"
+   },
+   {
+    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82807",
+    "score": 8.1,
+    "date": "2026-10-25T19:04:21+00:00"
+   },
+   {
+    "title": "CVE-2026-46309 — Red Hat Security Advisory: kernel security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:81552",
+    "score": 8.1,
+    "date": "2026-10-25T19:04:21+00:00"
+   },
+   {
+    "title": "CVE-2025-38147 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88477",
     "score": 7.8,
-    "date": "2026-10-25T18:36:36+00:00"
+    "date": "2026-10-25T19:04:21+00:00"
    },
    {
-    "title": "CVE-2022-41723 — Red Hat Security Advisory: rhc security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7058",
-    "score": 7.5,
-    "date": "2026-10-25T18:37:15+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: OpenShift Container Platform 4.12.44 bug fix and security update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6894",
-    "score": 7.5,
-    "date": "2026-10-25T18:37:12+00:00"
+    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel-rt security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82806",
+    "score": 7.8,
+    "date": "2026-10-25T19:04:21+00:00"
    }
   ],
   "kev": [
@@ -463,25 +439,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2159,
+    "stars": 2162,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1909,
+    "stars": 1911,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1225,
+    "stars": 1227,
     "lang": "Python"
    },
    {
-    "title": "openqodex/openqodex — Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, ",
+    "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 814,
+    "stars": 815,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 11,
+  "crit": 2,
   "kev": 1756,
   "adv": 12,
   "feed": 48
