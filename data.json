@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T18:45:03.739Z",
+ "generatedAt": "2026-10-26T19:28:59.362Z",
  "sources": {
   "cve": [
    {
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "DreamHost forces password resets in ongoing \"incident\"",
+    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+    "date": "Mon, 26 Oct 2026 15:26:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
     "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
     "date": "Mon, 26 Oct 2026 12:27:57 -0400",
@@ -378,32 +385,25 @@
     "date": "Fri, 23 Oct 2026 13:05:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Quest Diagnostics confirms data breach exposed patient records",
-    "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-    "date": "Fri, 23 Oct 2026 12:40:07 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2214,
+    "stars": 2216,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1980,
+    "stars": 1983,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1275,
+    "stars": 1279,
     "lang": "Python"
    },
    {
@@ -439,7 +439,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 480,
+    "stars": 481,
     "lang": "Rust"
    },
    {
@@ -577,6 +577,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
+    "date": "2026-10-26T19:18:19+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Connection Reuse leading to desync",
+    "url": "https://www.reddit.com/r/netsec/comments/1xg6ap2/connection_reuse_leading_to_desync/",
+    "date": "2026-10-26T19:16:21+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Breaking the AWS MCP Python Sandbox",
     "url": "https://www.reddit.com/r/netsec/comments/1xevj5i/breaking_the_aws_mcp_python_sandbox/",
     "date": "2026-10-25T07:02:31+00:00",
@@ -615,20 +629,6 @@
     "title": "EMFI adventures part 2: target characterization on STM32H5",
     "url": "https://www.reddit.com/r/netsec/comments/1xddn1d/emfi_adventures_part_2_target_characterization_on/",
     "date": "2026-10-23T13:11:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "CVE-2026-94300: Concurrent GSS-TSIG messages corrupt memory",
-    "url": "https://www.reddit.com/r/netsec/comments/1xcnwyi/cve202694300_concurrent_gsstsig_messages_corrupt/",
-    "date": "2026-10-22T16:49:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The PHP Foundation: Today's PHP Security Release, and How We're Strengthening PHP Security",
-    "url": "https://www.reddit.com/r/netsec/comments/1xcegee/the_php_foundation_todays_php_security_release/",
-    "date": "2026-10-22T10:03:39+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
