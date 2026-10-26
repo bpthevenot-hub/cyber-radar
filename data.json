@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-26T16:35:16.796Z",
+ "generatedAt": "2026-10-26T17:29:06.220Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.6.6 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73419",
+    "score": 9.9,
+    "date": "2026-10-26T17:11:43+00:00"
+   },
+   {
+    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.5.8 security update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:71597",
+    "score": 9.9,
+    "date": "2026-10-26T17:11:33+00:00"
+   },
+   {
+    "title": "CVE-2026-27459 — Red Hat Security Advisory: Technical preview of the satellite/iop-vmaas-rhel9 container image (+26 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68780",
+    "score": 9.8,
+    "date": "2026-10-26T17:11:16+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,46 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "GHSA-6q48-6c7w-9gw2 — certifi bundles emSign root CAs with compromised intermediate CA keys",
-    "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
-    "score": 9.5,
-    "date": "2026-10-20T19:35:05Z"
+    "title": "CVE-2026-1784 — Red Hat Security Advisory: OpenShift Container Platform 4.12.99 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70647",
+    "score": 9.3,
+    "date": "2026-10-26T17:11:28+00:00"
    },
    {
-    "title": "CVE-2026-106118 — ImageSharp: Tiled fax TIFF: tile buffer sized by TileWidth but fax decompressor writes scanlines of ImageWidth — heap OOB write",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106118",
-    "score": 7.5,
-    "date": "2026-10-07T16:18:57Z"
+    "title": "CVE-2026-14362 — Red Hat Security Advisory: OpenShift Container Platform 4.17.58 bug fix and security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70587",
+    "score": 9.3,
+    "date": "2026-10-26T17:11:28+00:00"
    },
    {
-    "title": "CVE-2026-46434 — wger: Trainer Privilege Escalation - Improper Privilege Management",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46434",
-    "score": 7.1,
-    "date": "2026-10-07T13:59:14Z"
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.18.56 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70617",
+    "score": 9.3,
+    "date": "2026-10-26T17:11:26+00:00"
    },
    {
-    "title": "CVE-2026-43976 — wger: cross-tenant admin notes/contracts leak via gym=None bypass (5 views)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43976",
-    "score": 7.1,
-    "date": "2026-10-07T13:33:14Z"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.18.10 Async Update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74504",
+    "score": 9.1,
+    "date": "2026-10-26T17:11:45+00:00"
    },
    {
-    "title": "CVE-2026-46438 — wger: Cross-User Data Corruption via Missing Ownership Check on WorkoutLog.slot_entry",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46438",
-    "score": 6.5,
-    "date": "2026-10-07T13:59:17Z"
+    "title": "CVE-2026-12405 — Red Hat Security Advisory: Satellite 6.19.5 Async Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74503",
+    "score": 9.1,
+    "date": "2026-10-26T17:11:44+00:00"
    },
    {
-    "title": "GHSA-p3pr-8f3m-4qp8 — pyLoad WindowsPhoneNotify addon: non-admin SETTINGS user triggers SSRF via unguarded http.client notification host",
-    "url": "https://github.com/advisories/GHSA-p3pr-8f3m-4qp8",
-    "score": 6.4,
-    "date": "2026-10-09T17:09:03Z"
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69235",
+    "score": 8.8,
+    "date": "2026-10-26T17:11:18+00:00"
    },
    {
-    "title": "CVE-2026-40071 — pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40071",
-    "score": 5.4,
-    "date": "2026-04-08T00:18:20Z"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat Edge Manager Version 1.1.4 Security Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:68334",
+    "score": 8.8,
+    "date": "2026-10-26T17:11:13+00:00"
+   },
+   {
+    "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.5.3 (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70870",
+    "score": 8.7,
+    "date": "2026-10-26T17:11:33+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.9 release. (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:69248",
+    "score": 8.6,
+    "date": "2026-10-26T17:11:18+00:00"
    }
   ],
   "kev": [
@@ -433,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2209,
+    "stars": 2212,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1974,
+    "stars": 1977,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1271,
+    "stars": 1272,
     "lang": "Python"
    },
    {
@@ -475,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 495,
+    "stars": 497,
     "lang": "—"
    },
    {
@@ -499,7 +529,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 240,
+    "stars": 241,
     "lang": "Go"
    }
   ],
@@ -687,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 10,
   "kev": 1756,
   "adv": 12,
   "feed": 48
