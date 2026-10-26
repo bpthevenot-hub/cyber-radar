@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T15:43:21.549Z",
+ "generatedAt": "2026-10-26T16:35:16.796Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,48 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "GHSA-6q48-6c7w-9gw2 — certifi bundles emSign root CAs with compromised intermediate CA keys",
+    "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
+    "score": 9.5,
+    "date": "2026-10-20T19:35:05Z"
+   },
+   {
+    "title": "CVE-2026-106118 — ImageSharp: Tiled fax TIFF: tile buffer sized by TileWidth but fax decompressor writes scanlines of ImageWidth — heap OOB write",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106118",
+    "score": 7.5,
+    "date": "2026-10-07T16:18:57Z"
+   },
+   {
+    "title": "CVE-2026-46434 — wger: Trainer Privilege Escalation - Improper Privilege Management",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46434",
+    "score": 7.1,
+    "date": "2026-10-07T13:59:14Z"
+   },
+   {
+    "title": "CVE-2026-43976 — wger: cross-tenant admin notes/contracts leak via gym=None bypass (5 views)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43976",
+    "score": 7.1,
+    "date": "2026-10-07T13:33:14Z"
+   },
+   {
+    "title": "CVE-2026-46438 — wger: Cross-User Data Corruption via Missing Ownership Check on WorkoutLog.slot_entry",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46438",
+    "score": 6.5,
+    "date": "2026-10-07T13:59:17Z"
+   },
+   {
+    "title": "GHSA-p3pr-8f3m-4qp8 — pyLoad WindowsPhoneNotify addon: non-admin SETTINGS user triggers SSRF via unguarded http.client notification host",
+    "url": "https://github.com/advisories/GHSA-p3pr-8f3m-4qp8",
+    "score": 6.4,
+    "date": "2026-10-09T17:09:03Z"
+   },
+   {
+    "title": "CVE-2026-40071 — pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40071",
+    "score": 5.4,
+    "date": "2026-04-08T00:18:20Z"
    }
   ],
   "kev": [
@@ -303,6 +345,13 @@
   ],
   "bleep": [
    {
+    "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+    "date": "Mon, 26 Oct 2026 12:27:57 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
     "date": "Mon, 26 Oct 2026 11:38:24 -0400",
@@ -378,32 +427,25 @@
     "date": "Fri, 23 Oct 2026 12:40:07 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-    "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-    "date": "Fri, 23 Oct 2026 11:38:05 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2205,
+    "stars": 2209,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1971,
+    "stars": 1974,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1269,
+    "stars": 1271,
     "lang": "Python"
    },
    {
@@ -421,7 +463,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 589,
+    "stars": 591,
     "lang": "Java"
    },
    {
@@ -433,19 +475,19 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 494,
+    "stars": 495,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 476,
+    "stars": 478,
     "lang": "Rust"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 375,
+    "stars": 376,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +499,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 239,
+    "stars": 240,
     "lang": "Go"
    }
   ],
@@ -645,7 +687,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1756,
   "adv": 12,
   "feed": 48
