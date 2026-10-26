@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-26T01:03:59.993Z",
+ "generatedAt": "2026-10-26T01:41:43.281Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-10-26T00:54:09+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-10-26T00:54:08+00:00"
+   },
+   {
+    "title": "CVE-2020-7753 — Red Hat Security Advisory: Cluster Observability Operator 1.5.0 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:34342",
+    "score": 9.8,
+    "date": "2026-10-26T00:54:07+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86195",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86168",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:80605 — Critical: cjose security update",
-    "url": "https://github.com/advisories/RLSA-2026:80605",
-    "score": 9.1,
-    "date": "2026-10-13T12:08:58.021554Z"
-   },
-   {
-    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.18.16 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8284",
     "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-26T00:53:55+00:00"
    },
    {
-    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "title": "CVE-2016-9840 — Red Hat Security Advisory: OpenShift Container Platform 4.17.32 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8280",
     "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-26T00:53:55+00:00"
    },
    {
-    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85308",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:45.400552Z"
+    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "score": 8.6,
+    "date": "2026-10-26T00:53:54+00:00"
    },
    {
-    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:85321",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:03.045090Z"
+    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
+    "score": 8.5,
+    "date": "2026-10-26T00:54:04+00:00"
    },
    {
-    "title": "RLSA-2026:85309 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85309",
-    "score": 8.8,
-    "date": "2026-10-21T06:40:55.719656Z"
+    "title": "CVE-2024-11831 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.14 Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8544",
+    "score": 8.2,
+    "date": "2026-10-26T00:54:00+00:00"
    },
    {
-    "title": "RLSA-2026:83207 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:83207",
-    "score": 8.8,
-    "date": "2026-10-16T12:10:48.882476Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.14.4 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8274",
+    "score": 8.2,
+    "date": "2026-10-26T00:53:55+00:00"
    },
    {
-    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:82883",
-    "score": 8.8,
-    "date": "2026-10-15T12:20:13.898768Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift GitOps v1.15.2 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7753",
+    "score": 8.2,
+    "date": "2026-10-26T00:53:52+00:00"
    },
    {
-    "title": "RLSA-2026:80498 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:80498",
-    "score": 8.8,
-    "date": "2026-10-13T12:08:58.021554Z"
+    "title": "CVE-2024-55549 — Red Hat Security Advisory: OpenShift Container Platform 4.12.77 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8303",
+    "score": 7.8,
+    "date": "2026-10-26T00:53:56+00:00"
+   },
+   {
+    "title": "CVE-2022-49043 — Red Hat Security Advisory: OpenShift Container Platform 4.14.52 bug fix and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7702",
+    "score": 7.8,
+    "date": "2026-10-26T00:53:52+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2164,
+    "stars": 2165,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1914,
+    "stars": 1918,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1233,
+    "stars": 1234,
     "lang": "Python"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 779,
+    "stars": 781,
     "lang": "Python"
    },
    {
@@ -499,13 +499,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 505,
+    "stars": 513,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 483,
+    "stars": 484,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 5,
   "kev": 1756,
   "adv": 12,
   "feed": 48
