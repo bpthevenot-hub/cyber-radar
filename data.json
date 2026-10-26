@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-26T14:07:40.125Z",
+ "generatedAt": "2026-10-26T15:13:20.227Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+120 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82347",
+    "score": 9.8,
+    "date": "2026-10-26T14:57:38+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+115 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82372",
+    "score": 9.8,
+    "date": "2026-10-26T14:57:34+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+125 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82354",
+    "score": 9.8,
+    "date": "2026-10-26T14:57:33+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +31,60 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-10-26T14:57:47+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
+    "score": 9.1,
+    "date": "2026-10-26T14:57:36+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-10-26T14:57:34+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-10-26T14:57:34+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-10-26T14:57:43+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: grafana-pcp security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88394",
+    "score": 8.8,
+    "date": "2026-10-26T14:57:41+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: grafana-pcp security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88395",
+    "score": 8.8,
+    "date": "2026-10-26T14:57:40+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: grafana security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88340",
+    "score": 8.8,
+    "date": "2026-10-26T14:57:40+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: grafana security update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88339",
+    "score": 8.8,
+    "date": "2026-10-26T14:57:38+00:00"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+    "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+    "date": "Mon, 26 Oct 2026 19:36:13 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
     "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
     "date": "Mon, 26 Oct 2026 17:22:41 +0530",
@@ -290,13 +369,6 @@
     "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
     "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
     "date": "Sat, 24 Oct 2026 16:33:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-    "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-    "date": "Sat, 24 Oct 2026 16:06:33 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2201,
+    "stars": 2203,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1957,
+    "stars": 1965,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1264,
+    "stars": 1265,
     "lang": "Python"
    },
    {
@@ -421,7 +493,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 587,
+    "stars": 588,
     "lang": "Java"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 491,
+    "stars": 493,
     "lang": "—"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 9,
   "kev": 1756,
   "adv": 12,
   "feed": 48
