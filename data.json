@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T13:36:19.192Z",
+ "generatedAt": "2026-10-27T14:36:07.256Z",
  "sources": {
   "cve": [
    {
@@ -15,40 +15,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85308",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:45.400552Z"
+    "title": "OSV-2022-882 — Use-of-uninitialized-value in SfxEntry::test_condition",
+    "url": "https://github.com/advisories/OSV-2022-882",
+    "score": null,
+    "date": "2022-09-11T00:01:48.463118Z"
    },
    {
-    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
-    "url": "https://github.com/advisories/RLSA-2026:86331",
-    "score": 7.8,
-    "date": "2026-10-22T00:09:40.784195Z"
-   },
-   {
-    "title": "RLSA-2026:86056 — Important: lrzsz security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86056",
-    "score": 7.5,
-    "date": "2026-10-22T00:09:05.434592Z"
-   },
-   {
-    "title": "RLSA-2026:83561 — Important: rpcbind security update",
-    "url": "https://github.com/advisories/RLSA-2026:83561",
-    "score": 7.5,
-    "date": "2026-10-16T12:11:45.103109Z"
-   },
-   {
-    "title": "RLSA-2026:80664 — Moderate: environment-modules security update",
-    "url": "https://github.com/advisories/RLSA-2026:80664",
-    "score": 7.3,
-    "date": "2026-10-13T12:09:39.006916Z"
-   },
-   {
-    "title": "RLSA-2026:88455 — Critical: ca-certificates security update",
-    "url": "https://github.com/advisories/RLSA-2026:88455",
-    "score": 6.8,
-    "date": "2026-10-23T12:12:00.486754Z"
+    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
+    "url": "https://github.com/advisories/OSV-2022-714",
+    "score": null,
+    "date": "2022-08-15T00:00:47.794062Z"
    }
   ],
   "kev": [
@@ -167,6 +143,13 @@
   ],
   "adv": [
    {
+    "title": "Google Guava: CompactHashMap/CompactHashSet/MapMakerInternalMap deserialization triggers uncontrolled memory allocation",
+    "url": "https://github.com/advisories/GHSA-xxph-c9ww-hj94",
+    "score": 5.9,
+    "ghsa": "GHSA-xxph-c9ww-hj94",
+    "date": "2026-10-27T14:27:53Z"
+   },
+   {
     "title": "Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`",
     "url": "https://github.com/advisories/GHSA-m4w4-3r8h-jw98",
     "score": 9.8,
@@ -242,13 +225,6 @@
     "score": null,
     "ghsa": "GHSA-4f8h-vr72-p32c",
     "date": "2026-10-23T22:26:57Z"
-   },
-   {
-    "title": "virtualenv: Pip seeding with download omits wheel digest verification",
-    "url": "https://github.com/advisories/GHSA-cx28-75q4-x26q",
-    "score": 2,
-    "ghsa": "GHSA-cx28-75q4-x26q",
-    "date": "2026-10-23T22:26:04Z"
    }
   ],
   "thn": [
@@ -339,6 +315,20 @@
   ],
   "bleep": [
    {
+    "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+    "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+    "date": "Tue, 27 Oct 2026 10:09:46 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+    "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+    "date": "Tue, 27 Oct 2026 10:01:11 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
     "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
     "date": "Tue, 27 Oct 2026 06:36:12 -0400",
@@ -407,20 +397,6 @@
     "date": "Mon, 26 Oct 2026 10:00:10 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-    "date": "Mon, 26 Oct 2026 09:56:44 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-    "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-    "date": "Mon, 26 Oct 2026 06:26:52 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -433,31 +409,31 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2043,
+    "stars": 2046,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1304,
+    "stars": 1306,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 910,
+    "stars": 915,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 783,
+    "stars": 784,
     "lang": "Python"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 591,
+    "stars": 592,
     "lang": "Java"
    },
    {
@@ -627,6 +603,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Reviving GLPI Agent Abuse with ESC17",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgtexh/reviving_glpi_agent_abuse_with_esc17/",
+    "date": "2026-10-27T14:03:34+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Context Bombs: Making attacking agents pay",
     "url": "https://www.reddit.com/r/netsec/comments/1xfs8xr/context_bombs_making_attacking_agents_pay/",
     "date": "2026-10-26T09:39:08+00:00",
@@ -658,13 +641,6 @@
     "title": "How LLM-Based Penetration Testing Harnesses Work",
     "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
     "date": "2026-10-24T17:17:43+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "We used RCE on 3 million PCs to prevent a botnet",
-    "url": "https://www.reddit.com/r/netsec/comments/1xe25f5/we_used_rce_on_3_million_pcs_to_prevent_a_botnet/",
-    "date": "2026-10-24T07:18:36+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
