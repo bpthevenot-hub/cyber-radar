@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-27T18:25:50.912Z",
+ "generatedAt": "2026-10-27T19:22:22.351Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-31235 — imgaug contains an insecure deserialization vulnerability in BackgroundAugmenter class within multicore.py module",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-31235",
-    "score": 9.8,
-    "date": "2026-05-12T18:30:41Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "MAL-2026-2967 — Malicious code in 6161test1234 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-2967",
-    "score": null,
-    "date": "2026-04-21T13:55:41Z"
    }
   ],
   "kev": [
@@ -143,6 +131,76 @@
   ],
   "adv": [
    {
+    "title": "undici vulnerable to cache poisoning and cross-user disclosure via cross-origin redirects",
+    "url": "https://github.com/advisories/GHSA-4w7w-5xrc-9h26",
+    "score": 7.4,
+    "ghsa": "GHSA-4w7w-5xrc-9h26",
+    "date": "2026-10-27T19:02:31Z"
+   },
+   {
+    "title": "undici vulnerable to TLS certificate validation bypass via dropped tls options in Agent",
+    "url": "https://github.com/advisories/GHSA-2m5v-pch6-74hx",
+    "score": 7.4,
+    "ghsa": "GHSA-2m5v-pch6-74hx",
+    "date": "2026-10-27T19:02:26Z"
+   },
+   {
+    "title": "undici vulnerable to Denial of Service via TLS 1.2 certificate-changing renegotiation",
+    "url": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm",
+    "score": 7.5,
+    "ghsa": "GHSA-qrxm-fqhp-jwvm",
+    "date": "2026-10-27T19:02:21Z"
+   },
+   {
+    "title": "undici WebSocket client vulnerable to Denial of Service via unbounded automatic PONG buffering",
+    "url": "https://github.com/advisories/GHSA-9fm3-97px-rjf6",
+    "score": 5.9,
+    "ghsa": "GHSA-9fm3-97px-rjf6",
+    "date": "2026-10-27T19:02:15Z"
+   },
+   {
+    "title": "undici vulnerable to Denial of Service via unhandled exception in the decompress interceptor",
+    "url": "https://github.com/advisories/GHSA-55wc-3pg8-jfw6",
+    "score": 5.9,
+    "ghsa": "GHSA-55wc-3pg8-jfw6",
+    "date": "2026-10-27T19:02:10Z"
+   },
+   {
+    "title": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length",
+    "url": "https://github.com/advisories/GHSA-f897-62hf-6gxq",
+    "score": 7.5,
+    "ghsa": "GHSA-f897-62hf-6gxq",
+    "date": "2026-10-27T19:02:00Z"
+   },
+   {
+    "title": "Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Crash the Process",
+    "url": "https://github.com/advisories/GHSA-2v3c-qxhr-7vpv",
+    "score": 7.5,
+    "ghsa": "GHSA-2v3c-qxhr-7vpv",
+    "date": "2026-10-27T19:01:50Z"
+   },
+   {
+    "title": "Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header",
+    "url": "https://github.com/advisories/GHSA-r925-mgvr-h9cc",
+    "score": 7.5,
+    "ghsa": "GHSA-r925-mgvr-h9cc",
+    "date": "2026-10-27T19:01:39Z"
+   },
+   {
+    "title": "Go JOSE: DoS when parsing JWKs that contain RSA keys",
+    "url": "https://github.com/advisories/GHSA-mgcc-cww5-fp2q",
+    "score": 7.5,
+    "ghsa": "GHSA-mgcc-cww5-fp2q",
+    "date": "2026-10-27T19:01:30Z"
+   },
+   {
+    "title": "CTFer.io's CTFd Terraform Provider allows a local or remote attacker to read team passwords in state as non sensitive values",
+    "url": "https://github.com/advisories/GHSA-vg84-c5mg-76xh",
+    "score": 7.5,
+    "ghsa": "GHSA-vg84-c5mg-76xh",
+    "date": "2026-10-27T19:00:50Z"
+   },
+   {
     "title": "Hydra legacy target blacklist permits unsafe PyYAML loading",
     "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
     "score": 7.8,
@@ -155,79 +213,16 @@
     "score": 5.3,
     "ghsa": "GHSA-6pq8-jhm2-2vcw",
     "date": "2026-10-27T16:10:55Z"
-   },
-   {
-    "title": "undici WebSocket client vulnerable to Denial of Service via failed HTTP/2 handshake",
-    "url": "https://github.com/advisories/GHSA-qq8j-7v2v-3rwp",
-    "score": 7.5,
-    "ghsa": "GHSA-qq8j-7v2v-3rwp",
-    "date": "2026-10-27T16:09:45Z"
-   },
-   {
-    "title": "Authlib accepts an empty HMAC key, allowing JWS/JWT signature forgery (HS256/HS384/HS512)",
-    "url": "https://github.com/advisories/GHSA-8m4g-j4wp-wgcg",
-    "score": 7.4,
-    "ghsa": "GHSA-8m4g-j4wp-wgcg",
-    "date": "2026-10-27T16:09:22Z"
-   },
-   {
-    "title": "rustls: ECH rejection can expose buffered application data to authenticated outer server before `ech_required` alert",
-    "url": "https://github.com/advisories/GHSA-vp88-798v-h67f",
-    "score": 2.3,
-    "ghsa": "GHSA-vp88-798v-h67f",
-    "date": "2026-10-27T16:08:59Z"
-   },
-   {
-    "title": "rustls: An unauthenticated ServerHello poisons the per-name key-exchange record, so later ClientHellos carry only a classical X25519 share",
-    "url": "https://github.com/advisories/GHSA-w44r-93j7-qv28",
-    "score": 3.7,
-    "ghsa": "GHSA-w44r-93j7-qv28",
-    "date": "2026-10-27T16:08:54Z"
-   },
-   {
-    "title": "Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs",
-    "url": "https://github.com/advisories/GHSA-c8m5-c952-6cm4",
-    "score": 4,
-    "ghsa": "GHSA-c8m5-c952-6cm4",
-    "date": "2026-10-27T16:08:47Z"
-   },
-   {
-    "title": "Rustls: Brotli certificate decompression can allocate an attacker-controlled amount of memory up to 1 GiB before authentication.",
-    "url": "https://github.com/advisories/GHSA-h2v8-394m-p7vv",
-    "score": 3.7,
-    "ghsa": "GHSA-h2v8-394m-p7vv",
-    "date": "2026-10-27T16:08:36Z"
-   },
-   {
-    "title": "Authlib: Unvalidated request_uri fetch in JWT-secured authorization request (JAR) leading to SSRF",
-    "url": "https://github.com/advisories/GHSA-x4rv-c3wx-4cr8",
-    "score": 5.4,
-    "ghsa": "GHSA-x4rv-c3wx-4cr8",
-    "date": "2026-10-27T15:39:18Z"
-   },
-   {
-    "title": "Authlib: ID token can disable its own nonce validation via the nonce_supported claim",
-    "url": "https://github.com/advisories/GHSA-c5mf-xmp2-59rc",
-    "score": 4.2,
-    "ghsa": "GHSA-c5mf-xmp2-59rc",
-    "date": "2026-10-27T15:39:13Z"
-   },
-   {
-    "title": "Authlib: Default JWT bearer grant accepts assertions for the wrong audience",
-    "url": "https://github.com/advisories/GHSA-fch4-3c6x-j4gc",
-    "score": 6.8,
-    "ghsa": "GHSA-fch4-3c6x-j4gc",
-    "date": "2026-10-27T15:39:08Z"
-   },
-   {
-    "title": "Authlib: OpenID implicit grant checks raw scope instead of allowed scope before issuing ID tokens",
-    "url": "https://github.com/advisories/GHSA-q686-2qmg-hqc7",
-    "score": 4.6,
-    "ghsa": "GHSA-q686-2qmg-hqc7",
-    "date": "2026-10-27T15:38:53Z"
    }
   ],
   "thn": [
+   {
+    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+    "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+    "date": "Tue, 27 Oct 2026 23:56:46 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
     "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
@@ -302,13 +297,6 @@
     "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
     "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
     "date": "Mon, 26 Oct 2026 23:42:22 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-    "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-    "date": "Mon, 26 Oct 2026 23:15:57 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,25 +391,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2273,
+    "stars": 2275,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2054,
+    "stars": 2056,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1313,
+    "stars": 1315,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 917,
+    "stars": 918,
     "lang": "TypeScript"
    },
    {
@@ -589,16 +577,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A community translation can run attacker-chosen code in an exported Godot game",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
-    "date": "2026-10-27T08:37:28+00:00",
+    "title": "From Arbitrary File Read to Shell: Yet Another RCE in Telerik",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgpz1q/from_arbitrary_file_read_to_shell_yet_another_rce/",
+    "date": "2026-10-27T11:28:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "From Arbitrary File Read to Shell: Yet Another RCE in Telerik",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgpz1q/from_arbitrary_file_read_to_shell_yet_another_rce/",
-    "date": "2026-10-27T11:28:12+00:00",
+    "title": "A community translation can run attacker-chosen code in an exported Godot game",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
+    "date": "2026-10-27T08:37:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -657,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1758,
   "adv": 12,
   "feed": 48
