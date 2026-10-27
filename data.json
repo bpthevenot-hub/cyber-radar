@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-10-27T16:26:36.607Z",
+ "generatedAt": "2026-10-27T17:23:24.559Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-54381 — BentoML SSRF Vulnerability in File Upload Processing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-54381",
-    "score": 9.9,
-    "date": "2025-07-29T19:24:47Z"
-   },
-   {
-    "title": "CVE-2025-55449 — AstrBot is vulnerable to RCE with hard-coded JWT signing keys",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-55449",
-    "score": 9.8,
-    "date": "2025-11-14T21:52:23Z"
-   },
-   {
-    "title": "CVE-2025-49652 — BackendAI Missing Authentication for Critical Function",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-49652",
-    "score": 9.8,
-    "date": "2025-06-09T18:32:17Z"
-   },
-   {
-    "title": "CVE-2024-9070 — BentoML deserialization vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-9070",
-    "score": 9.8,
-    "date": "2025-03-20T12:32:50Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -39,46 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-25130 — CAI find_file Agent Tool has Command Injection Vulnerability Through Argument Injection",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-25130",
-    "score": 9.6,
-    "date": "2026-01-30T20:38:35Z"
-   },
-   {
-    "title": "CVE-2025-10283 — BBOT's insufficient sanitization issues in gitdumper.py can lead to RCE",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-10283",
-    "score": 9.6,
-    "date": "2025-10-09T22:29:46Z"
-   },
-   {
-    "title": "CVE-2025-10284 — BBOT's various issues in unarchive.py can cause arbitrary file write and RCE",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-10284",
-    "score": 9.6,
-    "date": "2025-10-09T22:22:11Z"
-   },
-   {
-    "title": "CVE-2025-47241 — Browser Use allows bypassing `allowed_domains` by putting a decoy domain in http auth username portion of a URL",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-47241",
-    "score": 9.3,
-    "date": "2025-05-05T18:25:04Z"
-   },
-   {
-    "title": "CVE-2026-76216 — Vikunja: Link-share principal-type confusion enables cross-account team removal, bot takeover, and roster disclosure",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76216",
-    "score": 7.5,
-    "date": "2026-10-09T20:43:40Z"
-   },
-   {
-    "title": "GHSA-4hv6-xc92-j86g — Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
-    "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
-    "score": 6.5,
-    "date": "2026-10-09T20:57:34Z"
-   },
-   {
-    "title": "GHSA-2mjx-qc3c-rqvc — Rustls: TLS 1.3 handshake messages incorrectly accepted across encryption level boundaries",
-    "url": "https://github.com/advisories/GHSA-2mjx-qc3c-rqvc",
-    "score": 5.3,
-    "date": "2026-10-05T23:30:17Z"
+    "title": "CVE-2026-48797 — Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-48797",
+    "score": 9.5,
+    "date": "2026-06-26T20:34:29Z"
    }
   ],
   "kev": [
@@ -197,6 +137,13 @@
   ],
   "adv": [
    {
+    "title": "Hydra legacy target blacklist permits unsafe PyYAML loading",
+    "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
+    "score": 7.8,
+    "ghsa": "GHSA-wf6j-7hvr-gr93",
+    "date": "2026-10-27T17:08:41Z"
+   },
+   {
     "title": "qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)",
     "url": "https://github.com/advisories/GHSA-6pq8-jhm2-2vcw",
     "score": 5.3,
@@ -272,16 +219,23 @@
     "score": 4.6,
     "ghsa": "GHSA-q686-2qmg-hqc7",
     "date": "2026-10-27T15:38:53Z"
-   },
-   {
-    "title": "Authlib incomplete algorithm-confusion fix permits HMAC forgery with prefixed public keys",
-    "url": "https://github.com/advisories/GHSA-7vr2-2fgp-9w7p",
-    "score": 7.4,
-    "ghsa": "GHSA-7vr2-2fgp-9w7p",
-    "date": "2026-10-27T15:38:48Z"
    }
   ],
   "thn": [
+   {
+    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+    "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+    "date": "Tue, 27 Oct 2026 19:29:48 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+    "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "date": "Tue, 27 Oct 2026 19:29:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
     "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
@@ -349,20 +303,6 @@
     "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
     "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
     "date": "Mon, 26 Oct 2026 23:15:57 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-    "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-    "date": "Mon, 26 Oct 2026 21:22:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-    "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-    "date": "Mon, 26 Oct 2026 19:36:13 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -457,7 +397,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2264,
+    "stars": 2269,
     "lang": "Go"
    },
    {
@@ -469,13 +409,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1309,
+    "stars": 1311,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 915,
+    "stars": 916,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +457,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 245,
+    "stars": 246,
     "lang": "Go"
    },
    {
@@ -650,6 +590,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
+    "date": "2026-10-27T16:33:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Choose Your Backend: Three TLS Bugs in GoAhead",
     "url": "https://www.reddit.com/r/netsec/comments/1xgjs4s/choose_your_backend_three_tls_bugs_in_goahead/",
     "date": "2026-10-27T05:07:28+00:00",
@@ -690,13 +637,6 @@
     "date": "2026-10-26T12:44:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Breaking the AWS MCP Python Sandbox",
-    "url": "https://www.reddit.com/r/netsec/comments/1xevj5i/breaking_the_aws_mcp_python_sandbox/",
-    "date": "2026-10-25T07:02:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -711,7 +651,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 10,
+  "crit": 3,
   "kev": 1758,
   "adv": 12,
   "feed": 48
