@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T01:41:50.753Z",
+ "generatedAt": "2026-10-27T02:40:56.016Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-116811 — OpenPanel before 3.0.0 contains a sandbox escape vulnerability in the js-runtime validator that allows a project member to bypass the AST al",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116811",
-    "score": 8.8,
-    "date": "2026-10-27T00:32:51Z"
+    "title": "ALSA-2026:90362 — Important: podman security update",
+    "url": "https://github.com/advisories/ALSA-2026:90362",
+    "score": null,
+    "date": "2026-10-26T00:00:00Z"
    },
    {
-    "title": "CVE-2026-116819 — OpenPanel before 3.0.0 contains an information disclosure vulnerability that allows read-level project members to obtain plaintext integrati",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116819",
-    "score": 8.5,
-    "date": "2026-10-27T00:32:51Z"
+    "title": "ALSA-2026:90495 — Important: brotli security update",
+    "url": "https://github.com/advisories/ALSA-2026:90495",
+    "score": null,
+    "date": "2026-10-26T00:00:00Z"
    },
    {
-    "title": "CVE-2026-116818 — OpenPanel before 3.0.0 contains an unauthenticated ClickHouse sql injection vulnerability that allows remote attackers to inject SQL through",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116818",
-    "score": 8.2,
-    "date": "2026-10-27T00:32:51Z"
+    "title": "ALSA-2026:90494 — Important: python-urllib3 security update",
+    "url": "https://github.com/advisories/ALSA-2026:90494",
+    "score": null,
+    "date": "2026-10-26T00:00:00Z"
    },
    {
-    "title": "CVE-2026-116808 — OpenPanel before 3.0.0 contains an sql injection vulnerability that allows authenticated users to read cross-tenant data by supplying a craf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116808",
-    "score": 7.2,
-    "date": "2026-10-27T00:32:51Z"
+    "title": "ALSA-2026:90462 — Important: skopeo security update",
+    "url": "https://github.com/advisories/ALSA-2026:90462",
+    "score": null,
+    "date": "2026-10-26T00:00:00Z"
    },
    {
-    "title": "CVE-2026-116827 — YesWiki before 4.7.0 contains a server-side request forgery vulnerability in the Bazar CSV import copyUrlToLocalFile() function that allows ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116827",
-    "score": 6.8,
-    "date": "2026-10-27T00:32:52Z"
-   },
-   {
-    "title": "CVE-2026-116826 — YesWiki before 4.7.0 contains a server-side request forgery vulnerability in DuplicationManager::downloadFile() that allows authenticated ad",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116826",
-    "score": 6.8,
-    "date": "2026-10-27T00:32:52Z"
-   },
-   {
-    "title": "CVE-2026-116825 — YesWiki from 4.6.2 before 4.7.0 lacks replay protection in HttpSignatureService::verifySignature(), which never validates the Date header or",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116825",
-    "score": 6.5,
-    "date": "2026-10-27T00:32:52Z"
-   },
-   {
-    "title": "CVE-2026-116821 — YesWiki before 4.7.0 contains a read-ACL bypass in AclService::updateRequestWithACL, which interpolates usernames into SQL LIKE patterns wit",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116821",
-    "score": 6.5,
-    "date": "2026-10-27T00:32:52Z"
-   },
-   {
-    "title": "CVE-2026-116812 — OpenPanel before 3.0.0 contains a sql injection vulnerability in profileColumnAccess in cohort.service.ts that allows project-read members t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116812",
-    "score": 6.5,
-    "date": "2026-10-27T00:32:51Z"
-   },
-   {
-    "title": "CVE-2026-116817 — OpenPanel before 3.0.0 contains a missing authentication vulnerability that allows unauthenticated attackers to access the Bull Board dashbo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116817",
-    "score": 6.5,
-    "date": "2026-10-27T00:32:51Z"
-   },
-   {
-    "title": "CVE-2026-116824 — YesWiki before 4.7.0 contains a stored cross-site scripting vulnerability in handlers/page/referrers_sites.php that allows unauthenticated a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116824",
-    "score": 6.1,
-    "date": "2026-10-27T00:32:52Z"
-   },
-   {
-    "title": "CVE-2026-116823 — YesWiki before 4.7.0 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject JavaScript by s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116823",
-    "score": 6.1,
-    "date": "2026-10-27T00:32:52Z"
+    "title": "ALSA-2026:90424 — Important: buildah security update",
+    "url": "https://github.com/advisories/ALSA-2026:90424",
+    "score": null,
+    "date": "2026-10-26T00:00:00Z"
    }
   ],
   "kev": [
@@ -463,19 +421,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2229,
+    "stars": 2228,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1996,
+    "stars": 1999,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1284,
+    "stars": 1285,
     "lang": "Python"
    },
    {
@@ -529,7 +487,7 @@
    {
     "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
     "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 161,
+    "stars": 163,
     "lang": "C"
    }
   ],
@@ -649,16 +607,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The AI RCEssion: Why AI-driven security is calling in decades of software tech debt",
-    "url": "https://www.reddit.com/r/netsec/comments/1xfvrxl/the_ai_rcession_why_aidriven_security_is_calling/",
-    "date": "2026-10-26T12:44:15+00:00",
+    "title": "Connection Reuse leading to desync",
+    "url": "https://www.reddit.com/r/netsec/comments/1xg6ap2/connection_reuse_leading_to_desync/",
+    "date": "2026-10-26T19:16:21+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Connection Reuse leading to desync",
-    "url": "https://www.reddit.com/r/netsec/comments/1xg6ap2/connection_reuse_leading_to_desync/",
-    "date": "2026-10-26T19:16:21+00:00",
+    "title": "The AI RCEssion: Why AI-driven security is calling in decades of software tech debt",
+    "url": "https://www.reddit.com/r/netsec/comments/1xfvrxl/the_ai_rcession_why_aidriven_security_is_calling/",
+    "date": "2026-10-26T12:44:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
