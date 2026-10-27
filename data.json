@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T08:39:08.983Z",
+ "generatedAt": "2026-10-27T09:35:04.944Z",
  "sources": {
   "cve": [
    {
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Energy giant ENGIE discloses data breach affecting customers",
+    "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+    "date": "Tue, 27 Oct 2026 05:25:50 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
     "date": "Tue, 27 Oct 2026 04:20:54 -0400",
@@ -450,33 +457,14 @@
     "date": "Mon, 26 Oct 2026 05:19:57 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-    "date": "Sun, 25 Oct 2026 11:49:38 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2245,
+    "stars": 2247,
     "lang": "Go"
-   },
-   {
-    "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
-    "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2025,
-    "lang": "Go"
-   },
-   {
-    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-    "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1298,
-    "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
@@ -485,40 +473,10 @@
     "lang": "TypeScript"
    },
    {
-    "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
-    "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 783,
-    "lang": "Python"
-   },
-   {
-    "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
-    "url": "https://github.com/opentrap/opentrap",
-    "stars": 591,
-    "lang": "Java"
-   },
-   {
-    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
-    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 504,
-    "lang": "—"
-   },
-   {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
     "stars": 482,
     "lang": "Rust"
-   },
-   {
-    "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
-    "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 378,
-    "lang": "TypeScript"
-   },
-   {
-    "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
-    "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 282,
-    "lang": "Python"
    },
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
@@ -527,10 +485,16 @@
     "lang": "Go"
    },
    {
-    "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
-    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 164,
-    "lang": "C"
+    "title": "Sequester-AG/bug-bounty-triage — Agent skill for rigorous bug bounty report triage, validation, severity escalation, and submission-ready repor",
+    "url": "https://github.com/Sequester-AG/bug-bounty-triage",
+    "stars": 139,
+    "lang": "—"
+   },
+   {
+    "title": "BlueRingsLabs/no-shortcuts — Free Course : Data, Machine Learning, Deep Learning and AI Engineering, the long way round: the math, the code",
+    "url": "https://github.com/BlueRingsLabs/no-shortcuts",
+    "stars": 134,
+    "lang": "Python"
    }
   ],
   "hn": [
@@ -635,6 +599,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A community translation can run attacker-chosen code in an exported Godot game",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
+    "date": "2026-10-27T08:37:28+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
     "url": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
     "date": "2026-10-26T19:18:19+00:00",
@@ -652,13 +623,6 @@
     "title": "Context Bombs: Making attacking agents pay",
     "url": "https://www.reddit.com/r/netsec/comments/1xfs8xr/context_bombs_making_attacking_agents_pay/",
     "date": "2026-10-26T09:39:08+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A community translation can run attacker-chosen code in an exported Godot game",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
-    "date": "2026-10-27T08:37:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
