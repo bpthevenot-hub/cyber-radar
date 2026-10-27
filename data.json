@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T14:36:07.256Z",
+ "generatedAt": "2026-10-27T15:33:07.195Z",
  "sources": {
   "cve": [
    {
@@ -143,88 +143,88 @@
   ],
   "adv": [
    {
-    "title": "Google Guava: CompactHashMap/CompactHashSet/MapMakerInternalMap deserialization triggers uncontrolled memory allocation",
-    "url": "https://github.com/advisories/GHSA-xxph-c9ww-hj94",
-    "score": 5.9,
-    "ghsa": "GHSA-xxph-c9ww-hj94",
-    "date": "2026-10-27T14:27:53Z"
+    "title": "Flexible GraphRAG: Cypher/Graph Injection via broken string-escaping in FalkorDB adapter (_escape()) - full graph wipe from ingested-document content",
+    "url": "https://github.com/advisories/GHSA-vqrg-773h-4wxc",
+    "score": 7.1,
+    "ghsa": "GHSA-vqrg-773h-4wxc",
+    "date": "2026-10-27T15:32:45Z"
    },
    {
-    "title": "Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`",
-    "url": "https://github.com/advisories/GHSA-m4w4-3r8h-jw98",
-    "score": 9.8,
-    "ghsa": "GHSA-m4w4-3r8h-jw98",
-    "date": "2026-10-27T13:30:41Z"
+    "title": "LiteLLM: internal_user_viewer arbitrary local file read via `vertex_ai_credentials`",
+    "url": "https://github.com/advisories/GHSA-g5ff-637f-6q2m",
+    "score": 8.1,
+    "ghsa": "GHSA-g5ff-637f-6q2m",
+    "date": "2026-10-27T15:32:36Z"
    },
    {
-    "title": "OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
-    "url": "https://github.com/advisories/GHSA-3jp2-3mrg-2vxc",
-    "score": 8.5,
-    "ghsa": "GHSA-3jp2-3mrg-2vxc",
-    "date": "2026-10-27T13:30:17Z"
+    "title": "@better-auth/drizzle-adapter: Concurrent requests can exceed rate limits on PostgreSQL",
+    "url": "https://github.com/advisories/GHSA-44jh-23m7-hpcf",
+    "score": 3.7,
+    "ghsa": "GHSA-44jh-23m7-hpcf",
+    "date": "2026-10-27T15:32:25Z"
    },
    {
-    "title": "MONAILabel Server Crash and Silent Inference Corruption via Crafted DICOM (pydicom DS/IS Validation Bypass)",
-    "url": "https://github.com/advisories/GHSA-6hp3-vr39-rqw8",
-    "score": 9.3,
-    "ghsa": "GHSA-6hp3-vr39-rqw8",
-    "date": "2026-10-27T13:30:10Z"
+    "title": "better-auth: OAuth Proxy lets an attacker sign in as another user",
+    "url": "https://github.com/advisories/GHSA-r4xp-prcw-77qf",
+    "score": 7.4,
+    "ghsa": "GHSA-r4xp-prcw-77qf",
+    "date": "2026-10-27T15:32:16Z"
    },
    {
-    "title": "dcmjs: DS/IS VALUE REPRESENTATION INPUT VALIDATION BYPASS",
-    "url": "https://github.com/advisories/GHSA-px68-xx5g-48q5",
-    "score": 2,
-    "ghsa": "GHSA-px68-xx5g-48q5",
-    "date": "2026-10-27T13:29:57Z"
+    "title": "better-auth: OAuth state can be used as a Magic Link to sign in as another user",
+    "url": "https://github.com/advisories/GHSA-965c-763c-88jm",
+    "score": 9.1,
+    "ghsa": "GHSA-965c-763c-88jm",
+    "date": "2026-10-27T15:32:05Z"
    },
    {
-    "title": "Wails: wildcardPatternToRegex allows Origin bypass via suffix match in BindingsAllowedOrigins",
-    "url": "https://github.com/advisories/GHSA-47hv-j4px-h3c9",
+    "title": "LiteLLM vulnerable to reflected XSS in /sso/debug/callback",
+    "url": "https://github.com/advisories/GHSA-hhww-mrg2-969h",
+    "score": 6.8,
+    "ghsa": "GHSA-hhww-mrg2-969h",
+    "date": "2026-10-27T15:31:56Z"
+   },
+   {
+    "title": "GitPython: arbitrary file read via attacker-controlled branch name in `Head.checkout()` (incomplete fix of CVE-2026-78679)",
+    "url": "https://github.com/advisories/GHSA-23mf-xhv8-69c2",
     "score": 7.5,
-    "ghsa": "GHSA-47hv-j4px-h3c9",
-    "date": "2026-10-27T13:29:47Z"
+    "ghsa": "GHSA-23mf-xhv8-69c2",
+    "date": "2026-10-27T15:28:03Z"
    },
    {
-    "title": "Dolibarr has SQL Injection in societe/class/societe.class.php via localtax1_value parameter",
-    "url": "https://github.com/advisories/GHSA-v5fq-cf5m-vwv7",
-    "score": 8.8,
-    "ghsa": "GHSA-v5fq-cf5m-vwv7",
-    "date": "2026-10-27T13:29:25Z"
-   },
-   {
-    "title": "Ajenti has potential Remote Code Execution",
-    "url": "https://github.com/advisories/GHSA-vcw3-r3fx-j444",
-    "score": 9.8,
-    "ghsa": "GHSA-vcw3-r3fx-j444",
-    "date": "2026-10-27T13:27:58Z"
-   },
-   {
-    "title": "filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
-    "url": "https://github.com/advisories/GHSA-jqc4-5cvw-7w85",
-    "score": 6.1,
-    "ghsa": "GHSA-jqc4-5cvw-7w85",
-    "date": "2026-10-23T22:28:41Z"
-   },
-   {
-    "title": "filelock: ReadWriteLock on Windows acts on SQLite side files another local user places beside its database",
-    "url": "https://github.com/advisories/GHSA-9vhv-jxww-xfm5",
-    "score": 3.3,
-    "ghsa": "GHSA-9vhv-jxww-xfm5",
-    "date": "2026-10-23T22:28:19Z"
-   },
-   {
-    "title": "filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
-    "url": "https://github.com/advisories/GHSA-567q-5qvw-pf92",
-    "score": 2.5,
-    "ghsa": "GHSA-567q-5qvw-pf92",
-    "date": "2026-10-23T22:27:32Z"
-   },
-   {
-    "title": "virtualenv: Temporary app-data can leave dangling seed package links",
-    "url": "https://github.com/advisories/GHSA-4f8h-vr72-p32c",
+    "title": "GitPython: Submodule.move() follows an attacker-committed intermediate symlink outside the worktree",
+    "url": "https://github.com/advisories/GHSA-gq48-pqfc-9p58",
     "score": null,
-    "ghsa": "GHSA-4f8h-vr72-p32c",
-    "date": "2026-10-23T22:26:57Z"
+    "ghsa": "GHSA-gq48-pqfc-9p58",
+    "date": "2026-10-27T15:26:57Z"
+   },
+   {
+    "title": "GitPython Remote.pull() refspec bypasses the --upload-pack unsafe-option guard, enabling arbitrary command execution",
+    "url": "https://github.com/advisories/GHSA-f9j4-qggq-h239",
+    "score": 8.1,
+    "ghsa": "GHSA-f9j4-qggq-h239",
+    "date": "2026-10-27T15:26:50Z"
+   },
+   {
+    "title": "GitPython command wrappers omit unsafe protocol and option checks",
+    "url": "https://github.com/advisories/GHSA-w8jc-g24h-crhw",
+    "score": 7.5,
+    "ghsa": "GHSA-w8jc-g24h-crhw",
+    "date": "2026-10-27T15:26:43Z"
+   },
+   {
+    "title": "GitPython: separate_git_dir leaks env vars via crafted .gitmodules submodule name",
+    "url": "https://github.com/advisories/GHSA-fx3j-rwgx-fr94",
+    "score": 6.5,
+    "ghsa": "GHSA-fx3j-rwgx-fr94",
+    "date": "2026-10-27T15:26:32Z"
+   },
+   {
+    "title": "GitPython parse_actor_and_date() is vulnerable to quadratic backtracking on malformed identity lines",
+    "url": "https://github.com/advisories/GHSA-m64x-33q8-m5h7",
+    "score": 7.5,
+    "ghsa": "GHSA-m64x-33q8-m5h7",
+    "date": "2026-10-27T15:26:24Z"
    }
   ],
   "thn": [
@@ -403,19 +403,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2259,
+    "stars": 2262,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2046,
+    "stars": 2048,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1306,
+    "stars": 1307,
     "lang": "Python"
    },
    {
@@ -439,13 +439,13 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 504,
+    "stars": 506,
     "lang": "—"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 483,
+    "stars": 484,
     "lang": "Rust"
    },
    {
@@ -469,7 +469,7 @@
    {
     "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
     "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 165,
+    "stars": 166,
     "lang": "C"
    }
   ],
@@ -589,6 +589,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I've proven that you don't need quotes or parentheses in JavaScript",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
+    "date": "2026-10-27T15:24:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Choose Your Backend: Three TLS Bugs in GoAhead",
     "url": "https://www.reddit.com/r/netsec/comments/1xgjs4s/choose_your_backend_three_tls_bugs_in_goahead/",
     "date": "2026-10-27T05:07:28+00:00",
@@ -634,13 +641,6 @@
     "title": "Breaking the AWS MCP Python Sandbox",
     "url": "https://www.reddit.com/r/netsec/comments/1xevj5i/breaking_the_aws_mcp_python_sandbox/",
     "date": "2026-10-25T07:02:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How LLM-Based Penetration Testing Harnesses Work",
-    "url": "https://www.reddit.com/r/netsec/comments/1xee9z1/how_llmbased_penetration_testing_harnesses_work/",
-    "date": "2026-10-24T17:17:43+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
