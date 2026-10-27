@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T12:43:46.435Z",
+ "generatedAt": "2026-10-27T13:36:19.192Z",
  "sources": {
   "cve": [
    {
@@ -167,6 +167,55 @@
   ],
   "adv": [
    {
+    "title": "Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`",
+    "url": "https://github.com/advisories/GHSA-m4w4-3r8h-jw98",
+    "score": 9.8,
+    "ghsa": "GHSA-m4w4-3r8h-jw98",
+    "date": "2026-10-27T13:30:41Z"
+   },
+   {
+    "title": "OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
+    "url": "https://github.com/advisories/GHSA-3jp2-3mrg-2vxc",
+    "score": 8.5,
+    "ghsa": "GHSA-3jp2-3mrg-2vxc",
+    "date": "2026-10-27T13:30:17Z"
+   },
+   {
+    "title": "MONAILabel Server Crash and Silent Inference Corruption via Crafted DICOM (pydicom DS/IS Validation Bypass)",
+    "url": "https://github.com/advisories/GHSA-6hp3-vr39-rqw8",
+    "score": 9.3,
+    "ghsa": "GHSA-6hp3-vr39-rqw8",
+    "date": "2026-10-27T13:30:10Z"
+   },
+   {
+    "title": "dcmjs: DS/IS VALUE REPRESENTATION INPUT VALIDATION BYPASS",
+    "url": "https://github.com/advisories/GHSA-px68-xx5g-48q5",
+    "score": 2,
+    "ghsa": "GHSA-px68-xx5g-48q5",
+    "date": "2026-10-27T13:29:57Z"
+   },
+   {
+    "title": "Wails: wildcardPatternToRegex allows Origin bypass via suffix match in BindingsAllowedOrigins",
+    "url": "https://github.com/advisories/GHSA-47hv-j4px-h3c9",
+    "score": 7.5,
+    "ghsa": "GHSA-47hv-j4px-h3c9",
+    "date": "2026-10-27T13:29:47Z"
+   },
+   {
+    "title": "Dolibarr has SQL Injection in societe/class/societe.class.php via localtax1_value parameter",
+    "url": "https://github.com/advisories/GHSA-v5fq-cf5m-vwv7",
+    "score": 8.8,
+    "ghsa": "GHSA-v5fq-cf5m-vwv7",
+    "date": "2026-10-27T13:29:25Z"
+   },
+   {
+    "title": "Ajenti has potential Remote Code Execution",
+    "url": "https://github.com/advisories/GHSA-vcw3-r3fx-j444",
+    "score": 9.8,
+    "ghsa": "GHSA-vcw3-r3fx-j444",
+    "date": "2026-10-27T13:27:58Z"
+   },
+   {
     "title": "filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
     "url": "https://github.com/advisories/GHSA-jqc4-5cvw-7w85",
     "score": 6.1,
@@ -200,55 +249,6 @@
     "score": 2,
     "ghsa": "GHSA-cx28-75q4-x26q",
     "date": "2026-10-23T22:26:04Z"
-   },
-   {
-    "title": "virtualenv: Downloaded wheel selection and caching precede verification",
-    "url": "https://github.com/advisories/GHSA-494p-63j8-28p3",
-    "score": 2,
-    "ghsa": "GHSA-494p-63j8-28p3",
-    "date": "2026-10-23T22:25:22Z"
-   },
-   {
-    "title": "virtualenv: Xonsh activation literals depend on the script decoding codec",
-    "url": "https://github.com/advisories/GHSA-394h-qwmc-48pf",
-    "score": 7.5,
-    "ghsa": "GHSA-394h-qwmc-48pf",
-    "date": "2026-10-23T22:24:43Z"
-   },
-   {
-    "title": "virtualenv: Seeded files retain permissions from an older cache",
-    "url": "https://github.com/advisories/GHSA-fc2g-4w5p-6whm",
-    "score": null,
-    "ghsa": "GHSA-fc2g-4w5p-6whm",
-    "date": "2026-10-23T22:23:11Z"
-   },
-   {
-    "title": "virtualenv: Bash prompt values can change meaning under older compatibility modes",
-    "url": "https://github.com/advisories/GHSA-6w3r-xr62-4xcp",
-    "score": 7.5,
-    "ghsa": "GHSA-6w3r-xr62-4xcp",
-    "date": "2026-10-23T22:21:57Z"
-   },
-   {
-    "title": "virtualenv: Venv configuration readback can reinterpret path boundaries",
-    "url": "https://github.com/advisories/GHSA-qmx5-4p3x-wvqf",
-    "score": 2,
-    "ghsa": "GHSA-qmx5-4p3x-wvqf",
-    "date": "2026-10-23T22:20:43Z"
-   },
-   {
-    "title": "virtualenv: Seed replacement does not contain metadata deletion paths",
-    "url": "https://github.com/advisories/GHSA-hhxq-47xx-j5xx",
-    "score": 4.5,
-    "ghsa": "GHSA-hhxq-47xx-j5xx",
-    "date": "2026-10-23T22:19:15Z"
-   },
-   {
-    "title": "MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint",
-    "url": "https://github.com/advisories/GHSA-xcx6-jx8p-x3h5",
-    "score": 7.5,
-    "ghsa": "GHSA-xcx6-jx8p-x3h5",
-    "date": "2026-10-23T22:16:44Z"
    }
   ],
   "thn": [
@@ -427,25 +427,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2257,
+    "stars": 2259,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2039,
+    "stars": 2043,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1303,
+    "stars": 1304,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 822,
+    "stars": 910,
     "lang": "TypeScript"
    },
    {
