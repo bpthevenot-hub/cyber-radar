@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T01:02:59.282Z",
+ "generatedAt": "2026-10-27T01:41:50.753Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86168",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "title": "CVE-2026-116811 — OpenPanel before 3.0.0 contains a sandbox escape vulnerability in the js-runtime validator that allows a project member to bypass the AST al",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116811",
     "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-27T00:32:51Z"
    },
    {
-    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88360",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "title": "CVE-2026-116819 — OpenPanel before 3.0.0 contains an information disclosure vulnerability that allows read-level project members to obtain plaintext integrati",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116819",
+    "score": 8.5,
+    "date": "2026-10-27T00:32:51Z"
    },
    {
-    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85308",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:45.400552Z"
-   },
-   {
-    "title": "RLSA-2026:88248 — Important: expat security update",
-    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "title": "CVE-2026-116818 — OpenPanel before 3.0.0 contains an unauthenticated ClickHouse sql injection vulnerability that allows remote attackers to inject SQL through",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116818",
     "score": 8.2,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-27T00:32:51Z"
    },
    {
-    "title": "RLSA-2026:87070 — Important: php security update",
-    "url": "https://github.com/advisories/RLSA-2026:87070",
-    "score": 8.1,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2026-116808 — OpenPanel before 3.0.0 contains an sql injection vulnerability that allows authenticated users to read cross-tenant data by supplying a craf",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116808",
+    "score": 7.2,
+    "date": "2026-10-27T00:32:51Z"
    },
    {
-    "title": "RLSA-2026:87071 — Important: php8.4 security update",
-    "url": "https://github.com/advisories/RLSA-2026:87071",
-    "score": 8.1,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2026-116827 — YesWiki before 4.7.0 contains a server-side request forgery vulnerability in the Bazar CSV import copyUrlToLocalFile() function that allows ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116827",
+    "score": 6.8,
+    "date": "2026-10-27T00:32:52Z"
    },
    {
-    "title": "RLSA-2026:88477 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:88477",
-    "score": 7.8,
-    "date": "2026-10-24T12:08:27.748486Z"
+    "title": "CVE-2026-116826 — YesWiki before 4.7.0 contains a server-side request forgery vulnerability in DuplicationManager::downloadFile() that allows authenticated ad",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116826",
+    "score": 6.8,
+    "date": "2026-10-27T00:32:52Z"
    },
    {
-    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
-    "url": "https://github.com/advisories/RLSA-2026:86331",
-    "score": 7.8,
-    "date": "2026-10-22T00:09:40.784195Z"
+    "title": "CVE-2026-116825 — YesWiki from 4.6.2 before 4.7.0 lacks replay protection in HttpSignatureService::verifySignature(), which never validates the Date header or",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116825",
+    "score": 6.5,
+    "date": "2026-10-27T00:32:52Z"
    },
    {
-    "title": "RLSA-2026:86841 — Important: librsvg2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:86841",
-    "score": 7.8,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2026-116821 — YesWiki before 4.7.0 contains a read-ACL bypass in AclService::updateRequestWithACL, which interpolates usernames into SQL LIKE patterns wit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116821",
+    "score": 6.5,
+    "date": "2026-10-27T00:32:52Z"
    },
    {
-    "title": "RLSA-2026:88336 — Important: podman security update",
-    "url": "https://github.com/advisories/RLSA-2026:88336",
-    "score": 7.5,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "title": "CVE-2026-116812 — OpenPanel before 3.0.0 contains a sql injection vulnerability in profileColumnAccess in cohort.service.ts that allows project-read members t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116812",
+    "score": 6.5,
+    "date": "2026-10-27T00:32:51Z"
+   },
+   {
+    "title": "CVE-2026-116817 — OpenPanel before 3.0.0 contains a missing authentication vulnerability that allows unauthenticated attackers to access the Bull Board dashbo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116817",
+    "score": 6.5,
+    "date": "2026-10-27T00:32:51Z"
+   },
+   {
+    "title": "CVE-2026-116824 — YesWiki before 4.7.0 contains a stored cross-site scripting vulnerability in handlers/page/referrers_sites.php that allows unauthenticated a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116824",
+    "score": 6.1,
+    "date": "2026-10-27T00:32:52Z"
+   },
+   {
+    "title": "CVE-2026-116823 — YesWiki before 4.7.0 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject JavaScript by s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116823",
+    "score": 6.1,
+    "date": "2026-10-27T00:32:52Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2224,
+    "stars": 2229,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1994,
+    "stars": 1996,
     "lang": "Go"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 500,
+    "stars": 501,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1758,
   "adv": 12,
   "feed": 48
