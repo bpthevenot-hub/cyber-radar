@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T20:23:30.307Z",
+ "generatedAt": "2026-10-27T21:21:54.525Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "MAL-2026-18345 — Malicious code in dsh-vm-tester (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18345",
+    "score": null,
+    "date": "2026-10-27T20:02:26Z"
    }
   ],
   "kev": [
@@ -131,88 +137,88 @@
   ],
   "adv": [
    {
+    "title": "dd-trace: ReDOS in URL query string obfuscation",
+    "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
+    "score": 7.5,
+    "ghsa": "GHSA-x94g-w73q-hpcw",
+    "date": "2026-10-27T21:07:25Z"
+   },
+   {
+    "title": "TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
+    "url": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
+    "score": 7.5,
+    "ghsa": "GHSA-mf2p-h6hf-fcwm",
+    "date": "2026-10-27T21:07:12Z"
+   },
+   {
+    "title": "Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
+    "url": "https://github.com/advisories/GHSA-w4fh-qvv9-3v23",
+    "score": 6.8,
+    "ghsa": "GHSA-w4fh-qvv9-3v23",
+    "date": "2026-10-27T21:06:59Z"
+   },
+   {
+    "title": "OpenTelemetry Python: Unbounded memory allocation in Jaeger baggage propagation",
+    "url": "https://github.com/advisories/GHSA-f5m9-jfrj-jjj7",
+    "score": null,
+    "ghsa": "GHSA-f5m9-jfrj-jjj7",
+    "date": "2026-10-27T21:06:54Z"
+   },
+   {
+    "title": "Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
+    "url": "https://github.com/advisories/GHSA-5h93-6whr-6q8j",
+    "score": 5.9,
+    "ghsa": "GHSA-5h93-6whr-6q8j",
+    "date": "2026-10-27T21:05:34Z"
+   },
+   {
+    "title": "Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
+    "url": "https://github.com/advisories/GHSA-rwrf-2pqf-9j8j",
+    "score": 6.5,
+    "ghsa": "GHSA-rwrf-2pqf-9j8j",
+    "date": "2026-10-27T21:05:29Z"
+   },
+   {
+    "title": "CKEditor: Cross-site scripting (XSS) in the engine package",
+    "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
+    "score": 3.1,
+    "ghsa": "GHSA-v6mg-96c6-gmpq",
+    "date": "2026-10-27T21:05:13Z"
+   },
+   {
+    "title": "CKEditor: Cross-site scripting (XSS) in the engine package",
+    "url": "https://github.com/advisories/GHSA-rh54-vffm-5fvp",
+    "score": 8.1,
+    "ghsa": "GHSA-rh54-vffm-5fvp",
+    "date": "2026-10-27T21:05:06Z"
+   },
+   {
+    "title": "Neko: Authorization bypass in legacy WebRTC input handling",
+    "url": "https://github.com/advisories/GHSA-5cp7-fp4j-wwcv",
+    "score": 5.4,
+    "ghsa": "GHSA-5cp7-fp4j-wwcv",
+    "date": "2026-10-27T21:04:57Z"
+   },
+   {
+    "title": "Atlantis: OS command injection through PR-controlled Terraform workspace enables RCE during plan",
+    "url": "https://github.com/advisories/GHSA-rjh2-4xgw-p2hj",
+    "score": 8.8,
+    "ghsa": "GHSA-rjh2-4xgw-p2hj",
+    "date": "2026-10-27T21:04:50Z"
+   },
+   {
+    "title": "FileBrowser: Symlink following escapes user scope allowing arbitrary file read outside the served directory",
+    "url": "https://github.com/advisories/GHSA-mgqf-5mf5-prfj",
+    "score": 8.6,
+    "ghsa": "GHSA-mgqf-5mf5-prfj",
+    "date": "2026-10-27T21:04:40Z"
+   },
+   {
     "title": "undici vulnerable to cache poisoning and cross-user disclosure via cross-origin redirects",
     "url": "https://github.com/advisories/GHSA-4w7w-5xrc-9h26",
     "score": 7.4,
     "ghsa": "GHSA-4w7w-5xrc-9h26",
     "date": "2026-10-27T19:02:31Z"
-   },
-   {
-    "title": "undici vulnerable to TLS certificate validation bypass via dropped tls options in Agent",
-    "url": "https://github.com/advisories/GHSA-2m5v-pch6-74hx",
-    "score": 7.4,
-    "ghsa": "GHSA-2m5v-pch6-74hx",
-    "date": "2026-10-27T19:02:26Z"
-   },
-   {
-    "title": "undici vulnerable to Denial of Service via TLS 1.2 certificate-changing renegotiation",
-    "url": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm",
-    "score": 7.5,
-    "ghsa": "GHSA-qrxm-fqhp-jwvm",
-    "date": "2026-10-27T19:02:21Z"
-   },
-   {
-    "title": "undici WebSocket client vulnerable to Denial of Service via unbounded automatic PONG buffering",
-    "url": "https://github.com/advisories/GHSA-9fm3-97px-rjf6",
-    "score": 5.9,
-    "ghsa": "GHSA-9fm3-97px-rjf6",
-    "date": "2026-10-27T19:02:15Z"
-   },
-   {
-    "title": "undici vulnerable to Denial of Service via unhandled exception in the decompress interceptor",
-    "url": "https://github.com/advisories/GHSA-55wc-3pg8-jfw6",
-    "score": 5.9,
-    "ghsa": "GHSA-55wc-3pg8-jfw6",
-    "date": "2026-10-27T19:02:10Z"
-   },
-   {
-    "title": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length",
-    "url": "https://github.com/advisories/GHSA-f897-62hf-6gxq",
-    "score": 7.5,
-    "ghsa": "GHSA-f897-62hf-6gxq",
-    "date": "2026-10-27T19:02:00Z"
-   },
-   {
-    "title": "Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Crash the Process",
-    "url": "https://github.com/advisories/GHSA-2v3c-qxhr-7vpv",
-    "score": 7.5,
-    "ghsa": "GHSA-2v3c-qxhr-7vpv",
-    "date": "2026-10-27T19:01:50Z"
-   },
-   {
-    "title": "Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header",
-    "url": "https://github.com/advisories/GHSA-r925-mgvr-h9cc",
-    "score": 7.5,
-    "ghsa": "GHSA-r925-mgvr-h9cc",
-    "date": "2026-10-27T19:01:39Z"
-   },
-   {
-    "title": "Go JOSE: DoS when parsing JWKs that contain RSA keys",
-    "url": "https://github.com/advisories/GHSA-mgcc-cww5-fp2q",
-    "score": 7.5,
-    "ghsa": "GHSA-mgcc-cww5-fp2q",
-    "date": "2026-10-27T19:01:30Z"
-   },
-   {
-    "title": "CTFer.io's CTFd Terraform Provider allows a local or remote attacker to read team passwords in state as non sensitive values",
-    "url": "https://github.com/advisories/GHSA-vg84-c5mg-76xh",
-    "score": 7.5,
-    "ghsa": "GHSA-vg84-c5mg-76xh",
-    "date": "2026-10-27T19:00:50Z"
-   },
-   {
-    "title": "Hydra legacy target blacklist permits unsafe PyYAML loading",
-    "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
-    "score": 7.8,
-    "ghsa": "GHSA-wf6j-7hvr-gr93",
-    "date": "2026-10-27T17:08:41Z"
-   },
-   {
-    "title": "qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)",
-    "url": "https://github.com/advisories/GHSA-6pq8-jhm2-2vcw",
-    "score": 5.3,
-    "ghsa": "GHSA-6pq8-jhm2-2vcw",
-    "date": "2026-10-27T16:10:55Z"
    }
   ],
   "thn": [
@@ -303,6 +309,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers hijack Convertr analytics script to steal payment card data",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+    "date": "Tue, 27 Oct 2026 16:57:25 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
     "date": "Tue, 27 Oct 2026 14:20:28 -0400",
@@ -378,32 +391,25 @@
     "date": "Mon, 26 Oct 2026 15:26:20 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-    "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-    "date": "Mon, 26 Oct 2026 12:27:57 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2275,
+    "stars": 2278,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2059,
+    "stars": 2061,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1318,
+    "stars": 1321,
     "lang": "Python"
    },
    {
