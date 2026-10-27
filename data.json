@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T21:21:54.525Z",
+ "generatedAt": "2026-10-27T22:22:26.834Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-18345 — Malicious code in dsh-vm-tester (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18345",
+    "title": "CVE-2026-116676 — Atlantis: OS command injection through PR-controlled Terraform workspace enables RCE during plan",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116676",
+    "score": 8.8,
+    "date": "2026-10-27T21:04:50Z"
+   },
+   {
+    "title": "CVE-2026-116682 — FileBrowser: Symlink following escapes user scope allowing arbitrary file read outside the served directory",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116682",
+    "score": 8.6,
+    "date": "2026-10-27T21:04:40Z"
+   },
+   {
+    "title": "CVE-2026-116688 — CKEditor: Cross-site scripting (XSS) in the engine package",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116688",
+    "score": 8.1,
+    "date": "2026-10-27T21:05:06Z"
+   },
+   {
+    "title": "CVE-2026-116693 — dd-trace: ReDOS in URL query string obfuscation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116693",
+    "score": 7.5,
+    "date": "2026-10-27T21:07:25Z"
+   },
+   {
+    "title": "CVE-2026-116675 — TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116675",
+    "score": 7.5,
+    "date": "2026-10-27T21:07:12Z"
+   },
+   {
+    "title": "CVE-2026-116684 — Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116684",
+    "score": 6.8,
+    "date": "2026-10-27T21:06:59Z"
+   },
+   {
+    "title": "CVE-2026-116686 — Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116686",
+    "score": 6.5,
+    "date": "2026-10-27T21:05:29Z"
+   },
+   {
+    "title": "CVE-2026-116685 — Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116685",
+    "score": 5.9,
+    "date": "2026-10-27T21:05:34Z"
+   },
+   {
+    "title": "CVE-2026-116679 — Neko: Authorization bypass in legacy WebRTC input handling",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116679",
+    "score": 5.4,
+    "date": "2026-10-27T21:04:57Z"
+   },
+   {
+    "title": "CVE-2026-116694 — OpenTelemetry Python: Unbounded memory allocation in Jaeger baggage propagation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116694",
+    "score": 5,
+    "date": "2026-10-27T21:06:54Z"
+   },
+   {
+    "title": "CVE-2026-116687 — CKEditor: Cross-site scripting (XSS) in the engine package",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116687",
+    "score": 3.1,
+    "date": "2026-10-27T21:05:13Z"
+   },
+   {
+    "title": "CVE-2026-112397 — CVE-2026-112397",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112397",
     "score": null,
-    "date": "2026-10-27T20:02:26Z"
+    "date": "2026-10-19T22:17:06.970"
    }
   ],
   "kev": [
@@ -137,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "MLflow vulnerable to arbitrary file read on unauthenticated servers via prompt model version source",
+    "url": "https://github.com/advisories/GHSA-m65p-9j7q-6w33",
+    "score": 7.5,
+    "ghsa": "GHSA-m65p-9j7q-6w33",
+    "date": "2026-10-27T21:26:56Z"
+   },
+   {
+    "title": "MLflow CrewAI autologging records LLM provider API keys in logged trace spans",
+    "url": "https://github.com/advisories/GHSA-j7qq-vr8c-xvw3",
+    "score": 6.5,
+    "ghsa": "GHSA-j7qq-vr8c-xvw3",
+    "date": "2026-10-27T21:26:39Z"
+   },
+   {
+    "title": "MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules",
+    "url": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9",
+    "score": 9.8,
+    "ghsa": "GHSA-26p8-2jq9-3vq9",
+    "date": "2026-10-27T21:26:32Z"
+   },
+   {
     "title": "dd-trace: ReDOS in URL query string obfuscation",
     "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
     "score": 7.5,
@@ -198,27 +285,6 @@
     "score": 5.4,
     "ghsa": "GHSA-5cp7-fp4j-wwcv",
     "date": "2026-10-27T21:04:57Z"
-   },
-   {
-    "title": "Atlantis: OS command injection through PR-controlled Terraform workspace enables RCE during plan",
-    "url": "https://github.com/advisories/GHSA-rjh2-4xgw-p2hj",
-    "score": 8.8,
-    "ghsa": "GHSA-rjh2-4xgw-p2hj",
-    "date": "2026-10-27T21:04:50Z"
-   },
-   {
-    "title": "FileBrowser: Symlink following escapes user scope allowing arbitrary file read outside the served directory",
-    "url": "https://github.com/advisories/GHSA-mgqf-5mf5-prfj",
-    "score": 8.6,
-    "ghsa": "GHSA-mgqf-5mf5-prfj",
-    "date": "2026-10-27T21:04:40Z"
-   },
-   {
-    "title": "undici vulnerable to cache poisoning and cross-user disclosure via cross-origin redirects",
-    "url": "https://github.com/advisories/GHSA-4w7w-5xrc-9h26",
-    "score": 7.4,
-    "ghsa": "GHSA-4w7w-5xrc-9h26",
-    "date": "2026-10-27T19:02:31Z"
    }
   ],
   "thn": [
@@ -309,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+    "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+    "date": "Tue, 27 Oct 2026 18:07:34 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers hijack Convertr analytics script to steal payment card data",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
     "date": "Tue, 27 Oct 2026 16:57:25 -0400",
@@ -384,20 +457,13 @@
     "date": "Mon, 26 Oct 2026 16:46:49 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "DreamHost forces password resets in ongoing \"incident\"",
-    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-    "date": "Mon, 26 Oct 2026 15:26:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2278,
+    "stars": 2280,
     "lang": "Go"
    },
    {
