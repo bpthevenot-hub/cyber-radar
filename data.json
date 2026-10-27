@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T23:26:56.197Z",
+ "generatedAt": "2026-10-27T01:02:59.282Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86172",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86168",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:45.400552Z"
+   },
+   {
+    "title": "RLSA-2026:88248 — Important: expat security update",
+    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "score": 8.2,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:87070 — Important: php security update",
+    "url": "https://github.com/advisories/RLSA-2026:87070",
+    "score": 8.1,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:87071 — Important: php8.4 security update",
+    "url": "https://github.com/advisories/RLSA-2026:87071",
+    "score": 8.1,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:88477 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:88477",
+    "score": 7.8,
+    "date": "2026-10-24T12:08:27.748486Z"
+   },
+   {
+    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
+    "url": "https://github.com/advisories/RLSA-2026:86331",
+    "score": 7.8,
+    "date": "2026-10-22T00:09:40.784195Z"
+   },
+   {
+    "title": "RLSA-2026:86841 — Important: librsvg2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:86841",
+    "score": 7.8,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:88336 — Important: podman security update",
+    "url": "https://github.com/advisories/RLSA-2026:88336",
+    "score": 7.5,
+    "date": "2026-10-23T12:11:02.998013Z"
    }
   ],
   "kev": [
@@ -391,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2223,
+    "stars": 2224,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1991,
+    "stars": 1994,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1283,
+    "stars": 1284,
     "lang": "Python"
    },
    {
@@ -423,12 +495,6 @@
     "url": "https://github.com/opentrap/opentrap",
     "stars": 591,
     "lang": "Java"
-   },
-   {
-    "title": "shinthink/blitzstrike — Blitz Strike — a universal MCP security-audit toolbelt. Reconnaissance at speed. Analysis in depth. Validation",
-    "url": "https://github.com/shinthink/blitzstrike",
-    "stars": 514,
-    "lang": "TypeScript"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
@@ -459,6 +525,12 @@
     "url": "https://github.com/bdg9412/artex-ko-plus",
     "stars": 243,
     "lang": "Go"
+   },
+   {
+    "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
+    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
+    "stars": 161,
+    "lang": "C"
    }
   ],
   "hn": [
@@ -563,16 +635,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Context Bombs: Making attacking agents pay",
-    "url": "https://www.reddit.com/r/netsec/comments/1xfs8xr/context_bombs_making_attacking_agents_pay/",
-    "date": "2026-10-26T09:39:08+00:00",
+    "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
+    "date": "2026-10-26T19:18:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
-    "date": "2026-10-26T19:18:19+00:00",
+    "title": "Context Bombs: Making attacking agents pay",
+    "url": "https://www.reddit.com/r/netsec/comments/1xfs8xr/context_bombs_making_attacking_agents_pay/",
+    "date": "2026-10-26T09:39:08+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1758,
   "adv": 12,
   "feed": 48
