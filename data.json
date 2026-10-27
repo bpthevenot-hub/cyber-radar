@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-27T15:33:07.195Z",
+ "generatedAt": "2026-10-27T16:26:36.607Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-54381 — BentoML SSRF Vulnerability in File Upload Processing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-54381",
+    "score": 9.9,
+    "date": "2025-07-29T19:24:47Z"
+   },
+   {
+    "title": "CVE-2025-55449 — AstrBot is vulnerable to RCE with hard-coded JWT signing keys",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-55449",
+    "score": 9.8,
+    "date": "2025-11-14T21:52:23Z"
+   },
+   {
+    "title": "CVE-2025-49652 — BackendAI Missing Authentication for Critical Function",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-49652",
+    "score": 9.8,
+    "date": "2025-06-09T18:32:17Z"
+   },
+   {
+    "title": "CVE-2024-9070 — BentoML deserialization vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-9070",
+    "score": 9.8,
+    "date": "2025-03-20T12:32:50Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,16 +39,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "OSV-2022-882 — Use-of-uninitialized-value in SfxEntry::test_condition",
-    "url": "https://github.com/advisories/OSV-2022-882",
-    "score": null,
-    "date": "2022-09-11T00:01:48.463118Z"
+    "title": "CVE-2026-25130 — CAI find_file Agent Tool has Command Injection Vulnerability Through Argument Injection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-25130",
+    "score": 9.6,
+    "date": "2026-01-30T20:38:35Z"
    },
    {
-    "title": "OSV-2022-714 — Heap-buffer-overflow in dynapi_set_helper",
-    "url": "https://github.com/advisories/OSV-2022-714",
-    "score": null,
-    "date": "2022-08-15T00:00:47.794062Z"
+    "title": "CVE-2025-10283 — BBOT's insufficient sanitization issues in gitdumper.py can lead to RCE",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-10283",
+    "score": 9.6,
+    "date": "2025-10-09T22:29:46Z"
+   },
+   {
+    "title": "CVE-2025-10284 — BBOT's various issues in unarchive.py can cause arbitrary file write and RCE",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-10284",
+    "score": 9.6,
+    "date": "2025-10-09T22:22:11Z"
+   },
+   {
+    "title": "CVE-2025-47241 — Browser Use allows bypassing `allowed_domains` by putting a decoy domain in http auth username portion of a URL",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-47241",
+    "score": 9.3,
+    "date": "2025-05-05T18:25:04Z"
+   },
+   {
+    "title": "CVE-2026-76216 — Vikunja: Link-share principal-type confusion enables cross-account team removal, bot takeover, and roster disclosure",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76216",
+    "score": 7.5,
+    "date": "2026-10-09T20:43:40Z"
+   },
+   {
+    "title": "GHSA-4hv6-xc92-j86g — Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
+    "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
+    "score": 6.5,
+    "date": "2026-10-09T20:57:34Z"
+   },
+   {
+    "title": "GHSA-2mjx-qc3c-rqvc — Rustls: TLS 1.3 handshake messages incorrectly accepted across encryption level boundaries",
+    "url": "https://github.com/advisories/GHSA-2mjx-qc3c-rqvc",
+    "score": 5.3,
+    "date": "2026-10-05T23:30:17Z"
    }
   ],
   "kev": [
@@ -143,88 +197,88 @@
   ],
   "adv": [
    {
-    "title": "Flexible GraphRAG: Cypher/Graph Injection via broken string-escaping in FalkorDB adapter (_escape()) - full graph wipe from ingested-document content",
-    "url": "https://github.com/advisories/GHSA-vqrg-773h-4wxc",
-    "score": 7.1,
-    "ghsa": "GHSA-vqrg-773h-4wxc",
-    "date": "2026-10-27T15:32:45Z"
+    "title": "qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)",
+    "url": "https://github.com/advisories/GHSA-6pq8-jhm2-2vcw",
+    "score": 5.3,
+    "ghsa": "GHSA-6pq8-jhm2-2vcw",
+    "date": "2026-10-27T16:10:55Z"
    },
    {
-    "title": "LiteLLM: internal_user_viewer arbitrary local file read via `vertex_ai_credentials`",
-    "url": "https://github.com/advisories/GHSA-g5ff-637f-6q2m",
-    "score": 8.1,
-    "ghsa": "GHSA-g5ff-637f-6q2m",
-    "date": "2026-10-27T15:32:36Z"
+    "title": "undici WebSocket client vulnerable to Denial of Service via failed HTTP/2 handshake",
+    "url": "https://github.com/advisories/GHSA-qq8j-7v2v-3rwp",
+    "score": 7.5,
+    "ghsa": "GHSA-qq8j-7v2v-3rwp",
+    "date": "2026-10-27T16:09:45Z"
    },
    {
-    "title": "@better-auth/drizzle-adapter: Concurrent requests can exceed rate limits on PostgreSQL",
-    "url": "https://github.com/advisories/GHSA-44jh-23m7-hpcf",
-    "score": 3.7,
-    "ghsa": "GHSA-44jh-23m7-hpcf",
-    "date": "2026-10-27T15:32:25Z"
-   },
-   {
-    "title": "better-auth: OAuth Proxy lets an attacker sign in as another user",
-    "url": "https://github.com/advisories/GHSA-r4xp-prcw-77qf",
+    "title": "Authlib accepts an empty HMAC key, allowing JWS/JWT signature forgery (HS256/HS384/HS512)",
+    "url": "https://github.com/advisories/GHSA-8m4g-j4wp-wgcg",
     "score": 7.4,
-    "ghsa": "GHSA-r4xp-prcw-77qf",
-    "date": "2026-10-27T15:32:16Z"
+    "ghsa": "GHSA-8m4g-j4wp-wgcg",
+    "date": "2026-10-27T16:09:22Z"
    },
    {
-    "title": "better-auth: OAuth state can be used as a Magic Link to sign in as another user",
-    "url": "https://github.com/advisories/GHSA-965c-763c-88jm",
-    "score": 9.1,
-    "ghsa": "GHSA-965c-763c-88jm",
-    "date": "2026-10-27T15:32:05Z"
+    "title": "rustls: ECH rejection can expose buffered application data to authenticated outer server before `ech_required` alert",
+    "url": "https://github.com/advisories/GHSA-vp88-798v-h67f",
+    "score": 2.3,
+    "ghsa": "GHSA-vp88-798v-h67f",
+    "date": "2026-10-27T16:08:59Z"
    },
    {
-    "title": "LiteLLM vulnerable to reflected XSS in /sso/debug/callback",
-    "url": "https://github.com/advisories/GHSA-hhww-mrg2-969h",
+    "title": "rustls: An unauthenticated ServerHello poisons the per-name key-exchange record, so later ClientHellos carry only a classical X25519 share",
+    "url": "https://github.com/advisories/GHSA-w44r-93j7-qv28",
+    "score": 3.7,
+    "ghsa": "GHSA-w44r-93j7-qv28",
+    "date": "2026-10-27T16:08:54Z"
+   },
+   {
+    "title": "Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs",
+    "url": "https://github.com/advisories/GHSA-c8m5-c952-6cm4",
+    "score": 4,
+    "ghsa": "GHSA-c8m5-c952-6cm4",
+    "date": "2026-10-27T16:08:47Z"
+   },
+   {
+    "title": "Rustls: Brotli certificate decompression can allocate an attacker-controlled amount of memory up to 1 GiB before authentication.",
+    "url": "https://github.com/advisories/GHSA-h2v8-394m-p7vv",
+    "score": 3.7,
+    "ghsa": "GHSA-h2v8-394m-p7vv",
+    "date": "2026-10-27T16:08:36Z"
+   },
+   {
+    "title": "Authlib: Unvalidated request_uri fetch in JWT-secured authorization request (JAR) leading to SSRF",
+    "url": "https://github.com/advisories/GHSA-x4rv-c3wx-4cr8",
+    "score": 5.4,
+    "ghsa": "GHSA-x4rv-c3wx-4cr8",
+    "date": "2026-10-27T15:39:18Z"
+   },
+   {
+    "title": "Authlib: ID token can disable its own nonce validation via the nonce_supported claim",
+    "url": "https://github.com/advisories/GHSA-c5mf-xmp2-59rc",
+    "score": 4.2,
+    "ghsa": "GHSA-c5mf-xmp2-59rc",
+    "date": "2026-10-27T15:39:13Z"
+   },
+   {
+    "title": "Authlib: Default JWT bearer grant accepts assertions for the wrong audience",
+    "url": "https://github.com/advisories/GHSA-fch4-3c6x-j4gc",
     "score": 6.8,
-    "ghsa": "GHSA-hhww-mrg2-969h",
-    "date": "2026-10-27T15:31:56Z"
+    "ghsa": "GHSA-fch4-3c6x-j4gc",
+    "date": "2026-10-27T15:39:08Z"
    },
    {
-    "title": "GitPython: arbitrary file read via attacker-controlled branch name in `Head.checkout()` (incomplete fix of CVE-2026-78679)",
-    "url": "https://github.com/advisories/GHSA-23mf-xhv8-69c2",
-    "score": 7.5,
-    "ghsa": "GHSA-23mf-xhv8-69c2",
-    "date": "2026-10-27T15:28:03Z"
+    "title": "Authlib: OpenID implicit grant checks raw scope instead of allowed scope before issuing ID tokens",
+    "url": "https://github.com/advisories/GHSA-q686-2qmg-hqc7",
+    "score": 4.6,
+    "ghsa": "GHSA-q686-2qmg-hqc7",
+    "date": "2026-10-27T15:38:53Z"
    },
    {
-    "title": "GitPython: Submodule.move() follows an attacker-committed intermediate symlink outside the worktree",
-    "url": "https://github.com/advisories/GHSA-gq48-pqfc-9p58",
-    "score": null,
-    "ghsa": "GHSA-gq48-pqfc-9p58",
-    "date": "2026-10-27T15:26:57Z"
-   },
-   {
-    "title": "GitPython Remote.pull() refspec bypasses the --upload-pack unsafe-option guard, enabling arbitrary command execution",
-    "url": "https://github.com/advisories/GHSA-f9j4-qggq-h239",
-    "score": 8.1,
-    "ghsa": "GHSA-f9j4-qggq-h239",
-    "date": "2026-10-27T15:26:50Z"
-   },
-   {
-    "title": "GitPython command wrappers omit unsafe protocol and option checks",
-    "url": "https://github.com/advisories/GHSA-w8jc-g24h-crhw",
-    "score": 7.5,
-    "ghsa": "GHSA-w8jc-g24h-crhw",
-    "date": "2026-10-27T15:26:43Z"
-   },
-   {
-    "title": "GitPython: separate_git_dir leaks env vars via crafted .gitmodules submodule name",
-    "url": "https://github.com/advisories/GHSA-fx3j-rwgx-fr94",
-    "score": 6.5,
-    "ghsa": "GHSA-fx3j-rwgx-fr94",
-    "date": "2026-10-27T15:26:32Z"
-   },
-   {
-    "title": "GitPython parse_actor_and_date() is vulnerable to quadratic backtracking on malformed identity lines",
-    "url": "https://github.com/advisories/GHSA-m64x-33q8-m5h7",
-    "score": 7.5,
-    "ghsa": "GHSA-m64x-33q8-m5h7",
-    "date": "2026-10-27T15:26:24Z"
+    "title": "Authlib incomplete algorithm-confusion fix permits HMAC forgery with prefixed public keys",
+    "url": "https://github.com/advisories/GHSA-7vr2-2fgp-9w7p",
+    "score": 7.4,
+    "ghsa": "GHSA-7vr2-2fgp-9w7p",
+    "date": "2026-10-27T15:38:48Z"
    }
   ],
   "thn": [
@@ -315,6 +369,13 @@
   ],
   "bleep": [
    {
+    "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+    "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+    "date": "Tue, 27 Oct 2026 12:15:39 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
     "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
     "date": "Tue, 27 Oct 2026 10:09:46 -0400",
@@ -390,32 +451,25 @@
     "date": "Mon, 26 Oct 2026 11:38:24 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-    "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-    "date": "Mon, 26 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2262,
+    "stars": 2264,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2048,
+    "stars": 2053,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1307,
+    "stars": 1309,
     "lang": "Python"
    },
    {
@@ -433,7 +487,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 592,
+    "stars": 593,
     "lang": "Java"
    },
    {
@@ -457,7 +511,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 282,
+    "stars": 283,
     "lang": "Python"
    },
    {
@@ -575,6 +629,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I've proven that you don't need quotes or parentheses in JavaScript",
+    "url": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
+    "date": "2026-10-27T15:24:45+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "A community translation can run attacker-chosen code in an exported Godot game",
     "url": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
     "date": "2026-10-27T08:37:28+00:00",
@@ -585,13 +646,6 @@
     "title": "From Arbitrary File Read to Shell: Yet Another RCE in Telerik",
     "url": "https://www.reddit.com/r/netsec/comments/1xgpz1q/from_arbitrary_file_read_to_shell_yet_another_rce/",
     "date": "2026-10-27T11:28:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I've proven that you don't need quotes or parentheses in JavaScript",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
-    "date": "2026-10-27T15:24:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -657,7 +711,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 10,
   "kev": 1758,
   "adv": 12,
   "feed": 48
