@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T06:47:56.383Z",
+ "generatedAt": "2026-10-27T07:39:17.088Z",
  "sources": {
   "cve": [
    {
@@ -13,18 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.15.68 bug fix and security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56912",
-    "score": 9.4,
-    "date": "2026-10-27T06:03:20+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.14.72 bug fix and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56789",
-    "score": 9.4,
-    "date": "2026-10-27T06:03:19+00:00"
    },
    {
     "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
@@ -63,28 +51,40 @@
     "date": "2026-10-27T06:03:38+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: OpenShift Container Platform 4.13.71 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65840",
-    "score": 9.1,
-    "date": "2026-10-27T06:03:35+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
+    "score": 8.8,
+    "date": "2026-10-27T06:03:45+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
-    "score": 9.1,
-    "date": "2026-10-27T06:03:35+00:00"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.5 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8218",
+    "score": 8.8,
+    "date": "2026-10-27T06:03:38+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Network Observability 1.11.1 for OpenShift (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6428",
-    "score": 9.1,
-    "date": "2026-10-27T06:03:32+00:00"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+37 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7385",
+    "score": 8.8,
+    "date": "2026-10-27T06:03:37+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6497",
-    "score": 9.1,
-    "date": "2026-10-27T06:03:31+00:00"
+    "title": "CVE-2025-22873 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7291",
+    "score": 8.8,
+    "date": "2026-10-27T06:03:37+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Container Platform 4.19.28 bug fix and security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:7249",
+    "score": 8.2,
+    "date": "2026-10-27T06:03:36+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8337",
+    "score": 7.5,
+    "date": "2026-10-27T06:03:42+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+    "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "date": "Tue, 27 Oct 2026 12:04:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
     "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
     "date": "Tue, 27 Oct 2026 10:07:59 +0530",
@@ -362,13 +369,6 @@
     "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
     "date": "Mon, 26 Oct 2026 11:33:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-    "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-    "date": "Sun, 25 Oct 2026 23:14:09 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2238,
+    "stars": 2242,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2009,
+    "stars": 2017,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1293,
+    "stars": 1295,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
     "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 163,
+    "stars": 164,
     "lang": "C"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 8,
   "kev": 1758,
   "adv": 12,
   "feed": 48
