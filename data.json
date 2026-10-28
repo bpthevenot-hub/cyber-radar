@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T20:24:18.373Z",
+ "generatedAt": "2026-10-28T21:22:18.420Z",
  "sources": {
   "cve": [
    {
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Highcharts Grid: `javascript:` URL in credits.href runs script on click",
-    "url": "https://github.com/advisories/GHSA-6hgp-fmhr-mrg4",
-    "score": 7.5,
-    "ghsa": "GHSA-6hgp-fmhr-mrg4",
-    "date": "2026-10-28T19:57:48Z"
+    "title": "knative.dev/pkg admission webhooks allow unbounded request-body memory exhaustion",
+    "url": "https://github.com/advisories/GHSA-2hw4-c9m4-f2fj",
+    "score": 6.5,
+    "ghsa": "GHSA-2hw4-c9m4-f2fj",
+    "date": "2026-10-28T21:20:53Z"
    },
    {
-    "title": "Highcharts Grid parses pagination language options as HTML",
-    "url": "https://github.com/advisories/GHSA-r5wg-q8fc-p6w2",
-    "score": 7.5,
-    "ghsa": "GHSA-r5wg-q8fc-p6w2",
-    "date": "2026-10-28T19:57:34Z"
+    "title": "Waline login accepts a non-string email as a match-all MongoDB query",
+    "url": "https://github.com/advisories/GHSA-jf75-q64q-g65r",
+    "score": 6.5,
+    "ghsa": "GHSA-jf75-q64q-g65r",
+    "date": "2026-10-28T21:17:58Z"
    },
    {
-    "title": "Highcharts Dashboards parses fullscreen labels as HTML",
-    "url": "https://github.com/advisories/GHSA-58g7-7f52-h92c",
-    "score": 7.5,
-    "ghsa": "GHSA-58g7-7f52-h92c",
-    "date": "2026-10-28T19:57:19Z"
-   },
-   {
-    "title": "Highcharts Dashboards parses sidebar component labels as HTML",
-    "url": "https://github.com/advisories/GHSA-rcqf-f6h2-ccg9",
-    "score": 7.5,
-    "ghsa": "GHSA-rcqf-f6h2-ccg9",
-    "date": "2026-10-28T19:56:57Z"
-   },
-   {
-    "title": "Highcharts: `javascript:` URL in credits.href runs script on click",
-    "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
-    "score": 7.5,
-    "ghsa": "GHSA-5793-x2q3-c3q7",
-    "date": "2026-10-28T19:56:23Z"
-   },
-   {
-    "title": "Highcharts: dotted series.keys paths write to Object.prototype",
-    "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
-    "score": 7.5,
-    "ghsa": "GHSA-rmqc-xvr3-v46c",
-    "date": "2026-10-28T19:56:18Z"
-   },
-   {
-    "title": "Highcharts: series column construction writes to Object.prototype",
-    "url": "https://github.com/advisories/GHSA-gfvx-2c2g-38wq",
-    "score": 7.5,
-    "ghsa": "GHSA-gfvx-2c2g-38wq",
-    "date": "2026-10-28T19:56:13Z"
-   },
-   {
-    "title": "Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
-    "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
-    "score": 7.5,
-    "ghsa": "GHSA-35rr-xwfh-x789",
-    "date": "2026-10-28T19:56:07Z"
-   },
-   {
-    "title": "Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
-    "url": "https://github.com/advisories/GHSA-5ghw-9mgr-jvx2",
-    "score": 7.5,
-    "ghsa": "GHSA-5ghw-9mgr-jvx2",
-    "date": "2026-10-28T19:56:02Z"
-   },
-   {
-    "title": "Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
-    "url": "https://github.com/advisories/GHSA-6g3c-p4fg-xv47",
-    "score": 7.5,
-    "ghsa": "GHSA-6g3c-p4fg-xv47",
-    "date": "2026-10-28T19:55:46Z"
-   },
-   {
-    "title": "Highcharts Dashboards: `chartConstructor` is an unchecked lookup into the Highcharts namespace",
-    "url": "https://github.com/advisories/GHSA-grj7-r4jv-pw9j",
-    "score": 7.5,
-    "ghsa": "GHSA-grj7-r4jv-pw9j",
-    "date": "2026-10-28T19:55:41Z"
-   },
-   {
-    "title": "Highcharts Dashboards / Grid Pro: `DataTable.setCell` and column writers treat `__proto__` as an existing column.",
-    "url": "https://github.com/advisories/GHSA-c75x-9x9h-28rm",
+    "title": "Seroval: Code injection through a typed array's own constructor property",
+    "url": "https://github.com/advisories/GHSA-f86p-h4j2-7qgj",
     "score": null,
-    "ghsa": "GHSA-c75x-9x9h-28rm",
-    "date": "2026-10-28T19:55:37Z"
+    "ghsa": "GHSA-f86p-h4j2-7qgj",
+    "date": "2026-10-28T21:17:36Z"
+   },
+   {
+    "title": "Seroval: Script injection through RegExp sources in serialized output",
+    "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
+    "score": 4.7,
+    "ghsa": "GHSA-9wx9-5pv9-3349",
+    "date": "2026-10-28T21:17:31Z"
+   },
+   {
+    "title": "Seroval: fromJSON deserializer trusts node-supplied array length and sequence doneAt (unauthenticated event-loop DoS)",
+    "url": "https://github.com/advisories/GHSA-97r2-qh9m-474h",
+    "score": 7.5,
+    "ghsa": "GHSA-97r2-qh9m-474h",
+    "date": "2026-10-28T21:17:27Z"
+   },
+   {
+    "title": "Seroval `fromJSON`/`fromCrossJSON` denial of service via unvalidated array node length",
+    "url": "https://github.com/advisories/GHSA-wp97-x4hv-qvhp",
+    "score": 7.5,
+    "ghsa": "GHSA-wp97-x4hv-qvhp",
+    "date": "2026-10-28T21:17:20Z"
+   },
+   {
+    "title": "Seroval: Deserialization invokes attacker-chosen callables: AsyncIteratorFactoryInstance calls source.on(listener) without type check",
+    "url": "https://github.com/advisories/GHSA-7rv5-mrxv-xcr9",
+    "score": 7.3,
+    "ghsa": "GHSA-7rv5-mrxv-xcr9",
+    "date": "2026-10-28T21:17:15Z"
+   },
+   {
+    "title": "Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
+    "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
+    "score": 6.3,
+    "ghsa": "GHSA-5324-3w58-qpp2",
+    "date": "2026-10-28T21:17:08Z"
+   },
+   {
+    "title": "Python Social Auth: OpenID Connect nonce is not bound to the browser session, so a stolen authorization code logs the attacker in as the victim",
+    "url": "https://github.com/advisories/GHSA-h2r5-x5m7-3935",
+    "score": 6.8,
+    "ghsa": "GHSA-h2r5-x5m7-3935",
+    "date": "2026-10-28T21:16:51Z"
+   },
+   {
+    "title": "ONNX: Out-of-bounds read in ConvTranspose shape inference via undersized weight rank",
+    "url": "https://github.com/advisories/GHSA-6pwm-x34p-fvj2",
+    "score": 6.2,
+    "ghsa": "GHSA-6pwm-x34p-fvj2",
+    "date": "2026-10-28T21:16:42Z"
+   },
+   {
+    "title": "ONNX: Denial of service via unchecked expansion of packed sub-byte tensors in ONNX Python APIs",
+    "url": "https://github.com/advisories/GHSA-q69g-f4f5-v8m7",
+    "score": 6.2,
+    "ghsa": "GHSA-q69g-f4f5-v8m7",
+    "date": "2026-10-28T21:16:37Z"
+   },
+   {
+    "title": "ONNX: Null Pointer Dereference in ScanInferenceFunction Due to Missing Required Attribute",
+    "url": "https://github.com/advisories/GHSA-m4pr-6v3c-6fgr",
+    "score": 6.2,
+    "ghsa": "GHSA-m4pr-6v3c-6fgr",
+    "date": "2026-10-28T21:16:30Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+    "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+    "date": "Wed, 28 Oct 2026 16:47:22 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Discord to let search engines index public server messages",
     "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
     "date": "Wed, 28 Oct 2026 14:44:16 -0400",
@@ -450,13 +457,6 @@
     "date": "Tue, 27 Oct 2026 18:43:27 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-    "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-    "date": "Tue, 27 Oct 2026 18:07:34 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,13 +469,13 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2138,
+    "stars": 2139,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1366,
+    "stars": 1367,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 455,
+    "stars": 464,
     "lang": "TypeScript"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 247,
+    "stars": 248,
     "lang": "Go"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
+    "date": "2026-10-28T15:03:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
     "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
     "date": "2026-10-28T07:50:06+00:00",
@@ -666,13 +673,6 @@
     "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
     "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
     "date": "2026-10-28T13:14:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
-    "date": "2026-10-28T15:03:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
