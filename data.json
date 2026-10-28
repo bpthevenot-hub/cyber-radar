@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T17:22:47.938Z",
+ "generatedAt": "2026-10-28T18:27:43.047Z",
  "sources": {
   "cve": [
    {
@@ -13,30 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-54167 — Pipelines-as-Code GitHub App token request can be redirected via untrusted Enterprise Host header",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54167",
-    "score": 8.2,
-    "date": "2026-08-20T18:36:30Z"
-   },
-   {
-    "title": "OSV-2021-1343 — Heap-buffer-overflow in get_next_owned_entity",
-    "url": "https://github.com/advisories/OSV-2021-1343",
-    "score": null,
-    "date": "2021-09-21T00:01:33.177403Z"
-   },
-   {
-    "title": "OSV-2021-1086 — Heap-buffer-overflow in dwg_convert_SAB_to_SAT1",
-    "url": "https://github.com/advisories/OSV-2021-1086",
-    "score": null,
-    "date": "2021-08-02T00:00:31.888461Z"
-   },
-   {
-    "title": "OSV-2021-820 — UNKNOWN READ in virtio_gpu_disable_scanout",
-    "url": "https://github.com/advisories/OSV-2021-820",
-    "score": null,
-    "date": "2021-06-02T00:00:31.619765Z"
    }
   ],
   "kev": [
@@ -241,6 +217,20 @@
   ],
   "thn": [
    {
+    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+    "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+    "date": "Wed, 28 Oct 2026 22:38:09 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+    "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+    "date": "Wed, 28 Oct 2026 21:53:34 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
     "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
     "date": "Wed, 28 Oct 2026 21:32:45 +0530",
@@ -307,20 +297,6 @@
     "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
     "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
     "date": "Wed, 28 Oct 2026 11:50:37 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-    "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-    "date": "Wed, 28 Oct 2026 11:34:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-    "date": "Wed, 28 Oct 2026 11:12:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -427,7 +403,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1360,
+    "stars": 1363,
     "lang": "Python"
    },
    {
@@ -463,7 +439,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 437,
+    "stars": 441,
     "lang": "TypeScript"
    },
    {
@@ -475,7 +451,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 246,
+    "stars": 247,
     "lang": "Go"
    },
    {
@@ -587,23 +563,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
-    "date": "2026-10-28T07:50:06+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I got RCE on the sandboxes of Instinct and Muse!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-    "date": "2026-10-28T14:20:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
     "url": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
     "date": "2026-10-28T15:36:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
+    "date": "2026-10-28T07:50:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,9 +591,23 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I got RCE on the sandboxes of Instinct and Muse!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+    "date": "2026-10-28T14:20:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
     "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
     "date": "2026-10-28T14:58:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
+    "date": "2026-10-28T15:03:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -646,13 +629,6 @@
     "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
     "url": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
     "date": "2026-10-27T23:09:33+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
-    "date": "2026-10-28T15:03:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
