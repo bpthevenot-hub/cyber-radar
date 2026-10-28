@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-28T04:26:20.176Z",
+ "generatedAt": "2026-10-28T05:23:42.816Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-84999 — The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 v",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84999",
+    "score": 9.8,
+    "date": "2026-10-28T03:31:52Z"
+   },
+   {
+    "title": "CVE-2026-106013 — The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-106013",
+    "score": 9.8,
+    "date": "2026-10-28T03:31:47Z"
+   },
+   {
+    "title": "CVE-2026-76301 — As part of Cisco's ongoing commitment to proactive security and product quality, Cisco has conducted a comprehensive internal security revie",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76301",
+    "score": 9.8,
+    "date": "2026-10-22T00:32:00Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-18355 — Malicious code in glyphmatrix-fixture (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18355",
-    "score": null,
-    "date": "2026-10-28T02:16:19Z"
+    "title": "CVE-2015-20129 — CrushFTP before 7.3.0 contains a cross-site request forgery vulnerability that allows attackers to perform administrative actions because CS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2015-20129",
+    "score": 8.8,
+    "date": "2026-10-28T03:31:49Z"
+   },
+   {
+    "title": "CVE-2014-125138 — C97net qEngine CMS through 6.0.0, Kemana Directory through 1.5.6, and Cart Engine through 3.0.0 contain an unrestricted file upload vulnerab",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2014-125138",
+    "score": 8.8,
+    "date": "2026-10-28T03:31:49Z"
+   },
+   {
+    "title": "CVE-2026-118375 — llama.cpp b8841 before b11865 contains an out-of-bounds write vulnerability in the ggml-rpc RDMA transport rdma_recv() function that allows ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118375",
+    "score": 8.1,
+    "date": "2026-10-28T03:31:51Z"
+   },
+   {
+    "title": "CVE-2026-5821 — The Image Optimizer plugin for WordPress is vulnerable to arbitrary file deletion in versions up to and including 1.7.4. This is due to insu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5821",
+    "score": 8.1,
+    "date": "2026-07-02T06:34:05Z"
+   },
+   {
+    "title": "CVE-2026-118378 — Tabularis before 0.28.0 contains an SQL injection vulnerability in its SQLite driver that allows MCP clients to execute stacked statements b",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118378",
+    "score": 7.8,
+    "date": "2026-10-28T03:31:52Z"
+   },
+   {
+    "title": "CVE-2026-118377 — mews/pos through 2.0.0 contains an insufficient verification of data authenticity vulnerability that allows unauthenticated attackers to for",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118377",
+    "score": 7.5,
+    "date": "2026-10-28T03:31:52Z"
+   },
+   {
+    "title": "CVE-2026-97019 — The AMP for WP – Accelerated Mobile Pages plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'headline-*' Shortcode Attri",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97019",
+    "score": 7.2,
+    "date": "2026-10-28T03:31:52Z"
+   },
+   {
+    "title": "CVE-2026-117607 — Xerte Online Toolkits through 3.15.5 contains a remote code execution vulnerability that allows authenticated users with system permission t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-117607",
+    "score": 7.2,
+    "date": "2026-10-28T03:31:50Z"
+   },
+   {
+    "title": "CVE-2026-109999 — The AI Marketing Expert — AI Email Marketing, AI Content Generator, SEO Analyzer, AI Workflow Automation, Social Media & Ai Chatbot plugin f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109999",
+    "score": 7.2,
+    "date": "2026-10-28T03:31:50Z"
    }
   ],
   "kev": [
@@ -397,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2294,
+    "stars": 2295,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2092,
+    "stars": 2094,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1337,
+    "stars": 1339,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 921,
+    "stars": 922,
     "lang": "TypeScript"
    },
    {
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 5,
   "kev": 1760,
   "adv": 12,
   "feed": 48
