@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T22:22:56.064Z",
+ "generatedAt": "2026-10-28T23:22:10.011Z",
  "sources": {
   "cve": [
    {
@@ -27,64 +27,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-117574 — A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can exploit this vulnerability by submitting a request s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-117574",
-    "score": 9.1,
-    "date": "2026-10-28T21:31:17Z"
-   },
-   {
     "title": "CVE-2026-78674 — The BPMN System REST APIs do not sufficiently validate input parameters, allowing authenticated users to submit crafted requests that can le",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-78674",
     "score": 8.8,
     "date": "2026-10-28T21:31:18Z"
    },
    {
-    "title": "CVE-2026-118683 — MONAI from 1.2.0 before 1.6.1 contains a remote code execution vulnerability in ConfigWorkflow.__init__, which passes a bundle's configs/log",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118683",
-    "score": 8.8,
-    "date": "2026-10-28T21:31:16Z"
+    "title": "CVE-2026-116576 — systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116576",
+    "score": 7.8,
+    "date": "2026-10-28T22:42:49Z"
    },
    {
-    "title": "CVE-2026-118645 — n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 contains a filter injection vulnerability in the Quick Base node, which sen",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118645",
-    "score": 8.7,
-    "date": "2026-10-28T21:31:15Z"
-   },
-   {
-    "title": "CVE-2026-76418 — A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Fi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76418",
-    "score": 8.6,
+    "title": "CVE-2026-6647 — In deployments of WSO2 Identity Server configured with a case-insensitive user store and a case-sensitive database for identity data, mismat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6647",
+    "score": 7.4,
     "date": "2026-10-28T21:31:18Z"
    },
    {
-    "title": "CVE-2025-14260 — Due to the improper implementation of access control rules, the WSO2 product accepts user-supplied input related to resource location withou",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-14260",
-    "score": 8.3,
-    "date": "2026-10-28T21:31:17Z"
+    "title": "CVE-2026-115923 — Backstage catalog rules can be bypassed for URL locations using encoded path segments",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115923",
+    "score": 6.5,
+    "date": "2026-10-28T22:42:36Z"
    },
    {
-    "title": "CVE-2026-118649 — n8n before 2.43.5 and 2.44.x before 2.44.1 accepts a client-supplied workflow ID and caches each workflow's owner project in memory by that ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118649",
-    "score": 8.3,
-    "date": "2026-10-28T21:31:15Z"
+    "title": "CVE-2026-115927 — Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115927",
+    "score": 5.3,
+    "date": "2026-10-28T22:43:50Z"
    },
    {
-    "title": "CVE-2026-118647 — n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 saves the SeaTable Trigger node's API token in error execution data, becaus",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118647",
-    "score": 8.2,
-    "date": "2026-10-28T21:31:15Z"
+    "title": "CVE-2026-116577 — Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116577",
+    "score": 5.3,
+    "date": "2026-10-28T22:43:41Z"
    },
    {
-    "title": "CVE-2026-118643 — n8n before 1.123.85, 2.x before 2.43.5, and 2.44.x before 2.44.1 stores credential secrets in execution error data when operations fail in t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118643",
-    "score": 8.2,
-    "date": "2026-10-28T21:31:15Z"
+    "title": "CVE-2026-116695 — Crass: Incorrect tokenization of bad URLs enables CSS sanitizer bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116695",
+    "score": 5,
+    "date": "2026-10-28T22:42:53Z"
    },
    {
-    "title": "CVE-2026-109411 — An access control bypass flaw was found in Samba's vfs_ceph_rgw module in it's openat() function. An authenticated user can bypass access co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109411",
-    "score": 8.1,
-    "date": "2026-10-28T21:31:17Z"
+    "title": "CVE-2026-3583 — When the `allowed_scopes` configuration is enabled, the OAuth2 token introspection mechanism does not immediately invalidate a token in the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3583",
+    "score": 3.1,
+    "date": "2026-10-28T21:31:18Z"
+   },
+   {
+    "title": "CVE-2026-116578 — Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116578",
+    "score": 2,
+    "date": "2026-10-28T22:43:45Z"
    }
   ],
   "kev": [
@@ -203,6 +197,48 @@
   ],
   "adv": [
    {
+    "title": "Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
+    "url": "https://github.com/advisories/GHSA-r4j5-9xpp-3985",
+    "score": 5.3,
+    "ghsa": "GHSA-r4j5-9xpp-3985",
+    "date": "2026-10-28T22:43:50Z"
+   },
+   {
+    "title": "Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
+    "url": "https://github.com/advisories/GHSA-pw9p-v7r6-gx4p",
+    "score": 2,
+    "ghsa": "GHSA-pw9p-v7r6-gx4p",
+    "date": "2026-10-28T22:43:45Z"
+   },
+   {
+    "title": "Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
+    "url": "https://github.com/advisories/GHSA-pcg2-g6cj-q92c",
+    "score": 5.3,
+    "ghsa": "GHSA-pcg2-g6cj-q92c",
+    "date": "2026-10-28T22:43:41Z"
+   },
+   {
+    "title": "Crass: Incorrect tokenization of bad URLs enables CSS sanitizer bypass",
+    "url": "https://github.com/advisories/GHSA-pq4g-8rxf-4g29",
+    "score": null,
+    "ghsa": "GHSA-pq4g-8rxf-4g29",
+    "date": "2026-10-28T22:42:53Z"
+   },
+   {
+    "title": "systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
+    "url": "https://github.com/advisories/GHSA-3f7j-7jwc-fxfj",
+    "score": 7.8,
+    "ghsa": "GHSA-3f7j-7jwc-fxfj",
+    "date": "2026-10-28T22:42:49Z"
+   },
+   {
+    "title": "Backstage catalog rules can be bypassed for URL locations using encoded path segments",
+    "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
+    "score": 6.5,
+    "ghsa": "GHSA-w658-mh9p-ww8f",
+    "date": "2026-10-28T22:42:36Z"
+   },
+   {
     "title": "Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
     "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v",
     "score": 7.5,
@@ -243,48 +279,6 @@
     "score": 7.5,
     "ghsa": "GHSA-97r2-qh9m-474h",
     "date": "2026-10-28T21:17:27Z"
-   },
-   {
-    "title": "Seroval `fromJSON`/`fromCrossJSON` denial of service via unvalidated array node length",
-    "url": "https://github.com/advisories/GHSA-wp97-x4hv-qvhp",
-    "score": 7.5,
-    "ghsa": "GHSA-wp97-x4hv-qvhp",
-    "date": "2026-10-28T21:17:20Z"
-   },
-   {
-    "title": "Seroval: Deserialization invokes attacker-chosen callables: AsyncIteratorFactoryInstance calls source.on(listener) without type check",
-    "url": "https://github.com/advisories/GHSA-7rv5-mrxv-xcr9",
-    "score": 7.3,
-    "ghsa": "GHSA-7rv5-mrxv-xcr9",
-    "date": "2026-10-28T21:17:15Z"
-   },
-   {
-    "title": "Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
-    "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
-    "score": 6.3,
-    "ghsa": "GHSA-5324-3w58-qpp2",
-    "date": "2026-10-28T21:17:08Z"
-   },
-   {
-    "title": "Python Social Auth: OpenID Connect nonce is not bound to the browser session, so a stolen authorization code logs the attacker in as the victim",
-    "url": "https://github.com/advisories/GHSA-h2r5-x5m7-3935",
-    "score": 6.8,
-    "ghsa": "GHSA-h2r5-x5m7-3935",
-    "date": "2026-10-28T21:16:51Z"
-   },
-   {
-    "title": "ONNX: Out-of-bounds read in ConvTranspose shape inference via undersized weight rank",
-    "url": "https://github.com/advisories/GHSA-6pwm-x34p-fvj2",
-    "score": 6.2,
-    "ghsa": "GHSA-6pwm-x34p-fvj2",
-    "date": "2026-10-28T21:16:42Z"
-   },
-   {
-    "title": "ONNX: Denial of service via unchecked expansion of packed sub-byte tensors in ONNX Python APIs",
-    "url": "https://github.com/advisories/GHSA-q69g-f4f5-v8m7",
-    "score": 6.2,
-    "ghsa": "GHSA-q69g-f4f5-v8m7",
-    "date": "2026-10-28T21:16:37Z"
    }
   ],
   "thn": [
@@ -463,7 +457,7 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2322,
+    "stars": 2324,
     "lang": "Go"
    },
    {
@@ -475,13 +469,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1367,
+    "stars": 1371,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1025,
+    "stars": 1026,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +505,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 469,
+    "stars": 472,
     "lang": "TypeScript"
    },
    {
@@ -649,16 +643,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A malicious game server can crash the Godot clients that join it",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
-    "date": "2026-10-28T09:57:22+00:00",
+    "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
+    "date": "2026-10-28T07:50:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
-    "date": "2026-10-28T07:50:06+00:00",
+    "title": "A malicious game server can crash the Godot clients that join it",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+    "date": "2026-10-28T09:57:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +711,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1762,
   "adv": 12,
   "feed": 48
