@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T18:27:43.047Z",
+ "generatedAt": "2026-10-28T19:22:22.923Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-84725 — when EAP runs with -secmgr, the openjdk-orb's JDKBridge honours attacker-supplied CDR codebase URLs during object unmarshalling on :3528, al",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84725",
+    "score": 8.1,
+    "date": "2026-10-28T18:32:14Z"
+   },
+   {
+    "title": "CVE-2026-88967 — A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88967",
+    "score": 7.7,
+    "date": "2026-10-28T18:32:10Z"
+   },
+   {
+    "title": "CVE-2026-118260 — Echo: BodyDump captures request and response bodies without size limits in v4",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118260",
+    "score": 7.5,
+    "date": "2026-10-23T20:48:44Z"
+   },
+   {
+    "title": "CVE-2026-58458 — Don't Starve Together (Steam AppID 322330) through build 747465 contains a memory-corruption vulnerability in the native persistent-string d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58458",
+    "score": 6.5,
+    "date": "2026-10-28T18:32:14Z"
+   },
+   {
+    "title": "CVE-2026-110181 — PostgreSQL Anonymizer contains a vulnerability related to anonymization functions defined using SQL-standard function bodies. PostgreSQL ana",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110181",
+    "score": 6.5,
+    "date": "2026-10-28T18:32:11Z"
+   },
+   {
+    "title": "CVE-2026-105620 — PostgreSQL Anonymizer doesn't mask data returned by a sub-query in a rule. The problem is resolved in PostgreSQL Anonymizer 3.3.0 and later ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105620",
+    "score": 6.5,
+    "date": "2026-10-28T18:32:11Z"
+   },
+   {
+    "title": "CVE-2026-105617 — PostgreSQL Anonymizer doesn't invalidate plans prepared after a rule was added or a role changed. Users using such plans can still see the u",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105617",
+    "score": 6.5,
+    "date": "2026-10-28T18:32:10Z"
+   },
+   {
+    "title": "CVE-2026-79656 — A user with read access to Grafana's server logs, or to a log store they are shipped to, can recover the OAuth and OIDC access, refresh and ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79656",
+    "score": 6,
+    "date": "2026-10-28T18:32:13Z"
+   },
+   {
+    "title": "CVE-2026-105618 — PostgreSQL Anonymizer's documentation recommends applying rules on partitions and inheritance tables. Direct access to the paritions / inher",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105618",
+    "score": 5.7,
+    "date": "2026-10-28T18:32:10Z"
+   },
+   {
+    "title": "CVE-2026-93536 — A use after free caused by missing lifecycle management of gesture sprites in GestureBuildSprite() in X.Org X Server before 21.1.25 and XWay",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93536",
+    "score": 5.3,
+    "date": "2026-10-28T18:32:10Z"
+   },
+   {
+    "title": "CVE-2026-105619 — PostgreSQL Anonymizer doesn't mask data accessed thru a security_invoker view. The problem is resolved in PostgreSQL Anonymizer 3.3.0 and la",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105619",
+    "score": 4.8,
+    "date": "2026-10-28T18:32:11Z"
+   },
+   {
+    "title": "CVE-2026-110182 — PostgreSQL Anonymizer contains a vulnerability related to the anon.partial() and anon.partial_email() functions. These function can reveal t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110182",
+    "score": 4.3,
+    "date": "2026-10-28T18:32:11Z"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+    "date": "Wed, 28 Oct 2026 23:38:33 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
     "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
     "date": "Wed, 28 Oct 2026 22:38:09 +0530",
@@ -292,16 +371,16 @@
     "date": "Wed, 28 Oct 2026 12:43:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-    "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-    "date": "Wed, 28 Oct 2026 11:50:37 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Discord to let search engines index public server messages",
+    "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+    "date": "Wed, 28 Oct 2026 14:44:16 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
     "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
@@ -378,20 +457,13 @@
     "date": "Tue, 27 Oct 2026 18:07:34 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers hijack Convertr analytics script to steal payment card data",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-    "date": "Tue, 27 Oct 2026 16:57:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2318,
+    "stars": 2319,
     "lang": "Go"
    },
    {
@@ -403,7 +475,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1363,
+    "stars": 1365,
     "lang": "Python"
    },
    {
@@ -439,7 +511,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 441,
+    "stars": 442,
     "lang": "TypeScript"
    },
    {
@@ -570,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A malicious game server can crash the Godot clients that join it",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+    "date": "2026-10-28T09:57:22+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
     "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
     "date": "2026-10-28T07:50:06+00:00",
@@ -577,9 +656,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A malicious game server can crash the Godot clients that join it",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
-    "date": "2026-10-28T09:57:22+00:00",
+    "title": "An attacker can crash a Godot game server using DTLS with an unauthenticated UDP datagram",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhxfh0/an_attacker_can_crash_a_godot_game_server_using/",
+    "date": "2026-10-28T19:09:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -591,16 +670,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I got RCE on the sandboxes of Instinct and Muse!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-    "date": "2026-10-28T14:20:14+00:00",
+    "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+    "date": "2026-10-28T14:58:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
-    "date": "2026-10-28T14:58:48+00:00",
+    "title": "I got RCE on the sandboxes of Instinct and Muse!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+    "date": "2026-10-28T14:20:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -622,13 +701,6 @@
     "title": "EDK2 PXE Flaw (CVE-2026-97631): Find What You Run",
     "url": "https://www.reddit.com/r/netsec/comments/1xhrkjy/edk2_pxe_flaw_cve202697631_find_what_you_run/",
     "date": "2026-10-28T15:41:41+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
-    "url": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
-    "date": "2026-10-27T23:09:33+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
