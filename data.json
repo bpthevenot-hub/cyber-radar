@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T16:25:55.813Z",
+ "generatedAt": "2026-10-28T17:22:47.938Z",
  "sources": {
   "cve": [
    {
@@ -327,6 +327,13 @@
   ],
   "bleep": [
    {
+    "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+    "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+    "date": "Wed, 28 Oct 2026 12:45:47 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
     "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
     "date": "Wed, 28 Oct 2026 12:00:00 -0400",
@@ -402,13 +409,6 @@
     "date": "Tue, 27 Oct 2026 16:57:25 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-    "date": "Tue, 27 Oct 2026 14:20:28 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -421,7 +421,7 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2135,
+    "stars": 2136,
     "lang": "Go"
    },
    {
@@ -433,7 +433,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1023,
+    "stars": 1024,
     "lang": "TypeScript"
    },
    {
@@ -445,13 +445,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 593,
+    "stars": 594,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 513,
+    "stars": 514,
     "lang": "—"
    },
    {
@@ -463,7 +463,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 433,
+    "stars": 437,
     "lang": "TypeScript"
    },
    {
@@ -594,9 +594,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
-    "date": "2026-10-28T13:14:05+00:00",
+    "title": "I got RCE on the sandboxes of Instinct and Muse!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+    "date": "2026-10-28T14:20:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
+    "date": "2026-10-28T15:36:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -608,9 +615,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I got RCE on the sandboxes of Instinct and Muse!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-    "date": "2026-10-28T14:20:14+00:00",
+    "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
+    "date": "2026-10-28T13:14:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -632,13 +639,6 @@
     "title": "EDK2 PXE Flaw (CVE-2026-97631): Find What You Run",
     "url": "https://www.reddit.com/r/netsec/comments/1xhrkjy/edk2_pxe_flaw_cve202697631_find_what_you_run/",
     "date": "2026-10-28T15:41:41+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
-    "date": "2026-10-28T15:36:25+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
