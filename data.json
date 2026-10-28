@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-10-28T09:25:34.733Z",
+ "generatedAt": "2026-10-28T10:24:01.512Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-76287 — Kwetsbaarheden verholpen in Splunk Enterprise (+30 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76287",
+    "score": 9.9,
+    "date": "2026-10-28T09:12:56.548898Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,40 +21,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "BELL-CVE-2026-99083 — BELL-CVE-2026-99083",
-    "url": "https://github.com/advisories/BELL-CVE-2026-99083",
-    "score": 8.8,
-    "date": "2026-10-28T06:07:59.705290Z"
+    "title": "RUSTSEC-2026-0414 — Exponential event growth with `ENABLE_WIKILINKS`",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0414",
+    "score": 7.5,
+    "date": "2026-10-18T12:00:00Z"
    },
    {
-    "title": "BELL-CVE-2026-99087 — BELL-CVE-2026-99087",
-    "url": "https://github.com/advisories/BELL-CVE-2026-99087",
+    "title": "MAL-2026-18294 — Malicious code in @capsense/ccx-welcome-page (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18294",
     "score": null,
-    "date": "2026-10-28T06:07:59.951007Z"
+    "date": "2026-10-25T17:34:58Z"
    },
    {
-    "title": "BELL-CVE-2026-99086 — BELL-CVE-2026-99086",
-    "url": "https://github.com/advisories/BELL-CVE-2026-99086",
+    "title": "MAL-2026-18295 — Malicious code in @capsense/core-ui (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18295",
     "score": null,
-    "date": "2026-10-28T06:07:59.888323Z"
+    "date": "2026-10-25T17:28:56Z"
    },
    {
-    "title": "BELL-CVE-2026-99085 — BELL-CVE-2026-99085",
-    "url": "https://github.com/advisories/BELL-CVE-2026-99085",
+    "title": "MAL-2026-18204 — Malicious code in @factiii/runner (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18204",
     "score": null,
-    "date": "2026-10-28T06:07:59.828252Z"
-   },
-   {
-    "title": "BELL-CVE-2026-99084 — CVE-2026-99084 does not affect BellSoft software",
-    "url": "https://github.com/advisories/BELL-CVE-2026-99084",
-    "score": null,
-    "date": "2026-10-28T06:07:59.765493Z"
-   },
-   {
-    "title": "MAL-2026-18338 — Malicious code in @azure-growth/signup-ux-components (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18338",
-    "score": null,
-    "date": "2026-10-27T11:00:16Z"
+    "date": "2026-10-22T21:37:36Z"
    }
   ],
   "kev": [
@@ -339,6 +333,13 @@
   ],
   "bleep": [
    {
+    "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+    "date": "Wed, 28 Oct 2026 05:43:15 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
     "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
     "date": "Tue, 27 Oct 2026 19:35:51 -0400",
@@ -414,32 +415,25 @@
     "date": "Tue, 27 Oct 2026 04:20:54 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "University of Copenhagen data breach exposes data of 525,000 people",
-    "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-    "date": "Mon, 26 Oct 2026 18:20:36 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2301,
+    "stars": 2305,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2117,
+    "stars": 2120,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1346,
+    "stars": 1347,
     "lang": "Python"
    },
    {
@@ -620,9 +614,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Passing a TPU Through to a Paravirtualized Guest",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhjawg/passing_a_tpu_through_to_a_paravirtualized_guest/",
-    "date": "2026-10-28T09:23:22+00:00",
+    "title": "A malicious game server can crash the Godot clients that join it",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+    "date": "2026-10-28T09:57:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -630,6 +624,13 @@
     "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
     "url": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
     "date": "2026-10-27T16:33:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Passing a TPU Through to a Paravirtualized Guest",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhjawg/passing_a_tpu_through_to_a_paravirtualized_guest/",
+    "date": "2026-10-28T09:23:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -660,13 +661,6 @@
     "date": "2026-10-27T05:07:28+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
-    "date": "2026-10-26T19:18:19+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -681,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1760,
   "adv": 12,
   "feed": 48
