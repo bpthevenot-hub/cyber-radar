@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T15:24:20.958Z",
+ "generatedAt": "2026-10-28T16:25:55.813Z",
  "sources": {
   "cve": [
    {
@@ -15,16 +15,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
-    "url": "https://github.com/advisories/OSV-2022-1259",
-    "score": null,
-    "date": "2022-12-13T13:00:46.870838Z"
+    "title": "CVE-2026-54167 — Pipelines-as-Code GitHub App token request can be redirected via untrusted Enterprise Host header",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54167",
+    "score": 8.2,
+    "date": "2026-08-20T18:36:30Z"
    },
    {
-    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
-    "url": "https://github.com/advisories/OSV-2022-1198",
+    "title": "OSV-2021-1343 — Heap-buffer-overflow in get_next_owned_entity",
+    "url": "https://github.com/advisories/OSV-2021-1343",
     "score": null,
-    "date": "2022-11-23T13:02:06.623044Z"
+    "date": "2021-09-21T00:01:33.177403Z"
+   },
+   {
+    "title": "OSV-2021-1086 — Heap-buffer-overflow in dwg_convert_SAB_to_SAT1",
+    "url": "https://github.com/advisories/OSV-2021-1086",
+    "score": null,
+    "date": "2021-08-02T00:00:31.888461Z"
+   },
+   {
+    "title": "OSV-2021-820 — UNKNOWN READ in virtio_gpu_disable_scanout",
+    "url": "https://github.com/advisories/OSV-2021-820",
+    "score": null,
+    "date": "2021-06-02T00:00:31.619765Z"
    }
   ],
   "kev": [
@@ -229,6 +241,13 @@
   ],
   "thn": [
    {
+    "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+    "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+    "date": "Wed, 28 Oct 2026 21:32:45 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
     "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
     "date": "Wed, 28 Oct 2026 18:18:03 +0530",
@@ -304,16 +323,16 @@
     "date": "Wed, 28 Oct 2026 11:12:26 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-    "date": "Tue, 27 Oct 2026 23:56:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+    "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+    "date": "Wed, 28 Oct 2026 12:00:00 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
@@ -390,32 +409,25 @@
     "date": "Tue, 27 Oct 2026 14:20:28 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-    "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-    "date": "Tue, 27 Oct 2026 12:15:39 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2317,
+    "stars": 2318,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2132,
+    "stars": 2135,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1356,
+    "stars": 1360,
     "lang": "Python"
    },
    {
@@ -451,7 +463,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 424,
+    "stars": 433,
     "lang": "TypeScript"
    },
    {
@@ -469,7 +481,7 @@
    {
     "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
     "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 170,
+    "stars": 171,
     "lang": "C"
    }
   ],
@@ -603,30 +615,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
-    "url": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
-    "date": "2026-10-27T23:09:33+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
-    "date": "2026-10-28T15:03:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
     "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
     "date": "2026-10-28T14:58:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I've proven that you don't need quotes or parentheses in JavaScript",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
-    "date": "2026-10-27T15:24:45+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -638,9 +629,30 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
-    "date": "2026-10-27T16:33:17+00:00",
+    "title": "EDK2 PXE Flaw (CVE-2026-97631): Find What You Run",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhrkjy/edk2_pxe_flaw_cve202697631_find_what_you_run/",
+    "date": "2026-10-28T15:41:41+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
+    "date": "2026-10-28T15:36:25+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
+    "url": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
+    "date": "2026-10-27T23:09:33+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
+    "date": "2026-10-28T15:03:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
