@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-10-28T14:24:58.465Z",
+ "generatedAt": "2026-10-28T15:24:20.958Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-114278 — The che-machine-exec service constructs a shell command by concatenating user-controlled input (the username and namespace fields from the /",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114278",
-    "score": 9.8,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-118477 — The ei_git_repo_url parameter in the Git remote configuration endpoint of KaliFast is vulnerable to OS Command Injection. This OS Command In",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118477",
-    "score": 9.8,
-    "date": "2026-10-28T12:31:08Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-118485 — Axel Download Accelerator 2.17.14 and earlier performs URL percent-decoding (http_decode()) on the output filename after the URL has been pa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118485",
-    "score": 8.1,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-102790 — Joomla Extension - icagenda.com - Stored XSS via url-type event Custom Field in iCagenda 3.2.1 to 4.0.16",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102790",
-    "score": 7.5,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-116855 — Missing Authorization vulnerability in wphocus My auctions allegro my-auctions-allegro-free-edition allows Exploiting Incorrectly Configured",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116855",
-    "score": 5.4,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-102799 — Joomla Extension - icagenda.com - CSV formula injection in the registrations export in iCagenda 3.5.0 to 4.0.16",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102799",
-    "score": 5,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-81472 — Dell iDRAC Service Module (iSM) for Windows, Dell iDRAC Service Module (iSM) for Linux, and Dell iDRAC Service Module (iSM) for ESXi, versio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-81472",
-    "score": 4.2,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-99197 — In the Linux kernel, the following vulnerability has been resolved: net: mv643xx: move setting of netops to fix crash mv643xx_eth_probe() co",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99197",
+    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
+    "url": "https://github.com/advisories/OSV-2022-1259",
     "score": null,
-    "date": "2026-10-28T12:31:08Z"
+    "date": "2022-12-13T13:00:46.870838Z"
    },
    {
-    "title": "CVE-2026-99211 — In the Linux kernel, the following vulnerability has been resolved: netlink: reset skb headers before unicast and multicast filtering Socket",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99211",
+    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
+    "url": "https://github.com/advisories/OSV-2022-1198",
     "score": null,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-99216 — In the Linux kernel, the following vulnerability has been resolved: Drivers: hv: Don't reset VMBus connection state on error/exit paths In t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99216",
-    "score": null,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-99201 — In the Linux kernel, the following vulnerability has been resolved: netlink: avoid hashing the network namespace pointer The netlink rhashta",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99201",
-    "score": null,
-    "date": "2026-10-28T12:31:08Z"
-   },
-   {
-    "title": "CVE-2026-99206 — In the Linux kernel, the following vulnerability has been resolved: scsi: target: iscsi: Fix race in discovery auth updates Separate configf",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-99206",
-    "score": null,
-    "date": "2026-10-28T12:31:08Z"
+    "date": "2022-11-23T13:02:06.623044Z"
    }
   ],
   "kev": [
@@ -375,6 +315,13 @@
   ],
   "bleep": [
    {
+    "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+    "date": "Wed, 28 Oct 2026 10:48:32 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
     "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
     "date": "Wed, 28 Oct 2026 10:00:00 -0400",
@@ -450,26 +397,19 @@
     "date": "Tue, 27 Oct 2026 12:15:39 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-    "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-    "date": "Tue, 27 Oct 2026 10:09:46 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2314,
+    "stars": 2317,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2129,
+    "stars": 2132,
     "lang": "Go"
    },
    {
@@ -481,7 +421,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1022,
+    "stars": 1023,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +439,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 512,
+    "stars": 513,
     "lang": "—"
    },
    {
@@ -511,7 +451,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 406,
+    "stars": 424,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +469,7 @@
    {
     "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
     "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 169,
+    "stars": 170,
     "lang": "C"
    }
   ],
@@ -656,6 +596,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "I got RCE on the sandboxes of Instinct and Muse!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+    "date": "2026-10-28T14:20:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
     "url": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
     "date": "2026-10-27T23:09:33+00:00",
@@ -663,9 +610,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I got RCE on the sandboxes of Instinct and Muse!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-    "date": "2026-10-28T14:20:14+00:00",
+    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
+    "date": "2026-10-28T15:03:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+    "date": "2026-10-28T14:58:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -689,20 +643,6 @@
     "date": "2026-10-27T16:33:17+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "From Arbitrary File Read to Shell: Yet Another RCE in Telerik",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgpz1q/from_arbitrary_file_read_to_shell_yet_another_rce/",
-    "date": "2026-10-27T11:28:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A community translation can run attacker-chosen code in an exported Godot game",
-    "url": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
-    "date": "2026-10-27T08:37:28+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +657,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1760,
   "adv": 12,
   "feed": 48
