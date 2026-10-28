@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T19:22:22.923Z",
+ "generatedAt": "2026-10-28T20:24:18.373Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-84725 — when EAP runs with -secmgr, the openjdk-orb's JDKBridge honours attacker-supplied CDR codebase URLs during object unmarshalling on :3528, al",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84725",
-    "score": 8.1,
-    "date": "2026-10-28T18:32:14Z"
+    "title": "CVE-2026-58273 — rucio has an Authorization Bypass on REST API endpoint for signing URLs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58273",
+    "score": 8.8,
+    "date": "2026-10-28T19:50:05Z"
    },
    {
-    "title": "CVE-2026-88967 — A user with query access to an Azure Monitor data source in Grafana can cause server-side requests to an attacker-controlled endpoint that d",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88967",
-    "score": 7.7,
-    "date": "2026-10-28T18:32:10Z"
+    "title": "GHSA-4mfg-r38w-w8fg — mcp-sanitizer: URL sanitizer allows localhost/IPv6 loopback SSRF bypass via explicit port or bracketed IPv6",
+    "url": "https://github.com/advisories/GHSA-4mfg-r38w-w8fg",
+    "score": 8.2,
+    "date": "2026-10-28T19:51:39Z"
    },
    {
-    "title": "CVE-2026-118260 — Echo: BodyDump captures request and response bodies without size limits in v4",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118260",
+    "title": "CVE-2026-118255 — Highcharts Grid: `javascript:` URL in credits.href runs script on click",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118255",
     "score": 7.5,
-    "date": "2026-10-23T20:48:44Z"
+    "date": "2026-10-28T19:57:48Z"
    },
    {
-    "title": "CVE-2026-58458 — Don't Starve Together (Steam AppID 322330) through build 747465 contains a memory-corruption vulnerability in the native persistent-string d",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58458",
-    "score": 6.5,
-    "date": "2026-10-28T18:32:14Z"
+    "title": "CVE-2026-118254 — Highcharts Grid parses pagination language options as HTML",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118254",
+    "score": 7.5,
+    "date": "2026-10-28T19:57:34Z"
    },
    {
-    "title": "CVE-2026-110181 — PostgreSQL Anonymizer contains a vulnerability related to anonymization functions defined using SQL-standard function bodies. PostgreSQL ana",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110181",
-    "score": 6.5,
-    "date": "2026-10-28T18:32:11Z"
+    "title": "CVE-2026-118253 — Highcharts Dashboards parses fullscreen labels as HTML",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118253",
+    "score": 7.5,
+    "date": "2026-10-28T19:57:19Z"
    },
    {
-    "title": "CVE-2026-105620 — PostgreSQL Anonymizer doesn't mask data returned by a sub-query in a rule. The problem is resolved in PostgreSQL Anonymizer 3.3.0 and later ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105620",
-    "score": 6.5,
-    "date": "2026-10-28T18:32:11Z"
+    "title": "CVE-2026-118252 — Highcharts Dashboards parses sidebar component labels as HTML",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118252",
+    "score": 7.5,
+    "date": "2026-10-28T19:56:57Z"
    },
    {
-    "title": "CVE-2026-105617 — PostgreSQL Anonymizer doesn't invalidate plans prepared after a rule was added or a role changed. Users using such plans can still see the u",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105617",
-    "score": 6.5,
-    "date": "2026-10-28T18:32:10Z"
+    "title": "CVE-2026-118251 — Highcharts: `javascript:` URL in credits.href runs script on click",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118251",
+    "score": 7.5,
+    "date": "2026-10-28T19:56:23Z"
    },
    {
-    "title": "CVE-2026-79656 — A user with read access to Grafana's server logs, or to a log store they are shipped to, can recover the OAuth and OIDC access, refresh and ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79656",
-    "score": 6,
-    "date": "2026-10-28T18:32:13Z"
+    "title": "CVE-2026-118250 — Highcharts: dotted series.keys paths write to Object.prototype",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118250",
+    "score": 7.5,
+    "date": "2026-10-28T19:56:18Z"
    },
    {
-    "title": "CVE-2026-105618 — PostgreSQL Anonymizer's documentation recommends applying rules on partitions and inheritance tables. Direct access to the paritions / inher",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105618",
-    "score": 5.7,
-    "date": "2026-10-28T18:32:10Z"
+    "title": "CVE-2026-118249 — Highcharts: series column construction writes to Object.prototype",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118249",
+    "score": 7.5,
+    "date": "2026-10-28T19:56:13Z"
    },
    {
-    "title": "CVE-2026-93536 — A use after free caused by missing lifecycle management of gesture sprites in GestureBuildSprite() in X.Org X Server before 21.1.25 and XWay",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93536",
-    "score": 5.3,
-    "date": "2026-10-28T18:32:10Z"
+    "title": "CVE-2026-118246 — Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118246",
+    "score": 7.5,
+    "date": "2026-10-28T19:56:07Z"
    },
    {
-    "title": "CVE-2026-105619 — PostgreSQL Anonymizer doesn't mask data accessed thru a security_invoker view. The problem is resolved in PostgreSQL Anonymizer 3.3.0 and la",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105619",
-    "score": 4.8,
-    "date": "2026-10-28T18:32:11Z"
+    "title": "CVE-2026-116797 — Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116797",
+    "score": 7.5,
+    "date": "2026-10-28T19:56:02Z"
    },
    {
-    "title": "CVE-2026-110182 — PostgreSQL Anonymizer contains a vulnerability related to the anon.partial() and anon.partial_email() functions. These function can reveal t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110182",
-    "score": 4.3,
-    "date": "2026-10-28T18:32:11Z"
+    "title": "CVE-2026-118242 — Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118242",
+    "score": 7.5,
+    "date": "2026-10-28T19:55:46Z"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "MLflow vulnerable to arbitrary file read on unauthenticated servers via prompt model version source",
-    "url": "https://github.com/advisories/GHSA-m65p-9j7q-6w33",
+    "title": "Highcharts Grid: `javascript:` URL in credits.href runs script on click",
+    "url": "https://github.com/advisories/GHSA-6hgp-fmhr-mrg4",
     "score": 7.5,
-    "ghsa": "GHSA-m65p-9j7q-6w33",
-    "date": "2026-10-27T21:26:56Z"
+    "ghsa": "GHSA-6hgp-fmhr-mrg4",
+    "date": "2026-10-28T19:57:48Z"
    },
    {
-    "title": "MLflow CrewAI autologging records LLM provider API keys in logged trace spans",
-    "url": "https://github.com/advisories/GHSA-j7qq-vr8c-xvw3",
-    "score": 6.5,
-    "ghsa": "GHSA-j7qq-vr8c-xvw3",
-    "date": "2026-10-27T21:26:39Z"
-   },
-   {
-    "title": "MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules",
-    "url": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9",
-    "score": 9.8,
-    "ghsa": "GHSA-26p8-2jq9-3vq9",
-    "date": "2026-10-27T21:26:32Z"
-   },
-   {
-    "title": "dd-trace: ReDOS in URL query string obfuscation",
-    "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
+    "title": "Highcharts Grid parses pagination language options as HTML",
+    "url": "https://github.com/advisories/GHSA-r5wg-q8fc-p6w2",
     "score": 7.5,
-    "ghsa": "GHSA-x94g-w73q-hpcw",
-    "date": "2026-10-27T21:07:25Z"
+    "ghsa": "GHSA-r5wg-q8fc-p6w2",
+    "date": "2026-10-28T19:57:34Z"
    },
    {
-    "title": "TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
-    "url": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
+    "title": "Highcharts Dashboards parses fullscreen labels as HTML",
+    "url": "https://github.com/advisories/GHSA-58g7-7f52-h92c",
     "score": 7.5,
-    "ghsa": "GHSA-mf2p-h6hf-fcwm",
-    "date": "2026-10-27T21:07:12Z"
+    "ghsa": "GHSA-58g7-7f52-h92c",
+    "date": "2026-10-28T19:57:19Z"
    },
    {
-    "title": "Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
-    "url": "https://github.com/advisories/GHSA-w4fh-qvv9-3v23",
-    "score": 6.8,
-    "ghsa": "GHSA-w4fh-qvv9-3v23",
-    "date": "2026-10-27T21:06:59Z"
+    "title": "Highcharts Dashboards parses sidebar component labels as HTML",
+    "url": "https://github.com/advisories/GHSA-rcqf-f6h2-ccg9",
+    "score": 7.5,
+    "ghsa": "GHSA-rcqf-f6h2-ccg9",
+    "date": "2026-10-28T19:56:57Z"
    },
    {
-    "title": "OpenTelemetry Python: Unbounded memory allocation in Jaeger baggage propagation",
-    "url": "https://github.com/advisories/GHSA-f5m9-jfrj-jjj7",
+    "title": "Highcharts: `javascript:` URL in credits.href runs script on click",
+    "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
+    "score": 7.5,
+    "ghsa": "GHSA-5793-x2q3-c3q7",
+    "date": "2026-10-28T19:56:23Z"
+   },
+   {
+    "title": "Highcharts: dotted series.keys paths write to Object.prototype",
+    "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
+    "score": 7.5,
+    "ghsa": "GHSA-rmqc-xvr3-v46c",
+    "date": "2026-10-28T19:56:18Z"
+   },
+   {
+    "title": "Highcharts: series column construction writes to Object.prototype",
+    "url": "https://github.com/advisories/GHSA-gfvx-2c2g-38wq",
+    "score": 7.5,
+    "ghsa": "GHSA-gfvx-2c2g-38wq",
+    "date": "2026-10-28T19:56:13Z"
+   },
+   {
+    "title": "Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
+    "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
+    "score": 7.5,
+    "ghsa": "GHSA-35rr-xwfh-x789",
+    "date": "2026-10-28T19:56:07Z"
+   },
+   {
+    "title": "Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
+    "url": "https://github.com/advisories/GHSA-5ghw-9mgr-jvx2",
+    "score": 7.5,
+    "ghsa": "GHSA-5ghw-9mgr-jvx2",
+    "date": "2026-10-28T19:56:02Z"
+   },
+   {
+    "title": "Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
+    "url": "https://github.com/advisories/GHSA-6g3c-p4fg-xv47",
+    "score": 7.5,
+    "ghsa": "GHSA-6g3c-p4fg-xv47",
+    "date": "2026-10-28T19:55:46Z"
+   },
+   {
+    "title": "Highcharts Dashboards: `chartConstructor` is an unchecked lookup into the Highcharts namespace",
+    "url": "https://github.com/advisories/GHSA-grj7-r4jv-pw9j",
+    "score": 7.5,
+    "ghsa": "GHSA-grj7-r4jv-pw9j",
+    "date": "2026-10-28T19:55:41Z"
+   },
+   {
+    "title": "Highcharts Dashboards / Grid Pro: `DataTable.setCell` and column writers treat `__proto__` as an existing column.",
+    "url": "https://github.com/advisories/GHSA-c75x-9x9h-28rm",
     "score": null,
-    "ghsa": "GHSA-f5m9-jfrj-jjj7",
-    "date": "2026-10-27T21:06:54Z"
-   },
-   {
-    "title": "Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
-    "url": "https://github.com/advisories/GHSA-5h93-6whr-6q8j",
-    "score": 5.9,
-    "ghsa": "GHSA-5h93-6whr-6q8j",
-    "date": "2026-10-27T21:05:34Z"
-   },
-   {
-    "title": "Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
-    "url": "https://github.com/advisories/GHSA-rwrf-2pqf-9j8j",
-    "score": 6.5,
-    "ghsa": "GHSA-rwrf-2pqf-9j8j",
-    "date": "2026-10-27T21:05:29Z"
-   },
-   {
-    "title": "CKEditor: Cross-site scripting (XSS) in the engine package",
-    "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
-    "score": 3.1,
-    "ghsa": "GHSA-v6mg-96c6-gmpq",
-    "date": "2026-10-27T21:05:13Z"
-   },
-   {
-    "title": "CKEditor: Cross-site scripting (XSS) in the engine package",
-    "url": "https://github.com/advisories/GHSA-rh54-vffm-5fvp",
-    "score": 8.1,
-    "ghsa": "GHSA-rh54-vffm-5fvp",
-    "date": "2026-10-27T21:05:06Z"
-   },
-   {
-    "title": "Neko: Authorization bypass in legacy WebRTC input handling",
-    "url": "https://github.com/advisories/GHSA-5cp7-fp4j-wwcv",
-    "score": 5.4,
-    "ghsa": "GHSA-5cp7-fp4j-wwcv",
-    "date": "2026-10-27T21:04:57Z"
+    "ghsa": "GHSA-c75x-9x9h-28rm",
+    "date": "2026-10-28T19:55:37Z"
    }
   ],
   "thn": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2319,
+    "stars": 2320,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2136,
+    "stars": 2138,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1365,
+    "stars": 1366,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1024,
+    "stars": 1025,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 442,
+    "stars": 455,
     "lang": "TypeScript"
    },
    {
@@ -642,13 +642,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "A malicious game server can crash the Godot clients that join it",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
-    "date": "2026-10-28T09:57:22+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
     "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
     "date": "2026-10-28T07:50:06+00:00",
@@ -656,16 +649,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "An attacker can crash a Godot game server using DTLS with an unauthenticated UDP datagram",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhxfh0/an_attacker_can_crash_a_godot_game_server_using/",
-    "date": "2026-10-28T19:09:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
-    "date": "2026-10-28T13:14:05+00:00",
+    "title": "A malicious game server can crash the Godot clients that join it",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+    "date": "2026-10-28T09:57:22+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -677,9 +663,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "I got RCE on the sandboxes of Instinct and Muse!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-    "date": "2026-10-28T14:20:14+00:00",
+    "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
+    "date": "2026-10-28T13:14:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -687,6 +673,20 @@
     "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
     "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
     "date": "2026-10-28T15:03:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "I got RCE on the sandboxes of Instinct and Muse!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+    "date": "2026-10-28T14:20:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "An attacker can crash a Godot game server using DTLS with an unauthenticated UDP datagram",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhxfh0/an_attacker_can_crash_a_godot_game_server_using/",
+    "date": "2026-10-28T19:09:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -718,7 +718,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1760,
+  "kev": 1762,
   "adv": 12,
   "feed": 48
  },
