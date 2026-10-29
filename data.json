@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T16:26:09.871Z",
+ "generatedAt": "2026-10-29T17:23:02.463Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "GHSA-w9x9-j56r-h98r — @eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy",
+    "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
+    "score": 8.2,
+    "date": "2026-10-29T16:35:48Z"
+   },
+   {
+    "title": "CVE-2026-9800 — Keycloak vulnerable to authorization bypass via incorrect uri comparison",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9800",
+    "score": 8.1,
+    "date": "2026-10-29T16:37:26Z"
+   },
+   {
+    "title": "GHSA-79qw-g39g-mfxc — Duplicate Advisory: Keycloak vulnerable to authorization bypass via incorrect uri comparison",
+    "url": "https://github.com/advisories/GHSA-79qw-g39g-mfxc",
+    "score": 8.1,
+    "date": "2026-06-25T18:30:41Z"
+   },
+   {
+    "title": "CVE-2026-118664 — decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118664",
+    "score": 7.5,
+    "date": "2026-10-29T16:41:28Z"
+   },
+   {
+    "title": "GHSA-vpp8-g58w-m8mp — Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
+    "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
+    "score": 7.5,
+    "date": "2026-10-29T16:41:06Z"
+   },
+   {
+    "title": "CVE-2026-115907 — zip: legacy Shrink/Reduce/Implode decoder: denial of service from attacker-controlled ZIP64 uncompressed size",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115907",
+    "score": 7.5,
+    "date": "2026-10-29T16:40:19Z"
+   },
+   {
+    "title": "CVE-2026-115909 — zip: Unbounded Symlink-Target Handling Can Abort Or Exhaust Memory During Extraction",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115909",
+    "score": 7.5,
+    "date": "2026-10-29T16:40:01Z"
+   },
+   {
+    "title": "CVE-2026-63414 — Shopify App: Token exchange shop context confusion may allow cross-shop authorization bypass in affected apps",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63414",
+    "score": 7.5,
+    "date": "2026-10-29T16:39:49Z"
+   },
+   {
+    "title": "CVE-2026-115908 — zip: Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115908",
+    "score": 7.4,
+    "date": "2026-10-29T16:40:12Z"
+   },
+   {
+    "title": "CVE-2026-62290 — cert-manager: Direct ACME Challenge resources can bypass Issuer DNS01 solver policy and use ClusterIssuer DNS credentials",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62290",
+    "score": 7.3,
+    "date": "2026-10-29T16:39:41Z"
+   },
+   {
+    "title": "CVE-2026-9086 — Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9086",
+    "score": 7.3,
+    "date": "2026-10-29T16:39:03Z"
+   },
+   {
+    "title": "GHSA-37j9-56gh-j2r7 — Duplicate Advisory: Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass",
+    "url": "https://github.com/advisories/GHSA-37j9-56gh-j2r7",
+    "score": 7.3,
+    "date": "2026-06-25T18:30:41Z"
    }
   ],
   "kev": [
@@ -131,91 +203,98 @@
   ],
   "adv": [
    {
-    "title": "Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
-    "url": "https://github.com/advisories/GHSA-r4j5-9xpp-3985",
-    "score": 5.3,
-    "ghsa": "GHSA-r4j5-9xpp-3985",
-    "date": "2026-10-28T22:43:50Z"
-   },
-   {
-    "title": "Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
-    "url": "https://github.com/advisories/GHSA-pw9p-v7r6-gx4p",
-    "score": 2,
-    "ghsa": "GHSA-pw9p-v7r6-gx4p",
-    "date": "2026-10-28T22:43:45Z"
-   },
-   {
-    "title": "Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
-    "url": "https://github.com/advisories/GHSA-pcg2-g6cj-q92c",
-    "score": 5.3,
-    "ghsa": "GHSA-pcg2-g6cj-q92c",
-    "date": "2026-10-28T22:43:41Z"
-   },
-   {
-    "title": "Crass: Incorrect tokenization of bad URLs enables CSS sanitizer bypass",
-    "url": "https://github.com/advisories/GHSA-pq4g-8rxf-4g29",
-    "score": null,
-    "ghsa": "GHSA-pq4g-8rxf-4g29",
-    "date": "2026-10-28T22:42:53Z"
-   },
-   {
-    "title": "systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
-    "url": "https://github.com/advisories/GHSA-3f7j-7jwc-fxfj",
-    "score": 7.8,
-    "ghsa": "GHSA-3f7j-7jwc-fxfj",
-    "date": "2026-10-28T22:42:49Z"
-   },
-   {
-    "title": "Backstage catalog rules can be bypassed for URL locations using encoded path segments",
-    "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
-    "score": 6.5,
-    "ghsa": "GHSA-w658-mh9p-ww8f",
-    "date": "2026-10-28T22:42:36Z"
-   },
-   {
-    "title": "Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
-    "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v",
+    "title": "decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+    "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
     "score": 7.5,
-    "ghsa": "GHSA-6jp4-8v48-cc5v",
-    "date": "2026-10-28T21:23:44Z"
+    "ghsa": "GHSA-qr28-fpjm-wq7f",
+    "date": "2026-10-29T16:41:28Z"
    },
    {
-    "title": "knative.dev/pkg admission webhooks allow unbounded request-body memory exhaustion",
-    "url": "https://github.com/advisories/GHSA-2hw4-c9m4-f2fj",
-    "score": 6.5,
-    "ghsa": "GHSA-2hw4-c9m4-f2fj",
-    "date": "2026-10-28T21:20:53Z"
-   },
-   {
-    "title": "Waline login accepts a non-string email as a match-all MongoDB query",
-    "url": "https://github.com/advisories/GHSA-jf75-q64q-g65r",
-    "score": 6.5,
-    "ghsa": "GHSA-jf75-q64q-g65r",
-    "date": "2026-10-28T21:17:58Z"
-   },
-   {
-    "title": "Seroval: Code injection through a typed array's own constructor property",
-    "url": "https://github.com/advisories/GHSA-f86p-h4j2-7qgj",
-    "score": null,
-    "ghsa": "GHSA-f86p-h4j2-7qgj",
-    "date": "2026-10-28T21:17:36Z"
-   },
-   {
-    "title": "Seroval: Script injection through RegExp sources in serialized output",
-    "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
-    "score": 4.7,
-    "ghsa": "GHSA-9wx9-5pv9-3349",
-    "date": "2026-10-28T21:17:31Z"
-   },
-   {
-    "title": "Seroval: fromJSON deserializer trusts node-supplied array length and sequence doneAt (unauthenticated event-loop DoS)",
-    "url": "https://github.com/advisories/GHSA-97r2-qh9m-474h",
+    "title": "Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
+    "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
     "score": 7.5,
-    "ghsa": "GHSA-97r2-qh9m-474h",
-    "date": "2026-10-28T21:17:27Z"
+    "ghsa": "GHSA-vpp8-g58w-m8mp",
+    "date": "2026-10-29T16:41:06Z"
+   },
+   {
+    "title": "zip: legacy Shrink/Reduce/Implode decoder: denial of service from attacker-controlled ZIP64 uncompressed size",
+    "url": "https://github.com/advisories/GHSA-9hj8-73fh-9963",
+    "score": 7.5,
+    "ghsa": "GHSA-9hj8-73fh-9963",
+    "date": "2026-10-29T16:40:19Z"
+   },
+   {
+    "title": "zip: Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically.",
+    "url": "https://github.com/advisories/GHSA-hjqx-j4rw-g7xv",
+    "score": 7.4,
+    "ghsa": "GHSA-hjqx-j4rw-g7xv",
+    "date": "2026-10-29T16:40:12Z"
+   },
+   {
+    "title": "zip: AES Entry HMAC Authentication Bypass on Premature EOF",
+    "url": "https://github.com/advisories/GHSA-8hxf-qr8p-62x4",
+    "score": 6.5,
+    "ghsa": "GHSA-8hxf-qr8p-62x4",
+    "date": "2026-10-29T16:40:07Z"
+   },
+   {
+    "title": "zip: Unbounded Symlink-Target Handling Can Abort Or Exhaust Memory During Extraction",
+    "url": "https://github.com/advisories/GHSA-q7v9-x93c-xqv3",
+    "score": 7.5,
+    "ghsa": "GHSA-q7v9-x93c-xqv3",
+    "date": "2026-10-29T16:40:01Z"
+   },
+   {
+    "title": "Vite: `server.fs.deny` bypassed with queries",
+    "url": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj",
+    "score": null,
+    "ghsa": "GHSA-8g5g-mxqh-grgj",
+    "date": "2026-10-29T16:39:56Z"
+   },
+   {
+    "title": "Shopify App: Token exchange shop context confusion may allow cross-shop authorization bypass in affected apps",
+    "url": "https://github.com/advisories/GHSA-6j52-38f8-qhxr",
+    "score": 7.5,
+    "ghsa": "GHSA-6j52-38f8-qhxr",
+    "date": "2026-10-29T16:39:49Z"
+   },
+   {
+    "title": "cert-manager: Direct ACME Challenge resources can bypass Issuer DNS01 solver policy and use ClusterIssuer DNS credentials",
+    "url": "https://github.com/advisories/GHSA-8rvj-mm4h-c258",
+    "score": 7.3,
+    "ghsa": "GHSA-8rvj-mm4h-c258",
+    "date": "2026-10-29T16:39:41Z"
+   },
+   {
+    "title": "Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass",
+    "url": "https://github.com/advisories/GHSA-v3f7-2p4r-mwfw",
+    "score": 7.3,
+    "ghsa": "GHSA-v3f7-2p4r-mwfw",
+    "date": "2026-10-29T16:39:03Z"
+   },
+   {
+    "title": "Keycloak vulnerable to information disclosure through arbitrary filesystem path probing",
+    "url": "https://github.com/advisories/GHSA-9jrw-8xf7-xqhq",
+    "score": 4.9,
+    "ghsa": "GHSA-9jrw-8xf7-xqhq",
+    "date": "2026-10-29T16:38:31Z"
+   },
+   {
+    "title": "Keycloak allows unauthorized access to resources via uma permission ticket bypass",
+    "url": "https://github.com/advisories/GHSA-w3p3-7cjg-vgfw",
+    "score": 4.6,
+    "ghsa": "GHSA-w3p3-7cjg-vgfw",
+    "date": "2026-10-29T16:37:57Z"
    }
   ],
   "thn": [
+   {
+    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "date": "Thu, 29 Oct 2026 21:27:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
     "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
@@ -290,13 +369,6 @@
     "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
     "date": "Thu, 29 Oct 2026 11:52:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "date": "Thu, 29 Oct 2026 11:20:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2348,
+    "stars": 2349,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2199,
+    "stars": 2204,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1400,
+    "stars": 1401,
     "lang": "Python"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 518,
+    "stars": 520,
     "lang": "—"
    },
    {
