@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-10-28T23:22:10.011Z",
+ "generatedAt": "2026-10-29T00:47:35.484Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-20127 — Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk",
-    "score": 10,
-    "date": "2026-10-28T21:54:35+00:00"
-   },
-   {
-    "title": "CVE-2026-109618 — METTLER TOLEDO: PHP2Shell in Octo Image Server (+1 CVE)",
-    "url": "https://certvde.com/en/advisories/VDE-2026-137/",
-    "score": 9.8,
-    "date": "2026-10-28T22:00:00.000Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-78674 — The BPMN System REST APIs do not sufficiently validate input parameters, allowing authenticated users to submit crafted requests that can le",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-78674",
+    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86172",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86168",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86195",
+    "score": 9.4,
+    "date": "2026-10-22T00:08:23.571327Z"
+   },
+   {
+    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88359",
     "score": 8.8,
-    "date": "2026-10-28T21:31:18Z"
+    "date": "2026-10-23T12:11:02.998013Z"
    },
    {
-    "title": "CVE-2026-116576 — systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116576",
-    "score": 7.8,
-    "date": "2026-10-28T22:42:49Z"
+    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
    },
    {
-    "title": "CVE-2026-6647 — In deployments of WSO2 Identity Server configured with a case-insensitive user store and a case-sensitive database for identity data, mismat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-6647",
-    "score": 7.4,
-    "date": "2026-10-28T21:31:18Z"
+    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:45.400552Z"
    },
    {
-    "title": "CVE-2026-115923 — Backstage catalog rules can be bypassed for URL locations using encoded path segments",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115923",
-    "score": 6.5,
-    "date": "2026-10-28T22:42:36Z"
+    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:85321",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:03.045090Z"
    },
    {
-    "title": "CVE-2026-115927 — Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115927",
-    "score": 5.3,
-    "date": "2026-10-28T22:43:50Z"
+    "title": "RLSA-2026:85309 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85309",
+    "score": 8.8,
+    "date": "2026-10-21T06:40:55.719656Z"
    },
    {
-    "title": "CVE-2026-116577 — Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116577",
-    "score": 5.3,
-    "date": "2026-10-28T22:43:41Z"
+    "title": "RLSA-2026:83207 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:83207",
+    "score": 8.8,
+    "date": "2026-10-16T12:10:48.882476Z"
    },
    {
-    "title": "CVE-2026-116695 — Crass: Incorrect tokenization of bad URLs enables CSS sanitizer bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116695",
-    "score": 5,
-    "date": "2026-10-28T22:42:53Z"
+    "title": "RLSA-2026:82883 — Important: hplip security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:82883",
+    "score": 8.8,
+    "date": "2026-10-15T12:20:13.898768Z"
    },
    {
-    "title": "CVE-2026-3583 — When the `allowed_scopes` configuration is enabled, the OAuth2 token introspection mechanism does not immediately invalidate a token in the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-3583",
-    "score": 3.1,
-    "date": "2026-10-28T21:31:18Z"
+    "title": "RLSA-2026:88248 — Important: expat security update",
+    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "score": 8.2,
+    "date": "2026-10-23T12:11:02.998013Z"
    },
    {
-    "title": "CVE-2026-116578 — Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116578",
-    "score": 2,
-    "date": "2026-10-28T22:43:45Z"
+    "title": "RLSA-2026:84799 — Important: mariadb11.8 security update",
+    "url": "https://github.com/advisories/RLSA-2026:84799",
+    "score": 8.2,
+    "date": "2026-10-20T12:10:14.939262Z"
    }
   ],
   "kev": [
@@ -457,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2324,
+    "stars": 2325,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2139,
+    "stars": 2140,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1371,
+    "stars": 1375,
     "lang": "Python"
    },
    {
@@ -493,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 514,
+    "stars": 516,
     "lang": "—"
    },
    {
@@ -505,7 +511,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 472,
+    "stars": 476,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +523,7 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 248,
+    "stars": 249,
     "lang": "Go"
    },
    {
@@ -711,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 5,
   "kev": 1762,
   "adv": 12,
   "feed": 48
