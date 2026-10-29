@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-29T18:27:51.540Z",
+ "generatedAt": "2026-10-29T19:22:24.632Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-90868 — An OS command injection vulnerability in Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows could allow arbi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90868",
+    "score": 9.9,
+    "date": "2026-10-29T18:31:07Z"
+   },
+   {
+    "title": "CVE-2026-93680 — IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to bypass security restrictions due to improper authentication.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93680",
+    "score": 9.8,
+    "date": "2026-10-29T18:31:08Z"
+   },
+   {
+    "title": "CVE-2026-62015 — Unauthenticated PHP Object Injection in Gamezone <= 1.1.11 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62015",
+    "score": 9.8,
+    "date": "2026-10-29T18:31:06Z"
+   },
+   {
+    "title": "CVE-2026-62014 — Unauthenticated PHP Object Injection in EmojiNation <= 1.0.12 versions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62014",
+    "score": 9.8,
+    "date": "2026-10-29T18:31:05Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "GHSA-w9x9-j56r-h98r — @eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy",
-    "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
-    "score": 8.2,
-    "date": "2026-10-29T16:35:48Z"
+    "title": "CVE-2026-90864 — A path traversal vulnerability in Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows could allow a delegated",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90864",
+    "score": 9.1,
+    "date": "2026-10-29T18:31:07Z"
    },
    {
-    "title": "CVE-2026-9800 — Keycloak vulnerable to authorization bypass via incorrect uri comparison",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9800",
-    "score": 8.1,
-    "date": "2026-10-29T16:37:26Z"
+    "title": "CVE-2026-90866 — A path traversal vulnerability in Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows could allow a delegated",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90866",
+    "score": 9.1,
+    "date": "2026-10-29T18:31:07Z"
    },
    {
-    "title": "GHSA-79qw-g39g-mfxc — Duplicate Advisory: Keycloak vulnerable to authorization bypass via incorrect uri comparison",
-    "url": "https://github.com/advisories/GHSA-79qw-g39g-mfxc",
-    "score": 8.1,
-    "date": "2026-06-25T18:30:41Z"
+    "title": "CVE-2026-90863 — Missing authorization in the administrative interface of Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90863",
+    "score": 9.1,
+    "date": "2026-10-29T18:31:07Z"
    },
    {
-    "title": "CVE-2026-118664 — decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118664",
-    "score": 7.5,
-    "date": "2026-10-29T16:41:28Z"
+    "title": "CVE-2026-90865 — An OS command injection vulnerability in Progress Software WS_FTP Server versions prior to 2024.0.7 and 2025.0.4 on Windows could allow arbi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90865",
+    "score": 9,
+    "date": "2026-10-29T18:31:07Z"
    },
    {
-    "title": "GHSA-vpp8-g58w-m8mp — Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
-    "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
-    "score": 7.5,
-    "date": "2026-10-29T16:41:06Z"
+    "title": "CVE-2026-96203 — Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96203",
+    "score": 8.8,
+    "date": "2026-10-29T18:31:08Z"
    },
    {
-    "title": "CVE-2026-115907 — zip: legacy Shrink/Reduce/Implode decoder: denial of service from attacker-controlled ZIP64 uncompressed size",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115907",
-    "score": 7.5,
-    "date": "2026-10-29T16:40:19Z"
+    "title": "CVE-2026-96192 — Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96192",
+    "score": 8.8,
+    "date": "2026-10-29T18:31:08Z"
    },
    {
-    "title": "CVE-2026-115909 — zip: Unbounded Symlink-Target Handling Can Abort Or Exhaust Memory During Extraction",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115909",
-    "score": 7.5,
-    "date": "2026-10-29T16:40:01Z"
+    "title": "CVE-2026-96199 — Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96199",
+    "score": 8.8,
+    "date": "2026-10-29T18:31:08Z"
    },
    {
-    "title": "CVE-2026-63414 — Shopify App: Token exchange shop context confusion may allow cross-shop authorization bypass in affected apps",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63414",
-    "score": 7.5,
-    "date": "2026-10-29T16:39:49Z"
-   },
-   {
-    "title": "CVE-2026-115908 — zip: Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115908",
-    "score": 7.4,
-    "date": "2026-10-29T16:40:12Z"
-   },
-   {
-    "title": "CVE-2026-62290 — cert-manager: Direct ACME Challenge resources can bypass Issuer DNS01 solver policy and use ClusterIssuer DNS credentials",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-62290",
-    "score": 7.3,
-    "date": "2026-10-29T16:39:41Z"
-   },
-   {
-    "title": "CVE-2026-9086 — Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9086",
-    "score": 7.3,
-    "date": "2026-10-29T16:39:03Z"
-   },
-   {
-    "title": "GHSA-37j9-56gh-j2r7 — Duplicate Advisory: Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass",
-    "url": "https://github.com/advisories/GHSA-37j9-56gh-j2r7",
-    "score": 7.3,
-    "date": "2026-06-25T18:30:41Z"
+    "title": "CVE-2026-96196 — Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-96196",
+    "score": 8.8,
+    "date": "2026-10-29T18:31:08Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+    "date": "Thu, 29 Oct 2026 14:38:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
     "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
     "date": "Thu, 29 Oct 2026 12:10:31 -0400",
@@ -450,13 +457,6 @@
     "date": "Wed, 28 Oct 2026 10:48:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-    "date": "Wed, 28 Oct 2026 10:00:00 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +469,7 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2206,
+    "stars": 2207,
     "lang": "Go"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1037,
+    "stars": 1038,
     "lang": "TypeScript"
    },
    {
@@ -656,16 +656,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Turning the Valve - Exploiting RCE and LPE in the Steam Platform",
-    "url": "https://www.reddit.com/r/netsec/comments/1xi11fq/turning_the_valve_exploiting_rce_and_lpe_in_the/",
-    "date": "2026-10-28T21:24:39+00:00",
+    "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xif160/the_last_proof_of_human_craft_forging_a_microsoft/",
+    "date": "2026-10-29T09:15:54+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xif160/the_last_proof_of_human_craft_forging_a_microsoft/",
-    "date": "2026-10-29T09:15:54+00:00",
+    "title": "Turning the Valve - Exploiting RCE and LPE in the Steam Platform",
+    "url": "https://www.reddit.com/r/netsec/comments/1xi11fq/turning_the_valve_exploiting_rce_and_lpe_in_the/",
+    "date": "2026-10-28T21:24:39+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 10,
   "kev": 1762,
   "adv": 12,
   "feed": 48
