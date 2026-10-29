@@ -1,66 +1,18 @@
 {
- "generatedAt": "2026-10-29T08:28:46.110Z",
+ "generatedAt": "2026-10-29T09:25:33.125Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: Submariner v0.24 security fixes and container updates (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63016",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:48+00:00"
-   },
-   {
-    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:46+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:45+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:43+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:43+00:00"
-   },
-   {
-    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:43+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59557",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:42+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.6 security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59556",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:42+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.8.1 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:52946",
-    "score": 9.9,
-    "date": "2026-10-29T07:08:40+00:00"
-   },
-   {
-    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "title": "CVE-2023-26159 — Red Hat Enhancement Advisory: Red Hat Developer Hub 1.1 release (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2024:1366",
     "score": 9.8,
-    "date": "2026-10-29T07:08:50+00:00"
+    "date": "2026-10-29T08:23:59+00:00"
+   },
+   {
+    "title": "CVE-2021-35937 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.15.0 security, enhancement, & bug fix update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:1383",
+    "score": 9.8,
+    "date": "2026-10-29T08:23:05+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -75,16 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11330",
-    "score": 9.6,
-    "date": "2026-10-29T07:09:04+00:00"
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: OpenShift Container Platform 4.13.42 packages and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2877",
+    "score": 8.6,
+    "date": "2026-10-29T08:23:16+00:00"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10155",
-    "score": 9.6,
-    "date": "2026-10-29T07:09:04+00:00"
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: OpenShift Container Platform 4.12.57 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2784",
+    "score": 8.6,
+    "date": "2026-10-29T08:23:15+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: OpenShift Container Platform 4.14.24 packages and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2672",
+    "score": 8.6,
+    "date": "2026-10-29T08:23:13+00:00"
+   },
+   {
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: OpenShift Container Platform 4.15.12 security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2669",
+    "score": 8.6,
+    "date": "2026-10-29T08:23:13+00:00"
+   },
+   {
+    "title": "CVE-2022-4122 — Red Hat Security Advisory: container-tools:rhel8 security and bug fix update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2077",
+    "score": 8.6,
+    "date": "2026-10-29T08:23:11+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: OpenShift Container Platform 4.13.41 packages and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2049",
+    "score": 8.6,
+    "date": "2026-10-29T08:23:10+00:00"
+   },
+   {
+    "title": "CVE-2022-1962 — Red Hat Security Advisory: Migration Toolkit for Applications security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:1027",
+    "score": 8.2,
+    "date": "2026-10-29T08:23:02+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: OpenShift Container Platform 4.14.33 bug fix and security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4479",
+    "score": 8.1,
+    "date": "2026-10-29T08:23:30+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Errata Advisory for Red Hat OpenShift Builds 1.0.1 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:1557",
+    "score": 8.1,
+    "date": "2026-10-29T08:23:07+00:00"
+   },
+   {
+    "title": "CVE-2024-27289 — Red Hat Security Advisory: ACS 4.3 enhancement and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:1321",
+    "score": 8.1,
+    "date": "2026-10-29T08:23:04+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "date": "Thu, 29 Oct 2026 13:54:22 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
     "date": "Thu, 29 Oct 2026 11:52:33 +0530",
@@ -362,13 +369,6 @@
     "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
     "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
     "date": "Wed, 28 Oct 2026 16:00:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-    "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-    "date": "Wed, 28 Oct 2026 13:45:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2335,
+    "stars": 2336,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2154,
+    "stars": 2160,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1389,
+    "stars": 1390,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1028,
+    "stars": 1029,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 517,
+    "stars": 518,
     "lang": "—"
    },
    {
@@ -642,6 +642,27 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/",
+    "date": "2026-10-29T08:45:46+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xif160/the_last_proof_of_human_craft_forging_a_microsoft/",
+    "date": "2026-10-29T09:15:54+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Linux Kernel TIPC DoS: named_distribute() NULL Dereference, Race Analysis, and Remote Triggering",
+    "url": "https://www.reddit.com/r/netsec/comments/1xienwv/linux_kernel_tipc_dos_named_distribute_null/",
+    "date": "2026-10-29T08:52:27+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
     "url": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
     "date": "2026-10-28T15:36:25+00:00",
@@ -682,27 +703,6 @@
     "date": "2026-10-28T15:03:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
-    "date": "2026-10-28T13:14:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "An attacker can crash a Godot game server using DTLS with an unauthenticated UDP datagram",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhxfh0/an_attacker_can_crash_a_godot_game_server_using/",
-    "date": "2026-10-28T19:09:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "I got RCE on the sandboxes of Instinct and Muse!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-    "date": "2026-10-28T14:20:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 4,
   "kev": 1762,
   "adv": 12,
   "feed": 48
