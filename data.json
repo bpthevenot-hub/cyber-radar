@@ -1,7 +1,67 @@
 {
- "generatedAt": "2026-10-29T07:25:27.891Z",
+ "generatedAt": "2026-10-29T08:28:46.110Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: Submariner v0.24 security fixes and container updates (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63016",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:48+00:00"
+   },
+   {
+    "title": "CVE-2026-13676 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.2 security update (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59593",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:46+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.4 security update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60391",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:45+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.11 security update (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60390",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:43+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.4 security update (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60388",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:43+00:00"
+   },
+   {
+    "title": "CVE-2026-10090 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.17.1 security update (+61 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:60386",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:43+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59557",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:42+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.11.6 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59556",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:42+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Multicluster Global Hub 1.8.1 security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:52946",
+    "score": 9.9,
+    "date": "2026-10-29T07:08:40+00:00"
+   },
+   {
+    "title": "CVE-2025-61140 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.3 release. (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6802",
+    "score": 9.8,
+    "date": "2026-10-29T07:08:50+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +73,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:11330",
+    "score": 9.6,
+    "date": "2026-10-29T07:09:04+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10155",
+    "score": 9.6,
+    "date": "2026-10-29T07:09:04+00:00"
    }
   ],
   "kev": [
@@ -391,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2334,
+    "stars": 2335,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2152,
+    "stars": 2154,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1383,
+    "stars": 1389,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1027,
+    "stars": 1028,
     "lang": "TypeScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 516,
+    "stars": 517,
     "lang": "—"
    },
    {
@@ -598,6 +670,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+    "date": "2026-10-28T14:58:48+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
     "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
     "date": "2026-10-28T15:03:44+00:00",
@@ -608,13 +687,6 @@
     "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
     "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
     "date": "2026-10-28T13:14:05+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
-    "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
-    "date": "2026-10-28T14:58:48+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1762,
   "adv": 12,
   "feed": 48
