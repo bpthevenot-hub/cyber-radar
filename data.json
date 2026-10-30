@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T15:22:42.705Z",
+ "generatedAt": "2026-10-30T16:24:43.474Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.20.24 security and extras update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21704",
+    "score": 9.1,
+    "date": "2026-10-30T15:46:47+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.18.43 security and extras update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:21658",
+    "score": 9.1,
+    "date": "2026-10-30T15:46:46+00:00"
+   },
+   {
+    "title": "CVE-2025-58183 — Red Hat Security Advisory: OpenShift Container Platform 4.16.63 security and extras update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:20089",
+    "score": 9.1,
+    "date": "2026-10-30T15:46:36+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: OpenShift Container Platform 4.19.32 security and extras update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:20042",
+    "score": 9.1,
+    "date": "2026-10-30T15:46:36+00:00"
+   },
+   {
+    "title": "CVE-2025-13888 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.18.3 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1017",
+    "score": 9.1,
+    "date": "2026-10-30T15:45:27+00:00"
+   },
+   {
+    "title": "CVE-2025-47913 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.17.4 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1018",
+    "score": 8.8,
+    "date": "2026-10-30T15:45:29+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: RHACS 4.8.8 security and bug fix update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1517",
+    "score": 8.7,
+    "date": "2026-10-30T15:46:06+00:00"
+   },
+   {
+    "title": "CVE-2024-12905 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.21.0 release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:8244",
+    "score": 8.6,
+    "date": "2026-10-30T15:45:10+00:00"
+   },
+   {
+    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.20.0 bug fix and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:9562",
+    "score": 8.5,
+    "date": "2026-10-30T15:45:13+00:00"
+   },
+   {
+    "title": "CVE-2025-31133 — Red Hat Security Advisory: container-tools:rhel8 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10703",
+    "score": 8.2,
+    "date": "2026-10-30T15:45:32+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: buildah security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0426",
+    "score": 8.2,
+    "date": "2026-10-30T15:45:17+00:00"
+   },
+   {
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: podman security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0424",
+    "score": 8.2,
+    "date": "2026-10-30T15:45:17+00:00"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+    "date": "Fri, 30 Oct 2026 11:58:20 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
     "date": "Fri, 30 Oct 2026 10:36:54 -0400",
@@ -378,32 +457,25 @@
     "date": "Thu, 29 Oct 2026 17:47:25 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-    "date": "Thu, 29 Oct 2026 15:23:41 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2389,
+    "stars": 2390,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2280,
+    "stars": 2283,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1429,
+    "stars": 1431,
     "lang": "Python"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 524,
+    "stars": 527,
     "lang": "—"
    },
    {
@@ -457,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 225,
+    "stars": 227,
     "lang": "—"
    }
   ],
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1764,
   "adv": 12,
   "feed": 48
