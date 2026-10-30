@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T05:24:07.828Z",
+ "generatedAt": "2026-10-30T06:35:14.909Z",
  "sources": {
   "cve": [
    {
@@ -15,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-118475 — A flaw was found in Eye of GNOME. When parsing a specially crafted PNG image containing malformed color profile metadata, the application fa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118475",
-    "score": 3.6,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-53236 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91565",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:46+00:00"
    },
    {
-    "title": "CVE-2026-112922 — A flaw was found in Ghostscript. A remote attacker could exploit this vulnerability by enticing a user to process a specially crafted PDF or",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112922",
-    "score": 3.3,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2024-36286 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91492",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:46+00:00"
    },
    {
-    "title": "CVE-2026-74915 — A web page that contains unusual WebGPU content loaded into the GPU GLES render process can trigger a OOB read and/or write crash in the GPU",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74915",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:86033",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:42+00:00"
    },
    {
-    "title": "CVE-2026-76030 — Memory corruption in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to potentially execute arbitrary code insi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76030",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-31678 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:85321",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:42+00:00"
    },
    {
-    "title": "CVE-2026-76031 — Use after free in Input in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76031",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-45859 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83207",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:41+00:00"
    },
    {
-    "title": "CVE-2026-19199 — Software installed and run as a non-privileged user may conduct improper system calls to allocate physical memory. A 32-bit integer overflow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19199",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-46319 — Red Hat Security Advisory: kernel security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83156",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:40+00:00"
    },
    {
-    "title": "CVE-2026-65586 — Software installed and run as a non-privileged user may conduct improper GPU system calls to free memory in still in use, replace with anoth",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65586",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-31663 — Red Hat Security Advisory: kernel-rt security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82860",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:40+00:00"
    },
    {
-    "title": "CVE-2026-76029 — Memory corruption in Network in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to potentially execute arbitrary code inside ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76029",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-31663 — Red Hat Security Advisory: kernel security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80908",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:39+00:00"
    },
    {
-    "title": "CVE-2026-74912 — On GPU systems with the security vulnerability fix for CVE-2026-49746 applied, the mapping range of graphics buffers is limited which causes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74912",
-    "score": null,
-    "date": "2026-10-30T03:32:02Z"
+    "title": "CVE-2026-23103 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77690",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:38+00:00"
+   },
+   {
+    "title": "CVE-2026-23103 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77689",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:37+00:00"
+   },
+   {
+    "title": "CVE-2023-53781 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77301",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:36+00:00"
+   },
+   {
+    "title": "CVE-2026-23442 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:77219",
+    "score": 8.8,
+    "date": "2026-10-30T04:30:35+00:00"
    }
   ],
   "kev": [
@@ -443,27 +461,27 @@
   ],
   "tools": [
    {
-    "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2361,
+    "stars": 2363,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2239,
+    "stars": 2245,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1420,
+    "stars": 1421,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1047,
+    "stars": 1048,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 178,
+    "stars": 179,
     "lang": "—"
    }
   ],
@@ -631,13 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "php2bitcoin x brotli2coin: live hacking stream",
-    "url": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
-    "date": "2026-10-30T03:06:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
     "url": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/",
     "date": "2026-10-29T08:45:46+00:00",
@@ -662,6 +673,13 @@
     "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!",
     "url": "https://www.reddit.com/r/netsec/comments/1xif160/the_last_proof_of_human_craft_forging_a_microsoft/",
     "date": "2026-10-29T09:15:54+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "php2bitcoin x brotli2coin: live hacking stream",
+    "url": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
+    "date": "2026-10-30T03:06:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
