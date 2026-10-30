@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T18:23:59.908Z",
+ "generatedAt": "2026-10-30T19:21:31.701Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-56074 — PraisonAI: Coarse-Grained Tool Approval Cache Bypasses Per-Invocation Consent for Shell Commands",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-56074",
+    "score": 5.5,
+    "date": "2026-07-13T14:36:52.273166Z"
+   },
+   {
+    "title": "MAL-2026-18404 — Malicious code in claims-acct-unlock (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18404",
+    "score": null,
+    "date": "2026-10-30T07:14:58Z"
    }
   ],
   "kev": [
@@ -131,6 +143,13 @@
   ],
   "adv": [
    {
+    "title": "AdminNeo: version-cache array injection causes persistent denial of service",
+    "url": "https://github.com/advisories/GHSA-jm85-8cpp-9cjc",
+    "score": 7.5,
+    "ghsa": "GHSA-jm85-8cpp-9cjc",
+    "date": "2026-10-30T18:53:08Z"
+   },
+   {
     "title": "joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
     "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
     "score": null,
@@ -206,13 +225,6 @@
     "score": 7.5,
     "ghsa": "GHSA-q7v9-x93c-xqv3",
     "date": "2026-10-29T16:40:01Z"
-   },
-   {
-    "title": "Vite: `server.fs.deny` bypassed with queries",
-    "url": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj",
-    "score": null,
-    "ghsa": "GHSA-8g5g-mxqh-grgj",
-    "date": "2026-10-29T16:39:56Z"
    }
   ],
   "thn": [
@@ -391,13 +403,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2393,
+    "stars": 2394,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2288,
+    "stars": 2289,
     "lang": "Go"
    },
    {
@@ -457,7 +469,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 233,
+    "stars": 234,
     "lang": "—"
    }
   ],
