@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T20:22:01.679Z",
+ "generatedAt": "2026-10-30T21:21:43.996Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "pypi-publish action revocation of CA in the chain that Sigstore uses in Trusted Publishing and Digital Attestations for PyPI",
+    "url": "https://github.com/advisories/GHSA-5xjx-3w67-w9x9",
+    "score": 9.5,
+    "ghsa": "GHSA-5xjx-3w67-w9x9",
+    "date": "2026-10-30T20:24:24Z"
+   },
+   {
     "title": "AdminNeo: version-cache array injection causes persistent denial of service",
     "url": "https://github.com/advisories/GHSA-jm85-8cpp-9cjc",
     "score": 7.5,
@@ -206,13 +213,6 @@
     "score": 6.5,
     "ghsa": "GHSA-8hxf-qr8p-62x4",
     "date": "2026-10-29T16:40:07Z"
-   },
-   {
-    "title": "zip: Unbounded Symlink-Target Handling Can Abort Or Exhaust Memory During Extraction",
-    "url": "https://github.com/advisories/GHSA-q7v9-x93c-xqv3",
-    "score": 7.5,
-    "ghsa": "GHSA-q7v9-x93c-xqv3",
-    "date": "2026-10-29T16:40:01Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+    "date": "Fri, 30 Oct 2026 17:09:46 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
     "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
     "date": "Fri, 30 Oct 2026 11:58:20 -0400",
@@ -378,20 +385,13 @@
     "date": "Thu, 29 Oct 2026 18:08:04 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-    "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-    "date": "Thu, 29 Oct 2026 17:47:25 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2394,
+    "stars": 2397,
     "lang": "Go"
    },
    {
@@ -403,7 +403,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1437,
+    "stars": 1438,
     "lang": "Python"
    },
    {
@@ -415,7 +415,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 788,
+    "stars": 789,
     "lang": "Python"
    },
    {
@@ -433,7 +433,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 506,
+    "stars": 510,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +457,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 239,
+    "stars": 243,
     "lang": "—"
    }
   ],
