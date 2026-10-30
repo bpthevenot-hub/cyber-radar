@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-30T11:22:23.841Z",
+ "generatedAt": "2026-10-30T12:32:23.792Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-103039 — The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom F",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103039",
-    "score": 9.8,
-    "date": "2026-10-30T09:31:24Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-82104 — In Teltonika Networks RUTOS devices running versions from 7.22 through 7.24.2 and TSWOS devices running versions 1.9 through 1.10, a vulnera",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82104",
-    "score": 9.5,
-    "date": "2026-10-30T09:31:25Z"
-   },
-   {
-    "title": "CVE-2026-114616 — Authlib is a Python library which builds OAuth and OpenID Connect servers. Prior to 1.9.1, Authlib's OctKey.import_key() and HMAC signing an",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114616",
-    "score": 9.1,
-    "date": "2026-10-22T22:18:04.420Z"
-   },
-   {
-    "title": "CVE-2026-114615 — Authlib is a Python library which builds OAuth and OpenID Connect servers. From 1.3.1 until 1.9.0, OctKey.import_key() checks asymmetric-key",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114615",
-    "score": 9.1,
-    "date": "2026-10-22T22:18:04.257Z"
-   },
-   {
-    "title": "CVE-2026-59387 — The Nginx routing configuration for Cloud Controller blocks unauthenticated access to /internal/v4/ and /internal/v5/ endpoints but omits an",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59387",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90994",
     "score": 8.8,
-    "date": "2026-10-30T09:31:26Z"
+    "date": "2026-10-30T11:04:54+00:00"
    },
    {
-    "title": "CVE-2026-89435 — The Formidable Forms – WordPress Form Builder for Contact Forms, Calculators, Quizzes & More plugin for WordPress is vulnerable to Arbitrary",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89435",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87246",
     "score": 8.8,
-    "date": "2026-10-30T09:31:25Z"
+    "date": "2026-10-30T11:04:53+00:00"
    },
    {
-    "title": "CVE-2026-90437 — The Gravity Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Post Excerpt / Post Custom Field / Rich-Text Paragra",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-90437",
-    "score": 7.2,
-    "date": "2026-10-30T09:31:25Z"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87245",
+    "score": 8.8,
+    "date": "2026-10-30T11:04:53+00:00"
    },
    {
-    "title": "CVE-2026-97645 — The Gravity Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via List Field in all versions up to, and including, 3.1",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97645",
-    "score": 7.2,
-    "date": "2026-10-30T09:31:25Z"
+    "title": "CVE-2025-39964 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70498",
+    "score": 8.8,
+    "date": "2026-10-30T11:04:48+00:00"
    },
    {
-    "title": "CVE-2026-116622 — The Food Store – Online Food Delivery & Pickup plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'service_time' para",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116622",
-    "score": 7.2,
-    "date": "2026-10-30T09:31:24Z"
+    "title": "CVE-2025-39964 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:70459",
+    "score": 8.8,
+    "date": "2026-10-30T11:04:43+00:00"
    },
    {
-    "title": "CVE-2026-114618 — Authlib is a Python library which builds OAuth and OpenID Connect servers. Prior to 1.9.0, the default RFC 7523 JWTBearerGrant.get_audiences",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114618",
-    "score": 6.8,
-    "date": "2026-10-22T22:18:04.747Z"
+    "title": "RUSTSEC-2026-0425 — `nix-nar`: `Decoder::unpack` writes archive entries outside the destination directory (path traversal)",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0425",
+    "score": 7.5,
+    "date": "2026-10-30T12:00:00Z"
    },
    {
-    "title": "CVE-2026-59388 — Cloud Controller (CAPI) leaks sensitive data into audit logs in multiple instances: custom buildpack credentials are exposed in audit events",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59388",
-    "score": 6.5,
-    "date": "2026-10-30T09:31:26Z"
+    "title": "CVE-2026-15577 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87077",
+    "score": 7.5,
+    "date": "2026-10-30T11:04:53+00:00"
    },
    {
-    "title": "CVE-2026-59386 — A SpaceSupporter could improperly modify an application's start command and buildpack—actions requiring SpaceDeveloper privileges. This priv",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59386",
-    "score": 6.5,
-    "date": "2026-10-30T09:31:26Z"
+    "title": "CVE-2026-56866 — Red Hat Security Advisory: golang security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87043",
+    "score": 7.5,
+    "date": "2026-10-30T11:04:52+00:00"
+   },
+   {
+    "title": "CVE-2026-56866 — Red Hat Security Advisory: golang security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87042",
+    "score": 7.5,
+    "date": "2026-10-30T11:04:52+00:00"
+   },
+   {
+    "title": "CVE-2026-56866 — Red Hat Security Advisory: golang security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87041",
+    "score": 7.5,
+    "date": "2026-10-30T11:04:52+00:00"
+   },
+   {
+    "title": "CVE-2026-56866 — Red Hat Security Advisory: golang security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87040",
+    "score": 7.5,
+    "date": "2026-10-30T11:04:50+00:00"
+   },
+   {
+    "title": "CVE-2026-56866 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:86203",
+    "score": 7.5,
+    "date": "2026-10-30T11:04:50+00:00"
    }
   ],
   "kev": [
@@ -289,7 +289,28 @@
   ],
   "thn": [
    {
-    "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+    "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+    "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+    "date": "Fri, 30 Oct 2026 17:51:56 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+    "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+    "date": "Fri, 30 Oct 2026 17:28:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+    "date": "Fri, 30 Oct 2026 16:10:45 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
     "date": "Fri, 30 Oct 2026 14:25:47 +0530",
     "badge": "THREAT",
@@ -348,27 +369,6 @@
     "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
     "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
     "date": "Thu, 29 Oct 2026 17:09:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-    "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-    "date": "Thu, 29 Oct 2026 17:09:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-    "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-    "date": "Thu, 29 Oct 2026 17:03:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-    "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-    "date": "Thu, 29 Oct 2026 17:03:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2378,
+    "stars": 2379,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2269,
+    "stars": 2272,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1423,
+    "stars": 1424,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1066,
+    "stars": 1067,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "zero-lab-ai/skills — Portable, evidence-bound security skills for authorized defensive assessment, red teaming, penetration testing",
     "url": "https://github.com/zero-lab-ai/skills",
-    "stars": 284,
+    "stars": 285,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 202,
+    "stars": 210,
     "lang": "—"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1764,
   "adv": 12,
   "feed": 48
