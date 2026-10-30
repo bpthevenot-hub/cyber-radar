@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T22:21:43.273Z",
+ "generatedAt": "2026-10-30T23:21:34.310Z",
  "sources": {
   "cve": [
    {
@@ -15,46 +15,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
-    "score": 8.8,
-    "date": "2026-10-30T21:14:54+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-10-30T22:14:56+00:00"
    },
    {
-    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
-    "score": 8.8,
-    "date": "2026-10-30T21:14:54+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.2.4 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9453",
+    "score": 9.1,
+    "date": "2026-10-30T22:14:55+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: LVMS 4.16 Bug Fix and Enhancement update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92291",
-    "score": 8.8,
-    "date": "2026-10-30T21:14:52+00:00"
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.1.7 (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9448",
+    "score": 9.1,
+    "date": "2026-10-30T22:14:55+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90994",
-    "score": 8.8,
-    "date": "2026-10-30T21:14:51+00:00"
+    "title": "CVE-2026-32287 — Red Hat Security Advisory: Red Hat build of OpenTelemetry 3.9.2 release (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9388",
+    "score": 9.1,
+    "date": "2026-10-30T22:14:55+00:00"
    },
    {
-    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92217",
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: Red Hat OpenShift Service Mesh 3.0.10 (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9440",
+    "score": 9.1,
+    "date": "2026-10-30T22:14:54+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-10-30T22:14:53+00:00"
+   },
+   {
+    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
+    "score": 8.8,
+    "date": "2026-10-30T22:14:53+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.18 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92860",
     "score": 8.2,
-    "date": "2026-10-30T21:14:52+00:00"
+    "date": "2026-10-30T22:14:53+00:00"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.12 security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92303",
-    "score": 8.1,
-    "date": "2026-10-30T21:14:52+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat build of MicroShift 4.19.53 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91191",
-    "score": 8.1,
-    "date": "2026-10-30T21:14:51+00:00"
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.17 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92859",
+    "score": 8.2,
+    "date": "2026-10-30T22:14:52+00:00"
    }
   ],
   "kev": [
@@ -173,88 +185,88 @@
   ],
   "adv": [
    {
-    "title": "pypi-publish action revocation of CA in the chain that Sigstore uses in Trusted Publishing and Digital Attestations for PyPI",
-    "url": "https://github.com/advisories/GHSA-5xjx-3w67-w9x9",
-    "score": 9.5,
-    "ghsa": "GHSA-5xjx-3w67-w9x9",
-    "date": "2026-10-30T20:24:24Z"
-   },
-   {
-    "title": "AdminNeo: version-cache array injection causes persistent denial of service",
-    "url": "https://github.com/advisories/GHSA-jm85-8cpp-9cjc",
+    "title": "Kubeflow Pipelines: Pipeline archive upload allows decompression bomb to exhaust server memory",
+    "url": "https://github.com/advisories/GHSA-8fmv-6rg5-5924",
     "score": 7.5,
-    "ghsa": "GHSA-jm85-8cpp-9cjc",
-    "date": "2026-10-30T18:53:08Z"
+    "ghsa": "GHSA-8fmv-6rg5-5924",
+    "date": "2026-10-30T23:13:38Z"
    },
    {
-    "title": "joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
-    "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
+    "title": "Kubeflow Pipelines: Run-log endpoint permits unauthorized access to pod logs",
+    "url": "https://github.com/advisories/GHSA-wg5q-x4j9-qm54",
+    "score": 7.5,
+    "ghsa": "GHSA-wg5q-x4j9-qm54",
+    "date": "2026-10-30T23:13:29Z"
+   },
+   {
+    "title": "pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
+    "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
+    "score": 7.5,
+    "ghsa": "GHSA-5849-834g-hvw5",
+    "date": "2026-10-30T23:13:16Z"
+   },
+   {
+    "title": "pypdf has possible large memory usage when parsing page tree",
+    "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
+    "score": 7.5,
+    "ghsa": "GHSA-cggf-277g-3q54",
+    "date": "2026-10-30T23:13:01Z"
+   },
+   {
+    "title": "pypdf has possible infinite loop when cloning dictionaries",
+    "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
+    "score": 7.5,
+    "ghsa": "GHSA-mfr5-77xh-9j7h",
+    "date": "2026-10-30T23:12:20Z"
+   },
+   {
+    "title": "joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
+    "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+    "score": 7.5,
+    "ghsa": "GHSA-4528-x5fx-h6hg",
+    "date": "2026-10-30T23:10:23Z"
+   },
+   {
+    "title": "@hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
+    "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+    "score": 7.5,
+    "ghsa": "GHSA-8494-f6mr-cjpv",
+    "date": "2026-10-30T23:10:13Z"
+   },
+   {
+    "title": "minimatch has potential denial of service via globparts amplification",
+    "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
     "score": null,
-    "ghsa": "GHSA-9pg5-8c7x-5hfx",
-    "date": "2026-10-30T14:54:25Z"
+    "ghsa": "GHSA-g3hv-75wg-m249",
+    "date": "2026-10-30T23:09:55Z"
    },
    {
-    "title": "joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
-    "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+    "title": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+    "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+    "score": null,
+    "ghsa": "GHSA-3g3m-2fjr-6pw4",
+    "date": "2026-10-30T23:09:11Z"
+   },
+   {
+    "title": "Authlib RFC 7592 examples omit registration-access-token client binding",
+    "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
+    "score": 8.8,
+    "ghsa": "GHSA-c73q-w75p-j82v",
+    "date": "2026-10-30T23:09:04Z"
+   },
+   {
+    "title": "pypdf has possible long runtimes when retrieving page labels",
+    "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
     "score": 7.5,
-    "ghsa": "GHSA-jpxq-7h8p-2q76",
-    "date": "2026-10-30T14:54:20Z"
+    "ghsa": "GHSA-42gh-23hr-vphw",
+    "date": "2026-10-30T23:08:55Z"
    },
    {
-    "title": "charmbracelet/soft-serve: Race in `SetPrivate` leaves a private repository readable by unauthenticated users",
-    "url": "https://github.com/advisories/GHSA-f3fj-9625-rv3m",
-    "score": 5.9,
-    "ghsa": "GHSA-f3fj-9625-rv3m",
-    "date": "2026-10-30T14:53:57Z"
-   },
-   {
-    "title": "charmbracelet/soft-serve HTTP responses disclose the existence and names of private repositories",
-    "url": "https://github.com/advisories/GHSA-fgxm-5hvv-x4vh",
-    "score": 5.3,
-    "ghsa": "GHSA-fgxm-5hvv-x4vh",
-    "date": "2026-10-30T14:42:35Z"
-   },
-   {
-    "title": "@nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
-    "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+    "title": "pypdf has possible large memory usage for exceptions in strict mode",
+    "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
     "score": 7.5,
-    "ghsa": "GHSA-qm8w-vx34-5j9j",
-    "date": "2026-10-30T14:42:14Z"
-   },
-   {
-    "title": "decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
-    "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
-    "score": 7.5,
-    "ghsa": "GHSA-qr28-fpjm-wq7f",
-    "date": "2026-10-29T16:41:28Z"
-   },
-   {
-    "title": "Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
-    "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
-    "score": 7.5,
-    "ghsa": "GHSA-vpp8-g58w-m8mp",
-    "date": "2026-10-29T16:41:06Z"
-   },
-   {
-    "title": "zip: legacy Shrink/Reduce/Implode decoder: denial of service from attacker-controlled ZIP64 uncompressed size",
-    "url": "https://github.com/advisories/GHSA-9hj8-73fh-9963",
-    "score": 7.5,
-    "ghsa": "GHSA-9hj8-73fh-9963",
-    "date": "2026-10-29T16:40:19Z"
-   },
-   {
-    "title": "zip: Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically.",
-    "url": "https://github.com/advisories/GHSA-hjqx-j4rw-g7xv",
-    "score": 7.4,
-    "ghsa": "GHSA-hjqx-j4rw-g7xv",
-    "date": "2026-10-29T16:40:12Z"
-   },
-   {
-    "title": "zip: AES Entry HMAC Authentication Bypass on Premature EOF",
-    "url": "https://github.com/advisories/GHSA-8hxf-qr8p-62x4",
-    "score": 6.5,
-    "ghsa": "GHSA-8hxf-qr8p-62x4",
-    "date": "2026-10-29T16:40:07Z"
+    "ghsa": "GHSA-4vqv-7265-gm2w",
+    "date": "2026-10-30T23:08:39Z"
    }
   ],
   "thn": [
@@ -433,13 +445,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2398,
-    "lang": "Go"
-   },
-   {
-    "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
-    "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2294,
+    "stars": 2400,
     "lang": "Go"
    },
    {
@@ -449,9 +455,15 @@
     "lang": "Python"
    },
    {
+    "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
+    "url": "https://github.com/trhhubsd/ARTEX",
+    "stars": 1209,
+    "lang": "Go"
+   },
+   {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1071,
+    "stars": 1072,
     "lang": "TypeScript"
    },
    {
@@ -469,13 +481,13 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 529,
+    "stars": 528,
     "lang": "—"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 510,
+    "stars": 511,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +511,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 244,
+    "stars": 247,
     "lang": "—"
    }
   ],
@@ -687,7 +699,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 8,
   "kev": 1766,
   "adv": 12,
   "feed": 48
