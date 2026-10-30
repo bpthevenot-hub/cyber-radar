@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T10:23:55.283Z",
+ "generatedAt": "2026-10-30T11:22:23.841Z",
  "sources": {
   "cve": [
    {
@@ -51,18 +51,6 @@
     "date": "2026-10-30T09:31:25Z"
    },
    {
-    "title": "CVE-2026-5435 — Red Hat Security Advisory: Cost Management Metrics Operator Update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:81201",
-    "score": 7.6,
-    "date": "2026-10-30T09:26:10+00:00"
-   },
-   {
-    "title": "CVE-2026-110732 — The AI Engine – The Chatbot, AI Framework & MCP for WordPress plugin for WordPress is vulnerable to Missing Authorization in all versions up",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110732",
-    "score": 7.5,
-    "date": "2026-10-30T09:31:24Z"
-   },
-   {
     "title": "CVE-2026-90437 — The Gravity Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Post Excerpt / Post Custom Field / Rich-Text Paragra",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-90437",
     "score": 7.2,
@@ -85,6 +73,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-114618",
     "score": 6.8,
     "date": "2026-10-22T22:18:04.747Z"
+   },
+   {
+    "title": "CVE-2026-59388 — Cloud Controller (CAPI) leaks sensitive data into audit logs in multiple instances: custom buildpack credentials are exposed in audit events",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59388",
+    "score": 6.5,
+    "date": "2026-10-30T09:31:26Z"
+   },
+   {
+    "title": "CVE-2026-59386 — A SpaceSupporter could improperly modify an application's start command and buildpack—actions requiring SpaceDeveloper privileges. This priv",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59386",
+    "score": 6.5,
+    "date": "2026-10-30T09:31:26Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "date": "Fri, 30 Oct 2026 14:25:47 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
     "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
     "date": "Fri, 30 Oct 2026 13:15:30 +0530",
@@ -364,16 +371,16 @@
     "date": "Thu, 29 Oct 2026 17:03:15 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-    "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-    "date": "Thu, 29 Oct 2026 16:14:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft finally fixes VPN issues caused by September updates",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+    "date": "Fri, 30 Oct 2026 07:20:26 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
@@ -450,32 +457,25 @@
     "date": "Thu, 29 Oct 2026 10:35:40 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "3 Ways AI Agents Already Operate in Your Browser",
-    "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-    "date": "Thu, 29 Oct 2026 10:00:10 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2374,
+    "stars": 2378,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2264,
+    "stars": 2269,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1421,
+    "stars": 1423,
     "lang": "Python"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 195,
+    "stars": 202,
     "lang": "—"
    }
   ],
