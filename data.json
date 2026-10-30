@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-10-30T07:24:55.692Z",
+ "generatedAt": "2026-10-30T08:28:09.107Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2025-9086 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.1 security update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4943",
-    "score": 9.8,
-    "date": "2026-10-30T07:16:50+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,14 +15,26 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-12143 — Red Hat Security Advisory: OpenShift Container Platform 4.22.8 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:48693",
-    "score": 9.4,
-    "date": "2026-10-30T07:16:48+00:00"
+    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.16.72 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73853",
+    "score": 9.3,
+    "date": "2026-10-30T07:17:44+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Model Optimization Tools 3.5.2 (CUDA) (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82066",
+    "score": 8.8,
+    "date": "2026-10-30T07:18:09+00:00"
    },
    {
     "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.3.5 (CUDA 12.9) (+20 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:81127",
+    "score": 8.8,
+    "date": "2026-10-30T07:18:08+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.3.5 (CUDA 13.0) (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80756",
     "score": 8.8,
     "date": "2026-10-30T07:18:08+00:00"
    },
@@ -45,6 +51,18 @@
     "date": "2026-10-30T07:18:04+00:00"
    },
    {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Spyre) (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75660",
+    "score": 8.8,
+    "date": "2026-10-30T07:18:03+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (ROCm 7.14) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75659",
+    "score": 8.8,
+    "date": "2026-10-30T07:18:03+00:00"
+   },
+   {
     "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (TPU) (+33 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:75658",
     "score": 8.8,
@@ -57,34 +75,16 @@
     "date": "2026-10-30T07:18:02+00:00"
    },
    {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Neuron) (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:75654",
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Rubin) (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75655",
     "score": 8.8,
     "date": "2026-10-30T07:18:01+00:00"
    },
    {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Gaudi) (+34 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74771",
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.2 (Neuron) (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:75654",
     "score": 8.8,
-    "date": "2026-10-30T07:17:59+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.3 (ROCm 7.1) (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74687",
-    "score": 8.8,
-    "date": "2026-10-30T07:17:58+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.3.4 (Spyre) (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74365",
-    "score": 8.8,
-    "date": "2026-10-30T07:17:55+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Base Images 3.3.4 (Neuron) (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:74450",
-    "score": 8.8,
-    "date": "2026-10-30T07:17:54+00:00"
+    "date": "2026-10-30T07:18:01+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "date": "Fri, 30 Oct 2026 12:57:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
     "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
     "date": "Fri, 30 Oct 2026 09:44:59 +0530",
@@ -362,13 +369,6 @@
     "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
     "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
     "date": "Thu, 29 Oct 2026 15:56:33 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-    "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "date": "Thu, 29 Oct 2026 14:35:39 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2364,
+    "stars": 2365,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2247,
+    "stars": 2252,
     "lang": "Go"
    },
    {
@@ -499,13 +499,13 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 522,
+    "stars": 523,
     "lang": "—"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 502,
+    "stars": 503,
     "lang": "TypeScript"
    },
    {
@@ -523,13 +523,13 @@
    {
     "title": "bdg9412/artex-ko-plus — ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/bdg9412/artex-ko-plus",
-    "stars": 249,
+    "stars": 248,
     "lang": "Go"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 183,
+    "stars": 188,
     "lang": "—"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 3,
   "kev": 1764,
   "adv": 12,
   "feed": 48
