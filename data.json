@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T17:21:55.404Z",
+ "generatedAt": "2026-10-30T18:23:59.908Z",
  "sources": {
   "cve": [
    {
@@ -13,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "OSV-2024-1254 — Security exception in org.apache.lucene.util.ArrayUtil.growExact",
-    "url": "https://github.com/advisories/OSV-2024-1254",
-    "score": null,
-    "date": "2024-11-01T00:07:39.301298Z"
    }
   ],
   "kev": [
@@ -223,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+    "date": "Fri, 30 Oct 2026 22:28:44 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
     "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
     "date": "Fri, 30 Oct 2026 20:47:28 +0530",
@@ -296,13 +297,6 @@
     "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
     "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
     "date": "Thu, 29 Oct 2026 21:27:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-    "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-    "date": "Thu, 29 Oct 2026 20:50:29 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,19 +397,19 @@
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2285,
+    "stars": 2288,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1433,
+    "stars": 1436,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1070,
+    "stars": 1071,
     "lang": "TypeScript"
    },
    {
@@ -427,13 +421,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 594,
+    "stars": 595,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 527,
+    "stars": 528,
     "lang": "—"
    },
    {
@@ -463,7 +457,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 230,
+    "stars": 233,
     "lang": "—"
    }
   ],
@@ -583,13 +577,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How Linux Trusted Bytes That IPsec Never Authenticated",
-    "url": "https://www.reddit.com/r/netsec/comments/1xjfbn1/how_linux_trusted_bytes_that_ipsec_never/",
-    "date": "2026-10-30T13:25:32+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Supermicro BMC ipmi cves",
     "url": "https://www.reddit.com/r/netsec/comments/1xjeg2c/supermicro_bmc_ipmi_cves/",
     "date": "2026-10-30T12:47:51+00:00",
@@ -637,6 +624,13 @@
     "date": "2026-10-30T03:06:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
+    "url": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/",
+    "date": "2026-10-29T16:18:52+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -652,7 +646,7 @@
  },
  "kpis": {
   "crit": 2,
-  "kev": 1764,
+  "kev": 1766,
   "adv": 12,
   "feed": 48
  },
