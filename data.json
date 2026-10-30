@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-10-30T04:26:02.084Z",
+ "generatedAt": "2026-10-30T05:24:07.828Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-89078 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:88880",
-    "score": 9.8,
-    "date": "2026-10-30T02:02:28+00:00"
-   },
-   {
-    "title": "CVE-2026-89078 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:88865",
-    "score": 9.8,
-    "date": "2026-10-30T02:02:24+00:00"
-   },
-   {
-    "title": "CVE-2026-89078 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:88861",
-    "score": 9.8,
-    "date": "2026-10-30T02:02:23+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-4878 — Red Hat Security Advisory: OpenShift Container Platform 4.17.55 bug fix and security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:34098",
-    "score": 8.8,
-    "date": "2026-10-30T02:02:23+00:00"
+    "title": "CVE-2026-118475 — A flaw was found in Eye of GNOME. When parsing a specially crafted PNG image containing malformed color profile metadata, the application fa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118475",
+    "score": 3.6,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-31431 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:33486",
-    "score": 8.8,
-    "date": "2026-10-30T02:02:23+00:00"
+    "title": "CVE-2026-112922 — A flaw was found in Ghostscript. A remote attacker could exploit this vulnerability by enticing a user to process a specially crafted PDF or",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112922",
+    "score": 3.3,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-4878 — Red Hat Security Advisory: OpenShift Container Platform 4.14.68 bug fix and security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:28887",
-    "score": 8.8,
-    "date": "2026-10-30T02:02:22+00:00"
+    "title": "CVE-2026-74915 — A web page that contains unusual WebGPU content loaded into the GPU GLES render process can trigger a OOB read and/or write crash in the GPU",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74915",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-4878 — Red Hat Security Advisory: OpenShift Container Platform 4.16.64 bug fix and security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:25044",
-    "score": 8.8,
-    "date": "2026-10-30T02:02:22+00:00"
+    "title": "CVE-2026-76030 — Memory corruption in FileSystem in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to potentially execute arbitrary code insi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76030",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-4878 — Red Hat Security Advisory: OpenShift Container Platform 4.19.33 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:23245",
-    "score": 8.2,
-    "date": "2026-10-30T02:02:19+00:00"
+    "title": "CVE-2026-76031 — Use after free in Input in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to execute arbitrary code inside the sandbox via a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76031",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-4878 — Red Hat Security Advisory: OpenShift Container Platform 4.15.65 bug fix and security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:23233",
-    "score": 8.2,
-    "date": "2026-10-30T02:02:18+00:00"
+    "title": "CVE-2026-19199 — Software installed and run as a non-privileged user may conduct improper system calls to allocate physical memory. A 32-bit integer overflow",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19199",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: OpenShift Container Platform 4.13.67 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21690",
-    "score": 8.2,
-    "date": "2026-10-30T02:02:18+00:00"
+    "title": "CVE-2026-65586 — Software installed and run as a non-privileged user may conduct improper GPU system calls to free memory in still in use, replace with anoth",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65586",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2025-9714 — Red Hat Security Advisory: OpenShift Container Platform 4.12.91 bug fix and security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:21695",
-    "score": 8.2,
-    "date": "2026-10-30T02:02:17+00:00"
+    "title": "CVE-2026-76029 — Memory corruption in Network in Google Chrome prior to 156.0.8078.79 allowed a remote attacker to potentially execute arbitrary code inside ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76029",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    },
    {
-    "title": "CVE-2026-3497 — Red Hat Security Advisory: OpenShift Container Platform 4.16.63 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:20087",
-    "score": 8.2,
-    "date": "2026-10-30T02:02:13+00:00"
+    "title": "CVE-2026-74912 — On GPU systems with the security vulnerability fix for CVE-2026-49746 applied, the mapping range of graphics buffers is limited which causes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74912",
+    "score": null,
+    "date": "2026-10-30T03:32:02Z"
    }
   ],
   "kev": [
@@ -289,6 +271,13 @@
   ],
   "thn": [
    {
+    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+    "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+    "date": "Fri, 30 Oct 2026 09:44:59 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
     "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
     "date": "Fri, 30 Oct 2026 00:41:58 +0530",
@@ -362,13 +351,6 @@
     "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
     "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
     "date": "Thu, 29 Oct 2026 14:35:39 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "date": "Thu, 29 Oct 2026 13:54:22 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,19 +445,19 @@
    {
     "title": "jiwoochris/artex-global — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2358,
+    "stars": 2361,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2235,
+    "stars": 2239,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1419,
+    "stars": 1420,
     "lang": "Python"
    },
    {
@@ -527,10 +509,10 @@
     "lang": "Go"
    },
    {
-    "title": "HOSTED-POWER/php_uploadprogress_guard — Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirror",
-    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-    "stars": 172,
-    "lang": "C"
+    "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
+    "url": "https://github.com/jmanico/grim-prompter",
+    "stars": 178,
+    "lang": "—"
    }
   ],
   "hn": [
@@ -642,6 +624,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "TightVNC Viewer Pre-auth RCE",
+    "url": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
+    "date": "2026-10-29T14:09:08+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "php2bitcoin x brotli2coin: live hacking stream",
     "url": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
     "date": "2026-10-30T03:06:20+00:00",
@@ -652,13 +641,6 @@
     "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
     "url": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/",
     "date": "2026-10-29T08:45:46+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "TightVNC Viewer Pre-auth RCE",
-    "url": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
-    "date": "2026-10-29T14:09:08+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -684,16 +666,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Every false positive we have shipped had the same cause",
-    "url": "https://www.reddit.com/r/netsec/comments/1xiyhgr/every_false_positive_we_have_shipped_had_the_same/",
-    "date": "2026-10-29T22:36:12+00:00",
+    "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
+    "url": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/",
+    "date": "2026-10-29T16:18:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
-    "url": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/",
-    "date": "2026-10-29T16:18:52+00:00",
+    "title": "Every false positive we have shipped had the same cause",
+    "url": "https://www.reddit.com/r/netsec/comments/1xiyhgr/every_false_positive_we_have_shipped_had_the_same/",
+    "date": "2026-10-29T22:36:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +699,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1764,
   "adv": 12,
   "feed": 48
