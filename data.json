@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T14:25:37.085Z",
+ "generatedAt": "2026-10-30T15:22:42.705Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: brotli security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90890",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:48+00:00"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: brotli security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90889",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:46+00:00"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: brotli security, bug fix, and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90888",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:44+00:00"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: brotli security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90501",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:41+00:00"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: brotli security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90495",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:40+00:00"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: brotli security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90449",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:38+00:00"
-   },
-   {
-    "title": "CVE-2026-111497 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:87420",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:36+00:00"
-   },
-   {
-    "title": "CVE-2026-6746 — Red Hat Security Advisory: firefox security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19704",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:33+00:00"
-   },
-   {
-    "title": "CVE-2026-6746 — Red Hat Security Advisory: firefox security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19655",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:31+00:00"
-   },
-   {
-    "title": "CVE-2026-6746 — Red Hat Security Advisory: firefox security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19542",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:28+00:00"
-   },
-   {
-    "title": "CVE-2026-6746 — Red Hat Security Advisory: thunderbird security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19469",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:25+00:00"
-   },
-   {
-    "title": "CVE-2026-6746 — Red Hat Security Advisory: thunderbird security update (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19468",
-    "score": 8.1,
-    "date": "2026-10-30T13:25:23+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,41 @@
   ],
   "adv": [
    {
+    "title": "joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
+    "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
+    "score": null,
+    "ghsa": "GHSA-9pg5-8c7x-5hfx",
+    "date": "2026-10-30T14:54:25Z"
+   },
+   {
+    "title": "joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
+    "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+    "score": 7.5,
+    "ghsa": "GHSA-jpxq-7h8p-2q76",
+    "date": "2026-10-30T14:54:20Z"
+   },
+   {
+    "title": "charmbracelet/soft-serve: Race in `SetPrivate` leaves a private repository readable by unauthenticated users",
+    "url": "https://github.com/advisories/GHSA-f3fj-9625-rv3m",
+    "score": 5.9,
+    "ghsa": "GHSA-f3fj-9625-rv3m",
+    "date": "2026-10-30T14:53:57Z"
+   },
+   {
+    "title": "charmbracelet/soft-serve HTTP responses disclose the existence and names of private repositories",
+    "url": "https://github.com/advisories/GHSA-fgxm-5hvv-x4vh",
+    "score": 5.3,
+    "ghsa": "GHSA-fgxm-5hvv-x4vh",
+    "date": "2026-10-30T14:42:35Z"
+   },
+   {
+    "title": "@nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
+    "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+    "score": 7.5,
+    "ghsa": "GHSA-qm8w-vx34-5j9j",
+    "date": "2026-10-30T14:42:14Z"
+   },
+   {
     "title": "decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
     "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
     "score": 7.5,
@@ -250,41 +213,6 @@
     "score": null,
     "ghsa": "GHSA-8g5g-mxqh-grgj",
     "date": "2026-10-29T16:39:56Z"
-   },
-   {
-    "title": "Shopify App: Token exchange shop context confusion may allow cross-shop authorization bypass in affected apps",
-    "url": "https://github.com/advisories/GHSA-6j52-38f8-qhxr",
-    "score": 7.5,
-    "ghsa": "GHSA-6j52-38f8-qhxr",
-    "date": "2026-10-29T16:39:49Z"
-   },
-   {
-    "title": "cert-manager: Direct ACME Challenge resources can bypass Issuer DNS01 solver policy and use ClusterIssuer DNS credentials",
-    "url": "https://github.com/advisories/GHSA-8rvj-mm4h-c258",
-    "score": 7.3,
-    "ghsa": "GHSA-8rvj-mm4h-c258",
-    "date": "2026-10-29T16:39:41Z"
-   },
-   {
-    "title": "Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass",
-    "url": "https://github.com/advisories/GHSA-v3f7-2p4r-mwfw",
-    "score": 7.3,
-    "ghsa": "GHSA-v3f7-2p4r-mwfw",
-    "date": "2026-10-29T16:39:03Z"
-   },
-   {
-    "title": "Keycloak vulnerable to information disclosure through arbitrary filesystem path probing",
-    "url": "https://github.com/advisories/GHSA-9jrw-8xf7-xqhq",
-    "score": 4.9,
-    "ghsa": "GHSA-9jrw-8xf7-xqhq",
-    "date": "2026-10-29T16:38:31Z"
-   },
-   {
-    "title": "Keycloak allows unauthorized access to resources via uma permission ticket bypass",
-    "url": "https://github.com/advisories/GHSA-w3p3-7cjg-vgfw",
-    "score": 4.6,
-    "ghsa": "GHSA-w3p3-7cjg-vgfw",
-    "date": "2026-10-29T16:37:57Z"
    }
   ],
   "thn": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "date": "Fri, 30 Oct 2026 10:36:54 -0400",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
     "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
     "date": "Fri, 30 Oct 2026 10:00:10 -0400",
@@ -450,32 +385,25 @@
     "date": "Thu, 29 Oct 2026 15:23:41 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-    "date": "Thu, 29 Oct 2026 14:38:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2387,
+    "stars": 2389,
     "lang": "Go"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 2277,
+    "stars": 2280,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1428,
+    "stars": 1429,
     "lang": "Python"
    },
    {
@@ -487,7 +415,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 787,
+    "stars": 788,
     "lang": "Python"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 223,
+    "stars": 225,
     "lang": "—"
    }
   ],
