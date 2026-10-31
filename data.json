@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-10-31T09:21:54.055Z",
+ "generatedAt": "2026-10-31T10:21:39.245Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2023-46159 — Red Hat Security Advisory: New container image: rhceph-9.2 (+53 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:86618",
-    "score": 9.8,
-    "date": "2026-10-31T07:47:19+00:00"
-   },
-   {
-    "title": "CVE-2025-57847 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:71210",
-    "score": 9.8,
-    "date": "2026-10-31T07:46:58+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-10-31T07:46:32+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
-    "score": 9.8,
-    "date": "2026-10-31T07:46:32+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -39,52 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2023-4860 — Red Hat Security Advisory: webkit2gtk3 security update (+300 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92339",
+    "score": 9.6,
+    "date": "2026-10-31T08:47:44+00:00"
+   },
+   {
+    "title": "CVE-2023-4860 — Red Hat Security Advisory: webkit2gtk3 security update (+301 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92216",
+    "score": 9.6,
+    "date": "2026-10-31T08:47:44+00:00"
+   },
+   {
+    "title": "CVE-2024-7532 — Red Hat Security Advisory: webkitgtk4 security update (+220 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91631",
+    "score": 9.6,
+    "date": "2026-10-31T08:47:44+00:00"
+   },
+   {
+    "title": "CVE-2023-4860 — Red Hat Security Advisory: webkit2gtk3 security update (+301 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:89822",
+    "score": 9.6,
+    "date": "2026-10-31T08:47:41+00:00"
+   },
+   {
+    "title": "CVE-2023-4860 — Red Hat Security Advisory: webkit2gtk3 security update (+301 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:89821",
+    "score": 9.6,
+    "date": "2026-10-31T08:47:40+00:00"
+   },
+   {
     "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.5.2 enhancement update (+70 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:92452",
     "score": 9.1,
-    "date": "2026-10-31T07:47:11+00:00"
+    "date": "2026-10-31T08:47:44+00:00"
    },
    {
     "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.5.2 enhancement update (+70 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:92449",
     "score": 9.1,
-    "date": "2026-10-31T07:47:10+00:00"
-   },
-   {
-    "title": "CVE-2026-34182 — Red Hat Security Advisory: OpenShift Container Platform 4.18.59 bug fix and security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89725",
-    "score": 9.1,
-    "date": "2026-10-31T07:47:10+00:00"
-   },
-   {
-    "title": "CVE-2026-5260 — Red Hat Security Advisory: OpenShift Container Platform 4.19.53 bug fix and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89651",
-    "score": 9.1,
-    "date": "2026-10-31T07:47:09+00:00"
-   },
-   {
-    "title": "CVE-2026-5260 — Red Hat Security Advisory: OpenShift Container Platform 4.20.44 bug fix and security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89333",
-    "score": 9.1,
-    "date": "2026-10-31T07:47:09+00:00"
-   },
-   {
-    "title": "CVE-2026-5260 — Red Hat Security Advisory: OpenShift Container Platform 4.21.40 bug fix and security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89232",
-    "score": 9.1,
-    "date": "2026-10-31T07:47:08+00:00"
+    "date": "2026-10-31T08:47:44+00:00"
    },
    {
     "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (cpu) (+70 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:82415",
     "score": 9.1,
-    "date": "2026-10-31T07:47:06+00:00"
+    "date": "2026-10-31T08:47:35+00:00"
    },
    {
     "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (spyre) (+69 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:82371",
     "score": 9.1,
-    "date": "2026-10-31T07:47:05+00:00"
+    "date": "2026-10-31T08:47:35+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (cuda) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82368",
+    "score": 9.1,
+    "date": "2026-10-31T08:47:34+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.2 (Gaudi) (+70 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82061",
+    "score": 9.1,
+    "date": "2026-10-31T08:47:34+00:00"
+   },
+   {
+    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat AI Inference 3.5.2 (ROCm) (+62 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82059",
+    "score": 9.1,
+    "date": "2026-10-31T08:47:34+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2423,
+    "stars": 2425,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1446,
+    "stars": 1448,
     "lang": "Python"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1080,
+    "stars": 1081,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 596,
+    "stars": 597,
     "lang": "Java"
    },
    {
@@ -523,13 +523,13 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 277,
+    "stars": 278,
     "lang": "—"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 253,
+    "stars": 258,
     "lang": "C"
    }
   ],
