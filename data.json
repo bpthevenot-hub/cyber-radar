@@ -1,31 +1,7 @@
 {
- "generatedAt": "2026-10-31T02:23:38.236Z",
+ "generatedAt": "2026-10-31T03:22:25.836Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-110264 — An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110264",
-    "score": 10,
-    "date": "2026-10-22T03:33:33Z"
-   },
-   {
-    "title": "CVE-2026-97229 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97229",
-    "score": 10,
-    "date": "2026-10-13T03:30:36Z"
-   },
-   {
-    "title": "CVE-2026-93577 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93577",
-    "score": 9.9,
-    "date": "2026-09-24T00:30:26Z"
-   },
-   {
-    "title": "CVE-2026-89078 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89078",
-    "score": 9.9,
-    "date": "2026-09-24T00:30:26Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -39,52 +15,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-16760 — In Trail of Bits fickling through 0.1.12, the _process_import() method in fickle.py adds an imported name to the likely_safe_imports set whe",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16760",
-    "score": 8.8,
-    "date": "2026-10-31T00:30:32Z"
-   },
-   {
-    "title": "CVE-2026-118938 — In Trail of Bits fickling through 0.1.12, a pickle STACK_GLOBAL operand carrying a dotted __qualname__ (for example \"Values.read_file\") is r",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118938",
-    "score": 8.8,
-    "date": "2026-10-31T00:30:32Z"
-   },
-   {
-    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:85308",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:45.400552Z"
-   },
-   {
-    "title": "RXSA-2026:92209 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RXSA-2026:92209",
-    "score": 8.1,
-    "date": "2026-10-31T00:13:57.889244Z"
-   },
-   {
-    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "title": "CVE-2025-38147 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88477",
     "score": 7.8,
-    "date": "2026-10-31T00:14:32.745623Z"
+    "date": "2026-10-31T02:08:55+00:00"
    },
    {
-    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
-    "url": "https://github.com/advisories/RLSA-2026:86331",
+    "title": "CVE-2026-64114 — Red Hat Security Advisory: kernel security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87375",
     "score": 7.8,
-    "date": "2026-10-22T00:09:40.784195Z"
+    "date": "2026-10-31T02:08:52+00:00"
    },
    {
-    "title": "CVE-2026-111578 — The PDF Invoices & Packing Slips for WooCommerce WordPress plugin from 5.16.2 before 5.16.5 does not properly escape several customer-suppli",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111578",
-    "score": 7.5,
-    "date": "2026-10-31T00:30:32Z"
+    "title": "CVE-2026-64114 — Red Hat Security Advisory: kernel-rt security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87374",
+    "score": 7.8,
+    "date": "2026-10-31T02:08:52+00:00"
    },
    {
-    "title": "RLSA-2026:86056 — Important: lrzsz security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86056",
-    "score": 7.5,
-    "date": "2026-10-22T00:09:05.434592Z"
+    "title": "CVE-2026-13608 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63161",
+    "score": 6.5,
+    "date": "2026-10-31T02:07:35+00:00"
+   },
+   {
+    "title": "MAL-2026-18204 — Malicious code in @factiii/runner (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18204",
+    "score": null,
+    "date": "2026-10-22T21:37:36Z"
    }
   ],
   "kev": [
@@ -463,25 +421,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2401,
+    "stars": 2404,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1442,
+    "stars": 1443,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1212,
+    "stars": 1214,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1074,
+    "stars": 1075,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +469,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 487,
+    "stars": 488,
     "lang": "Rust"
    },
    {
@@ -523,7 +481,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 255,
+    "stars": 257,
     "lang": "—"
    },
    {
@@ -717,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1766,
   "adv": 12,
   "feed": 48
