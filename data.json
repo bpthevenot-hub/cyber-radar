@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-10-31T01:21:36.018Z",
+ "generatedAt": "2026-10-31T02:23:38.236Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-110264 — An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110264",
+    "score": 10,
+    "date": "2026-10-22T03:33:33Z"
+   },
+   {
+    "title": "CVE-2026-97229 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97229",
+    "score": 10,
+    "date": "2026-10-13T03:30:36Z"
+   },
+   {
+    "title": "CVE-2026-93577 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93577",
+    "score": 9.9,
+    "date": "2026-09-24T00:30:26Z"
+   },
+   {
+    "title": "CVE-2026-89078 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89078",
+    "score": 9.9,
+    "date": "2026-09-24T00:30:26Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,34 +39,16 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
+    "title": "CVE-2026-16760 — In Trail of Bits fickling through 0.1.12, the _process_import() method in fickle.py adds an imported name to the likely_safe_imports set whe",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16760",
+    "score": 8.8,
+    "date": "2026-10-31T00:30:32Z"
    },
    {
-    "title": "RLSA-2026:91565 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:91565",
+    "title": "CVE-2026-118938 — In Trail of Bits fickling through 0.1.12, a pickle STACK_GLOBAL operand carrying a dotted __qualname__ (for example \"Values.read_file\") is r",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118938",
     "score": 8.8,
-    "date": "2026-10-29T12:08:23.381701Z"
-   },
-   {
-    "title": "RLSA-2026:90523 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:90523",
-    "score": 8.8,
-    "date": "2026-10-29T12:08:23.381701Z"
-   },
-   {
-    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88359",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
-   },
-   {
-    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88360",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "date": "2026-10-31T00:30:32Z"
    },
    {
     "title": "RLSA-2026:85308 — Important: bubblewrap security update",
@@ -51,40 +57,34 @@
     "date": "2026-10-21T12:08:45.400552Z"
    },
    {
-    "title": "RLSA-2026:91003 — Important: libXrender security update",
-    "url": "https://github.com/advisories/RLSA-2026:91003",
-    "score": 8.3,
-    "date": "2026-10-29T12:08:23.381701Z"
-   },
-   {
-    "title": "RLSA-2026:88248 — Important: expat security update",
-    "url": "https://github.com/advisories/RLSA-2026:88248",
-    "score": 8.2,
-    "date": "2026-10-23T12:11:02.998013Z"
-   },
-   {
     "title": "RXSA-2026:92209 — Important: kernel security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RXSA-2026:92209",
     "score": 8.1,
     "date": "2026-10-31T00:13:57.889244Z"
    },
    {
-    "title": "RLSA-2026:92428 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:92428",
-    "score": 8.1,
-    "date": "2026-10-31T00:09:15.425890Z"
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 7.8,
+    "date": "2026-10-31T00:14:32.745623Z"
    },
    {
-    "title": "RLSA-2026:92419 — Important: bind security update",
-    "url": "https://github.com/advisories/RLSA-2026:92419",
-    "score": 8.1,
-    "date": "2026-10-30T12:08:48.996475Z"
+    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
+    "url": "https://github.com/advisories/RLSA-2026:86331",
+    "score": 7.8,
+    "date": "2026-10-22T00:09:40.784195Z"
    },
    {
-    "title": "RLSA-2026:90449 — Important: brotli security update",
-    "url": "https://github.com/advisories/RLSA-2026:90449",
-    "score": 8.1,
-    "date": "2026-10-29T12:08:23.381701Z"
+    "title": "CVE-2026-111578 — The PDF Invoices & Packing Slips for WooCommerce WordPress plugin from 5.16.2 before 5.16.5 does not properly escape several customer-suppli",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111578",
+    "score": 7.5,
+    "date": "2026-10-31T00:30:32Z"
+   },
+   {
+    "title": "RLSA-2026:86056 — Important: lrzsz security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:86056",
+    "score": 7.5,
+    "date": "2026-10-22T00:09:05.434592Z"
    }
   ],
   "kev": [
@@ -463,31 +463,31 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2400,
+    "stars": 2401,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1440,
+    "stars": 1442,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1211,
+    "stars": 1212,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1073,
+    "stars": 1074,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 789,
+    "stars": 790,
     "lang": "Python"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 253,
+    "stars": 255,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 6,
   "kev": 1766,
   "adv": 12,
   "feed": 48
