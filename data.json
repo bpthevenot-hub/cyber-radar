@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-01T00:46:46.546Z",
+ "generatedAt": "2026-11-01T01:21:26.134Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-47683 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.10 release. (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91651",
+    "score": 10,
+    "date": "2026-11-01T00:20:45+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.13.61 security and extras update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:18242",
-    "score": 8.5,
-    "date": "2026-10-31T23:22:05+00:00"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: osbuild-composer security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90493",
+    "score": 9.1,
+    "date": "2026-11-01T00:20:38+00:00"
    },
    {
-    "title": "CVE-2024-45339 — Red Hat Security Advisory: OpenShift Container Platform 4.16.45 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:11681",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: osbuild-composer security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90363",
+    "score": 9.1,
+    "date": "2026-11-01T00:20:37+00:00"
+   },
+   {
+    "title": "CVE-2026-33186 — Red Hat Security Advisory: OpenShift Container Platform 4.12.102 bug fix and security update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90274",
+    "score": 9.1,
+    "date": "2026-11-01T00:20:34+00:00"
+   },
+   {
+    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
+    "score": 8.8,
+    "date": "2026-11-01T00:20:50+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90994",
+    "score": 8.8,
+    "date": "2026-11-01T00:20:40+00:00"
+   },
+   {
+    "title": "CVE-2026-44918 — Red Hat Security Advisory: OpenShift Container Platform 4.12.102 packages and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90271",
+    "score": 8.7,
+    "date": "2026-11-01T00:20:33+00:00"
+   },
+   {
+    "title": "CVE-2026-8595 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65157",
     "score": 8.3,
-    "date": "2026-10-31T23:21:42+00:00"
+    "date": "2026-11-01T00:20:51+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.10.17 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23064",
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.18 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92860",
     "score": 8.2,
-    "date": "2026-10-31T23:22:09+00:00"
+    "date": "2026-11-01T00:20:50+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.9.17 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:23061",
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.17 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92859",
     "score": 8.2,
-    "date": "2026-10-31T23:22:09+00:00"
+    "date": "2026-11-01T00:20:49+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.10.16 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:22182",
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.16 EUS security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92858",
     "score": 8.2,
-    "date": "2026-10-31T23:22:09+00:00"
+    "date": "2026-11-01T00:20:49+00:00"
    },
    {
-    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.9 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:22287",
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92217",
     "score": 8.2,
-    "date": "2026-10-31T23:22:08+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: OpenShift Container Platform 4.15.59 bug fix and security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:19306",
-    "score": 8.2,
-    "date": "2026-10-31T23:22:07+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: RHTAS 1.1.1 - Red Hat Trusted Artifact Signer Release",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1849",
-    "score": 8.2,
-    "date": "2026-10-31T23:22:07+00:00"
-   },
-   {
-    "title": "CVE-2023-44270 — Red Hat Security Advisory: RHODF-4.17-RHEL-9 security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1824",
-    "score": 8.2,
-    "date": "2026-10-31T23:22:07+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: RHTAS 1.1.1 - Red Hat Trusted Artifact Signer Release",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1848",
-    "score": 8.2,
-    "date": "2026-10-31T23:22:06+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: RHTAS 1.1.1 - Red Hat Trusted Artifact Signer Release",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1847",
-    "score": 8.2,
-    "date": "2026-10-31T23:22:06+00:00"
-   },
-   {
-    "title": "CVE-2024-45337 — Red Hat Security Advisory: RHTAS 1.1.1 - Red Hat Trusted Artifact Signer Release",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1845",
-    "score": 8.2,
-    "date": "2026-10-31T23:22:05+00:00"
+    "date": "2026-11-01T00:20:46+00:00"
    }
   ],
   "kev": [
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1766,
   "adv": 12,
   "feed": 48
