@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T22:21:36.308Z",
+ "generatedAt": "2026-11-01T23:21:39.493Z",
  "sources": {
   "cve": [
    {
@@ -7,6 +7,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-120240",
     "score": 9.9,
     "date": "2026-11-01T21:31:02Z"
+   },
+   {
+    "title": "CVE-2026-98432 — Red Hat Security Advisory: kernel security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:93414",
+    "score": 9.8,
+    "date": "2026-11-01T21:39:57+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,46 +27,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86168",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86195",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
     "title": "RLSA-2026:91565 — Important: kernel security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RLSA-2026:91565",
     "score": 8.8,
     "date": "2026-10-29T12:08:23.381701Z"
-   },
-   {
-    "title": "RLSA-2026:90523 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:90523",
-    "score": 8.8,
-    "date": "2026-10-29T12:08:23.381701Z"
-   },
-   {
-    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88359",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
-   },
-   {
-    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88360",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
    },
    {
     "title": "RLSA-2026:85308 — Important: bubblewrap security update",
@@ -75,16 +45,46 @@
     "date": "2026-10-29T12:08:23.381701Z"
    },
    {
-    "title": "RLSA-2026:89758 — Important: firefox security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:89758",
-    "score": 8.2,
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 8.1,
+    "date": "2026-10-31T00:14:32.745623Z"
+   },
+   {
+    "title": "RXSA-2026:92209 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:92209",
+    "score": 8.1,
+    "date": "2026-10-31T00:13:57.889244Z"
+   },
+   {
+    "title": "RLSA-2026:92428 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92428",
+    "score": 8.1,
+    "date": "2026-10-31T00:09:15.425890Z"
+   },
+   {
+    "title": "RLSA-2026:92419 — Important: bind security update",
+    "url": "https://github.com/advisories/RLSA-2026:92419",
+    "score": 8.1,
+    "date": "2026-10-30T12:08:48.996475Z"
+   },
+   {
+    "title": "RLSA-2026:92430 — Important: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92430",
+    "score": 7.8,
     "date": "2026-10-31T12:09:44.748638Z"
    },
    {
-    "title": "RLSA-2026:88248 — Important: expat security update",
-    "url": "https://github.com/advisories/RLSA-2026:88248",
-    "score": 8.2,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "title": "RLSA-2026:92438 — Important: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92438",
+    "score": 7.8,
+    "date": "2026-10-31T00:09:15.425890Z"
+   },
+   {
+    "title": "RLSA-2026:86331 — Important: glycin-loaders security update",
+    "url": "https://github.com/advisories/RLSA-2026:86331",
+    "score": 7.8,
+    "date": "2026-10-22T00:09:40.784195Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2481,
+    "stars": 2482,
     "lang": "Go"
    },
    {
@@ -517,19 +517,19 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 482,
+    "stars": 486,
     "lang": "Kotlin"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 334,
+    "stars": 335,
     "lang": "—"
    },
    {
     "title": "NyxFoundation/nyxis — A Lean backend framework whose authorization safety is formally proven. The developer writes only a Cedar sche",
     "url": "https://github.com/NyxFoundation/nyxis",
-    "stars": 316,
+    "stars": 317,
     "lang": "Lean"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 4,
   "kev": 1766,
   "adv": 12,
   "feed": 48
