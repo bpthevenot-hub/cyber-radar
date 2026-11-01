@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T14:21:24.709Z",
+ "generatedAt": "2026-11-01T15:21:35.428Z",
  "sources": {
   "cve": [],
   "kev": [
@@ -290,6 +290,13 @@
   ],
   "bleep": [
    {
+    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "date": "Sun, 01 Nov 2026 10:11:21 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
     "date": "Sun, 01 Nov 2026 08:53:11 -0500",
@@ -365,32 +372,25 @@
     "date": "Fri, 30 Oct 2026 09:00:32 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft finally fixes VPN issues caused by September updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "date": "Fri, 30 Oct 2026 07:20:26 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2472,
+    "stars": 2473,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1486,
+    "stars": 1489,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1246,
+    "stars": 1247,
     "lang": "Go"
    },
    {
@@ -402,13 +402,13 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 797,
+    "stars": 798,
     "lang": "Python"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 767,
+    "stars": 768,
     "lang": "Java"
    },
    {
@@ -432,19 +432,19 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 408,
+    "stars": 425,
     "lang": "Kotlin"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 326,
+    "stars": 330,
     "lang": "—"
    },
    {
     "title": "NyxFoundation/nyxis — A Lean backend framework whose authorization safety is formally proven. The developer writes only a Cedar sche",
     "url": "https://github.com/NyxFoundation/nyxis",
-    "stars": 314,
+    "stars": 315,
     "lang": "Lean"
    }
   ],
@@ -544,8 +544,15 @@
    },
    {
     "title": "r/netsec monthly discussion &amp; tool thread",
-    "url": "https://www.reddit.com/r/netsec/comments/1wuzgqr/rnetsec_monthly_discussion_tool_thread/",
-    "date": "2026-10-01T13:29:06+00:00",
+    "url": "https://www.reddit.com/r/netsec/comments/1xl4ghe/rnetsec_monthly_discussion_tool_thread/",
+    "date": "2026-11-01T14:29:24+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Mirage2FA stole 4,561 M365 session cookies despite MFA via AiTM proxy (CVE-2026-69836 CVSS 10.0) : detection rules and WHfB/Cloud Kerberos Trust hardening guide",
+    "url": "https://www.reddit.com/r/netsec/comments/1xkzjb0/mirage2fa_stole_4561_m365_session_cookies_despite/",
+    "date": "2026-11-01T10:15:16+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -609,13 +616,6 @@
     "title": "php2bitcoin x brotli2coin: live hacking stream",
     "url": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
     "date": "2026-10-30T03:06:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
-    "url": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/",
-    "date": "2026-10-29T16:18:52+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
