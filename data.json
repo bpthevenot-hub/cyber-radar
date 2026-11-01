@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T09:21:49.305Z",
+ "generatedAt": "2026-11-01T10:21:56.316Z",
  "sources": {
   "cve": [
    {
@@ -37,12 +37,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-33814 — Red Hat Security Advisory: OpenShift Container Platform 4.14.75 bug fix and security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:73869",
-    "score": 9.3,
-    "date": "2026-11-01T07:44:57+00:00"
    },
    {
     "title": "CVE-2026-18140 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.0.17 (+22 CVE)",
@@ -85,6 +79,12 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:74503",
     "score": 9.1,
     "date": "2026-11-01T07:44:58+00:00"
+   },
+   {
+    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
+    "score": 8.8,
+    "date": "2026-11-01T07:45:23+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+    "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "date": "Sun, 01 Nov 2026 14:21:31 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
     "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
     "date": "Sun, 01 Nov 2026 12:55:40 +0530",
@@ -296,16 +303,16 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-    "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-    "date": "Sun, 01 Nov 2026 12:32:58 +0530",
+    "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+    "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+    "date": "Sun, 01 Nov 2026 12:33:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
    {
-    "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-    "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-    "date": "Sun, 01 Nov 2026 12:14:27 +0530",
+    "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+    "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+    "date": "Sun, 01 Nov 2026 12:32:58 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -362,13 +369,6 @@
     "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
     "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
     "date": "Fri, 30 Oct 2026 17:51:56 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-    "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "date": "Fri, 30 Oct 2026 17:28:53 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,43 +463,43 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2459,
+    "stars": 2462,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1477,
+    "stars": 1478,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1243,
+    "stars": 1244,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1087,
+    "stars": 1088,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 793,
+    "stars": 794,
     "lang": "Python"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 766,
+    "stars": 767,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 533,
+    "stars": 534,
     "lang": "—"
    },
    {
@@ -517,13 +517,13 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 346,
+    "stars": 356,
     "lang": "Kotlin"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 318,
+    "stars": 320,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 13,
   "kev": 1766,
   "adv": 12,
   "feed": 48
