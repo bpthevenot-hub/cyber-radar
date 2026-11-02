@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-02T12:27:32.280Z",
+ "generatedAt": "2026-11-02T13:22:44.831Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2023-26159 — Red Hat Enhancement Advisory: Red Hat Developer Hub 1.1 release (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHEA-2024:1366",
-    "score": 9.8,
-    "date": "2026-11-02T11:07:36+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RUSTSEC-2026-0434 — `ant-releases`: extracting a release archive can write files outside the destination directory (path traversal / zip-slip)",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0434",
+    "title": "RLSA-2026:91565 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:91565",
+    "score": 8.8,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:90523 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:90523",
+    "score": 8.8,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:85308 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:85308",
+    "score": 8.8,
+    "date": "2026-10-21T12:08:45.400552Z"
+   },
+   {
+    "title": "RLSA-2026:91003 — Important: libXrender security update",
+    "url": "https://github.com/advisories/RLSA-2026:91003",
+    "score": 8.3,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:89758 — Important: firefox security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:89758",
     "score": 8.2,
-    "date": "2026-10-31T12:00:00Z"
+    "date": "2026-10-31T12:09:44.748638Z"
    },
    {
-    "title": "CVE-2021-43138 — Red Hat Security Advisory: Migration Toolkit for Containers (MTC) 1.7.7 security and bug fix update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:0693",
-    "score": 7.8,
-    "date": "2026-11-02T11:08:04+00:00"
+    "title": "RLSA-2026:88248 — Important: expat security update",
+    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "score": 8.2,
+    "date": "2026-10-23T12:11:02.998013Z"
    },
    {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: grafana security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5864",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:52+00:00"
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 8.1,
+    "date": "2026-10-31T00:14:32.745623Z"
    },
    {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: grafana security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5867",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:51+00:00"
+    "title": "RXSA-2026:92209 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:92209",
+    "score": 8.1,
+    "date": "2026-10-31T00:13:57.889244Z"
    },
    {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: grafana security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5866",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:51+00:00"
+    "title": "RLSA-2026:92428 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92428",
+    "score": 8.1,
+    "date": "2026-10-31T00:09:15.425890Z"
    },
    {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: grafana security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5865",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:51+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: grafana security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5863",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:50+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: rhc-worker-script enhancement and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5835",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:50+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: RHACS 4.1 enhancement and security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5851",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:49+00:00"
-   },
-   {
-    "title": "CVE-2023-29409 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.4 Product Security and Bug Fix Update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5805",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:49+00:00"
-   },
-   {
-    "title": "CVE-2023-39325 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.3 Product Security and Bug Fix Update",
-    "url": "https://access.redhat.com/errata/RHSA-2023:5810",
-    "score": 7.5,
-    "date": "2026-11-02T11:08:48+00:00"
+    "title": "RLSA-2026:92419 — Important: bind security update",
+    "url": "https://github.com/advisories/RLSA-2026:92419",
+    "score": 8.1,
+    "date": "2026-10-30T12:08:48.996475Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+    "date": "Mon, 02 Nov 2026 07:47:00 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
     "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
     "date": "Mon, 02 Nov 2026 06:28:42 -0500",
@@ -450,32 +457,25 @@
     "date": "Fri, 30 Oct 2026 17:09:46 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-    "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-    "date": "Fri, 30 Oct 2026 11:58:20 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2519,
+    "stars": 2521,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1523,
+    "stars": 1525,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1273,
+    "stars": 1274,
     "lang": "Go"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 526,
+    "stars": 528,
     "lang": "Kotlin"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 339,
+    "stars": 340,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1766,
   "adv": 12,
   "feed": 48
