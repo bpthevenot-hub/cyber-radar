@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T14:23:25.964Z",
+ "generatedAt": "2026-11-02T15:23:20.605Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
-    "score": 8.8,
-    "date": "2026-11-02T12:52:29+00:00"
+    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
+    "url": "https://github.com/advisories/OSV-2022-1259",
+    "score": null,
+    "date": "2022-12-13T13:00:46.870838Z"
    },
    {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93716",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:35+00:00"
+    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
+    "url": "https://github.com/advisories/OSV-2022-1176",
+    "score": null,
+    "date": "2022-11-18T13:00:26.857477Z"
    },
    {
-    "title": "CVE-2026-102555 — Red Hat Security Advisory: libsoup3 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93583",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:35+00:00"
+    "title": "OSV-2022-388 — Segv on unknown address in dwg_ref_get_object",
+    "url": "https://github.com/advisories/OSV-2022-388",
+    "score": null,
+    "date": "2022-05-01T00:01:54.904711Z"
    },
    {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93466",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:34+00:00"
+    "title": "OSV-2022-379 — Segv on unknown address in bit_write_TV",
+    "url": "https://github.com/advisories/OSV-2022-379",
+    "score": null,
+    "date": "2022-04-27T00:00:44.539231Z"
    },
    {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93465",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:34+00:00"
+    "title": "OSV-2022-372 — Heap-buffer-overflow in dwg_encode_VERTEX_2D",
+    "url": "https://github.com/advisories/OSV-2022-372",
+    "score": null,
+    "date": "2022-04-26T00:00:09.352798Z"
    },
    {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93447",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:34+00:00"
+    "title": "OSV-2021-1343 — Heap-buffer-overflow in get_next_owned_entity",
+    "url": "https://github.com/advisories/OSV-2021-1343",
+    "score": null,
+    "date": "2021-09-21T00:01:33.177403Z"
    },
    {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93446",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:34+00:00"
-   },
-   {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:93445",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:34+00:00"
-   },
-   {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:84586",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:34+00:00"
-   },
-   {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+3 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92347",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:33+00:00"
-   },
-   {
-    "title": "CVE-2026-102555 — Red Hat Security Advisory: libsoup3 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83618",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:32+00:00"
-   },
-   {
-    "title": "CVE-2026-102556 — Red Hat Security Advisory: libsoup security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:83384",
-    "score": 8.6,
-    "date": "2026-11-02T12:52:32+00:00"
+    "title": "OSV-2021-1086 — Heap-buffer-overflow in dwg_convert_SAB_to_SAT1",
+    "url": "https://github.com/advisories/OSV-2021-1086",
+    "score": null,
+    "date": "2021-08-02T00:00:31.888461Z"
    }
   ],
   "kev": [
@@ -289,6 +259,13 @@
   ],
   "thn": [
    {
+    "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+    "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+    "date": "Mon, 02 Nov 2026 20:16:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
     "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
     "date": "Mon, 02 Nov 2026 17:20:00 +0530",
@@ -364,16 +341,30 @@
     "date": "Sat, 31 Oct 2026 13:57:43 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-    "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-    "date": "Sat, 31 Oct 2026 11:03:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "BTCPay Server warns of hot wallet thefts targeting outdated instances",
+    "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "date": "Mon, 02 Nov 2026 10:03:07 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+    "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+    "date": "Mon, 02 Nov 2026 10:01:11 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers disrupt refrigeration systems at European supermarkets",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+    "date": "Mon, 02 Nov 2026 09:28:39 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft fixes Smart App Control broken by October Windows update",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
@@ -436,40 +427,19 @@
     "date": "Sat, 31 Oct 2026 11:35:11 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Reddit to lock content behind logins to fight scrapers",
-    "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-    "date": "Sat, 31 Oct 2026 10:05:15 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-    "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-    "date": "Sat, 31 Oct 2026 09:10:19 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-    "date": "Sat, 31 Oct 2026 08:50:09 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2523,
+    "stars": 2525,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1527,
+    "stars": 1531,
     "lang": "Python"
    },
    {
@@ -481,7 +451,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1116,
+    "stars": 1117,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +463,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 774,
+    "stars": 775,
     "lang": "Java"
    },
    {
@@ -505,7 +475,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 531,
+    "stars": 530,
     "lang": "Kotlin"
    },
    {
@@ -523,7 +493,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 341,
+    "stars": 342,
     "lang": "—"
    },
    {
