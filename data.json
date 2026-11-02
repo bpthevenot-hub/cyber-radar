@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-11-02T17:22:01.896Z",
+ "generatedAt": "2026-11-02T18:24:25.061Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.4.9 security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67516",
-    "score": 9.9,
-    "date": "2026-11-02T16:31:35+00:00"
-   },
-   {
-    "title": "CVE-2026-32282 — Red Hat Security Advisory: Multicluster Global Hub 1.7.3 security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67842",
-    "score": 9.8,
-    "date": "2026-11-02T16:31:44+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
-    "score": 9.3,
-    "date": "2026-11-02T16:30:38+00:00"
+    "title": "MAL-2026-17397 — Malicious code in levvleys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17397",
+    "score": null,
+    "date": "2026-11-02T17:13:23Z"
    },
    {
-    "title": "CVE-2025-30204 — Red Hat Security Advisory: OpenShift Container Platform 4.16.71 bug fix and security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67936",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:47+00:00"
+    "title": "MAL-2026-17366 — Malicious code in @levvicode/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17366",
+    "score": null,
+    "date": "2026-11-02T17:13:23Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: RHACS 4.11.4 security and bug fix update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67714",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:44+00:00"
+    "title": "MAL-2026-18459 — Malicious code in wallet-adapter-base (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18459",
+    "score": null,
+    "date": "2026-11-01T21:33:18Z"
    },
    {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67518",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:39+00:00"
+    "title": "MAL-2026-18431 — Malicious code in @mamans2973/maman (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18431",
+    "score": null,
+    "date": "2026-10-31T16:09:39Z"
    },
    {
-    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67517",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:36+00:00"
-   },
-   {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67160",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:22+00:00"
-   },
-   {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67159",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:22+00:00"
-   },
-   {
-    "title": "CVE-2026-32281 — Red Hat Security Advisory: git-lfs security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67149",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:17+00:00"
-   },
-   {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:08+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.20.38 bug fix and security update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66377",
-    "score": 8.8,
-    "date": "2026-11-02T16:31:04+00:00"
+    "title": "MAL-2026-15819 — Malicious code in @mrlegendbot/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-15819",
+    "score": null,
+    "date": "2026-09-01T00:00:00Z"
    }
   ],
   "kev": [
@@ -203,6 +161,20 @@
   ],
   "adv": [
    {
+    "title": "DBHub: MySQL and MariaDB comment interpretation bypasses read-only SQL validation",
+    "url": "https://github.com/advisories/GHSA-j656-3hf2-fvjc",
+    "score": null,
+    "ghsa": "GHSA-j656-3hf2-fvjc",
+    "date": "2026-11-02T17:57:51Z"
+   },
+   {
+    "title": "SD JWT JS: Tampered disclosures silently dropped instead of rejected",
+    "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+    "score": 7.5,
+    "ghsa": "GHSA-f9j6-8p6x-r9j6",
+    "date": "2026-11-02T17:54:39Z"
+   },
+   {
     "title": "Kubeflow Pipelines: Pipeline archive upload allows decompression bomb to exhaust server memory",
     "url": "https://github.com/advisories/GHSA-8fmv-6rg5-5924",
     "score": 7.5,
@@ -271,20 +243,6 @@
     "score": 8.8,
     "ghsa": "GHSA-c73q-w75p-j82v",
     "date": "2026-10-30T23:09:04Z"
-   },
-   {
-    "title": "pypdf has possible long runtimes when retrieving page labels",
-    "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
-    "score": 7.5,
-    "ghsa": "GHSA-42gh-23hr-vphw",
-    "date": "2026-10-30T23:08:55Z"
-   },
-   {
-    "title": "pypdf has possible large memory usage for exceptions in strict mode",
-    "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
-    "score": 7.5,
-    "ghsa": "GHSA-4vqv-7265-gm2w",
-    "date": "2026-10-30T23:08:39Z"
    }
   ],
   "thn": [
@@ -375,6 +333,13 @@
   ],
   "bleep": [
    {
+    "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "date": "Mon, 02 Nov 2026 13:16:34 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
     "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
     "date": "Mon, 02 Nov 2026 10:03:07 -0500",
@@ -450,38 +415,31 @@
     "date": "Sat, 31 Oct 2026 14:01:12 -0400",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-    "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-    "date": "Sat, 31 Oct 2026 11:35:11 -0400",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2527,
+    "stars": 2529,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1541,
+    "stars": 1548,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1275,
+    "stars": 1276,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1117,
+    "stars": 1118,
     "lang": "TypeScript"
    },
    {
@@ -511,25 +469,25 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 524,
+    "stars": 526,
     "lang": "TypeScript"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 490,
+    "stars": 491,
     "lang": "Rust"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 346,
+    "stars": 347,
     "lang": "—"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 322,
+    "stars": 326,
     "lang": "C"
    }
   ],
@@ -635,16 +593,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
-    "url": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
-    "date": "2026-11-02T09:43:15+00:00",
+    "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
+    "url": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
+    "date": "2026-11-02T16:25:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
-    "date": "2026-11-02T16:25:38+00:00",
+    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
+    "url": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
+    "date": "2026-11-02T09:43:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1766,
   "adv": 12,
   "feed": 48
