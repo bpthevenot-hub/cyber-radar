@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-02T01:21:52.406Z",
+ "generatedAt": "2026-11-02T02:25:23.145Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-120276 — A weakness has been identified in WAVLINK WN536AX6-A V260507_2.0.0. This vulnerability affects the function sub_416760 of the file /bin/ioos",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-120276",
+    "score": 10,
+    "date": "2026-11-02T00:30:28Z"
+   },
+   {
+    "title": "CVE-2026-120277 — A security vulnerability has been detected in WAVLINK WN536AX6-A V260507_2.0.0. This issue affects the function sub_41a1d8 of the file /bin/",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-120277",
+    "score": 10,
+    "date": "2026-11-02T00:30:28Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,24 +25,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RLSA-2026:86172 — Critical: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86172",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86195 — Critical: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86195",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
-   },
-   {
-    "title": "RLSA-2026:86168 — Critical: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:86168",
-    "score": 9.4,
-    "date": "2026-10-22T00:08:23.571327Z"
    },
    {
     "title": "RLSA-2026:91565 — Important: kernel security, bug fix, and enhancement update",
@@ -45,28 +39,10 @@
     "date": "2026-10-29T12:08:23.381701Z"
    },
    {
-    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88359",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
-   },
-   {
-    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
-    "url": "https://github.com/advisories/RLSA-2026:88360",
-    "score": 8.8,
-    "date": "2026-10-23T12:11:02.998013Z"
-   },
-   {
     "title": "RLSA-2026:85308 — Important: bubblewrap security update",
     "url": "https://github.com/advisories/RLSA-2026:85308",
     "score": 8.8,
     "date": "2026-10-21T12:08:45.400552Z"
-   },
-   {
-    "title": "RLSA-2026:85321 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:85321",
-    "score": 8.8,
-    "date": "2026-10-21T12:08:03.045090Z"
    },
    {
     "title": "RLSA-2026:91003 — Important: libXrender security update",
@@ -75,16 +51,40 @@
     "date": "2026-10-29T12:08:23.381701Z"
    },
    {
-    "title": "RLSA-2026:89758 — Important: firefox security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:89758",
-    "score": 8.2,
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 8.1,
+    "date": "2026-10-31T00:14:32.745623Z"
+   },
+   {
+    "title": "RXSA-2026:92209 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:92209",
+    "score": 8.1,
+    "date": "2026-10-31T00:13:57.889244Z"
+   },
+   {
+    "title": "RLSA-2026:92428 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92428",
+    "score": 8.1,
+    "date": "2026-10-31T00:09:15.425890Z"
+   },
+   {
+    "title": "RLSA-2026:92419 — Important: bind security update",
+    "url": "https://github.com/advisories/RLSA-2026:92419",
+    "score": 8.1,
+    "date": "2026-10-30T12:08:48.996475Z"
+   },
+   {
+    "title": "RLSA-2026:92430 — Important: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92430",
+    "score": 7.8,
     "date": "2026-10-31T12:09:44.748638Z"
    },
    {
-    "title": "RLSA-2026:88248 — Important: expat security update",
-    "url": "https://github.com/advisories/RLSA-2026:88248",
-    "score": 8.2,
-    "date": "2026-10-23T12:11:02.998013Z"
+    "title": "RLSA-2026:92438 — Important: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92438",
+    "score": 7.8,
+    "date": "2026-10-31T00:09:15.425890Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2486,
+    "stars": 2489,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1504,
+    "stars": 1505,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1257,
+    "stars": 1259,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1104,
+    "stars": 1106,
     "lang": "TypeScript"
    },
    {
@@ -493,25 +493,25 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 772,
+    "stars": 773,
     "lang": "Java"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 537,
+    "stars": 538,
     "lang": "—"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 520,
+    "stars": 521,
     "lang": "TypeScript"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 495,
+    "stars": 498,
     "lang": "Kotlin"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1766,
   "adv": 12,
   "feed": 48
