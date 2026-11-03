@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-03T21:22:16.950Z",
+ "generatedAt": "2026-11-03T22:21:40.740Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-5366 — Prefect has Git Flag Injection via commit_sha and directories Parameters Leading to Remote Code Execution (RCE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5366",
+    "score": 9.9,
+    "date": "2026-06-20T18:31:29Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,16 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-71332 — FlowiseDB vulnerable to SQL Injection by authenticated users",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71332",
-    "score": 5.9,
-    "date": "2025-04-07T18:55:13Z"
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:93608",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:25+00:00"
    },
    {
-    "title": "CVE-2026-55686 — Podman: WORKDIR symlink traversal vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55686",
-    "score": 5.3,
-    "date": "2026-06-18T14:28:26Z"
+    "title": "CVE-2026-115754 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:93601",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:21+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91665",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91647",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91645",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91643",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91483",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91480",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91471",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:20+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91462",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:19+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91460",
+    "score": 7.5,
+    "date": "2026-11-03T21:22:19+00:00"
    }
   ],
   "kev": [
@@ -315,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+    "date": "Tue, 03 Nov 2026 17:18:50 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+    "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+    "date": "Tue, 03 Nov 2026 16:28:44 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Binance says fake job interview led to $6.3 billion crypto heist",
     "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
     "date": "Tue, 03 Nov 2026 15:05:50 -0500",
@@ -383,33 +457,19 @@
     "date": "Mon, 02 Nov 2026 14:00:45 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-    "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-    "date": "Mon, 02 Nov 2026 13:16:34 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-    "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-    "date": "Mon, 02 Nov 2026 10:03:07 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2626,
+    "stars": 2627,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1686,
+    "stars": 1688,
     "lang": "Python"
    },
    {
@@ -421,7 +481,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1131,
+    "stars": 1133,
     "lang": "TypeScript"
    },
    {
@@ -469,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 354,
+    "stars": 355,
     "lang": "—"
    }
   ],
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1767,
   "adv": 12,
   "feed": 48
