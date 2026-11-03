@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-11-03T00:40:06.695Z",
+ "generatedAt": "2026-11-03T01:21:47.065Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-77526 — FacturaScripts: Path traversal in UploadedFile::move() via getClientOriginalName() — arbitrary file write outside MyFiles/ leading to RCE",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77526",
-    "score": 9.9,
-    "date": "2026-07-14T20:52:00Z"
-   },
-   {
-    "title": "CVE-2026-45262 — FacturaScripts: Authenticated SQL injection in the FacturaScripts REST API filter parameter via parenthesis bypass in `Where::sqlColumn`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45262",
-    "score": 9.9,
-    "date": "2026-07-14T17:11:06Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,10 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
-    "score": 8.8,
-    "date": "2026-11-02T22:30:42+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62407",
-    "score": 8.1,
-    "date": "2026-11-02T22:30:42+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62406",
-    "score": 8.1,
-    "date": "2026-11-02T22:30:39+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: golang security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62405",
-    "score": 8.1,
-    "date": "2026-11-02T22:30:39+00:00"
-   },
-   {
-    "title": "CVE-2026-45263 — FacturaScripts: CSV formula injection in CSVExport allows authenticated low-priv users to plant payloads that execute when an admin opens th",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45263",
-    "score": 8,
-    "date": "2026-07-14T17:18:48Z"
-   },
-   {
-    "title": "CVE-2026-40176 — Composer has a command injection via malicious perforce repository",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40176",
-    "score": 7.8,
-    "date": "2026-04-14T20:03:08Z"
-   },
-   {
-    "title": "CVE-2026-40961 — Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40961",
-    "score": 7.2,
-    "date": "2026-06-01T09:31:13Z"
-   },
-   {
-    "title": "CVE-2026-63667 — ApostropheCMS: Arbitrary file read via import-export attachment-name path traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63667",
-    "score": 6.5,
-    "date": "2026-09-02T14:55:47Z"
-   },
-   {
     "title": "CVE-2026-40895 — follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-40895",
     "score": 5,
     "date": "2026-04-14T01:11:11Z"
-   },
-   {
-    "title": "CVE-2026-33762 — go-git missing validation decoding Index v4 files leads to panic",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33762",
-    "score": 2.8,
-    "date": "2026-03-30T17:05:23Z"
    }
   ],
   "kev": [
@@ -463,19 +397,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2544,
+    "stars": 2549,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1575,
+    "stars": 1585,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1280,
+    "stars": 1282,
     "lang": "Go"
    },
    {
@@ -505,7 +439,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 540,
+    "stars": 541,
     "lang": "Kotlin"
    },
    {
@@ -523,13 +457,13 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 348,
+    "stars": 349,
     "lang": "—"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 340,
+    "stars": 344,
     "lang": "C"
    }
   ],
@@ -717,7 +651,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1766,
   "adv": 12,
   "feed": 48
