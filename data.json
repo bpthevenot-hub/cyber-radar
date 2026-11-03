@@ -1,54 +1,12 @@
 {
- "generatedAt": "2026-11-03T10:21:58.912Z",
+ "generatedAt": "2026-11-03T11:21:37.756Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.8.6 release. (+25 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9742",
+    "title": "CVE-2025-71066 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94109",
     "score": 9.8,
-    "date": "2026-11-03T09:37:09+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:7261",
-    "score": 9.8,
-    "date": "2026-11-03T09:36:34+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (ROCm) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3462",
-    "score": 9.8,
-    "date": "2026-11-03T09:35:25+00:00"
-   },
-   {
-    "title": "CVE-2023-48022 — Red Hat Security Advisory: Red Hat AI Inference Server 3.2.2 (CUDA) (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3461",
-    "score": 9.8,
-    "date": "2026-11-03T09:35:24+00:00"
-   },
-   {
-    "title": "CVE-2025-5987 — Red Hat Security Advisory: OpenShift Container Platform 4.13.64 bug fix and security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:3415",
-    "score": 9.8,
-    "date": "2026-11-03T09:35:24+00:00"
-   },
-   {
-    "title": "CVE-2025-9230 — Red Hat Security Advisory: Red Hat JBoss Core Services Apache HTTP Server 2.4.62 SP3 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2995",
-    "score": 9.8,
-    "date": "2026-11-03T09:35:23+00:00"
-   },
-   {
-    "title": "CVE-2025-6176 — Red Hat Security Advisory: OpenShift Container Platform 4.14.62 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:2974",
-    "score": 9.8,
-    "date": "2026-11-03T09:35:22+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.4 release. (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13826",
-    "score": 9.8,
-    "date": "2026-11-03T09:35:17+00:00"
+    "date": "2026-11-03T10:14:00+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -63,28 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-56171 — Red Hat Security Advisory: OpenShift Container Platform 4.15.69 bug fix and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67857",
+    "title": "CVE-2026-63374 — Red Hat Security Advisory: General availability of the satellite/iop-host-inventory-rhel9 container image (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92583",
     "score": 9.1,
-    "date": "2026-11-03T09:36:02+00:00"
+    "date": "2026-11-03T10:13:54+00:00"
    },
    {
-    "title": "CVE-2025-5994 — Red Hat Security Advisory: OpenShift Container Platform 4.16.70 bug fix and security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62549",
+    "title": "CVE-2026-63374 — Red Hat Security Advisory: General availability of the satellite/iop-host-inventory-rhel9 container image (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92566",
     "score": 9.1,
-    "date": "2026-11-03T09:35:32+00:00"
+    "date": "2026-11-03T10:13:54+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.18.27 security, enhancement & bug fix update (+41 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:56431",
-    "score": 9.1,
-    "date": "2026-11-03T09:35:28+00:00"
+    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
+    "score": 8.8,
+    "date": "2026-11-03T10:13:58+00:00"
    },
    {
-    "title": "CVE-2026-1002 — Red Hat Security Advisory: Red Hat build of Cryostat 4.2.0: new RHEL 9 container image security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:17789",
-    "score": 9.1,
-    "date": "2026-11-03T09:35:19+00:00"
+    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
+    "score": 8.8,
+    "date": "2026-11-03T10:13:53+00:00"
+   },
+   {
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
+    "score": 8.8,
+    "date": "2026-11-03T10:13:51+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90994",
+    "score": 8.8,
+    "date": "2026-11-03T10:13:48+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.18 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92860",
+    "score": 8.2,
+    "date": "2026-11-03T10:13:58+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.17 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92859",
+    "score": 8.2,
+    "date": "2026-11-03T10:13:58+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.16 EUS security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92858",
+    "score": 8.2,
+    "date": "2026-11-03T10:13:58+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92217",
+    "score": 8.2,
+    "date": "2026-11-03T10:13:50+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90726",
+    "score": 8.2,
+    "date": "2026-11-03T10:13:47+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Harvard University data breach exposed info of 851,000 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+    "date": "Tue, 03 Nov 2026 05:53:25 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
     "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
     "date": "Mon, 02 Nov 2026 16:40:14 -0500",
@@ -450,32 +457,25 @@
     "date": "Sun, 01 Nov 2026 14:57:53 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-    "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-    "date": "Sun, 01 Nov 2026 10:11:21 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2585,
+    "stars": 2590,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1654,
+    "stars": 1656,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1299,
+    "stars": 1300,
     "lang": "Go"
    },
    {
@@ -499,13 +499,13 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 552,
+    "stars": 553,
     "lang": "Kotlin"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 544,
+    "stars": 545,
     "lang": "—"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 365,
+    "stars": 366,
     "lang": "C"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 5,
   "kev": 1766,
   "adv": 12,
   "feed": 48
