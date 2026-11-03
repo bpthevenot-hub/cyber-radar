@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-02T23:21:28.909Z",
+ "generatedAt": "2026-11-03T00:40:06.695Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-77526 — FacturaScripts: Path traversal in UploadedFile::move() via getClientOriginalName() — arbitrary file write outside MyFiles/ leading to RCE",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77526",
+    "score": 9.9,
+    "date": "2026-07-14T20:52:00Z"
+   },
+   {
+    "title": "CVE-2026-45262 — FacturaScripts: Authenticated SQL injection in the FacturaScripts REST API filter parameter via parenthesis bypass in `Where::sqlColumn`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45262",
+    "score": 9.9,
+    "date": "2026-07-14T17:11:06Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +33,58 @@
     "date": "2026-11-02T22:30:42+00:00"
    },
    {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
-    "score": 8.8,
-    "date": "2026-11-02T22:25:58+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62407",
+    "score": 8.1,
+    "date": "2026-11-02T22:30:42+00:00"
    },
    {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
-    "score": 8.8,
-    "date": "2026-11-02T22:25:58+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62406",
+    "score": 8.1,
+    "date": "2026-11-02T22:30:39+00:00"
    },
    {
-    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
-    "score": 8.8,
-    "date": "2026-11-02T22:25:55+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: golang security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62405",
+    "score": 8.1,
+    "date": "2026-11-02T22:30:39+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: LVMS 4.16 Bug Fix and Enhancement update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92291",
-    "score": 8.8,
-    "date": "2026-11-02T22:25:55+00:00"
+    "title": "CVE-2026-45263 — FacturaScripts: CSV formula injection in CSVExport allows authenticated low-priv users to plant payloads that execute when an admin opens th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-45263",
+    "score": 8,
+    "date": "2026-07-14T17:18:48Z"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+39 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90994",
-    "score": 8.8,
-    "date": "2026-11-02T22:25:54+00:00"
+    "title": "CVE-2026-40176 — Composer has a command injection via malicious perforce repository",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40176",
+    "score": 7.8,
+    "date": "2026-04-14T20:03:08Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.9.2 (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89131",
-    "score": 8.5,
-    "date": "2026-11-02T22:25:48+00:00"
+    "title": "CVE-2026-40961 — Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40961",
+    "score": 7.2,
+    "date": "2026-06-01T09:31:13Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.9.2 (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89041",
-    "score": 8.5,
-    "date": "2026-11-02T22:25:48+00:00"
+    "title": "CVE-2026-63667 — ApostropheCMS: Arbitrary file read via import-export attachment-name path traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63667",
+    "score": 6.5,
+    "date": "2026-09-02T14:55:47Z"
    },
    {
-    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92217",
-    "score": 8.2,
-    "date": "2026-11-02T22:25:54+00:00"
+    "title": "CVE-2026-40895 — follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-40895",
+    "score": 5,
+    "date": "2026-04-14T01:11:11Z"
    },
    {
-    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90726",
-    "score": 8.2,
-    "date": "2026-11-02T22:25:51+00:00"
-   },
-   {
-    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90725",
-    "score": 8.2,
-    "date": "2026-11-02T22:25:51+00:00"
-   },
-   {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenStack Platform 17.1 security advisory (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90329",
-    "score": 8.2,
-    "date": "2026-11-02T22:25:49+00:00"
+    "title": "CVE-2026-33762 — go-git missing validation decoding Index v4 files leads to panic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33762",
+    "score": 2.8,
+    "date": "2026-03-30T17:05:23Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2540,
+    "stars": 2544,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1567,
+    "stars": 1575,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1279,
+    "stars": 1280,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1120,
+    "stars": 1121,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 338,
+    "stars": 340,
     "lang": "C"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1766,
   "adv": 12,
   "feed": 48
