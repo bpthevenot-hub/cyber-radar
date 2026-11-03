@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T17:21:33.423Z",
+ "generatedAt": "2026-11-03T18:23:37.024Z",
  "sources": {
   "cve": [
    {
@@ -15,10 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "GHSA-9ppr-wfw9-xvr2 — Netfoil doesn't decrement TTL",
-    "url": "https://github.com/advisories/GHSA-9ppr-wfw9-xvr2",
-    "score": 5,
-    "date": "2026-11-03T16:48:29Z"
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.15.0 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22961",
+    "score": 9.1,
+    "date": "2026-11-03T17:25:02+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22959",
+    "score": 9.1,
+    "date": "2026-11-03T17:25:02+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Lightspeed (formerly Insights) for Runtimes security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:22485",
+    "score": 9.1,
+    "date": "2026-11-03T17:25:00+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "score": 9.1,
+    "date": "2026-11-03T17:24:46+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
+    "score": 9.1,
+    "date": "2026-11-03T17:24:46+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
+    "score": 9.1,
+    "date": "2026-11-03T17:24:45+00:00"
+   },
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
+    "score": 9.1,
+    "date": "2026-11-03T17:24:45+00:00"
+   },
+   {
+    "title": "CVE-2026-27140 — Red Hat Security Advisory: go-toolset:rhel8 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10704",
+    "score": 9,
+    "date": "2026-11-03T17:25:11+00:00"
+   },
+   {
+    "title": "CVE-2026-27140 — Red Hat Security Advisory: golang security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10219",
+    "score": 9,
+    "date": "2026-11-03T17:25:11+00:00"
+   },
+   {
+    "title": "CVE-2026-27140 — Red Hat Security Advisory: golang security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:10217",
+    "score": 9,
+    "date": "2026-11-03T17:25:11+00:00"
+   },
+   {
+    "title": "CVE-2026-6321 — Red Hat Security Advisory: Network Observability 1.12.0 for OpenShift (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:24473",
+    "score": 8.8,
+    "date": "2026-11-03T17:26:09+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: yggdrasil security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:67134",
+    "score": 8.8,
+    "date": "2026-11-03T17:25:06+00:00"
    }
   ],
   "kev": [
@@ -137,6 +203,48 @@
   ],
   "adv": [
    {
+    "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
+    "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
+    "score": 9.8,
+    "ghsa": "GHSA-33r5-xmm8-v6x5",
+    "date": "2026-11-03T17:53:42Z"
+   },
+   {
+    "title": "Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
+    "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+    "score": 9.8,
+    "ghsa": "GHSA-7w38-ggh5-v542",
+    "date": "2026-11-03T17:51:30Z"
+   },
+   {
+    "title": "Elo backends have code injection via unvalidated emission of programmatic AST fields",
+    "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+    "score": 7.4,
+    "ghsa": "GHSA-x9rp-7wh3-2rj5",
+    "date": "2026-11-03T17:48:09Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-111497 - .NET Brotli Decoder Out-of-bounds Write Vulnerability",
+    "url": "https://github.com/advisories/GHSA-p3jp-9v83-76w9",
+    "score": 8.1,
+    "ghsa": "GHSA-p3jp-9v83-76w9",
+    "date": "2026-11-03T17:33:48Z"
+   },
+   {
+    "title": "praktor: Path traversal in Telegram file uploads allows writing outside the agent workspace uploads/ directory (stored instruction injection)",
+    "url": "https://github.com/advisories/GHSA-48v2-6jcm-fc99",
+    "score": 8.2,
+    "ghsa": "GHSA-48v2-6jcm-fc99",
+    "date": "2026-11-03T17:27:25Z"
+   },
+   {
+    "title": "Keycloak has authentication bypass via jwt algorithm confusion",
+    "url": "https://github.com/advisories/GHSA-j97h-3f8r-mrjr",
+    "score": 8.1,
+    "ghsa": "GHSA-j97h-3f8r-mrjr",
+    "date": "2026-11-03T17:24:27Z"
+   },
+   {
     "title": "Netfoil doesn't decrement TTL",
     "url": "https://github.com/advisories/GHSA-9ppr-wfw9-xvr2",
     "score": null,
@@ -177,48 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-8fmv-6rg5-5924",
     "date": "2026-10-30T23:13:38Z"
-   },
-   {
-    "title": "Kubeflow Pipelines: Run-log endpoint permits unauthorized access to pod logs",
-    "url": "https://github.com/advisories/GHSA-wg5q-x4j9-qm54",
-    "score": 7.5,
-    "ghsa": "GHSA-wg5q-x4j9-qm54",
-    "date": "2026-10-30T23:13:29Z"
-   },
-   {
-    "title": "pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
-    "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
-    "score": 7.5,
-    "ghsa": "GHSA-5849-834g-hvw5",
-    "date": "2026-10-30T23:13:16Z"
-   },
-   {
-    "title": "pypdf has possible large memory usage when parsing page tree",
-    "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
-    "score": 7.5,
-    "ghsa": "GHSA-cggf-277g-3q54",
-    "date": "2026-10-30T23:13:01Z"
-   },
-   {
-    "title": "pypdf has possible infinite loop when cloning dictionaries",
-    "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
-    "score": 7.5,
-    "ghsa": "GHSA-mfr5-77xh-9j7h",
-    "date": "2026-10-30T23:12:20Z"
-   },
-   {
-    "title": "joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-    "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-    "score": 7.5,
-    "ghsa": "GHSA-4528-x5fx-h6hg",
-    "date": "2026-10-30T23:10:23Z"
-   },
-   {
-    "title": "@hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
-    "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
-    "score": 7.5,
-    "ghsa": "GHSA-8494-f6mr-cjpv",
-    "date": "2026-10-30T23:10:13Z"
    }
   ],
   "thn": [
@@ -397,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2613,
+    "stars": 2617,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1681,
+    "stars": 1682,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1315,
+    "stars": 1316,
     "lang": "Go"
    },
    {
@@ -433,7 +499,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 560,
+    "stars": 561,
     "lang": "Kotlin"
    },
    {
@@ -457,7 +523,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 370,
+    "stars": 371,
     "lang": "C"
    },
    {
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 12,
   "kev": 1766,
   "adv": 12,
   "feed": 48
