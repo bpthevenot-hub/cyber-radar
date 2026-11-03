@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-03T15:22:10.598Z",
+ "generatedAt": "2026-11-03T16:22:30.936Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-94603 — Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-94603",
+    "score": 10,
+    "date": "2026-10-15T20:22:16Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-24807 — Quick-Media Batik Codec FIX Package has Vulnerability in PNG Codec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24807",
+    "score": 5,
+    "date": "2026-01-27T09:30:30Z"
    }
   ],
   "kev": [
@@ -217,6 +229,20 @@
   ],
   "thn": [
    {
+    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+    "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+    "date": "Tue, 03 Nov 2026 21:11:53 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+    "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+    "date": "Tue, 03 Nov 2026 20:46:32 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
     "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "date": "Tue, 03 Nov 2026 16:53:53 +0530",
@@ -283,20 +309,6 @@
     "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
     "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
     "date": "Mon, 02 Nov 2026 21:20:26 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-    "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-    "date": "Mon, 02 Nov 2026 20:16:05 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-    "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-    "date": "Mon, 02 Nov 2026 17:20:00 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,25 +403,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2607,
+    "stars": 2608,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1674,
+    "stars": 1679,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1310,
+    "stars": 1312,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1128,
+    "stars": 1129,
     "lang": "TypeScript"
    },
    {
@@ -439,25 +451,25 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 529,
+    "stars": 532,
     "lang": "TypeScript"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 492,
+    "stars": 493,
     "lang": "Rust"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 369,
+    "stars": 371,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 351,
+    "stars": 352,
     "lang": "—"
    }
   ],
@@ -563,16 +575,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Jailbreaking my car's navigation system just so I can change the time",
-    "url": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
-    "date": "2026-11-02T19:16:42+00:00",
+    "title": "We found 4,972 &quot;hello&quot; messages hiding thousands of malicious commands targeting Flowise",
+    "url": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
+    "date": "2026-11-03T15:11:53+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "We found 4,972 &quot;hello&quot; messages hiding thousands of malicious commands targeting Flowise",
-    "url": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
-    "date": "2026-11-03T15:11:53+00:00",
+    "title": "Jailbreaking my car's navigation system just so I can change the time",
+    "url": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
+    "date": "2026-11-02T19:16:42+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +657,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1766,
   "adv": 12,
   "feed": 48
