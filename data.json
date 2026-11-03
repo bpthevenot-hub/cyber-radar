@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T20:22:15.836Z",
+ "generatedAt": "2026-11-03T21:22:16.950Z",
  "sources": {
   "cve": [
    {
@@ -143,6 +143,13 @@
   ],
   "adv": [
    {
+    "title": "Stanza: RCE via pickle deserialization in the lemmatizer",
+    "url": "https://github.com/advisories/GHSA-gh9r-c94j-cmp5",
+    "score": 7.8,
+    "ghsa": "GHSA-gh9r-c94j-cmp5",
+    "date": "2026-11-03T20:29:16Z"
+   },
+   {
     "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
     "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
     "score": 9.8,
@@ -218,13 +225,6 @@
     "score": 7.5,
     "ghsa": "GHSA-f9j6-8p6x-r9j6",
     "date": "2026-11-02T17:54:39Z"
-   },
-   {
-    "title": "Kubeflow Pipelines: Pipeline archive upload allows decompression bomb to exhaust server memory",
-    "url": "https://github.com/advisories/GHSA-8fmv-6rg5-5924",
-    "score": 7.5,
-    "ghsa": "GHSA-8fmv-6rg5-5924",
-    "date": "2026-10-30T23:13:38Z"
    }
   ],
   "thn": [
@@ -403,19 +403,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2623,
+    "stars": 2626,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1685,
+    "stars": 1686,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1317,
+    "stars": 1319,
     "lang": "Go"
    },
    {
