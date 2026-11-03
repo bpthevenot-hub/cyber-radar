@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-03T18:23:37.024Z",
+ "generatedAt": "2026-11-03T19:21:47.077Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
+    "score": 10,
+    "date": "2026-11-03T18:33:03+00:00"
+   },
+   {
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.18.2 (+94 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82857",
+    "score": 9.8,
+    "date": "2026-11-03T18:30:01+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.15.0 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22961",
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+76 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82888",
     "score": 9.1,
-    "date": "2026-11-03T17:25:02+00:00"
+    "date": "2026-11-03T18:30:02+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.14.0 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22959",
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+107 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82322",
     "score": 9.1,
-    "date": "2026-11-03T17:25:02+00:00"
+    "date": "2026-11-03T18:29:55+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: Red Hat Lightspeed (formerly Insights) for Runtimes security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:22485",
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Migration Toolkit for Applications (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82315",
     "score": 9.1,
-    "date": "2026-11-03T17:25:00+00:00"
+    "date": "2026-11-03T18:29:55+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.22.2 for Red Hat OpenShift Service Mesh 3.3 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8493",
+    "title": "CVE-2024-34459 — Red Hat Security Advisory: cert-manager Operator for Red Hat OpenShift 1.17.2 (+107 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:82304",
     "score": 9.1,
-    "date": "2026-11-03T17:24:46+00:00"
+    "date": "2026-11-03T18:29:55+00:00"
    },
    {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.17.6 for Red Hat OpenShift Service Mesh 3.2 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8491",
-    "score": 9.1,
-    "date": "2026-11-03T17:24:46+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.11.9 for Red Hat OpenShift Service Mesh 3.1 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8490",
-    "score": 9.1,
-    "date": "2026-11-03T17:24:45+00:00"
-   },
-   {
-    "title": "CVE-2025-62718 — Red Hat Security Advisory: Kiali 2.4.15 for Red Hat OpenShift Service Mesh 3.0 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:8484",
-    "score": 9.1,
-    "date": "2026-11-03T17:24:45+00:00"
-   },
-   {
-    "title": "CVE-2026-27140 — Red Hat Security Advisory: go-toolset:rhel8 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10704",
-    "score": 9,
-    "date": "2026-11-03T17:25:11+00:00"
-   },
-   {
-    "title": "CVE-2026-27140 — Red Hat Security Advisory: golang security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10219",
-    "score": 9,
-    "date": "2026-11-03T17:25:11+00:00"
-   },
-   {
-    "title": "CVE-2026-27140 — Red Hat Security Advisory: golang security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10217",
-    "score": 9,
-    "date": "2026-11-03T17:25:11+00:00"
-   },
-   {
-    "title": "CVE-2026-6321 — Red Hat Security Advisory: Network Observability 1.12.0 for OpenShift (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:24473",
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: Red Hat Quay 3.12.23 (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:79546",
     "score": 8.8,
-    "date": "2026-11-03T17:26:09+00:00"
+    "date": "2026-11-03T18:29:56+00:00"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: yggdrasil security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67134",
-    "score": 8.8,
-    "date": "2026-11-03T17:25:06+00:00"
+    "title": "CVE-2026-50162 — Red Hat Security Advisory: MTV RHEL9 Images (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83662",
+    "score": 8.1,
+    "date": "2026-11-03T18:33:09+00:00"
+   },
+   {
+    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.22.17 security and extras update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:74430",
+    "score": 8.1,
+    "date": "2026-11-03T18:32:54+00:00"
+   },
+   {
+    "title": "CVE-2026-41178 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.17.3 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:72849",
+    "score": 8.1,
+    "date": "2026-11-03T18:32:45+00:00"
+   },
+   {
+    "title": "CVE-2024-56171 — Red Hat Security Advisory: OpenShift Container Platform 4.18.6 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3066",
+    "score": 8.1,
+    "date": "2026-11-03T18:30:48+00:00"
+   },
+   {
+    "title": "CVE-2024-56171 — Red Hat Security Advisory: OpenShift Container Platform 4.17.22 bug fix and security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:3059",
+    "score": 8.1,
+    "date": "2026-11-03T18:30:48+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+    "date": "Wed, 04 Nov 2026 00:16:38 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+    "date": "Tue, 03 Nov 2026 23:46:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
     "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
     "date": "Tue, 03 Nov 2026 22:25:58 +0530",
@@ -357,23 +371,16 @@
     "date": "Tue, 03 Nov 2026 12:57:07 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-    "date": "Tue, 03 Nov 2026 11:04:41 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-    "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-    "date": "Tue, 03 Nov 2026 11:04:37 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+    "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+    "date": "Tue, 03 Nov 2026 13:51:04 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Barracuda warns of critical flaws allowing root access to devices",
     "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
@@ -450,44 +457,37 @@
     "date": "Mon, 02 Nov 2026 10:01:11 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers disrupt refrigeration systems at European supermarkets",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-    "date": "Mon, 02 Nov 2026 09:28:39 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2617,
+    "stars": 2622,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1682,
+    "stars": 1684,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1316,
+    "stars": 1317,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1129,
+    "stars": 1131,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 799,
+    "stars": 800,
     "lang": "Python"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 561,
+    "stars": 562,
     "lang": "Kotlin"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 371,
+    "stars": 370,
     "lang": "C"
    },
    {
@@ -656,16 +656,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
-    "date": "2026-11-02T16:25:38+00:00",
+    "title": "A primer on TETRA mission-critical radio network authentication flaws",
+    "url": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
+    "date": "2026-11-03T10:19:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "A primer on TETRA mission-critical radio network authentication flaws",
-    "url": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
-    "date": "2026-11-03T10:19:12+00:00",
+    "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
+    "url": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
+    "date": "2026-11-02T16:25:38+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 12,
+  "crit": 8,
   "kev": 1766,
   "adv": 12,
   "feed": 48
