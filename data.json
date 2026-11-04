@@ -1,90 +1,90 @@
 {
- "generatedAt": "2026-11-04T04:22:58.414Z",
+ "generatedAt": "2026-11-04T05:23:51.945Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-3223 — Red Hat Security Advisory: Red Hat Fuse 7.12.1 release and security update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:7247",
+    "title": "CVE-2026-121607 — A vulnerability was found in Qihoo 360 D603-2, D600-2, D606-6 and D706 up to 6.4.9. This affects the function testspeed_command of the file ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121607",
+    "score": 10,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2026-121609 — A vulnerability was identified in Qihoo 360 Whole Home Router M5 4.0.17.1566. This issue affects the function Home of the file /etc/init.d/m",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121609",
+    "score": 10,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2026-121615 — A vulnerability was determined in Linksys E5600 1.1.0.26. Affected is an unknown function of the file /cgi-bin/mesh_login.cgi of the compone",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121615",
+    "score": 10,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2026-121606 — A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706 up to 6.4.9. Affected by this issue is the functio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121606",
+    "score": 10,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2026-121599 — A vulnerability was detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the function setWiFiMultipleConfig/delWiFiMultipleConfig",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121599",
+    "score": 9.9,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2026-121598 — A security vulnerability has been detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function strcpy of the file /cgi-bin/",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121598",
+    "score": 9.9,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2026-121600 — A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerability is the function setMacFilterRules of the fil",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121600",
+    "score": 9.9,
+    "date": "2026-11-04T03:32:28Z"
+   },
+   {
+    "title": "CVE-2025-49602 — An issue was discovered in Keyfactor EJBCA 9. When an administrator is removed from its administrator role while having a valid TLS session,",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-49602",
     "score": 9.8,
-    "date": "2026-11-04T03:00:06+00:00"
+    "date": "2026-10-30T18:32:40Z"
    },
    {
-    "title": "CVE-2026-39892 — Cryptography vulnerable to buffer overflow if non-contiguous buffers were passed to APIs",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39892",
+    "title": "CVE-2026-51912 — OpenBMB XAgent v1.0.0 contains directory traversal vulnerability in main-upload_file-the-preserved-live-upload-file-witness-directly-reaches",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-51912",
     "score": 9.8,
-    "date": "2026-04-08T19:23:08Z"
+    "date": "2026-10-29T18:31:13Z"
    },
    {
-    "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
+    "title": "CVE-2026-107050 — An issue in libretro RetroArch v1.22.2 allows attackers to force another user into loading attacker-supplied code in their uid, leading to a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107050",
     "score": 9.8,
-    "date": "2025-03-03T19:15:34+00:00"
+    "date": "2026-10-29T18:31:09Z"
    },
    {
-    "title": "CVE-2024-8309 — A vulnerability in the GraphCypherQAChain class of langchain-ai/langchain-community version 0.2.5 allows for SQL injection through prompt in",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
+    "title": "CVE-2026-44009 — vm2 has Sandbox Breakout Through Null Proto Exception",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44009",
     "score": 9.8,
-    "date": "2024-11-05T16:04:14Z"
+    "date": "2026-05-08T16:20:58Z"
    },
    {
-    "title": "CVE-2026-33433 — Traefik Vulnerable to BasicAuth/DigestAuth Identity Spoofing via Non-Canonical headerField",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33433",
-    "score": 8.8,
-    "date": "2026-03-27T20:35:53Z"
+    "title": "CVE-2026-44008 — vm2 has sandbox breakout via `neutralizeArraySpeciesBatch`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44008",
+    "score": 9.8,
+    "date": "2026-05-08T15:58:48Z"
    },
    {
-    "title": "CVE-2026-24747 — PyTorch Vulnerable to Remote Code Execution via Untrusted Checkpoint Files",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24747",
-    "score": 8.8,
-    "date": "2026-01-27T20:10:54Z"
+    "title": "CVE-2026-26332 — VM2 Has a Sandbox Escape Issue via SuppressedError",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-26332",
+    "score": 9.8,
+    "date": "2026-05-05T16:33:45Z"
    },
    {
-    "title": "CVE-2026-0847 — NLTK has a Path Traversal issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-0847",
-    "score": 8.6,
-    "date": "2026-03-04T21:32:45Z"
-   },
-   {
-    "title": "CVE-2026-33236 — NLTK has a Downloader Path Traversal Vulnerability (AFO) - Arbitrary File Overwrite",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33236",
-    "score": 8.1,
-    "date": "2026-03-19T12:42:42Z"
-   },
-   {
-    "title": "CVE-2026-11940 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.3 (Rubin) (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:80858",
-    "score": 7.5,
-    "date": "2026-11-04T03:00:08+00:00"
-   },
-   {
-    "title": "CVE-2026-42440 — Apache OpenNLP AbstractModelReader has an OOM Denial of Service via Unbounded Array Allocation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42440",
-    "score": 7.5,
-    "date": "2026-05-04T18:30:31Z"
-   },
-   {
-    "title": "CVE-2026-5598 — Bouncy Castle Has Covert Timing Channel Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5598",
-    "score": 7.5,
-    "date": "2026-04-17T18:31:50Z"
-   },
-   {
-    "title": "CVE-2026-27489 — onnx Vulnerable to Path Traversal via Symlink",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27489",
-    "score": 7.5,
-    "date": "2026-03-31T22:34:25Z"
-   },
-   {
-    "title": "CVE-2026-24734 — Apache Tomcat has an Improper Input Validation vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24734",
-    "score": 7.5,
-    "date": "2026-02-17T21:31:13Z"
-   },
-   {
-    "title": "CVE-2025-13465 — Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-13465",
-    "score": 6.5,
-    "date": "2026-01-21T23:01:22Z"
+    "title": "CVE-2026-24118 — VM2 Sandbox Breakout Through __lookupGetter__",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24118",
+    "score": 9.8,
+    "date": "2026-05-04T16:29:15Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2647,
+    "stars": 2651,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1769,
+    "stars": 1784,
     "lang": "Python"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 564,
+    "stars": 565,
     "lang": "Kotlin"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 14,
   "kev": 1767,
   "adv": 12,
   "feed": 48
