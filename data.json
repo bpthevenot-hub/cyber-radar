@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-04T14:22:29.442Z",
+ "generatedAt": "2026-11-04T15:22:16.246Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-47683 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.10 release. (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91651",
+    "score": 10,
+    "date": "2026-11-04T14:29:53+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-109242 — Red Hat Security Advisory: freerdp security, bug fix, and enhancement update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94514",
+    "title": "CVE-2026-53488 — Red Hat Security Advisory: Red Hat OpenShift for Windows Containers 11.0 product release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94562",
     "score": 8.8,
-    "date": "2026-11-04T13:24:58+00:00"
+    "date": "2026-11-04T14:29:57+00:00"
+   },
+   {
+    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
+    "score": 8.8,
+    "date": "2026-11-04T14:29:56+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.18 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92860",
+    "score": 8.2,
+    "date": "2026-11-04T14:29:56+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.17 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92859",
+    "score": 8.2,
+    "date": "2026-11-04T14:29:56+00:00"
+   },
+   {
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.16 EUS security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92858",
+    "score": 8.2,
+    "date": "2026-11-04T14:29:55+00:00"
+   },
+   {
+    "title": "CVE-2024-9355 — Red Hat Security Advisory: rhc security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92217",
+    "score": 8.2,
+    "date": "2026-11-04T14:29:52+00:00"
+   },
+   {
+    "title": "CVE-2026-78667 — Red Hat Security Advisory: osbuild-composer security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91646",
+    "score": 8.1,
+    "date": "2026-11-04T14:29:51+00:00"
+   },
+   {
+    "title": "CVE-2026-78667 — Red Hat Security Advisory: opentelemetry-collector security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95016",
+    "score": 7.5,
+    "date": "2026-11-04T14:29:59+00:00"
+   },
+   {
+    "title": "CVE-2026-78667 — Red Hat Security Advisory: opentelemetry-collector security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95015",
+    "score": 7.5,
+    "date": "2026-11-04T14:29:59+00:00"
+   },
+   {
+    "title": "CVE-2026-78667 — Red Hat Security Advisory: opentelemetry-collector security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95014",
+    "score": 7.5,
+    "date": "2026-11-04T14:29:58+00:00"
+   },
+   {
+    "title": "CVE-2026-78667 — Red Hat Security Advisory: opentelemetry-collector security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:93617",
+    "score": 7.5,
+    "date": "2026-11-04T14:29:56+00:00"
    }
   ],
   "kev": [
@@ -223,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "date": "Wed, 04 Nov 2026 19:57:52 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
     "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
     "date": "Wed, 04 Nov 2026 17:37:04 +0530",
@@ -298,16 +371,23 @@
     "date": "Tue, 03 Nov 2026 21:29:19 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-    "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-    "date": "Tue, 03 Nov 2026 21:11:53 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+    "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+    "date": "Wed, 04 Nov 2026 10:00:10 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+    "date": "Wed, 04 Nov 2026 09:42:25 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "US charges two Canadians accused of hacking US universities",
     "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
@@ -377,39 +457,25 @@
     "date": "Tue, 03 Nov 2026 09:00:00 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Police seizes over 100 servers in investment scam crackdown",
-    "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-    "date": "Tue, 03 Nov 2026 08:33:49 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-    "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-    "date": "Tue, 03 Nov 2026 07:05:52 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2687,
+    "stars": 2689,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1826,
+    "stars": 1828,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1138,
+    "stars": 1139,
     "lang": "TypeScript"
    },
    {
@@ -439,7 +505,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 535,
+    "stars": 537,
     "lang": "TypeScript"
    },
    {
@@ -451,7 +517,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 382,
+    "stars": 384,
     "lang": "C"
    },
    {
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1767,
   "adv": 12,
   "feed": 48
