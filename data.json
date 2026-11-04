@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-11-04T01:21:29.185Z",
+ "generatedAt": "2026-11-04T02:24:13.110Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-121597 — A weakness has been identified in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setAppEasyWizardConfig of the file /cgi-",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121597",
+    "score": 9.9,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92188 — Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability. This vulnerability allows r",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92188",
+    "score": 9.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92189 — Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability. This vulnerabilit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92189",
+    "score": 9.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92190 — Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability. This vulnerabilit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92190",
+    "score": 9.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +37,54 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-92195 — Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote att",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92195",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:23Z"
+   },
+   {
+    "title": "CVE-2026-92194 — Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92194",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:23Z"
+   },
+   {
+    "title": "CVE-2026-92197 — Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92197",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:23Z"
+   },
+   {
+    "title": "CVE-2026-92187 — Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability. This vulnerability allo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92187",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92191 — Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability. This vulnerability allows remote attacke",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92191",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92192 — Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attack",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92192",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92186 — Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92186",
+    "score": 8.8,
+    "date": "2026-11-04T00:32:22Z"
+   },
+   {
+    "title": "CVE-2026-92198 — Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability. This vulnerability allows remote",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92198",
+    "score": 8.2,
+    "date": "2026-11-04T00:32:23Z"
    }
   ],
   "kev": [
@@ -391,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2635,
+    "stars": 2641,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1726,
+    "stars": 1746,
     "lang": "Python"
    },
    {
     "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑",
     "url": "https://github.com/trhhubsd/ARTEX",
-    "stars": 1324,
+    "stars": 1326,
     "lang": "Go"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1134,
+    "stars": 1135,
     "lang": "TypeScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 563,
+    "stars": 564,
     "lang": "Kotlin"
    },
    {
@@ -451,7 +523,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 373,
+    "stars": 374,
     "lang": "C"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1767,
   "adv": 12,
   "feed": 48
