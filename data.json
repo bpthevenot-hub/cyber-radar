@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-04T03:23:59.046Z",
+ "generatedAt": "2026-11-04T04:22:58.414Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2023-3223 — Red Hat Security Advisory: Red Hat Fuse 7.12.1 release and security update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2023:7247",
+    "score": 9.8,
+    "date": "2026-11-04T03:00:06+00:00"
+   },
+   {
+    "title": "CVE-2026-39892 — Cryptography vulnerable to buffer overflow if non-contiguous buffers were passed to APIs",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39892",
+    "score": 9.8,
+    "date": "2026-04-08T19:23:08Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,16 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Kiali 2.17.14 for Red Hat OpenShift Service Mesh 3.2 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68691",
-    "score": 7.5,
-    "date": "2026-11-04T01:45:52+00:00"
+    "title": "CVE-2026-33433 — Traefik Vulnerable to BasicAuth/DigestAuth Identity Spoofing via Non-Canonical headerField",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33433",
+    "score": 8.8,
+    "date": "2026-03-27T20:35:53Z"
    },
    {
-    "title": "MAL-2026-18526 — Malicious code in nulio-connector (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18526",
-    "score": null,
-    "date": "2026-11-03T12:27:37Z"
+    "title": "CVE-2026-24747 — PyTorch Vulnerable to Remote Code Execution via Untrusted Checkpoint Files",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24747",
+    "score": 8.8,
+    "date": "2026-01-27T20:10:54Z"
+   },
+   {
+    "title": "CVE-2026-0847 — NLTK has a Path Traversal issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-0847",
+    "score": 8.6,
+    "date": "2026-03-04T21:32:45Z"
+   },
+   {
+    "title": "CVE-2026-33236 — NLTK has a Downloader Path Traversal Vulnerability (AFO) - Arbitrary File Overwrite",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33236",
+    "score": 8.1,
+    "date": "2026-03-19T12:42:42Z"
+   },
+   {
+    "title": "CVE-2026-11940 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.3 (Rubin) (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:80858",
+    "score": 7.5,
+    "date": "2026-11-04T03:00:08+00:00"
+   },
+   {
+    "title": "CVE-2026-42440 — Apache OpenNLP AbstractModelReader has an OOM Denial of Service via Unbounded Array Allocation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42440",
+    "score": 7.5,
+    "date": "2026-05-04T18:30:31Z"
+   },
+   {
+    "title": "CVE-2026-5598 — Bouncy Castle Has Covert Timing Channel Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-5598",
+    "score": 7.5,
+    "date": "2026-04-17T18:31:50Z"
+   },
+   {
+    "title": "CVE-2026-27489 — onnx Vulnerable to Path Traversal via Symlink",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-27489",
+    "score": 7.5,
+    "date": "2026-03-31T22:34:25Z"
+   },
+   {
+    "title": "CVE-2026-24734 — Apache Tomcat has an Improper Input Validation vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24734",
+    "score": 7.5,
+    "date": "2026-02-17T21:31:13Z"
+   },
+   {
+    "title": "CVE-2025-13465 — Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-13465",
+    "score": 6.5,
+    "date": "2026-01-21T23:01:22Z"
    }
   ],
   "kev": [
@@ -403,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2644,
+    "stars": 2647,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1758,
+    "stars": 1769,
     "lang": "Python"
    },
    {
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1767,
   "adv": 12,
   "feed": 48
