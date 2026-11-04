@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T07:23:13.847Z",
+ "generatedAt": "2026-11-04T08:24:45.800Z",
  "sources": {
   "cve": [
    {
@@ -15,64 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-68745 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+41 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67150",
-    "score": 8.1,
-    "date": "2026-11-04T06:23:39+00:00"
+    "title": "CVE-2026-95210 — Improper certificate validation in gnutls v3.8.13 causes the application to accept certificates containing invalid extensions.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95210",
+    "score": 9.1,
+    "date": "2026-10-08T18:32:30Z"
    },
    {
-    "title": "CVE-2026-43133 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66180",
-    "score": 8.1,
-    "date": "2026-11-04T06:23:39+00:00"
+    "title": "CVE-2026-88647 — A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communic",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88647",
+    "score": 9.1,
+    "date": "2026-10-08T18:32:29Z"
    },
    {
-    "title": "CVE-2026-43133 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+28 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65334",
-    "score": 8.1,
-    "date": "2026-11-04T06:23:39+00:00"
+    "title": "CVE-2026-77690 — ZohoCorp ManageEngine Key Manager Plus versions before 7151 were vulnerable to a Command Injection vulnerability that allowed authenticated ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77690",
+    "score": 8.8,
+    "date": "2026-11-04T06:32:58Z"
    },
    {
-    "title": "CVE-2023-54120 — Red Hat Security Advisory: kernel-rt security, bug fix, and enhancement update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70403",
-    "score": 7.8,
-    "date": "2026-11-04T06:23:46+00:00"
+    "title": "CVE-2026-54099 — A flaw was found in the Windows Machine Config Operator (WMCO) for Red Hat OpenShift Container Platform. The WICD CSR auto-approver validate",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54099",
+    "score": 8.8,
+    "date": "2026-06-22T15:30:43Z"
    },
    {
-    "title": "CVE-2023-54120 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70402",
-    "score": 7.8,
-    "date": "2026-11-04T06:23:46+00:00"
+    "title": "CVE-2026-74860 — A flaw was found in libxml2 with Python bindings enabled. A remote attacker could exploit this vulnerability by providing a specially crafte",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-74860",
+    "score": 8.5,
+    "date": "2026-09-08T12:31:30Z"
    },
    {
-    "title": "CVE-2026-23103 — Red Hat Security Advisory: kernel-rt security update (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68532",
-    "score": 7.8,
-    "date": "2026-11-04T06:23:44+00:00"
+    "title": "CVE-2026-77779 — ManageEngine Key Manager Plus versions before 7151 were vulnerable to an Improper Access Control vulnerability that allowed authenticated lo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-77779",
+    "score": 7.7,
+    "date": "2026-11-04T06:32:58Z"
    },
    {
-    "title": "CVE-2026-23103 — Red Hat Security Advisory: kernel security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68531",
-    "score": 7.8,
-    "date": "2026-11-04T06:23:43+00:00"
+    "title": "CVE-2026-80335 — In the bootloader download module, there is a possible out-of-bounds write due to a failure to reset a global offset variable during firmwar",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-80335",
+    "score": 7.6,
+    "date": "2026-11-04T06:32:57Z"
    },
    {
-    "title": "CVE-2025-38004 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:64775",
-    "score": 7.8,
-    "date": "2026-11-04T06:23:39+00:00"
+    "title": "CVE-2026-79405 — In Modem Firmware, there is a possible system crash due to improper input validation of dedicated PUCCH configuration. This could lead to re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79405",
+    "score": 7.5,
+    "date": "2026-11-04T06:32:57Z"
    },
    {
-    "title": "MAL-2026-18603 — Malicious code in @ifasn/ms-doc-mcp (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18603",
-    "score": null,
-    "date": "2026-11-04T06:11:33Z"
+    "title": "CVE-2026-67693 — An issue in gnutls v.3.8.13 allows an attacker to obtain sensitive information via failing to reject end-entity X.509 certificates that cont",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67693",
+    "score": 7.5,
+    "date": "2026-10-08T21:33:25Z"
    },
    {
-    "title": "MAL-2026-18489 — Malicious code in @ifasn/mmdd-doc-mcp (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18489",
-    "score": null,
-    "date": "2026-11-02T20:58:12Z"
+    "title": "CVE-2026-95184 — Improper certificate validation in gnutls v3.8.13 causes the application to reject legitimate certificates for valid users, leading to a Den",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95184",
+    "score": 7.5,
+    "date": "2026-10-08T18:32:30Z"
+   },
+   {
+    "title": "CVE-2026-42784 — A flaw was found in sequoia-openpgp. The library incorrectly infers key flags for older certificates when a key flags subpacket is missing, ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42784",
+    "score": 7.4,
+    "date": "2026-09-16T18:32:03Z"
+   },
+   {
+    "title": "CVE-2025-11229 — The system fails to properly enforce scope authorization when the `authorize_all_scopes` configuration is enabled. This allows applications ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-11229",
+    "score": 7.2,
+    "date": "2026-11-04T06:32:57Z"
    }
   ],
   "kev": [
@@ -451,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2662,
+    "stars": 2665,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1804,
+    "stars": 1810,
     "lang": "Python"
    },
    {
@@ -481,7 +493,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 569,
+    "stars": 571,
     "lang": "Kotlin"
    },
    {
@@ -705,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1767,
   "adv": 12,
   "feed": 48
