@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-04T17:22:10.618Z",
+ "generatedAt": "2026-11-04T18:24:01.997Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-41242 — protobufjs has an arbitrary code execution issue",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41242",
+    "score": 9.8,
+    "date": "2026-04-16T22:34:57Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,46 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-7383 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+27 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:59641",
-    "score": 9.1,
-    "date": "2026-11-04T16:42:56+00:00"
+    "title": "CVE-2026-55098 — Arc: DuckDB I/O aliases bypass database RBAC after CVE-2026-47735",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55098",
+    "score": 6.5,
+    "date": "2026-11-04T17:02:37Z"
    },
    {
-    "title": "CVE-2026-5260 — Red Hat Security Advisory: OpenShift Container Platform 4.19.53 bug fix and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89651",
-    "score": 9.1,
-    "date": "2026-11-04T16:38:46+00:00"
+    "title": "CVE-2026-13318 — KubeVirt virt-api port-forward handler vulnerable to SSRF via guest-controlled VMI IP address",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13318",
+    "score": 6.4,
+    "date": "2026-06-26T00:32:07Z"
    },
    {
-    "title": "CVE-2026-5260 — Red Hat Security Advisory: OpenShift Container Platform 4.20.44 bug fix and security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89333",
-    "score": 9.1,
-    "date": "2026-11-04T16:38:46+00:00"
+    "title": "CVE-2026-93363 — @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93363",
+    "score": 4.3,
+    "date": "2026-11-04T17:00:39Z"
    },
    {
-    "title": "CVE-2026-5260 — Red Hat Security Advisory: OpenShift Container Platform 4.21.40 bug fix and security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89232",
-    "score": 9.1,
-    "date": "2026-11-04T16:38:44+00:00"
+    "title": "CVE-2026-13218 — KubeVirt virt-handler network cache symlink vulnerability allows arbitrary host file overwrite",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13218",
+    "score": 4.2,
+    "date": "2026-06-26T00:32:07Z"
    },
    {
-    "title": "CVE-2025-5994 — Red Hat Security Advisory: OpenShift Container Platform 4.16.70 bug fix and security update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62549",
-    "score": 9.1,
-    "date": "2026-11-04T16:38:41+00:00"
+    "title": "CVE-2026-13322 — KubeVirt downward metrics virtio-serial server vulnerable to unbounded memory consumption",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13322",
+    "score": 3.8,
+    "date": "2026-06-26T00:32:07Z"
    },
    {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-11-04T16:21:19+00:00"
+    "title": "MAL-2026-18629 — Malicious code in @pasqua-baileys/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18629",
+    "score": null,
+    "date": "2026-11-04T17:12:35Z"
    },
    {
-    "title": "CVE-2025-35973 — Red Hat Security Advisory: OpenShift Container Platform 4.22.20 bug fix and security update (+57 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:89197",
-    "score": 8.8,
-    "date": "2026-11-04T16:38:44+00:00"
-   },
-   {
-    "title": "CVE-2026-109242 — Red Hat Security Advisory: freerdp security, bug fix, and enhancement update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94514",
-    "score": 8.8,
-    "date": "2026-11-04T16:28:30+00:00"
-   },
-   {
-    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind9.18 security, bug fix, and enhancement update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94278",
-    "score": 8.6,
-    "date": "2026-11-04T16:38:49+00:00"
-   },
-   {
-    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94115",
-    "score": 8.6,
-    "date": "2026-11-04T16:38:49+00:00"
-   },
-   {
-    "title": "CVE-2025-66418 — Red Hat Security Advisory: OpenShift Container Platform 4.17.58 bug fix and security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:70586",
-    "score": 8.6,
-    "date": "2026-11-04T16:38:40+00:00"
-   },
-   {
-    "title": "CVE-2026-1519 — Red Hat Security Advisory: OpenShift Container Platform 4.18.55 bug fix and security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65851",
-    "score": 8.6,
-    "date": "2026-11-04T16:38:40+00:00"
+    "title": "MAL-2026-16070 — Malicious code in @fyxzpediaa/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-16070",
+    "score": null,
+    "date": "2026-09-09T04:53:03Z"
    }
   ],
   "kev": [
@@ -375,6 +351,13 @@
   ],
   "bleep": [
    {
+    "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+    "date": "Wed, 04 Nov 2026 13:02:56 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
     "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
     "date": "Wed, 04 Nov 2026 11:58:46 -0500",
@@ -450,20 +433,13 @@
     "date": "Tue, 03 Nov 2026 13:51:04 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Barracuda warns of critical flaws allowing root access to devices",
-    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-    "date": "Tue, 03 Nov 2026 10:06:16 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2693,
+    "stars": 2697,
     "lang": "Go"
    },
    {
@@ -475,7 +451,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1139,
+    "stars": 1142,
     "lang": "TypeScript"
    },
    {
@@ -487,8 +463,14 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 776,
+    "stars": 757,
     "lang": "Java"
+   },
+   {
+    "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全厕所、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
+    "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+    "stars": 670,
+    "lang": "TypeScript"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
@@ -505,7 +487,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 537,
+    "stars": 539,
     "lang": "TypeScript"
    },
    {
@@ -523,14 +505,8 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 360,
+    "stars": 361,
     "lang": "—"
-   },
-   {
-    "title": "NyxFoundation/nyxis — A Lean backend framework whose authorization safety is formally proven. The developer writes only a Cedar sche",
-    "url": "https://github.com/NyxFoundation/nyxis",
-    "stars": 319,
-    "lang": "Lean"
    }
   ],
   "hn": [
@@ -717,7 +693,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 3,
   "kev": 1767,
   "adv": 12,
   "feed": 48
