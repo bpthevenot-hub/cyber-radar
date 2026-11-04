@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-04T18:24:01.997Z",
+ "generatedAt": "2026-11-04T19:21:50.316Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-41242 — protobufjs has an arbitrary code execution issue",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-41242",
-    "score": 9.8,
-    "date": "2026-04-16T22:34:57Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,48 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-55098 — Arc: DuckDB I/O aliases bypass database RBAC after CVE-2026-47735",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55098",
-    "score": 6.5,
-    "date": "2026-11-04T17:02:37Z"
-   },
-   {
-    "title": "CVE-2026-13318 — KubeVirt virt-api port-forward handler vulnerable to SSRF via guest-controlled VMI IP address",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13318",
-    "score": 6.4,
-    "date": "2026-06-26T00:32:07Z"
-   },
-   {
-    "title": "CVE-2026-93363 — @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-93363",
-    "score": 4.3,
-    "date": "2026-11-04T17:00:39Z"
-   },
-   {
-    "title": "CVE-2026-13218 — KubeVirt virt-handler network cache symlink vulnerability allows arbitrary host file overwrite",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13218",
-    "score": 4.2,
-    "date": "2026-06-26T00:32:07Z"
-   },
-   {
-    "title": "CVE-2026-13322 — KubeVirt downward metrics virtio-serial server vulnerable to unbounded memory consumption",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13322",
-    "score": 3.8,
-    "date": "2026-06-26T00:32:07Z"
-   },
-   {
-    "title": "MAL-2026-18629 — Malicious code in @pasqua-baileys/baileys (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18629",
-    "score": null,
-    "date": "2026-11-04T17:12:35Z"
-   },
-   {
-    "title": "MAL-2026-16070 — Malicious code in @fyxzpediaa/baileys (npm)",
-    "url": "https://github.com/advisories/MAL-2026-16070",
-    "score": null,
-    "date": "2026-09-09T04:53:03Z"
    }
   ],
   "kev": [
@@ -351,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+    "date": "Wed, 04 Nov 2026 14:05:19 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Cyberattack disrupts blood storage refrigeration systems in France",
     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
     "date": "Wed, 04 Nov 2026 13:02:56 -0500",
@@ -426,13 +385,6 @@
     "date": "Tue, 03 Nov 2026 15:05:50 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-    "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-    "date": "Tue, 03 Nov 2026 13:51:04 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -451,13 +403,13 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1142,
+    "stars": 1148,
     "lang": "TypeScript"
    },
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 800,
+    "stars": 801,
     "lang": "Python"
    },
    {
@@ -475,19 +427,19 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 578,
+    "stars": 580,
     "lang": "Kotlin"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 549,
+    "stars": 550,
     "lang": "—"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 539,
+    "stars": 540,
     "lang": "TypeScript"
    },
    {
@@ -693,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1767,
   "adv": 12,
   "feed": 48
