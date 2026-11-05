@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-11-05T02:24:53.515Z",
+ "generatedAt": "2026-11-05T03:24:03.630Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-122051 — A flaw has been found in Edimax BR-6208AC 1.32. Affected by this vulnerability is an unknown functionality of the file /goform/mp. Executing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122051",
-    "score": 10,
-    "date": "2026-11-05T00:33:08Z"
-   },
-   {
-    "title": "CVE-2026-54384 — VitaFit cloud API before 2026-10-30 contained an authentication bypass vulnerability that allows remote attackers to obtain a full session f",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54384",
-    "score": 9.8,
-    "date": "2026-11-05T00:33:07Z"
-   },
-   {
-    "title": "CVE-2026-38595 — An issue in im3x Scriptables through v2-dev branch allows attackers to inject arbitrary OS commands via uploading a file with a crafted file",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-38595",
-    "score": 9.8,
-    "date": "2026-11-03T18:31:09Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -31,60 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-54378 — VitaFit cloud API before 2026-10-30 contained a broken access control vulnerability that allows any authenticated user to obtain temporary A",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54378",
-    "score": 9.6,
-    "date": "2026-11-05T00:33:06Z"
-   },
-   {
-    "title": "CVE-2026-122299 — Dulwich before 1.2.20 contains a commit object parsing vulnerability where the read path in _parse_commit resolves a duplicate tree header t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122299",
-    "score": 8.8,
-    "date": "2026-11-05T00:33:07Z"
-   },
-   {
-    "title": "CVE-2026-54372 — VitaFit Android application (com.vt.vitafit) before 2.8.1.0 contains an insecure TLS/SSL certificate validation vulnerability that allows ne",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54372",
-    "score": 8.8,
-    "date": "2026-11-05T00:33:06Z"
-   },
-   {
-    "title": "CVE-2026-54375 — VitaFit Android application (com.vt.vitafit) before 2.8.1.0 contains an insecure session management vulnerability that allows attackers to e",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54375",
-    "score": 8.4,
-    "date": "2026-11-05T00:33:06Z"
-   },
-   {
-    "title": "CVE-2026-54376 — VitaFit Android application (com.vt.vitafit) before 2.8.1.0 contains an insecure custom URI scheme vulnerability that allows a malicious app",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54376",
-    "score": 8.2,
-    "date": "2026-11-05T00:33:06Z"
-   },
-   {
-    "title": "CVE-2026-54382 — VitaFit cloud API before 2026-10-30 contained an improper access control vulnerability in its Cognito-issued AWS role that allows authentica",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54382",
-    "score": 7.7,
-    "date": "2026-11-05T00:33:07Z"
-   },
-   {
-    "title": "CVE-2026-54381 — VitaFit cloud API before 2026-10-30 contained a misconfigured cloud storage bucket vulnerability that allows unauthenticated attackers to li",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54381",
-    "score": 7.5,
-    "date": "2026-11-05T00:33:07Z"
-   },
-   {
-    "title": "CVE-2026-54374 — VitaFit Android application (com.vt.vitafit) before 2.8.1.0 contains a hardcoded credentials vulnerability that allows attackers to extract ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-54374",
-    "score": 7.5,
-    "date": "2026-11-05T00:33:06Z"
-   },
-   {
-    "title": "CVE-2026-122050 — A vulnerability was found in Campcodes Complete Sales and Inventory System with Credit Management 1.0. This issue affects some unknown proce",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122050",
-    "score": 7.3,
-    "date": "2026-11-05T00:33:08Z"
    }
   ],
   "kev": [
@@ -463,13 +391,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2707,
+    "stars": 2711,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1841,
+    "stars": 1842,
     "lang": "Python"
    },
    {
@@ -493,13 +421,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全厕所、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 671,
+    "stars": 672,
     "lang": "TypeScript"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 587,
+    "stars": 589,
     "lang": "Kotlin"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1768,
   "adv": 12,
   "feed": 48
