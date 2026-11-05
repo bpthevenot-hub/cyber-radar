@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-05T10:22:12.870Z",
+ "generatedAt": "2026-11-05T11:22:15.726Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-100109 — The Security For WooCommerce WordPress plugin from 1.0.10 to 1.0.16 does not perform capability checks when creating users through an action",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100109",
+    "score": 9.8,
+    "date": "2026-11-05T09:30:22Z"
+   },
    {
     "title": "CVE-2021-46143 — Red Hat Security Advisory: xmlrpc-c security update (+6 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2022:7692",
@@ -21,10 +27,34 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
+    "title": "CVE-2026-123025 — An OS Command Injection vulnerability was discovered in the Google Cloud DNS validation module of the OPNsense os-acme-client plugin through",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123025",
+    "score": 9.5,
+    "date": "2026-11-05T09:30:22Z"
+   },
+   {
+    "title": "CVE-2026-16438 — Incorrect Privilege Assignment vulnerability in Mitsubishi Electric GENESIS64 versions 10.97.3 and prior, ICONICS Suite versions 10.97.3 and",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16438",
+    "score": 9.5,
+    "date": "2026-10-15T09:30:35Z"
+   },
+   {
+    "title": "CVE-2026-16436 — Weak Password Recovery Mechanism for Forgotten Password vulnerability in Mitsubishi Electric GENESIS versions 11.03 and prior, GENESIS64 ver",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16436",
+    "score": 9.5,
+    "date": "2026-10-15T09:30:35Z"
+   },
+   {
     "title": "CVE-2022-22818 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.1.9 (python-django20) security update (+2 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2022:8872",
     "score": 9.4,
     "date": "2026-11-05T09:24:06+00:00"
+   },
+   {
+    "title": "CVE-2026-118869 — An OS command injection vulnerability exists in SHIRASAGI, which may allow an authenticated attacker to execute arbitrary OS commands on the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118869",
+    "score": 8.8,
+    "date": "2026-11-05T09:30:22Z"
    },
    {
     "title": "CVE-2020-13935 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 6.4.24 security update (+5 CVE)",
@@ -33,22 +63,10 @@
     "date": "2026-11-05T09:23:59+00:00"
    },
    {
-    "title": "CVE-2020-13935 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 6.4.24 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:5460",
-    "score": 8.8,
-    "date": "2026-11-05T09:23:55+00:00"
-   },
-   {
-    "title": "CVE-2020-13935 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 6.4.24 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:5458",
-    "score": 8.8,
-    "date": "2026-11-05T09:23:54+00:00"
-   },
-   {
-    "title": "CVE-2021-30809 — Red Hat Security Advisory: webkit2gtk3 security, bug fix, and enhancement update (+29 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:1777",
-    "score": 8.8,
-    "date": "2026-11-05T09:23:52+00:00"
+    "title": "CVE-2026-123033 — Authentication bypass in the HA heartbeat origin check in middlewared in TrueNAS SCALE before 25.10.8 (and in release trains before their re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123033",
+    "score": 8.3,
+    "date": "2026-11-05T09:30:22Z"
    },
    {
     "title": "CVE-2022-48830 — Red Hat Security Advisory: kernel security update (+144 CVE)",
@@ -67,24 +85,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2022:8221",
     "score": 7.8,
     "date": "2026-11-05T09:24:05+00:00"
-   },
-   {
-    "title": "CVE-2022-2319 — Red Hat Security Advisory: xorg-x11-server and xorg-x11-server-Xwayland security and bug fix update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:7583",
-    "score": 7.8,
-    "date": "2026-11-05T09:24:03+00:00"
-   },
-   {
-    "title": "CVE-2022-2319 — Red Hat Security Advisory: xorg-x11-server security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:5905",
-    "score": 7.8,
-    "date": "2026-11-05T09:23:57+00:00"
-   },
-   {
-    "title": "CVE-2022-21682 — Red Hat Security Advisory: flatpak-builder security and bug fix update",
-    "url": "https://access.redhat.com/errata/RHSA-2022:7458",
-    "score": 7.7,
-    "date": "2026-11-05T09:24:04+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+    "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+    "date": "Thu, 05 Nov 2026 15:36:19 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
     "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
     "date": "Thu, 05 Nov 2026 14:43:28 +0530",
@@ -362,13 +369,6 @@
     "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
     "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
     "date": "Wed, 04 Nov 2026 17:16:27 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-    "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-    "date": "Wed, 04 Nov 2026 17:04:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2737,
+    "stars": 2740,
     "lang": "Go"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 598,
+    "stars": 600,
     "lang": "Kotlin"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 390,
+    "stars": 389,
     "lang": "C"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 8,
   "kev": 1768,
   "adv": 12,
   "feed": 48
