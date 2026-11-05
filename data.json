@@ -1,7 +1,37 @@
 {
- "generatedAt": "2026-11-05T04:23:30.085Z",
+ "generatedAt": "2026-11-05T05:21:58.943Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2020-7020 — Red Hat Security Advisory: Red Hat Fuse 7.11.0 release and security update (+57 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:5532",
+    "score": 9.8,
+    "date": "2026-11-05T04:22:05+00:00"
+   },
+   {
+    "title": "CVE-2020-8908 — Red Hat Security Advisory: Red Hat Integration Camel Extensions for Quarkus 2.2.1 security update (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:1013",
+    "score": 9.8,
+    "date": "2026-11-05T04:22:03+00:00"
+   },
+   {
+    "title": "CVE-2021-2471 — Red Hat Security Advisory: Red Hat build of Quarkus 2.2.5 release and security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:0589",
+    "score": 9.8,
+    "date": "2026-11-05T04:22:03+00:00"
+   },
+   {
+    "title": "CVE-2019-10744 — Red Hat Security Advisory: Red Hat Fuse 7.10.0 release and security update (+53 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2021:5134",
+    "score": 9.8,
+    "date": "2026-11-05T04:21:54+00:00"
+   },
+   {
+    "title": "CVE-2019-14853 — Red Hat Security Advisory: Satellite 6.10 Release (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2021:4702",
+    "score": 9.8,
+    "date": "2026-11-05T04:21:50+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +43,48 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2020-9492 — Red Hat Security Advisory: Red Hat Integration Camel-K 1.8 security update (+14 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:6407",
+    "score": 8.8,
+    "date": "2026-11-05T04:22:06+00:00"
+   },
+   {
+    "title": "CVE-2020-8908 — Red Hat Security Advisory: Red Hat Integration Camel-K 1.6.4 release and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:1029",
+    "score": 8.8,
+    "date": "2026-11-05T04:22:03+00:00"
+   },
+   {
+    "title": "CVE-2020-13936 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.1 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2021:3660",
+    "score": 8.8,
+    "date": "2026-11-05T04:21:44+00:00"
+   },
+   {
+    "title": "CVE-2020-13936 — Red Hat Security Advisory: EAP XP 2 security update to CVE fixes in the EAP 7.3.x base (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2021:2755",
+    "score": 8.8,
+    "date": "2026-11-05T04:21:35+00:00"
+   },
+   {
+    "title": "CVE-2020-8908 — Red Hat Security Advisory: EAP XP 1 security update to CVE fixes in the EAP 7.3.x base (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2021:2210",
+    "score": 8.8,
+    "date": "2026-11-05T04:21:30+00:00"
+   },
+   {
+    "title": "CVE-2021-3642 — Red Hat Security Advisory: Red Hat Data Grid 8.3.0 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:0520",
+    "score": 8.5,
+    "date": "2026-11-05T04:22:02+00:00"
+   },
+   {
+    "title": "CVE-2021-3827 — Red Hat Security Advisory: Red Hat Single Sign-On 7.5.1 for OpenShift image security and enhancement update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2022:0164",
+    "score": 8.3,
+    "date": "2026-11-05T04:22:01+00:00"
    }
   ],
   "kev": [
@@ -217,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "date": "Thu, 05 Nov 2026 10:01:16 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
     "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
     "date": "Wed, 04 Nov 2026 22:30:46 +0530",
@@ -290,13 +369,6 @@
     "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
     "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
     "date": "Wed, 04 Nov 2026 11:13:11 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-    "date": "Wed, 04 Nov 2026 00:16:38 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -391,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2714,
+    "stars": 2717,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1843,
+    "stars": 1844,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1173,
+    "stars": 1174,
     "lang": "TypeScript"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 594,
+    "stars": 596,
     "lang": "Kotlin"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1768,
   "adv": 12,
   "feed": 48
