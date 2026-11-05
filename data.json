@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T17:21:42.436Z",
+ "generatedAt": "2026-11-05T18:25:02.687Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,34 @@
   ],
   "adv": [
    {
+    "title": "filecoin-pin: Unbounded DAG pinning can exhaust server resources",
+    "url": "https://github.com/advisories/GHSA-m5ph-mmg5-6w5h",
+    "score": 6.5,
+    "ghsa": "GHSA-m5ph-mmg5-6w5h",
+    "date": "2026-11-05T18:07:30Z"
+   },
+   {
+    "title": "Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE",
+    "url": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
+    "score": 7.5,
+    "ghsa": "GHSA-64vx-6h2c-rjh7",
+    "date": "2026-11-05T17:51:02Z"
+   },
+   {
+    "title": "kaniko can send the build's Azure (Entra ID) access token to lookalike ACR registry hosts",
+    "url": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97",
+    "score": 9.3,
+    "ghsa": "GHSA-5q7h-w9jf-cx97",
+    "date": "2026-11-05T17:48:54Z"
+   },
+   {
+    "title": "lxd allows Cross-guest volume hijack via DevLXD device patch",
+    "url": "https://github.com/advisories/GHSA-hhf9-qw4v-72xp",
+    "score": 8.4,
+    "ghsa": "GHSA-hhf9-qw4v-72xp",
+    "date": "2026-11-05T17:40:59Z"
+   },
+   {
     "title": "Arc: DuckDB I/O aliases bypass database RBAC after CVE-2026-47735",
     "url": "https://github.com/advisories/GHSA-93cm-2v4m-c56c",
     "score": 6.5,
@@ -185,34 +213,6 @@
     "score": 8.1,
     "ghsa": "GHSA-p3jp-9v83-76w9",
     "date": "2026-11-03T17:33:48Z"
-   },
-   {
-    "title": "praktor: Path traversal in Telegram file uploads allows writing outside the agent workspace uploads/ directory (stored instruction injection)",
-    "url": "https://github.com/advisories/GHSA-48v2-6jcm-fc99",
-    "score": 8.2,
-    "ghsa": "GHSA-48v2-6jcm-fc99",
-    "date": "2026-11-03T17:27:25Z"
-   },
-   {
-    "title": "Keycloak has authentication bypass via jwt algorithm confusion",
-    "url": "https://github.com/advisories/GHSA-j97h-3f8r-mrjr",
-    "score": 8.1,
-    "ghsa": "GHSA-j97h-3f8r-mrjr",
-    "date": "2026-11-03T17:24:27Z"
-   },
-   {
-    "title": "Netfoil doesn't decrement TTL",
-    "url": "https://github.com/advisories/GHSA-9ppr-wfw9-xvr2",
-    "score": null,
-    "ghsa": "GHSA-9ppr-wfw9-xvr2",
-    "date": "2026-11-03T16:48:29Z"
-   },
-   {
-    "title": "Metalama: Unsafe deserialization over Metalama's Visual Studio inter-process named pipe enables local code execution",
-    "url": "https://github.com/advisories/GHSA-h26j-4vp7-x9w2",
-    "score": 7.3,
-    "ghsa": "GHSA-h26j-4vp7-x9w2",
-    "date": "2026-11-03T16:37:44Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+    "date": "Thu, 05 Nov 2026 12:45:29 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers backdoor Linux servers using trojanized CWP web server",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
     "date": "Thu, 05 Nov 2026 11:24:26 -0500",
@@ -378,13 +385,6 @@
     "date": "Wed, 04 Nov 2026 10:00:10 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-    "date": "Wed, 04 Nov 2026 09:42:25 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -451,7 +451,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 399,
+    "stars": 400,
     "lang": "C"
    },
    {
