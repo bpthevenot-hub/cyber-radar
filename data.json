@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-11-05T11:22:15.726Z",
+ "generatedAt": "2026-11-05T12:28:08.098Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-100109 — The Security For WooCommerce WordPress plugin from 1.0.10 to 1.0.16 does not perform capability checks when creating users through an action",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100109",
-    "score": 9.8,
-    "date": "2026-11-05T09:30:22Z"
-   },
-   {
-    "title": "CVE-2021-46143 — Red Hat Security Advisory: xmlrpc-c security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:7692",
-    "score": 9.8,
-    "date": "2026-11-05T09:24:04+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-123025 — An OS Command Injection vulnerability was discovered in the Google Cloud DNS validation module of the OPNsense os-acme-client plugin through",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123025",
-    "score": 9.5,
-    "date": "2026-11-05T09:30:22Z"
-   },
-   {
-    "title": "CVE-2026-16438 — Incorrect Privilege Assignment vulnerability in Mitsubishi Electric GENESIS64 versions 10.97.3 and prior, ICONICS Suite versions 10.97.3 and",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16438",
-    "score": 9.5,
-    "date": "2026-10-15T09:30:35Z"
-   },
-   {
-    "title": "CVE-2026-16436 — Weak Password Recovery Mechanism for Forgotten Password vulnerability in Mitsubishi Electric GENESIS versions 11.03 and prior, GENESIS64 ver",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16436",
-    "score": 9.5,
-    "date": "2026-10-15T09:30:35Z"
-   },
-   {
-    "title": "CVE-2022-22818 — Red Hat Security Advisory: Red Hat OpenStack Platform 16.1.9 (python-django20) security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8872",
-    "score": 9.4,
-    "date": "2026-11-05T09:24:06+00:00"
-   },
-   {
-    "title": "CVE-2026-118869 — An OS command injection vulnerability exists in SHIRASAGI, which may allow an authenticated attacker to execute arbitrary OS commands on the",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118869",
+    "title": "CVE-2023-53372 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:26535",
     "score": 8.8,
-    "date": "2026-11-05T09:30:22Z"
+    "date": "2026-11-05T10:45:20+00:00"
    },
    {
-    "title": "CVE-2020-13935 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 6.4.24 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:5459",
+    "title": "CVE-2023-53372 — Red Hat Security Advisory: kernel security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:25533",
     "score": 8.8,
-    "date": "2026-11-05T09:23:59+00:00"
+    "date": "2026-11-05T10:45:18+00:00"
    },
    {
-    "title": "CVE-2026-123033 — Authentication bypass in the HA heartbeat origin check in middlewared in TrueNAS SCALE before 25.10.8 (and in release trains before their re",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123033",
-    "score": 8.3,
-    "date": "2026-11-05T09:30:22Z"
-   },
-   {
-    "title": "CVE-2022-48830 — Red Hat Security Advisory: kernel security update (+144 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:20518",
+    "title": "CVE-2023-52528 — Red Hat Security Advisory: kernel security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:4342",
     "score": 7.8,
-    "date": "2026-11-05T09:34:05+00:00"
+    "date": "2026-11-05T10:36:03+00:00"
    },
    {
-    "title": "CVE-2022-2319 — Red Hat Security Advisory: xorg-x11-server-Xwayland security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8222",
+    "title": "CVE-2023-52749 — Red Hat Security Advisory: kernel security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:9546",
     "score": 7.8,
-    "date": "2026-11-05T09:24:05+00:00"
+    "date": "2026-11-05T10:36:01+00:00"
    },
    {
-    "title": "CVE-2022-2319 — Red Hat Security Advisory: xorg-x11-server security and bug fix update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2022:8221",
+    "title": "CVE-2023-52439 — Red Hat Security Advisory: kernel security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:6997",
     "score": 7.8,
-    "date": "2026-11-05T09:24:05+00:00"
+    "date": "2026-11-05T10:36:01+00:00"
+   },
+   {
+    "title": "CVE-2023-5090 — Red Hat Security Advisory: kernel-rt security and bug fix update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3854",
+    "score": 7.8,
+    "date": "2026-11-05T10:35:58+00:00"
+   },
+   {
+    "title": "CVE-2023-5090 — Red Hat Security Advisory: kernel security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3855",
+    "score": 7.8,
+    "date": "2026-11-05T10:35:56+00:00"
+   },
+   {
+    "title": "CVE-2022-50865 — Red Hat Security Advisory: kernel security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1662",
+    "score": 7.8,
+    "date": "2026-11-05T10:31:50+00:00"
+   },
+   {
+    "title": "CVE-2022-50865 — Red Hat Security Advisory: kernel-rt security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:1661",
+    "score": 7.8,
+    "date": "2026-11-05T10:31:48+00:00"
+   },
+   {
+    "title": "CVE-2022-48627 — Red Hat Security Advisory: kernel security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:5255",
+    "score": 7.8,
+    "date": "2026-11-05T10:31:43+00:00"
+   },
+   {
+    "title": "CVE-2021-46915 — Red Hat Security Advisory: kernel-rt security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2008",
+    "score": 7.8,
+    "date": "2026-11-05T10:31:41+00:00"
+   },
+   {
+    "title": "CVE-2021-46915 — Red Hat Security Advisory: kernel security and bug fix update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2006",
+    "score": 7.8,
+    "date": "2026-11-05T10:31:41+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "date": "Thu, 05 Nov 2026 17:38:54 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
     "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
     "date": "Thu, 05 Nov 2026 15:36:19 +0530",
@@ -320,13 +327,6 @@
     "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
     "date": "Thu, 05 Nov 2026 10:47:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "date": "Thu, 05 Nov 2026 10:01:16 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    },
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2740,
+    "stars": 2743,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1848,
+    "stars": 1850,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1174,
+    "stars": 1175,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全厕所、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 676,
+    "stars": 677,
     "lang": "TypeScript"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 389,
+    "stars": 393,
     "lang": "C"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 8,
+  "crit": 2,
   "kev": 1768,
   "adv": 12,
   "feed": 48
