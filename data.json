@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T18:25:02.687Z",
+ "generatedAt": "2026-11-05T19:22:09.970Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-51481 — Local File Inclusion in dagster._grpc.impl.get_notebook_data in Dagster 1.10.14 allows attackers with access to the gRPC server to read arbi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-51481",
+    "score": 6.6,
+    "date": "2025-07-22T17:15:33.543Z"
+   },
+   {
+    "title": "MAL-2026-18193 — Malicious code in opencode-skills-collection (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18193",
+    "score": null,
+    "date": "2026-10-22T18:35:11Z"
    }
   ],
   "kev": [
@@ -391,13 +403,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2755,
+    "stars": 2756,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1856,
+    "stars": 1857,
     "lang": "Python"
    },
    {
@@ -409,7 +421,7 @@
    {
     "title": "nealbridges/VulnHunter — Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves them with executa",
     "url": "https://github.com/nealbridges/VulnHunter",
-    "stars": 801,
+    "stars": 802,
     "lang": "Python"
    },
    {
@@ -427,7 +439,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 596,
+    "stars": 599,
     "lang": "Kotlin"
    },
    {
@@ -451,13 +463,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 400,
+    "stars": 401,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 367,
+    "stars": 368,
     "lang": "—"
    }
   ],
@@ -577,6 +589,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Sogou Input Method update hijack installs DarkVigil backdoor; update to 16.10 (CVE-2026-120422)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xoq81f/sogou_input_method_update_hijack_installs/",
+    "date": "2026-11-05T18:26:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "ThisBash Escape: Claude Dispatch Flaw Enables Browser Extensions RCE on the OS · Forever Security",
     "url": "https://www.reddit.com/r/netsec/comments/1xokbbo/thisbash_escape_claude_dispatch_flaw_enables/",
     "date": "2026-11-05T14:40:21+00:00",
@@ -622,13 +641,6 @@
     "title": "Jailbreaking my car's navigation system just so I can change the time",
     "url": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
     "date": "2026-11-02T19:16:42+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Pass-ta-key Golden Attack: Stealing Google Password Manager Synced Passkeys for Offline Account Takeover",
-    "url": "https://www.reddit.com/r/netsec/comments/1xmrsh9/passtakey_golden_attack_stealing_google_password/",
-    "date": "2026-11-03T12:35:06+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
