@@ -27,7 +27,7 @@ function api(replies) {
     },
   };
 }
-const read = (oid = head, blob = 'c'.repeat(40)) => ({ data: { repository: { ref: { target: { oid } }, object: { oid: blob } } } });
+const read = (oid = head, blob = 'c'.repeat(40)) => ({ data: { repository: { ref: { id: 'refs-main-node-id', target: { oid } }, object: { oid: blob } } } });
 const created = (sig = signature) => ({ data: { createCommitOnBranch: { commit: { oid: next, signature: sig } } } });
 const options = () => ({ content: JSON.stringify(snapshot()), repository: 'bpthevenot-hub/cyber-radar', expectedHeadOid: head, token: 'test-secret', now });
 
@@ -38,7 +38,7 @@ test('publishes only data.json atomically and verifies the resulting signature',
   assert.equal(mock.calls.length, 2);
   const input = mock.calls[1].body.variables.input;
   assert.equal(input.expectedHeadOid, head);
-  assert.deepEqual(input.branch, { repositoryNameWithOwner: 'bpthevenot-hub/cyber-radar', refName: 'main' });
+  assert.deepEqual(input.branch, { id: 'refs-main-node-id' });
   assert.deepEqual(input.fileChanges.additions.map(file => file.path), ['data.json']);
   assert.equal(Buffer.from(input.fileChanges.additions[0].contents, 'base64').toString(), options().content);
   assert.ok(mock.calls.every(call => call.url === 'https://api.github.com/graphql' && call.redirect === 'error'));
@@ -84,6 +84,22 @@ test('API permission failure stops publication', async () => {
     return { ok: false, status: 403 };
   } }), /HTTP 403/);
   assert.equal(calls, 1);
+});
+
+test('GraphQL diagnostics retain the cause and redact the token', async () => {
+  const mock = api([read(), { errors: [{ message: 'Invalid branch input test-secret' }] }]);
+  await assert.rejects(publishData({ ...options(), fetchImpl: mock.fetchImpl }), error => {
+    assert.match(error.message, /Invalid branch input \[redacted\]/);
+    assert.ok(!error.message.includes('test-secret'));
+    return true;
+  });
+});
+
+test('missing branch identity cannot cause a mutation', async () => {
+  const response = read(); delete response.data.repository.ref.id;
+  const mock = api([response]);
+  await assert.rejects(publishData({ ...options(), fetchImpl: mock.fetchImpl }), /branch ID/);
+  assert.equal(mock.calls.length, 1);
 });
 
 test('all failed sources preserve the old published snapshot with zero API calls', async () => {
