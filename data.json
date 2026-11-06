@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-06T08:25:14.544Z",
+ "generatedAt": "2026-11-06T09:22:47.988Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2023-3775 — Red Hat Security Advisory: OpenShift Container Platform 4.17.0 bug fix and security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3718",
+    "score": 9.9,
+    "date": "2026-11-06T08:31:54+00:00"
+   },
+   {
+    "title": "CVE-2023-39326 — Red Hat Security Advisory: Network Observability 1.6.0 for OpenShift (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3868",
+    "score": 9.8,
+    "date": "2026-11-06T08:31:54+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,34 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-5994 — Red Hat Security Advisory: OpenShift Container Platform 4.13.61 bug fix and security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:18240",
-    "score": 9.1,
-    "date": "2026-11-06T07:29:09+00:00"
+    "title": "CVE-2024-3596 — Red Hat Security Advisory: RHOAI 2.16.0 - Red Hat OpenShift AI (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:10852",
+    "score": 9,
+    "date": "2026-11-06T08:31:34+00:00"
    },
    {
-    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:57189",
+    "title": "CVE-2026-53488 — Red Hat Security Advisory: Assisted Installer RHEL 9 components for Multicluster Engine for Kubernetes 2.10.4",
+    "url": "https://access.redhat.com/errata/RHSA-2026:37252",
+    "score": 8.8,
+    "date": "2026-11-06T08:40:15+00:00"
+   },
+   {
+    "title": "CVE-2026-32285 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:35111",
+    "score": 8.8,
+    "date": "2026-11-06T08:40:13+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.15 OpenShift Jenkins security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:4597",
+    "score": 8.8,
+    "date": "2026-11-06T08:31:58+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.13 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3636",
+    "score": 8.8,
+    "date": "2026-11-06T08:31:53+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.12 Openshift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3635",
+    "score": 8.8,
+    "date": "2026-11-06T08:31:52+00:00"
+   },
+   {
+    "title": "CVE-2023-48795 — Red Hat Security Advisory: Red Hat Product OCP Tools 4.14 OpenShift Jenkins security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3634",
+    "score": 8.8,
+    "date": "2026-11-06T08:31:51+00:00"
+   },
+   {
+    "title": "CVE-2022-2880 — Red Hat Security Advisory: container-tools:rhel8 security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3254",
     "score": 8.6,
-    "date": "2026-11-06T07:28:00+00:00"
+    "date": "2026-11-06T08:31:50+00:00"
    },
    {
-    "title": "CVE-2026-19630 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95048",
-    "score": 8.1,
-    "date": "2026-11-06T07:28:11+00:00"
+    "title": "CVE-2024-1753 — Red Hat Security Advisory: podman security and bug fix update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:2548",
+    "score": 8.6,
+    "date": "2026-11-06T08:31:45+00:00"
    },
    {
-    "title": "CVE-2025-6965 — Red Hat Security Advisory: sqlite security update",
-    "url": "https://access.redhat.com/errata/RHSA-2025:12036",
-    "score": 7.7,
-    "date": "2026-11-06T07:29:07+00:00"
-   },
-   {
-    "title": "CVE-2026-10582 — Red Hat Security Advisory: Red Hat Hardened Images RPMs bug fix and enhancement update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66266",
-    "score": 7.4,
-    "date": "2026-11-06T07:28:12+00:00"
+    "title": "CVE-2023-29483 — Red Hat Security Advisory: OpenShift Container Platform 4.16.0 security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0045",
+    "score": 8.3,
+    "date": "2026-11-06T08:31:33+00:00"
    }
   ],
   "kev": [
@@ -247,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+    "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "date": "Fri, 06 Nov 2026 13:34:49 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
     "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
     "date": "Fri, 06 Nov 2026 11:28:54 +0530",
@@ -322,16 +371,16 @@
     "date": "Thu, 05 Nov 2026 12:36:33 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "date": "Thu, 05 Nov 2026 10:47:04 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+    "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+    "date": "Fri, 06 Nov 2026 04:22:28 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
     "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
@@ -408,20 +457,13 @@
     "date": "Wed, 04 Nov 2026 15:58:19 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-    "date": "Wed, 04 Nov 2026 14:05:19 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2777,
+    "stars": 2780,
     "lang": "Go"
    },
    {
@@ -433,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1101,
+    "stars": 1102,
     "lang": "TypeScript"
    },
    {
@@ -445,13 +487,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 686,
+    "stars": 688,
     "lang": "TypeScript"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 608,
+    "stars": 611,
     "lang": "Kotlin"
    },
    {
@@ -475,7 +517,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 413,
+    "stars": 414,
     "lang": "C"
    },
    {
@@ -607,20 +649,6 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "ThisBash Escape: Claude Dispatch Flaw Enables Browser Extensions RCE on the OS · Forever Security",
-    "url": "https://www.reddit.com/r/netsec/comments/1xokbbo/thisbash_escape_claude_dispatch_flaw_enables/",
-    "date": "2026-11-05T14:40:21+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Sogou Input Method update hijack installs DarkVigil backdoor; update to 16.10 (CVE-2026-120422)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xoq81f/sogou_input_method_update_hijack_installs/",
-    "date": "2026-11-05T18:26:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
     "url": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
     "date": "2026-11-04T21:47:44+00:00",
@@ -642,23 +670,37 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Who Polices the Blockchain? The Binance Heist and the New Gatekeepers",
-    "url": "https://www.reddit.com/r/netsec/comments/1xnrmz7/who_polices_the_blockchain_the_binance_heist_and/",
-    "date": "2026-11-04T15:49:48+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Chinese Botnet (XCPE on Android) Broken",
-    "url": "https://www.reddit.com/r/netsec/comments/1xnr2o5/chinese_botnet_xcpe_on_android_broken/",
-    "date": "2026-11-04T15:27:32+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "We found 4,972 &quot;hello&quot; messages hiding thousands of malicious commands targeting Flowise",
     "url": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
     "date": "2026-11-03T15:11:53+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Jailbreaking my car's navigation system just so I can change the time",
+    "url": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
+    "date": "2026-11-02T19:16:42+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Pass-ta-key Golden Attack: Stealing Google Password Manager Synced Passkeys for Offline Account Takeover",
+    "url": "https://www.reddit.com/r/netsec/comments/1xmrsh9/passtakey_golden_attack_stealing_google_password/",
+    "date": "2026-11-03T12:35:06+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "A primer on TETRA mission-critical radio network authentication flaws",
+    "url": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
+    "date": "2026-11-03T10:19:12+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
+    "url": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
+    "date": "2026-11-02T09:43:15+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -675,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1768,
   "adv": 12,
   "feed": 48
