@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-11-06T19:21:51.367Z",
+ "generatedAt": "2026-11-06T20:22:21.933Z",
  "sources": {
   "cve": [
    {
-    "title": "GHSA-jpf8-86f3-wp38 — LXD has arbitrary file read+write on host via templates/ symlink in malicious image",
-    "url": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
+    "title": "GHSA-47w9-6r3f-938g — LXD has restricted project bypass leading to arbitrary command execution",
+    "url": "https://github.com/advisories/GHSA-47w9-6r3f-938g",
     "score": 9.9,
-    "date": "2026-11-06T18:53:57Z"
-   },
-   {
-    "title": "GHSA-9j25-mm2h-2f76 — LXD has arbitrary file write on host via `exec-output` symlink in crafted image",
-    "url": "https://github.com/advisories/GHSA-9j25-mm2h-2f76",
-    "score": 9.9,
-    "date": "2026-11-06T18:45:51Z"
+    "date": "2026-11-06T19:51:26Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -25,6 +19,30 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "GHSA-7mr3-28h5-m5vx — LXD has project restriction bypass for custom volume copy across projects",
+    "url": "https://github.com/advisories/GHSA-7mr3-28h5-m5vx",
+    "score": 7.7,
+    "date": "2026-11-06T19:51:16Z"
+   },
+   {
+    "title": "GHSA-qx75-2p3r-pwm5 — LXD has project restriction bypass in instance copy across projects",
+    "url": "https://github.com/advisories/GHSA-qx75-2p3r-pwm5",
+    "score": 7.7,
+    "date": "2026-11-06T19:51:00Z"
+   },
+   {
+    "title": "CVE-2026-55649 — GeoNode has Stored XSS in Documents metadata abstract field",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55649",
+    "score": 6.3,
+    "date": "2026-11-06T19:50:34Z"
+   },
+   {
+    "title": "CVE-2026-46429 — GeoNode has Unrestricted File Upload",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46429",
+    "score": 5.5,
+    "date": "2026-11-06T19:41:23Z"
    }
   ],
   "kev": [
@@ -143,6 +161,76 @@
   ],
   "adv": [
    {
+    "title": "LXD has restricted project bypass leading to arbitrary command execution",
+    "url": "https://github.com/advisories/GHSA-47w9-6r3f-938g",
+    "score": 9.9,
+    "ghsa": "GHSA-47w9-6r3f-938g",
+    "date": "2026-11-06T19:51:26Z"
+   },
+   {
+    "title": "LXD has project restriction bypass for custom volume copy across projects",
+    "url": "https://github.com/advisories/GHSA-7mr3-28h5-m5vx",
+    "score": 7.7,
+    "ghsa": "GHSA-7mr3-28h5-m5vx",
+    "date": "2026-11-06T19:51:16Z"
+   },
+   {
+    "title": "LXD has project restriction bypass in instance copy across projects",
+    "url": "https://github.com/advisories/GHSA-qx75-2p3r-pwm5",
+    "score": 7.7,
+    "ghsa": "GHSA-qx75-2p3r-pwm5",
+    "date": "2026-11-06T19:51:00Z"
+   },
+   {
+    "title": "GeoNode has Stored XSS in Documents metadata abstract field",
+    "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
+    "score": 6.3,
+    "ghsa": "GHSA-r4hm-p9f9-fj9v",
+    "date": "2026-11-06T19:50:34Z"
+   },
+   {
+    "title": "GeoNode has Unrestricted File Upload",
+    "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
+    "score": 5.5,
+    "ghsa": "GHSA-fqpv-mq26-pr4j",
+    "date": "2026-11-06T19:41:23Z"
+   },
+   {
+    "title": "GeoNode has OS command injection via uploaded file layer name",
+    "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
+    "score": 8.8,
+    "ghsa": "GHSA-9fpx-fr6j-2vh6",
+    "date": "2026-11-06T19:39:38Z"
+   },
+   {
+    "title": "LXD has CreateCustomVolumeFromBackup nil-pointer dereference on volumes[0].snapshots[*].expires_at",
+    "url": "https://github.com/advisories/GHSA-j93m-3j9p-m5m8",
+    "score": 6.5,
+    "ghsa": "GHSA-j93m-3j9p-m5m8",
+    "date": "2026-11-06T19:37:14Z"
+   },
+   {
+    "title": "LXD has arbitrary file write on client due to trusted image hash",
+    "url": "https://github.com/advisories/GHSA-pjff-c2wc-f6jm",
+    "score": 9.9,
+    "ghsa": "GHSA-pjff-c2wc-f6jm",
+    "date": "2026-11-06T19:36:55Z"
+   },
+   {
+    "title": "LXD has argument injection in backup compression algorithm leading to AFW and ACE",
+    "url": "https://github.com/advisories/GHSA-fmc8-p6q7-75cc",
+    "score": 9.9,
+    "ghsa": "GHSA-fmc8-p6q7-75cc",
+    "date": "2026-11-06T19:36:37Z"
+   },
+   {
+    "title": "LXD has arbitrary file read+write on host via rootfs/ symlink in malicious image",
+    "url": "https://github.com/advisories/GHSA-vghh-5rfx-xhq8",
+    "score": 9.9,
+    "ghsa": "GHSA-vghh-5rfx-xhq8",
+    "date": "2026-11-06T19:36:07Z"
+   },
+   {
     "title": "LXD has arbitrary file read+write on host via templates/ symlink in malicious image",
     "url": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
     "score": 9.9,
@@ -155,76 +243,6 @@
     "score": 9.9,
     "ghsa": "GHSA-9j25-mm2h-2f76",
     "date": "2026-11-06T18:45:51Z"
-   },
-   {
-    "title": "LXD: SSRF via image import from URL allows internal network probing by authenticated users",
-    "url": "https://github.com/advisories/GHSA-3gq2-x4qg-p4g6",
-    "score": 5,
-    "ghsa": "GHSA-3gq2-x4qg-p4g6",
-    "date": "2026-11-06T18:29:18Z"
-   },
-   {
-    "title": "listmonk: SQL Injection in `/api/subscribers/export` bypasses table access control, leaking admin password hashes and SMTP credentials",
-    "url": "https://github.com/advisories/GHSA-xgjr-7j9q-2h4r",
-    "score": 5.5,
-    "ghsa": "GHSA-xgjr-7j9q-2h4r",
-    "date": "2026-11-06T18:15:17Z"
-   },
-   {
-    "title": "OSAC operator: Kubeconfig credential-plugin execution and SSRF in console proxy",
-    "url": "https://github.com/advisories/GHSA-5w5g-j6hw-6p8f",
-    "score": 7.5,
-    "ghsa": "GHSA-5w5g-j6hw-6p8f",
-    "date": "2026-11-06T18:12:40Z"
-   },
-   {
-    "title": "Eclipse hawkBit DDI has Privilege Escalation that allows Tenant-Isolated Firmware Exfiltration",
-    "url": "https://github.com/advisories/GHSA-92r3-p8c2-3fpx",
-    "score": 4.3,
-    "ghsa": "GHSA-92r3-p8c2-3fpx",
-    "date": "2026-11-06T18:09:45Z"
-   },
-   {
-    "title": "filecoin-pin: Unbounded DAG pinning can exhaust server resources",
-    "url": "https://github.com/advisories/GHSA-m5ph-mmg5-6w5h",
-    "score": 6.5,
-    "ghsa": "GHSA-m5ph-mmg5-6w5h",
-    "date": "2026-11-05T18:07:30Z"
-   },
-   {
-    "title": "Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE",
-    "url": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
-    "score": 7.5,
-    "ghsa": "GHSA-64vx-6h2c-rjh7",
-    "date": "2026-11-05T17:51:02Z"
-   },
-   {
-    "title": "kaniko can send the build's Azure (Entra ID) access token to lookalike ACR registry hosts",
-    "url": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97",
-    "score": 9.3,
-    "ghsa": "GHSA-5q7h-w9jf-cx97",
-    "date": "2026-11-05T17:48:54Z"
-   },
-   {
-    "title": "lxd allows Cross-guest volume hijack via DevLXD device patch",
-    "url": "https://github.com/advisories/GHSA-hhf9-qw4v-72xp",
-    "score": 8.4,
-    "ghsa": "GHSA-hhf9-qw4v-72xp",
-    "date": "2026-11-05T17:40:59Z"
-   },
-   {
-    "title": "Arc: DuckDB I/O aliases bypass database RBAC after CVE-2026-47735",
-    "url": "https://github.com/advisories/GHSA-93cm-2v4m-c56c",
-    "score": 6.5,
-    "ghsa": "GHSA-93cm-2v4m-c56c",
-    "date": "2026-11-04T17:02:37Z"
-   },
-   {
-    "title": "@payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
-    "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
-    "score": 4.3,
-    "ghsa": "GHSA-mc8m-rr6c-r5qr",
-    "date": "2026-11-04T17:00:39Z"
    }
   ],
   "thn": [
@@ -403,13 +421,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2801,
+    "stars": 2803,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1874,
+    "stars": 1877,
     "lang": "Python"
    },
    {
@@ -433,7 +451,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 546,
+    "stars": 545,
     "lang": "—"
    },
    {
@@ -657,7 +675,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 3,
   "kev": 1768,
   "adv": 12,
   "feed": 48
