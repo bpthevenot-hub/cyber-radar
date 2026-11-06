@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-06T18:24:45.325Z",
+ "generatedAt": "2026-11-06T19:21:51.367Z",
  "sources": {
   "cve": [
+   {
+    "title": "GHSA-jpf8-86f3-wp38 — LXD has arbitrary file read+write on host via templates/ symlink in malicious image",
+    "url": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
+    "score": 9.9,
+    "date": "2026-11-06T18:53:57Z"
+   },
+   {
+    "title": "GHSA-9j25-mm2h-2f76 — LXD has arbitrary file write on host via `exec-output` symlink in crafted image",
+    "url": "https://github.com/advisories/GHSA-9j25-mm2h-2f76",
+    "score": 9.9,
+    "date": "2026-11-06T18:45:51Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -131,6 +143,27 @@
   ],
   "adv": [
    {
+    "title": "LXD has arbitrary file read+write on host via templates/ symlink in malicious image",
+    "url": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
+    "score": 9.9,
+    "ghsa": "GHSA-jpf8-86f3-wp38",
+    "date": "2026-11-06T18:53:57Z"
+   },
+   {
+    "title": "LXD has arbitrary file write on host via `exec-output` symlink in crafted image",
+    "url": "https://github.com/advisories/GHSA-9j25-mm2h-2f76",
+    "score": 9.9,
+    "ghsa": "GHSA-9j25-mm2h-2f76",
+    "date": "2026-11-06T18:45:51Z"
+   },
+   {
+    "title": "LXD: SSRF via image import from URL allows internal network probing by authenticated users",
+    "url": "https://github.com/advisories/GHSA-3gq2-x4qg-p4g6",
+    "score": 5,
+    "ghsa": "GHSA-3gq2-x4qg-p4g6",
+    "date": "2026-11-06T18:29:18Z"
+   },
+   {
     "title": "listmonk: SQL Injection in `/api/subscribers/export` bypasses table access control, leaking admin password hashes and SMTP credentials",
     "url": "https://github.com/advisories/GHSA-xgjr-7j9q-2h4r",
     "score": 5.5,
@@ -192,27 +225,6 @@
     "score": 4.3,
     "ghsa": "GHSA-mc8m-rr6c-r5qr",
     "date": "2026-11-04T17:00:39Z"
-   },
-   {
-    "title": "odf-kit: HTML injection leading to XSS in odtToHtml() and odsToHtml() via unescaped style attribute values",
-    "url": "https://github.com/advisories/GHSA-3cgg-c5pp-57h6",
-    "score": 6.1,
-    "ghsa": "GHSA-3cgg-c5pp-57h6",
-    "date": "2026-11-04T16:14:34Z"
-   },
-   {
-    "title": "Stanza: RCE via pickle deserialization in the lemmatizer",
-    "url": "https://github.com/advisories/GHSA-gh9r-c94j-cmp5",
-    "score": 7.8,
-    "ghsa": "GHSA-gh9r-c94j-cmp5",
-    "date": "2026-11-03T20:29:16Z"
-   },
-   {
-    "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
-    "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
-    "score": 9.8,
-    "ghsa": "GHSA-33r5-xmm8-v6x5",
-    "date": "2026-11-03T17:53:42Z"
    }
   ],
   "thn": [
@@ -303,6 +315,13 @@
   ],
   "bleep": [
    {
+    "title": "Fake security tools on GitHub push backdoors and infostealers",
+    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "date": "Fri, 06 Nov 2026 13:46:52 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
     "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
     "date": "Fri, 06 Nov 2026 12:04:23 -0500",
@@ -378,39 +397,26 @@
     "date": "Thu, 05 Nov 2026 12:45:29 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers backdoor Linux servers using trojanized CWP web server",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-    "date": "Thu, 05 Nov 2026 11:24:26 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2800,
+    "stars": 2801,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1872,
+    "stars": 1874,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1105,
+    "stars": 1072,
     "lang": "TypeScript"
-   },
-   {
-    "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
-    "url": "https://github.com/opentrap/opentrap",
-    "stars": 757,
-    "lang": "Java"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
@@ -421,7 +427,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 625,
+    "stars": 599,
     "lang": "Kotlin"
    },
    {
@@ -433,7 +439,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 533,
+    "stars": 509,
     "lang": "TypeScript"
    },
    {
@@ -441,6 +447,12 @@
     "url": "https://github.com/strands-agents/box",
     "stars": 498,
     "lang": "Rust"
+   },
+   {
+    "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
+    "url": "https://github.com/opentrap/opentrap",
+    "stars": 428,
+    "lang": "Java"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
@@ -451,7 +463,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 379,
+    "stars": 382,
     "lang": "—"
    },
    {
@@ -645,7 +657,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1768,
   "adv": 12,
   "feed": 48
