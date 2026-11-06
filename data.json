@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-11-06T20:22:21.933Z",
+ "generatedAt": "2026-11-06T21:22:03.394Z",
  "sources": {
   "cve": [
    {
-    "title": "GHSA-47w9-6r3f-938g — LXD has restricted project bypass leading to arbitrary command execution",
-    "url": "https://github.com/advisories/GHSA-47w9-6r3f-938g",
-    "score": 9.9,
-    "date": "2026-11-06T19:51:26Z"
+    "title": "CVE-2022-25857 — Red Hat Security Advisory: jenkins and jenkins-2-plugins security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:0777",
+    "score": 9.8,
+    "date": "2026-11-06T20:43:04+00:00"
+   },
+   {
+    "title": "CVE-2018-1000873 — Red Hat Security Advisory: Red Hat Fuse 7.8.0 release and security update (+38 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:5568",
+    "score": 9.8,
+    "date": "2026-11-06T20:42:03+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,28 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "GHSA-7mr3-28h5-m5vx — LXD has project restriction bypass for custom volume copy across projects",
-    "url": "https://github.com/advisories/GHSA-7mr3-28h5-m5vx",
-    "score": 7.7,
-    "date": "2026-11-06T19:51:16Z"
+    "title": "CVE-2016-4970 — Red Hat Security Advisory: Red Hat Fuse 7.7.0 release and security update (+48 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3192",
+    "score": 9,
+    "date": "2026-11-06T20:41:44+00:00"
    },
    {
-    "title": "GHSA-qx75-2p3r-pwm5 — LXD has project restriction bypass in instance copy across projects",
-    "url": "https://github.com/advisories/GHSA-qx75-2p3r-pwm5",
-    "score": 7.7,
-    "date": "2026-11-06T19:51:00Z"
+    "title": "CVE-2018-3258 — Red Hat Security Advisory: Satellite 6.8 release (+27 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:4366",
+    "score": 8.8,
+    "date": "2026-11-06T20:41:51+00:00"
    },
    {
-    "title": "CVE-2026-55649 — GeoNode has Stored XSS in Documents metadata abstract field",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55649",
-    "score": 6.3,
-    "date": "2026-11-06T19:50:34Z"
+    "title": "CVE-2019-9512 — Red Hat Security Advisory: Red Hat Process Automation Manager 7.8.0 Security Update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3197",
+    "score": 8.8,
+    "date": "2026-11-06T20:41:45+00:00"
    },
    {
-    "title": "CVE-2026-46429 — GeoNode has Unrestricted File Upload",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-46429",
-    "score": 5.5,
-    "date": "2026-11-06T19:41:23Z"
+    "title": "CVE-2019-9512 — Red Hat Security Advisory: Red Hat Decision Manager 7.8.0 Security Update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3196",
+    "score": 8.8,
+    "date": "2026-11-06T20:41:45+00:00"
+   },
+   {
+    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 on RHEL 8 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3639",
+    "score": 8.1,
+    "date": "2026-11-06T20:41:52+00:00"
+   },
+   {
+    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3642",
+    "score": 8.1,
+    "date": "2026-11-06T20:41:48+00:00"
+   },
+   {
+    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 on RHEL 7 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3638",
+    "score": 8.1,
+    "date": "2026-11-06T20:41:48+00:00"
+   },
+   {
+    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 on RHEL 6 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2020:3637",
+    "score": 8.1,
+    "date": "2026-11-06T20:41:48+00:00"
+   },
+   {
+    "title": "CVE-2019-20330 — Red Hat Bug Fix Advisory: Satellite 6.7.2 Async Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2020:3255",
+    "score": 8.1,
+    "date": "2026-11-06T20:41:43+00:00"
+   },
+   {
+    "title": "CVE-2019-12086 — Red Hat Bug Fix Advisory: Satellite 6.6.3 Async Bug Fix Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2020:1494",
+    "score": 8.1,
+    "date": "2026-11-06T20:41:38+00:00"
    }
   ],
   "kev": [
@@ -333,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+    "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "date": "Fri, 06 Nov 2026 15:24:19 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Fake security tools on GitHub push backdoors and infostealers",
     "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
     "date": "Fri, 06 Nov 2026 13:46:52 -0500",
@@ -408,26 +457,19 @@
     "date": "Thu, 05 Nov 2026 14:24:26 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-    "date": "Thu, 05 Nov 2026 12:45:29 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2803,
+    "stars": 2808,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1877,
+    "stars": 1879,
     "lang": "Python"
    },
    {
@@ -463,19 +505,19 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 498,
+    "stars": 499,
     "lang": "Rust"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 428,
+    "stars": 429,
     "lang": "Java"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 415,
+    "stars": 416,
     "lang": "C"
    },
    {
@@ -675,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
-  "kev": 1768,
+  "crit": 5,
+  "kev": 1769,
   "adv": 12,
   "feed": 48
  },
