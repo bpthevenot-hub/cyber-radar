@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-06T12:27:09.672Z",
+ "generatedAt": "2026-11-06T13:22:35.802Z",
  "sources": {
   "cve": [
+   {
+    "title": "RLSA-2026:93413 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:93413",
+    "score": 9.8,
+    "date": "2026-11-03T12:10:03.560067Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-18193 — Malicious code in opencode-skills-collection (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18193",
-    "score": null,
-    "date": "2026-10-22T18:35:11Z"
+    "title": "RLSA-2026:94501 — Critical: fence-agents security update",
+    "url": "https://github.com/advisories/RLSA-2026:94501",
+    "score": 9.1,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:95367 — Important: kernel security update",
+    "url": "https://github.com/advisories/RLSA-2026:95367",
+    "score": 8.8,
+    "date": "2026-11-06T12:09:31.090950Z"
+   },
+   {
+    "title": "RLSA-2026:94630 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:94630",
+    "score": 8.8,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:94514 — Important: freerdp security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:94514",
+    "score": 8.8,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:91565 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:91565",
+    "score": 8.8,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:90523 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:90523",
+    "score": 8.8,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:95085 — Important: tesseract security update",
+    "url": "https://github.com/advisories/RLSA-2026:95085",
+    "score": 8.4,
+    "date": "2026-11-05T09:10:39.399064Z"
+   },
+   {
+    "title": "RLSA-2026:91003 — Important: libXrender security update",
+    "url": "https://github.com/advisories/RLSA-2026:91003",
+    "score": 8.3,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 8.1,
+    "date": "2026-10-31T00:14:32.745623Z"
+   },
+   {
+    "title": "RXSA-2026:92209 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:92209",
+    "score": 8.1,
+    "date": "2026-10-31T00:13:57.889244Z"
+   },
+   {
+    "title": "RLSA-2026:92428 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:92428",
+    "score": 8.1,
+    "date": "2026-10-31T00:09:15.425890Z"
    }
   ],
   "kev": [
@@ -223,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "date": "Fri, 06 Nov 2026 17:36:43 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+    "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+    "date": "Fri, 06 Nov 2026 17:36:35 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "The Flood is Coming And The Pipes Were Already Full",
     "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
     "date": "Fri, 06 Nov 2026 17:00:00 +0530",
@@ -291,23 +371,16 @@
     "date": "Thu, 05 Nov 2026 15:36:19 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-    "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-    "date": "Thu, 05 Nov 2026 14:43:28 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-    "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-    "date": "Thu, 05 Nov 2026 14:12:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+    "date": "Fri, 06 Nov 2026 07:37:22 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "MetaMask says recent attack didn't affect wallet infrastructure",
     "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
@@ -384,26 +457,19 @@
     "date": "Wed, 04 Nov 2026 16:31:18 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-    "date": "Wed, 04 Nov 2026 15:58:19 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2784,
+    "stars": 2786,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1863,
+    "stars": 1864,
     "lang": "Python"
    },
    {
@@ -421,13 +487,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 690,
+    "stars": 691,
     "lang": "TypeScript"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 616,
+    "stars": 617,
     "lang": "Kotlin"
    },
    {
@@ -445,7 +511,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 495,
+    "stars": 496,
     "lang": "Rust"
    },
    {
@@ -457,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 375,
+    "stars": 376,
     "lang": "—"
    },
    {
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1768,
   "adv": 12,
   "feed": 48
