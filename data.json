@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-06T00:40:21.904Z",
+ "generatedAt": "2026-11-06T01:22:02.352Z",
  "sources": {
   "cve": [
+   {
+    "title": "RLSA-2026:93413 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:93413",
+    "score": 9.8,
+    "date": "2026-11-03T12:10:03.560067Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:94501 — Critical: fence-agents security update",
+    "url": "https://github.com/advisories/RLSA-2026:94501",
+    "score": 9.1,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:94630 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:94630",
+    "score": 8.8,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:94514 — Important: freerdp security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:94514",
+    "score": 8.8,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:90523 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:90523",
+    "score": 8.8,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:88359 — Important: postgresql16-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88359",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:88360 — Important: postgresql18-pgvector security update",
+    "url": "https://github.com/advisories/RLSA-2026:88360",
+    "score": 8.8,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RLSA-2026:95085 — Important: tesseract security update",
+    "url": "https://github.com/advisories/RLSA-2026:95085",
+    "score": 8.4,
+    "date": "2026-11-05T09:10:39.399064Z"
+   },
+   {
+    "title": "RLSA-2026:91003 — Important: libXrender security update",
+    "url": "https://github.com/advisories/RLSA-2026:91003",
+    "score": 8.3,
+    "date": "2026-10-29T12:08:23.381701Z"
+   },
+   {
+    "title": "RLSA-2026:89758 — Important: firefox security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:89758",
+    "score": 8.2,
+    "date": "2026-10-31T12:09:44.748638Z"
+   },
+   {
+    "title": "RLSA-2026:88248 — Important: expat security update",
+    "url": "https://github.com/advisories/RLSA-2026:88248",
+    "score": 8.2,
+    "date": "2026-10-23T12:11:02.998013Z"
+   },
+   {
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 8.1,
+    "date": "2026-10-31T00:14:32.745623Z"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+    "date": "Thu, 05 Nov 2026 19:56:44 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
     "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
     "date": "Thu, 05 Nov 2026 16:30:30 -0500",
@@ -378,20 +457,13 @@
     "date": "Wed, 04 Nov 2026 14:05:19 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-    "date": "Wed, 04 Nov 2026 13:02:56 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2762,
+    "stars": 2763,
     "lang": "Go"
    },
    {
@@ -445,13 +517,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 405,
+    "stars": 407,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 368,
+    "stars": 369,
     "lang": "—"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1768,
   "adv": 12,
   "feed": 48
