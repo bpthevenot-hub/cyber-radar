@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T15:22:01.927Z",
+ "generatedAt": "2026-11-06T16:22:19.188Z",
  "sources": {
   "cve": [
    {
@@ -13,30 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0450 — `ocipkg`: unpacking an OCI archive can write and delete files outside the local image store (path traversal)",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0450",
-    "score": 7.1,
-    "date": "2026-10-30T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0448 — Unbounded decompression can exhaust memory and CPU resources",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0448",
-    "score": null,
-    "date": "2026-11-06T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0447 — Compressed request bodies can exhaust memory before extractor limits apply",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0447",
-    "score": null,
-    "date": "2026-11-06T12:00:00Z"
-   },
-   {
-    "title": "RUSTSEC-2026-0449 — `ocipkg` is unmaintained",
-    "url": "https://github.com/advisories/RUSTSEC-2026-0449",
-    "score": null,
-    "date": "2026-11-05T12:00:00Z"
    }
   ],
   "kev": [
@@ -327,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+    "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+    "date": "Fri, 06 Nov 2026 10:25:31 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
     "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
     "date": "Fri, 06 Nov 2026 10:00:10 -0500",
@@ -402,26 +385,19 @@
     "date": "Thu, 05 Nov 2026 11:12:46 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Closing the Identity Gap at the Service Desk",
-    "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-    "date": "Thu, 05 Nov 2026 10:00:10 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2788,
+    "stars": 2791,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1866,
+    "stars": 1868,
     "lang": "Python"
    },
    {
@@ -445,7 +421,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 619,
+    "stars": 620,
     "lang": "Kotlin"
    },
    {
@@ -469,13 +445,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 414,
+    "stars": 415,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 377,
+    "stars": 378,
     "lang": "—"
    },
    {
