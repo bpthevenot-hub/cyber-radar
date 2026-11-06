@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-11-06T22:21:41.680Z",
+ "generatedAt": "2026-11-06T23:21:44.014Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2022-25857 — Red Hat Security Advisory: jenkins and jenkins-2-plugins security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:0777",
-    "score": 9.8,
-    "date": "2026-11-06T20:43:04+00:00"
-   },
-   {
-    "title": "CVE-2018-1000873 — Red Hat Security Advisory: Red Hat Fuse 7.8.0 release and security update (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:5568",
-    "score": 9.8,
-    "date": "2026-11-06T20:42:03+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2016-4970 — Red Hat Security Advisory: Red Hat Fuse 7.7.0 release and security update (+48 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3192",
-    "score": 9,
-    "date": "2026-11-06T20:41:44+00:00"
-   },
-   {
-    "title": "CVE-2018-3258 — Red Hat Security Advisory: Satellite 6.8 release (+27 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:4366",
-    "score": 8.8,
-    "date": "2026-11-06T20:41:51+00:00"
-   },
-   {
-    "title": "CVE-2019-9512 — Red Hat Security Advisory: Red Hat Process Automation Manager 7.8.0 Security Update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3197",
-    "score": 8.8,
-    "date": "2026-11-06T20:41:45+00:00"
-   },
-   {
-    "title": "CVE-2019-9512 — Red Hat Security Advisory: Red Hat Decision Manager 7.8.0 Security Update (+30 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3196",
-    "score": 8.8,
-    "date": "2026-11-06T20:41:45+00:00"
-   },
-   {
-    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 on RHEL 8 security update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3639",
-    "score": 8.1,
-    "date": "2026-11-06T20:41:52+00:00"
-   },
-   {
-    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 security update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3642",
-    "score": 8.1,
-    "date": "2026-11-06T20:41:48+00:00"
-   },
-   {
-    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 on RHEL 7 security update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3638",
-    "score": 8.1,
-    "date": "2026-11-06T20:41:48+00:00"
-   },
-   {
-    "title": "CVE-2019-14900 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.2.9 on RHEL 6 security update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2020:3637",
-    "score": 8.1,
-    "date": "2026-11-06T20:41:48+00:00"
-   },
-   {
-    "title": "CVE-2019-20330 — Red Hat Bug Fix Advisory: Satellite 6.7.2 Async Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHBA-2020:3255",
-    "score": 8.1,
-    "date": "2026-11-06T20:41:43+00:00"
-   },
-   {
-    "title": "CVE-2019-12086 — Red Hat Bug Fix Advisory: Satellite 6.6.3 Async Bug Fix Update (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHBA-2020:1494",
-    "score": 8.1,
-    "date": "2026-11-06T20:41:38+00:00"
    }
   ],
   "kev": [
@@ -375,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+    "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+    "date": "Fri, 06 Nov 2026 17:27:25 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
     "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "date": "Fri, 06 Nov 2026 15:24:19 -0500",
@@ -450,26 +385,19 @@
     "date": "Thu, 05 Nov 2026 15:15:08 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-    "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-    "date": "Thu, 05 Nov 2026 14:24:26 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2812,
+    "stars": 2818,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1881,
+    "stars": 1885,
     "lang": "Python"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 2,
   "kev": 1769,
   "adv": 12,
   "feed": 48
