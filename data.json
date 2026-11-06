@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T14:23:32.656Z",
+ "generatedAt": "2026-11-06T15:22:01.927Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,30 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0450 — `ocipkg`: unpacking an OCI archive can write and delete files outside the local image store (path traversal)",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0450",
+    "score": 7.1,
+    "date": "2026-10-30T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0448 — Unbounded decompression can exhaust memory and CPU resources",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0448",
+    "score": null,
+    "date": "2026-11-06T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0447 — Compressed request bodies can exhaust memory before extractor limits apply",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0447",
+    "score": null,
+    "date": "2026-11-06T12:00:00Z"
+   },
+   {
+    "title": "RUSTSEC-2026-0449 — `ocipkg` is unmaintained",
+    "url": "https://github.com/advisories/RUSTSEC-2026-0449",
+    "score": null,
+    "date": "2026-11-05T12:00:00Z"
    }
   ],
   "kev": [
@@ -303,6 +327,13 @@
   ],
   "bleep": [
    {
+    "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+    "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+    "date": "Fri, 06 Nov 2026 10:00:10 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Chainalysis says breach exposed credentials for all customers",
     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
     "date": "Fri, 06 Nov 2026 09:17:07 -0500",
@@ -378,32 +409,25 @@
     "date": "Thu, 05 Nov 2026 10:00:10 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-    "date": "Thu, 05 Nov 2026 04:18:29 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2787,
+    "stars": 2788,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1865,
+    "stars": 1866,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1104,
+    "stars": 1105,
     "lang": "TypeScript"
    },
    {
@@ -421,7 +445,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 618,
+    "stars": 619,
     "lang": "Kotlin"
    },
    {
@@ -584,16 +608,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
-    "date": "2026-11-04T21:47:44+00:00",
+    "title": "Who’s Trying to Get Into Our Fridge Freezer? There's nowt in it!",
+    "url": "https://www.reddit.com/r/netsec/comments/1xoi14n/whos_trying_to_get_into_our_fridge_freezer_theres/",
+    "date": "2026-11-05T13:00:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Who’s Trying to Get Into Our Fridge Freezer? There's nowt in it!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xoi14n/whos_trying_to_get_into_our_fridge_freezer_theres/",
-    "date": "2026-11-05T13:00:14+00:00",
+    "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
+    "date": "2026-11-04T21:47:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
