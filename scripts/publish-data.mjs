@@ -33,19 +33,26 @@ export async function publishData({ content, repository, expectedHeadOid, token,
     if (!response.ok) throw new Error(`GitHub ${operation} HTTP ${response.status}; no automatic retry`);
     let result;
     try { result = await response.json(); } catch { throw new Error(`GitHub ${operation} returned invalid JSON`); }
-    if (result.errors?.length || !result.data) throw new Error(`GitHub ${operation} refused; check permissions and branch concurrency`);
+    if (result.errors?.length || !result.data) {
+      const detail = Array.isArray(result.errors) ? result.errors.slice(0, 2)
+        .map(error => String(error.message || 'GraphQL error').replaceAll(token, '[redacted]').replace(/[\r\n]/g, ' ').slice(0, 300)).join('; ')
+        : 'No response data';
+      throw new Error(`GitHub ${operation} refused: ${detail}`);
+    }
     return result.data;
   }
 
   const before = await graphql(`query Snapshot($owner: String!, $name: String!, $expression: String!) {
     repository(owner: $owner, name: $name) {
-      ref(qualifiedName: "refs/heads/main") { target { oid } }
+      ref(qualifiedName: "refs/heads/main") { id target { oid } }
       object(expression: $expression) { ... on Blob { oid } }
     }
   }`, { owner, name, expression: `${expectedHeadOid}:data.json` }, 'read');
   if (before.repository?.ref?.target?.oid !== expectedHeadOid) {
     throw new Error('main changed since checkout; discard this run and collect again from the new head');
   }
+  const branchId = before.repository.ref.id;
+  if (typeof branchId !== 'string' || !branchId) throw new Error('GitHub did not return the main branch ID');
   if (before.repository.object?.oid === blobSha(content)) return { published: false, sha: expectedHeadOid };
 
   // GitHub signs this API's commits. expectedHeadOid provides an atomic compare-and-swap.
@@ -56,7 +63,7 @@ export async function publishData({ content, repository, expectedHeadOid, token,
     }
   }`, {
     input: {
-      branch: { repositoryNameWithOwner: repository, refName: 'main' },
+      branch: { id: branchId },
       expectedHeadOid,
       message: { headline: `Refresh cyber feeds — ${data.generatedAt}` },
       fileChanges: { additions: [{ path: 'data.json', contents: Buffer.from(content).toString('base64') }] },
