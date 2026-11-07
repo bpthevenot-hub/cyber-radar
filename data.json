@@ -1,24 +1,24 @@
 {
- "generatedAt": "2026-11-07T04:22:51.487Z",
+ "generatedAt": "2026-11-07T05:22:16.326Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.17 security update (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95656",
-    "score": 9.9,
-    "date": "2026-11-07T02:25:41+00:00"
-   },
-   {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.16 EUS security update (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95655",
-    "score": 9.9,
-    "date": "2026-11-07T02:25:41+00:00"
-   },
-   {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.18 security update (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95657",
+    "title": "CVE-2022-32190 — Red Hat Bug Fix Advisory: MTV 2.4.3 Images (+13 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2023:6109",
     "score": 9.8,
-    "date": "2026-11-07T02:25:42+00:00"
+    "date": "2026-11-07T05:03:01+00:00"
+   },
+   {
+    "title": "CVE-2018-25011 — Red Hat Bug Fix Advisory: Migration Toolkit for Containers (MTC) 1.4.6 release advisory (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2021:2854",
+    "score": 9.8,
+    "date": "2026-11-07T05:02:56+00:00"
+   },
+   {
+    "title": "CVE-2021-46143 — Red Hat Bug Fix Advisory: new packages: expat (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2022:4046",
+    "score": 9.8,
+    "date": "2026-11-07T05:02:54+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -33,52 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-96640 — Red Hat Security Advisory: GuideLLM 3.5.1 (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94631",
-    "score": 8.8,
-    "date": "2026-11-07T02:30:46+00:00"
+    "title": "CVE-2021-46984 — Red Hat Bug Fix Advisory: RHOAI 2.13.1 - Red Hat OpenShift AI (+164 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2024:8413",
+    "score": 9.1,
+    "date": "2026-11-07T05:03:13+00:00"
    },
    {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
-    "score": 8.8,
-    "date": "2026-11-07T02:30:43+00:00"
+    "title": "CVE-2021-46984 — Red Hat Bug Fix Advisory: RHOAI 2.14.0 - Red Hat OpenShift AI (+163 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2024:8240",
+    "score": 9.1,
+    "date": "2026-11-07T05:03:13+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.3 (Gaudi) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94721",
+    "title": "CVE-2024-9341 — Red Hat Enhancement Advisory: OpenShift Container Platform 4.18.1 packages and security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHEA-2024:6126",
+    "score": 8.6,
+    "date": "2026-11-07T05:03:50+00:00"
+   },
+   {
+    "title": "CVE-2025-31133 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.19.19 packages update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2025:21361",
     "score": 8.2,
-    "date": "2026-11-07T02:30:53+00:00"
+    "date": "2026-11-07T05:03:21+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CUDA) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94738",
+    "title": "CVE-2025-31133 — Red Hat Bug Fix Advisory: OpenShift Container Platform 4.20.4 bug fix update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2025:21224",
     "score": 8.2,
-    "date": "2026-11-07T02:30:52+00:00"
+    "date": "2026-11-07T05:03:21+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (Spyre) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94717",
+    "title": "CVE-2024-4067 — Red Hat Bug Fix Advisory: Red Hat Developer Hub 1.3.0 release (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2024:7523",
     "score": 8.2,
-    "date": "2026-11-07T02:30:48+00:00"
+    "date": "2026-11-07T05:03:11+00:00"
    },
    {
-    "title": "CVE-2026-96636 — Red Hat Security Advisory: Red Hat AI Inference Model Optimization Tools 3.5.3 (CUDA) (+47 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94715",
-    "score": 8.2,
-    "date": "2026-11-07T02:30:47+00:00"
+    "title": "CVE-2024-5564 — Red Hat Bug Fix Advisory: libndp bug fix and enhancement update",
+    "url": "https://access.redhat.com/errata/RHBA-2025:6631",
+    "score": 8.1,
+    "date": "2026-11-07T05:03:25+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (ROCm) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94709",
-    "score": 8.2,
-    "date": "2026-11-07T02:30:46+00:00"
+    "title": "CVE-2019-20330 — Red Hat Bug Fix Advisory: Satellite 6.7.2 Async Bug Fix Update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2020:3255",
+    "score": 8.1,
+    "date": "2026-11-07T05:02:49+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CPU) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94702",
-    "score": 8.2,
-    "date": "2026-11-07T02:30:46+00:00"
+    "title": "CVE-2019-12086 — Red Hat Bug Fix Advisory: Satellite 6.6.3 Async Bug Fix Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHBA-2020:1494",
+    "score": 8.1,
+    "date": "2026-11-07T05:02:46+00:00"
    }
   ],
   "kev": [
@@ -457,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2831,
+    "stars": 2832,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1899,
+    "stars": 1900,
     "lang": "Python"
    },
    {
@@ -517,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 383,
+    "stars": 384,
     "lang": "—"
    },
    {
@@ -711,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 7,
   "kev": 1769,
   "adv": 12,
   "feed": 48
