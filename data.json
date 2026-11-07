@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-07T00:38:55.225Z",
+ "generatedAt": "2026-11-07T01:21:38.511Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-109469 — Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a n",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-109469",
+    "score": 10,
+    "date": "2026-11-07T00:31:24Z"
+   },
+   {
+    "title": "CVE-2026-59104 — UgCS server before 6.2 contains an authentication bypass in the HCI protocol login handler (LoginHandler) exposed on TCP port 3334. When the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59104",
+    "score": 9.8,
+    "date": "2026-11-07T00:31:24Z"
+   },
    {
     "title": "RLSA-2026:93413 — Important: kernel security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RLSA-2026:93413",
@@ -21,28 +33,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:95194 — Important: webkit2gtk3 security update",
-    "url": "https://github.com/advisories/RLSA-2026:95194",
-    "score": 9.6,
-    "date": "2026-11-05T09:06:28.446270Z"
-   },
-   {
     "title": "RLSA-2026:94501 — Critical: fence-agents security update",
     "url": "https://github.com/advisories/RLSA-2026:94501",
     "score": 9.1,
     "date": "2026-11-04T09:10:56.529723Z"
    },
    {
+    "title": "CVE-2026-50240 — A flaw was found in OpenShift Pipelines-as-Code (PAC). PAC does not verify whether the creator of a Repository custom resource has permissio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-50240",
+    "score": 8.8,
+    "date": "2026-11-07T00:31:24Z"
+   },
+   {
     "title": "RLSA-2026:95367 — Important: kernel security update",
     "url": "https://github.com/advisories/RLSA-2026:95367",
     "score": 8.8,
     "date": "2026-11-06T12:09:31.090950Z"
-   },
-   {
-    "title": "RLSA-2026:95370 — Important: kernel security update",
-    "url": "https://github.com/advisories/RLSA-2026:95370",
-    "score": 8.8,
-    "date": "2026-11-06T12:04:35.356087Z"
    },
    {
     "title": "RLSA-2026:94630 — Important: dpdk security update",
@@ -63,12 +69,6 @@
     "date": "2026-10-29T12:08:23.381701Z"
    },
    {
-    "title": "RLSA-2026:90523 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:90523",
-    "score": 8.8,
-    "date": "2026-10-29T12:08:23.381701Z"
-   },
-   {
     "title": "RLSA-2026:95085 — Important: tesseract security update",
     "url": "https://github.com/advisories/RLSA-2026:95085",
     "score": 8.4,
@@ -81,10 +81,10 @@
     "date": "2026-10-29T12:08:23.381701Z"
    },
    {
-    "title": "RLSA-2026:89758 — Important: firefox security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:89758",
-    "score": 8.2,
-    "date": "2026-10-31T12:09:44.748638Z"
+    "title": "RXSA-2026:90365 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RXSA-2026:90365",
+    "score": 8.1,
+    "date": "2026-10-31T00:14:32.745623Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2823,
+    "stars": 2827,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1888,
+    "stars": 1890,
     "lang": "Python"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 382,
+    "stars": 383,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 6,
   "kev": 1769,
   "adv": 12,
   "feed": 48
