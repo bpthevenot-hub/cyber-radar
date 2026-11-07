@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T21:21:46.409Z",
+ "generatedAt": "2026-11-07T22:21:51.367Z",
  "sources": {
   "cve": [
    {
@@ -15,22 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-18753 — Malicious code in gcp-log-poc (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18753",
-    "score": null,
-    "date": "2026-11-07T19:53:11Z"
+    "title": "CVE-2026-121379 — The Tournamatch WordPress plugin before 4.7.1 does not validate or restrict the path of a previously stored profile or team image before del",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121379",
+    "score": 9.6,
+    "date": "2026-11-07T06:31:24Z"
    },
    {
-    "title": "MAL-2026-18752 — Malicious code in qzc690384 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18752",
-    "score": null,
-    "date": "2026-11-07T14:41:21Z"
+    "title": "CVE-2026-124060 — A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the function UploadCustomModule of the file /cgi-bin/",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124060",
+    "score": 9.1,
+    "date": "2026-11-07T21:31:15Z"
    },
    {
-    "title": "MAL-2026-18751 — Malicious code in qzc690385 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18751",
-    "score": null,
-    "date": "2026-11-07T10:21:05Z"
+    "title": "CVE-2026-124058 — A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124058",
+    "score": 9.1,
+    "date": "2026-11-07T21:31:14Z"
+   },
+   {
+    "title": "CVE-2026-124059 — A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124059",
+    "score": 9.1,
+    "date": "2026-11-07T21:31:14Z"
+   },
+   {
+    "title": "CVE-2026-121491 — The Fiber Admin WordPress plugin before 4.0.1 does not validate or escape a request header before writing it into a PHP file it regenerates ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121491",
+    "score": 9,
+    "date": "2026-11-07T06:31:24Z"
+   },
+   {
+    "title": "CVE-2026-122001 — The Komfortkasse for WooCommerce WordPress plugin before 1.4.9 does not properly validate the authenticity of REST API requests, overriding ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122001",
+    "score": 8.8,
+    "date": "2026-11-07T06:31:24Z"
+   },
+   {
+    "title": "CVE-2026-121866 — The iLeads SMS Gateway by Exsile WordPress plugin before 2.0.0 does not check capabilities or nonces in several AJAX actions that update a s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121866",
+    "score": 8.8,
+    "date": "2026-11-07T06:31:24Z"
+   },
+   {
+    "title": "CVE-2026-121848 — The Magic Link WordPress plugin before 2.2.6 does not check that the user requesting a login link is authorised to generate one for the chos",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121848",
+    "score": 8.8,
+    "date": "2026-11-07T06:31:24Z"
+   },
+   {
+    "title": "CVE-2026-117525 — The FV Flowplayer Video Player WordPress plugin before 7.5.57.7212 does not escape shortcode attribute values embedded in comments before re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-117525",
+    "score": 7.5,
+    "date": "2026-11-07T06:31:23Z"
+   },
+   {
+    "title": "CVE-2026-121796 — The Add From Server Lite WordPress plugin before 6.0.0 does not restrict SVG uploads to users allowed to post unfiltered HTML, allowing user",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121796",
+    "score": 6.8,
+    "date": "2026-11-07T06:31:24Z"
+   },
+   {
+    "title": "CVE-2026-119073 — The Live Composer WordPress plugin before 2.1.23 does not escape a pagination setting supplied through its post-listing module shortcodes be",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119073",
+    "score": 6.8,
+    "date": "2026-11-07T06:31:24Z"
+   },
+   {
+    "title": "CVE-2026-118532 — The Directorist: AI-Powered Business Directory, Listings & Classified Ads WordPress plugin before 8.11 does not verify ownership of attachme",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118532",
+    "score": 6.5,
+    "date": "2026-11-07T06:31:23Z"
    }
   ],
   "kev": [
@@ -409,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2872,
+    "stars": 2876,
     "lang": "Go"
    },
    {
@@ -421,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1076,
+    "stars": 1077,
     "lang": "TypeScript"
    },
    {
@@ -439,7 +493,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 550,
+    "stars": 551,
     "lang": "—"
    },
    {
@@ -475,7 +529,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 345,
+    "stars": 346,
     "lang": "JavaScript"
    }
   ],
@@ -663,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 7,
   "kev": 1769,
   "adv": 12,
   "feed": 48
