@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-07T12:24:44.961Z",
+ "generatedAt": "2026-11-07T13:21:52.551Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2014-1745 — Red Hat Security Advisory: webkitgtk4 security update (+229 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:10364",
+    "score": 10,
+    "date": "2026-11-07T12:19:30+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,70 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-96640 — Red Hat Security Advisory: GuideLLM 3.5.1 (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94631",
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: buildah security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63332",
     "score": 8.8,
-    "date": "2026-11-07T11:00:39+00:00"
+    "date": "2026-11-07T12:28:44+00:00"
    },
    {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
     "score": 8.8,
-    "date": "2026-11-07T11:00:38+00:00"
+    "date": "2026-11-07T12:28:39+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CUDA) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94738",
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
+    "score": 8.8,
+    "date": "2026-11-07T12:28:39+00:00"
+   },
+   {
+    "title": "CVE-2021-33621 — Red Hat Security Advisory: ruby security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3838",
+    "score": 8.8,
+    "date": "2026-11-07T12:19:28+00:00"
+   },
+   {
+    "title": "CVE-2021-33621 — Red Hat Security Advisory: ruby:3.0 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:3500",
+    "score": 8.8,
+    "date": "2026-11-07T12:19:28+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
+    "score": 8.6,
+    "date": "2026-11-07T12:28:41+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65153",
     "score": 8.2,
-    "date": "2026-11-07T11:00:42+00:00"
+    "date": "2026-11-07T12:28:52+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (ROCm) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94709",
-    "score": 8.2,
-    "date": "2026-11-07T11:00:42+00:00"
+    "title": "CVE-2026-32283 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.11.0 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65343",
+    "score": 8.1,
+    "date": "2026-11-07T12:28:49+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.3 (Gaudi) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94721",
-    "score": 8.2,
-    "date": "2026-11-07T11:00:41+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: opentelemetry-collector security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65117",
+    "score": 8.1,
+    "date": "2026-11-07T12:28:49+00:00"
    },
    {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (Spyre) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94717",
-    "score": 8.2,
-    "date": "2026-11-07T11:00:41+00:00"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: ignition security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65336",
+    "score": 8.1,
+    "date": "2026-11-07T12:28:47+00:00"
    },
    {
-    "title": "CVE-2026-96636 — Red Hat Security Advisory: Red Hat AI Inference Model Optimization Tools 3.5.3 (CUDA) (+47 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94715",
-    "score": 8.2,
-    "date": "2026-11-07T11:00:41+00:00"
-   },
-   {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CPU) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94702",
-    "score": 8.2,
-    "date": "2026-11-07T11:00:39+00:00"
-   },
-   {
-    "title": "MAL-2026-18750 — Malicious code in qzc690383 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18750",
-    "score": null,
-    "date": "2026-11-07T10:21:28Z"
-   },
-   {
-    "title": "MAL-2026-18749 — Malicious code in qzc690382 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18749",
-    "score": null,
-    "date": "2026-11-07T10:21:14Z"
-   },
-   {
-    "title": "MAL-2026-18751 — Malicious code in qzc690385 (PyPI)",
-    "url": "https://github.com/advisories/MAL-2026-18751",
-    "score": null,
-    "date": "2026-11-07T10:21:05Z"
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: ignition security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65335",
+    "score": 8.1,
+    "date": "2026-11-07T12:28:47+00:00"
    }
   ],
   "kev": [
@@ -457,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2848,
+    "stars": 2849,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1911,
+    "stars": 1914,
     "lang": "Python"
    },
    {
@@ -475,13 +481,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 695,
+    "stars": 696,
     "lang": "TypeScript"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 606,
+    "stars": 610,
     "lang": "Kotlin"
    },
    {
@@ -711,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1769,
   "adv": 12,
   "feed": 48
