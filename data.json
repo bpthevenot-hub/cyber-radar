@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-08T03:24:12.013Z",
+ "generatedAt": "2026-11-08T04:23:20.503Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-123614 — imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allows remote attackers to trigger a heap buffer overf",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123614",
+    "score": 9.8,
+    "date": "2026-11-08T03:30:37Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-123605 — Hickory DNS hickory-proto 0.1 through 0.25.0-alpha.3 and hickory-net before 0.26.2 contain a DNSSEC validation bypass because the validator ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123605",
+    "score": 8.8,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123595 — Hickory DNS hickory-proto 0.25 through 0.26.0-alpha.1 and hickory-net 0.26.0-beta.1 before 0.26.2 contain a DNSSEC validation flaw in the va",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123595",
+    "score": 8.8,
+    "date": "2026-11-08T03:30:36Z"
+   },
+   {
+    "title": "CVE-2026-123596 — Hickory DNS hickory-proto through 0.26.0-alpha.1 and hickory-net 0.26.0-beta.1 before 0.26.2 contain a DNSSEC validation flaw in the validat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123596",
+    "score": 8.8,
+    "date": "2026-11-08T03:30:36Z"
+   },
+   {
+    "title": "CVE-2026-114713 — The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 \"label\" message tag when echoing it into replies, w",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114713",
+    "score": 8.6,
+    "date": "2026-11-08T03:30:38Z"
+   },
+   {
+    "title": "CVE-2026-123616 — imgproxy from 3.3.0 before 4.0.16 contains an unbounded memory allocation vulnerability in the ICO loader that fails to validate the data_si",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123616",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123607 — Hickory DNS hickory-proto 0.25.0-alpha.3 through 0.25.2 and hickory-net before 0.26.1 contain an unbounded loop vulnerability in DnssecDnsHa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123607",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123608 — Hickory DNS hickory-proto from 0.3.1 before 0.26.1 contains a denial of service vulnerability in BinEncoder that allows remote attackers to ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123608",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123615 — imgproxy 3.3.0 before 4.0.17 contains an out-of-bounds heap read and write in the ICO loader's BMP header reconstruction (vips_foreign_load_",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123615",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123604 — Hickory DNS hickory-resolver 0.26.0-beta.1 before 0.26.2 contains an unbounded retry loop in NameServerPool::try_send, which re-queues trunc",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123604",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123606 — The hickory-dns recursor in hickory-recursor 0.25.0-alpha.3 through 0.25.2 and hickory-resolver 0.26.0-alpha.1 before 0.26.2 iterates every ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123606",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:37Z"
+   },
+   {
+    "title": "CVE-2026-123580 — Hickory DNS hickory-net 0.26.0-beta.1 before 0.26.2 and hickory-proto through 0.26.0-alpha.1 perform insufficient checks on NSEC3 record nam",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123580",
+    "score": 7.5,
+    "date": "2026-11-08T03:30:35Z"
    }
   ],
   "kev": [
@@ -391,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2881,
+    "stars": 2883,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1939,
+    "stars": 1941,
     "lang": "Python"
    },
    {
@@ -445,7 +517,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 424,
+    "stars": 425,
     "lang": "C"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1769,
   "adv": 12,
   "feed": 48
