@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-11-08T22:21:42.627Z",
+ "generatedAt": "2026-11-08T23:21:53.470Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
+    "score": 9.9,
+    "date": "2026-11-08T22:08:08+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
+    "score": 9.9,
+    "date": "2026-11-08T22:08:08+00:00"
+   },
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.12 - Red Hat OpenShift AI (+176 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87410",
+    "score": 9.8,
+    "date": "2026-11-08T22:08:21+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,16 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-55194 — Red Hat Security Advisory: freerdp security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:68706",
-    "score": 8.8,
-    "date": "2026-11-08T21:38:04+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-11-08T22:08:14+00:00"
    },
    {
-    "title": "CVE-2013-2152 — Red Hat Security Advisory: spice-vdagent-win security and bug fix update",
-    "url": "https://access.redhat.com/errata/RHSA-2013:0924",
-    "score": null,
-    "date": "2026-11-08T21:37:51+00:00"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.14.40 security, enhancement & bug fix update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83627",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:18+00:00"
+   },
+   {
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17.28 security, enhancement & bug fix update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83622",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:18+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.16.36 security, enhancement & bug fix update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83619",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:18+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:13+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6567",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:13+00:00"
+   },
+   {
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat Quay 3.16.3 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6497",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:12+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Network Observability 1.11.1 for OpenShift (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6428",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:10+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.20.17 security, enhancement & bug fix update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57013",
+    "score": 9.1,
+    "date": "2026-11-08T22:08:05+00:00"
    }
   ],
   "kev": [
@@ -403,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2913,
+    "stars": 2914,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1963,
+    "stars": 1964,
     "lang": "Python"
    },
    {
@@ -451,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 482,
+    "stars": 485,
     "lang": "Java"
    },
    {
@@ -463,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 396,
+    "stars": 398,
     "lang": "—"
    },
    {
@@ -603,16 +663,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "unlocking any car from X brand in most of the world",
-    "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
-    "date": "2026-11-07T11:10:50+00:00",
+    "title": "ARTEX attack",
+    "url": "https://www.reddit.com/r/netsec/comments/1xqmhgk/artex_attack/",
+    "date": "2026-11-08T01:31:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "ARTEX attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xqmhgk/artex_attack/",
-    "date": "2026-11-08T01:31:04+00:00",
+    "title": "unlocking any car from X brand in most of the world",
+    "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
+    "date": "2026-11-07T11:10:50+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1769,
   "adv": 12,
   "feed": 48
