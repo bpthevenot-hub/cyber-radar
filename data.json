@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-08T19:21:43.614Z",
+ "generatedAt": "2026-11-08T20:21:56.533Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-15266 — IBM Concert 1.0 through 3.0.1.1 contains components that allow potentially unsafe command execution, which could be exploited to run arbitra",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15266",
-    "score": 9.8,
-    "date": "2026-11-08T18:30:26Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,72 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-17466 — IBM Optim 1.0.0, 1.1.0, and 1.2.0 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17466",
-    "score": 9.1,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-18093 — IBM App Connect Enterprise 13.0.1.0 through 13.0.8.2 could allow a remote attacker to obtain sensitive information due to broken access cont",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18093",
-    "score": 7.5,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-18668 — IBM Sterling File Gateway 6.2.1.0 through 6.2.1.2_1 and 6.2.2.0 - 6.2.2.1_1 could allow a remote attacker to perform protocol downgrade atta",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18668",
-    "score": 6.5,
-    "date": "2026-11-08T18:30:27Z"
-   },
-   {
-    "title": "CVE-2026-16427 — IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to write arbitrary files due to a path traversal vul",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16427",
-    "score": 6.5,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-76052 — IBM Storage Scale System 6.2.3.0 through 6.2.3.6, and 7.0.0.0 through 7.0.1.0 and IBM Storage Scale 6.0.0.0 through 6.0.1.0, and 5.2.3.0 thr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76052",
-    "score": 6,
-    "date": "2026-11-08T18:30:27Z"
-   },
-   {
-    "title": "CVE-2026-14435 — IBM Turbonomic kubeturbo agent 8.16.0 through 8.20.3 does not validate or improperly validates TLS certificate validation, which could allow",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14435",
-    "score": 5.9,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-14375 — IBM Storage Scale 5.2.3.0 through 5.2.3.8, and 6.0.1.0 does not validate or improperly validates TLS certificate validation when communicati",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14375",
-    "score": 5.9,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-17437 — IBM App Connect Enterprise 13.0.1.0 through 13.0.8.2, and 12.0.1.0 through 12.0.12.29 could allow a local attacker to perform an arbitrary f",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-17437",
-    "score": 5.5,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-18546 — IBM CockroachDB PostgreSQL for IBM VPC 26.2.0 through 26.2.3, 25.4.0 through 25.4.12, and 25.2.0 through 25.2.20 is vulnerable to server-sid",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18546",
-    "score": 5.4,
-    "date": "2026-11-08T18:30:27Z"
-   },
-   {
-    "title": "CVE-2026-14469 — IBM Storage Scale 5.2.3.0 through 5.2.3.9 and 6.0.1.0 could allow an authenticated attacker to access and manipulate filesets beyond their c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14469",
-    "score": 5.4,
-    "date": "2026-11-08T18:30:26Z"
-   },
-   {
-    "title": "CVE-2026-14377 — IBM Turbonomic kubeturbo agent 8.16.0 through 8.21.2 is vulnerable to server-side request forgery (SSRF). This may allow an authenticated at",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14377",
-    "score": 5.4,
-    "date": "2026-11-08T18:30:26Z"
    }
   ],
   "kev": [
@@ -463,13 +391,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2909,
+    "stars": 2911,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1959,
+    "stars": 1960,
     "lang": "Python"
    },
    {
@@ -487,13 +415,13 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 619,
+    "stars": 620,
     "lang": "Kotlin"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 555,
+    "stars": 556,
     "lang": "—"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 462,
+    "stars": 472,
     "lang": "Java"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1769,
   "adv": 12,
   "feed": 48
