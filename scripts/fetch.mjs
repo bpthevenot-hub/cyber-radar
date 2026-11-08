@@ -5,6 +5,7 @@
 import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { newestKev } from './kev.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'cyber-radar/1.0 (+https://github.com/bpthevenot-hub/cyber-radar)';
@@ -132,9 +133,9 @@ const SOURCES = {
   // 2) CISA KEV
   async kev() {
     const data = await get('https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json');
-    const v = (data.vulnerabilities || []).slice().reverse();
-    SOURCES._kevCount = data.count || v.length;
-    return v.slice(0, 14).map((x) => ({
+    const v = newestKev(data.vulnerabilities, 14);
+    SOURCES._kevCount = data.count || (Array.isArray(data.vulnerabilities) ? data.vulnerabilities.length : 0);
+    return v.map((x) => ({
       title: `${x.cveID} — ${clip(x.vulnerabilityName, 130)}`,
       url: `https://www.cve.org/CVERecord?id=${x.cveID}`,
       badge: 'EXPLOITÉE', badgeClass: 'b-crit', vendor: x.vendorProject || '', date: x.dateAdded || null,
