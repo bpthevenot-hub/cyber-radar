@@ -1,7 +1,31 @@
 {
- "generatedAt": "2026-11-08T15:21:34.743Z",
+ "generatedAt": "2026-11-08T16:21:43.004Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-124469 — OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-inventory lookup (DrugSalesService::sellDrug) that interp",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124469",
+    "score": 9.9,
+    "date": "2026-11-08T15:31:28Z"
+   },
+   {
+    "title": "CVE-2026-124440 — Kyverno from 1.19.1 before 1.19.2 contains an authorization bypass vulnerability in the apiCall namespace clamp that allows namespace tenant",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124440",
+    "score": 9.9,
+    "date": "2026-11-08T15:31:26Z"
+   },
+   {
+    "title": "CVE-2026-124450 — OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an u",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124450",
+    "score": 9.9,
+    "date": "2026-11-08T15:31:26Z"
+   },
+   {
+    "title": "CVE-2026-124445 — OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ignores the enforce_onetime_use and max_access_count",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124445",
+    "score": 9.8,
+    "date": "2026-11-08T15:31:26Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,22 +39,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "OSV-2026-928 — Stack-use-after-scope in StreamReader_CApi::wait_for_file_size",
-    "url": "https://github.com/advisories/OSV-2026-928",
-    "score": null,
-    "date": "2026-06-17T00:06:18.594494Z"
+    "title": "CVE-2026-124493 — SunEditor before 3.4.0 contains a stored cross-site scripting vulnerability in the DocumentType constructor that injects header textContent ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124493",
+    "score": 9.5,
+    "date": "2026-11-08T15:31:30Z"
    },
    {
-    "title": "OSV-2024-679 — Heap-buffer-overflow in readImage4v2",
-    "url": "https://github.com/advisories/OSV-2024-679",
-    "score": null,
-    "date": "2024-07-25T00:14:34.485446Z"
+    "title": "CVE-2026-124494 — SunEditor before 3.4.0 contains a stored cross-site scripting vulnerability because the html.clean() sanitizer's _normalizeURL() function de",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124494",
+    "score": 9.5,
+    "date": "2026-11-08T15:31:30Z"
    },
    {
-    "title": "OSV-2024-245 — Security exception in com.github.javaparser.ast.validator.TreeVisitorValidator.accept",
-    "url": "https://github.com/advisories/OSV-2024-245",
-    "score": null,
-    "date": "2024-04-08T00:11:03.595756Z"
+    "title": "CVE-2026-124490 — OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClient disposeDocument() method of oe-module-faxsms tha",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124490",
+    "score": 9.1,
+    "date": "2026-11-08T15:31:29Z"
+   },
+   {
+    "title": "CVE-2026-124480 — OpenEMR before 8.4.0 contains an authorization bypass vulnerability that allows low-privileged authenticated users to read cross-patient FHI",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124480",
+    "score": 8.8,
+    "date": "2026-11-08T15:31:29Z"
+   },
+   {
+    "title": "CVE-2026-124477 — OpenEMR before 8.3.0 contains a missing authorization vulnerability that allows low-privileged authenticated users to delete arbitrary patie",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124477",
+    "score": 8.8,
+    "date": "2026-11-08T15:31:29Z"
+   },
+   {
+    "title": "CVE-2026-124484 — OpenEMR before 8.4.0 contains a missing authorization vulnerability in portal onsite-document APIs that allows any authenticated core user t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124484",
+    "score": 8.8,
+    "date": "2026-11-08T15:31:29Z"
+   },
+   {
+    "title": "CVE-2026-124486 — OpenEMR before 8.3.0 contains a missing authorization vulnerability in the classic document controller that allows low-privilege authenticat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124486",
+    "score": 8.8,
+    "date": "2026-11-08T15:31:29Z"
+   },
+   {
+    "title": "CVE-2026-124467 — OpenEMR before 8.4.0 contains a local file inclusion in the ESign router (library/ESign/Router.php), which passes the unsanitized module par",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124467",
+    "score": 8.8,
+    "date": "2026-11-08T15:31:28Z"
    }
   ],
   "kev": [
@@ -321,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "date": "Sun, 08 Nov 2026 10:43:08 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Hackers pull off $133 million French bank heist via service provider",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
     "date": "Sat, 07 Nov 2026 10:25:35 -0500",
@@ -396,38 +457,31 @@
     "date": "Fri, 06 Nov 2026 07:37:22 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-    "date": "Fri, 06 Nov 2026 04:22:28 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2901,
+    "stars": 2903,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1948,
+    "stars": 1951,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1079,
+    "stars": 1078,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 699,
+    "stars": 700,
     "lang": "TypeScript"
    },
    {
@@ -457,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 432,
+    "stars": 433,
     "lang": "Java"
    },
    {
@@ -469,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 391,
+    "stars": 393,
     "lang": "—"
    },
    {
@@ -588,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "email encryption",
+    "url": "https://www.reddit.com/r/netsec/comments/1xr1qpe/email_encryption/",
+    "date": "2026-11-08T16:00:58+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "unlocking any car from X brand in most of the world",
     "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
     "date": "2026-11-07T11:10:50+00:00",
@@ -642,13 +703,6 @@
     "date": "2026-11-05T13:00:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
-    "date": "2026-11-04T21:47:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -663,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 9,
   "kev": 1769,
   "adv": 12,
   "feed": 48
