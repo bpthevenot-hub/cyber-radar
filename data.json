@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T23:21:55.108Z",
+ "generatedAt": "2026-11-08T00:44:05.693Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-121379 — The Tournamatch WordPress plugin before 4.7.1 does not validate or restrict the path of a previously stored profile or team image before del",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121379",
-    "score": 9.6,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-124060 — A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the function UploadCustomModule of the file /cgi-bin/",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124060",
-    "score": 9.1,
-    "date": "2026-11-07T21:31:15Z"
-   },
-   {
-    "title": "CVE-2026-124058 — A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124058",
-    "score": 9.1,
-    "date": "2026-11-07T21:31:14Z"
-   },
-   {
-    "title": "CVE-2026-124059 — A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124059",
-    "score": 9.1,
-    "date": "2026-11-07T21:31:14Z"
-   },
-   {
-    "title": "CVE-2026-121491 — The Fiber Admin WordPress plugin before 4.0.1 does not validate or escape a request header before writing it into a PHP file it regenerates ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121491",
-    "score": 9,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-122001 — The Komfortkasse for WooCommerce WordPress plugin before 1.4.9 does not properly validate the authenticity of REST API requests, overriding ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122001",
-    "score": 8.8,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-121866 — The iLeads SMS Gateway by Exsile WordPress plugin before 2.0.0 does not check capabilities or nonces in several AJAX actions that update a s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121866",
-    "score": 8.8,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-121848 — The Magic Link WordPress plugin before 2.2.6 does not check that the user requesting a login link is authorised to generate one for the chos",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121848",
-    "score": 8.8,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-117525 — The FV Flowplayer Video Player WordPress plugin before 7.5.57.7212 does not escape shortcode attribute values embedded in comments before re",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-117525",
-    "score": 7.5,
-    "date": "2026-11-07T06:31:23Z"
-   },
-   {
-    "title": "CVE-2026-121796 — The Add From Server Lite WordPress plugin before 6.0.0 does not restrict SVG uploads to users allowed to post unfiltered HTML, allowing user",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121796",
-    "score": 6.8,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-119073 — The Live Composer WordPress plugin before 2.1.23 does not escape a pagination setting supplied through its post-listing module shortcodes be",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119073",
-    "score": 6.8,
-    "date": "2026-11-07T06:31:24Z"
-   },
-   {
-    "title": "CVE-2026-118532 — The Directorist: AI-Powered Business Directory, Listings & Classified Ads WordPress plugin before 8.11 does not verify ownership of attachme",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118532",
-    "score": 6.5,
-    "date": "2026-11-07T06:31:23Z"
    }
   ],
   "kev": [
@@ -463,19 +391,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2877,
+    "stars": 2879,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1934,
+    "stars": 1936,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1077,
+    "stars": 1078,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 2,
   "kev": 1769,
   "adv": 12,
   "feed": 48
