@@ -1,30 +1,24 @@
 {
- "generatedAt": "2026-11-08T16:21:43.004Z",
+ "generatedAt": "2026-11-08T17:22:02.131Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-124469 — OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-inventory lookup (DrugSalesService::sellDrug) that interp",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124469",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.14 security update (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59579",
     "score": 9.9,
-    "date": "2026-11-08T15:31:28Z"
+    "date": "2026-11-08T16:11:43+00:00"
    },
    {
-    "title": "CVE-2026-124440 — Kyverno from 1.19.1 before 1.19.2 contains an authorization bypass vulnerability in the apiCall namespace clamp that allows namespace tenant",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124440",
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.8.10 security update (+29 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59558",
     "score": 9.9,
-    "date": "2026-11-08T15:31:26Z"
+    "date": "2026-11-08T16:11:43+00:00"
    },
    {
-    "title": "CVE-2026-124450 — OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an u",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124450",
-    "score": 9.9,
-    "date": "2026-11-08T15:31:26Z"
-   },
-   {
-    "title": "CVE-2026-124445 — OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ignores the enforce_onetime_use and max_access_count",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124445",
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.12 - Red Hat OpenShift AI (+176 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87410",
     "score": 9.8,
-    "date": "2026-11-08T15:31:26Z"
+    "date": "2026-11-08T16:12:05+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -39,52 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-124493 — SunEditor before 3.4.0 contains a stored cross-site scripting vulnerability in the DocumentType constructor that injects header textContent ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124493",
-    "score": 9.5,
-    "date": "2026-11-08T15:31:30Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: RHOAI 3.3.7 - Red Hat OpenShift AI (+124 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:73987",
+    "score": 9.3,
+    "date": "2026-11-08T16:11:55+00:00"
    },
    {
-    "title": "CVE-2026-124494 — SunEditor before 3.4.0 contains a stored cross-site scripting vulnerability because the html.clean() sanitizer's _normalizeURL() function de",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124494",
-    "score": 9.5,
-    "date": "2026-11-08T15:31:30Z"
+    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
+    "score": 9.3,
+    "date": "2026-11-08T16:11:48+00:00"
    },
    {
-    "title": "CVE-2026-124490 — OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClient disposeDocument() method of oe-module-faxsms tha",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124490",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Kiali 1.73.29 for Red Hat OpenShift Service Mesh 2.6 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8483",
     "score": 9.1,
-    "date": "2026-11-08T15:31:29Z"
+    "date": "2026-11-08T16:12:05+00:00"
    },
    {
-    "title": "CVE-2026-124480 — OpenEMR before 8.4.0 contains an authorization bypass vulnerability that allows low-privileged authenticated users to read cross-patient FHI",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124480",
-    "score": 8.8,
-    "date": "2026-11-08T15:31:29Z"
+    "title": "CVE-2025-52881 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8433",
+    "score": 9.1,
+    "date": "2026-11-08T16:12:04+00:00"
    },
    {
-    "title": "CVE-2026-124477 — OpenEMR before 8.3.0 contains a missing authorization vulnerability that allows low-privileged authenticated users to delete arbitrary patie",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124477",
-    "score": 8.8,
-    "date": "2026-11-08T15:31:29Z"
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.14.40 security, enhancement & bug fix update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83627",
+    "score": 9.1,
+    "date": "2026-11-08T16:12:03+00:00"
    },
    {
-    "title": "CVE-2026-124484 — OpenEMR before 8.4.0 contains a missing authorization vulnerability in portal onsite-document APIs that allows any authenticated core user t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124484",
-    "score": 8.8,
-    "date": "2026-11-08T15:31:29Z"
+    "title": "CVE-2025-12816 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.17.28 security, enhancement & bug fix update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83622",
+    "score": 9.1,
+    "date": "2026-11-08T16:12:03+00:00"
    },
    {
-    "title": "CVE-2026-124486 — OpenEMR before 8.3.0 contains a missing authorization vulnerability in the classic document controller that allows low-privilege authenticat",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124486",
-    "score": 8.8,
-    "date": "2026-11-08T15:31:29Z"
+    "title": "CVE-2025-13465 — Red Hat Security Advisory: Red Hat OpenShift Data Foundation 4.16.36 security, enhancement & bug fix update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:83619",
+    "score": 9.1,
+    "date": "2026-11-08T16:12:01+00:00"
    },
    {
-    "title": "CVE-2026-124467 — OpenEMR before 8.4.0 contains a local file inclusion in the ESign router (library/ESign/Router.php), which passes the unsanitized module par",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124467",
-    "score": 8.8,
-    "date": "2026-11-08T15:31:28Z"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Web Terminal Operator 1.13.0 release. (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:8338",
+    "score": 9.1,
+    "date": "2026-11-08T16:12:01+00:00"
+   },
+   {
+    "title": "CVE-2024-34156 — Red Hat Security Advisory: Red Hat Quay 3.15.4 (+25 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:6568",
+    "score": 9.1,
+    "date": "2026-11-08T16:11:50+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2903,
+    "stars": 2906,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1951,
+    "stars": 1954,
     "lang": "Python"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 433,
+    "stars": 436,
     "lang": "Java"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 393,
+    "stars": 395,
     "lang": "—"
    },
    {
@@ -642,6 +642,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Tricking Deepseek Into Not Hacking Your Website",
+    "url": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
+    "date": "2026-11-08T16:57:11+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
+    "url": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
+    "date": "2026-11-08T16:58:09+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "email encryption",
     "url": "https://www.reddit.com/r/netsec/comments/1xr1qpe/email_encryption/",
     "date": "2026-11-08T16:00:58+00:00",
@@ -689,20 +703,6 @@
     "date": "2026-11-05T21:24:03+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "The Confessions of an AI Fraud Kingpin",
-    "url": "https://www.reddit.com/r/netsec/comments/1xok9lh/the_confessions_of_an_ai_fraud_kingpin/",
-    "date": "2026-11-05T14:38:18+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Who’s Trying to Get Into Our Fridge Freezer? There's nowt in it!",
-    "url": "https://www.reddit.com/r/netsec/comments/1xoi14n/whos_trying_to_get_into_our_fridge_freezer_theres/",
-    "date": "2026-11-05T13:00:14+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
+  "crit": 14,
   "kev": 1769,
   "adv": 12,
   "feed": 48
