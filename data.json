@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-11-09T19:21:55.346Z",
+ "generatedAt": "2026-11-09T20:22:15.511Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-123270 — Redpanda Connect versions 4.39 to 4.110 contain a missing authentication vulnerability that enables unauthenticated remote code execution (R",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123270",
-    "score": 9.8,
-    "date": "2026-11-09T18:32:00Z"
-   },
-   {
-    "title": "CVE-2026-119756 — Tasmota through 16.0.0, fixed in commit e97e1e4, contains a heap out-of-bounds write vulnerability in SendReceiveDeviceGroupMessage() that a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119756",
-    "score": 9.8,
-    "date": "2026-11-09T18:32:00Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,64 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-63470 — fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63470",
+    "title": "CVE-2026-84359 — Red Hat Security Advisory: webkit2gtk3 security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96080",
+    "score": 9.6,
+    "date": "2026-11-09T19:40:35+00:00"
+   },
+   {
+    "title": "CVE-2026-85049 — Red Hat Security Advisory: webkit2gtk3 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95194",
+    "score": 9.6,
+    "date": "2026-11-09T19:40:30+00:00"
+   },
+   {
+    "title": "CVE-2026-63471 — fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63471",
     "score": 9.5,
-    "date": "2026-11-09T18:50:00Z"
+    "date": "2026-11-09T19:48:08Z"
    },
    {
-    "title": "CVE-2026-121576 — Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege Esc",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121576",
+    "title": "CVE-2026-63469 — fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63469",
+    "score": 9.5,
+    "date": "2026-11-09T19:46:27Z"
+   },
+   {
+    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
+    "score": 9.1,
+    "date": "2026-11-09T19:40:37+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
+    "score": 9.1,
+    "date": "2026-11-09T19:40:25+00:00"
+   },
+   {
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (Neuron) (+49 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91249",
+    "score": 9.1,
+    "date": "2026-11-09T19:40:20+00:00"
+   },
+   {
+    "title": "CVE-2026-63395 — isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63395",
     "score": 8.8,
-    "date": "2026-11-09T18:31:59Z"
+    "date": "2026-11-09T19:53:44Z"
    },
    {
-    "title": "CVE-2026-19706 — During ABI bootstrap, the bootstrap node's approve-csr.service approves and signs every CSR without identity validation. An attacker on the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19706",
-    "score": 8.3,
-    "date": "2026-11-09T18:32:01Z"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
+    "score": 8.8,
+    "date": "2026-11-09T19:40:34+00:00"
    },
    {
-    "title": "CVE-2026-63436 — zt-zip: Path traversal in fluent API unpack",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63436",
-    "score": 8.2,
-    "date": "2026-11-09T18:47:27Z"
+    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
+    "score": 8.8,
+    "date": "2026-11-09T19:40:23+00:00"
    },
    {
-    "title": "CVE-2026-115338 — Insufficient protection of communications in Progress WS_FTP Server versions prior to 2025.0.5 could allow a network attacker to intercept s",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115338",
-    "score": 8.1,
-    "date": "2026-11-09T18:31:58Z"
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
+    "score": 8.8,
+    "date": "2026-11-09T19:40:22+00:00"
    },
    {
-    "title": "CVE-2026-115341 — Improper access restrictions in the Thin Client Web Transfer component of Progress Software WS_FTP Server versions prior to 2025.0.5 on Wind",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115341",
-    "score": 7.7,
-    "date": "2026-11-09T18:31:59Z"
-   },
-   {
-    "title": "CVE-2026-124683 — Eclipse Langium versions 3.2.0 through 4.4.0 contain an inefficient algorithmic complexity issue (CWE-407) in the opt-in IndentationAwareTok",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124683",
-    "score": 7.5,
-    "date": "2026-11-09T18:32:00Z"
-   },
-   {
-    "title": "CVE-2026-119755 — Tasmota through 16.0.0, fixed in commit 1cb7ebc, contains a cross-site request forgery vulnerability that allows unauthenticated attackers t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119755",
-    "score": 7.5,
-    "date": "2026-11-09T18:32:00Z"
-   },
-   {
-    "title": "CVE-2026-115339 — Insufficient resource limits in Progress Software WS_FTP Server releases prior to 2025.0.5 on Windows could allow an unauthenticated remote ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115339",
-    "score": 7.5,
-    "date": "2026-11-09T18:31:59Z"
-   },
-   {
-    "title": "CVE-2026-122664 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in VideoWhisper.com Broadcast Live Video ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122664",
-    "score": 7.1,
-    "date": "2026-11-09T18:32:00Z"
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: LVMS 4.16 Bug Fix and Enhancement update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92291",
+    "score": 8.8,
+    "date": "2026-11-09T19:40:21+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,41 @@
   ],
   "adv": [
    {
+    "title": "isomorphic-git: Path traversal via a \"..\" tree-entry name writes files outside the working directory on clone/checkout",
+    "url": "https://github.com/advisories/GHSA-cw2g-2vwq-88w6",
+    "score": 5.3,
+    "ghsa": "GHSA-cw2g-2vwq-88w6",
+    "date": "2026-11-09T20:13:52Z"
+   },
+   {
+    "title": "isomorphic-git: Circular symbolic references cause non-terminating resolution (DoS)",
+    "url": "https://github.com/advisories/GHSA-96wc-2m84-2cj7",
+    "score": 4.3,
+    "ghsa": "GHSA-96wc-2m84-2cj7",
+    "date": "2026-11-09T19:58:32Z"
+   },
+   {
+    "title": "isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
+    "url": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
+    "score": 8.8,
+    "ghsa": "GHSA-9qw7-j9xw-fv9c",
+    "date": "2026-11-09T19:53:44Z"
+   },
+   {
+    "title": "fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator",
+    "url": "https://github.com/advisories/GHSA-p2mm-64f6-gmpp",
+    "score": 9.5,
+    "ghsa": "GHSA-p2mm-64f6-gmpp",
+    "date": "2026-11-09T19:48:08Z"
+   },
+   {
+    "title": "fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict",
+    "url": "https://github.com/advisories/GHSA-6xmv-cjr5-w3q8",
+    "score": 9.5,
+    "ghsa": "GHSA-6xmv-cjr5-w3q8",
+    "date": "2026-11-09T19:46:27Z"
+   },
+   {
     "title": "fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
     "url": "https://github.com/advisories/GHSA-h667-4jj2-cgv4",
     "score": 9.5,
@@ -250,41 +285,6 @@
     "score": 6.3,
     "ghsa": "GHSA-r4hm-p9f9-fj9v",
     "date": "2026-11-06T19:50:34Z"
-   },
-   {
-    "title": "GeoNode has Unrestricted File Upload",
-    "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
-    "score": 5.5,
-    "ghsa": "GHSA-fqpv-mq26-pr4j",
-    "date": "2026-11-06T19:41:23Z"
-   },
-   {
-    "title": "GeoNode has OS command injection via uploaded file layer name",
-    "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
-    "score": 8.8,
-    "ghsa": "GHSA-9fpx-fr6j-2vh6",
-    "date": "2026-11-06T19:39:38Z"
-   },
-   {
-    "title": "LXD has CreateCustomVolumeFromBackup nil-pointer dereference on volumes[0].snapshots[*].expires_at",
-    "url": "https://github.com/advisories/GHSA-j93m-3j9p-m5m8",
-    "score": 6.5,
-    "ghsa": "GHSA-j93m-3j9p-m5m8",
-    "date": "2026-11-06T19:37:14Z"
-   },
-   {
-    "title": "LXD has arbitrary file write on client due to trusted image hash",
-    "url": "https://github.com/advisories/GHSA-pjff-c2wc-f6jm",
-    "score": 9.9,
-    "ghsa": "GHSA-pjff-c2wc-f6jm",
-    "date": "2026-11-06T19:36:55Z"
-   },
-   {
-    "title": "LXD has argument injection in backup compression algorithm leading to AFW and ACE",
-    "url": "https://github.com/advisories/GHSA-fmc8-p6q7-75cc",
-    "score": 9.9,
-    "ghsa": "GHSA-fmc8-p6q7-75cc",
-    "date": "2026-11-06T19:36:37Z"
    }
   ],
   "thn": [
@@ -469,7 +469,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1989,
+    "stars": 1990,
     "lang": "Python"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 590,
+    "stars": 591,
     "lang": "Java"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 429,
+    "stars": 426,
     "lang": "—"
    },
    {
@@ -649,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Tricking Deepseek Into Not Hacking Your Website",
-    "url": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
-    "date": "2026-11-08T16:57:11+00:00",
+    "title": "N-able N-central Critical Vulnerabilities: What We Know So Far",
+    "url": "https://www.reddit.com/r/netsec/comments/1xrykwg/nable_ncentral_critical_vulnerabilities_what_we/",
+    "date": "2026-11-09T17:54:33+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "N-able N-central Critical Vulnerabilities: What We Know So Far",
-    "url": "https://www.reddit.com/r/netsec/comments/1xrykwg/nable_ncentral_critical_vulnerabilities_what_we/",
-    "date": "2026-11-09T17:54:33+00:00",
+    "title": "Tricking Deepseek Into Not Hacking Your Website",
+    "url": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
+    "date": "2026-11-08T16:57:11+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,8 +717,8 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
-  "kev": 1772,
+  "crit": 9,
+  "kev": 1773,
   "adv": 12,
   "feed": 48
  },
