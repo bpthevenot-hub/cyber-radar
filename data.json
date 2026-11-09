@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-09T17:22:03.095Z",
+ "generatedAt": "2026-11-09T19:21:55.346Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-123270 — Redpanda Connect versions 4.39 to 4.110 contain a missing authentication vulnerability that enables unauthenticated remote code execution (R",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123270",
+    "score": 9.8,
+    "date": "2026-11-09T18:32:00Z"
+   },
+   {
+    "title": "CVE-2026-119756 — Tasmota through 16.0.0, fixed in commit e97e1e4, contains a heap out-of-bounds write vulnerability in SendReceiveDeviceGroupMessage() that a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119756",
+    "score": 9.8,
+    "date": "2026-11-09T18:32:00Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +25,66 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-63470 — fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63470",
+    "score": 9.5,
+    "date": "2026-11-09T18:50:00Z"
+   },
+   {
+    "title": "CVE-2026-121576 — Incorrect Privilege Assignment vulnerability in AtlasAiDev MCP Server for WordPress ai-workflow-automation-ai-agent-hub allows Privilege Esc",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121576",
+    "score": 8.8,
+    "date": "2026-11-09T18:31:59Z"
+   },
+   {
+    "title": "CVE-2026-19706 — During ABI bootstrap, the bootstrap node's approve-csr.service approves and signs every CSR without identity validation. An attacker on the ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19706",
+    "score": 8.3,
+    "date": "2026-11-09T18:32:01Z"
+   },
+   {
+    "title": "CVE-2026-63436 — zt-zip: Path traversal in fluent API unpack",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63436",
+    "score": 8.2,
+    "date": "2026-11-09T18:47:27Z"
+   },
+   {
+    "title": "CVE-2026-115338 — Insufficient protection of communications in Progress WS_FTP Server versions prior to 2025.0.5 could allow a network attacker to intercept s",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115338",
+    "score": 8.1,
+    "date": "2026-11-09T18:31:58Z"
+   },
+   {
+    "title": "CVE-2026-115341 — Improper access restrictions in the Thin Client Web Transfer component of Progress Software WS_FTP Server versions prior to 2025.0.5 on Wind",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115341",
+    "score": 7.7,
+    "date": "2026-11-09T18:31:59Z"
+   },
+   {
+    "title": "CVE-2026-124683 — Eclipse Langium versions 3.2.0 through 4.4.0 contain an inefficient algorithmic complexity issue (CWE-407) in the opt-in IndentationAwareTok",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124683",
+    "score": 7.5,
+    "date": "2026-11-09T18:32:00Z"
+   },
+   {
+    "title": "CVE-2026-119755 — Tasmota through 16.0.0, fixed in commit 1cb7ebc, contains a cross-site request forgery vulnerability that allows unauthenticated attackers t",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119755",
+    "score": 7.5,
+    "date": "2026-11-09T18:32:00Z"
+   },
+   {
+    "title": "CVE-2026-115339 — Insufficient resource limits in Progress Software WS_FTP Server releases prior to 2025.0.5 on Windows could allow an unauthenticated remote ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115339",
+    "score": 7.5,
+    "date": "2026-11-09T18:31:59Z"
+   },
+   {
+    "title": "CVE-2026-122664 — Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in VideoWhisper.com Broadcast Live Video ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-122664",
+    "score": 7.1,
+    "date": "2026-11-09T18:32:00Z"
    }
   ],
   "kev": [
@@ -131,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
+    "url": "https://github.com/advisories/GHSA-h667-4jj2-cgv4",
+    "score": 9.5,
+    "ghsa": "GHSA-h667-4jj2-cgv4",
+    "date": "2026-11-09T18:50:00Z"
+   },
+   {
+    "title": "zt-zip: Path traversal in fluent API unpack",
+    "url": "https://github.com/advisories/GHSA-52c6-99qm-3hqr",
+    "score": 8.2,
+    "ghsa": "GHSA-52c6-99qm-3hqr",
+    "date": "2026-11-09T18:47:27Z"
+   },
+   {
+    "title": "Logging Redactor: PII data in str/repr of non primitive objects was not being redacted",
+    "url": "https://github.com/advisories/GHSA-w7qv-268h-9h3f",
+    "score": 7.5,
+    "ghsa": "GHSA-w7qv-268h-9h3f",
+    "date": "2026-11-09T18:15:18Z"
+   },
+   {
     "title": "LXD has restricted project bypass leading to arbitrary command execution",
     "url": "https://github.com/advisories/GHSA-47w9-6r3f-938g",
     "score": 9.9,
@@ -192,30 +285,23 @@
     "score": 9.9,
     "ghsa": "GHSA-fmc8-p6q7-75cc",
     "date": "2026-11-06T19:36:37Z"
-   },
-   {
-    "title": "LXD has arbitrary file read+write on host via rootfs/ symlink in malicious image",
-    "url": "https://github.com/advisories/GHSA-vghh-5rfx-xhq8",
-    "score": 9.9,
-    "ghsa": "GHSA-vghh-5rfx-xhq8",
-    "date": "2026-11-06T19:36:07Z"
-   },
-   {
-    "title": "LXD has arbitrary file read+write on host via templates/ symlink in malicious image",
-    "url": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
-    "score": 9.9,
-    "ghsa": "GHSA-jpf8-86f3-wp38",
-    "date": "2026-11-06T18:53:57Z"
-   },
-   {
-    "title": "LXD has arbitrary file write on host via `exec-output` symlink in crafted image",
-    "url": "https://github.com/advisories/GHSA-9j25-mm2h-2f76",
-    "score": 9.9,
-    "ghsa": "GHSA-9j25-mm2h-2f76",
-    "date": "2026-11-06T18:45:51Z"
    }
   ],
   "thn": [
+   {
+    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "date": "Mon, 09 Nov 2026 23:21:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+    "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+    "date": "Mon, 09 Nov 2026 23:06:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
     "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
@@ -285,23 +371,23 @@
     "date": "Sat, 07 Nov 2026 12:14:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "date": "Fri, 06 Nov 2026 21:38:38 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-    "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-    "date": "Fri, 06 Nov 2026 20:51:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+    "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+    "date": "Mon, 09 Nov 2026 13:32:42 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+    "date": "Mon, 09 Nov 2026 12:50:32 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Binance denies data breach after alleged ShinyHunters claims",
     "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
@@ -371,33 +457,19 @@
     "date": "Fri, 06 Nov 2026 19:00:55 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-    "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-    "date": "Fri, 06 Nov 2026 17:27:25 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-    "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "date": "Fri, 06 Nov 2026 15:24:19 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2964,
+    "stars": 2970,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1987,
+    "stars": 1989,
     "lang": "Python"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 584,
+    "stars": 590,
     "lang": "Java"
    },
    {
@@ -439,20 +511,20 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 504,
+    "stars": 505,
     "lang": "Rust"
-   },
-   {
-    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
-    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 454,
-    "lang": "—"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 432,
+    "stars": 433,
     "lang": "C"
+   },
+   {
+    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "stars": 429,
+    "lang": "—"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
@@ -563,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF",
+    "url": "https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/",
+    "date": "2026-11-09T17:41:19+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Certificate authority list: every CA's incident record since 2017",
     "url": "https://www.reddit.com/r/netsec/comments/1xrsyyg/certificate_authority_list_every_cas_incident/",
     "date": "2026-11-09T14:24:35+00:00",
@@ -573,6 +652,13 @@
     "title": "Tricking Deepseek Into Not Hacking Your Website",
     "url": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
     "date": "2026-11-08T16:57:11+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "N-able N-central Critical Vulnerabilities: What We Know So Far",
+    "url": "https://www.reddit.com/r/netsec/comments/1xrykwg/nable_ncentral_critical_vulnerabilities_what_we/",
+    "date": "2026-11-09T17:54:33+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -617,20 +703,6 @@
     "date": "2026-11-08T01:31:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "unlocking any car from X brand in most of the world",
-    "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
-    "date": "2026-11-07T11:10:50+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Reproducing the GhostMap APK crash loop on Android 16/17, plus an offline check for the ZIP parser mismatch",
-    "url": "https://www.reddit.com/r/netsec/comments/1xq1jwj/reproducing_the_ghostmap_apk_crash_loop_on/",
-    "date": "2026-11-07T08:34:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 5,
   "kev": 1772,
   "adv": 12,
   "feed": 48
