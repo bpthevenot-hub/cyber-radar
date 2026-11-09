@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-09T06:40:04.756Z",
+ "generatedAt": "2026-11-09T07:24:18.277Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-124560 — A vulnerability was found in D-Link DIR-878 1.20B05. This affects the function GetCAPTCHAsetting of the file bin/prog.cgi of the component H",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124560",
-    "score": 9.8,
-    "date": "2026-11-09T03:32:09Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,16 +15,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-119506 — Incorrect Privilege Assignment vulnerability in DynamiApps Frontend Admin by DynamiApps acf-frontend-form-element allows Privilege Escalatio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119506",
-    "score": 9.1,
-    "date": "2026-11-09T03:32:08Z"
+    "title": "CVE-2026-113364 — Buffer Overflow in the data receiving process in NEC Corporation WebSAM WinShare Ver 7.5.0 and earlier, Ver 7.6.0 and Ver 7.7.0 through 7.7.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113364",
+    "score": 9.5,
+    "date": "2026-11-09T06:30:26Z"
    },
    {
-    "title": "CVE-2026-0799 — Red Hat Security Advisory: Red Hat Update Infrastructure 5.3 security update (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82939",
-    "score": 8.7,
-    "date": "2026-11-09T03:15:08+00:00"
+    "title": "CVE-2026-113363 — Improper Input Validation in the network communication processing in NEC Corporation WebSAM WinShare Ver 7.2.0 through 7.5.0, Ver 7.6.0 and ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-113363",
+    "score": 9.5,
+    "date": "2026-11-09T06:30:26Z"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
+    "score": 8.8,
+    "date": "2026-11-09T05:58:30+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95612",
+    "score": 8.2,
+    "date": "2026-11-09T05:58:30+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
+    "score": 8.2,
+    "date": "2026-11-09T05:58:29+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: git-lfs security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95234",
+    "score": 8.2,
+    "date": "2026-11-09T05:58:27+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Release of containers for RHOSO 18.0.22 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95576",
+    "score": 8.1,
+    "date": "2026-11-09T05:58:33+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: LVMS 4.20 Bug Fix and Enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95437",
+    "score": 8.1,
+    "date": "2026-11-09T05:58:28+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95360",
+    "score": 8.1,
+    "date": "2026-11-09T05:58:28+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Updated Red Hat OpenStack Platform 16.2 director Operator container images (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95206",
+    "score": 8.1,
+    "date": "2026-11-09T05:58:26+00:00"
    },
    {
     "title": "CVE-2026-13732 — A flaw was found in GDB's STABS debug format parser. The read_member_functions() function in gdb/stabsread.c contains a linked list removal ",
@@ -39,52 +81,10 @@
     "date": "2026-08-31T21:32:10Z"
    },
    {
-    "title": "CVE-2026-124557 — A vulnerability was detected in OtterMind Chat2DB up to 5.3.8. Impacted is the function DbMybatisGenerateServiceImpl.generateClass of the fi",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124557",
-    "score": 7.3,
-    "date": "2026-11-09T03:32:09Z"
-   },
-   {
-    "title": "CVE-2026-124558 — A vulnerability has been found in DataLinkDC Dinky up to 1.2.5. The impacted element is the function SqlGateway.onOpen of the file SqlGatewa",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124558",
-    "score": 7.3,
-    "date": "2026-11-09T03:32:09Z"
-   },
-   {
-    "title": "CVE-2026-124554 — A security flaw has been discovered in JeecgBoot 3.9.5. This affects an unknown part of the file /jeecg-boot/drag/onlDragDatasetHead/getAllC",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124554",
-    "score": 7.3,
-    "date": "2026-11-09T03:32:08Z"
-   },
-   {
-    "title": "CVE-2026-124509 — A vulnerability was identified in floci-io Floci up to 2.1.0. The affected element is the function S3Destination.bucketName of the file serv",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124509",
-    "score": 7.3,
-    "date": "2026-11-09T03:32:08Z"
-   },
-   {
-    "title": "CVE-2026-13732 — Red Hat Security Advisory: gdb security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96097",
-    "score": 7,
-    "date": "2026-11-09T03:15:14+00:00"
-   },
-   {
-    "title": "CVE-2026-13732 — Red Hat Security Advisory: gdb security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96098",
-    "score": 7,
-    "date": "2026-11-09T03:15:06+00:00"
-   },
-   {
-    "title": "CVE-2026-13732 — Red Hat Security Advisory: gdb security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96095",
-    "score": 7,
-    "date": "2026-11-09T03:15:06+00:00"
-   },
-   {
-    "title": "CVE-2026-124555 — A weakness has been identified in JeecgBoot 3.9.5. This vulnerability affects the function JimuFormApiService.getTableDictList of the file /",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124555",
-    "score": 6.3,
-    "date": "2026-11-09T03:32:08Z"
+    "title": "CVE-2026-124562 — A vulnerability was identified in D-Link DIR-878 1.20B05. Affected is the function SetWanSettings of the component HNAP Handler. The manipul",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124562",
+    "score": 7.5,
+    "date": "2026-11-09T06:30:26Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+    "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+    "date": "Mon, 09 Nov 2026 11:45:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
     "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
     "date": "Mon, 09 Nov 2026 11:35:24 +0530",
@@ -362,13 +369,6 @@
     "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
     "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
     "date": "Fri, 06 Nov 2026 11:09:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-    "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-    "date": "Thu, 05 Nov 2026 22:12:46 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2922,
+    "stars": 2925,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1972,
+    "stars": 1974,
     "lang": "Python"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 799,
+    "stars": 811,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "solongate/agent-security — Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, an",
     "url": "https://github.com/solongate/agent-security",
-    "stars": 598,
+    "stars": 600,
     "lang": "Go"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 524,
+    "stars": 529,
     "lang": "Java"
    },
    {
@@ -523,13 +523,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 431,
+    "stars": 430,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 401,
+    "stars": 402,
     "lang": "—"
    }
   ],
