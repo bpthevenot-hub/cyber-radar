@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T22:22:23.000Z",
+ "generatedAt": "2026-11-09T23:21:54.391Z",
  "sources": {
   "cve": [
    {
@@ -203,6 +203,69 @@
   ],
   "adv": [
    {
+    "title": "Kubeflow Pipelines: RBAC bypass on shared pipelines allows any authenticated user to delete or modify global pipelines",
+    "url": "https://github.com/advisories/GHSA-ghgh-57qv-h687",
+    "score": 7.5,
+    "ghsa": "GHSA-ghgh-57qv-h687",
+    "date": "2026-11-09T22:48:03Z"
+   },
+   {
+    "title": "Kubeflow Pipelines — API server fetches a caller-supplied pipelineURL without host validation",
+    "url": "https://github.com/advisories/GHSA-f7vj-6669-qvv4",
+    "score": 5,
+    "ghsa": "GHSA-f7vj-6669-qvv4",
+    "date": "2026-11-09T22:44:17Z"
+   },
+   {
+    "title": "Kubeflow Pipelines: Cross-tenant execution-cache poisoning / output substitution via a namespace-blind cache key in the cache webhook (multi-user)",
+    "url": "https://github.com/advisories/GHSA-2xwh-426q-42c5",
+    "score": 5.4,
+    "ghsa": "GHSA-2xwh-426q-42c5",
+    "date": "2026-11-09T22:43:33Z"
+   },
+   {
+    "title": "Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace",
+    "url": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv",
+    "score": 7.5,
+    "ghsa": "GHSA-5xjx-9qx6-jcrv",
+    "date": "2026-11-09T22:42:03Z"
+   },
+   {
+    "title": "croc: Overwrite-confirmation bypass via a crafted \"croc-stdin-\" filename on receive",
+    "url": "https://github.com/advisories/GHSA-x89h-7h96-v88f",
+    "score": 4.2,
+    "ghsa": "GHSA-x89h-7h96-v88f",
+    "date": "2026-11-09T22:40:12Z"
+   },
+   {
+    "title": "DDEV incomplete tar symlink traversal fix allows host file overwrite - Incomplete fix of CVE-2026-32885",
+    "url": "https://github.com/advisories/GHSA-9hq4-hm3j-jmph",
+    "score": 8.8,
+    "ghsa": "GHSA-9hq4-hm3j-jmph",
+    "date": "2026-11-09T22:37:58Z"
+   },
+   {
+    "title": "Moleculer: Unauthenticated Denial of Service via negative length field in the TCP transporter packet parser",
+    "url": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+    "score": 7.5,
+    "ghsa": "GHSA-h89v-g948-47vp",
+    "date": "2026-11-09T22:31:16Z"
+   },
+   {
+    "title": "Velociraptor: Low-priv analyst reads arbitrary server files via ungated sql() VQL plugin",
+    "url": "https://github.com/advisories/GHSA-9qq5-422f-33c2",
+    "score": 6.5,
+    "ghsa": "GHSA-9qq5-422f-33c2",
+    "date": "2026-11-09T22:25:14Z"
+   },
+   {
+    "title": "Kubeflow Pipelines API server lacks authorization for shared pipeline uploads",
+    "url": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g",
+    "score": 9.6,
+    "ghsa": "GHSA-rjr3-43j3-4q8g",
+    "date": "2026-11-09T22:22:41Z"
+   },
+   {
     "title": "FileGator: Missing authorization in POST /upload allows cross-user read and deletion of temporary files",
     "url": "https://github.com/advisories/GHSA-44r8-3p76-84mw",
     "score": 5.9,
@@ -222,69 +285,6 @@
     "score": 7.1,
     "ghsa": "GHSA-85gg-2gfq-q95m",
     "date": "2026-11-09T22:16:41Z"
-   },
-   {
-    "title": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
-    "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
-    "score": 9.8,
-    "ghsa": "GHSA-gj9m-f8ph-pmhr",
-    "date": "2026-11-09T22:15:27Z"
-   },
-   {
-    "title": "Pocket ID: Email verification token remains valid after address change, enabling arbitrary verified-email spoofing",
-    "url": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6",
-    "score": 9.6,
-    "ghsa": "GHSA-rm8c-2cv8-jwf6",
-    "date": "2026-11-09T22:12:21Z"
-   },
-   {
-    "title": "Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
-    "url": "https://github.com/advisories/GHSA-cp25-j9x5-p5xm",
-    "score": 5.3,
-    "ghsa": "GHSA-cp25-j9x5-p5xm",
-    "date": "2026-11-09T22:05:06Z"
-   },
-   {
-    "title": "esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal",
-    "url": "https://github.com/advisories/GHSA-g3c2-rjq2-c763",
-    "score": 7.5,
-    "ghsa": "GHSA-g3c2-rjq2-c763",
-    "date": "2026-11-09T22:03:29Z"
-   },
-   {
-    "title": "fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command execution",
-    "url": "https://github.com/advisories/GHSA-9vhv-g5hf-m7m7",
-    "score": 6.4,
-    "ghsa": "GHSA-9vhv-g5hf-m7m7",
-    "date": "2026-11-09T22:01:34Z"
-   },
-   {
-    "title": "Telepresence: Traffic Manager gRPC has no auth — any pod claims arbitrary namespace and intercepts services, receiving victim environment secrets",
-    "url": "https://github.com/advisories/GHSA-j8j4-rw65-56r6",
-    "score": 8.5,
-    "ghsa": "GHSA-j8j4-rw65-56r6",
-    "date": "2026-11-09T21:59:49Z"
-   },
-   {
-    "title": "Telepresence: Tunnel endpoint accepts caller-supplied session ID with no ownership proof — active client sessions hijackable",
-    "url": "https://github.com/advisories/GHSA-6j3h-rp73-6rvf",
-    "score": 8.2,
-    "ghsa": "GHSA-6j3h-rp73-6rvf",
-    "date": "2026-11-09T21:58:00Z"
-   },
-   {
-    "title": "zizmor: Debug logging prints available GitHub credentials in cleartext",
-    "url": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
-    "score": 7.5,
-    "ghsa": "GHSA-f42p-wjw5-97qh",
-    "date": "2026-11-09T21:56:25Z"
-   },
-   {
-    "title": "ezBookkeeping: Source-IP allowlist (MCP & API token) is bypassable via a spoofed `X-Forwarded-For` header",
-    "url": "https://github.com/advisories/GHSA-wchh-mrv2-5h4q",
-    "score": null,
-    "ghsa": "GHSA-wchh-mrv2-5h4q",
-    "date": "2026-11-09T21:51:28Z"
    }
   ],
   "thn": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2976,
+    "stars": 2979,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1992,
+    "stars": 1993,
     "lang": "Python"
    },
    {
@@ -499,20 +499,20 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 595,
+    "stars": 599,
     "lang": "Java"
+   },
+   {
+    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
+    "url": "https://github.com/strands-agents/box",
+    "stars": 510,
+    "lang": "Rust"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
     "stars": 509,
     "lang": "TypeScript"
-   },
-   {
-    "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
-    "url": "https://github.com/strands-agents/box",
-    "stars": 508,
-    "lang": "Rust"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
