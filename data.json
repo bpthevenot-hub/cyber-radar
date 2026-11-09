@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-09T20:22:15.511Z",
+ "generatedAt": "2026-11-09T21:22:08.857Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-123807 — Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123807",
+    "score": 9.8,
+    "date": "2026-10-30T22:57:22Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-84359 — Red Hat Security Advisory: webkit2gtk3 security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96080",
-    "score": 9.6,
-    "date": "2026-11-09T19:40:35+00:00"
-   },
-   {
-    "title": "CVE-2026-85049 — Red Hat Security Advisory: webkit2gtk3 security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95194",
-    "score": 9.6,
-    "date": "2026-11-09T19:40:30+00:00"
-   },
-   {
-    "title": "CVE-2026-63471 — fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63471",
-    "score": 9.5,
-    "date": "2026-11-09T19:48:08Z"
-   },
-   {
-    "title": "CVE-2026-63469 — fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63469",
-    "score": 9.5,
-    "date": "2026-11-09T19:46:27Z"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: DevWorkspace Operator 0.40.1 release. (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9872",
-    "score": 9.1,
-    "date": "2026-11-09T19:40:37+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: Red Hat OpenShift distributed tracing platform (Tempo) 3.9.2 release (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9385",
-    "score": 9.1,
-    "date": "2026-11-09T19:40:25+00:00"
-   },
-   {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (Neuron) (+49 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91249",
-    "score": 9.1,
-    "date": "2026-11-09T19:40:20+00:00"
-   },
-   {
-    "title": "CVE-2026-63395 — isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63395",
-    "score": 8.8,
-    "date": "2026-11-09T19:53:44Z"
-   },
-   {
     "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:96076",
     "score": 8.8,
-    "date": "2026-11-09T19:40:34+00:00"
+    "date": "2026-11-09T20:35:24+00:00"
    },
    {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
-    "score": 8.8,
-    "date": "2026-11-09T19:40:23+00:00"
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95612",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:24+00:00"
    },
    {
-    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
-    "score": 8.8,
-    "date": "2026-11-09T19:40:22+00:00"
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:23+00:00"
    },
    {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: LVMS 4.16 Bug Fix and Enhancement update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92291",
-    "score": 8.8,
-    "date": "2026-11-09T19:40:21+00:00"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: git-lfs security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95234",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:22+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95081",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:19+00:00"
+   },
+   {
+    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CPU) (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94702",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:19+00:00"
+   },
+   {
+    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CUDA) (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94738",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:18+00:00"
+   },
+   {
+    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.3 (Gaudi) (+59 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94721",
+    "score": 8.2,
+    "date": "2026-11-09T20:35:17+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Release of containers for RHOSO 18.0.22 (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95576",
+    "score": 8.1,
+    "date": "2026-11-09T20:35:28+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: LVMS 4.20 Bug Fix and Enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95437",
+    "score": 8.1,
+    "date": "2026-11-09T20:35:22+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95360",
+    "score": 8.1,
+    "date": "2026-11-09T20:35:22+00:00"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
+    "title": "Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read",
+    "url": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
+    "score": 7.5,
+    "ghsa": "GHSA-vvr2-h2jp-838m",
+    "date": "2026-11-09T21:21:32Z"
+   },
+   {
+    "title": "Remark42: Rate limit bypass via unconditional trust of X-Forwarded-For/X-Real-IP headers in direct-internet deployment",
+    "url": "https://github.com/advisories/GHSA-56x6-q882-mf27",
+    "score": 6.5,
+    "ghsa": "GHSA-56x6-q882-mf27",
+    "date": "2026-11-09T21:18:29Z"
+   },
+   {
+    "title": "Pocket ID: The client credentials grant allows any OIDC client to obtain tokens for arbitrary audiences",
+    "url": "https://github.com/advisories/GHSA-q4xm-p75h-h9p3",
+    "score": 7.7,
+    "ghsa": "GHSA-q4xm-p75h-h9p3",
+    "date": "2026-11-09T21:17:04Z"
+   },
+   {
+    "title": "tsParticles: A single anonymous MCP session can monopolize HTTP mode and deny new clients",
+    "url": "https://github.com/advisories/GHSA-h7c4-q426-7jh9",
+    "score": null,
+    "ghsa": "GHSA-h7c4-q426-7jh9",
+    "date": "2026-11-09T21:14:51Z"
+   },
+   {
+    "title": "tsParticles: Malformed JSON requests can terminate the @tsparticles/mcp-server HTTP process",
+    "url": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
+    "score": 7.5,
+    "ghsa": "GHSA-4p8p-pjpq-2w7h",
+    "date": "2026-11-09T21:13:55Z"
+   },
+   {
+    "title": "JSON-java: JSONTokener Has Unbounded Numeric String Resource-Exhaustion DoS",
+    "url": "https://github.com/advisories/GHSA-ghc9-756g-vrcv",
+    "score": 5.9,
+    "ghsa": "GHSA-ghc9-756g-vrcv",
+    "date": "2026-11-09T21:12:46Z"
+   },
+   {
+    "title": "tsParticles: Unbounded HTTP Request Body Buffering in @tsparticles/mcp-server Leads to Remote DoS",
+    "url": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
+    "score": 7.5,
+    "ghsa": "GHSA-447x-qqwf-m7xq",
+    "date": "2026-11-09T21:10:46Z"
+   },
+   {
+    "title": "ag-psd: Uncontrolled Memory Allocation in PSD Layer Decoding (totalMemoryLimit bypass)",
+    "url": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
+    "score": 7.5,
+    "ghsa": "GHSA-6w3r-6hpr-hp6p",
+    "date": "2026-11-09T21:08:28Z"
+   },
+   {
+    "title": "zt-zip: ZipUtil.unpack can change file permissions of output directory",
+    "url": "https://github.com/advisories/GHSA-v2g6-7r9j-v6px",
+    "score": null,
+    "ghsa": "GHSA-v2g6-7r9j-v6px",
+    "date": "2026-11-09T21:03:31Z"
+   },
+   {
+    "title": "traQ: Privilege escalation by OAuth prompt=none request",
+    "url": "https://github.com/advisories/GHSA-8cfq-jgf7-8m27",
+    "score": 7.3,
+    "ghsa": "GHSA-8cfq-jgf7-8m27",
+    "date": "2026-11-09T20:55:17Z"
+   },
+   {
+    "title": "traQ: XSS in the User Uploaded File Retrieval API",
+    "url": "https://github.com/advisories/GHSA-p74g-f95m-7fx7",
+    "score": 7.3,
+    "ghsa": "GHSA-p74g-f95m-7fx7",
+    "date": "2026-11-09T20:52:49Z"
+   },
+   {
     "title": "isomorphic-git: Path traversal via a \"..\" tree-entry name writes files outside the working directory on clone/checkout",
     "url": "https://github.com/advisories/GHSA-cw2g-2vwq-88w6",
     "score": 5.3,
     "ghsa": "GHSA-cw2g-2vwq-88w6",
     "date": "2026-11-09T20:13:52Z"
-   },
-   {
-    "title": "isomorphic-git: Circular symbolic references cause non-terminating resolution (DoS)",
-    "url": "https://github.com/advisories/GHSA-96wc-2m84-2cj7",
-    "score": 4.3,
-    "ghsa": "GHSA-96wc-2m84-2cj7",
-    "date": "2026-11-09T19:58:32Z"
-   },
-   {
-    "title": "isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
-    "url": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
-    "score": 8.8,
-    "ghsa": "GHSA-9qw7-j9xw-fv9c",
-    "date": "2026-11-09T19:53:44Z"
-   },
-   {
-    "title": "fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator",
-    "url": "https://github.com/advisories/GHSA-p2mm-64f6-gmpp",
-    "score": 9.5,
-    "ghsa": "GHSA-p2mm-64f6-gmpp",
-    "date": "2026-11-09T19:48:08Z"
-   },
-   {
-    "title": "fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict",
-    "url": "https://github.com/advisories/GHSA-6xmv-cjr5-w3q8",
-    "score": 9.5,
-    "ghsa": "GHSA-6xmv-cjr5-w3q8",
-    "date": "2026-11-09T19:46:27Z"
-   },
-   {
-    "title": "fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
-    "url": "https://github.com/advisories/GHSA-h667-4jj2-cgv4",
-    "score": 9.5,
-    "ghsa": "GHSA-h667-4jj2-cgv4",
-    "date": "2026-11-09T18:50:00Z"
-   },
-   {
-    "title": "zt-zip: Path traversal in fluent API unpack",
-    "url": "https://github.com/advisories/GHSA-52c6-99qm-3hqr",
-    "score": 8.2,
-    "ghsa": "GHSA-52c6-99qm-3hqr",
-    "date": "2026-11-09T18:47:27Z"
-   },
-   {
-    "title": "Logging Redactor: PII data in str/repr of non primitive objects was not being redacted",
-    "url": "https://github.com/advisories/GHSA-w7qv-268h-9h3f",
-    "score": 7.5,
-    "ghsa": "GHSA-w7qv-268h-9h3f",
-    "date": "2026-11-09T18:15:18Z"
-   },
-   {
-    "title": "LXD has restricted project bypass leading to arbitrary command execution",
-    "url": "https://github.com/advisories/GHSA-47w9-6r3f-938g",
-    "score": 9.9,
-    "ghsa": "GHSA-47w9-6r3f-938g",
-    "date": "2026-11-06T19:51:26Z"
-   },
-   {
-    "title": "LXD has project restriction bypass for custom volume copy across projects",
-    "url": "https://github.com/advisories/GHSA-7mr3-28h5-m5vx",
-    "score": 7.7,
-    "ghsa": "GHSA-7mr3-28h5-m5vx",
-    "date": "2026-11-06T19:51:16Z"
-   },
-   {
-    "title": "LXD has project restriction bypass in instance copy across projects",
-    "url": "https://github.com/advisories/GHSA-qx75-2p3r-pwm5",
-    "score": 7.7,
-    "ghsa": "GHSA-qx75-2p3r-pwm5",
-    "date": "2026-11-06T19:51:00Z"
-   },
-   {
-    "title": "GeoNode has Stored XSS in Documents metadata abstract field",
-    "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
-    "score": 6.3,
-    "ghsa": "GHSA-r4hm-p9f9-fj9v",
-    "date": "2026-11-06T19:50:34Z"
    }
   ],
   "thn": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2970,
+    "stars": 2974,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1990,
+    "stars": 1991,
     "lang": "Python"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 591,
+    "stars": 593,
     "lang": "Java"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 505,
+    "stars": 506,
     "lang": "Rust"
    },
    {
@@ -649,30 +649,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "N-able N-central Critical Vulnerabilities: What We Know So Far",
-    "url": "https://www.reddit.com/r/netsec/comments/1xrykwg/nable_ncentral_critical_vulnerabilities_what_we/",
-    "date": "2026-11-09T17:54:33+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
     "title": "Tricking Deepseek Into Not Hacking Your Website",
     "url": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
     "date": "2026-11-08T16:57:11+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A Boolean PII Flag Is Not Enough",
-    "url": "https://www.reddit.com/r/netsec/comments/1xrht5t/a_boolean_pii_flag_is_not_enough/",
-    "date": "2026-11-09T04:00:51+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Behavioral LOLBins detection engine with sequential correlation, PE masquerading checks, and Sysmon integration",
-    "url": "https://www.reddit.com/r/netsec/comments/1xrnxsn/behavioral_lolbins_detection_engine_with/",
-    "date": "2026-11-09T10:08:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -703,6 +682,27 @@
     "date": "2026-11-08T01:31:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
+   },
+   {
+    "title": "unlocking any car from X brand in most of the world",
+    "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
+    "date": "2026-11-07T11:10:50+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+    "url": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
+    "date": "2026-11-06T10:34:37+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) - watchTowr Labs",
+    "url": "https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/",
+    "date": "2026-11-05T21:24:03+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 9,
+  "crit": 3,
   "kev": 1773,
   "adv": 12,
   "feed": 48
