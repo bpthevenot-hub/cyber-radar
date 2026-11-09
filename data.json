@@ -1,24 +1,12 @@
 {
- "generatedAt": "2026-11-09T05:24:48.671Z",
+ "generatedAt": "2026-11-09T06:40:04.756Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2014-1745 — Red Hat Security Advisory: webkitgtk4 security update (+229 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:10364",
-    "score": 10,
-    "date": "2026-11-09T03:03:13+00:00"
-   },
    {
     "title": "CVE-2026-124560 — A vulnerability was found in D-Link DIR-878 1.20B05. This affects the function GetCAPTCHAsetting of the file bin/prog.cgi of the component H",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-124560",
     "score": 9.8,
     "date": "2026-11-09T03:32:09Z"
-   },
-   {
-    "title": "CVE-2022-41678 — Red Hat Security Advisory: Red Hat Fuse 7.13.0 release and security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2024:3354",
-    "score": 9.8,
-    "date": "2026-11-09T03:03:13+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -45,46 +33,58 @@
     "date": "2026-11-09T03:15:08+00:00"
    },
    {
-    "title": "CVE-2026-8458 — Red Hat Security Advisory: Red Hat Cost Management On-Premise container image update (+54 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79357",
-    "score": 8.5,
-    "date": "2026-11-09T03:15:04+00:00"
-   },
-   {
-    "title": "CVE-2021-39144 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.4 security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3892",
-    "score": 8.5,
-    "date": "2026-11-09T03:03:13+00:00"
-   },
-   {
-    "title": "CVE-2022-4361 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.4 for OpenShift image security enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3888",
-    "score": 8.1,
-    "date": "2026-11-09T03:03:12+00:00"
-   },
-   {
-    "title": "CVE-2022-4361 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3885",
-    "score": 8.1,
-    "date": "2026-11-09T03:03:12+00:00"
-   },
-   {
-    "title": "CVE-2022-4361 — Red Hat Security Advisory: Red Hat Single Sign-On 7.6.4 security update on RHEL 7 (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:3883",
-    "score": 8.1,
-    "date": "2026-11-09T03:03:12+00:00"
-   },
-   {
-    "title": "CVE-2021-2154 — Red Hat Security Advisory: mariadb:10.5 security update (+63 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2023:6821",
-    "score": 7.8,
-    "date": "2026-11-09T03:03:13+00:00"
-   },
-   {
     "title": "CVE-2026-13732 — A flaw was found in GDB's STABS debug format parser. The read_member_functions() function in gdb/stabsread.c contains a linked list removal ",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-13732",
     "score": 7.8,
     "date": "2026-08-31T21:32:10Z"
+   },
+   {
+    "title": "CVE-2026-124557 — A vulnerability was detected in OtterMind Chat2DB up to 5.3.8. Impacted is the function DbMybatisGenerateServiceImpl.generateClass of the fi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124557",
+    "score": 7.3,
+    "date": "2026-11-09T03:32:09Z"
+   },
+   {
+    "title": "CVE-2026-124558 — A vulnerability has been found in DataLinkDC Dinky up to 1.2.5. The impacted element is the function SqlGateway.onOpen of the file SqlGatewa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124558",
+    "score": 7.3,
+    "date": "2026-11-09T03:32:09Z"
+   },
+   {
+    "title": "CVE-2026-124554 — A security flaw has been discovered in JeecgBoot 3.9.5. This affects an unknown part of the file /jeecg-boot/drag/onlDragDatasetHead/getAllC",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124554",
+    "score": 7.3,
+    "date": "2026-11-09T03:32:08Z"
+   },
+   {
+    "title": "CVE-2026-124509 — A vulnerability was identified in floci-io Floci up to 2.1.0. The affected element is the function S3Destination.bucketName of the file serv",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124509",
+    "score": 7.3,
+    "date": "2026-11-09T03:32:08Z"
+   },
+   {
+    "title": "CVE-2026-13732 — Red Hat Security Advisory: gdb security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96097",
+    "score": 7,
+    "date": "2026-11-09T03:15:14+00:00"
+   },
+   {
+    "title": "CVE-2026-13732 — Red Hat Security Advisory: gdb security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96098",
+    "score": 7,
+    "date": "2026-11-09T03:15:06+00:00"
+   },
+   {
+    "title": "CVE-2026-13732 — Red Hat Security Advisory: gdb security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96095",
+    "score": 7,
+    "date": "2026-11-09T03:15:06+00:00"
+   },
+   {
+    "title": "CVE-2026-124555 — A weakness has been identified in JeecgBoot 3.9.5. This vulnerability affects the function JimuFormApiService.getTableDictList of the file /",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124555",
+    "score": 6.3,
+    "date": "2026-11-09T03:32:08Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+    "date": "Mon, 09 Nov 2026 11:35:24 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
     "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
     "date": "Sat, 07 Nov 2026 12:14:17 +0530",
@@ -362,13 +369,6 @@
     "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
     "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
     "date": "Thu, 05 Nov 2026 22:12:46 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-    "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-    "date": "Thu, 05 Nov 2026 22:12:32 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2919,
+    "stars": 2922,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1971,
+    "stars": 1972,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1060,
+    "stars": 1061,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 783,
+    "stars": 799,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "solongate/agent-security — Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, an",
     "url": "https://github.com/solongate/agent-security",
-    "stars": 595,
+    "stars": 598,
     "lang": "Go"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 516,
+    "stars": 524,
     "lang": "Java"
    },
    {
@@ -642,6 +642,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "A Boolean PII Flag Is Not Enough",
+    "url": "https://www.reddit.com/r/netsec/comments/1xrht5t/a_boolean_pii_flag_is_not_enough/",
+    "date": "2026-11-09T04:00:51+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "I spent countless nights digging into PHP2Shell. Here's a deep dive into how it actually works, from memory to PHP internals to a real exploit.",
     "url": "https://www.reddit.com/r/netsec/comments/1xqlw37/i_spent_countless_nights_digging_into_php2shell/",
     "date": "2026-11-08T01:00:49+00:00",
@@ -652,13 +659,6 @@
     "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
     "url": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
     "date": "2026-11-08T16:58:09+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "A Boolean PII Flag Is Not Enough",
-    "url": "https://www.reddit.com/r/netsec/comments/1xrht5t/a_boolean_pii_flag_is_not_enough/",
-    "date": "2026-11-09T04:00:51+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 4,
   "kev": 1769,
   "adv": 12,
   "feed": 48
