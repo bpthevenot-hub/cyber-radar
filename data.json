@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T14:23:05.249Z",
+ "generatedAt": "2026-11-09T15:22:35.176Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "OSV-2024-1203 — Global-buffer-overflow in AnnouncePunctuation",
+    "url": "https://github.com/advisories/OSV-2024-1203",
+    "score": null,
+    "date": "2024-10-11T00:02:53.598773Z"
+   },
+   {
+    "title": "OSV-2023-606 — Heap-buffer-overflow in ZSTD_decompressMultiFrame",
+    "url": "https://github.com/advisories/OSV-2023-606",
+    "score": null,
+    "date": "2023-07-23T14:01:02.159160Z"
    }
   ],
   "kev": [
@@ -217,6 +229,13 @@
   ],
   "thn": [
    {
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "date": "Mon, 09 Nov 2026 20:01:29 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
     "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
     "date": "Mon, 09 Nov 2026 18:58:25 +0530",
@@ -292,16 +311,23 @@
     "date": "Fri, 06 Nov 2026 20:51:49 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-    "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-    "date": "Fri, 06 Nov 2026 20:28:32 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+    "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+    "date": "Mon, 09 Nov 2026 10:05:15 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+    "date": "Mon, 09 Nov 2026 09:34:03 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
     "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
@@ -371,33 +397,19 @@
     "date": "Fri, 06 Nov 2026 12:04:23 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-    "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-    "date": "Fri, 06 Nov 2026 10:25:31 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-    "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-    "date": "Fri, 06 Nov 2026 10:00:10 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2955,
+    "stars": 2958,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1983,
+    "stars": 1985,
     "lang": "Python"
    },
    {
@@ -409,7 +421,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 834,
+    "stars": 835,
     "lang": "TypeScript"
    },
    {
@@ -425,16 +437,16 @@
     "lang": "Go"
    },
    {
-    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
-    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 560,
-    "lang": "—"
-   },
-   {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 559,
+    "stars": 570,
     "lang": "Java"
+   },
+   {
+    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "stars": 562,
+    "lang": "—"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
@@ -563,6 +575,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Certificate authority list: every CA's incident record since 2017",
+    "url": "https://www.reddit.com/r/netsec/comments/1xrsyyg/certificate_authority_list_every_cas_incident/",
+    "date": "2026-11-09T14:24:35+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Tricking Deepseek Into Not Hacking Your Website",
     "url": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
     "date": "2026-11-08T16:57:11+00:00",
@@ -573,6 +592,13 @@
     "title": "A Boolean PII Flag Is Not Enough",
     "url": "https://www.reddit.com/r/netsec/comments/1xrht5t/a_boolean_pii_flag_is_not_enough/",
     "date": "2026-11-09T04:00:51+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Behavioral LOLBins detection engine with sequential correlation, PE masquerading checks, and Sysmon integration",
+    "url": "https://www.reddit.com/r/netsec/comments/1xrnxsn/behavioral_lolbins_detection_engine_with/",
+    "date": "2026-11-09T10:08:29+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -615,20 +641,6 @@
     "title": "Reproducing the GhostMap APK crash loop on Android 16/17, plus an offline check for the ZIP parser mismatch",
     "url": "https://www.reddit.com/r/netsec/comments/1xq1jwj/reproducing_the_ghostmap_apk_crash_loop_on/",
     "date": "2026-11-07T08:34:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "The Exploit Was the Bottleneck",
-    "url": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
-    "date": "2026-11-07T09:38:30+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
-    "url": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
-    "date": "2026-11-06T10:34:37+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
