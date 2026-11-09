@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-09T21:22:08.857Z",
+ "generatedAt": "2026-11-09T22:22:23.000Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-123807 — Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123807",
-    "score": 9.8,
-    "date": "2026-10-30T22:57:22Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
-    "score": 8.8,
-    "date": "2026-11-09T20:35:24+00:00"
+    "title": "CVE-2026-43637 — Cornac: Path Traversal via _extract_archive() in download.py",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43637",
+    "score": 9.1,
+    "date": "2026-07-15T15:33:06Z"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95612",
+    "title": "CVE-2026-102340 — Telepresence: Traffic Manager gRPC has no auth — any pod claims arbitrary namespace and intercepts services, receiving victim environment se",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102340",
+    "score": 8.5,
+    "date": "2026-11-09T21:59:49Z"
+   },
+   {
+    "title": "CVE-2026-102339 — Telepresence: Tunnel endpoint accepts caller-supplied session ID with no ownership proof — active client sessions hijackable",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102339",
     "score": 8.2,
-    "date": "2026-11-09T20:35:24+00:00"
+    "date": "2026-11-09T21:58:00Z"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
-    "score": 8.2,
-    "date": "2026-11-09T20:35:23+00:00"
-   },
-   {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: git-lfs security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95234",
-    "score": 8.2,
-    "date": "2026-11-09T20:35:22+00:00"
-   },
-   {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+32 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95081",
-    "score": 8.2,
-    "date": "2026-11-09T20:35:19+00:00"
-   },
-   {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CPU) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94702",
-    "score": 8.2,
-    "date": "2026-11-09T20:35:19+00:00"
-   },
-   {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference 3.5.3 (CUDA) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94738",
-    "score": 8.2,
-    "date": "2026-11-09T20:35:18+00:00"
-   },
-   {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: Red Hat AI Inference Tech Preview 3.5.3 (Gaudi) (+59 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94721",
-    "score": 8.2,
-    "date": "2026-11-09T20:35:17+00:00"
-   },
-   {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Release of containers for RHOSO 18.0.22 (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95576",
+    "title": "CVE-2026-75598 — Gradle Shadow: Zip Slip path traversal in ShadowCopyAction — no independent entry-name sanitization",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75598",
     "score": 8.1,
-    "date": "2026-11-09T20:35:28+00:00"
+    "date": "2026-11-09T21:48:13Z"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: LVMS 4.20 Bug Fix and Enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95437",
-    "score": 8.1,
-    "date": "2026-11-09T20:35:22+00:00"
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: nodejs:24 security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96226",
+    "score": 7.8,
+    "date": "2026-11-09T21:35:32+00:00"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat build of Cryostat security update (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95360",
-    "score": 8.1,
-    "date": "2026-11-09T20:35:22+00:00"
+    "title": "CVE-2026-102657 — esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102657",
+    "score": 7.5,
+    "date": "2026-11-09T22:03:29Z"
+   },
+   {
+    "title": "CVE-2026-102289 — zizmor: Debug logging prints available GitHub credentials in cleartext",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102289",
+    "score": 7.5,
+    "date": "2026-11-09T21:56:25Z"
+   },
+   {
+    "title": "CVE-2026-125112 — djust: A template binding inherits a context safety grant it never earned (XSS)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125112",
+    "score": 7.5,
+    "date": "2026-09-17T20:31:48Z"
+   },
+   {
+    "title": "CVE-2026-102610 — fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102610",
+    "score": 6.4,
+    "date": "2026-11-09T22:01:34Z"
+   },
+   {
+    "title": "CVE-2026-103022 — Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103022",
+    "score": 5.3,
+    "date": "2026-11-09T22:05:06Z"
+   },
+   {
+    "title": "CVE-2026-86041 — ezBookkeeping: Source-IP allowlist (MCP & API token) is bypassable via a spoofed `X-Forwarded-For` header",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86041",
+    "score": 5,
+    "date": "2026-11-09T21:51:28Z"
+   },
+   {
+    "title": "CVE-2026-63183 — OmniAuth: Host Header Injection Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63183",
+    "score": 5,
+    "date": "2026-11-09T21:49:04Z"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read",
-    "url": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
-    "score": 7.5,
-    "ghsa": "GHSA-vvr2-h2jp-838m",
-    "date": "2026-11-09T21:21:32Z"
-   },
-   {
-    "title": "Remark42: Rate limit bypass via unconditional trust of X-Forwarded-For/X-Real-IP headers in direct-internet deployment",
-    "url": "https://github.com/advisories/GHSA-56x6-q882-mf27",
-    "score": 6.5,
-    "ghsa": "GHSA-56x6-q882-mf27",
-    "date": "2026-11-09T21:18:29Z"
-   },
-   {
-    "title": "Pocket ID: The client credentials grant allows any OIDC client to obtain tokens for arbitrary audiences",
-    "url": "https://github.com/advisories/GHSA-q4xm-p75h-h9p3",
-    "score": 7.7,
-    "ghsa": "GHSA-q4xm-p75h-h9p3",
-    "date": "2026-11-09T21:17:04Z"
-   },
-   {
-    "title": "tsParticles: A single anonymous MCP session can monopolize HTTP mode and deny new clients",
-    "url": "https://github.com/advisories/GHSA-h7c4-q426-7jh9",
-    "score": null,
-    "ghsa": "GHSA-h7c4-q426-7jh9",
-    "date": "2026-11-09T21:14:51Z"
-   },
-   {
-    "title": "tsParticles: Malformed JSON requests can terminate the @tsparticles/mcp-server HTTP process",
-    "url": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
-    "score": 7.5,
-    "ghsa": "GHSA-4p8p-pjpq-2w7h",
-    "date": "2026-11-09T21:13:55Z"
-   },
-   {
-    "title": "JSON-java: JSONTokener Has Unbounded Numeric String Resource-Exhaustion DoS",
-    "url": "https://github.com/advisories/GHSA-ghc9-756g-vrcv",
+    "title": "FileGator: Missing authorization in POST /upload allows cross-user read and deletion of temporary files",
+    "url": "https://github.com/advisories/GHSA-44r8-3p76-84mw",
     "score": 5.9,
-    "ghsa": "GHSA-ghc9-756g-vrcv",
-    "date": "2026-11-09T21:12:46Z"
+    "ghsa": "GHSA-44r8-3p76-84mw",
+    "date": "2026-11-09T22:20:08Z"
    },
    {
-    "title": "tsParticles: Unbounded HTTP Request Body Buffering in @tsparticles/mcp-server Leads to Remote DoS",
-    "url": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
-    "score": 7.5,
-    "ghsa": "GHSA-447x-qqwf-m7xq",
-    "date": "2026-11-09T21:10:46Z"
+    "title": "FileGator: Missing authorization in GET /batchdownload allows cross-user retrieval of another user's archive",
+    "url": "https://github.com/advisories/GHSA-f74m-x83r-c4v4",
+    "score": 5.4,
+    "ghsa": "GHSA-f74m-x83r-c4v4",
+    "date": "2026-11-09T22:17:36Z"
    },
    {
-    "title": "ag-psd: Uncontrolled Memory Allocation in PSD Layer Decoding (totalMemoryLimit bypass)",
-    "url": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
-    "score": 7.5,
-    "ghsa": "GHSA-6w3r-6hpr-hp6p",
-    "date": "2026-11-09T21:08:28Z"
+    "title": "Code Graph RAG structural tools follow out-of-root symlinks",
+    "url": "https://github.com/advisories/GHSA-85gg-2gfq-q95m",
+    "score": 7.1,
+    "ghsa": "GHSA-85gg-2gfq-q95m",
+    "date": "2026-11-09T22:16:41Z"
    },
    {
-    "title": "zt-zip: ZipUtil.unpack can change file permissions of output directory",
-    "url": "https://github.com/advisories/GHSA-v2g6-7r9j-v6px",
-    "score": null,
-    "ghsa": "GHSA-v2g6-7r9j-v6px",
-    "date": "2026-11-09T21:03:31Z"
+    "title": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+    "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
+    "score": 9.8,
+    "ghsa": "GHSA-gj9m-f8ph-pmhr",
+    "date": "2026-11-09T22:15:27Z"
    },
    {
-    "title": "traQ: Privilege escalation by OAuth prompt=none request",
-    "url": "https://github.com/advisories/GHSA-8cfq-jgf7-8m27",
-    "score": 7.3,
-    "ghsa": "GHSA-8cfq-jgf7-8m27",
-    "date": "2026-11-09T20:55:17Z"
+    "title": "Pocket ID: Email verification token remains valid after address change, enabling arbitrary verified-email spoofing",
+    "url": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6",
+    "score": 9.6,
+    "ghsa": "GHSA-rm8c-2cv8-jwf6",
+    "date": "2026-11-09T22:12:21Z"
    },
    {
-    "title": "traQ: XSS in the User Uploaded File Retrieval API",
-    "url": "https://github.com/advisories/GHSA-p74g-f95m-7fx7",
-    "score": 7.3,
-    "ghsa": "GHSA-p74g-f95m-7fx7",
-    "date": "2026-11-09T20:52:49Z"
-   },
-   {
-    "title": "isomorphic-git: Path traversal via a \"..\" tree-entry name writes files outside the working directory on clone/checkout",
-    "url": "https://github.com/advisories/GHSA-cw2g-2vwq-88w6",
+    "title": "Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
+    "url": "https://github.com/advisories/GHSA-cp25-j9x5-p5xm",
     "score": 5.3,
-    "ghsa": "GHSA-cw2g-2vwq-88w6",
-    "date": "2026-11-09T20:13:52Z"
+    "ghsa": "GHSA-cp25-j9x5-p5xm",
+    "date": "2026-11-09T22:05:06Z"
+   },
+   {
+    "title": "esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal",
+    "url": "https://github.com/advisories/GHSA-g3c2-rjq2-c763",
+    "score": 7.5,
+    "ghsa": "GHSA-g3c2-rjq2-c763",
+    "date": "2026-11-09T22:03:29Z"
+   },
+   {
+    "title": "fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command execution",
+    "url": "https://github.com/advisories/GHSA-9vhv-g5hf-m7m7",
+    "score": 6.4,
+    "ghsa": "GHSA-9vhv-g5hf-m7m7",
+    "date": "2026-11-09T22:01:34Z"
+   },
+   {
+    "title": "Telepresence: Traffic Manager gRPC has no auth — any pod claims arbitrary namespace and intercepts services, receiving victim environment secrets",
+    "url": "https://github.com/advisories/GHSA-j8j4-rw65-56r6",
+    "score": 8.5,
+    "ghsa": "GHSA-j8j4-rw65-56r6",
+    "date": "2026-11-09T21:59:49Z"
+   },
+   {
+    "title": "Telepresence: Tunnel endpoint accepts caller-supplied session ID with no ownership proof — active client sessions hijackable",
+    "url": "https://github.com/advisories/GHSA-6j3h-rp73-6rvf",
+    "score": 8.2,
+    "ghsa": "GHSA-6j3h-rp73-6rvf",
+    "date": "2026-11-09T21:58:00Z"
+   },
+   {
+    "title": "zizmor: Debug logging prints available GitHub credentials in cleartext",
+    "url": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
+    "score": 7.5,
+    "ghsa": "GHSA-f42p-wjw5-97qh",
+    "date": "2026-11-09T21:56:25Z"
+   },
+   {
+    "title": "ezBookkeeping: Source-IP allowlist (MCP & API token) is bypassable via a spoofed `X-Forwarded-For` header",
+    "url": "https://github.com/advisories/GHSA-wchh-mrv2-5h4q",
+    "score": null,
+    "ghsa": "GHSA-wchh-mrv2-5h4q",
+    "date": "2026-11-09T21:51:28Z"
    }
   ],
   "thn": [
@@ -375,6 +375,27 @@
   ],
   "bleep": [
    {
+    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+    "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+    "date": "Mon, 09 Nov 2026 17:09:33 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+    "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+    "date": "Mon, 09 Nov 2026 16:26:25 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "York University breach exposed personal information dating to 2007",
+    "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+    "date": "Mon, 09 Nov 2026 16:22:31 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
     "date": "Mon, 09 Nov 2026 13:32:42 -0500",
@@ -436,40 +457,19 @@
     "date": "Sun, 08 Nov 2026 10:43:08 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers pull off $133 million French bank heist via service provider",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-    "date": "Sat, 07 Nov 2026 10:25:35 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-    "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-    "date": "Sat, 07 Nov 2026 09:10:19 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-    "date": "Fri, 06 Nov 2026 19:00:55 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2974,
+    "stars": 2976,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1991,
+    "stars": 1992,
     "lang": "Python"
    },
    {
@@ -493,13 +493,13 @@
    {
     "title": "solongate/agent-security — Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, an",
     "url": "https://github.com/solongate/agent-security",
-    "stars": 614,
+    "stars": 615,
     "lang": "Go"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 593,
+    "stars": 595,
     "lang": "Java"
    },
    {
@@ -511,13 +511,13 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 506,
+    "stars": 508,
     "lang": "Rust"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 433,
+    "stars": 434,
     "lang": "C"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 402,
+    "stars": 404,
     "lang": "—"
    }
   ],
