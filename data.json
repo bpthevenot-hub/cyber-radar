@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T15:22:35.176Z",
+ "generatedAt": "2026-11-09T16:23:26.005Z",
  "sources": {
   "cve": [
    {
@@ -15,16 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "OSV-2024-1203 — Global-buffer-overflow in AnnouncePunctuation",
-    "url": "https://github.com/advisories/OSV-2024-1203",
-    "score": null,
-    "date": "2024-10-11T00:02:53.598773Z"
+    "title": "CVE-2026-16283 — Improper neutralization of special elements used in an OS command ('OS command injection') vulnerability in Osbil Technology Ltd.Osbil Techn",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-16283",
+    "score": 8.8,
+    "date": "2026-11-09T15:32:10Z"
    },
    {
-    "title": "OSV-2023-606 — Heap-buffer-overflow in ZSTD_decompressMultiFrame",
-    "url": "https://github.com/advisories/OSV-2023-606",
+    "title": "CVE-2026-121843 — Privilege escalation in Firefox for iOS. This vulnerability was fixed in Firefox for iOS 160.0.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121843",
+    "score": 8.8,
+    "date": "2026-11-09T15:32:10Z"
+   },
+   {
+    "title": "CVE-2026-95778 — A remote code execution vulnerability exists in HPE Morpheus Software.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-95778",
+    "score": 8.8,
+    "date": "2026-11-09T15:32:10Z"
+   },
+   {
+    "title": "CVE-2026-119474 — Incorrect Permission Assignment for Critical Resource vulnerability in HAVELSAN Inc. Liman Render Engine allows Privilege Escalation. This i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119474",
+    "score": 7.8,
+    "date": "2026-11-09T15:32:10Z"
+   },
+   {
+    "title": "CVE-2026-104620 — A path traversal attack in simulation of actions in the Zypp backend of PackageKit before 1.4.1 could be used by local attackers to gain roo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-104620",
+    "score": 7.5,
+    "date": "2026-11-09T15:32:11Z"
+   },
+   {
+    "title": "CVE-2026-124850 — A SQL injection vulnerability exists in a database migration script in flowintel. The migration process reads stored connector identifier va",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124850",
+    "score": 7.5,
+    "date": "2026-11-09T15:32:11Z"
+   },
+   {
+    "title": "CVE-2026-124625 — A security vulnerability has been detected in PipraPay 3.0.0. Affected by this issue is the function deleteData of the file pp-content/pp-in",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124625",
+    "score": 6.3,
+    "date": "2026-11-09T15:32:10Z"
+   },
+   {
+    "title": "CVE-2026-124249 — http.cookiejar.CookieJar deleted a stored cookie when a response carried an already expired Set-Cookie header for it, using the Domain and P",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124249",
+    "score": 5,
+    "date": "2026-11-09T15:32:10Z"
+   },
+   {
+    "title": "CVE-2026-124635 — A vulnerability was identified in kevquirk PureBlog up to 3.7.2. Impacted is an unknown function of the file admin/upload-image.php of the c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124635",
+    "score": 4.7,
+    "date": "2026-11-09T15:32:10Z"
+   },
+   {
+    "title": "CVE-2026-124636 — A security flaw has been discovered in kevquirk PureBlog up to 3.7.2. The affected element is the function save_page of the file includes/li",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124636",
+    "score": 3.8,
+    "date": "2026-11-09T15:32:11Z"
+   },
+   {
+    "title": "CVE-2026-19552 — When ca_certs parameter was supplied to ssl.get_server_certificate() function, the identity of the certificate is not checked.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19552",
+    "score": 2,
+    "date": "2026-11-09T15:32:11Z"
+   },
+   {
+    "title": "CVE-2026-124959 — The loadIndex function in nmslib hnswlib and Spotify Voyager does not verify that the element count in a serialized HNSW index is within the",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124959",
     "score": null,
-    "date": "2023-07-23T14:01:02.159160Z"
+    "date": "2026-11-09T15:32:11Z"
    }
   ],
   "kev": [
@@ -315,6 +375,20 @@
   ],
   "bleep": [
    {
+    "title": "Binance denies data breach after alleged ShinyHunters claims",
+    "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+    "date": "Mon, 09 Nov 2026 11:12:39 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+    "date": "Mon, 09 Nov 2026 11:04:57 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
     "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
     "date": "Mon, 09 Nov 2026 10:05:15 -0500",
@@ -383,27 +457,13 @@
     "date": "Fri, 06 Nov 2026 15:24:19 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Fake security tools on GitHub push backdoors and infostealers",
-    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-    "date": "Fri, 06 Nov 2026 13:46:52 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-    "date": "Fri, 06 Nov 2026 12:04:23 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2958,
+    "stars": 2960,
     "lang": "Go"
    },
    {
@@ -415,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1062,
+    "stars": 1063,
     "lang": "TypeScript"
    },
    {
@@ -433,20 +493,14 @@
    {
     "title": "solongate/agent-security — Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, an",
     "url": "https://github.com/solongate/agent-security",
-    "stars": 613,
+    "stars": 614,
     "lang": "Go"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 570,
+    "stars": 579,
     "lang": "Java"
-   },
-   {
-    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
-    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 562,
-    "lang": "—"
    },
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
@@ -459,6 +513,12 @@
     "url": "https://github.com/strands-agents/box",
     "stars": 504,
     "lang": "Rust"
+   },
+   {
+    "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
+    "url": "https://github.com/Alejandros17487/ai-jailbreaks",
+    "stars": 482,
+    "lang": "—"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
@@ -589,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Lessons from 126 AWS Breach Investigations with Claude Code, Codex and Cursor",
+    "url": "https://www.reddit.com/r/netsec/comments/1xrvbed/lessons_from_126_aws_breach_investigations_with/",
+    "date": "2026-11-09T15:55:17+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "A Boolean PII Flag Is Not Enough",
     "url": "https://www.reddit.com/r/netsec/comments/1xrht5t/a_boolean_pii_flag_is_not_enough/",
     "date": "2026-11-09T04:00:51+00:00",
@@ -634,13 +701,6 @@
     "title": "unlocking any car from X brand in most of the world",
     "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
     "date": "2026-11-07T11:10:50+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Reproducing the GhostMap APK crash loop on Android 16/17, plus an offline check for the ZIP parser mismatch",
-    "url": "https://www.reddit.com/r/netsec/comments/1xq1jwj/reproducing_the_ghostmap_apk_crash_loop_on/",
-    "date": "2026-11-07T08:34:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
