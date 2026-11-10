@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T09:23:22.149Z",
+ "generatedAt": "2026-11-10T10:22:47.583Z",
  "sources": {
   "cve": [
    {
@@ -19,6 +19,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-60043 — An unauthenticated remote attacker can perform a XSS attack on a logged in backend user allowing for execution of multiple critical system a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60043",
+    "score": 9.3,
+    "date": "2026-11-10T09:31:06Z"
    },
    {
     "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.6 (CUDA 12.9) (+21 CVE)",
@@ -45,46 +51,40 @@
     "date": "2026-11-10T08:58:11+00:00"
    },
    {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (Neuron) (+49 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91249",
-    "score": 9.1,
-    "date": "2026-11-10T08:58:03+00:00"
+    "title": "CVE-2026-120513 — The Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder with AI plugin for WordPress is vulnerable to file deleti",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-120513",
+    "score": 8.2,
+    "date": "2026-11-10T09:31:05Z"
    },
    {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.6 (Neuron) (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91248",
-    "score": 9.1,
-    "date": "2026-11-10T08:57:53+00:00"
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
+    "score": 8.2,
+    "date": "2026-11-10T08:58:14+00:00"
    },
    {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (ROCm 7.14) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91246",
-    "score": 9.1,
-    "date": "2026-11-10T08:57:52+00:00"
+    "title": "CVE-2026-6368 — Red Hat Security Advisory: Cost Management Metrics Operator Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95264",
+    "score": 8.2,
+    "date": "2026-11-10T08:58:14+00:00"
    },
    {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.6 (Spyre) (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91245",
-    "score": 9.1,
-    "date": "2026-11-10T08:57:52+00:00"
+    "title": "CVE-2026-60041 — An unauthenticated remote attacker can perform a CSRF attack on a logged in backend user allowing for execution of multiple critical system ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60041",
+    "score": 8.1,
+    "date": "2026-11-10T09:31:05Z"
    },
    {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.6 (ROCm 6.4) (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91244",
-    "score": 9.1,
-    "date": "2026-11-10T08:57:51+00:00"
+    "title": "CVE-2026-76877 — The WPML Multilingual CMS plugin for WordPress is vulnerable to Authentication Bypass via Race Condition in versions up to, and including, 4",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-76877",
+    "score": 8.1,
+    "date": "2026-11-10T09:31:04Z"
    },
    {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.7 (TPU) (+19 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91243",
-    "score": 9.1,
-    "date": "2026-11-10T08:57:51+00:00"
-   },
-   {
-    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (Spyre) (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:91242",
-    "score": 9.1,
-    "date": "2026-11-10T08:57:48+00:00"
+    "title": "CVE-2026-60046 — An unauthenticated remote attacker can perform password resets for any user with known username and email without rate limiting. This can re",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-60046",
+    "score": 7.5,
+    "date": "2026-11-10T09:31:05Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+    "date": "Tue, 10 Nov 2026 15:32:40 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
     "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
     "date": "Tue, 10 Nov 2026 14:38:20 +0530",
@@ -364,16 +371,23 @@
     "date": "Mon, 09 Nov 2026 16:26:25 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-    "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-    "date": "Mon, 09 Nov 2026 15:31:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+    "date": "Tue, 10 Nov 2026 05:10:20 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+    "date": "Tue, 10 Nov 2026 05:04:32 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
     "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
@@ -443,27 +457,13 @@
     "date": "Mon, 09 Nov 2026 11:04:57 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
-    "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-    "date": "Mon, 09 Nov 2026 10:05:15 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-    "date": "Mon, 09 Nov 2026 09:34:03 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3001,
+    "stars": 3006,
     "lang": "Go"
    },
    {
@@ -481,13 +481,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 855,
+    "stars": 856,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 630,
+    "stars": 631,
     "lang": "Java"
    },
    {
@@ -499,13 +499,13 @@
    {
     "title": "solongate/agent-security — Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, an",
     "url": "https://github.com/solongate/agent-security",
-    "stars": 615,
+    "stars": 616,
     "lang": "Go"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 513,
+    "stars": 514,
     "lang": "Rust"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 428,
+    "stars": 429,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 8,
   "kev": 1773,
   "adv": 12,
   "feed": 48
