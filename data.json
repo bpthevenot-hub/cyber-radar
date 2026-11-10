@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T07:22:21.927Z",
+ "generatedAt": "2026-11-10T08:25:08.324Z",
  "sources": {
   "cve": [
    {
@@ -39,18 +39,6 @@
     "date": "2026-11-10T06:39:52+00:00"
    },
    {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
-    "score": 8.8,
-    "date": "2026-11-10T06:39:44+00:00"
-   },
-   {
-    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
-    "score": 8.8,
-    "date": "2026-11-10T06:39:43+00:00"
-   },
-   {
     "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
     "url": "https://access.redhat.com/errata/RHSA-2026:62851",
     "score": 8.6,
@@ -85,6 +73,18 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:94498",
     "score": 8.2,
     "date": "2026-11-10T06:39:48+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: skopeo security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:64818",
+    "score": 8.1,
+    "date": "2026-11-10T06:43:28+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: osbuild-composer security update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62803",
+    "score": 8.1,
+    "date": "2026-11-10T06:43:27+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Fireworks AI discloses new breach after cloud provider hack",
+    "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+    "date": "Tue, 10 Nov 2026 02:49:58 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
     "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
     "date": "Mon, 09 Nov 2026 18:52:12 -0500",
@@ -450,38 +457,31 @@
     "date": "Mon, 09 Nov 2026 08:28:56 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-    "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-    "date": "Mon, 09 Nov 2026 07:16:13 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2996,
+    "stars": 2999,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2007,
+    "stars": 2009,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1067,
+    "stars": 1068,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 853,
+    "stars": 855,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 512,
+    "stars": 513,
     "lang": "Rust"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 439,
+    "stars": 440,
     "lang": "C"
    },
    {
