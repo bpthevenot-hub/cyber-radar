@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T06:30:23.123Z",
+ "generatedAt": "2026-11-10T07:22:21.927Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: buildah security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:63332",
+    "score": 8.8,
+    "date": "2026-11-10T06:43:26+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
+    "score": 8.8,
+    "date": "2026-11-10T06:43:21+00:00"
+   },
+   {
+    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
+    "score": 8.8,
+    "date": "2026-11-10T06:43:21+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
+    "score": 8.8,
+    "date": "2026-11-10T06:39:52+00:00"
+   },
+   {
+    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
+    "score": 8.8,
+    "date": "2026-11-10T06:39:44+00:00"
+   },
+   {
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
+    "score": 8.8,
+    "date": "2026-11-10T06:39:43+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
+    "score": 8.6,
+    "date": "2026-11-10T06:43:23+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: git-lfs security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95234",
+    "score": 8.2,
+    "date": "2026-11-10T06:39:54+00:00"
+   },
+   {
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95612",
+    "score": 8.2,
+    "date": "2026-11-10T06:39:52+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
+    "score": 8.2,
+    "date": "2026-11-10T06:39:51+00:00"
+   },
+   {
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+32 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95081",
+    "score": 8.2,
+    "date": "2026-11-10T06:39:48+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection - 1.4.12 (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94498",
+    "score": 8.2,
+    "date": "2026-11-10T06:39:48+00:00"
    }
   ],
   "kev": [
@@ -217,6 +289,27 @@
   ],
   "thn": [
    {
+    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "date": "Tue, 10 Nov 2026 12:22:54 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+    "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+    "date": "Tue, 10 Nov 2026 12:14:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+    "date": "Tue, 10 Nov 2026 12:01:42 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
     "date": "Mon, 09 Nov 2026 23:21:21 +0530",
@@ -276,27 +369,6 @@
     "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
     "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
     "date": "Mon, 09 Nov 2026 12:35:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-    "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-    "date": "Mon, 09 Nov 2026 11:45:10 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-    "date": "Mon, 09 Nov 2026 11:35:24 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-    "date": "Sat, 07 Nov 2026 12:14:17 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -403,19 +475,19 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1066,
+    "stars": 1067,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 851,
+    "stars": 853,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 628,
+    "stars": 630,
     "lang": "Java"
    },
    {
@@ -457,7 +529,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 405,
+    "stars": 406,
     "lang": "—"
    }
   ],
