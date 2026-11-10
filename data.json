@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T20:22:32.722Z",
+ "generatedAt": "2026-11-10T21:21:52.365Z",
  "sources": {
   "cve": [
    {
@@ -131,88 +131,88 @@
   ],
   "adv": [
    {
-    "title": "Mongoose: Connection-level sanitizeFilter not applied",
-    "url": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c",
-    "score": 7.5,
-    "ghsa": "GHSA-gg4r-jv3p-qx3c",
-    "date": "2026-11-10T19:56:12Z"
+    "title": "Action Pack: Possible IP spoofing in Action Dispatch RemoteIp",
+    "url": "https://github.com/advisories/GHSA-2gff-2mmg-m73p",
+    "score": 7.4,
+    "ghsa": "GHSA-2gff-2mmg-m73p",
+    "date": "2026-11-10T21:20:06Z"
    },
    {
-    "title": "Mongoose: sanitizeFilter not applied on countDocuments",
-    "url": "https://github.com/advisories/GHSA-pcrw-h46h-c93h",
-    "score": 9.8,
-    "ghsa": "GHSA-pcrw-h46h-c93h",
-    "date": "2026-11-10T19:37:32Z"
+    "title": "Action Pack: Possible restoration of destroyed sessions in Action Dispatch CacheStore",
+    "url": "https://github.com/advisories/GHSA-2586-8ghr-69fj",
+    "score": 4.2,
+    "ghsa": "GHSA-2586-8ghr-69fj",
+    "date": "2026-11-10T21:19:09Z"
    },
    {
-    "title": "Rack: Multipart parsing allows DoS via unbounded scan buffer growth",
-    "url": "https://github.com/advisories/GHSA-5v64-555j-wjxm",
-    "score": 7.5,
-    "ghsa": "GHSA-5v64-555j-wjxm",
-    "date": "2026-11-10T19:35:49Z"
-   },
-   {
-    "title": "Rack: Multipart boundary ambiguity guard in Rack::Multipart::Parser can be bypassed with a quoted boundary value, allowing WAF bypass",
-    "url": "https://github.com/advisories/GHSA-p8x9-v4hv-2w4g",
+    "title": "Forge: Ed25519 signature verification accepts small-order public keys",
+    "url": "https://github.com/advisories/GHSA-6889-vf6x-f3g5",
     "score": 3.7,
-    "ghsa": "GHSA-p8x9-v4hv-2w4g",
-    "date": "2026-11-10T19:26:28Z"
+    "ghsa": "GHSA-6889-vf6x-f3g5",
+    "date": "2026-11-10T21:18:23Z"
    },
    {
-    "title": "NocoBase: @nocobase/plugin-action-custom-request allows server-side request forgery through runtime URL overrides",
-    "url": "https://github.com/advisories/GHSA-wrr5-j383-f7h2",
-    "score": 4.3,
-    "ghsa": "GHSA-wrr5-j383-f7h2",
-    "date": "2026-11-10T19:20:14Z"
-   },
-   {
-    "title": "Rack: Rack::Request#host_with_port (and #base_url / #url) return the raw invalid Host header — incomplete fix of CVE-2026-34835",
-    "url": "https://github.com/advisories/GHSA-2j8w-xcrc-x985",
-    "score": 4.8,
-    "ghsa": "GHSA-2j8w-xcrc-x985",
-    "date": "2026-11-10T19:11:28Z"
-   },
-   {
-    "title": "Rack: Rack::Static header_rules bypass via dot-segment normalization mismatch",
-    "url": "https://github.com/advisories/GHSA-wvg4-6p58-3gh3",
-    "score": 5.3,
-    "ghsa": "GHSA-wvg4-6p58-3gh3",
-    "date": "2026-11-10T18:50:07Z"
-   },
-   {
-    "title": "compose-lint: Text in a pull request can still issue CI workflow commands through compose-lint 0.31.0's output",
-    "url": "https://github.com/advisories/GHSA-r7j4-crjv-h467",
-    "score": null,
-    "ghsa": "GHSA-r7j4-crjv-h467",
-    "date": "2026-11-10T18:28:35Z"
-   },
-   {
-    "title": "OHIF Viewers: DOM-Based Cross Site Scripting (XSS) through MIME type of document",
-    "url": "https://github.com/advisories/GHSA-xwgp-w3pj-q5h3",
-    "score": 8.8,
-    "ghsa": "GHSA-xwgp-w3pj-q5h3",
-    "date": "2026-11-10T15:57:51Z"
-   },
-   {
-    "title": "Forge: Certificate signature verified with the issuer's RSA signature scheme",
-    "url": "https://github.com/advisories/GHSA-9wg5-mj3p-v49q",
-    "score": 3.7,
-    "ghsa": "GHSA-9wg5-mj3p-v49q",
-    "date": "2026-11-10T15:57:48Z"
-   },
-   {
-    "title": "Forge: Incomplete PKCS#7 padding validation in AES/DES CBC and ECB decryption",
-    "url": "https://github.com/advisories/GHSA-2vgq-wchc-25w7",
-    "score": 3.7,
-    "ghsa": "GHSA-2vgq-wchc-25w7",
-    "date": "2026-11-10T15:57:46Z"
-   },
-   {
-    "title": "Forge: X.509 pathLenConstraint not enforced by verifyCertificateChain() for CA certificates without keyUsage",
-    "url": "https://github.com/advisories/GHSA-h46v-rmh6-fq4f",
+    "title": "Forge: TLS client crash on an unsupported ServerHello compression method",
+    "url": "https://github.com/advisories/GHSA-w4xr-hqv8-ch44",
     "score": 5.9,
-    "ghsa": "GHSA-h46v-rmh6-fq4f",
-    "date": "2026-11-10T15:57:43Z"
+    "ghsa": "GHSA-w4xr-hqv8-ch44",
+    "date": "2026-11-10T21:17:14Z"
+   },
+   {
+    "title": "Forge: ReDoS in forge.http response header and cookie trimming",
+    "url": "https://github.com/advisories/GHSA-6cv4-p8m7-4r25",
+    "score": 5.9,
+    "ghsa": "GHSA-6cv4-p8m7-4r25",
+    "date": "2026-11-10T21:16:22Z"
+   },
+   {
+    "title": "Forge: TLS client crash on a handshake record received without a session",
+    "url": "https://github.com/advisories/GHSA-j8rw-jp99-435v",
+    "score": 5.9,
+    "ghsa": "GHSA-j8rw-jp99-435v",
+    "date": "2026-11-10T21:14:26Z"
+   },
+   {
+    "title": "fast-xml-parser: Quadratic CPU consumption scanning unterminated stop-node tags",
+    "url": "https://github.com/advisories/GHSA-474x-hrwr-fgx4",
+    "score": 3.7,
+    "ghsa": "GHSA-474x-hrwr-fgx4",
+    "date": "2026-11-10T21:09:44Z"
+   },
+   {
+    "title": "Mongoose: Discriminator key values matching inherited properties (e.g. __t: 'constructor') bypass schema casting and can poison collections",
+    "url": "https://github.com/advisories/GHSA-wr5m-5jph-8m96",
+    "score": 4.8,
+    "ghsa": "GHSA-wr5m-5jph-8m96",
+    "date": "2026-11-10T20:57:18Z"
+   },
+   {
+    "title": "Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and share",
+    "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+    "score": 8.2,
+    "ghsa": "GHSA-8332-j7wj-wjw4",
+    "date": "2026-11-10T20:56:16Z"
+   },
+   {
+    "title": "JRuby: NONET is bypassed for external DTDs and entities when the systemId uses a short-form IPv4 host",
+    "url": "https://github.com/advisories/GHSA-v995-44v6-5fqm",
+    "score": 3.7,
+    "ghsa": "GHSA-v995-44v6-5fqm",
+    "date": "2026-11-10T20:52:38Z"
+   },
+   {
+    "title": "Nokogiri: Use-After-Free in Nokogiri when replacing an attribute value",
+    "url": "https://github.com/advisories/GHSA-3w22-6jfg-527w",
+    "score": 2,
+    "ghsa": "GHSA-3w22-6jfg-527w",
+    "date": "2026-11-10T20:51:19Z"
+   },
+   {
+    "title": "Nokogiri: Mutation XSS through `noscript` content in Nokogiri's HTML5 serializer",
+    "url": "https://github.com/advisories/GHSA-4p39-36wj-23h4",
+    "score": 2,
+    "ghsa": "GHSA-4p39-36wj-23h4",
+    "date": "2026-11-10T20:47:36Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+    "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+    "date": "Tue, 10 Nov 2026 15:54:55 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft releases Windows 10 KB5131096 extended security update",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
     "date": "Tue, 10 Nov 2026 15:04:36 -0500",
@@ -378,26 +385,19 @@
     "date": "Tue, 10 Nov 2026 03:51:25 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Fireworks AI discloses new breach after cloud provider hack",
-    "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-    "date": "Tue, 10 Nov 2026 02:49:58 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3034,
+    "stars": 3035,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2026,
+    "stars": 2027,
     "lang": "Python"
    },
    {
@@ -421,13 +421,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 655,
+    "stars": 657,
     "lang": "Java"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 620,
+    "stars": 621,
     "lang": "Kotlin"
    },
    {
@@ -451,7 +451,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 431,
+    "stars": 432,
     "lang": "—"
    },
    {
