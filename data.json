@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-11-10T19:22:00.739Z",
+ "generatedAt": "2026-11-10T20:22:32.722Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.17 security update (+40 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95656",
-    "score": 9.9,
-    "date": "2026-11-10T18:43:19+00:00"
-   },
-   {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.16 EUS security update (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95655",
-    "score": 9.9,
-    "date": "2026-11-10T18:43:18+00:00"
-   },
-   {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.18 security update (+38 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95657",
-    "score": 9.8,
-    "date": "2026-11-10T18:43:19+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -31,60 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-63374 — Red Hat Security Advisory: RHTAS 1.5.1 - Tech Preview Release Of the Sigstore A2A 0.0.2 (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95267",
-    "score": 9.1,
-    "date": "2026-11-10T18:43:15+00:00"
-   },
-   {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: satellite/foreman-mcp-server-rhel9 container image available as a Technology Preview (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92667",
-    "score": 9.1,
-    "date": "2026-11-10T18:43:08+00:00"
-   },
-   {
-    "title": "CVE-2026-59951 — Red Hat Security Advisory: satellite/foreman-mcp-server-rhel9 container image available as a Technology Preview (+14 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92666",
-    "score": 9.1,
-    "date": "2026-11-10T18:43:07+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.5.2 enhancement update (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92452",
-    "score": 9.1,
-    "date": "2026-11-10T18:43:06+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.5.2 enhancement update (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92449",
-    "score": 9.1,
-    "date": "2026-11-10T18:43:06+00:00"
-   },
-   {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
-    "score": 8.8,
-    "date": "2026-11-10T18:43:22+00:00"
-   },
-   {
-    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
-    "score": 8.8,
-    "date": "2026-11-10T18:43:09+00:00"
-   },
-   {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
-    "score": 8.8,
-    "date": "2026-11-10T18:43:06+00:00"
-   },
-   {
-    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
-    "score": 8.8,
-    "date": "2026-11-10T18:43:05+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,34 @@
   ],
   "adv": [
    {
+    "title": "Mongoose: Connection-level sanitizeFilter not applied",
+    "url": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c",
+    "score": 7.5,
+    "ghsa": "GHSA-gg4r-jv3p-qx3c",
+    "date": "2026-11-10T19:56:12Z"
+   },
+   {
+    "title": "Mongoose: sanitizeFilter not applied on countDocuments",
+    "url": "https://github.com/advisories/GHSA-pcrw-h46h-c93h",
+    "score": 9.8,
+    "ghsa": "GHSA-pcrw-h46h-c93h",
+    "date": "2026-11-10T19:37:32Z"
+   },
+   {
+    "title": "Rack: Multipart parsing allows DoS via unbounded scan buffer growth",
+    "url": "https://github.com/advisories/GHSA-5v64-555j-wjxm",
+    "score": 7.5,
+    "ghsa": "GHSA-5v64-555j-wjxm",
+    "date": "2026-11-10T19:35:49Z"
+   },
+   {
+    "title": "Rack: Multipart boundary ambiguity guard in Rack::Multipart::Parser can be bypassed with a quoted boundary value, allowing WAF bypass",
+    "url": "https://github.com/advisories/GHSA-p8x9-v4hv-2w4g",
+    "score": 3.7,
+    "ghsa": "GHSA-p8x9-v4hv-2w4g",
+    "date": "2026-11-10T19:26:28Z"
+   },
+   {
     "title": "NocoBase: @nocobase/plugin-action-custom-request allows server-side request forgery through runtime URL overrides",
     "url": "https://github.com/advisories/GHSA-wrr5-j383-f7h2",
     "score": 4.3,
@@ -257,37 +213,37 @@
     "score": 5.9,
     "ghsa": "GHSA-h46v-rmh6-fq4f",
     "date": "2026-11-10T15:57:43Z"
-   },
-   {
-    "title": "Forge: ASN.1 resource exhaustion via BIT STRING decoding in asn1.fromDer",
-    "url": "https://github.com/advisories/GHSA-rhr8-3pm8-cq29",
-    "score": 7.5,
-    "ghsa": "GHSA-rhr8-3pm8-cq29",
-    "date": "2026-11-10T15:57:41Z"
-   },
-   {
-    "title": "Forge: RSA PKCS#1 v1.5 signature forgery via non-canonical DigestInfo encoding",
-    "url": "https://github.com/advisories/GHSA-6qrw-m8cv-hcxf",
-    "score": 7.5,
-    "ghsa": "GHSA-6qrw-m8cv-hcxf",
-    "date": "2026-11-10T15:57:34Z"
-   },
-   {
-    "title": "Effect: Cookie attribute injection via domain, path, and name fields in @effect/platform makeCookie()",
-    "url": "https://github.com/advisories/GHSA-chp3-j5qr-2vfr",
-    "score": null,
-    "ghsa": "GHSA-chp3-j5qr-2vfr",
-    "date": "2026-11-10T15:57:32Z"
-   },
-   {
-    "title": "OctoPrint: Stored XSS via saved connection parameters",
-    "url": "https://github.com/advisories/GHSA-p623-mxf7-qxjm",
-    "score": 2,
-    "ghsa": "GHSA-p623-mxf7-qxjm",
-    "date": "2026-11-10T15:57:29Z"
    }
   ],
   "thn": [
+   {
+    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+    "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "date": "Wed, 11 Nov 2026 00:53:10 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "date": "Wed, 11 Nov 2026 00:49:39 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+    "date": "Tue, 10 Nov 2026 23:42:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+    "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+    "date": "Tue, 10 Nov 2026 23:13:23 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
     "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
@@ -303,7 +259,7 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
     "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
     "date": "Tue, 10 Nov 2026 21:03:59 +0530",
     "badge": "THREAT",
@@ -343,37 +299,23 @@
     "date": "Tue, 10 Nov 2026 15:32:40 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-    "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-    "date": "Tue, 10 Nov 2026 14:38:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-    "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-    "date": "Tue, 10 Nov 2026 13:46:14 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "date": "Tue, 10 Nov 2026 12:22:54 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-    "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-    "date": "Tue, 10 Nov 2026 12:14:36 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+    "date": "Tue, 10 Nov 2026 15:04:36 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+    "date": "Tue, 10 Nov 2026 14:31:11 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
@@ -443,20 +385,6 @@
     "date": "Tue, 10 Nov 2026 02:49:58 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-    "date": "Mon, 09 Nov 2026 18:52:12 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-    "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-    "date": "Mon, 09 Nov 2026 17:09:33 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -493,7 +421,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 652,
+    "stars": 655,
     "lang": "Java"
    },
    {
@@ -505,7 +433,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 524,
+    "stars": 525,
     "lang": "Rust"
    },
    {
@@ -635,6 +563,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
+    "url": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
+    "date": "2026-11-10T19:53:18+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Electron, we have a problem",
     "url": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
     "date": "2026-11-10T11:38:05+00:00",
@@ -696,13 +631,6 @@
     "date": "2026-11-08T01:31:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "unlocking any car from X brand in most of the world",
-    "url": "https://www.reddit.com/r/netsec/comments/1xq3xin/unlocking_any_car_from_x_brand_in_most_of_the/",
-    "date": "2026-11-07T11:10:50+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 10,
+  "crit": 2,
   "kev": 1779,
   "adv": 12,
   "feed": 48
