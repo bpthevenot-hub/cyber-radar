@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T23:21:54.391Z",
+ "generatedAt": "2026-11-10T00:39:38.317Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-43637 — Cornac: Path Traversal via _extract_archive() in download.py",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-43637",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: Red Hat Quay 3.16.4 (+34 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:19375",
     "score": 9.1,
-    "date": "2026-07-15T15:33:06Z"
+    "date": "2026-11-09T23:27:05+00:00"
    },
    {
-    "title": "CVE-2026-102340 — Telepresence: Traffic Manager gRPC has no auth — any pod claims arbitrary namespace and intercepts services, receiving victim environment se",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102340",
-    "score": 8.5,
-    "date": "2026-11-09T21:59:49Z"
-   },
-   {
-    "title": "CVE-2026-102339 — Telepresence: Tunnel endpoint accepts caller-supplied session ID with no ownership proof — active client sessions hijackable",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102339",
-    "score": 8.2,
-    "date": "2026-11-09T21:58:00Z"
-   },
-   {
-    "title": "CVE-2026-75598 — Gradle Shadow: Zip Slip path traversal in ShadowCopyAction — no independent entry-name sanitization",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-75598",
-    "score": 8.1,
-    "date": "2026-11-09T21:48:13Z"
-   },
-   {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: nodejs:24 security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96226",
+    "title": "CVE-2025-61726 — Red Hat Security Advisory: gvisor-tap-vsock security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:17084",
     "score": 7.8,
-    "date": "2026-11-09T21:35:32+00:00"
+    "date": "2026-11-09T23:27:03+00:00"
    },
    {
-    "title": "CVE-2026-102657 — esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102657",
-    "score": 7.5,
-    "date": "2026-11-09T22:03:29Z"
-   },
-   {
-    "title": "CVE-2026-102289 — zizmor: Debug logging prints available GitHub credentials in cleartext",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102289",
-    "score": 7.5,
-    "date": "2026-11-09T21:56:25Z"
-   },
-   {
-    "title": "CVE-2026-125112 — djust: A template binding inherits a context safety grant it never earned (XSS)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125112",
-    "score": 7.5,
-    "date": "2026-09-17T20:31:48Z"
-   },
-   {
-    "title": "CVE-2026-102610 — fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102610",
-    "score": 6.4,
-    "date": "2026-11-09T22:01:34Z"
-   },
-   {
-    "title": "CVE-2026-103022 — Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-103022",
-    "score": 5.3,
-    "date": "2026-11-09T22:05:06Z"
-   },
-   {
-    "title": "CVE-2026-86041 — ezBookkeeping: Source-IP allowlist (MCP & API token) is bypassable via a spoofed `X-Forwarded-For` header",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86041",
-    "score": 5,
-    "date": "2026-11-09T21:51:28Z"
-   },
-   {
-    "title": "CVE-2026-63183 — OmniAuth: Host Header Injection Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63183",
-    "score": 5,
-    "date": "2026-11-09T21:49:04Z"
+    "title": "MAL-2026-18787 — Malicious code in @chatbridgeworld/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18787",
+    "score": null,
+    "date": "2026-11-09T16:26:27Z"
    }
   ],
   "kev": [
@@ -203,6 +149,27 @@
   ],
   "adv": [
    {
+    "title": "Kubeflow Pipelines: Reflected XSS in the frontend pod information and events error responses",
+    "url": "https://github.com/advisories/GHSA-g3qx-frcg-j979",
+    "score": 6.1,
+    "ghsa": "GHSA-g3qx-frcg-j979",
+    "date": "2026-11-09T23:25:58Z"
+   },
+   {
+    "title": "Kubeflow Pipelines: SQL injection through unvalidated pagination tokens in Kubeflow Pipelines API server",
+    "url": "https://github.com/advisories/GHSA-r4mx-2gr2-8277",
+    "score": 6.5,
+    "ghsa": "GHSA-r4mx-2gr2-8277",
+    "date": "2026-11-09T23:25:00Z"
+   },
+   {
+    "title": "Kiwi TCMS account confirmation open redirect through protocol-relative URLs",
+    "url": "https://github.com/advisories/GHSA-gcwf-c25f-p9rv",
+    "score": 6.1,
+    "ghsa": "GHSA-gcwf-c25f-p9rv",
+    "date": "2026-11-09T23:24:14Z"
+   },
+   {
     "title": "Kubeflow Pipelines: RBAC bypass on shared pipelines allows any authenticated user to delete or modify global pipelines",
     "url": "https://github.com/advisories/GHSA-ghgh-57qv-h687",
     "score": 7.5,
@@ -264,27 +231,6 @@
     "score": 9.6,
     "ghsa": "GHSA-rjr3-43j3-4q8g",
     "date": "2026-11-09T22:22:41Z"
-   },
-   {
-    "title": "FileGator: Missing authorization in POST /upload allows cross-user read and deletion of temporary files",
-    "url": "https://github.com/advisories/GHSA-44r8-3p76-84mw",
-    "score": 5.9,
-    "ghsa": "GHSA-44r8-3p76-84mw",
-    "date": "2026-11-09T22:20:08Z"
-   },
-   {
-    "title": "FileGator: Missing authorization in GET /batchdownload allows cross-user retrieval of another user's archive",
-    "url": "https://github.com/advisories/GHSA-f74m-x83r-c4v4",
-    "score": 5.4,
-    "ghsa": "GHSA-f74m-x83r-c4v4",
-    "date": "2026-11-09T22:17:36Z"
-   },
-   {
-    "title": "Code Graph RAG structural tools follow out-of-root symlinks",
-    "url": "https://github.com/advisories/GHSA-85gg-2gfq-q95m",
-    "score": 7.1,
-    "ghsa": "GHSA-85gg-2gfq-q95m",
-    "date": "2026-11-09T22:16:41Z"
    }
   ],
   "thn": [
@@ -375,6 +321,13 @@
   ],
   "bleep": [
    {
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "date": "Mon, 09 Nov 2026 18:52:12 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
     "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
     "date": "Mon, 09 Nov 2026 17:09:33 -0500",
@@ -450,26 +403,19 @@
     "date": "Mon, 09 Nov 2026 07:16:13 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-    "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-    "date": "Sun, 08 Nov 2026 10:43:08 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2979,
+    "stars": 2982,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 1993,
+    "stars": 1994,
     "lang": "Python"
    },
    {
@@ -481,7 +427,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 835,
+    "stars": 836,
     "lang": "TypeScript"
    },
    {
@@ -499,13 +445,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 599,
+    "stars": 602,
     "lang": "Java"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 510,
+    "stars": 512,
     "lang": "Rust"
    },
    {
