@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T22:21:47.395Z",
+ "generatedAt": "2026-11-10T23:21:41.885Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2024-12718 — Red Hat Security Advisory: Release of OpenShift Serverless Logic 1.36.0 security update & enhancements (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:0934",
-    "score": 9.1,
-    "date": "2026-11-10T22:04:53+00:00"
-   },
-   {
-    "title": "CVE-2023-45288 — Red Hat Security Advisory: updated web-terminal/tooling container image (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:15828",
-    "score": 9.1,
-    "date": "2026-11-10T22:04:51+00:00"
-   },
-   {
-    "title": "CVE-2024-12085 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:21885",
-    "score": 7.8,
-    "date": "2026-11-10T22:04:54+00:00"
-   },
-   {
-    "title": "CVE-2024-5535 — Red Hat Security Advisory: mysql:8.0 security update (+48 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1673",
-    "score": 7.5,
-    "date": "2026-11-10T22:04:38+00:00"
-   },
-   {
-    "title": "CVE-2024-5535 — Red Hat Security Advisory: mysql security update (+48 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:1671",
-    "score": 7.5,
-    "date": "2026-11-10T22:04:36+00:00"
-   },
-   {
-    "title": "CVE-2025-21587 — Red Hat Security Advisory: java-21-openjdk security update (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:7508",
-    "score": 7.4,
-    "date": "2026-11-10T22:04:35+00:00"
-   },
-   {
-    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql:8.4 security update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:16046",
-    "score": 6.5,
-    "date": "2026-11-10T22:04:47+00:00"
-   },
-   {
-    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql-selinux and mysql8.4 security update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:15699",
-    "score": 6.5,
-    "date": "2026-11-10T22:04:43+00:00"
-   },
-   {
-    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql:8.0 security update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:16861",
-    "score": 6.5,
-    "date": "2026-11-10T22:04:41+00:00"
-   },
-   {
-    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql security update (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2025:16086",
-    "score": 6.5,
-    "date": "2026-11-10T22:04:40+00:00"
-   },
-   {
-    "title": "CVE-2013-2152 — Red Hat Security Advisory: spice-vdagent-win security and bug fix update",
-    "url": "https://access.redhat.com/errata/RHSA-2013:0924",
-    "score": null,
-    "date": "2026-11-10T22:04:34+00:00"
-   },
-   {
-    "title": "CVE-2013-2165 — Red Hat Security Advisory: jboss-seam2 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2013:1044",
-    "score": null,
-    "date": "2026-11-10T21:48:24+00:00"
    }
   ],
   "kev": [
@@ -203,6 +131,48 @@
   ],
   "adv": [
    {
+    "title": "Microsoft Security Advisory CVE-2026-120796 - .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-cpw3-h88j-9f6x",
+    "score": 4.6,
+    "ghsa": "GHSA-cpw3-h88j-9f6x",
+    "date": "2026-11-10T23:21:36Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-118747 - .NET Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-vmv3-wvjp-wqpj",
+    "score": 6.5,
+    "ghsa": "GHSA-vmv3-wvjp-wqpj",
+    "date": "2026-11-10T23:20:27Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-118749 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-m28h-pj36-4364",
+    "score": 6.5,
+    "ghsa": "GHSA-m28h-pj36-4364",
+    "date": "2026-11-10T23:08:34Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114149 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-x33c-w48q-qrgc",
+    "score": 7.5,
+    "ghsa": "GHSA-x33c-w48q-qrgc",
+    "date": "2026-11-10T23:06:32Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-109476 - ASP.NET Core Information Disclosure Vulnerability",
+    "url": "https://github.com/advisories/GHSA-xhj5-c3g8-pfj8",
+    "score": 6.1,
+    "ghsa": "GHSA-xhj5-c3g8-pfj8",
+    "date": "2026-11-10T23:02:40Z"
+   },
+   {
+    "title": "React: Unauthenticated Remote Code Execution in React Server Components",
+    "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
+    "score": 9.5,
+    "ghsa": "GHSA-xqc2-xf4c-x3h3",
+    "date": "2026-11-10T22:44:12Z"
+   },
+   {
     "title": "compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages",
     "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
     "score": 2,
@@ -243,48 +213,6 @@
     "score": 7.5,
     "ghsa": "GHSA-8474-xrp6-wh69",
     "date": "2026-11-10T21:34:11Z"
-   },
-   {
-    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-hfpm-4fc4-g2wc",
-    "score": 7.3,
-    "ghsa": "GHSA-hfpm-4fc4-g2wc",
-    "date": "2026-11-10T21:33:43Z"
-   },
-   {
-    "title": "Active Storage: Possible DoS vulnerability in Active Storage filename handling",
-    "url": "https://github.com/advisories/GHSA-p2pm-g2h6-7j5j",
-    "score": 4.3,
-    "ghsa": "GHSA-p2pm-g2h6-7j5j",
-    "date": "2026-11-10T21:33:12Z"
-   },
-   {
-    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-95x6-7hq8-2c37",
-    "score": 7.5,
-    "ghsa": "GHSA-95x6-7hq8-2c37",
-    "date": "2026-11-10T21:32:52Z"
-   },
-   {
-    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114156 - ASP.NET Core Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-c827-j3xf-67v6",
-    "score": 6.5,
-    "ghsa": "GHSA-c827-j3xf-67v6",
-    "date": "2026-11-10T21:32:51Z"
-   },
-   {
-    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-49q5-vjx7-5gwr",
-    "score": 7.5,
-    "ghsa": "GHSA-49q5-vjx7-5gwr",
-    "date": "2026-11-10T21:32:51Z"
-   },
-   {
-    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-gxg8-5rwf-cg43",
-    "score": 7.5,
-    "ghsa": "GHSA-gxg8-5rwf-cg43",
-    "date": "2026-11-10T21:32:51Z"
    }
   ],
   "thn": [
@@ -463,13 +391,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3035,
+    "stars": 3036,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2027,
+    "stars": 2030,
     "lang": "Python"
    },
    {
@@ -493,7 +421,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 660,
+    "stars": 662,
     "lang": "Java"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1779,
   "adv": 12,
   "feed": 48
