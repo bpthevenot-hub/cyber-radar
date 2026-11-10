@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-10T08:25:08.324Z",
+ "generatedAt": "2026-11-10T09:23:22.149Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-34182 — Red Hat Security Advisory: OpenShift Container Platform 4.16.75 bug fix and security update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95229",
+    "score": 9.8,
+    "date": "2026-11-10T08:58:13+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: buildah security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63332",
-    "score": 8.8,
-    "date": "2026-11-10T06:43:26+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.6 (CUDA 12.9) (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94474",
+    "score": 9.1,
+    "date": "2026-11-10T08:58:16+00:00"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-server security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62578",
-    "score": 8.8,
-    "date": "2026-11-10T06:43:21+00:00"
+    "title": "CVE-2025-8869 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.8 (CUDA) (+28 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94476",
+    "score": 9.1,
+    "date": "2026-11-10T08:58:12+00:00"
    },
    {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: go-fdo-client security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62577",
-    "score": 8.8,
-    "date": "2026-11-10T06:43:21+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.7 (CUDA 13.0) (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94468",
+    "score": 9.1,
+    "date": "2026-11-10T08:58:11+00:00"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
-    "score": 8.8,
-    "date": "2026-11-10T06:39:52+00:00"
+    "title": "CVE-2025-8869 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.8 (CPU) (+24 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94459",
+    "score": 9.1,
+    "date": "2026-11-10T08:58:11+00:00"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.4 release. (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62851",
-    "score": 8.6,
-    "date": "2026-11-10T06:43:23+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (Neuron) (+49 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91249",
+    "score": 9.1,
+    "date": "2026-11-10T08:58:03+00:00"
    },
    {
-    "title": "CVE-2024-45336 — Red Hat Security Advisory: git-lfs security update (+17 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95234",
-    "score": 8.2,
-    "date": "2026-11-10T06:39:54+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.6 (Neuron) (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91248",
+    "score": 9.1,
+    "date": "2026-11-10T08:57:53+00:00"
    },
    {
-    "title": "CVE-2025-61726 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+20 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95612",
-    "score": 8.2,
-    "date": "2026-11-10T06:39:52+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (ROCm 7.14) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91246",
+    "score": 9.1,
+    "date": "2026-11-10T08:57:52+00:00"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
-    "score": 8.2,
-    "date": "2026-11-10T06:39:51+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.6 (Spyre) (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91245",
+    "score": 9.1,
+    "date": "2026-11-10T08:57:52+00:00"
    },
    {
-    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+32 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95081",
-    "score": 8.2,
-    "date": "2026-11-10T06:39:48+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.4.6 (ROCm 6.4) (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91244",
+    "score": 9.1,
+    "date": "2026-11-10T08:57:51+00:00"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection - 1.4.12 (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94498",
-    "score": 8.2,
-    "date": "2026-11-10T06:39:48+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.0.7 (TPU) (+19 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91243",
+    "score": 9.1,
+    "date": "2026-11-10T08:57:51+00:00"
    },
    {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: skopeo security update (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:64818",
-    "score": 8.1,
-    "date": "2026-11-10T06:43:28+00:00"
-   },
-   {
-    "title": "CVE-2026-33818 — Red Hat Security Advisory: osbuild-composer security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:62803",
-    "score": 8.1,
-    "date": "2026-11-10T06:43:27+00:00"
+    "title": "CVE-2025-69418 — Red Hat Security Advisory: Red Hat AI Base Images 3.5.5 (Spyre) (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91242",
+    "score": 9.1,
+    "date": "2026-11-10T08:57:48+00:00"
    }
   ],
   "kev": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+    "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+    "date": "Tue, 10 Nov 2026 14:38:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+    "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+    "date": "Tue, 10 Nov 2026 13:46:14 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
     "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
     "date": "Tue, 10 Nov 2026 12:22:54 +0530",
@@ -357,23 +371,16 @@
     "date": "Mon, 09 Nov 2026 15:31:21 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-    "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-    "date": "Mon, 09 Nov 2026 14:31:50 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-    "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-    "date": "Mon, 09 Nov 2026 12:35:48 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "date": "Tue, 10 Nov 2026 03:51:25 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Fireworks AI discloses new breach after cloud provider hack",
     "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
@@ -450,26 +457,19 @@
     "date": "Mon, 09 Nov 2026 09:34:03 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-    "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-    "date": "Mon, 09 Nov 2026 08:28:56 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 2999,
+    "stars": 3001,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2009,
+    "stars": 2010,
     "lang": "Python"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 440,
+    "stars": 441,
     "lang": "C"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 14,
   "kev": 1773,
   "adv": 12,
   "feed": 48
