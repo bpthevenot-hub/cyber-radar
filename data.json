@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T21:21:52.365Z",
+ "generatedAt": "2026-11-10T22:21:47.395Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2024-12718 — Red Hat Security Advisory: Release of OpenShift Serverless Logic 1.36.0 security update & enhancements (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:0934",
+    "score": 9.1,
+    "date": "2026-11-10T22:04:53+00:00"
+   },
+   {
+    "title": "CVE-2023-45288 — Red Hat Security Advisory: updated web-terminal/tooling container image (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:15828",
+    "score": 9.1,
+    "date": "2026-11-10T22:04:51+00:00"
+   },
+   {
+    "title": "CVE-2024-12085 — Red Hat Security Advisory: OpenShift Compliance Operator bug fix and enhancement update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:21885",
+    "score": 7.8,
+    "date": "2026-11-10T22:04:54+00:00"
+   },
+   {
+    "title": "CVE-2024-5535 — Red Hat Security Advisory: mysql:8.0 security update (+48 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:1673",
+    "score": 7.5,
+    "date": "2026-11-10T22:04:38+00:00"
+   },
+   {
+    "title": "CVE-2024-5535 — Red Hat Security Advisory: mysql security update (+48 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:1671",
+    "score": 7.5,
+    "date": "2026-11-10T22:04:36+00:00"
+   },
+   {
+    "title": "CVE-2025-21587 — Red Hat Security Advisory: java-21-openjdk security update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:7508",
+    "score": 7.4,
+    "date": "2026-11-10T22:04:35+00:00"
+   },
+   {
+    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql:8.4 security update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:16046",
+    "score": 6.5,
+    "date": "2026-11-10T22:04:47+00:00"
+   },
+   {
+    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql-selinux and mysql8.4 security update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:15699",
+    "score": 6.5,
+    "date": "2026-11-10T22:04:43+00:00"
+   },
+   {
+    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql:8.0 security update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:16861",
+    "score": 6.5,
+    "date": "2026-11-10T22:04:41+00:00"
+   },
+   {
+    "title": "CVE-2025-21574 — Red Hat Security Advisory: mysql security update (+50 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:16086",
+    "score": 6.5,
+    "date": "2026-11-10T22:04:40+00:00"
+   },
+   {
+    "title": "CVE-2013-2152 — Red Hat Security Advisory: spice-vdagent-win security and bug fix update",
+    "url": "https://access.redhat.com/errata/RHSA-2013:0924",
+    "score": null,
+    "date": "2026-11-10T22:04:34+00:00"
+   },
+   {
+    "title": "CVE-2013-2165 — Red Hat Security Advisory: jboss-seam2 security update",
+    "url": "https://access.redhat.com/errata/RHSA-2013:1044",
+    "score": null,
+    "date": "2026-11-10T21:48:24+00:00"
    }
   ],
   "kev": [
@@ -131,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "Action Pack: Possible IP spoofing in Action Dispatch RemoteIp",
-    "url": "https://github.com/advisories/GHSA-2gff-2mmg-m73p",
-    "score": 7.4,
-    "ghsa": "GHSA-2gff-2mmg-m73p",
-    "date": "2026-11-10T21:20:06Z"
-   },
-   {
-    "title": "Action Pack: Possible restoration of destroyed sessions in Action Dispatch CacheStore",
-    "url": "https://github.com/advisories/GHSA-2586-8ghr-69fj",
-    "score": 4.2,
-    "ghsa": "GHSA-2586-8ghr-69fj",
-    "date": "2026-11-10T21:19:09Z"
-   },
-   {
-    "title": "Forge: Ed25519 signature verification accepts small-order public keys",
-    "url": "https://github.com/advisories/GHSA-6889-vf6x-f3g5",
-    "score": 3.7,
-    "ghsa": "GHSA-6889-vf6x-f3g5",
-    "date": "2026-11-10T21:18:23Z"
-   },
-   {
-    "title": "Forge: TLS client crash on an unsupported ServerHello compression method",
-    "url": "https://github.com/advisories/GHSA-w4xr-hqv8-ch44",
-    "score": 5.9,
-    "ghsa": "GHSA-w4xr-hqv8-ch44",
-    "date": "2026-11-10T21:17:14Z"
-   },
-   {
-    "title": "Forge: ReDoS in forge.http response header and cookie trimming",
-    "url": "https://github.com/advisories/GHSA-6cv4-p8m7-4r25",
-    "score": 5.9,
-    "ghsa": "GHSA-6cv4-p8m7-4r25",
-    "date": "2026-11-10T21:16:22Z"
-   },
-   {
-    "title": "Forge: TLS client crash on a handshake record received without a session",
-    "url": "https://github.com/advisories/GHSA-j8rw-jp99-435v",
-    "score": 5.9,
-    "ghsa": "GHSA-j8rw-jp99-435v",
-    "date": "2026-11-10T21:14:26Z"
-   },
-   {
-    "title": "fast-xml-parser: Quadratic CPU consumption scanning unterminated stop-node tags",
-    "url": "https://github.com/advisories/GHSA-474x-hrwr-fgx4",
-    "score": 3.7,
-    "ghsa": "GHSA-474x-hrwr-fgx4",
-    "date": "2026-11-10T21:09:44Z"
-   },
-   {
-    "title": "Mongoose: Discriminator key values matching inherited properties (e.g. __t: 'constructor') bypass schema casting and can poison collections",
-    "url": "https://github.com/advisories/GHSA-wr5m-5jph-8m96",
-    "score": 4.8,
-    "ghsa": "GHSA-wr5m-5jph-8m96",
-    "date": "2026-11-10T20:57:18Z"
-   },
-   {
-    "title": "Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and share",
-    "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
-    "score": 8.2,
-    "ghsa": "GHSA-8332-j7wj-wjw4",
-    "date": "2026-11-10T20:56:16Z"
-   },
-   {
-    "title": "JRuby: NONET is bypassed for external DTDs and entities when the systemId uses a short-form IPv4 host",
-    "url": "https://github.com/advisories/GHSA-v995-44v6-5fqm",
-    "score": 3.7,
-    "ghsa": "GHSA-v995-44v6-5fqm",
-    "date": "2026-11-10T20:52:38Z"
-   },
-   {
-    "title": "Nokogiri: Use-After-Free in Nokogiri when replacing an attribute value",
-    "url": "https://github.com/advisories/GHSA-3w22-6jfg-527w",
+    "title": "compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages",
+    "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
     "score": 2,
-    "ghsa": "GHSA-3w22-6jfg-527w",
-    "date": "2026-11-10T20:51:19Z"
+    "ghsa": "GHSA-8v59-qmwv-4p6q",
+    "date": "2026-11-10T21:58:53Z"
    },
    {
-    "title": "Nokogiri: Mutation XSS through `noscript` content in Nokogiri's HTML5 serializer",
-    "url": "https://github.com/advisories/GHSA-4p39-36wj-23h4",
+    "title": "compose-lint: Workflow command injection through SARIF-directory errors triggered by pull request symlinks",
+    "url": "https://github.com/advisories/GHSA-xcf7-88g6-7xr8",
     "score": 2,
-    "ghsa": "GHSA-4p39-36wj-23h4",
-    "date": "2026-11-10T20:47:36Z"
+    "ghsa": "GHSA-xcf7-88g6-7xr8",
+    "date": "2026-11-10T21:50:54Z"
+   },
+   {
+    "title": "compose-lint: Text in a pull request can issue CI workflow commands through JSON and SARIF output on stdout",
+    "url": "https://github.com/advisories/GHSA-hr4h-4c45-v4q4",
+    "score": 2,
+    "ghsa": "GHSA-hr4h-4c45-v4q4",
+    "date": "2026-11-10T21:40:50Z"
+   },
+   {
+    "title": "Active Storage: Possible arbitrary file read and remote code execution in video previews, analysis and image processing",
+    "url": "https://github.com/advisories/GHSA-v924-7rp8-4mxh",
+    "score": 8.8,
+    "ghsa": "GHSA-v924-7rp8-4mxh",
+    "date": "2026-11-10T21:38:55Z"
+   },
+   {
+    "title": "Active Storage: Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage",
+    "url": "https://github.com/advisories/GHSA-hfr4-8rjc-97m2",
+    "score": 5.3,
+    "ghsa": "GHSA-hfr4-8rjc-97m2",
+    "date": "2026-11-10T21:37:19Z"
+   },
+   {
+    "title": "Active Support: Possible DoS vulnerability in Active Support safe_constantize",
+    "url": "https://github.com/advisories/GHSA-8474-xrp6-wh69",
+    "score": 7.5,
+    "ghsa": "GHSA-8474-xrp6-wh69",
+    "date": "2026-11-10T21:34:11Z"
+   },
+   {
+    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-hfpm-4fc4-g2wc",
+    "score": 7.3,
+    "ghsa": "GHSA-hfpm-4fc4-g2wc",
+    "date": "2026-11-10T21:33:43Z"
+   },
+   {
+    "title": "Active Storage: Possible DoS vulnerability in Active Storage filename handling",
+    "url": "https://github.com/advisories/GHSA-p2pm-g2h6-7j5j",
+    "score": 4.3,
+    "ghsa": "GHSA-p2pm-g2h6-7j5j",
+    "date": "2026-11-10T21:33:12Z"
+   },
+   {
+    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-95x6-7hq8-2c37",
+    "score": 7.5,
+    "ghsa": "GHSA-95x6-7hq8-2c37",
+    "date": "2026-11-10T21:32:52Z"
+   },
+   {
+    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114156 - ASP.NET Core Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-c827-j3xf-67v6",
+    "score": 6.5,
+    "ghsa": "GHSA-c827-j3xf-67v6",
+    "date": "2026-11-10T21:32:51Z"
+   },
+   {
+    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-49q5-vjx7-5gwr",
+    "score": 7.5,
+    "ghsa": "GHSA-49q5-vjx7-5gwr",
+    "date": "2026-11-10T21:32:51Z"
+   },
+   {
+    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-gxg8-5rwf-cg43",
+    "score": 7.5,
+    "ghsa": "GHSA-gxg8-5rwf-cg43",
+    "date": "2026-11-10T21:32:51Z"
    }
   ],
   "thn": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+    "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+    "date": "Tue, 10 Nov 2026 17:20:19 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
     "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
     "date": "Tue, 10 Nov 2026 15:54:55 -0500",
@@ -378,13 +457,6 @@
     "date": "Tue, 10 Nov 2026 05:04:32 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-    "date": "Tue, 10 Nov 2026 03:51:25 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -421,7 +493,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 657,
+    "stars": 660,
     "lang": "Java"
    },
    {
@@ -451,13 +523,13 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 432,
+    "stars": 433,
     "lang": "—"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 409,
+    "stars": 410,
     "lang": "—"
    }
   ],
@@ -584,6 +656,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Supabase Security findings why RLS is only 25% of the issues",
+    "url": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
+    "date": "2026-11-10T22:21:14+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF",
     "url": "https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/",
     "date": "2026-11-09T17:41:19+00:00",
@@ -624,13 +703,6 @@
     "date": "2026-11-08T16:00:58+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "ARTEX attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xqmhgk/artex_attack/",
-    "date": "2026-11-08T01:31:04+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1779,
   "adv": 12,
   "feed": 48
