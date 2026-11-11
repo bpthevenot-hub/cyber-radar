@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-11T15:21:51.085Z",
+ "generatedAt": "2026-11-11T16:22:55.821Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-123710 — A flaw was found in Red Hat Quay. An unauthenticated client can obtain an anonymous registry token with an audience it controls, present tha",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123710",
+    "score": 9.8,
+    "date": "2026-11-11T15:31:04Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-26248 — Kwetsbaarheid verholpen in Fortinet FortiSandbox",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-26248",
+    "title": "CVE-2026-85632 — Missing authentication for critical function and Improper validation of integrity check value vulnerability in Sipay Electronic Money and Pa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85632",
+    "score": 9.1,
+    "date": "2026-11-11T15:31:06Z"
+   },
+   {
+    "title": "CVE-2026-126537 — The Ninja Forms - File Uploads add-on for WordPress is vulnerable to Arbitrary File Deletion (and arbitrary file read via S3/Dropbox/Google ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126537",
+    "score": 9.1,
+    "date": "2026-11-11T15:31:02Z"
+   },
+   {
+    "title": "CVE-2026-126325 — A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM. The vulnerability may be exploited ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126325",
+    "score": 9,
+    "date": "2026-11-11T15:31:05Z"
+   },
+   {
+    "title": "CVE-2026-125845 — Cross-Site Request Forgery (CSRF) vulnerability in webriti vdequator vdequator allows Cross Site Request Forgery.This issue affects vdequato",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125845",
     "score": 8.8,
-    "date": "2026-11-11T14:18:38.082759Z"
+    "date": "2026-11-11T15:31:04Z"
    },
    {
-    "title": "OSV-2026-1113 — Heap-buffer-overflow in Assimp::MD5::MD5MeshParser::MD5MeshParser",
-    "url": "https://github.com/advisories/OSV-2026-1113",
-    "score": null,
-    "date": "2026-08-04T00:18:00.468256Z"
+    "title": "CVE-2026-125842 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Wallstreet Agency wallstreet-agency allows Cross Site Request Forgery.This issue ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125842",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:04Z"
    },
    {
-    "title": "OSV-2026-1077 — Heap-buffer-overflow in std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<ch",
-    "url": "https://github.com/advisories/OSV-2026-1077",
-    "score": null,
-    "date": "2026-07-28T07:23:02.143330Z"
+    "title": "CVE-2026-125850 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Appointment Dark appointment-dark allows Cross Site Request Forgery.This issue af",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125850",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:04Z"
    },
    {
-    "title": "OSV-2024-914 — UNKNOWN READ in boost::re_detail_500::basic_regex_formatter<std::__1::ostream_iterator<char, cha",
-    "url": "https://github.com/advisories/OSV-2024-914",
-    "score": null,
-    "date": "2024-08-16T00:08:20.277708Z"
+    "title": "CVE-2026-125843 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Spasalon spasalon allows Cross Site Request Forgery.This issue affects Spasalon: ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125843",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:03Z"
    },
    {
-    "title": "OSV-2023-1350 — Heap-buffer-overflow in inflate",
-    "url": "https://github.com/advisories/OSV-2023-1350",
-    "score": null,
-    "date": "2023-12-23T00:12:38.562149Z"
+    "title": "CVE-2026-125838 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Quality quality allows Cross Site Request Forgery.This issue affects Quality: fro",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125838",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:03Z"
    },
    {
-    "title": "OSV-2023-606 — Heap-buffer-overflow in ZSTD_decompressMultiFrame",
-    "url": "https://github.com/advisories/OSV-2023-606",
-    "score": null,
-    "date": "2023-07-23T14:01:02.159160Z"
+    "title": "CVE-2026-125840 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Rambo rambo allows Cross Site Request Forgery.This issue affects Rambo: from n/a ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125840",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:03Z"
    },
    {
-    "title": "OSV-2023-319 — Heap-buffer-overflow in ZSTD_decompressSequencesLong_bmi2",
-    "url": "https://github.com/advisories/OSV-2023-319",
-    "score": null,
-    "date": "2023-04-16T14:01:58.406534Z"
+    "title": "CVE-2026-125849 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Shk Corporate shk-corporate allows Cross Site Request Forgery.This issue affects ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125849",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:03Z"
    },
    {
-    "title": "OSV-2023-307 — Heap-buffer-overflow in bit_read_BB",
-    "url": "https://github.com/advisories/OSV-2023-307",
-    "score": null,
-    "date": "2023-04-13T14:02:09.774988Z"
-   },
-   {
-    "title": "OSV-2022-1259 — Heap-buffer-overflow in dwg_decode_INSERT_private",
-    "url": "https://github.com/advisories/OSV-2022-1259",
-    "score": null,
-    "date": "2022-12-13T13:00:46.870838Z"
-   },
-   {
-    "title": "OSV-2022-1198 — Heap-buffer-overflow in dwg_json_LTYPE",
-    "url": "https://github.com/advisories/OSV-2022-1198",
-    "score": null,
-    "date": "2022-11-23T13:02:06.623044Z"
-   },
-   {
-    "title": "OSV-2022-1176 — Heap-double-free in dwg_free",
-    "url": "https://github.com/advisories/OSV-2022-1176",
-    "score": null,
-    "date": "2022-11-18T13:00:26.857477Z"
-   },
-   {
-    "title": "OSV-2022-1134 — Heap-buffer-overflow in ndlz8_decompress",
-    "url": "https://github.com/advisories/OSV-2022-1134",
-    "score": null,
-    "date": "2022-11-04T00:02:11.463429Z"
+    "title": "CVE-2026-125841 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Heroic heroic allows Cross Site Request Forgery.This issue affects Heroic: from n",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125841",
+    "score": 8.8,
+    "date": "2026-11-11T15:31:03Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+    "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+    "date": "Wed, 11 Nov 2026 21:04:27 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
     "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
     "date": "Wed, 11 Nov 2026 19:31:00 +0530",
@@ -362,13 +369,6 @@
     "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
     "date": "Tue, 10 Nov 2026 23:42:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-    "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-    "date": "Tue, 10 Nov 2026 23:13:23 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3072,
+    "stars": 3076,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1082,
+    "stars": 1083,
     "lang": "TypeScript"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 345,
+    "stars": 341,
     "lang": "JavaScript"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1779,
   "adv": 12,
   "feed": 48
