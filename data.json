@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-11-11T21:22:43.497Z",
+ "generatedAt": "2026-11-11T22:22:01.344Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-126812 — blueprintUE Self-Hosted Edition before 4.3.7 contains an insecure default configuration in its Docker Compose examples that sets MYSQL_ALLOW",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126812",
+    "score": 9.8,
+    "date": "2026-11-11T21:33:01Z"
+   },
+   {
+    "title": "CVE-2026-126797 — NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge admi",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126797",
+    "score": 9.8,
+    "date": "2026-11-11T21:33:00Z"
+   },
+   {
+    "title": "CVE-2026-126768 — OpsTree REMS through 1.0.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain valid JWTs by set",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126768",
+    "score": 9.8,
+    "date": "2026-11-11T21:32:57Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +31,60 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-91880 — Dell Terraform Provider for PowerFlex, versions 1.5.0 through 1.8.0, contains an Improper Certificate Validation vulnerability in the SSH cl",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91880",
+    "score": 8.9,
+    "date": "2026-11-11T21:32:59Z"
+   },
+   {
+    "title": "CVE-2026-126801 — Rote 1.2.0 through 2.6.0 contains an authorization bypass in the OAuth bind/merge endpoint that allows authenticated users to merge any OAut",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126801",
+    "score": 8.8,
+    "date": "2026-11-11T21:33:00Z"
+   },
+   {
+    "title": "CVE-2026-126806 — WWBN AVideo 14.3 through 29.7.1 contains a stored cross-site scripting vulnerability that allows uploaders to inject scripts via the videoDo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126806",
+    "score": 8.7,
+    "date": "2026-11-11T21:33:01Z"
+   },
+   {
+    "title": "CVE-2026-126800 — Hydro @hydrooj/ui-default before 4.59.1 contains a stored cross-site scripting vulnerability that allows registered users to inject script b",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126800",
+    "score": 8.7,
+    "date": "2026-11-11T21:33:00Z"
+   },
+   {
+    "title": "CVE-2026-91875 — Dell OpenManage Ansible Modules, versions 9.2.0 through 10.0.3, contains an Improper Certificate Validation vulnerability in the SessionAPI ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91875",
+    "score": 8.7,
+    "date": "2026-11-11T21:32:59Z"
+   },
+   {
+    "title": "CVE-2026-91873 — Dell OpenManage Ansible Modules, versions 2.1.2 through 10.0.3, contains an Improper Certificate Validation vulnerability in the iDRACRedfis",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91873",
+    "score": 8.7,
+    "date": "2026-11-11T21:32:59Z"
+   },
+   {
+    "title": "CVE-2026-91874 — Dell OpenManage Ansible Modules, versions 5.0.0 through 10.0.3, contains an Improper Certificate Validation vulnerability in the iDRACConnec",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91874",
+    "score": 8.7,
+    "date": "2026-11-11T21:32:59Z"
+   },
+   {
+    "title": "CVE-2026-126802 — NextScan 1.1.0 through 1.2.0 contains hardcoded HTTP Basic Auth credentials in ns-admin's AuthAgent and AuthExternal routers that allow unau",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126802",
+    "score": 8.2,
+    "date": "2026-11-11T21:33:00Z"
+   },
+   {
+    "title": "CVE-2026-126774 — @tinacms/mdx before 2.4.2 contains a code injection vulnerability in its MDX serializer, which writes rich-text values into MDX expressions ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126774",
+    "score": 8.2,
+    "date": "2026-11-11T21:32:57Z"
    }
   ],
   "kev": [
@@ -303,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+    "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+    "date": "Wed, 11 Nov 2026 16:27:40 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
     "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
     "date": "Wed, 11 Nov 2026 15:54:20 -0500",
@@ -378,13 +457,6 @@
     "date": "Tue, 10 Nov 2026 15:04:36 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-    "date": "Tue, 10 Nov 2026 14:31:11 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,7 +469,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2053,
+    "stars": 2054,
     "lang": "Python"
    },
    {
@@ -451,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 416,
+    "stars": 415,
     "lang": "—"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 5,
   "kev": 1779,
   "adv": 12,
   "feed": 48
