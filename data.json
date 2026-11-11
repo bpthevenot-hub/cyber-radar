@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-11T06:30:59.664Z",
+ "generatedAt": "2026-11-11T07:22:45.185Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-12224 — Red Hat Security Advisory: RHOAI 2.25.12 - Red Hat OpenShift AI (+176 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87410",
+    "score": 9.8,
+    "date": "2026-11-11T06:30:05+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-63374 — Red Hat Security Advisory: General availability of the satellite/iop-host-inventory-rhel9 container image (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92583",
+    "score": 9.1,
+    "date": "2026-11-11T06:30:13+00:00"
+   },
+   {
+    "title": "CVE-2026-63374 — Red Hat Security Advisory: General availability of the satellite/iop-host-inventory-rhel9 container image (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92566",
+    "score": 9.1,
+    "date": "2026-11-11T06:30:13+00:00"
+   },
+   {
+    "title": "CVE-2026-27459 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+22 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:87120",
+    "score": 9.1,
+    "date": "2026-11-11T06:30:03+00:00"
+   },
+   {
+    "title": "CVE-2026-27145 — Red Hat Security Advisory: golang-github-openprinting-ipp-usb security update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98108",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:26+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:26+00:00"
+   },
+   {
+    "title": "CVE-2023-54404 — Red Hat Security Advisory: RHOAI 3.4.6 - Red Hat OpenShift AI (+105 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92510",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:17+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: go-toolset:rhel8 security, bug fix, and enhancement update (+39 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:90994",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:15+00:00"
+   },
+   {
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.13.14 security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92307",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:13+00:00"
+   },
+   {
+    "title": "CVE-2026-32280 — Red Hat Security Advisory: LVMS 4.16 Bug Fix and Enhancement update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92291",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:11+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: grafana-pcp security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88395",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:07+00:00"
+   },
+   {
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: grafana-pcp security update (+20 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:88394",
+    "score": 8.8,
+    "date": "2026-11-11T06:30:06+00:00"
    }
   ],
   "kev": [
@@ -391,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3048,
+    "stars": 3049,
     "lang": "Go"
    },
    {
@@ -403,19 +475,19 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1069,
+    "stars": 1070,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 863,
+    "stars": 864,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 692,
+    "stars": 700,
     "lang": "Java"
    },
    {
@@ -427,7 +499,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 529,
+    "stars": 530,
     "lang": "Rust"
    },
    {
@@ -439,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 448,
+    "stars": 449,
     "lang": "C"
    },
    {
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1779,
   "adv": 12,
   "feed": 48
