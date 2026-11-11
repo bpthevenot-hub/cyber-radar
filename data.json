@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T23:21:41.885Z",
+ "generatedAt": "2026-11-11T00:40:34.519Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-118750 — Microsoft Security Advisory CVE-2026-118750 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118750",
+    "score": 7.5,
+    "date": "2026-11-10T23:32:00Z"
    }
   ],
   "kev": [
@@ -131,88 +137,88 @@
   ],
   "adv": [
    {
-    "title": "Microsoft Security Advisory CVE-2026-120796 - .NET Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-cpw3-h88j-9f6x",
-    "score": 4.6,
-    "ghsa": "GHSA-cpw3-h88j-9f6x",
-    "date": "2026-11-10T23:21:36Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-118747 - .NET Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-vmv3-wvjp-wqpj",
+    "title": "Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-6856-87hx-p5x7",
     "score": 6.5,
-    "ghsa": "GHSA-vmv3-wvjp-wqpj",
-    "date": "2026-11-10T23:20:27Z"
+    "ghsa": "GHSA-6856-87hx-p5x7",
+    "date": "2026-11-11T00:39:12Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-118749 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-m28h-pj36-4364",
+    "title": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj",
+    "score": 7.7,
+    "ghsa": "GHSA-fpxj-5c99-g7vj",
+    "date": "2026-11-11T00:35:02Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7",
+    "score": 7.7,
+    "ghsa": "GHSA-r8h3-p8p6-ggp7",
+    "date": "2026-11-11T00:34:13Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114159 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
+    "score": 7.7,
+    "ghsa": "GHSA-3cgx-w6gm-fqrx",
+    "date": "2026-11-11T00:32:59Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
+    "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
+    "score": 7.3,
+    "ghsa": "GHSA-q6jf-24jf-m3cg",
+    "date": "2026-11-11T00:31:23Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
+    "score": 7.3,
+    "ghsa": "GHSA-m63f-xhvm-6mv5",
+    "date": "2026-11-11T00:30:06Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-3893-7fxc-qvff",
     "score": 6.5,
-    "ghsa": "GHSA-m28h-pj36-4364",
-    "date": "2026-11-10T23:08:34Z"
+    "ghsa": "GHSA-3893-7fxc-qvff",
+    "date": "2026-11-11T00:28:01Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-114149 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-x33c-w48q-qrgc",
+    "title": "Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-7phj-vgxq-r67h",
+    "score": 6.5,
+    "ghsa": "GHSA-7phj-vgxq-r67h",
+    "date": "2026-11-11T00:25:04Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114156 - ASP.NET Core Security Feature Bypass Vulnerability",
+    "url": "https://github.com/advisories/GHSA-8w29-6cjc-h6w4",
+    "score": 5.7,
+    "ghsa": "GHSA-8w29-6cjc-h6w4",
+    "date": "2026-11-11T00:24:05Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-wr8v-9x5q-ggcm",
     "score": 7.5,
-    "ghsa": "GHSA-x33c-w48q-qrgc",
-    "date": "2026-11-10T23:06:32Z"
+    "ghsa": "GHSA-wr8v-9x5q-ggcm",
+    "date": "2026-11-11T00:23:32Z"
    },
    {
-    "title": "Microsoft Security Advisory CVE-2026-109476 - ASP.NET Core Information Disclosure Vulnerability",
-    "url": "https://github.com/advisories/GHSA-xhj5-c3g8-pfj8",
-    "score": 6.1,
-    "ghsa": "GHSA-xhj5-c3g8-pfj8",
-    "date": "2026-11-10T23:02:40Z"
+    "title": "Microsoft Security Advisory CVE-2026-109478 - ASP.NET Core Denial of Service Vulnerability",
+    "url": "https://github.com/advisories/GHSA-r3qf-p3jm-8h4p",
+    "score": 6.5,
+    "ghsa": "GHSA-r3qf-p3jm-8h4p",
+    "date": "2026-11-11T00:22:43Z"
    },
    {
-    "title": "React: Unauthenticated Remote Code Execution in React Server Components",
-    "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-    "score": 9.5,
-    "ghsa": "GHSA-xqc2-xf4c-x3h3",
-    "date": "2026-11-10T22:44:12Z"
-   },
-   {
-    "title": "compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages",
-    "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
-    "score": 2,
-    "ghsa": "GHSA-8v59-qmwv-4p6q",
-    "date": "2026-11-10T21:58:53Z"
-   },
-   {
-    "title": "compose-lint: Workflow command injection through SARIF-directory errors triggered by pull request symlinks",
-    "url": "https://github.com/advisories/GHSA-xcf7-88g6-7xr8",
-    "score": 2,
-    "ghsa": "GHSA-xcf7-88g6-7xr8",
-    "date": "2026-11-10T21:50:54Z"
-   },
-   {
-    "title": "compose-lint: Text in a pull request can issue CI workflow commands through JSON and SARIF output on stdout",
-    "url": "https://github.com/advisories/GHSA-hr4h-4c45-v4q4",
-    "score": 2,
-    "ghsa": "GHSA-hr4h-4c45-v4q4",
-    "date": "2026-11-10T21:40:50Z"
-   },
-   {
-    "title": "Active Storage: Possible arbitrary file read and remote code execution in video previews, analysis and image processing",
-    "url": "https://github.com/advisories/GHSA-v924-7rp8-4mxh",
-    "score": 8.8,
-    "ghsa": "GHSA-v924-7rp8-4mxh",
-    "date": "2026-11-10T21:38:55Z"
-   },
-   {
-    "title": "Active Storage: Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage",
-    "url": "https://github.com/advisories/GHSA-hfr4-8rjc-97m2",
-    "score": 5.3,
-    "ghsa": "GHSA-hfr4-8rjc-97m2",
-    "date": "2026-11-10T21:37:19Z"
-   },
-   {
-    "title": "Active Support: Possible DoS vulnerability in Active Support safe_constantize",
-    "url": "https://github.com/advisories/GHSA-8474-xrp6-wh69",
-    "score": 7.5,
-    "ghsa": "GHSA-8474-xrp6-wh69",
-    "date": "2026-11-10T21:34:11Z"
+    "title": "Microsoft Security Advisory CVE-2026-114146 - ASP.NET Core Elevation of Privilege Vulnerability",
+    "url": "https://github.com/advisories/GHSA-67wp-ghc2-fw2g",
+    "score": 7.8,
+    "ghsa": "GHSA-67wp-ghc2-fw2g",
+    "date": "2026-11-11T00:21:56Z"
    }
   ],
   "thn": [
@@ -391,13 +397,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3036,
+    "stars": 3037,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2030,
+    "stars": 2031,
     "lang": "Python"
    },
    {
@@ -413,15 +419,9 @@
     "lang": "TypeScript"
    },
    {
-    "title": "solongate/agent-security — Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, an",
-    "url": "https://github.com/solongate/agent-security",
-    "stars": 664,
-    "lang": "Go"
-   },
-   {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 662,
+    "stars": 664,
     "lang": "Java"
    },
    {
@@ -433,7 +433,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 525,
+    "stars": 526,
     "lang": "Rust"
    },
    {
@@ -459,6 +459,12 @@
     "url": "https://github.com/jmanico/grim-prompter",
     "stars": 410,
     "lang": "—"
+   },
+   {
+    "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
+    "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
+    "stars": 349,
+    "lang": "JavaScript"
    }
   ],
   "hn": [
