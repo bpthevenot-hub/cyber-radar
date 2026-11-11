@@ -1,43 +1,7 @@
 {
- "generatedAt": "2026-11-11T09:23:12.448Z",
+ "generatedAt": "2026-11-11T10:22:28.495Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Ansible automation portal Red Hat Enterprise Linux Images (+47 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:82151",
-    "score": 10,
-    "date": "2026-11-11T08:46:53+00:00"
-   },
-   {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 release. (+55 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:79088",
-    "score": 10,
-    "date": "2026-11-11T08:46:52+00:00"
-   },
-   {
-    "title": "CVE-2026-13697 — Red Hat Security Advisory: Red Hat Developer Hub 1.10.5 Plugin Catalog GA plugins release. (+50 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:76788",
-    "score": 10,
-    "date": "2026-11-11T08:46:51+00:00"
-   },
-   {
-    "title": "CVE-2026-47686 — Red Hat Security Advisory: Ansible plug-ins for Red Hat Developer Hub Product Release Update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:80644",
-    "score": 9.9,
-    "date": "2026-11-11T08:46:53+00:00"
-   },
-   {
-    "title": "CVE-2026-47686 — Red Hat Security Advisory: Ansible plug-ins for Red Hat Developer Hub Product Release Update (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:80603",
-    "score": 9.9,
-    "date": "2026-11-11T08:46:52+00:00"
-   },
-   {
-    "title": "CVE-2023-54404 — Red Hat Security Advisory: Red Hat OpenShift Dev Spaces 3.31.0 Release. (+104 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:90321",
-    "score": 9.8,
-    "date": "2026-11-11T08:46:57+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -51,40 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-53939 — Red Hat Security Advisory: cjose security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98074",
-    "score": 9.1,
-    "date": "2026-11-11T08:36:05+00:00"
+    "title": "CVE-2026-126617 — SQL injection in the database layer of Progressive Robot hMailServer 6.0.0-B1 through 6.2.18, when the server uses MySQL/MariaDB or PostgreS",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126617",
+    "score": 8.8,
+    "date": "2026-11-11T09:31:29Z"
    },
    {
-    "title": "CVE-2026-53939 — Red Hat Security Advisory: mod_auth_openidc:2.3 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92160",
-    "score": 9.1,
-    "date": "2026-11-11T08:35:57+00:00"
+    "title": "CVE-2026-19534 — Red Hat Security Advisory: Cluster Observability Operator - 1.5 (+33 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95591",
+    "score": 8.2,
+    "date": "2026-11-11T09:33:24+00:00"
    },
    {
-    "title": "CVE-2026-53939 — Red Hat Security Advisory: mod_auth_openidc:2.3 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92159",
-    "score": 9.1,
-    "date": "2026-11-11T08:35:57+00:00"
+    "title": "CVE-2026-18769 — A local low privileged attacker can move arbitrary physical memory content via TcRouter.sys because of exposed IOCTL function calls resultin",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18769",
+    "score": 7.8,
+    "date": "2026-11-11T09:31:30Z"
    },
    {
-    "title": "CVE-2026-53939 — Red Hat Security Advisory: mod_auth_openidc:2.3 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92158",
-    "score": 9.1,
-    "date": "2026-11-11T08:35:55+00:00"
+    "title": "CVE-2026-18767 — A local low privileged attacker or process can access I/O ports via TcRouter.sys because of exposed IOCTL function calls resulting in a full",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18767",
+    "score": 7.8,
+    "date": "2026-11-11T09:31:30Z"
    },
    {
-    "title": "CVE-2026-53939 — Red Hat Security Advisory: mod_auth_openidc:2.3 security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92157",
-    "score": 9.1,
-    "date": "2026-11-11T08:35:55+00:00"
+    "title": "CVE-2026-18768 — A local low privileged attacker can access arbitrary physical memory or define its mapping via TcRouter.sys because of exposed IOCTL functio",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18768",
+    "score": 7.8,
+    "date": "2026-11-11T09:31:30Z"
    },
    {
-    "title": "CVE-2026-53939 — Red Hat Security Advisory: cjose security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92156",
-    "score": 9.1,
-    "date": "2026-11-11T08:35:55+00:00"
+    "title": "CVE-2026-126612 — Improper link resolution in the Windows installer of Progressive Robot hMailServer 6.0.0 through 6.3.7 allows a local authenticated user to ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126612",
+    "score": 7.8,
+    "date": "2026-11-11T09:31:29Z"
+   },
+   {
+    "title": "CVE-2026-88967 — Red Hat Security Advisory: grafana security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98541",
+    "score": 7.7,
+    "date": "2026-11-11T09:35:49+00:00"
+   },
+   {
+    "title": "CVE-2024-47072 — Red Hat Security Advisory: Red Hat build of Keycloak 26.0.10 Update (+2 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2025:2545",
+    "score": 7.5,
+    "date": "2026-11-11T09:36:07+00:00"
+   },
+   {
+    "title": "CVE-2024-7885 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.0 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7442",
+    "score": 7.5,
+    "date": "2026-11-11T09:36:04+00:00"
+   },
+   {
+    "title": "CVE-2024-7885 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 8.0 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2024:7441",
+    "score": 7.5,
+    "date": "2026-11-11T09:36:03+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95617",
+    "score": 7.5,
+    "date": "2026-11-11T09:33:25+00:00"
+   },
+   {
+    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95406",
+    "score": 7.5,
+    "date": "2026-11-11T09:33:24+00:00"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+    "date": "Wed, 11 Nov 2026 05:12:08 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
     "date": "Wed, 11 Nov 2026 04:07:27 -0500",
@@ -450,20 +457,13 @@
     "date": "Tue, 10 Nov 2026 07:07:03 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-    "date": "Tue, 10 Nov 2026 05:10:20 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3055,
+    "stars": 3062,
     "lang": "Go"
    },
    {
@@ -481,13 +481,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 868,
+    "stars": 869,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 701,
+    "stars": 702,
     "lang": "Java"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 452,
+    "stars": 454,
     "lang": "C"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1779,
   "adv": 12,
   "feed": 48
