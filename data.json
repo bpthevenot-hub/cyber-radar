@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-11T16:22:55.821Z",
+ "generatedAt": "2026-11-11T17:22:14.064Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-123710 — A flaw was found in Red Hat Quay. An unauthenticated client can obtain an anonymous registry token with an audience it controls, present tha",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123710",
-    "score": 9.8,
-    "date": "2026-11-11T15:31:04Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -27,12 +21,6 @@
     "date": "2026-11-11T15:31:06Z"
    },
    {
-    "title": "CVE-2026-126537 — The Ninja Forms - File Uploads add-on for WordPress is vulnerable to Arbitrary File Deletion (and arbitrary file read via S3/Dropbox/Google ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126537",
-    "score": 9.1,
-    "date": "2026-11-11T15:31:02Z"
-   },
-   {
     "title": "CVE-2026-126325 — A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM. The vulnerability may be exploited ",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-126325",
     "score": 9,
@@ -45,46 +33,58 @@
     "date": "2026-11-11T15:31:04Z"
    },
    {
-    "title": "CVE-2026-125842 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Wallstreet Agency wallstreet-agency allows Cross Site Request Forgery.This issue ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125842",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:04Z"
+    "title": "CVE-2026-14242 — A user with the Editor role could delete, move, push or pull Git Sync managed resources in folders where they only had view access, by creat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-14242",
+    "score": 6.5,
+    "date": "2026-11-11T15:31:05Z"
    },
    {
-    "title": "CVE-2026-125850 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Appointment Dark appointment-dark allows Cross Site Request Forgery.This issue af",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125850",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:04Z"
+    "title": "CVE-2026-13721 — A user with edit access to one folder could modify, move or delete Git Sync provisioned resources in folders where they only had view access",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-13721",
+    "score": 6.5,
+    "date": "2026-11-11T15:31:05Z"
    },
    {
-    "title": "CVE-2026-125843 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Spasalon spasalon allows Cross Site Request Forgery.This issue affects Spasalon: ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125843",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:03Z"
+    "title": "CVE-2026-124746 — A flaw was found in BusyBox. An integer overflow occurs in the volume_id component when calculating buffer boundaries while probing filesyst",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124746",
+    "score": 5.5,
+    "date": "2026-11-11T15:31:05Z"
    },
    {
-    "title": "CVE-2026-125838 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Quality quality allows Cross Site Request Forgery.This issue affects Quality: fro",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125838",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:03Z"
+    "title": "CVE-2026-82014 — Any authenticated user, including a Viewer, could change the preferences of any team, such as its home dashboard, theme and timezone, throug",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82014",
+    "score": 4.3,
+    "date": "2026-11-11T15:31:06Z"
    },
    {
-    "title": "CVE-2026-125840 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Rambo rambo allows Cross Site Request Forgery.This issue affects Rambo: from n/a ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125840",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:03Z"
+    "title": "MAL-2026-19132 — Malicious code in gloglet (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19132",
+    "score": null,
+    "date": "2026-11-11T16:07:39Z"
    },
    {
-    "title": "CVE-2026-125849 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Shk Corporate shk-corporate allows Cross Site Request Forgery.This issue affects ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125849",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:03Z"
+    "title": "MAL-2026-19127 — Malicious code in chai-as-spy (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19127",
+    "score": null,
+    "date": "2026-11-11T16:07:39Z"
    },
    {
-    "title": "CVE-2026-125841 — Cross-Site Request Forgery (CSRF) vulnerability in webriti Heroic heroic allows Cross Site Request Forgery.This issue affects Heroic: from n",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125841",
-    "score": 8.8,
-    "date": "2026-11-11T15:31:03Z"
+    "title": "MAL-2026-19141 — Malicious code in verboset (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19141",
+    "score": null,
+    "date": "2026-11-11T16:07:39Z"
+   },
+   {
+    "title": "MAL-2026-19126 — Malicious code in aurelia-type (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19126",
+    "score": null,
+    "date": "2026-11-11T16:05:18Z"
+   },
+   {
+    "title": "MAL-2026-19133 — Malicious code in helmify (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19133",
+    "score": null,
+    "date": "2026-11-11T16:03:42Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+    "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+    "date": "Wed, 11 Nov 2026 21:42:46 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
     "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
     "date": "Wed, 11 Nov 2026 21:04:27 +0530",
@@ -364,16 +371,16 @@
     "date": "Wed, 11 Nov 2026 00:49:39 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-    "date": "Tue, 10 Nov 2026 23:42:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+    "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+    "date": "Wed, 11 Nov 2026 11:24:18 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
@@ -450,20 +457,13 @@
     "date": "Tue, 10 Nov 2026 14:07:36 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Windows 11 KB5132061 &amp; KB5131087 cumulative updates released",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-    "date": "Tue, 10 Nov 2026 13:33:26 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3076,
+    "stars": 3077,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1083,
+    "stars": 1086,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 466,
+    "stars": 467,
     "lang": "C"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 341,
+    "stars": 339,
     "lang": "JavaScript"
    }
   ],
@@ -649,16 +649,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
-    "date": "2026-11-11T14:55:07+00:00",
+    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
+    "date": "2026-11-11T15:15:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-    "date": "2026-11-11T15:15:12+00:00",
+    "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
+    "date": "2026-11-11T14:55:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 4,
   "kev": 1779,
   "adv": 12,
   "feed": 48
