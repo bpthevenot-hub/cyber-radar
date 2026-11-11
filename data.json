@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-11T10:22:28.495Z",
+ "generatedAt": "2026-11-11T11:22:06.771Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-58114 — Kwetsbaarheden verholpen in Siemens producten (+6 CVE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-58114",
+    "score": 9.8,
+    "date": "2026-11-11T10:15:57.755952Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-112902 — Pillow is a Python imaging library. In versions through 12.3.0, the libtiff TIFF encoder can pass arguments to TIFFSetField() that do not ma",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112902",
+    "score": 9.1,
+    "date": "2026-11-05T21:18:36.713Z"
    },
    {
     "title": "CVE-2026-126617 — SQL injection in the database layer of Progressive Robot hMailServer 6.0.0-B1 through 6.2.18, when the server uses MySQL/MariaDB or PostgreS",
@@ -27,6 +39,12 @@
     "date": "2026-11-11T09:33:24+00:00"
    },
    {
+    "title": "CVE-2026-18767 — Beckhoff: Exposed IOCTLs with insufficient access control in TcRouter.sys (+2 CVE)",
+    "url": "https://download.beckhoff.com/download/Document/product-security/Advisories/advisory-2026-001.pdf",
+    "score": 7.8,
+    "date": "2026-11-11T10:00:00.000Z"
+   },
+   {
     "title": "CVE-2026-18769 — A local low privileged attacker can move arbitrary physical memory content via TcRouter.sys because of exposed IOCTL function calls resultin",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-18769",
     "score": 7.8,
@@ -37,18 +55,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-18767",
     "score": 7.8,
     "date": "2026-11-11T09:31:30Z"
-   },
-   {
-    "title": "CVE-2026-18768 — A local low privileged attacker can access arbitrary physical memory or define its mapping via TcRouter.sys because of exposed IOCTL functio",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18768",
-    "score": 7.8,
-    "date": "2026-11-11T09:31:30Z"
-   },
-   {
-    "title": "CVE-2026-126612 — Improper link resolution in the Windows installer of Progressive Robot hMailServer 6.0.0 through 6.3.7 allows a local authenticated user to ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126612",
-    "score": 7.8,
-    "date": "2026-11-11T09:31:29Z"
    },
    {
     "title": "CVE-2026-88967 — Red Hat Security Advisory: grafana security update (+1 CVE)",
@@ -79,12 +85,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:95617",
     "score": 7.5,
     "date": "2026-11-11T09:33:25+00:00"
-   },
-   {
-    "title": "CVE-2026-116591 — Red Hat Security Advisory: Red Hat Hardened Images RPMs Security Update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95406",
-    "score": 7.5,
-    "date": "2026-11-11T09:33:24+00:00"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3062,
+    "stars": 3063,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2046,
+    "stars": 2049,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1071,
+    "stars": 1073,
     "lang": "TypeScript"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 702,
+    "stars": 703,
     "lang": "Java"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 454,
+    "stars": 458,
     "lang": "C"
    },
    {
@@ -642,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Electron, we have a problem",
-    "url": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
-    "date": "2026-11-10T11:38:05+00:00",
+    "title": "Supabase Security findings why RLS is only 25% of the issues",
+    "url": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
+    "date": "2026-11-10T22:21:14+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Supabase Security findings why RLS is only 25% of the issues",
-    "url": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
-    "date": "2026-11-10T22:21:14+00:00",
+    "title": "Electron, we have a problem",
+    "url": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
+    "date": "2026-11-10T11:38:05+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 4,
   "kev": 1779,
   "adv": 12,
   "feed": 48
