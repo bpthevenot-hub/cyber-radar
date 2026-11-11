@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-11-11T00:40:34.519Z",
+ "generatedAt": "2026-11-11T01:21:54.347Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-121894 — Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that coul",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121894",
+    "score": 9.9,
+    "date": "2026-11-11T00:32:30Z"
+   },
+   {
+    "title": "CVE-2026-121906 — Adobe Connect is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121906",
+    "score": 9.9,
+    "date": "2026-11-11T00:32:30Z"
+   },
+   {
+    "title": "CVE-2026-126261 — A improper authorization vulnerability in Fortinet FortiManager 8.0.0, FortiManager 7.6.0 through 7.6.7, FortiManager 7.4.0 through 7.4.5, F",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126261",
+    "score": 9.8,
+    "date": "2026-11-11T00:32:37Z"
+   },
+   {
+    "title": "CVE-2026-89324 — The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.18. The vulnerabili",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-89324",
+    "score": 9.8,
+    "date": "2026-11-11T00:32:35Z"
+   },
+   {
+    "title": "CVE-2026-125298 — AsiaInfo Business Support System (BSS) 9.2.0 through 9.2.40 does not correctly verify cryptographic signatures for JSON Web Tokens (JWT). A ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125298",
+    "score": 9.8,
+    "date": "2026-11-11T00:32:33Z"
+   },
+   {
+    "title": "CVE-2026-125297 — AsiaInfo Business Support System (BSS) 9.2.0 through 9.2.40 accepts unauthenticated requests via the management API '/bss/sysmgnt/api/'. A r",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125297",
+    "score": 9.8,
+    "date": "2026-11-11T00:32:33Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +51,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-118750 — Microsoft Security Advisory CVE-2026-118750 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118750",
-    "score": 7.5,
-    "date": "2026-11-10T23:32:00Z"
+    "title": "CVE-2026-125881 — Server-Side request forgery (SSRF) vulnerability in N-able N-central allows Server Side Request Forgery. This issue affects N-central: befor",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125881",
+    "score": 9.5,
+    "date": "2026-11-11T00:32:33Z"
+   },
+   {
+    "title": "CVE-2026-125883 — Improper restriction of XML external entity reference vulnerability in N-able N-central allows XML Schema Poisoning. This issue affects N-ce",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125883",
+    "score": 9.5,
+    "date": "2026-11-11T00:32:33Z"
+   },
+   {
+    "title": "CVE-2026-121902 — Adobe Connect is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that coul",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121902",
+    "score": 9.4,
+    "date": "2026-11-11T00:32:30Z"
+   },
+   {
+    "title": "CVE-2026-114158 — Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114158",
+    "score": 8.8,
+    "date": "2026-11-11T00:34:13Z"
+   },
+   {
+    "title": "CVE-2026-114159 — Microsoft Security Advisory CVE-2026-114159 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114159",
+    "score": 8.8,
+    "date": "2026-11-11T00:32:59Z"
+   },
+   {
+    "title": "CVE-2026-121913 — Adobe Connect is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. A low-privileged attacker c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-121913",
+    "score": 8.8,
+    "date": "2026-11-11T00:32:30Z"
    }
   ],
   "kev": [
@@ -137,6 +203,20 @@
   ],
   "adv": [
    {
+    "title": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-x8x8-p968-x646",
+    "score": 7.7,
+    "ghsa": "GHSA-x8x8-p968-x646",
+    "date": "2026-11-11T00:47:20Z"
+   },
+   {
+    "title": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
+    "url": "https://github.com/advisories/GHSA-xf35-v9jh-g65w",
+    "score": 7.7,
+    "ghsa": "GHSA-xf35-v9jh-g65w",
+    "date": "2026-11-11T00:46:12Z"
+   },
+   {
     "title": "Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
     "url": "https://github.com/advisories/GHSA-6856-87hx-p5x7",
     "score": 6.5,
@@ -205,20 +285,6 @@
     "score": 7.5,
     "ghsa": "GHSA-wr8v-9x5q-ggcm",
     "date": "2026-11-11T00:23:32Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-109478 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-r3qf-p3jm-8h4p",
-    "score": 6.5,
-    "ghsa": "GHSA-r3qf-p3jm-8h4p",
-    "date": "2026-11-11T00:22:43Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114146 - ASP.NET Core Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-67wp-ghc2-fw2g",
-    "score": 7.8,
-    "ghsa": "GHSA-67wp-ghc2-fw2g",
-    "date": "2026-11-11T00:21:56Z"
    }
   ],
   "thn": [
@@ -397,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3037,
+    "stars": 3038,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2031,
+    "stars": 2033,
     "lang": "Python"
    },
    {
@@ -421,7 +487,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 664,
+    "stars": 669,
     "lang": "Java"
    },
    {
@@ -445,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 443,
+    "stars": 445,
     "lang": "C"
    },
    {
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 11,
   "kev": 1779,
   "adv": 12,
   "feed": 48
