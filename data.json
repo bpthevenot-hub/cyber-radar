@@ -1,25 +1,7 @@
 {
- "generatedAt": "2026-11-12T00:42:09.649Z",
+ "generatedAt": "2026-11-12T01:21:59.202Z",
  "sources": {
   "cve": [
-   {
-    "title": "RLSA-2026:96235 — Moderate: ruby security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:96235",
-    "score": 9.8,
-    "date": "2026-11-10T12:09:45.660151Z"
-   },
-   {
-    "title": "RLSA-2026:96233 — Moderate: ruby4.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:96233",
-    "score": 9.8,
-    "date": "2026-11-10T12:09:45.660151Z"
-   },
-   {
-    "title": "RLSA-2026:93413 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:93413",
-    "score": 9.8,
-    "date": "2026-11-03T12:10:03.560067Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -33,58 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:94501 — Critical: fence-agents security update",
-    "url": "https://github.com/advisories/RLSA-2026:94501",
-    "score": 9.1,
-    "date": "2026-11-04T09:10:56.529723Z"
+    "title": "CVE-2026-126934 — Zipline 4.3.2 before 4.8.0 contains a rate limit bypass vulnerability that allows unauthenticated attackers to evade throttling by spoofing ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126934",
+    "score": 6.5,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:98521 — Important: bubblewrap security update",
-    "url": "https://github.com/advisories/RLSA-2026:98521",
-    "score": 8.8,
-    "date": "2026-11-12T00:04:47.087081Z"
+    "title": "CVE-2026-126759 — A flaw has been found in H3C ICG2000 Unified Communication Gateway 2023. This issue affects some unknown processing of the file /wnm/check.j",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126759",
+    "score": 5.3,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:98530 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:98530",
-    "score": 8.8,
-    "date": "2026-11-12T00:04:12.119552Z"
+    "title": "CVE-2026-126933 — Zipline 4.0.0 before 4.8.0 contains an upload filter bypass vulnerability that allows users with upload access to store blocked file types d",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126933",
+    "score": 4.3,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:98505 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:98505",
-    "score": 8.8,
-    "date": "2026-11-12T00:04:12.119552Z"
+    "title": "CVE-2026-126932 — Zipline 4.6.2 before 4.8.0 contains a policy bypass vulnerability that allows authenticated users to evade administrator-disabled MIME types",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126932",
+    "score": 4.3,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:96240 — Critical: edk2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:96240",
-    "score": 8.8,
-    "date": "2026-11-10T12:09:45.660151Z"
+    "title": "CVE-2026-126935 — Zipline before 4.8.0 contains a race condition vulnerability in src/server/routes/raw/[id].ts that allows remote attackers to bypass file ma",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126935",
+    "score": 3.7,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:95367 — Important: kernel security update",
-    "url": "https://github.com/advisories/RLSA-2026:95367",
-    "score": 8.8,
-    "date": "2026-11-06T12:09:31.090950Z"
+    "title": "CVE-2026-126921 — Use after free in Accessibility in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandb",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126921",
+    "score": null,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:94630 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:94630",
-    "score": 8.8,
-    "date": "2026-11-04T09:10:56.529723Z"
+    "title": "CVE-2026-126920 — Information leak in Skia in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to obtain cross-origin data via a crafted HTML pa",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126920",
+    "score": null,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:94514 — Important: freerdp security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:94514",
-    "score": 8.8,
-    "date": "2026-11-04T09:10:56.529723Z"
+    "title": "CVE-2026-126919 — Use after free in BrowserTag in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126919",
+    "score": null,
+    "date": "2026-11-12T00:33:07Z"
    },
    {
-    "title": "RLSA-2026:91565 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:91565",
-    "score": 8.8,
-    "date": "2026-10-29T12:08:23.381701Z"
+    "title": "CVE-2026-126922 — Out of bounds read in Skia in Google Chrome prior to 157.0.8103.78 allowed a remote attacker who had compromised the renderer process to lea",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126922",
+    "score": null,
+    "date": "2026-11-12T00:33:07Z"
+   },
+   {
+    "title": "CVE-2026-126918 — Use after free in Layout in Google Chrome prior to 157.0.8103.78 allowed a remote attacker to execute arbitrary code inside the sandbox via ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126918",
+    "score": null,
+    "date": "2026-11-12T00:33:06Z"
+   },
+   {
+    "title": "CVE-2026-126909 — Use after free in Passwords in Google Chrome prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute arbit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126909",
+    "score": null,
+    "date": "2026-11-12T00:33:06Z"
+   },
+   {
+    "title": "CVE-2026-126907 — Uninitialized resource in Media in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker who had compromised the rend",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126907",
+    "score": null,
+    "date": "2026-11-12T00:33:06Z"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3095,
+    "stars": 3096,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2056,
+    "stars": 2057,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1094,
+    "stars": 1095,
     "lang": "TypeScript"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 474,
+    "stars": 475,
     "lang": "C"
    },
    {
@@ -649,6 +649,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "History of Password Cracking",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
+    "date": "2026-11-12T01:02:04+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
     "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
     "date": "2026-11-11T15:15:12+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-11-09T17:41:19+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Certificate authority list: every CA's incident record since 2017",
-    "url": "https://www.reddit.com/r/netsec/comments/1xrsyyg/certificate_authority_list_every_cas_incident/",
-    "date": "2026-11-09T14:24:35+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1779,
   "adv": 12,
   "feed": 48
