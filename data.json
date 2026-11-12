@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T18:24:14.083Z",
+ "generatedAt": "2026-11-12T19:22:01.446Z",
  "sources": {
   "cve": [
    {
@@ -15,22 +15,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-118740 — Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118740",
-    "score": 9.1,
-    "date": "2026-11-12T17:17:48Z"
+    "title": "CVE-2026-84987 — code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84987",
+    "score": 5.4,
+    "date": "2026-11-12T18:21:00Z"
    },
    {
-    "title": "MAL-2026-18953 — Malicious code in budetzz (npm)",
-    "url": "https://github.com/advisories/MAL-2026-18953",
-    "score": null,
-    "date": "2026-10-27T00:00:00Z"
+    "title": "CVE-2026-84974 — code16/sharp: Arbitrary class instantiation through the embed_key API parameter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-84974",
+    "score": 5.4,
+    "date": "2026-11-12T18:18:44Z"
    },
    {
-    "title": "MAL-2026-23 — Malicious code in showdownxss (npm)",
-    "url": "https://github.com/advisories/MAL-2026-23",
+    "title": "CVE-2026-39395 — Cosign's verify-blob-attestation reports false positive when payload parsing fails",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39395",
+    "score": 4.3,
+    "date": "2026-04-08T00:15:44Z"
+   },
+   {
+    "title": "MAL-2026-17418 — Malicious code in future-scripts (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17418",
     "score": null,
-    "date": "2026-01-02T22:06:48Z"
+    "date": "2026-11-12T17:58:37Z"
    }
   ],
   "kev": [
@@ -149,6 +155,13 @@
   ],
   "adv": [
    {
+    "title": "Signal K Server: Buffered logs exposed to unauthenticated WebSocket clients",
+    "url": "https://github.com/advisories/GHSA-7m8x-x364-m26j",
+    "score": 5.3,
+    "ghsa": "GHSA-7m8x-x364-m26j",
+    "date": "2026-11-12T19:14:00Z"
+   },
+   {
     "title": "code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
     "url": "https://github.com/advisories/GHSA-g6f8-c3x9-jv7f",
     "score": 5.4,
@@ -224,13 +237,6 @@
     "score": 7.3,
     "ghsa": "GHSA-m63f-xhvm-6mv5",
     "date": "2026-11-11T00:30:06Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability",
-    "url": "https://github.com/advisories/GHSA-3893-7fxc-qvff",
-    "score": 6.5,
-    "ghsa": "GHSA-3893-7fxc-qvff",
-    "date": "2026-11-11T00:28:01Z"
    }
   ],
   "thn": [
@@ -321,6 +327,13 @@
   ],
   "bleep": [
    {
+    "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+    "date": "Thu, 12 Nov 2026 14:12:55 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
     "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
     "date": "Thu, 12 Nov 2026 11:04:00 -0500",
@@ -396,20 +409,13 @@
     "date": "Wed, 11 Nov 2026 15:54:20 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-    "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-    "date": "Wed, 11 Nov 2026 11:24:18 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3156,
+    "stars": 3158,
     "lang": "Go"
    },
    {
@@ -421,7 +427,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1135,
+    "stars": 1137,
     "lang": "TypeScript"
    },
    {
@@ -433,7 +439,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 722,
+    "stars": 732,
     "lang": "Java"
    },
    {
@@ -445,7 +451,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 537,
+    "stars": 538,
     "lang": "Rust"
    },
    {
@@ -457,7 +463,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 484,
+    "stars": 485,
     "lang": "C"
    },
    {
@@ -469,7 +475,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 420,
+    "stars": 421,
     "lang": "—"
    },
    {
@@ -663,7 +669,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1779,
   "adv": 12,
   "feed": 48
