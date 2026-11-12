@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T22:22:05.981Z",
+ "generatedAt": "2026-11-12T23:22:09.117Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,18 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-126346 — basic-ftp: Uncaught exception crashes the Node.js process when a password (or resumed-download path) contains CR/LF",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126346",
+    "score": 5.9,
+    "date": "2026-11-12T22:23:50Z"
+   },
+   {
+    "title": "CVE-2026-126354 — Addressable URI normalization resolves some dotted path segments to the wrong path",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126354",
+    "score": 4.8,
+    "date": "2026-11-12T22:27:58Z"
    }
   ],
   "kev": [
@@ -131,88 +143,88 @@
   ],
   "adv": [
    {
-    "title": "Action View: Possible XSS vulnerability in tag helpers",
-    "url": "https://github.com/advisories/GHSA-68p9-83h6-5wpj",
-    "score": 4.7,
-    "ghsa": "GHSA-68p9-83h6-5wpj",
-    "date": "2026-11-12T22:08:21Z"
+    "title": "@grpc/grpc-js: safe_regex incorrectly applies partial string matching for patterns with alternation",
+    "url": "https://github.com/advisories/GHSA-r7hq-q2xm-6c5m",
+    "score": 4.8,
+    "ghsa": "GHSA-r7hq-q2xm-6c5m",
+    "date": "2026-11-12T23:21:57Z"
    },
    {
-    "title": "Active Storage: Possible local file disclosure in video previews and analysis",
-    "url": "https://github.com/advisories/GHSA-3f4q-8x5m-76v8",
-    "score": 3.7,
-    "ghsa": "GHSA-3f4q-8x5m-76v8",
-    "date": "2026-11-12T21:54:18Z"
-   },
-   {
-    "title": "basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
-    "url": "https://github.com/advisories/GHSA-5pm8-86m8-9m6r",
-    "score": 5.3,
-    "ghsa": "GHSA-5pm8-86m8-9m6r",
-    "date": "2026-11-12T21:42:12Z"
-   },
-   {
-    "title": "@hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process",
-    "url": "https://github.com/advisories/GHSA-qv5m-9pm6-hqp3",
-    "score": 5.3,
-    "ghsa": "GHSA-qv5m-9pm6-hqp3",
-    "date": "2026-11-12T21:32:48Z"
-   },
-   {
-    "title": "@hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy",
-    "url": "https://github.com/advisories/GHSA-jpvv-r467-5p4w",
-    "score": 5.3,
-    "ghsa": "GHSA-jpvv-r467-5p4w",
-    "date": "2026-11-12T21:28:02Z"
-   },
-   {
-    "title": "Loofah: SVG `<textPath>` and `<mpath>` bypass local-reference restriction",
-    "url": "https://github.com/advisories/GHSA-345x-3rq2-jfrm",
-    "score": 4.7,
-    "ghsa": "GHSA-345x-3rq2-jfrm",
-    "date": "2026-11-12T21:26:53Z"
-   },
-   {
-    "title": "Loofah allowed_uri? treats javascript&#x3a alert(1) as safe",
-    "url": "https://github.com/advisories/GHSA-p9wj-w8xq-vjx6",
+    "title": "@grpc/grpc-js: RBAC override configs in VirtualHost and Route resources are not applied",
+    "url": "https://github.com/advisories/GHSA-gg5j-6742-v827",
     "score": null,
-    "ghsa": "GHSA-p9wj-w8xq-vjx6",
-    "date": "2026-11-12T21:26:25Z"
+    "ghsa": "GHSA-gg5j-6742-v827",
+    "date": "2026-11-12T22:55:47Z"
    },
    {
-    "title": "Loofah: CSS url() sanitization bypass via escaped parentheses",
-    "url": "https://github.com/advisories/GHSA-m3x9-938q-5767",
-    "score": 4.7,
-    "ghsa": "GHSA-m3x9-938q-5767",
-    "date": "2026-11-12T21:05:41Z"
+    "title": "msgpack-ruby JRuby decoder makes uncapped header-count allocations; a 5-byte message forces multi-GiB OOM",
+    "url": "https://github.com/advisories/GHSA-73v3-wf97-vpgj",
+    "score": 7.5,
+    "ghsa": "GHSA-73v3-wf97-vpgj",
+    "date": "2026-11-12T22:54:59Z"
    },
    {
-    "title": "Loofah: Regular expression denial of service in the SVG local-reference check",
-    "url": "https://github.com/advisories/GHSA-mf2j-8f84-cc9q",
-    "score": 5.3,
-    "ghsa": "GHSA-mf2j-8f84-cc9q",
-    "date": "2026-11-12T21:00:42Z"
+    "title": "Addressable display_uri can show misleading hosts with invalid Punycode A-labels",
+    "url": "https://github.com/advisories/GHSA-9crm-g4mf-wc5j",
+    "score": 4.3,
+    "ghsa": "GHSA-9crm-g4mf-wc5j",
+    "date": "2026-11-12T22:44:57Z"
    },
    {
-    "title": "Loofah allowed_uri? treats data:text&sol;html as safe text/plain",
-    "url": "https://github.com/advisories/GHSA-jcff-cj73-4w4f",
-    "score": null,
-    "ghsa": "GHSA-jcff-cj73-4w4f",
-    "date": "2026-11-12T20:56:30Z"
+    "title": "Addressable display_uri can show misleading hosts containing bidi and invisible characters",
+    "url": "https://github.com/advisories/GHSA-539f-xcgw-2gjg",
+    "score": 3.1,
+    "ghsa": "GHSA-539f-xcgw-2gjg",
+    "date": "2026-11-12T22:44:15Z"
    },
    {
-    "title": "Loofah: Mutation XSS in the HTML5 scrubbers through unescaped attribute values",
-    "url": "https://github.com/advisories/GHSA-h6v6-rg66-fqj4",
-    "score": 6.1,
-    "ghsa": "GHSA-h6v6-rg66-fqj4",
-    "date": "2026-11-12T20:52:09Z"
+    "title": "Addressable: Denial of service in URI path normalization",
+    "url": "https://github.com/advisories/GHSA-qq38-m9mg-xjj5",
+    "score": 5.9,
+    "ghsa": "GHSA-qq38-m9mg-xjj5",
+    "date": "2026-11-12T22:35:33Z"
    },
    {
-    "title": "pgEdge Control Plane generates pg_hba.conf with trust authentication for local and loopback connections",
-    "url": "https://github.com/advisories/GHSA-vq9p-w6wv-cr25",
-    "score": 7.8,
-    "ghsa": "GHSA-vq9p-w6wv-cr25",
-    "date": "2026-11-12T20:46:03Z"
+    "title": "Astro: Reflected XSS via unescaped slot names in @astrojs/solid-js",
+    "url": "https://github.com/advisories/GHSA-jmv2-qgxf-f995",
+    "score": 2,
+    "ghsa": "GHSA-jmv2-qgxf-f995",
+    "date": "2026-11-12T22:34:44Z"
+   },
+   {
+    "title": "Astro: Reflected XSS via unescaped slot names in @astrojs/svelte",
+    "url": "https://github.com/advisories/GHSA-f4j9-crrj-867q",
+    "score": 2,
+    "ghsa": "GHSA-f4j9-crrj-867q",
+    "date": "2026-11-12T22:34:04Z"
+   },
+   {
+    "title": "Addressable: Regular Expression Denial of Service in templates with certain exploded expressions",
+    "url": "https://github.com/advisories/GHSA-j82w-28jv-3pmj",
+    "score": 5.9,
+    "ghsa": "GHSA-j82w-28jv-3pmj",
+    "date": "2026-11-12T22:30:37Z"
+   },
+   {
+    "title": "Addressable: Regular Expression Denial of Service in templates with multiple variables",
+    "url": "https://github.com/advisories/GHSA-9f42-57jx-vpp3",
+    "score": 5.9,
+    "ghsa": "GHSA-9f42-57jx-vpp3",
+    "date": "2026-11-12T22:29:35Z"
+   },
+   {
+    "title": "Addressable URI normalization resolves some dotted path segments to the wrong path",
+    "url": "https://github.com/advisories/GHSA-8gmh-2hhj-2hv9",
+    "score": 4.8,
+    "ghsa": "GHSA-8gmh-2hhj-2hv9",
+    "date": "2026-11-12T22:27:58Z"
+   },
+   {
+    "title": "basic-ftp: Uncaught exception crashes the Node.js process when a password (or resumed-download path) contains CR/LF",
+    "url": "https://github.com/advisories/GHSA-r4jh-29pc-gfqr",
+    "score": 5.9,
+    "ghsa": "GHSA-r4jh-29pc-gfqr",
+    "date": "2026-11-12T22:23:50Z"
    }
   ],
   "thn": [
@@ -303,6 +315,20 @@
   ],
   "bleep": [
    {
+    "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+    "date": "Thu, 12 Nov 2026 17:53:10 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+    "date": "Thu, 12 Nov 2026 17:25:30 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
     "date": "Thu, 12 Nov 2026 15:15:16 -0500",
@@ -371,20 +397,6 @@
     "date": "Thu, 12 Nov 2026 04:38:00 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Baker Tilly notifies clients of data breach at third-party provider",
-    "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-    "date": "Wed, 11 Nov 2026 18:01:31 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-    "date": "Wed, 11 Nov 2026 17:56:21 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,7 +409,7 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2082,
+    "stars": 2084,
     "lang": "Python"
    },
    {
@@ -415,7 +427,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 756,
+    "stars": 759,
     "lang": "Java"
    },
    {
@@ -451,13 +463,13 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 421,
+    "stars": 422,
     "lang": "—"
    },
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 331,
+    "stars": 330,
     "lang": "JavaScript"
    }
   ],
@@ -584,6 +596,20 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
+    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
+    "date": "2026-11-12T22:58:44+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "JSON Schema References Considered Harmful",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+    "date": "2026-11-12T22:35:34+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "History of Password Cracking",
     "url": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
     "date": "2026-11-12T01:02:04+00:00",
@@ -615,20 +641,6 @@
     "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
     "url": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
     "date": "2026-11-11T14:55:07+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-    "date": "2026-11-11T15:15:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
-    "url": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
-    "date": "2026-11-10T19:53:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
