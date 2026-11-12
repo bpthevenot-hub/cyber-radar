@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T17:22:14.198Z",
+ "generatedAt": "2026-11-12T18:24:14.083Z",
  "sources": {
   "cve": [
    {
@@ -15,76 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11330",
-    "score": 9.6,
-    "date": "2026-11-12T17:02:12+00:00"
-   },
-   {
-    "title": "CVE-2026-33186 — Red Hat Security Advisory: Red Hat OpenShift Builds 1.6.5 (+2 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:10155",
-    "score": 9.6,
-    "date": "2026-11-12T17:02:06+00:00"
-   },
-   {
-    "title": "CVE-2024-3884 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.24 security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4924",
-    "score": 9.6,
-    "date": "2026-11-12T17:01:20+00:00"
-   },
-   {
-    "title": "CVE-2024-3884 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.24 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4917",
-    "score": 9.6,
-    "date": "2026-11-12T17:01:19+00:00"
-   },
-   {
-    "title": "CVE-2024-3884 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.24 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4916",
-    "score": 9.6,
-    "date": "2026-11-12T17:01:19+00:00"
-   },
-   {
-    "title": "CVE-2024-3884 — Red Hat Security Advisory: Red Hat JBoss Enterprise Application Platform 7.4.24 security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:4915",
-    "score": 9.6,
-    "date": "2026-11-12T17:01:18+00:00"
-   },
-   {
-    "title": "CVE-2026-25679 — Red Hat Security Advisory: rhc security update (+1 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:19207",
+    "title": "CVE-2026-118740 — Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118740",
     "score": 9.1,
-    "date": "2026-11-12T17:02:32+00:00"
+    "date": "2026-11-12T17:17:48Z"
    },
    {
-    "title": "CVE-2025-69534 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Product Security and Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13512",
-    "score": 9.1,
-    "date": "2026-11-12T17:02:18+00:00"
+    "title": "MAL-2026-18953 — Malicious code in budetzz (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18953",
+    "score": null,
+    "date": "2026-10-27T00:00:00Z"
    },
    {
-    "title": "CVE-2025-14550 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Product Security and Bug Fix Update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:13508",
-    "score": 9.1,
-    "date": "2026-11-12T17:02:16+00:00"
-   },
-   {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.9.21 (+5 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11996",
-    "score": 9.1,
-    "date": "2026-11-12T17:02:14+00:00"
-   },
-   {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.10.21 (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11916",
-    "score": 9.1,
-    "date": "2026-11-12T17:02:14+00:00"
-   },
-   {
-    "title": "CVE-2026-4427 — Red Hat Security Advisory: Red Hat Quay 3.12.17 (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:11856",
-    "score": 9.1,
-    "date": "2026-11-12T17:02:14+00:00"
+    "title": "MAL-2026-23 — Malicious code in showdownxss (npm)",
+    "url": "https://github.com/advisories/MAL-2026-23",
+    "score": null,
+    "date": "2026-01-02T22:06:48Z"
    }
   ],
   "kev": [
@@ -203,6 +149,20 @@
   ],
   "adv": [
    {
+    "title": "code16/sharp: Server-side request forgery through an unanchored autocomplete endpoint check",
+    "url": "https://github.com/advisories/GHSA-g6f8-c3x9-jv7f",
+    "score": 5.4,
+    "ghsa": "GHSA-g6f8-c3x9-jv7f",
+    "date": "2026-11-12T18:21:00Z"
+   },
+   {
+    "title": "code16/sharp: Arbitrary class instantiation through the embed_key API parameter",
+    "url": "https://github.com/advisories/GHSA-h24v-f482-8cwf",
+    "score": 5.4,
+    "ghsa": "GHSA-h24v-f482-8cwf",
+    "date": "2026-11-12T18:18:44Z"
+   },
+   {
     "title": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
     "url": "https://github.com/advisories/GHSA-4g86-54fm-h9h8",
     "score": 9.1,
@@ -271,23 +231,30 @@
     "score": 6.5,
     "ghsa": "GHSA-3893-7fxc-qvff",
     "date": "2026-11-11T00:28:01Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-7phj-vgxq-r67h",
-    "score": 6.5,
-    "ghsa": "GHSA-7phj-vgxq-r67h",
-    "date": "2026-11-11T00:25:04Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114156 - ASP.NET Core Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-8w29-6cjc-h6w4",
-    "score": 5.7,
-    "ghsa": "GHSA-8w29-6cjc-h6w4",
-    "date": "2026-11-11T00:24:05Z"
    }
   ],
   "thn": [
+   {
+    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+    "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+    "date": "Thu, 12 Nov 2026 23:37:15 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+    "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+    "date": "Thu, 12 Nov 2026 23:32:51 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+    "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+    "date": "Thu, 12 Nov 2026 23:20:27 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
     "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
@@ -324,13 +291,6 @@
     "badgeClass": "b-high"
    },
    {
-    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-    "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-    "date": "Thu, 12 Nov 2026 17:32:51 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
     "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
     "date": "Thu, 12 Nov 2026 17:21:43 +0530",
@@ -355,20 +315,6 @@
     "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
     "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
     "date": "Thu, 12 Nov 2026 14:55:00 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-    "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-    "date": "Thu, 12 Nov 2026 13:50:37 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-    "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-    "date": "Thu, 12 Nov 2026 12:12:47 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -463,13 +409,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3154,
+    "stars": 3156,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2078,
+    "stars": 2079,
     "lang": "Python"
    },
    {
@@ -487,7 +433,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 703,
+    "stars": 722,
     "lang": "Java"
    },
    {
@@ -511,7 +457,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 482,
+    "stars": 484,
     "lang": "C"
    },
    {
@@ -523,7 +469,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 418,
+    "stars": 420,
     "lang": "—"
    },
    {
@@ -642,9 +588,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "History of Password Cracking",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
-    "date": "2026-11-12T01:02:04+00:00",
+    "title": "prepared statements prevents SQLi. But it also helped me to exploit a 22 years old PostgreSQL 0-day RCE (CVE-2026-6460)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuh3jj/prepared_statements_prevents_sqli_but_it_also/",
+    "date": "2026-11-12T16:21:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -656,9 +602,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "prepared statements prevents SQLi. But it also helped me to exploit a 22 years old PostgreSQL 0-day RCE (CVE-2026-6460)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuh3jj/prepared_statements_prevents_sqli_but_it_also/",
-    "date": "2026-11-12T16:21:24+00:00",
+    "title": "History of Password Cracking",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
+    "date": "2026-11-12T01:02:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +663,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 3,
   "kev": 1779,
   "adv": 12,
   "feed": 48
