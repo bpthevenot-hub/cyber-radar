@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-12T20:21:47.801Z",
+ "generatedAt": "2026-11-12T21:22:07.208Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-62718 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.6 Container Release Update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59155",
+    "score": 9.8,
+    "date": "2026-11-12T20:20:46+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2025-69223 — Red Hat Security Advisory: Red Hat Ansible Automation Platform 2.5 Container Release Update (+7 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59159",
+    "score": 8.8,
+    "date": "2026-11-12T20:20:50+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.27.3 for Red Hat OpenShift Service Mesh 3.4 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59583",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:51+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.22.9 for Red Hat OpenShift Service Mesh 3.3 (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59566",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:51+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.11.16 for Red Hat OpenShift Service Mesh 3.1 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59561",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:51+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.17.13 for Red Hat OpenShift Service Mesh 3.2 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59554",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:50+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: Kiali 2.4.22 for Red Hat OpenShift Service Mesh 3.0 (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:59548",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:50+00:00"
+   },
+   {
+    "title": "CVE-2026-14257 — Red Hat Security Advisory: nodejs24 security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:58819",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:45+00:00"
+   },
+   {
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: rh-podman-desktop security, bug fix, and enhancement update (+23 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:57590",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:45+00:00"
+   },
+   {
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: Ansible plug-ins for Red Hat Developer Hub Product Release Update (+10 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56357",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:43+00:00"
+   },
+   {
+    "title": "CVE-2026-9595 — Red Hat Security Advisory: Ansible plug-ins for Red Hat Developer Hub Product Release Update (+12 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:56338",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:42+00:00"
+   },
+   {
+    "title": "CVE-2026-11822 — Red Hat Security Advisory: nodejs:24 security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:55603",
+    "score": 8.6,
+    "date": "2026-11-12T20:20:41+00:00"
    }
   ],
   "kev": [
@@ -131,6 +203,55 @@
   ],
   "adv": [
    {
+    "title": "Loofah: CSS url() sanitization bypass via escaped parentheses",
+    "url": "https://github.com/advisories/GHSA-m3x9-938q-5767",
+    "score": 4.7,
+    "ghsa": "GHSA-m3x9-938q-5767",
+    "date": "2026-11-12T21:05:41Z"
+   },
+   {
+    "title": "Loofah: Regular expression denial of service in the SVG local-reference check",
+    "url": "https://github.com/advisories/GHSA-mf2j-8f84-cc9q",
+    "score": 5.3,
+    "ghsa": "GHSA-mf2j-8f84-cc9q",
+    "date": "2026-11-12T21:00:42Z"
+   },
+   {
+    "title": "Loofah allowed_uri? treats data:text&sol;html as safe text/plain",
+    "url": "https://github.com/advisories/GHSA-jcff-cj73-4w4f",
+    "score": null,
+    "ghsa": "GHSA-jcff-cj73-4w4f",
+    "date": "2026-11-12T20:56:30Z"
+   },
+   {
+    "title": "Loofah: Mutation XSS in the HTML5 scrubbers through unescaped attribute values",
+    "url": "https://github.com/advisories/GHSA-h6v6-rg66-fqj4",
+    "score": 6.1,
+    "ghsa": "GHSA-h6v6-rg66-fqj4",
+    "date": "2026-11-12T20:52:09Z"
+   },
+   {
+    "title": "pgEdge Control Plane generates pg_hba.conf with trust authentication for local and loopback connections",
+    "url": "https://github.com/advisories/GHSA-vq9p-w6wv-cr25",
+    "score": 7.8,
+    "ghsa": "GHSA-vq9p-w6wv-cr25",
+    "date": "2026-11-12T20:46:03Z"
+   },
+   {
+    "title": "pgEdge RAG Server unbounded corpus read allows resource exhaustion from unauthenticated requests",
+    "url": "https://github.com/advisories/GHSA-5qg5-rgp6-j5m5",
+    "score": 7.5,
+    "ghsa": "GHSA-5qg5-rgp6-j5m5",
+    "date": "2026-11-12T20:37:38Z"
+   },
+   {
+    "title": "pgEdge RAG Server discloses part of the configured provider credential through API error messages",
+    "url": "https://github.com/advisories/GHSA-68g8-gh8f-7rhg",
+    "score": 5.8,
+    "ghsa": "GHSA-68g8-gh8f-7rhg",
+    "date": "2026-11-12T20:29:32Z"
+   },
+   {
     "title": "pgEdge RAG Server shared keyword index leaked results between concurrent unauthenticated requests",
     "url": "https://github.com/advisories/GHSA-w437-9mwm-j6vq",
     "score": 5.9,
@@ -164,55 +285,6 @@
     "score": 5.4,
     "ghsa": "GHSA-h24v-f482-8cwf",
     "date": "2026-11-12T18:18:44Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
-    "url": "https://github.com/advisories/GHSA-4g86-54fm-h9h8",
-    "score": 9.1,
-    "ghsa": "GHSA-4g86-54fm-h9h8",
-    "date": "2026-11-12T17:17:48Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-x8x8-p968-x646",
-    "score": 7.7,
-    "ghsa": "GHSA-x8x8-p968-x646",
-    "date": "2026-11-11T00:47:20Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-xf35-v9jh-g65w",
-    "score": 7.7,
-    "ghsa": "GHSA-xf35-v9jh-g65w",
-    "date": "2026-11-11T00:46:12Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability",
-    "url": "https://github.com/advisories/GHSA-6856-87hx-p5x7",
-    "score": 6.5,
-    "ghsa": "GHSA-6856-87hx-p5x7",
-    "date": "2026-11-11T00:39:12Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj",
-    "score": 7.7,
-    "ghsa": "GHSA-fpxj-5c99-g7vj",
-    "date": "2026-11-11T00:35:02Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7",
-    "score": 7.7,
-    "ghsa": "GHSA-r8h3-p8p6-ggp7",
-    "date": "2026-11-11T00:34:13Z"
-   },
-   {
-    "title": "Microsoft Security Advisory CVE-2026-114159 - Visual Studio Remote Code Execution Vulnerability",
-    "url": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
-    "score": 7.7,
-    "ghsa": "GHSA-3cgx-w6gm-fqrx",
-    "date": "2026-11-11T00:32:59Z"
    }
   ],
   "thn": [
@@ -391,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3158,
+    "stars": 3161,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2080,
+    "stars": 2081,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1138,
+    "stars": 1139,
     "lang": "TypeScript"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 743,
+    "stars": 750,
     "lang": "Java"
    },
    {
@@ -439,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 485,
+    "stars": 486,
     "lang": "C"
    },
    {
@@ -612,16 +684,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
-    "date": "2026-11-11T14:55:07+00:00",
+    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
+    "date": "2026-11-11T15:15:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-    "date": "2026-11-11T15:15:12+00:00",
+    "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
+    "date": "2026-11-11T14:55:07+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -645,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1779,
   "adv": 12,
   "feed": 48
