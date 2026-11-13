@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T19:22:18.459Z",
+ "generatedAt": "2026-11-13T20:22:47.296Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,30 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-128081 — AutoMapper: Denial of Service via uncontrolled recursion that bypasses MaxDepth",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128081",
+    "score": 7.5,
+    "date": "2026-11-13T18:47:17Z"
+   },
+   {
+    "title": "CVE-2026-128085 — opentelemetry-go: AttributeValueLengthLimit is fully bypassed by attribute values composed of valid U+FFFD runes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128085",
+    "score": 5.3,
+    "date": "2026-11-13T19:00:55Z"
+   },
+   {
+    "title": "CVE-2026-128084 — sqlite3-ruby: Possible SQL query truncation when a string is 4 GiB or larger",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128084",
+    "score": 4.8,
+    "date": "2026-11-13T18:57:58Z"
+   },
+   {
+    "title": "CVE-2026-128083 — Laravel: Task Output Injection - Concurrency Process",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128083",
+    "score": 2,
+    "date": "2026-11-13T18:54:31Z"
    }
   ],
   "kev": [
@@ -131,6 +155,27 @@
   ],
   "adv": [
    {
+    "title": "dnspython has excessive memory and CPU use",
+    "url": "https://github.com/advisories/GHSA-vvf4-9x63-8xvv",
+    "score": 7.5,
+    "ghsa": "GHSA-vvf4-9x63-8xvv",
+    "date": "2026-11-13T20:19:13Z"
+   },
+   {
+    "title": "Nuxt: Incomplete fix for GHSA-9v7c-q64q-vv33: a leading `//` in the request path bypasses `server/middleware` path checks and server route rules on pa",
+    "url": "https://github.com/advisories/GHSA-r99w-jh2x-3mg9",
+    "score": 6.5,
+    "ghsa": "GHSA-r99w-jh2x-3mg9",
+    "date": "2026-11-13T19:32:21Z"
+   },
+   {
+    "title": "OpenTelemetry JavaScript: Insertion of Sensitive Information into Log File and Exposure of Sensitive Information to an Unauthorized Actor in @opentele",
+    "url": "https://github.com/advisories/GHSA-3v2p-hm54-8qcq",
+    "score": 5.8,
+    "ghsa": "GHSA-3v2p-hm54-8qcq",
+    "date": "2026-11-13T19:29:20Z"
+   },
+   {
     "title": "AutoMapper: Uncontrolled Recursion with Constructor Parameters",
     "url": "https://github.com/advisories/GHSA-6vhm-j9h7-f9gh",
     "score": 7.5,
@@ -192,27 +237,6 @@
     "score": 2,
     "ghsa": "GHSA-mh32-jxcr-mh9f",
     "date": "2026-11-13T18:39:54Z"
-   },
-   {
-    "title": "Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
-    "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
-    "score": null,
-    "ghsa": "GHSA-r3h5-4585-7x3w",
-    "date": "2026-11-13T18:35:59Z"
-   },
-   {
-    "title": "Nuxt dev server serves files from a parent directory with a stray lockfile or workspace file",
-    "url": "https://github.com/advisories/GHSA-mjrq-cffv-q4qc",
-    "score": 5.9,
-    "ghsa": "GHSA-mjrq-cffv-q4qc",
-    "date": "2026-11-13T18:11:49Z"
-   },
-   {
-    "title": "rails-html-sanitizer: Possible XSS via shared scrubber state in concurrent calls",
-    "url": "https://github.com/advisories/GHSA-h7wh-q2qr-458c",
-    "score": 4.7,
-    "ghsa": "GHSA-h7wh-q2qr-458c",
-    "date": "2026-11-13T18:09:16Z"
    }
   ],
   "thn": [
@@ -303,6 +327,13 @@
   ],
   "bleep": [
    {
+    "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+    "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+    "date": "Fri, 13 Nov 2026 14:38:36 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "German military drone operations disrupted by cyberattack",
     "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
     "date": "Fri, 13 Nov 2026 12:31:56 -0500",
@@ -378,13 +409,6 @@
     "date": "Thu, 12 Nov 2026 14:51:16 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-    "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-    "date": "Thu, 12 Nov 2026 14:12:55 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +421,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2104,
+    "stars": 2105,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1179,
+    "stars": 1181,
     "lang": "TypeScript"
    },
    {
@@ -445,7 +469,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 433,
+    "stars": 431,
     "lang": "—"
    },
    {
