@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-12T23:22:09.117Z",
+ "generatedAt": "2026-11-13T00:41:52.941Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2025-31936 — Red Hat Security Advisory: OpenShift Container Platform 5.0.1 bug fix and security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94537",
+    "score": 9.8,
+    "date": "2026-11-12T23:25:00+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,16 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-126346 — basic-ftp: Uncaught exception crashes the Node.js process when a password (or resumed-download path) contains CR/LF",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126346",
-    "score": 5.9,
-    "date": "2026-11-12T22:23:50Z"
+    "title": "CVE-2026-52912 — Red Hat Security Advisory: kernel security update (+21 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98047",
+    "score": 8.8,
+    "date": "2026-11-12T23:29:06+00:00"
    },
    {
-    "title": "CVE-2026-126354 — Addressable URI normalization resolves some dotted path segments to the wrong path",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126354",
-    "score": 4.8,
-    "date": "2026-11-12T22:27:58Z"
+    "title": "CVE-2026-43206 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98239",
+    "score": 8.8,
+    "date": "2026-11-12T23:29:03+00:00"
+   },
+   {
+    "title": "CVE-2026-2291 — Red Hat Security Advisory: dnsmasq security, bug fix, and enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98116",
+    "score": 8.8,
+    "date": "2026-11-12T23:25:13+00:00"
+   },
+   {
+    "title": "CVE-2026-2291 — Red Hat Security Advisory: dnsmasq security, bug fix, and enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96246",
+    "score": 8.8,
+    "date": "2026-11-12T23:25:11+00:00"
+   },
+   {
+    "title": "CVE-2026-2291 — Red Hat Security Advisory: dnsmasq security, bug fix, and enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96241",
+    "score": 8.8,
+    "date": "2026-11-12T23:25:11+00:00"
+   },
+   {
+    "title": "CVE-2026-64541 — Red Hat Security Advisory: kernel security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95370",
+    "score": 8.8,
+    "date": "2026-11-12T23:25:09+00:00"
+   },
+   {
+    "title": "CVE-2026-18379 — Red Hat Security Advisory: yggdrasil-worker-package-manager security update",
+    "url": "https://access.redhat.com/errata/RHSA-2026:96082",
+    "score": 8.8,
+    "date": "2026-11-12T23:25:05+00:00"
+   },
+   {
+    "title": "CVE-2026-43450 — Red Hat Security Advisory: kernel-rt security update (+9 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95721",
+    "score": 8.8,
+    "date": "2026-11-12T23:25:04+00:00"
+   },
+   {
+    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95477",
+    "score": 8.6,
+    "date": "2026-11-12T23:28:43+00:00"
+   },
+   {
+    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95435",
+    "score": 8.6,
+    "date": "2026-11-12T23:25:15+00:00"
+   },
+   {
+    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+11 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95478",
+    "score": 8.6,
+    "date": "2026-11-12T23:25:08+00:00"
    }
   ],
   "kev": [
@@ -143,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "@grpc/grpc-js: safe_regex incorrectly applies partial string matching for patterns with alternation",
-    "url": "https://github.com/advisories/GHSA-r7hq-q2xm-6c5m",
-    "score": 4.8,
-    "ghsa": "GHSA-r7hq-q2xm-6c5m",
-    "date": "2026-11-12T23:21:57Z"
+    "title": "Active Storage: Possible arbitrary file write and read in image analysis",
+    "url": "https://github.com/advisories/GHSA-f3w6-w445-fwh9",
+    "score": 9.8,
+    "ghsa": "GHSA-f3w6-w445-fwh9",
+    "date": "2026-11-12T23:46:51Z"
    },
    {
-    "title": "@grpc/grpc-js: RBAC override configs in VirtualHost and Route resources are not applied",
-    "url": "https://github.com/advisories/GHSA-gg5j-6742-v827",
-    "score": null,
-    "ghsa": "GHSA-gg5j-6742-v827",
-    "date": "2026-11-12T22:55:47Z"
+    "title": "Action Pack: Possible DoS vulnerability in Action Controller Live streaming",
+    "url": "https://github.com/advisories/GHSA-rwvh-fw6r-pwvp",
+    "score": 5.9,
+    "ghsa": "GHSA-rwvh-fw6r-pwvp",
+    "date": "2026-11-12T23:45:24Z"
    },
    {
-    "title": "msgpack-ruby JRuby decoder makes uncapped header-count allocations; a 5-byte message forces multi-GiB OOM",
-    "url": "https://github.com/advisories/GHSA-73v3-wf97-vpgj",
+    "title": "Action Pack: Possible sensitive session information leak in Active Storage proxy mode",
+    "url": "https://github.com/advisories/GHSA-x6mj-8jx9-qhqv",
+    "score": 6.8,
+    "ghsa": "GHSA-x6mj-8jx9-qhqv",
+    "date": "2026-11-12T23:44:39Z"
+   },
+   {
+    "title": "Action View: Possible XSS vulnerability in highlight helper",
+    "url": "https://github.com/advisories/GHSA-v6rj-xm57-3p59",
+    "score": 6.1,
+    "ghsa": "GHSA-v6rj-xm57-3p59",
+    "date": "2026-11-12T23:41:50Z"
+   },
+   {
+    "title": "Action View: Possible XSS vulnerability in strip_tags",
+    "url": "https://github.com/advisories/GHSA-rq8q-p985-fjq7",
+    "score": 6.1,
+    "ghsa": "GHSA-rq8q-p985-fjq7",
+    "date": "2026-11-12T23:39:41Z"
+   },
+   {
+    "title": "Action View: Possible XSS vulnerability in text helpers",
+    "url": "https://github.com/advisories/GHSA-2p2f-4rq4-gjwc",
+    "score": 6.1,
+    "ghsa": "GHSA-2p2f-4rq4-gjwc",
+    "date": "2026-11-12T23:38:57Z"
+   },
+   {
+    "title": "Active Storage: Unsigned Content-Type in GCS direct uploads with cache_control",
+    "url": "https://github.com/advisories/GHSA-3w93-6hmw-whh4",
+    "score": 4.7,
+    "ghsa": "GHSA-3w93-6hmw-whh4",
+    "date": "2026-11-12T23:37:55Z"
+   },
+   {
+    "title": "Action Pack: Possible Strong Parameters Bypass in Parameters#each_key",
+    "url": "https://github.com/advisories/GHSA-wm3x-v3qw-4jh3",
     "score": 7.5,
-    "ghsa": "GHSA-73v3-wf97-vpgj",
-    "date": "2026-11-12T22:54:59Z"
+    "ghsa": "GHSA-wm3x-v3qw-4jh3",
+    "date": "2026-11-12T23:37:09Z"
    },
    {
-    "title": "Addressable display_uri can show misleading hosts with invalid Punycode A-labels",
-    "url": "https://github.com/advisories/GHSA-9crm-g4mf-wc5j",
-    "score": 4.3,
-    "ghsa": "GHSA-9crm-g4mf-wc5j",
-    "date": "2026-11-12T22:44:57Z"
+    "title": "Pillow: Memory DoS in TIFF and EXIF IFD parsing via overlapping tag data",
+    "url": "https://github.com/advisories/GHSA-wqgw-9xfh-qf2g",
+    "score": null,
+    "ghsa": "GHSA-wqgw-9xfh-qf2g",
+    "date": "2026-11-12T23:35:39Z"
    },
    {
-    "title": "Addressable display_uri can show misleading hosts containing bidi and invisible characters",
-    "url": "https://github.com/advisories/GHSA-539f-xcgw-2gjg",
-    "score": 3.1,
-    "ghsa": "GHSA-539f-xcgw-2gjg",
-    "date": "2026-11-12T22:44:15Z"
+    "title": "Pillow: Heap buffer overflow saving TIFF with libtiff when tags override image size",
+    "url": "https://github.com/advisories/GHSA-xcvg-w56q-r89m",
+    "score": 7.5,
+    "ghsa": "GHSA-xcvg-w56q-r89m",
+    "date": "2026-11-12T23:34:43Z"
    },
    {
-    "title": "Addressable: Denial of service in URI path normalization",
-    "url": "https://github.com/advisories/GHSA-qq38-m9mg-xjj5",
-    "score": 5.9,
-    "ghsa": "GHSA-qq38-m9mg-xjj5",
-    "date": "2026-11-12T22:35:33Z"
+    "title": "Hono: `csrf()` does not check requests sent by hyperlink auditing (`text/ping`)",
+    "url": "https://github.com/advisories/GHSA-46wx-v44x-9hh2",
+    "score": 5.3,
+    "ghsa": "GHSA-46wx-v44x-9hh2",
+    "date": "2026-11-12T23:31:25Z"
    },
    {
-    "title": "Astro: Reflected XSS via unescaped slot names in @astrojs/solid-js",
-    "url": "https://github.com/advisories/GHSA-jmv2-qgxf-f995",
-    "score": 2,
-    "ghsa": "GHSA-jmv2-qgxf-f995",
-    "date": "2026-11-12T22:34:44Z"
-   },
-   {
-    "title": "Astro: Reflected XSS via unescaped slot names in @astrojs/svelte",
-    "url": "https://github.com/advisories/GHSA-f4j9-crrj-867q",
-    "score": 2,
-    "ghsa": "GHSA-f4j9-crrj-867q",
-    "date": "2026-11-12T22:34:04Z"
-   },
-   {
-    "title": "Addressable: Regular Expression Denial of Service in templates with certain exploded expressions",
-    "url": "https://github.com/advisories/GHSA-j82w-28jv-3pmj",
-    "score": 5.9,
-    "ghsa": "GHSA-j82w-28jv-3pmj",
-    "date": "2026-11-12T22:30:37Z"
-   },
-   {
-    "title": "Addressable: Regular Expression Denial of Service in templates with multiple variables",
-    "url": "https://github.com/advisories/GHSA-9f42-57jx-vpp3",
-    "score": 5.9,
-    "ghsa": "GHSA-9f42-57jx-vpp3",
-    "date": "2026-11-12T22:29:35Z"
-   },
-   {
-    "title": "Addressable URI normalization resolves some dotted path segments to the wrong path",
-    "url": "https://github.com/advisories/GHSA-8gmh-2hhj-2hv9",
-    "score": 4.8,
-    "ghsa": "GHSA-8gmh-2hhj-2hv9",
-    "date": "2026-11-12T22:27:58Z"
-   },
-   {
-    "title": "basic-ftp: Uncaught exception crashes the Node.js process when a password (or resumed-download path) contains CR/LF",
-    "url": "https://github.com/advisories/GHSA-r4jh-29pc-gfqr",
-    "score": 5.9,
-    "ghsa": "GHSA-r4jh-29pc-gfqr",
-    "date": "2026-11-12T22:23:50Z"
+    "title": "Hono: `validator('form')` skips validation for `multipart/form-data` requests with extra parameters",
+    "url": "https://github.com/advisories/GHSA-4h7h-rv7c-7m2v",
+    "score": 5.3,
+    "ghsa": "GHSA-4h7h-rv7c-7m2v",
+    "date": "2026-11-12T23:30:45Z"
    }
   ],
   "thn": [
@@ -403,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3162,
+    "stars": 3163,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2084,
+    "stars": 2086,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1141,
+    "stars": 1142,
     "lang": "TypeScript"
    },
    {
@@ -427,19 +487,19 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 759,
+    "stars": 762,
     "lang": "Java"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 624,
+    "stars": 625,
     "lang": "Kotlin"
    },
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 538,
+    "stars": 539,
     "lang": "Rust"
    },
    {
@@ -469,7 +529,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 330,
+    "stars": 329,
     "lang": "JavaScript"
    }
   ],
@@ -575,9 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "How we defended against an AI-driven ARTEX attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
-    "date": "2026-11-12T13:36:34+00:00",
+    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
+    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
+    "date": "2026-11-12T22:58:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -589,16 +649,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
-    "date": "2026-11-12T17:09:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
-    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
-    "date": "2026-11-12T22:58:44+00:00",
+    "title": "How we defended against an AI-driven ARTEX attack",
+    "url": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
+    "date": "2026-11-12T13:36:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -606,6 +659,13 @@
     "title": "JSON Schema References Considered Harmful",
     "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
     "date": "2026-11-12T22:35:34+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
+    "date": "2026-11-12T17:09:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -638,9 +698,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
-    "date": "2026-11-11T14:55:07+00:00",
+    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
+    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
+    "date": "2026-11-11T15:15:12+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
@@ -657,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 3,
   "kev": 1779,
   "adv": 12,
   "feed": 48
