@@ -1,7 +1,55 @@
 {
- "generatedAt": "2026-11-13T13:22:47.259Z",
+ "generatedAt": "2026-11-13T14:22:49.367Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay - 3.15.9 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99023",
+    "score": 9.9,
+    "date": "2026-11-13T13:30:04+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98954",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:36+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98982",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:34+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98981",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:34+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98979",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:33+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98978",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:33+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98968",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:33+00:00"
+   },
+   {
+    "title": "CVE-2026-57941 — Red Hat Security Advisory: mod_http2 security update (+1 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98953",
+    "score": 9.8,
+    "date": "2026-11-13T13:33:31+00:00"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +63,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2025-61729 — Red Hat Security Advisory: RHOAI 2.25.11 - Red Hat OpenShift AI (+116 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65126",
-    "score": 9.3,
-    "date": "2026-11-13T12:07:43+00:00"
+    "title": "CVE-2026-71199 — Red Hat Security Advisory: krb5 security, bug fix, and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99716",
+    "score": 8.1,
+    "date": "2026-11-13T13:30:23+00:00"
    },
    {
-    "title": "CVE-2026-15416 — Red Hat Security Advisory: Red Hat OpenShift GitOps v1.19.6 security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:52857",
-    "score": 8.9,
-    "date": "2026-11-13T12:26:42+00:00"
+    "title": "CVE-2026-71199 — Red Hat Security Advisory: krb5 security, bug fix, and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99715",
+    "score": 8.1,
+    "date": "2026-11-13T13:30:23+00:00"
    },
    {
-    "title": "CVE-2026-27137 — Red Hat Security Advisory: grafana-pcp security update (+8 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:67159",
-    "score": 8.8,
-    "date": "2026-11-13T12:08:13+00:00"
+    "title": "CVE-2026-71199 — Red Hat Security Advisory: krb5 security, bug fix, and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99625",
+    "score": 8.1,
+    "date": "2026-11-13T13:30:22+00:00"
    },
    {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Logging for Red Hat OpenShift - 6.6.1 (+22 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66521",
-    "score": 8.8,
-    "date": "2026-11-13T12:08:05+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: OpenShift Container Platform 4.22.14 bug fix and security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66358",
-    "score": 8.8,
-    "date": "2026-11-13T12:08:01+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security, bug fix, and enhancement update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66327",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:59+00:00"
-   },
-   {
-    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat OpenShift API for Data Protection (+32 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:66022",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:59+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: osbuild-composer security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65895",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:52+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65880",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:50+00:00"
-   },
-   {
-    "title": "CVE-2026-32280 — Red Hat Security Advisory: image-builder security update (+13 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65534",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:49+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: ignition security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:65359",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:47+00:00"
-   },
-   {
-    "title": "CVE-2026-33810 — Red Hat Security Advisory: buildah security update (+6 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63332",
-    "score": 8.8,
-    "date": "2026-11-13T12:07:34+00:00"
+    "title": "CVE-2026-71199 — Red Hat Security Advisory: krb5 security, bug fix, and enhancement update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99624",
+    "score": 8.1,
+    "date": "2026-11-13T13:30:22+00:00"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3198,
+    "stars": 3199,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1165,
+    "stars": 1167,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 10,
   "kev": 1779,
   "adv": 12,
   "feed": 48
