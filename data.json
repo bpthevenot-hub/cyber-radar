@@ -1,12 +1,24 @@
 {
- "generatedAt": "2026-11-13T00:41:52.941Z",
+ "generatedAt": "2026-11-13T01:21:40.757Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2025-31936 — Red Hat Security Advisory: OpenShift Container Platform 5.0.1 bug fix and security update (+18 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94537",
+    "title": "CVE-2026-47683 — Red Hat Security Advisory: Red Hat Developer Hub 1.9.10 release. (+31 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:91651",
+    "score": 10,
+    "date": "2026-11-13T00:33:47+00:00"
+   },
+   {
+    "title": "CVE-2024-57793 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+89 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98608",
     "score": 9.8,
-    "date": "2026-11-12T23:25:00+00:00"
+    "date": "2026-11-13T00:33:59+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.15.71 packages and security update (+5 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95754",
+    "score": 9.8,
+    "date": "2026-11-13T00:33:56+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-52912 — Red Hat Security Advisory: kernel security update (+21 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98047",
+    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98454",
     "score": 8.8,
-    "date": "2026-11-12T23:29:06+00:00"
+    "date": "2026-11-13T00:33:58+00:00"
    },
    {
-    "title": "CVE-2026-43206 — Red Hat Security Advisory: kernel security, bug fix, and enhancement update (+31 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98239",
+    "title": "CVE-2026-53488 — Red Hat Security Advisory: Red Hat OpenShift for Windows Containers 11.0 product release (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:94562",
     "score": 8.8,
-    "date": "2026-11-12T23:29:03+00:00"
+    "date": "2026-11-13T00:33:52+00:00"
    },
    {
-    "title": "CVE-2026-2291 — Red Hat Security Advisory: dnsmasq security, bug fix, and enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98116",
+    "title": "CVE-2026-15307 — Red Hat Security Advisory: Satellite 6.19 security update (+46 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92861",
     "score": 8.8,
-    "date": "2026-11-12T23:25:13+00:00"
+    "date": "2026-11-13T00:33:52+00:00"
    },
    {
-    "title": "CVE-2026-2291 — Red Hat Security Advisory: dnsmasq security, bug fix, and enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96246",
-    "score": 8.8,
-    "date": "2026-11-12T23:25:11+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: rhc security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98794",
+    "score": 8.2,
+    "date": "2026-11-13T00:34:00+00:00"
    },
    {
-    "title": "CVE-2026-2291 — Red Hat Security Advisory: dnsmasq security, bug fix, and enhancement update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96241",
-    "score": 8.8,
-    "date": "2026-11-12T23:25:11+00:00"
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: OpenShift Container Platform 4.13.73 packages and security update (+3 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95744",
+    "score": 8.2,
+    "date": "2026-11-13T00:33:56+00:00"
    },
    {
-    "title": "CVE-2026-64541 — Red Hat Security Advisory: kernel security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95370",
-    "score": 8.8,
-    "date": "2026-11-12T23:25:09+00:00"
+    "title": "CVE-2024-45336 — Red Hat Security Advisory: git-lfs security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:95234",
+    "score": 8.2,
+    "date": "2026-11-13T00:33:55+00:00"
    },
    {
-    "title": "CVE-2026-18379 — Red Hat Security Advisory: yggdrasil-worker-package-manager security update",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96082",
-    "score": 8.8,
-    "date": "2026-11-12T23:25:05+00:00"
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.18 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92860",
+    "score": 8.2,
+    "date": "2026-11-13T00:33:49+00:00"
    },
    {
-    "title": "CVE-2026-43450 — Red Hat Security Advisory: kernel-rt security update (+9 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95721",
-    "score": 8.8,
-    "date": "2026-11-12T23:25:04+00:00"
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.17 security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92859",
+    "score": 8.2,
+    "date": "2026-11-13T00:33:49+00:00"
    },
    {
-    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95477",
-    "score": 8.6,
-    "date": "2026-11-12T23:28:43+00:00"
-   },
-   {
-    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95435",
-    "score": 8.6,
-    "date": "2026-11-12T23:25:15+00:00"
-   },
-   {
-    "title": "CVE-2026-3039 — Red Hat Security Advisory: bind security, bug fix, and enhancement update (+11 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95478",
-    "score": 8.6,
-    "date": "2026-11-12T23:25:08+00:00"
+    "title": "CVE-2026-8924 — Red Hat Security Advisory: Satellite 6.16 EUS security update (+16 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:92858",
+    "score": 8.2,
+    "date": "2026-11-13T00:33:49+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+    "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
+    "score": 9.8,
+    "ghsa": "GHSA-x585-4vv8-2mh2",
+    "date": "2026-11-13T01:09:54Z"
+   },
+   {
+    "title": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+    "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
+    "score": 7.5,
+    "ghsa": "GHSA-mmhr-3c5m-f64f",
+    "date": "2026-11-13T00:49:46Z"
+   },
+   {
+    "title": "Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
+    "url": "https://github.com/advisories/GHSA-4j63-6c4x-wfg4",
+    "score": null,
+    "ghsa": "GHSA-4j63-6c4x-wfg4",
+    "date": "2026-11-13T00:45:18Z"
+   },
+   {
     "title": "Active Storage: Possible arbitrary file write and read in image analysis",
     "url": "https://github.com/advisories/GHSA-f3w6-w445-fwh9",
     "score": 9.8,
@@ -264,27 +285,6 @@
     "score": null,
     "ghsa": "GHSA-wqgw-9xfh-qf2g",
     "date": "2026-11-12T23:35:39Z"
-   },
-   {
-    "title": "Pillow: Heap buffer overflow saving TIFF with libtiff when tags override image size",
-    "url": "https://github.com/advisories/GHSA-xcvg-w56q-r89m",
-    "score": 7.5,
-    "ghsa": "GHSA-xcvg-w56q-r89m",
-    "date": "2026-11-12T23:34:43Z"
-   },
-   {
-    "title": "Hono: `csrf()` does not check requests sent by hyperlink auditing (`text/ping`)",
-    "url": "https://github.com/advisories/GHSA-46wx-v44x-9hh2",
-    "score": 5.3,
-    "ghsa": "GHSA-46wx-v44x-9hh2",
-    "date": "2026-11-12T23:31:25Z"
-   },
-   {
-    "title": "Hono: `validator('form')` skips validation for `multipart/form-data` requests with extra parameters",
-    "url": "https://github.com/advisories/GHSA-4h7h-rv7c-7m2v",
-    "score": 5.3,
-    "ghsa": "GHSA-4h7h-rv7c-7m2v",
-    "date": "2026-11-12T23:30:45Z"
    }
   ],
   "thn": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3163,
+    "stars": 3165,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2086,
+    "stars": 2087,
     "lang": "Python"
    },
    {
@@ -487,13 +487,13 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 762,
+    "stars": 767,
     "lang": "Java"
    },
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 625,
+    "stars": 626,
     "lang": "Kotlin"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 485,
+    "stars": 486,
     "lang": "C"
    },
    {
@@ -656,6 +656,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "Massive ‘wfx-loot’ Campaign Probes Over 60,000 GitHub Repositories to Steal CI and Cloud Secrets",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuug3s/massive_wfxloot_campaign_probes_over_60000_github/",
+    "date": "2026-11-13T01:12:20+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "JSON Schema References Considered Harmful",
     "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
     "date": "2026-11-12T22:35:34+00:00",
@@ -696,13 +703,6 @@
     "date": "2026-11-11T14:33:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-    "date": "2026-11-11T15:15:12+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1779,
   "adv": 12,
   "feed": 48
