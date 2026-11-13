@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T16:23:12.018Z",
+ "generatedAt": "2026-11-13T16:52:58.126Z",
  "sources": {
   "cve": [
    {
@@ -17,119 +17,140 @@
   ],
   "kev": [
    {
-    "title": "CVE-2020-29583 — Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-29583",
+    "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111560",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
-    "vendor": "Zyxel",
-    "date": "2021-11-03"
+    "vendor": "Barracuda Networks",
+    "date": "2026-11-10"
    },
    {
-    "title": "CVE-2019-8394 — Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2019-8394",
+    "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111793",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
-    "vendor": "Zoho",
-    "date": "2021-11-03"
+    "vendor": "Openwave Messaging Limited",
+    "date": "2026-11-10"
    },
    {
-    "title": "CVE-2020-10189 — Zoho ManageEngine Desktop Central File Upload Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-10189",
+    "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116606",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
-    "vendor": "Zoho",
-    "date": "2021-11-03"
+    "vendor": "Barracuda Networks",
+    "date": "2026-11-10"
    },
    {
-    "title": "CVE-2021-40539 — Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2021-40539",
+    "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124194",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
-    "vendor": "Zoho",
-    "date": "2021-11-03"
+    "vendor": "Microsoft",
+    "date": "2026-11-10"
    },
    {
-    "title": "CVE-2021-27561 — Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2021-27561",
+    "title": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125350",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
-    "vendor": "Yealink",
-    "date": "2021-11-03"
+    "vendor": "Google",
+    "date": "2026-11-10"
    },
    {
-    "title": "CVE-2019-9978 — WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2019-9978",
+    "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20320",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Cisco",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-102895 — GPUStack Improper Authentication Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102895",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "GPUStack",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116779",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "SignalWire",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123158",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "OpenBSD",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-123218 — IBM Aspera Faspex Incorrect Authorization Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123218",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "IBM",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-19868 — SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19868",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "SonicWall",
+    "date": "2026-11-06"
+   },
+   {
+    "title": "CVE-2024-27834 — Apple Multiple Products Improper Authentication Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-27834",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Apple",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "CVE-2026-119977 — WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-119977",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
     "vendor": "WordPress",
-    "date": "2021-11-03"
+    "date": "2026-11-03"
    },
    {
-    "title": "CVE-2020-11738 — WordPress Snap Creek Duplicator Plugin File Download Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-11738",
+    "title": "CVE-2026-111357 — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111357",
     "badge": "EXPLOITÉE",
     "badgeClass": "b-crit",
-    "vendor": "WordPress",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2020-25213 — WordPress File Manager Plugin Remote Code Execution Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-25213",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "WordPress",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2020-4006 — Multiple VMware Products Command Injection Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-4006",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "VMware",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2021-21985 — VMware vCenter Server Improper Input Validation Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2021-21985",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "VMware",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2021-21972 — VMware vCenter Server Remote Code Execution Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2021-21972",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "VMware",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2020-3952 — VMware vCenter Server Information Disclosure Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-3952",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "VMware",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2021-22005 — VMware vCenter Server File Upload Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2021-22005",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "VMware",
-    "date": "2021-11-03"
-   },
-   {
-    "title": "CVE-2020-3950 — VMware Multiple Products Privilege Escalation Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2020-3950",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "VMware",
-    "date": "2021-11-03"
+    "vendor": "Ivanti",
+    "date": "2026-10-30"
    }
   ],
   "adv": [
+   {
+    "title": "OpenTelemetry Python API: Denial of service through quadratic-time traceparent parsing",
+    "url": "https://github.com/advisories/GHSA-mf5v-w3w3-f6cg",
+    "score": 5.3,
+    "ghsa": "GHSA-mf5v-w3w3-f6cg",
+    "date": "2026-11-13T16:43:18Z"
+   },
+   {
+    "title": "Soup Sieve: Exponential ReDoS in selector compilation via \\9-run in CSS_ESCAPES/IDENTIFIER",
+    "url": "https://github.com/advisories/GHSA-6655-6qjp-jx7x",
+    "score": 7.5,
+    "ghsa": "GHSA-6655-6qjp-jx7x",
+    "date": "2026-11-13T16:39:43Z"
+   },
+   {
+    "title": "Soup Sieve: Uncontrolled recursion in CSS parser lets nested pseudo-class selectors exhaust the Python call stack",
+    "url": "https://github.com/advisories/GHSA-7g44-g9rc-x53w",
+    "score": 5.3,
+    "ghsa": "GHSA-7g44-g9rc-x53w",
+    "date": "2026-11-13T16:34:59Z"
+   },
    {
     "title": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
     "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
@@ -192,27 +213,6 @@
     "score": 6.1,
     "ghsa": "GHSA-2p2f-4rq4-gjwc",
     "date": "2026-11-12T23:38:57Z"
-   },
-   {
-    "title": "Active Storage: Unsigned Content-Type in GCS direct uploads with cache_control",
-    "url": "https://github.com/advisories/GHSA-3w93-6hmw-whh4",
-    "score": 4.7,
-    "ghsa": "GHSA-3w93-6hmw-whh4",
-    "date": "2026-11-12T23:37:55Z"
-   },
-   {
-    "title": "Action Pack: Possible Strong Parameters Bypass in Parameters#each_key",
-    "url": "https://github.com/advisories/GHSA-wm3x-v3qw-4jh3",
-    "score": 7.5,
-    "ghsa": "GHSA-wm3x-v3qw-4jh3",
-    "date": "2026-11-12T23:37:09Z"
-   },
-   {
-    "title": "Pillow: Memory DoS in TIFF and EXIF IFD parsing via overlapping tag data",
-    "url": "https://github.com/advisories/GHSA-wqgw-9xfh-qf2g",
-    "score": null,
-    "ghsa": "GHSA-wqgw-9xfh-qf2g",
-    "date": "2026-11-12T23:35:39Z"
    }
   ],
   "thn": [
@@ -391,7 +391,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3202,
+    "stars": 3204,
     "lang": "Go"
    },
    {
@@ -403,7 +403,7 @@
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1174,
+    "stars": 1175,
     "lang": "TypeScript"
    },
    {
