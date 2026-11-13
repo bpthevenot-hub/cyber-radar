@@ -1,19 +1,7 @@
 {
- "generatedAt": "2026-11-13T15:21:46.424Z",
+ "generatedAt": "2026-11-13T16:23:12.018Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-77403 — Red Hat Security Advisory: Red Hat Quay - 3.18.3 (+26 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:99019",
-    "score": 9.9,
-    "date": "2026-11-13T13:42:40+00:00"
-   },
-   {
-    "title": "CVE-2026-27136 — Red Hat Security Advisory: Submariner v0.24 security fixes and container updates (+12 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:63016",
-    "score": 9.9,
-    "date": "2026-11-13T13:42:32+00:00"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -25,66 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94634",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:41+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98503",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:40+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94557",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:40+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95012",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:39+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98612",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:38+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94523",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:37+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.5.2 enhancement update (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92449",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:36+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94501",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:35+00:00"
-   },
-   {
-    "title": "CVE-2026-102266 — Red Hat Security Advisory: fence-agents security update (+4 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:94500",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:35+00:00"
-   },
-   {
-    "title": "CVE-2025-6170 — Red Hat Security Advisory: Red Hat Enterprise Linux AI 3.5.2 enhancement update (+70 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:92452",
-    "score": 9.1,
-    "date": "2026-11-13T14:04:34+00:00"
    }
   ],
   "kev": [
@@ -289,6 +217,13 @@
   ],
   "thn": [
    {
+    "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+    "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+    "date": "Fri, 13 Nov 2026 20:57:05 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
     "date": "Fri, 13 Nov 2026 19:58:58 +0530",
@@ -364,16 +299,16 @@
     "date": "Thu, 12 Nov 2026 21:57:01 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-    "date": "Thu, 12 Nov 2026 21:08:49 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "date": "Fri, 13 Nov 2026 11:21:43 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "How one AI agent exposed five critical enterprise security gaps",
     "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
@@ -450,38 +385,31 @@
     "date": "Thu, 12 Nov 2026 11:04:00 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-    "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-    "date": "Thu, 12 Nov 2026 10:07:20 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3201,
+    "stars": 3202,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2098,
+    "stars": 2100,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1171,
+    "stars": 1174,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 920,
+    "stars": 921,
     "lang": "TypeScript"
    },
    {
@@ -499,7 +427,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 540,
+    "stars": 541,
     "lang": "Rust"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 492,
+    "stars": 495,
     "lang": "C"
    },
    {
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1779,
   "adv": 12,
   "feed": 48
