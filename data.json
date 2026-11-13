@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-11-13T03:25:10.502Z",
+ "generatedAt": "2026-11-13T04:23:50.312Z",
  "sources": {
   "cve": [
+   {
+    "title": "RLSA-2026:96235 — Moderate: ruby security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:96235",
+    "score": 9.8,
+    "date": "2026-11-10T12:09:45.660151Z"
+   },
+   {
+    "title": "RLSA-2026:96233 — Moderate: ruby4.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:96233",
+    "score": 9.8,
+    "date": "2026-11-10T12:09:45.660151Z"
+   },
+   {
+    "title": "RLSA-2026:93413 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:93413",
+    "score": 9.8,
+    "date": "2026-11-03T12:10:03.560067Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +33,58 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-19118 — Malicious code in 0sec-cli (npm)",
-    "url": "https://github.com/advisories/MAL-2026-19118",
-    "score": null,
-    "date": "2026-11-11T12:09:02Z"
+    "title": "RLSA-2026:94501 — Critical: fence-agents security update",
+    "url": "https://github.com/advisories/RLSA-2026:94501",
+    "score": 9.1,
+    "date": "2026-11-04T09:10:56.529723Z"
+   },
+   {
+    "title": "RLSA-2026:96082 — Moderate: yggdrasil-worker-package-manager security update",
+    "url": "https://github.com/advisories/RLSA-2026:96082",
+    "score": 8.8,
+    "date": "2026-11-13T02:58:56.906908Z"
+   },
+   {
+    "title": "RLSA-2026:99741 — Important: mysql:8.4 security update",
+    "url": "https://github.com/advisories/RLSA-2026:99741",
+    "score": 8.8,
+    "date": "2026-11-13T02:54:30.999268Z"
+   },
+   {
+    "title": "RLSA-2026:98521 — Important: bubblewrap security update",
+    "url": "https://github.com/advisories/RLSA-2026:98521",
+    "score": 8.8,
+    "date": "2026-11-12T00:04:47.087081Z"
+   },
+   {
+    "title": "RLSA-2026:98530 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:98530",
+    "score": 8.8,
+    "date": "2026-11-12T00:04:12.119552Z"
+   },
+   {
+    "title": "RLSA-2026:98505 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:98505",
+    "score": 8.8,
+    "date": "2026-11-12T00:04:12.119552Z"
+   },
+   {
+    "title": "RLSA-2026:96240 — Critical: edk2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:96240",
+    "score": 8.8,
+    "date": "2026-11-10T12:09:45.660151Z"
+   },
+   {
+    "title": "RLSA-2026:95367 — Important: kernel security update",
+    "url": "https://github.com/advisories/RLSA-2026:95367",
+    "score": 8.8,
+    "date": "2026-11-06T12:09:31.090950Z"
+   },
+   {
+    "title": "RLSA-2026:94630 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:94630",
+    "score": 8.8,
+    "date": "2026-11-04T09:10:56.529723Z"
    }
   ],
   "kev": [
@@ -397,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3169,
+    "stars": 3174,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2089,
+    "stars": 2090,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1146,
+    "stars": 1147,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 907,
+    "stars": 911,
     "lang": "TypeScript"
    },
    {
@@ -445,13 +511,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 486,
+    "stars": 488,
     "lang": "C"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 439,
+    "stars": 440,
     "lang": "—"
    },
    {
@@ -576,16 +642,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "prepared statements prevents SQLi. But it also helped me to exploit a 22 years old PostgreSQL 0-day RCE (CVE-2026-6460)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuh3jj/prepared_statements_prevents_sqli_but_it_also/",
-    "date": "2026-11-12T16:21:24+00:00",
+    "title": "Massive ‘wfx-loot’ Campaign Probes Over 60,000 GitHub Repositories to Steal CI and Cloud Secrets",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuug3s/massive_wfxloot_campaign_probes_over_60000_github/",
+    "date": "2026-11-13T01:12:20+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Massive ‘wfx-loot’ Campaign Probes Over 60,000 GitHub Repositories to Steal CI and Cloud Secrets",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuug3s/massive_wfxloot_campaign_probes_over_60000_github/",
-    "date": "2026-11-13T01:12:20+00:00",
+    "title": "prepared statements prevents SQLi. But it also helped me to exploit a 22 years old PostgreSQL 0-day RCE (CVE-2026-6460)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuh3jj/prepared_statements_prevents_sqli_but_it_also/",
+    "date": "2026-11-12T16:21:24+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -597,16 +663,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "JSON Schema References Considered Harmful",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-    "date": "2026-11-12T22:35:34+00:00",
+    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
+    "date": "2026-11-12T17:09:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
-    "date": "2026-11-12T17:09:00+00:00",
+    "title": "JSON Schema References Considered Harmful",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+    "date": "2026-11-12T22:35:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 6,
   "kev": 1779,
   "adv": 12,
   "feed": 48
