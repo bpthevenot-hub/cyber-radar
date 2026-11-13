@@ -1,36 +1,12 @@
 {
- "generatedAt": "2026-11-13T22:22:20.042Z",
+ "generatedAt": "2026-11-13T23:22:00.874Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-124822 — The Easy DragDrop File Uploader WordPress plugin before 1.1.10 does not validate a user-supplied path before deleting it, allowing unauthent",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124822",
-    "score": 10,
-    "date": "2026-11-13T06:31:44Z"
-   },
-   {
-    "title": "CVE-2026-82504 — VITEC EZ TV Platform Server before 8.5.0 contains an unrestricted file upload vulnerability in the upload handler that allows unauthenticate",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82504",
-    "score": 9.8,
-    "date": "2026-11-13T21:32:01Z"
-   },
-   {
-    "title": "CVE-2026-126119 — The Streamit WordPress plugin before 1.3.10 does not perform any authorization or nonce verification on one of its unauthenticated AJAX rout",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126119",
-    "score": 9.8,
-    "date": "2026-11-13T06:31:44Z"
-   },
-   {
-    "title": "CVE-2026-124833 — The Ahime Image Printer WordPress plugin through 1.0.0 does not validate the name, extension or type of uploaded files before writing them t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124833",
-    "score": 9.8,
-    "date": "2026-11-13T06:31:44Z"
-   },
-   {
-    "title": "CVE-2026-118064 — The Advance Guest Post WordPress plugin through 1.9 does not properly restrict or validate file uploads, authorizing an upload action with a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118064",
-    "score": 9.8,
-    "date": "2026-11-13T06:31:43Z"
+    "title": "CVE-2026-15792 — Red Hat Security Advisory: Red Hat Quay - 3.15.9 (+40 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99023",
+    "score": 9.9,
+    "date": "2026-11-13T22:19:55+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -45,46 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-127214 — Flowise through 3.1.4 contains a server-side request forgery vulnerability that allows authenticated attackers with chatflows or agentflows ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-127214",
-    "score": 8.5,
-    "date": "2026-11-13T21:32:00Z"
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.15.9 security update (+27 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99964",
+    "score": 8.8,
+    "date": "2026-11-13T22:20:00+00:00"
    },
    {
-    "title": "CVE-2026-127215 — Kanbanz by Softaculous plugin for WordPress before 1.0.3 contains a broken access control vulnerability that allows authenticated Kanban Sta",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-127215",
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.10.8 security update (+17 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99960",
+    "score": 8.8,
+    "date": "2026-11-13T22:20:00+00:00"
+   },
+   {
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.14.7 security update (+27 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99963",
+    "score": 8.8,
+    "date": "2026-11-13T22:19:59+00:00"
+   },
+   {
+    "title": "CVE-2026-25681 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.9.9 security update (+18 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99958",
+    "score": 8.8,
+    "date": "2026-11-13T22:19:56+00:00"
+   },
+   {
+    "title": "CVE-2026-14199 — Red Hat Security Advisory: Red Hat Advanced Cluster Management for Kubernetes v2.16.7 security update (+30 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:99956",
+    "score": 8.8,
+    "date": "2026-11-13T22:19:55+00:00"
+   },
+   {
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: rhc security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98794",
+    "score": 8.2,
+    "date": "2026-11-13T22:19:54+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana-pcp security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98579",
     "score": 8.1,
-    "date": "2026-11-13T21:32:00Z"
+    "date": "2026-11-13T22:19:52+00:00"
    },
    {
-    "title": "CVE-2025-43867 — - Dependency on Vulnerable Third-Party Component vulnerability in Johnson Controls FX Server, Johnson Controls FX80, and Johnson Controls FX",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-43867",
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: skopeo security, bug fix, and enhancement update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98556",
+    "score": 8.1,
+    "date": "2026-11-13T22:19:52+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: buildah security update (+4 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98555",
+    "score": 8.1,
+    "date": "2026-11-13T22:19:51+00:00"
+   },
+   {
+    "title": "CVE-2026-17106 — Red Hat Security Advisory: podman security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98554",
+    "score": 8.1,
+    "date": "2026-11-13T22:19:51+00:00"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: gvisor-tap-vsock security update (+6 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98610",
     "score": 7.5,
-    "date": "2026-11-13T21:32:00Z"
-   },
-   {
-    "title": "CVE-2026-118065 — The Advance Guest Post WordPress plugin through 1.9 does not perform any authorization or ownership check when deleting media attachments, r",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-118065",
-    "score": 7.5,
-    "date": "2026-11-13T06:31:43Z"
-   },
-   {
-    "title": "CVE-2026-123124 — The WooCommerce Vindi Pagamento WordPress plugin through 0.8.3 does not perform any authorisation check when updating an order's shipment tr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123124",
-    "score": 7.5,
-    "date": "2026-11-13T06:31:43Z"
-   },
-   {
-    "title": "CVE-2026-125912 — The WP Ultimate CSV Importer WordPress plugin before 9.2 does not restrict the destination filename and extension, nor validate the fetched ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125912",
-    "score": 7.2,
-    "date": "2026-11-13T06:31:44Z"
-   },
-   {
-    "title": "CVE-2026-92738 — Vault's Login MFA feature did not consistently enforce the lifetime of pending two-phase login requests. This may allow a user who previousl",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-92738",
-    "score": 6.8,
-    "date": "2026-11-13T21:32:01Z"
+    "date": "2026-11-13T22:19:58+00:00"
    }
   ],
   "kev": [
@@ -203,6 +203,27 @@
   ],
   "adv": [
    {
+    "title": "NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+    "url": "https://github.com/advisories/GHSA-fg9w-wfp5-j933",
+    "score": 6.8,
+    "ghsa": "GHSA-fg9w-wfp5-j933",
+    "date": "2026-11-13T23:20:56Z"
+   },
+   {
+    "title": "ag-psd can exhaust memory when parsing crafted PSD dimensions",
+    "url": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw",
+    "score": 7.5,
+    "ghsa": "GHSA-qfx6-q44v-9qqw",
+    "date": "2026-11-13T23:19:38Z"
+   },
+   {
+    "title": "File Browser: Trailing-slash directory deletion leaves public shares active for recreated paths",
+    "url": "https://github.com/advisories/GHSA-pp88-jhwj-5qh5",
+    "score": 3.1,
+    "ghsa": "GHSA-pp88-jhwj-5qh5",
+    "date": "2026-11-13T23:12:06Z"
+   },
+   {
     "title": "NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
     "url": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r",
     "score": 5.3,
@@ -264,27 +285,6 @@
     "score": 3.1,
     "ghsa": "GHSA-5cjw-f85j-cv6r",
     "date": "2026-11-13T20:31:22Z"
-   },
-   {
-    "title": "dnspython has excessive memory and CPU use",
-    "url": "https://github.com/advisories/GHSA-vvf4-9x63-8xvv",
-    "score": 7.5,
-    "ghsa": "GHSA-vvf4-9x63-8xvv",
-    "date": "2026-11-13T20:19:13Z"
-   },
-   {
-    "title": "Nuxt: Incomplete fix for GHSA-9v7c-q64q-vv33: a leading `//` in the request path bypasses `server/middleware` path checks and server route rules on pa",
-    "url": "https://github.com/advisories/GHSA-r99w-jh2x-3mg9",
-    "score": 6.5,
-    "ghsa": "GHSA-r99w-jh2x-3mg9",
-    "date": "2026-11-13T19:32:21Z"
-   },
-   {
-    "title": "OpenTelemetry JavaScript: Insertion of Sensitive Information into Log File and Exposure of Sensitive Information to an Unauthorized Actor in @opentele",
-    "url": "https://github.com/advisories/GHSA-3v2p-hm54-8qcq",
-    "score": 5.8,
-    "ghsa": "GHSA-3v2p-hm54-8qcq",
-    "date": "2026-11-13T19:29:20Z"
    }
   ],
   "thn": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3207,
+    "stars": 3209,
     "lang": "Go"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 497,
+    "stars": 498,
     "lang": "C"
    },
    {
@@ -523,7 +523,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 425,
+    "stars": 429,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 3,
   "kev": 1781,
   "adv": 12,
   "feed": 48
