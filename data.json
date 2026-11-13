@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T18:22:55.843Z",
+ "generatedAt": "2026-11-13T19:22:18.459Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,76 @@
   ],
   "adv": [
    {
+    "title": "AutoMapper: Uncontrolled Recursion with Constructor Parameters",
+    "url": "https://github.com/advisories/GHSA-6vhm-j9h7-f9gh",
+    "score": 7.5,
+    "ghsa": "GHSA-6vhm-j9h7-f9gh",
+    "date": "2026-11-13T19:21:02Z"
+   },
+   {
+    "title": "russh kex_done: Shared-secret callback runs before server host-key verification",
+    "url": "https://github.com/advisories/GHSA-9264-jvgf-6w2f",
+    "score": 3.7,
+    "ghsa": "GHSA-9264-jvgf-6w2f",
+    "date": "2026-11-13T19:20:16Z"
+   },
+   {
+    "title": "russh try_sign: asynchronous confirmation can sign after agent lock",
+    "url": "https://github.com/advisories/GHSA-736f-c93q-9fwx",
+    "score": 2.2,
+    "ghsa": "GHSA-736f-c93q-9fwx",
+    "date": "2026-11-13T19:10:46Z"
+   },
+   {
+    "title": "OpenTelemetry-Go: Eager W3C baggage-property materialization causes bounded memory-allocation amplification",
+    "url": "https://github.com/advisories/GHSA-rrfc-gjm9-cgrj",
+    "score": 5.3,
+    "ghsa": "GHSA-rrfc-gjm9-cgrj",
+    "date": "2026-11-13T19:08:10Z"
+   },
+   {
+    "title": "opentelemetry-go: AttributeValueLengthLimit is fully bypassed by attribute values composed of valid U+FFFD runes",
+    "url": "https://github.com/advisories/GHSA-q7gw-24fr-5p69",
+    "score": 5.3,
+    "ghsa": "GHSA-q7gw-24fr-5p69",
+    "date": "2026-11-13T19:00:55Z"
+   },
+   {
+    "title": "sqlite3-ruby: Possible SQL query truncation when a string is 4 GiB or larger",
+    "url": "https://github.com/advisories/GHSA-4fqr-96q8-xrfx",
+    "score": 4.8,
+    "ghsa": "GHSA-4fqr-96q8-xrfx",
+    "date": "2026-11-13T18:57:58Z"
+   },
+   {
+    "title": "Laravel: Task Output Injection - Concurrency Process",
+    "url": "https://github.com/advisories/GHSA-63hm-g96r-2m2q",
+    "score": 2,
+    "ghsa": "GHSA-63hm-g96r-2m2q",
+    "date": "2026-11-13T18:54:31Z"
+   },
+   {
+    "title": "AutoMapper: Denial of Service via uncontrolled recursion that bypasses MaxDepth",
+    "url": "https://github.com/advisories/GHSA-gpwp-5797-mjff",
+    "score": 7.5,
+    "ghsa": "GHSA-gpwp-5797-mjff",
+    "date": "2026-11-13T18:47:17Z"
+   },
+   {
+    "title": "Astro: XSS via attribute injection in dynamic tag names",
+    "url": "https://github.com/advisories/GHSA-mh32-jxcr-mh9f",
+    "score": 2,
+    "ghsa": "GHSA-mh32-jxcr-mh9f",
+    "date": "2026-11-13T18:39:54Z"
+   },
+   {
+    "title": "Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
+    "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
+    "score": null,
+    "ghsa": "GHSA-r3h5-4585-7x3w",
+    "date": "2026-11-13T18:35:59Z"
+   },
+   {
     "title": "Nuxt dev server serves files from a parent directory with a stray lockfile or workspace file",
     "url": "https://github.com/advisories/GHSA-mjrq-cffv-q4qc",
     "score": 5.9,
@@ -143,76 +213,6 @@
     "score": 4.7,
     "ghsa": "GHSA-h7wh-q2qr-458c",
     "date": "2026-11-13T18:09:16Z"
-   },
-   {
-    "title": "envd: Host file disclosure through requirements path traversal and TOCTOU",
-    "url": "https://github.com/advisories/GHSA-jv6m-48w5-5rpr",
-    "score": null,
-    "ghsa": "GHSA-jv6m-48w5-5rpr",
-    "date": "2026-11-13T18:05:15Z"
-   },
-   {
-    "title": "rails-html-sanitizer: Possible regular expression denial of service with certain configurations",
-    "url": "https://github.com/advisories/GHSA-cpgf-5mjf-73p7",
-    "score": 5.3,
-    "ghsa": "GHSA-cpgf-5mjf-73p7",
-    "date": "2026-11-13T17:54:38Z"
-   },
-   {
-    "title": "OpenTelemetry Python API: Denial of service through quadratic-time traceparent parsing",
-    "url": "https://github.com/advisories/GHSA-mf5v-w3w3-f6cg",
-    "score": 5.3,
-    "ghsa": "GHSA-mf5v-w3w3-f6cg",
-    "date": "2026-11-13T16:43:18Z"
-   },
-   {
-    "title": "Soup Sieve: Exponential ReDoS in selector compilation via \\9-run in CSS_ESCAPES/IDENTIFIER",
-    "url": "https://github.com/advisories/GHSA-6655-6qjp-jx7x",
-    "score": 7.5,
-    "ghsa": "GHSA-6655-6qjp-jx7x",
-    "date": "2026-11-13T16:39:43Z"
-   },
-   {
-    "title": "Soup Sieve: Uncontrolled recursion in CSS parser lets nested pseudo-class selectors exhaust the Python call stack",
-    "url": "https://github.com/advisories/GHSA-7g44-g9rc-x53w",
-    "score": 5.3,
-    "ghsa": "GHSA-7g44-g9rc-x53w",
-    "date": "2026-11-13T16:34:59Z"
-   },
-   {
-    "title": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
-    "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
-    "score": 9.8,
-    "ghsa": "GHSA-x585-4vv8-2mh2",
-    "date": "2026-11-13T01:09:54Z"
-   },
-   {
-    "title": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
-    "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
-    "score": 7.5,
-    "ghsa": "GHSA-mmhr-3c5m-f64f",
-    "date": "2026-11-13T00:49:46Z"
-   },
-   {
-    "title": "Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
-    "url": "https://github.com/advisories/GHSA-4j63-6c4x-wfg4",
-    "score": null,
-    "ghsa": "GHSA-4j63-6c4x-wfg4",
-    "date": "2026-11-13T00:45:18Z"
-   },
-   {
-    "title": "Active Storage: Possible arbitrary file write and read in image analysis",
-    "url": "https://github.com/advisories/GHSA-f3w6-w445-fwh9",
-    "score": 9.8,
-    "ghsa": "GHSA-f3w6-w445-fwh9",
-    "date": "2026-11-12T23:46:51Z"
-   },
-   {
-    "title": "Action Pack: Possible DoS vulnerability in Action Controller Live streaming",
-    "url": "https://github.com/advisories/GHSA-rwvh-fw6r-pwvp",
-    "score": 5.9,
-    "ghsa": "GHSA-rwvh-fw6r-pwvp",
-    "date": "2026-11-12T23:45:24Z"
    }
   ],
   "thn": [
@@ -439,19 +439,19 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 496,
+    "stars": 497,
     "lang": "C"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 442,
+    "stars": 433,
     "lang": "—"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 424,
+    "stars": 425,
     "lang": "—"
    },
    {
@@ -563,16 +563,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
-    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
-    "date": "2026-11-12T22:58:44+00:00",
+    "title": "Sharing ARTEX detection signature pack - from IOC w/playbook process",
+    "url": "https://www.reddit.com/r/netsec/comments/1xv53bm/sharing_artex_detection_signature_pack_from_ioc/",
+    "date": "2026-11-13T11:08:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "Sharing ARTEX detection signature pack - from IOC w/playbook process",
-    "url": "https://www.reddit.com/r/netsec/comments/1xv53bm/sharing_artex_detection_signature_pack_from_ioc/",
-    "date": "2026-11-13T11:08:34+00:00",
+    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
+    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
+    "date": "2026-11-12T22:58:44+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
