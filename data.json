@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T19:21:42.921Z",
+ "generatedAt": "2026-11-14T20:22:12.301Z",
  "sources": {
   "cve": [
    {
@@ -24,12 +24,6 @@
     "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RLSA-2026:98598",
     "score": 9.3,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98587 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:98587",
-    "score": 9.1,
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
@@ -69,12 +63,6 @@
     "date": "2026-11-13T06:06:59.212490Z"
    },
    {
-    "title": "RLSA-2026:98560 — Important: libsoup3 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98560",
-    "score": 8.6,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
     "title": "RLSA-2026:98624 — Important: tesseract security update",
     "url": "https://github.com/advisories/RLSA-2026:98624",
     "score": 8.4,
@@ -85,6 +73,18 @@
     "url": "https://github.com/advisories/RLSA-2026:98605",
     "score": 8.3,
     "date": "2026-11-13T06:06:59.212490Z"
+   },
+   {
+    "title": "CVE-2026-129261 — A vulnerability was found in Kingston FURY CTRL RGB Control Software up to 2.0.66.0. The impacted element is an unknown function in the libr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129261",
+    "score": 8.2,
+    "date": "2026-11-14T18:30:47Z"
+   },
+   {
+    "title": "RLSA-2026:98603 — Important: jq security update",
+    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "score": 8.2,
+    "date": "2026-11-13T12:06:38.220996Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3334,
+    "stars": 3337,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2122,
+    "stars": 2124,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "NPMscan/npmscan-action — Catch risky npm dependency changes before they merge.",
     "url": "https://github.com/NPMscan/npmscan-action",
-    "stars": 509,
+    "stars": 510,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 462,
+    "stars": 466,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1781,
   "adv": 12,
   "feed": 48
