@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-14T07:22:25.589Z",
+ "generatedAt": "2026-11-14T08:22:52.244Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-126173 — The AutomatorWP Pro plugin for WordPress' webhook addon is vulnerable to authorization bypass in all versions up to, and including, 1.4.4. T",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126173",
+    "score": 9.8,
+    "date": "2026-11-14T06:31:30Z"
+   },
+   {
+    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:98978",
+    "score": 9.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,10 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-19922 — Malicious code in @jelou/cli-win32-x64 (npm)",
-    "url": "https://github.com/advisories/MAL-2026-19922",
-    "score": null,
-    "date": "2026-11-13T22:51:02Z"
+    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:98598",
+    "score": 9.3,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99133",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98623 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:98623",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
+    "url": "https://github.com/advisories/RLSA-2026:98621",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98616 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:98616",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:98635",
+    "score": 8.8,
+    "date": "2026-11-13T06:06:59.212490Z"
+   },
+   {
+    "title": "RLSA-2026:98624 — Important: tesseract security update",
+    "url": "https://github.com/advisories/RLSA-2026:98624",
+    "score": 8.4,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98603 — Important: jq security update",
+    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "score": 8.2,
+    "date": "2026-11-13T12:06:38.220996Z"
+   },
+   {
+    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99624",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
+    "url": "https://github.com/advisories/RLSA-2026:99212",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
    }
   ],
   "kev": [
@@ -397,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3245,
+    "stars": 3246,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2109,
+    "stars": 2112,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1185,
+    "stars": 1186,
     "lang": "TypeScript"
    },
    {
@@ -433,7 +499,7 @@
    {
     "title": "strands-agents/box — Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box co",
     "url": "https://github.com/strands-agents/box",
-    "stars": 544,
+    "stars": 545,
     "lang": "Rust"
    },
    {
@@ -569,6 +635,13 @@
     "badgeClass": "b-med"
    },
    {
+    "title": "How I received a job offer, and they hid a way to launch malicious code through Git inside the ZIP",
+    "url": "https://www.reddit.com/r/netsec/comments/1xvwi4k/how_i_received_a_job_offer_and_they_hid_a_way_to/",
+    "date": "2026-11-14T07:37:30+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
     "title": "Helping Developers Writing Code Analyzer Queries",
     "url": "https://www.reddit.com/r/netsec/comments/1xvqwd5/helping_developers_writing_code_analyzer_queries/",
     "date": "2026-11-14T02:27:30+00:00",
@@ -630,13 +703,6 @@
     "date": "2026-11-12T01:02:04+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
-   },
-   {
-    "title": "2.4% of AFRINIC’s IPv4 addresses answer from outside Africa, and about 81% of those sit in one company’s four blocks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtirgl/24_of_afrinics_ipv4_addresses_answer_from_outside/",
-    "date": "2026-11-11T14:12:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
    }
   ]
  },
@@ -651,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 5,
   "kev": 1781,
   "adv": 12,
   "feed": 48
