@@ -1,24 +1,12 @@
 {
- "generatedAt": "2026-11-14T18:22:37.138Z",
+ "generatedAt": "2026-11-14T19:21:42.921Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-129433 — Dokploy before 0.31.1 contains an OS command injection vulnerability in getComposeContainerCommand() that allows authenticated organization ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129433",
-    "score": 9.9,
-    "date": "2026-11-14T15:31:44Z"
-   },
-   {
-    "title": "CVE-2026-19907 — The Shipo plugin for WordPress is vulnerable to Authentication Bypass in versions 1.6 through 1.8.0. This is due to the `authenticate_rest_u",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19907",
+    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:98978",
     "score": 9.8,
-    "date": "2026-11-14T15:31:45Z"
-   },
-   {
-    "title": "CVE-2026-120522 — The Cloud Storage Manager for Fluent Forms – Google Drive, Dropbox, OneDrive, S3 Uploads plugin for WordPress is vulnerable to Arbitrary Fil",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-120522",
-    "score": 9.8,
-    "date": "2026-11-14T15:31:43Z"
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -33,58 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-129258 — A vulnerability was identified in Tenda AC18 15.03.05.05_multi/15.03.05.19 Build 6318. Affected by this vulnerability is an unknown function",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129258",
+    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:98598",
+    "score": 9.3,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98587 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:98587",
     "score": 9.1,
-    "date": "2026-11-14T15:31:45Z"
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2026-18053 — The MemberDash plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.8.7. This is due to a mass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-18053",
+    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99133",
     "score": 8.8,
-    "date": "2026-11-14T15:31:44Z"
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2026-129255 — A vulnerability was identified in CoolerMaster MASTERPLUS+ 1.9.6. This affects the function sub_11504 in the library WinRing0x64.sys of the ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129255",
+    "title": "RLSA-2026:98623 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:98623",
     "score": 8.8,
-    "date": "2026-11-14T15:31:43Z"
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2026-129429 — Frappe india-payroll before 16.0.4 contains a missing authorization vulnerability in the get_employee_details, compute_tax_comparison and se",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129429",
-    "score": 7.1,
-    "date": "2026-11-14T15:31:43Z"
+    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
+    "url": "https://github.com/advisories/RLSA-2026:98621",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2026-129431 — Ettercap through 0.8.5.1 contains a heap out-of-bounds read vulnerability in dissector_socks() in src/dissectors/ec_socks.c that allows netw",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129431",
-    "score": 6.5,
-    "date": "2026-11-14T15:31:44Z"
+    "title": "RLSA-2026:98616 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:98616",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2026-129432 — Ettercap through 0.8.5.1 contains a heap out-of-bounds read vulnerability in dissector_mountd() in src/dissectors/ec_mountd.c that validates",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129432",
-    "score": 6.5,
-    "date": "2026-11-14T15:31:44Z"
+    "title": "RLSA-2026:98595 — Important: flatpak security update",
+    "url": "https://github.com/advisories/RLSA-2026:98595",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2025-71464 — @kolkov/angular-editor before 3.0.4 contains a cross-site scripting vulnerability in toggleEditorMode() that assigns source view text to inn",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71464",
-    "score": 6.1,
-    "date": "2026-11-14T15:31:43Z"
+    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:98635",
+    "score": 8.8,
+    "date": "2026-11-13T06:06:59.212490Z"
    },
    {
-    "title": "CVE-2025-71465 — @kolkov/angular-editor before 3.0.3 contains a cross-site scripting vulnerability in refreshView() that writes HTML from ngModel or reactive",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-71465",
-    "score": 6.1,
-    "date": "2026-11-14T15:31:43Z"
+    "title": "RLSA-2026:98560 — Important: libsoup3 security update",
+    "url": "https://github.com/advisories/RLSA-2026:98560",
+    "score": 8.6,
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "CVE-2026-129428 — Pulse from 5.0.17 before 6.8.0 contains a missing authorization vulnerability in the /api/ai/approvals endpoints that allows authenticated v",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129428",
-    "score": 5.4,
-    "date": "2026-11-14T15:31:43Z"
+    "title": "RLSA-2026:98624 — Important: tesseract security update",
+    "url": "https://github.com/advisories/RLSA-2026:98624",
+    "score": 8.4,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98605 — Important: libXrender security update",
+    "url": "https://github.com/advisories/RLSA-2026:98605",
+    "score": 8.3,
+    "date": "2026-11-13T06:06:59.212490Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3327,
+    "stars": 3334,
     "lang": "Go"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 461,
+    "stars": 462,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 5,
   "kev": 1781,
   "adv": 12,
   "feed": 48
