@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T14:21:48.157Z",
+ "generatedAt": "2026-11-14T15:21:50.389Z",
  "sources": {
   "cve": [
    {
@@ -7,12 +7,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-129250",
     "score": 9.9,
     "date": "2026-11-14T12:31:28Z"
-   },
-   {
-    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98978",
-    "score": 9.8,
-    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99133",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98623 — Important: gvfs security update",
-    "url": "https://github.com/advisories/RLSA-2026:98623",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
-    "url": "https://github.com/advisories/RLSA-2026:98621",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:98635",
-    "score": 8.8,
-    "date": "2026-11-13T06:06:59.212490Z"
-   },
-   {
     "title": "CVE-2026-129427 — Stored XSS via avatar upload chained with an authentication bypass in /Attachments leads to ATO in Cervantes version v1.3-beta could allow a",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-129427",
     "score": 8.7,
     "date": "2026-11-14T12:31:29Z"
    },
    {
-    "title": "RLSA-2026:98624 — Important: tesseract security update",
-    "url": "https://github.com/advisories/RLSA-2026:98624",
-    "score": 8.4,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2026-129115 — JSON::XS versions from 3.0 before 4.05 for Perl read freed stack memory when a FREEZE result's serialisation grows the Perl stack under allo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129115",
+    "score": null,
+    "date": "2026-11-14T12:31:28Z"
    },
    {
-    "title": "RLSA-2026:98603 — Important: jq security update",
-    "url": "https://github.com/advisories/RLSA-2026:98603",
-    "score": 8.2,
-    "date": "2026-11-13T12:06:38.220996Z"
+    "title": "CVE-2026-124541 — JSON::XS versions before 4.05 for Perl leak the decoded part of a rejected long string in decode_str. A string is decoded through a fixed-si",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124541",
+    "score": null,
+    "date": "2026-11-14T12:31:28Z"
    },
    {
-    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99624",
-    "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2026-124540 — JSON::XS versions before 4.05 for Perl allow stack exhaustion via nested tagged values under allow_tags in decode_tag. With allow_tags, \"(\" ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124540",
+    "score": null,
+    "date": "2026-11-14T12:31:28Z"
    },
    {
-    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
-    "url": "https://github.com/advisories/RLSA-2026:99212",
-    "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2026-129114 — JSON::XS versions from 3.04 before 4.05 for Perl write one byte past a heap buffer when appending a one-byte chunk in incr_parse. The increm",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129114",
+    "score": null,
+    "date": "2026-11-14T12:31:28Z"
    },
    {
-    "title": "RLSA-2026:98641 — Important: python-oauthlib security update",
-    "url": "https://github.com/advisories/RLSA-2026:98641",
-    "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "MAL-2026-19234 — Malicious code in @rclaude/darwin-arm64 (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19234",
+    "score": null,
+    "date": "2026-11-13T06:32:25Z"
+   },
+   {
+    "title": "OSV-2026-928 — Stack-use-after-scope in StreamReader_CApi::wait_for_file_size",
+    "url": "https://github.com/advisories/OSV-2026-928",
+    "score": null,
+    "date": "2026-06-17T00:06:18.594494Z"
+   },
+   {
+    "title": "OSV-2024-719 — Heap-buffer-overflow in hevc_ref_pic_lists_modification",
+    "url": "https://github.com/advisories/OSV-2024-719",
+    "score": null,
+    "date": "2024-08-07T00:05:22.699506Z"
+   },
+   {
+    "title": "OSV-2024-695 — Stack-buffer-overflow in gf_vvc_parse_nalu_bs",
+    "url": "https://github.com/advisories/OSV-2024-695",
+    "score": null,
+    "date": "2024-07-31T00:02:35.217594Z"
+   },
+   {
+    "title": "OSV-2024-679 — Heap-buffer-overflow in readImage4v2",
+    "url": "https://github.com/advisories/OSV-2024-679",
+    "score": null,
+    "date": "2024-07-25T00:14:34.485446Z"
+   },
+   {
+    "title": "OSV-2024-659 — Index-out-of-bounds in gf_vvc_parse_nalu_bs",
+    "url": "https://github.com/advisories/OSV-2024-659",
+    "score": null,
+    "date": "2024-07-18T00:01:18.765548Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+    "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+    "date": "Sat, 14 Nov 2026 10:15:49 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
     "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
     "date": "Fri, 13 Nov 2026 14:38:36 -0500",
@@ -450,20 +457,13 @@
     "date": "Thu, 12 Nov 2026 15:15:16 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-    "date": "Thu, 12 Nov 2026 14:51:16 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3284,
+    "stars": 3292,
     "lang": "Go"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 454,
+    "stars": 457,
     "lang": "—"
    },
    {
@@ -670,16 +670,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "JSON Schema References Considered Harmful",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-    "date": "2026-11-12T22:35:34+00:00",
+    "title": "How we defended against an AI-driven ARTEX attack",
+    "url": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
+    "date": "2026-11-12T13:36:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "How we defended against an AI-driven ARTEX attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
-    "date": "2026-11-12T13:36:34+00:00",
+    "title": "JSON Schema References Considered Harmful",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+    "date": "2026-11-12T22:35:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 3,
   "kev": 1781,
   "adv": 12,
   "feed": 48
