@@ -1,12 +1,24 @@
 {
- "generatedAt": "2026-11-14T11:21:54.846Z",
+ "generatedAt": "2026-11-14T12:24:49.378Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2026-126173 — The AutomatorWP Pro plugin for WordPress' webhook addon is vulnerable to authorization bypass in all versions up to, and including, 1.4.4. T",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-126173",
+    "title": "CVE-2023-45288 — Security update for grafana (+26 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_20654-1.json",
+    "score": 9.9,
+    "date": "2026-11-14T10:22:00Z"
+   },
+   {
+    "title": "CVE-2024-45337 — Security update for rclone (+13 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_20620-1.json",
     "score": 9.8,
-    "date": "2026-11-14T06:31:30Z"
+    "date": "2026-11-14T10:21:59Z"
+   },
+   {
+    "title": "CVE-2026-106023 — apache2-2.4.71-1.1 on GA media (+34 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12537-1.json",
+    "score": 9.8,
+    "date": "2026-11-14T10:21:27Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,73 +33,174 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:98603 — Important: jq security update",
-    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "title": "CVE-2026-116303 — postgresql17-17.12-1.1 on GA media (+46 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12553-1.json",
+    "score": 8.8,
+    "date": "2026-11-14T10:21:49Z"
+   },
+   {
+    "title": "CVE-2026-116303 — postgresql16-16.16-1.1 on GA media (+42 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12552-1.json",
+    "score": 8.8,
+    "date": "2026-11-14T10:21:48Z"
+   },
+   {
+    "title": "CVE-2026-116303 — postgresql15-15.20-1.1 on GA media (+41 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12551-1.json",
+    "score": 8.8,
+    "date": "2026-11-14T10:21:46Z"
+   },
+   {
+    "title": "CVE-2026-116303 — postgresql14-14.25-1.1 on GA media (+39 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12550-1.json",
+    "score": 8.8,
+    "date": "2026-11-14T10:21:44Z"
+   },
+   {
+    "title": "CVE-2026-105437 — git-2.56.1-1.1 on GA media (+5 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12538-1.json",
+    "score": 8.8,
+    "date": "2026-11-14T10:21:29Z"
+   },
+   {
+    "title": "CVE-2021-4189 — Security update for python312 (+25 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/suse-su-2026_4534-1.json",
     "score": 8.2,
-    "date": "2026-11-13T12:06:38.220996Z"
+    "date": "2026-11-14T10:19:41Z"
    },
    {
-    "title": "RLSA-2026:97090 — Important: subscription-manager-cockpit security update",
-    "url": "https://github.com/advisories/RLSA-2026:97090",
+    "title": "CVE-2021-4189 — Security update for python311 (+23 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/suse-su-2026_23743-1.json",
+    "score": 8.2,
+    "date": "2026-11-14T10:19:11Z"
+   },
+   {
+    "title": "CVE-2025-11468 — Security update for python312 (+9 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/suse-su-2026_1107-1.json",
+    "score": 8.2,
+    "date": "2026-11-14T10:18:43Z"
+   },
+   {
+    "title": "CVE-2026-84383 — Security update for libheif (+7 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_21889-1.json",
     "score": 8.1,
-    "date": "2026-11-13T06:07:05.716032Z"
-   },
-   {
-    "title": "RLSA-2026:98076 — Important: sos security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98076",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:44.160727Z"
-   },
-   {
-    "title": "RLSA-2026:98590 — Important: aspell security update",
-    "url": "https://github.com/advisories/RLSA-2026:98590",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:38.220996Z"
-   },
-   {
-    "title": "RLSA-2026:99660 — Important: xfsprogs security update",
-    "url": "https://github.com/advisories/RLSA-2026:99660",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98584 — Important: glycin-loaders security update",
-    "url": "https://github.com/advisories/RLSA-2026:98584",
-    "score": 7.8,
-    "date": "2026-11-13T06:07:08.658268Z"
-   },
-   {
-    "title": "RLSA-2026:99696 — Important: glib-networking security update",
-    "url": "https://github.com/advisories/RLSA-2026:99696",
-    "score": 7.5,
-    "date": "2026-11-13T12:06:44.160727Z"
-   },
-   {
-    "title": "RLSA-2026:97163 — Moderate: mingw-glib2 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:97163",
-    "score": 7.5,
-    "date": "2026-11-13T06:07:00.261421Z"
-   },
-   {
-    "title": "CVE-2026-129181 — A vulnerability has been found in projectworlds Visitor Management System 1.0. This issue affects the function mysqli_query of the file /img",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129181",
-    "score": 7.3,
-    "date": "2026-11-14T09:31:19Z"
-   },
-   {
-    "title": "RLSA-2026:98565 — Moderate: environment-modules security update",
-    "url": "https://github.com/advisories/RLSA-2026:98565",
-    "score": 7.3,
-    "date": "2026-11-13T12:06:44.160727Z"
-   },
-   {
-    "title": "CVE-2026-124969 — The Optimole – Optimize Images | Convert WebP & AVIF | CDN & Lazy Load | Image Optimization plugin for WordPress is vulnerable to arbitrary ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124969",
-    "score": 7.1,
-    "date": "2026-11-14T06:31:30Z"
+    "date": "2026-11-14T10:22:10Z"
    }
   ],
-  "kev": [],
+  "kev": [
+   {
+    "title": "CVE-2026-114713 — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114713",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "UnrealIRCd",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123039",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Check Point",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111560",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Barracuda Networks",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-111793",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Openwave Messaging Limited",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116606",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Barracuda Networks",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124194",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Microsoft",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-125350",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Google",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20320",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Cisco",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "CVE-2026-102895 — GPUStack Improper Authentication Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-102895",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "GPUStack",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-116779",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "SignalWire",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123158",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "OpenBSD",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-123218 — IBM Aspera Faspex Incorrect Authorization Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123218",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "IBM",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "CVE-2026-19868 — SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-19868",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "SonicWall",
+    "date": "2026-11-06"
+   },
+   {
+    "title": "CVE-2024-27834 — Apple Multiple Products Improper Authentication Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-27834",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Apple",
+    "date": "2026-11-04"
+   }
+  ],
   "adv": [
    {
     "title": "NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
@@ -350,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3266,
+    "stars": 3271,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2114,
+    "stars": 2115,
     "lang": "Python"
    },
    {
@@ -368,13 +481,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 925,
+    "stars": 926,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 775,
+    "stars": 776,
     "lang": "Java"
    },
    {
@@ -398,13 +511,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 502,
+    "stars": 503,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 449,
+    "stars": 450,
     "lang": "—"
    },
    {
@@ -416,7 +529,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 330,
+    "stars": 331,
     "lang": "JavaScript"
    }
   ],
@@ -564,16 +677,16 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
-    "date": "2026-11-12T17:09:00+00:00",
+    "title": "JSON Schema References Considered Harmful",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+    "date": "2026-11-12T22:35:34+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
    {
-    "title": "JSON Schema References Considered Harmful",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-    "date": "2026-11-12T22:35:34+00:00",
+    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
+    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
+    "date": "2026-11-12T17:09:00+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -595,7 +708,7 @@
  },
  "status": {
   "cve": true,
-  "kev": false,
+  "kev": true,
   "adv": true,
   "thn": true,
   "bleep": true,
@@ -604,10 +717,10 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
-  "kev": 0,
+  "crit": 5,
+  "kev": 1781,
   "adv": 12,
   "feed": 48
  },
- "okCount": 7
+ "okCount": 8
 }
