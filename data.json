@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T01:21:58.984Z",
+ "generatedAt": "2026-11-14T02:24:47.519Z",
  "sources": {
   "cve": [
    {
@@ -7,12 +7,6 @@
     "url": "https://access.redhat.com/errata/RHSA-2026:99023",
     "score": 9.9,
     "date": "2026-11-14T00:29:38+00:00"
-   },
-   {
-    "title": "CVE-2019-25781 — Red Hat Security Advisory: RHOAI 3.5.3 - Red Hat OpenShift AI (+182 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:95872",
-    "score": 9.8,
-    "date": "2026-11-14T00:29:28+00:00"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -51,40 +45,46 @@
     "date": "2026-11-14T00:29:38+00:00"
    },
    {
-    "title": "CVE-2025-13465 — Red Hat Security Advisory: multicluster engine for Kubernetes v2.6.10 security update (+7 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:9848",
-    "score": 8.8,
-    "date": "2026-11-14T00:29:34+00:00"
+    "title": "CVE-2025-68121 — Red Hat Security Advisory: rhc security update (+15 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98794",
+    "score": 8.2,
+    "date": "2026-11-14T00:29:39+00:00"
    },
    {
-    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+15 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98454",
-    "score": 8.8,
-    "date": "2026-11-14T00:29:34+00:00"
+    "title": "CVE-2026-124020 — Control Web Panel (CWP) before webpanel_version 1.30.6 contains a host header injection vulnerability that allows unauthenticated attackers ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124020",
+    "score": 8.1,
+    "date": "2026-11-14T00:31:44Z"
    },
    {
-    "title": "CVE-2026-27145 — Red Hat Security Advisory: golang-github-openprinting-ipp-usb security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98108",
-    "score": 8.8,
-    "date": "2026-11-14T00:29:31+00:00"
+    "title": "CVE-2026-115788 — IBM App Connect Operator and IBM App Connect Enterprise Certified Containers Operands is vulnerable to Log Forging on a request to create a ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115788",
+    "score": 8.1,
+    "date": "2026-11-14T00:31:44Z"
    },
    {
-    "title": "CVE-2026-8609 — Red Hat Security Advisory: grafana security update (+10 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:98056",
-    "score": 8.8,
-    "date": "2026-11-14T00:29:31+00:00"
+    "title": "CVE-2026-91869 — IBM Security QRadar EDR 3.12 through 3.12.26 could allow a remote authenticated attacker to bypass security restrictions due to improper rat",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91869",
+    "score": 8.1,
+    "date": "2026-11-14T00:31:44Z"
    },
    {
-    "title": "CVE-2026-25681 — Red Hat Security Advisory: Red Hat multicluster engine for Kubernetes - 2.17.4 (+24 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96629",
-    "score": 8.8,
-    "date": "2026-11-14T00:29:29+00:00"
+    "title": "CVE-2026-124021 — Control Web Panel (CWP) before webpanel_version 1.30.6 contains an authorization bypass vulnerability in the validate() function of api/v1/i",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124021",
+    "score": 8.1,
+    "date": "2026-11-14T00:31:44Z"
    },
    {
-    "title": "CVE-2025-68121 — Red Hat Security Advisory: osbuild-composer security update (+16 CVE)",
-    "url": "https://access.redhat.com/errata/RHSA-2026:96076",
-    "score": 8.8,
-    "date": "2026-11-14T00:29:28+00:00"
+    "title": "CVE-2026-110279 — IBM ContextForge MCP Gateway 1.0.0 through 1.1.0 is vulnerable to improper credential handling because the X-Upstream-Authorization request ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-110279",
+    "score": 8.1,
+    "date": "2026-11-14T00:31:43Z"
+   },
+   {
+    "title": "CVE-2026-33818 — Red Hat Security Advisory: grafana-pcp security, bug fix, and enhancement update (+8 CVE)",
+    "url": "https://access.redhat.com/errata/RHSA-2026:98579",
+    "score": 8.1,
+    "date": "2026-11-14T00:29:38+00:00"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3218,
+    "stars": 3220,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2107,
+    "stars": 2108,
     "lang": "Python"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 922,
+    "stars": 923,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 436,
+    "stars": 437,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 3,
   "kev": 1781,
   "adv": 12,
   "feed": 48
