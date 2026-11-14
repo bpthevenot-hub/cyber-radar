@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-14T13:21:59.947Z",
+ "generatedAt": "2026-11-14T14:21:48.157Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-129250 — A security vulnerability has been detected in Edimax BR6478ACV2 1.23. The impacted element is the function formPPTPSetup of the file webs. T",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129250",
+    "score": 9.9,
+    "date": "2026-11-14T12:31:28Z"
+   },
    {
     "title": "RLSA-2026:98978 — Important: mod_http2 security update",
     "url": "https://github.com/advisories/RLSA-2026:98978",
@@ -19,24 +25,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98598",
-    "score": 9.3,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98587 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:98587",
-    "score": 9.1,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98612 — Critical: fence-agents security update",
-    "url": "https://github.com/advisories/RLSA-2026:98612",
-    "score": 9.1,
-    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
     "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
@@ -57,22 +45,16 @@
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "RLSA-2026:98616 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:98616",
+    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
+    "url": "https://github.com/advisories/RLSA-2026:98635",
     "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-13T06:06:59.212490Z"
    },
    {
-    "title": "RLSA-2026:98595 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:98595",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98560 — Important: libsoup3 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98560",
-    "score": 8.6,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2026-129427 — Stored XSS via avatar upload chained with an authentication bypass in /Attachments leads to ATO in Cervantes version v1.3-beta could allow a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129427",
+    "score": 8.7,
+    "date": "2026-11-14T12:31:29Z"
    },
    {
     "title": "RLSA-2026:98624 — Important: tesseract security update",
@@ -81,9 +63,27 @@
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "RLSA-2026:98600 — Important: gstreamer1-plugins-base security update",
-    "url": "https://github.com/advisories/RLSA-2026:98600",
-    "score": 8.4,
+    "title": "RLSA-2026:98603 — Important: jq security update",
+    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "score": 8.2,
+    "date": "2026-11-13T12:06:38.220996Z"
+   },
+   {
+    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99624",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
+    "url": "https://github.com/advisories/RLSA-2026:99212",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98641 — Important: python-oauthlib security update",
+    "url": "https://github.com/advisories/RLSA-2026:98641",
+    "score": 8.1,
     "date": "2026-11-13T12:06:37.188502Z"
    }
   ],
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3279,
+    "stars": 3284,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2116,
+    "stars": 2119,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1187,
+    "stars": 1188,
     "lang": "TypeScript"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 452,
+    "stars": 454,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 4,
   "kev": 1781,
   "adv": 12,
   "feed": 48
