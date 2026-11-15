@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-15T13:22:17.616Z",
+ "generatedAt": "2026-11-15T14:22:06.933Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-129444 — A vulnerability was identified in D-Link DSL-6740C 20131126. This affects an unknown function of the file /etc/templates/ftpd/ftpd_conf.php ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129444",
-    "score": 10,
-    "date": "2026-11-15T09:30:34Z"
-   },
    {
     "title": "CVE-2026-129450 — A vulnerability was detected in DrayTek Vigor2960 1.5.1.6. Affected by this issue is the function sub_1E084 of the file /cgi-bin/mainfunctio",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-129450",
@@ -39,6 +33,12 @@
     "date": "2026-11-15T12:31:29Z"
    },
    {
+    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99133",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
     "title": "CVE-2026-129445 — A security flaw has been discovered in D-Link DIR-850L FW1.20WWb03. This impacts an unknown function of the file /usr/sbin/consolepwd of the",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-129445",
     "score": 8.2,
@@ -49,6 +49,18 @@
     "url": "https://github.com/advisories/RLSA-2026:98603",
     "score": 8.2,
     "date": "2026-11-13T12:06:38.220996Z"
+   },
+   {
+    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99624",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
+    "url": "https://github.com/advisories/RLSA-2026:99212",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
    },
    {
     "title": "RLSA-2026:97090 — Important: subscription-manager-cockpit security update",
@@ -63,28 +75,16 @@
     "date": "2026-11-13T12:06:44.160727Z"
    },
    {
-    "title": "RLSA-2026:98584 — Important: glycin-loaders security update",
-    "url": "https://github.com/advisories/RLSA-2026:98584",
+    "title": "RLSA-2026:98590 — Important: aspell security update",
+    "url": "https://github.com/advisories/RLSA-2026:98590",
     "score": 7.8,
-    "date": "2026-11-13T06:07:08.658268Z"
+    "date": "2026-11-13T12:06:38.220996Z"
    },
    {
-    "title": "CVE-2026-82568 — The Give - Peer-to-Peer plugin for WordPress is vulnerable to time-based SQL Injection via the 'sort' parameter in all versions up to, and i",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82568",
-    "score": 7.5,
-    "date": "2026-11-15T12:31:29Z"
-   },
-   {
-    "title": "CVE-2026-82663 — The Give - Peer-to-Peer plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.9.5. This is due ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82663",
-    "score": 7.5,
-    "date": "2026-11-15T12:31:29Z"
-   },
-   {
-    "title": "RLSA-2026:99696 — Important: glib-networking security update",
-    "url": "https://github.com/advisories/RLSA-2026:99696",
-    "score": 7.5,
-    "date": "2026-11-13T12:06:44.160727Z"
+    "title": "RLSA-2026:99660 — Important: xfsprogs security update",
+    "url": "https://github.com/advisories/RLSA-2026:99660",
+    "score": 7.8,
+    "date": "2026-11-13T12:06:37.188502Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3418,
+    "stars": 3425,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2144,
+    "stars": 2145,
     "lang": "Python"
    },
    {
     "title": "openqodex/openqodex — Open source AI code review for coding agents. A separate reviewer checks every change your agent writes before",
     "url": "https://github.com/openqodex/openqodex",
-    "stars": 1192,
+    "stars": 1194,
     "lang": "TypeScript"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 935,
+    "stars": 936,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 510,
+    "stars": 511,
     "lang": "C"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 490,
+    "stars": 491,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 6,
+  "crit": 5,
   "kev": 1781,
   "adv": 12,
   "feed": 48
