@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-11-15T22:22:07.706Z",
+ "generatedAt": "2026-11-15T23:26:04.923Z",
  "sources": {
   "cve": [
    {
-    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98978",
+    "title": "CVE-2023-45288 — Security update for grafana (+26 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_20654-1.json",
+    "score": 9.9,
+    "date": "2026-11-15T21:11:42Z"
+   },
+   {
+    "title": "CVE-2024-45337 — Security update for rclone (+13 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_20620-1.json",
     "score": 9.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-15T21:11:40Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,70 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99133",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2026-57739 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AcyMailing Newsletter Team AcyMailing ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-57739",
+    "score": 9.3,
+    "date": "2026-07-13T12:35:04Z"
    },
    {
-    "title": "RLSA-2026:98623 — Important: gvfs security update",
-    "url": "https://github.com/advisories/RLSA-2026:98623",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2025-55212 — Security update for ImageMagick (+5 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2025/opensuse-su-2025_20162-1.json",
+    "score": 8.5,
+    "date": "2026-11-15T21:10:08Z"
    },
    {
-    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
-    "url": "https://github.com/advisories/RLSA-2026:98621",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:98635",
-    "score": 8.8,
-    "date": "2026-11-13T06:06:59.212490Z"
-   },
-   {
-    "title": "RLSA-2026:98624 — Important: tesseract security update",
-    "url": "https://github.com/advisories/RLSA-2026:98624",
+    "title": "CVE-2026-123962 — In FreedomBox before 26.15, unprivileged user accounts can read/write files for which they lack permissions by setting the authorized_keys f",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-123962",
     "score": 8.4,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-06T18:35:24Z"
    },
    {
-    "title": "RLSA-2026:98603 — Important: jq security update",
-    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "title": "CVE-2024-0406 — Security update for hauler (+7 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2025/opensuse-su-2025_20160-1.json",
+    "score": 8.3,
+    "date": "2026-11-15T21:10:07Z"
+   },
+   {
+    "title": "CVE-2025-47912 — Security update for go1.24 (+11 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2025/opensuse-su-2025_20158-1.json",
     "score": 8.2,
-    "date": "2026-11-13T12:06:38.220996Z"
+    "date": "2026-11-15T21:10:04Z"
    },
    {
-    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99624",
-    "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2025-47910 — Security update for go1.25 (+12 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2025/opensuse-su-2025_20157-1.json",
+    "score": 8.2,
+    "date": "2026-11-15T21:10:03Z"
    },
    {
-    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
-    "url": "https://github.com/advisories/RLSA-2026:99212",
+    "title": "CVE-2026-129091 — Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Mikado-Themes Grand",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129091",
     "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-15T21:30:36Z"
    },
    {
-    "title": "RLSA-2026:98641 — Important: python-oauthlib security update",
-    "url": "https://github.com/advisories/RLSA-2026:98641",
+    "title": "CVE-2026-84383 — Security update for libheif (+7 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_21889-1.json",
     "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-15T21:11:52Z"
    },
    {
-    "title": "RLSA-2026:98634 — Important: nginx security update",
-    "url": "https://github.com/advisories/RLSA-2026:98634",
+    "title": "CVE-2023-48795 — Security update for cheat (+7 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2025/opensuse-su-2025_20177-1.json",
     "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-15T21:10:18Z"
    },
    {
-    "title": "RLSA-2026:97090 — Important: subscription-manager-cockpit security update",
-    "url": "https://github.com/advisories/RLSA-2026:97090",
-    "score": 8.1,
-    "date": "2026-11-13T06:07:05.716032Z"
+    "title": "CVE-2026-19548 — binutils-2.47-2.1 on GA media (+3 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_12315-1.json",
+    "score": 7.8,
+    "date": "2026-11-15T21:11:31Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3462,
+    "stars": 3468,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2153,
+    "stars": 2157,
     "lang": "Python"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 516,
+    "stars": 518,
     "lang": "C"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1781,
   "adv": 12,
   "feed": 48
