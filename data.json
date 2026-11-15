@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-15T04:23:43.880Z",
+ "generatedAt": "2026-11-15T05:22:43.108Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2026-129354 — A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the componen",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129354",
+    "score": 10,
+    "date": "2026-11-15T03:30:43Z"
+   },
    {
     "title": "CVE-2026-129351 — A security vulnerability has been detected in TRENDnet TEW-657BRM 1.00.1. This vulnerability affects the function sprintf of the file /setup",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-129351",
@@ -33,38 +39,26 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98598",
-    "score": 9.3,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
     "title": "CVE-2026-129352 — A vulnerability was detected in TRENDnet TEW-657BRM 1.00.1. This issue affects some unknown processing of the file /usr/sbin/upgrade_flash.c",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-129352",
     "score": 9.1,
     "date": "2026-11-15T00:30:26Z"
    },
    {
+    "title": "CVE-2026-129464 — Zr.Admin.NET commit 0ee1ab8 through commit eb9228a contains a path traversal vulnerability that allows any logged-in user to read arbitrary ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129464",
+    "score": 8.8,
+    "date": "2026-11-15T03:30:44Z"
+   },
+   {
+    "title": "CVE-2026-129465 — Zr.Admin.NET commit af07ffc through commit eb9228a contains an insecure direct object reference vulnerability in SysProfileController.Update",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129465",
+    "score": 8.8,
+    "date": "2026-11-15T03:30:44Z"
+   },
+   {
     "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RLSA-2026:99133",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98623 — Important: gvfs security update",
-    "url": "https://github.com/advisories/RLSA-2026:98623",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
-    "url": "https://github.com/advisories/RLSA-2026:98621",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98616 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:98616",
     "score": 8.8,
     "date": "2026-11-13T12:06:37.188502Z"
    },
@@ -75,16 +69,22 @@
     "date": "2026-11-13T06:06:59.212490Z"
    },
    {
-    "title": "RLSA-2026:98624 — Important: tesseract security update",
-    "url": "https://github.com/advisories/RLSA-2026:98624",
-    "score": 8.4,
+    "title": "RLSA-2026:98603 — Important: jq security update",
+    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "score": 8.2,
+    "date": "2026-11-13T12:06:38.220996Z"
+   },
+   {
+    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99624",
+    "score": 8.1,
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "RLSA-2026:98605 — Important: libXrender security update",
-    "url": "https://github.com/advisories/RLSA-2026:98605",
-    "score": 8.3,
-    "date": "2026-11-13T06:06:59.212490Z"
+    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
+    "url": "https://github.com/advisories/RLSA-2026:99212",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
    }
   ],
   "kev": [
@@ -463,13 +463,13 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3374,
+    "stars": 3376,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2134,
+    "stars": 2135,
     "lang": "Python"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 776,
+    "stars": 777,
     "lang": "Java"
    },
    {
@@ -517,7 +517,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 479,
+    "stars": 480,
     "lang": "—"
    },
    {
