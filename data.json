@@ -1,18 +1,60 @@
 {
- "generatedAt": "2026-11-16T16:24:55.843Z",
+ "generatedAt": "2026-11-16T17:23:30.433Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2024-12909 — llama-index-packs-finchat SQL Injection vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-12909",
+    "title": "CVE-2026-34938 — PraisonAI: Python Sandbox Escape via str Subclass startswith() Override in execute_code",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-34938",
     "score": 10,
-    "date": "2025-03-20T12:32:44Z"
+    "date": "2026-04-01T23:17:48Z"
    },
    {
-    "title": "CVE-2026-31236 — llm CLI tool contains a code injection vulnerability via `--functions` command-line argument",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-31236",
+    "title": "CVE-2026-39888 — PraisonAI has sandbox escape via exception frame traversal in `execute_code` (subprocess mode)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39888",
+    "score": 9.9,
+    "date": "2026-04-08T19:17:28Z"
+   },
+   {
+    "title": "CVE-2026-47103 — python-statemachine SCXML <data expr> Eval Injection",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47103",
     "score": 9.8,
-    "date": "2026-05-12T18:30:41Z"
+    "date": "2026-06-18T14:28:02Z"
+   },
+   {
+    "title": "CVE-2026-44484 — Compromise of PyTorch Lightning PyPi Package Versions",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44484",
+    "score": 9.8,
+    "date": "2026-05-07T00:52:55Z"
+   },
+   {
+    "title": "CVE-2025-62515 — pyquokka is Vulnerable to Remote Code Execution by Pickle Deserialization via FlightServer",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-62515",
+    "score": 9.8,
+    "date": "2025-10-17T18:08:09Z"
+   },
+   {
+    "title": "CVE-2025-61622 — Apache Pyfory python is vulnerable to deserialization of untrusted data",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-61622",
+    "score": 9.8,
+    "date": "2025-10-01T12:30:27Z"
+   },
+   {
+    "title": "CVE-2025-54802 — pyLoad CNL Blueprint allows Path Traversal through `dlc_path` which leads to Remote Code Execution (RCE)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-54802",
+    "score": 9.8,
+    "date": "2025-08-04T15:57:48Z"
+   },
+   {
+    "title": "CVE-2025-53890 — pyLoad vulnerable to XSS through insecure CAPTCHA",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-53890",
+    "score": 9.8,
+    "date": "2025-07-15T15:38:10Z"
+   },
+   {
+    "title": "CVE-2025-2000 — Qiskit allows arbitrary code execution decoding QPY format versions < 13",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-2000",
+    "score": 9.8,
+    "date": "2025-03-14T19:56:14Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +69,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-45201 — LlamaIndex includes an exec call for `import {cls_name}`",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-45201",
+    "title": "CVE-2024-39205 — pyload-ng vulnerable to RCE with js2py sandbox escape",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-39205",
     "score": 9.8,
-    "date": "2024-08-22T21:31:29Z"
+    "date": "2024-09-09T18:17:20Z"
    },
    {
-    "title": "CVE-2024-5751 — litellm vulnerable to remote code execution based on using eval unsafely",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-5751",
+    "title": "CVE-2024-3829 — qdrant input validation failure",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-3829",
     "score": 9.8,
-    "date": "2024-06-27T21:32:08Z"
+    "date": "2024-06-03T12:30:38Z"
    },
    {
-    "title": "CVE-2024-5452 — Remote code execution in pytorch lightning",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-5452",
+    "title": "CVE-2024-36039 — PyMySQL SQL Injection vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-36039",
     "score": 9.8,
-    "date": "2024-06-06T18:30:58Z"
-   },
-   {
-    "title": "CVE-2024-3271 — llama-index-core Command Injection vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-3271",
-    "score": 9.8,
-    "date": "2024-04-16T00:30:34Z"
-   },
-   {
-    "title": "CVE-2026-42048 — Langflow Knowledge Bases API is Vulnerable to Path Traversal",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42048",
-    "score": 9.6,
-    "date": "2026-05-05T18:28:59Z"
-   },
-   {
-    "title": "CVE-2026-35030 — LiteLLM: Authentication bypass via OIDC userinfo cache key collision",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-35030",
-    "score": 9.5,
-    "date": "2026-04-03T21:59:50Z"
-   },
-   {
-    "title": "CVE-2026-128071 — Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128071",
-    "score": 6.5,
-    "date": "2026-11-16T14:59:45Z"
-   },
-   {
-    "title": "CVE-2026-128075 — Nuxt exposes the message and data of unhandled errors thrown during server rendering",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128075",
-    "score": 5.3,
-    "date": "2026-11-16T15:01:26Z"
-   },
-   {
-    "title": "CVE-2026-128074 — Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128074",
-    "score": 5,
-    "date": "2026-11-16T15:00:41Z"
-   },
-   {
-    "title": "CVE-2026-128076 — Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128076",
-    "score": 3.1,
-    "date": "2026-11-16T15:02:22Z"
+    "date": "2024-05-21T18:31:23Z"
    }
   ],
   "kev": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+    "date": "Mon, 16 Nov 2026 19:30:00 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+    "date": "Mon, 16 Nov 2026 18:57:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
     "date": "Mon, 16 Nov 2026 18:04:21 +0530",
@@ -357,23 +371,16 @@
     "date": "Fri, 13 Nov 2026 20:57:05 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-    "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-    "date": "Fri, 13 Nov 2026 19:58:58 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-    "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-    "date": "Fri, 13 Nov 2026 19:24:20 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+    "date": "Mon, 16 Nov 2026 11:43:24 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Fandango says hackers stole payment card details from checkout pages",
     "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
@@ -450,20 +457,13 @@
     "date": "Sat, 14 Nov 2026 12:27:25 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "US disrupts North Korean campaign behind $400 million crypto theft",
-    "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-    "date": "Sat, 14 Nov 2026 10:15:49 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3594,
+    "stars": 3597,
     "lang": "Go"
    },
    {
@@ -475,7 +475,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 965,
+    "stars": 966,
     "lang": "TypeScript"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 440,
+    "stars": 441,
     "lang": "—"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 294,
+    "stars": 295,
     "lang": "Python"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 10,
+  "crit": 14,
   "kev": 1781,
   "adv": 12,
   "feed": 48
