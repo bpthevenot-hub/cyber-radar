@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T06:48:17.507Z",
+ "generatedAt": "2026-11-16T07:36:44.806Z",
  "sources": {
   "cve": [
    {
@@ -21,14 +21,50 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-129540 — VoAPI 1.0.0 through 1.2.0 contains a sql injection vulnerability that allows authenticated users to inject SQL by supplying crafted column n",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129540",
+    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:98598",
+    "score": 9.3,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98587 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:98587",
+    "score": 9.1,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "CVE-2026-82156 — Dell PowerStore contains an authorization-bypass vulnerability. A low-privileged attacker could exploit it, potentially leading to elevation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82156",
     "score": 8.8,
-    "date": "2026-11-16T03:31:09Z"
+    "date": "2026-11-16T06:31:56Z"
    },
    {
     "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RLSA-2026:99133",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98623 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:98623",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
+    "url": "https://github.com/advisories/RLSA-2026:98621",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98616 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:98616",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98595 — Important: flatpak security update",
+    "url": "https://github.com/advisories/RLSA-2026:98595",
     "score": 8.8,
     "date": "2026-11-13T12:06:37.188502Z"
    },
@@ -39,52 +75,16 @@
     "date": "2026-11-13T06:06:59.212490Z"
    },
    {
-    "title": "BREW-opencode-CVE-2026-22812 — OpenCode's Unauthenticated HTTP Server Allows Arbitrary Command Execution",
-    "url": "https://github.com/advisories/BREW-opencode-CVE-2026-22812",
-    "score": 8.8,
-    "date": "2026-08-13T17:21:32Z"
-   },
-   {
-    "title": "RLSA-2026:98603 — Important: jq security update",
-    "url": "https://github.com/advisories/RLSA-2026:98603",
-    "score": 8.2,
-    "date": "2026-11-13T12:06:38.220996Z"
-   },
-   {
-    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99624",
-    "score": 8.1,
+    "title": "RLSA-2026:98624 — Important: tesseract security update",
+    "url": "https://github.com/advisories/RLSA-2026:98624",
+    "score": 8.4,
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "RLSA-2026:99212 — Important: perl-CGI security update",
-    "url": "https://github.com/advisories/RLSA-2026:99212",
-    "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98641 — Important: python-oauthlib security update",
-    "url": "https://github.com/advisories/RLSA-2026:98641",
-    "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:97090 — Important: subscription-manager-cockpit security update",
-    "url": "https://github.com/advisories/RLSA-2026:97090",
-    "score": 8.1,
-    "date": "2026-11-13T06:07:05.716032Z"
-   },
-   {
-    "title": "RLSA-2026:98076 — Important: sos security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98076",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:44.160727Z"
-   },
-   {
-    "title": "RLSA-2026:98590 — Important: aspell security update",
-    "url": "https://github.com/advisories/RLSA-2026:98590",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:38.220996Z"
+    "title": "RLSA-2026:98605 — Important: libXrender security update",
+    "url": "https://github.com/advisories/RLSA-2026:98605",
+    "score": 8.3,
+    "date": "2026-11-13T06:06:59.212490Z"
    }
   ],
   "kev": [
@@ -463,19 +463,19 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3538,
+    "stars": 3539,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2163,
+    "stars": 2165,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 956,
+    "stars": 957,
     "lang": "TypeScript"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 5,
   "kev": 1781,
   "adv": 12,
   "feed": 48
