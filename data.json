@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-16T11:26:25.495Z",
+ "generatedAt": "2026-11-16T12:37:10.080Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-98432 — Welotec: IPv4 TCP Use-After-Free in egOS",
-    "url": "https://certvde.com/en/advisories/VDE-2026-155/",
-    "score": 9.8,
-    "date": "2026-11-16T11:00:00.000Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -19,72 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2024-38795 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CridioStudio ListingPro allows SQL Inj",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-38795",
-    "score": 9.3,
-    "date": "2024-08-29T15:30:34Z"
-   },
-   {
-    "title": "CVE-2026-84383 — Security update for libheif (+7 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_21889-1.json",
-    "score": 8.1,
-    "date": "2026-11-16T09:04:53Z"
-   },
-   {
-    "title": "CVE-2026-129703 — In the vulnerability-lookup web application, the authentication decorators for feed-key requests (auth_feedkey_func in website/decorators.py",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129703",
-    "score": 7.5,
-    "date": "2026-11-16T09:30:41Z"
-   },
-   {
-    "title": "CVE-2026-105925 — A denial of service vulnerability in the Qt QXmlSimpleReader class of the Qt 5 Core Compatibility APIs module (Qt 6) and the Qt XML module (",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105925",
-    "score": 7.5,
-    "date": "2026-11-16T09:30:41Z"
-   },
-   {
-    "title": "CVE-2026-97358 — An inclusion of web functionality from an untrusted source could allow remote code execution on SpaceCom",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97358",
-    "score": 7.5,
-    "date": "2026-11-13T18:32:37Z"
-   },
-   {
-    "title": "CVE-2026-124672 — The Burst Statistics WordPress plugin before 3.7.5 does not verify that a request is actually being routed to its own REST API before unload",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124672",
-    "score": 7.3,
-    "date": "2026-11-16T09:30:41Z"
-   },
-   {
-    "title": "CVE-2025-31936 — Security update for ucode-intel (+9 CVE)",
-    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_21736-1.json",
-    "score": 7.2,
-    "date": "2026-11-16T09:04:52Z"
-   },
-   {
-    "title": "CVE-2024-8105 — Welotec: PKfail in RSAPC UEFI Firmware",
-    "url": "https://certvde.com/en/advisories/VDE-2024-060/",
-    "score": 6.4,
-    "date": "2026-11-16T11:00:00.000Z"
-   },
-   {
-    "title": "CVE-2026-129706 — In the vulnerability-lookup web application, the Flask-Login session identifier was set to the bare numeric user ID (User.get_id() returned ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129706",
-    "score": 5,
-    "date": "2026-11-16T09:30:41Z"
-   },
-   {
-    "title": "CVE-2026-97357 — An Out-Of-Bounds Write due to missing input validation is possible in the autoprogramming interface of SpaceCom and Space Battery pack with ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97357",
-    "score": 5,
-    "date": "2026-11-13T18:32:37Z"
-   },
-   {
-    "title": "CVE-2026-114453 — The Kadence Memberships WordPress plugin before 4.0.6 does not check that the membership level submitted when renewing a membership matches ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114453",
-    "score": 3.7,
-    "date": "2026-11-16T09:30:41Z"
    }
   ],
   "kev": [
@@ -463,25 +391,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3557,
+    "stars": 3563,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2170,
+    "stars": 2171,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 961,
+    "stars": 962,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 778,
+    "stars": 779,
     "lang": "Java"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 329,
+    "stars": 328,
     "lang": "JavaScript"
    },
    {
@@ -529,7 +457,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 285,
+    "stars": 286,
     "lang": "Python"
    }
   ],
@@ -717,7 +645,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 2,
   "kev": 1781,
   "adv": 12,
   "feed": 48
