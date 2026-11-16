@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T08:40:17.408Z",
+ "generatedAt": "2026-11-16T09:33:39.859Z",
  "sources": {
   "cve": [
    {
@@ -24,12 +24,6 @@
     "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
     "url": "https://github.com/advisories/RLSA-2026:98598",
     "score": 9.3,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98587 — Important: dovecot security update",
-    "url": "https://github.com/advisories/RLSA-2026:98587",
-    "score": 9.1,
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
@@ -85,6 +79,12 @@
     "url": "https://github.com/advisories/RLSA-2026:98605",
     "score": 8.3,
     "date": "2026-11-13T06:06:59.212490Z"
+   },
+   {
+    "title": "RLSA-2026:98603 — Important: jq security update",
+    "url": "https://github.com/advisories/RLSA-2026:98603",
+    "score": 8.2,
+    "date": "2026-11-13T12:06:38.220996Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+    "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+    "date": "Mon, 16 Nov 2026 04:30:04 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Microsoft pushes Windows emergency updates to fix activation failures",
     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
     "date": "Mon, 16 Nov 2026 03:26:52 -0500",
@@ -450,20 +457,13 @@
     "date": "Fri, 13 Nov 2026 05:44:22 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft confirms Windows activation failures after November updates",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-    "date": "Fri, 13 Nov 2026 04:36:18 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3544,
+    "stars": 3547,
     "lang": "Go"
    },
    {
@@ -493,19 +493,19 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 523,
+    "stars": 524,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 501,
+    "stars": 503,
     "lang": "—"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 437,
+    "stars": 438,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1781,
   "adv": 12,
   "feed": 48
