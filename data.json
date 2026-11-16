@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T22:21:37.362Z",
+ "generatedAt": "2026-11-16T23:21:55.781Z",
  "sources": {
   "cve": [
    {
@@ -15,22 +15,52 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-20016 — Malicious code in kartyk-test-unscoped-pkg (npm)",
-    "url": "https://github.com/advisories/MAL-2026-20016",
-    "score": null,
-    "date": "2026-11-16T21:00:41Z"
+    "title": "CVE-2026-63182 — lightsaml allows Signature wrapping bypass",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63182",
+    "score": 8.1,
+    "date": "2026-11-16T22:08:38Z"
    },
    {
-    "title": "MAL-2026-20018 — Malicious code in kartykgithub-ph-d (npm)",
-    "url": "https://github.com/advisories/MAL-2026-20018",
-    "score": null,
-    "date": "2026-11-16T21:00:21Z"
+    "title": "CVE-2026-129297 — mail-parser: Sender IP address spoofing in get_server_ipaddress()",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129297",
+    "score": 7.5,
+    "date": "2026-11-16T22:11:54Z"
    },
    {
-    "title": "MAL-2026-20017 — Malicious code in kartykgithub-ph-c (npm)",
-    "url": "https://github.com/advisories/MAL-2026-20017",
-    "score": null,
-    "date": "2026-11-16T21:00:13Z"
+    "title": "CVE-2026-129295 — mail-parser is vulnerable to polynomial ReDoS in email header parsing",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129295",
+    "score": 7.5,
+    "date": "2026-11-16T22:11:08Z"
+   },
+   {
+    "title": "CVE-2026-68934 — code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68934",
+    "score": 7.5,
+    "date": "2026-11-16T22:09:06Z"
+   },
+   {
+    "title": "CVE-2026-129236 — Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129236",
+    "score": 7.2,
+    "date": "2026-11-16T22:17:32Z"
+   },
+   {
+    "title": "CVE-2026-86046 — termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86046",
+    "score": 7.1,
+    "date": "2026-11-16T22:09:24Z"
+   },
+   {
+    "title": "CVE-2026-129299 — mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129299",
+    "score": 6.5,
+    "date": "2026-11-16T22:12:51Z"
+   },
+   {
+    "title": "CVE-2026-129296 — mail-parser: Path Traversal vulnerability in attachment extraction",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129296",
+    "score": 6.5,
+    "date": "2026-11-16T22:10:55Z"
    }
   ],
   "kev": [
@@ -149,6 +179,69 @@
   ],
   "adv": [
    {
+    "title": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
+    "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
+    "score": 5.4,
+    "ghsa": "GHSA-vx32-xf7g-9ghr",
+    "date": "2026-11-16T22:35:40Z"
+   },
+   {
+    "title": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
+    "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
+    "score": 8.8,
+    "ghsa": "GHSA-c94f-87xg-65wf",
+    "date": "2026-11-16T22:35:12Z"
+   },
+   {
+    "title": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
+    "url": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw",
+    "score": 4.3,
+    "ghsa": "GHSA-4qv2-g5vp-wjjw",
+    "date": "2026-11-16T22:34:59Z"
+   },
+   {
+    "title": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
+    "url": "https://github.com/advisories/GHSA-rg72-5958-c65m",
+    "score": 6.8,
+    "ghsa": "GHSA-rg72-5958-c65m",
+    "date": "2026-11-16T22:30:42Z"
+   },
+   {
+    "title": "Silverstripe Framework: Auth bypass GridFieldDetailForm",
+    "url": "https://github.com/advisories/GHSA-3qh3-54qg-gpq3",
+    "score": 4.3,
+    "ghsa": "GHSA-3qh3-54qg-gpq3",
+    "date": "2026-11-16T22:29:59Z"
+   },
+   {
+    "title": "Silverstripe Framework: XSS via SVG data URI",
+    "url": "https://github.com/advisories/GHSA-xwg4-8hqh-79jq",
+    "score": 5.4,
+    "ghsa": "GHSA-xwg4-8hqh-79jq",
+    "date": "2026-11-16T22:27:46Z"
+   },
+   {
+    "title": "Silverstripe Framework: XSS via XHTML data URI",
+    "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
+    "score": 5.4,
+    "ghsa": "GHSA-qqrg-8jpm-8mph",
+    "date": "2026-11-16T22:27:37Z"
+   },
+   {
+    "title": "Directus: Share update allows reassigning user_created and role",
+    "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
+    "score": 6.5,
+    "ghsa": "GHSA-7h45-q5jx-7r87",
+    "date": "2026-11-16T22:25:53Z"
+   },
+   {
+    "title": "mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
+    "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
+    "score": 6.5,
+    "ghsa": "GHSA-8cgq-x343-p74c",
+    "date": "2026-11-16T22:22:13Z"
+   },
+   {
     "title": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
     "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
     "score": 5.3,
@@ -168,69 +261,6 @@
     "score": 7.2,
     "ghsa": "GHSA-8vf2-hxg5-crqh",
     "date": "2026-11-16T22:17:32Z"
-   },
-   {
-    "title": "mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
-    "url": "https://github.com/advisories/GHSA-24mq-4vc6-2prf",
-    "score": 6.5,
-    "ghsa": "GHSA-24mq-4vc6-2prf",
-    "date": "2026-11-16T22:12:51Z"
-   },
-   {
-    "title": "mail-parser: Sender IP address spoofing in get_server_ipaddress()",
-    "url": "https://github.com/advisories/GHSA-72px-j8gh-p79x",
-    "score": 7.5,
-    "ghsa": "GHSA-72px-j8gh-p79x",
-    "date": "2026-11-16T22:11:54Z"
-   },
-   {
-    "title": "mail-parser is vulnerable to polynomial ReDoS in email header parsing",
-    "url": "https://github.com/advisories/GHSA-r7w7-vpq8-c5vv",
-    "score": 7.5,
-    "ghsa": "GHSA-r7w7-vpq8-c5vv",
-    "date": "2026-11-16T22:11:08Z"
-   },
-   {
-    "title": "mail-parser: Path Traversal vulnerability in attachment extraction",
-    "url": "https://github.com/advisories/GHSA-fr3h-cpq2-9496",
-    "score": 6.5,
-    "ghsa": "GHSA-fr3h-cpq2-9496",
-    "date": "2026-11-16T22:10:55Z"
-   },
-   {
-    "title": "termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
-    "url": "https://github.com/advisories/GHSA-259w-wmqg-fp76",
-    "score": 7.1,
-    "ghsa": "GHSA-259w-wmqg-fp76",
-    "date": "2026-11-16T22:09:24Z"
-   },
-   {
-    "title": "code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
-    "url": "https://github.com/advisories/GHSA-jq3q-62jc-fqq9",
-    "score": 7.5,
-    "ghsa": "GHSA-jq3q-62jc-fqq9",
-    "date": "2026-11-16T22:09:06Z"
-   },
-   {
-    "title": "lightsaml allows Signature wrapping bypass",
-    "url": "https://github.com/advisories/GHSA-w553-pwx6-3mg9",
-    "score": 8.1,
-    "ghsa": "GHSA-w553-pwx6-3mg9",
-    "date": "2026-11-16T22:08:38Z"
-   },
-   {
-    "title": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
-    "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
-    "score": null,
-    "ghsa": "GHSA-mfr8-8qww-v76h",
-    "date": "2026-11-16T18:51:22Z"
-   },
-   {
-    "title": "NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
-    "url": "https://github.com/advisories/GHSA-7mxv-7h3q-9324",
-    "score": 7.8,
-    "ghsa": "GHSA-7mxv-7h3q-9324",
-    "date": "2026-11-16T18:45:51Z"
    }
   ],
   "thn": [
@@ -321,6 +351,13 @@
   ],
   "bleep": [
    {
+    "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+    "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+    "date": "Mon, 16 Nov 2026 17:54:00 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
     "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
     "date": "Mon, 16 Nov 2026 16:31:44 -0500",
@@ -396,26 +433,19 @@
     "date": "Mon, 16 Nov 2026 04:30:04 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-    "date": "Mon, 16 Nov 2026 03:26:52 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3616,
+    "stars": 3617,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2174,
+    "stars": 2175,
     "lang": "Python"
    },
    {
@@ -427,7 +457,7 @@
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 779,
+    "stars": 780,
     "lang": "Java"
    },
    {
@@ -445,7 +475,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 510,
+    "stars": 513,
     "lang": "—"
    },
    {
@@ -475,7 +505,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 303,
+    "stars": 305,
     "lang": "Python"
    }
   ],
