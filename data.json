@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-16T09:33:39.859Z",
+ "generatedAt": "2026-11-16T10:27:27.327Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2023-3935 — Endress+Hauser: Multiple products affected by Wibu-Systems CodeMeter Vulnerability",
+    "url": "https://certvde.com/en/advisories/VDE-2025-105",
+    "score": 9.8,
+    "date": "2026-11-16T09:00:00.000Z"
+   },
    {
     "title": "RLSA-2026:98978 — Important: mod_http2 security update",
     "url": "https://github.com/advisories/RLSA-2026:98978",
@@ -57,12 +63,6 @@
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "RLSA-2026:98595 — Important: flatpak security update",
-    "url": "https://github.com/advisories/RLSA-2026:98595",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
     "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
     "url": "https://github.com/advisories/RLSA-2026:98635",
     "score": 8.8,
@@ -75,16 +75,16 @@
     "date": "2026-11-13T12:06:37.188502Z"
    },
    {
-    "title": "RLSA-2026:98605 — Important: libXrender security update",
-    "url": "https://github.com/advisories/RLSA-2026:98605",
-    "score": 8.3,
-    "date": "2026-11-13T06:06:59.212490Z"
-   },
-   {
     "title": "RLSA-2026:98603 — Important: jq security update",
     "url": "https://github.com/advisories/RLSA-2026:98603",
     "score": 8.2,
     "date": "2026-11-13T12:06:38.220996Z"
+   },
+   {
+    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99624",
+    "score": 8.1,
+    "date": "2026-11-13T12:06:37.188502Z"
    }
   ],
   "kev": [
@@ -463,25 +463,25 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3547,
+    "stars": 3550,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2168,
+    "stars": 2169,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 959,
+    "stars": 961,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 777,
+    "stars": 778,
     "lang": "Java"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 524,
+    "stars": 525,
     "lang": "C"
    },
    {
@@ -511,7 +511,7 @@
    {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
-    "stars": 331,
+    "stars": 329,
     "lang": "JavaScript"
    },
    {
@@ -527,9 +527,9 @@
     "lang": "Lean"
    },
    {
-    "title": "irraz/vulnerator-ai — Autonomous OODA-loop pentesting agent. Hermes brain, Kali + Playwright tools over MCP, ATT&CK as the Orient la",
-    "url": "https://github.com/irraz/vulnerator-ai",
-    "stars": 283,
+    "title": "huggingface/safeagents — Safely run your agents using any coding harness",
+    "url": "https://github.com/huggingface/safeagents",
+    "stars": 285,
     "lang": "Python"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 4,
+  "crit": 5,
   "kev": 1781,
   "adv": 12,
   "feed": 48
