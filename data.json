@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-16T14:42:30.365Z",
+ "generatedAt": "2026-11-16T15:32:09.984Z",
  "sources": {
   "cve": [
+   {
+    "title": "CVE-2024-12909 — llama-index-packs-finchat SQL Injection vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-12909",
+    "score": 10,
+    "date": "2025-03-20T12:32:44Z"
+   },
+   {
+    "title": "CVE-2026-31236 — llm CLI tool contains a code injection vulnerability via `--functions` command-line argument",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-31236",
+    "score": 9.8,
+    "date": "2026-05-12T18:30:41Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -15,76 +27,64 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-129784 — The httpx Ruby gem parses JSON response bodies through its transcoder layer. HTTPX::Response#json delegates to Transcoder::JSON.decode, and ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129784",
-    "score": 8.5,
-    "date": "2026-11-16T12:31:40Z"
+    "title": "CVE-2024-45201 — LlamaIndex includes an exec call for `import {cls_name}`",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-45201",
+    "score": 9.8,
+    "date": "2024-08-22T21:31:29Z"
    },
    {
-    "title": "CVE-2026-21176 — Unquoted search path or element in Samsung Device Care prior to version 4.0.80 allows local attackers to execute arbitrary code.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21176",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:45Z"
+    "title": "CVE-2024-5751 — litellm vulnerable to remote code execution based on using eval unsafely",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-5751",
+    "score": 9.8,
+    "date": "2024-06-27T21:32:08Z"
    },
    {
-    "title": "CVE-2026-21167 — Binding to an unrestricted IP address in Smart Switch prior to version 3.7.74.7 allows adjacent attackers to bypass authentication. User int",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21167",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:45Z"
+    "title": "CVE-2024-5452 — Remote code execution in pytorch lightning",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-5452",
+    "score": 9.8,
+    "date": "2024-06-06T18:30:58Z"
    },
    {
-    "title": "CVE-2026-21175 — Incorrect permission assignment for critical resource in Samsung Update prior to version 3.0.111.0 allows local attackers to execute arbitra",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21175",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:45Z"
+    "title": "CVE-2024-3271 — llama-index-core Command Injection vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-3271",
+    "score": 9.8,
+    "date": "2024-04-16T00:30:34Z"
    },
    {
-    "title": "CVE-2026-21152 — Improper input validation in libMyFilterPlugin.camera.samsung.so prior to SMR Nov-2026 Release 1 allows local attackers to potentially execu",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21152",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:43Z"
+    "title": "CVE-2026-42048 — Langflow Knowledge Bases API is Vulnerable to Path Traversal",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42048",
+    "score": 9.6,
+    "date": "2026-05-05T18:28:59Z"
    },
    {
-    "title": "CVE-2026-21153 — Stack-based buffer overflow in libsecuibc.so prior to SMR Nov-2026 Release 1 allows local attackers to execute arbitrary code.",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21153",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:43Z"
+    "title": "CVE-2026-35030 — LiteLLM: Authentication bypass via OIDC userinfo cache key collision",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-35030",
+    "score": 9.5,
+    "date": "2026-04-03T21:59:50Z"
    },
    {
-    "title": "CVE-2026-21151 — Improper privilege management in TransitionPlayer prior to SMR Nov-2026 Release 1 allows local privileged attackers to execute arbitrary cod",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21151",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:43Z"
-   },
-   {
-    "title": "CVE-2026-129547 — Kalmia through 0.2.0 contains an authentication bypass vulnerability in RsPressMiddleware that allows unauthenticated attackers to access pr",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129547",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:41Z"
-   },
-   {
-    "title": "CVE-2026-15707 — An uncontrolled search path vulnerability (CWE-427) in statically linked OpenSSL libraries within Netskope Client (stAgentSvc.exe) and Endpo",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15707",
-    "score": 7.5,
-    "date": "2026-11-16T12:31:41Z"
-   },
-   {
-    "title": "CVE-2026-67250 — A local privilege escalation (LPE) vulnerability in Pebble’s installers could allow a local attacker with low privilege access to place a ma",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67250",
-    "score": 7.3,
-    "date": "2026-11-16T12:31:45Z"
-   },
-   {
-    "title": "CVE-2026-63245 — A local privilege escalation (LPE) vulnerability in the Audigy Rx driver’s Emupia2k.sys file could allow a local attacker with low privilege",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63245",
-    "score": 7.3,
-    "date": "2026-11-16T12:31:41Z"
-   },
-   {
-    "title": "CVE-2026-129546 — Kalmia through 0.2.0 contains an information disclosure vulnerability that allows authenticated read-only users to retrieve Git deployment c",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129546",
+    "title": "CVE-2026-128071 — Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128071",
     "score": 6.5,
-    "date": "2026-11-16T12:31:41Z"
+    "date": "2026-11-16T14:59:45Z"
+   },
+   {
+    "title": "CVE-2026-128075 — Nuxt exposes the message and data of unhandled errors thrown during server rendering",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128075",
+    "score": 5.3,
+    "date": "2026-11-16T15:01:26Z"
+   },
+   {
+    "title": "CVE-2026-128074 — Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128074",
+    "score": 5,
+    "date": "2026-11-16T15:00:41Z"
+   },
+   {
+    "title": "CVE-2026-128076 — Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-128076",
+    "score": 3.1,
+    "date": "2026-11-16T15:02:22Z"
    }
   ],
   "kev": [
@@ -203,88 +203,88 @@
   ],
   "adv": [
    {
-    "title": "NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
-    "url": "https://github.com/advisories/GHSA-89p3-fcch-88ph",
-    "score": 7.5,
-    "ghsa": "GHSA-89p3-fcch-88ph",
-    "date": "2026-11-14T00:08:50Z"
-   },
-   {
-    "title": "NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
-    "url": "https://github.com/advisories/GHSA-r53h-rw34-8h97",
-    "score": 7.5,
-    "ghsa": "GHSA-r53h-rw34-8h97",
-    "date": "2026-11-14T00:07:59Z"
-   },
-   {
-    "title": "NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
-    "url": "https://github.com/advisories/GHSA-v8f3-6phw-6mh9",
-    "score": 7.5,
-    "ghsa": "GHSA-v8f3-6phw-6mh9",
-    "date": "2026-11-14T00:05:57Z"
-   },
-   {
-    "title": "NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
-    "url": "https://github.com/advisories/GHSA-fg9w-wfp5-j933",
-    "score": 6.8,
-    "ghsa": "GHSA-fg9w-wfp5-j933",
-    "date": "2026-11-13T23:20:56Z"
-   },
-   {
-    "title": "ag-psd can exhaust memory when parsing crafted PSD dimensions",
-    "url": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw",
-    "score": 7.5,
-    "ghsa": "GHSA-qfx6-q44v-9qqw",
-    "date": "2026-11-13T23:19:38Z"
-   },
-   {
-    "title": "File Browser: Trailing-slash directory deletion leaves public shares active for recreated paths",
-    "url": "https://github.com/advisories/GHSA-pp88-jhwj-5qh5",
+    "title": "Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
+    "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
     "score": 3.1,
-    "ghsa": "GHSA-pp88-jhwj-5qh5",
-    "date": "2026-11-13T23:12:06Z"
+    "ghsa": "GHSA-hf59-9xwc-2g4p",
+    "date": "2026-11-16T15:02:22Z"
    },
    {
-    "title": "NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
-    "url": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r",
+    "title": "Nuxt exposes the message and data of unhandled errors thrown during server rendering",
+    "url": "https://github.com/advisories/GHSA-96x6-fvhx-49hg",
     "score": 5.3,
-    "ghsa": "GHSA-gpwc-27cw-rh9r",
-    "date": "2026-11-13T21:16:34Z"
+    "ghsa": "GHSA-96x6-fvhx-49hg",
+    "date": "2026-11-16T15:01:26Z"
    },
    {
-    "title": "NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
-    "url": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr",
-    "score": 5.3,
-    "ghsa": "GHSA-ffr9-mgrr-wcvr",
-    "date": "2026-11-13T21:08:55Z"
+    "title": "Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
+    "url": "https://github.com/advisories/GHSA-r9jc-w898-3fv6",
+    "score": null,
+    "ghsa": "GHSA-r9jc-w898-3fv6",
+    "date": "2026-11-16T15:00:41Z"
    },
    {
-    "title": "NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
-    "url": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv",
+    "title": "@nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
+    "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
+    "score": 3.1,
+    "ghsa": "GHSA-x2wv-5868-p7v2",
+    "date": "2026-11-16T15:00:09Z"
+   },
+   {
+    "title": "Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
+    "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
+    "score": 6.5,
+    "ghsa": "GHSA-f3x9-2chm-73c8",
+    "date": "2026-11-16T14:59:45Z"
+   },
+   {
+    "title": "SvelteKit: Build-time server-only module import guard could fail, resulting in server secrets being statically replaced in client bundle",
+    "url": "https://github.com/advisories/GHSA-m9j8-jcmv-hp69",
     "score": 7.5,
-    "ghsa": "GHSA-8fx7-8jr8-84rv",
-    "date": "2026-11-13T21:02:19Z"
+    "ghsa": "GHSA-m9j8-jcmv-hp69",
+    "date": "2026-11-16T14:59:00Z"
    },
    {
-    "title": "NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
-    "url": "https://github.com/advisories/GHSA-qg35-44qx-7vrr",
+    "title": "SvelteKit: DoS while parsing form data from a remote functions `form`",
+    "url": "https://github.com/advisories/GHSA-3r8g-jcqq-3p5j",
     "score": 7.5,
-    "ghsa": "GHSA-qg35-44qx-7vrr",
-    "date": "2026-11-13T20:55:16Z"
+    "ghsa": "GHSA-3r8g-jcqq-3p5j",
+    "date": "2026-11-16T14:57:35Z"
    },
    {
-    "title": "SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
-    "url": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3",
-    "score": 5.9,
-    "ghsa": "GHSA-mw6w-2fmv-pvw3",
-    "date": "2026-11-13T20:51:44Z"
+    "title": "AIOHTTP: Event loop stall in add_domain() wildcard matching",
+    "url": "https://github.com/advisories/GHSA-jm3w-gw2p-xjfj",
+    "score": 7.5,
+    "ghsa": "GHSA-jm3w-gw2p-xjfj",
+    "date": "2026-11-16T14:56:35Z"
    },
    {
-    "title": "SvelteKit: Prerendered paths are interpreted as regular expressions in Vercel route config generated by @sveltejs/adapter-vercel and @sveltejs/adapter",
-    "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
-    "score": 5.9,
-    "ghsa": "GHSA-jf9x-2fg2-hx4w",
-    "date": "2026-11-13T20:43:23Z"
+    "title": "AIOHTTP: Unbounded cookie storage in client CookieJar",
+    "url": "https://github.com/advisories/GHSA-5pv8-vvhc-h7jv",
+    "score": null,
+    "ghsa": "GHSA-5pv8-vvhc-h7jv",
+    "date": "2026-11-16T14:55:06Z"
+   },
+   {
+    "title": "AIOHTTP: Too many URL-encoded form fields block the event loop",
+    "url": "https://github.com/advisories/GHSA-xgw8-8ccx-rmqh",
+    "score": 7.5,
+    "ghsa": "GHSA-xgw8-8ccx-rmqh",
+    "date": "2026-11-16T14:54:10Z"
+   },
+   {
+    "title": "AIOHTTP: Base64 multipart parts bypass client_max_size",
+    "url": "https://github.com/advisories/GHSA-24c4-3p7v-29cm",
+    "score": 7.5,
+    "ghsa": "GHSA-24c4-3p7v-29cm",
+    "date": "2026-11-16T14:53:12Z"
+   },
+   {
+    "title": "AIOHTTP: WebSocket max_msg_size bypass via integer overflow",
+    "url": "https://github.com/advisories/GHSA-3rp8-rxj8-mvjw",
+    "score": 7.5,
+    "ghsa": "GHSA-3rp8-rxj8-mvjw",
+    "date": "2026-11-16T14:52:40Z"
    }
   ],
   "thn": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+    "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+    "date": "Mon, 16 Nov 2026 10:01:11 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Google warns that fully-automated AI attacks are coming soon",
     "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
     "date": "Mon, 16 Nov 2026 09:00:00 -0500",
@@ -450,20 +457,13 @@
     "date": "Fri, 13 Nov 2026 14:38:36 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "German military drone operations disrupted by cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-    "date": "Fri, 13 Nov 2026 12:31:56 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3578,
+    "stars": 3584,
     "lang": "Go"
    },
    {
@@ -499,7 +499,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 506,
+    "stars": 508,
     "lang": "—"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 288,
+    "stars": 291,
     "lang": "Python"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 2,
+  "crit": 10,
   "kev": 1781,
   "adv": 12,
   "feed": 48
