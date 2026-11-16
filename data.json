@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T21:22:17.952Z",
+ "generatedAt": "2026-11-16T22:21:37.362Z",
  "sources": {
   "cve": [
    {
@@ -15,34 +15,22 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "MAL-2026-20013 — Malicious code in vite-auto-import-svg (npm)",
-    "url": "https://github.com/advisories/MAL-2026-20013",
+    "title": "MAL-2026-20016 — Malicious code in kartyk-test-unscoped-pkg (npm)",
+    "url": "https://github.com/advisories/MAL-2026-20016",
     "score": null,
-    "date": "2026-11-16T20:15:08Z"
+    "date": "2026-11-16T21:00:41Z"
    },
    {
-    "title": "MAL-2026-20014 — Malicious code in vite-utils-svg-icon (npm)",
-    "url": "https://github.com/advisories/MAL-2026-20014",
+    "title": "MAL-2026-20018 — Malicious code in kartykgithub-ph-d (npm)",
+    "url": "https://github.com/advisories/MAL-2026-20018",
     "score": null,
-    "date": "2026-11-16T20:15:08Z"
+    "date": "2026-11-16T21:00:21Z"
    },
    {
-    "title": "MAL-2026-17393 — Malicious code in ishumdz-bail (npm)",
-    "url": "https://github.com/advisories/MAL-2026-17393",
+    "title": "MAL-2026-20017 — Malicious code in kartykgithub-ph-c (npm)",
+    "url": "https://github.com/advisories/MAL-2026-20017",
     "score": null,
-    "date": "2026-11-16T19:17:57Z"
-   },
-   {
-    "title": "MAL-2026-16441 — Malicious code in moidevl (npm)",
-    "url": "https://github.com/advisories/MAL-2026-16441",
-    "score": null,
-    "date": "2026-09-23T02:44:31Z"
-   },
-   {
-    "title": "MAL-2026-13465 — Malicious code in vite-vue-path-map (npm)",
-    "url": "https://github.com/advisories/MAL-2026-13465",
-    "score": null,
-    "date": "2026-08-06T19:33:40Z"
+    "date": "2026-11-16T21:00:13Z"
    }
   ],
   "kev": [
@@ -161,6 +149,76 @@
   ],
   "adv": [
    {
+    "title": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+    "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
+    "score": 5.3,
+    "ghsa": "GHSA-xhrq-2mqv-q8wx",
+    "date": "2026-11-16T22:20:32Z"
+   },
+   {
+    "title": "Kubeshark: MCP `download_file` writes fetched bytes to an unvalidated destination path",
+    "url": "https://github.com/advisories/GHSA-gj7r-p794-hhq5",
+    "score": 5.3,
+    "ghsa": "GHSA-gj7r-p794-hhq5",
+    "date": "2026-11-16T22:18:58Z"
+   },
+   {
+    "title": "Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
+    "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
+    "score": 7.2,
+    "ghsa": "GHSA-8vf2-hxg5-crqh",
+    "date": "2026-11-16T22:17:32Z"
+   },
+   {
+    "title": "mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
+    "url": "https://github.com/advisories/GHSA-24mq-4vc6-2prf",
+    "score": 6.5,
+    "ghsa": "GHSA-24mq-4vc6-2prf",
+    "date": "2026-11-16T22:12:51Z"
+   },
+   {
+    "title": "mail-parser: Sender IP address spoofing in get_server_ipaddress()",
+    "url": "https://github.com/advisories/GHSA-72px-j8gh-p79x",
+    "score": 7.5,
+    "ghsa": "GHSA-72px-j8gh-p79x",
+    "date": "2026-11-16T22:11:54Z"
+   },
+   {
+    "title": "mail-parser is vulnerable to polynomial ReDoS in email header parsing",
+    "url": "https://github.com/advisories/GHSA-r7w7-vpq8-c5vv",
+    "score": 7.5,
+    "ghsa": "GHSA-r7w7-vpq8-c5vv",
+    "date": "2026-11-16T22:11:08Z"
+   },
+   {
+    "title": "mail-parser: Path Traversal vulnerability in attachment extraction",
+    "url": "https://github.com/advisories/GHSA-fr3h-cpq2-9496",
+    "score": 6.5,
+    "ghsa": "GHSA-fr3h-cpq2-9496",
+    "date": "2026-11-16T22:10:55Z"
+   },
+   {
+    "title": "termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
+    "url": "https://github.com/advisories/GHSA-259w-wmqg-fp76",
+    "score": 7.1,
+    "ghsa": "GHSA-259w-wmqg-fp76",
+    "date": "2026-11-16T22:09:24Z"
+   },
+   {
+    "title": "code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
+    "url": "https://github.com/advisories/GHSA-jq3q-62jc-fqq9",
+    "score": 7.5,
+    "ghsa": "GHSA-jq3q-62jc-fqq9",
+    "date": "2026-11-16T22:09:06Z"
+   },
+   {
+    "title": "lightsaml allows Signature wrapping bypass",
+    "url": "https://github.com/advisories/GHSA-w553-pwx6-3mg9",
+    "score": 8.1,
+    "ghsa": "GHSA-w553-pwx6-3mg9",
+    "date": "2026-11-16T22:08:38Z"
+   },
+   {
     "title": "Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
     "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
     "score": null,
@@ -173,76 +231,6 @@
     "score": 7.8,
     "ghsa": "GHSA-7mxv-7h3q-9324",
     "date": "2026-11-16T18:45:51Z"
-   },
-   {
-    "title": "Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
-    "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
-    "score": 3.1,
-    "ghsa": "GHSA-hf59-9xwc-2g4p",
-    "date": "2026-11-16T15:02:22Z"
-   },
-   {
-    "title": "Nuxt exposes the message and data of unhandled errors thrown during server rendering",
-    "url": "https://github.com/advisories/GHSA-96x6-fvhx-49hg",
-    "score": 5.3,
-    "ghsa": "GHSA-96x6-fvhx-49hg",
-    "date": "2026-11-16T15:01:26Z"
-   },
-   {
-    "title": "Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
-    "url": "https://github.com/advisories/GHSA-r9jc-w898-3fv6",
-    "score": null,
-    "ghsa": "GHSA-r9jc-w898-3fv6",
-    "date": "2026-11-16T15:00:41Z"
-   },
-   {
-    "title": "@nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
-    "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
-    "score": 3.1,
-    "ghsa": "GHSA-x2wv-5868-p7v2",
-    "date": "2026-11-16T15:00:09Z"
-   },
-   {
-    "title": "Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-    "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
-    "score": 6.5,
-    "ghsa": "GHSA-f3x9-2chm-73c8",
-    "date": "2026-11-16T14:59:45Z"
-   },
-   {
-    "title": "SvelteKit: Build-time server-only module import guard could fail, resulting in server secrets being statically replaced in client bundle",
-    "url": "https://github.com/advisories/GHSA-m9j8-jcmv-hp69",
-    "score": 7.5,
-    "ghsa": "GHSA-m9j8-jcmv-hp69",
-    "date": "2026-11-16T14:59:00Z"
-   },
-   {
-    "title": "SvelteKit: DoS while parsing form data from a remote functions `form`",
-    "url": "https://github.com/advisories/GHSA-3r8g-jcqq-3p5j",
-    "score": 7.5,
-    "ghsa": "GHSA-3r8g-jcqq-3p5j",
-    "date": "2026-11-16T14:57:35Z"
-   },
-   {
-    "title": "AIOHTTP: Event loop stall in add_domain() wildcard matching",
-    "url": "https://github.com/advisories/GHSA-jm3w-gw2p-xjfj",
-    "score": 7.5,
-    "ghsa": "GHSA-jm3w-gw2p-xjfj",
-    "date": "2026-11-16T14:56:35Z"
-   },
-   {
-    "title": "AIOHTTP: Unbounded cookie storage in client CookieJar",
-    "url": "https://github.com/advisories/GHSA-5pv8-vvhc-h7jv",
-    "score": null,
-    "ghsa": "GHSA-5pv8-vvhc-h7jv",
-    "date": "2026-11-16T14:55:06Z"
-   },
-   {
-    "title": "AIOHTTP: Too many URL-encoded form fields block the event loop",
-    "url": "https://github.com/advisories/GHSA-xgw8-8ccx-rmqh",
-    "score": 7.5,
-    "ghsa": "GHSA-xgw8-8ccx-rmqh",
-    "date": "2026-11-16T14:54:10Z"
    }
   ],
   "thn": [
@@ -333,6 +321,13 @@
   ],
   "bleep": [
    {
+    "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+    "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+    "date": "Mon, 16 Nov 2026 16:31:44 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
     "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
     "date": "Mon, 16 Nov 2026 15:59:44 -0500",
@@ -408,26 +403,19 @@
     "date": "Mon, 16 Nov 2026 03:26:52 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-    "date": "Sun, 15 Nov 2026 13:29:53 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3611,
+    "stars": 3616,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2173,
+    "stars": 2174,
     "lang": "Python"
    },
    {
