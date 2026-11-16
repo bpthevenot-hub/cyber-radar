@@ -1,18 +1,12 @@
 {
- "generatedAt": "2026-11-16T10:27:27.327Z",
+ "generatedAt": "2026-11-16T11:26:25.495Z",
  "sources": {
   "cve": [
    {
-    "title": "CVE-2023-3935 — Endress+Hauser: Multiple products affected by Wibu-Systems CodeMeter Vulnerability",
-    "url": "https://certvde.com/en/advisories/VDE-2025-105",
+    "title": "CVE-2026-98432 — Welotec: IPv4 TCP Use-After-Free in egOS",
+    "url": "https://certvde.com/en/advisories/VDE-2026-155/",
     "score": 9.8,
-    "date": "2026-11-16T09:00:00.000Z"
-   },
-   {
-    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98978",
-    "score": 9.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-16T11:00:00.000Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -27,64 +21,70 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98598",
+    "title": "CVE-2024-38795 — Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CridioStudio ListingPro allows SQL Inj",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2024-38795",
     "score": 9.3,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2024-08-29T15:30:34Z"
    },
    {
-    "title": "CVE-2026-82156 — Dell PowerStore contains an authorization-bypass vulnerability. A low-privileged attacker could exploit it, potentially leading to elevation",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-82156",
-    "score": 8.8,
-    "date": "2026-11-16T06:31:56Z"
-   },
-   {
-    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99133",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98623 — Important: gvfs security update",
-    "url": "https://github.com/advisories/RLSA-2026:98623",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
-    "url": "https://github.com/advisories/RLSA-2026:98621",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98616 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:98616",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:98635",
-    "score": 8.8,
-    "date": "2026-11-13T06:06:59.212490Z"
-   },
-   {
-    "title": "RLSA-2026:98624 — Important: tesseract security update",
-    "url": "https://github.com/advisories/RLSA-2026:98624",
-    "score": 8.4,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98603 — Important: jq security update",
-    "url": "https://github.com/advisories/RLSA-2026:98603",
-    "score": 8.2,
-    "date": "2026-11-13T12:06:38.220996Z"
-   },
-   {
-    "title": "RLSA-2026:99624 — Important: krb5 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99624",
+    "title": "CVE-2026-84383 — Security update for libheif (+7 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_21889-1.json",
     "score": 8.1,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-16T09:04:53Z"
+   },
+   {
+    "title": "CVE-2026-129703 — In the vulnerability-lookup web application, the authentication decorators for feed-key requests (auth_feedkey_func in website/decorators.py",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129703",
+    "score": 7.5,
+    "date": "2026-11-16T09:30:41Z"
+   },
+   {
+    "title": "CVE-2026-105925 — A denial of service vulnerability in the Qt QXmlSimpleReader class of the Qt 5 Core Compatibility APIs module (Qt 6) and the Qt XML module (",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-105925",
+    "score": 7.5,
+    "date": "2026-11-16T09:30:41Z"
+   },
+   {
+    "title": "CVE-2026-97358 — An inclusion of web functionality from an untrusted source could allow remote code execution on SpaceCom",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97358",
+    "score": 7.5,
+    "date": "2026-11-13T18:32:37Z"
+   },
+   {
+    "title": "CVE-2026-124672 — The Burst Statistics WordPress plugin before 3.7.5 does not verify that a request is actually being routed to its own REST API before unload",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-124672",
+    "score": 7.3,
+    "date": "2026-11-16T09:30:41Z"
+   },
+   {
+    "title": "CVE-2025-31936 — Security update for ucode-intel (+9 CVE)",
+    "url": "https://ftp.suse.com/pub/projects/security/csaf/2026/opensuse-su-2026_21736-1.json",
+    "score": 7.2,
+    "date": "2026-11-16T09:04:52Z"
+   },
+   {
+    "title": "CVE-2024-8105 — Welotec: PKfail in RSAPC UEFI Firmware",
+    "url": "https://certvde.com/en/advisories/VDE-2024-060/",
+    "score": 6.4,
+    "date": "2026-11-16T11:00:00.000Z"
+   },
+   {
+    "title": "CVE-2026-129706 — In the vulnerability-lookup web application, the Flask-Login session identifier was set to the bare numeric user ID (User.get_id() returned ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129706",
+    "score": 5,
+    "date": "2026-11-16T09:30:41Z"
+   },
+   {
+    "title": "CVE-2026-97357 — An Out-Of-Bounds Write due to missing input validation is possible in the autoprogramming interface of SpaceCom and Space Battery pack with ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97357",
+    "score": 5,
+    "date": "2026-11-13T18:32:37Z"
+   },
+   {
+    "title": "CVE-2026-114453 — The Kadence Memberships WordPress plugin before 4.0.6 does not check that the membership level submitted when renewing a membership matches ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-114453",
+    "score": 3.7,
+    "date": "2026-11-16T09:30:41Z"
    }
   ],
   "kev": [
@@ -289,6 +289,13 @@
   ],
   "thn": [
    {
+    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+    "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+    "date": "Mon, 16 Nov 2026 15:02:57 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
     "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
     "date": "Mon, 16 Nov 2026 13:04:21 +0530",
@@ -364,16 +371,23 @@
     "date": "Fri, 13 Nov 2026 16:40:40 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-    "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-    "date": "Fri, 13 Nov 2026 16:25:03 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Australian retail giant Coles investigates cybersecurity incident",
+    "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+    "date": "Mon, 16 Nov 2026 06:18:09 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
+    "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+    "date": "Mon, 16 Nov 2026 06:00:00 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
     "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
@@ -443,33 +457,19 @@
     "date": "Fri, 13 Nov 2026 10:01:11 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Microsoft says November security updates cause printing issues",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-    "date": "Fri, 13 Nov 2026 07:27:40 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
-   },
-   {
-    "title": "Check Point warns of zero-day flaw exploited for root access",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-    "date": "Fri, 13 Nov 2026 05:44:22 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3550,
+    "stars": 3557,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2169,
+    "stars": 2170,
     "lang": "Python"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 629,
+    "stars": 630,
     "lang": "Kotlin"
    },
    {
@@ -499,13 +499,13 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 503,
+    "stars": 505,
     "lang": "—"
    },
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 438,
+    "stars": 439,
     "lang": "—"
    },
    {
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 5,
+  "crit": 4,
   "kev": 1781,
   "adv": 12,
   "feed": 48
