@@ -1,61 +1,7 @@
 {
- "generatedAt": "2026-11-16T17:23:30.433Z",
+ "generatedAt": "2026-11-16T18:25:48.093Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-34938 — PraisonAI: Python Sandbox Escape via str Subclass startswith() Override in execute_code",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-34938",
-    "score": 10,
-    "date": "2026-04-01T23:17:48Z"
-   },
-   {
-    "title": "CVE-2026-39888 — PraisonAI has sandbox escape via exception frame traversal in `execute_code` (subprocess mode)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-39888",
-    "score": 9.9,
-    "date": "2026-04-08T19:17:28Z"
-   },
-   {
-    "title": "CVE-2026-47103 — python-statemachine SCXML <data expr> Eval Injection",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47103",
-    "score": 9.8,
-    "date": "2026-06-18T14:28:02Z"
-   },
-   {
-    "title": "CVE-2026-44484 — Compromise of PyTorch Lightning PyPi Package Versions",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-44484",
-    "score": 9.8,
-    "date": "2026-05-07T00:52:55Z"
-   },
-   {
-    "title": "CVE-2025-62515 — pyquokka is Vulnerable to Remote Code Execution by Pickle Deserialization via FlightServer",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-62515",
-    "score": 9.8,
-    "date": "2025-10-17T18:08:09Z"
-   },
-   {
-    "title": "CVE-2025-61622 — Apache Pyfory python is vulnerable to deserialization of untrusted data",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-61622",
-    "score": 9.8,
-    "date": "2025-10-01T12:30:27Z"
-   },
-   {
-    "title": "CVE-2025-54802 — pyLoad CNL Blueprint allows Path Traversal through `dlc_path` which leads to Remote Code Execution (RCE)",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-54802",
-    "score": 9.8,
-    "date": "2025-08-04T15:57:48Z"
-   },
-   {
-    "title": "CVE-2025-53890 — pyLoad vulnerable to XSS through insecure CAPTCHA",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-53890",
-    "score": 9.8,
-    "date": "2025-07-15T15:38:10Z"
-   },
-   {
-    "title": "CVE-2025-2000 — Qiskit allows arbitrary code execution decoding QPY format versions < 13",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2025-2000",
-    "score": 9.8,
-    "date": "2025-03-14T19:56:14Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -69,22 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2024-39205 — pyload-ng vulnerable to RCE with js2py sandbox escape",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-39205",
-    "score": 9.8,
-    "date": "2024-09-09T18:17:20Z"
+    "title": "MAL-2026-19073 — Malicious code in sauruspro-bail (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19073",
+    "score": null,
+    "date": "2026-11-16T17:10:41Z"
    },
    {
-    "title": "CVE-2024-3829 — qdrant input validation failure",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-3829",
-    "score": 9.8,
-    "date": "2024-06-03T12:30:38Z"
+    "title": "MAL-2026-19974 — Malicious code in writecanvas (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19974",
+    "score": null,
+    "date": "2026-11-16T17:10:41Z"
    },
    {
-    "title": "CVE-2024-36039 — PyMySQL SQL Injection vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-36039",
-    "score": 9.8,
-    "date": "2024-05-21T18:31:23Z"
+    "title": "MAL-2026-19972 — Malicious code in saurustheking (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19972",
+    "score": null,
+    "date": "2026-11-16T17:10:41Z"
+   },
+   {
+    "title": "MAL-2026-19962 — Malicious code in @kingsaurus/libsignal-node (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19962",
+    "score": null,
+    "date": "2026-11-16T17:10:41Z"
+   },
+   {
+    "title": "MAL-2026-19971 — Malicious code in sauruskyah-baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19971",
+    "score": null,
+    "date": "2026-11-16T17:10:40Z"
+   },
+   {
+    "title": "MAL-2026-19963 — Malicious code in @lendkzn/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19963",
+    "score": null,
+    "date": "2026-11-16T17:07:32Z"
+   },
+   {
+    "title": "MAL-2026-17447 — Malicious code in mikuhostt-baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-17447",
+    "score": null,
+    "date": "2026-11-16T17:03:45Z"
+   },
+   {
+    "title": "MAL-2026-19970 — Malicious code in mikuhost-agent (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19970",
+    "score": null,
+    "date": "2026-11-16T17:03:45Z"
+   },
+   {
+    "title": "MAL-2026-19946 — Malicious code in @xzvbailss/baileys (npm)",
+    "url": "https://github.com/advisories/MAL-2026-19946",
+    "score": null,
+    "date": "2026-11-11T00:00:00Z"
+   },
+   {
+    "title": "MAL-2026-18926 — Malicious code in @zeppeliorg/xzcbailz (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18926",
+    "score": null,
+    "date": "2026-10-27T00:00:00Z"
+   },
+   {
+    "title": "MAL-2026-18925 — Malicious code in @zeppeliorg/wbails (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18925",
+    "score": null,
+    "date": "2026-10-27T00:00:00Z"
+   },
+   {
+    "title": "MAL-2026-18702 — Malicious code in xzvbailss (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18702",
+    "score": null,
+    "date": "2026-10-26T00:00:00Z"
    }
   ],
   "kev": [
@@ -463,7 +463,7 @@
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3597,
+    "stars": 3601,
     "lang": "Go"
    },
    {
@@ -487,13 +487,13 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 630,
+    "stars": 631,
     "lang": "Kotlin"
    },
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 527,
+    "stars": 528,
     "lang": "C"
    },
    {
@@ -505,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 441,
+    "stars": 442,
     "lang": "—"
    },
    {
@@ -529,7 +529,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 295,
+    "stars": 297,
     "lang": "Python"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 14,
+  "crit": 2,
   "kev": 1781,
   "adv": 12,
   "feed": 48
