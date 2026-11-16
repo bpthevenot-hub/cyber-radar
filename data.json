@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T12:37:10.080Z",
+ "generatedAt": "2026-11-16T13:45:03.841Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,78 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-129784 — The httpx Ruby gem parses JSON response bodies through its transcoder layer. HTTPX::Response#json delegates to Transcoder::JSON.decode, and ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129784",
+    "score": 8.5,
+    "date": "2026-11-16T12:31:40Z"
+   },
+   {
+    "title": "CVE-2026-21176 — Unquoted search path or element in Samsung Device Care prior to version 4.0.80 allows local attackers to execute arbitrary code.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21176",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:45Z"
+   },
+   {
+    "title": "CVE-2026-21167 — Binding to an unrestricted IP address in Smart Switch prior to version 3.7.74.7 allows adjacent attackers to bypass authentication. User int",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21167",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:45Z"
+   },
+   {
+    "title": "CVE-2026-21175 — Incorrect permission assignment for critical resource in Samsung Update prior to version 3.0.111.0 allows local attackers to execute arbitra",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21175",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:45Z"
+   },
+   {
+    "title": "CVE-2026-21152 — Improper input validation in libMyFilterPlugin.camera.samsung.so prior to SMR Nov-2026 Release 1 allows local attackers to potentially execu",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21152",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:43Z"
+   },
+   {
+    "title": "CVE-2026-21153 — Stack-based buffer overflow in libsecuibc.so prior to SMR Nov-2026 Release 1 allows local attackers to execute arbitrary code.",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21153",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:43Z"
+   },
+   {
+    "title": "CVE-2026-21151 — Improper privilege management in TransitionPlayer prior to SMR Nov-2026 Release 1 allows local privileged attackers to execute arbitrary cod",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-21151",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:43Z"
+   },
+   {
+    "title": "CVE-2026-129547 — Kalmia through 0.2.0 contains an authentication bypass vulnerability in RsPressMiddleware that allows unauthenticated attackers to access pr",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129547",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:41Z"
+   },
+   {
+    "title": "CVE-2026-15707 — An uncontrolled search path vulnerability (CWE-427) in statically linked OpenSSL libraries within Netskope Client (stAgentSvc.exe) and Endpo",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-15707",
+    "score": 7.5,
+    "date": "2026-11-16T12:31:41Z"
+   },
+   {
+    "title": "CVE-2026-67250 — A local privilege escalation (LPE) vulnerability in Pebble’s installers could allow a local attacker with low privilege access to place a ma",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-67250",
+    "score": 7.3,
+    "date": "2026-11-16T12:31:45Z"
+   },
+   {
+    "title": "CVE-2026-63245 — A local privilege escalation (LPE) vulnerability in the Audigy Rx driver’s Emupia2k.sys file could allow a local attacker with low privilege",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63245",
+    "score": 7.3,
+    "date": "2026-11-16T12:31:41Z"
+   },
+   {
+    "title": "CVE-2026-129546 — Kalmia through 0.2.0 contains an information disclosure vulnerability that allows authenticated read-only users to retrieve Git deployment c",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129546",
+    "score": 6.5,
+    "date": "2026-11-16T12:31:41Z"
    }
   ],
   "kev": [
@@ -217,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+    "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+    "date": "Mon, 16 Nov 2026 18:04:21 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+    "date": "Mon, 16 Nov 2026 18:03:18 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
     "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
     "date": "Mon, 16 Nov 2026 15:02:57 +0530",
@@ -285,23 +371,16 @@
     "date": "Fri, 13 Nov 2026 19:24:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-    "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-    "date": "Fri, 13 Nov 2026 17:22:31 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-    "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-    "date": "Fri, 13 Nov 2026 16:40:40 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+    "date": "Mon, 16 Nov 2026 07:53:18 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Australian retail giant Coles investigates cybersecurity incident",
     "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
@@ -378,26 +457,19 @@
     "date": "Fri, 13 Nov 2026 11:21:43 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "How one AI agent exposed five critical enterprise security gaps",
-    "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-    "date": "Fri, 13 Nov 2026 10:01:11 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
     "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3563,
+    "stars": 3574,
     "lang": "Go"
    },
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2171,
+    "stars": 2172,
     "lang": "Python"
    },
    {
@@ -433,7 +505,7 @@
    {
     "title": "Alejandros17487/ai-jailbreaks — AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, A",
     "url": "https://github.com/Alejandros17487/ai-jailbreaks",
-    "stars": 439,
+    "stars": 440,
     "lang": "—"
    },
    {
@@ -457,7 +529,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 286,
+    "stars": 288,
     "lang": "Python"
    }
   ],
