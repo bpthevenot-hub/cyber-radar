@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T18:25:17.654Z",
+ "generatedAt": "2026-11-17T19:22:16.522Z",
  "sources": {
   "cve": [
    {
@@ -88,6 +88,14 @@
    }
   ],
   "kev": [
+   {
+    "title": "CVE-2026-115731 — Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115731",
+    "badge": "EXPLOITÉE",
+    "badgeClass": "b-crit",
+    "vendor": "Perforce",
+    "date": "2026-11-17"
+   },
    {
     "title": "CVE-2026-114713 — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-114713",
@@ -191,14 +199,6 @@
     "badgeClass": "b-crit",
     "vendor": "SonicWall",
     "date": "2026-11-06"
-   },
-   {
-    "title": "CVE-2024-27834 — Apple Multiple Products Improper Authentication Vulnerability",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2024-27834",
-    "badge": "EXPLOITÉE",
-    "badgeClass": "b-crit",
-    "vendor": "Apple",
-    "date": "2026-11-04"
    }
   ],
   "adv": [
@@ -289,6 +289,20 @@
   ],
   "thn": [
    {
+    "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+    "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+    "date": "Tue, 17 Nov 2026 20:47:36 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
+    "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+    "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+    "date": "Tue, 17 Nov 2026 20:47:28 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
+   {
     "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
     "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
     "date": "Tue, 17 Nov 2026 17:55:06 +0530",
@@ -355,20 +369,6 @@
     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
     "date": "Mon, 16 Nov 2026 18:04:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-    "date": "Mon, 16 Nov 2026 18:03:18 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
-   },
-   {
-    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-    "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-    "date": "Mon, 16 Nov 2026 15:02:57 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
    }
@@ -469,7 +469,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 1021,
+    "stars": 1026,
     "lang": "TypeScript"
    },
    {
@@ -481,7 +481,7 @@
    {
     "title": "arpanjot-coding/AVault — AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. ",
     "url": "https://github.com/arpanjot-coding/AVault",
-    "stars": 631,
+    "stars": 632,
     "lang": "Kotlin"
    },
    {
@@ -505,13 +505,13 @@
    {
     "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
     "url": "https://github.com/chu0119/Pojun",
-    "stars": 348,
+    "stars": 349,
     "lang": "Go"
    },
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 329,
+    "stars": 331,
     "lang": "Python"
    },
    {
@@ -633,7 +633,7 @@
  },
  "kpis": {
   "crit": 6,
-  "kev": 1781,
+  "kev": 1782,
   "adv": 12,
   "feed": 36
  },
