@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T22:22:07.167Z",
+ "generatedAt": "2026-11-17T23:22:30.215Z",
  "sources": {
   "cve": [
    {
@@ -13,12 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "CVE-2026-63672 — EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63672",
-    "score": 6.1,
-    "date": "2026-11-17T20:47:22Z"
    }
   ],
   "kev": [
@@ -309,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+    "date": "Tue, 17 Nov 2026 18:04:21 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
     "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
     "date": "Tue, 17 Nov 2026 16:27:17 -0500",
@@ -384,26 +385,19 @@
     "date": "Tue, 17 Nov 2026 02:25:44 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-    "date": "Mon, 16 Nov 2026 21:12:17 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2194,
+    "stars": 2196,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 1033,
+    "stars": 1020,
     "lang": "TypeScript"
    },
    {
@@ -445,7 +439,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 338,
+    "stars": 339,
     "lang": "Python"
    },
    {
