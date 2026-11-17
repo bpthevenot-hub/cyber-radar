@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T23:21:55.781Z",
+ "generatedAt": "2026-11-17T00:42:01.484Z",
  "sources": {
   "cve": [
    {
@@ -15,52 +15,76 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-63182 — lightsaml allows Signature wrapping bypass",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63182",
-    "score": 8.1,
-    "date": "2026-11-16T22:08:38Z"
+    "title": "CVE-2026-91115 — Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91115",
+    "score": 8.8,
+    "date": "2026-11-16T22:35:12Z"
    },
    {
-    "title": "CVE-2026-129297 — mail-parser: Sender IP address spoofing in get_server_ipaddress()",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129297",
-    "score": 7.5,
-    "date": "2026-11-16T22:11:54Z"
+    "title": "CVE-2026-91112 — Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91112",
+    "score": 6.8,
+    "date": "2026-11-16T22:30:42Z"
    },
    {
-    "title": "CVE-2026-129295 — mail-parser is vulnerable to polynomial ReDoS in email header parsing",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129295",
-    "score": 7.5,
-    "date": "2026-11-16T22:11:08Z"
-   },
-   {
-    "title": "CVE-2026-68934 — code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-68934",
-    "score": 7.5,
-    "date": "2026-11-16T22:09:06Z"
-   },
-   {
-    "title": "CVE-2026-129236 — Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129236",
-    "score": 7.2,
-    "date": "2026-11-16T22:17:32Z"
-   },
-   {
-    "title": "CVE-2026-86046 — termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86046",
-    "score": 7.1,
-    "date": "2026-11-16T22:09:24Z"
-   },
-   {
-    "title": "CVE-2026-129299 — mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129299",
+    "title": "CVE-2026-129239 — Directus: Share update allows reassigning user_created and role",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129239",
     "score": 6.5,
-    "date": "2026-11-16T22:12:51Z"
+    "date": "2026-11-16T22:25:53Z"
    },
    {
-    "title": "CVE-2026-129296 — mail-parser: Path Traversal vulnerability in attachment extraction",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129296",
+    "title": "CVE-2026-129301 — mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129301",
     "score": 6.5,
-    "date": "2026-11-16T22:10:55Z"
+    "date": "2026-11-16T22:22:13Z"
+   },
+   {
+    "title": "CVE-2026-22218 — chainlit : Chainlit allows authenticated arbitrary file reads through custom element updates",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-22218",
+    "score": 6.5,
+    "date": "2026-01-20T00:30:28Z"
+   },
+   {
+    "title": "CVE-2026-129237 — qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129237",
+    "score": 5.4,
+    "date": "2026-11-16T22:35:40Z"
+   },
+   {
+    "title": "CVE-2026-88988 — Silverstripe Framework: XSS via SVG data URI",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88988",
+    "score": 5.4,
+    "date": "2026-11-16T22:27:46Z"
+   },
+   {
+    "title": "CVE-2026-88987 — Silverstripe Framework: XSS via XHTML data URI",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88987",
+    "score": 5.4,
+    "date": "2026-11-16T22:27:37Z"
+   },
+   {
+    "title": "CVE-2026-129300 — mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-129300",
+    "score": 5.3,
+    "date": "2026-11-16T22:20:32Z"
+   },
+   {
+    "title": "CVE-2026-91113 — Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-91113",
+    "score": 4.3,
+    "date": "2026-11-16T22:34:59Z"
+   },
+   {
+    "title": "CVE-2026-88989 — Silverstripe Framework: Auth bypass GridFieldDetailForm",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-88989",
+    "score": 4.3,
+    "date": "2026-11-16T22:29:59Z"
+   },
+   {
+    "title": "MAL-2026-20021 — Malicious code in @jisan901/teamfocus (npm)",
+    "url": "https://github.com/advisories/MAL-2026-20021",
+    "score": null,
+    "date": "2026-11-16T22:46:53Z"
    }
   ],
   "kev": [
@@ -437,12 +461,6 @@
   ],
   "tools": [
    {
-    "title": "jiwoochris/artex-global — Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switch",
-    "url": "https://github.com/jiwoochris/artex-global",
-    "stars": 3617,
-    "lang": "Go"
-   },
-   {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
     "stars": 2175,
@@ -469,7 +487,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 529,
+    "stars": 530,
     "lang": "C"
    },
    {
@@ -505,8 +523,14 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 305,
+    "stars": 307,
     "lang": "Python"
+   },
+   {
+    "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
+    "url": "https://github.com/chu0119/Pojun",
+    "stars": 298,
+    "lang": "Go"
    }
   ],
   "hn": [
