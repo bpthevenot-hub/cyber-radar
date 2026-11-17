@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T20:23:08.757Z",
+ "generatedAt": "2026-11-17T21:22:20.331Z",
  "sources": {
   "cve": [
    {
@@ -13,6 +13,12 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "CVE-2026-63672 — EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-63672",
+    "score": 6.1,
+    "date": "2026-11-17T20:47:22Z"
    }
   ],
   "kev": [
@@ -131,6 +137,62 @@
   ],
   "adv": [
    {
+    "title": "libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+    "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
+    "score": 7.5,
+    "ghsa": "GHSA-x2vm-cf3p-m2w8",
+    "date": "2026-11-17T21:06:20Z"
+   },
+   {
+    "title": "libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+    "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+    "score": 7.5,
+    "ghsa": "GHSA-rvfr-cqwq-rc4j",
+    "date": "2026-11-17T21:05:08Z"
+   },
+   {
+    "title": "SAML2: Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artifact signature verification (no embedded-Issuer binding)",
+    "url": "https://github.com/advisories/GHSA-r7hw-jx6r-756g",
+    "score": 8.7,
+    "ghsa": "GHSA-r7hw-jx6r-756g",
+    "date": "2026-11-17T21:00:58Z"
+   },
+   {
+    "title": "Filament Curator: Stored XSS via unsanitized SVG upload served inline",
+    "url": "https://github.com/advisories/GHSA-8vm9-f75m-5h2m",
+    "score": 5.4,
+    "ghsa": "GHSA-8vm9-f75m-5h2m",
+    "date": "2026-11-17T20:54:26Z"
+   },
+   {
+    "title": "Filament Curator: Cross-tenant media metadata disclosure via Curator picker search",
+    "url": "https://github.com/advisories/GHSA-828w-6qgx-3rcf",
+    "score": 5,
+    "ghsa": "GHSA-828w-6qgx-3rcf",
+    "date": "2026-11-17T20:49:28Z"
+   },
+   {
+    "title": "qbee-agent: Local Privilege Escalation and Arbitrary File Tampering via Symlink Following in createFile helper",
+    "url": "https://github.com/advisories/GHSA-xhv5-8fpq-g7hf",
+    "score": 7.5,
+    "ghsa": "GHSA-xhv5-8fpq-g7hf",
+    "date": "2026-11-17T20:48:02Z"
+   },
+   {
+    "title": "EGroupware: User-Controlled Identity Provider Selection in SAML Authentication",
+    "url": "https://github.com/advisories/GHSA-pr4x-6fj4-gm4h",
+    "score": 6.1,
+    "ghsa": "GHSA-pr4x-6fj4-gm4h",
+    "date": "2026-11-17T20:47:22Z"
+   },
+   {
+    "title": "AWS-advanced-jdbc-wrapper: Java Deserialization RCE via Cache Poisoning",
+    "url": "https://github.com/advisories/GHSA-c5q4-97jw-jggh",
+    "score": 7.5,
+    "ghsa": "GHSA-c5q4-97jw-jggh",
+    "date": "2026-11-17T20:39:21Z"
+   },
+   {
     "title": "pympp allows excessive sponsored transaction fees through padded calldata",
     "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
     "score": null,
@@ -157,62 +219,6 @@
     "score": 5.4,
     "ghsa": "GHSA-vx32-xf7g-9ghr",
     "date": "2026-11-16T22:35:40Z"
-   },
-   {
-    "title": "Silverstripe Framework: RCE via i18nTextCollectorTask writer parameter",
-    "url": "https://github.com/advisories/GHSA-c94f-87xg-65wf",
-    "score": 8.8,
-    "ghsa": "GHSA-c94f-87xg-65wf",
-    "date": "2026-11-16T22:35:12Z"
-   },
-   {
-    "title": "Silverstripe Framework: User-controlled ClassName allows unauthorized record type change",
-    "url": "https://github.com/advisories/GHSA-4qv2-g5vp-wjjw",
-    "score": 4.3,
-    "ghsa": "GHSA-4qv2-g5vp-wjjw",
-    "date": "2026-11-16T22:34:59Z"
-   },
-   {
-    "title": "Silverstripe Framework: CMS_ACCESS_SecurityAdmin privilege escalation",
-    "url": "https://github.com/advisories/GHSA-rg72-5958-c65m",
-    "score": 6.8,
-    "ghsa": "GHSA-rg72-5958-c65m",
-    "date": "2026-11-16T22:30:42Z"
-   },
-   {
-    "title": "Silverstripe Framework: Auth bypass GridFieldDetailForm",
-    "url": "https://github.com/advisories/GHSA-3qh3-54qg-gpq3",
-    "score": 4.3,
-    "ghsa": "GHSA-3qh3-54qg-gpq3",
-    "date": "2026-11-16T22:29:59Z"
-   },
-   {
-    "title": "Silverstripe Framework: XSS via SVG data URI",
-    "url": "https://github.com/advisories/GHSA-xwg4-8hqh-79jq",
-    "score": 5.4,
-    "ghsa": "GHSA-xwg4-8hqh-79jq",
-    "date": "2026-11-16T22:27:46Z"
-   },
-   {
-    "title": "Silverstripe Framework: XSS via XHTML data URI",
-    "url": "https://github.com/advisories/GHSA-qqrg-8jpm-8mph",
-    "score": 5.4,
-    "ghsa": "GHSA-qqrg-8jpm-8mph",
-    "date": "2026-11-16T22:27:37Z"
-   },
-   {
-    "title": "Directus: Share update allows reassigning user_created and role",
-    "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
-    "score": 6.5,
-    "ghsa": "GHSA-7h45-q5jx-7r87",
-    "date": "2026-11-16T22:25:53Z"
-   },
-   {
-    "title": "mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
-    "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
-    "score": 6.5,
-    "ghsa": "GHSA-8cgq-x343-p74c",
-    "date": "2026-11-16T22:22:13Z"
    }
   ],
   "thn": [
@@ -303,6 +309,13 @@
   ],
   "bleep": [
    {
+    "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+    "date": "Tue, 17 Nov 2026 15:51:21 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
     "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
     "date": "Tue, 17 Nov 2026 14:24:07 -0500",
@@ -378,13 +391,6 @@
     "date": "Mon, 16 Nov 2026 17:54:00 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-    "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-    "date": "Mon, 16 Nov 2026 16:31:44 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -397,13 +403,13 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 1030,
+    "stars": 1033,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 782,
+    "stars": 783,
     "lang": "Java"
    },
    {
@@ -421,7 +427,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 530,
+    "stars": 531,
     "lang": "—"
    },
    {
@@ -439,7 +445,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 332,
+    "stars": 336,
     "lang": "Python"
    },
    {
