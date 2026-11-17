@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T08:25:49.382Z",
+ "generatedAt": "2026-11-17T09:24:07.732Z",
  "sources": {
   "cve": [
    {
@@ -39,22 +39,10 @@
     "date": "2026-11-17T06:31:44Z"
    },
    {
-    "title": "RLSA-2026:98603 — Important: jq security update",
-    "url": "https://github.com/advisories/RLSA-2026:98603",
-    "score": 8.2,
-    "date": "2026-11-13T12:06:38.220996Z"
-   },
-   {
     "title": "CVE-2026-121684 — The Soledad theme for WordPress is vulnerable to unauthenticated Remote Code Execution in versions up to, and including, 8.7.7 The public pe",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-121684",
     "score": 8.1,
     "date": "2026-11-17T06:31:44Z"
-   },
-   {
-    "title": "RLSA-2026:97090 — Important: subscription-manager-cockpit security update",
-    "url": "https://github.com/advisories/RLSA-2026:97090",
-    "score": 8.1,
-    "date": "2026-11-13T06:07:05.716032Z"
    },
    {
     "title": "CVE-2026-107902 — TELLUS and TELLUS Lite provided by FUJI ELECTRIC CO., LTD. contain a use after free vulnerability. Opening a specially crafted V9 file may l",
@@ -63,27 +51,39 @@
     "date": "2026-11-17T06:31:42Z"
    },
    {
-    "title": "RLSA-2026:98076 — Important: sos security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98076",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:44.160727Z"
-   },
-   {
-    "title": "RLSA-2026:98590 — Important: aspell security update",
-    "url": "https://github.com/advisories/RLSA-2026:98590",
-    "score": 7.8,
-    "date": "2026-11-13T12:06:38.220996Z"
-   },
-   {
-    "title": "RLSA-2026:98584 — Important: glycin-loaders security update",
-    "url": "https://github.com/advisories/RLSA-2026:98584",
-    "score": 7.8,
-    "date": "2026-11-13T06:07:08.658268Z"
-   },
-   {
     "title": "CVE-2026-97187 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.6 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 th",
     "url": "https://www.cve.org/CVERecord?id=CVE-2026-97187",
     "score": 7.6,
+    "date": "2026-11-17T06:31:44Z"
+   },
+   {
+    "title": "CVE-2026-107901 — TELLUS and TELLUS Lite provided by FUJI ELECTRIC CO., LTD. contain an out-of-bounds read vulnerability. Opening a specially crafted V9 file ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-107901",
+    "score": 7.1,
+    "date": "2026-11-17T06:31:41Z"
+   },
+   {
+    "title": "CVE-2026-115428 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.2 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-115428",
+    "score": 6.5,
+    "date": "2026-11-17T06:31:44Z"
+   },
+   {
+    "title": "CVE-2026-85778 — GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-85778",
+    "score": 6.2,
+    "date": "2026-11-17T06:31:45Z"
+   },
+   {
+    "title": "CVE-2026-112203 — GitLab has remediated an issue in GitLab EE affecting all versions from 18.2 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 that ",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112203",
+    "score": 5.9,
+    "date": "2026-11-17T06:31:43Z"
+   },
+   {
+    "title": "CVE-2026-11768 — GitLab has remediated an issue in GitLab CE/EE affecting all versions from 12.4 before 19.3.9, 19.4 before 19.4.8, and 19.5 before 19.5.6 th",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-11768",
+    "score": 5.8,
     "date": "2026-11-17T06:31:44Z"
    }
   ],
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+    "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+    "date": "Tue, 17 Nov 2026 03:35:42 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
     "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
     "date": "Tue, 17 Nov 2026 02:25:44 -0500",
@@ -450,32 +457,25 @@
     "date": "Mon, 16 Nov 2026 07:53:18 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Australian retail giant Coles investigates cybersecurity incident",
-    "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-    "date": "Mon, 16 Nov 2026 06:18:09 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2183,
+    "stars": 2185,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 987,
+    "stars": 990,
     "lang": "TypeScript"
    },
    {
     "title": "opentrap/opentrap — A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with R",
     "url": "https://github.com/opentrap/opentrap",
-    "stars": 780,
+    "stars": 781,
     "lang": "Java"
    },
    {
@@ -487,7 +487,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 533,
+    "stars": 534,
     "lang": "C"
    },
    {
@@ -503,16 +503,16 @@
     "lang": "—"
    },
    {
+    "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
+    "url": "https://github.com/chu0119/Pojun",
+    "stars": 329,
+    "lang": "Go"
+   },
+   {
     "title": "mrhlaingbwardev/agentic-hacking-skills — AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' e",
     "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
     "stars": 328,
     "lang": "JavaScript"
-   },
-   {
-    "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
-    "url": "https://github.com/chu0119/Pojun",
-    "stars": 326,
-    "lang": "Go"
    },
    {
     "title": "arnold117/iOS-NOIR — No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
@@ -529,7 +529,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 318,
+    "stars": 319,
     "lang": "Python"
    }
   ],
@@ -635,16 +635,9 @@
     "badgeClass": "b-med"
    },
    {
-    "title": "vm2's own repo lists its next sandbox escapes: a deferred nesting fix, a &quot;monitoring&quot; entry in ATTACKS.md, and species shims for Promise and Array but",
-    "url": "https://www.reddit.com/r/netsec/comments/1xxibhv/vm2s_own_repo_lists_its_next_sandbox_escapes_a/",
-    "date": "2026-11-16T06:32:20+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Dry Soup: this holiday season you need to choose a family code word",
-    "url": "https://www.reddit.com/r/netsec/comments/1xx6e0s/dry_soup_this_holiday_season_you_need_to_choose_a/",
-    "date": "2026-11-15T20:50:37+00:00",
+    "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+    "url": "https://www.reddit.com/r/netsec/comments/1xyfaen/glasswing_overwhelms_maintainers_with/",
+    "date": "2026-11-17T08:37:55+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    },
@@ -701,6 +694,13 @@
     "title": "New Kimsuki (APT-43) active infrastructure and campaign discovered",
     "url": "https://www.reddit.com/r/netsec/comments/1xtioog/new_kimsuki_apt43_active_infrastructure_and/",
     "date": "2026-11-11T14:09:28+00:00",
+    "badge": "r/netsec",
+    "badgeClass": "b-med"
+   },
+   {
+    "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
+    "url": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
+    "date": "2026-11-10T19:53:18+00:00",
     "badge": "r/netsec",
     "badgeClass": "b-med"
    }
