@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T19:22:16.522Z",
+ "generatedAt": "2026-11-17T20:23:08.757Z",
  "sources": {
   "cve": [
    {
@@ -13,78 +13,6 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
-   },
-   {
-    "title": "RLSA-2026:96080 — Important: webkit2gtk3 security update",
-    "url": "https://github.com/advisories/RLSA-2026:96080",
-    "score": 9.6,
-    "date": "2026-11-10T12:01:32.688652Z"
-   },
-   {
-    "title": "RLSA-2026:99052 — Important: .NET 8.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99052",
-    "score": 9,
-    "date": "2026-11-13T06:01:39.166938Z"
-   },
-   {
-    "title": "RLSA-2026:99053 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99053",
-    "score": 9,
-    "date": "2026-11-13T06:01:39.166938Z"
-   },
-   {
-    "title": "RLSA-2026:99051 — Important: .NET 9.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99051",
-    "score": 9,
-    "date": "2026-11-13T06:01:39.166938Z"
-   },
-   {
-    "title": "RLSA-2026:99702 — Important: webkit2gtk3 security update",
-    "url": "https://github.com/advisories/RLSA-2026:99702",
-    "score": 8.8,
-    "date": "2026-11-14T06:01:31.887686Z"
-   },
-   {
-    "title": "RLSA-2026:96083 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:96083",
-    "score": 8.8,
-    "date": "2026-11-10T12:01:32.688652Z"
-   },
-   {
-    "title": "RLSA-2026:95725 — Important: tesseract security update",
-    "url": "https://github.com/advisories/RLSA-2026:95725",
-    "score": 8.4,
-    "date": "2026-11-07T12:01:16.797592Z"
-   },
-   {
-    "title": "RLSA-2026:99849 — Important: perl-CGI security update",
-    "url": "https://github.com/advisories/RLSA-2026:99849",
-    "score": 8.1,
-    "date": "2026-11-14T06:01:31.887686Z"
-   },
-   {
-    "title": "RLSA-2026:98671 — Important: nginx:1.24 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98671",
-    "score": 8.1,
-    "date": "2026-11-11T12:03:52.252275Z"
-   },
-   {
-    "title": "RLSA-2026:96212 — Important: util-linux security update",
-    "url": "https://github.com/advisories/RLSA-2026:96212",
-    "score": 8,
-    "date": "2026-11-10T12:01:05.331720Z"
-   },
-   {
-    "title": "RLSA-2026:99865 — Moderate: xorg-x11-server security update",
-    "url": "https://github.com/advisories/RLSA-2026:99865",
-    "score": 7.8,
-    "date": "2026-11-14T06:01:31.887686Z"
-   },
-   {
-    "title": "RLSA-2026:99817 — Important: xfsprogs security update",
-    "url": "https://github.com/advisories/RLSA-2026:99817",
-    "score": 7.8,
-    "date": "2026-11-14T06:01:04.312096Z"
    }
   ],
   "kev": [
@@ -203,6 +131,20 @@
   ],
   "adv": [
    {
+    "title": "pympp allows excessive sponsored transaction fees through padded calldata",
+    "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
+    "score": null,
+    "ghsa": "GHSA-v858-xh7w-8jr5",
+    "date": "2026-11-17T20:04:56Z"
+   },
+   {
+    "title": "Phoenix: Format String Injection in applyChatTemplate",
+    "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
+    "score": 10,
+    "ghsa": "GHSA-gfv3-m769-5xm3",
+    "date": "2026-11-17T20:02:29Z"
+   },
+   {
     "title": "Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
     "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
     "score": null,
@@ -271,23 +213,16 @@
     "score": 6.5,
     "ghsa": "GHSA-8cgq-x343-p74c",
     "date": "2026-11-16T22:22:13Z"
-   },
-   {
-    "title": "mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
-    "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
-    "score": 5.3,
-    "ghsa": "GHSA-xhrq-2mqv-q8wx",
-    "date": "2026-11-16T22:20:32Z"
-   },
-   {
-    "title": "Kubeshark: MCP `download_file` writes fetched bytes to an unvalidated destination path",
-    "url": "https://github.com/advisories/GHSA-gj7r-p794-hhq5",
-    "score": 5.3,
-    "ghsa": "GHSA-gj7r-p794-hhq5",
-    "date": "2026-11-16T22:18:58Z"
    }
   ],
   "thn": [
+   {
+    "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+    "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+    "date": "Wed, 18 Nov 2026 01:04:20 +0530",
+    "badge": "THREAT",
+    "badgeClass": "b-high"
+   },
    {
     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
@@ -364,16 +299,16 @@
     "date": "Mon, 16 Nov 2026 18:57:20 +0530",
     "badge": "THREAT",
     "badgeClass": "b-high"
-   },
-   {
-    "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-    "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-    "date": "Mon, 16 Nov 2026 18:04:21 +0530",
-    "badge": "THREAT",
-    "badgeClass": "b-high"
    }
   ],
   "bleep": [
+   {
+    "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+    "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+    "date": "Tue, 17 Nov 2026 14:24:07 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
    {
     "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
     "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
@@ -450,13 +385,6 @@
     "date": "Mon, 16 Nov 2026 16:31:44 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-    "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-    "date": "Mon, 16 Nov 2026 15:59:44 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
@@ -469,7 +397,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 1026,
+    "stars": 1030,
     "lang": "TypeScript"
    },
    {
@@ -487,13 +415,13 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 535,
+    "stars": 536,
     "lang": "C"
    },
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 529,
+    "stars": 530,
     "lang": "—"
    },
    {
@@ -511,7 +439,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 331,
+    "stars": 332,
     "lang": "Python"
    },
    {
@@ -632,7 +560,7 @@
   "reddit": false
  },
  "kpis": {
-  "crit": 6,
+  "crit": 2,
   "kev": 1782,
   "adv": 12,
   "feed": 36
