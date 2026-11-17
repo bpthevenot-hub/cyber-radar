@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-17T01:22:57.175Z",
+ "generatedAt": "2026-11-17T02:26:09.520Z",
  "sources": {
   "cve": [
    {
-    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
-    "url": "https://github.com/advisories/RLSA-2026:98978",
+    "title": "CVE-2026-130071 — TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit ead8da3 contains a missing authentication vulnera",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130071",
     "score": 9.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-17T00:32:16Z"
    },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
@@ -21,10 +21,28 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:98598",
+    "title": "CVE-2026-130320 — In Open Object Rexx (ooRexx) before 5.2.0, RXAPI mishandles nameArg and userid bounds checking, possibly leading to arbitrary code execution",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130320",
     "score": 9.3,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-17T00:32:19Z"
+   },
+   {
+    "title": "CVE-2026-130327 — In Open Object Rexx (ooRexx) before 5.2.0, RXAPI relies on a world-writable /tmp file unless XDG_RUNTIME_DIR is set, or localhost TCP port 1",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130327",
+    "score": 9.3,
+    "date": "2026-11-17T00:32:19Z"
+   },
+   {
+    "title": "CVE-2026-130070 — Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains an authentication bypass vulnerability in the whit",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130070",
+    "score": 9.1,
+    "date": "2026-11-17T00:32:16Z"
+   },
+   {
+    "title": "CVE-2026-130072 — Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path traversal vulnerability that allows unauthenticated att",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130072",
+    "score": 9.1,
+    "date": "2026-11-17T00:32:16Z"
    },
    {
     "title": "RLSA-2026:99145 — Important: .NET 9.0 security, bug fix, and enhancement update",
@@ -39,10 +57,10 @@
     "date": "2026-11-16T18:06:44.750136Z"
    },
    {
-    "title": "RLSA-2026:99143 — Important: .NET 10.0 security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99143",
-    "score": 9,
-    "date": "2026-11-16T18:06:44.750136Z"
+    "title": "CVE-2026-130082 — django-tenants 3.4.8 before 4.0.1 contains an SQL injection vulnerability in its PostgreSQL backend that allows attackers to inject SQL thro",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130082",
+    "score": 8.8,
+    "date": "2026-11-17T00:32:18Z"
    },
    {
     "title": "RLSA-2026:99720 — Important: mysql8.4 security update",
@@ -51,40 +69,22 @@
     "date": "2026-11-16T18:06:44.750136Z"
    },
    {
-    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
-    "url": "https://github.com/advisories/RLSA-2026:99133",
+    "title": "CVE-2026-97035 — When using Clang or GCC, building a malicious package that uses cgo could cause unexpected code execution at build time or write files to ar",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-97035",
     "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-11-11T06:32:38Z"
    },
    {
-    "title": "RLSA-2026:98623 — Important: gvfs security update",
-    "url": "https://github.com/advisories/RLSA-2026:98623",
+    "title": "CVE-2026-66738 — SPIP before 4.4.18 contains a code injection vulnerability in SQLite-backed installations. The navigation menu endpoint improperly handles a",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-66738",
     "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "date": "2026-08-10T18:32:12Z"
    },
    {
-    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
-    "url": "https://github.com/advisories/RLSA-2026:98621",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98616 — Important: dpdk security update",
-    "url": "https://github.com/advisories/RLSA-2026:98616",
-    "score": 8.8,
-    "date": "2026-11-13T12:06:37.188502Z"
-   },
-   {
-    "title": "RLSA-2026:98635 — Important: xdg-dbus-proxy security update",
-    "url": "https://github.com/advisories/RLSA-2026:98635",
-    "score": 8.8,
-    "date": "2026-11-13T06:06:59.212490Z"
-   },
-   {
-    "title": "RLSA-2026:98624 — Important: tesseract security update",
-    "url": "https://github.com/advisories/RLSA-2026:98624",
-    "score": 8.4,
-    "date": "2026-11-13T12:06:37.188502Z"
+    "title": "CVE-2026-130073 — CBoard before commit 7bd8180 contains a missing authorization vulnerability that allows any authenticated user to reach admin functions beca",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130073",
+    "score": 8.3,
+    "date": "2026-11-17T00:32:16Z"
    }
   ],
   "kev": [
@@ -375,6 +375,13 @@
   ],
   "bleep": [
    {
+    "title": "Optimizely supply chain attack infects major brands' sites with malware",
+    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+    "date": "Mon, 16 Nov 2026 21:12:17 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
     "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
     "date": "Mon, 16 Nov 2026 17:54:00 -0500",
@@ -450,26 +457,19 @@
     "date": "Mon, 16 Nov 2026 06:00:00 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-    "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-    "date": "Mon, 16 Nov 2026 04:30:04 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2175,
+    "stars": 2177,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 966,
+    "stars": 971,
     "lang": "TypeScript"
    },
    {
@@ -493,7 +493,7 @@
    {
     "title": "jmanico/grim-prompter — Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and get an evidence-t",
     "url": "https://github.com/jmanico/grim-prompter",
-    "stars": 514,
+    "stars": 515,
     "lang": "—"
    },
    {
@@ -523,13 +523,13 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 307,
+    "stars": 309,
     "lang": "Python"
    },
    {
     "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
     "url": "https://github.com/chu0119/Pojun",
-    "stars": 300,
+    "stars": 309,
     "lang": "Go"
    }
   ],
@@ -717,7 +717,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 7,
+  "crit": 9,
   "kev": 1781,
   "adv": 12,
   "feed": 48
