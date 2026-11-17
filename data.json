@@ -1,13 +1,7 @@
 {
- "generatedAt": "2026-11-17T05:22:40.141Z",
+ "generatedAt": "2026-11-17T06:32:27.522Z",
  "sources": {
   "cve": [
-   {
-    "title": "CVE-2026-79614 — An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow a",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-79614",
-    "score": 9.8,
-    "date": "2026-11-17T03:31:52Z"
-   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -21,70 +15,40 @@
     "date": "2024-11-05T16:04:14Z"
    },
    {
-    "title": "CVE-2026-130382 — AdminNeo before 5.9.1 contains an authentication bypass vulnerability in OtpLoginPlugin that allows attackers knowing the database password ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130382",
-    "score": 8.8,
-    "date": "2026-11-17T03:31:51Z"
+    "title": "MAL-2026-18799 — Malicious code in react-bootstrap-table2-toolkit-bg (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18799",
+    "score": null,
+    "date": "2026-11-07T18:10:16Z"
    },
    {
-    "title": "CVE-2026-130380 — AdminNeo before 5.9.1 contains an authentication bypass vulnerability in the sqlsrv-based MS SQL driver that allows unauthenticated attacker",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130380",
-    "score": 8.1,
-    "date": "2026-11-17T03:31:50Z"
+    "title": "MAL-2026-18798 — Malicious code in react-bootstrap-table-next-bg (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18798",
+    "score": null,
+    "date": "2026-11-07T18:10:16Z"
    },
    {
-    "title": "CVE-2026-130371 — phpMyFAQ before 4.1.12 and 4.2.0-alpha before 4.2.0-RC.2 contains an authentication bypass vulnerability because the web installer ignores t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130371",
-    "score": 8.1,
-    "date": "2026-11-17T03:31:46Z"
+    "title": "MAL-2026-18797 — Malicious code in file-saver-bg (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18797",
+    "score": null,
+    "date": "2026-11-07T18:10:16Z"
    },
    {
-    "title": "CVE-2026-130369 — phpMyFAQ 4.1.9 before 4.1.12 and 4.2.0-alpha before 4.2.0-RC.2 contains an authorization bypass vulnerability in multisite deployments that ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130369",
-    "score": 8.1,
-    "date": "2026-11-17T03:31:46Z"
+    "title": "MAL-2026-18802 — Malicious code in template-projection-map (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18802",
+    "score": null,
+    "date": "2026-11-07T18:10:16Z"
    },
    {
-    "title": "CVE-2026-130374 — AdminNeo before 5.9.1 contains an sql injection vulnerability that allows remote attackers to inject SQL by supplying crafted IN and NOT IN ",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130374",
-    "score": 7.5,
-    "date": "2026-11-17T03:31:49Z"
+    "title": "MAL-2026-18801 — Malicious code in template-pictogram (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18801",
+    "score": null,
+    "date": "2026-11-07T18:10:16Z"
    },
    {
-    "title": "CVE-2026-86676 — A post-authentication command injection vulnerability in the “Description” parameter of a CGI program in Zyxel DX3300-T0 firmware versions t",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-86676",
-    "score": 7.2,
-    "date": "2026-11-17T03:31:52Z"
-   },
-   {
-    "title": "CVE-2026-130375 — AdminNeo before 5.9.1 contains a remote code execution vulnerability that allows authenticated SQLite users to bypass the check_sqlite_name(",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130375",
-    "score": 7.2,
-    "date": "2026-11-17T03:31:49Z"
-   },
-   {
-    "title": "CVE-2026-130372 — AdminNeo before 5.9.1 contains an open redirect vulnerability that allows unauthenticated attackers to redirect authenticated users by injec",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130372",
-    "score": 6.1,
-    "date": "2026-11-17T03:31:49Z"
-   },
-   {
-    "title": "CVE-2026-130379 — AdminNeo before 5.9.1 contains a server-side request forgery vulnerability that allows unauthenticated attackers to bypass the privileged-po",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130379",
-    "score": 5.3,
-    "date": "2026-11-17T03:31:50Z"
-   },
-   {
-    "title": "CVE-2026-130376 — AdminNeo before 5.9.1 contains a stored cross-site scripting vulnerability in FileUploadPlugin that allows database users to store script-be",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130376",
-    "score": 4.4,
-    "date": "2026-11-17T03:31:49Z"
-   },
-   {
-    "title": "CVE-2026-130381 — phpMyFAQ from 4.2.0-alpha.2 before 4.2.0-RC.2 contains an authorization bypass vulnerability that allows language-scoped editors to read oth",
-    "url": "https://www.cve.org/CVERecord?id=CVE-2026-130381",
-    "score": 4.3,
-    "date": "2026-11-17T03:31:51Z"
+    "title": "MAL-2026-18800 — Malicious code in template-cards (npm)",
+    "url": "https://github.com/advisories/MAL-2026-18800",
+    "score": null,
+    "date": "2026-11-07T18:10:16Z"
    }
   ],
   "kev": [
@@ -469,7 +433,7 @@
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 981,
+    "stars": 984,
     "lang": "TypeScript"
    },
    {
@@ -523,13 +487,13 @@
    {
     "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
     "url": "https://github.com/chu0119/Pojun",
-    "stars": 316,
+    "stars": 317,
     "lang": "Go"
    },
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 313,
+    "stars": 315,
     "lang": "Python"
    }
   ],
@@ -717,7 +681,7 @@
   "reddit": true
  },
  "kpis": {
-  "crit": 3,
+  "crit": 2,
   "kev": 1781,
   "adv": 12,
   "feed": 48
