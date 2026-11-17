@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T15:22:31.345Z",
+ "generatedAt": "2026-11-17T16:24:21.344Z",
  "sources": {
   "cve": [
    {
@@ -131,6 +131,13 @@
   ],
   "adv": [
    {
+    "title": "Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
+    "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
+    "score": null,
+    "ghsa": "GHSA-vc7v-qv4w-wrv8",
+    "date": "2026-11-17T16:13:26Z"
+   },
+   {
     "title": "qbee-agent: Docker Compose build context Zip Slip writes outside context directory",
     "url": "https://github.com/advisories/GHSA-vx32-xf7g-9ghr",
     "score": 5.4,
@@ -206,13 +213,6 @@
     "score": 5.3,
     "ghsa": "GHSA-gj7r-p794-hhq5",
     "date": "2026-11-16T22:18:58Z"
-   },
-   {
-    "title": "Kubeshark: MCP `start_kubeshark` argument injection via `pod_regex` → image redirect → cluster takeover",
-    "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
-    "score": 7.2,
-    "ghsa": "GHSA-8vf2-hxg5-crqh",
-    "date": "2026-11-16T22:17:32Z"
    }
   ],
   "thn": [
@@ -303,6 +303,13 @@
   ],
   "bleep": [
    {
+    "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+    "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+    "date": "Tue, 17 Nov 2026 11:00:00 -0500",
+    "badge": "CONSO",
+    "badgeClass": "b-low"
+   },
+   {
     "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
     "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
     "date": "Tue, 17 Nov 2026 10:01:11 -0500",
@@ -378,26 +385,19 @@
     "date": "Mon, 16 Nov 2026 11:43:24 -0500",
     "badge": "CONSO",
     "badgeClass": "b-low"
-   },
-   {
-    "title": "Fandango says hackers stole payment card details from checkout pages",
-    "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-    "date": "Mon, 16 Nov 2026 10:44:21 -0500",
-    "badge": "CONSO",
-    "badgeClass": "b-low"
    }
   ],
   "tools": [
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2188,
+    "stars": 2191,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 1012,
+    "stars": 1013,
     "lang": "TypeScript"
    },
    {
@@ -415,7 +415,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 535,
+    "stars": 534,
     "lang": "C"
    },
    {
@@ -433,7 +433,7 @@
    {
     "title": "chu0119/Pojun — AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项目独立演进版",
     "url": "https://github.com/chu0119/Pojun",
-    "stars": 344,
+    "stars": 345,
     "lang": "Go"
    },
    {
@@ -445,7 +445,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 324,
+    "stars": 326,
     "lang": "Python"
    },
    {
@@ -547,92 +547,7 @@
     "date": "2016-12-15T03:19:38Z"
    }
   ],
-  "reddit": [
-   {
-    "title": "r/netsec monthly discussion &amp; tool thread",
-    "url": "https://www.reddit.com/r/netsec/comments/1xl4ghe/rnetsec_monthly_discussion_tool_thread/",
-    "date": "2026-11-01T14:29:24+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "/r/netsec's Q4 2026 Information Security Hiring Thread",
-    "url": "https://www.reddit.com/r/netsec/comments/1xl8pd3/rnetsecs_q4_2026_information_security_hiring/",
-    "date": "2026-11-01T17:19:31+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xyfaen/glasswing_overwhelms_maintainers_with/",
-    "date": "2026-11-17T08:37:55+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "Sign2Shell: How We Hacked Every Major Brazilian Signature Extension",
-    "url": "https://www.reddit.com/r/netsec/comments/1xylm92/sign2shell_how_we_hacked_every_major_brazilian/",
-    "date": "2026-11-17T14:19:33+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
-    "url": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
-    "date": "2026-11-12T22:58:44+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "prepared statements prevents SQLi. But it also helped me to exploit a 22 years old PostgreSQL 0-day RCE (CVE-2026-6460)",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuh3jj/prepared_statements_prevents_sqli_but_it_also/",
-    "date": "2026-11-12T16:21:24+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "How we defended against an AI-driven ARTEX attack",
-    "url": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
-    "date": "2026-11-12T13:36:34+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
-    "url": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
-    "date": "2026-11-12T17:09:00+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "History of Password Cracking",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
-    "date": "2026-11-12T01:02:04+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "2.4% of AFRINIC’s IPv4 addresses answer from outside Africa, and about 81% of those sit in one company’s four blocks",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtirgl/24_of_afrinics_ipv4_addresses_answer_from_outside/",
-    "date": "2026-11-11T14:12:37+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "ScriptBlock Smuggling - AMSI Evasion",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
-    "date": "2026-11-11T14:33:04+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   },
-   {
-    "title": "New Kimsuki (APT-43) active infrastructure and campaign discovered",
-    "url": "https://www.reddit.com/r/netsec/comments/1xtioog/new_kimsuki_apt43_active_infrastructure_and/",
-    "date": "2026-11-11T14:09:28+00:00",
-    "badge": "r/netsec",
-    "badgeClass": "b-med"
-   }
-  ]
+  "reddit": []
  },
  "status": {
   "cve": true,
@@ -642,13 +557,13 @@
   "bleep": true,
   "tools": true,
   "hn": true,
-  "reddit": true
+  "reddit": false
  },
  "kpis": {
   "crit": 2,
   "kev": 1781,
   "adv": 12,
-  "feed": 48
+  "feed": 36
  },
- "okCount": 8
+ "okCount": 7
 }
