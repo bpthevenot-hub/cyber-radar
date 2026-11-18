@@ -1,7 +1,13 @@
 {
- "generatedAt": "2026-11-17T23:22:30.215Z",
+ "generatedAt": "2026-11-18T00:42:37.251Z",
  "sources": {
   "cve": [
+   {
+    "title": "RLSA-2026:98978 — Important: mod_http2 security update",
+    "url": "https://github.com/advisories/RLSA-2026:98978",
+    "score": 9.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
    {
     "title": "CVE-2025-1889 — picklescan before 0.0.22 only considers standard pickle file extensions in the scope for its vulnerability scan. An attacker could craft a m",
     "url": "https://www.cve.org/CVERecord?id=CVE-2025-1889",
@@ -13,6 +19,72 @@
     "url": "https://www.cve.org/CVERecord?id=CVE-2024-8309",
     "score": 9.8,
     "date": "2024-11-05T16:04:14Z"
+   },
+   {
+    "title": "RLSA-2026:98598 — Critical: freerdp security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:98598",
+    "score": 9.3,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98587 — Important: dovecot security update",
+    "url": "https://github.com/advisories/RLSA-2026:98587",
+    "score": 9.1,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:99145 — Important: .NET 9.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99145",
+    "score": 9,
+    "date": "2026-11-16T18:06:44.750136Z"
+   },
+   {
+    "title": "RLSA-2026:99147 — Important: .NET 8.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99147",
+    "score": 9,
+    "date": "2026-11-16T18:06:44.750136Z"
+   },
+   {
+    "title": "RLSA-2026:99143 — Important: .NET 10.0 security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99143",
+    "score": 9,
+    "date": "2026-11-16T18:06:44.750136Z"
+   },
+   {
+    "title": "RLSA-2026:99720 — Important: mysql8.4 security update",
+    "url": "https://github.com/advisories/RLSA-2026:99720",
+    "score": 8.8,
+    "date": "2026-11-16T18:06:44.750136Z"
+   },
+   {
+    "title": "RLSA-2026:99133 — Important: kernel security, bug fix, and enhancement update",
+    "url": "https://github.com/advisories/RLSA-2026:99133",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98623 — Important: gvfs security update",
+    "url": "https://github.com/advisories/RLSA-2026:98623",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98621 — Important: gstreamer1-plugins-bad-free security update",
+    "url": "https://github.com/advisories/RLSA-2026:98621",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98616 — Important: dpdk security update",
+    "url": "https://github.com/advisories/RLSA-2026:98616",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
+   },
+   {
+    "title": "RLSA-2026:98595 — Important: flatpak security update",
+    "url": "https://github.com/advisories/RLSA-2026:98595",
+    "score": 8.8,
+    "date": "2026-11-13T12:06:37.188502Z"
    }
   ],
   "kev": [
@@ -391,13 +463,13 @@
    {
     "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
     "url": "https://github.com/morluto/awesome-reverse-engineering",
-    "stars": 2196,
+    "stars": 2197,
     "lang": "Python"
    },
    {
     "title": "zgsfsec/Full-Chain-Sentinel-System — 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测、网络安全检查为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
     "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
-    "stars": 1020,
+    "stars": 1014,
     "lang": "TypeScript"
    },
    {
@@ -415,7 +487,7 @@
    {
     "title": "lordbasex/LordOS — LordOS — a free, fast and secure GNU/Linux distribution based on Debian, with its own desktop environment: dis",
     "url": "https://github.com/lordbasex/LordOS",
-    "stars": 536,
+    "stars": 537,
     "lang": "C"
    },
    {
@@ -439,7 +511,7 @@
    {
     "title": "huggingface/safeagents — Safely run your agents using any coding harness",
     "url": "https://github.com/huggingface/safeagents",
-    "stars": 339,
+    "stars": 342,
     "lang": "Python"
    },
    {
@@ -560,7 +632,7 @@
   "reddit": false
  },
  "kpis": {
-  "crit": 2,
+  "crit": 8,
   "kev": 1782,
   "adv": 12,
   "feed": 36
