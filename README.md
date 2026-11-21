@@ -33,6 +33,10 @@ S'inspire et complète [`mukul975/Anthropic-Cybersecurity-Skills`](https://githu
 (817 skills figées, un dossier par skill, mappées MITRE ATT&CK / NIST / D3FEND).
 Là où le catalogue dit *« comment »*, CYBER RADAR dit *« quoi, maintenant »* — le flux vivant qui alimente les skills.
 
+## Sécurité des agents IA
+
+Le tableau de bord propose un accès au [Top 10 OWASP pour les applications agentiques, édition 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) et au [guide d’évaluation Promptfoo](https://www.promptfoo.dev/docs/red-team/owasp-agentic-ai/). Le référentiel couvre dix familles de risques, de l’altération de l’objectif d’un agent jusqu’à son comportement déviant.
+
 ## Déploiement
 
 Fichier unique `index.html`, zéro build. Servi par GitHub Pages.
