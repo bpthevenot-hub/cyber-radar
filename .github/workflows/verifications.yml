@@ -85,7 +85,7 @@ jobs:
         run: |
           case "${{ steps.detect.outputs.pm }}" in
             pnpm) pnpm exec tsc --noEmit ;;
-            yarn) yarn exec tsc --noEmit ;;
+            yarn) yarn tsc --noEmit ;;
             bun)  bunx tsc --noEmit ;;
             *)    npx --no-install tsc --noEmit ;;
           esac
