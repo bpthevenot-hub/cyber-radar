@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: verifications-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -48,12 +48,23 @@ jobs:
           elif [ -f package-lock.json ]; then pm=npm
           else pm=npm-nolock; fi
           echo "pm=$pm" >> "$GITHUB_OUTPUT"
+          nodefile=""
+          for f in .nvmrc .node-version; do
+            if [ -f "$f" ]; then nodefile="$dir/$f"; break; fi
+          done
+          echo "nodefile=$nodefile" >> "$GITHUB_OUTPUT"
           echo "Projet : \`$dir\` — gestionnaire : $pm" >> "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/setup-node@v4
         if: steps.detect.outputs.skip == 'false'
         with:
-          node-version: 22
+          node-version: ${{ steps.detect.outputs.nodefile == '' && '22' || '' }}
+          node-version-file: ${{ steps.detect.outputs.nodefile }}
+          cache: ${{ steps.detect.outputs.pm == 'npm' && 'npm' || '' }}
+          cache-dependency-path: ${{ steps.detect.outputs.pm == 'npm' && format('{0}/package-lock.json', steps.detect.outputs.dir) || '' }}
+
+      - uses: oven-sh/setup-bun@v2
+        if: steps.detect.outputs.skip == 'false' && steps.detect.outputs.pm == 'bun'
 
       - name: Installer les dépendances
         if: steps.detect.outputs.skip == 'false'
@@ -63,7 +74,7 @@ jobs:
           case "${{ steps.detect.outputs.pm }}" in
             pnpm)  corepack enable && (grep -q '"packageManager"' package.json || corepack prepare pnpm@12 --activate) && pnpm install --frozen-lockfile ;;
             yarn)  corepack enable && if yarn --version | grep -q '^1\.'; then yarn install --frozen-lockfile; else yarn install --immutable; fi ;;
-            bun)   npm i -g bun && bun install --frozen-lockfile ;;
+            bun)   bun install --frozen-lockfile ;;
             npm)   npm ci ;;
             *)     npm install --no-audit --no-fund ;;
           esac
