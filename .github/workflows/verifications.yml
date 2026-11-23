@@ -1,0 +1,61 @@
+name: Vérifications
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verifications-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  typecheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Détecter le projet
+        id: detect
+        shell: bash
+        run: |
+          if [ ! -f package.json ] || [ ! -f tsconfig.json ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Pas de package.json + tsconfig.json à la racine : rien à vérifier." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+          if   [ -f pnpm-lock.yaml ];    then pm=pnpm
+          elif [ -f yarn.lock ];         then pm=yarn
+          elif [ -f bun.lockb ] || [ -f bun.lock ]; then pm=bun
+          elif [ -f package-lock.json ]; then pm=npm
+          else pm=npm-nolock; fi
+          echo "pm=$pm" >> "$GITHUB_OUTPUT"
+          echo "Gestionnaire détecté : $pm" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/setup-node@v4
+        if: steps.detect.outputs.skip == 'false'
+        with:
+          node-version: 22
+
+      - name: Installer les dépendances
+        if: steps.detect.outputs.skip == 'false'
+        shell: bash
+        run: |
+          case "${{ steps.detect.outputs.pm }}" in
+            pnpm)  corepack enable && (grep -q '"packageManager"' package.json || corepack prepare pnpm@12 --activate) && pnpm install --frozen-lockfile ;;
+            yarn)  corepack enable && yarn install --immutable || yarn install --frozen-lockfile ;;
+            bun)   npm i -g bun && bun install --frozen-lockfile ;;
+            npm)   npm ci ;;
+            *)     npm install --no-audit --no-fund ;;
+          esac
+
+      - name: Vérifier les types (tsc --noEmit)
+        if: steps.detect.outputs.skip == 'false'
+        run: npx --no-install tsc --noEmit
