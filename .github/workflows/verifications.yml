@@ -36,7 +36,7 @@ jobs:
           fi
           if [ -z "$dir" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Pas de package.json + tsconfig.json (racine ou site/, app/, web/, frontend/) : rien à vérifier." >> "$GITHUB_STEP_SUMMARY"
+            echo "Pas de package.json + tsconfig.json (racine, site/, app/, web/, frontend/, apps/web/ ou packages/app/) : rien à vérifier." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           echo "skip=false" >> "$GITHUB_OUTPUT"
