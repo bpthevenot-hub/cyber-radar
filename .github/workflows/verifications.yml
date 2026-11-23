@@ -41,19 +41,26 @@ jobs:
           fi
           echo "skip=false" >> "$GITHUB_OUTPUT"
           echo "dir=$dir" >> "$GITHUB_OUTPUT"
-          cd "$dir"
+          lockdir=""
+          for ld in "$dir" .; do
+            if ls "$ld"/pnpm-lock.yaml "$ld"/yarn.lock "$ld"/bun.lockb "$ld"/bun.lock "$ld"/package-lock.json >/dev/null 2>&1; then lockdir="$ld"; break; fi
+          done
+          [ -n "$lockdir" ] || lockdir="$dir"
+          echo "lockdir=$lockdir" >> "$GITHUB_OUTPUT"
+          cd "$lockdir"
           if   [ -f pnpm-lock.yaml ];    then pm=pnpm
-          elif [ -f yarn.lock ];         then pm=yarn
+          elif [ -f yarn.lock ];         then if grep -q '^__metadata:' yarn.lock || [ -f .yarnrc.yml ]; then pm=yarn-berry; else pm=yarn; fi
           elif [ -f bun.lockb ] || [ -f bun.lock ]; then pm=bun
           elif [ -f package-lock.json ]; then pm=npm
           else pm=npm-nolock; fi
+          cd "$GITHUB_WORKSPACE/$dir"
           echo "pm=$pm" >> "$GITHUB_OUTPUT"
           nodefile=""
           for f in .nvmrc .node-version; do
             if [ -f "$f" ]; then nodefile="$dir/$f"; break; fi
           done
           echo "nodefile=$nodefile" >> "$GITHUB_OUTPUT"
-          echo "Projet : \`$dir\` — gestionnaire : $pm" >> "$GITHUB_STEP_SUMMARY"
+          echo "Projet : \`$dir\` — dépendances : \`$lockdir\` — gestionnaire : $pm" >> "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/setup-node@v4
         if: steps.detect.outputs.skip == 'false'
@@ -61,19 +68,20 @@ jobs:
           node-version: ${{ steps.detect.outputs.nodefile == '' && '22' || '' }}
           node-version-file: ${{ steps.detect.outputs.nodefile }}
           cache: ${{ steps.detect.outputs.pm == 'npm' && 'npm' || '' }}
-          cache-dependency-path: ${{ steps.detect.outputs.pm == 'npm' && format('{0}/package-lock.json', steps.detect.outputs.dir) || '' }}
+          cache-dependency-path: ${{ steps.detect.outputs.pm == 'npm' && format('{0}/package-lock.json', steps.detect.outputs.lockdir) || '' }}
 
       - uses: oven-sh/setup-bun@v2
         if: steps.detect.outputs.skip == 'false' && steps.detect.outputs.pm == 'bun'
 
       - name: Installer les dépendances
         if: steps.detect.outputs.skip == 'false'
-        working-directory: ${{ steps.detect.outputs.dir }}
+        working-directory: ${{ steps.detect.outputs.lockdir }}
         shell: bash
         run: |
           case "${{ steps.detect.outputs.pm }}" in
             pnpm)  corepack enable && (grep -q '"packageManager"' package.json || corepack prepare pnpm@12 --activate) && pnpm install --frozen-lockfile ;;
-            yarn)  corepack enable && if yarn --version | grep -q '^1\.'; then yarn install --frozen-lockfile; else yarn install --immutable; fi ;;
+            yarn)  corepack enable && (grep -q '"packageManager"' package.json 2>/dev/null || corepack prepare yarn@1 --activate) && yarn install --frozen-lockfile ;;
+            yarn-berry) corepack enable && (grep -q '"packageManager"' package.json 2>/dev/null || corepack prepare yarn@stable --activate) && yarn install --immutable ;;
             bun)   bun install --frozen-lockfile ;;
             npm)   npm ci ;;
             *)     npm install --no-audit --no-fund ;;
@@ -96,7 +104,7 @@ jobs:
         run: |
           case "${{ steps.detect.outputs.pm }}" in
             pnpm) pnpm exec tsc --noEmit ;;
-            yarn) yarn tsc --noEmit ;;
+            yarn|yarn-berry) yarn tsc --noEmit ;;
             bun)  bunx tsc --noEmit ;;
             *)    npx --no-install tsc --noEmit ;;
           esac
