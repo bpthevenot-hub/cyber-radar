@@ -33,10 +33,13 @@ jobs:
             for d in site app web frontend apps/web packages/app; do
               if [ -f "$d/package.json" ] && [ -f "$d/tsconfig.json" ]; then dir="$d"; break; fi
             done
+            if [ -z "$dir" ]; then
+              dir=$(find . -mindepth 2 -maxdepth 3 -name tsconfig.json -not -path '*/node_modules/*' -not -path '*/.git/*' -exec dirname {} \; | while read -r c; do [ -f "$c/package.json" ] && { echo "${c#./}"; break; }; done)
+            fi
           fi
           if [ -z "$dir" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Pas de package.json + tsconfig.json (racine, site/, app/, web/, frontend/, apps/web/ ou packages/app/) : rien à vérifier." >> "$GITHUB_STEP_SUMMARY"
+            echo "Pas de package.json + tsconfig.json (racine, dossiers usuels ou sous-dossier jusqu'à 3 niveaux) : rien à vérifier." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           echo "skip=false" >> "$GITHUB_OUTPUT"
