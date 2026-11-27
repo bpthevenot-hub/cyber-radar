@@ -1,0 +1,113 @@
+name: Vérifications
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  typecheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Détecter le projet
+        id: detect
+        shell: bash
+        run: |
+          dir=""
+          if [ -f package.json ] && [ -f tsconfig.json ]; then
+            dir="."
+          else
+            for d in site app web frontend apps/web packages/app; do
+              if [ -f "$d/package.json" ] && [ -f "$d/tsconfig.json" ]; then dir="$d"; break; fi
+            done
+            if [ -z "$dir" ]; then
+              dir=$(find . -mindepth 2 -maxdepth 3 -name tsconfig.json -not -path '*/node_modules/*' -not -path '*/.git/*' -exec dirname {} \; | while read -r c; do if [ -f "$c/package.json" ]; then echo "${c#./}"; break; fi; done || true)
+            fi
+          fi
+          if [ -z "$dir" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Pas de package.json + tsconfig.json (racine, dossiers usuels ou sous-dossier jusqu'à 3 niveaux) : rien à vérifier." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+          echo "dir=$dir" >> "$GITHUB_OUTPUT"
+          lockdir=""
+          for ld in "$dir" .; do
+            if ls "$ld"/pnpm-lock.yaml "$ld"/yarn.lock "$ld"/bun.lockb "$ld"/bun.lock "$ld"/package-lock.json >/dev/null 2>&1; then lockdir="$ld"; break; fi
+          done
+          [ -n "$lockdir" ] || lockdir="$dir"
+          echo "lockdir=$lockdir" >> "$GITHUB_OUTPUT"
+          cd "$lockdir"
+          if   [ -f pnpm-lock.yaml ];    then pm=pnpm
+          elif [ -f yarn.lock ];         then if grep -q '^__metadata:' yarn.lock || [ -f .yarnrc.yml ]; then pm=yarn-berry; else pm=yarn; fi
+          elif [ -f bun.lockb ] || [ -f bun.lock ]; then pm=bun
+          elif [ -f package-lock.json ]; then pm=npm
+          else pm=npm-nolock; fi
+          cd "$GITHUB_WORKSPACE/$dir"
+          echo "pm=$pm" >> "$GITHUB_OUTPUT"
+          nodefile=""
+          for f in .nvmrc .node-version; do
+            if [ -f "$f" ]; then nodefile="$dir/$f"; break; fi
+          done
+          echo "nodefile=$nodefile" >> "$GITHUB_OUTPUT"
+          echo "Projet : \`$dir\` — dépendances : \`$lockdir\` — gestionnaire : $pm" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/setup-node@v4
+        if: steps.detect.outputs.skip == 'false'
+        with:
+          node-version: ${{ steps.detect.outputs.nodefile == '' && '22' || '' }}
+          node-version-file: ${{ steps.detect.outputs.nodefile }}
+          cache: ${{ steps.detect.outputs.pm == 'npm' && 'npm' || '' }}
+          cache-dependency-path: ${{ steps.detect.outputs.pm == 'npm' && format('{0}/package-lock.json', steps.detect.outputs.lockdir) || '' }}
+
+      - uses: oven-sh/setup-bun@v2
+        if: steps.detect.outputs.skip == 'false' && steps.detect.outputs.pm == 'bun'
+
+      - name: Installer les dépendances
+        if: steps.detect.outputs.skip == 'false'
+        working-directory: ${{ steps.detect.outputs.lockdir }}
+        shell: bash
+        run: |
+          case "${{ steps.detect.outputs.pm }}" in
+            pnpm)  corepack enable && (grep -q '"packageManager"' package.json || corepack prepare pnpm@12 --activate) && pnpm install --frozen-lockfile ;;
+            yarn)  corepack enable && (grep -q '"packageManager"' package.json 2>/dev/null || corepack prepare yarn@1 --activate) && yarn install --frozen-lockfile ;;
+            yarn-berry) corepack enable && (grep -q '"packageManager"' package.json 2>/dev/null || corepack prepare yarn@stable --activate) && yarn install --immutable ;;
+            bun)   bun install --frozen-lockfile ;;
+            npm)   npm ci ;;
+            *)     npm install --no-audit --no-fund ;;
+          esac
+
+      - name: Déclarations Next.js (next-env.d.ts)
+        if: steps.detect.outputs.skip == 'false'
+        working-directory: ${{ steps.detect.outputs.dir }}
+        shell: bash
+        run: |
+          if [ ! -f next-env.d.ts ] && node -e "const p=require('./package.json');process.exit((p.dependencies||{}).next||(p.devDependencies||{}).next?0:1)"; then
+            printf '/// <reference types="next" />\n/// <reference types="next/image-types/global" />\n' > next-env.d.ts
+            echo "next-env.d.ts généré pour la vérification." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Vérifier les types (tsc --noEmit)
+        if: steps.detect.outputs.skip == 'false'
+        working-directory: ${{ steps.detect.outputs.dir }}
+        shell: bash
+        run: |
+          case "${{ steps.detect.outputs.pm }}" in
+            pnpm) pnpm exec tsc --noEmit ;;
+            yarn|yarn-berry) yarn tsc --noEmit ;;
+            bun)  bunx tsc --noEmit ;;
+            *)    npx --no-install tsc --noEmit ;;
+          esac
