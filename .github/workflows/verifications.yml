@@ -34,7 +34,7 @@ jobs:
               if [ -f "$d/package.json" ] && [ -f "$d/tsconfig.json" ]; then dir="$d"; break; fi
             done
             if [ -z "$dir" ]; then
-              dir=$(find . -mindepth 2 -maxdepth 3 -name tsconfig.json -not -path '*/node_modules/*' -not -path '*/.git/*' -exec dirname {} \; | while read -r c; do [ -f "$c/package.json" ] && { echo "${c#./}"; break; }; done)
+              dir=$(find . -mindepth 2 -maxdepth 3 -name tsconfig.json -not -path '*/node_modules/*' -not -path '*/.git/*' -exec dirname {} \; | while read -r c; do if [ -f "$c/package.json" ]; then echo "${c#./}"; break; fi; done || true)
             fi
           fi
           if [ -z "$dir" ]; then
